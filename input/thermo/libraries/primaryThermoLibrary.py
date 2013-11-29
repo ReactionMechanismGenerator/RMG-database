@@ -458,22 +458,23 @@ u"""
 
 entry(
     index = 18,
-    label = "C(T)",
+    label = "C(S)",
     molecule = 
 """
-1 C 4T 0
+1 C 4S 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
-        H298 = (171.267,'kcal/mol'),
-        S298 = (35.576,'cal/(mol*K)'),
+        H298 = (200.397,'kcal/mol'),
+        S298 = (33.393,'cal/(mol*K)'),
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
+H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
@@ -484,22 +485,310 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 19,
-    label = "C(S)",
+    label = "C(T)",
     molecule = 
 """
-1 C 4S 0
+1 C 4T 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
-        H298 = (202.771,'kcal/mol'),
-        S298 = (33.393,'cal/(mol*K)'),
+        H298 = (171.336,'kcal/mol'),
+        S298 = (35.576,'cal/(mol*K)'),
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 20,
+    label = "CH2(S)",
+    molecule = 
+"""
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.089,8.316,8.622,8.990,9.787,10.502,11.832],'cal/(mol*K)'),
+        H298 = (102.541,'kcal/mol'),
+        S298 = (45.197,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 21,
+    label = "CH2(T)",
+    molecule = 
+"""
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.342,8.610,8.914,9.238,9.893,10.500,11.680],'cal/(mol*K)'),
+        H298 = (93.559,'kcal/mol'),
+        S298 = (46.636,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 22,
+    label = "CH4",
+    molecule = 
+"""
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.621,9.648,10.941,12.344,14.887,16.967,20.535],'cal/(mol*K)'),
+        H298 = (17.814,'kcal/mol'),
+        S298 = (44.473,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 23,
+    label = "NH(T)",
+    molecule = 
+"""
+1 N 2T 1 {2,S}
+2 H 0  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.950,6.945,6.963,7.006,7.713,7.387,7.891],'cal/(mol*K)'),
+        H298 = (85.753,'kcal/mol'),
+        S298 = (43.265,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 24,
+    label = "NH2(D)",
+    molecule = 
+"""
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.055,8.227,8.467,8.762,9.435,10.083,11.402],'cal/(mol*K)'),
+        H298 = (44.467,'kcal/mol'),
+        S298 = (46.516,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 25,
+    label = "NH3",
+    molecule = 
+"""
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.486,9.051,9.737,10.484,11.921,13.163,15.503],'cal/(mol*K)'),
+        H298 = (-10.889,'kcal/mol'),
+        S298 = (45.986,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 26,
+    label = "O(S)",
+    molecule = 
+"""
+1 O 2S 2
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (104.810,'kcal/mol'),
+        S298 = (34.250,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 27,
+    label = "O(T)",
+    molecule = 
+"""
+1 O 2T 2
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (59.567,'kcal/mol'),
+        S298 = (36.433,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 28,
+    label = "OH(D)",
+    molecule = 
+"""
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.954,6.946,6.951,6.973,7.080,7.251,7.719],'cal/(mol*K)'),
+        H298 = (8.963,'kcal/mol'),
+        S298 = (42.581,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 29,
+    label = "H2O",
+    molecule = 
+"""
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.038,8.180,8.379,8.624,9.195,9.766,11.019],'cal/(mol*K)'),
+        H298 = (-57.797,'kcal/mol'),
+        S298 = (45.084,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
