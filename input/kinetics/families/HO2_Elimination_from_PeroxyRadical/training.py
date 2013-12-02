@@ -41,18 +41,18 @@ HO2
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (2.6e9,"s^-1","*|/",10**0.4),
+        A = (2600000000.0, 's^-1', '*|/', 2.51189),
         n = 1.2,
-        Ea = (34.1,"kcal/mol"),
-        T0 = (1,"K"),
+        Ea = (34.1, 'kcal/mol'),
+        T0 = (1, 'K'),
     ),
     reference = Article(
         authors = ["J. W. Allen", "C. F. Goldsmith", "W. H. Green"],
-        title = u"""Automatic Estimation of Pressure-Dependent Rate Coefficients""",
+        title = u'Automatic Estimation of Pressure-Dependent Rate Coefficients',
         journal = "Phys. Chem. Chem. Phys.",
         volume = "???",
+        pages = """???-???""",
         year = "2011 (accepted)",
-        pages = "???-???",
     ),
     referenceType = "theory",
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
@@ -62,4 +62,8 @@ Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
 using Variflex.
 """,
+    history = [
+    ],
 )
+
+
