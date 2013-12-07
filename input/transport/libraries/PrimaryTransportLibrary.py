@@ -68,7 +68,9 @@ entry(
     label = "H2O",
     molecule = 
 """
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -94,8 +96,10 @@ entry(
     label = "H2O2",
     molecule = 
 """
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -150,7 +154,7 @@ entry(
     molecule = 
 """
 1 C 2T {2,D}
-2 O 0 {1,D}
+2 O 0  {1,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -176,7 +180,9 @@ entry(
     label = "H2S",
     molecule = 
 """
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -221,4 +227,80 @@ u"""
     history = [
         ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
+)
+
+entry(
+    index = 9,
+    label = "C(S)",
+    molecule =
+"""
+1 C 4S
+""",
+    transport = TransportData(
+        shapeIndex = 0,
+        epsilon = (71.400 * 8.3145, 'J/mol'),
+        sigma = (3.298, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'angstroms^3'),
+        rotrelaxcollnum = 0.000,
+    ),
+    shortDesc = u"""GRI-Mech3.0 value for C""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2013/12/07 21:20:48","Beat Buesser <bbuesser@mit.edu>","action",
+        """Beat Buesser <bbuesser@mit.edu> created this entry."""),    ],
+)
+
+entry(
+    index = 10,
+    label = "NH(S)",
+    molecule =
+"""
+1 N 2S {2,S}
+2 H 0  {1,S}
+""",
+    transport = TransportData(
+        shapeIndex = 1,
+        epsilon = (80.000 * 8.3145, 'J/mol'),
+        sigma = (2.650, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'angstroms^3'),
+        rotrelaxcollnum = 4.000,
+    ),
+    shortDesc = u"""GRI-Mech3.0 value for NH""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2013/12/07 21:20:48","Beat Buesser <bbuesser@mit.edu>","action",
+        """Beat Buesser <bbuesser@mit.edu> created this entry."""),    ],
+)
+
+entry(
+    index = 11,
+    label = "N(D)",
+    molecule =
+"""
+1 N 3D
+""",
+    transport = TransportData(
+        shapeIndex = 0,
+        epsilon = (71.400 * 8.3145, 'J/mol'),
+        sigma = (3.298, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'angstroms^3'),
+        rotrelaxcollnum = 0.000,
+    ),
+    shortDesc = u"""GRI-Mech3.0 value for N""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2013/12/07 21:20:48","Beat Buesser <bbuesser@mit.edu>","action",
+        """Beat Buesser <bbuesser@mit.edu> created this entry."""),    ],
 )
