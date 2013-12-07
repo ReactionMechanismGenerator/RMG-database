@@ -12,7 +12,7 @@ entry(
     index = 1,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -50,7 +50,7 @@ entry(
     index = 2,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -95,7 +95,7 @@ entry(
     index = 3,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -137,7 +137,7 @@ entry(
     index = 4,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -180,12 +180,12 @@ entry(
     index = 5,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -225,7 +225,7 @@ entry(
     index = 6,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -270,7 +270,7 @@ entry(
     index = 7,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -315,7 +315,7 @@ entry(
     index = 8,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -362,7 +362,7 @@ entry(
     index = 9,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -411,7 +411,7 @@ entry(
     index = 10,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -456,7 +456,7 @@ entry(
     index = 11,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -501,7 +501,7 @@ entry(
     index = 12,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -548,7 +548,7 @@ entry(
     index = 13,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -597,7 +597,7 @@ entry(
     index = 14,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -646,7 +646,7 @@ entry(
     index = 15,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -692,7 +692,7 @@ entry(
     index = 16,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -738,7 +738,7 @@ entry(
     index = 17,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -783,7 +783,7 @@ entry(
     index = 18,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -830,7 +830,7 @@ entry(
     index = 19,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -877,7 +877,7 @@ entry(
     index = 20,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -896,7 +896,7 @@ CO
 """,
     product2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -919,7 +919,7 @@ entry(
     index = 21,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -968,7 +968,7 @@ entry(
     index = 22,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -1019,7 +1019,7 @@ entry(
     index = 23,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -1072,7 +1072,7 @@ entry(
     index = 24,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -1127,7 +1127,7 @@ entry(
     index = 25,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -1178,7 +1178,7 @@ entry(
     index = 26,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -1227,7 +1227,7 @@ entry(
     index = 27,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -1241,7 +1241,7 @@ CH2CO
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -1536,7 +1536,7 @@ O2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -1716,7 +1716,7 @@ HO2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -3066,7 +3066,7 @@ OH
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -3301,7 +3301,7 @@ OH
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -3348,7 +3348,7 @@ OH
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -3450,7 +3450,7 @@ CH3
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -4431,7 +4431,7 @@ HO2
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -4684,7 +4684,7 @@ O2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -4721,7 +4721,7 @@ C(T)
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -4820,7 +4820,7 @@ O2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -4870,7 +4870,7 @@ H
 """,
     product2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -4951,7 +4951,7 @@ CH
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5237,7 +5237,7 @@ entry(
     index = 112,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5289,7 +5289,7 @@ entry(
     index = 113,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5331,14 +5331,14 @@ entry(
     index = 114,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5380,7 +5380,7 @@ entry(
     index = 115,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5431,7 +5431,7 @@ entry(
     index = 116,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5479,7 +5479,7 @@ entry(
     index = 117,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5543,7 +5543,7 @@ N2
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5736,7 +5736,7 @@ H2O
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5888,7 +5888,7 @@ CO
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -5936,7 +5936,7 @@ CO2
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -6093,7 +6093,7 @@ O2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -7128,7 +7128,7 @@ N2
 """,
     product2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     degeneracy = 1,
@@ -7171,7 +7171,7 @@ NO
 """,
     product2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     degeneracy = 1,
@@ -7247,7 +7247,7 @@ N2O
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -7292,7 +7292,7 @@ N2O
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -7476,7 +7476,7 @@ NO2
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -7565,7 +7565,7 @@ NH
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -7754,7 +7754,7 @@ HNO
 """,
     product2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     degeneracy = 1,
@@ -8007,7 +8007,7 @@ NH2
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -8052,7 +8052,7 @@ NH2
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -8271,7 +8271,7 @@ NNH
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -8316,7 +8316,7 @@ NNH
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -8504,7 +8504,7 @@ HNO
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -8687,7 +8687,7 @@ CN
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -8835,7 +8835,7 @@ NCO
 """,
     product2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     degeneracy = 1,
@@ -8908,7 +8908,7 @@ NCO
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -9230,7 +9230,7 @@ HCN
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -9270,7 +9270,7 @@ HCN
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -9310,7 +9310,7 @@ HCN
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -9498,7 +9498,7 @@ N2
 """,
     product2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -9614,7 +9614,7 @@ entry(
     index = 205,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -9725,7 +9725,7 @@ CN
 """,
     product2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     degeneracy = 1,
@@ -9813,7 +9813,7 @@ HCN
 """,
     product2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     degeneracy = 1,
@@ -9929,7 +9929,7 @@ entry(
     index = 212,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -9976,7 +9976,7 @@ entry(
     index = 213,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -10023,7 +10023,7 @@ entry(
     index = 214,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -10317,7 +10317,7 @@ HCNN
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -10368,7 +10368,7 @@ HCNN
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -10421,7 +10421,7 @@ O2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -10526,7 +10526,7 @@ H
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -10568,7 +10568,7 @@ HNCO
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -10615,7 +10615,7 @@ HNCO
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -10662,7 +10662,7 @@ HNCO
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -11318,7 +11318,7 @@ NH3
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -11545,7 +11545,7 @@ entry(
     index = 246,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -11597,7 +11597,7 @@ entry(
     index = 247,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -11648,7 +11648,7 @@ entry(
     index = 248,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -11751,7 +11751,7 @@ entry(
     index = 251,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -11803,7 +11803,7 @@ entry(
     index = 252,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -11816,7 +11816,7 @@ O2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -11850,14 +11850,14 @@ entry(
     index = 253,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -11969,7 +11969,7 @@ O2
 """,
     product1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product2 = 
@@ -12056,7 +12056,7 @@ entry(
     index = 257,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -12109,7 +12109,7 @@ entry(
     index = 258,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -12524,7 +12524,7 @@ entry(
     index = 265,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -12544,7 +12544,7 @@ H
 """,
     product2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -12904,12 +12904,12 @@ entry(
     index = 272,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -12939,7 +12939,7 @@ entry(
     index = 273,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -13136,7 +13136,7 @@ NO
 """,
     reactant2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     product1 = 
@@ -13380,7 +13380,7 @@ entry(
     index = 284,
     reactant1 = 
 """
-O
+O(T)
 1 O 2T
 """,
     reactant2 = 
@@ -13441,7 +13441,7 @@ N2
 """,
     product2 = 
 """
-O
+O(T)
 1 O 2T
 """,
     degeneracy = 1,
@@ -13526,7 +13526,7 @@ H
 """,
     reactant2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -14418,7 +14418,7 @@ entry(
     index = 303,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
