@@ -10,9 +10,9 @@ recommended = True
 
 entry(
     index = 269,
-    label = "XZ;Y_rad_birad",
-    group1 = "OR{CZ, SZ, OCO, OCddO, OSi, OSiddO}",
-    group2 = "OR{Y_rad, Y_birad}",
+    label = "XZ;Y_rad_birad_trirad_quadrad",
+    group1 = "OR{CZ, SZ, OCO, OCddO, OSi, OSiddO, Od_N, N_R}",
+    group2 = "OR{Y_rad, Y_birad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_1centerquadrad}",
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -30,7 +30,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -67,13 +67,13 @@ in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 282,
-    label = "Cd/H/Nd;H_rad",
+    label = "Cd/H/NonDe;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -104,13 +104,13 @@ in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 283,
-    label = "Cd/Nd2;H_rad",
+    label = "Cd/NonDe2;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -141,7 +141,7 @@ in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -181,13 +181,13 @@ in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 285,
-    label = "Cd/H/Nd;Cs_rad",
+    label = "Cd/H/NonDe;Cs_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -221,13 +221,13 @@ in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 286,
-    label = "Cd/Nd2;Cs_rad",
+    label = "Cd/NonDe2;Cs_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -261,7 +261,7 @@ in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -299,13 +299,13 @@ in his reaction type 20. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 288,
-    label = "Cd/H/Nd;O_rad/NonDe",
+    label = "Cd/H/NonDe;O_rad/NonDe",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -337,13 +337,13 @@ in his reaction type 20. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 289,
-    label = "Cd/Nd2;O_rad/NonDe",
+    label = "Cd/NonDe2;O_rad/NonDe",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -375,7 +375,7 @@ in his reaction type 20. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -421,7 +421,7 @@ is the high-pressure limit, k_inf.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -469,7 +469,7 @@ Recommended data is from other Review paper by Kerr and Parsonage (1972)
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -510,7 +510,7 @@ u"""
 Pressure up to 10 atm. Excitation; thermal, analysis: mass spectrometry. C2H4 + C2H5--> n-C4H9. C.D.W. divided rate expression by 2, to get rate of addtion per site
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -558,7 +558,7 @@ to ethylene are similar (Kerr, J.A., Trotman-Dickenson, A.F.)
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -598,7 +598,7 @@ u"""
 C2H4 + C2H3 --> CH2=CHCH2CH2 C.D.W. divided rate expression by 2, to get rate of addition per site
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -651,13 +651,13 @@ Only data available in table is k=9.0x10^-12
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 296,
-    label = "Cd/H2_Cd/H/Nd;H_rad",
+    label = "Cd/H2_Cd/H/NonDe;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -688,13 +688,13 @@ u"""
 [149] Tsang experiments and limited review. CH3CH=CH2 + H --> iso-C3H7
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 297,
-    label = "Cd/H2_Cd/H/Nd;C_methyl",
+    label = "Cd/H2_Cd/H/NonDe;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -729,13 +729,13 @@ u"""
 CH3CH=CH2 + CH3 --> sec-C4H9
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 298,
-    label = "Cd/H2_Cd/H/Nd;C_methyl",
+    label = "Cd/H2_Cd/H/NonDe;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -776,13 +776,13 @@ collision efficiencies; these are not stored in RMG.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 299,
-    label = "Cd/H2_Cd/H/Nd;C_rad/H2/Cd",
+    label = "Cd/H2_Cd/H/NonDe;C_rad/H2/Cd",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -816,13 +816,13 @@ u"""
 [151] Barbe et al. Data is estimated. Pressure 0.04-0.26 atm. CH3CH=CH2 + .CH2CH=CH2 --> CH3CH(.)CH2CH2CH=CH2
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 300,
-    label = "Cd/H2_Cd/H/Nd;C_rad/Cs3",
+    label = "Cd/H2_Cd/H/NonDe;C_rad/Cs3",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -862,13 +862,13 @@ radical addition to olefins (Kerr and Parsonage, 1972).
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 301,
-    label = "Cd/H2_Cd/H/De;C_methyl",
+    label = "Cd/H2_Cd/H/OneDe;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -903,13 +903,13 @@ u"""
 CH2=CHCH=CH2 + .CH3 --> CH2CH=CHCH2CH3 C.D.W. divied rate expression by 2, to get rate of addition per site.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 302,
-    label = "Cd/H2_Cd/Nd2;H_rad",
+    label = "Cd/H2_Cd/NonDe2;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -940,13 +940,13 @@ u"""
 [153] Knayzev et al. Pressure ~ 0.01 atm. Excitation : thermal, analysis : GC Iso-C4H8 + CH3 --> (CH3)2CCH2CH3
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 303,
-    label = "Cd/H2_Cd/Nd2;C_methyl",
+    label = "Cd/H2_Cd/NonDe2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -980,13 +980,13 @@ u"""
 [303] Seres et al. Data derived from fitting to a complex mechanism. Excitation : thermal, analysis : GC Iso-C4H8 + CH3 --> (CH3)2CCH2CH3
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 304,
-    label = "Cd/H/Nd_Cd/H2;H_rad",
+    label = "Cd/H/NonDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1017,13 +1017,13 @@ u"""
 [149] Tsang experiments and limited review. CH3CH=CH2 + H --> n-C3H7
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 305,
-    label = "Cd/H/Nd_Cd/H2;C_methyl",
+    label = "Cd/H/NonDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1058,13 +1058,13 @@ u"""
 CH3CH=CH2 + CH3 --> iso-C4H9
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 306,
-    label = "Cd/H/Nd_Cd/H2;C_methyl",
+    label = "Cd/H/NonDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1105,13 +1105,13 @@ collision efficiencies; these are not stored in RMG.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 307,
-    label = "Cd/Nd2_Cd/H2;C_methyl",
+    label = "Cd/NonDe2_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1146,7 +1146,7 @@ u"""
 Iso-C4H8 + .CH3 --> (CH3)3CCH2
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1182,13 +1182,13 @@ u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 309,
-    label = "Cd/H/Nd_Ca;H_rad",
+    label = "Cd/H/NonDe_Ca;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1218,13 +1218,13 @@ u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 310,
-    label = "Cd/Nd2_Ca;H_rad",
+    label = "Cd/NonDe2_Ca;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1254,7 +1254,7 @@ u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1293,13 +1293,13 @@ u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 312,
-    label = "Cd/H/Nd_Ca;Cs_rad",
+    label = "Cd/H/NonDe_Ca;Cs_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1332,13 +1332,13 @@ u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 313,
-    label = "Cd/Nd2_Ca;Cs_rad",
+    label = "Cd/NonDe2_Ca;Cs_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -1371,7 +1371,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1411,7 +1411,7 @@ u"""
 CH2=C=CH2 + .CH3 --> CH3CH2C=CH2
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1448,7 +1448,7 @@ u"""
 CH2=C=CH2 + H --> .CH2CH=CH2
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1487,7 +1487,7 @@ u"""
 [158] Tsang. Data is estimated. Pressure 1.50-5.00 atm. CH2=C=CH2 + CH3 --> CH2C(CH3)=CH2
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1520,7 +1520,7 @@ u"""
 [8] Curran et al. In his reaction type 18.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1556,7 +1556,7 @@ u"""
 [8] Curran et al. In his reaction type 18.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1591,7 +1591,7 @@ u"""
 [144] Bozzelli et al. Based upon CH3 addition to CO (Anastasi and Maw)
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1628,7 +1628,7 @@ H2CO + HCO2. (formic acid radical) --> +  .OCH2OCHO (ester) (Rxn. 338, p. 234)
 Verified by Greg Magoon; it is not immediately clear whether this rate constant is for high pressure limit, but based on other references to high pressure limit in the paper, I suspect that it is a high pressure limit value; also, note that CO_O group is used for H2CO...MRH and I have interpreted CO_O as referring to any carbonyl group
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1667,13 +1667,13 @@ u"""
 N-C3H7 + C2HO --> N-C4H9O
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 322,
-    label = "CO/Nd2_O;C_methyl",
+    label = "CO/NonDe2_O;C_methyl",
     group1 = 
 """
 1 *1 CO       0 {2,D} {3,S} {4,S}
@@ -1706,7 +1706,7 @@ u"""
 (CH3)2CO + .CH3 --> (CH3)3CO
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1742,7 +1742,7 @@ u"""
 C2H2 + H --> C2H3
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1781,7 +1781,7 @@ u"""
 C2H2 + CH3 --> CH3CH=CH
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1820,7 +1820,7 @@ u"""
 C2H2 + .C2H5 --> CH3CH2CH=CH
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1867,7 +1867,7 @@ cyclopentadiene formation.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1906,7 +1906,7 @@ u"""
 C2H2 + Iso-C3H7 --> (CH3)2CHCH=CH
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1945,7 +1945,7 @@ u"""
 C2H2 + Tert-C4H9 --> (CH3)3CCH=CH C.D.W divided rate expression by 2, to get rate of addition per site.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1983,7 +1983,7 @@ u"""
 C2H2 + C2H3 --> CH2=CHCH=CH.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2020,16 +2020,16 @@ u"""
 [165] Duran et al. Ab initio. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + C2H3 --> CH2=CHCH=CH. (Rxn. -5?)
 
-Verified by Greg Magoon: note: NIST seems to have values (http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:5 , which agree with RMG's original values) that are slightly diferent than this paper's values (p. 637); I can't seem to figure out where the NIST values are coming from (maybe Table 3?); therefore, I have changed rateLibrary to use paper parameters of 10^8.8 (/2) and 4.9 kcal/mol (these values seem to actually be taken from other publications, however), which I am assuming to be high-pressure values; also note that values from other sources are available in the NIST Kinetics Database
+Verified by Greg Magoon: note: NIST seems to have values (http://kinetics.nist.gov/kinetics/OneDetail?id=1988DUR/AMO636:5 , which agree with RMG's original values) that are slightly diferent than this paper's values (p. 637); I can't seem to figure out where the NIST values are coming from (maybe Table 3?); therefore, I have changed rateLibrary to use paper parameters of 10^8.8 (/2) and 4.9 kcal/mol (these values seem to actually be taken from other publications, however), which I am assuming to be high-pressure values; also note that values from other sources are available in the NIST Kinetics Database
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 331,
-    label = "Ct/H_Ct/H;Ct_rad",
+    label = "Ct/H_Ct/H;Ct_rad/Ct",
     group1 = 
 """
 1 *1 Ct 0 {2,T} {3,S}
@@ -2059,11 +2059,11 @@ u"""
 [165] Duran et al. Ab initio. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + CCH --> HC(tb)CCH=CH. (Rxn. 18?) 
 
-NIST Record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:4
+NIST Record: http://kinetics.nist.gov/kinetics/OneDetail?id=1988DUR/AMO636:4
 Verified by Greg Magoon: it looks like value is taken from Rxn 18 of Table 3 (1E10), and is apparently non-pressure dependent (and non-temp dependent); based on the table, it looks like Ref. 42 in this paper may be the ultimate source of the value?
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2111,7 +2111,7 @@ RMG stores the recommended high-pressure limit rate coefficient, k_inf.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2150,7 +2150,7 @@ Same reaction as #332, #333 ranked as more accurate in rate library than #332, b
 C2H2 + .OH --> HOCH=CH
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2186,7 +2186,7 @@ u"""
 [144] Bozzelli et al. Based upon CH3 addition to C2H2 (NIST)
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2226,7 +2226,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2266,7 +2266,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2306,7 +2306,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2346,7 +2346,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2386,7 +2386,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2426,7 +2426,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2466,7 +2466,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2506,7 +2506,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2546,7 +2546,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2586,7 +2586,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2626,7 +2626,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2666,7 +2666,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2706,7 +2706,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2746,7 +2746,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2786,7 +2786,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2826,7 +2826,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2866,7 +2866,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2906,7 +2906,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2946,7 +2946,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2986,7 +2986,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3025,7 +3025,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3064,7 +3064,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3103,7 +3103,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3143,13 +3143,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 359,
-    label = "Cd/H2_Cd/H/Nd;C_methyl",
+    label = "Cd/H2_Cd/H/NonDe;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3183,13 +3183,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 360,
-    label = "Cd/H2_Cd/H/Nd;C_methyl",
+    label = "Cd/H2_Cd/H/NonDe;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3223,13 +3223,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 361,
-    label = "Cd/H2_Cd/Nd2;C_methyl",
+    label = "Cd/H2_Cd/NonDe2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3263,13 +3263,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 362,
-    label = "Cd/H2_Cd/H/De;C_methyl",
+    label = "Cd/H2_Cd/H/OneDe;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -3303,13 +3303,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 363,
-    label = "Ca_Cd/H/Nd;C_methyl",
+    label = "Ca_Cd/H/NonDe;C_methyl",
     group1 = 
 """
 1 *1 Cdd      0 {2,D} {3,D}
@@ -3342,13 +3342,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 364,
-    label = "Cd/H2_Cd/Nd/De;C_methyl",
+    label = "Cd/H2_Cd/NonDe/OneDe;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -3382,13 +3382,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 365,
-    label = "Ca_Cd/Nd2;C_methyl",
+    label = "Ca_Cd/NonDe2;C_methyl",
     group1 = 
 """
 1 *1 Cdd      0 {2,D} {3,D}
@@ -3421,7 +3421,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3459,13 +3459,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 367,
-    label = "Ct/H_Ct/Nd;C_methyl",
+    label = "Ct/H_Ct/NonDe;C_methyl",
     group1 = 
 """
 1 *1 Ct       0 {2,T} {3,S}
@@ -3497,7 +3497,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3536,13 +3536,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 369,
-    label = "Cd/H2_Cd/H/De;C_methyl",
+    label = "Cd/H2_Cd/H/OneDe;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -3576,13 +3576,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 370,
-    label = "Cd/H2_Cd/De2;C_methyl",
+    label = "Cd/H2_Cd/TwoDe;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -3616,13 +3616,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 371,
-    label = "Cd/H2_Cd/H/De;C_methyl",
+    label = "Cd/H2_Cd/H/OneDe;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -3656,13 +3656,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 372,
-    label = "Ct/H_Ct/De;C_methyl",
+    label = "Ct/H_Ct/OneDe;C_methyl",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -3694,13 +3694,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 373,
-    label = "Cd/H2_Cd/Nd/De;C_methyl",
+    label = "Cd/H2_Cd/NonDe/OneDe;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -3734,13 +3734,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 374,
-    label = "Cd/H/Nd_Cd/H2;C_methyl",
+    label = "Cd/H/NonDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3774,13 +3774,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 375,
-    label = "Cd/H/Nd_Cd/H2;C_methyl",
+    label = "Cd/H/NonDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3814,13 +3814,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 376,
-    label = "Cd/H/Nd_Cd/H2;C_methyl",
+    label = "Cd/H/NonDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3854,13 +3854,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 377,
-    label = "Cd/Nd2_Cd/H2;C_methyl",
+    label = "Cd/NonDe2_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3894,13 +3894,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 378,
-    label = "Cd/Nd2_Cd/H2;C_methyl",
+    label = "Cd/NonDe2_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -3934,13 +3934,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 379,
-    label = "Cd/H/De_Cd/H2;C_methyl",
+    label = "Cd/H/OneDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -3974,13 +3974,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 380,
-    label = "Cd/Nd/De_Cd/H2;C_methyl",
+    label = "Cd/NonDe/OneDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4014,13 +4014,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 381,
-    label = "Ct/Nd_Ct/H;C_methyl",
+    label = "Ct/NonDe_Ct/H;C_methyl",
     group1 = 
 """
 1 *1 Ct       0 {2,T} {3,S}
@@ -4052,13 +4052,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 382,
-    label = "Cd/H/De_Cd/H2;C_methyl",
+    label = "Cd/H/OneDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4092,13 +4092,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 383,
-    label = "Cd/H/De_Cd/H2;C_methyl",
+    label = "Cd/H/OneDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4132,13 +4132,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 384,
-    label = "Ct/De_Ct/H;C_methyl",
+    label = "Ct/OneDe_Ct/H;C_methyl",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -4170,13 +4170,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 385,
-    label = "Ct/De_Ct/H;C_methyl",
+    label = "Ct/OneDe_Ct/H;C_methyl",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -4208,13 +4208,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 386,
-    label = "Cd/Nd/De_Cd/H2;C_methyl",
+    label = "Cd/NonDe/OneDe_Cd/H2;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4248,7 +4248,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4285,13 +4285,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 388,
-    label = "Cd/H2_Cd/H/Nd;H_rad",
+    label = "Cd/H2_Cd/H/NonDe;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -4322,13 +4322,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 389,
-    label = "Cd/H2_Cd/Nd2;H_rad",
+    label = "Cd/H2_Cd/NonDe2;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -4359,13 +4359,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 390,
-    label = "Cd/H2_Cd/H/De;H_rad",
+    label = "Cd/H2_Cd/H/OneDe;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4396,13 +4396,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 391,
-    label = "Cd/H2_Cd/Nd/De;H_rad",
+    label = "Cd/H2_Cd/NonDe/OneDe;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4433,13 +4433,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 392,
-    label = "Cd/H2_Cd/H/De;H_rad",
+    label = "Cd/H2_Cd/H/OneDe;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4470,13 +4470,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 393,
-    label = "Cd/H2_Cd/Nd/De;H_rad",
+    label = "Cd/H2_Cd/NonDe/OneDe;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4507,7 +4507,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4542,13 +4542,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 395,
-    label = "Ct/H_Ct/Nd;H_rad",
+    label = "Ct/H_Ct/NonDe;H_rad",
     group1 = 
 """
 1 *1 Ct       0 {2,T} {3,S}
@@ -4577,7 +4577,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4613,7 +4613,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4649,13 +4649,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 398,
-    label = "Cd/H2_Cd/H/De;H_rad",
+    label = "Cd/H2_Cd/H/OneDe;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4686,13 +4686,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 399,
-    label = "Cd/H2_Cd/Nd/De;H_rad",
+    label = "Cd/H2_Cd/NonDe/OneDe;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -4723,13 +4723,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 400,
-    label = "Ct/H_Ct/De;H_rad",
+    label = "Ct/H_Ct/OneDe;H_rad",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -4758,13 +4758,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 401,
-    label = "Ct/H_Ct/De;H_rad",
+    label = "Ct/H_Ct/OneDe;H_rad",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -4793,13 +4793,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 402,
-    label = "Ct/H_Ct/De;H_rad",
+    label = "Ct/H_Ct/OneDe;H_rad",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -4828,13 +4828,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 403,
-    label = "Ca_Cd/H/Nd;H_rad",
+    label = "Ca_Cd/H/NonDe;H_rad",
     group1 = 
 """
 1 *1 Cdd      0 {2,D} {3,D}
@@ -4864,13 +4864,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 404,
-    label = "Ca_Cd/Nd2;H_rad",
+    label = "Ca_Cd/NonDe2;H_rad",
     group1 = 
 """
 1 *1 Cdd      0 {2,D} {3,D}
@@ -4900,13 +4900,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 405,
-    label = "Cd/H/Nd_Cd/H2;H_rad",
+    label = "Cd/H/NonDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -4937,13 +4937,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 406,
-    label = "Cd/Nd2_Cd/H2;H_rad",
+    label = "Cd/NonDe2_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -4974,13 +4974,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 407,
-    label = "Cd/H/De_Cd/H2;H_rad",
+    label = "Cd/H/OneDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -5011,13 +5011,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 408,
-    label = "Cd/Nd/De_Cd/H2;H_rad",
+    label = "Cd/NonDe/OneDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -5048,13 +5048,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 409,
-    label = "Ct/Nd_Ct/H;H_rad",
+    label = "Ct/NonDe_Ct/H;H_rad",
     group1 = 
 """
 1 *1 Ct       0 {2,T} {3,S}
@@ -5083,13 +5083,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 410,
-    label = "Cd/H/De_Cd/H2;H_rad",
+    label = "Cd/H/OneDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -5120,13 +5120,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 411,
-    label = "Cd/Nd/De_Cd/H2;H_rad",
+    label = "Cd/NonDe/OneDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -5157,13 +5157,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 412,
-    label = "Cd/H/De_Cd/H2;H_rad",
+    label = "Cd/H/OneDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -5194,13 +5194,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 413,
-    label = "Cd/Nd/De_Cd/H2;H_rad",
+    label = "Cd/NonDe/OneDe_Cd/H2;H_rad",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -5231,13 +5231,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 414,
-    label = "Ct/De_Ct/H;H_rad",
+    label = "Ct/OneDe_Ct/H;H_rad",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -5266,13 +5266,13 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 415,
-    label = "Ct/De_Ct/H;H_rad",
+    label = "Ct/OneDe_Ct/H;H_rad",
     group1 = 
 """
 1 *1 Ct               0 {2,T} {3,S}
@@ -5301,7 +5301,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5341,13 +5341,13 @@ u"""
 Sandeep CBS-QB3 calculations
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 417,
-    label = "CO/H/Nd_O;O_rad/NonDeO",
+    label = "CO/H/NonDe_O;O_rad/NonDeO",
     group1 = 
 """
 1 *1 CO       0 {2,D} {3,S} {4,S}
@@ -5377,13 +5377,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 418,
-    label = "CO/Nd2_O;O_rad/NonDeO",
+    label = "CO/NonDe2_O;O_rad/NonDeO",
     group1 = 
 """
 1 *1 CO       0 {2,D} {3,S} {4,S}
@@ -5413,7 +5413,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5449,13 +5449,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 420,
-    label = "CO/Nd2_O;O_rad/NonDeO",
+    label = "CO/NonDe2_O;O_rad/NonDeO",
     group1 = 
 """
 1 *1 CO       0 {2,D} {3,S} {4,S}
@@ -5485,7 +5485,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5529,7 +5529,7 @@ u"""
 
 entry(
     index = 422,
-    label = "Cd/H2_Cd/H/Nd;O_rad/NonDeO",
+    label = "Cd/H2_Cd/H/NonDe;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5567,7 +5567,7 @@ u"""
 
 entry(
     index = 423,
-    label = "Cd/H2_Cd/Nd2;O_rad/NonDeO",
+    label = "Cd/H2_Cd/NonDe2;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5605,7 +5605,7 @@ u"""
 
 entry(
     index = 424,
-    label = "Cd/H/Nd_Cd/H2;O_rad/NonDeO",
+    label = "Cd/H/NonDe_Cd/H2;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5643,7 +5643,7 @@ u"""
 
 entry(
     index = 425,
-    label = "Cd/H/Nd_Cd/H/Nd;O_rad/NonDeO",
+    label = "Cd/H/NonDe_Cd/H/NonDe;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5681,7 +5681,7 @@ u"""
 
 entry(
     index = 426,
-    label = "Cd/H/Nd_Cd/Nd2;O_rad/NonDeO",
+    label = "Cd/H/NonDe_Cd/NonDe2;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5719,7 +5719,7 @@ u"""
 
 entry(
     index = 427,
-    label = "Cd/Nd2_Cd/H2;O_rad/NonDeO",
+    label = "Cd/NonDe2_Cd/H2;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5757,7 +5757,7 @@ u"""
 
 entry(
     index = 428,
-    label = "Cd/Nd2_Cd/H/Nd;O_rad/NonDeO",
+    label = "Cd/NonDe2_Cd/H/NonDe;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5795,7 +5795,349 @@ u"""
 
 entry(
     index = 429,
-    label = "Cd/Nd2_Cd/Nd2;O_rad/NonDeO",
+    label = "Cd/NonDe2_Cd/NonDe2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    {Cs,O,S} 0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    {Cs,O,S} 0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.69, 'cm^3/(mol*s)'),
+        n = 3.44,
+        alpha = 0,
+        E0 = (2.7, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 421,
+    label = "Cd/H2_Cd/H2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (35.6, 'cm^3/(mol*s)'),
+        n = 3.22,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 422,
+    label = "Cd/H2_Cd/H/NonDe;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    H        0 {1,S}
+5    H        0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (791, 'cm^3/(mol*s)'),
+        n = 2.78,
+        alpha = 0,
+        E0 = (9.5, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 423,
+    label = "Cd/H2_Cd/NonDe2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    H        0 {1,S}
+5    {Cs,O,S} 0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1350, 'cm^3/(mol*s)'),
+        n = 2.67,
+        alpha = 0,
+        E0 = (7.9, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 424,
+    label = "Cd/H/NonDe_Cd/H2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    H        0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10.6, 'cm^3/(mol*s)'),
+        n = 3.29,
+        alpha = 0,
+        E0 = (9.1, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 425,
+    label = "Cd/H/NonDe_Cd/H/NonDe;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (46.2, 'cm^3/(mol*s)'),
+        n = 3.09,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""ss , CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 426,
+    label = "Cd/H/NonDe_Cd/NonDe2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    {Cs,O,S} 0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (186, 'cm^3/(mol*s)'),
+        n = 2.95,
+        alpha = 0,
+        E0 = (5.4, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 427,
+    label = "Cd/NonDe2_Cd/H2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    {Cs,O,S} 0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    H        0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.337, 'cm^3/(mol*s)'),
+        n = 3.67,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 428,
+    label = "Cd/NonDe2_Cd/H/NonDe;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    {Cs,O,S} 0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.172, 'cm^3/(mol*s)'),
+        n = 3.7,
+        alpha = 0,
+        E0 = (4.7, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 429,
+    label = "Cd/NonDe2_Cd/NonDe2;O_rad/NonDeO",
     group1 = 
 """
 1 *1 Cd       0 {2,D} {3,S} {4,S}
@@ -5862,7 +6204,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5900,7 +6242,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5938,7 +6280,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5976,7 +6318,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6014,7 +6356,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6050,7 +6392,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6086,7 +6428,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6122,13 +6464,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 2517,
-    label = "CS/H/De_S;C_methyl",
+    label = "CS/H/OneDe_S;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -6160,13 +6502,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 2518,
-    label = "CS/De2_S;C_methyl",
+    label = "CS/TwoDe_S;C_methyl",
     group1 = 
 """
 1 *1 Cd               0 {2,D} {3,S} {4,S}
@@ -6198,7 +6540,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6233,7 +6575,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6271,7 +6613,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6306,7 +6648,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6344,7 +6686,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6382,7 +6724,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6420,7 +6762,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6458,13 +6800,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 2526,
-    label = "Sd_Cds/H/Nd;C_rad/H2/Cs",
+    label = "Sd_Cds/H/NonDe;C_rad/H2/Cs",
     group1 = 
 """
 1 *1 Sd       0 {2,D}
@@ -6496,7 +6838,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6532,7 +6874,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6568,7 +6910,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6604,13 +6946,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 2540,
-    label = "Sd_Cds/H/Nd;C_methyl",
+    label = "Sd_Cds/H/NonDe;C_methyl",
     group1 = 
 """
 1 *1 Sd       0 {2,D}
@@ -6642,13 +6984,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 2541,
-    label = "Sd_Cds/Nd2;C_methyl",
+    label = "Sd_Cds/NonDe2;C_methyl",
     group1 = 
 """
 1 *1 Sd       0 {2,D}
@@ -6680,7 +7022,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6719,13 +7061,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 2543,
-    label = "Sd_Cds/Nd/Cd;C_methyl",
+    label = "Sd_Cds/NonDe/Cd;C_methyl",
     group1 = 
 """
 1 *1 Sd       0 {2,D}
@@ -6758,7 +7100,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6796,7 +7138,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6834,7 +7176,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6872,7 +7214,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6907,7 +7249,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6945,7 +7287,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6980,7 +7322,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7018,7 +7360,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7056,13 +7398,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 2606,
-    label = "Sd_Cds/H/Nd;Cs_rad",
+    label = "Sd_Cds/H/NonDe;Cs_rad",
     group1 = 
 """
 1 *1 Sd       0 {2,D}
@@ -7094,7 +7436,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7128,7 +7470,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7165,7 +7507,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7203,7 +7545,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7241,7 +7583,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7277,7 +7619,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7313,7 +7655,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7351,7 +7693,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7386,7 +7728,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7420,7 +7762,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7457,7 +7799,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7492,7 +7834,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7530,7 +7872,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7568,7 +7910,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7602,7 +7944,319 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 3002,
+    label = "N3t_N3t-CH2_triplet",
+    group1 = 
+"""
+1 *1 N3t 0 {2,T}
+2 *2 N3t 0 {1,T}
+""",
+    group2 = 
+"""
+1 *3 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.6e+32, 'cm^3/(mol*s)'),
+        n = -7.07,
+        alpha = 0,
+        E0 = (19.97, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: CH2 + N2 = CH2NN (B&D #22a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3003,
+    label = "N3t_N3t-CH_quartet",
+    group1 = 
+"""
+1 *1 N3t 0 {2,T}
+2 *2 N3t 0 {1,T}
+""",
+    group2 = 
+"""
+1 *3 Cs 3 {2,S}
+2    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3.6e+28, 'cm^3/(mol*s)'),
+        n = -5.84,
+        alpha = 0,
+        E0 = (2.62, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: CH + N2 = HCNN (B&D #24a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3004,
+    label = "N3d/H_N3d/H-H_rad",
+    group1 = 
+"""
+1 *1 N3d 0 {2,D} {3,S}
+2 *2 N3d 0 {1,D} {4,S}
+3    H   0 {1,S}
+4    H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (9.91e+34, 'cm^3/(mol*s)'),
+        n = -7.67,
+        alpha = 0,
+        E0 = (12.56, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: N2H2 + H = N2H3 (B&D #31a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3005,
+    label = "Ct/H_N3t-O_pri_rad",
+    group1 = 
+"""
+1 *1 Ct  0 {2,T} {3,S}
+2 *2 N3t 0 {1,T}
+3    H   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.8e+30, 'cm^3/(mol*s)'),
+        n = -6.37,
+        alpha = 0,
+        E0 = (5.34, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: HCN + OH = NCHOH (B&D #42b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3006,
+    label = "Ct/H_N3t-H_rad",
+    group1 = 
+"""
+1 *1 Ct  0 {2,T} {3,S}
+2 *2 N3t 0 {1,T}
+3    H   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (7.24e+29, 'cm^3/(mol*s)'),
+        n = -6.87,
+        alpha = 0,
+        E0 = (7.46, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: HCN + H = H2CN (B&D #45a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3007,
+    label = "N3t_Ct/H-H_rad",
+    group1 = 
+"""
+1 *1 N3t 0 {2,T}
+2 *2 Ct  0 {1,T} {3,S}
+3    H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (7.24e+29, 'cm^3/(mol*s)'),
+        n = -6.87,
+        alpha = 0,
+        E0 = (7.46, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: HCN + H = HCNH (B&D #46) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3008,
+    label = "Cds/H2_N3d-H_rad",
+    group1 = 
+"""
+1 *1 Cd  0 {2,D} {3,S} {4,S}
+2 *2 N3d 0 {1,D}
+3    H   0 {1,S}
+4    H   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (7.32e+29, 'cm^3/(mol*s)'),
+        n = -6.51,
+        alpha = 0,
+        E0 = (8.31, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: H2CNH + H = CH3NH (B&D #49a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3009,
+    label = "N3d/H_Cds/H2-H_rad",
+    group1 = 
+"""
+1 *1 N3d 0 {2,D} {5,S}
+2 *2 Cd  0 {1,D} {3,S} {4,S}
+3    H   0 {2,S}
+4    H   0 {2,S}
+5    H   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (9.86e+36, 'cm^3/(mol*s)'),
+        n = -8.41,
+        alpha = 0,
+        E0 = (12.44, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 3010,
+    label = "N3t_Ct/H-O_atom_triplet",
+    group1 = 
+"""
+1 *1 N3t 0 {2,T}
+2 *2 Ct  0 {1,T} {3,S}
+3    H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 2T
+""",
+    kinetics = ArrheniusEP(
+        A = (9.99e+25, 'cm^3/(mol*s)'),
+        n = -5.73,
+        alpha = 0,
+        E0 = (11.80, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser",
+    longDesc = 
+u"""
+Added by Beat Buesser, value for reaction: HCN + O = HCNO (B&D #54) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+""",
+    history = [
+        (""),
     ],
 )
 

@@ -13,16 +13,26 @@ entry(
     reactant1 = 
 """
 C2H5SJ1
-1 C 1 {2,S}
-2 C 0 {1,S} {3,S}
-3 S 0 {2,S}
+1 C 1 {2,S} {4,S} {5,S}
+2 C 0 {1,S} {3,S} {6,S} {7,S}
+3 S 0 {2,S} {8,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {3,S}
 """,
     product1 = 
 """
 C2H5SJ2
-1 C 0 {2,S}
-2 C 0 {1,S} {3,S}
+1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 {1,S} {3,S} {7,S} {8,S}
 3 S 1 {2,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(85.5, 's^-1'), n=3.04, Ea=(11.62, 'kcal/mol'), T0=(1, 'K')),
@@ -51,20 +61,30 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C2H5SJ2
-1 C 0 {2,S}
-2 C 0 {1,S} {3,S}
+1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 {1,S} {3,S} {7,S} {8,S}
 3 S 1 {2,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9960, 'cm^3/(mol*s)'), n=2.7, Ea=(-0.8, 'kcal/mol'), T0=(1, 'K')),

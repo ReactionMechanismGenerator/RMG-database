@@ -290,7 +290,7 @@ u"""
 
 entry(
     index = 14,
-    label = "Ct_rad",
+    label = "Ct_rad/Ct",
     group = 
 """
 1 * C 1 {2,T}
@@ -2034,98 +2034,364 @@ u"""
     ],
 )
 
+entry(
+    index = 100,
+    label = "Ct_rad",
+    group = 
+"""
+1 * Ct  1 {2,T}
+2   R!H 0 {1,T}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 101,
+    label = "Ct_rad/Nt",
+    group = 
+"""
+1 * Ct        1 {2,T}
+2   {N3t,N5t} 0 {1,T}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 102,
+    label = "C_rad/H2/N",
+    group = 
+"""
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   N 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 103,
+    label = "C_rad/H/NonDeN",
+    group = 
+"""
+1 * C   1 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   Cs  0 {1,S}
+4   N3s 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 104,
+    label = "N3_rad",
+    group = 
+"""
+1 * {N3s,N3d} 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 105,
+    label = "N3s_rad",
+    group = 
+"""
+1 * N3s 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 106,
+    label = "NH2_rad",
+    group = 
+"""
+1 * N3s 1 {2,S} {3,S}
+2   H   0 {1,S}
+3   H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 107,
+    label = "N3s_rad_pri",
+    group = 
+"""
+1 * N3s 1 {2,S} {3,S}
+2   H   0 {1,S}
+3   R!H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 108,
+    label = "N3s_rad_sec",
+    group = 
+"""
+1 * N3s 1 {2,S} {3,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 109,
+    label = "N3d_rad",
+    group = 
+"""
+1 * N3d 1 {2,D}
+2   R!H 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 110,
+    label = "N5_rad",
+    group = 
+"""
+1 * {N5s,N5d,N5t} 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 111,
+    label = "N5d_rad",
+    group = 
+"""
+1 * N5d 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+) 
+
 tree(
 """
 L1: Y_rad
-    L2: H_rad
-    L2: S_rad
-        L3: SJ
-            L4: SsJ-H
-            L4: SsJ-C
-                L5: SsJ-Cs
-                L5: SsJ-Ct
-                L5: SsJ-Cb
-                L5: SsJ-Cd
-                L5: SsJ-C=S
-            L4: SsJ-Ss
-            L4: SsJ-Os
-    L2: Ct_rad
-    L2: O_rad
-        L3: O_pri_rad
-        L3: O_sec_rad
-            L4: O_rad/NonDe
-            L4: O_rad/OneDe
-    L2: O2_birad
-    L2: Cd_rad
-        L3: Cd_pri_rad
-        L3: Cd_sec_rad
-            L4: Cd_rad/NonDe
-            L4: Cd_rad/OneDe
-                L5: Cd_rad/Cd
-    L2: Cb_rad
-    L2: CO_rad
-        L3: CO_pri_rad
-        L3: CO_sec_rad
-            L4: CO_rad/NonDe
-            L4: CO_rad/OneDe
-    L2: C=SJ
-        L3: C=SJ-H
-        L3: C=SJ-C
-            L4: C=SJ-Cs
-        L3: C=SJ-Ss
-    L2: Cs_rad
-        L3: C_methyl
-        L3: C_pri_rad
-            L4: C_rad/H2/Cs
-            L4: C_rad/H2/Cd
-            L4: C_rad/H2/Ct
-            L4: C_rad/H2/Cb
-            L4: C_rad/H2/CO
-            L4: C_rad/H2/O
-            L4: CsJ-SsHH
-        L3: C_sec_rad
-            L4: C_rad/H/NonDeC
-            L4: C_rad/H/NonDeO
-                L5: C_rad/H/CsO
-                L5: C_rad/H/O2
-            L4: C_rad/H/OneDe
-                L5: C_rad/H/OneDeC
-                    L6: C_rad/H/CdCs
-                    L6: C_rad/H/CtCs
-                L5: C_rad/H/OneDeO
-            L4: C_rad/H/TwoDe
-                L5: C_rad/H/CdCd
-            L4: CsJ-CSH
-                L5: CsJ-CsSsH
-                L5: CsJ-CtSsH
-                L5: CsJ-CbSsH
-                L5: CsJ-CdSsH
-                L5: CsJ-C=SSsH
-            L4: CsJ-SsSsH
-        L3: C_ter_rad
-            L4: C_rad/NonDeC
-                L5: C_rad/Cs3
-                L5: C_rad/NDMustO
-            L4: C_rad/OneDe
-                L5: C_rad/Cs2
-                L5: C_rad/ODMustO
-            L4: C_rad/TwoDe
-                L5: C_rad/Cs
-                L5: C_rad/TDMustO
-            L4: C_rad/ThreeDe
-            L4: CsJ-CSS
-                L5: CsJ-CsSsSs
-                L5: CsJ-CtSsSs
-                L5: CsJ-CbSsSs
-                L5: CsJ-CdSsSs
-                L5: CsJ-C=SSsSs
-            L4: CsJ-CCS
-                L5: CsJ-CsCsSs
-                L5: CsJ-CsCtSs
-                L5: CsJ-CsCbSs
-                L5: CsJ-CsCdSs
-                L5: CsJ-CsC=SSs
-            L4: CsJ-SsSsSs
+        L2: H_rad
+        L2: S_rad
+            L3: SJ
+                L4: SsJ-H
+                L4: SsJ-C
+                    L5: SsJ-Cs
+                    L5: SsJ-Ct
+                    L5: SsJ-Cb
+                    L5: SsJ-Cd
+                    L5: SsJ-C=S
+                L4: SsJ-Ss
+                L4: SsJ-Os
+        L2: Ct_rad
+            L3: Ct_rad/Ct
+            L3: Ct_rad/Nt
+        L2: O_rad
+            L3: O_pri_rad
+            L3: O_sec_rad
+                L4: O_rad/NonDe
+                L4: O_rad/OneDe
+        L2: O2_birad
+        L2: Cd_rad
+            L3: Cd_pri_rad
+            L3: Cd_sec_rad
+                L4: Cd_rad/NonDe
+                L4: Cd_rad/OneDe
+                    L5: Cd_rad/Cd
+        L2: Cb_rad
+        L2: CO_rad
+            L3: CO_pri_rad
+            L3: CO_sec_rad
+                L4: CO_rad/NonDe
+                L4: CO_rad/OneDe
+        L2: C=SJ
+            L3: C=SJ-H
+            L3: C=SJ-C
+                L4: C=SJ-Cs
+            L3: C=SJ-Ss
+        L2: Cs_rad
+            L3: C_methyl
+            L3: C_pri_rad
+                L4: C_rad/H2/Cs
+                L4: C_rad/H2/Cd
+                L4: C_rad/H2/Ct
+                L4: C_rad/H2/Cb
+                L4: C_rad/H2/CO
+                L4: C_rad/H2/O
+                L4: C_rad/H2/N
+                L4: CsJ-SsHH
+            L3: C_sec_rad
+                L4: C_rad/H/NonDeN
+                L4: C_rad/H/NonDeC
+                L4: C_rad/H/NonDeO
+                    L5: C_rad/H/CsO
+                    L5: C_rad/H/O2
+                L4: C_rad/H/OneDe
+                    L5: C_rad/H/OneDeC
+                        L6: C_rad/H/CdCs
+                        L6: C_rad/H/CtCs
+                    L5: C_rad/H/OneDeO
+                L4: C_rad/H/TwoDe
+                    L5: C_rad/H/CdCd
+                L4: CsJ-CSH
+                    L5: CsJ-CsSsH
+                    L5: CsJ-CtSsH
+                    L5: CsJ-CbSsH
+                    L5: CsJ-CdSsH
+                    L5: CsJ-C=SSsH
+                L4: CsJ-SsSsH
+            L3: C_ter_rad
+                L4: C_rad/NonDeC
+                    L5: C_rad/Cs3
+                    L5: C_rad/NDMustO
+                L4: C_rad/OneDe
+                    L5: C_rad/Cs2
+                    L5: C_rad/ODMustO
+                L4: C_rad/TwoDe
+                    L5: C_rad/Cs
+                    L5: C_rad/TDMustO
+                L4: C_rad/ThreeDe
+                L4: CsJ-CSS
+                    L5: CsJ-CsSsSs
+                    L5: CsJ-CtSsSs
+                    L5: CsJ-CbSsSs
+                    L5: CsJ-CdSsSs
+                    L5: CsJ-C=SSsSs
+                L4: CsJ-CCS
+                    L5: CsJ-CsCsSs
+                    L5: CsJ-CsCtSs
+                    L5: CsJ-CsCbSs
+                    L5: CsJ-CsCdSs
+                    L5: CsJ-CsC=SSs
+                L4: CsJ-SsSsSs
+        L2: N3_rad
+            L3: N3s_rad
+                L4: NH2_rad
+                L4: N3s_rad_pri
+                L4: N3s_rad_sec
+            L3: N3d_rad 
+        L2: N5_rad 
 """
 )
 
@@ -2146,4 +2412,7 @@ u"""
     history = [
     ],
 )
+
+
+
 

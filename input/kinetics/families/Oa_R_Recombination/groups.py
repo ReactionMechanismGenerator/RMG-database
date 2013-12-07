@@ -1182,3 +1182,36 @@ u"""
     ],
 )
 
+forbidden(
+    label = "O2_1centeredBirad",
+    group = 
+"""
+1 *1 O 2T {2,S}
+2    R 0  {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+forbidden(
+    label = "O_atom_singlet",
+    group = 
+"""
+1 *1 O 2S
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+

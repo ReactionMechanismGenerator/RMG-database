@@ -13,7 +13,9 @@ entry(
     reactant1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -23,7 +25,8 @@ H
     product1 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
@@ -56,7 +59,9 @@ entry(
     reactant1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -66,12 +71,14 @@ S
     product1 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -108,7 +115,8 @@ H2
     product1 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
@@ -144,7 +152,8 @@ S
     reactant2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
@@ -186,18 +195,21 @@ H
     reactant2 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -223,18 +235,22 @@ entry(
     reactant1 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -266,8 +282,9 @@ H
     reactant2 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -310,13 +327,16 @@ H
     reactant2 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -352,8 +372,9 @@ S
     reactant2 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -364,7 +385,8 @@ S2
     product2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -390,20 +412,24 @@ entry(
     reactant1 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 H2S2
-1 S 0 {2,S}
-2 S 0 {1,S}
+1 S 0 {2,S} {3,S}
+2 S 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -430,8 +456,10 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S}
-2 S 0 {1,S}
+1 S 0 {2,S} {3,S}
+2 S 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -441,8 +469,9 @@ H
     product1 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -474,8 +503,10 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S}
-2 S 0 {1,S}
+1 S 0 {2,S} {3,S}
+2 S 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -485,12 +516,15 @@ H
     product1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -516,24 +550,30 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S}
-2 S 0 {1,S}
+1 S 0 {2,S} {3,S}
+2 S 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(6400, 'cm^3/(mol*s)'), n=2.98, Ea=(-1.48, 'kcal/mol'), T0=(1, 'K')),
@@ -554,8 +594,10 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S}
-2 S 0 {1,S}
+1 S 0 {2,S} {3,S}
+2 S 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -565,13 +607,15 @@ S
     product1 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -608,8 +652,9 @@ S2
     product1 = 
 """
 HSS
-1 S 0 {2,S}
+1 S 0 {2,S} {3,S}
 2 S 1 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -639,18 +684,22 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S}
-2 S 0 {1,S}
+1 S 0 {2,S} {3,S}
+2 S 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product1 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1
+1 S 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(

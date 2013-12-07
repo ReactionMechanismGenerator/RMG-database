@@ -317,10 +317,10 @@ Imported from USC-Mech ii thermdat.txt.
 
 entry(
     index = 11,
-    label = "C",
+    label = "C(T)",
     molecule =
 """
-1 C 4
+1 C 4T
 """,
     thermo = NASA(
         polynomials = [

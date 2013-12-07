@@ -13,8 +13,10 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -24,7 +26,9 @@ O
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
@@ -61,8 +65,10 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -72,9 +78,10 @@ O
     product1 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -105,10 +112,12 @@ entry(
     reactant1 = 
 """
 C4H2
-1 C 0 {2,T}
+1 C 0 {2,T} {5,S}
 2 C 0 {1,T} {3,S}
 3 C 0 {2,S} {4,T}
-4 C 0 {3,T}
+4 C 0 {3,T} {6,S}
+5 H 0 {1,S}
+6 H 0 {4,S}
 """,
     reactant2 = 
 """
@@ -119,8 +128,10 @@ O
 """
 C3H2
 1 C 2S {2,S} {3,S}
-2 C 0  {1,S} {3,D}
-3 C 0  {1,S} {2,D}
+2 C 0  {1,S} {3,D} {4,S}
+3 C 0  {1,S} {2,D} {5,S}
+4 H 0  {2,S}
+5 H 0  {3,S}
 """,
     product2 = 
 """
@@ -203,7 +214,8 @@ O2
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
@@ -214,7 +226,8 @@ CO
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -246,7 +259,8 @@ O2
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
@@ -290,7 +304,9 @@ O2
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
@@ -335,7 +351,9 @@ O2
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
@@ -384,7 +402,9 @@ O2
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
@@ -395,7 +415,8 @@ CO
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product3 = 
 """
@@ -432,7 +453,9 @@ O2
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
@@ -443,7 +466,9 @@ CO
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -475,13 +500,17 @@ O2
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -518,7 +547,9 @@ O2
     reactant2 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
@@ -529,7 +560,8 @@ CO
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product3 = 
 """
@@ -566,14 +598,16 @@ O2
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product2 = 
 """
@@ -611,9 +645,10 @@ O2
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
@@ -630,7 +665,8 @@ CO
     product3 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -662,7 +698,8 @@ CO
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
@@ -707,7 +744,8 @@ CO
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
@@ -719,7 +757,8 @@ CO2
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -751,14 +790,16 @@ CO
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -791,13 +832,15 @@ CO2
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -836,13 +879,17 @@ CO2
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -869,9 +916,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -881,7 +930,10 @@ H
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -913,9 +965,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -925,7 +979,9 @@ O
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
@@ -958,9 +1014,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -970,8 +1028,10 @@ O
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1003,9 +1063,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -1015,8 +1077,9 @@ O
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1053,9 +1116,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -1065,14 +1130,16 @@ O
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1098,19 +1165,25 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1143,20 +1216,26 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S}
-2 O 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 O 0 {1,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
@@ -1193,8 +1272,9 @@ H
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -1237,14 +1317,17 @@ H
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
@@ -1276,7 +1359,8 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -1318,18 +1402,26 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1362,7 +1454,8 @@ entry(
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -1372,7 +1465,8 @@ O
     product1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1405,17 +1499,21 @@ entry(
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
@@ -1447,8 +1545,11 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -1464,7 +1565,10 @@ CO
     product2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1490,9 +1594,12 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 C 1 {2,S}
+1 C 1 {2,S} {4,S} {5,S}
 2 C 0 {1,S} {3,T}
-3 C 0 {2,T}
+3 C 0 {2,T} {6,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {3,S}
 """,
     reactant2 = 
 """
@@ -1502,8 +1609,10 @@ O
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -1545,8 +1654,9 @@ O
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -1557,7 +1667,8 @@ CO
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1588,9 +1699,10 @@ O
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
@@ -1633,18 +1745,22 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1676,26 +1792,30 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1721,20 +1841,24 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1766,20 +1890,24 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -1811,22 +1939,26 @@ entry(
     reactant1 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -1864,20 +1996,24 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -1909,7 +2045,9 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
@@ -1956,7 +2094,9 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
@@ -1999,18 +2139,24 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -2042,20 +2188,26 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
@@ -2094,7 +2246,8 @@ O2
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
@@ -2106,7 +2259,8 @@ CO2
     product2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2137,8 +2291,9 @@ O
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -2176,18 +2331,27 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     product2 = 
 """
@@ -2218,24 +2382,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     product2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2261,20 +2431,29 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C3H4
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
-3 C 0 {2,D}
+3 C 0 {2,D} {6,S} {7,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {3,S}
+7 H 0 {3,S}
 """,
     product2 = 
 """
@@ -2305,24 +2484,38 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2348,24 +2541,30 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2396,12 +2595,15 @@ H
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
@@ -2433,18 +2635,23 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -2475,18 +2682,25 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
@@ -2517,24 +2731,32 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2560,18 +2782,21 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -2602,18 +2827,24 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -2645,18 +2876,24 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -2692,18 +2929,27 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     product2 = 
 """
@@ -2734,24 +2980,34 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2777,18 +3033,23 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -2819,26 +3080,32 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     reactant2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2864,22 +3131,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2905,22 +3184,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2946,20 +3237,28 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 C3H4
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
-3 C 0 {2,D}
+3 C 0 {2,D} {6,S} {7,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {3,S}
+7 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2985,20 +3284,27 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 H2CCCH
-1 C 1 {2,S}
+1 C 1 {2,S} {4,S} {5,S}
 2 C 0 {1,S} {3,T}
-3 C 0 {2,T}
+3 C 0 {2,T} {6,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {3,S}
 """,
     product2 = 
 """
@@ -3034,12 +3340,16 @@ H
     reactant2 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
@@ -3076,12 +3386,17 @@ H2
     reactant2 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -3112,20 +3427,32 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,D}
-2 C 0 {1,D} {3,S}
-3 C 0 {2,S}
+1 C 0 {2,D} {4,S} {5,S}
+2 C 0 {1,D} {3,S} {6,S}
+3 C 0 {2,S} {7,S} {8,S} {9,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {3,S}
+8 H 0 {3,S}
+9 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3151,24 +3478,40 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3194,22 +3537,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3235,22 +3586,29 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product1 = 
 """
 H2CCCCH
-1 C 0 {2,D}
+1 C 0 {2,D} {5,S} {6,S}
 2 C 1 {1,D} {3,S}
 3 C 0 {2,S} {4,T}
-4 C 0 {3,T}
+4 C 0 {3,T} {7,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {4,S}
 """,
     product2 = 
 """
@@ -3281,22 +3639,27 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 C4H2
-1 C 0 {2,T}
+1 C 0 {2,T} {5,S}
 2 C 0 {1,T} {3,S}
 3 C 0 {2,S} {4,T}
-4 C 0 {3,T}
+4 C 0 {3,T} {6,S}
+5 H 0 {1,S}
+6 H 0 {4,S}
 """,
     product2 = 
 """
@@ -3327,8 +3690,12 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -3343,9 +3710,12 @@ H
     product2 = 
 """
 CH2HCO
-1 C 1 {2,S}
-2 C 0 {1,S} {3,D}
+1 C 1 {2,S} {4,S} {5,S}
+2 C 0 {1,S} {3,D} {6,S}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3371,8 +3741,12 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -3382,13 +3756,17 @@ O
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3414,8 +3792,12 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -3425,9 +3807,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
@@ -3454,28 +3838,34 @@ entry(
     reactant1 = 
 """
 C4H2
-1 C 0 {2,T}
+1 C 0 {2,T} {5,S}
 2 C 0 {1,T} {3,S}
 3 C 0 {2,S} {4,T}
-4 C 0 {3,T}
+4 C 0 {3,T} {6,S}
+5 H 0 {1,S}
+6 H 0 {4,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C3H2
 1 C 2S {2,S} {3,S}
-2 C 0  {1,S} {3,D}
-3 C 0  {1,S} {2,D}
+2 C 0  {1,S} {3,D} {4,S}
+3 C 0  {1,S} {2,D} {5,S}
+4 H 0  {2,S}
+5 H 0  {3,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3512,18 +3902,23 @@ H
     reactant3 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3560,7 +3955,8 @@ H
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
@@ -3597,18 +3993,24 @@ O2
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3641,14 +4043,16 @@ O2
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -3686,21 +4090,25 @@ O2
 """
 C3H2
 1 C 2S {2,S} {3,S}
-2 C 0  {1,S} {3,D}
-3 C 0  {1,S} {2,D}
+2 C 0  {1,S} {3,D} {4,S}
+3 C 0  {1,S} {2,D} {5,S}
+4 H 0  {2,S}
+5 H 0  {3,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3732,22 +4140,28 @@ O2
     reactant2 = 
 """
 H2CCCH
-1 C 1 {2,S}
+1 C 1 {2,S} {4,S} {5,S}
 2 C 0 {1,S} {3,T}
-3 C 0 {2,T}
+3 C 0 {2,T} {6,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {3,S}
 """,
     product1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3773,8 +4187,10 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -3784,12 +4200,15 @@ H
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3815,18 +4234,29 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     product2 = 
 """
@@ -3863,17 +4293,20 @@ H
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3905,12 +4338,15 @@ H
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -3946,18 +4382,25 @@ H
     reactant2 = 
 """
 CH2OH
-1 C 1 {2,S}
-2 O 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 O 0 {1,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3983,7 +4426,10 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -3993,8 +4439,10 @@ O
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -4025,24 +4473,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4069,19 +4525,22 @@ entry(
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 C 1 {2,D}
+1 C 1 {2,D} {4,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -4112,8 +4571,13 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -4123,13 +4587,18 @@ O
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4161,13 +4630,19 @@ O2
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
@@ -4198,12 +4673,14 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
@@ -4213,7 +4690,9 @@ O
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4250,7 +4729,8 @@ O
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
@@ -4276,7 +4756,9 @@ entry(
     reactant1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -4292,7 +4774,8 @@ H2
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4318,7 +4801,11 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -4328,12 +4815,16 @@ O
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4359,22 +4850,32 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4400,24 +4901,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C2H
 1 C 1 {2,T}
-2 C 0 {1,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4443,8 +4950,12 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -4454,8 +4965,11 @@ H
     product1 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
@@ -4487,24 +5001,34 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4530,8 +5054,14 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -4541,8 +5071,13 @@ H
     product1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     product2 = 
 """
@@ -4574,24 +5109,42 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.51e-07, 'cm^3/(mol*s)'), n=6, Ea=(25.3, 'kJ/mol'), T0=(1, 'K')),
@@ -4612,8 +5165,14 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -4623,13 +5182,19 @@ O
     product1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4655,24 +5220,38 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(7230000.0, 'cm^3/(mol*s)'), n=2, Ea=(3.62, 'kJ/mol'), T0=(1, 'K')),
@@ -4693,26 +5272,40 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4744,20 +5337,24 @@ O2
     reactant2 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4789,20 +5386,26 @@ O2
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4828,8 +5431,10 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -4840,7 +5445,8 @@ H
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product2 = 
 """
@@ -4872,8 +5478,10 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -4883,13 +5491,15 @@ O
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4915,24 +5525,30 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4958,8 +5574,10 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -4969,8 +5587,9 @@ H
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -5002,24 +5621,34 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.83e-08, 'cm^3/(mol*s)'), n=6.1, Ea=(8.23, 'kJ/mol'), T0=(1, 'K')),
@@ -5040,8 +5669,10 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -5051,13 +5682,15 @@ O
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5083,24 +5716,30 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5132,7 +5771,8 @@ H
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
@@ -5175,14 +5815,19 @@ H
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -5220,7 +5865,8 @@ O
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
@@ -5231,7 +5877,8 @@ O2
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5257,18 +5904,22 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -5306,14 +5957,20 @@ O2
     reactant2 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH3O2
-1 C 0 {2,S}
+1 C 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 {1,S} {3,S}
 3 O 1 {2,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(261300000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
@@ -5340,18 +5997,28 @@ O2
     reactant2 = 
 """
 C3H5
-1 C 0 {2,D} {3,S}
-2 C 0 {1,D}
-3 C 1 {1,S}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 C 1 {1,S} {7,S} {8,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {3,S}
+8 H 0 {3,S}
 """,
     product1 = 
 """
 C3H5O2
-1 C 0 {2,D} {3,S}
-2 C 0 {1,D}
-3 C 0 {1,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 O 1 {4,S}
+1  C 0 {2,D} {3,S} {6,S}
+2  C 0 {1,D} {7,S} {8,S}
+3  C 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 {3,S} {5,S}
+5  O 1 {4,S}
+6  H 0 {1,S}
+7  H 0 {2,S}
+8  H 0 {2,S}
+9  H 0 {3,S}
+10 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(30559000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
@@ -5378,16 +6045,26 @@ O2
     reactant2 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     product1 = 
 """
 C2H5O2
-1 C 0 {2,S}
-2 C 0 {1,S} {3,S}
+1 C 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 {1,S} {3,S} {8,S} {9,S}
 3 O 0 {2,S} {4,S}
 4 O 1 {3,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
+9 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(147960000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
@@ -5414,16 +6091,22 @@ O2
     reactant2 = 
 """
 CH2OH
-1 C 1 {2,S}
-2 O 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 O 0 {1,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     product1 = 
 """
 CH3O3_2
-1 C 0 {2,S} {3,S}
-2 O 0 {1,S}
+1 C 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 {1,S} {7,S}
 3 O 0 {1,S} {4,S}
 4 O 1 {3,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(57828000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
@@ -5450,18 +6133,32 @@ O2
     reactant2 = 
 """
 C3H7
-1 C 0 {2,S}
-2 C 1 {1,S} {3,S}
-3 C 0 {2,S}
+1  C 0 {2,S} {4,S} {5,S} {6,S}
+2  C 1 {1,S} {3,S} {7,S}
+3  C 0 {2,S} {8,S} {9,S} {10,S}
+4  H 0 {1,S}
+5  H 0 {1,S}
+6  H 0 {1,S}
+7  H 0 {2,S}
+8  H 0 {3,S}
+9  H 0 {3,S}
+10 H 0 {3,S}
 """,
     product1 = 
 """
 C3H7O2
-1 C 0 {2,S}
-2 C 0 {1,S} {3,S} {4,S}
-3 C 0 {2,S}
-4 O 0 {2,S} {5,S}
-5 O 1 {4,S}
+1  C 0 {2,S} {6,S} {7,S} {8,S}
+2  C 0 {1,S} {3,S} {4,S} {9,S}
+3  C 0 {2,S} {10,S} {11,S} {12,S}
+4  O 0 {2,S} {5,S}
+5  O 1 {4,S}
+6  H 0 {1,S}
+7  H 0 {1,S}
+8  H 0 {1,S}
+9  H 0 {2,S}
+10 H 0 {3,S}
+11 H 0 {3,S}
+12 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(592070000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
@@ -5482,8 +6179,12 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -5493,8 +6194,13 @@ H
     product1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5526,18 +6232,24 @@ O2
     reactant2 = 
 """
 CH2HCO
-1 C 1 {2,S}
-2 C 0 {1,S} {3,D}
+1 C 1 {2,S} {4,S} {5,S}
+2 C 0 {1,S} {3,D} {6,S}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
 """,
     product1 = 
 """
 C2H3O3
-1 C 0 {2,S} {3,D}
-2 C 0 {1,S} {4,S}
+1 C 0 {2,S} {3,D} {6,S}
+2 C 0 {1,S} {4,S} {7,S} {8,S}
 3 O 0 {1,D}
 4 O 0 {2,S} {5,S}
 5 O 1 {4,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(149671000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
@@ -5558,9 +6270,15 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,D}
-2 C 0 {1,D} {3,S}
-3 C 0 {2,S}
+1 C 0 {2,D} {4,S} {5,S}
+2 C 0 {1,D} {3,S} {6,S}
+3 C 0 {2,S} {7,S} {8,S} {9,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {3,S}
+8 H 0 {3,S}
+9 H 0 {3,S}
 """,
     reactant2 = 
 """
@@ -5570,9 +6288,16 @@ H
     product1 = 
 """
 C3H7
-1 C 0 {2,S}
-2 C 1 {1,S} {3,S}
-3 C 0 {2,S}
+1  C 0 {2,S} {4,S} {5,S} {6,S}
+2  C 1 {1,S} {3,S} {7,S}
+3  C 0 {2,S} {8,S} {9,S} {10,S}
+4  H 0 {1,S}
+5  H 0 {1,S}
+6  H 0 {1,S}
+7  H 0 {2,S}
+8  H 0 {3,S}
+9  H 0 {3,S}
+10 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5604,16 +6329,18 @@ O2
     reactant2 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 CHO3
-1 C 0 {2,D} {3,S}
+1 C 0 {2,D} {3,S} {5,S}
 2 O 0 {1,D}
 3 O 0 {1,S} {4,S}
 4 O 1 {3,S}
+5 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(291137000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
@@ -5634,22 +6361,28 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     product1 = 
 """
 CH3O3_1
-1 C 0 {2,S} {3,S}
+1 C 0 {2,S} {3,S} {5,S} {6,S}
 2 O 1 {1,S}
 3 O 0 {1,S} {4,S}
-4 O 0 {3,S}
+4 O 0 {3,S} {7,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(838, 'cm^3/(mol*s)'), n=0, Ea=(3.6089, 'kJ/mol'), T0=(1, 'K')),
@@ -5670,22 +6403,40 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 1 {2,S}
-2 C 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     reactant2 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     product1 = 
 """
 C4H9
-1 C 0 {2,S}
-2 C 0 {1,S} {3,S}
-3 C 0 {2,S} {4,S}
-4 C 1 {3,S}
+1  C 0 {2,S} {5,S} {6,S} {7,S}
+2  C 0 {1,S} {3,S} {8,S} {9,S}
+3  C 0 {2,S} {4,S} {10,S} {11,S}
+4  C 1 {3,S} {12,S} {13,S}
+5  H 0 {1,S}
+6  H 0 {1,S}
+7  H 0 {1,S}
+8  H 0 {2,S}
+9  H 0 {2,S}
+10 H 0 {3,S}
+11 H 0 {3,S}
+12 H 0 {4,S}
+13 H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5755,14 +6506,17 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -5796,8 +6550,10 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
@@ -5838,14 +6594,18 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
 2 C 0 {1,D} {3,D}
 3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
@@ -5880,8 +6640,9 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -5921,12 +6682,16 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -5955,12 +6720,17 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     product2 = 
 """
@@ -5989,14 +6759,20 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T}
-2 C 0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -6078,7 +6854,8 @@ H
 """
 HO2
 1 O 1 {2,S}
-2 O 0 {1,S}
+2 O 0 {1,S} {3,S}
+3 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -6102,14 +6879,21 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D}
-2 C 0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 {2,D}
-2 C 0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
@@ -6183,7 +6967,8 @@ O
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -6212,12 +6997,15 @@ H
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -6241,14 +7029,19 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
@@ -6282,14 +7075,19 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S}
-2 O 0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 O 0 {1,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """

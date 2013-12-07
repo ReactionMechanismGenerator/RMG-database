@@ -13,9 +13,12 @@ entry(
     index = 1,
     reactant1 = 
 """
-1 C 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   O 0 {1,S} {3,S}
+3   O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product1 = 
 """
@@ -24,7 +27,10 @@ entry(
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -54,10 +60,15 @@ entry(
     index = 2,
     reactant1 = 
 """
-1 C 0 {2,S} {3,S}
-2 C 0 {1,S}
-3 O 0 {1,S} {4,S}
-4 O 1 {3,S}
+1   C 0 {2,S} {3,S} {5,S} {6,S}
+2   C 0 {1,S} {7,S} {8,S} {9,S}
+3   O 0 {1,S} {4,S}
+4   O 1 {3,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
 """,
     product1 = 
 """
@@ -66,8 +77,13 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.49e+21, 's^-1'), n=-2.41, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
@@ -92,11 +108,18 @@ entry(
     index = 3,
     reactant1 = 
 """
-1 C 0 {3,S} {4,S}
-2 C 0 {4,S}
-3 O 0 {1,S} {5,S}
-4 C 0 {1,S} {2,S}
-5 O 1 {3,S}
+1   C 0 {3,S} {4,S} {6,S} {7,S}
+2   C 0 {4,S} {8,S} {9,S} {10,S}
+3   O 0 {1,S} {5,S}
+4   C 0 {1,S} {2,S} {11,S} {12,S}
+5   O 1 {3,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
+10  H 0 {2,S}
+11  H 0 {4,S}
+12  H 0 {4,S}
 """,
     product1 = 
 """
@@ -105,9 +128,16 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {6,S} {7,S} {8,S}
+3 * C 1 {1,S} {9,S} {10,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
+9   H 0 {3,S}
+10  H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.52e+23, 's^-1'), n=-2.71, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
@@ -128,50 +158,7 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
     ],
 )
 
-entry(
-    index = 4,
-    reactant1 = 
-"""
-1 C 0 {2,S} {3,S}
-2 C 0 {1,S} {4,S}
-3 C 0 {1,S}
-4 C 1 {2,S} {5,S}
-5 O 0 {4,S}
-""",
-    reactant2 = 
-"""
-1 O 1 {2,S}
-2 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S} {6,S}
-4    C 0 {2,S}
-5    O 0 {3,S}
-6 *2 O 0 {3,S} {7,S}
-7    O 1 {6,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8360000000000.0, 'cm^3/(mol*s)'),
-        n = -0.085,
-        Ea = (-567.2, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""CBS-QB3 w/ 1-d HR""",
-    longDesc = 
-u"""
-Reference: Low-Temperature Combustion Chemistry of n-Butanol: Principal Oxidation Pathways of Hydroxybutyl Radicals 
-DOI: 10.1021/jp403792t
-""",
-    history = [
-        ("Mon Nov 18 15:16:03 2013","Connie Gao <connieg@mit.edu>","action","""New entry. Updated rate rule for CCC[C]O + O2 = CCCC(O[O])O"""),
-    ],
-)
+
 
 entry(
     index = 4,

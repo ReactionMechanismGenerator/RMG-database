@@ -21,7 +21,7 @@ entry(
     label = "O",
     molecule = 
 """
-1     O     2T
+1 O 2T
 """,
     thermo = NASA(
         polynomials = [
@@ -48,8 +48,8 @@ entry(
     label = "O2",
     molecule = 
 """
-1     O     1 {2,S}
-2     O     1 {1,S}
+1 O 1 {2,S}
+2 O 1 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -76,7 +76,7 @@ entry(
     label = "H",
     molecule = 
 """
-1     H     1
+1 H 1
 """,
     thermo = NASA(
         polynomials = [
@@ -103,8 +103,8 @@ entry(
     label = "H2",
     molecule = 
 """
-1     H     0 {2,S}
-2     H     0 {1,S}
+1 H 0 {2,S}
+2 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -131,7 +131,8 @@ entry(
     label = "OH",
     molecule = 
 """
-1     O     1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -158,7 +159,9 @@ entry(
     label = "H2O",
     molecule = 
 """
-1     O     0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -185,8 +188,9 @@ entry(
     label = "HO2",
     molecule = 
 """
-1     O     0 {2,S}
-2     O     1 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -213,8 +217,10 @@ entry(
     label = "H2O2",
     molecule = 
 """
-1     O     0 {2,S}
-2     O     0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -238,10 +244,10 @@ u"""
 
 entry(
     index = 9,
-    label = "C",
+    label = "C(T)",
     molecule = 
 """
-1     C     4
+1 C 4T
 """,
     thermo = NASA(
         polynomials = [
@@ -268,7 +274,8 @@ entry(
     label = "CH",
     molecule = 
 """
-1     C     3
+1 C 3 {2,S}
+2 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -295,7 +302,9 @@ entry(
     label = "CH2",
     molecule = 
 """
-1     C     2T
+1 C 2T {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -322,7 +331,9 @@ entry(
     label = "CH2(S)",
     molecule = 
 """
-1     C     2S
+1 C 2S {2,S} {3,S}
+2 H 0  {1,S}
+3 H 0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -349,7 +360,10 @@ entry(
     label = "CH3",
     molecule = 
 """
-1     C     1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -376,7 +390,11 @@ entry(
     label = "CH4",
     molecule = 
 """
-1     C     0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -403,8 +421,8 @@ entry(
     label = "CO",
     molecule = 
 """
-1     C     2T {2,D}
-2     O     0 {1,D}
+1 C 2T {2,D}
+2 O 0  {1,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -431,9 +449,9 @@ entry(
     label = "CO2",
     molecule = 
 """
-1     O     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1 O 0 {2,D}
+2 C 0 {1,D} {3,D}
+3 O 0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -460,8 +478,9 @@ entry(
     label = "HCO",
     molecule = 
 """
-1     C     1 {2,D}
-2     O     0 {1,D}
+1 C 1 {2,D} {3,S}
+2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -488,8 +507,10 @@ entry(
     label = "CH2O",
     molecule = 
 """
-1     C     0 {2,D}
-2     O     0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -516,8 +537,11 @@ entry(
     label = "CH2OH",
     molecule = 
 """
-1     C     1 {2,S}
-2     O     0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 O 0 {1,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -544,8 +568,11 @@ entry(
     label = "CH3O",
     molecule = 
 """
-1     C     0 {2,S}
-2     O     1 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -577,8 +604,12 @@ entry(
     label = "CH3OH",
     molecule = 
 """
-1     C     0 {2,S}
-2     O     0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 {1,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -605,8 +636,9 @@ entry(
     label = "C2H",
     molecule = 
 """
-1     C     1 {2,T}
-2     C     0 {1,T}
+1 C 1 {2,T}
+2 C 0 {1,T} {3,S}
+3 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -633,8 +665,10 @@ entry(
     label = "C2H2",
     molecule = 
 """
-1     C     0 {2,T}
-2     C     0 {1,T}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -661,8 +695,11 @@ entry(
     label = "C2H3",
     molecule = 
 """
-1     C     1 {2,D}
-2     C     0 {1,D}
+1 C 1 {2,D} {3,S}
+2 C 0 {1,D} {4,S} {5,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -689,8 +726,12 @@ entry(
     label = "C2H4",
     molecule = 
 """
-1     C     0 {2,D}
-2     C     0 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 C 0 {1,D} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -717,8 +758,13 @@ entry(
     label = "C2H5",
     molecule = 
 """
-1     C     1 {2,S}
-2     C     0 {1,S}
+1 C 1 {2,S} {3,S} {4,S}
+2 C 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -745,8 +791,14 @@ entry(
     label = "C2H6",
     molecule = 
 """
-1     C     0 {2,S}
-2     C     0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -773,9 +825,11 @@ entry(
     label = "CH2CO",
     molecule = 
 """
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1 C 0 {2,D} {4,S} {5,S}
+2 C 0 {1,D} {3,D}
+3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -802,9 +856,10 @@ entry(
     label = "HCCO",
     molecule = 
 """
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1 C 1 {2,D} {4,S}
+2 C 0 {1,D} {3,D}
+3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -836,9 +891,11 @@ entry(
     label = "HCCOH",
     molecule = 
 """
-1     C     0 {2,T}
-2     C     0 {1,T} {3,S}
-3     O     0 {2,S}
+1 C 0 {2,T} {4,S}
+2 C 0 {1,T} {3,S}
+3 O 0 {2,S} {5,S}
+4 H 0 {1,S}
+5 H 0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -870,8 +927,10 @@ entry(
     label = "H2CN",
     molecule = 
 """
-1     C     0 {2,D}
-2     N     1 {1,D}
+1 C 0 {2,D} {3,S} {4,S}
+2 N 1 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -903,8 +962,9 @@ entry(
     label = "HCN",
     molecule = 
 """
-1     C     0 {2,T}
-2     N     0 {1,T}
+1 C 0 {2,T} {3,S}
+2 N 0 {1,T}
+3 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -931,8 +991,9 @@ entry(
     label = "HNO",
     molecule = 
 """
-1     N     0 {2,D}
-2     O     0 {1,D}
+1 N 0 {2,D} {3,S}
+2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -959,7 +1020,7 @@ entry(
     label = "N",
     molecule = 
 """
-1     N     3
+1 N 3
 """,
     thermo = NASA(
         polynomials = [
@@ -986,8 +1047,9 @@ entry(
     label = "NNH",
     molecule = 
 """
-1     N     1 {2,D}
-2     N     0 {1,D}
+1 N 1 {2,D}
+2 N 0 {1,D} {3,S}
+3 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1014,9 +1076,9 @@ entry(
     label = "N2O",
     molecule = 
 """
-1     N     1 {2,D}
-2     N     0 {1,D} {3,S}
-3     O     1 {2,S}
+1 N 1 {2,D}
+2 N 0 {1,D} {3,S}
+3 O 1 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1043,7 +1105,8 @@ entry(
     label = "NH",
     molecule = 
 """
-1     N     2S
+1 N 2S {2,S}
+2 H 0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1070,7 +1133,9 @@ entry(
     label = "NH2",
     molecule = 
 """
-1     N     1
+1 N 1 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1097,7 +1162,10 @@ entry(
     label = "NH3",
     molecule = 
 """
-1     N     0
+1 N 0 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1124,8 +1192,8 @@ entry(
     label = "NO",
     molecule = 
 """
-1     N     1 {2,D}
-2     O     0 {1,D}
+1 N 1 {2,D}
+2 O 0 {1,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -1152,9 +1220,9 @@ entry(
     label = "NO2",
     molecule = 
 """
-1     N     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     1 {1,S}
+1 N 0 {2,D} {3,S}
+2 O 0 {1,D}
+3 O 1 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1181,9 +1249,10 @@ entry(
     label = "HCNO",
     molecule = 
 """
-1     C     1 {2,D}
-2     N     0 {1,D} {3,S}
-3     O     1 {2,S}
+1 C 1 {2,D} {4,S}
+2 N 0 {1,D} {3,S}
+3 O 1 {2,S}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1215,9 +1284,10 @@ entry(
     label = "HOCN",
     molecule = 
 """
-1     O     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     N     0 {2,T}
+1 O 0 {2,S} {4,S}
+2 C 0 {1,S} {3,T}
+3 N 0 {2,T}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1249,9 +1319,10 @@ entry(
     label = "HNCO",
     molecule = 
 """
-1     N     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1 N 0 {2,D} {4,S}
+2 C 0 {1,D} {3,D}
+3 O 0 {2,D}
+4 H 0 {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1283,9 +1354,9 @@ entry(
     label = "NCO",
     molecule = 
 """
-1     N     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1 N 1 {2,D}
+2 C 0 {1,D} {3,D}
+3 O 0 {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -1312,8 +1383,8 @@ entry(
     label = "CN",
     molecule = 
 """
-1     N     0 {2,T}
-2     C     1 {1,T}
+1 N 0 {2,T}
+2 C 1 {1,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -1340,9 +1411,10 @@ entry(
     label = "HCNN",
     molecule = 
 """
-1     C     2S {2,S}
-2     N     0 {1,S} {3,D}
-3     N     1 {2,D}
+1 C 2S {2,S} {4,S}
+2 N 0  {1,S} {3,D}
+3 N 1  {2,D}
+4 H 0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1374,8 +1446,8 @@ entry(
     label = "N2",
     molecule = 
 """
-1     N     0 {2,T}
-2     N     0 {1,T}
+1 N 0 {2,T}
+2 N 0 {1,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -1407,7 +1479,7 @@ entry(
     label = "Ar",
     molecule = 
 """
-1     Ar    0
+1 Ar 0
 """,
     thermo = NASA(
         polynomials = [
@@ -1439,9 +1511,17 @@ entry(
     label = "C3H8",
     molecule = 
 """
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1  C 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 {1,S} {3,S} {7,S} {8,S}
+3  C 0 {2,S} {9,S} {10,S} {11,S}
+4  H 0 {1,S}
+5  H 0 {1,S}
+6  H 0 {1,S}
+7  H 0 {2,S}
+8  H 0 {2,S}
+9  H 0 {3,S}
+10 H 0 {3,S}
+11 H 0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1473,9 +1553,16 @@ entry(
     label = "C3H7",
     molecule = 
 """
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1  C 1 {2,S} {4,S} {5,S}
+2  C 0 {1,S} {3,S} {6,S} {7,S}
+3  C 0 {2,S} {8,S} {9,S} {10,S}
+4  H 0 {1,S}
+5  H 0 {1,S}
+6  H 0 {2,S}
+7  H 0 {2,S}
+8  H 0 {3,S}
+9  H 0 {3,S}
+10 H 0 {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1507,9 +1594,13 @@ entry(
     label = "CH3CHO",
     molecule = 
 """
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 {1,S} {3,D} {7,S}
+3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1536,9 +1627,12 @@ entry(
     label = "CH2CHO",
     molecule = 
 """
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1 C 1 {2,S} {4,S} {5,S}
+2 C 0 {1,S} {3,D} {6,S}
+3 O 0 {2,D}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
 """,
     thermo = NASA(
         polynomials = [

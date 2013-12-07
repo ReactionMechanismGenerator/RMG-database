@@ -13,10 +13,14 @@ entry(
     reactant1 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     product1 = 
 """
@@ -27,8 +31,12 @@ CO
     product2 = 
 """
 CH3OH
-1 O 0 {2,S}
-2 C 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 C 0 {1,S} {4,S} {5,S} {6,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
+6 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -69,22 +77,30 @@ entry(
     reactant1 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -110,10 +126,14 @@ entry(
     reactant1 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     product1 = 
 """
@@ -125,7 +145,11 @@ CO2
     product2 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -151,10 +175,13 @@ entry(
     reactant1 = 
 """
 Mofml
-1 C 0 {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
 2 C 1 {3,D} {4,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
 """,
     product1 = 
 """
@@ -166,7 +193,10 @@ CO2
     product2 = 
 """
 CH3j
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(2300000000.0, 's^-1'), n=1.09, Ea=(14.9, 'kcal/mol'), T0=(1, 'K')),
@@ -196,15 +226,21 @@ CO
 """
 CH3Oj
 1 O 1 {2,S}
-2 C 0 {1,S}
+2 C 0 {1,S} {3,S} {4,S} {5,S}
+3 H 0 {2,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     product1 = 
 """
 Mofml
-1 C 0 {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
 2 C 1 {3,D} {4,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -230,22 +266,28 @@ entry(
     reactant1 = 
 """
 HCjO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 Fmoml
-1 C 1 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 1 {4,S} {5,S} {6,S}
+2 C 0 {3,D} {4,S} {7,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(5030, 'cm^3/(mol*s)'), n=2.48, Ea=(9.32, 'kcal/mol'), T0=(1, 'K')),
@@ -271,10 +313,14 @@ Hj
     reactant2 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     product1 = 
 """
@@ -285,10 +331,13 @@ H2
     product2 = 
 """
 Mofml
-1 C 0 {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
 2 C 1 {3,D} {4,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(228000, 'cm^3/(mol*s)'), n=2.5, Ea=(6.56, 'kcal/mol'), T0=(1, 'K')),
@@ -315,10 +364,14 @@ Hj
     reactant2 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     product1 = 
 """
@@ -329,10 +382,13 @@ H2
     product2 = 
 """
 Fmoml
-1 C 1 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 1 {4,S} {5,S} {6,S}
+2 C 0 {3,D} {4,S} {7,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -358,28 +414,42 @@ entry(
     reactant1 = 
 """
 CH3j
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     product1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
 Mofml
-1 C 0 {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
 2 C 1 {3,D} {4,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.34, 'cm^3/(mol*s)'), n=2.82, Ea=(6.81, 'kcal/mol'), T0=(1, 'K')),
@@ -400,28 +470,42 @@ entry(
     reactant1 = 
 """
 CH3j
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     product1 = 
 """
 CH4
-1 C 0
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
 """,
     product2 = 
 """
 Fmoml
-1 C 1 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 1 {4,S} {5,S} {6,S}
+2 C 0 {3,D} {4,S} {7,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(0.257, 'cm^3/(mol*s)'), n=3.96, Ea=(8.02, 'kcal/mol'), T0=(1, 'K')),
@@ -443,21 +527,29 @@ entry(
 """
 CH3Oj
 1 O 1 {2,S}
-2 C 0 {1,S}
+2 C 0 {1,S} {3,S} {4,S} {5,S}
+3 H 0 {2,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     reactant2 = 
 """
 HCjO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -484,22 +576,30 @@ entry(
     reactant1 = 
 """
 CH3j
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 OjCHO
 1 O 1 {2,S}
-2 C 0 {1,S} {3,D}
+2 C 0 {1,S} {3,D} {4,S}
 3 O 0 {2,D}
+4 H 0 {2,S}
 """,
     product1 = 
 """
 Mfmt
-1 C 0 {4,S}
-2 C 0 {3,D} {4,S}
+1 C 0 {4,S} {5,S} {6,S} {7,S}
+2 C 0 {3,D} {4,S} {8,S}
 3 O 0 {2,D}
 4 O 0 {1,S} {2,S}
+5 H 0 {1,S}
+6 H 0 {1,S}
+7 H 0 {1,S}
+8 H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(

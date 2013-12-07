@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["X_H_or_Xrad_H", "Y_rad_birad"], products=["X_H_or_Xrad_H", "Y_rad_birad"], ownReverse=True)
+template(reactants=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad_quadrad"], products=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad_quadrad"], ownReverse=True)
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
@@ -18,8 +18,8 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "X_H_or_Xrad_H",
-    group = "OR{X_H, Xrad_H}",
+    label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
+    group = "OR{X_H, Xrad_H, Xbirad_H, Xtrirad_H}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -35,8 +35,8 @@ u"""
 
 entry(
     index = 2,
-    label = "Y_rad_birad",
-    group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
+    label = "Y_rad_birad_trirad_quadrad",
+    group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad, Y_1centerquadrad}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -97,9 +97,9 @@ entry(
     label = "Ct_H",
     group = 
 """
-1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
-3 *2 H 0 {1,S}
+1 *1 Ct    0 {2,T} {3,S}
+2    {C,N} 0 {1,T}
+3 *2 H     0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -330,9 +330,9 @@ entry(
     label = "O/H/OneDe",
     group = 
 """
-1 *1 O                0 {2,S} {3,S}
-2 *2 H                0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 O                        0 {2,S} {3,S}
+2 *2 H                        0 {1,S}
+3    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -640,10 +640,10 @@ entry(
     label = "Cd_pri",
     group = 
 """
-1 *1 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D}
-3 *2 H 0 {1,S}
-4    H 0 {1,S}
+1 *1 C     0 {2,D} {3,S} {4,S}
+2    {C,N} 0 {1,D}
+3 *2 H     0 {1,S}
+4    H     0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -3995,7 +3995,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,CO,O,S} 2T
+1 *3 R!H 2
 """,
     kinetics = None,
     reference = None,
@@ -4160,8 +4160,8 @@ entry(
     label = "Ct_rad",
     group = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 C     1 {2,T}
+2    {C,N} 0 {1,T}
 """,
     kinetics = None,
     reference = None,
@@ -4341,8 +4341,8 @@ entry(
     label = "O_rad/OneDe",
     group = 
 """
-1 *3 O                1 {2,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *3 O                        1 {2,S}
+2    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -8078,12 +8078,2028 @@ u"""
     ],
 )
 
+entry(
+    index = 400,
+    label = "N3s_rad",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    R   0 {1,S}
+3    R   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 401,
+    label = "N3s_rad/H2",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 402,
+    label = "N3s_H",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R   0 {1,S}
+4    R   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 403,
+    label = "InChI=1S/NO3/c2-1(3)4",
+    group = 
+"""
+1 *3 Os  1 {2,S}
+2    N5d 0 {1,S} {3,D} {4,S}
+3    Od  0 {2,D}
+4    Os  0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 404,
+    label = "Cd/H/NonDeN",
+    group = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    N 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 405,
+    label = "Cd/H/N",
+    group = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    N  0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 471,
+    label = "Cs/H3/OneDeN",
+    group = 
+"""
+1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
+2    {N3d,N5d} 0 {1,S}
+3 *2 H         0 {1,S}
+4    H         0 {1,S}
+5    H         0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 407,
+    label = "C/H2/NonDeN",
+    group = 
+"""
+1 *1 C          0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H          0 {1,S}
+3    H          0 {1,S}
+4    N          0 {1,S}
+5    {Cs,O,S,N} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 408,
+    label = "C/H/Cs2N",
+    group = 
+"""
+1 *1 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H      0 {1,S}
+3    N      0 {1,S}
+4    {Cs} 0 {1,S}
+5    {Cs} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 409,
+    label = "N3_H",
+    group = 
+"""
+1 *1 {N3s,N3d} 0 {2,S}
+2 *2 H         0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 410,
+    label = "NH3",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 411,
+    label = "N3s_pri_H",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    R!H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 412,
+    label = "N3s_sec_H",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R!H 0 {1,S}
+4    R!H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 413,
+    label = "N3d_H",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    R!H 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 414,
+    label = "N5_H",
+    group = 
+"""
+1 *1 {N5s,N5d,N5dd,N5t,N5b} 0 {2,S}
+2 *2 H                                0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 415,
+    label = "N5d_H",
+    group = 
+"""
+1 *1 {N5d} 0 {2,S}
+2 *2 H     0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 416,
+    label = "N3s_rad_H",
+    group = 
+"""
+1 *1 N3s 1 {2,S}
+2 *2 H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 417,
+    label = "NH2_rad_H",
+    group = 
+"""
+1 *1 N3s 1 {2,S} {3,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 418,
+    label = "N3s_rad_H_pri",
+    group = 
+"""
+1 *1 N3s     1 {2,S} {3,S}
+2 *2 H       0 {1,S}
+3    {C,N,O} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 419,
+    label = "Y_1centertrirad",
+    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 420,
+    label = "N3_atom_quartet",
+    group = 
+"""
+1 *3 N3s 3
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 421,
+    label = "CH_quartet",
+    group = 
+"""
+1 *3 C 3 {2,s}
+2    H 0 {1,s}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 422,
+    label = "NH_triplet",
+    group = 
+"""
+1 *3 N3s 2T {2,s}
+2    H    0 {1,s}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 423,
+    label = "Ct_rad/Ct",
+    group = 
+"""
+1 *3 Ct    1 {2,T}
+2    Ct    0 {1,T}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 424,
+    label = "Ct_rad/N",
+    group = 
+"""
+1 *3 Ct        1 {2,T}
+2    {N3t,N5t} 0 {1,T}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 425,
+    label = "CX_H_or_Xrad_H_Xbirad_Hrad",
+    group = 
+"""
+1 *3 Ct    1 {2,T}
+2    N3t   0 {1,T}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 425,
+    label = "O_rad/NonDeN",
+    group = 
+"""
+1 *3 O   1 {2,S}
+2    N3s 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 426,
+    label = "O_rad/OneDeN",
+    group = 
+"""
+1 *3 O         1 {2,S}
+2    {N3d,N5d} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 427,
+    label = "Cd_rad/NonDeN",
+    group = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    N 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 428,
+    label = "C_rad/H2/N",
+    group = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    N 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 429,
+    label = "C_rad/H/NonDeCN",
+    group = 
+"""
+1 *3 C      1 {2,S} {3,S} {4,S}
+2    H      0 {1,S}
+3    C      0 {1,S}
+4    N      0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 430,
+    label = "C_rad/H/NonDeCN",
+    group = 
+"""
+1 *3 C      1 {2,S} {3,S} {4,S}
+2    H      0 {1,S}
+3    C      0 {1,S}
+4    N      0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 431,
+    label = "C_rad/H/NonDeON",
+    group = 
+"""
+1 *3 C      1 {2,S} {3,S} {4,S}
+2    H      0 {1,S}
+3    O      0 {1,S}
+4    N      0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 432,
+    label = "C_rad/H/NonDeNN",
+    group = 
+"""
+1 *3 C      1 {2,S} {3,S} {4,S}
+2    H      0 {1,S}
+3    N      0 {1,S}
+4    N      0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 433,
+    label = "C_rad/H/OneDeN",
+    group = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    C 0 {1,S}
+4    N 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 434,
+    label = "N3_rad",
+    group = 
+"""
+1 *3 {N3s,N3d} 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 435,
+    label = "N3s_rad",
+    group = 
+"""
+1 *3 N3s 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 436,
+    label = "NH2_rad",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 437,
+    label = "N3s_rad_pri",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    R!H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 438,
+    label = "N3s_rad_sec",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    R!H 0 {1,S}
+3    R!H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 439,
+    label = "N3d_rad",
+    group = 
+"""
+1 *3 N3d 1 {2,D}
+2    R!H 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 440,
+    label = "N5_rad",
+    group = 
+"""
+1 *3 {N5s,N5d,N5t} 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 441,
+    label = "N5d_rad",
+    group = 
+"""
+1 *3 N5d 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 442,
+    label = "CH3_rad_H",
+    group = 
+"""
+1 *1 Cs 1 {2,S} {3,S} {4,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 443,
+    label = "OH_rad_H",
+    group = 
+"""
+1 *1 O  1 {2,S}
+2 *2 H  0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 444,
+    label = "Xbirad_H",
+    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 445,
+    label = "N_birad_H",
+    group = 
+"""
+1 *1 N 2 {2,S}
+2 *2 H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 446,
+    label = "N3d/H/NonDeC",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 447,
+    label = "N3d/H/NonDeO",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    O   0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 448,
+    label = "N3d/H/NonDeN",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    N3d 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 449,
+    label = "N3s_rad_H/H/NonDeN",
+    group = 
+"""
+1 *1 N3s 1 {2,S} {3,S}
+2 *2 H   0 {1,S}
+3    N3s 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 450,
+    label = "N3s/H2/NonDe",
+    group = 
+"""
+1 *1 N3s         0 {2,S} {3,S} {4,S}
+2 *2 H           0 {1,S}
+3    H           0 {1,S}
+4    {N3s,Cs,Os} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 451,
+    label = "N3s/H2/NonDeC",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    Cs  0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 452,
+    label = "N3s/H2/NonDeO",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    Os  0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 453,
+    label = "N3s/H2/NonDeN",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    N3s 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 454,
+    label = "O/H/OneDeC",
+    group = 
+"""
+1 *1 O                0 {2,S} {3,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 455,
+    label = "O/H/OneDeN",
+    group = 
+"""
+1 *1 O         0 {2,S} {3,S}
+2 *2 H         0 {1,S}
+3    {N3d,N5d} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 456,
+    label = "N5d/H/NonDeOO",
+    group = 
+"""
+1 *1 N5d 0 {2,S} {3,S} {4,D}
+2 *2 H   0 {1,S}
+3    Os  0 {1,S}
+4    Od  0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 457,
+    label = "Ct/H/NonDeC",
+    group = 
+"""
+1 *1 Ct 0 {2,S} {3,T}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,T}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 458,
+    label = "Ct/H/NonDeN",
+    group = 
+"""
+1 *1 Ct  0 {2,S} {3,T}
+2 *2 H   0 {1,S}
+3    N3t 0 {1,T}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 459,
+    label = "Cd/H2/NonDeC",
+    group = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 460,
+    label = "Cd/H2/NonDeN",
+    group = 
+"""
+1 *1 C   0 {2,D} {3,S} {4,S}
+2    N3d 0 {1,D}
+3 *2 H   0 {1,S}
+4    H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 461,
+    label = "Cs/H3/NonDeN",
+    group = 
+"""
+1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
+2    N3s 0 {1,S}
+3 *2 H   0 {1,S}
+4    H   0 {1,S}
+5    H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 462,
+    label = "N3d_rad/OneDe",
+    group = 
+"""
+1 *3 N3d  1 {2,D}
+2    {Cd} 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 463,
+    label = "N3d_rad/OneDeC",
+    group = 
+"""
+1 *3 N3d 1 {2,D}
+2    Cd  0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 464,
+    label = "N3d_rad/OneDeCdd-O",
+    group = 
+"""
+1 *3 N3d 1 {2,D}
+2    Cd  0 {1,D} {3,D}
+3    Od  0 {2,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 465,
+    label = "N3d/H/NonDe",
+    group = 
+"""
+1 *1 N3d         0 {2,S} {3,D}
+2 *2 H           0 {1,S}
+3    {N3d,Od} 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 466,
+    label = "N3d/H/OneDe",
+    group = 
+"""
+1 *1 N3d                0 {2,S} {3,D}
+2 *2 H                  0 {1,S}
+3    {Cd,Ct,Cb,N5d,N5t} 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 467,
+    label = "N3d/H/OneDeC",
+    group = 
+"""
+1 *1 N3d        0 {2,S} {3,D}
+2 *2 H          0 {1,S}
+3    {Cd,Ct,Cb} 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 468,
+    label = "N3d/H/OneDeN",
+    group = 
+"""
+1 *1 N3d       0 {2,S} {3,D}
+2 *2 H         0 {1,S}
+3    {N5d,N5t} 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 469,
+    label = "C_rad_H",
+    group = 
+"""
+1 *1 C 1 {2,S}
+2 *2 H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 470,
+    label = "Cs/H2/OneDeN",
+    group = 
+"""
+1 *1 C         1 {2,S} {3,S} {4,S}
+2 *2 H         0 {1,S}
+3    H         0 {1,S}
+4    {N3d,N5d} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 471,
+    label = "O/H/NonDeN",
+    group = 
+"""
+1 *1 O   0 {2,S} {3,S}
+2 *2 H   0 {1,S}
+3    N3s 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 472,
+    label = "N3s/H2/OneDe",
+    group = 
+"""
+1 *1 N3s       0 {2,S} {3,S} {4,S}
+2 *2 H         0 {1,S}
+3    H         0 {1,S}
+4    {N3d,N5d} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 473,
+    label = "N3s/H2/OneDeN",
+    group = 
+"""
+1 *1 N3s       0 {2,S} {3,S} {4,S}
+2 *2 H         0 {1,S}
+3    H         0 {1,S}
+4    {N3d,N5d} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 474,
+    label = "Xtrirad_H",
+    group = "OR{C_quartet_H, C_doublet_H}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 475,
+    label = "Y_1centerquadrad",
+    group = "OR{C_quintet, C_triplet, C_singlet}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 476,
+    label = "CH2_triplet_H",
+    group = 
+"""
+1 *1 C 2T {2,S} {3,S}
+2 *2 H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 477,
+    label = "CH2_singlet_H",
+    group = 
+"""
+1 *1 C 2S {2,S} {3,S}
+2 *2 H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 478,
+    label = "NH_triplet_H",
+    group = 
+"""
+1 *1 N 2T {2,S}
+2 *2 H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 479,
+    label = "NH_singlet_H",
+    group = 
+"""
+1 *1 N 2S {2,S}
+2 *2 H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 480,
+    label = "C_quartet_H",
+    group = 
+"""
+1 *1 C 3Q {2,S}
+2 *2 H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 481,
+    label = "C_doublet_H",
+    group = 
+"""
+1 *1 C 3D {2,S}
+2 *2 H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 482,
+    label = "C_quintet",
+    group = 
+"""
+1 *3 C 4V
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 483,
+    label = "C_triplet",
+    group = 
+"""
+1 *3 C 4T
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 484,
+    label = "C_singlet",
+    group = 
+"""
+1 *3 C 4S
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 485,
+    label = "N_atom_quartet",
+    group = 
+"""
+1 *3 N 3Q
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 486,
+    label = "N_atom_doublet",
+    group = 
+"""
+1 *3 N 3D
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 487,
+    label = "CH_quartet",
+    group = 
+"""
+1 *3 C 3Q {2,S}
+2    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 487,
+    label = "CH_doublet",
+    group = 
+"""
+1 *3 C 3D {2,S}
+2    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 488,
+    label = "O_atom_singlet",
+    group = 
+"""
+1 *3 O 2S
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 489,
+    label = "CH2_singlet",
+    group = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 490,
+    label = "NH_singlet",
+    group = 
+"""
+1 *3 N 2S {2,S}
+2    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+                                       
 tree(
 """
-L1: X_H_or_Xrad_H
+L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
     L2: X_H
         L3: H2
         L3: Ct_H
+            L4: Ct/H/NonDeC
+            L4: Ct/H/NonDeN
         L3: O_H
             L4: O_pri
             L4: O_sec
@@ -8093,7 +10109,10 @@ L1: X_H_or_Xrad_H
                     L6: ROOH_pri
                     L6: ROOH_sec
                     L6: ROOH_ter
+                L5: O/H/NonDeN
                 L5: O/H/OneDe
+                    L6: O/H/OneDeC
+                    L6: O/H/OneDeN
         L3: Orad_O_H
         L3: S_H
             L4: S_pri
@@ -8108,16 +10127,20 @@ L1: X_H_or_Xrad_H
                     L6: S/H/CO
         L3: Cd_H
             L4: Cd_pri
+                L5: Cd/H2/NonDeC
+                L5: Cd/H2/NonDeN
             L4: Cd_sec
                 L5: Cd/H/NonDeC
                 L5: Cd/H/NonDeO
                 L5: Cd/H/NonDeS
+                L5: Cd/H/NonDeN
                 L5: Cd/H/OneDe
                     L6: Cd/H/Cd
                         L7: Cd/H/CS
                     L6: Cd/H/Ct
                     L6: Cd/H/Cb
                     L6: Cd/H/CO
+                    L6: Cd/H/N
         L3: Cb_H
         L3: CO_H
             L4: CO_pri
@@ -8153,6 +10176,8 @@ L1: X_H_or_Xrad_H
                 L5: C/H3/CO
                 L5: C/H3/O
                 L5: C/H3/S
+                L5: Cs/H3/NonDeN
+                L5: Cs/H3/OneDeN
             L4: C_sec
                 L5: C/H2/NonDeC
                     L6: InChI=1/C3H8/c1-3-2/h3H2,1-2H3
@@ -8162,6 +10187,7 @@ L1: X_H_or_Xrad_H
                     L6: C/H2/O2
                 L5: C/H2/NonDeS
                     L6: C/H2/CsS
+                L5: C/H2/NonDeN
                 L5: C/H2/OneDe
                     L6: C/H2/OneDeC
                         L7: C/H2/CdCs
@@ -8196,6 +10222,7 @@ L1: X_H_or_Xrad_H
                 L5: C/H/NonDeC
                     L6: C/H/Cs3
                         L7: InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta
+                    L6: C/H/Cs2N
                     L6: C/H/NDMustO
                         L7: C/H/Cs2O
                         L7: C/H/CsO2
@@ -8242,18 +10269,71 @@ L1: X_H_or_Xrad_H
                     L6: C/H/TDMustS
                 L5: C/H/ThreeDe
                 L5: C/H/Cb
+        L3: N3_H
+            L4: N3s_H
+                L5: NH3
+                L5: N3s_pri_H
+                    L6: N3s/H2/NonDe
+                        L7: N3s/H2/NonDeC
+                        L7: N3s/H2/NonDeO
+                        L7: N3s/H2/NonDeN
+                    L6: N3s/H2/OneDe
+                        L7: N3s/H2/OneDeN
+                L5: N3s_sec_H
+            L4: N3d_H
+                L5: N3d/H/NonDe
+                    L6: N3d/H/NonDeC
+                    L6: N3d/H/NonDeO
+                    L6: N3d/H/NonDeN
+                L5: N3d/H/OneDe
+                    L6: N3d/H/OneDeC
+                    L6: N3d/H/OneDeN
+        L3: N5_H
+            L4: N5d_H
+                L5: N5d/H/NonDeOO
     L2: Xrad_H
+        L3: C_rad_H
+            L4: CH3_rad_H
+            L4: Cs/H2/OneDeN
+        L3: OH_rad_H
         L3: Srad_H
-L1: Y_rad_birad
+        L3: N3s_rad_H
+            L4: NH2_rad_H
+            L4: N3s_rad_H_pri
+                L5: N3s_rad_H/H/NonDeN
+    L2: Xbirad_H
+        L3: CH2_triplet_H
+        L3: CH2_singlet_H
+        L3: NH_triplet_H
+        L3: NH_singlet_H
+    L2: Xtrirad_H
+        L3: C_quartet_H
+        L3: C_doublet_H
+L1: Y_rad_birad_trirad_quadrad
+    L2: Y_1centerquadrad
+        L3: C_quintet
+        L3: C_triplet
+        L3: C_singlet
+    L2: Y_1centertrirad
+        L3: N_atom_quartet
+        L3: N_atom_doublet
+        L3: CH_quartet
+        L3: CH_doublet
     L2: Y_1centerbirad
         L3: O_atom_triplet
+        L3: O_atom_singlet
         L3: CH2_triplet
+        L3: CH2_singlet
+        L3: NH_triplet
+        L3: NH_singlet
     L2: Y_rad
         L3: H_rad
         L3: Y_2centeradjbirad
             L4: O2b
             L4: C2b
         L3: Ct_rad
+            L4: Ct_rad/Ct
+            L4: Ct_rad/N
         L3: O_rad
             L4: O_pri_rad
             L4: O_sec_rad
@@ -8261,9 +10341,12 @@ L1: Y_rad_birad
                     L6: InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3
                 L5: O_rad/NonDeO
                     L6: OOCH3
+                L5: O_rad/NonDeN
                 L5: O_rad/OneDe
                     L6: InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
                     L6: InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o
+                    L6: InChI=1S/NO3/c2-1(3)4
+                    L6: O_rad/OneDeN
         L3: S_rad
             L4: S_pri_rad
             L4: S_sec_rad
@@ -8285,6 +10368,7 @@ L1: Y_rad_birad
                     L6: InChI=1/C4H7/c1-3-4-2/h3H,1-2H3
                 L5: Cd_rad/NonDeO
                 L5: Cd_rad/NonDeS
+                L5: Cd_rad/NonDeN
                 L5: Cd_rad/OneDe
                     L6: Cd_rad/Cd
                         L7: Cd_rad/CS
@@ -8328,6 +10412,7 @@ L1: Y_rad_birad
                 L5: C_rad/H2/CO
                 L5: C_rad/H2/O
                 L5: C_rad/H2/S
+                L5: C_rad/H2/N
             L4: C_sec_rad
                 L5: C_rad/H/NonDeC
                     L6: InChI=1/C3H7/c1-3-2/h3H,1-2H3
@@ -8342,6 +10427,9 @@ L1: Y_rad_birad
                 L5: C_rad/H/NonDeS
                     L6: C_rad/H/CsS
                     L6: C_rad/H/S2
+                L5: C_rad/H/NonDeCN
+                L5: C_rad/H/NonDeON
+                L5: C_rad/H/NonDeNN
                 L5: C_rad/H/OneDe
                     L6: C_rad/H/OneDeC
                         L7: C_rad/H/CdCs
@@ -8354,6 +10442,7 @@ L1: Y_rad_birad
                     L6: C_rad/H/OneDeS
                         L7: C_rad/H/CdS
                         L7: C_rad/H/CtS
+                    L6: C_rad/H/OneDeN
                 L5: C_rad/H/TwoDe
                     L6: C_rad/H/CdCd
                         L7: C_rad/H/CdCS
@@ -8418,6 +10507,19 @@ L1: Y_rad_birad
                     L6: C_rad/TDMustO
                     L6: C_rad/TDMustS
                 L5: C_rad/ThreeDe
+        L3: N3_rad
+            L4: N3s_rad
+                L5: NH2_rad
+                L5: N3s_rad_pri
+                L5: N3s_rad_sec
+            L4: N3d_rad
+                L5: N3d_rad/OneDe
+                    L6: N3d_rad/OneDeC
+                        L7:N3d_rad/OneDeCdd-O
+        L3: N5_rad
+            L4: N5d_rad
 """
+
 )
+
 
