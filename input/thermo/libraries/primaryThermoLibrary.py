@@ -797,3 +797,98 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
     ],
 )
 
+
+
+entry(
+    index = 30,
+    label = "Cl2",
+    molecule = 
+"""
+1     Cl    0 {2,S}
+2     Cl    0 {1,S}
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.73638,0.00783526,-1.45105e-05,1.25731e-08,-4.13247e-12,-1058.8,9.44557]),
+            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[4.74728,-0.000488582,2.68445e-07,-2.43476e-11,-1.03683e-15,-1511.02,-0.344539]),
+        ],
+        Tmin = (200,"K"),
+        Tmax = (6000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""Burcat Thermo Data""",
+    longDesc = 
+u"""
+Burcat Thermo Data
+
+REFERENCE ELEMENT REF=Gurvich 1989 V1 py.1 p.177 HF298=0.00 kcal Max Lst 
+Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
+""",
+    history = [
+        ("Tue Sep 17 12:44:29 2013","Connie Gao <connieg@mit.edu>","action","""connieg added this entry to the database."""),
+    ],
+)
+
+entry(
+    index = 31,
+    label = "Cl",
+    molecule = 
+"""
+1     Cl    1
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.26062,0.00154154,-6.80284e-07,-1.59973e-09,1.15417e-12,13855.3,6.57021]),
+            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.94658,-0.000385985,1.36139e-07,-2.17033e-11,1.28751e-15,13697,3.1133]),
+        ],
+        Tmin = (200,"K"),
+        Tmax = (6000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""Burcat Thermo Data""",
+    longDesc = 
+u"""
+Burcat Thermo Data
+
+HF298=121.302+/-0.008 kJ HF0=119.633+/- 0.008 kJ  REF=JANAF  {HF298=121.302
++/-0.002 kJ  REF=ATcT A}
+""",
+    history = [
+        ("Tue Sep 17 12:44:29 2013","Connie Gao <connieg@mit.edu>","action","""connieg added this entry to the database."""),
+    ],
+)
+
+entry(
+    index = 32,
+    label = "HCl",
+    molecule = 
+"""
+1     Cl    0 {2,S}
+2     H     0 {1,S}
+""",
+    thermo = NASA(
+        polynomials=[
+            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[3.46376,0.000476484,-2.00301e-06,3.31714e-09,-1.44958e-12,-12144.4,2.66428]),
+            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.75758,0.00145387,-4.79647e-07,7.77909e-11,-4.79574e-15,-11913.8,6.52197]),
+        ],
+        Tmin = (200,"K"),
+        Tmax = (6000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""Burcat Thermo Data""",
+    longDesc = 
+u"""
+Burcat Thermo Data
+
+HYDROCHLORIC ACID CALCULATED FROM ORIGINAL TABLES  REF=Gurvich 1989
+HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @ 
+6000 K 0.17%
+""",
+    history = [
+        ("Tue Sep 17 12:44:29 2013","Connie Gao <connieg@mit.edu>","action","""connieg added this entry to the database."""),
+    ],
+)
+
