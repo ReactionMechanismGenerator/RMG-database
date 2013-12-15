@@ -118,12 +118,13 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([6.95,6.95,6.95,6.97,7.08,7.25,7.72],'cal/(mol*K)'),
         H298 = (8.76,'kcal/mol'),
-        S298 = (42.58,'cal/(mol*K)'),
+        S298 = (43.96,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
- level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC ===
+! NOTE THAT multiplicity = 4 because we do not account for the spin orbit coupling; hence 2 for spin degeneracy and 2 for spatial degeneracy.
 """,
     history = [
         ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
@@ -391,7 +392,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([8.86,9.86,10.64,11.27,12.25,12.93,13.82],'cal/(mol*K)'),
         H298 = (-93.92,'kcal/mol'),
-        S298 = (52.45,'cal/(mol*K)'),
+        S298 = (51.07,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1082,7 +1083,7 @@ entry(
         1 H 0 0 {3,S}
         2 H 0 0 {3,S}
         3 C 1 0 {1,S} {2,S} {4,S}
-        4 N 0 1 {3,S} {5,D} {6,S}
+        4 N 0 0 {3,S} {5,D} {6,S}
         5 O 0 2 {4,D}
         6 O 0 3 {4,S}
         """,
@@ -1200,6 +1201,33 @@ entry(
         Cpdata = ([13.18,15.06,16.80,18.35,20.93,22.93,26.10],'cal/(mol*K)'),
         H298 = (16.93,'kcal/mol'),
         S298 = (62.70,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 248,
+    label = "HOCHNH",
+    molecule =         """
+        1 H 0 0 {2,S}
+        2 O 0 2 {1,S} {3,S}
+        3 C 0 0 {2,S} {4,S} {5,D}
+        4 H 0 0 {3,S} 
+        5 N 0 1 {3,D} {6,S}
+        6 H 0 0 {5,S}
+        """,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.88,15.84,18.44,20.51,23.50,25.56,28.15],'cal/(mol*K)'),
+        H298 = (-34.05,'kcal/mol'),
+        S298 = (60.45,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1421,6 +1449,36 @@ entry(
         Cpdata = ([12.00,14.22,16.43,18.51,22.07,24.91,29.60],'cal/(mol*K)'),
         H298 = (-4.98,'kcal/mol'),
         S298 = (57.94,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 263,
+    label = "CH3NHNH2",
+    molecule =         """
+        1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+        2 H 0 0 {1,S}
+        3 H 0 0 {1,S}
+        4 H 0 0 {1,S}
+        5 N 0 1 {1,S} {6,S} {7,S}
+        6 H 0 0 {5,S}
+        7 N 0 1 {5,S} {8,S} {9,S}
+        8 H 0 0 {7,S}
+        9 H 0 0 {7,S}
+        """,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.77,21.27,24.20,26.76,30.98,34.20,39.32],'cal/(mol*K)'),
+        H298 = (22.76,'kcal/mol'),
+        S298 = (66.04,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1927,7 +1985,7 @@ entry(
     label = "NHJJ",
     molecule =         """
         1 H 0 0 {2,S}
-        2 N 2 1 {1,S}
+        2 N 2T 1 {1,S}
         """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2049,7 +2107,7 @@ entry(
     index = 325,
     label = "NOJ",
     molecule =         """
-        1 N 1 0 {2,D}
+        1 N 1 1 {2,D}
         2 O 0 2 {1,D}
         """,
     thermo = ThermoData(
@@ -2529,7 +2587,7 @@ entry(
     label = "HNO",
     molecule =         """
         1 H 0 0 {2,S}
-        2 N 0 0 {1,S} {3,D}
+        2 N 0 1 {1,S} {3,D}
         3 O 0 2 {2,D}
         """,
     thermo = ThermoData(
@@ -2661,7 +2719,7 @@ entry(
     index = 355,
     label = "ONNOJJ_cis",
     molecule = """
- 1 O 1 2 {2,S}
+1 O 1 2 {2,S}
 2 N 0 1 {1,S} {3,D}
 3 N 0 1 {2,D} {4,S}
 4 O 1 2 {3,S}
@@ -2890,7 +2948,7 @@ u"""
 
 entry(
     index = 370,
-    label = "CH3N singlet",
+    label = "CH3N(S)",
     molecule = """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
@@ -2902,7 +2960,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([9.19,10.49,11.90,13.28,15.67,17.42,20.15],'cal/(mol*K)'),
         H298 = (110.86,'kcal/mol'),
-        S298 = (52.48,'cal/(mol*K)'),
+        S298 = (54.66,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3047,7 +3105,7 @@ u"""
 
 entry(
     index = 376,
-    label = "HNCJJT",
+    label = "HNC(T)",
     molecule = """
 1 H 0 0 {2,S}
 2 N 0 1 {1,S} {3,D}
@@ -3361,6 +3419,32 @@ entry(
     longDesc = 
 u"""
  level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, not N=N rotor
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 431,
+    label = "NH2NO",
+    molecule = """
+1  N 0 1 {2,S} {3,S} {4,S}
+2  H 0 0 {1,S}
+3  H 0 0 {1,S}
+4  N 0 1 {1,S} {5,D}
+5  O 0 2 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.88,13.80,15.49,16.89,19.03,20.56,22.69],'cal/(mol*K)'),
+        H298 = (18.82,'kcal/mol'),
+        S298 = (59.74,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+ level of theory: 
 """,
     history = [
         ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
