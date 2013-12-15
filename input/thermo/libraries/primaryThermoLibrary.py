@@ -582,7 +582,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([8.621,9.648,10.941,12.344,14.887,16.967,20.535],'cal/(mol*K)'),
-        H298 = (17.814,'kcal/mol'),
+        H298 = (-17.814,'kcal/mol'),
         S298 = (44.473,'cal/(mol*K)'),
     ),
     reference = None,
@@ -751,8 +751,8 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([6.954,6.946,6.951,6.973,7.080,7.251,7.719],'cal/(mol*K)'),
-        H298 = (8.963,'kcal/mol'),
-        S298 = (42.581,'cal/(mol*K)'),
+        H298 = (8.863,'kcal/mol'),
+        S298 = (43.958,'cal/(mol*K)'),
     ),
     reference = None,
     referenceType = "",
