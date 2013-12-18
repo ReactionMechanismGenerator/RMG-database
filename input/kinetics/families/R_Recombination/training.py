@@ -263,3 +263,57 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 6,
+    label = "1962ASH/BUR253:5",
+    reactant1 = 
+"""
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
+""",
+    reactant2 = 
+"""
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
+""",
+    product1 = 
+"""
+1 *1 N 0 1 {2,S} {3,D}
+2 *2 O 0 2 {1,S} {4,S}
+3    O 0 2 {1,D}
+4    O 1 2 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (117000, 'm^3/(mol*s)', '*|/', -1),
+        n = 0,
+        Ea = (13.386, 'kJ/mol', '+|-', -0.001),
+        T0 = (1, 'K'),
+        Tmin = (473, 'K'),
+        Tmax = (703, 'K'),
+        Pmin = (1333, 'Pa'),
+        Pmax = (33600, 'Pa'),
+    ),
+    reference = Article(
+        authors = ["Ashmore, P.G.", "Burnett, M.G."],
+        title = u'Concurrent molecular and free radical mechanisms in the thermal decomposition of nitrogen dioxide',
+        journal = "J. Chem. Soc. Faraday Trans. 2",
+        volume = "58",
+        pages = """253""",
+        year = "1962",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962ASH/BUR253:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+Uncertainty: 3.0
+Bath gas: NO2
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Dec 18 12:01:41 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962ASH/BUR253:5"""),
+    ],
+)
+
