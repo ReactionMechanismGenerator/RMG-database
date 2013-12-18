@@ -158,8 +158,6 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
     ],
 )
 
-
-
 entry(
     index = 4,
     reactant1 = 
@@ -203,6 +201,65 @@ DOI: 10.1021/jp403792t
     history = [
         ("Mon Nov 18 15:16:03 2013","Connie Gao <connieg@mit.edu>","action","""New entry. Updated rate rule for CCC[C]O + O2 = CCCC(O[O])O"""),
         ("Tue Nov 19 13:18:37 2013","Connie Gao <connieg@mit.edu>","action","""Updated rate with atom starring in forward direction for CCC[C]O + O2 = CCCC(O[O])O"""),
+    ],
+)
+
+entry(
+    index = 5,
+    label = "1988BOR/COB4377-4384:1",
+    reactant1 = 
+"""
+1 * N 1 0 {2,S} {3,D}
+2   O 0 3 {1,S}
+3   O 0 2 {1,D}
+""",
+    reactant2 = 
+"""
+NO2
+1 * N 1 0 {2,D} {3,S}
+2   O 0 2 {1,D}
+3   O 0 3 {1,S}
+""",
+    product1 = 
+"""
+NO2NO2
+1 N 0 0 {2,S} {3,S} {4,D}
+2 N 0 0 {1,S} {5,D} {6,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 O 0 2 {2,D}
+6 O 0 3 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (263000000.0, 'm^3/(mol*s)', '+|-', 31600000.0),
+        n = -1.1,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (600, 'K'),
+        Pmin = (101000, 'Pa'),
+        Pmax = (20900000.0, 'Pa'),
+    ),
+    reference = Article(
+        authors = ["Borrell, P.", "Cobos, C.J.", "Luther, K."],
+        title = u'Falloff curve and specific rate constants for the reaction NO2 + NO2 N2O4',
+        journal = "J. Phys. Chem.",
+        volume = "92",
+        pages = """4377-4384""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988BOR/COB4377-4384:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+Bath gas: N2
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Dec 18 10:24:30 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988BOR/COB4377-4384:1"""),
     ],
 )
 
