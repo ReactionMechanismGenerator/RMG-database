@@ -268,22 +268,22 @@ entry(
     label = "1962ASH/BUR253:5",
     reactant1 = 
 """
-1 N 1 1 {2,D}
-2 O 0 2 {1,D}
+1 * N 1 1 {2,D}
+2   O 0 2 {1,D}
 """,
     reactant2 = 
 """
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+1 * O 1 2 {2,S}
+2   O 1 2 {1,S}
 """,
     product1 = 
 """
-1 *1 N 0 1 {2,S} {3,D}
-2 *2 O 0 2 {1,S} {4,S}
-3    O 0 2 {1,D}
-4    O 1 2 {2,S}
+1 N 0 1 {2,S} {3,D}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,D}
+4 O 1 2 {2,S}
 """,
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (117000, 'm^3/(mol*s)', '*|/', -1),
         n = 0,
@@ -314,6 +314,68 @@ Analytical technique: Pressure measurement
 """,
     history = [
         ("Wed Dec 18 12:01:41 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962ASH/BUR253:5"""),
+    ],
+)
+
+entry(
+    index = 7,
+    label = "2000HAH/LUT5098-5104:4",
+    reactant1 = 
+"""
+1 * N 1 0 {2,D} {3,S}
+2   O 0 2 {1,D}
+3   O 0 3 {1,S}
+""",
+    reactant2 = 
+"""
+1   N 0 0 {2,D} {3,S} {4,S}
+2   O 0 2 {1,D}
+3 * O 1 2 {1,S}
+4   O 0 3 {1,S}
+""",
+    product1 = 
+"""
+1 N 0 0 {3,S} {4,D} {5,S}
+2 N 0 0 {3,S} {6,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {1,D}
+5 O 0 3 {1,S}
+6 O 0 2 {2,D}
+7 O 0 3 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (366000, 'm^3/(mol*s)', '+|-', 57700),
+        n = 0.2,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (400, 'K'),
+        Pmin = (100000, 'Pa'),
+        Pmax = (90000000.0, 'Pa'),
+    ),
+    reference = Article(
+        authors = ["Hahn, J.", "Luther, K.", "Troe, J."],
+        title = u'Experimental and Theoretical Study of the Temperature and Pressure Dependences of the Recombination Reactions O+NO2(+M)\u2192\x92NO3(+M) and NO2+NO3(+M)\u2192\x92N-2O5(+M)',
+        journal = "Phys. Chem. Chem. Phys.",
+        pages = """5098-5104""",
+        year = "2000",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2000HAH/LUT5098-5104:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Pressure dependence: Rate constant is high pressure limit
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Flash photolysis (laser or conventional)
+Time resolution: In real time
+Analytical technique: Vis-UV absorption
+
+Theoretical modeling of k0, k∞ and Fc=0.38 exp(-T/4900K) led to consistency with the experimental data.
+""",
+    history = [
+        ("Wed Dec 18 14:36:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000HAH/LUT5098-5104:4"""),
     ],
 )
 
