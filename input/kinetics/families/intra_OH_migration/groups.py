@@ -40,7 +40,7 @@ entry(
     label = "Y_rad_out",
     group = 
 """
-1 *1 {Cd,Cs,Sid,Sis} 1
+1 *1 {Cd,Cs,Sid,Sis,N} 1
 """,
     kinetics = None,
     reference = None,
