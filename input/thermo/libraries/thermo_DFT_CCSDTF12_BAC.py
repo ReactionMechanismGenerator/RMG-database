@@ -2921,6 +2921,33 @@ u"""
 )
 
 entry(
+    index = 357,
+    label = "ONOONO",
+    molecule = """
+1 O 0 2 {2,D}
+2 N 0 1 {1,D} {3,S}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {5,S}
+5 N 0 1 {4,S} {6,D}
+6 O 0 2 {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([23.09,25.22,26.70,27.89,29.59,30.58,31.32],'cal/(mol*K)'),
+        H298 = (31.51,'kcal/mol'),
+        S298 = (76.59,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no O-O rotor
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
     index = 358,
     label = "HNO2",
     molecule = """
