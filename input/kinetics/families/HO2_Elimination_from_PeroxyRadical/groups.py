@@ -25,11 +25,11 @@ entry(
     label = "R2OO",
     group = 
 """
-1 *1 {C,Si,O} 0 {2,S} {5,S}
-2 *2 {C,Si}   0 {1,S} {3,S}
-3 *3 O        0 {2,S} {4,S}
-4 *4 O        1 {3,S}
-5 *5 H        0 {1,S}
+1 *1 {C,Si,O,N} 0 {2,S} {5,S}
+2 *2 {C,Si,N}   0 {1,S} {3,S}
+3 *3 O          0 {2,S} {4,S}
+4 *4 O          1 {3,S}
+5 *5 H          0 {1,S}
 """,
     kinetics = None,
     reference = None,
