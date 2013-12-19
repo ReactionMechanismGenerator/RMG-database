@@ -61,8 +61,8 @@ entry(
     label = "R_H",
     group = 
 """
-1 *2 {H,Cs,Cd,Cb,O,Sis,Sid} 0 {2,S}
-2 *3 H                      0 {1,S}
+1 *2 {H,Cs,Cd,Cb,O,Sis,Sid,N} 0 {2,S}
+2 *3 H                        0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -932,11 +932,11 @@ entry(
     label = "R_R'",
     group = 
 """
-1 *2 {Cs,Sis}           0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,Cb,Sis,Sid} 0 {1,S}
-3    H                  0 {1,S}
-4    H                  0 {1,S}
-5    H                  0 {1,S}
+1 *2 {Cs,Sis,N}           0 {2,S} {3,S} {4,S} {5,S}
+2 *3 {Cs,Cd,Cb,Sis,Sid,N} 0 {1,S}
+3    H                    0 {1,S}
+4    H                    0 {1,S}
+5    H                    0 {1,S}
 """,
     kinetics = None,
     reference = None,
