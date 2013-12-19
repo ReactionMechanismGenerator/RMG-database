@@ -40,8 +40,8 @@ entry(
     label = "multiplebond_intra",
     group =
 """
-1 *2 {Cd,Ct,CO} 0 {2,{D,T}}
-2 *3 {Cd,Ct,Od,Cdd} 0 {1,{D,T}}
+1 *2 {Cd,Ct,CO,N}     0 {2,{D,T}}
+2 *3 {Cd,Ct,Od,Cdd,N} 0 {1,{D,T}}
 """,
     kinetics = None,
     reference = None,
