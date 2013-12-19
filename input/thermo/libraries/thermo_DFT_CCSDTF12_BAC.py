@@ -1077,6 +1077,32 @@ u"""
 )
 
 entry(
+    index = 233,
+    label = "CH2NOJ",
+    molecule =         """
+        1 H 0 0 {3,S}
+        2 H 0 0 {3,S}
+        3 C 1 0 {1,S} {2,S} {4,S}
+        4 N 0 1 {3,S} {5,D}
+        5 O 0 2 {4,D}
+        """,
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.38,13.32,14.98,16.36,18.57,20.19,22.54],'cal/(mol*K)'),
+        H298 = (38.40,'kcal/mol'),
+        S298 = (60.57,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
     index = 235,
     label = "CH2NO2J",
     molecule =         """
@@ -3024,6 +3050,57 @@ u"""
 )
 
 entry(
+    index = 364,
+    label = "ONOOJ",
+    molecule = """
+1 O 0 2 {2,D}
+2 N 0 1 {1,D} {3,S}
+3 O 0 2 {2,S} {4,S}
+4 O 1 2 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([14.66,15.51,16.23,16.83,17.75,18.36,19.10],'cal/(mol*K)'),
+        H298 = (33.48,'kcal/mol'),
+        S298 = (70.59,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geometry, no rotors
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 365,
+    label = "NO2OOJ",
+    molecule = """
+1 N 0 1 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 0 2 {1,S} {5,S}
+5 O 1 2 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.15,18.62,20.27,21.39,22.94,23.81,24.41],'cal/(mol*K)'),
+        H298 = (51.01,'kcal/mol'),
+        S298 = (72.78,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geometry
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
     index = 368,
     label = "HNOO",
     molecule = """
@@ -3696,7 +3773,7 @@ u"""
 )
 
 entry(
-    index = 433,
+    index = 434,
     label = "NNH2(S)",
     molecule =         """
         1 N 0 0 {2,S} {3,S} {4,S}
