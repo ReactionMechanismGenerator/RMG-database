@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "elec_def",
-    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom}",
+    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom, imidogen}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -40,8 +40,8 @@ entry(
     label = "multiplebond",
     group = 
 """
-1 *1 {Cd,CO} 0 {2,D}
-2 *2 {Cd,O}  0 {1,D}
+1 *1 {Cd,CO,N} 0 {2,D}
+2 *2 {Cd,O,N}  0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -1008,6 +1008,27 @@ u"""
     ],
 )
 
+entry(
+    index = 42,
+    label = "imidogen",
+    group = 
+"""
+1 *3 N3s {2S,2T} {2,S}
+2    H   0       {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: elec_def
@@ -1016,6 +1037,7 @@ L1: elec_def
     L2: me_carbene
     L2: ph_carbene
     L2: dime_carbene
+    L2: imidogen
 L1: multiplebond
     L2: mb_carbonyl
         L3: mb_carbonyl_2H
