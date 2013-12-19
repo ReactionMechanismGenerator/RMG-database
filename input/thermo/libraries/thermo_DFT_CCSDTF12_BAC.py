@@ -3078,7 +3078,7 @@ entry(
     index = 365,
     label = "NO2OOJ",
     molecule = """
-1 N 0 1 {2,D} {3,S} {4,S}
+1 N 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 0 3 {1,S}
 4 O 0 2 {1,S} {5,S}
