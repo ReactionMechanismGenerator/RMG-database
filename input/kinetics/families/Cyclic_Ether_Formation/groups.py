@@ -60,11 +60,11 @@ entry(
     label = "R2OOH",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,S}
-3 *2 O                  0 {2,S} {4,S}
-4 *3 O                  0 {3,S} {5,S}
-5    H                  0 {4,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,S}
+3 *2 O                    0 {2,S} {4,S}
+4 *3 O                    0 {3,S} {5,S}
+5    H                    0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -156,8 +156,8 @@ entry(
     label = "R2OOR",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,S}
 3 *2 O                  0 {2,S} {4,S}
 4 *3 O                  0 {3,S} {5,S}
 5    R!H                0 {4,S}
@@ -252,12 +252,12 @@ entry(
     label = "R3OOH",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,{S,D}}
-3    {CO,Cd,Cs,Sid,Sis} 0 {2,{S,D}} {4,S}
-4 *2 O                  0 {3,S} {5,S}
-5 *3 O                  0 {4,S} {6,S}
-6    H                  0 {5,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,S}
+4 *2 O                    0 {3,S} {5,S}
+5 *3 O                    0 {4,S} {6,S}
+6    H                    0 {5,S}
 """,
     kinetics = None,
     reference = None,
@@ -377,9 +377,9 @@ entry(
     label = "R3OOR",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,{S,D}}
-3    {CO,Cd,Cs,Sid,Sis} 0 {2,{S,D}} {4,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,S}
 4 *2 O                  0 {3,S} {5,S}
 5 *3 O                  0 {4,S} {6,S}
 6    R!H                0 {5,S}
@@ -502,13 +502,13 @@ entry(
     label = "R4OOH",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,{S,D}}
-3    {CO,Cd,Cs,Sid,Sis} 0 {2,{S,D}} {4,{S,D}}
-4    {CO,Cd,Cs,Sid,Sis} 0 {3,{S,D}} {5,S}
-5 *2 O                  0 {4,S} {6,S}
-6 *3 O                  0 {5,S} {7,S}
-7    H                  0 {6,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,{S,D}}
+4    {CO,Cd,Cs,Sid,Sis,N} 0 {3,{S,D}} {5,S}
+5 *2 O                    0 {4,S} {6,S}
+6 *3 O                    0 {5,S} {7,S}
+7    H                    0 {6,S}
 """,
     kinetics = None,
     reference = None,
@@ -684,13 +684,13 @@ entry(
     label = "R4OOR",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,{S,D}}
-3    {CO,Cd,Cs,Sid,Sis} 0 {2,{S,D}} {4,{S,D}}
-4    {CO,Cd,Cs,Sid,Sis} 0 {3,{S,D}} {5,S}
-5 *2 O                  0 {4,S} {6,S}
-6 *3 O                  0 {5,S} {7,S}
-7    R!H                0 {6,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,{S,D}}
+4    {CO,Cd,Cs,Sid,Sis,N} 0 {3,{S,D}} {5,S}
+5 *2 O                    0 {4,S} {6,S}
+6 *3 O                    0 {5,S} {7,S}
+7    R!H                  0 {6,S}
 """,
     kinetics = None,
     reference = None,
@@ -866,14 +866,14 @@ entry(
     label = "R5OOH",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,{S,D}}
-3    {CO,Cd,Cs,Sid,Sis} 0 {2,{S,D}} {4,{S,D}}
-4    {CO,Cd,Cs,Sid,Sis} 0 {3,{S,D}} {5,{S,D}}
-5    {CO,Cd,Cs,Sid,Sis} 0 {4,{S,D}} {6,S}
-6 *2 O                  0 {5,S} {7,S}
-7 *3 O                  0 {6,S} {8,S}
-8    H                  0 {7,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,{S,D}}
+4    {CO,Cd,Cs,Sid,Sis,N} 0 {3,{S,D}} {5,{S,D}}
+5    {CO,Cd,Cs,Sid,Sis,N} 0 {4,{S,D}} {6,S}
+6 *2 O                    0 {5,S} {7,S}
+7 *3 O                    0 {6,S} {8,S}
+8    H                    0 {7,S}
 """,
     kinetics = None,
     reference = None,
@@ -1109,14 +1109,14 @@ entry(
     label = "R5OOR",
     group = 
 """
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,{S,D}}
-3    {CO,Cd,Cs,Sid,Sis} 0 {2,{S,D}} {4,{S,D}}
-4    {CO,Cd,Cs,Sid,Sis} 0 {3,{S,D}} {5,{S,D}}
-5    {CO,Cd,Cs,Sid,Sis} 0 {4,{S,D}} {6,S}
-6 *2 O                  0 {5,S} {7,S}
-7 *3 O                  0 {6,S} {8,S}
-8    R!H                0 {7,S}
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,{S,D}}
+4    {CO,Cd,Cs,Sid,Sis,N} 0 {3,{S,D}} {5,{S,D}}
+5    {CO,Cd,Cs,Sid,Sis,N} 0 {4,{S,D}} {6,S}
+6 *2 O                    0 {5,S} {7,S}
+7 *3 O                    0 {6,S} {8,S}
+8    R!H                  0 {7,S}
 """,
     kinetics = None,
     reference = None,
