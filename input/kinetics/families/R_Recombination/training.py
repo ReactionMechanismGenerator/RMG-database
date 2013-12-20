@@ -384,22 +384,22 @@ entry(
     label = "2007WIL/POG154321:2",
     reactant1 = 
 """
-1 N * 1 0 {2,D} {3,S}
-2 O   0 2 {1,D}
-3 O   0 3 {1,S}
+1 * N 1 0 {2,D} {3,S}
+2   O 0 2 {1,D}
+3   O 0 3 {1,S}
 """,
     reactant2 = 
 """
-1 O * 1 2 {2,S}
-2 H   0 0 {1,S}
+1 * O 1 2 {2,S}
+2   H 0 0 {1,S}
 """,
     product1 = 
 """
-1    N 0 0 {2,S} {3,D} {4,S}
-2    O 0 2 {1,S} {5,S}
-3    O 0 2 {1,D}
-4    O 0 3 {1,S}
-5    H 0 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -425,6 +425,60 @@ entry(
 u"""
 Pressure dependence: Rate constant is high pressure limit
 
+Quantum dynamics calculations. Reaction potential energy suraface was studied using quantum chemistry.
+""",
+    history = [
+        ("Fri Dec 20 17:45:27 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2"""),
+    ],
+)
+
+entry(
+    index = 9,
+    label = "2007WIL/POG154321:4",
+    reactant1 = 
+"""
+1   N 0 1 {2,D} {3,S}
+2   O 0 2 {1,D}
+3 * O 1 2 {1,S}
+""",
+    reactant2 = 
+"""
+1 * O 1 2 {2,S}
+2   H 0 0 {1,S}
+""",
+    product1 = 
+"""
+1 N 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
+5 H 0 0 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1205000.0, 'm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (200, 'K'),
+        Tmax = (400, 'K'),
+    ),
+    reference = Article(
+        authors = ["Williams, C.F.", "Pogrebnya, S.K.", "Clary, D.C."],
+        title = u'Quantum study on the branching ratio of the reaction NO2+OH',
+        journal = "J. Chem. Phys.",
+        volume = "126",
+        pages = """154321""",
+        year = "2007",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+Pressure dependence: Rate constant is high pressure limit
+Reference reaction: 2007WIL/POG154321:4
+Branching ration: 0.05
 Quantum dynamics calculations. Reaction potential energy suraface was studied using quantum chemistry.
 """,
     history = [
