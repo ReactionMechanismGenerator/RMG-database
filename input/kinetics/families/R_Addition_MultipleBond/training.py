@@ -298,3 +298,51 @@ N2 bath gas. Rates valid between 800 - 1500 K. Uncertainties range from 1.5-3 de
     ],
 )
 
+entry(
+    index = 6,
+    label = "2014/Dames",
+    reactant1 = 
+"""
+1 C 0 {2,S}
+2 C 1 {1,S} {3,S}
+3 O 0 {2,S}
+""",
+    product1 = 
+"""
+1 C 0 {2,D} {3,S}
+2 C 0 {1,D}
+3 O 0 {1,S}
+""",
+    product2 = 
+"""
+1 H 1
+""",
+    degeneracy = 1,
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(6360000000.0, 's^-1'), n=1.33, Ea=(35975, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(
+            A = (818000000000000.0, 'cm^3/(mol*s)'),
+            n = 0,
+            Ea = (21512, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        alpha = 0.4731,
+        T3 = (10, 'K'),
+        T1 = (2218, 'K'),
+        T2 = (2615, 'K'),
+        efficiencies = {},
+        comment = 'Dames 2014',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Dames 2014 IJCK
+N2 bath gas. Rates valid between 800 - 1500 K. Uncertainties range from 1.5-3 depending on T and P (see original text)
+""",
+    history = [
+        ("Fri Jan 10 17:27:58 2014","enoch dames <enoch.dames@gmail.com>","action","""New entry. added reaction of CH3CHOH=C2H3OH+H"""),
+    ],
+)
+
