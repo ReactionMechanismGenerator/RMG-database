@@ -135,6 +135,56 @@ entry(
             A = (73700000000.0, 's^-1'),
             n = 0.811,
             Ea = (39578, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        arrheniusLow = Arrhenius(
+            A = (3.5e+21, 'cm^3/(mol*s)'),
+            n = -1.99,
+            Ea = (24000, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        alpha = 0.844,
+        T3 = (900, 'K'),
+        T1 = (1, 'K'),
+        T2 = (3315, 'K'),
+        efficiencies = {'C': 2.0, 'CO': 3.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5},
+        comment = 'Dames and Golden 2013',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Dames and Golden 2013
+""",
+    history = [
+        ("Fri Jan 10 15:08:46 2014","enoch dames <enoch.dames@gmail.com>","action","""New entry. test_reaction update """),
+        ("Fri Jan 10 15:30:54 2014","enoch dames <enoch.dames@gmail.com>","action","""corrected T0 for kinf and klow (although it seems they were changed from 1 K to 1000 K automatically during first submit)"""),
+    ],
+)
+
+entry(
+    index = 3,
+    reactant1 = 
+"""
+1 C 1 {2,S}
+2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 C 0 {2,D}
+2 O 0 {1,D}
+""",
+    product2 = 
+"""
+1 H 1
+""",
+    degeneracy = 1,
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(
+            A = (73700000000.0, 's^-1'),
+            n = 0.811,
+            Ea = (39578, 'cal/mol'),
             T0 = (1000, 'K'),
         ),
         arrheniusLow = Arrhenius(
