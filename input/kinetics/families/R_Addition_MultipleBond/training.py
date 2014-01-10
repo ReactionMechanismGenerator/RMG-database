@@ -135,13 +135,13 @@ entry(
             A = (73700000000.0, 's^-1'),
             n = 0.811,
             Ea = (39578, 'cal/mol'),
-            T0 = (1, 'K'),
+            T0 = (1000, 'K'),
         ),
         arrheniusLow = Arrhenius(
             A = (3.5e+21, 'cm^3/(mol*s)'),
             n = -1.99,
             Ea = (24000, 'cal/mol'),
-            T0 = (1, 'K'),
+            T0 = (1000, 'K'),
         ),
         alpha = 0.844,
         T3 = (900, 'K'),
@@ -159,16 +159,16 @@ Dames and Golden 2013
 """,
     history = [
         ("Fri Jan 10 15:08:46 2014","enoch dames <enoch.dames@gmail.com>","action","""New entry. test_reaction update """),
-        ("Fri Jan 10 15:30:54 2014","enoch dames <enoch.dames@gmail.com>","action","""corrected T0 for kinf and klow (although it seems they were changed from 1 K to 1000 K automatically during first submit)"""),
     ],
 )
 
 entry(
-    index = 3,
+    index = 4,
     reactant1 = 
 """
-1 C 1 {2,S}
-2 O 0 {1,S}
+1 C 0 {2,S}
+2 C 0 {1,S} {3,S}
+3 O 1 {2,S}
 """,
     product1 = 
 """
@@ -177,38 +177,31 @@ entry(
 """,
     product2 = 
 """
-1 H 1
+1 C 1
 """,
     degeneracy = 1,
     kinetics = Troe(
-        arrheniusHigh = Arrhenius(
-            A = (73700000000.0, 's^-1'),
-            n = 0.811,
-            Ea = (39578, 'cal/mol'),
-            T0 = (1000, 'K'),
-        ),
-        arrheniusLow = Arrhenius(
-            A = (3.5e+21, 'cm^3/(mol*s)'),
-            n = -1.99,
-            Ea = (24000, 'cal/mol'),
-            T0 = (1000, 'K'),
-        ),
-        alpha = 0.844,
-        T3 = (900, 'K'),
-        T1 = (1, 'K'),
-        T2 = (3315, 'K'),
-        efficiencies = {'C': 2.0, 'CO': 3.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5},
-        comment = 'Dames and Golden 2013',
+        arrheniusHigh = Arrhenius(A=(63100000000.0, 's^-1'), n=0.93, Ea=(17099, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(A=(4.7e+25, 'cm^3/(mol*s)'), n=-3, Ea=(16533, 'cal/mol'), T0=(1, 'K')),
+        alpha = 0.426,
+        T3 = (0.3, 'K'),
+        T1 = (2278, 'K'),
+        T2 = (100000, 'K'),
+        efficiencies = {},
+        comment = 'Dames 2014',
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-Dames and Golden 2013
+Dames 2014 IJCK
+N2 bath gas. 
+Rates valid between 470 - 1200 K. Uncertainties range from 1.5-3 depending on T and P (see original text).
+This is a strongly dominant channel.
 """,
     history = [
-        ("Fri Jan 10 15:08:46 2014","enoch dames <enoch.dames@gmail.com>","action","""New entry. test_reaction update """),
+        ("Fri Jan 10 16:46:44 2014","enoch dames <enoch.dames@gmail.com>","action","""New entry. test_new and improved ethoxy decomp rate in N2 """),
     ],
 )
 
