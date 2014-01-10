@@ -250,3 +250,51 @@ This is a strongly dominant channel.
     ],
 )
 
+entry(
+    index = 5,
+    label = "2014/Dames",
+    reactant1 = 
+"""
+1 C 0 {2,S}
+2 C 1 {1,S} {3,S}
+3 O 0 {2,S}
+""",
+    product1 = 
+"""
+1 C 0 {2,S}
+2 C 0 {1,S} {3,D}
+3 O 0 {2,D}
+""",
+    product2 = 
+"""
+1 H 1
+""",
+    degeneracy = 1,
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(6170000000.0, 's^-1'), n=1.31, Ea=(33759, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(
+            A = (1.767e+16, 'cm^3/(mol*s)'),
+            n = 0,
+            Ea = (20782, 'cal/mol'),
+            T0 = (1, 'K'),
+        ),
+        alpha = 0.1868,
+        T3 = (65.19, 'K'),
+        T1 = (2568, 'K'),
+        T2 = (41226, 'K'),
+        efficiencies = {},
+        comment = 'Dames 2014',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Dames 2014 IJCK
+N2 bath gas. Rates valid between 800 - 1500 K. Uncertainties range from 1.5-3 depending on T and P (see original text)
+""",
+    history = [
+        ("Fri Jan 10 17:22:15 2014","enoch dames <enoch.dames@gmail.com>","action","""New entry. added reaction of CH3CHOH=CH3CHO+H"""),
+    ],
+)
+
