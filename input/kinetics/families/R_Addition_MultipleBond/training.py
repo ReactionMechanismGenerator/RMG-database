@@ -205,3 +205,48 @@ This is a strongly dominant channel.
     ],
 )
 
+entry(
+    index = 4,
+    label = "2014/Dames",
+    reactant1 = 
+"""
+1 C 0 {2,S}
+2 C 0 {1,S} {3,S}
+3 O 1 {2,S}
+""",
+    product1 = 
+"""
+1 C 0 {2,D}
+2 O 0 {1,D}
+""",
+    product2 = 
+"""
+1 C 1
+""",
+    degeneracy = 1,
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(63100000000.0, 's^-1'), n=0.93, Ea=(17099, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow = Arrhenius(A=(4.7e+25, 'cm^3/(mol*s)'), n=-3, Ea=(16533, 'cal/mol'), T0=(1, 'K')),
+        alpha = 0.426,
+        T3 = (0.3, 'K'),
+        T1 = (2278, 'K'),
+        T2 = (100000, 'K'),
+        efficiencies = {},
+        comment = 'Dames 2014',
+    ),
+    reference = None,
+    referenceType = "theory",
+    shortDesc = u"""RRKM/MasterEquation calculation""",
+    longDesc = 
+u"""
+Dames 2014 IJCK
+N2 bath gas. 
+Rates valid between 470 - 1200 K. Uncertainties range from 1.5-3 depending on T and P (see original text).
+This is a strongly dominant channel.
+""",
+    history = [
+        ("Fri Jan 10 16:46:44 2014","enoch dames <enoch.dames@gmail.com>","action","""New entry. test_new and improved ethoxy decomp rate in N2 """),
+        ("Fri Jan 10 16:55:55 2014","enoch dames <enoch.dames@gmail.com>","action","""added labels"""),
+    ],
+)
+
