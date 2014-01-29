@@ -38,7 +38,7 @@ def getUsername():
     if name:
         name = name.strip()
     else:
-        print "Couldn't find user.name from git. Please fill in user info manually"
+        raise Exception("Couldn't find user.name from git. Please add user info to git or fill user info manually.")
 
     try:
         p=subprocess.Popen('git config --get user.email'.split(),
@@ -49,7 +49,7 @@ def getUsername():
     if email:
         email = email.strip()
     else:
-        print "Couldn't find user.email from git. Please fill in email manually."
+        raise Exception("Couldn't find user.email from git. Please add email to git or fill email info manually.")
     
     return '{0} <{1}>'.format(name,email)
 
@@ -98,11 +98,8 @@ if __name__ == '__main__':
     #figure out the username
     user = getUsername()    
     # Comment out the line above and uncomment the one below, filling in user information manually if 
-    # it cannot be obtained from git.
+    # it cannot be obtained from git or you do not want to extract user info from git.
     # user = "John Doe <john@email.com>"        
-    
-    if not user.strip():
-        raise Exception("Was not able to obtain user and email information from git.  Please fill in user information manually in script.")
         
 
     # Set the import and export paths
