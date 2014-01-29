@@ -28,14 +28,7 @@ def getUsername():
     """
     name = ''
     email = ''
-    try:
-        login = os.getlogin()
-    except OSError:
-        try:
-            import pwd
-            login = pwd.getpwuid(os.geteuid()).pw_name
-        except:
-            login = "unknown"
+
     try:
         p=subprocess.Popen('git config --get user.name'.split(),
                 stdout=subprocess.PIPE)
@@ -45,8 +38,7 @@ def getUsername():
     if name:
         name = name.strip()
     else:
-        print "Couldn't find user.name from git."
-        name = login
+        print "Couldn't find user.name from git. Please fill in user info manually"
 
     try:
         p=subprocess.Popen('git config --get user.email'.split(),
@@ -57,8 +49,7 @@ def getUsername():
     if email:
         email = email.strip()
     else:
-        print "Couldn't find user.email from git."
-        email = login + "@" + os.uname()[1]
+        print "Couldn't find user.email from git. Please fill in email manually."
     
     return '{0} <{1}>'.format(name,email)
 
@@ -70,7 +61,7 @@ def setHistory(database, user):
     # Add history item to each entry in each database
     event = [time.asctime(),user,'action','{0} imported this entry from the old RMG database.'.format(user)]
     
-    for depository in database.thermo.depository.values():
+    for depository in database.thermo.depositohatry.values():
         for label, entry in depository.entries.iteritems():
             entry.history.append(event)
     for library in database.thermo.libraries.values():
@@ -105,7 +96,14 @@ def setHistory(database, user):
 if __name__ == '__main__':
     
     #figure out the username
-    user = getUsername()
+    user = getUsername()    
+    # Comment out the line above and uncomment the one below, filling in user information manually if 
+    # it cannot be obtained from git.
+    # user = "John Doe <john@email.com>"        
+    
+    if not user.strip():
+        raise Exception("Was not able to obtain user and email information from git.  Please fill in user information manually in script.")
+        
 
     # Set the import and export paths
     oldPath = 'output/RMG_database'
