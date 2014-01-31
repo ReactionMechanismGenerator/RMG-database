@@ -60,8 +60,8 @@ def setHistory(database, user):
     """
     # Add history item to each entry in each database
     event = [time.asctime(),user,'action','{0} imported this entry from the old RMG database.'.format(user)]
-    
-    for depository in database.thermo.depositohatry.values():
+
+    for depository in database.thermo.depository.values():
         for label, entry in depository.entries.iteritems():
             entry.history.append(event)
     for library in database.thermo.libraries.values():
