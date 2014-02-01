@@ -147,18 +147,17 @@ def setHistory(database, current_database, user):
                 for item in entry:
                     item.history.append(event_new)
                 continue # next in for loop
-            for item in entry:
-                if old_entry.index == item.index:
-                    "Found what's meant to be the same thing"
-                    item.history.extend(old_entry.history)
-                    if compare(old_entry, item, family.rules.saveEntry):
-                        print key, label, "has not changed."
-                    else:
-                        item.history.append(event)
-                    break
+            if old_entry.index == item.index:
+                # This isn't working
+                print "Found what's meant to be the same thing"
+                item.history.extend(old_entry.history)
+                if compare(old_entry, item, family.rules.saveEntry):
+                    print key, label, "has not changed."
                 else:
-                    "Couldn't find what was meant to be the same thing"
-                    item.history.append(event_new)
+                    item.history.append(event)
+            else:
+                "Couldn't find what was meant to be the same thing"
+                item.history.append(event_new)
 
         for depository in family.depositories.values():
             for label, entry in depository.entries.iteritems():
@@ -171,15 +170,17 @@ def setHistory(database, current_database, user):
         except KeyError:
             old_library = {}
         for label, entry in library.entries.iteritems():
+            #print "What is the label?",label
+            # is this useful for looking things up?
             try:
                 old_entry = old_library[label]
             except KeyError:
                 entry.history.append(event_new)
                 continue # next in for loop
+            entry.history.extend(old_entry.history)
             if compare(old_entry, entry, library.saveEntry):
                 print key, label, "has not changed."
             else:
-                entry.history.extend(old_entry.history)
                 entry.history.append(event)
 
 
