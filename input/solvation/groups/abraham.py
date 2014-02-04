@@ -7,6 +7,65 @@ longDesc = u"""
 
 """
 
+entry(
+    index = -8,
+    label = "N",
+    group = 
+"""
+1 * N 0
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = -7,
+    label = "N3s",
+    group = 
+"""
+1 * N3s 0
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = -6,
+    label = "N3d",
+    group = 
+"""
+1 * N3d 0
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = -5,
+    label = "N3t",
+    group = 
+"""
+1 * N3t 0
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
 
 entry(
     index = -4,
@@ -393,7 +452,52 @@ Cb is attached to a 3rd R group that isn't in the ring, as in phenol.
 """
 )
 
+entry(
+      index = 19,
+      label = "Nb",
+      group =
+"""
+1 * Nb 0
+""",
+    solute = SoluteData(
+         S =  0.254,
+         B =  0.596,
+         E =  0.121,
+         L =  -0.24,
+         A =  0,
+    ),
+    shortDesc = u"""Platts group 19 =N sp2 cyclic""",
+    longDesc = 
+u"""
 
+"""
+)
+
+entry(
+      index = 20,
+      label = "Nbpyr",
+      group =
+"""
+1 * Nb 0 {2,B} {6,B}
+2   Cb 0 {1,B} {3,B}
+3   Cb 0 {2,B} {4,B}
+4   Cb 0 {3,B} {5,B}
+5   Cb 0 {4,B} {6,B}
+6   Cb 0 {1,B} {5,B}
+""",
+    solute = SoluteData(
+         S =  0.223,
+         B =  0.321,
+         E =  0.046,
+         L =  0.574,
+         A =  0,
+    ),
+    shortDesc = u"""Platts group 20 pyridine""",
+    longDesc = 
+u"""
+
+"""
+)
 
 entry(
 	index = 24,
@@ -496,6 +600,438 @@ u"""
 )
 
 entry(
+        index = 37,
+        label = "N3sH2",
+        group =
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   H   0 {1,S}
+4   R   0 {1,S}
+""",
+solute = SoluteData(
+         S =  0.175,
+         B =  0.481,
+         E =  0.085,
+         L =  0.781,
+         A =  0.177
+    ),
+    shortDesc = u"""Platts fragment 10 -NH2 (fragment 3 for A)""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+        index = 38,
+        label = "N3sH",
+        group =
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   R!H 0 {1,S}
+4   R!H   0 {1,S}
+""",
+solute = SoluteData(
+         S =  0.265,
+         B =  0.541,
+         E =  0.138,
+         L =  0.568,
+         A =  0.087
+    ),
+    shortDesc = u"""Platts fragment 12 >NH (fragment 5 for A)""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+        index = 39,
+        label = "N3s-noH",
+        group =
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
+""",
+solute = SoluteData(
+         S =  0.323,
+         B =  0.653,
+         E =  0.22,
+         L =  0.4,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 15 >N-""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+        index = 40,
+        label = "N3d",
+        group =
+"""
+1 * N3d 0
+""",
+solute = SoluteData(
+         S =  0.125,
+         B =  0.2,
+         E =  0.117,
+         L =  -0.235,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 18 =N""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+        index = 41,
+        label = "N3t",
+        group =
+"""
+1 * N3t 0 {2,T}
+2   Ct  0 {1,T}
+""",
+solute = SoluteData(
+         S =  0.694,
+         B =  0.242,
+         E =  0.0,
+         L =  0.757,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 21 N#C-""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+        index = 42,
+        label = "NO2",
+        group =
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   R   0 {1,S}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+""",
+solute = SoluteData(
+         S =  0.0,
+         B =  -0.476,
+         E =  0.2,
+         L =  0.278,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 23 -NO2""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+        index = 43,
+        label = "N3sH2-aromatic",
+        group = "OR{N3sH2-Cb, N3sH2-N5ring}"),
+        solute = SoluteData(
+         S =  0.383,
+         B =  0.275,
+         E =  0.163,
+         L =  0.949,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 11""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+    index = 44,
+    label = "N3sH2-Cb",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   H        0 {1,S}
+3   H        0 {1,S}
+4   Cb       0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,B} {7,B}
+6   {Cb, Nb} 0 {4,B} {8,B}
+7   {Cb, Nb} 0 {5,B} {9,B}
+8   {Cb, Nb} 0 {6,B} {9,B}
+9   {Cb, Nb} 0 {7,B} {8,B}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = 45,
+    label = "N3sH2-N5ring",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   H        0 {1,S}
+3   H        0 {1,S}
+4   N3s      0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,S} {7,B}
+6   {Cb, Nb} 0 {4,S} {8,B}
+7   {Cb, Nb} 0 {5,B} {8,B}
+8   {Cb, Nb} 0 {6,B} {7,B}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+        index = 46,
+        label = "N3sH-aromatic",
+        group = "OR{N3sH-Cb, N3sH-N5ring}"),
+        solute = SoluteData(
+         S =  0.311,
+         B =  0.415,
+         E =  0.192,
+         L =  0.912,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 13""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+    index = 47,
+    label = "N3sH-Cb",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   H        0 {1,S}
+3   R!H      0 {1,S}
+4   Cb       0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,B} {7,B}
+6   {Cb, Nb} 0 {4,B} {8,B}
+7   {Cb, Nb} 0 {5,B} {9,B}
+8   {Cb, Nb} 0 {6,B} {9,B}
+9   {Cb, Nb} 0 {7,B} {8,B}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = 48,
+    label = "N3sH-N5ring",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   H        0 {1,S}
+3   R!H      0 {1,S}
+4   N3s      0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,S} {7,B}
+6   {Cb, Nb} 0 {4,S} {8,B}
+7   {Cb, Nb} 0 {5,B} {8,B}
+8   {Cb, Nb} 0 {6,B} {7,B}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+        index = 49,
+        label = "N3s-noH-aromatic",
+        group = "OR{N3s-noH-Cb, N3s-noH-N5ring}"),
+        solute = SoluteData(
+         S =  0.295,
+         B =  0.321,
+         E =  0.346,
+         L =  0.869,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 16""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+    index = 50,
+    label = "N3s-noH-Cb",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   R!H        0 {1,S}
+3   R!H      0 {1,S}
+4   Cb       0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,B} {7,B}
+6   {Cb, Nb} 0 {4,B} {8,B}
+7   {Cb, Nb} 0 {5,B} {9,B}
+8   {Cb, Nb} 0 {6,B} {9,B}
+9   {Cb, Nb} 0 {7,B} {8,B}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = 51,
+    label = "N3s-noH-N5ring",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   R!H      0 {1,S}
+3   R!H      0 {1,S}
+4   N3s      0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,S} {7,B}
+6   {Cb, Nb} 0 {4,S} {8,B}
+7   {Cb, Nb} 0 {5,B} {8,B}
+8   {Cb, Nb} 0 {6,B} {7,B}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+
+entry(
+    index = 52,
+    label = "NO2-Cb",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   Os       0 {1,S}
+3   Os       0 {1,S}
+4   Cb       0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,B} {7,B}
+6   {Cb, Nb} 0 {4,B} {8,B}
+7   {Cb, Nb} 0 {5,B} {9,B}
+8   {Cb, Nb} 0 {6,B} {9,B}
+9   {Cb, Nb} 0 {7,B} {8,B}
+""",
+    solute = SoluteData(
+         S =  -0.231,
+         B =  -0.525,
+         E =  0.21,
+         L =  0.347,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 24""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = 53,
+    label = "NO2-N5ring",
+    group = 
+"""
+1 * N3s      0 {2,S} {3,S} {4,S}
+2   Os       0 {1,S}
+3   Os      0 {1,S}
+4   N3s      0 {1,S} {5,B} {6,B}
+5   {Cb, Nb} 0 {4,S} {7,B}
+6   {Cb, Nb} 0 {4,S} {8,B}
+7   {Cb, Nb} 0 {5,B} {8,B}
+8   {Cb, Nb} 0 {6,B} {7,B}
+""",
+    solute = SoluteData(
+         S =  -0.231,
+         B =  -0.525,
+         E =  0.21,
+         L =  0.347,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 24""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+        index = 54,
+        label = "N3t-aromatic",
+        group = "OR{N3t-Cb, N3t-N5ring}"),
+        solute = SoluteData(
+         S =  0.39,
+         B =  0.103,
+         E =  0.0,
+         L =  0.732,
+         A =  0.0
+    ),
+    shortDesc = u"""Platts fragment 22""",
+    longDesc = 
+u"""
+
+""")
+
+entry(
+    index = 55,
+    label = "N3t-Cb",
+    group = 
+"""
+1 * N3t 0 {2,T}
+2   Ct  0 {1,T} {3,S}
+3   Cb  0 {2,S}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = 56,
+    label = "N3t-N5ring",
+    group = 
+"""
+1 * N3t      0 {2,T}
+2   Ct       0 {1,T} {3,S}
+3   N3s      0 {2,S} {4,B} {5,B}
+4   {Cb, Nb} 0 {3,S} {6,B}
+5   {Cb, Nb} 0 {3,S} {7,B}
+6   {Cb, Nb} 0 {4,B} {7,B}
+7   {Cb, Nb} 0 {5,B} {6,B}
+""",
+    solute = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
 	index = 75,
 	label = "Cdd",
 	group = 
@@ -554,5 +1090,37 @@ L1: O
 		L3: Oss-noncyclic
 		
     L2: Od // sp2
+
+L1: N
+
+    L2: N3s // sp3
+        L3: N3sH2
+            L4: N3sH2-aromatic
+                L5: N3sH2-Cb
+                L5: N3sH2-N5ring
+        L3: N3sH
+            L4: N3sH-aromatic
+                L5: N3sH-Cb
+                L5: N3sH-N5ring
+            L4: NO2
+        L3: N3s-noH
+            L4: N3s-noH-aromatic
+                L5: N3s-noH-Cb
+                    L6: NO2-Cb
+                L5: N3s-noH-N5ring
+                    L6: NO2-N5ring
+            L4: NO2
+        
+    
+    L2: N3d // sp2
+    
+    L2: N3t // sp
+        L3: N3t-aromatic
+            L4: N3t-Cb
+            L4: N3t-N5ring
+            
+    
+    L2: Nb
+        L3: Nbpyr
 """
 )
