@@ -137,7 +137,7 @@ def setHistory(database, current_database, user):
             else:
                 entry.history.append(event)
         try:
-            old_rules = current_database.kinetics.families[key].groups.entries
+            old_rules = current_database.kinetics.families[key].rules.entries
         except KeyError:
             old_rules = {}
         for label, entry in family.rules.entries.iteritems():
@@ -147,17 +147,19 @@ def setHistory(database, current_database, user):
                 for item in entry:
                     item.history.append(event_new)
                 continue # next in for loop
-            if old_entry.index == item.index:
-                # This isn't working
-                print "Found what's meant to be the same thing"
-                item.history.extend(old_entry.history)
-                if compare(old_entry, item, family.rules.saveEntry):
-                    print key, label, "has not changed."
+            for item in entry:
+                for old_item in old_entry:
+                    if old_item.index == item.index:
+                        print "Found what's meant to be the same thing"
+                        item.history.extend(old_item.history)
+                        if compare(old_item, item, family.rules.saveEntry):
+                            print key, label, "has not changed."
+                        else:
+                            item.history.append(event)
+                        break
                 else:
-                    item.history.append(event)
-            else:
-                "Couldn't find what was meant to be the same thing"
-                item.history.append(event_new)
+                    "Couldn't find corresponding item with same index."
+                    item.history.append(event_new)
 
         for depository in family.depositories.values():
             for label, entry in depository.entries.iteritems():
