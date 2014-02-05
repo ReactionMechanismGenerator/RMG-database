@@ -221,3 +221,4 @@ if __name__ == '__main__':
       
     print 'Saving the new RMG-Py database...'
     database.save(newPath)
+    print "Done!"
