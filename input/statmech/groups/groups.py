@@ -11,7 +11,7 @@ recommended = True
 entry(
     index = -1,
     label = "R!H",
-    group = "OR{R!Hx0, R!Hx1, R!Hx2}",
+    group = "OR{R!Hx0, R!Hx1, R!Hx2, R!Hx3}",
     statmech = None,
     shortDesc = u"""""",
     longDesc = 
@@ -820,6 +820,25 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = -1,
+    label = "R!Hx3",
+    group = 
+"""
+1 * R!H {3D,3Q}
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+    history = [
+        ("Tue Feb 4 12:27:50 2014","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
