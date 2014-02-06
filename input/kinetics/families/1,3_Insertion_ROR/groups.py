@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "doublebond",
-    group = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, Sd_Cd}",
+    group = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, Sd_Cd, N3d_N3d, N3d_Cd}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -1885,9 +1885,9 @@ entry(
     label = "H_OR",
     group = 
 """
-1 *3 H                 0 {2,S}
-2 *4 Os                0 {1,S} {3,S}
-3    {H,Cs,Cd,Sis,Sid} 0 {2,S}
+1 *3 H                   0 {2,S}
+2 *4 Os                  0 {1,S} {3,S}
+3    {H,Cs,Cd,Sis,Sid,N} 0 {2,S}
 """,
     kinetics = None,
     reference = None,
@@ -2121,9 +2121,9 @@ entry(
     label = "R_OH",
     group = 
 """
-1 *3 {Cs,Cd,Sis,Sid} 0 {2,S}
-2 *4 Os              0 {1,S} {3,S}
-3    H               0 {2,S}
+1 *3 {Cs,Cd,Sis,Sid,N} 0 {2,S}
+2 *4 Os                0 {1,S} {3,S}
+3    H                 0 {2,S}
 """,
     kinetics = None,
     reference = None,
@@ -2335,6 +2335,50 @@ u"""
     ],
 )
 
+entry(
+    index = 97,
+    label = "N3d_N3d",
+    group = 
+"""
+1 *1 N3d  0 {2,D}
+2 *2 N3d 0 {1,D} {3,D}
+3    Od  0 {2,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Dec 19 16:45:30 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this entry."""),
+    ],
+)
+
+entry(
+    index = 98,
+    label = "N3d_Cd",
+    group = 
+"""
+1 *1 N3d 0 {2,D}
+2 *2 Cd  0 {1,D} {3,D}
+3    Od  0 {2,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Dec 19 16:45:30 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this entry."""),
+    ],
+)
+
 tree(
 """
 L1: doublebond
@@ -2413,6 +2457,8 @@ L1: doublebond
                 L5: Sd_Cd/Nd2
                 L5: Sd_Cd/Nd/De
                 L5: Sd_Cd/De2
+    L2: N3d_N3d
+    L2: N3d_Cd
 L1: R_OR
     L2: H_OR
         L3: H_OH
