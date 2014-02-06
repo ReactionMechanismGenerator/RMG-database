@@ -1,25 +1,34 @@
+// Methylformate oxidation and pyrolysis submechanism from:
+//
+// S. Dooley, M. P. Burke, M. Chaos, Y. Stein, F. L. Dryer, V. P. Zhukov, O. Finch, J. M. Simmie, H. J. Curran
+// Methyl formate oxidation: Speciation data, laminar burning velocities, ignition delay times, and a validated chemical kinetic model
+// International Journal of Chemical Kinetics, 2010
+// DOI: 10.1002/kin.20512
+// URL: http://dx.doi.org/10.1002/kin.20512
+//
+// Transcribed for RMG by Shamel Merchant <shamel@mit.edu> on 22 July 2010
+
 Unit:
-A: mol/m3/s
+A: mol/cm3/s
 E: cal/mol
 
 Reactions:
-CH3OCHO (+M) <=> CH3OH + CO (+M)                 2.000e+13     0.000   60000.00     0 0 0
-     LOW  /   2.400e+59   -11.800   71400.00/
-     TROE /      0.2390    5.6e+02    8.4e+09    8.2e+09/
+CH3OCHO (+M) <=> CH3OH + CO (+M)                     2.00E+13     0.0    60000  0.0 0.0 0.0
+     LOW  /  2.40E+59   -11.80    71400/
+     TROE/   .239  5.551E+02  8.43E+09  8.21E+09 /
 
-CH3OCHO (+M) <=> CH4 + CO2 (+M)                  1.500e+12     0.000   59700.00     0 0 0
-     LOW  /   5.630e+61   -12.790   71100.00/
-     TROE /      0.1790    3.6e+02    9.9e+09    3.3e+09/
+CH3OCHO (+M) <=> CH4 + CO2 (+M)                     1.50E+12     0.0    59700   0.0 0.0 0.0
+     LOW  /  5.63E+61   -12.79    71100/
+     TROE/   .179  3.575E+02  9.918E+09  3.28E+09 /
 
-CH3OCHO (+M) <=> CH2O + CH2O (+M)                1.000e+12     0.000   60500.00     0 0 0
-     LOW  /   1.550e+57   -11.570   71700.00/
-     TROE /      0.7810    6.5e+09    6.2e+02    6.7e+09/
+CH3OCHO (+M) <=> CH2O + CH2O (+M)                     1.00E+12     0.0    60500 0.0 0.0 0.0
+     LOW  /  1.55E+57   -11.57    71700/
+     TROE/   .781  6.49E+09  6.18E+02  6.71E+09 /
 
-CH3OCHO (+M) <=> CH3 + OCHO (+M)                 2.170e+24    -2.400   92600.00     0 0 0
-     LOW  /   5.710e+47    -8.430   98490.00/
-     TROE /      0.0000    4.7e+03    9.3e+09    1.8e+09/
+CH3OCHO (+M) <=> CH3 + OCHO (+M)                     2.17E+24     -2.4    92600 0.0 0.0 0.0
+     LOW  /  5.71E+47   -8.43    98490/
+     TROE/   6.89E-15  4.73E+03  9.33E+09  1.78E+09 /
 
-CH3OCHO (+M) <=> CH3O + HCO (+M)                 4.180e+16     0.000   97400.00     0 0 0
-     LOW  /   5.270e+63   -12.300  109180.00/
-     TROE /      0.8940    7.5e+09    6.5e+02    6.7e+08/
-
+CH3OCHO (+M) <=> CH3O + HCO (+M)                     4.18E+16     0.0    97400  0.0 0.0 0.0
+     LOW  /  5.27E+63   -1.23E+01    109180/
+     TROE/   .894  7.49E+09  6.47E+02  6.69E+08 /

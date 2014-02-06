@@ -1,7 +1,9 @@
-Unit:
-A: mol/m3/s
-E: cal/mol
+// Oxygen singlet-triplet interconversion library.
+// Rates from, in general, C. Schweitzer and R. Schmidt.  Physical mechanisms of generation and deactivation of singlet oxygen.  Chemical Reviews 103:1685-1757, 2003.
 
-Reactions:
-O2S <=> O2                                       2.300e-04     0.000       0.00     0 0 0
- DUPLICATE
+Unit:
+A: mol/cm3/s
+E: kJ/mol
+
+Reactions: 
+O2S => O2			2.3e-4	0	0	0	0	0		

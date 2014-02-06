@@ -1,13 +1,17 @@
-Unit:
-A: mol/m3/s
-E: cal/mol
+// Oxygen singlet-triplet interconversion library.
+// Rates from, in general, C. Schweitzer and R. Schmidt.  Physical mechanisms of generation and deactivation of singlet oxygen.  Chemical Reviews 103:1685-1757, 2003.
 
-Reactions:
-O2S + M <=> O2 + M                               4.050e+00     0.000       0.00     0 0 0
-CO2/4.29/ CO2/4.29/ O2/5.43/ 
- DUPLICATE
+Unit: 
+A: mol/cm3/s 
+E: kJ/mol  
 
-O2S + M <=> O2 + M                               3.000e+06     0.000       0.00     0 0 0
-AR/0.00/ CO/14.00/ CO/14.00/ H2O/1.78/ H2O/1.78/ H2/1.00/ H2/1.00/ C6H6/1.07/ C6H6/1.07/ O2/0.34/ N2/0.03/ 
- DUPLICATE
+Reactions:   
+
+// Irreversible, radiative deactivation
+O2S + M => O2 + M                        4.05E+0	0.0	0.0	0.0	0.0	0.0
+O2/5.43/	CO2/4.29/
+
+// Reversible, electronic-to-vibrational energy transfer
+O2S + M <=> O2 + M	3.00E6	0	0	0	0	0
+Ar/1.66E-3/		N2/0.028/	O2/0.34/	H2/1/		H2O/1.783/		C6H6/1.067/		CO/14/
 

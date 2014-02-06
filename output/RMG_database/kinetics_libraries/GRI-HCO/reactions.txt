@@ -1,6 +1,9 @@
+// This is a selection from GRI-Mech3.0 seed mechanism.
+// It's purpose is to selectively over-rule parts of a different seed mechanism. 
+
 Unit:
-A: mol/m3/s
+A: mol/cm3/s
 E: cal/mol
 
 Reactions:
-HCO + H2O <=> H + CO + H2O                       1.500e+12    -1.000   17000.00     0 0 0
+HCO + H2O <=> H + CO + H2O                       1.500E+18   -1.000   17000.00	0.0	0.0	0.0

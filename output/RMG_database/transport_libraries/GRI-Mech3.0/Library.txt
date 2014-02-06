@@ -10,6 +10,8 @@
 //	MRH 19-May-2010: Changing the shape index of CH2, CH2(S), and CH3
 //		from 1 (linear) to 2 (nonlinear)
 
+//  Name       shapeIndex epsilon   sigma  dipoleMoment polarizability rotrelaxcollnum
+
 //AR                 0   136.500     3.330     0.000     0.000     0.000
 C                  0    71.400     3.298     0.000     0.000     0.000 ! *
 C2                 1    97.530     3.621     0.000     1.760     4.000
