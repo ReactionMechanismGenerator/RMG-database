@@ -13,7 +13,7 @@ entry(
     label = "H",
     molecule = 
 """
-1 H 1
+1 H 1 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -36,8 +36,8 @@ entry(
     label = "H2",
     molecule = 
 """
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -60,7 +60,7 @@ entry(
     label = "O",
     molecule = 
 """
-1 O 2T
+1 O 2T 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -83,8 +83,8 @@ entry(
     label = "OH",
     molecule = 
 """
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -107,9 +107,9 @@ entry(
     label = "H2O",
     molecule = 
 """
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -132,8 +132,8 @@ entry(
     label = "O2",
     molecule = 
 """
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -156,9 +156,9 @@ entry(
     label = "HO2",
     molecule = 
 """
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -181,10 +181,10 @@ entry(
     label = "H2O2",
     molecule = 
 """
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -207,8 +207,8 @@ entry(
     label = "CO",
     molecule = 
 """
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -231,9 +231,9 @@ entry(
     label = "CO2",
     molecule = 
 """
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
