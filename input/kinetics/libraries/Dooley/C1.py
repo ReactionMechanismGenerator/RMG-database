@@ -13,24 +13,24 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -44,20 +44,11 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
-CFG
 
-
-
-
-
-Dryer
-
-****************************************************************************
-H2/O2 MECHANISM OF LI ET AL. IJCK 36:565 (2004)                                                            *
-*****************************************************************************
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -66,24 +57,24 @@ entry(
     reactant1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(50800, 'cm^3/(mol*s)'), n=2.67, Ea=(6290, 'cal/mol'), T0=(1, 'K')),
@@ -96,6 +87,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -104,26 +96,26 @@ entry(
     reactant1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -141,6 +133,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -149,26 +142,26 @@ entry(
     reactant1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     reactant2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -186,6 +179,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -194,26 +188,26 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -227,11 +221,11 @@ O2
     shortDesc = u"""""",
     longDesc = 
 u"""
-H2+AR = H+H+AR                              5.840E+18 -1.10  1.0438E+05  0.0 0.0 0.0
-H2+HE = H+H+HE                              5.840E+18 -1.10  1.0438E+05  0.0 0.0 0.0
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -240,26 +234,26 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -277,6 +271,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -285,26 +280,26 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -322,6 +317,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -330,28 +326,28 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -369,6 +365,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -377,30 +374,30 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -429,6 +426,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -437,28 +435,28 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -476,6 +474,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -484,28 +483,28 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -523,6 +522,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -531,28 +531,28 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9550000.0, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
@@ -565,6 +565,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -573,30 +574,30 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -625,6 +626,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -633,26 +635,26 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -666,12 +668,11 @@ O
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-//!****************************  CO/HCO REACTIONS  *************************                                                            *
-*****************************************************************************
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -680,28 +681,28 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -719,6 +720,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -727,26 +729,26 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -764,6 +766,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -772,28 +775,28 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -811,6 +814,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -819,26 +823,26 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -856,6 +860,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -864,26 +869,26 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -901,6 +906,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -909,28 +915,28 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -948,6 +954,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -956,26 +963,26 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -993,6 +1000,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1001,34 +1009,34 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1046,6 +1054,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1054,32 +1063,32 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1097,6 +1106,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1105,34 +1115,34 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1150,6 +1160,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1158,30 +1169,30 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1199,6 +1210,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1207,24 +1219,24 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O2CHO
-1 C 0 {2,S} {3,D} {5,S}
-2 O 0 {1,S} {4,S}
-3 O 0 {1,D}
-4 O 1 {2,S}
-5 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {4,S}
+4 O 1 2 {3,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1242,6 +1254,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1250,36 +1263,36 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2CHO
-1 C 0 {2,S} {3,D} {5,S}
-2 O 0 {1,S} {4,S}
-3 O 0 {1,D}
-4 O 1 {2,S}
-5 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {4,S}
+4 O 1 2 {3,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2CHO
-1 C 0 {2,D} {3,S} {5,S}
-2 O 0 {1,D}
-3 O 0 {1,S} {4,S}
-4 O 0 {3,S} {6,S}
-5 H 0 {1,S}
-6 H 0 {4,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {6,S}
+5 H 0 0 {1,S}
+6 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1297,6 +1310,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1305,26 +1319,26 @@ entry(
     reactant1 = 
 """
 HO2CHO
-1 C 0 {2,D} {3,S} {5,S}
-2 O 0 {1,D}
-3 O 0 {1,S} {4,S}
-4 O 0 {3,S} {6,S}
-5 H 0 {1,S}
-6 H 0 {4,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {6,S}
+5 H 0 0 {1,S}
+6 H 0 0 {4,S}
 """,
     product1 = 
 """
 OCHO
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1342,6 +1356,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1350,28 +1365,28 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1385,15 +1400,11 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-H+CO2+M = OCHO+M                 7.500E+13 0.00 2.900E+04   0.0 0.0 0.0
 
-
-*****************************************************************************
-!****************************  CH2O REACTIONS  *************************                                                            *
-*****************************************************************************
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1402,28 +1413,28 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1441,6 +1452,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1449,30 +1461,30 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1490,6 +1502,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1498,30 +1511,30 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1539,6 +1552,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1547,32 +1561,32 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(41100, 'cm^3/(mol*s)'), n=2.5, Ea=(10210, 'cal/mol'), T0=(1, 'K')),
@@ -1585,6 +1599,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1593,34 +1608,34 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1638,6 +1653,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1646,28 +1662,28 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 OCH2O2H
-1 O 1 {2,S}
-2 C 0 {1,S} {3,S} {5,S} {6,S}
-3 O 0 {2,S} {4,S}
-4 O 0 {3,S} {7,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {4,S}
+1 O 1 2 {2,S}
+2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {7,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1685,6 +1701,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1693,24 +1710,24 @@ entry(
     reactant1 = 
 """
 OCH2O2H
-1 O 1 {2,S}
-2 C 0 {1,S} {3,S} {5,S} {6,S}
-3 O 0 {2,S} {4,S}
-4 O 0 {3,S} {7,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {4,S}
+1 O 1 2 {2,S}
+2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {7,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {4,S}
 """,
     product1 = 
 """
 HOCH2O2
-1 C 0 {2,S} {3,S} {5,S} {6,S}
-2 O 0 {1,S} {7,S}
-3 O 0 {1,S} {4,S}
-4 O 1 {3,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 2 {1,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 1 2 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(300000000000.0, 's^-1'), n=0, Ea=(8600, 'cal/mol'), T0=(1, 'K')),
@@ -1723,6 +1740,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1731,38 +1749,38 @@ entry(
     reactant1 = 
 """
 HOCH2O2
-1 C 0 {2,S} {3,S} {5,S} {6,S}
-2 O 0 {1,S} {7,S}
-3 O 0 {1,S} {4,S}
-4 O 1 {3,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 2 {1,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 1 2 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCH2O2H
-1 C 0 {2,S} {3,S} {5,S} {6,S}
-2 O 0 {1,S} {7,S}
-3 O 0 {1,S} {4,S}
-4 O 0 {3,S} {8,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {4,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 2 {1,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1780,6 +1798,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1788,30 +1807,30 @@ entry(
     reactant1 = 
 """
 HOCH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 O 1 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 O 1 2 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCH2O2H
-1 C 0 {2,S} {3,S} {5,S} {6,S}
-2 O 0 {1,S} {7,S}
-3 O 0 {1,S} {4,S}
-4 O 0 {3,S} {8,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {4,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 2 {1,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1829,6 +1848,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1837,28 +1857,28 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1872,12 +1892,11 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-!****************************  CH3 REACTIONS  *************************                                                            *
-*****************************************************************************
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1886,30 +1905,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1927,6 +1946,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1935,30 +1955,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(0.351, 'cm^3/(mol*s)'), n=3.524, Ea=(7380, 'cal/mol'), T0=(1, 'K')),
@@ -1971,6 +1991,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1979,32 +2000,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2022,6 +2043,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2030,30 +2052,30 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2071,6 +2093,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2079,30 +2102,30 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2120,6 +2143,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2128,32 +2152,32 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2171,6 +2195,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2179,32 +2204,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2222,6 +2247,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2230,34 +2256,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2275,6 +2301,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2283,38 +2310,38 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(14.4, 'cm^3/(mol*s)'), n=3.1, Ea=(6935, 'cal/mol'), T0=(1, 'K')),
@@ -2327,6 +2354,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2335,36 +2363,36 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2378,12 +2406,11 @@ CH4
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-!****************************  CH3O REACTIONS  *************************                                                            *
-*****************************************************************************
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2392,30 +2419,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2433,6 +2460,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2441,38 +2469,38 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O2H
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 0 {2,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2490,6 +2518,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2498,40 +2527,40 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3O2H
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 0 {2,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2549,6 +2578,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2557,42 +2587,42 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3O2H
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 0 {2,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2610,6 +2640,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2618,38 +2649,38 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2667,6 +2698,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2675,36 +2707,36 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O2H
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 0 {2,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2722,6 +2754,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2730,46 +2763,46 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2787,6 +2820,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2795,46 +2829,46 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     product1 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product3 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2852,6 +2886,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2860,32 +2895,32 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2903,6 +2938,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2911,32 +2947,32 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2954,6 +2990,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2962,34 +2999,34 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 1 {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3007,6 +3044,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3015,28 +3053,28 @@ entry(
     reactant1 = 
 """
 CH3O2H
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 {1,S} {3,S}
-3 O 0 {2,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3054,6 +3092,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3062,30 +3101,30 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3099,15 +3138,11 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-!****************************  CH2OH REACTIONS  *************************                                                            *
-*****************************************************************************
 
-
-CH2OH+M = CH2O+H+M                          1.000E+14  0.00  2.510E+04  0.0 0.0 0.0
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3116,30 +3151,30 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3157,6 +3192,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3165,30 +3201,30 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3206,6 +3242,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3214,32 +3251,32 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3257,6 +3294,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3265,32 +3303,32 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -3319,6 +3357,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3327,34 +3366,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3372,6 +3411,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3380,34 +3420,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3425,6 +3465,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3433,34 +3474,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3478,6 +3519,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3486,38 +3528,38 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3535,6 +3577,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3543,38 +3586,38 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3592,6 +3635,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3600,34 +3644,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 O 1 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 O 1 2 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3645,6 +3689,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3653,30 +3698,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3690,15 +3735,11 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-!****************************  CH3O REACTIONS  *************************                                                            *
-*****************************************************************************
 
-
-CH3O+M = CH2O+H+M                           8.300E+17 -1.20  1.550E+04  0.0 0.0 0.0
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3707,30 +3748,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3748,6 +3789,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3756,32 +3798,32 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3799,6 +3841,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3807,32 +3850,32 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -3861,6 +3904,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3869,34 +3913,34 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3914,6 +3958,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3922,32 +3967,32 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3965,6 +4010,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3973,34 +4019,34 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4018,6 +4064,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4026,38 +4073,38 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4075,6 +4122,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4083,32 +4131,32 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4122,12 +4170,11 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-!****************************  CH3OH REACTIONS  *************************                                                            *
-*****************************************************************************
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4136,32 +4183,32 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4179,6 +4226,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4187,32 +4235,32 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(388000, 'cm^3/(mol*s)'), n=2.5, Ea=(3080, 'cal/mol'), T0=(1, 'K')),
@@ -4225,6 +4273,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4233,34 +4282,34 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4278,6 +4327,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4286,34 +4336,34 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4331,6 +4381,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4339,34 +4390,34 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4384,6 +4435,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4392,36 +4444,36 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9635, 'cm^3/(mol*s)'), n=2.9, Ea=(13110, 'cal/mol'), T0=(1, 'K')),
@@ -4434,6 +4486,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4442,36 +4495,36 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4489,6 +4542,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4497,38 +4551,38 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(31.9, 'cm^3/(mol*s)'), n=3.17, Ea=(7172, 'cal/mol'), T0=(1, 'K')),
@@ -4541,6 +4595,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4549,40 +4604,40 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4600,6 +4655,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4608,34 +4664,34 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 C2H5
-1 C 1 {2,S} {3,S} {4,S}
-2 C 0 {1,S} {5,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4653,6 +4709,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4661,34 +4718,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(2460000.0, 'cm^3/(mol*s)'), n=2, Ea=(8270, 'cal/mol'), T0=(1, 'K')),
@@ -4701,6 +4758,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4709,34 +4767,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4754,6 +4812,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4762,30 +4821,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4803,6 +4862,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4811,30 +4871,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4852,6 +4912,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4860,32 +4921,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4903,6 +4964,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4911,32 +4973,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4954,6 +5016,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4962,30 +5025,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5003,6 +5066,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5011,26 +5075,26 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5044,12 +5108,11 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-!****************************  CH/CH2/CH2(S) REACTIONS  ******************                                                            *
-*****************************************************************************
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5058,28 +5121,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5097,6 +5160,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5105,28 +5169,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(500000, 'cm^3/(mol*s)'), n=2, Ea=(7230, 'cal/mol'), T0=(1, 'K')),
@@ -5139,6 +5203,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5147,28 +5212,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5186,6 +5251,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5194,30 +5260,30 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5235,6 +5301,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5243,30 +5310,30 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5284,6 +5351,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5292,30 +5360,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5333,6 +5401,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5341,28 +5410,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5380,6 +5449,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5388,30 +5458,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5429,6 +5499,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5437,26 +5508,26 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5470,11 +5541,11 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-CH2(S)+AR = CH2+AR                          9.000E+12  0.00  6.000E+02  0.0 0.0 0.0
-!CH2(S)+H = CH+H2                            3.000E+13  0.00  0.000E+00  0.0 0.0 0.0
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5483,26 +5554,26 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5520,6 +5591,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5528,28 +5600,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5567,6 +5639,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5575,28 +5648,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5614,6 +5687,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5622,32 +5696,32 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5665,6 +5739,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5673,28 +5748,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5712,6 +5787,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5720,30 +5796,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5761,6 +5837,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5769,26 +5846,26 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5806,6 +5883,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5814,26 +5892,26 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -5857,6 +5935,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5865,28 +5944,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5904,6 +5983,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5912,26 +5992,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5949,6 +6029,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5957,24 +6038,24 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
-C(T)
-1 C 4T
+C
+1 C 4V 0
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5992,6 +6073,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6000,24 +6082,24 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6035,6 +6117,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6043,26 +6126,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6080,6 +6163,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6088,28 +6172,28 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6127,6 +6211,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6135,28 +6220,28 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6174,6 +6259,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6182,26 +6268,26 @@ entry(
     reactant1 = 
 """
 HOCH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 O 1 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 O 1 2 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6215,12 +6301,11 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
-*****************************************************************************
-!****************************  Formic Acid REACTIONS  ******************                                                            *
-*****************************************************************************
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6229,26 +6314,26 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 O 1 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 O 1 2 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6266,6 +6351,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6274,24 +6360,24 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.593e+18, 's^-1'), n=-0.46, Ea=(108300, 'cal/mol'), T0=(1, 'K')),
@@ -6300,11 +6386,11 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
-HCOOH+M = CO+H2O+M                          2.300E+13  0.00  5.000E+04   0.0 0.0 0.0
-HCOOH+M = CO2+H2+M                          1.500E+16  0.00  5.700E+04   0.0 0.0 0.0
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6313,36 +6399,36 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6360,6 +6446,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6368,36 +6455,36 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6415,6 +6502,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6423,34 +6511,34 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6468,6 +6556,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6476,34 +6565,34 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6521,6 +6610,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6529,40 +6619,40 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.9e-07, 'cm^3/(mol*s)'), n=5.8, Ea=(2200, 'cal/mol'), T0=(1, 'K')),
@@ -6575,6 +6665,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6583,38 +6674,38 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6632,6 +6723,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6640,34 +6732,34 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6685,6 +6777,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6693,18 +6786,18 @@ entry(
     reactant1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -6714,21 +6807,18 @@ H
             Ea = (104380, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, 'C(=O)=O': 3.8, '[C]=O': 1.9, '[Ar]': 0.0},
+        efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-CFG from Glarborg
 
-
-
-C0
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6737,18 +6827,18 @@ entry(
     reactant1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -6758,7 +6848,7 @@ O2
             Ea = (0, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, 'C(=O)=O': 3.8, '[C]=O': 1.9, '[Ar]': 0.0},
+        efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
     ),
     reference = None,
     referenceType = "",
@@ -6769,6 +6859,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6777,23 +6868,23 @@ entry(
     reactant1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.714e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, 'C(=O)=O': 3.8, '[C]=O': 1.9, '[Ar]': 0.75},
+        efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, '[C]=O': 1.9, '[Ar]': 0.75},
     ),
     reference = None,
     referenceType = "",
@@ -6804,6 +6895,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6812,25 +6904,25 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.8e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {'O': 12.0, '[H][H]': 2.5, '[He]': 0.38, 'C(=O)=O': 3.8, '[C]=O': 1.9, '[Ar]': 0.38},
+        efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.38, '[C]=O': 1.9, '[Ar]': 0.38},
     ),
     reference = None,
     referenceType = "",
@@ -6841,6 +6933,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6849,20 +6942,20 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -6881,17 +6974,18 @@ HO2
         alpha = 0.8,
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 1.9, '[O][O]': 0.78, 'C(=O)=O': 3.8, 'O': 11.0},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 1.9, '[O][O]': 0.78, 'O=C=O': 3.8, 'O': 11.0},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-MAIN BATH GAS IS N2 (COMMENT THIS REACTION OTHERWISE)
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6900,22 +6994,22 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -6934,21 +7028,18 @@ OH
         alpha = 0.5,
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
-        efficiencies = {'O': 12.0, '[H][H]': 2.5, '[He]': 0.64, 'C(=O)=O': 3.8, '[C]=O': 1.9, '[Ar]': 0.64},
+        efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.64, '[C]=O': 1.9, '[Ar]': 0.64},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-MAIN BATH GAS IS AR OR HE (COMMENT THIS REACTION OTHERWISE)
-H+O2(+M) = HO2(+M)                         1.475E+12  0.60  0.000E+00  0.0 0.0 0.0
-LOW/9.042E+19 -1.50  4.922E+02/
-TROE/0.5 1E-30  1E+30/
-H2/3.0/ H2O/16/ O2/1.1/ CO/2.7/ CO2/5.4/ HE/1.2/
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6957,20 +7048,20 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Lindemann(
@@ -6986,17 +7077,18 @@ CO2
             Ea = (4191, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'C(=O)=O': 3.8, 'O': 12.0, '[Ar]': 0.87},
+        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.87},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-C1
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7005,20 +7097,20 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7028,7 +7120,7 @@ CO
             Ea = (14874, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'C(=O)=O': 3.8, 'O': 6.0},
+        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 6.0},
     ),
     reference = None,
     referenceType = "",
@@ -7039,6 +7131,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7047,22 +7140,22 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7072,7 +7165,7 @@ H
             Ea = (99900, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'C(=O)=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
+        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
     ),
     reference = None,
     referenceType = "",
@@ -7083,6 +7176,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7091,27 +7185,27 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.1e+45, 'cm^3/(mol*s)'), n=-8, Ea=(97510, 'cal/mol'), T0=(1, 'K')),
-        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'C(=O)=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
+        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
     ),
     reference = None,
     referenceType = "",
@@ -7122,6 +7216,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7130,30 +7225,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7172,7 +7267,7 @@ C2H6
         T3 = (570, 'K'),
         T1 = (1e-10, 'K'),
         T2 = (1e+30, 'K'),
-        efficiencies = {'[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 5.0},
+        efficiencies = {'[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
     ),
     reference = None,
     referenceType = "",
@@ -7183,6 +7278,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7191,24 +7287,24 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7228,7 +7324,7 @@ CH4
         T3 = (74, 'K'),
         T1 = (2941, 'K'),
         T2 = (6964, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
     ),
     reference = None,
     referenceType = "",
@@ -7239,6 +7335,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7247,26 +7344,26 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7286,7 +7383,7 @@ CH3OH
         T3 = (195, 'K'),
         T1 = (5900, 'K'),
         T2 = (6394, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
     ),
     reference = None,
     referenceType = "",
@@ -7297,6 +7394,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7305,26 +7403,26 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7344,7 +7442,7 @@ CH3OH
         T3 = (100, 'K'),
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
     ),
     reference = None,
     referenceType = "",
@@ -7355,6 +7453,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7363,26 +7462,26 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7402,7 +7501,7 @@ CH3OH
         T3 = (100, 'K'),
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
     ),
     reference = None,
     referenceType = "",
@@ -7413,6 +7512,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7421,26 +7521,26 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7460,7 +7560,7 @@ CH3OH
         T3 = (208, 'K'),
         T1 = (3922, 'K'),
         T2 = (10180, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
     ),
     reference = None,
     referenceType = "",
@@ -7471,6 +7571,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7479,22 +7580,22 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7509,7 +7610,7 @@ CH3
         T3 = (78, 'K'),
         T1 = (1995, 'K'),
         T2 = (5590, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
     ),
     reference = None,
     referenceType = "",
@@ -7520,6 +7621,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7528,24 +7630,24 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH2CO
-1 C 0 {2,D} {4,S} {5,S}
-2 C 0 {1,D} {3,D}
-3 O 0 {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,D} {4,S} {5,S}
+2 C 0 0 {1,D} {3,D}
+3 O 0 2 {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -7565,7 +7667,7 @@ CH2CO
         T3 = (275, 'K'),
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
     ),
     reference = None,
     referenceType = "",
@@ -7576,6 +7678,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7584,16 +7687,16 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7603,7 +7706,7 @@ CH2
             Ea = (600, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[C]=O': 0.0, 'C(=O)=O': 0.0, 'O': 0.0, '[Ar]': 0.0},
+        efficiencies = {'[C]=O': 0.0, 'O=C=O': 0.0, 'O': 0.0, '[Ar]': 0.0},
     ),
     reference = None,
     referenceType = "",
@@ -7614,6 +7717,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7622,22 +7726,22 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 OCHO
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7658,6 +7762,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7666,24 +7771,24 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7704,6 +7809,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7712,24 +7818,24 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7750,6 +7856,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7758,24 +7865,24 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7796,6 +7903,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7804,24 +7912,24 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 {2,S} {3,D} {4,S}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,D}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7837,6 +7945,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 

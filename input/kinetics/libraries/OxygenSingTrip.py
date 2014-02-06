@@ -13,14 +13,14 @@ entry(
     reactant1 = 
 """
 O2S
-1 O 0 {2,D}
-2 O 0 {1,D}
+1 O 0 2 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -31,11 +31,11 @@ O2
     shortDesc = u"""""",
     longDesc = 
 u"""
-Oxygen singlet-triplet interconversion library.
-Rates from, in general, C. Schweitzer and R. Schmidt.  Physical mechanisms of generation and deactivation of singlet oxygen.  Chemical Reviews 103:1685-1757, 2003.
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -44,36 +44,32 @@ entry(
     reactant1 = 
 """
 O2S
-1 O 0 {2,D}
-2 O 0 {1,D}
+1 O 0 2 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
     reversible = False,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.05, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
-        efficiencies = {'[O][O]': 5.43, 'C(=O)=O': 4.29},
+        efficiencies = {'[O][O]': 5.43, 'O=C=O': 4.29},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-Oxygen singlet-triplet interconversion library.
-Rates from, in general, C. Schweitzer and R. Schmidt.  Physical mechanisms of generation and deactivation of singlet oxygen.  Chemical Reviews 103:1685-1757, 2003.
 
-
-
-Irreversible, radiative deactivation
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -82,14 +78,14 @@ entry(
     reactant1 = 
 """
 O2S
-1 O 0 {2,D}
-2 O 0 {1,D}
+1 O 0 2 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -101,10 +97,11 @@ O2
     shortDesc = u"""""",
     longDesc = 
 u"""
-Reversible, electronic-to-vibrational energy transfer
+
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Thu Feb  6 13:58:32 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
