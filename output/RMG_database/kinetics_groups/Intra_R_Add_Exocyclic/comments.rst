@@ -1,45 +1,15 @@
+General comments go at the top of the file,
+
 -------
 General
 -------
-General comments go at the top of the file,
-
 or in a section(s) titled 'General'
 
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 
-------
-807
-------
-
-
-------
-808
-------
-
-
-------
-809
-------
-
-
-------
-810
-------
-
-
-------
-811
-------
-
-
-------
-812
-------
-
-
-------
+---
 813
-------
+---
 MRH CBS-QB3 calculations for the reaction CH2=CH-CH2-OO => *CH2-cycle(CH-CH2-O-O)
 
 Previous RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of
@@ -55,4 +25,3 @@ Product: 1 hindered rotor was considered (the *CH2 torsion)
 All external symmetry numbers were set equal to one.  The k(T) was calculated from 600 - 2000 K,
 in 200 K intervals, and the fitted Arrhenius expression from CanTherm was:
 k(T) = 2.724e+10 * (T/1K)^0.478 * exp(-29.169 kcal/mol / RT) cm3/mol/s.
-

@@ -1,41 +1,41 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-//  Functional Group Values tree
-//
-////////////////////////////////////////////////////////////////////////////////
+//Frequency tree: devised by Franklin Goldsmith
+//implemented by Greg Magoon: 11/13/08 (based off Group_Tree.txt for Thermo)
+//"counting nodes" (those that are counted by Franklin's code) denoted by ###
 
-L1: R!H
-    L2: C_R0
-        L3: RsCH3
-        L3: RdCH2
-        L3: CtCH
-        L3: RsCH2sR
-        L3: Aldehyde
-        L3: Ketene
-        L3: Cumulene
-        L3: CdCHsR
-        L3: CtCsR
-        L3: RsCHsR2
-        L3: RdCsR2
-            L4: Ketone
-        L3: RsCsR3
-    L2: C_R1
-        L3: RsCH2r
-        L3: RdCHr
-        L3: CtCr
-        L3: RsCHrsR
-        L3: OdCrsR
-        L3: CdCrsR
-        L3: RsCrsR2
-    L2: C_R2
-        L3: RsCHrr
-        L3: RdCrr
-        L3: RsCrrsR
-    L2: O_R0
-        L3: Alcohol
-        L3: Ether
-        L3: ROOH
-        L3: ROOR
-        L3: Peroxy
-    L2: O_R1
-        L3: Oxy
+
+L0: R!H
+	L1: C_R0
+		L2: RsCH3
+		L2: RdCH2
+		L2: CtCH
+		L2: RsCH2sR
+		L2: Aldehyde
+		L2: Ketene
+
+		L2: Cumulene
+		L2: CdCHsR
+		L2: CtCsR
+		L2: RsCHsR2
+		L2: RdCsR2
+			L3: Ketone
+		L2: RsCsR3
+	L1: C_R1
+		L2: RsCH2r
+		L2: RdCHr
+		L2: CtCr
+		L2: RsCHrsR
+		L2: OdCrsR
+		L2: CdCrsR
+		L2: RsCrsR2
+	L1: C_R2
+		L2: RsCHrr
+		L2: RdCrr
+		L2: RsCrrsR
+	L1: O_R0
+		L2: Alcohol
+		L2: Ether
+		L2: ROOH
+		L2: ROOR
+		L2: Peroxy
+	L1: O_R1
+		L2: Oxy

@@ -1,20 +1,15 @@
+General comments go at the top of the file,
+
 -------
 General
 -------
-General comments go at the top of the file,
-
 or in a section(s) titled 'General'
 
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 
-------
-587
-------
-
-
-------
+---
 588
-------
+---
 MRH CBS-QB3 calculations for the reverse of the reaction sequence *CH2-cycle(CH-CH2-O-O) => *CH2-O-O-CH=CH2 ==> CH2O + CH2CHO
 
 Previous RMG estimate for this reaction was an "Average of average" estimate, in addition to RMG needing
@@ -38,4 +33,3 @@ ranking of "5" assigned to this rate coefficient.
 
 The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Arrhenius expression from CanTherm was:
 k(T) = 2.319e-01 * (T/1K)^3.416 * exp(-77.107 kcal/mol / RT) cm3/mol/s.
-

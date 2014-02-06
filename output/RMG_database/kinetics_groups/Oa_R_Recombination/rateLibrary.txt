@@ -1,4 +1,8 @@
-// The format for the data in this rate library
+// Oa recomb with R.
+// JS, July,22, 2003 
+
+// jing, define key word for format of the rate: either Arrhenius or Arrhenius_EP
 Arrhenius_EP
 
-1000  Y_rad                   Oa                      300-1500       1.00e+13      0.00      0.00        0.00 0            0      0      0     2        
+//No.	Y_rad	Oa	Temp.		A		N	a	E0	DA	Dn	Da	DE0	Rank
+1000	Y_rad	Oa	300-1500	1E13	0	0	0	0	0	0	0	2

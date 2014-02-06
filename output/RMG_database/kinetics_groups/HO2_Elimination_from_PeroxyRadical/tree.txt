@@ -1,15 +1,22 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-//  HO2_Elimination_from_PeroxyRadical tree
-//
-////////////////////////////////////////////////////////////////////////////////
+//HO2 elimination from peroxy radical
+
+//f34_ho2_elimination_from_peroxy
+
+// Legend
+// R2OO indicates Ra(H)-Rb-O-O* 
+// First _ 	:	groups attached to Ra, with exception of the ring (if only 1 the Ra has double bond)
+// Second _	:	groups attached to Rb, with exception of the ring (if only 1 then Rb has double bond)
+// 
+// Nd		: Non delocalized (i.e. Cs, O, S...)
+// De		: Delocalized (i.e. CO, Cd, Ct...)
+
 
 L1: R2OO
     L2: R2OO_2H
         L3: R2OO_2H_2H
         L3: R2OO_2H_HNd
         L3: R2OO_2H_HDe
-            L4: CH3CH(OO)CHCH2
+            L4: R2OO_2H_HCd
         L3: R2OO_2H_NdNd
         L3: R2OO_2H_NdDe
         L3: R2OO_2H_DeDe
@@ -48,3 +55,7 @@ L1: R2OO
         L3: R2OO_DeDe_NdNd
         L3: R2OO_DeDe_NdDe
         L3: R2OO_DeDe_DeDe
+    L2: R2OO_0H
+	L3: R2OO_0H_2H
+    L2: R2OO_O
+        L3: R2OO_O_HNd

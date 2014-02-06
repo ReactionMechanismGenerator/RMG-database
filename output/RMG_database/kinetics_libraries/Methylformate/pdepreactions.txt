@@ -1,5 +1,10 @@
+//
+
 Unit:
-A: mol/m3/s
+A: mol/cm3/s
 E: cal/mol
 
 Reactions:
+
+// This library is for high-pressure limit rate expressions only.
+// It's intended for use as a reaction library - to provide input to the PDep calculations.

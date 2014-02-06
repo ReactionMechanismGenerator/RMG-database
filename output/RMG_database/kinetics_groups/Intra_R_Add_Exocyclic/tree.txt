@@ -1,9 +1,7 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-//  Intra_R_Add_Exocyclic tree
-//
-////////////////////////////////////////////////////////////////////////////////
+// intramolecular addition to form an exo radical
+//R(.)()nR'<->R" ---->R()nR'<->(-1)R"(.)
 
+// f27_intramolecular addition to form exocyclic radical
 L1: Rn
     L2: R4
         L3: R4_S
@@ -195,6 +193,7 @@ L1: Rn
             L4: R7_SBBS_D
             L4: R7_SBBS_T
             L4: R7_SBBS_CO
+
 L1: multiplebond_intra
     L2: doublebond_intra
         L3: doublebond_intra_2H
@@ -207,6 +206,8 @@ L1: multiplebond_intra
             L4: doublebond_intra_HNd_secDe
         L3: doublebond_intra_HDe
             L4: doublebond_intra_HDe_pri
+		L5: doublebond_intra_HCd_pri
+		L5: doublebond_intra_HCt_pri
             L4: doublebond_intra_HDe_secNd
             L4: doublebond_intra_HDe_secDe
         L3: doublebond_intra_NdNd
@@ -215,12 +216,14 @@ L1: multiplebond_intra
             L4: doublebond_intra_NdNd_secDe
         L3: doublebond_intra_NdDe
             L4: doublebond_intra_NdDe_pri
+		L5: doublebond_intra_NdCd_pri
+		L5: doublebond_intra_NdCt_pri
             L4: doublebond_intra_NdDe_secNd
             L4: doublebond_intra_NdDe_secDe
         L3: doublebond_intra_DeDe
             L4: doublebond_intra_DeDe_pri
             L4: doublebond_intra_DeDe_secNd
-            L4: doublebond_intra_DeDe_secDe
+            L4: doublebond_intra_DeDe_secDe                               
     L2: triplebond_intra
         L3: triplebond_intra_H
         L3: triplebond_intra_Nd
@@ -229,20 +232,25 @@ L1: multiplebond_intra
         L3: carbonylbond_intra_H
         L3: carbonylbond_intra_Nd
         L3: carbonylbond_intra_De
+
 L1: radadd_intra
     L2: radadd_intra_cs
         L3: radadd_intra_cs2H
         L3: radadd_intra_csHNd
         L3: radadd_intra_csHDe
+                L4: radadd_intra_csHCd
+                L4: radadd_intra_csHCt
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
+		L4: radadd_intra_csNdCd
+		L4: radadd_intra_csNdCt
         L3: radadd_intra_csDeDe
-    L2: radadd_intra_O
-    L2: radadd_intra_Cb
     L2: radadd_intra_cdsingle
         L3: radadd_intra_cdsingleH
         L3: radadd_intra_cdsingleNd
         L3: radadd_intra_cdsingleDe
     L2: radadd_intra_cddouble
     L2: radadd_intra_CO
+    L2: radadd_intra_O
+    L2: radadd_intra_Cb
     L2: radadd_intra_Ct

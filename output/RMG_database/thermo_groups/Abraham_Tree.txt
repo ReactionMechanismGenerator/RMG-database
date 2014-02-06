@@ -32,9 +32,9 @@ L1: C
 	L2: Css
 		L3: CssH3
 		L3: CssH2
-			L4: Css(OssH)-Css(OssH)
+			L4: CssH2(OssH)-Css(OssH)
 		L3: CssH
-			L4: Css(OssH)-Css(OssH)
+			L4: CssH(OssH)-Css(OssH)
 		L3: Css-noH
 			L4: Css(OssH)-Css(OssH)
 	
@@ -54,23 +54,21 @@ L1: C
 			L4: Cds*(Od)Cds=CdsCds(Od)
 		
 	L2: Ct
+		L3: CtH
 	L2: Cb
+		L3: Cb-noH
 	L2: Cdd
 
 L1: O
 
 	L2: Oss
 		L3: OssH           // Hydroxyl group
-			
-		L3: Oss*Cds(Od)Oss // Carbonate
-		L3: OssCds(Od)Oss* // Carbonate
-		
-		L3: Css(Oss*H)-Css(OssH) // 1,2-diol
+			L4: OssH_phenolic  // Hydroxyl group attached to aromatic carbon	
+		//L3: Oss*Cds(Od)Oss // Carbonate
+		//L3: OssCds(Od)Oss* // Carbonate
+		//L3: Css(Oss*H)-Css(OssH) // 1,2-diol
 		L3: Oss-noncyclic
 		
     L2: Od
-    	
-    	L3: OssCds(Od*)Oss // Carbonate
-    	
+    	//L3: OssCds(Od*)Oss // Carbonate
     	L3: Cds(Od*)Cds=CdsCds(Od) // Quinone
-	
