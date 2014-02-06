@@ -220,7 +220,7 @@ entry(
         H298 = (5.83,'kcal/mol'),
         S298 = (-7.94,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -458,7 +458,7 @@ entry(
         H298 = (5.83,'kcal/mol'),
         S298 = (-7.94,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -599,7 +599,7 @@ entry(
         H298 = (27.63,'kcal/mol'),
         S298 = (6.32,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -843,7 +843,7 @@ entry(
         H298 = (27.63,'kcal/mol'),
         S298 = (6.32,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -961,7 +961,7 @@ entry(
         H298 = (24.5,'kcal/mol'),
         S298 = (58.24,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1093,7 +1093,7 @@ entry(
         H298 = (40.33,'kcal/mol'),
         S298 = (34.24,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -1607,7 +1607,7 @@ entry(
         H298 = (27.71,'kcal/mol'),
         S298 = (56.51,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -1633,7 +1633,7 @@ entry(
         H298 = (21.55,'kcal/mol'),
         S298 = (34.41,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -1979,7 +1979,7 @@ entry(
         H298 = (27.32,'kcal/mol'),
         S298 = (37.56,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -2005,7 +2005,7 @@ entry(
         H298 = (24.05,'kcal/mol'),
         S298 = (34.35,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -2143,7 +2143,7 @@ entry(
         H298 = (26.96,'kcal/mol'),
         S298 = (35.65,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -2169,7 +2169,7 @@ entry(
         H298 = (30.83,'kcal/mol'),
         S298 = (37.16,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -2195,7 +2195,7 @@ entry(
         H298 = (24.71,'kcal/mol'),
         S298 = (34.15,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -2499,7 +2499,7 @@ entry(
         H298 = (21.35,'kcal/mol'),
         S298 = (14.52,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -3734,7 +3734,7 @@ entry(
         H298 = (27.2,'kcal/mol'),
         S298 = (18,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -3760,7 +3760,7 @@ entry(
         H298 = (26.19,'kcal/mol'),
         S298 = (13.44,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -3898,7 +3898,7 @@ entry(
         H298 = (27.48,'kcal/mol'),
         S298 = (16.58,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -4297,7 +4297,7 @@ entry(
         H298 = (30.12,'kcal/mol'),
         S298 = (17.46,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -4498,7 +4498,7 @@ entry(
         H298 = (26.6,'kcal/mol'),
         S298 = (14.55,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -5023,7 +5023,7 @@ entry(
         H298 = (8.87,'kcal/mol'),
         S298 = (7.87,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -5567,7 +5567,7 @@ entry(
         H298 = (8.87,'kcal/mol'),
         S298 = (7.87,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -7157,7 +7157,7 @@ entry(
         H298 = (10.63,'kcal/mol'),
         S298 = (-12.76,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -8084,7 +8084,7 @@ entry(
         H298 = (10.34,'kcal/mol'),
         S298 = (-11.67,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -12706,7 +12706,7 @@ entry(
         H298 = (-10.25,'kcal/mol'),
         S298 = (30.4,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -12922,7 +12922,7 @@ entry(
         H298 = (-10.25,'kcal/mol'),
         S298 = (30.4,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -12949,7 +12949,7 @@ entry(
         H298 = (-6.21,'kcal/mol'),
         S298 = (6.14,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -12976,7 +12976,7 @@ entry(
         H298 = (-2.78,'kcal/mol'),
         S298 = (-15.38,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -13252,7 +13252,7 @@ entry(
         H298 = (-4.89,'kcal/mol'),
         S298 = (9.83,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -14726,7 +14726,7 @@ entry(
         H298 = (-0.78,'kcal/mol'),
         S298 = (-11.46,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -19370,7 +19370,7 @@ entry(
         H298 = (1.36,'kcal/mol'),
         S298 = (-33.92,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -37741,7 +37741,7 @@ entry(
         H298 = (-0.49,'kcal/mol'),
         S298 = (-34.44,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -40892,7 +40892,7 @@ entry(
         H298 = (-1.34,'kcal/mol'),
         S298 = (-36.66,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -41923,7 +41923,7 @@ entry(
         H298 = (-1.8,'kcal/mol'),
         S298 = (-38.19,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -42199,7 +42199,7 @@ entry(
         H298 = (-3.3,'kcal/mol'),
         S298 = (-14.59,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -42453,7 +42453,7 @@ entry(
         H298 = (-1.98,'kcal/mol'),
         S298 = (-11.89,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -42480,7 +42480,7 @@ entry(
         H298 = (-2.15,'kcal/mol'),
         S298 = (-15.26,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -42624,7 +42624,7 @@ entry(
         H298 = (-3.49,'kcal/mol'),
         S298 = (-15.86,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -43040,7 +43040,7 @@ entry(
         H298 = (0.72,'kcal/mol'),
         S298 = (-11.64,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -43250,7 +43250,7 @@ entry(
         H298 = (-1.66,'kcal/mol'),
         S298 = (-13.65,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -43504,7 +43504,7 @@ entry(
         H298 = (-4.94,'kcal/mol'),
         S298 = (9.92,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -43531,7 +43531,7 @@ entry(
         H298 = (-5.07,'kcal/mol'),
         S298 = (6.75,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -43675,7 +43675,7 @@ entry(
         H298 = (-6.13,'kcal/mol'),
         S298 = (5.73,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -43702,7 +43702,7 @@ entry(
         H298 = (-2.69,'kcal/mol'),
         S298 = (9.75,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -43729,7 +43729,7 @@ entry(
         H298 = (-5.04,'kcal/mol'),
         S298 = (8.26,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -44771,7 +44771,7 @@ entry(
         H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -44795,7 +44795,7 @@ entry(
         H298 = (22.82,'kcal/mol'),
         S298 = (26.89,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -44838,7 +44838,7 @@ entry(
         H298 = (-5.37,'kcal/mol'),
         S298 = (50.52,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -44883,7 +44883,7 @@ entry(
         H298 = (5.05,'kcal/mol'),
         S298 = (33.68,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -44908,7 +44908,7 @@ entry(
         H298 = (4.19,'kcal/mol'),
         S298 = (32.23,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -44934,7 +44934,7 @@ entry(
         H298 = (4.19,'kcal/mol'),
         S298 = (32.23,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -44959,7 +44959,7 @@ entry(
         H298 = (6.27,'kcal/mol'),
         S298 = (31.59,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -44984,7 +44984,7 @@ entry(
         H298 = (3.91,'kcal/mol'),
         S298 = (31.98,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45035,7 +45035,7 @@ entry(
         H298 = (1.97,'kcal/mol'),
         S298 = (31.73,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45060,7 +45060,7 @@ entry(
         H298 = (3.03,'kcal/mol'),
         S298 = (11.18,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45105,7 +45105,7 @@ entry(
         H298 = (6.99,'kcal/mol'),
         S298 = (12.61,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45130,7 +45130,7 @@ entry(
         H298 = (7.62,'kcal/mol'),
         S298 = (12.13,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45156,7 +45156,7 @@ entry(
         H298 = (7.9,'kcal/mol'),
         S298 = (13.34,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45181,7 +45181,7 @@ entry(
         H298 = (11.93,'kcal/mol'),
         S298 = (12.73,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45206,7 +45206,7 @@ entry(
         H298 = (7.09,'kcal/mol'),
         S298 = (11.38,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45251,7 +45251,7 @@ entry(
         H298 = (11.41,'kcal/mol'),
         S298 = (13.72,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45276,7 +45276,7 @@ entry(
         H298 = (9.83,'kcal/mol'),
         S298 = (11.01,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45302,7 +45302,7 @@ entry(
         H298 = (6.87,'kcal/mol'),
         S298 = (11.81,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45327,7 +45327,7 @@ entry(
         H298 = (12.03,'kcal/mol'),
         S298 = (13.23,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45352,7 +45352,7 @@ entry(
         H298 = (10.51,'kcal/mol'),
         S298 = (12.6,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45377,7 +45377,7 @@ entry(
         H298 = (10.56,'kcal/mol'),
         S298 = (12.24,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45403,7 +45403,7 @@ entry(
         H298 = (7.78,'kcal/mol'),
         S298 = (10.23,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45430,7 +45430,7 @@ entry(
         H298 = (12.91,'kcal/mol'),
         S298 = (12.96,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45455,7 +45455,7 @@ entry(
         H298 = (12.84,'kcal/mol'),
         S298 = (12.07,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45481,7 +45481,7 @@ entry(
         H298 = (15.16,'kcal/mol'),
         S298 = (14.06,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45506,7 +45506,7 @@ entry(
         H298 = (10.23,'kcal/mol'),
         S298 = (11.93,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45532,7 +45532,7 @@ entry(
         H298 = (10.76,'kcal/mol'),
         S298 = (13.05,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45557,7 +45557,7 @@ entry(
         H298 = (19.93,'kcal/mol'),
         S298 = (13.38,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45582,7 +45582,7 @@ entry(
         H298 = (13.27,'kcal/mol'),
         S298 = (11.87,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 
@@ -45607,7 +45607,7 @@ entry(
         H298 = (10.52,'kcal/mol'),
         S298 = (12.32,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2010""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2010""",
     longDesc = 
 u"""
 

@@ -291,7 +291,7 @@ entry(
         H298 = (17.82,'kcal/mol'),
         S298 = (28.57,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -316,7 +316,7 @@ entry(
         H298 = (21.37,'kcal/mol'),
         S298 = (31.73,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -341,7 +341,7 @@ entry(
         H298 = (33.01,'kcal/mol'),
         S298 = (34.89,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -366,7 +366,7 @@ entry(
         H298 = (52.44,'kcal/mol'),
         S298 = (34.28,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -778,7 +778,7 @@ entry(
         H298 = (19.82,'kcal/mol'),
         S298 = (25.35,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -804,7 +804,7 @@ entry(
         H298 = (23.45,'kcal/mol'),
         S298 = (24.44,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -830,7 +830,7 @@ entry(
         H298 = (16.87,'kcal/mol'),
         S298 = (29.55,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -856,7 +856,7 @@ entry(
         H298 = (30.77,'kcal/mol'),
         S298 = (29.05,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -882,7 +882,7 @@ entry(
         H298 = (43.1,'kcal/mol'),
         S298 = (32.19,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1472,7 +1472,7 @@ entry(
         H298 = (2.02,'kcal/mol'),
         S298 = (20.68,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1499,7 +1499,7 @@ entry(
         H298 = (3.37,'kcal/mol'),
         S298 = (24.24,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1526,7 +1526,7 @@ entry(
         H298 = (2.19,'kcal/mol'),
         S298 = (28.23,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1553,7 +1553,7 @@ entry(
         H298 = (-17.22,'kcal/mol'),
         S298 = (23.78,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1580,7 +1580,7 @@ entry(
         H298 = (23.29,'kcal/mol'),
         S298 = (23.78,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1607,7 +1607,7 @@ entry(
         H298 = (0.48,'kcal/mol'),
         S298 = (22.84,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1634,7 +1634,7 @@ entry(
         H298 = (9.12,'kcal/mol'),
         S298 = (22.01,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1661,7 +1661,7 @@ entry(
         H298 = (4.4,'kcal/mol'),
         S298 = (24.39,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1688,7 +1688,7 @@ entry(
         H298 = (10.72,'kcal/mol'),
         S298 = (26.56,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 
@@ -1715,7 +1715,7 @@ entry(
         H298 = (17.23,'kcal/mol'),
         S298 = (30.31,'cal/(mol*K)'),
     ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
     longDesc = 
 u"""
 

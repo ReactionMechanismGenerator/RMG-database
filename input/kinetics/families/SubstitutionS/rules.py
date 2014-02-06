@@ -35,7 +35,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -109,7 +109,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -146,7 +146,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -182,7 +182,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -218,7 +218,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -255,7 +255,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -292,7 +292,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -329,7 +329,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -366,7 +366,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -403,7 +403,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -440,7 +440,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -480,7 +480,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -520,7 +520,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -560,7 +560,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -600,7 +600,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -639,7 +639,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -678,7 +678,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -718,7 +718,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -758,7 +758,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -798,7 +798,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -838,7 +838,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -878,7 +878,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -918,7 +918,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -958,7 +958,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -998,7 +998,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1038,7 +1038,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1078,7 +1078,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1117,7 +1117,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1156,7 +1156,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1196,7 +1196,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1236,7 +1236,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1276,7 +1276,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1316,7 +1316,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1356,7 +1356,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1396,7 +1396,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1436,7 +1436,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1476,7 +1476,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1516,7 +1516,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1556,7 +1556,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1595,7 +1595,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1634,7 +1634,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1674,7 +1674,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1714,7 +1714,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1754,7 +1754,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1794,7 +1794,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1834,7 +1834,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1874,7 +1874,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1912,7 +1912,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1950,7 +1950,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -1985,7 +1985,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2023,7 +2023,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2058,7 +2058,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2096,7 +2096,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2134,7 +2134,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2172,7 +2172,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2213,7 +2213,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2254,7 +2254,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2290,7 +2290,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2325,7 +2325,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2361,7 +2361,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2399,7 +2399,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2437,7 +2437,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2473,7 +2473,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2508,7 +2508,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2546,7 +2546,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2582,7 +2582,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2620,7 +2620,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2659,7 +2659,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2697,7 +2697,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2736,7 +2736,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2777,7 +2777,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2816,7 +2816,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2857,7 +2857,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2896,7 +2896,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2937,7 +2937,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -2974,7 +2974,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3011,7 +3011,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3048,7 +3048,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3085,7 +3085,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3121,7 +3121,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3157,7 +3157,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3195,7 +3195,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3233,7 +3233,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3271,7 +3271,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3308,7 +3308,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3345,7 +3345,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3382,7 +3382,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3422,7 +3422,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3462,7 +3462,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3502,7 +3502,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3542,7 +3542,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3581,7 +3581,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3620,7 +3620,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3661,7 +3661,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3702,7 +3702,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3743,7 +3743,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3783,7 +3783,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3823,7 +3823,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3863,7 +3863,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3903,7 +3903,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3943,7 +3943,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -3983,7 +3983,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4023,7 +4023,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4062,7 +4062,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4101,7 +4101,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4141,7 +4141,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4181,7 +4181,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4221,7 +4221,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4261,7 +4261,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4301,7 +4301,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4341,7 +4341,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4381,7 +4381,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4421,7 +4421,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4461,7 +4461,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4501,7 +4501,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4540,7 +4540,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4579,7 +4579,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4620,7 +4620,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4661,7 +4661,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4702,7 +4702,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4742,7 +4742,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4782,7 +4782,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4822,7 +4822,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4860,7 +4860,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4898,7 +4898,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4933,7 +4933,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -4971,7 +4971,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5006,7 +5006,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5044,7 +5044,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5082,7 +5082,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5120,7 +5120,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5161,7 +5161,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5202,7 +5202,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5238,7 +5238,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5273,7 +5273,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5309,7 +5309,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5347,7 +5347,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5385,7 +5385,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5421,7 +5421,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5456,7 +5456,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5494,7 +5494,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5530,7 +5530,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5568,7 +5568,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5607,7 +5607,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5645,7 +5645,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5684,7 +5684,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5725,7 +5725,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5764,7 +5764,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5805,7 +5805,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5844,7 +5844,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
@@ -5885,7 +5885,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 

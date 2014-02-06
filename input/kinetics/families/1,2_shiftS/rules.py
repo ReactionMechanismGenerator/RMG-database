@@ -33,7 +33,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 1,
-    shortDesc = u"""Aäron Vandeputte CBS-QB3 HO""",
+    shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
     longDesc = 
 u"""
 
