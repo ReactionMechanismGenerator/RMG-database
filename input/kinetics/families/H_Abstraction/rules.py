@@ -933,7 +933,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -1052,7 +1052,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -1130,7 +1130,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -1200,7 +1200,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -1278,7 +1278,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -1349,7 +1349,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -1420,7 +1420,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -1499,7 +1499,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -2518,7 +2518,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -2596,7 +2596,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -2674,7 +2674,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -2751,7 +2751,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -2829,7 +2829,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -2907,7 +2907,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -2985,7 +2985,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -3063,7 +3063,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
+    shortDesc = u"""Aaron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 
@@ -4023,7 +4023,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -4101,7 +4101,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -4179,7 +4179,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -4255,7 +4255,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -4333,7 +4333,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -4411,7 +4411,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -4489,7 +4489,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -4567,7 +4567,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -5478,7 +5478,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -5555,7 +5555,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -5633,7 +5633,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -5710,7 +5710,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -5788,7 +5788,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -5866,7 +5866,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -5944,7 +5944,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -6021,7 +6021,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
@@ -6997,7 +6997,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -7080,7 +7080,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -7164,7 +7164,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -7244,7 +7244,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -7328,7 +7328,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -7412,7 +7412,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -7493,7 +7493,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -7577,7 +7577,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -8672,7 +8672,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -8768,7 +8768,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -8857,7 +8857,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -8940,7 +8940,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -9028,7 +9028,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -9117,7 +9117,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -9245,7 +9245,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
@@ -9287,7 +9287,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
@@ -10488,7 +10488,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -10578,7 +10578,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -10666,7 +10666,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -10759,7 +10759,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -10848,7 +10848,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -10939,7 +10939,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -11030,7 +11030,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -11116,7 +11116,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -12226,7 +12226,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
@@ -12301,7 +12301,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -12394,7 +12394,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -12471,7 +12471,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -12548,7 +12548,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
@@ -12630,7 +12630,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
@@ -12706,7 +12706,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -12796,7 +12796,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 [137] Mayer, S.W.; Schieler, L. J. Phys. Chem. 1968, 72, 2628.
@@ -13777,7 +13777,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -13816,7 +13816,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -13855,7 +13855,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -13893,7 +13893,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -13932,7 +13932,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -13971,7 +13971,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14010,7 +14010,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14049,7 +14049,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14216,7 +14216,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14319,7 +14319,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14422,7 +14422,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
@@ -14516,7 +14516,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14611,7 +14611,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
@@ -14706,7 +14706,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14801,7 +14801,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/o HR corrections
@@ -14896,7 +14896,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
@@ -14942,7 +14942,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -14981,7 +14981,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15020,7 +15020,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15058,7 +15058,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15097,7 +15097,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15136,7 +15136,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15175,7 +15175,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15214,7 +15214,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15253,7 +15253,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15292,7 +15292,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15331,7 +15331,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15369,7 +15369,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15408,7 +15408,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15447,7 +15447,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15486,7 +15486,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15525,7 +15525,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15564,7 +15564,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15603,7 +15603,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15642,7 +15642,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15680,7 +15680,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15719,7 +15719,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15758,7 +15758,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15797,7 +15797,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15836,7 +15836,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15875,7 +15875,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15914,7 +15914,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15953,7 +15953,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -15991,7 +15991,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16030,7 +16030,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16069,7 +16069,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16108,7 +16108,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16147,7 +16147,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16186,7 +16186,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16225,7 +16225,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16264,7 +16264,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16302,7 +16302,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16341,7 +16341,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16380,7 +16380,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16419,7 +16419,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16458,7 +16458,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16569,7 +16569,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16608,7 +16608,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16647,7 +16647,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16685,7 +16685,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16724,7 +16724,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16763,7 +16763,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16802,7 +16802,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -16841,7 +16841,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -18132,7 +18132,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -18233,7 +18233,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -18324,7 +18324,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
@@ -18421,7 +18421,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 ROH + .OO. --> HOO. + RO.
@@ -18501,7 +18501,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -18581,7 +18581,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 6 to get per-H value.
@@ -18672,7 +18672,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 This rate rules matches C=C*-C + H2O2 <=> C=C-C + HO-O*
@@ -18752,7 +18752,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -19868,7 +19868,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -19948,7 +19948,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20028,7 +20028,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20107,7 +20107,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20188,7 +20188,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20269,7 +20269,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20348,7 +20348,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20427,7 +20427,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20705,7 +20705,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20743,7 +20743,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20781,7 +20781,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20818,7 +20818,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20856,7 +20856,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20894,7 +20894,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20932,7 +20932,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -20970,7 +20970,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21008,7 +21008,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21046,7 +21046,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21084,7 +21084,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21121,7 +21121,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21159,7 +21159,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21197,7 +21197,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21235,7 +21235,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21273,7 +21273,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21311,7 +21311,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21349,7 +21349,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21387,7 +21387,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21424,7 +21424,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21462,7 +21462,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21500,7 +21500,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21538,7 +21538,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21576,7 +21576,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21614,7 +21614,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21652,7 +21652,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21690,7 +21690,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21727,7 +21727,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21765,7 +21765,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21803,7 +21803,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21841,7 +21841,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21879,7 +21879,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21917,7 +21917,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21955,7 +21955,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -21993,7 +21993,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22030,7 +22030,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22068,7 +22068,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22106,7 +22106,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22144,7 +22144,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22182,7 +22182,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22218,7 +22218,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22257,7 +22257,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22296,7 +22296,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22335,7 +22335,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22374,7 +22374,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22413,7 +22413,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22452,7 +22452,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22491,7 +22491,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22530,7 +22530,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22569,7 +22569,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22608,7 +22608,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22647,7 +22647,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22686,7 +22686,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22725,7 +22725,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22764,7 +22764,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22803,7 +22803,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22842,7 +22842,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22881,7 +22881,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22919,7 +22919,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22957,7 +22957,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -22995,7 +22995,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23033,7 +23033,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23071,7 +23071,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23110,7 +23110,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23149,7 +23149,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23188,7 +23188,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23226,7 +23226,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23265,7 +23265,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23304,7 +23304,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23343,7 +23343,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23382,7 +23382,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23418,7 +23418,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23457,7 +23457,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23496,7 +23496,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23535,7 +23535,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23574,7 +23574,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23613,7 +23613,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23652,7 +23652,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23691,7 +23691,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23730,7 +23730,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23769,7 +23769,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23808,7 +23808,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23847,7 +23847,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23886,7 +23886,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23925,7 +23925,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -23964,7 +23964,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24003,7 +24003,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24042,7 +24042,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24081,7 +24081,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24119,7 +24119,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24157,7 +24157,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24195,7 +24195,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24233,7 +24233,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24271,7 +24271,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24310,7 +24310,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24349,7 +24349,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24388,7 +24388,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24426,7 +24426,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24465,7 +24465,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24504,7 +24504,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24543,7 +24543,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24582,7 +24582,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24618,7 +24618,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24657,7 +24657,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24696,7 +24696,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24735,7 +24735,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24774,7 +24774,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24813,7 +24813,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24852,7 +24852,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24891,7 +24891,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24930,7 +24930,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -24969,7 +24969,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25008,7 +25008,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25047,7 +25047,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25086,7 +25086,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25125,7 +25125,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25164,7 +25164,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25203,7 +25203,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25242,7 +25242,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25281,7 +25281,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25319,7 +25319,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25357,7 +25357,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25395,7 +25395,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25433,7 +25433,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25471,7 +25471,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25510,7 +25510,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25549,7 +25549,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25588,7 +25588,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25626,7 +25626,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25665,7 +25665,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25704,7 +25704,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25743,7 +25743,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25782,7 +25782,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25818,7 +25818,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25857,7 +25857,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25896,7 +25896,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25935,7 +25935,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -25974,7 +25974,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26013,7 +26013,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26052,7 +26052,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26091,7 +26091,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26130,7 +26130,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26169,7 +26169,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26208,7 +26208,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26247,7 +26247,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26286,7 +26286,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26325,7 +26325,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26364,7 +26364,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26403,7 +26403,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26442,7 +26442,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26481,7 +26481,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26519,7 +26519,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26557,7 +26557,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26595,7 +26595,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26633,7 +26633,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26671,7 +26671,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26710,7 +26710,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26749,7 +26749,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26788,7 +26788,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26826,7 +26826,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26865,7 +26865,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26904,7 +26904,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26943,7 +26943,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -26982,7 +26982,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27018,7 +27018,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27057,7 +27057,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27096,7 +27096,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27135,7 +27135,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27174,7 +27174,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27213,7 +27213,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27252,7 +27252,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27291,7 +27291,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27330,7 +27330,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27369,7 +27369,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27408,7 +27408,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27447,7 +27447,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27486,7 +27486,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27525,7 +27525,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27564,7 +27564,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27603,7 +27603,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27642,7 +27642,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27681,7 +27681,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27719,7 +27719,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27757,7 +27757,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27795,7 +27795,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27833,7 +27833,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27871,7 +27871,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27910,7 +27910,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27949,7 +27949,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -27988,7 +27988,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28026,7 +28026,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28065,7 +28065,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28104,7 +28104,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28143,7 +28143,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28182,7 +28182,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28218,7 +28218,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28257,7 +28257,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28296,7 +28296,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28335,7 +28335,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28374,7 +28374,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28413,7 +28413,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28452,7 +28452,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28491,7 +28491,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28530,7 +28530,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28569,7 +28569,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28608,7 +28608,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28647,7 +28647,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28686,7 +28686,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28725,7 +28725,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28764,7 +28764,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28803,7 +28803,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28842,7 +28842,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28881,7 +28881,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28919,7 +28919,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28957,7 +28957,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -28995,7 +28995,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29033,7 +29033,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29071,7 +29071,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29110,7 +29110,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29149,7 +29149,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29188,7 +29188,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29226,7 +29226,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29265,7 +29265,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29304,7 +29304,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29343,7 +29343,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29382,7 +29382,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29418,7 +29418,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29457,7 +29457,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29496,7 +29496,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29535,7 +29535,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29574,7 +29574,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29613,7 +29613,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29652,7 +29652,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29691,7 +29691,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29730,7 +29730,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29769,7 +29769,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29808,7 +29808,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29847,7 +29847,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29886,7 +29886,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29925,7 +29925,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -29964,7 +29964,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30003,7 +30003,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30042,7 +30042,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30081,7 +30081,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30119,7 +30119,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30157,7 +30157,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30195,7 +30195,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30233,7 +30233,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30271,7 +30271,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30310,7 +30310,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30349,7 +30349,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30388,7 +30388,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30426,7 +30426,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30465,7 +30465,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30504,7 +30504,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30543,7 +30543,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30582,7 +30582,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30618,7 +30618,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30657,7 +30657,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30696,7 +30696,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30735,7 +30735,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30774,7 +30774,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30813,7 +30813,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30852,7 +30852,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30891,7 +30891,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30930,7 +30930,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -30969,7 +30969,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31008,7 +31008,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31047,7 +31047,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31086,7 +31086,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31125,7 +31125,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31164,7 +31164,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31203,7 +31203,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31242,7 +31242,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31281,7 +31281,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31319,7 +31319,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31357,7 +31357,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31395,7 +31395,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31433,7 +31433,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31471,7 +31471,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31510,7 +31510,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31549,7 +31549,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31588,7 +31588,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31626,7 +31626,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31665,7 +31665,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31704,7 +31704,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31743,7 +31743,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31782,7 +31782,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31816,7 +31816,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31853,7 +31853,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31890,7 +31890,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31927,7 +31927,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -31964,7 +31964,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32000,7 +32000,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32036,7 +32036,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32072,7 +32072,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32108,7 +32108,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32145,7 +32145,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32182,7 +32182,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32219,7 +32219,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32256,7 +32256,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32293,7 +32293,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32330,7 +32330,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32367,7 +32367,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32404,7 +32404,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32441,7 +32441,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32478,7 +32478,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32514,7 +32514,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32551,7 +32551,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32588,7 +32588,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32625,7 +32625,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32662,7 +32662,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32699,7 +32699,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32736,7 +32736,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32772,7 +32772,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32809,7 +32809,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32846,7 +32846,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32883,7 +32883,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32920,7 +32920,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32954,7 +32954,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -32991,7 +32991,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33028,7 +33028,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33065,7 +33065,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33102,7 +33102,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33138,7 +33138,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33174,7 +33174,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33210,7 +33210,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33288,7 +33288,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33392,7 +33392,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33429,7 +33429,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33466,7 +33466,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33503,7 +33503,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33540,7 +33540,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33577,7 +33577,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33614,7 +33614,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33651,7 +33651,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33688,7 +33688,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33725,7 +33725,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33761,7 +33761,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33798,7 +33798,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33835,7 +33835,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33872,7 +33872,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33909,7 +33909,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33946,7 +33946,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -33983,7 +33983,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34019,7 +34019,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34056,7 +34056,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34093,7 +34093,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34130,7 +34130,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34167,7 +34167,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34201,7 +34201,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34238,7 +34238,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34275,7 +34275,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34312,7 +34312,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34349,7 +34349,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34385,7 +34385,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34421,7 +34421,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34457,7 +34457,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34493,7 +34493,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34530,7 +34530,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34567,7 +34567,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34604,7 +34604,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34641,7 +34641,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34678,7 +34678,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34715,7 +34715,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34752,7 +34752,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34789,7 +34789,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34826,7 +34826,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34863,7 +34863,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34899,7 +34899,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34936,7 +34936,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -34973,7 +34973,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35010,7 +35010,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35047,7 +35047,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35084,7 +35084,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35121,7 +35121,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35157,7 +35157,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35194,7 +35194,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35231,7 +35231,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35268,7 +35268,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35305,7 +35305,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35339,7 +35339,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35376,7 +35376,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35413,7 +35413,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35450,7 +35450,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35487,7 +35487,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35523,7 +35523,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35559,7 +35559,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35595,7 +35595,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35631,7 +35631,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35668,7 +35668,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35705,7 +35705,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35742,7 +35742,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35779,7 +35779,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35816,7 +35816,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35853,7 +35853,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35890,7 +35890,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35927,7 +35927,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -35964,7 +35964,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36001,7 +36001,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36037,7 +36037,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36074,7 +36074,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36111,7 +36111,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36148,7 +36148,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36185,7 +36185,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36222,7 +36222,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36259,7 +36259,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36295,7 +36295,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36332,7 +36332,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36369,7 +36369,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36406,7 +36406,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36443,7 +36443,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36477,7 +36477,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36514,7 +36514,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36551,7 +36551,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36588,7 +36588,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36625,7 +36625,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36661,7 +36661,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36697,7 +36697,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36733,7 +36733,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36769,7 +36769,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36806,7 +36806,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36843,7 +36843,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36880,7 +36880,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36917,7 +36917,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36954,7 +36954,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -36991,7 +36991,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37028,7 +37028,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37065,7 +37065,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37102,7 +37102,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37139,7 +37139,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37175,7 +37175,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37212,7 +37212,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37249,7 +37249,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37286,7 +37286,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37323,7 +37323,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37360,7 +37360,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37397,7 +37397,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37433,7 +37433,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37470,7 +37470,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37507,7 +37507,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37544,7 +37544,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37581,7 +37581,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37615,7 +37615,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37652,7 +37652,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37689,7 +37689,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37726,7 +37726,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37763,7 +37763,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37799,7 +37799,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37835,7 +37835,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37871,7 +37871,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37907,7 +37907,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37944,7 +37944,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -37981,7 +37981,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38018,7 +38018,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38055,7 +38055,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38092,7 +38092,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38129,7 +38129,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38166,7 +38166,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38203,7 +38203,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38240,7 +38240,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38277,7 +38277,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38313,7 +38313,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38350,7 +38350,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38387,7 +38387,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38424,7 +38424,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38461,7 +38461,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38498,7 +38498,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38535,7 +38535,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38571,7 +38571,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38608,7 +38608,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38645,7 +38645,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38682,7 +38682,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38719,7 +38719,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38754,7 +38754,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38789,7 +38789,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38824,7 +38824,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38859,7 +38859,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38894,7 +38894,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38929,7 +38929,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38964,7 +38964,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -38999,7 +38999,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39034,7 +39034,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39069,7 +39069,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39104,7 +39104,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39139,7 +39139,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39174,7 +39174,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39209,7 +39209,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39244,7 +39244,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39279,7 +39279,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39314,7 +39314,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39349,7 +39349,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39384,7 +39384,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39419,7 +39419,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39454,7 +39454,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39489,7 +39489,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39524,7 +39524,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39559,7 +39559,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39594,7 +39594,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39629,7 +39629,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39664,7 +39664,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39699,7 +39699,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39734,7 +39734,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39769,7 +39769,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39804,7 +39804,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39839,7 +39839,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39874,7 +39874,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39909,7 +39909,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39944,7 +39944,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -39979,7 +39979,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -40015,7 +40015,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
@@ -40053,7 +40053,7 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Aäron Vandeputte GAVs""",
+    shortDesc = u"""Aaron Vandeputte GAVs""",
     longDesc = 
 u"""
 
