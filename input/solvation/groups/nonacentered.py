@@ -600,9 +600,9 @@ entry(
 		B = -0.446,
 		E = -0.111,
 		L = 0.0,
-		A = 0.0
+		A = 0.356
 	),
-	shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N-""",
+	shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)""",
 	longDesc = 
 u"""
 
@@ -650,9 +650,9 @@ entry(
 		B = -0.252,
 		E = 0.0,
 		L = 0.0,
-		A = 0.0
+		A = -0.105
 	),
-	shortDesc = u"""Platts group 53 carbamate""",
+	shortDesc = u"""Platts group 53 carbamate (fragment 16 for A)""",
 	longDesc = 
 u"""
 
@@ -685,8 +685,217 @@ u"""
 """
 )
 
+entry(
+	index = 30,
+	label = "N3sH2-benz",
+	group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   H   0 [1,S}
+3   H   0 {1,S}
+4   Cb  0 {1,S} {5,B} {9,B}
+5   Cb  0 {4,B} {6,B}
+6   Cb  0 {5,B} {7,B}
+7   Cb  0 {6,B} {8,B}
+8   Cb  0 {7,B} {9,B}
+9   Cb  0 {8,B} {4,B}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = 0.247
+	),
+	shortDesc = u"""aniline correction for A (fragment 4)""",
+	longDesc = 
+u"""
 
+"""
+)
 
+entry(
+	index = 31,
+	label = "Cd(Od)NH2",
+	group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   H   0 {1,S}
+4   CO  0 {1,S} {5,D}
+5   Od  0 {4,D}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = 0.275
+	),
+	shortDesc = u"""primary amide correction for A (fragment 10)""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 32,
+	label = "Cd(Od)NHR",
+	group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   R!H 0 {1,S}
+4   CO  0 {1,S} {5,D}
+5   Od  0 {4,D}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = 0.281
+	),
+	shortDesc = u"""secondary amide correction for A (fragment 11)""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 33,
+	label = "Cd(Od)NH-arom",
+	group = 
+"""
+1 * N3s 	0 {2,S} {3,S} {4,S}
+2   H   	0 {1,S}
+3   {Cb,Nb} 0 {1,S}
+4   CO  	0 {1,S} {5,D}
+5   Od  	0 {4,D}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = -0.091
+	),
+	shortDesc = u"""aromatic amide correction for A (fragment 12)""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 34,
+	label = "N3sHCd(Od)N3sH,
+	group = 
+"""
+1 * N3s 	0 {2,S} {3,S}
+2   H   	0 {1,S}
+3   CO 		0 {1,S} {4,D} {5,S}
+4   Od		0 {3,D}
+5   N3s		0 {3,S} {6,S}
+6   H       0 {5,S}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = -0.165
+	),
+	shortDesc = u"""urea correction for A (fragment 14)""",
+	longDesc = 
+u"""
+
+"""
+)
+		
+entry(
+	index = 34,
+	label = "N3sHCd(Od)N3sH",
+	group = 
+"""
+1 * N3s 	0 {2,S} {3,S}
+2   H   	0 {1,S}
+3   CO 		0 {1,S} {4,D} {5,S}
+4   Od		0 {3,D}
+5   N3s		0 {3,S} {6,S}
+6   H       0 {5,S}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = -0.165/2
+	),
+	shortDesc = u"""urea correction for A (fragment 14)""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 35,
+	label = "N3sCd(Od)N3sH",
+	group = 
+"""
+1 * N3s 	0 {2,S} {3,S} {7,S}
+2   R!H   	0 {1,S}
+3   CO 		0 {1,S} {4,D} {5,S}
+4   Od		0 {3,D}
+5   N3s		0 {3,S} {6,S}
+6   H       0 {5,S}
+7   R!H		0 {1,S}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = -0.119
+	),
+	shortDesc = u"""urea correction for A (fragment 15)""",
+	longDesc = 
+u"""
+
+"""
+)
+		
+entry(
+	index = 36,
+	label = "CdsNdNsNs",
+	group = 
+"""
+1 * Cd 	0 {2,D} {3,S} {4,S}
+2   N3d 0 {1,D} {5,S}
+3   N3s 0 {1,S} {6,S} {7,S}
+4	N3s 0 {1,S} {8,S} {9,S}
+5   H   0 {2,S}
+6   H   0 {3,S}
+7   H   0 {3,S}
+8   H   0 {4,S}
+9   H   0 {4,S}
+""",
+	solute = SoluteData(
+		S = 0.0,
+		B = 0.0,
+		E = 0.0,
+		L = 0.0,
+		A = 0.17
+	),
+	shortDesc = u"""guanidine correction for A (fragment 17)""",
+	longDesc = 
+u"""
+
+"""
+)
 
 
 
@@ -730,7 +939,17 @@ L0: R
 	    L2: OxR6
 	    L2: OxR7
 	
-	L1: SdOdOdN
-	    
+	L1: SdOdOdN // sulfonamide
+	
+	L1: N3sH2-benz // aniline
+	
+	L1: Cd(Od)NH2 // primary amide
+	L1: Cd(Od)NHR // secondary amide
+			L2: Cd(Od)NH-arom // aromatic amide
+	
+	L1: N3sHCd(Od)N3sH // urea (with at least 2 H)
+	L1: N3sCd(Od)N3sH // urea (noH on one side)
+	
+	L1: CdsNdNsNs // guanadine
 """
 )
