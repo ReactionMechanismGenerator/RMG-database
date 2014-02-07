@@ -118,7 +118,7 @@ entry(
 	label = "Cs(OssH)Cs(OssH)",
 	group = 
 """
-1 * Cs 0 {2,S} {3,S} {4,S}, {5,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
 2   R  0 {1,S}
 3   R  0 {1,S}
 4   Os 0 {1,S} {6,S}
@@ -465,9 +465,9 @@ entry(
 	label = "Cd(Od)N",
 	group = 
 """
-1 * CO 		  {2,D} {3,S}
-2   Od 		  {1,D}
-3   {N3s,N3d} {1,S}
+1 * CO 		  0 {2,D} {3,S}
+2   Od 		  0 {1,D}
+3   {N3s,N3d} 0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -511,7 +511,7 @@ entry(
 2 * CO 0 {1,D} {3,S} {5,S}
 3   N  0 {2,S} {4,S}
 4   Cs 0 {5,S} {3,S}
-5   Cs 0 {4,S} {1,S}
+5   Cs 0 {4,S} {2,S}
 """,
 	solute = None,
 	shortDesc = u"""lactam, 4 membered ring""",
@@ -531,7 +531,7 @@ entry(
 3   N  0 {2,S} {4,S}
 4   Cs 0 {5,S} {3,S}
 5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {1,S}
+6   Cs 0 {5,S} {2,S}
 """,
 	solute = None,
 	shortDesc = u"""lactam, 5 membered ring""",
@@ -552,7 +552,7 @@ entry(
 4   Cs 0 {5,S} {3,S}
 5   Cs 0 {4,S} {6,S}
 6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {1,S}
+7   Cs 0 {6,S} {2,S}
 """,
 	solute = None,
 	shortDesc = u"""lactam, 6 membered ring""",
@@ -568,13 +568,13 @@ entry(
 	group = 
 """
 1   Od 0 {2,D}
-2 * CO 0 {1,D} {3,S} {78,S}
+2 * CO 0 {1,D} {3,S} {8,S}
 3   N  0 {2,S} {4,S}
 4   Cs 0 {5,S} {3,S}
 5   Cs 0 {4,S} {6,S}
 6   Cs 0 {5,S} {7,S}
 7   Cs 0 {6,S} {8,S}
-8   Cs 0 {7,S} {1,S}
+8   Cs 0 {7,S} {2,S}
 """,
 	solute = None,
 	shortDesc = u"""lactam, 7 membered ring""",
@@ -691,14 +691,14 @@ entry(
 	group = 
 """
 1 * N3s 0 {2,S} {3,S} {4,S}
-2   H   0 [1,S}
+2   H   0 {1,S}
 3   H   0 {1,S}
 4   Cb  0 {1,S} {5,B} {9,B}
 5   Cb  0 {4,B} {6,B}
 6   Cb  0 {5,B} {7,B}
 7   Cb  0 {6,B} {8,B}
 8   Cb  0 {7,B} {9,B}
-9   Cb  0 {8,B} {4,B}
+9   Cb  0 {4,B} {8,B}
 """,
 	solute = SoluteData(
 		S = 0.0,
@@ -771,7 +771,7 @@ entry(
 """
 1 * N3s 	0 {2,S} {3,S} {4,S}
 2   H   	0 {1,S}
-3   {Cb,Nb} 0 {1,S}
+3   {Cb,N3b} 0 {1,S}
 4   CO  	0 {1,S} {5,D}
 5   Od  	0 {4,D}
 """,
@@ -791,7 +791,7 @@ u"""
 
 entry(
 	index = 34,
-	label = "N3sHCd(Od)N3sH,
+	label = "N3sHCd(Od)N3sH",
 	group = 
 """
 1 * N3s 	0 {2,S} {3,S}
