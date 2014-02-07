@@ -460,6 +460,233 @@ u"""
 """
 )
 
+entry(
+	index = 20,
+	label = "Cd(Od)N",
+	group = 
+"""
+1 * CO 		  {2,D} {3,S}
+2   Od 		  {1,D}
+3   {N3s,N3d} {1,S}
+
+""",
+	solute = SoluteData(
+		S = 0.175,
+		B = -0.287,
+		E = 0.0,
+		L = 0.603,
+		A = 0.0
+	),
+	shortDesc = u"""Platts group 49 noncyclic aliphatic amide""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 21,
+	label = "Lactam",
+	group = "OR{Lactam4, Lactam5, Lactam6, Lactam7}",
+	solute = SoluteData(
+		S = -0.1,
+		B = -0.231,
+		E = 0.061,
+		L = 0.583,
+		A = 0
+	),
+	shortDesc = u"""Platts group 50 lactam""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 22,
+	label = "Lactam4",
+	group = 
+"""
+1   Od 0 {2,D}
+2 * CO 0 {1,D} {3,S} {5,S}
+3   N  0 {2,S} {4,S}
+4   Cs 0 {5,S} {3,S}
+5   Cs 0 {4,S} {1,S}
+""",
+	solute = None,
+	shortDesc = u"""lactam, 4 membered ring""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 23,
+	label = "Lactam5",
+	group = 
+"""
+1   Od 0 {2,D}
+2 * CO 0 {1,D} {3,S} {6,S}
+3   N  0 {2,S} {4,S}
+4   Cs 0 {5,S} {3,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {1,S}
+""",
+	solute = None,
+	shortDesc = u"""lactam, 5 membered ring""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 24,
+	label = "Lactam6",
+	group = 
+"""
+1   Od 0 {2,D}
+2 * CO 0 {1,D} {3,S} {7,S}
+3   N  0 {2,S} {4,S}
+4   Cs 0 {5,S} {3,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {1,S}
+""",
+	solute = None,
+	shortDesc = u"""lactam, 6 membered ring""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 25,
+	label = "Lactam7",
+	group = 
+"""
+1   Od 0 {2,D}
+2 * CO 0 {1,D} {3,S} {78,S}
+3   N  0 {2,S} {4,S}
+4   Cs 0 {5,S} {3,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {7,S} {1,S}
+""",
+	solute = None,
+	shortDesc = u"""lactam, 7 membered ring""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 26,
+	label = "SdOdOdN",
+	group = 
+"""
+1 * Sd 0 {2,D} {3,D} {4,S}
+2   Od 0 {1,D}
+3   Od 0 {1,D}
+4   N  0 {1,S}
+
+""",
+	solute = SoluteData(
+		S = -0.569,
+		B = -0.446,
+		E = -0.111,
+		L = 0.0,
+		A = 0.0
+	),
+	shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N-""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 27,
+	label = "NCd(Od)N",
+	group = 
+"""
+1 * CO  0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   N3s 0 {1,S}
+4   N3s 0 {1,S}
+
+""",
+	solute = SoluteData(
+		S = -0.553,
+		B = -0.076,
+		E = -0.11,
+		L = 0.0,
+		A = 0.0
+	),
+	shortDesc = u"""Platts group 52 urea""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 28,
+	label = "OsCd(Od)N",
+	group = 
+"""
+1 * CO  0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Os  0 {1,S}
+4   N3s 0 {1,S}
+
+""",
+	solute = SoluteData(
+		S = -0.588,
+		B = -0.252,
+		E = 0.0,
+		L = 0.0,
+		A = 0.0
+	),
+	shortDesc = u"""Platts group 53 carbamate""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 29,
+	label = "Cd(Od)NCd(Od)",
+	group = 
+"""
+1 * CO  0 {2,D} {3,S}
+2   Od  0 {1,D}
+3   N3s 0 {1,S} {4,S}
+4   CO  0 {3,S} {5,D}
+5   Od  0 {4,D}
+
+""",
+	solute = SoluteData(
+		S = -0.51/2,
+		B = -0.148/2,
+		E = 0.0,
+		L = 0.0,
+		A = 0.0
+	),
+	shortDesc = u"""Platts group 54 imide""",
+	longDesc = 
+u"""
+
+"""
+)
+
+
+
 
 
 
@@ -477,6 +704,16 @@ L0: R
 		L2: Oss(CdsOd)Oss // carbonate
 		L2: OssH(CdsOd) // carboxylic acid
 		L2: Cd(Od)Cd=CdCd(Od) // quinone
+		L2: Cd(Od)N // amide
+			L3: Lactam 
+				L4: Lactam4
+				L4: Lactam5
+				L4: Lactam6
+				L4: Lactam7
+			L3: NCd(Od)N // urea
+			L3: OsCd(Od)N // carbamate
+			L3: Cd(Od)NCd(Od) // imide
+				
 	
 	L1: Cs(OssH)Cs(OssH) // 1,2 diol
 		
@@ -492,6 +729,8 @@ L0: R
 	    L2: OxR5
 	    L2: OxR6
 	    L2: OxR7
+	
+	L1: SdOdOdN
 	    
 """
 )
