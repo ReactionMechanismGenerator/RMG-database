@@ -79,29 +79,29 @@ u"""
     ],
 )
 
-entry(
-    index = 4,
-    label = "OH",
-    molecule = 
-"""
-1 O 1 {2,S}
-2 H 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.1402,7.0675,7.0458,7.0581,7.1493,7.3353,7.8741],'cal/(mol*K)'),
-        H298 = (9.4021,'kcal/mol'),
-        S298 = (43.9063,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""taken from GRI-Mech 3.0 species s00010102""",
-    longDesc = 
-u"""
+#entry(
+#    index = 4,
+#    label = "OH",
+#    molecule = 
+#"""
+#1 O 1 {2,S}
+#2 H 0 {1,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([7.1402,7.0675,7.0458,7.0581,7.1493,7.3353,7.8741],'cal/(mol*K)'),
+#        H298 = (9.4021,'kcal/mol'),
+#        S298 = (43.9063,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""taken from GRI-Mech 3.0 species s00010102""",
+#    longDesc = 
+#u"""
 
-""",
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
+#""",
+#    history = [
+#        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+#    ],
+#)
 
 entry(
     index = 5,
