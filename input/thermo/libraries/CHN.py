@@ -1632,42 +1632,42 @@ u"""
     ],
 )
 
-entry(
-    index = 41,
-    label = "C5H9Ni",
-    molecule = 
-"""
-1  C 0 {2,S} {7,S} {8,S} {9,S}
-2  C 0 {1,S} {3,S} {5,S} {10,S}
-3  C 0 {2,S} {4,T}
-4  N 0 {3,T}
-5  C 0 {2,S} {6,S} {11,S} {12,S}
-6  C 0 {5,S} {13,S} {14,S} {15,S}
-7  H 0 {1,S}
-8  H 0 {1,S}
-9  H 0 {1,S}
-10 H 0 {2,S}
-11 H 0 {5,S}
-12 H 0 {5,S}
-13 H 0 {6,S}
-14 H 0 {6,S}
-15 H 0 {6,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.327,33.806,39.939,45.312,53.876,60.449,69.215],'cal/(mol*K)'),
-        H298 = (1.076,'kcal/mol'),
-        S298 = (84.402,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""(S)-(+)-2-methylbutyronitrile""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
+#entry(
+#    index = 41,
+#    label = "C5H9Ni",
+#    molecule = 
+#"""
+#1  C 0 {2,S} {7,S} {8,S} {9,S}
+#2  C 0 {1,S} {3,S} {5,S} {10,S}
+#3  C 0 {2,S} {4,T}
+#4  N 0 {3,T}
+#5  C 0 {2,S} {6,S} {11,S} {12,S}
+#6  C 0 {5,S} {13,S} {14,S} {15,S}
+#7  H 0 {1,S}
+#8  H 0 {1,S}
+#9  H 0 {1,S}
+#10 H 0 {2,S}
+#11 H 0 {5,S}
+#12 H 0 {5,S}
+#13 H 0 {6,S}
+#14 H 0 {6,S}
+#15 H 0 {6,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([27.327,33.806,39.939,45.312,53.876,60.449,69.215],'cal/(mol*K)'),
+#        H298 = (1.076,'kcal/mol'),
+#        S298 = (84.402,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""(S)-(+)-2-methylbutyronitrile""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+#    ],
+#)
 
 entry(
     index = 42,
@@ -2522,87 +2522,87 @@ u"""
     ],
 )
 
-entry(
-    index = 63,
-    label = "C5H13Nr",
-    molecule = 
-"""
-1  C 0 {2,S} {7,S} {8,S} {9,S}
-2  C 0 {1,S} {3,S} {5,S} {10,S}
-3  C 0 {2,S} {4,S} {11,S} {12,S}
-4  N 0 {3,S} {13,S} {14,S}
-5  C 0 {2,S} {6,S} {15,S} {16,S}
-6  C 0 {5,S} {17,S} {18,S} {19,S}
-7  H 0 {1,S}
-8  H 0 {1,S}
-9  H 0 {1,S}
-10 H 0 {2,S}
-11 H 0 {3,S}
-12 H 0 {3,S}
-13 H 0 {4,S}
-14 H 0 {4,S}
-15 H 0 {5,S}
-16 H 0 {5,S}
-17 H 0 {6,S}
-18 H 0 {6,S}
-19 H 0 {6,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([33.947,42.832,51.193,58.099,67.927,75.22,86.817],'cal/(mol*K)'),
-        H298 = (-27.615,'kcal/mol'),
-        S298 = (95.35,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""(S)-(-)-2-methylbutylamine""",
-    longDesc = 
-u"""
+#entry(
+#    index = 63,
+#    label = "C5H13Nr",
+#    molecule = 
+#"""
+#1  C 0 {2,S} {7,S} {8,S} {9,S}
+#2  C 0 {1,S} {3,S} {5,S} {10,S}
+#3  C 0 {2,S} {4,S} {11,S} {12,S}
+#4  N 0 {3,S} {13,S} {14,S}
+#5  C 0 {2,S} {6,S} {15,S} {16,S}
+#6  C 0 {5,S} {17,S} {18,S} {19,S}
+#7  H 0 {1,S}
+#8  H 0 {1,S}
+#9  H 0 {1,S}
+#10 H 0 {2,S}
+#11 H 0 {3,S}
+#12 H 0 {3,S}
+#13 H 0 {4,S}
+#14 H 0 {4,S}
+#15 H 0 {5,S}
+#16 H 0 {5,S}
+#17 H 0 {6,S}
+#18 H 0 {6,S}
+#19 H 0 {6,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([33.947,42.832,51.193,58.099,67.927,75.22,86.817],'cal/(mol*K)'),
+#        H298 = (-27.615,'kcal/mol'),
+#        S298 = (95.35,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""(S)-(-)-2-methylbutylamine""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+#    ],
+#)
 
-""",
-    history = [
-        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 64,
-    label = "C5H13Ns",
-    molecule = 
-"""
-1  C 0 {2,S} {7,S} {8,S} {9,S}
-2  N 0 {1,S} {3,S} {6,S}
-3  C 0 {2,S} {4,S} {5,S} {10,S}
-4  C 0 {3,S} {11,S} {12,S} {13,S}
-5  C 0 {3,S} {14,S} {15,S} {16,S}
-6  C 0 {2,S} {17,S} {18,S} {19,S}
-7  H 0 {1,S}
-8  H 0 {1,S}
-9  H 0 {1,S}
-10 H 0 {3,S}
-11 H 0 {4,S}
-12 H 0 {4,S}
-13 H 0 {4,S}
-14 H 0 {5,S}
-15 H 0 {5,S}
-16 H 0 {5,S}
-17 H 0 {6,S}
-18 H 0 {6,S}
-19 H 0 {6,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([33.034,41.789,50.082,57.118,67.597,75.361,86.489],'cal/(mol*K)'),
-        H298 = (-18.392,'kcal/mol'),
-        S298 = (89.943,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""N,N-dimethyl-2-propanamine""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
+#entry(
+#    index = 64,
+#    label = "C5H13Ns",
+#    molecule = 
+#"""
+#1  C 0 {2,S} {7,S} {8,S} {9,S}
+#2  N 0 {1,S} {3,S} {6,S}
+#3  C 0 {2,S} {4,S} {5,S} {10,S}
+#4  C 0 {3,S} {11,S} {12,S} {13,S}
+#5  C 0 {3,S} {14,S} {15,S} {16,S}
+#6  C 0 {2,S} {17,S} {18,S} {19,S}
+#7  H 0 {1,S}
+#8  H 0 {1,S}
+#9  H 0 {1,S}
+#10 H 0 {3,S}
+#11 H 0 {4,S}
+#12 H 0 {4,S}
+#13 H 0 {4,S}
+#14 H 0 {5,S}
+#15 H 0 {5,S}
+#16 H 0 {5,S}
+#17 H 0 {6,S}
+#18 H 0 {6,S}
+#19 H 0 {6,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([33.034,41.789,50.082,57.118,67.597,75.361,86.489],'cal/(mol*K)'),
+#        H298 = (-18.392,'kcal/mol'),
+#        S298 = (89.943,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""N,N-dimethyl-2-propanamine""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+#    ],
+#)
 
 entry(
     index = 65,
@@ -4098,49 +4098,49 @@ u"""
     ],
 )
 
-entry(
-    index = 101,
-    label = "C6H15Nr",
-    molecule = 
-"""
-1  C 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 {1,S} {3,S} {7,S} {11,S}
-3  C 0 {2,S} {4,S} {12,S} {13,S}
-4  C 0 {3,S} {5,S} {14,S} {15,S}
-5  C 0 {4,S} {6,S} {16,S} {17,S}
-6  C 0 {5,S} {18,S} {19,S} {20,S}
-7  N 0 {2,S} {21,S} {22,S}
-8  H 0 {1,S}
-9  H 0 {1,S}
-10 H 0 {1,S}
-11 H 0 {2,S}
-12 H 0 {3,S}
-13 H 0 {3,S}
-14 H 0 {4,S}
-15 H 0 {4,S}
-16 H 0 {5,S}
-17 H 0 {5,S}
-18 H 0 {6,S}
-19 H 0 {6,S}
-20 H 0 {6,S}
-21 H 0 {7,S}
-22 H 0 {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([38.694,48.237,57.361,65.224,77.378,86.82,100.309],'cal/(mol*K)'),
-        H298 = (-34.649,'kcal/mol'),
-        S298 = (97.212,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""2-hexanamine, (�)""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
+#entry(
+#    index = 101,
+#    label = "C6H15Nr",
+#    molecule = 
+#"""
+#1  C 0 {2,S} {8,S} {9,S} {10,S}
+#2  C 0 {1,S} {3,S} {7,S} {11,S}
+#3  C 0 {2,S} {4,S} {12,S} {13,S}
+#4  C 0 {3,S} {5,S} {14,S} {15,S}
+#5  C 0 {4,S} {6,S} {16,S} {17,S}
+#6  C 0 {5,S} {18,S} {19,S} {20,S}
+#7  N 0 {2,S} {21,S} {22,S}
+#8  H 0 {1,S}
+#9  H 0 {1,S}
+#10 H 0 {1,S}
+#11 H 0 {2,S}
+#12 H 0 {3,S}
+#13 H 0 {3,S}
+#14 H 0 {4,S}
+#15 H 0 {4,S}
+#16 H 0 {5,S}
+#17 H 0 {5,S}
+#18 H 0 {6,S}
+#19 H 0 {6,S}
+#20 H 0 {6,S}
+#21 H 0 {7,S}
+#22 H 0 {7,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([38.694,48.237,57.361,65.224,77.378,86.82,100.309],'cal/(mol*K)'),
+#        H298 = (-34.649,'kcal/mol'),
+#        S298 = (97.212,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""2-hexanamine, (�)""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+#    ],
+#)
 
 entry(
     index = 102,
@@ -4758,49 +4758,49 @@ u"""
     ],
 )
 
-entry(
-    index = 116,
-    label = "C6H15Ngg",
-    molecule = 
-"""
-1  C 0 {2,S} {3,S} {8,S} {9,S}
-2  C 0 {1,S} {10,S} {11,S} {12,S}
-3  N 0 {1,S} {4,S} {13,S}
-4  C 0 {3,S} {5,S} {6,S} {14,S}
-5  C 0 {4,S} {15,S} {16,S} {17,S}
-6  C 0 {4,S} {7,S} {18,S} {19,S}
-7  C 0 {6,S} {20,S} {21,S} {22,S}
-8  H 0 {1,S}
-9  H 0 {1,S}
-10 H 0 {2,S}
-11 H 0 {2,S}
-12 H 0 {2,S}
-13 H 0 {3,S}
-14 H 0 {4,S}
-15 H 0 {5,S}
-16 H 0 {5,S}
-17 H 0 {5,S}
-18 H 0 {6,S}
-19 H 0 {6,S}
-20 H 0 {7,S}
-21 H 0 {7,S}
-22 H 0 {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([38.154,48.772,58.789,67.126,79.164,88.158,102.117],'cal/(mol*K)'),
-        H298 = (-28.934,'kcal/mol'),
-        S298 = (99.33,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""N-ethyl-2-butanamine, (�)""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
+#entry(
+#    index = 116,
+#    label = "C6H15Ngg",
+#    molecule = 
+#"""
+#1  C 0 {2,S} {3,S} {8,S} {9,S}
+#2  C 0 {1,S} {10,S} {11,S} {12,S}
+#3  N 0 {1,S} {4,S} {13,S}
+#4  C 0 {3,S} {5,S} {6,S} {14,S}
+#5  C 0 {4,S} {15,S} {16,S} {17,S}
+#6  C 0 {4,S} {7,S} {18,S} {19,S}
+#7  C 0 {6,S} {20,S} {21,S} {22,S}
+#8  H 0 {1,S}
+#9  H 0 {1,S}
+#10 H 0 {2,S}
+#11 H 0 {2,S}
+#12 H 0 {2,S}
+#13 H 0 {3,S}
+#14 H 0 {4,S}
+#15 H 0 {5,S}
+#16 H 0 {5,S}
+#17 H 0 {5,S}
+#18 H 0 {6,S}
+#19 H 0 {6,S}
+#20 H 0 {7,S}
+#21 H 0 {7,S}
+#22 H 0 {7,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([38.154,48.772,58.789,67.126,79.164,88.158,102.117],'cal/(mol*K)'),
+#        H298 = (-28.934,'kcal/mol'),
+#        S298 = (99.33,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""N-ethyl-2-butanamine, (�)""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+#    ],
+#)
 
 entry(
     index = 117,
