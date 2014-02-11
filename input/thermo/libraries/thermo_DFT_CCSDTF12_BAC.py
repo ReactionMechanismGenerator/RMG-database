@@ -3311,32 +3311,6 @@ u"""
 )
 
 entry(
-    index = 375,
-    label = "NH2OH",
-    molecule = """
-1 N 0 1 {2,S} {3,S} {4,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 O 0 2 {1,S} {5,S}
-5 H 0 0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.11,12.98,14.69,16.10,18.14,19.57,21.56],'cal/(mol*K)'),
-        H298 = (-9.63,'kcal/mol'),
-        S298 = (56.30,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
- level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
-""",
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
-entry(
     index = 376,
     label = "HNC(T)",
     molecule = """
@@ -3362,11 +3336,11 @@ u"""
 
 entry(
     index = 377,
-    label = "HNCJJS",
+    label = "HNCJJ(S",
     molecule = """
 1 H 0 0 {2,S}
-2 N 0 0 {1,S} {3,T}
-3 C 0 1 {2,T}
+2 N 0 1 {1,S} {3,D}
+3 C 2S 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3398,59 +3372,6 @@ entry(
         Cpdata = ([11.74,12.94,13.92,14.73,16.02,16.93,18.18],'cal/(mol*K)'),
         H298 = (103.44,'kcal/mol'),
         S298 = (62.37,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
- level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
-""",
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
-entry(
-    index = 381,
-    label = "NH2OJ",
-    molecule = """
-1 N 0 1 {2,S} {3,S} {4,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 O 1 2 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.27,10.83,11.65,12.42,13.77,14.88,16.81],'cal/(mol*K)'),
-        H298 = (16.44,'kcal/mol'),
-        S298 = (59.33,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
- level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
-""",
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
-entry(
-    index = 382,
-    label = "NO2ONO2",
-    molecule = """
-1 N 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 3 {1,S}
-4 O 0 2 {1,S} {5,S}
-5 N 0 0 {4,S} {6,D} {7,S}
-6 O 0 2 {5,D}
-7 O 0 3 {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([21.12,24.64,26.98,28.79,31.39,32.97,34.41],'cal/(mol*K)'),
-        H298 = (3.84,'kcal/mol'),
-        S298 = (83.50,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
