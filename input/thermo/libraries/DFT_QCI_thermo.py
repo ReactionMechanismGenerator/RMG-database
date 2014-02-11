@@ -1035,9 +1035,11 @@ entry(
     label = "CCH3",
     molecule = 
 """
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 3 0 {1,S} 
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2462,15 +2464,15 @@ entry(
     label = "HOCH2CHOH",
     molecule = 
 """
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 O 0 2 {2,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 C 1 0 {2,S} {4,S} {8,S}
+4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+9 H 0 0 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6257,43 +6259,43 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
-entry(
-    index = 210,
-    label = "butene2c",
-    molecule = 
-"""
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,D} {8,S}
-3  C 0 0 {2,D} {4,S} {9,S}
-4  C 0 0 {3,S} {10,S} {11,S} {12,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([20.325,25.281,30.029,34.222,41.021,46.172,54.247],'cal/(mol*K)'),
-        H298 = (-1.534,'kcal/mol'),
-        S298 = (73.277,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+#entry(
+#    index = 210,
+#    label = "butene2c",
+#    molecule = 
+#"""
+#1  C 0 0 {2,S} {5,S} {6,S} {7,S}
+#2  C 0 0 {1,S} {3,D} {8,S}
+#3  C 0 0 {2,D} {4,S} {9,S}
+#4  C 0 0 {3,S} {10,S} {11,S} {12,S}
+#5  H 0 0 {1,S}
+#6  H 0 0 {1,S}
+#7  H 0 0 {1,S}
+#8  H 0 0 {2,S}
+#9  H 0 0 {3,S}
+#10 H 0 0 {4,S}
+#11 H 0 0 {4,S}
+#12 H 0 0 {4,S}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([20.325,25.281,30.029,34.222,41.021,46.172,54.247],'cal/(mol*K)'),
+#        H298 = (-1.534,'kcal/mol'),
+#        S298 = (73.277,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
 
-""",
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
+#""",
+#    history = [
+#        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+#    ],
+#)
 
 entry(
     index = 211,
