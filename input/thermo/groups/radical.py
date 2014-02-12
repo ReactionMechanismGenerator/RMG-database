@@ -6835,59 +6835,6 @@ u"""
     ],
 )
 
-entry(
-    index = 133,
-    label = "CJ3",
-    group = 
-"""
-1 * C 3
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.57,-2.73,-4.11,-5.5,-7.92,-9.85,-12.95],'cal/(mol*K)'),
-        H298 = (316.19,'kcal/mol'),
-        S298 = (-5.7,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Calculated for methylidyene in relation to methane from NIST values""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 136,
-    label = "SiJ3",
-    group = 
-"""
-1 * Si 3
-""",
-    thermo = u'CJ3',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-  GNU nano 2.2.2                                                        File: radical.py                                                                                                                       
-
-    thermo = u'CJ3',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
 
 entry(
     index = 133,
@@ -6979,7 +6926,7 @@ u"""
  
 entry(
     index = 302,
-    label = "C2CsJO",
+    label = "C2CsJN",
     group =
 """
 1 * C 1 {2,S} {3,S} {4,S}
