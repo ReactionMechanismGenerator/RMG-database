@@ -30,12 +30,12 @@ user = getUsername()
 
 ################################################################################
 
-def loadDatabase():
+def loadDatabase(args):
     print 'Loading RMG transition states database...'
     database = TransitionStates()
-    path = 'input/kinetics/families/H_Abstraction'
     local_context = None
     global_context = None
+    path = os.path.join('input/kinetics/families', args.family[0])
     database.load(path, local_context, global_context)
     
     print 'Loading RMG database...'
@@ -55,9 +55,10 @@ def createDataSet(label, family, database, rxnFamily):
     dataset = []
     
     label = '{0}/{1}'.format(family, label)
+    
     if database.depository.label != label:
         raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
-
+    
     for entry in database.depository.entries.values():
         reaction, template = database.getForwardReactionForFamilyEntry(entry=entry, family=family, groups=database.groups, rxnFamily=rxnFamily)
         dataset.append([reaction, template, entry])
@@ -95,12 +96,12 @@ def generate(args):
     trainingSetLabels = args.training
     if not trainingSetLabels:
         trainingSetLabels = ['TS_training']
-        
+    
     # Load the database
-    database, rmgDatabase = loadDatabase()
+    database, rmgDatabase = loadDatabase(args)
     
     rmgDatabase.kinetics.loadFamilies('input/kinetics/families')
-    rxnFamily = rmgDatabase.kinetics.families['H_Abstraction']
+    rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
     
     # Removed above. Haven't put families yet for transition states, so specify H_Abstraction
     families = args.family
@@ -116,7 +117,7 @@ def generate(args):
     changed = database.groups.generateGroupAdditivityValues(trainingSet, user=user)
     if changed:
         # Save the new group values to disk
-        database.saveTransitionStateGroups(os.path.join('input', 'kinetics', 'families', 'H_Abstraction', 'TS_groups.py'))
+        database.saveTransitionStateGroups(os.path.join('input', 'kinetics', 'families', args.family[0], 'TS_groups.py'))
 
 ################################################################################
 
