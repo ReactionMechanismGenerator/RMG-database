@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # encoding: utf-8
 
 name = "CHN"
@@ -5665,4 +5665,37 @@ u"""
         ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
+
+entry(
+    index = 136,
+    label = "CH3CHNH2",
+    molecule = 
+"""
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 N 0 1 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
+
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([17.4185,20.6221,23.6417,26.2968,30.6212,33.9675,39.4489],'cal/(mol*K)'),
+        H298 = (28.75,'kcal/mol'),
+        S298 = (70.02,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""1-Aminoeth-1-yl radical, C[CH]N""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 13:27:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> calculated this value."""),
+    ],
+)
+
 
