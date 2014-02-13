@@ -6887,7 +6887,7 @@ entry(
 3   H 0 {1,S}
 4   H 0 {1,S}
 """,
-    thermo = u'CCsN',
+    thermo = u'CCsJN',
     shortDesc = u"""""",
     longDesc =
 u"""
@@ -6934,7 +6934,7 @@ entry(
 3   C 0 {1,S}
 4   C 0 {1,S}
 """,
-    thermo = u'CCsN',
+    thermo = u'CCsJN',
     shortDesc = u"""""",
     longDesc =
 u"""
