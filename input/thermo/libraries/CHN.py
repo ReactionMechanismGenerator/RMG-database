@@ -5699,3 +5699,63 @@ u"""
 )
 
 
+
+entry(
+    index = 137,
+    label = "CH2=CHNH2",
+    molecule = 
+"""
+1 C 0 0 {2,D} {4,S} {5,S}
+2 C 0 0 {1,D} {3,S} {6,S}
+3 N 0 1 {2,S} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.05,18.62,21.69,24.24,28.21,31.21,36.12],'cal/(mol*K)'),
+        H298 = (14.17,'kcal/mol'),
+        S298 = (62.17,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C=CN""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 13:27:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> calculated this value."""),
+    ],
+)
+
+entry(
+    index = 138,
+    label = "CH3CH=NH2",
+    molecule = 
+"""
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 N 0 1 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.98,17.32,20.49,23.26,27.71,31.05,36.29],'cal/(mol*K)'),
+        H298 = (10.65,'kcal/mol'),
+        S298 = (62.65,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C=CN""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 13:27:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> calculated this value."""),
+    ],
+)
