@@ -10,8 +10,8 @@ recommended = True
 
 entry(
     index = 812,
-    label = "RnOOR;Y_rad_intra",
-    group1 = "OR{R2OOH, R3OOH, R4OOH, R5OOH, R2OOR, R3OOR, R4OOR, R5OOR}",
+    label = "RnOO;Y_rad_intra",
+    group1 = "OR{R2OO, R3OO, R4OO, R5OO}",
     group2 = 
 """
 1 *1 R 1
@@ -33,7 +33,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -1405,4 +1405,117 @@ u"""
     ],
 )
 
+entry(
+    index = 830,
+    label = "R2OOJ_S;C_pri_rad_intra",
+    group1 = 
+"""
+1 *1 {Cd,Cs} 1 {2,S}
+2 *4 {Cd,Cs} 0 {1,S} {3,S}
+3 *2 O       0 {2,S} {4,S}
+4 *3 O       1 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4 *4 C 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1620000000.0, 's^-1'),
+        n = 1.1,
+        alpha = 0,
+        E0 = (31.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 831,
+    label = "R2OOJ_S;C_pri_rad_intra",
+    group1 = 
+"""
+1 *1 {Cd,Cs} 1 {2,S}
+2 *4 {Cd,Cs} 0 {1,S} {3,S}
+3 *2 O       0 {2,S} {4,S}
+4 *3 O       1 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4 *4 C 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1610000000.0, 's^-1'),
+        n = 1.09,
+        alpha = 0,
+        E0 = (29.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 832,
+    label = "R2OOJ_S;C_rad/H/NonDeC_intra",
+    group1 = 
+"""
+1 *1 {Cd,Cs} 1 {2,S}
+2 *4 {Cd,Cs} 0 {1,S} {3,S}
+3 *2 O       0 {2,S} {4,S}
+4 *3 O       1 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3 *4 C  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3270000000.0, 's^-1'),
+        n = 1.06,
+        alpha = 0,
+        E0 = (31, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
 
