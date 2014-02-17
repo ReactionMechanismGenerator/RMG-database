@@ -370,7 +370,7 @@ u"""
 
 entry(
     index = 845,
-    label = "CH3CH(OO)CHCH2",
+    label = "R2OO_2H_HCd",
     group1 = 
 """
 1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
@@ -381,11 +381,8 @@ entry(
 6     H 0 {1,S}
 7     H 0 {1,S}
 8     H 0 {2,S}
-9     C 0 {2,S} {10,S} {11,D}
-10    H 0 {9,S}
-11    C 0 {9,D} {12,S} {13,S}
-12    H 0 {11,S}
-13    H 0 {11,S}
+9     C 0 {2,S} {10,D}
+10    C 0 {9,D}
 """,
     kinetics = ArrheniusEP(
         A = (825300, 's^-1', '*|/', 5),
@@ -463,24 +460,22 @@ TS (and it is certainly better than leaving RMG to estimate via "Average of Aver
 """,
     history = [
         ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 847,
-    label = "HOCH[OO]CH3",
+    label = "R2OO_O_HNd",
     group1 = 
 """
-1  *1 O 0 {2,S} {5,S}
-2  *2 C 0 {1,S} {3,S} {6,S} {7,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {2,S}
-7     C 0 {2,S} {8,S} {9,S} {10,S}
-8     H 0 {7,S}
-9     H 0 {7,S}
-10    H 0 {7,S}
+1 *1 O 0 {2,S} {5,S}
+2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O 0 {2,S} {4,S}
+4 *4 O 1 {3,S}
+5 *5 H 0 {1,S}
+6    H 0 {2,S}
+7    C 0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (68130000000.0, 's^-1', '*|/', 10),
@@ -531,22 +526,20 @@ The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Ar
 k(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.
 """,
     history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 848,
-    label = "OCOO",
+    label = "R2OO_O",
     group1 = 
 """
 1 *1 O 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
+2 *2 C 0 {1,S} {3,S}
 3 *3 O 0 {2,S} {4,S}
 4 *4 O 1 {3,S}
 5 *5 H 0 {1,S}
-6    R 0 {2,S}
-7    R 0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (6380000000000.0, 's^-1', '*|/', 5),
@@ -1217,6 +1210,40 @@ u"""
 """,
     history = [
         ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 869,
+    label = "R2OO_0H_2H",
+    group1 = 
+"""
+1 *1 Cd 0 {2,S} {5,S}
+2 *2 C  0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O  0 {2,S} {4,S}
+4 *4 O  1 {3,S}
+5 *5 H  0 {1,S}
+6    H  0 {2,S}
+7    H  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3630000000.0, 's^-1'),
+        n = 1.11,
+        alpha = 0,
+        E0 = (42.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""BMK/cbsb7, HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
