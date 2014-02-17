@@ -12,11 +12,7 @@ entry(
     index = 576,
     label = "elec_def;multiplebond",
     group1 = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom}",
-    group2 = 
-"""
-1 *1 {Cd,CO} 0 {2,D}
-2 *2 {Cd,O}  0 {1,D}
-""",
+    group2 = "OR{mb_carbonyl, mb_db, mb_tb}",
     kinetics = ArrheniusEP(
         A = (1000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -35,6 +31,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -43,9 +40,9 @@ entry(
     label = "carbene;mb_db_unsub",
     group1 = 
 """
-1 *3 C {2S,2T} {2,S} {3,S}
-2    H 0       {1,S}
-3    H 0       {1,S}
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     group2 = 
 """
@@ -74,6 +71,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -344,6 +342,271 @@ Pressure 0.39 atm. Excitation : sensitized photolysis, analysis :GC.
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 586,
+    label = "carbene;mb_tb_unsub",
+    group1 = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    group2 = 
+"""
+1 *1 Ct 0 {2,T} {3,S}
+2 *2 Ct 0 {1,T} {4,S}
+3    H  0 {1,S}
+4    H  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1770000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.662,
+        alpha = 0,
+        E0 = (0.0377, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Polino [carbene,acetylene]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 587,
+    label = "carbene;mb_db_unsub",
+    group1 = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    group2 = 
+"""
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1240000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.684,
+        alpha = 0,
+        E0 = (-0.0805, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Polino [carbene,ethene]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 588,
+    label = "carbene;mb_tb_monosub_Nd",
+    group1 = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    group2 = 
+"""
+1 *1 Ct      0 {2,T} {3,S}
+2 *2 Ct      0 {1,T} {4,S}
+3    {Cs,Os} 0 {1,S}
+4    H       0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4500000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.708,
+        alpha = 0,
+        E0 = (-0.0267, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Polino [carbene,propyne]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 589,
+    label = "carbene;mb_db_monosub_Nd",
+    group1 = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    group2 = 
+"""
+1 *1 Cd     0 {2,D} {3,S} {4,S}
+2 *2 Cd     0 {1,D} {5,S} {6,S}
+3    H      0 {1,S}
+4    H      0 {1,S}
+5    H      0 {2,S}
+6    {Cs,O} 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5000000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.826,
+        alpha = 0,
+        E0 = (-0.09, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Polino [carbene,propene]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 590,
+    label = "carbene;mb_db_dbSub",
+    group1 = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    group2 = 
+"""
+1 *1 Cdd      0 {2,D} {3,D}
+2 *2 Cd       0 {1,D}
+3    {Cd,Cdd} 0 {1,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (638000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.562,
+        alpha = 0,
+        E0 = (-0.133, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Polino [carbene,propadiene]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 591,
+    label = "carbene;mb_tb_disub_twoNd",
+    group1 = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    group2 = 
+"""
+1 *1 Ct      0 {2,T} {3,S}
+2 *2 Ct      0 {1,T} {4,S}
+3    {Cs,Os} 0 {1,S}
+4    {Cs,Os} 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4700000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.823,
+        alpha = 0,
+        E0 = (0.023, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Polino [carbene,2-butyne]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 592,
+    label = "carbene;mb_db_monosub_De",
+    group1 = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    group2 = 
+"""
+1 *1 Cd            0 {2,D} {3,S} {4,S}
+2 *2 Cd            0 {1,D} {5,S} {6,S}
+3    H             0 {1,S}
+4    H             0 {1,S}
+5    H             0 {2,S}
+6    {Cd,Ct,Cb,CO} 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1850000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.7,
+        alpha = 0,
+        E0 = (-0.0672, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Polino [carbene,1,3-butadiene]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
