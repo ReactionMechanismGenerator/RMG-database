@@ -660,3 +660,159 @@ u"""
     ],
 )
 
+entry(
+    index = 707,
+    label = "Cd/H/Nd_Cd/H2;H_OH",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2 *2 C        0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    H        0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (61040000.0, 'cm^3/(mol*s)'),
+        n = 1.287,
+        alpha = 0,
+        E0 = (60.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 708,
+    label = "Cd/Nd2_Cd/H2;H_OH",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2 *2 C        0 {1,D} {5,S} {6,S}
+3    {Cs,O,S} 0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    H        0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (51810000.0, 'cm^3/(mol*s)'),
+        n = 1.302,
+        alpha = 0,
+        E0 = (62.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 709,
+    label = "Cd/H2_Cd/Nd2;H_OH",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2 *2 C        0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    H        0 {1,S}
+5    {Cs,O,S} 0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (301300, 'cm^3/(mol*s)'),
+        n = 1.82,
+        alpha = 0,
+        E0 = (51.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 710,
+    label = "Cd/H/De_Cd/H2;H_OH",
+    group1 = 
+"""
+1 *1 C                0 {2,D} {3,S} {4,S}
+2 *2 C                0 {1,D} {5,S} {6,S}
+3    H                0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+5    H                0 {2,S}
+6    H                0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (61040000.0, 'cm^3/(mol*s)'),
+        n = 1.287,
+        alpha = 0,
+        E0 = (60.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Same as rule 707""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
