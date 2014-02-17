@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["RnOOR"], products=["RO", "OR"], ownReverse=False)
+template(reactants=["RnOO"], products=["RO", "OR"], ownReverse=False)
 
 reverse = "OH+CyclicEther_Form_Alkyl-hydroperoxyl"
 
@@ -20,8 +20,8 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "RnOOR",
-    group = "OR{R2OOH, R3OOH, R4OOH, R5OOH, R2OOR, R3OOR, R4OOR, R5OOR}",
+    label = "RnOO",
+    group = "OR{R2OO, R3OO, R4OO, R5OO}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -31,7 +31,7 @@ u"""
 
 """,
     history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -57,6 +57,69 @@ u"""
 
 entry(
     index = 3,
+    label = "R2OO",
+    group = "OR{R2OOH, R2OOR, R2OOJ}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 4,
+    label = "R2OOJ",
+    group = 
+"""
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,S}
+3 *2 O                  0 {2,S} {4,S}
+4 *3 O                  1 {3,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 5,
+    label = "R2OOJ_S",
+    group = 
+"""
+1 *1 {Cd,Cs} 1 {2,S}
+2 *4 {Cd,Cs} 0 {1,S} {3,S}
+3 *2 O       0 {2,S} {4,S}
+4 *3 O       1 {3,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 6,
     label = "R2OOH",
     group = 
 """
@@ -76,11 +139,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 4,
+    index = 7,
     label = "R2OOH_S",
     group = 
 """
@@ -244,11 +308,53 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 11,
+    index = 14,
+    label = "R3OO",
+    group = "OR{R3OOH, R3OOR, R3OOJ}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 15,
+    label = "R3OOJ",
+    group = 
+"""
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,S}
+4 *2 O                  0 {3,S} {5,S}
+5 *3 O                  1 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 16,
     label = "R3OOH",
     group = 
 """
@@ -269,11 +375,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 12,
+    index = 17,
     label = "R3OOH_SS",
     group = 
 """
@@ -494,11 +601,54 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 21,
+    index = 26,
+    label = "R4OO",
+    group = "OR{R4OOH, R4OOR, R4OOJ}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 27,
+    label = "R4OOJ",
+    group = 
+"""
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,{S,D}}
+4    {CO,Cd,Cs,Sid,Sis,N} 0 {3,{S,D}} {5,S}
+5 *2 O                  0 {4,S} {6,S}
+6 *3 O                  1 {5,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 28,
     label = "R4OOH",
     group = 
 """
@@ -520,11 +670,12 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 22,
+    index = 29,
     label = "R4OOH_SSS",
     group = 
 """
@@ -858,11 +1009,55 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 35,
+    index = 42,
+    label = "R5OO",
+    group = "OR{R5OOH, R5OOR, R5OOJ}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 43,
+    label = "R5OOJ",
+    group = 
+"""
+1 *1 {CO,Cd,Cs,Sid,Sis,N} 1 {2,{S,D}}
+2 *4 {CO,Cd,Cs,Sid,Sis,N} 0 {1,{S,D}} {3,{S,D}}
+3    {CO,Cd,Cs,Sid,Sis,N} 0 {2,{S,D}} {4,{S,D}}
+4    {CO,Cd,Cs,Sid,Sis,N} 0 {3,{S,D}} {5,{S,D}}
+5    {CO,Cd,Cs,Sid,Sis,N} 0 {4,{S,D}} {6,S}
+6 *2 O                  0 {5,S} {7,S}
+7 *3 O                  1 {6,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 44,
     label = "R5OOH",
     group = 
 """
@@ -885,11 +1080,12 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 36,
+    index = 45,
     label = "R5OOH_SSSS",
     group = 
 """
@@ -1890,57 +2086,66 @@ u"""
 
 tree(
 """
-L1: RnOOR
-    L2: R2OOH
-        L3: R2OOH_S
-        L3: R2OOH_SCO
-        L3: R2OOH_D
-    L2: R2OOR
-        L3: R2OOR_S
-        L3: R2OOR_SCO
-        L3: R2OOR_D
-    L2: R3OOH
-        L3: R3OOH_SS
-        L3: R3OOH_SSCO
-        L3: R3OOH_SD
-        L3: R3OOH_DS
-    L2: R3OOR
-        L3: R3OOR_SS
-        L3: R3OOR_SSCO
-        L3: R3OOR_SD
-        L3: R3OOR_DS
-    L2: R4OOH
-        L3: R4OOH_SSS
-        L3: R4OOH_SSSCO
-        L3: R4OOH_SSD
-        L3: R4OOH_SDS
-        L3: R4OOH_DSS
-        L3: R4OOH_DSD
-    L2: R4OOR
-        L3: R4OOR_SSS
-        L3: R4OOR_SSSCO
-        L3: R4OOR_SSD
-        L3: R4OOR_SDS
-        L3: R4OOR_DSS
-        L3: R4OOR_DSD
-    L2: R5OOH
-        L3: R5OOH_SSSS
-        L3: R5OOH_SSSSCO
-        L3: R5OOH_SSSD
-        L3: R5OOH_SSDS
-        L3: R5OOH_SDSS
-        L3: R5OOH_DSSS
-        L3: R5OOH_SDSD
-        L3: R5OOH_DSDS
-    L2: R5OOR
-        L3: R5OOR_SSSS
-        L3: R5OOR_SSSSCO
-        L3: R5OOR_SSSD
-        L3: R5OOR_SSDS
-        L3: R5OOR_SDSS
-        L3: R5OOR_DSSS
-        L3: R5OOR_SDSD
-        L3: R5OOR_DSDS
+L1: RnOO
+    L2: R2OO
+        L3: R2OOJ
+            L4: R2OOJ_S
+        L3: R2OOH
+            L4: R2OOH_S
+            L4: R2OOH_SCO
+            L4: R2OOH_D
+        L3: R2OOR
+            L4: R2OOR_S
+            L4: R2OOR_SCO
+            L4: R2OOR_D
+    L2: R3OO
+        L3: R3OOJ
+        L3: R3OOH
+            L4: R3OOH_SS
+            L4: R3OOH_SSCO
+            L4: R3OOH_SD
+            L4: R3OOH_DS
+        L3: R3OOR
+            L4: R3OOR_SS
+            L4: R3OOR_SSCO
+            L4: R3OOR_SD
+            L4: R3OOR_DS
+    L2: R4OO
+        L3: R4OOJ
+        L3: R4OOH
+            L4: R4OOH_SSS
+            L4: R4OOH_SSSCO
+            L4: R4OOH_SSD
+            L4: R4OOH_SDS
+            L4: R4OOH_DSS
+            L4: R4OOH_DSD
+        L3: R4OOR
+            L4: R4OOR_SSS
+            L4: R4OOR_SSSCO
+            L4: R4OOR_SSD
+            L4: R4OOR_SDS
+            L4: R4OOR_DSS
+            L4: R4OOR_DSD
+    L2: R5OO
+        L3: R5OOJ
+        L3: R5OOH
+            L4: R5OOH_SSSS
+            L4: R5OOH_SSSSCO
+            L4: R5OOH_SSSD
+            L4: R5OOH_SSDS
+            L4: R5OOH_SDSS
+            L4: R5OOH_DSSS
+            L4: R5OOH_SDSD
+            L4: R5OOH_DSDS
+        L3: R5OOR
+            L4: R5OOR_SSSS
+            L4: R5OOR_SSSSCO
+            L4: R5OOR_SSSD
+            L4: R5OOR_SSDS
+            L4: R5OOR_SDSS
+            L4: R5OOR_DSSS
+            L4: R5OOR_SDSD
+            L4: R5OOR_DSDS
 L1: Y_rad_intra
     L2: Cd_rad_in
         L3: Cd_pri_rad_in
