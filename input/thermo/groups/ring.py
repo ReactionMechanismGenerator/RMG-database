@@ -1105,6 +1105,33 @@ u"""
 )
 
 entry(
+    index = 152,
+    label = "Cyclopentatriene",
+    group = 
+"""
+1 * Cd  0 {2,D} {5,S}
+2   Cdd 0 {1,D} {3,D}
+3   Cd  0 {2,D} {4,S}
+4   Cd  0 {3,S} {5,D}
+5   Cd  0 {1,S} {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.08,-4.69,-4.58,-4.25,-3.54,-3.08,-2.47],'cal/(mol*K)'),
+        H298 = (70.16,'kcal/mol'),
+        S298 = (36.76,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 isodesmic reaction approach allene + 2-butene = cyclopentatriene + 2 CH4, DHr = 220.8 kJ mol-1, exp data from NIST""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
     index = 71,
     label = "Tetrahydrofuran",
     group = 
@@ -2720,6 +2747,34 @@ u"""
 )
 
 entry(
+    index = 153,
+    label = "six-inringthreedouble",
+    group = 
+"""
+1   Cd      0 {2,D} {6,S}
+2 * Cdd     0 {1,D} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   Cd      0 {4,S} {6,D}
+6   Cd      0 {1,S} {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.21,-4.32,-3.9,-3.46,-2.71,-2.25,-1.38],'cal/(mol*K)'),
+        H298 = (36.04,'kcal/mol'),
+        S298 = (26.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 isodesmic reaction approach C1=CC=CCC=1 + 3 ethane + ethene = allene + 2 2-butene + propane""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
     index = 117,
     label = "six-inringtwodouble-12",
     group = 
@@ -2784,9 +2839,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.3,-3.342,-3.034,-2.574,-1.976,-1.883,-0.24],'cal/(mol*K)'),
-        H298 = (-7.63,'kcal/mol'),
-        S298 = (22.5264,'cal/(mol*K)'),
+        Cpdata = ([-3.4,-3.4,-3.1,-2.6,-2,-1.9,-0.3],'cal/(mol*K)'),
+        H298 = (2.9,'kcal/mol'),
+        S298 = (25.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2795,6 +2850,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2864,9 +2920,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.46,-4.214,-4.306,-4.049,-3.424,-3.243,0.32],'cal/(mol*K)'),
-        H298 = (-10.77,'kcal/mol'),
-        S298 = (29.286,'cal/(mol*K)'),
+        Cpdata = ([-3.6,-4.3,-4.4,-4.1,-3.5,-3.3,0.3],'cal/(mol*K)'),
+        H298 = (3.3,'kcal/mol'),
+        S298 = (29.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2875,6 +2931,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3369,17 +3426,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (9.9,'kcal/mol'),
-        S298 = (16.5,'cal/(mol*K)'),
+        Cpdata = ([-8.8,-7.5,-5.9,-4.5,-2.3,-0.8,1.4],'cal/(mol*K)'),
+        H298 = (10.5,'kcal/mol'),
+        S298 = (16.63,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Cyclooctane ring BENSON""",
+    shortDesc = u"""Updated AG Vandeputte (good agreement with BENSON correction but explicit for cyclooctane from CBS-QB3 isodesmic reaction and B3LYP/cbsb7 for S and cp, results in perfect agreement with calculations of Dorofeeva et al.)""",
     longDesc = 
 u"""
 
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3399,17 +3457,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (6,'kcal/mol'),
-        S298 = (12,'cal/(mol*K)'),
+        Cpdata = ([-6.9,-5.8,-4.6,-3.4,-1.8,-0.7,1.2],'cal/(mol*K)'),
+        H298 = (6.8,'kcal/mol'),
+        S298 = (13.01,'cal/(mol*K)'),
     ),
-    shortDesc = u"""cis-Cyclooctene ring BENSON Cp 300K copied from cyclo-octane""",
+    shortDesc = u"""Updated AG Vandeputte (CBS-QB3 isodesmic reaction and B3LYP/cbsb7 for S and cp)""",
     longDesc = 
 u"""
 
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3429,17 +3488,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        Cpdata = ([-4.9,-4.3,-3.3,-2.5,-1.3,-0.5,1],'cal/(mol*K)'),
         H298 = (8.9,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        S298 = (13.89,'cal/(mol*K)'),
     ),
-    shortDesc = u"""1,3,5-Cyclooctatriene ring BENSON""",
+    shortDesc = u"""1,3,5-Cyclooctatriene ring BENSON, S and cp from 1,4-cyclooctadiene""",
     longDesc = 
 u"""
 
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3459,17 +3519,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        Cpdata = ([-4.9,-4.3,-3.3,-2.5,-1.3,-0.5,1],'cal/(mol*K)'),
         H298 = (17.1,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        S298 = (13.89,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Cyclooctatetraene ring BENSON""",
+    shortDesc = u"""Cyclooctatetraene ring BENSON, S and cp from 1,4-cyclooctadiene""",
     longDesc = 
 u"""
 
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3517,19 +3578,15 @@ entry(
 7   Cs 0 {6,S} {8,S}
 8   Cs 0 {1,S} {7,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (6.1,'kcal/mol'),
-        S298 = (12,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclooctane""",
+    thermo = u'1,4-cyclooctadiene',
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3549,17 +3606,18 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (6.1,'kcal/mol'),
-        S298 = (12,'cal/(mol*K)'),
+        Cpdata = ([-4.9,-4.3,-3.3,-2.5,-1.3,-0.5,1],'cal/(mol*K)'),
+        H298 = (8.2,'kcal/mol'),
+        S298 = (13.89,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclooctane""",
+    shortDesc = u"""Updated AG Vandeputte (CBS-QB3 isodesmic reaction and B3LYP/cbsb7 for S and cp)""",
     longDesc = 
 u"""
 
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3577,19 +3635,15 @@ entry(
 7   Cs 0 {6,S} {8,S}
 8   Cs 0 {1,S} {7,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (6.1,'kcal/mol'),
-        S298 = (12,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclooctane""",
+    thermo = u'1,4-cyclooctadiene',
+    shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3925,6 +3979,7 @@ L1: Ring
         L3: Cyclopentane
         L3: Cyclopentene
         L3: Cyclopentadiene
+        L3: Cyclopentatriene
         L3: Tetrahydrofuran
         L3: 2,3-Dihydrofuran
         L3: 1,3-Dioxolane
@@ -3987,6 +4042,7 @@ L1: Ring
         L3: six-inringtwodouble-14
             L4: 1,4-Cyclohexadiene
             L4: 14dioxin
+        L3: six-inringthreedouble
         L3: six-inringtwodouble-12
         L3: six-oneside-twoindoubles-25
             L4: 25cyclohexadienone
