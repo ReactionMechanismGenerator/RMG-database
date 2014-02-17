@@ -11,7 +11,7 @@ recommended = True
 entry(
     index = 614,
     label = "RnH;Y_rad_out;XH_out",
-    group1 = "OR{R2H, R3H, R4H, R5H, R6H, R7H}",
+    group1 = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall}",
     group2 = 
 """
 1 *1 R!H 1
@@ -39,6 +39,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -85,6 +86,7 @@ Checked by Paul Green.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -131,6 +133,7 @@ Checked by Paul Green.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -178,6 +181,7 @@ Checked By Paul Green
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -225,6 +229,7 @@ Checked By Paul Green.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -273,6 +278,7 @@ Checked By Paul Green.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -321,6 +327,7 @@ Checked By Paul Green.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -343,11 +350,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S}
 2 *3 H   0 {1,S}
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
-5    R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (18600000000.0, 's^-1'),
@@ -370,6 +376,7 @@ NEEDS TO BE CHECKED
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -380,7 +387,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -419,6 +426,7 @@ Checked By Paul Green
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -429,7 +437,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -468,6 +476,7 @@ Checked by Paul Green
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -512,6 +521,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -556,6 +566,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -576,11 +587,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S}
 2 *3 H   0 {1,S}
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
-5    R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (100000000000.0, 's^-1'),
@@ -601,6 +611,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -611,7 +622,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -646,6 +657,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -656,7 +668,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -691,6 +703,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -701,7 +714,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -712,11 +725,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S}
 2 *3 H   0 {1,S}
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
-5    R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (12500000000.0, 's^-1'),
@@ -737,6 +749,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -747,8 +760,8 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
-4    R!H 0 {3,S} {5,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *7 R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 R!H 0 {5,S} {7,S}
 7 *3 H   0 {6,S}
@@ -783,6 +796,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -793,8 +807,8 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
-4    R!H 0 {3,S} {5,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *7 R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 R!H 0 {5,S} {7,S}
 7 *3 H   0 {6,S}
@@ -829,6 +843,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -839,8 +854,8 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
-4    R!H 0 {3,S} {5,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *7 R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 R!H 0 {5,S} {7,S}
 7 *3 H   0 {6,S}
@@ -851,11 +866,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S}
 2 *3 H   0 {1,S}
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
-5    R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1560000000.0, 's^-1'),
@@ -876,6 +890,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -886,9 +901,9 @@ entry(
 """
 1 *1 R!H 1 {2,{S,D,T,B}}
 2 *4 R!H 0 {1,{S,D,T,B}} {3,{S,D,T,B}}
-3    R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -923,6 +938,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -933,9 +949,9 @@ entry(
 """
 1 *1 R!H 1 {2,{S,D,T,B}}
 2 *4 R!H 0 {1,{S,D,T,B}} {3,{S,D,T,B}}
-3    R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -970,6 +986,7 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -980,9 +997,9 @@ entry(
 """
 1 *1 R!H 1 {2,{S,D,T,B}}
 2 *4 R!H 0 {1,{S,D,T,B}} {3,{S,D,T,B}}
-3    R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -993,11 +1010,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S}
 2 *3 H   0 {1,S}
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
-5    R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (195000000.0, 's^-1'),
@@ -1018,13 +1034,19 @@ Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 636,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -1055,14 +1077,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 637,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -1093,14 +1120,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 638,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -1131,15 +1163,25 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 639,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -1164,21 +1206,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 640,
-    label = "Others-R2H_S;C_rad_out_2H;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (40400000000.0, 's^-1'),
         n = 0.64,
@@ -1196,16 +1249,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 641,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (12800000000.0, 's^-1'),
         n = 0.97,
@@ -1223,14 +1292,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 642,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -1261,21 +1335,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 643,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (72500000000.0, 's^-1'),
         n = 0.6,
@@ -1293,15 +1378,25 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 644,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -1326,14 +1421,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 645,
-    label = "Others-R2H_S;Cd_rad_out_double;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;Cd_rad_out_double;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 Cd 1 {2,D}
@@ -1363,14 +1463,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 646,
-    label = "Others-R2H_S;C_rad_out_2H;Cd_H_out_doubleC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cd_H_out_doubleC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -1400,26 +1505,25 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 647,
-    label = "Others-R2H_S;Cd_rad_out_double;Cs_H_out_H/OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;Cd_rad_out_double;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 Cd 1 {2,D}
 2    Cd 0 {1,D}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S}
-2 *3 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
     kinetics = ArrheniusEP(
         A = (7240000000.0, 's^-1'),
         n = 0.82,
@@ -1437,14 +1541,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 648,
-    label = "Others-R2H_S;C_rad_out_H/OneDe;Cd_H_out_doubleC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/OneDe;Cd_H_out_doubleC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -1474,27 +1583,25 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 649,
-    label = "Others-R2H_S;Cd_rad_out_double;Cs_H_out_OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;Cd_rad_out_double;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 Cd 1 {2,D}
 2    Cd 0 {1,D}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             0 {1,S}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    R!H           0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
     kinetics = ArrheniusEP(
         A = (16700000000.0, 's^-1'),
         n = 0.79,
@@ -1512,14 +1619,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 650,
-    label = "Others-R2H_S;C_rad_out_OneDe/Cs;Cd_H_out_doubleC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_OneDe/Cs;Cd_H_out_doubleC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -1549,14 +1661,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 651,
-    label = "Others-R2H_S;C_rad_out_H/OneDe;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/OneDe;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -1587,27 +1704,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 652,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S}
-2 *3 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
     kinetics = ArrheniusEP(
         A = (141000000.0, 's^-1'),
         n = 1.28,
@@ -1625,14 +1741,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 653,
-    label = "Others-R2H_S;C_rad_out_H/OneDe;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/OneDe;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -1663,27 +1784,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 654,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S}
-2 *3 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
     kinetics = ArrheniusEP(
         A = (8410000000.0, 's^-1'),
         n = 0.35,
@@ -1701,21 +1821,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 655,
-    label = "Others-R2H_S;C_rad_out_H/OneDe;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/OneDe;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
 2    H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1010000000000.0, 's^-1'),
         n = 0.33,
@@ -1733,22 +1864,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 656,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = 
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_H/OneDe",
+    group1 = 
 """
-1 *2 Cs            0 {2,S} {3,S} {4,S}
-2 *3 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
 """,
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
     kinetics = ArrheniusEP(
         A = (147000000.0, 's^-1'),
         n = 1.27,
@@ -1766,14 +1901,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 657,
-    label = "Others-R2H_S;C_rad_out_OneDe/Cs;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_OneDe/Cs;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -1804,28 +1944,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 658,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             0 {1,S}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    R!H           0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
     kinetics = ArrheniusEP(
         A = (4890000000.0, 's^-1'),
         n = 0.81,
@@ -1843,14 +1981,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 659,
-    label = "Others-R2H_S;C_rad_out_OneDe/Cs;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_OneDe/Cs;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -1881,28 +2024,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 660,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             0 {1,S}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    R!H           0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
     kinetics = ArrheniusEP(
         A = (88300000000.0, 's^-1'),
         n = 0.3,
@@ -1920,21 +2061,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 661,
-    label = "Others-R2H_S;C_rad_out_OneDe/Cs;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_OneDe/Cs;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
 2    {Cd,Ct,Cb,CO} 0 {1,S}
 3    Cs            0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (36200000000000.0, 's^-1'),
         n = -0.14,
@@ -1952,23 +2104,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 662,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_OneDe",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = 
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_OneDe",
+    group1 = 
 """
-1 *2 Cs            0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H             0 {1,S}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    R!H           0 {1,S}
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
 """,
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
     kinetics = ArrheniusEP(
         A = (8200000000.0, 's^-1'),
         n = 0.65,
@@ -1986,7 +2141,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2156,8 +2311,13 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 667,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -2188,14 +2348,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 668,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_Cs2_cy3",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_Cs2_cy3",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -2204,11 +2369,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {4,S}
-4    Cs  0 {1,S} {3,S}
-5    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {4,S}
+4    Cs 0 {1,S} {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (11400000000.0, 's^-1'),
@@ -2227,14 +2391,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 669,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -2265,14 +2434,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 670,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy3",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy3",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -2281,11 +2455,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {4,S}
-4    Cs  0 {1,S} {3,S}
-5    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {4,S}
+4    Cs 0 {1,S} {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (2740000000.0, 's^-1'),
@@ -2304,21 +2477,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 671,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy3;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy3;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
 2    Cs 0 {1,S} {3,S}
 3    Cs 0 {1,S} {2,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (590000000000.0, 's^-1'),
         n = 0.36,
@@ -2336,22 +2520,31 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 672,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_Cs2_cy3",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2_cy3",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {4,S}
-4    Cs  0 {1,S} {3,S}
-5    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {4,S}
+4    Cs 0 {1,S} {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (144000000.0, 's^-1'),
@@ -2370,14 +2563,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 673,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_Cs2_cy4",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_Cs2_cy4",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -2386,12 +2584,11 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {6,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {5,S}
-5    Cs  0 {3,S} {4,S}
-6    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {5,S}
+5    Cs 0 {3,S} {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (9750000000.0, 's^-1'),
@@ -2410,14 +2607,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 674,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C       1 {2,S} {3,S}
@@ -2449,14 +2651,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 675,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy4",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy4",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -2465,12 +2672,11 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {6,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {5,S}
-5    Cs  0 {3,S} {4,S}
-6    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {5,S}
+5    Cs 0 {3,S} {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (5640000000.0, 's^-1'),
@@ -2489,14 +2695,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 676,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C       1 {2,S} {3,S}
@@ -2528,23 +2739,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 677,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_Cs2_cy4",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2_cy4",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {6,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {5,S}
-5    Cs  0 {3,S} {4,S}
-6    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {5,S}
+5    Cs 0 {3,S} {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (931000000.0, 's^-1'),
@@ -2563,14 +2783,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 678,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy4;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy4;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C       1 {2,S} {3,S}
@@ -2578,7 +2803,13 @@ entry(
 3    Cs      0 {1,S} {4,S}
 4    {Cs,Cd} 0 {2,S} {3,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (48600000000.0, 's^-1'),
         n = 0.58,
@@ -2596,14 +2827,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 679,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_2H",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -2636,14 +2872,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 680,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_Cs2_cy5",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_Cs2_cy5",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -2652,13 +2893,12 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {7,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {6,S}
-5    Cs  0 {3,S} {6,S}
-6    Cs  0 {4,S} {5,S}
-7    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {6,S}
+5    Cs 0 {3,S} {6,S}
+6    Cs 0 {4,S} {5,S}
 """,
     kinetics = ArrheniusEP(
         A = (3350000000.0, 's^-1'),
@@ -2677,14 +2917,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 681,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy5",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy5",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -2693,13 +2938,12 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {7,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {6,S}
-5    Cs  0 {3,S} {6,S}
-6    Cs  0 {4,S} {5,S}
-7    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {6,S}
+5    Cs 0 {3,S} {6,S}
+6    Cs 0 {4,S} {5,S}
 """,
     kinetics = ArrheniusEP(
         A = (3290000000.0, 's^-1'),
@@ -2718,14 +2962,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 682,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_H/NonDeC",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -2758,24 +3007,33 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 683,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_Cs2_cy5",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2;Cs_H_out_Cs2_cy5",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {7,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {6,S}
-5    Cs  0 {3,S} {6,S}
-6    Cs  0 {4,S} {5,S}
-7    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {6,S}
+5    Cs 0 {3,S} {6,S}
+6    Cs 0 {4,S} {5,S}
 """,
     kinetics = ArrheniusEP(
         A = (74800000.0, 's^-1'),
@@ -2794,14 +3052,19 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 684,
-    label = "Others-R2H_S;C_rad_out_Cs2_cy5;Others-Cs_H_out_Cs2",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_Cs2_cy5;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -2810,7 +3073,13 @@ entry(
 4    {Cs,Cd,Cb,Ct} 0 {2,S} {5,{S,D,T,B}}
 5    {Cs,Cd,Cb,Ct} 0 {3,S} {4,{S,D,T,B}}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (124000000000.0, 's^-1'),
         n = 1.47,
@@ -2828,7 +3097,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -2878,7 +3147,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 686,
-    label = "R2H_S_cy3;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R2H_S_cy3;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {4,{S,D,B}}
@@ -2892,7 +3161,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1720000000000.0, 's^-1'),
         n = 0.37,
@@ -2910,13 +3185,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 687,
-    label = "R2H_S_cy3;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R2H_S_cy3;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {4,{S,D,B}}
@@ -2924,8 +3199,19 @@ entry(
 3 *3 H   0 {2,S}
 4    R!H 0 {1,{S,D,B}} {2,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (569000000000.0, 's^-1'),
         n = 0.51,
@@ -2943,13 +3229,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 688,
-    label = "R2H_S_cy4;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R2H_S_cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -2964,7 +3250,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1560000000000.0, 's^-1'),
         n = 0.24,
@@ -2982,13 +3274,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 689,
-    label = "R2H_S_cy4;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R2H_S_cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -2997,7 +3289,12 @@ entry(
 4    R!H 0 {2,{S,D,B}} {5,{S,D,B}}
 5    R!H 0 {1,{S,D,B}} {4,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -3022,7 +3319,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3074,7 +3371,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 692,
-    label = "R2H_S_cy5;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R2H_S_cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -3090,7 +3387,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (3720000000000.0, 's^-1'),
         n = 0.26,
@@ -3108,13 +3411,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 693,
-    label = "R2H_S_cy5;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R2H_S_cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -3124,7 +3427,12 @@ entry(
 5    R!H 0 {4,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {1,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -3149,14 +3457,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 694,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -3187,14 +3501,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 695,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -3225,14 +3545,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 696,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -3263,14 +3589,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 697,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -3301,21 +3633,33 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 698,
-    label = "Others-R3H_SS;C_rad_out_2H;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (22500000000.0, 's^-1'),
         n = 0.66,
@@ -3333,15 +3677,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 699,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -3366,21 +3721,33 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 700,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (7270000000.0, 's^-1'),
         n = 0.66,
@@ -3398,15 +3765,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 701,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -3431,16 +3809,33 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 702,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (678000000.0, 's^-1'),
         n = 1,
@@ -3458,7 +3853,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3528,23 +3923,24 @@ entry(
 3    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (211000000000.0, 's^-1'),
-        n = 0.58,
+        A = (4760, 's^-1'),
+        n = 2.82,
         alpha = 0,
-        E0 = (38.3, 'kcal/mol'),
+        E0 = (57.1, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""calculated BMK/cbsb7 Aaron Vandeputte""",
     longDesc = 
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3636,7 +4032,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 707,
-    label = "R3H_DS;Cd_rad_out_singleH;Others-Cs_H_out_Cs2",
+    label = "R3H_DS;Cd_rad_out_singleH;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Cd  1 {2,D}
@@ -3649,7 +4045,13 @@ entry(
 1 *1 Cd 1 {2,S}
 2    H  0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (60400000000.0, 's^-1'),
         n = 0.59,
@@ -3667,13 +4069,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 708,
-    label = "R3H_SD;Others-C_rad_out_Cs2;Cd_H_out_singleH",
+    label = "R3H_SD;C_rad_out_Cs2;Cd_H_out_singleH",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -3681,7 +4083,12 @@ entry(
 3 *2 Cd  0 {2,D} {4,S}
 4 *3 H   0 {3,S}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cd 0 {2,S} {3,S}
@@ -3705,7 +4112,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -3883,7 +4290,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 713,
-    label = "R3H_DS;Cd_rad_out_singleNd;Others-Cs_H_out_Cs2",
+    label = "R3H_DS;Cd_rad_out_singleNd;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Cd  1 {2,D}
@@ -3896,7 +4303,13 @@ entry(
 1 *1 Cd       1 {2,S}
 2    {Cs,O,S} 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (8050000000.0, 's^-1'),
         n = 0.86,
@@ -3914,13 +4327,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 714,
-    label = "R3H_SD;Others-C_rad_out_Cs2;Cd_H_out_singleNd",
+    label = "R3H_SD;C_rad_out_Cs2;Cd_H_out_singleNd",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -3928,7 +4341,12 @@ entry(
 3 *2 Cd  0 {2,D} {4,S}
 4 *3 H   0 {3,S}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cd     0 {2,S} {3,S}
@@ -3952,14 +4370,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 715,
-    label = "Others-R3H_SS;Cd_rad_out_double;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;Cd_rad_out_double;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 Cd 1 {2,D}
@@ -3989,14 +4413,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 716,
-    label = "Others-R3H_SS;C_rad_out_2H;Cd_H_out_doubleC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cd_H_out_doubleC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -4026,14 +4456,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 717,
-    label = "Others-R3H_SS;Cd_rad_out_double;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;Cd_rad_out_double;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 Cd 1 {2,D}
@@ -4063,14 +4499,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 718,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cd_H_out_doubleC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cd_H_out_doubleC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -4100,20 +4542,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 719,
-    label = "Others-R3H_SS;Cd_rad_out_double;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;Cd_rad_out_double;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 Cd 1 {2,D}
 2    Cd 0 {1,D}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (11000000000.0, 's^-1'),
         n = 0.78,
@@ -4131,15 +4585,26 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 720,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cd_H_out_doubleC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R3H_SS;C_rad_out_Cs2;Cd_H_out_doubleC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cd 0 {2,S} {3,D}
@@ -4163,7 +4628,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4301,7 +4766,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 724,
-    label = "R3H_SS_2Cd;C_rad_out_2H;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_2Cd;C_rad_out_2H;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -4315,7 +4780,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (143000000000.0, 's^-1'),
         n = 0.65,
@@ -4333,13 +4804,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 725,
-    label = "R3H_SS_2Cd;Others-C_rad_out_Cs2;Cs_H_out_2H",
+    label = "R3H_SS_2Cd;C_rad_out_Cs2;Cs_H_out_2H",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -4347,7 +4818,12 @@ entry(
 3 *2 R!H 0 {2,S} {4,S}
 4 *3 H   0 {3,S}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -4372,7 +4848,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4422,7 +4898,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 727,
-    label = "R3H_SS_2Cd;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_2Cd;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -4436,7 +4912,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (34600000000.0, 's^-1'),
         n = 0.76,
@@ -4454,13 +4936,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 728,
-    label = "R3H_SS_2Cd;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_2Cd;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -4468,7 +4950,12 @@ entry(
 3 *2 R!H 0 {2,S} {4,S}
 4 *3 H   0 {3,S}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -4493,13 +4980,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 729,
-    label = "R3H_SS_2Cd;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_2Cd;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -4507,8 +4994,19 @@ entry(
 3 *2 R!H 0 {2,S} {4,S}
 4 *3 H   0 {3,S}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1760000000.0, 's^-1'),
         n = 1.18,
@@ -4526,14 +5024,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 730,
-    label = "Others-R3H_SS;C_rad_out_H/OneDe;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/OneDe;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -4564,27 +5068,27 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 731,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/OneDe",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S}
-2 *3 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
     kinetics = ArrheniusEP(
         A = (166000000.0, 's^-1'),
         n = 1.1,
@@ -4602,14 +5106,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 732,
-    label = "Others-R3H_SS;C_rad_out_H/OneDe;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/OneDe;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -4640,27 +5150,27 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 733,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = 
-"""
-1 *2 Cs            0 {2,S} {3,S} {4,S}
-2 *3 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
     kinetics = ArrheniusEP(
         A = (3410000000.0, 's^-1'),
         n = 0.73,
@@ -4678,21 +5188,33 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 734,
-    label = "Others-R3H_SS;C_rad_out_H/OneDe;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/OneDe;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
 2    H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (90600000000.0, 's^-1'),
         n = 0.44,
@@ -4710,22 +5232,27 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 735,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/OneDe",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = 
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_H/OneDe",
+    group1 = 
 """
-1 *2 Cs            0 {2,S} {3,S} {4,S}
-2 *3 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
 """,
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
     kinetics = ArrheniusEP(
         A = (6400000.0, 's^-1'),
         n = 1.56,
@@ -4743,7 +5270,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -4929,7 +5456,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 740,
-    label = "R3H_SS_12cy3;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_12cy3;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -4944,7 +5471,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (22600000000000.0, 's^-1'),
         n = 0.26,
@@ -4962,13 +5495,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 741,
-    label = "R3H_SS_23cy3;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_23cy3;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -4977,7 +5510,12 @@ entry(
 4 *3 H   0 {3,S}
 5    R!H 0 {2,{S,D,B}} {3,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -5002,14 +5540,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 742,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -5040,14 +5584,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 743,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_cy3",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_cy3",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -5056,11 +5606,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {4,S}
-4    Cs  0 {1,S} {3,S}
-5    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {4,S}
+4    Cs 0 {1,S} {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (9720000000.0, 's^-1'),
@@ -5079,14 +5628,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 744,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -5117,14 +5672,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 745,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy3",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy3",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -5133,11 +5694,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {4,S}
-4    Cs  0 {1,S} {3,S}
-5    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {4,S}
+4    Cs 0 {1,S} {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (173000000.0, 's^-1'),
@@ -5156,21 +5716,33 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 746,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy3;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy3;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
 2    Cs 0 {1,S} {3,S}
 3    Cs 0 {1,S} {2,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (90800000000.0, 's^-1'),
         n = 0.36,
@@ -5188,22 +5760,32 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 747,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_Cs2_cy3",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2_cy3",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {4,S}
-4    Cs  0 {1,S} {3,S}
-5    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {4,S}
+4    Cs 0 {1,S} {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (3860000.0, 's^-1'),
@@ -5222,7 +5804,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5412,7 +5994,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 752,
-    label = "R3H_SS_12cy4;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_12cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -5428,7 +6010,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1630000000000.0, 's^-1'),
         n = -0.04,
@@ -5446,13 +6034,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 753,
-    label = "R3H_SS_23cy4;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_23cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -5462,7 +6050,12 @@ entry(
 5    R!H 0 {3,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {2,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -5487,14 +6080,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 754,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C       1 {2,S} {3,S}
@@ -5526,14 +6125,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 755,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_cy4",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_cy4",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -5542,12 +6147,11 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {6,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {5,S}
-5    Cs  0 {3,S} {4,S}
-6    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {5,S}
+5    Cs 0 {3,S} {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (5090000000.0, 's^-1'),
@@ -5566,14 +6170,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 756,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C       1 {2,S} {3,S}
@@ -5605,14 +6215,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 757,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy4",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy4",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -5621,12 +6237,11 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {6,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {5,S}
-5    Cs  0 {3,S} {4,S}
-6    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {5,S}
+5    Cs 0 {3,S} {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (569000000.0, 's^-1'),
@@ -5645,14 +6260,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 758,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy4;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy4;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C       1 {2,S} {3,S}
@@ -5660,7 +6281,13 @@ entry(
 3    Cs      0 {1,S} {4,S}
 4    {Cs,Cd} 0 {2,S} {3,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (8200000000.0, 's^-1'),
         n = 0.54,
@@ -5678,23 +6305,33 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 759,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_Cs2_cy4",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2_cy4",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {6,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {5,S}
-5    Cs  0 {3,S} {4,S}
-6    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {5,S}
+5    Cs 0 {3,S} {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (34900000.0, 's^-1'),
@@ -5713,7 +6350,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -5907,7 +6544,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 764,
-    label = "R3H_SS_12cy5;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_12cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {7,{S,D,B}}
@@ -5924,7 +6561,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (942000000000.0, 's^-1'),
         n = 0.12,
@@ -5942,13 +6585,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 765,
-    label = "R3H_SS_23cy5;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_23cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -5959,7 +6602,12 @@ entry(
 6    R!H 0 {5,{S,D,B}} {7,{S,D,B}}
 7    R!H 0 {2,{S,D,B}} {6,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -5984,14 +6632,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 766,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out_2H",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -6024,14 +6678,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 767,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_cy5",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_Cs2_cy5",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -6040,13 +6700,12 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {7,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {6,S}
-5    Cs  0 {3,S} {6,S}
-6    Cs  0 {4,S} {5,S}
-7    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {6,S}
+5    Cs 0 {3,S} {6,S}
+6    Cs 0 {4,S} {5,S}
 """,
     kinetics = ArrheniusEP(
         A = (6900000000.0, 's^-1'),
@@ -6065,14 +6724,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 768,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out_H/NonDeC",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -6105,14 +6770,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 769,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy5",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_Cs2_cy5",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C  1 {2,S} {3,S}
@@ -6121,13 +6792,12 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {7,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {6,S}
-5    Cs  0 {3,S} {6,S}
-6    Cs  0 {4,S} {5,S}
-7    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {6,S}
+5    Cs 0 {3,S} {6,S}
+6    Cs 0 {4,S} {5,S}
 """,
     kinetics = ArrheniusEP(
         A = (750000000.0, 's^-1'),
@@ -6146,14 +6816,20 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 770,
-    label = "Others-R3H_SS;C_rad_out_Cs2_cy5;Others-Cs_H_out_Cs2",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
+    label = "R3H_SS;C_rad_out_Cs2_cy5;Cs_H_out_Cs2",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
     group2 = 
 """
 1 *1 C             1 {2,S} {3,S}
@@ -6162,7 +6838,13 @@ entry(
 4    {Cs,Cd,Cb,Ct} 0 {2,S} {5,{S,D,T,B}}
 5    {Cs,Cd,Cb,Ct} 0 {3,S} {4,{S,D,T,B}}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (19700000000.0, 's^-1'),
         n = 0.46,
@@ -6180,24 +6862,34 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 771,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_Cs2_cy5",
-    group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_Cs2_cy5",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
-1 *2 Cs  0 {2,S} {3,S} {4,S} {7,S}
-2 *3 H   0 {1,S}
-3    Cs  0 {1,S} {5,S}
-4    Cs  0 {1,S} {6,S}
-5    Cs  0 {3,S} {6,S}
-6    Cs  0 {4,S} {5,S}
-7    R!H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    Cs 0 {1,S} {6,S}
+5    Cs 0 {3,S} {6,S}
+6    Cs 0 {4,S} {5,S}
 """,
     kinetics = ArrheniusEP(
         A = (221000000.0, 's^-1'),
@@ -6216,13 +6908,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 772,
-    label = "R3H_SS_12cy3;Others-C_rad_out_Cs2;Cs_H_out_2H",
+    label = "R3H_SS_12cy3;C_rad_out_Cs2;Cs_H_out_2H",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -6231,7 +6923,12 @@ entry(
 4 *3 H   0 {3,S}
 5    R!H 0 {1,{S,D,B}} {2,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -6256,13 +6953,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 773,
-    label = "R3H_SS_23cy3;C_rad_out_2H;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy3;C_rad_out_2H;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -6277,7 +6974,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (50200000000.0, 's^-1'),
         n = 0.56,
@@ -6295,13 +6998,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 774,
-    label = "R3H_SS_12cy3;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_12cy3;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -6310,7 +7013,12 @@ entry(
 4 *3 H   0 {3,S}
 5    R!H 0 {1,{S,D,B}} {2,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -6335,13 +7043,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 775,
-    label = "R3H_SS_23cy3;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy3;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -6356,7 +7064,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (4340000000.0, 's^-1'),
         n = 0.81,
@@ -6374,13 +7088,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 776,
-    label = "R3H_SS_12cy3;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_12cy3;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -6389,8 +7103,19 @@ entry(
 4 *3 H   0 {3,S}
 5    R!H 0 {1,{S,D,B}} {2,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (2720000000000.0, 's^-1'),
         n = -0.04,
@@ -6408,13 +7133,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 777,
-    label = "R3H_SS_23cy3;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy3;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -6423,8 +7148,19 @@ entry(
 4 *3 H   0 {3,S}
 5    R!H 0 {2,{S,D,B}} {3,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (161000000.0, 's^-1'),
         n = 1.26,
@@ -6442,7 +7178,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6493,7 +7229,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 779,
-    label = "R3H_SS_13cy4;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_13cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -6502,7 +7238,12 @@ entry(
 4 *3 H   0 {3,S}
 5    R!H 0 {1,{S,D,B}} {3,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -6527,13 +7268,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 780,
-    label = "R3H_SS_13cy4;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_13cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -6548,7 +7289,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (2660000000000.0, 's^-1'),
         n = 0,
@@ -6566,13 +7313,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 781,
-    label = "R3H_SS_13cy4;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_13cy4;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {5,{S,D,B}}
@@ -6581,8 +7328,19 @@ entry(
 4 *3 H   0 {3,S}
 5    R!H 0 {1,{S,D,B}} {3,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (355000000000.0, 's^-1'),
         n = 0.37,
@@ -6600,7 +7358,7 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -6652,7 +7410,7 @@ Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations
 
 entry(
     index = 783,
-    label = "R3H_SS_13cy5;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_13cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -6662,7 +7420,12 @@ entry(
 5    R!H 0 {3,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {1,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -6687,13 +7450,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 784,
-    label = "R3H_SS_13cy5;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_13cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -6709,7 +7472,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1100000000000.0, 's^-1'),
         n = 0.23,
@@ -6727,13 +7496,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 785,
-    label = "R3H_SS_13cy5;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_13cy5;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -6743,8 +7512,19 @@ entry(
 5    R!H 0 {3,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {1,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (60700000000.0, 's^-1'),
         n = 0.62,
@@ -6762,13 +7542,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 786,
-    label = "R3H_SS_12cy5;Others-C_rad_out_Cs2;Cs_H_out_2H",
+    label = "R3H_SS_12cy5;C_rad_out_Cs2;Cs_H_out_2H",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {7,{S,D,B}}
@@ -6779,7 +7559,12 @@ entry(
 6    R!H 0 {5,{S,D,B}} {7,{S,D,B}}
 7    R!H 0 {1,{S,D,B}} {6,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -6804,13 +7589,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 787,
-    label = "R3H_SS_23cy5;C_rad_out_2H;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy5;C_rad_out_2H;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -6827,7 +7612,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (4510000000.0, 's^-1'),
         n = 0.86,
@@ -6845,13 +7636,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 788,
-    label = "R3H_SS_12cy5;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_12cy5;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {7,{S,D,B}}
@@ -6862,7 +7653,12 @@ entry(
 6    R!H 0 {5,{S,D,B}} {7,{S,D,B}}
 7    R!H 0 {1,{S,D,B}} {6,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -6887,13 +7683,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 789,
-    label = "R3H_SS_23cy5;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy5;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -6910,7 +7706,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1950000000.0, 's^-1'),
         n = 0.88,
@@ -6928,13 +7730,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 790,
-    label = "R3H_SS_12cy5;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_12cy5;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {7,{S,D,B}}
@@ -6945,8 +7747,19 @@ entry(
 6    R!H 0 {5,{S,D,B}} {7,{S,D,B}}
 7    R!H 0 {1,{S,D,B}} {6,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (14400000000.0, 's^-1'),
         n = 0.74,
@@ -6964,13 +7777,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 791,
-    label = "R3H_SS_23cy5;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy5;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -6981,8 +7794,19 @@ entry(
 6    R!H 0 {5,{S,D,B}} {7,{S,D,B}}
 7    R!H 0 {2,{S,D,B}} {6,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (28500000.0, 's^-1'),
         n = 1.46,
@@ -7000,13 +7824,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 792,
-    label = "R3H_SS_12cy4;Others-C_rad_out_Cs2;Cs_H_out_2H",
+    label = "R3H_SS_12cy4;C_rad_out_Cs2;Cs_H_out_2H",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -7016,7 +7840,12 @@ entry(
 5    R!H 0 {2,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {1,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -7041,13 +7870,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 793,
-    label = "R3H_SS_23cy4;C_rad_out_2H;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy4;C_rad_out_2H;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -7063,7 +7892,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (19300000000.0, 's^-1'),
         n = 0.75,
@@ -7081,13 +7916,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 794,
-    label = "R3H_SS_12cy4;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_12cy4;C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -7097,7 +7932,12 @@ entry(
 5    R!H 0 {2,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {1,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
     group3 = 
 """
 1 *2 Cs 0 {2,S} {3,S} {4,S}
@@ -7122,13 +7962,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 795,
-    label = "R3H_SS_23cy4;C_rad_out_H/NonDeC;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy4;C_rad_out_H/NonDeC;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -7144,7 +7984,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1960000000.0, 's^-1'),
         n = 0.96,
@@ -7162,13 +8008,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 796,
-    label = "R3H_SS_12cy4;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_12cy4;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S} {6,{S,D,B}}
@@ -7178,8 +8024,19 @@ entry(
 5    R!H 0 {2,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {1,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (23700000000.0, 's^-1'),
         n = 0.62,
@@ -7197,13 +8054,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 797,
-    label = "R3H_SS_23cy4;Others-C_rad_out_Cs2;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_23cy4;C_rad_out_Cs2;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -7213,8 +8070,19 @@ entry(
 5    R!H 0 {3,{S,D,B}} {6,{S,D,B}}
 6    R!H 0 {2,{S,D,B}} {5,{S,D,B}}
 """,
-    group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (49600000.0, 's^-1'),
         n = 1.46,
@@ -7232,13 +8100,13 @@ u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 798,
-    label = "R3H_SS_OC;O_rad_out;Cs_H_out_2H",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_2H",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7274,13 +8142,13 @@ u"""
 Sumathy CBS-Q calculations
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 799,
-    label = "R3H_SS_OC;O_rad_out;Cs_H_out_H/NonDeC",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7316,13 +8184,13 @@ u"""
 Sumathy CBS-Q calculations
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 800,
-    label = "R3H_SS_OC;O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7359,13 +8227,13 @@ u"""
 Sumathy CBS-Q calculations
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 801,
-    label = "R3H_SS_OC;O_rad_out;Cs_H_out_H/(NonDeC/Cs/Cs)",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_H/(NonDeC/Cs/Cs)",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7403,13 +8271,13 @@ u"""
 Sumathy CBS-Q calculations
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 802,
-    label = "R3H_SS_OC;O_rad_out;Cs_H_out_H/(NonDeC/Cs/Cs/Cs)",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_H/(NonDeC/Cs/Cs/Cs)",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7448,13 +8316,13 @@ u"""
 Sumathy CBS-Q calculations
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 803,
-    label = "R3H_SS_OC;O_rad_out;Others-Cs_H_out_Cs2",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7466,7 +8334,13 @@ entry(
 """
 1 *1 O 1
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (4970000000.0, 's^-1'),
         n = 1.01,
@@ -7484,7 +8358,7 @@ u"""
 Sumathy CBS-Q calculations
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7514,7 +8388,7 @@ entry(
         A = (199000000000.0, 's^-1'),
         n = 0.15,
         alpha = 0,
-        E0 = (34.2107, 'kcal/mol'),
+        E0 = (34.21, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -7528,6 +8402,7 @@ Sumathy CBS-Q calculations
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7754,7 +8629,7 @@ u"""
 
 entry(
     index = 810,
-    label = "R4H_SSS_OOCsCs;O_rad_out;Others-Cs_H_out_Cs2",
+    label = "R4H_SSS_OOCsCs;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7767,7 +8642,13 @@ entry(
 """
 1 *1 O 1
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (2640000000.0, 's^-1'),
         n = 0.78,
@@ -7785,13 +8666,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 811,
-    label = "R4H_SSS_OO(Cs/Cs)Cs;O_rad_out;Others-Cs_H_out_Cs2",
+    label = "R4H_SSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7805,7 +8686,13 @@ entry(
 """
 1 *1 O 1
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (9250000000.0, 's^-1'),
         n = 0.57,
@@ -7823,13 +8710,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 812,
-    label = "R4H_SSS_OO(Cs/Cs/Cs)Cs;O_rad_out;Others-Cs_H_out_Cs2",
+    label = "R4H_SSS_OO(Cs/Cs/Cs)Cs;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -7844,7 +8731,13 @@ entry(
 """
 1 *1 O 1
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (48700000000.0, 's^-1'),
         n = 0.35,
@@ -7862,7 +8755,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7873,7 +8766,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -7907,6 +8800,7 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7917,7 +8811,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {7,S}
+3 *6 Cs 0 {2,S} {4,S} {7,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -7952,6 +8846,7 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7962,7 +8857,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {7,S} {8,S}
+3 *6 Cs 0 {2,S} {4,S} {7,S} {8,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -7998,6 +8893,7 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8008,7 +8904,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S} {7,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8043,6 +8939,7 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8053,7 +8950,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S} {7,S} {8,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8089,6 +8986,7 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8099,7 +8997,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8133,6 +9031,7 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8143,7 +9042,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {7,S}
+3 *6 Cs 0 {2,S} {4,S} {7,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8178,17 +9077,18 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 820,
-    label = "R5H_SSSS_OOCCC;O_rad_out;Others-Cs_H_out_Cs2",
+    label = "R5H_SSSS_OOCCC;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8197,7 +9097,13 @@ entry(
 """
 1 *1 O 1
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (317400000.0, 's^-1'),
         n = 1.15,
@@ -8215,7 +9121,7 @@ u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8226,8 +9132,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
@@ -8261,6 +9167,7 @@ CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including t
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8271,8 +9178,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
@@ -8307,18 +9214,19 @@ Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 823,
-    label = "R6H_SSSSS_OO;O_rad_out;Others-Cs_H_out_Cs2",
+    label = "R6H_SSSSS_OO;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
@@ -8327,7 +9235,13 @@ entry(
 """
 1 *1 O 1
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (1480000.0, 's^-1'),
         n = 1.22,
@@ -8346,7 +9260,7 @@ u"""
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8357,9 +9271,9 @@ entry(
 """
 1 *1 Os  1 {2,S}
 2 *4 Os  0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,S} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -8394,6 +9308,7 @@ Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8404,9 +9319,9 @@ entry(
 """
 1 *1 Os  1 {2,S}
 2 *4 Os  0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,S} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -8441,19 +9356,20 @@ Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 826,
-    label = "R7H_OOCs4;O_rad_out;Others-Cs_H_out_Cs2",
+    label = "R7H_OOCs4;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 Os  1 {2,S}
 2 *4 Os  0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,S} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -8462,7 +9378,13 @@ entry(
 """
 1 *1 O 1
 """,
-    group3 = "AND{Cs_H_out_Cs2, NOT OR{Cs_H_out_Cs2_cy3, Cs_H_out_Cs2_cy4, Cs_H_out_Cs2_cy5}}",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (562000, 's^-1'),
         n = 1.09,
@@ -8480,13 +9402,13 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 850,
-    label = "R3H_SS_OC;O_rad_out;Cs_H_out_H/NonDeO",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_H/NonDeO",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -8522,13 +9444,13 @@ u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 851,
-    label = "R3H_SS_OC;O_rad_out;Cs_H_out_NDMustO",
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_NDMustO",
     group1 = 
 """
 1 *1 Os 1 {2,S}
@@ -8542,11 +9464,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs     0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs     0 {2,S} {3,S} {4,S}
 2 *3 H      0 {1,S}
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
-5    R!H    0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (300000000.0, 's^-1'),
@@ -8565,7 +9486,7 @@ u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8614,6 +9535,50 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 
 entry(
     index = 855,
+    label = "R4H_SSS_OOCsCs;O_rad_out;Cs_H_out_NDMustO",
+    group1 = 
+"""
+1 *1 Os 1 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3 *5 Cs 0 {2,S} {4,S}
+4 *2 Cs 0 {3,S} {5,S}
+5 *3 H  0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs     0 {2,S} {3,S} {4,S}
+2 *3 H      0 {1,S}
+3    O      0 {1,S}
+4    {Cs,O} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5290000000.0, 's^-1'),
+        n = 0.75,
+        alpha = 0,
+        E0 = (24.82, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 855,
     label = "R4H_SSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_H/NonDeO",
     group1 = 
 """
@@ -8657,50 +9622,6 @@ u"""
 )
 
 entry(
-    index = 855,
-    label = "R4H_SSS_OOCsCs;O_rad_out;Cs_H_out_NDMustO",
-    group1 = 
-"""
-1 *1 Os 1 {2,S}
-2 *4 Os 0 {1,S} {3,S}
-3 *5 Cs 0 {2,S} {4,S}
-4 *2 Cs 0 {3,S} {5,S}
-5 *3 H  0 {4,S}
-""",
-    group2 = 
-"""
-1 *1 O 1
-""",
-    group3 = 
-"""
-1 *2 Cs     0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H      0 {1,S}
-3    O      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    R!H    0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (5290000000.0, 's^-1'),
-        n = 0.75,
-        alpha = 0,
-        E0 = (24.82, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
-u"""
-Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
-""",
-    history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 856,
     label = "R4H_SSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_NDMustO",
     group1 = 
@@ -8718,11 +9639,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs     0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs     0 {2,S} {3,S} {4,S}
 2 *3 H      0 {1,S}
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
-5    R!H    0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (118000000000.0, 's^-1'),
@@ -8742,6 +9662,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8752,7 +9673,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8786,6 +9707,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8796,7 +9718,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8807,11 +9729,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs     0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs     0 {2,S} {3,S} {4,S}
 2 *3 H      0 {1,S}
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
-5    R!H    0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (19000000.0, 's^-1'),
@@ -8831,6 +9752,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8841,7 +9763,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {7,S}
+3 *6 Cs 0 {2,S} {4,S} {7,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8876,6 +9798,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8886,7 +9809,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {7,S}
+3 *6 Cs 0 {2,S} {4,S} {7,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -8898,11 +9821,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs     0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs     0 {2,S} {3,S} {4,S}
 2 *3 H      0 {1,S}
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
-5    R!H    0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (117000000000.0, 's^-1'),
@@ -8922,6 +9844,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8932,8 +9855,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
@@ -8967,6 +9890,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -8977,8 +9901,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
@@ -8989,11 +9913,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs     0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs     0 {2,S} {3,S} {4,S}
 2 *3 H      0 {1,S}
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
-5    R!H    0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (72300, 's^-1'),
@@ -9013,6 +9936,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9023,9 +9947,9 @@ entry(
 """
 1 *1 Os  1 {2,S}
 2 *4 Os  0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,S} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -9059,6 +9983,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9069,9 +9994,9 @@ entry(
 """
 1 *1 Os  1 {2,S}
 2 *4 Os  0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,S} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -9082,11 +10007,10 @@ entry(
 """,
     group3 = 
 """
-1 *2 Cs     0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs     0 {2,S} {3,S} {4,S}
 2 *3 H      0 {1,S}
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
-5    R!H    0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3410000.0, 's^-1'),
@@ -9106,6 +10030,7 @@ Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & H
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9204,7 +10129,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,{D,T,B}}
-3    R!H 0 {2,{D,T,B}} {4,S}
+3 *6 R!H 0 {2,{D,T,B}} {4,S}
 4 *5 Cd  0 {3,S} {5,D}
 5 *2 Cd  0 {4,D} {6,S}
 6 *3 H   0 {5,S}
@@ -9239,6 +10164,7 @@ Sandeep's CBS-QB3 calculations.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9249,7 +10175,7 @@ entry(
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
-3    R!H 0 {2,S} {4,{D,T,B}}
+3 *6 R!H 0 {2,S} {4,{D,T,B}}
 4 *5 R!H 0 {3,{D,T,B}} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -9284,6 +10210,7 @@ Sandeep's CBS-QB3 calculations.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9416,6 +10343,7 @@ Only methyl rotor was considered for TS.
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9426,7 +10354,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 Cd  0 {3,S} {5,D}
 5 *2 Cd  0 {4,D} {6,S}
 6 *3 H   0 {5,S}
@@ -9473,6 +10401,7 @@ The number appearing in the database has been divided by two to account for the 
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9661,7 +10590,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -9696,6 +10625,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9706,7 +10636,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {7,S}
+3 *6 Cs 0 {2,S} {4,S} {7,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -9742,6 +10672,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9752,7 +10683,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S} {7,S} {8,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -9789,6 +10720,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9799,7 +10731,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -9834,6 +10766,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9844,7 +10777,7 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {7,S}
+3 *6 Cs 0 {2,S} {4,S} {7,S}
 4 *5 Cs 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -9880,6 +10813,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9890,8 +10824,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
@@ -9926,6 +10860,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9936,8 +10871,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {8,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S} {8,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
@@ -9973,6 +10908,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -9983,8 +10919,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S} {8,S}
 7 *3 H  0 {6,S}
@@ -10020,6 +10956,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10030,8 +10967,8 @@ entry(
 """
 1 *1 Os 1 {2,S}
 2 *4 Os 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {8,S}
-4    Cs 0 {3,S} {5,S}
+3 *6 Cs 0 {2,S} {4,S} {8,S}
+4 *7 Cs 0 {3,S} {5,S}
 5 *5 Cs 0 {4,S} {6,S}
 6 *2 Cs 0 {5,S} {7,S} {9,S}
 7 *3 H  0 {6,S}
@@ -10068,6 +11005,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10078,9 +11016,9 @@ entry(
 """
 1 *1 Os  1 {2,S}
 2 *4 Os  0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,S} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
@@ -10115,6 +11053,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10125,9 +11064,9 @@ entry(
 """
 1 *1 Os  1 {2,S}
 2 *4 Os  0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,{S,D,T,B}}
-4    R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
-5    R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
+3 *6 R!H 0 {2,S} {4,{S,D,T,B}}
+4 *7 R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H 0 {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *5 R!H 0 {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S} {9,S}
 8 *3 H   0 {7,S}
@@ -10163,6 +11102,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10173,7 +11113,7 @@ entry(
 """
 1 *1 O 1 {2,S}
 2 *4 C 0 {1,S} {3,S}
-3    C 0 {2,S} {4,S}
+3 *6 C 0 {2,S} {4,S}
 4 *5 C 0 {3,S} {5,S}
 5 *2 C 0 {4,S} {6,S}
 6 *3 H 0 {5,S}
@@ -10207,6 +11147,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10217,7 +11158,7 @@ entry(
 """
 1 *1 O 1 {2,S}
 2 *4 C 0 {1,S} {3,S}
-3    C 0 {2,S} {4,S}
+3 *6 C 0 {2,S} {4,S}
 4 *5 C 0 {3,S} {5,S}
 5 *2 C 0 {4,S} {6,S}
 6 *3 H 0 {5,S}
@@ -10251,6 +11192,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10261,7 +11203,7 @@ entry(
 """
 1 *1 O 1 {2,S}
 2 *4 C 0 {1,S} {3,S}
-3    C 0 {2,S} {4,S}
+3 *6 C 0 {2,S} {4,S}
 4 *5 C 0 {3,S} {5,S}
 5 *2 C 0 {4,S} {6,S}
 6 *3 H 0 {5,S}
@@ -10295,13 +11237,19 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 901,
-    label = "Others-R2H_S;C_rad_out_2H;S_H_out",
-    group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
+    label = "R2H_S;C_rad_out_2H;S_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
     group2 = 
 """
 1 *1 C 1 {2,S} {3,S}
@@ -10330,7 +11278,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10555,7 +11503,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -10589,6 +11537,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10599,7 +11548,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -10633,6 +11582,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10643,7 +11593,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -10677,6 +11627,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10687,7 +11638,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -10721,6 +11672,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10776,7 +11728,7 @@ entry(
 """
 1 *1 Cs 1 {2,S}
 2 *4 Cs 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
+3 *6 Cs 0 {2,S} {4,S}
 4 *5 Ss 0 {3,S} {5,S}
 5 *2 Cs 0 {4,S} {6,S}
 6 *3 H  0 {5,S}
@@ -10812,6 +11764,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10867,7 +11820,7 @@ entry(
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
-3    R!H 0 {2,S} {4,S}
+3 *6 R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
@@ -10903,6 +11856,7 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -10943,6 +11897,2000 @@ u"""
 """,
     history = [
         ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1006,
+    label = "R3H_SS;C_rad_out_H/NonDeC;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5.71, 's^-1'),
+        n = 3.021,
+        alpha = 0,
+        E0 = (25.23, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1007,
+    label = "R4H_SSS;C_rad_out_H/NonDeO;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    O 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (27900, 's^-1'),
+        n = 1.97,
+        alpha = 0,
+        E0 = (23.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1008,
+    label = "R2H_S;C_rad_out_H/NonDeC;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4500, 's^-1'),
+        n = 2.62,
+        alpha = 0,
+        E0 = (30.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1009,
+    label = "R4H_SSS;C_rad_out_H/NonDeC;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2960, 's^-1'),
+        n = 2.11,
+        alpha = 0,
+        E0 = (20.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1010,
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1000, 's^-1'),
+        n = 2.705,
+        alpha = 0,
+        E0 = (34.65, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1011,
+    label = "R4H_SSS;C_rad_out_2H;Cs_H_out_H/NonDeO",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    O  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (152, 's^-1'),
+        n = 2.77,
+        alpha = 0,
+        E0 = (14.91, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1012,
+    label = "R5H_CCCC_O;O_rad_out;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 O 1 {2,S}
+2 *4 C 0 {1,S} {3,S}
+3 *6 C 0 {2,S} {4,S}
+4 *5 C 0 {3,S} {5,S}
+5 *2 C 0 {4,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (20700, 's^-1'),
+        n = 1.78,
+        alpha = 0,
+        E0 = (5.35, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1013,
+    label = "R2H_S;O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    H  0 {1,S}
+5    Cs 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (76500, 's^-1'),
+        n = 2.26,
+        alpha = 0,
+        E0 = (21.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+        ("Thu Feb 13 13:39:30 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1014,
+    label = "R4H_SSS;O_rad_out;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (105000, 's^-1'),
+        n = 1.76,
+        alpha = 0,
+        E0 = (12.88, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""RQCISD(T)/CBS""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1015,
+    label = "R3H_SS;O_rad_out;Cs_H_out_H/(NonDeC/Cs)",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    H  0 {1,S}
+5    Cs 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (9000, 's^-1'),
+        n = 2.287,
+        alpha = 0,
+        E0 = (20.24, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Obtained by reversing rate rule 1006""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1016,
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_H/(NonDeC/Cs)",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    H  0 {1,S}
+5    Cs 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (150000, 's^-1'),
+        n = 2.15,
+        alpha = 0,
+        E0 = (32.38, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Obtained by reversing rate rule 1010""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1017,
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    kinetics = ArrheniusEP(
+        A = (9.46e-19, 's^-1'),
+        n = 8.97,
+        alpha = 0,
+        E0 = (15.78, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1018,
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
+    kinetics = ArrheniusEP(
+        A = (5.14e-16, 's^-1'),
+        n = 8.15,
+        alpha = 0,
+        E0 = (16.41, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1019,
+    label = "R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
+    kinetics = ArrheniusEP(
+        A = (2.76e-23, 's^-1'),
+        n = 10.17,
+        alpha = 0,
+        E0 = (13.52, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1020,
+    label = "R3H_SS;C_rad_out_Cs2;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
+    kinetics = ArrheniusEP(
+        A = (8.59e-19, 's^-1'),
+        n = 8.79,
+        alpha = 0,
+        E0 = (16.66, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1021,
+    label = "R4H_SSS;C_rad_out_2H;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    kinetics = ArrheniusEP(
+        A = (0.000113, 's^-1'),
+        n = 4.37,
+        alpha = 0,
+        E0 = (8.06, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1022,
+    label = "R4H_SSS;C_rad_out_2H;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
+    kinetics = ArrheniusEP(
+        A = (0.00181, 's^-1'),
+        n = 4.25,
+        alpha = 0,
+        E0 = (9.07, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1023,
+    label = "R5H_SSSS;C_rad_out_2H;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *5 R!H 0 {3,S} {5,S}
+5 *2 R!H 0 {4,S} {6,S}
+6 *3 H   0 {5,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    kinetics = ArrheniusEP(
+        A = (46.1, 's^-1'),
+        n = 3.21,
+        alpha = 0,
+        E0 = (6.53, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1024,
+    label = "R5H_SSSS;C_rad_out_2H;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *5 R!H 0 {3,S} {5,S}
+5 *2 R!H 0 {4,S} {6,S}
+6 *3 H   0 {5,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
+    kinetics = ArrheniusEP(
+        A = (10500, 's^-1'),
+        n = 2.14,
+        alpha = 0,
+        E0 = (7.97, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1025,
+    label = "R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    kinetics = ArrheniusEP(
+        A = (0.251, 's^-1'),
+        n = 3.86,
+        alpha = 0,
+        E0 = (9.95, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1027,
+    label = "R6H_SSSSS;C_rad_out_2H;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *7 R!H 0 {3,S} {5,S}
+5 *5 R!H 0 {4,S} {6,S}
+6 *2 R!H 0 {5,S} {7,S}
+7 *3 H   0 {6,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    kinetics = ArrheniusEP(
+        A = (46.1, 's^-1'),
+        n = 3.21,
+        alpha = 0,
+        E0 = (6.53, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1028,
+    label = "R6H_SSSSS;C_rad_out_2H;Cs_H_out_OneDe",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *7 R!H 0 {3,S} {5,S}
+5 *5 R!H 0 {4,S} {6,S}
+6 *2 R!H 0 {5,S} {7,S}
+7 *3 H   0 {6,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
+    kinetics = ArrheniusEP(
+        A = (10500, 's^-1'),
+        n = 2.14,
+        alpha = 0,
+        E0 = (7.97, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1029,
+    label = "R6H_SSSSS_bicyclopentane;C_rad_out_H/NonDeC;Cs_H_out_OneDe",
+    group1 = 
+"""
+1  *1 R!H 1 {2,S} {8,S}
+2  *4 R!H 0 {1,S} {3,S}
+3  *6 R!H 0 {2,S} {4,S} {9,S}
+4  *7 R!H 0 {3,S} {5,S} {11,S}
+5  *5 R!H 0 {4,S} {6,S}
+6  *2 R!H 0 {5,S} {7,S} {10,S}
+7  *3 H   0 {6,S}
+8     C   0 {1,S} {9,S}
+9     C   0 {3,S} {8,S}
+10    C   0 {6,S} {11,D}
+11    C   0 {4,S} {10,D}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
+    kinetics = ArrheniusEP(
+        A = (46.1, 's^-1'),
+        n = 3.21,
+        alpha = 0,
+        E0 = (14.53, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1031,
+    label = "R6H_SSSSS_bicyclopentane;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe",
+    group1 = 
+"""
+1  *1 R!H 1 {2,S} {8,S}
+2  *4 R!H 0 {1,S} {3,S}
+3  *6 R!H 0 {2,S} {4,S} {9,S}
+4  *7 R!H 0 {3,S} {5,S} {11,S}
+5  *5 R!H 0 {4,S} {6,S}
+6  *2 R!H 0 {5,S} {7,S} {10,S}
+7  *3 H   0 {6,S}
+8     C   0 {1,S} {9,S}
+9     C   0 {3,S} {8,S}
+10    C   0 {6,S} {11,D}
+11    C   0 {4,S} {10,D}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    kinetics = ArrheniusEP(
+        A = (10500, 's^-1'),
+        n = 2.14,
+        alpha = 0,
+        E0 = (15.97, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1032,
+    label = "R4H_SMS;Y_rad_out;XH_out",
+    group1 = 
+"""
+1 *1 R!H        1 {2,S}
+2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
+3 *5 {Cd,Ct,Cb} 0 {2,{D,T,B}} {4,S}
+4 *2 R!H        0 {3,S} {5,S}
+5 *3 H          0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 R!H 1
+""",
+    group3 = 
+"""
+1 *2 R!H 0 {2,S}
+2 *3 H   0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10000000000.0, 's^-1'),
+        n = 0,
+        alpha = 0,
+        E0 = (100, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""estimate""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1033,
+    label = "R4H_SDS;C_rad_out_H/NonDeC;Cs_H_out_H/(NonDeC/Cs)",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 Cd  0 {1,S} {3,D}
+3 *5 Cd  0 {2,D} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    H  0 {1,S}
+5    Cs 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10000000000.0, 's^-1'),
+        n = 0,
+        alpha = 0,
+        E0 = (100, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""estimate""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1034,
+    label = "R6H_SSSSS;C_rad_out_single;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *7 R!H 0 {3,S} {5,S}
+5 *5 R!H 0 {4,S} {6,S}
+6 *2 R!H 0 {5,S} {7,S}
+7 *3 H   0 {6,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    R 0 {1,S}
+3    R 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (428000000000.0, 's^-1'),
+        n = -1.05,
+        alpha = 0,
+        E0 = (11.76, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1035,
+    label = "R6H_SSSSS;C_rad_out_single;Cs_H_out_1H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *6 R!H 0 {2,S} {4,S}
+4 *7 R!H 0 {3,S} {5,S}
+5 *5 R!H 0 {4,S} {6,S}
+6 *2 R!H 0 {5,S} {7,S}
+7 *3 H   0 {6,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    R 0 {1,S}
+3    R 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs  0 {2,S} {3,S} {4,S}
+2 *3 H   0 {1,S}
+3    R!H 0 {1,S}
+4    H   0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (13600000000.0, 's^-1'),
+        n = -0.66,
+        alpha = 0,
+        E0 = (14.28, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1036,
+    label = "R3H_SS_OOCs;O_rad_out;Cs_H_out_H/Cd",
+    group1 = 
+"""
+1 *1 Os 1 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3 *2 Cs 0 {2,S} {4,S}
+4 *3 H  0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    C  0 {1,S} {5,D} {6,S}
+4    H  0 {1,S}
+5    C  0 {3,D} {7,S} {8,S}
+6    R  0 {3,S}
+7    R  0 {5,S}
+8    R  0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (16600000.0, 's^-1'),
+        n = 1.69,
+        alpha = 0,
+        E0 = (38.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1037,
+    label = "R4H_SSS_OOCsCd;O_rad_out;Cd_H_out_doubleC",
+    group1 = 
+"""
+1 *1 Os 1 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3 *5 Cs 0 {2,S} {4,S}
+4 *2 Cd 0 {3,S} {5,S}
+5 *3 H  0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cd 0 {2,S} {3,D}
+2 *3 H  0 {1,S}
+3    Cd 0 {1,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (274, 's^-1'),
+        n = 3.09,
+        alpha = 0,
+        E0 = (34.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1038,
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_H/(NonDeC/O)",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S} {5,S}
+4    H  0 {1,S}
+5    O  0 {3,S} {6,S}
+6    H  0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.2e-16, 's^-1'),
+        n = 7.98,
+        alpha = 0,
+        E0 = (25, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1039,
+    label = "R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeO",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    O  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4.15e-15, 's^-1'),
+        n = 8.11,
+        alpha = 0,
+        E0 = (28, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1040,
+    label = "R4H_SSS;C_rad_out_2H;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (8.6e-09, 's^-1'),
+        n = 5.55,
+        alpha = 0,
+        E0 = (20, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1041,
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeO",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    O  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.7e-20, 's^-1'),
+        n = 9.13,
+        alpha = 0,
+        E0 = (26, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1042,
+    label = "R3H_SS;C_rad_out_H/NonDeC;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3e-10, 's^-1'),
+        n = 6.82,
+        alpha = 0,
+        E0 = (25, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1043,
+    label = "R2H_S;C_rad_out_H/NonDeO;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    O 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4.7e-19, 's^-1'),
+        n = 8.84,
+        alpha = 0,
+        E0 = (30, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1044,
+    label = "R3H_SS;C_rad_out_H/NonDeO;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    O 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2e-15, 's^-1'),
+        n = 8.23,
+        alpha = 0,
+        E0 = (34.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1045,
+    label = "R3H_SS;O_rad_out;Cs_H_out_H/2NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3 *4 Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7e-08, 's^-1'),
+        n = 6.3,
+        alpha = 0,
+        E0 = (19.75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1046,
+    label = "R2H_S;C_rad_out_H/NonDeC;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5e-18, 's^-1'),
+        n = 8.38,
+        alpha = 0,
+        E0 = (27.05, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1047,
+    label = "R2H_S;C_rad_out_2H;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (25600, 's^-1'),
+        n = 2.36,
+        alpha = 0,
+        E0 = (33.1, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Aaron BMK/cbsb7 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1048,
+    label = "R4H_SSS;C_rad_out_2H;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (9790, 's^-1'),
+        n = 1.91,
+        alpha = 0,
+        E0 = (16.7, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Aaron BMK/cbsb7 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1049,
+    label = "R4H_SSS;O_rad_out;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *5 R!H 0 {2,S} {4,S}
+4 *2 R!H 0 {3,S} {5,S}
+5 *3 H   0 {4,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (16800, 's^-1'),
+        n = 2.06,
+        alpha = 0,
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Aaron BMK/cbsb7 with 1-dHR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1050,
+    label = "R2H_S;C_rad_out_H/NonDeO;Cs_H_out_2H",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    O 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (14700000000000.0, 's^-1', '+|-', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (45, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1051,
+    label = "R2H_S;C_rad_out_H/NonDeC;O_H_out",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C  1 {2,S} {3,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (30000000000000.0, 's^-1', '+|-', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (37, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1052,
+    label = "R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeO",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    O  0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (18500000000000.0, 's^-1', '+|-', 2),
+        n = -0.1,
+        alpha = 0,
+        E0 = (37.85, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1800, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1053,
+    label = "R2H_S;O_rad_out;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *2 R!H 0 {1,S} {3,S}
+3 *3 H   0 {2,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (215000000000000.0, 's^-1', '+|-', 2),
+        n = -0.27,
+        alpha = 0,
+        E0 = (27.24, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1800, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1054,
+    label = "R3H_SS;O_rad_out;Cs_H_out_H/2NonDeC",
+    group1 = 
+"""
+1 *1 R!H 1 {2,S}
+2 *4 R!H 0 {1,S} {3,S}
+3 *2 R!H 0 {2,S} {4,S}
+4 *3 H   0 {3,S}
+""",
+    group2 = 
+"""
+1 *1 O 1
+""",
+    group3 = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3 *4 Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (172000000.0, 's^-1', '+|-', 2),
+        n = 1.31,
+        alpha = 0,
+        E0 = (24.94, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1800, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
