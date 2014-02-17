@@ -5072,6 +5072,45 @@ entry(
 2    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
+        A = (999, 'cm^3/(mol*s)'),
+        n = 3.08,
+        alpha = 0,
+        E0 = (13.09, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""CAC calc CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 131,
+    label = "S-HCs(HHH);SsJ-H",
+    group1 = 
+"""
+1 *1 Ss 0 {2,S} {3,S}
+2    H  0 {1,S}
+3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
+4    H  0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+""",
+    group2 = 
+"""
+1 *3 Ss 1 {2,S}
+2    H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
         A = (1180, 'cm^3/(mol*s)'),
         n = 3,
         alpha = 0,
