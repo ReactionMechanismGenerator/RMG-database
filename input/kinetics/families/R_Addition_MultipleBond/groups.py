@@ -26447,6 +26447,44 @@ u"""
 )
 
 entry(
+    index = 314,
+    label = "Nt_R",
+    group = "OR{N3t_R, N5t_R}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 315,
+    label = "N5d_R",
+    group = 
+"""
+1 *1 N5d 0 {2,D}
+2 *2 R!H 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
     index = 316,
     label = "N3d_R",
     group = 
