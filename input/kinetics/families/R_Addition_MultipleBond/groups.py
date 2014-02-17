@@ -21225,7 +21225,7 @@ entry(
 1 *1 Cd         0 {2,D} {3,S} {4,S}
 2 *2 Cd         0 {1,D} {5,S} {6,S}
 3    O          1 {1,S}
-4    {Cs,Os,Ss,Ns} 0 {1,S}
+4    {Cs,Os,Ss,N3s,N5s} 0 {1,S}
 5    R          0 {2,S}
 6    R          0 {2,S}
 """,
@@ -23484,7 +23484,7 @@ entry(
 """
 1 *3 C      1 {2,D} {3,S}
 2    O      0 {1,D}
-3    {Cs,Ss,Ns,Os} 0 {1,S}
+3    {Cs,Ss,N3s,N5s,Os} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -25703,7 +25703,7 @@ entry(
     group = 
 """
 1 *3 O          1 {2,S}
-2    {Cs,Os,Ss,Ns} 0 {1,S}
+2    {Cs,Os,Ss,N3s,N5s} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -26217,7 +26217,7 @@ entry(
 """
 1 *1 Ct          0 {2,T} {3,S}
 2 *2 N3t         0 {1,T}
-3    {Cs,Ns,Os,Ss} 0 {1,S}
+3    {Cs,N3s,N5s,Os,Ss} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -26327,7 +26327,7 @@ entry(
 1 *1 Cd  0 {2,D} {3,S} {4,S}
 2 *2 N3d 0 {1,D}
 3    H   0 {1,S}
-4    {Cs,Os,Ns,Ss} 0 {1,S}
+4    {Cs,Os,N3s,N5s,Ss} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -26350,8 +26350,8 @@ entry(
 """
 1 *1 Cd  0 {2,D} {3,S} {4,S}
 2 *2 N3d 0 {1,D}
-3    {Cs,Os,Ns,Ss}   0 {1,S}
-4    {Cs,Os,Ns,Ss} 0 {1,S}
+3    {Cs,Os,N3s,N5s,Ss}   0 {1,S}
+4    {Cs,Os,N3s,N5s,Ss} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -26566,7 +26566,7 @@ entry(
 """
 1 *1 N3d 0 {2,D} {5,S}
 2 *2 Cd  0 {1,D} {3,S} {4,S}
-3    {Cs,Os,Ss,Ns} 0 {2,S}
+3    {Cs,Os,Ss,N3s,N5s} 0 {2,S}
 4    H   0 {2,S}
 5    H   0 {1,S}
 """,
@@ -26590,8 +26590,8 @@ entry(
 """
 1 *1 N3d 0 {2,D} {5,S}
 2 *2 Cd  0 {1,D} {3,S} {4,S}
-3    {Cs,Os,Ss,Ns} 0 {2,S}
-4    {Cs,Os,Ss,Ns} 0 {2,S}
+3    {Cs,Os,Ss,N3s,N5s} 0 {2,S}
+4    {Cs,Os,Ss,N3s,N5s} 0 {2,S}
 5    H   0 {1,S}
 """,
     kinetics = None,
@@ -26616,7 +26616,7 @@ entry(
 2 *2 Cd          0 {1,D} {3,S} {4,S}
 3    R!H         0 {2,S}
 4    R!H         0 {2,S}
-5    {Cs,Ns,Os,Ss} 0 {1,S}
+5    {Cs,N3s,N5s,Os,Ss} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -27032,7 +27032,7 @@ entry(
 """
 1 *1 N3t         0 {2,T}
 2 *2 Ct          0 {1,T} {3,S}
-3    {Cs,Ns,Os,Ss} 0 {2,S}
+3    {Cs,N3s,N5s,Os,Ss} 0 {2,S}
 """,
     kinetics = None,
     reference = None,
@@ -27279,7 +27279,7 @@ entry(
     group = 
 """
 1 *3 O   1 {2,S}
-2    Ns  0 {1,S}
+2    {N3s,N5s}  0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -27366,7 +27366,7 @@ entry(
 1 *3 C 1 {2,S} {3,S} {4,S}
 2    H 0 {1,S}
 3    H 0 {1,S}
-4    Ns 0 {1,S}
+4    {N3s,N5s} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -27388,7 +27388,7 @@ entry(
 """
 1 *3 C   1 {2,S} {3,S} {4,S}
 2    H   0 {1,S}
-3    Ns  0 {1,S}
+3    {N3s,N5s}  0 {1,S}
 4    Cs  0 {1,S}
 """,
     kinetics = None,
@@ -27411,8 +27411,8 @@ entry(
 """
 1 *3 C                        1 {2,S} {3,S} {4,S}
 2    H                        0 {1,S}
-3    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
-4    Ns                       0 {1,S}
+3    {Cd,Ct,Cb,CO,N3d,N5d}    0 {1,S}
+4    {N3s,N5s}                0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -27435,7 +27435,7 @@ entry(
 1 *3 C                        1 {2,S} {3,S} {4,S}
 2    Cs                        0 {1,S}
 3    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
-4    Ns                       0 {1,S}
+4    {N3s,N5s}                0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -27535,7 +27535,7 @@ entry(
     group = 
 """
 1 *3 N3s 1 {2,S} {3,S}
-2    {Os,Ss,Ns,Cs} 0 {1,S}
+2    {Os,Ss,N3s,N5s,Cs} 0 {1,S}
 3    H   0 {1,S}
 """,
     kinetics = None,
@@ -27601,7 +27601,7 @@ entry(
     group = 
 """
 1 *3 N3s 1 {2,S} {3,S}
-2    Ns  0 {1,S}
+2    {N3s,N5s}  0 {1,S}
 3    H   0 {1,S}
 """,
     kinetics = None,
@@ -27645,8 +27645,8 @@ entry(
     group = 
 """
 1 *3 N3s 1 {2,S} {3,S}
-2    {Os,Cs,Ns,Ss} 0 {1,S}
-3    {Os,Cs,Ns,Ss} 0 {1,S}
+2    {Os,Cs,N3s,N5s,Ss} 0 {1,S}
+3    {Os,Cs,N3s,N5s,Ss} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
