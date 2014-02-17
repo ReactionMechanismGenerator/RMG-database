@@ -1934,7 +1934,7 @@ CH
     product1 = 
 """
 C
-1 C 4V 0
+1 C 4T 0
 """,
     product2 = 
 """
@@ -3229,7 +3229,7 @@ OH
     reactant2 = 
 """
 C
-1 C 4V 0
+1 C 4T 0
 """,
     product1 = 
 """
@@ -4719,7 +4719,7 @@ entry(
     reactant1 = 
 """
 C
-1 C 4V 0
+1 C 4T 0
 """,
     reactant2 = 
 """
@@ -4763,7 +4763,7 @@ entry(
     reactant1 = 
 """
 C
-1 C 4V 0
+1 C 4T 0
 """,
     reactant2 = 
 """
@@ -4809,7 +4809,7 @@ entry(
     reactant1 = 
 """
 C
-1 C 4V 0
+1 C 4T 0
 """,
     reactant2 = 
 """
