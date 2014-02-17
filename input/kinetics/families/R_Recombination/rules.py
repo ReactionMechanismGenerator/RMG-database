@@ -3354,3 +3354,404 @@ u"""
     ],
 )
 
+entry(
+    index = 495,
+    label = "H_rad;C_rad/H2/Cd",
+    group1 = 
+"""
+1 * H 1
+""",
+    group2 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (29200000000000.0, 'cm^3/(mol*s)'),
+        n = 0.18,
+        alpha = 0,
+        E0 = (0.124, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Harding et al. (2007HAR/KLI3789-3801), value devided by 2 to account for two addition sites""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 496,
+    label = "H_rad;C_rad/H/OneDeC",
+    group1 = 
+"""
+1 * H 1
+""",
+    group2 = 
+"""
+1 * C             1 {2,S} {3,S} {4,S}
+2   H             0 {1,S}
+3   {Cd,Ct,Cb,CO} 0 {1,S}
+4   Cs            0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (29200000000000.0, 'cm^3/(mol*s)'),
+        n = 0.18,
+        alpha = 0,
+        E0 = (0.124, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Estimated by 495""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 497,
+    label = "H_rad;C_rad/OneDe",
+    group1 = 
+"""
+1 * H 1
+""",
+    group2 = 
+"""
+1 * C             1 {2,S} {3,S} {4,S}
+2   {Cd,Ct,Cb,CO} 0 {1,S}
+3   {Cs,O}        0 {1,S}
+4   {Cs,O}        0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (29200000000000.0, 'cm^3/(mol*s)'),
+        n = 0.18,
+        alpha = 0,
+        E0 = (0.124, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Estimated by 495""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 498,
+    label = "H_rad;C_rad/TwoDe",
+    group1 = 
+"""
+1 * H 1
+""",
+    group2 = 
+"""
+1 * C             1 {2,S} {3,S} {4,S}
+2   {Cd,Ct,Cb,CO} 0 {1,S}
+3   {Cd,Ct,Cb,CO} 0 {1,S}
+4   {Cs,O}        0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (29200000000000.0, 'cm^3/(mol*s)'),
+        n = 0.18,
+        alpha = 0,
+        E0 = (0.124, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Estimated by 495""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 499,
+    label = "C_rad/H2/Cd;C_rad/H2/Cd",
+    group1 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (-0.26, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 500,
+    label = "C_rad/H2/Cd;C_rad/H2/Cs",
+    group1 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (20500000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (-0.13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 501,
+    label = "C_rad/H2/Cd;C_methyl",
+    group1 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (102000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.32,
+        alpha = 0,
+        E0 = (-0.13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 502,
+    label = "C_rad/H2/Cd;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (115000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.35,
+        alpha = 0,
+        E0 = (-0.13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 503,
+    label = "C_rad/H2/Cd;C_rad/Cs3",
+    group1 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (724000000000000.0, 'cm^3/(mol*s)'),
+        n = -0.75,
+        alpha = 0,
+        E0 = (-0.13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 504,
+    label = "C_rad/H2/Cd;C_rad/H/CdCd",
+    group1 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (-0.26, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Better estimate then averaging out, Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 3000,
+    label = "H_rad;SsJ-H",
+    group1 = 
+"""
+1 * H 1
+""",
+    group2 = 
+"""
+1 * Ss 1 {2,S}
+2   H  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5770000000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0.43, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""GA Jonas x 3 for spinorbit""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
