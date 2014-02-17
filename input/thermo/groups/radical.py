@@ -5151,7 +5151,7 @@ entry(
         H298 = (104.6,'kcal/mol'),
         S298 = (1.81,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S 194 cyclobutadiene-C1 104.6 1.81 -0.34 -1.21 -1.94 -2.52 -3.34 -3.91 -4.76 0 0 0 Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
+    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from Cds_S""",
     longDesc = 
 u"""
 
@@ -5702,6 +5702,25 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 217,
+    label = "CbOJ",
+    group = 
+"""
+1 * O  1 {2,S}
+2   Cb 0 {1,S}
+""",
+    thermo = u'RC=COJ',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
@@ -7166,6 +7185,7 @@ L1: Radical
                 L5: CdsOJ
                     L6: RC=COJ
                     L6: OJC=O
+                L5: CbOJ
             L4: OOJ
                 L5: ROOJ
                     L6: C(=O)OOJ
