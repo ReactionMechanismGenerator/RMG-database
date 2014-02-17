@@ -1271,3 +1271,19 @@ L1: multiplebond
 """
 )
 
+forbidden(
+    label = "carbene_triplet",
+    group = 
+"""
+1 *1 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
