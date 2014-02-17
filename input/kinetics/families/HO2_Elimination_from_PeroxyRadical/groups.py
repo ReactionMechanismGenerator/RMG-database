@@ -41,11 +41,112 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 2,
+    label = "R2OO_0H",
+    group = 
+"""
+1 *1 Cd 0 {2,S} {5,S}
+2 *2 C  0 {1,S} {3,S}
+3 *3 O  0 {2,S} {4,S}
+4 *4 O  1 {3,S}
+5 *5 H  0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 3,
+    label = "R2OO_0H_2H",
+    group = 
+"""
+1 *1 Cd 0 {2,S} {5,S}
+2 *2 C  0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O  0 {2,S} {4,S}
+4 *4 O  1 {3,S}
+5 *5 H  0 {1,S}
+6    H  0 {2,S}
+7    H  0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 4,
+    label = "R2OO_O",
+    group = 
+"""
+1 *1 O 0 {2,S} {5,S}
+2 *2 C 0 {1,S} {3,S}
+3 *3 O 0 {2,S} {4,S}
+4 *4 O 1 {3,S}
+5 *5 H 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 5,
+    label = "R2OO_O_HNd",
+    group = 
+"""
+1 *1 O 0 {2,S} {5,S}
+2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O 0 {2,S} {4,S}
+4 *4 O 1 {3,S}
+5 *5 H 0 {1,S}
+6    H 0 {2,S}
+7    C 0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 6,
     label = "R2OO_2H",
     group = 
 """
@@ -67,11 +168,12 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 3,
+    index = 7,
     label = "R2OO_2H_2H",
     group = 
 """
@@ -151,12 +253,13 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 6,
-    label = "CH3CH(OO)CHCH2",
+    index = 10,
+    label = "R2OO_2H_HCd",
     group = 
 """
 1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
@@ -167,11 +270,8 @@ entry(
 6     H 0 {1,S}
 7     H 0 {1,S}
 8     H 0 {2,S}
-9     C 0 {2,S} {10,S} {11,D}
-10    H 0 {9,S}
-11    C 0 {9,D} {12,S} {13,S}
-12    H 0 {11,S}
-13    H 0 {11,S}
+9     C 0 {2,S} {10,D}
+10    C 0 {9,D}
 """,
     kinetics = None,
     reference = None,
@@ -182,12 +282,12 @@ u"""
 
 """,
     history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 7,
+    index = 11,
     label = "R2OO_2H_NdNd",
     group = 
 """
@@ -1237,72 +1337,22 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 45,
-    label = "OCOO",
-    group = 
-"""
-1 *1 O 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
-6    R 0 {2,S}
-7    R 0 {2,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 46,
-    label = "HOCH[OO]CH3",
-    group = 
-"""
-1  *1 O 0 {2,S} {5,S}
-2  *2 C 0 {1,S} {3,S} {6,S} {7,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {2,S}
-7     C 0 {2,S} {8,S} {9,S} {10,S}
-8     H 0 {7,S}
-9     H 0 {7,S}
-10    H 0 {7,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 tree(
 """
 L1: R2OO
+    L2: R2OO_0H
+        L3: R2OO_0H_2H
+    L2: R2OO_O
+        L3: R2OO_O_HNd
     L2: R2OO_2H
         L3: R2OO_2H_2H
         L3: R2OO_2H_HNd
         L3: R2OO_2H_HDe
-            L4: CH3CH(OO)CHCH2
+            L4: R2OO_2H_HCd
         L3: R2OO_2H_NdNd
         L3: R2OO_2H_NdDe
         L3: R2OO_2H_DeDe
@@ -1341,8 +1391,6 @@ L1: R2OO
         L3: R2OO_DeDe_NdNd
         L3: R2OO_DeDe_NdDe
         L3: R2OO_DeDe_DeDe
-    L2: OCOO
-        L3: HOCH[OO]CH3
 """
 )
 
