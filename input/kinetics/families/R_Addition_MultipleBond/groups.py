@@ -28966,38 +28966,38 @@ L1: R_R
             L4: Od_N3d
             L4: Od_N5d
     L2: Nd_R
- 	L3: N3d_R
-	    L4: N3d_Cd
-	        L5: N3d_Cds
-		    L6: N3d-H_Cds
-			L7: N3d-H_Cds-HH
-			L7: N3d-H_Cds-NonDeH
-			L7: N3d-H_Cds-NonDe2
-		    L6: N3d-NonDe_Cds
-		L6: N3d-OneDe_Cds
-		L5: N3d_Cdd
-	    L4: N3d_Od
-	    	L5: N3d-H_Od
-	    	L5: N3d-NonDe_Od
-	    	L5: N3d-OneDe_Od
-	    L4: N3d_Nd
-		L5: N3d_N3d
-		    L6: N3d-H_N3d
-			L7: N3d-H_N3d-H
-			L7: N3d-H_N3d-NonDe
-			L7: N3d-H_N3d-OneDe
-		    L6: N3d-NonDe_N3d
-		    L6: N3d-OneDe_N3d
-		L5: N3d_N5d
+        L3: N3d_R
+            L4: N3d_Cd
+                L5: N3d_Cds
+                    L6: N3d-H_Cds
+                        L7: N3d-H_Cds-HH
+                        L7: N3d-H_Cds-NonDeH
+                        L7: N3d-H_Cds-NonDe2
+                    L6: N3d-NonDe_Cds
+                    L6: N3d-OneDe_Cds
+                L5: N3d_Cdd
+            L4: N3d_Od
+                L5: N3d-H_Od
+                L5: N3d-NonDe_Od
+                L5: N3d-OneDe_Od
+            L4: N3d_Nd
+                L5: N3d_N3d
+                    L6: N3d-H_N3d
+                        L7: N3d-H_N3d-H
+                        L7: N3d-H_N3d-NonDe
+                        L7: N3d-H_N3d-OneDe
+                    L6: N3d-NonDe_N3d
+                    L6: N3d-OneDe_N3d
+                L5: N3d_N5d
         L3: N5d_R
     L2: Nt_R
-	L3: N3t_R
-	    L4: N3t_Ct
-	         L5: N3t_Ct-H
-	 	 L5: N3t_Ct-NonDe
-	 	 L5: N3t_Ct-OneDe
-	    L4: N3t_N3t
-	L3: N5t_R        
+        L3: N3t_R
+            L4: N3t_Ct
+                L5: N3t_Ct-H
+                L5: N3t_Ct-NonDe
+                L5: N3t_Ct-OneDe
+            L4: N3t_N3t
+        L3: N5t_R        
     L2: Sd_R
         L3: Sd_Cdd
             L4: Sd_Cdd-Sd
@@ -29075,8 +29075,8 @@ L1: YJ
             L4: CsJ-SsSsH
             L4: CsJ-SsSsCs
             L4: CsJ-SsSsSs
-	    L4: CsJ-NsHH
-	    L4: CsJ-NsCsH
+            L4: CsJ-NsHH
+            L4: CsJ-NsCsH
             L4: CsJ-OneDe
                 L5: CsJ-OneDeHH
                     L6: CsJ-CtHH
@@ -29103,8 +29103,8 @@ L1: YJ
                 L5: CsJ-OneDeOsOs
                 L5: CsJ-OneDeOsSs
                 L5: CsJ-OneDeSsSs
-		L5: CsJ-OneDeNsH
-		L5: CsJ-OneDeNsCs
+                L5: CsJ-OneDeNsH
+                L5: CsJ-OneDeNsCs
             L4: CsJ-TwoDe
                 L5: CsJ-TwoDeH
                     L6: CsJ-CtCtH
@@ -29156,9 +29156,9 @@ L1: YJ
         L3: OJ_pri
         L3: OJ_sec
             L4: OJ-NonDe
-            	L5: OJ-Cs
-            	L5: OJ-Os
-            	L5: OJ-Ns
+                L5: OJ-Cs
+                L5: OJ-Os
+                L5: OJ-Ns
             L4: OJ-OneDe
                 L5: OJ-OneDeN
                     L6: OJ-NO
@@ -29175,23 +29175,23 @@ L1: YJ
                 L5: SsJ-Cd
                 L5: SsJ-C=S
     L2: NJ
-	L3: N3J
- 	    L4: N3sJ
- 		L5: NH2J
- 		L5: N3sJ-NonDeH
- 			L7: N3sJ-CsH
- 			L7: N3sJ-OsH
- 			L7: N3sJ-NsH
- 	    	L5: N3sJ-NonDe2
-		L5: N3sJ-OneDeH
-		L5: N3sJ-OneDeCs
-		L5: N3sJ-TwoDe	
- 	    L4: N3dJ
- 		L5: N3dJ_C
- 		L5: N3dJ_O
- 		L5: N3dJ_N
-	L3: N5J
- 	    L4: N5dJ
+        L3: N3J
+            L4: N3sJ
+                L5: NH2J
+                L5: N3sJ-NonDeH
+                    L6: N3sJ-CsH
+                    L6: N3sJ-OsH
+                    L6: N3sJ-NsH
+                L5: N3sJ-NonDe2
+                L5: N3sJ-OneDeH
+                L5: N3sJ-OneDeCs
+                L5: N3sJ-TwoDe	
+            L4: N3dJ
+                L5: N3dJ_C
+                L5: N3dJ_O
+                L5: N3dJ_N
+        L3: N5J
+            L4: N5dJ
     L2: Y_1centerbirad
         L3: O_atom_triplet
         L3: SJJ
