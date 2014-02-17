@@ -23,7 +23,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "diene_out",
-    group = "OR{diene_unsub_unsub_out, diene_unsub_monosub_out, diene_unsub_disub_out, diene_monosub_monosub_out, diene_monosub_disub_out, diene_disub_disub_out}",
+    group = "OR{diene_unsub_unsub_out, diene_unsub_monosub_out, diene_unsub_disub_out, diene_monosub_monosub_out, diene_monosub_disub_out, diene_disub_disub_out, diene_5ring_out}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -34,6 +34,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
@@ -81,6 +82,110 @@ u"""
 
 entry(
     index = 4,
+    label = "diene_5ring_out",
+    group = 
+"""
+1 *3 Cd 0 {2,D} {5,S} {6,S}
+2 *4 Cd 0 {1,D} {3,S}
+3 *5 Cd 0 {2,S} {4,D}
+4 *6 Cd 0 {3,D} {6,S} {7,S}
+5 *7 R  0 {1,S}
+6 *8 C  0 {1,S} {4,S}
+7 *9 R  0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 5,
+    label = "diene_5ring_H_H_out",
+    group = 
+"""
+1 *3 Cd 0 {2,D} {5,S} {6,S}
+2 *4 Cd 0 {1,D} {3,S}
+3 *5 Cd 0 {2,S} {4,D}
+4 *6 Cd 0 {3,D} {6,S} {7,S}
+5 *7 H  0 {1,S}
+6 *8 C  0 {1,S} {4,S}
+7 *9 H  0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 6,
+    label = "diene_5ring_H_Nd_out",
+    group = 
+"""
+1 *3 Cd     0 {2,D} {5,S} {6,S}
+2 *4 Cd     0 {1,D} {3,S}
+3 *5 Cd     0 {2,S} {4,D}
+4 *6 Cd     0 {3,D} {6,S} {7,S}
+5 *7 H      0 {1,S}
+6 *8 C      0 {1,S} {4,S}
+7 *9 {Cs,O} 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 7,
+    label = "diene_5ring_Nd_Nd_out",
+    group = 
+"""
+1 *3 Cd     0 {2,D} {5,S} {6,S}
+2 *4 Cd     0 {1,D} {3,S}
+3 *5 Cd     0 {2,S} {4,D}
+4 *6 Cd     0 {3,D} {6,S} {7,S}
+5 *7 {Cs,O} 0 {1,S}
+6 *8 C      0 {1,S} {4,S}
+7 *9 {Cs,O} 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 8,
     label = "diene_unsub_unsub_out",
     group = 
 """
@@ -157,11 +262,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 7,
+    index = 11,
     label = "diene_unsub_monosubDe_out",
     group = 
 """
@@ -184,11 +290,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 8,
+    index = 12,
     label = "diene_unsub_disub_out",
     group = 
 """
@@ -211,11 +318,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 9,
+    index = 13,
     label = "diene_unsub_disubNd2_out",
     group = 
 """
@@ -238,11 +346,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 10,
+    index = 14,
     label = "diene_unsub_disubNdDe_out",
     group = 
 """
@@ -265,11 +374,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 11,
+    index = 15,
     label = "diene_unsub_disubDe2_out",
     group = 
 """
@@ -292,11 +402,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 12,
+    index = 16,
     label = "diene_monosub_monosub_out",
     group = 
 """
@@ -305,8 +416,8 @@ entry(
 3 *5 Cd  0 {2,S} {4,D}
 4 *6 Cd  0 {3,D} {7,S} {8,S}
 5    H   0 {1,S}
-6    R!H 0 {1,S}
-7    R!H 0 {4,S}
+6 *7 R!H 0 {1,S}
+7 *8 R!H 0 {4,S}
 8    H   0 {4,S}
 """,
     kinetics = None,
@@ -319,11 +430,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 13,
+    index = 17,
     label = "diene_monosubNd_monosubNd_out",
     group = 
 """
@@ -332,8 +444,8 @@ entry(
 3 *5 Cd     0 {2,S} {4,D}
 4 *6 Cd     0 {3,D} {7,S} {8,S}
 5    H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {4,S}
+6 *7 {Cs,O} 0 {1,S}
+7 *8 {Cs,O} 0 {4,S}
 8    H      0 {4,S}
 """,
     kinetics = None,
@@ -346,11 +458,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 14,
+    index = 18,
     label = "diene_monosubNd_monosubDe_out",
     group = 
 """
@@ -359,8 +472,8 @@ entry(
 3 *5 Cd            0 {2,S} {4,D}
 4 *6 Cd            0 {3,D} {7,S} {8,S}
 5    H             0 {1,S}
-6    {Cs,O}        0 {1,S}
-7    {Cd,Ct,Cb,CO} 0 {4,S}
+6 *7 {Cs,O}        0 {1,S}
+7 *8 {Cd,Ct,Cb,CO} 0 {4,S}
 8    H             0 {4,S}
 """,
     kinetics = None,
@@ -373,11 +486,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 15,
+    index = 19,
     label = "diene_monosubDe_monosubDe_out",
     group = 
 """
@@ -386,8 +500,8 @@ entry(
 3 *5 Cd            0 {2,S} {4,D}
 4 *6 Cd            0 {3,D} {7,S} {8,S}
 5    H             0 {1,S}
-6    {Cd,Ct,Cb,CO} 0 {1,S}
-7    {Cd,Ct,Cb,CO} 0 {4,S}
+6 *7 {Cd,Ct,Cb,CO} 0 {1,S}
+7 *8 {Cd,Ct,Cb,CO} 0 {4,S}
 8    H             0 {4,S}
 """,
     kinetics = None,
@@ -400,11 +514,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 16,
+    index = 20,
     label = "diene_monosub_disub_out",
     group = 
 """
@@ -413,9 +528,9 @@ entry(
 3 *5 Cd  0 {2,S} {4,D}
 4 *6 Cd  0 {3,D} {7,S} {8,S}
 5    H   0 {1,S}
-6    R!H 0 {1,S}
-7    R!H 0 {4,S}
-8    R!H 0 {4,S}
+6 *7 R!H 0 {1,S}
+7 *8 R!H 0 {4,S}
+8 *9 R!H 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -427,11 +542,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 17,
+    index = 21,
     label = "diene_monosubNd_disubNd2_out",
     group = 
 """
@@ -440,9 +556,9 @@ entry(
 3 *5 Cd     0 {2,S} {4,D}
 4 *6 Cd     0 {3,D} {7,S} {8,S}
 5    H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {4,S}
-8    {Cs,O} 0 {4,S}
+6 *7 {Cs,O} 0 {1,S}
+7 *8 {Cs,O} 0 {4,S}
+8 *9 {Cs,O} 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -454,11 +570,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 18,
+    index = 22,
     label = "diene_monosubNd_disubNdDe_out",
     group = 
 """
@@ -467,9 +584,9 @@ entry(
 3 *5 Cd            0 {2,S} {4,D}
 4 *6 Cd            0 {3,D} {7,S} {8,S}
 5    H             0 {1,S}
-6    {Cs,O}        0 {1,S}
-7    {Cs,O}        0 {4,S}
-8    {Cd,Ct,Cb,CO} 0 {4,S}
+6 *7 {Cs,O}        0 {1,S}
+7 *8 {Cs,O}        0 {4,S}
+8 *9 {Cd,Ct,Cb,CO} 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -481,11 +598,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 19,
+    index = 23,
     label = "diene_monosubNd_disubDe2_out",
     group = 
 """
@@ -494,9 +612,9 @@ entry(
 3 *5 Cd            0 {2,S} {4,D}
 4 *6 Cd            0 {3,D} {7,S} {8,S}
 5    H             0 {1,S}
-6    {Cs,O}        0 {1,S}
-7    {Cd,Ct,Cb,CO} 0 {4,S}
-8    {Cd,Ct,Cb,CO} 0 {4,S}
+6 *7 {Cs,O}        0 {1,S}
+7 *8 {Cd,Ct,Cb,CO} 0 {4,S}
+8 *9 {Cd,Ct,Cb,CO} 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -508,11 +626,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 20,
+    index = 24,
     label = "diene_monosubDe_disubNd2_out",
     group = 
 """
@@ -521,9 +640,9 @@ entry(
 3 *5 Cd            0 {2,S} {4,D}
 4 *6 Cd            0 {3,D} {7,S} {8,S}
 5    H             0 {1,S}
-6    {Cd,Ct,Cb,CO} 0 {1,S}
-7    {Cs,O}        0 {4,S}
-8    {Cs,O}        0 {4,S}
+6 *7 {Cd,Ct,Cb,CO} 0 {1,S}
+7 *8 {Cs,O}        0 {4,S}
+8 *9 {Cs,O}        0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -535,11 +654,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 21,
+    index = 25,
     label = "diene_monosubDe_disubNdDe_out",
     group = 
 """
@@ -548,9 +668,9 @@ entry(
 3 *5 Cd            0 {2,S} {4,D}
 4 *6 Cd            0 {3,D} {7,S} {8,S}
 5    H             0 {1,S}
-6    {Cd,Ct,Cb,CO} 0 {1,S}
-7    {Cs,O}        0 {4,S}
-8    {Cd,Ct,Cb,CO} 0 {4,S}
+6 *7 {Cd,Ct,Cb,CO} 0 {1,S}
+7 *8 {Cs,O}        0 {4,S}
+8 *9 {Cd,Ct,Cb,CO} 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -562,11 +682,12 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
-    index = 22,
+    index = 26,
     label = "diene_monosubDe_disubDe2_out",
     group = 
 """
@@ -575,9 +696,9 @@ entry(
 3 *5 Cd            0 {2,S} {4,D}
 4 *6 Cd            0 {3,D} {7,S} {8,S}
 5    H             0 {1,S}
-6    {Cd,Ct,Cb,CO} 0 {1,S}
-7    {Cd,Ct,Cb,CO} 0 {4,S}
-8    {Cd,Ct,Cb,CO} 0 {4,S}
+6 *7 {Cd,Ct,Cb,CO} 0 {1,S}
+7 *8 {Cd,Ct,Cb,CO} 0 {4,S}
+8 *9 {Cd,Ct,Cb,CO} 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -589,119 +710,124 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 23,
-    label = "diene_disub_disub_out",
-    group = 
-"""
-1 *3 Cd  0 {2,D} {5,S} {6,S}
-2 *4 Cd  0 {1,D} {3,S}
-3 *5 Cd  0 {2,S} {4,D}
-4 *6 Cd  0 {3,D} {7,S} {8,S}
-5    R!H 0 {1,S}
-6    R!H 0 {1,S}
-7    R!H 0 {4,S}
-8    R!H 0 {4,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 24,
-    label = "diene_disubNd2_disubNd2_out",
-    group = 
-"""
-1 *3 Cd     0 {2,D} {5,S} {6,S}
-2 *4 Cd     0 {1,D} {3,S}
-3 *5 Cd     0 {2,S} {4,D}
-4 *6 Cd     0 {3,D} {7,S} {8,S}
-5    {Cs,O} 0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {4,S}
-8    {Cs,O} 0 {4,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 25,
-    label = "diene_disubNd2_disubDe_out",
-    group = 
-"""
-1 *3 Cd            0 {2,D} {5,S} {6,S}
-2 *4 Cd            0 {1,D} {3,S}
-3 *5 Cd            0 {2,S} {4,D}
-4 *6 Cd            0 {3,D} {7,S} {8,S}
-5    {Cs,O}        0 {1,S}
-6    {Cs,O}        0 {1,S}
-7    R!H           0 {4,S}
-8    {Cd,Ct,Cb,CO} 0 {4,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 26,
-    label = "diene_disubDe_disubDe_out",
-    group = 
-"""
-1 *3 Cd            0 {2,D} {5,S} {6,S}
-2 *4 Cd            0 {1,D} {3,S}
-3 *5 Cd            0 {2,S} {4,D}
-4 *6 Cd            0 {3,D} {7,S} {8,S}
-5    R!H           0 {1,S}
-6    {Cd,Ct,Cb,CO} 0 {1,S}
-7    R!H           0 {4,S}
-8    {Cd,Ct,Cb,CO} 0 {4,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 entry(
     index = 27,
+    label = "diene_disub_disub_out",
+    group = 
+"""
+1 *3  Cd  0 {2,D} {5,S} {6,S}
+2 *4  Cd  0 {1,D} {3,S}
+3 *5  Cd  0 {2,S} {4,D}
+4 *6  Cd  0 {3,D} {7,S} {8,S}
+5 *7  R!H 0 {1,S}
+6 *8  R!H 0 {1,S}
+7 *9  R!H 0 {4,S}
+8 *10 R!H 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 28,
+    label = "diene_disubNd2_disubNd2_out",
+    group = 
+"""
+1 *3  Cd     0 {2,D} {5,S} {6,S}
+2 *4  Cd     0 {1,D} {3,S}
+3 *5  Cd     0 {2,S} {4,D}
+4 *6  Cd     0 {3,D} {7,S} {8,S}
+5 *7  {Cs,O} 0 {1,S}
+6 *8  {Cs,O} 0 {1,S}
+7 *9  {Cs,O} 0 {4,S}
+8 *10 {Cs,O} 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 29,
+    label = "diene_disubNd2_disubDe_out",
+    group = 
+"""
+1 *3  Cd            0 {2,D} {5,S} {6,S}
+2 *4  Cd            0 {1,D} {3,S}
+3 *5  Cd            0 {2,S} {4,D}
+4 *6  Cd            0 {3,D} {7,S} {8,S}
+5 *7  {Cs,O}        0 {1,S}
+6 *8  {Cs,O}        0 {1,S}
+7 *9  R!H           0 {4,S}
+8 *10 {Cd,Ct,Cb,CO} 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 30,
+    label = "diene_disubDe_disubDe_out",
+    group = 
+"""
+1 *3  Cd            0 {2,D} {5,S} {6,S}
+2 *4  Cd            0 {1,D} {3,S}
+3 *5  Cd            0 {2,S} {4,D}
+4 *6  Cd            0 {3,D} {7,S} {8,S}
+5 *7  R!H           0 {1,S}
+6 *8  {Cd,Ct,Cb,CO} 0 {1,S}
+7 *9  R!H           0 {4,S}
+8 *10 {Cd,Ct,Cb,CO} 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 31,
     label = "diene_in_2H",
     group = 
 """
@@ -2004,12 +2130,17 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
     ],
 )
 
 tree(
 """
 L1: diene_out
+    L2: diene_5ring_out
+        L3: diene_5ring_H_H_out
+        L3: diene_5ring_H_Nd_out
+        L3: diene_5ring_Nd_Nd_out
     L2: diene_unsub_unsub_out
     L2: diene_unsub_monosub_out
         L3: diene_unsub_monosubNd_out
