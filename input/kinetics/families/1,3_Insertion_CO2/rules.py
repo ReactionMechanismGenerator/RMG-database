@@ -188,3 +188,44 @@ u"""
     ],
 )
 
+entry(
+    index = 576,
+    label = "CO2_Od;C_methyl_C_pri",
+    group1 = 
+"""
+1 *2 Cdd 0 {2,D} {3,D}
+2 *1 Od  0 {1,D}
+3    Od  0 {1,D}
+""",
+    group2 = 
+"""
+1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *4 Cs 0 {1,S} {6,S} {7,S} {8,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    H  0 {2,S}
+7    H  0 {2,S}
+8    C  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (73, 'cm^3/(mol*s)'),
+        n = 3.13,
+        alpha = 0,
+        E0 = (118, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aaron Vandeputte calculation for methylpropanate using BMK/CBSB7""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
