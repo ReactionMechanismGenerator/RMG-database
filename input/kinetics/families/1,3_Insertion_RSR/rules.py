@@ -504,6 +504,48 @@ u"""
 
 entry(
     index = 113,
+    label = "Cd/H2_Cd/Cs2;H_SCs(HHH)",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2 *2 C  0 {1,D} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {2,S}
+6    Cs 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H  0 {2,S}
+2 *4 Ss 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S} {5,S} {6,S}
+4    H  0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (34, 'cm^3/(mol*s)'),
+        n = 3.07,
+        alpha = 0,
+        E0 = (39.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""CBS-QB3 by AGV""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 113,
     label = "Cd/H2_Cd/Cs2;H_SCs(CsCsCs)",
     group1 = 
 """
@@ -541,6 +583,48 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 114,
+    label = "Cd/unsub_Cd/unsub;H_SCs(CsHH)",
+    group1 = 
+"""
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 H  0 {2,S}
+2 *4 Ss 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.261, 'cm^3/(mol*s)'),
+        n = 3.67,
+        alpha = 0,
+        E0 = (41.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""CBS-QB3 by AGV""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
     ],
 )
 
