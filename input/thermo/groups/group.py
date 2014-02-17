@@ -43809,11 +43809,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.5,3.61,3.72,3.825,4.035,4.175,4.36],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol','+|-',0.001),
-        S298 = (25.19,'cal/(mol*K)'),
+        Cpdata = ([3.5,3.575,3.685,3.8,3.99,4.12,4.29],'cal/(mol*K)'),
+        H298 = (14.01,'kcal/mol'),
+        S298 = (24.085,'cal/(mol*K)'),
     ),
-    shortDesc = u"""O2 Kee et al., SAND87-8215B, 1994", we cut it half to account for adding two single Od groups, also the symmetric number is considered too. S(group) = (S(o2) + Rln(sigma))/2""",
+    shortDesc = u"""A. Vandeputte""",
     longDesc = 
 u"""
 
