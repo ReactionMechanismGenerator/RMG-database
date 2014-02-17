@@ -26432,7 +26432,7 @@ u"""
 entry(
     index = 314,
     label = "Nd_R",
-    group = "OR{N3d_R, N5d_R}",
+    group = "OR{N3d_R}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -26450,27 +26450,6 @@ entry(
     index = 314,
     label = "Nt_R",
     group = "OR{N3t_R, N5t_R}",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
-entry(
-    index = 315,
-    label = "N5d_R",
-    group = 
-"""
-1 *1 N5d 0 {2,D}
-2 *2 R!H 0 {1,D}
-""",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -27491,7 +27470,7 @@ u"""
 entry(
     index = 395,
     label = "NJ",
-    group = "OR{N5J, N3J}",
+    group = "OR{N3J}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -27847,47 +27826,6 @@ u"""
         ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
     ],
 )
-
-entry(
-    index = 381,
-    label = "N5J",
-    group = 
-"""
-1 *3 {N5d,N5dd} 1
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
-entry(
-    index = 382,
-    label = "N5dJ",
-    group = 
-"""
-1 *3 N5d 1
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
 
 entry(
     index = 383,
@@ -29027,7 +28965,6 @@ L1: R_R
                     L6: N3d-NonDe_N3d
                     L6: N3d-OneDe_N3d
                 L5: N3d_N5d
-        L3: N5d_R
     L2: Nt_R
         L3: N3t_R
             L4: N3t_Ct
@@ -29228,8 +29165,6 @@ L1: YJ
                 L5: N3dJ_C
                 L5: N3dJ_O
                 L5: N3dJ_N
-        L3: N5J
-            L4: N5dJ
     L2: Y_1centerbirad
         L3: O_atom_triplet
         L3: SJJ
