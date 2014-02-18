@@ -528,13 +528,15 @@ HNNO
 4 O 1 {3,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (1.2e+24, 'cm^3/(mol*s)'),
-        n = -4.46,
-        Ea = (10694, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(1.2E+24, 'cm^3/(mol*s)'), n=-4.46, Ea=(10700, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (1.3E+25, 'cm^3/(mol*s)'),n = -4.48,Ea = (10769, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (3.2E+26, 'cm^3/(mol*s)'),n = -4.58,Ea = (11226, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -802,8 +804,15 @@ HNOO
 4 O 1 {3,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(A=(3.5e+23, 'cm^3/(mol*s)'), n=-5, Ea=(2274, 'cal/mol'), T0=(1, 'K')),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(3.5E+23, 'cm^3/(mol*s)'), n=-5.0, Ea=(2275, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (3.7E+24, 'cm^3/(mol*s)'),n = -5.0,Ea = (2295, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (5.4E+25, 'cm^3/(mol*s)'),n = -5.05,Ea = (2454, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1262,13 +1271,15 @@ NH2OH
 5 H 0 {4,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (1.8e+32, 'cm^3/(mol*s)'),
-        n = -6.91,
-        Ea = (4111, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(1.8E+32, 'cm^3/(mol*s)'), n=-6.91, Ea=(4113, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (3.9E+33, 'cm^3/(mol*s)'),n = -7.0,Ea = (4440, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (5.6E+34, 'cm^3/(mol*s)'),n = -7.02,Ea = (5365, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1351,13 +1362,15 @@ N2H4
 6 H 0 {4,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (2e+46, 'cm^3/(mol*s)'),
-        n = -10.93,
-        Ea = (9989, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(2.0E+46, 'cm^3/(mol*s)'), n=-10.93, Ea=(9994, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (5.6E+48, 'cm^3/(mol*s)'),n = -11.30,Ea = (11882, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (3.2E+49, 'cm^3/(mol*s)'),n = -11.18,Ea = (13988, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1401,13 +1414,14 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (2.4e+20, 'cm^3/(mol*s)'),
-        n = -2.91,
-        Ea = (2135, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(2.4E+20, 'cm^3/(mol*s)'), n=-2.91, Ea=(2136, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (1.2E+21, 'cm^3/(mol*s)'),n =-3.08,Ea = (3368, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (2.3E+19, 'cm^3/(mol*s)'),n =-2.54,Ea = (4182, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1451,13 +1465,15 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (920000000000.0, 'cm^3/(mol*s)'),
-        n = -0.01,
-        Ea = (10009, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(9.2E+11, 'cm^3/(mol*s)'), n=-0.01, Ea=(10014, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (1.2E+12, 'cm^3/(mol*s)'),n =-0.03,Ea = (10084, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (4.7E+12, 'cm^3/(mol*s)'),n =-0.2,Ea = (10620, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1641,13 +1657,14 @@ NH2NO
 5 O 0 {4,D}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (1.9e+30, 'cm^3/(mol*s)'),
-        n = -6.67,
-        Ea = (3495, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(1.9E+30, 'cm^3/(mol*s)'), n=-6.67, Ea=(3497, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (3.5E+31, 'cm^3/(mol*s)'),n =-6.75,Ea = (3725, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (1.7E+33, 'cm^3/(mol*s)'),n =-6.92,Ea = (4609, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1745,13 +1762,15 @@ CH3NO
 6 O 0 {5,D}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (3.6e+35, 'cm^3/(mol*s)'),
-        n = -8.25,
-        Ea = (4806, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(3.6E+35, 'cm^3/(mol*s)'), n=-8.25, Ea=(4808, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (1.0E+37, 'cm^3/(mol*s)'),n =-8.38,Ea = (5225, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (4.6E+41, 'cm^3/(mol*s)'),n =-9.39,Ea = (8266, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2037,13 +2056,15 @@ CH3NH2
 7 H 0 {5,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (1.3e+54, 'cm^3/(mol*s)'),
-        n = -12.72,
-        Ea = (15599, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(1.3E+54, 'cm^3/(mol*s)'), n=-12.72, Ea=(15607, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (5.1E+52, 'cm^3/(mol*s)'),n =-11.99,Ea = (16790, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (1.6E+47, 'cm^3/(mol*s)'),n =-10.15,Ea = (15687, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2089,13 +2110,15 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (11000000000000.0, 'cm^3/(mol*s)'),
-        n = -0.13,
-        Ea = (9900, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(1.1E+13, 'cm^3/(mol*s)'), n=-0.13, Ea=(9905, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (1.4E+14, 'cm^3/(mol*s)'),n =-0.43,Ea = (11107, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (7.4E+12, 'cm^3/(mol*s)'),n =0.0,Ea = (12071, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2141,13 +2164,15 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (12000000000000.0, 'cm^3/(mol*s)'),
-        n = -0.15,
-        Ea = (16135, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(1.2E+13, 'cm^3/(mol*s)'), n=-0.15, Ea=(16144, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (4.4E+13, 'cm^3/(mol*s)'),n =-0.31,Ea = (16641, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (1.4E+14, 'cm^3/(mol*s)'),n =-0.42,Ea = (17863, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2193,13 +2218,15 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (2100000000000.0, 'cm^3/(mol*s)'),
-        n = -0.1,
-        Ea = (19084, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(2.1E+11, 'cm^3/(mol*s)'), n=-0.1, Ea=(19095, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (4.8E+11, 'cm^3/(mol*s)'),n =-0.2,Ea = (19403, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (2.9E+12, 'cm^3/(mol*s)'),n =-0.4,Ea = (20506, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2341,13 +2368,15 @@ CH2NN
 5 N 0 {4,D}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (9.3e+30, 'cm^3/(mol*s)'),
-        n = -7.01,
-        Ea = (19730, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(9.3E+30, 'cm^3/(mol*s)'), n=-7.01, Ea=(19740, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (1.6E+32, 'cm^3/(mol*s)'),n =-7.07,Ea = (19969, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (4.3E+33, 'cm^3/(mol*s)'),n =-7.18,Ea = (20863.5, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2671,13 +2700,15 @@ HCNN
 4 N 1 {3,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(
-        A = (2.3e+27, 'cm^3/(mol*s)'),
-        n = -5.78,
-        Ea = (2443, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(2.3E+27, 'cm^3/(mol*s)'), n=-5.78, Ea=(2444, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (3.6E+28, 'cm^3/(mol*s)'),n =-5.84,Ea = (2623, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (1.8E+30, 'cm^3/(mol*s)'),n =-6.02,Ea = (3447.5, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4186,8 +4217,48 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(A=(5.6e+36, 's^-1'), n=-7.75, Ea=(67689, 'cal/mol'), T0=(1, 'K')),
+    duplicate = True,
+	reversible = True,
+    kinetics = MultiPDepArrhenius(
+        arrhenius = [
+            PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(5.6E+36, '1/s'), n=-7.75, Ea=(70250.4, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(
+                        A = (1.8E+40, '1/s'),
+                        n = -8.41,
+                        Ea = (73390, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                    Arrhenius(
+                        A = (3.1E+41, '1/s'),
+                        n = -8.42,
+                        Ea = (76043, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                ],
+            ),
+            PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(
+                        A = (1.6E+37, '1/s'),
+                        n = -7.94,
+                        Ea = (70757, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                    Arrhenius(A=(2.6E+40, '1/s'), n=-8.53, Ea=(72923, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(
+                        A = (1.3E+44, '1/s'),
+                        n = -9.22,
+                        Ea = (77076, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                ],
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4219,8 +4290,15 @@ H2NN
 4 N 2S {3,S}
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(A=(9.2e+38, 's^-1'), n=-9.01, Ea=(1579, 'cal/mol'), T0=(1, 'K')),
+	reversible = True,
+    kinetics = PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(9.2E+38, '1/s'), n=-9.01, Ea=(67726, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(A = (2.0E+41, '1/s'),n =-9.38,Ea = (68452, 'cal/mol'), T0 = (1, 'K'),),
+					Arrhenius(A = (1.3E+45, '1/s'),n =-10.13,Ea = (70757, 'cal/mol'), T0 = (1, 'K'),),
+                ],
+            ),            
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4608,8 +4686,48 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = True,
-    kinetics = Arrhenius(A=(5.9e+32, 's^-1'), n=-6.99, Ea=(50729, 'cal/mol'), T0=(1, 'K')),
+    duplicate = True,
+	reversible = True,
+    kinetics = MultiPDepArrhenius(
+        arrhenius = [
+            PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(A=(5.9E+32, '1/s'), n=-6.99, Ea=(51791.15, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(
+                        A = (9.6E+35, '1/s'),
+                        n = -5.57,
+                        Ea = (54841.2, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                    Arrhenius(
+                        A = (5.0E+36, 'cm^3/(mol*s)'),
+                        n = -7.43,
+                        Ea = (57296, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                ],
+            ),
+            PDepArrhenius(
+                pressures = ([0.1, 1, 10], 'atm'),
+                arrhenius = [
+                    Arrhenius(
+                        A = (7.2E+28, '1/s'),
+                        n = -7.77,
+                        Ea = (50757.9, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                    Arrhenius(A=(3.2E+31, '1/s'), n=-6.22, Ea=(52318, 'cal/mol'), T0=(1, 'K')),
+                    Arrhenius(
+                        A = (5.1E+33, 'cm^3/(mol*s)'),
+                        n = -6.52,
+                        Ea = (54215.3, 'cal/mol'),
+                        T0 = (1, 'K'),
+                    ),
+                ],
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5340,7 +5458,29 @@ H
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(2.3e+43, 's^-1'), n=-9.55, Ea=(64432, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (2.30E+43, 's^-1'),
+                n = -9.55,
+                Ea = (64471, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (3.60E+47, 's^-1'),
+                n = -10.38,
+                Ea = (69012, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.80E+45, 's^-1'),
+                n = -9.39,
+                Ea = (70144, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6052,7 +6192,29 @@ H2
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(4e+44, 's^-1'), n=-9.85, Ea=(71313, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (4.00E+44, 's^-1'),
+                n = -9.85,
+                Ea = (71357, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (5.30E+39, 's^-1'),
+                n = -8.35,
+                Ea = (69310, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.50E+39, 's^-1'),
+                n = -8.19,
+                Ea = (69668, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7342,7 +7504,29 @@ HNOH
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(8.2e+25, 's^-1'), n=-4.94, Ea=(43769, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (8.20E+25, 's^-1'),
+                n = -4.94,
+                Ea = (43796, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.30E+27, 's^-1'),
+                n = -4.99,
+                Ea = (43984, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.60E+28, 's^-1'),
+                n = -5.06,
+                Ea = (44769, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8895,7 +9079,29 @@ HONO
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(7.1e+27, 's^-1'), n=-5.4, Ea=(52507, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (7.10E+27, 's^-1'),
+                n = -5.40,
+                Ea = (52539, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.30E+29, 's^-1'),
+                n = -5.47,
+                Ea = (52817, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.00E+30, 's^-1'),
+                n = -5.50,
+                Ea = (53691, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9163,7 +9369,29 @@ HNC
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(1.5e+23, 's^-1'), n=-4.2, Ea=(49428, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (1.50E+23, 's^-1'),
+                n = -4.20,
+                Ea = (49459, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.90E+24, 's^-1'),
+                n = -4.23,
+                Ea = (49578, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (5.30E+25, 's^-1'),
+                n = -4.34,
+                Ea = (50194, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9338,11 +9566,28 @@ NCHOH
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(
-        A = (1.7e+29, 'cm^3/(mol*s)'),
-        n = -6.31,
-        Ea = (5124, 'cal/mol'),
-        T0 = (1, 'K'),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (1.70E+29, 'cm^3/(mol*s)'),
+                n = -6.31,
+                Ea = (5127, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.80E+30, 'cm^3/(mol*s)'),
+                n = -6.37,
+                Ea = (5345, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.10E+32, 'cm^3/(mol*s)'),
+                n = -6.53,
+                Ea = (6239, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -10179,7 +10424,29 @@ H
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(1.3e+29, 's^-1'), n=-6.03, Ea=(29878, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (1.30E+29, 's^-1'),
+                n = -6.03,
+                Ea = (29896, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (6.00E+31, 's^-1'),
+                n = -6.46,
+                Ea = (32111, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (3.50E+29, 's^-1'),
+                n = -5.46,
+                Ea = (32549, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10474,11 +10741,28 @@ H2O
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(
-        A = (2.1e+17, 'cm^3/(mol*s)'),
-        n = -1.68,
-        Ea = (318, 'cal/mol'),
-        T0 = (1, 'K'),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (2.10E+17, 'cm^3/(mol*s)'),
+                n = -1.68,
+                Ea = (318, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.50E+19, 'cm^3/(mol*s)'),
+                n = -2.18,
+                Ea = (2166, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (9.50E+21, 'cm^3/(mol*s)'),
+                n = -2.91,
+                Ea = (5633, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -10808,7 +11092,29 @@ H
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(7.7e+25, 's^-1'), n=-5.2, Ea=(21974, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (7.70E+25, 's^-1'),
+                n = -5.20,
+                Ea = (21987, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (6.10E+28, 's^-1'),
+                n = -5.69,
+                Ea = (24272, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (6.20E+26, 's^-1'),
+                n = -4.77,
+                Ea = (24819, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11793,7 +12099,29 @@ H
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(1.6e+36, 's^-1'), n=-7.92, Ea=(36322, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (1.60E+36, 's^-1'),
+                n = -7.92,
+                Ea = (36344, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.30E+42, 's^-1'),
+                n = -9.24,
+                Ea = (41341, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.30E+44, 's^-1'),
+                n = -9.51,
+                Ea = (45246, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12050,7 +12378,29 @@ H
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(1.1e+45, 's^-1'), n=-10.24, Ea=(47790, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (1.10E+45, 's^-1'),
+                n = -10.24,
+                Ea = (47819, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.40E+48, 's^-1'),
+                n = -10.82,
+                Ea = (52042, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (3.20E+46, 's^-1'),
+                n = -9.95,
+                Ea = (53532, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13941,7 +14291,29 @@ O
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(2e+30, 's^-1'), n=-6.03, Ea=(60698, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (2.00E+30, 's^-1'),
+                n = -6.03,
+                Ea = (60736, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (4.20E+31, 's^-1'),
+                n = -6.12,
+                Ea = (61212, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (5.90E+31, 's^-1'),
+                n = -5.85,
+                Ea = (61938, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14931,7 +15303,29 @@ H
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(6.9e+41, 's^-1'), n=-9.3, Ea=(51673, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (6.90E+41, 's^-1'),
+                n = -9.30,
+                Ea = (51704, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.30E+42, 's^-1'),
+                n = -9.11,
+                Ea = (53840, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.70E+38, 's^-1'),
+                n = -7.64,
+                Ea = (53582, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -16237,7 +16631,29 @@ CH2O
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(3.5e+17, 's^-1'), n=-2.86, Ea=(8877, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (3.50E+17, 's^-1'),
+                n = -2.86,
+                Ea = (8882, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.10E+19, 's^-1'),
+                n = -3.07,
+                Ea = (9538, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.80E+21, 's^-1'),
+                n = -3.32,
+                Ea = (10859, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -16878,7 +17294,29 @@ H2O
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(4.1e+33, 's^-1'), n=-7.18, Ea=(35150, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (4.10E+33, 's^-1'),
+                n = -7.78,
+                Ea = (35172, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (3.10E+34, 's^-1'),
+                n = -7.11,
+                Ea = (36284, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.90E+31, 's^-1'),
+                n = -5.91,
+                Ea = (36175, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17225,7 +17663,29 @@ HNO
 """,
     degeneracy = 1,
     reversible = True,
-    kinetics = Arrhenius(A=(2.7e+39, 's^-1'), n=-8.74, Ea=(41594, 'cal/mol'), T0=(1, 'K')),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (2.70E+39, 's^-1'),
+                n = -8.74,
+                Ea = (41620, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.40E+40, 's^-1'),
+                n = -8.73,
+                Ea = (41610, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (1.20E+41, 's^-1'),
+                n = -8.64,
+                Ea = (41580, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
