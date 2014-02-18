@@ -3954,42 +3954,6 @@ u"""
 )
 
 entry(
-    index = 126,
-    label = "CH3CHJSC2H5",
-    molecule = 
-"""
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 1 0 {1,S} {3,S} {9,S}
-3  S 0 2 {2,S} {4,S}
-4  C 0 0 {3,S} {5,S} {10,S} {11,S}
-5  C 0 0 {4,S} {12,S} {13,S} {14,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {5,S}
-13 H 0 0 {5,S}
-14 H 0 0 {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([27.9,33.61,38.72,43.08,50,55.25,63.58],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (20.7,'kcal/mol','+|-',1),
-        S298 = (90.99,'cal/(mol*K)','+|-',1),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 127,
     label = "CH2OHSH",
     molecule = 

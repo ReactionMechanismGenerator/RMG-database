@@ -423,10 +423,14 @@ def LeaveOneOut(FullDatabase, trialDir):
 
 if __name__ == '__main__':
     FullDatabase=RMGDatabase()
-#     path='C:\RMG-database\input'
-    path='C:\RMG-database_NIST\input'
-    FullDatabase.load(path)
-    trialDir=r'C:\Users\User1\Dropbox\Research\RMG\kinetics\LeaveOneOut\test'
+    ThermoDatabase=ThermoDatabase()
+    path=r'C:\RMG-database\input\thermo'
+    ThermoDatabase.load(path)
+#     ThermoDatabase.save(path)
+#     path='C:\RMG-database_NIST\input'
+#     FullDatabase.load(thermoLibraries=)
+#     FullDatabase.load(path)
+#     trialDir=r'C:\Users\User1\Dropbox\Research\RMG\kinetics\LeaveOneOut\test'
     
 #     family=FullDatabase.kinetics.families['Disproportionation']
 #     entryKey='Y_1centerbirad;O_Cdrad'
@@ -438,6 +442,6 @@ if __name__ == '__main__':
     
 #     NISTExact(FullDatabase, trialDir)
 #     countNodesAll(NISTDatabase, trialDir)
-    consistencyTest(FullDatabase)
+#     consistencyTest(FullDatabase)
 #     LeaveOneOut(FullDatabase, trialDir)
     
