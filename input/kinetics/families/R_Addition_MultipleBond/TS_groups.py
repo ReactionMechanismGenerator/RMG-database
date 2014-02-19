@@ -7244,7 +7244,7 @@ entry(
 """
 1 *3 R {2S,2T}
 """,
-    kinetics = {},
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
