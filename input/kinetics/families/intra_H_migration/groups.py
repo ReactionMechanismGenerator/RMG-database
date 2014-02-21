@@ -5969,11 +5969,10 @@ entry(
     label = "Cs_H_out_H/2NonDeC",
     group = 
 """
-1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} 
 2 *3 H  0 {1,S}
-3 *4 Cs 0 {1,S}
+3    Cs 0 {1,S}
 4    Cs 0 {1,S}
-5    H  0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -6942,9 +6941,9 @@ L1: XH_out
         L3: Cs_H_out_1H
             L4: Cs_H_out_H/NonDeC
                 L5: Cs_H_out_H/(NonDeC/Cs)
-                L5: Cs_H_out_H/2NonDeC
                     L6: Cs_H_out_H/(NonDeC/Cs/Cs)
                         L7: Cs_H_out_H/(NonDeC/Cs/Cs/Cs)
+                L5: Cs_H_out_H/2NonDeC
                 L5: Cs_H_out_H/(NonDeC/O)
             L4: Cs_H_out_H/NonDeO
                 L5: Cs_H_out_OOH/H
