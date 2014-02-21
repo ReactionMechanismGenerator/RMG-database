@@ -426,7 +426,8 @@ if __name__ == '__main__':
     ThermoDatabase=ThermoDatabase()
     path=r'C:\RMG-database\input\thermo'
     ThermoDatabase.load(path)
-#     ThermoDatabase.save(path)
+#     ThermoDatabase.save(r'C:\RMG-database\input\thermo_test')
+    ThermoDatabase.save(path)
 #     path='C:\RMG-database_NIST\input'
 #     FullDatabase.load(thermoLibraries=)
 #     FullDatabase.load(path)
