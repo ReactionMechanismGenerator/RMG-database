@@ -493,6 +493,31 @@ u"""
 )
 
 entry(
+    index = 1839,
+    label = "Cb-(CtN3t)",
+    group = 
+"""
+1 * Cb  0 {2,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.8,11.2,12.3,13.1,14.2,14.9,16.65],'cal/(mol*K)'),
+        H298 = (35.8,'kcal/mol'),
+        S298 = (20.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 19,
     label = "Cb-Cb",
     group = 
@@ -517,6 +542,32 @@ u"""
 )
 
 entry(
+    index = 1821,
+    label = "Cb-CbCbN3s",
+    group = 
+"""
+1 * Cb  0 {2,B} {3,B} {4,S}
+2   Cb  0 {1,B}
+3   Cb  0 {1,B}
+4   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.95,5.21,5.94,6.32,6.53,6.56,6.635],'cal/(mol*K)'),
+        H298 = (-0.5,'kcal/mol'),
+        S298 = (-9.69,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 20,
     label = "Ct",
     group = 
@@ -531,6 +582,51 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1849,
+    label = "Ct-CtN3s",
+    group = 
+"""
+1 * Ct  0 {2,T} {3,S}
+2   Ct  0 {1,T}
+3   N3s 0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1853,
+    label = "Ct-N3tN3s",
+    group = 
+"""
+1 * Ct  0 {2,T} {3,S}
+2   N3t 0 {1,T}
+3   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -585,6 +681,31 @@ u"""
 )
 
 entry(
+    index = 1852,
+    label = "Ct-N3tOs",
+    group = 
+"""
+1 * Ct  0 {2,T} {3,S}
+2   N3t 0 {1,T}
+3   Os  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 1195,
     label = "Ct-CtSs",
     group = 
@@ -606,6 +727,81 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1942,
+    label = "Ct-N3tC",
+    group = 
+"""
+1 * Ct  0 {2,T} {3,S}
+2   N3t 0 {1,T}
+3   C   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1850,
+    label = "Ct-N3tCs",
+    group = 
+"""
+1 * Ct  0 {2,T} {3,S}
+2   N3t 0 {1,T}
+3   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1851,
+    label = "Ct-N3tCd",
+    group = 
+"""
+1 * Ct  0 {2,T} {3,S}
+2   N3t 0 {1,T}
+3   Cd  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -879,6 +1075,32 @@ u"""
 )
 
 entry(
+    index = 1840,
+    label = "Ct-Ct(CtN3t)",
+    group = 
+"""
+1 * Ct  0 {2,T} {3,S}
+2   Ct  0 {1,T}
+3   Ct  0 {1,S} {4,T}
+4   N3t 0 {3,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3,11.3,12.1,12.7,13.6,14.3,15.3],'cal/(mol*K)'),
+        H298 = (63.8,'kcal/mol'),
+        S298 = (35.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 33,
     label = "Ct-CtCb",
     group = 
@@ -918,6 +1140,31 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1854,
+    label = "Cdd-N3dCd",
+    group = 
+"""
+1 * Cdd 0 {2,D} {3,D}
+2   N3d 0 {1,D}
+3   Cd  0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.5,5.1,5.6,6,6.5,6.9,7.4],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
+        H298 = (25.9,'kcal/mol','+|-',1.5),
+        S298 = (19.7,'cal/(mol*K)','+|-',1.4),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1458,6 +1705,136 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1823,
+    label = "Cds-OdN3sH",
+    group = 
+"""
+1 * {Cd,CO} 0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   N3s     0 {1,S}
+4   H       0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.03,7.87,8.82,9.68,11.16,12.2,14.8],'cal/(mol*K)'),
+        H298 = (-29.6,'kcal/mol'),
+        S298 = (34.93,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1824,
+    label = "Cds-OdN3sCs",
+    group = 
+"""
+1 * {Cd,CO} 0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   N3s     0 {1,S}
+4   Cs      0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.37,6.17,7.07,7.66,9.62,11.19,15.115],'cal/(mol*K)'),
+        H298 = (-32.8,'kcal/mol'),
+        S298 = (16.2,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1855,
+    label = "Cd-N3dCsCs",
+    group = 
+"""
+1 * Cd  0 {2,D} {3,S} {4,S}
+2   N3d 0 {1,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.5,4.2,5,5.6,6.6,7.2,7.9],'cal/(mol*K)','+|-',[0.9,0.9,0.9,0.9,0.9,0.9,0.9]),
+        H298 = (5.7,'kcal/mol','+|-',1.2),
+        S298 = (2,'cal/(mol*K)','+|-',1.1),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1856,
+    label = "Cd-N3dCsH",
+    group = 
+"""
+1 * Cd  0 {2,D} {3,S} {4,S}
+2   N3d 0 {1,D}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.5,6.3,7.2,8,9.3,10.2,11.6],'cal/(mol*K)','+|-',[0.9,0.9,0.9,0.9,0.9,0.9,0.9]),
+        H298 = (3.3,'kcal/mol','+|-',1.3),
+        S298 = (21.2,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1857,
+    label = "Cd-N3dHH",
+    group = 
+"""
+1 * Cd  0 {2,D} {3,S} {4,S}
+2   N3d 0 {1,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.2,7.4,8.7,9.8,11.5,12.9,15],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (4.4,'kcal/mol','+|-',1.4),
+        S298 = (40.8,'cal/(mol*K)','+|-',1.3),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5604,6 +5981,33 @@ u"""
 )
 
 entry(
+    index = 1836,
+    label = "Cds-CdsH(CtN3t)",
+    group = 
+"""
+1 * Cd  0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   H   0 {1,S}
+4   Ct  0 {1,S} {5,T}
+5   N3t 0 {4,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3,12,13.4,14.6,16.3,17.5,19.4],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (38.5,'kcal/mol','+|-',1.3),
+        S298 = (37.6,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 145,
     label = "Cds-CdsCbH",
     group = 
@@ -8710,6 +9114,35 @@ u"""
 )
 
 entry(
+    index = 1858,
+    label = "Cd-CdCs(CtN3t)",
+    group = 
+"""
+1 * Cd  0 {2,D} {5,S} {6,S}
+2   Cd  0 {1,D} {3,S} {4,S}
+3   R   0 {2,S}
+4   R   0 {2,S}
+5   Cs  0 {1,S}
+6   Ct  0 {1,S} {7,T}
+7   N3t 0 {6,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.2,10.6,11.7,12.5,13.8,14.7,15.9],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (40.2,'kcal/mol','+|-',1.3),
+        S298 = (17.9,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 226,
     label = "Cds-CdsCtCds",
     group = 
@@ -8935,6 +9368,34 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1837,
+    label = "Cds-Cd(CtN3t)(CtN3t)",
+    group = 
+"""
+1 * Cd  0 {2,S} {4,S} {6,D}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   Ct  0 {1,S} {5,T}
+5   N3t 0 {4,T}
+6   Cd  0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (84.1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12396,6 +12857,174 @@ u"""
 )
 
 entry(
+    index = 1923,
+    label = "Cds-CNH",
+    group = 
+"""
+1 * Cd 0 {2,D} {3,S} {4,S}
+2   C  0 {1,D}
+3   N  0 {1,S}
+4   H  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1860,
+    label = "Cd-CdHN3s",
+    group = 
+"""
+1 * Cd  0 {2,D} {5,S} {6,S}
+2   Cd  0 {1,D} {3,S} {4,S}
+3   R   0 {2,S}
+4   R   0 {2,S}
+5   H   0 {1,S}
+6   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.7,6,7,7.7,8.8,9.5,10.6],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (2.2,'kcal/mol','+|-',1.4),
+        S298 = (7.1,'cal/(mol*K)','+|-',1.3),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1838,
+    label = "Cd-CdH(N5dOdOs)",
+    group = 
+"""
+1 * Cd  0 {2,D} {5,S} {8,S}
+2   Cd  0 {1,D} {3,S} {4,S}
+3   R   0 {2,S}
+4   R   0 {2,S}
+5   N5d 0 {1,S} {6,D} {7,S}
+6   Od  0 {5,D}
+7   Os  0 {5,S}
+8   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.7,15.4,17.6,19.3,21.7,23.1,25],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (2,'kcal/mol','+|-',1.3),
+        S298 = (44.3,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1924,
+    label = "Cds-CCN",
+    group = 
+"""
+1 * Cd 0 {2,D} {3,S} {4,S}
+2   C  0 {1,D}
+3   C  0 {1,S}
+4   N  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1859,
+    label = "Cd-CdCsN3s",
+    group = 
+"""
+1 * Cd  0 {2,D} {5,S} {6,S}
+2   Cd  0 {1,D} {3,S} {4,S}
+3   R   0 {2,S}
+4   R   0 {2,S}
+5   Cs  0 {1,S}
+6   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.8,5,5.9,6.4,6.9,7.1,7.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (3.5,'kcal/mol','+|-',1.4),
+        S298 = (-14.1,'cal/(mol*K)','+|-',1.3),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1861,
+    label = "Cd-CdCs(N5dOdOs)",
+    group = 
+"""
+1 * Cd  0 {2,D} {5,S} {8,S}
+2   Cd  0 {1,D} {3,S} {4,S}
+3   R   0 {2,S}
+4   R   0 {2,S}
+5   N5d 0 {1,S} {6,D} {7,S}
+6   Od  0 {5,D}
+7   Os  0 {5,S}
+8   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.1,14.3,16.1,17.5,19.3,20.3,21.4],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (2.3,'kcal/mol','+|-',1.3),
+        S298 = (24,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 329,
     label = "Cs",
     group = 
@@ -12410,6 +13039,835 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1919,
+    label = "Cs-NHHH",
+    group = 
+"""
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   N  0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1800,
+    label = "Cs-N3sHHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3s 0 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.19,7.84,9.4,10.79,13.02,14.77,17.58],'cal/(mol*K)'),
+        H298 = (-10.08,'kcal/mol'),
+        S298 = (30.41,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1920,
+    label = "Cs-N3dHHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3d 0 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1870,
+    label = "Cs-(N3dCd)HHH",
+    group = 
+"""
+1 * Cs       0 {2,S} {4,S} {5,S} {6,S}
+2   N3d      0 {1,S} {3,D}
+3   {Cd,Cdd} 0 {2,D}
+4   H        0 {1,S}
+5   H        0 {1,S}
+6   H        0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6,7.7,9.3,10.7,13.1,14.8,17.7],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (-5.7,'kcal/mol','+|-',1.3),
+        S298 = (30.4,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1801,
+    label = "Cs-(N3dN3d)HHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,D}
+3   N3d 0 {2,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6,7.8,9.4,10.8,13.1,14.8,17.6],'cal/(mol*K)','+|-',[0.6,0.6,0.6,0.6,0.6,0.6,0.6]),
+        H298 = (-9,'kcal/mol','+|-',0.8),
+        S298 = (30.2,'cal/(mol*K)','+|-',0.8),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1921,
+    label = "Cs-NCsHH",
+    group = 
+"""
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   N  0 {1,S}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1802,
+    label = "Cs-N3sCsHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3s 0 {1,S}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.25,6.9,8.28,9.39,11.09,12.34,14.8],'cal/(mol*K)'),
+        H298 = (-6.6,'kcal/mol'),
+        S298 = (9.8,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1925,
+    label = "Cs-N3dCHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3d 0 {1,S}
+3   C   0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1805,
+    label = "Cs-(N3dN3d)CsHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,D}
+3   N3d 0 {2,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.3,6.9,8.3,9.4,11.1,12.3,14.2],'cal/(mol*K)','+|-',[0.6,0.6,0.6,0.6,0.6,0.6,0.6]),
+        H298 = (-5.5,'kcal/mol','+|-',0.8),
+        S298 = (9.4,'cal/(mol*K)','+|-',0.8),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1869,
+    label = "Cs-(N3dOd)CHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,D}
+3   Od  0 {2,D}
+4   C   0 {1,S}
+5   H   0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.8,13.6,15.2,16.7,18.9,20.5,23],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (21.4,'kcal/mol','+|-',1.3),
+        S298 = (44.3,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1871,
+    label = "Cs-(N3dCd)CsHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,D}
+3   Cd  0 {2,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.3,7.2,8.7,9.8,11.6,12.8,14.7],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
+        H298 = (-2.9,'kcal/mol','+|-',1.7),
+        S298 = (8.6,'cal/(mol*K)','+|-',1.6),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1926,
+    label = "Cs-N5dCsHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N5d 0 {1,S}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1841,
+    label = "Cs-(N5dOdOs)CsHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
+2   N5d 0 {1,S} {3,D} {4,S}
+3   Od  0 {2,D}
+4   Os  0 {2,S}
+5   Cs  0 {1,S}
+6   H   0 {1,S}
+7   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.9,15.8,18.3,20.3,23.3,25.4,28.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (-14.8,'kcal/mol','+|-',1.3),
+        S298 = (48.9,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1927,
+    label = "Cs-NCsCsH",
+    group = 
+"""
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   N  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1803,
+    label = "Cs-N3sCsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3s 0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.67,6.32,7.64,8.39,9.56,10.23,11.905],'cal/(mol*K)'),
+        H298 = (-5.2,'kcal/mol'),
+        S298 = (-11.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1928,
+    label = "Cs-N3dCsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3d 0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1806,
+    label = "Cs-(N3dN3d)CsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,S}
+3   N3d 0 {2,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-3.3,'kcal/mol'),
+        S298 = (-11.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1868,
+    label = "Cs-(N3dOd)CsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,D}
+3   Od  0 {2,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.2,12.7,14,15.1,16.8,17.9,19.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (23.4,'kcal/mol','+|-',1.3),
+        S298 = (23.1,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1929,
+    label = "Cs-N5dCsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N5d 0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1842,
+    label = "Cs-(N5dOdOs)CsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
+2   N5d 0 {1,S} {3,D} {4,S}
+3   Od  0 {2,D}
+4   Os  0 {2,S}
+5   Cs  0 {1,S}
+6   Cs  0 {1,S}
+7   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.6,16.1,18.1,19.6,21.8,23.2,25.1],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (-13.9,'kcal/mol','+|-',1.3),
+        S298 = (27.5,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1930,
+    label = "Cs-NCsCsCs",
+    group = 
+"""
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   N  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1804,
+    label = "Cs-N3sCsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3s 0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.35,6.16,7.31,7.91,8.49,8.5,8.525],'cal/(mol*K)'),
+        H298 = (-3.2,'kcal/mol'),
+        S298 = (-34.1,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1931,
+    label = "Cs-N3dCsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N3d 0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1807,
+    label = "Cs-(N3dN3d)CsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,S}
+3   N3d 0 {2,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-1.9,'kcal/mol'),
+        S298 = (-34.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1867,
+    label = "Cs-(N3dOd)CsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   N3d 0 {1,S} {3,D}
+3   Od  0 {2,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2,13.3,14,14.5,15.3,15.7,16.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (24.1,'kcal/mol','+|-',1.3),
+        S298 = (1.2,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1932,
+    label = "Cs-N5dCsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N5d 0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1843,
+    label = "Cs-(N5dOdOs)CsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
+2   N5d 0 {1,S} {3,D} {4,S}
+3   Od  0 {2,D}
+4   Os  0 {2,S}
+5   Cs  0 {1,S}
+6   Cs  0 {1,S}
+7   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.5,16,17.8,18.9,20.3,21.1,21.9],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (-12.7,'kcal/mol','+|-',1.3),
+        S298 = (5.2,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1933,
+    label = "Cs-NNCsH",
+    group = 
+"""
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   N  0 {1,S}
+3   N  0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1934,
+    label = "Cs-N5dN5dCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   N5d 0 {1,S}
+3   N5d 0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1846,
+    label = "Cs-(N5dOdOs)(N5dOdOs)CsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {5,S} {8,S} {9,S}
+2   N5d 0 {1,S} {3,D} {4,S}
+3   Od  0 {2,D}
+4   Os  0 {2,S}
+5   N5d 0 {1,S} {6,D} {7,S}
+6   Od  0 {5,D}
+7   Os  0 {5,S}
+8   Cs  0 {1,S}
+9   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-14.9,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12557,6 +14015,34 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1862,
+    label = "Cs-(CdN3d)HHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   H   0 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   Cd  0 {1,S} {6,D}
+6   N3d 0 {5,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.2,7.8,9.4,10.8,13,14.8,17.6],'cal/(mol*K)'),
+        H298 = (-10.2,'kcal/mol'),
+        S298 = (30.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12740,6 +14226,34 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1863,
+    label = "Cs-(CtN3t)HHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.5,14.6,16.6,18.3,21.1,23.4,26.9],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
+        H298 = (17.7,'kcal/mol','+|-',1.9),
+        S298 = (60.2,'cal/(mol*K)','+|-',1.7),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13231,6 +14745,35 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1864,
+    label = "Cs-(CdN3d)CsHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
+2   Cd  0 {1,S} {3,D} {4,S}
+3   N3d 0 {2,D}
+4   R   0 {2,S}
+5   Cs  0 {1,S}
+6   H   0 {1,S}
+7   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.5,6.9,8.1,9.2,10.9,12.2,14.1],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
+        H298 = (-5.1,'kcal/mol','+|-',1.7),
+        S298 = (10.1,'cal/(mol*K)','+|-',1.6),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13910,6 +15453,34 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1832,
+    label = "Cs-(CtN3t)CsHH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.3,13.5,15.3,16.8,19.2,20.9,23.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (22.9,'kcal/mol','+|-',1.3),
+        S298 = (39.8,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14709,6 +16280,35 @@ u"""
 )
 
 entry(
+    index = 1865,
+    label = "Cs-(CdN3d)CsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
+2   Cd  0 {1,S} {3,D} {4,S}
+3   N3d 0 {2,D}
+4   R   0 {2,S}
+5   Cs  0 {1,S}
+6   Cs  0 {1,S}
+7   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5,6.5,7.5,8.2,9.3,9.9,10.9],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
+        H298 = (-1.6,'kcal/mol','+|-',1.7),
+        S298 = (-11.2,'cal/(mol*K)','+|-',1.6),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 1178,
     label = "Cs-C=SCsCsH",
     group = 
@@ -14760,6 +16360,34 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1833,
+    label = "Cs-(CtN3t)CsCsH",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11,12.7,14.1,15.4,17.3,18.6,21.85],'cal/(mol*K)'),
+        H298 = (25.8,'kcal/mol'),
+        S298 = (19.8,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19353,6 +20981,35 @@ u"""
 )
 
 entry(
+    index = 1866,
+    label = "Cs-(CdN3d)CsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
+2   Cd  0 {1,S} {3,D} {4,S}
+3   N3d 0 {2,D}
+4   R   0 {2,S}
+5   Cs  0 {1,S}
+6   Cs  0 {1,S}
+7   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.3,6.6,7.3,7.5,7.8,7.8,7.7],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
+        H298 = (0.6,'kcal/mol','+|-',1.7),
+        S298 = (-33.5,'cal/(mol*K)','+|-',1.6),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 1179,
     label = "Cs-C=SCsCsCs",
     group = 
@@ -19404,6 +21061,34 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1834,
+    label = "Cs-(CtN3t)CsCsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.4,13.4,14.6,15.3,16.3,16.7,17.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (28.3,'kcal/mol','+|-',1.3),
+        S298 = (-3,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20496,6 +22181,35 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1835,
+    label = "Cs-(CtN3t)(CtN3t)CsCs",
+    group = 
+"""
+1 * Cs  0 {2,S} {4,S} {6,S} {7,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   Ct  0 {1,S} {5,T}
+5   N3t 0 {4,T}
+6   Cs  0 {1,S}
+7   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (28.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -43824,6 +45538,54 @@ u"""
 )
 
 entry(
+    index = 1943,
+    label = "Od-N3d",
+    group = 
+"""
+1 * Od  0 {2,D}
+2   N3d 0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1944,
+    label = "Od-N5d",
+    group = 
+"""
+1 * Od  0 {2,D}
+2   N5d 0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 1097,
     label = "Os",
     group = 
@@ -43838,6 +45600,462 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1945,
+    label = "Os-N",
+    group = 
+"""
+1 * Os 0 {2,S}
+2   N  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1935,
+    label = "Os-CN",
+    group = 
+"""
+1 * Os 0 {2,S} {3,S}
+2   C  0 {1,S}
+3   N  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1874,
+    label = "Os-CsN3s",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   N3s 0 {1,S}
+3   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.5,3.6,4,4.3,4.7,4.8,4.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (-9.2,'kcal/mol','+|-',1.3),
+        S298 = (7.2,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1875,
+    label = "Os-CsN3d",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   Cs  0 {1,S}
+3   N3d 0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1847,
+    label = "Os-Cs(N3dOd)",
+    group = 
+"""
+1 * Os  0 {2,S} {4,S}
+2   N3d 0 {1,S} {3,D}
+3   Od  0 {2,D}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.6,11.3,11.9,12.6,13.6,14.3,14.8],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
+        H298 = (-4.8,'kcal/mol','+|-',1.1),
+        S298 = (40,'cal/(mol*K)','+|-',1),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1877,
+    label = "Os-CdN3d",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   Cd  0 {1,S}
+3   N3d 0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1878,
+    label = "Os-(Cd-Cd)(N3dOd)",
+    group = 
+"""
+1 * Os  0 {2,S} {4,S}
+2   N3d 0 {1,S} {3,D}
+3   Od  0 {2,D}
+4   Cd  0 {1,S} {5,D} {6,S}
+5   Cd  0 {4,D}
+6   R   0 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.1,11.7,12.2,12.7,13.5,14.1,14.9],'cal/(mol*K)','+|-',[0.7,0.7,0.7,0.7,0.7,0.7,0.7]),
+        H298 = (-5.3,'kcal/mol','+|-',0.9),
+        S298 = (39.5,'cal/(mol*K)','+|-',0.9),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1876,
+    label = "Os-CsN5d",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   Cs  0 {1,S}
+3   N5d 0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1848,
+    label = "Os-Cs(N5dOdOs)",
+    group = 
+"""
+1 * Os  0 {2,S} {5,S}
+2   N5d 0 {1,S} {3,D} {4,S}
+3   Od  0 {2,D}
+4   Os  0 {2,S}
+5   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2,13.9,15.4,16.6,18.4,19.3,19.9],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
+        H298 = (-19.1,'kcal/mol','+|-',1.1),
+        S298 = (45.3,'cal/(mol*K)','+|-',1),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1879,
+    label = "Os-CdN5d",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   Cd  0 {1,S}
+3   N5d 0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1880,
+    label = "Os-(Cd-CdHH)(N5dOdOs)",
+    group = 
+"""
+1 * Os  0 {2,S} {5,S}
+2   N5d 0 {1,S} {3,D} {4,S}
+3   Od  0 {2,D}
+4   Os  0 {2,S}
+5   Cd  0 {1,S} {6,D} {7,S}
+6   Cd  0 {5,D}
+7   R   0 {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.4,14.2,15.7,16.9,18.5,19.3,20.1],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
+        H298 = (-18.4,'kcal/mol','+|-',1.1),
+        S298 = (45.4,'cal/(mol*K)','+|-',1),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1936,
+    label = "Os-ON",
+    group = 
+"""
+1 * Os 0 {2,S} {3,S}
+2   O  0 {1,S}
+3   N  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1881,
+    label = "Os-OsN3s",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   N3s 0 {1,S}
+3   Os  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.3,4.9,5.6,6.3,7,7.1,6.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (5.3,'kcal/mol','+|-',1.3),
+        S298 = (6.9,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1882,
+    label = "Os-OsN3d",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   Os  0 {1,S}
+3   N3d 0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1883,
+    label = "Os-Os(N3dOd)",
+    group = 
+"""
+1 * Os  0 {2,S} {4,S}
+2   N3d 0 {1,S} {3,D}
+3   Od  0 {2,D}
+4   Os  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.7,12.9,13.6,14.2,15,15.5,16],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (15.2,'kcal/mol','+|-',1.3),
+        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1937,
+    label = "Os-NN",
+    group = 
+"""
+1 * Os 0 {2,S} {3,S}
+2   N  0 {1,S}
+3   N  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1884,
+    label = "Os-N3sN3s",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   N3s 0 {1,S}
+3   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.8,4.6,5.1,5.2,5.2,4.9,4.3],'cal/(mol*K)','+|-',[1.6,1.6,1.6,1.6,1.6,1.6,1.6]),
+        H298 = (5.7,'kcal/mol','+|-',2.2),
+        S298 = (6.8,'cal/(mol*K)','+|-',2.1),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1885,
+    label = "Os-N3sN3d",
+    group = 
+"""
+1 * Os  0 {2,S} {3,S}
+2   N3s 0 {1,S}
+3   N3d 0 {1,S}
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1886,
+    label = "Os-N3s(N3dOd)",
+    group = 
+"""
+1 * Os  0 {2,S} {4,S}
+2   N3d 0 {1,S} {3,D}
+3   Od  0 {2,D}
+4   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.2,11.5,12.4,13,13.9,14.3,14.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (10.8,'kcal/mol','+|-',1.3),
+        S298 = (40.8,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -44385,6 +46603,32 @@ u"""
 """,
     history = [
         ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1873,
+    label = "Os-Cs(CtN3t)",
+    group = 
+"""
+1 * Os  0 {2,S} {4,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.1,9.8,10.6,11.2,12.3,13,13.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (10,'kcal/mol','+|-',1.3),
+        S298 = (39.1,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -45618,223 +47862,84 @@ u"""
 )
 
 entry(
-    index = 1800,
-    label = "Cs-N3sHHH",
+    index = 1887,
+    label = "N",
     group = 
 """
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3s 0 {1,S}
+1 * {N2d,N3s,N3d,N3t,N5s,N5d,N5dd,N5t} 0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1922,
+    label = "N2d",
+    group = 
+"""
+1 * N2d 0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1888,
+    label = "N3s",
+    group = 
+"""
+1 * N3s 0
+""",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1938,
+    label = "N3s-CHH",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   C   0 {1,S}
 3   H   0 {1,S}
 4   H   0 {1,S}
-5   H   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.19,7.84,9.40,10.79,13.02,14.77,17.58],'cal/(mol*K)'),
-        H298 = (-10.08,'kcal/mol'),
-        S298 = (30.41,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1801,
-    label = "Cs-(N3dN3d)HHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,D}
-3   N3d 0 {2,D}
-4   H   0 {1,S}
-5   H   0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6,7.8,9.4,10.8,13.1,14.8,17.6],'cal/(mol*K)','+|-',[0.6,0.6,0.6,0.6,0.6,0.6,0.6]),
-        H298 = (-9,'kcal/mol','+|-',0.8),
-        S298 = (30.2,'cal/(mol*K)','+|-',0.8),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-
-
-
-
-
-
-
-
-
-entry(
-    index = 1802,
-    label = "Cs-N3sCsHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3s 0 {1,S}
-3   Cs  0 {1,S}
-4   H   0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.25,6.90,8.28,9.39,11.09,12.34,14.8],'cal/(mol*K)'),
-        H298 = (-6.6,'kcal/mol'),
-        S298 = (9.8,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1803,
-    label = "Cs-N3sCsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3s 0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.67,6.32,7.64,8.39,9.56,10.23,11.905],'cal/(mol*K)'),
-        H298 = (-5.2,'kcal/mol'),
-        S298 = (-11.7,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1804,
-    label = "Cs-N3sCsCsCs",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3s 0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.35,6.16,7.31,7.91,8.49,8.5,8.525],'cal/(mol*K)'),
-        H298 = (-3.2,'kcal/mol'),
-        S298 = (-34.1,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1805,
-    label = "Cs-(N3dN3d)CsHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,D}
-3   N3d 0 {2,D}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.3,6.9,8.3,9.4,11.1,12.3,14.2],'cal/(mol*K)','+|-',[0.6,0.6,0.6,0.6,0.6,0.6,0.6]),
-        H298 = (-5.5,'kcal/mol','+|-',0.8),
-        S298 = (9.4,'cal/(mol*K)','+|-',0.8),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1806,
-    label = "Cs-(N3dN3d)CsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,S}
-3   N3d 0 {2,S}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
-        H298 = (-3.3,'kcal/mol'),
-        S298 = (-11.7,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1807,
-    label = "Cs-(N3dN3d)CsCsCs",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,S}
-3   N3d 0 {2,S}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-6   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
-        H298 = (-1.9,'kcal/mol'),
-        S298 = (-34.7,'cal/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45873,187 +47978,6 @@ u"""
 )
 
 entry(
-    index = 1809,
-    label = "N3s-CsCsH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
-3   Cs  0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.20,5.21,6.13,6.83,7.90,8.65,9.55],'cal/(mol*K)'),
-        H298 = (15.4,'kcal/mol'),
-        S298 = (8.94,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1810,
-    label = "N3s-CsCsCs",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.48,4.56,5.43,5.97,6.56,6.67,6.50],'cal/(mol*K)'),
-        H298 = (24.4,'kcal/mol'),
-        S298 = (-13.46,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1811,
-    label = "N3s-N3sHH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   H   0 {1,S}
-3   H   0 {1,S}
-4   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.10,7.38,8.43,9.27,10.54,11.52,13.19],'cal/(mol*K)'),
-        H298 = (11.4,'kcal/mol'),
-        S298 = (29.13,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1812,
-    label = "N3s-N3sCsH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
-3   H   0 {1,S}
-4   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.82,5.8,6.5,7.0,7.8,8.3,9.0],'cal/(mol*K)'),
-        H298 = (20.9,'kcal/mol'),
-        S298 = (9.61,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1813,
-    label = "N3s-CsCsN3s",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
-3   Cs  0 {1,S}
-4   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.7,4.9,5.8,6.3,6.8,6.8,6.7],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (26.8,'kcal/mol','+|-',1.3),
-        S298 = (-14.5,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1814,
-    label = "N3s-N3sCbH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   N3s 0 {1,S}
-3   Cb  0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (22.1,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1815,
-    label = "N3d-N3dH",
-    group = 
-"""
-1 * N3d 0 {2,S} {3,D}
-2   H   0 {1,S}
-3   N3d 0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.38,4.89,5.44,5.94,6.77,7.42,8.44],'cal/(mol*K)'),
-        H298 = (25.1,'kcal/mol'),
-        S298 = (26.8,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 1817,
     label = "N3s-CbHH",
     group = 
@@ -46080,19 +48004,71 @@ u"""
 )
 
 entry(
-    index = 1818,
-    label = "N3s-CbCsH",
+    index = 1825,
+    label = "N3s-(CO)HH",
     group = 
 """
 1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cb  0 {1,S}
-3   Cs  0 {1,S}
+2   CO  0 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.07,5.74,7.13,8.29,9.96,11.22,14.37],'cal/(mol*K)'),
+        H298 = (-14.9,'kcal/mol'),
+        S298 = (-24.69,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1889,
+    label = "N3s-CdHH",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cd  0 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.7,6.5,7.3,8.1,9.4,10.5,12.3],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (29.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1938,
+    label = "N3s-CCH",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   C   0 {1,S}
+3   C   0 {1,S}
 4   H   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (14.9,'kcal/mol'),
+        H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -46106,19 +48082,45 @@ u"""
 )
 
 entry(
-    index = 1819,
-    label = "N3s-CbCsCs",
+    index = 1809,
+    label = "N3s-CsCsH",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cs  0 {1,S}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.2,5.21,6.13,6.83,7.9,8.65,9.55],'cal/(mol*K)'),
+        H298 = (15.4,'kcal/mol'),
+        S298 = (8.94,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1818,
+    label = "N3s-CbCsH",
     group = 
 """
 1 * N3s 0 {2,S} {3,S} {4,S}
 2   Cb  0 {1,S}
 3   Cs  0 {1,S}
-4   Cs  0 {1,S}
+4   H   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (26.2,'kcal/mol'),
+        H298 = (14.9,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -46158,135 +48160,6 @@ u"""
 )
 
 entry(
-    index = 1821,
-    label = "Cb-CbCbN3s",
-    group = 
-"""
-1 * Cb  0 {2,B} {3,B} {4,S}
-2   Cb  0 {1,B}
-3   Cb  0 {1,B}
-4   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.95,5.21,5.94,6.32,6.53,6.56,6.635],'cal/(mol*K)'),
-        H298 = (-0.5,'kcal/mol'),
-        S298 = (-9.69,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1822,
-    label = "N3d-N3dN3s",
-    group = 
-"""
-1 * N3d 0 {2,D} {3,S}
-2   N3d 0 {1,D}
-3   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (23.0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1823,
-    label = "Cds-OdN3sH",
-    group = 
-"""
-1 * {Cd,CO} 0 {2,D} {3,S} {4,S}
-2   Od 0 {1,D}
-3   N3s  0 {1,S}
-4   H  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([7.03,7.87,8.82,9.68,11.16,12.2,14.8],'cal/(mol*K)'),
-        H298 = (-29.6,'kcal/mol'),
-        S298 = (34.93,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1824,
-    label = "Cds-OdN3sCs",
-    group = 
-"""
-1 * {Cd,CO} 0 {2,D} {3,S} {4,S}
-2   Od      0 {1,D}
-3   N3s     0 {1,S}
-4   Cs      0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.37,6.17,7.07,7.66,9.62,11.19,15.115],'cal/(mol*K)'),
-        H298 = (-32.8,'kcal/mol'),
-        S298 = (16.2,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1825,
-    label = "N3s-(CO)HH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   CO  0 {1,S}
-3   H   0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.07,5.74,7.13,8.29,9.96,11.22,14.37],'cal/(mol*K)'),
-        H298 = (-14.9,'kcal/mol'),
-        S298 = (-24.69,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 1826,
     label = "N3s-(CO)CsH",
     group = 
@@ -46301,32 +48174,6 @@ entry(
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (-4.4,'kcal/mol'),
         S298 = (3.9,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1827,
-    label = "N3s-(CO)CsCs",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   CO  0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46378,6 +48225,165 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (-18.5,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1894,
+    label = "N3s-(CtN3t)CsH",
+    group = 
+"""
+1 * N3s 0 {2,S} {4,S} {5,S}
+2   Ct  0 {1,S} {3,T}
+3   N3t 0 {2,T}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.3,11.6,12.8,13.9,15.5,16.7,18.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (44.1,'kcal/mol','+|-',1.3),
+        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1899,
+    label = "N3s-(CdCd)CsH",
+    group = 
+"""
+1 * N3s 0 {2,S} {5,S} {6,S}
+2   Cd  0 {1,S} {3,D} {4,S}
+3   Cd  0 {2,D}
+4   R   0 {2,S}
+5   Cs  0 {1,S}
+6   H   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([5.8,6.1,6.4,6.7,7.5,8.1,9.1],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
+        H298 = (15.3,'kcal/mol','+|-',1.9),
+        S298 = (8.7,'cal/(mol*K)','+|-',1.7),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1939,
+    label = "N3s-CCC",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   C   0 {1,S}
+3   C   0 {1,S}
+4   C   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1810,
+    label = "N3s-CsCsCs",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cs  0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.48,4.56,5.43,5.97,6.56,6.67,6.5],'cal/(mol*K)'),
+        H298 = (24.4,'kcal/mol'),
+        S298 = (-13.46,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1819,
+    label = "N3s-CbCsCs",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cb  0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (26.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1827,
+    label = "N3s-(CO)CsCs",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   CO  0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -46443,50 +48449,21 @@ u"""
 )
 
 entry(
-    index = 1832,
-    label = "Cs-(CtN3t)CsHH",
+    index = 1895,
+    label = "N3s-(CtN3t)CsCs",
     group = 
 """
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.3,13.5,15.3,16.8,19.2,20.9,23.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (22.9,'kcal/mol','+|-',1.3),
-        S298 = (39.8,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1833,
-    label = "Cs-(CtN3t)CsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
+1 * N3s 0 {2,S} {4,S} {5,S}
 2   Ct  0 {1,S} {3,T}
 3   N3t 0 {2,T}
 4   Cs  0 {1,S}
 5   Cs  0 {1,S}
-6   H   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.00,12.70,14.10,15.40,17.30,18.60,21.85],'cal/(mol*K)'),
-        H298 = (25.8,'kcal/mol'),
-        S298 = (19.80,'cal/(mol*K)'),
+        Cpdata = ([8.6,9.6,10.5,11.4,12.9,13.8,14.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (53.3,'kcal/mol','+|-',1.3),
+        S298 = (21,'cal/(mol*K)','+|-',1.2),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46499,22 +48476,22 @@ u"""
 )
 
 entry(
-    index = 1834,
-    label = "Cs-(CtN3t)CsCsCs",
+    index = 1898,
+    label = "N3s-(CdCd)CsCs",
     group = 
 """
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   Cs  0 {1,S}
+1 * N3s 0 {2,S} {5,S} {6,S}
+2   Cd  0 {1,S} {3,D} {4,S}
+3   Cd  0 {2,D}
+4   R   0 {2,S}
 5   Cs  0 {1,S}
 6   Cs  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.4,13.4,14.6,15.3,16.3,16.7,17.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (28.3,'kcal/mol','+|-',1.3),
-        S298 = (-3.0,'cal/(mol*K)','+|-',1.2),
+        Cpdata = ([2.8,2.9,3.3,3.7,4.6,5,5.5],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
+        H298 = (25.9,'kcal/mol','+|-',1.9),
+        S298 = (-11,'cal/(mol*K)','+|-',1.7),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46527,1305 +48504,20 @@ u"""
 )
 
 entry(
-    index = 1835,
-    label = "Cs-(CtN3t)(CtN3t)CsCs",
+    index = 1811,
+    label = "N3s-N3sHH",
     group = 
 """
-1 * Cs  0 {2,S} {4,S} {6,S} {7,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   Ct  0 {1,S} {5,T}
-5   N3t 0 {4,T}
-6   Cs  0 {1,S}
-7   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (28.4,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1836,
-    label = "Cds-CdsH(CtN3t)",
-    group = 
-"""
-1 * Cd  0 {2,D} {3,S} {4,S}
-2   Cd  0 {1,D}
-3   H   0 {1,S}
-4   Ct  0 {1,S} {5,T}
-5   N3t 0 {4,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3,12,13.4,14.6,16.3,17.5,19.4],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (38.5,'kcal/mol','+|-',1.3),
-        S298 = (37.6,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1837,
-    label = "Cds-Cd(CtN3t)(CtN3t)",
-    group = 
-"""
-1 * Cd  0 {2,S} {4,S} {6,D}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   Ct  0 {1,S} {5,T}
-5   N3t 0 {4,T}
-6   Cd  0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (84.1,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1838,
-    label = "Cd-CdH(N5dOdOs)",
-    group = 
-"""
-1 * Cd  0 {2,D} {5,S} {8,S}
-2   Cd  0 {1,D} {3,S} {4,S}
-3   R   0 {2,S}
-4   R   0 {2,S}
-5   N5d 0 {1,S} {6,D} {7,S}
-6   Od  0 {5,D}
-7   Os  0 {5,S}
-8   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.7,15.4,17.6,19.3,21.7,23.1,25],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (2.0,'kcal/mol','+|-',1.3),
-        S298 = (44.3,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1839,
-    label = "Cb-(CtN3t)",
-    group = 
-"""
-1 * Cb  0 {2,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.8,11.2,12.3,13.1,14.2,14.9,16.65],'cal/(mol*K)'),
-        H298 = (35.8,'kcal/mol'),
-        S298 = (20.5,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1840,
-    label = "Ct-Ct(CtN3t)",
-    group = 
-"""
-1 * Ct  0 {2,T} {3,S}
-2   Ct  0 {1,T}
-3   Ct  0 {1,S} {4,T}
-4   N3t 0 {3,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3,11.3,12.1,12.7,13.6,14.3,15.3],'cal/(mol*K)'),
-        H298 = (63.8,'kcal/mol'),
-        S298 = (35.4,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1841,
-    label = "Cs-(N5dOdOs)CsHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
-2   N5d 0 {1,S} {3,D} {4,S}
-3   Od  0 {2,D}
-4   Os  0 {2,S}
-5   Cs  0 {1,S}
-6   H   0 {1,S}
-7   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.9,15.8,18.3,20.3,23.3,25.4,28.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (-14.8,'kcal/mol','+|-',1.3),
-        S298 = (48.9,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1842,
-    label = "Cs-(N5dOdOs)CsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
-2   N5d 0 {1,S} {3,D} {4,S}
-3   Od  0 {2,D}
-4   Os  0 {2,S}
-5   Cs  0 {1,S}
-6   Cs  0 {1,S}
-7   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.6,16.1,18.1,19.6,21.8,23.2,25.1],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (-13.9,'kcal/mol','+|-',1.3),
-        S298 = (27.5,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1843,
-    label = "Cs-(N5dOdOs)CsCsCs",
-    group = 
-"""
-1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
-2   N5d 0 {1,S} {3,D} {4,S}
-3   Od  0 {2,D}
-4   Os  0 {2,S}
-5   Cs  0 {1,S}
-6   Cs  0 {1,S}
-7   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.5,16,17.8,18.9,20.3,21.1,21.9],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (-12.7,'kcal/mol','+|-',1.3),
-        S298 = (5.2,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1846,
-    label = "Cs-(N5dOdOs)(N5dOdOs)CsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {5,S} {8,S} {9,S}
-2   N5d 0 {1,S} {3,D} {4,S}
-3   Od  0 {2,D}
-4   Os  0 {2,S}
-5   N5d 0 {1,S} {6,D} {7,S}
-6   Od  0 {5,D}
-7   Os  0 {5,S}
-8   Cs  0 {1,S}
-9   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (-14.9,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1847,
-    label = "Os-Cs(N3dOd)",
-    group = 
-"""
-1 * Os  0 {2,S} {4,S}
-2   N3d 0 {1,S} {3,D}
-3   Od  0 {2,D}
-4   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.6,11.3,11.9,12.6,13.6,14.3,14.8],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
-        H298 = (-4.8,'kcal/mol','+|-',1.1),
-        S298 = (40,'cal/(mol*K)','+|-',1),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1848,
-    label = "Os-Cs(N5dOdOs)",
-    group = 
-"""
-1 * Os  0 {2,S} {5,S}
-2   N5d 0 {1,S} {3,D} {4,S}
-3   Od  0 {2,D}
-4   Os  0 {2,S}
-5   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.2,13.9,15.4,16.6,18.4,19.3,19.9],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
-        H298 = (-19.1,'kcal/mol','+|-',1.1),
-        S298 = (45.3,'cal/(mol*K)','+|-',1),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1849,
-    label = "Ct-CtN3s",
-    group = 
-"""
-1 * Ct  0 {2,T} {3,S}
-2   Ct  0 {1,T}
-3   N3s 0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1850,
-    label = "Ct-N3tCs",
-    group = 
-"""
-1 * Ct  0 {2,T} {3,S}
-2   N3t 0 {1,T}
-3   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1851,
-    label = "Ct-N3tCd",
-    group = 
-"""
-1 * Ct  0 {2,T} {3,S}
-2   N3t 0 {1,T}
-3   Cd  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1852,
-    label = "Ct-N3tOs",
-    group = 
-"""
-1 * Ct  0 {2,T} {3,S}
-2   N3t 0 {1,T}
-3   Os  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1853,
-    label = "Ct-N3tN3s",
-    group = 
-"""
-1 * Ct  0 {2,T} {3,S}
-2   N3t 0 {1,T}
-3   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1854,
-    label = "Cdd-N3dCd",
-    group = 
-"""
-1 * Cdd 0 {2,D} {3,D}
-2   N3d 0 {1,D}
-3   Cd  0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.5,5.1,5.6,6,6.5,6.9,7.4],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
-        H298 = (25.9,'kcal/mol','+|-',1.5),
-        S298 = (19.7,'cal/(mol*K)','+|-',1.4),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1855,
-    label = "Cd-N3dCsCs",
-    group = 
-"""
-1 * Cd  0 {2,D} {3,S} {4,S}
-2   N3d 0 {1,D}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.5,4.2,5,5.6,6.6,7.2,7.9],'cal/(mol*K)','+|-',[0.9,0.9,0.9,0.9,0.9,0.9,0.9]),
-        H298 = (5.7,'kcal/mol','+|-',1.2),
-        S298 = (2,'cal/(mol*K)','+|-',1.1),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1856,
-    label = "Cd-N3dCsH",
-    group = 
-"""
-1 * Cd  0 {2,D} {3,S} {4,S}
-2   N3d 0 {1,D}
-3   Cs  0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.5,6.3,7.2,8,9.3,10.2,11.6],'cal/(mol*K)','+|-',[0.9,0.9,0.9,0.9,0.9,0.9,0.9]),
-        H298 = (3.3,'kcal/mol','+|-',1.3),
-        S298 = (21.2,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1857,
-    label = "Cd-N3dHH",
-    group = 
-"""
-1 * Cd  0 {2,D} {3,S} {4,S}
-2   N3d 0 {1,D}
-3   H   0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.2,7.4,8.7,9.8,11.5,12.9,15],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (4.4,'kcal/mol','+|-',1.4),
-        S298 = (40.8,'cal/(mol*K)','+|-',1.3),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1858,
-    label = "Cd-CdCs(CtN3t)",
-    group = 
-"""
-1 * Cd  0 {2,D} {5,S} {6,S}
-2   Cd  0 {1,D} {3,S} {4,S}
-3   R   0 {2,S}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   Ct  0 {1,S} {7,T}
-7   N3t 0 {6,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.2,10.6,11.7,12.5,13.8,14.7,15.9],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (40.2,'kcal/mol','+|-',1.3),
-        S298 = (17.9,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1859,
-    label = "Cd-CdCsN3s",
-    group = 
-"""
-1 * Cd  0 {2,D} {5,S} {6,S}
-2   Cd  0 {1,D} {3,S} {4,S}
-3   R   0 {2,S}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.8,5,5.9,6.4,6.9,7.1,7.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (3.5,'kcal/mol','+|-',1.4),
-        S298 = (-14.1,'cal/(mol*K)','+|-',1.3),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1860,
-    label = "Cd-CdHN3s",
-    group = 
-"""
-1 * Cd  0 {2,D} {5,S} {6,S}
-2   Cd  0 {1,D} {3,S} {4,S}
-3   R   0 {2,S}
-4   R   0 {2,S}
-5   H   0 {1,S}
-6   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.7,6,7,7.7,8.8,9.5,10.6],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (2.2,'kcal/mol','+|-',1.4),
-        S298 = (7.1,'cal/(mol*K)','+|-',1.3),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1861,
-    label = "Cd-CdCs(N5dOdOs)",
-    group = 
-"""
-1 * Cd  0 {2,D} {5,S} {8,S}
-2   Cd  0 {1,D} {3,S} {4,S}
-3   R   0 {2,S}
-4   R   0 {2,S}
-5   N5d 0 {1,S} {6,D} {7,S}
-6   Od  0 {5,D}
-7   Os  0 {5,S}
-8   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.1,14.3,16.1,17.5,19.3,20.3,21.4],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (2.3,'kcal/mol','+|-',1.3),
-        S298 = (24,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1862,
-    label = "Cs-(CdN3d)HHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+1 * N3s 0 {2,S} {3,S} {4,S}
 2   H   0 {1,S}
 3   H   0 {1,S}
-4   H   0 {1,S}
-5   Cd  0 {1,S} {6,D}
-6   N3d 0 {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.2,7.8,9.4,10.8,13,14.8,17.6],'cal/(mol*K)'),
-        H298 = (-10.2,'kcal/mol'),
-        S298 = (30.4,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1863,
-    label = "Cs-(CtN3t)HHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   H   0 {1,S}
-5   H   0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.5,14.6,16.6,18.3,21.1,23.4,26.9],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
-        H298 = (17.7,'kcal/mol','+|-',1.9),
-        S298 = (60.2,'cal/(mol*K)','+|-',1.7),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1864,
-    label = "Cs-(CdN3d)CsHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
-2   Cd  0 {1,S} {3,D} {4,S}
-3   N3d 0 {2,D}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   H   0 {1,S}
-7   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.5,6.9,8.1,9.2,10.9,12.2,14.1],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
-        H298 = (-5.1,'kcal/mol','+|-',1.7),
-        S298 = (10.1,'cal/(mol*K)','+|-',1.6),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1865,
-    label = "Cs-(CdN3d)CsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
-2   Cd  0 {1,S} {3,D} {4,S}
-3   N3d 0 {2,D}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   Cs  0 {1,S}
-7   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5,6.5,7.5,8.2,9.3,9.9,10.9],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
-        H298 = (-1.6,'kcal/mol','+|-',1.7),
-        S298 = (-11.2,'cal/(mol*K)','+|-',1.6),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1866,
-    label = "Cs-(CdN3d)CsCsCs",
-    group = 
-"""
-1 * Cs  0 {2,S} {5,S} {6,S} {7,S}
-2   Cd  0 {1,S} {3,D} {4,S}
-3   N3d 0 {2,D}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   Cs  0 {1,S}
-7   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.3,6.6,7.3,7.5,7.8,7.8,7.7],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
-        H298 = (0.6,'kcal/mol','+|-',1.7),
-        S298 = (-33.5,'cal/(mol*K)','+|-',1.6),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1867,
-    label = "Cs-(N3dOd)CsCsCs",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,D}
-3   Od  0 {2,D}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-6   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.2,13.3,14,14.5,15.3,15.7,16.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (24.1,'kcal/mol','+|-',1.3),
-        S298 = (1.2,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1868,
-    label = "Cs-(N3dOd)CsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,D}
-3   Od  0 {2,D}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.2,12.7,14,15.1,16.8,17.9,19.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (23.4,'kcal/mol','+|-',1.3),
-        S298 = (23.1,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1869,
-    label = "Cs-(N3dOd)CHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,D}
-3   Od  0 {2,D}
-4   C   0 {1,S}
-5   H   0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.8,13.6,15.2,16.7,18.9,20.5,23],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (21.4,'kcal/mol','+|-',1.3),
-        S298 = (44.3,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1870,
-    label = "Cs-(N3dCd)HHH",
-    group = 
-"""
-1 * Cs       0 {2,S} {4,S} {5,S} {6,S}
-2   N3d      0 {1,S} {3,D}
-3   {Cd,Cdd} 0 {2,D}
-4   H        0 {1,S}
-5   H        0 {1,S}
-6   H        0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6,7.7,9.3,10.7,13.1,14.8,17.7],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (-5.7,'kcal/mol','+|-',1.3),
-        S298 = (30.4,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1871,
-    label = "Cs-(N3dCd)CsHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
-2   N3d 0 {1,S} {3,D}
-3   Cd  0 {2,D}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.3,7.2,8.7,9.8,11.6,12.8,14.7],'cal/(mol*K)','+|-',[1.2,1.2,1.2,1.2,1.2,1.2,1.2]),
-        H298 = (-2.9,'kcal/mol','+|-',1.7),
-        S298 = (8.6,'cal/(mol*K)','+|-',1.6),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1872,
-    label = "Os-N5d",
-    group = 
-"""
-1 * Os  0 {2,S}
-2   N5d 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1873,
-    label = "Os-Cs(CtN3t)",
-    group = 
-"""
-1 * Os  0 {2,S} {4,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.1,9.8,10.6,11.2,12.3,13,13.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (10,'kcal/mol','+|-',1.3),
-        S298 = (39.1,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1874,
-    label = "Os-CsN3s",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   N3s 0 {1,S}
-3   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.5,3.6,4,4.3,4.7,4.8,4.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (-9.2,'kcal/mol','+|-',1.3),
-        S298 = (7.2,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1875,
-    label = "Os-CsN3d",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   Cs  0 {1,S}
-3   N3d 0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1876,
-    label = "Os-CsN5d",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   Cs  0 {1,S}
-3   N5d 0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1877,
-    label = "Os-CdN3d",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   Cd  0 {1,S}
-3   N3d 0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1878,
-    label = "Os-(Cd-Cd)(N3dOd)",
-    group = 
-"""
-1 * Os  0 {2,S} {4,S}
-2   N3d 0 {1,S} {3,D}
-3   Od  0 {2,D}
-4   Cd  0 {1,S} {5,D} {6,S}
-5   Cd  0 {4,D}
-6   R   0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.1,11.7,12.2,12.7,13.5,14.1,14.9],'cal/(mol*K)','+|-',[0.7,0.7,0.7,0.7,0.7,0.7,0.7]),
-        H298 = (-5.3,'kcal/mol','+|-',0.9),
-        S298 = (39.5,'cal/(mol*K)','+|-',0.9),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1879,
-    label = "Os-CdN5d",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   Cd  0 {1,S}
-3   N5d 0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1880,
-    label = "Os-(Cd-CdHH)(N5dOdOs)",
-    group = 
-"""
-1 * Os  0 {2,S} {5,S}
-2   N5d 0 {1,S} {3,D} {4,S}
-3   Od  0 {2,D}
-4   Os  0 {2,S}
-5   Cd  0 {1,S} {6,D} {7,S}
-6   Cd  0 {5,D}
-7   R   0 {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.4,14.2,15.7,16.9,18.5,19.3,20.1],'cal/(mol*K)','+|-',[0.8,0.8,0.8,0.8,0.8,0.8,0.8]),
-        H298 = (-18.4,'kcal/mol','+|-',1.1),
-        S298 = (45.4,'cal/(mol*K)','+|-',1),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1881,
-    label = "Os-OsN3s",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   N3s 0 {1,S}
-3   Os  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.3,4.9,5.6,6.3,7,7.1,6.5],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (5.3,'kcal/mol','+|-',1.3),
-        S298 = (6.9,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1882,
-    label = "Os-OsN3d",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   Os  0 {1,S}
-3   N3d 0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1883,
-    label = "Os-Os(N3dOd)",
-    group = 
-"""
-1 * Os  0 {2,S} {4,S}
-2   N3d 0 {1,S} {3,D}
-3   Od  0 {2,D}
-4   Os  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.7,12.9,13.6,14.2,15,15.5,16],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (15.2,'kcal/mol','+|-',1.3),
-        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1884,
-    label = "Os-N3sN3s",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   N3s 0 {1,S}
-3   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.8,4.6,5.1,5.2,5.2,4.9,4.3],'cal/(mol*K)','+|-',[1.6,1.6,1.6,1.6,1.6,1.6,1.6]),
-        H298 = (5.7,'kcal/mol','+|-',2.2),
-        S298 = (6.8,'cal/(mol*K)','+|-',2.1),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1885,
-    label = "Os-N3sN3d",
-    group = 
-"""
-1 * Os  0 {2,S} {3,S}
-2   N3s 0 {1,S}
-3   N3d 0 {1,S}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1886,
-    label = "Os-N3s(N3dOd)",
-    group = 
-"""
-1 * Os  0 {2,S} {4,S}
-2   N3d 0 {1,S} {3,D}
-3   Od  0 {2,D}
 4   N3s 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.2,11.5,12.4,13,13.9,14.3,14.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (10.8,'kcal/mol','+|-',1.3),
-        S298 = (40.8,'cal/(mol*K)','+|-',1.2),
+        Cpdata = ([6.1,7.38,8.43,9.27,10.54,11.52,13.19],'cal/(mol*K)'),
+        H298 = (11.4,'kcal/mol'),
+        S298 = (29.13,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47838,11 +48530,14 @@ u"""
 )
 
 entry(
-    index = 1887,
-    label = "N",
+    index = 1940,
+    label = "N3s-NCH",
     group = 
 """
-1 * {N2d,N3s,N3d,N3t,N5s,N5d,N5dd,N5t} 0
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   N   0 {1,S}
+3   C   0 {1,S}
+4   H   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -47861,38 +48556,20 @@ u"""
 )
 
 entry(
-    index = 1888,
-    label = "N3s",
-    group = 
-"""
-1 * N3s 0
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1889,
-    label = "N3s-CdHH",
+    index = 1812,
+    label = "N3s-N3sCsH",
     group = 
 """
 1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cd  0 {1,S}
+2   Cs  0 {1,S}
 3   H   0 {1,S}
-4   H   0 {1,S}
+4   N3s 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.7,6.5,7.3,8.1,9.4,10.5,12.3],'cal/(mol*K)'),
-        H298 = (4.8,'kcal/mol'),
-        S298 = (29.7,'cal/(mol*K)'),
+        Cpdata = ([4.82,5.8,6.5,7,7.8,8.3,9],'cal/(mol*K)'),
+        H298 = (20.9,'kcal/mol'),
+        S298 = (9.61,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47905,20 +48582,290 @@ u"""
 )
 
 entry(
-    index = 1890,
-    label = "N3s-OsHH",
+    index = 1814,
+    label = "N3s-N3sCbH",
     group = 
 """
 1 * N3s 0 {2,S} {3,S} {4,S}
-2   Os  0 {1,S}
-3   H   0 {1,S}
+2   N3s 0 {1,S}
+3   Cb  0 {1,S}
 4   H   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.1,7.4,8.4,9.3,10.5,11.5,13.2],'cal/(mol*K)'),
-        H298 = (11.4,'kcal/mol'),
-        S298 = (29.1,'cal/(mol*K)'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (22.1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1897,
+    label = "N3s-CsH(N3dOd)",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cs  0 {1,S}
+3   H   0 {1,S}
+4   N3d 0 {1,S} {5,D}
+5   Od  0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10.4,11.9,13.4,14.7,16.6,17.9,19.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (25.2,'kcal/mol','+|-',1.3),
+        S298 = (41.7,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1902,
+    label = "N3s-CsH(N5dOdOs)",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cs  0 {1,S}
+3   H   0 {1,S}
+4   N5d 0 {1,S} {5,D} {6,S}
+5   Od  0 {4,D}
+6   Os  0 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([13.1,15.5,17.6,19.2,21.4,22.8,24.4],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (8.4,'kcal/mol','+|-',1.3),
+        S298 = (45.3,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1901,
+    label = "N3s-(CdCd)HN3s",
+    group = 
+"""
+1 * N3s 0 {2,S} {5,S} {6,S}
+2   Cd  0 {1,S} {3,D} {4,S}
+3   Cd  0 {2,D}
+4   R   0 {2,S}
+5   H   0 {1,S}
+6   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.5,5.4,6.5,7.3,8.5,9.1,9.9],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
+        H298 = (20.5,'kcal/mol','+|-',1.5),
+        S298 = (6.6,'cal/(mol*K)','+|-',1.4),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1940,
+    label = "N3s-NCC",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   N   0 {1,S}
+3   C   0 {1,S}
+4   C   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1893,
+    label = "N3s-NCsCs",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   N   0 {1,S}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (29.2,'kcal/mol'),
+        S298 = (-13.8,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1813,
+    label = "N3s-CsCsN3s",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cs  0 {1,S}
+3   Cs  0 {1,S}
+4   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.7,4.9,5.8,6.3,6.8,6.8,6.7],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (26.8,'kcal/mol','+|-',1.3),
+        S298 = (-14.5,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1896,
+    label = "N3s-CsCs(N3dOd)",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cs  0 {1,S}
+3   Cs  0 {1,S}
+4   N3d 0 {1,S} {5,D}
+5   Od  0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.4,10.5,11.5,12.4,13.8,14.6,15.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (32.6,'kcal/mol','+|-',1.3),
+        S298 = (19.3,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1903,
+    label = "N3s-CsCs(N5dOdOs)",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   Cs  0 {1,S}
+3   Cs  0 {1,S}
+4   N5d 0 {1,S} {5,D} {6,S}
+5   Od  0 {4,D}
+6   Os  0 {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.5,13.4,15.2,16.7,18.8,20,21.1],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
+        H298 = (16.7,'kcal/mol','+|-',1.3),
+        S298 = (25.8,'cal/(mol*K)','+|-',1.2),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1941,
+    label = "N3s-NCdCs",
+    group = 
+"""
+1 * N3s 0 {2,S} {3,S} {4,S}
+2   N   0 {1,S}
+3   Cd  0 {1,S}
+4   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1900,
+    label = "N3s-(CdCd)CsN3s",
+    group = 
+"""
+1 * N3s 0 {2,S} {5,S} {6,S}
+2   Cd  0 {1,S} {3,D} {4,S}
+3   Cd  0 {2,D}
+4   R   0 {2,S}
+5   Cs  0 {1,S}
+6   N3s 0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.2,4.2,4.4,4.8,5.4,5.7,6],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
+        H298 = (30.3,'kcal/mol','+|-',1.5),
+        S298 = (-13.2,'cal/(mol*K)','+|-',1.4),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47983,296 +48930,20 @@ u"""
 )
 
 entry(
-    index = 1893,
-    label = "N3s-NCsCs",
+    index = 1890,
+    label = "N3s-OsHH",
     group = 
 """
 1 * N3s 0 {2,S} {3,S} {4,S}
-2   N   0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (29.2,'kcal/mol'),
-        S298 = (-13.8,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1894,
-    label = "N3s-(CtN3t)CsH",
-    group = 
-"""
-1 * N3s 0 {2,S} {4,S} {5,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.3,11.6,12.8,13.9,15.5,16.7,18.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (44.1,'kcal/mol','+|-',1.3),
-        S298 = (40.7,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1895,
-    label = "N3s-(CtN3t)CsCs",
-    group = 
-"""
-1 * N3s 0 {2,S} {4,S} {5,S}
-2   Ct  0 {1,S} {3,T}
-3   N3t 0 {2,T}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.6,9.6,10.5,11.4,12.9,13.8,14.8],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (53.3,'kcal/mol','+|-',1.3),
-        S298 = (21,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1896,
-    label = "N3s-CsCs(N3dOd)",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
-3   Cs  0 {1,S}
-4   N3d 0 {1,S} {5,D}
-5   Od  0 {4,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([9.4,10.5,11.5,12.4,13.8,14.6,15.3],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (32.6,'kcal/mol','+|-',1.3),
-        S298 = (19.3,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1897,
-    label = "N3s-CsH(N3dOd)",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
+2   Os  0 {1,S}
 3   H   0 {1,S}
-4   N3d 0 {1,S} {5,D}
-5   Od  0 {4,D}
+4   H   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.4,11.9,13.4,14.7,16.6,17.9,19.2],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (25.2,'kcal/mol','+|-',1.3),
-        S298 = (41.7,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1898,
-    label = "N3s-(CdCd)CsCs",
-    group = 
-"""
-1 * N3s 0 {2,S} {5,S} {6,S}
-2   Cd  0 {1,S} {3,D} {4,S}
-3   Cd  0 {2,D}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2.8,2.9,3.3,3.7,4.6,5,5.5],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
-        H298 = (25.9,'kcal/mol','+|-',1.9),
-        S298 = (-11,'cal/(mol*K)','+|-',1.7),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1899,
-    label = "N3s-(CdCd)CsH",
-    group = 
-"""
-1 * N3s 0 {2,S} {5,S} {6,S}
-2   Cd  0 {1,S} {3,D} {4,S}
-3   Cd  0 {2,D}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.8,6.1,6.4,6.7,7.5,8.1,9.1],'cal/(mol*K)','+|-',[1.3,1.3,1.3,1.3,1.3,1.3,1.3]),
-        H298 = (15.3,'kcal/mol','+|-',1.9),
-        S298 = (8.7,'cal/(mol*K)','+|-',1.7),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1900,
-    label = "N3s-(CdCd)CsN3s",
-    group = 
-"""
-1 * N3s 0 {2,S} {5,S} {6,S}
-2   Cd  0 {1,S} {3,D} {4,S}
-3   Cd  0 {2,D}
-4   R   0 {2,S}
-5   Cs  0 {1,S}
-6   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.2,4.2,4.4,4.8,5.4,5.7,6],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
-        H298 = (30.3,'kcal/mol','+|-',1.5),
-        S298 = (-13.2,'cal/(mol*K)','+|-',1.4),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1901,
-    label = "N3s-(CdCd)HN3s",
-    group = 
-"""
-1 * N3s 0 {2,S} {5,S} {6,S}
-2   Cd  0 {1,S} {3,D} {4,S}
-3   Cd  0 {2,D}
-4   R   0 {2,S}
-5   H   0 {1,S}
-6   N3s 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.5,5.4,6.5,7.3,8.5,9.1,9.9],'cal/(mol*K)','+|-',[1.1,1.1,1.1,1.1,1.1,1.1,1.1]),
-        H298 = (20.5,'kcal/mol','+|-',1.5),
-        S298 = (6.6,'cal/(mol*K)','+|-',1.4),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1902,
-    label = "N3s-CsH(N5dOdOs)",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
-3   H   0 {1,S}
-4   N5d 0 {1,S} {5,D} {6,S}
-5   Od  0 {4,D}
-6   Os  0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([13.1,15.5,17.6,19.2,21.4,22.8,24.4],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (8.4,'kcal/mol','+|-',1.3),
-        S298 = (45.3,'cal/(mol*K)','+|-',1.2),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1903,
-    label = "N3s-CsCs(N5dOdOs)",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   Cs  0 {1,S}
-3   Cs  0 {1,S}
-4   N5d 0 {1,S} {5,D} {6,S}
-5   Od  0 {4,D}
-6   Os  0 {4,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([11.5,13.4,15.2,16.7,18.8,20,21.1],'cal/(mol*K)','+|-',[1,1,1,1,1,1,1]),
-        H298 = (16.7,'kcal/mol','+|-',1.3),
-        S298 = (25.8,'cal/(mol*K)','+|-',1.2),
+        Cpdata = ([6.1,7.4,8.4,9.3,10.5,11.5,13.2],'cal/(mol*K)'),
+        H298 = (11.4,'kcal/mol'),
+        S298 = (29.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48292,31 +48963,6 @@ entry(
 1 * N3d 0
 """,
     thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1905,
-    label = "N3d-CdCs",
-    group = 
-"""
-1 * N3d      0 {2,D} {3,S}
-2   {Cd,Cdd} 0 {1,D}
-3   Cs       0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([2,2.2,2.2,2.3,2.5,2.7,2.9],'cal/(mol*K)'),
-        H298 = (21.3,'kcal/mol'),
-        S298 = (-6.3,'cal/(mol*K)'),
-    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -48353,19 +48999,19 @@ u"""
 )
 
 entry(
-    index = 1907,
-    label = "N3d-N3dCs",
+    index = 1815,
+    label = "N3d-N3dH",
     group = 
 """
-1 * N3d 0 {2,D} {3,S}
-2   N3d 0 {1,D}
-3   Cs  0 {1,S}
+1 * N3d 0 {2,S} {3,D}
+2   H   0 {1,S}
+3   N3d 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.4,3.6,3.7,3.9,4.3,4.6,4.9],'cal/(mol*K)'),
-        H298 = (27,'kcal/mol'),
-        S298 = (7.2,'cal/(mol*K)'),
+        Cpdata = ([4.38,4.89,5.44,5.94,6.77,7.42,8.44],'cal/(mol*K)'),
+        H298 = (25.1,'kcal/mol'),
+        S298 = (26.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48378,18 +49024,18 @@ u"""
 )
 
 entry(
-    index = 1908,
-    label = "N3d-OdC",
+    index = 1822,
+    label = "N3d-N3dN3s",
     group = 
 """
 1 * N3d 0 {2,D} {3,S}
-2   Od  0 {1,D}
-3   C   0 {1,S}
+2   N3d 0 {1,D}
+3   N3s 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
+        H298 = (23,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
@@ -48466,6 +49112,81 @@ entry(
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (21.3,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1908,
+    label = "N3d-OdC",
+    group = 
+"""
+1 * N3d 0 {2,D} {3,S}
+2   Od  0 {1,D}
+3   C   0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1905,
+    label = "N3d-CdCs",
+    group = 
+"""
+1 * N3d      0 {2,D} {3,S}
+2   {Cd,Cdd} 0 {1,D}
+3   Cs       0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2,2.2,2.2,2.3,2.5,2.7,2.9],'cal/(mol*K)'),
+        H298 = (21.3,'kcal/mol'),
+        S298 = (-6.3,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1907,
+    label = "N3d-N3dCs",
+    group = 
+"""
+1 * N3d 0 {2,D} {3,S}
+2   N3d 0 {1,D}
+3   Cs  0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([3.4,3.6,3.7,3.9,4.3,4.6,4.9],'cal/(mol*K)'),
+        H298 = (27,'kcal/mol'),
+        S298 = (7.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48632,760 +49353,6 @@ entry(
 1 * N5dd 0
 """,
     thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1919,
-    label = "Cs-NHHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N   0 {1,S}
-3   H   0 {1,S}
-4   H   0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1920,
-    label = "Cs-N3dHHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3d 0 {1,S}
-3   H   0 {1,S}
-4   H   0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1921,
-    label = "Cs-NCsHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N   0 {1,S}
-3   Cs  0 {1,S}
-4   H   0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1922,
-    label = "N2d",
-    group = 
-"""
-1 * N2d 0
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1923,
-    label = "Cds-CNH",
-    group = 
-"""
-1 * Cd 0 {2,D} {3,S} {4,S}
-2   C  0 {1,D}
-3   N  0 {1,S}
-4   H  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1924,
-    label = "Cds-CCN",
-    group = 
-"""
-1 * Cd 0 {2,D} {3,S} {4,S}
-2   C  0 {1,D}
-3   C  0 {1,S}
-4   N  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1925,
-    label = "Cs-N3dCHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3d 0 {1,S}
-3   C   0 {1,S}
-4   H   0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1926,
-    label = "Cs-N5dCsHH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N5d 0 {1,S}
-3   Cs  0 {1,S}
-4   H   0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1927,
-    label = "Cs-NCsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N   0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1928,
-    label = "Cs-N3dCsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3d 0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1929,
-    label = "Cs-N5dCsCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N5d 0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-5   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1930,
-    label = "Cs-NCsCsCs",
-    group = 
-"""
-1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
-2   N  0 {1,S}
-3   Cs 0 {1,S}
-4   Cs 0 {1,S}
-5   Cs 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1931,
-    label = "Cs-N3dCsCsCs",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N3d 0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1932,
-    label = "Cs-N5dCsCsCs",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N5d 0 {1,S}
-3   Cs  0 {1,S}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1933,
-    label = "Cs-NNCsH",
-    group = 
-"""
-1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
-2   N  0 {1,S}
-3   N  0 {1,S}
-4   Cs 0 {1,S}
-5   Cs 0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1934,
-    label = "Cs-N5dN5dCsH",
-    group = 
-"""
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   N5d 0 {1,S}
-3   N5d 0 {1,S}
-4   Cs  0 {1,S}
-5   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1935,
-    label = "Os-CN",
-    group = 
-"""
-1 * Os 0 {2,S} {3,S}
-2   C  0 {1,S}
-3   N  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1936,
-    label = "Os-ON",
-    group = 
-"""
-1 * Os 0 {2,S} {3,S}
-2   O  0 {1,S}
-3   N  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1937,
-    label = "Os-NN",
-    group = 
-"""
-1 * Os 0 {2,S} {3,S}
-2   N  0 {1,S}
-3   N  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1938,
-    label = "N3s-CHH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   C   0 {1,S}
-3   H   0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1938,
-    label = "N3s-CCH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   C   0 {1,S}
-3   C   0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1939,
-    label = "N3s-CCC",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   C   0 {1,S}
-3   C   0 {1,S}
-4   C   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1940,
-    label = "N3s-NCH",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   N   0 {1,S}
-3   C   0 {1,S}
-4   H   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1940,
-    label = "N3s-NCC",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   N   0 {1,S}
-3   C   0 {1,S}
-4   C   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1941,
-    label = "N3s-NCdCs",
-    group = 
-"""
-1 * N3s 0 {2,S} {3,S} {4,S}
-2   N   0 {1,S}
-3   Cd  0 {1,S}
-4   Cs  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1942,
-    label = "Ct-N3tC",
-    group = 
-"""
-1 * Ct  0 {2,T} {3,S}
-2   N3t 0 {1,T}
-3   C   0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1943,
-    label = "Od-N3d",
-    group = 
-"""
-1 * Od  0 {2,D}
-2   N3d 0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1944,
-    label = "Od-N5d",
-    group = 
-"""
-1 * Od  0 {2,D}
-2   N5d 0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 1945,
-    label = "Os-N",
-    group = 
-"""
-1 * Os 0 {2,S}
-2   N  0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -50005,7 +49972,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)HHH
                             L8: Cs-(Cds-Cdd-Cd)HHH
                     L6: Cs-C=SHHH
-                    
                 L5: Cs-CtHHH
                     L6: Cs-(CtN3t)HHH
                 L5: Cs-CbHHH
@@ -50022,12 +49988,12 @@ L1: R
                 L5: Cs-CdsCsHH
                     L6: Cs-(Cds-Od)CsHH
                     L6: Cs-(Cds-Cd)CsHH
-                        L7: Cs-(CdN3d)CsHH
                         L7: Cs-(Cds-Cds)CsHH
                         L7: Cs-(Cds-Cdd)CsHH
                             L8: Cs-(Cds-Cdd-Od)CsHH
                             L8: Cs-(Cds-Cdd-Sd)CsHH
                             L8: Cs-(Cds-Cdd-Cd)CsHH
+                        L7: Cs-(CdN3d)CsHH
                     L6: Cs-C=SCsHH
                 L5: Cs-CdsCdsHH
                     L6: Cs-(Cds-Od)(Cds-Od)HH
@@ -50083,12 +50049,12 @@ L1: R
                 L5: Cs-CdsCsCsH
                     L6: Cs-(Cds-Od)CsCsH
                     L6: Cs-(Cds-Cd)CsCsH
-                        L7: Cs-(CdN3d)CsCsH
                         L7: Cs-(Cds-Cds)CsCsH
                         L7: Cs-(Cds-Cdd)CsCsH
                             L8: Cs-(Cds-Cdd-Od)CsCsH
                             L8: Cs-(Cds-Cdd-Sd)CsCsH
                             L8: Cs-(Cds-Cdd-Cd)CsCsH
+                        L7: Cs-(CdN3d)CsCsH
                     L6: Cs-C=SCsCsH
                 L5: Cs-CtCsCsH
                     L6: Cs-(CtN3t)CsCsH
@@ -50274,12 +50240,12 @@ L1: R
                 L5: Cs-CdsCsCsCs
                     L6: Cs-(Cds-Od)CsCsCs
                     L6: Cs-(Cds-Cd)CsCsCs
-                        L7: Cs-(CdN3d)CsCsCs
                         L7: Cs-(Cds-Cds)CsCsCs
                         L7: Cs-(Cds-Cdd)CsCsCs
                             L8: Cs-(Cds-Cdd-Od)CsCsCs
                             L8: Cs-(Cds-Cdd-Sd)CsCsCs
                             L8: Cs-(Cds-Cdd-Cd)CsCsCs
+                        L7: Cs-(CdN3d)CsCsCs
                     L6: Cs-C=SCsCsCs
                 L5: Cs-CtCsCsCs
                     L6: Cs-(CtN3t)CsCsCs
@@ -51290,6 +51256,25 @@ L1: R
             L4: Od-N3d
             L4: Od-N5d
         L3: Os
+            L4: Os-N
+                L5: Os-CN
+                    L6: Os-CsN3s
+                    L6: Os-CsN3d
+                        L7: Os-Cs(N3dOd)
+                    L6: Os-CdN3d
+                        L7: Os-(Cd-Cd)(N3dOd)
+                    L6: Os-CsN5d
+                        L7: Os-Cs(N5dOdOs)
+                    L6: Os-CdN5d
+                        L7: Os-(Cd-CdHH)(N5dOdOs)
+                L5: Os-ON
+                    L6: Os-OsN3s
+                    L6: Os-OsN3d
+                        L7: Os-Os(N3dOd)
+                L5: Os-NN
+                    L6: Os-N3sN3s
+                    L6: Os-N3sN3d
+                        L7: Os-N3s(N3dOd)
             L4: Os-HH
             L4: Os-OsH
             L4: Os-OsOs
@@ -51329,25 +51314,6 @@ L1: R
                 L5: Os-CsCs
                 L5: Os-CsCb
                 L5: Os-CbCb
-            L4: Os-N
-                L5: Os-CN
-                    L6: Os-CsN3s
-                    L6: Os-CsN3d
-                        L7: Os-Cs(N3dOd)
-                    L6: Os-CdN3d
-                        L7: Os-(Cd-Cd)(N3dOd)
-                    L6: Os-CsN5d
-                        L7: Os-Cs(N5dOdOs)
-                    L6: Os-CdN5d
-                        L7: Os-(Cd-CdHH)(N5dOdOs)
-                L5: Os-ON
-                    L6: Os-OsN3s
-                    L6: Os-OsN3d
-                        L7: Os-Os(N3dOd)
-                L5: Os-NN
-                    L6: Os-N3sN3s
-                    L6: Os-N3sN3d
-                        L7: Os-N3s(N3dOd)
     L2: Si
     L2: S
         L3: Sd
@@ -51401,22 +51367,22 @@ L1: R
                 L5: N3s-(CO)CsH
                 L5: N3s-(CO)CbH
                 L5: N3s-(CO)(CO)H
-                L5: N3s-(CdCd)CsH
                 L5: N3s-(CtN3t)CsH
+                L5: N3s-(CdCd)CsH
             L4: N3s-CCC
                 L5: N3s-CsCsCs
                 L5: N3s-CbCsCs
                 L5: N3s-(CO)CsCs
                 L5: N3s-(CO)(CO)Cs
                 L5: N3s-(CO)(CO)Cb
-                L5: N3s-(CdCd)CsCs
                 L5: N3s-(CtN3t)CsCs
+                L5: N3s-(CdCd)CsCs
             L4: N3s-N3sHH
             L4: N3s-NCH
                 L5: N3s-N3sCsH
                 L5: N3s-N3sCbH
-                L5: N3s-CsH(N5dOdOs)
                 L5: N3s-CsH(N3dOd)
+                L5: N3s-CsH(N5dOdOs)
                 L5: N3s-(CdCd)HN3s
             L4: N3s-NCC
                 L5: N3s-NCsCs

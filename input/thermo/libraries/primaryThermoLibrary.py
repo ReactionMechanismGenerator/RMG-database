@@ -13,8 +13,8 @@ entry(
     label = "H2",
     molecule = 
 """
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -37,7 +37,7 @@ entry(
     label = "H",
     molecule = 
 """
-1 H 1
+1 H 1 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -60,8 +60,8 @@ entry(
     label = "O2",
     molecule = 
 """
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -79,39 +79,15 @@ u"""
     ],
 )
 
-#entry(
-#    index = 4,
-#    label = "OH",
-#    molecule = 
-#"""
-#1 O 1 {2,S}
-#2 H 0 {1,S}
-#""",
-#    thermo = ThermoData(
-#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-#        Cpdata = ([7.1402,7.0675,7.0458,7.0581,7.1493,7.3353,7.8741],'cal/(mol*K)'),
-#        H298 = (9.4021,'kcal/mol'),
-#        S298 = (43.9063,'cal/(mol*K)'),
-#    ),
-#    shortDesc = u"""taken from GRI-Mech 3.0 species s00010102""",
-#    longDesc = 
-#u"""
-
-#""",
-#    history = [
-#        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-#    ],
-#)
-
 entry(
     index = 5,
     label = "CO3s1",
     molecule = 
 """
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S} {4,S}
-4 O 0 {1,S} {3,S}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -134,10 +110,10 @@ entry(
     label = "CO3t1",
     molecule = 
 """
-1 C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
-4 O 1 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
+4 O 1 2 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -160,10 +136,10 @@ entry(
     label = "CO3t2",
     molecule = 
 """
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 0 {1,S} {4,S}
-4 O 1 {3,S}
+1 C 1 0 {2,S} {3,D}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,D}
+4 O 1 2 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -186,11 +162,11 @@ entry(
     label = "cyclopropene12diyl",
     molecule = 
 """
-1 C 1 {2,D} {3,S}
-2 C 1 {1,D} {3,S}
-3 C 0 {1,S} {2,S} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,D}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -213,10 +189,10 @@ entry(
     label = "cyclopropynylidyne",
     molecule = 
 """
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 H 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {3,S}
+3 C 1 0 {1,S} {2,S} {4,S}
+4 H 0 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -239,10 +215,10 @@ entry(
     label = "OCCO(S)",
     molecule = 
 """
-1 O 0 {2,D}
-2 C 0 {1,D} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 C 0 0 {2,D} {3,D}
+2 C 0 0 {1,D} {4,D}
+3 O 0 2 {1,D}
+4 O 0 2 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -265,10 +241,10 @@ entry(
     label = "OCCO",
     molecule = 
 """
-1 O 1 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 1 2 {1,S}
+4 O 1 2 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -291,11 +267,11 @@ entry(
     label = "C3H2",
     molecule = 
 """
-1 C 2S {2,S} {3,S}
-2 C 0  {1,S} {3,D} {4,S}
-3 C 0  {1,S} {2,D} {5,S}
-4 H 0  {2,S}
-5 H 0  {3,S}
+1 C 0  0 {2,D} {3,S} {4,S}
+2 C 0  0 {1,D} {3,S} {5,S}
+3 C 2S 0 {1,S} {2,S}
+4 H 0  0 {1,S}
+5 H 0  0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -318,8 +294,8 @@ entry(
     label = "S2",
     molecule = 
 """
-1 S 1 {2,S}
-2 S 1 {1,S}
+1 S 1 2 {2,S}
+2 S 1 2 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -342,9 +318,9 @@ entry(
     label = "HCS",
     molecule = 
 """
-1 C 1 {2,D} {3,S}
-2 S 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 S 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -367,15 +343,15 @@ entry(
     label = "Ar",
     molecule = 
 """
-1 Ar 0
+1 Ar 0 4
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
-            NASAPolynomial(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(1000,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (298,"K"),
-        Tmax = (5000,"K"),
+        Tmin = (298,'K'),
+        Tmax = (5000,'K'),
     ),
     reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
     referenceType = "review",
@@ -400,16 +376,16 @@ entry(
     label = "N2",
     molecule = 
 """
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037]),
-            NASAPolynomial(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053]),
+            NASAPolynomial(coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037], Tmin=(298,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053], Tmin=(1000,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (298,"K"),
-        Tmax = (5000,"K"),
+        Tmin = (298,'K'),
+        Tmax = (5000,'K'),
     ),
     reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
     referenceType = "review",
@@ -434,18 +410,16 @@ entry(
     label = "He",
     molecule = 
 """
-1 He 0
+1 He 0 4
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
-            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,0.9287], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,0.9287], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
-        Tmin = (200,"K"),
-        Tmax = (6000,"K"),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -469,8 +443,6 @@ entry(
         H298 = (200.397,'kcal/mol'),
         S298 = (33.393,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -496,8 +468,6 @@ entry(
         H298 = (171.336,'kcal/mol'),
         S298 = (35.576,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -521,12 +491,10 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.089,8.316,8.622,8.990,9.787,10.502,11.832],'cal/(mol*K)'),
+        Cpdata = ([8.089,8.316,8.622,8.99,9.787,10.502,11.832],'cal/(mol*K)'),
         H298 = (102.541,'kcal/mol'),
         S298 = (45.197,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -550,12 +518,10 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.342,8.610,8.914,9.238,9.893,10.500,11.680],'cal/(mol*K)'),
+        Cpdata = ([8.342,8.61,8.914,9.238,9.893,10.5,11.68],'cal/(mol*K)'),
         H298 = (93.559,'kcal/mol'),
         S298 = (46.636,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -585,8 +551,6 @@ entry(
         H298 = (-17.814,'kcal/mol'),
         S298 = (44.473,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -609,12 +573,10 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.950,6.945,6.962,7.006,7.173,7.387,7.891],'cal/(mol*K)'),
+        Cpdata = ([6.95,6.945,6.962,7.006,7.173,7.387,7.891],'cal/(mol*K)'),
         H298 = (85.753,'kcal/mol'),
         S298 = (43.265,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -642,8 +604,6 @@ entry(
         H298 = (44.467,'kcal/mol'),
         S298 = (46.516,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -672,8 +632,6 @@ entry(
         H298 = (-10.889,'kcal/mol'),
         S298 = (45.986,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -696,11 +654,9 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
-        H298 = (104.810,'kcal/mol'),
-        S298 = (34.250,'cal/(mol*K)'),
+        H298 = (104.81,'kcal/mol'),
+        S298 = (34.25,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -726,8 +682,6 @@ entry(
         H298 = (59.567,'kcal/mol'),
         S298 = (36.433,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -750,12 +704,10 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.954,6.946,6.951,6.973,7.080,7.251,7.719],'cal/(mol*K)'),
+        Cpdata = ([6.954,6.946,6.951,6.973,7.08,7.251,7.719],'cal/(mol*K)'),
         H298 = (8.863,'kcal/mol'),
         S298 = (43.958,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -779,12 +731,10 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.038,8.180,8.379,8.624,9.195,9.766,11.019],'cal/(mol*K)'),
+        Cpdata = ([8.038,8.18,8.379,8.624,9.195,9.766,11.019],'cal/(mol*K)'),
         H298 = (-57.797,'kcal/mol'),
         S298 = (45.084,'cal/(mol*K)'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -797,26 +747,22 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
     ],
 )
 
-
-
 entry(
     index = 30,
     label = "Cl2",
     molecule = 
 """
-1     Cl    0 {2,S}
-2     Cl    0 {1,S}
+1 Cl 0 3 {2,S}
+2 Cl 0 3 {1,S}
 """,
     thermo = NASA(
-        polynomials=[
-            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.73638,0.00783526,-1.45105e-05,1.25731e-08,-4.13247e-12,-1058.8,9.44557]),
-            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[4.74728,-0.000488582,2.68445e-07,-2.43476e-11,-1.03683e-15,-1511.02,-0.344539]),
+        polynomials = [
+            NASAPolynomial(coeffs=[2.73638,0.00783526,-1.45105e-05,1.25731e-08,-4.13247e-12,-1058.8,9.44557], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[4.74728,-0.000488582,2.68445e-07,-2.43476e-11,-1.03683e-15,-1511.02,-0.344539], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
-        Tmin = (200,"K"),
-        Tmax = (6000,"K"),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Burcat Thermo Data""",
     longDesc = 
 u"""
@@ -835,18 +781,16 @@ entry(
     label = "Cl",
     molecule = 
 """
-1     Cl    1
+1 Cl 1 3
 """,
     thermo = NASA(
-        polynomials=[
-            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.26062,0.00154154,-6.80284e-07,-1.59973e-09,1.15417e-12,13855.3,6.57021]),
-            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.94658,-0.000385985,1.36139e-07,-2.17033e-11,1.28751e-15,13697,3.1133]),
+        polynomials = [
+            NASAPolynomial(coeffs=[2.26062,0.00154154,-6.80284e-07,-1.59973e-09,1.15417e-12,13855.3,6.57021], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.94658,-0.000385985,1.36139e-07,-2.17033e-11,1.28751e-15,13697,3.1133], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
-        Tmin = (200,"K"),
-        Tmax = (6000,"K"),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Burcat Thermo Data""",
     longDesc = 
 u"""
@@ -865,19 +809,17 @@ entry(
     label = "HCl",
     molecule = 
 """
-1     Cl    0 {2,S}
-2     H     0 {1,S}
+1 Cl 0 3 {2,S}
+2 H  0 0 {1,S}
 """,
     thermo = NASA(
-        polynomials=[
-            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[3.46376,0.000476484,-2.00301e-06,3.31714e-09,-1.44958e-12,-12144.4,2.66428]),
-            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.75758,0.00145387,-4.79647e-07,7.77909e-11,-4.79574e-15,-11913.8,6.52197]),
+        polynomials = [
+            NASAPolynomial(coeffs=[3.46376,0.000476484,-2.00301e-06,3.31714e-09,-1.44958e-12,-12144.4,2.66428], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.75758,0.00145387,-4.79647e-07,7.77909e-11,-4.79574e-15,-11913.8,6.52197], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
-        Tmin = (200,"K"),
-        Tmax = (6000,"K"),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Burcat Thermo Data""",
     longDesc = 
 u"""
