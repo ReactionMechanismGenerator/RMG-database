@@ -9,7 +9,7 @@ longDesc = u"""
 
 template(reactants=["cyclohexene"], products=["open"], ownReverse=False)
 
-reverse = "none"
+reverse = "ringopening"
 
 recipe(actions=[
     ['CHANGE_BOND', '*1', '1', '*2'],
