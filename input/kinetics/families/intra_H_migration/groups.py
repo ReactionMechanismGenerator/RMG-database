@@ -5965,29 +5965,6 @@ u"""
 )
 
 entry(
-    index = 236,
-    label = "Cs_H_out_H/2NonDeC",
-    group = 
-"""
-1 *2 Cs 0 {2,S} {3,S} {4,S} 
-2 *3 H  0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
-)
-
-entry(
     index = 237,
     label = "Cs_H_out_H/(NonDeC/Cs/Cs)",
     group = 
@@ -6943,7 +6920,6 @@ L1: XH_out
                 L5: Cs_H_out_H/(NonDeC/Cs)
                     L6: Cs_H_out_H/(NonDeC/Cs/Cs)
                         L7: Cs_H_out_H/(NonDeC/Cs/Cs/Cs)
-                L5: Cs_H_out_H/2NonDeC
                 L5: Cs_H_out_H/(NonDeC/O)
             L4: Cs_H_out_H/NonDeO
                 L5: Cs_H_out_OOH/H

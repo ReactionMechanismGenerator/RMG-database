@@ -13472,7 +13472,7 @@ u"""
 
 entry(
     index = 1045,
-    label = "R3H_SS;O_rad_out;Cs_H_out_H/2NonDeC",
+    label = "R3H_SS;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
@@ -13853,7 +13853,7 @@ u"""
 
 entry(
     index = 1054,
-    label = "R3H_SS;O_rad_out;Cs_H_out_H/2NonDeC",
+    label = "R3H_SS;O_rad_out;Cs_H_out_Cs2",
     group1 = 
 """
 1 *1 R!H 1 {2,S}
