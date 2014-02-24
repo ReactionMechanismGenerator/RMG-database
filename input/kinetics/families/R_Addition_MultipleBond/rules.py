@@ -106975,7 +106975,7 @@ u"""
 Added by Beat Buesser, value for reaction: CH2 + N2 = CH2NN (B&D #22a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107009,7 +107009,7 @@ u"""
 Added by Beat Buesser, value for reaction: CH + N2 = HCNN (B&D #24a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107044,7 +107044,7 @@ u"""
 Added by Beat Buesser, value for reaction: N2H2 + H = N2H3 (B&D #31a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107079,7 +107079,7 @@ u"""
 Added by Beat Buesser, value for reaction: HCN + OH = NCHOH (B&D #42b4) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107113,7 +107113,7 @@ u"""
 Added by Beat Buesser, value for reaction: HCN + H = H2CN (B&D #45a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107147,7 +107147,7 @@ u"""
 Added by Beat Buesser, value for reaction: HCN + H = HCNH (B&D #46) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107182,7 +107182,7 @@ u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = CH3NH (B&D #49a) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107218,7 +107218,7 @@ u"""
 Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -107252,7 +107252,7 @@ u"""
 Added by Beat Buesser, value for reaction: HCN + O = HCNO (B&D #54) in 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
 """,
     history = [
-        (""),
+        ("Thurs Nov 07 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
