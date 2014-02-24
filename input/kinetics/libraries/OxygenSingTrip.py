@@ -88,6 +88,7 @@ O2
 2 O 1 2 {1,S}
 """,
     degeneracy = 1,
+	duplicate = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3000000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'c1ccccc1': 1.067, 'O': 1.783, '[H][H]': 1.0, '[O][O]': 0.34, 'N#N': 0.028, '[C]=O': 14.0, '[Ar]': 0.00166},

@@ -37,7 +37,7 @@ u"""
 
 """,
     history = [
-        (""),
+        ("Tue Nov 19 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
@@ -57,7 +57,7 @@ u"""
 
 """,
     history = [
-        (""),
+        ("Tue Nov 19 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
     ],
 )
 
