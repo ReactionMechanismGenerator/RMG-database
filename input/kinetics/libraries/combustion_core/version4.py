@@ -42,6 +42,7 @@ CO
         n = 2.1,
         Ea = (6.57, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -90,6 +91,7 @@ H
         n = 2.1,
         Ea = (6.57, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -109,11 +111,11 @@ entry(
     reactant1 = 
 """
 C4H2
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {6,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,T}
+2 C 0 0 {1,S} {4,T}
+3 C 0 0 {1,T} {5,S}
+4 C 0 0 {2,T} {6,S}
+5 H 0 0 {3,S}
 6 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -124,11 +126,11 @@ O
     product1 = 
 """
 C3H2
-1 C 2S 0 {2,S} {3,S}
-2 C 0  0 {1,S} {3,D} {4,S}
-3 C 0  0 {1,S} {2,D} {5,S}
-4 H 0  0 {2,S}
-5 H 0  0 {3,S}
+1 C 0  0 {2,D} {3,S} {4,S}
+2 C 0  0 {1,D} {3,S} {5,S}
+3 C 2S 0 {1,S} {2,S}
+4 H 0  0 {1,S}
+5 H 0  0 {2,S}
 """,
     product2 = 
 """
@@ -142,6 +144,7 @@ CO
         n = 0,
         Ea = (5.64, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -188,6 +191,7 @@ O
         n = 0,
         Ea = (196.9, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -234,6 +238,7 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -280,6 +285,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -328,6 +334,7 @@ H2
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -380,6 +387,7 @@ H
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -432,6 +440,7 @@ H
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -480,6 +489,7 @@ H2O
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -528,6 +538,7 @@ O
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -580,6 +591,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -612,9 +624,9 @@ HCO
     product1 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -628,6 +640,7 @@ CO
         n = 0,
         Ea = (7.09, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -682,6 +695,7 @@ OH
         n = 0,
         Ea = (3.58, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -728,6 +742,7 @@ H
         n = 1.3,
         Ea = (-3.2, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -753,9 +768,9 @@ CO
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -776,6 +791,7 @@ OH
         n = 0,
         Ea = (99.02, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -818,6 +834,7 @@ HCCO
         n = 0,
         Ea = (-7.15, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -866,6 +883,7 @@ CO
         n = 0,
         Ea = (2.87, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -916,6 +934,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -935,11 +954,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -966,6 +985,7 @@ CO
         n = 0,
         Ea = (14.13, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -985,11 +1005,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -1016,6 +1036,7 @@ CO2
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1035,11 +1056,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -1066,6 +1087,7 @@ CO
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1085,11 +1107,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -1120,6 +1142,7 @@ CO
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1139,11 +1162,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -1170,6 +1193,7 @@ HCO
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1189,11 +1213,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -1222,6 +1246,7 @@ CO2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1241,11 +1266,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -1274,6 +1299,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1320,6 +1346,7 @@ H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1368,6 +1395,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1412,6 +1440,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1464,6 +1493,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1483,9 +1513,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -1510,6 +1540,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1529,9 +1560,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -1558,6 +1589,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1577,10 +1609,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -1608,6 +1640,7 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1664,6 +1697,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1710,6 +1744,7 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1762,6 +1797,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1810,6 +1846,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1860,6 +1897,7 @@ HCO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1910,6 +1948,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -1960,6 +1999,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2018,6 +2058,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2068,6 +2109,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2118,6 +2160,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2164,6 +2207,7 @@ H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2214,6 +2258,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2248,10 +2293,10 @@ HCCO
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -2266,6 +2311,7 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2291,9 +2337,9 @@ O2
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -2314,6 +2360,7 @@ CH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2360,6 +2407,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2412,6 +2460,7 @@ H
         n = 0,
         Ea = (-1.66, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2445,9 +2494,9 @@ CH
     product1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -2462,6 +2511,7 @@ CH2
         n = 0,
         Ea = (-0.51, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2497,13 +2547,13 @@ CH
     product1 = 
 """
 C3H4
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -2516,6 +2566,7 @@ H
         n = 0,
         Ea = (-1.44, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2574,6 +2625,7 @@ CH3
         n = 0,
         Ea = (-1.1, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2624,6 +2676,7 @@ HCO
         n = 0,
         Ea = (-2.16, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2670,6 +2723,7 @@ H2
         n = 0,
         Ea = (-7.48, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2718,6 +2772,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2751,10 +2806,10 @@ CH3
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -2768,6 +2823,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2793,10 +2849,10 @@ CH
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -2820,6 +2876,7 @@ C2H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2866,6 +2923,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2916,6 +2974,7 @@ H2
         n = 0,
         Ea = (3.33, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -2970,6 +3029,7 @@ H
         n = 0,
         Ea = (3.33, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3022,6 +3082,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3048,10 +3109,10 @@ CH2
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -3076,6 +3137,7 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3124,6 +3186,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3158,9 +3221,9 @@ HCCO
     product1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -3176,6 +3239,7 @@ CH2O
         n = 0,
         Ea = (8.37, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3230,6 +3294,7 @@ CH3
         n = 0,
         Ea = (42, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3284,6 +3349,7 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3318,13 +3384,13 @@ CH2
     product1 = 
 """
 C3H4
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3332,6 +3398,7 @@ C3H4
         n = 0,
         Ea = (27.69, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3384,6 +3451,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3430,6 +3498,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3478,6 +3547,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3530,6 +3600,7 @@ C3H6
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3576,11 +3647,11 @@ CH3
     product2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -3590,6 +3661,7 @@ C2H5
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3640,6 +3712,7 @@ H2O
         n = 0,
         Ea = (11.64, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3694,6 +3767,7 @@ H
         n = 0,
         Ea = (242, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3721,18 +3795,18 @@ C2H2
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 C4H2
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {6,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,T}
+2 C 0 0 {1,S} {4,T}
+3 C 0 0 {1,T} {5,S}
+4 C 0 0 {2,T} {6,S}
+5 H 0 0 {3,S}
 6 H 0 0 {4,S}
 """,
     product2 = 
@@ -3746,6 +3820,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3798,6 +3873,7 @@ CH2HCO
         n = 1.88,
         Ea = (0.75, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3850,6 +3926,7 @@ HCO
         n = 1.88,
         Ea = (0.75, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3884,11 +3961,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -3902,6 +3979,7 @@ H2
         n = 1.88,
         Ea = (0.75, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3921,11 +3999,11 @@ entry(
     reactant1 = 
 """
 C4H2
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {6,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,T}
+2 C 0 0 {1,S} {4,T}
+3 C 0 0 {1,T} {5,S}
+4 C 0 0 {2,T} {6,S}
+5 H 0 0 {3,S}
 6 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -3937,11 +4015,11 @@ OH
     product1 = 
 """
 C3H2
-1 C 2S 0 {2,S} {3,S}
-2 C 0  0 {1,S} {3,D} {4,S}
-3 C 0  0 {1,S} {2,D} {5,S}
-4 H 0  0 {2,S}
-5 H 0  0 {3,S}
+1 C 0  0 {2,D} {3,S} {4,S}
+2 C 0  0 {1,D} {3,S} {5,S}
+3 C 2S 0 {1,S} {2,S}
+4 H 0  0 {1,S}
+5 H 0  0 {2,S}
 """,
     product2 = 
 """
@@ -3956,6 +4034,7 @@ HCO
         n = 0,
         Ea = (-1.71, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -3993,9 +4072,9 @@ H2O
     product1 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -4010,6 +4089,7 @@ H2O
         n = 0,
         Ea = (-8.73, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4054,6 +4134,7 @@ O
         n = 0,
         Ea = (62.11, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4104,6 +4185,7 @@ OH
         n = 0,
         Ea = (37.42, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4129,9 +4211,9 @@ O2
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -4152,6 +4234,7 @@ O
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4177,11 +4260,11 @@ O2
     reactant2 = 
 """
 C3H2
-1 C 2S 0 {2,S} {3,S}
-2 C 0  0 {1,S} {3,D} {4,S}
-3 C 0  0 {1,S} {2,D} {5,S}
-4 H 0  0 {2,S}
-5 H 0  0 {3,S}
+1 C 0  0 {2,D} {3,S} {4,S}
+2 C 0  0 {1,D} {3,S} {5,S}
+3 C 2S 0 {1,S} {2,S}
+4 H 0  0 {1,S}
+5 H 0  0 {2,S}
 """,
     product1 = 
 """
@@ -4204,6 +4287,7 @@ HCCO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4239,11 +4323,11 @@ H2CCCH
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -4258,6 +4342,7 @@ HCO
         n = 0,
         Ea = (12, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4306,6 +4391,7 @@ H2O
         n = 0,
         Ea = (16.59, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4341,11 +4427,11 @@ CH3
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -4360,6 +4446,7 @@ H
         n = 0,
         Ea = (56.54, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4384,9 +4471,9 @@ H
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -4406,6 +4493,7 @@ OH
         n = 0,
         Ea = (3.66, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4430,9 +4518,9 @@ H
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -4452,6 +4540,7 @@ O
         n = 0,
         Ea = (7.2, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4502,6 +4591,7 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4550,6 +4640,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4577,9 +4668,9 @@ CH3
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -4602,6 +4693,7 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4621,9 +4713,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -4650,6 +4742,7 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4669,11 +4762,11 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -4704,6 +4797,7 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4754,6 +4848,7 @@ O
         n = 0,
         Ea = (131.37, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4800,6 +4895,7 @@ H2O
         n = 1.14,
         Ea = (0.42, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4844,6 +4940,7 @@ H
         n = 2.67,
         Ea = (26.27, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4890,6 +4987,7 @@ OH
         n = 1.6,
         Ea = (77.08, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4940,6 +5038,7 @@ OH
         n = 1.56,
         Ea = (35.5, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -4992,6 +5091,7 @@ H2O
         n = 1.83,
         Ea = (11.64, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5025,9 +5125,9 @@ OH
     product1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -5042,6 +5142,7 @@ H2O
         n = 0,
         Ea = (54.04, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5076,10 +5177,10 @@ H
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -5094,6 +5195,7 @@ H2
         n = 0,
         Ea = (62.36, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5129,10 +5231,10 @@ OH
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -5148,6 +5250,7 @@ H2O
         n = 0,
         Ea = (24.86, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5184,11 +5287,11 @@ H
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -5204,6 +5307,7 @@ H2
         n = 1.5,
         Ea = (31.01, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5243,11 +5347,11 @@ CH3
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -5266,6 +5370,7 @@ CH4
         n = 6,
         Ea = (25.3, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5302,11 +5407,11 @@ O
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -5322,6 +5427,7 @@ OH
         n = 1.5,
         Ea = (24.28, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5359,11 +5465,11 @@ OH
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -5380,6 +5486,7 @@ H2O
         n = 2,
         Ea = (3.62, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5411,9 +5518,9 @@ C2H6
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -5426,11 +5533,11 @@ H2O2
     product2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -5440,6 +5547,7 @@ C2H5
         n = 0,
         Ea = (85.63, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5480,9 +5588,9 @@ HCO
     product2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5490,6 +5598,7 @@ HO2
         n = 0,
         Ea = (170.11, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5532,9 +5641,9 @@ CH2O
     product2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5542,6 +5651,7 @@ HO2
         n = 0,
         Ea = (7.32, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5574,9 +5684,9 @@ H
     product1 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -5590,6 +5700,7 @@ H2
         n = 0,
         Ea = (15.71, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5628,9 +5739,9 @@ OH
     product2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5638,6 +5749,7 @@ HO2
         n = 0,
         Ea = (16.63, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5678,9 +5790,9 @@ H2O
     product2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5688,6 +5800,7 @@ HO2
         n = 0,
         Ea = (5.57, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5736,6 +5849,7 @@ H2
         n = 1.62,
         Ea = (9.06, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5790,6 +5904,7 @@ HCO
         n = 0,
         Ea = (36.95, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5838,6 +5953,7 @@ OH
         n = 0.57,
         Ea = (11.56, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5888,6 +6004,7 @@ H2O
         n = 1.18,
         Ea = (-1.87, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5912,9 +6029,9 @@ H
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -5934,6 +6051,7 @@ O2
         n = 0,
         Ea = (5.9, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -5984,6 +6102,7 @@ H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6008,9 +6127,9 @@ O
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -6030,6 +6149,7 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6055,9 +6175,9 @@ OH
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -6078,6 +6198,7 @@ O2
         n = 0,
         Ea = (-2.08, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6097,15 +6218,15 @@ entry(
     reactant1 = 
 """
 C4H10
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  C 0 0 {3,S} {12,S} {13,S} {14,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  C 0 0 {2,S} {12,S} {13,S} {14,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {4,S}
@@ -6115,22 +6236,22 @@ C4H10
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 C4H9_1
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  C 1 0 {3,S} {12,S} {13,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  C 1 0 {2,S} {12,S} {13,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {4,S}
@@ -6150,6 +6271,7 @@ H2O2
         n = 0,
         Ea = (81.1, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6169,15 +6291,15 @@ entry(
     reactant1 = 
 """
 C4H10
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  C 0 0 {3,S} {12,S} {13,S} {14,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  C 0 0 {2,S} {12,S} {13,S} {14,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {4,S}
@@ -6187,25 +6309,25 @@ C4H10
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 C4H9_2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 1 0 {2,S} {4,S} {10,S}
-4  C 0 0 {3,S} {11,S} {12,S} {13,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {4,S} {10,S} {11,S} {12,S}
+4  C 1 0 {1,S} {3,S} {13,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
+11 H 0 0 {3,S}
+12 H 0 0 {3,S}
 13 H 0 0 {4,S}
 """,
     product2 = 
@@ -6222,6 +6344,7 @@ H2O2
         n = 0,
         Ea = (71.1, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6241,15 +6364,15 @@ entry(
     reactant1 = 
 """
 C4H10
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  C 0 0 {3,S} {12,S} {13,S} {14,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  C 0 0 {2,S} {12,S} {13,S} {14,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {4,S}
@@ -6265,15 +6388,15 @@ OH
     product1 = 
 """
 C4H9_1
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  C 1 0 {3,S} {12,S} {13,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  C 1 0 {2,S} {12,S} {13,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {4,S}
@@ -6292,6 +6415,7 @@ H2O
         n = 1.8,
         Ea = (3.99, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6311,15 +6435,15 @@ entry(
     reactant1 = 
 """
 C4H10
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  C 0 0 {3,S} {12,S} {13,S} {14,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  C 0 0 {2,S} {12,S} {13,S} {14,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {4,S}
@@ -6335,18 +6459,18 @@ OH
     product1 = 
 """
 C4H9_2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 1 0 {2,S} {4,S} {10,S}
-4  C 0 0 {3,S} {11,S} {12,S} {13,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {4,S} {10,S} {11,S} {12,S}
+4  C 1 0 {1,S} {3,S} {13,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
+11 H 0 0 {3,S}
+12 H 0 0 {3,S}
 13 H 0 0 {4,S}
 """,
     product2 = 
@@ -6362,6 +6486,7 @@ H2O
         n = 2,
         Ea = (-2.49, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6381,16 +6506,16 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -6412,6 +6537,7 @@ O2
         n = 0,
         Ea = (4.18, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6437,10 +6563,10 @@ O2
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -6464,6 +6590,7 @@ CH2O
         n = -1.39,
         Ea = (4.22, 'kJ/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6507,6 +6634,7 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6552,6 +6680,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6597,6 +6726,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6616,11 +6746,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -6644,6 +6774,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6683,6 +6814,7 @@ CH2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 0.48, 'O=C=O': 1.5, 'CC': 1.44, 'O': 6.5, '[O][O]': 0.4, '[C]=O': 0.75, 'N#N': 0.4, 'C=C': 1.6, 'C#C': 3.2, '[Ar]': 0.24},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6728,6 +6860,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6777,6 +6910,7 @@ H2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6818,6 +6952,7 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6848,9 +6983,9 @@ H
     product1 = 
 """
 HO2
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 H 0 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -6861,6 +6996,7 @@ HO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 0.0, '[O][O]': 0.4, 'N#N': 0.67, '[C]=O': 0.75, '[Ar]': 0.29},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6890,10 +7026,10 @@ C2H4
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -6910,6 +7046,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6951,6 +7088,7 @@ H2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[H][H]': 0.0, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -6992,6 +7130,7 @@ OH
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7035,6 +7174,7 @@ H2O
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 2.55, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.15},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7082,6 +7222,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7129,6 +7270,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7161,10 +7303,10 @@ H
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -7181,6 +7323,7 @@ C2H3
         T1 = (1, 'K'),
         T2 = (1231, 'K'),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7215,11 +7358,11 @@ H
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -7236,6 +7379,7 @@ C2H5
         T3 = (40, 'K'),
         T1 = (1025, 'K'),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7291,6 +7435,7 @@ H2O2
         T1 = (1, 'K'),
         T2 = (1040, 'K'),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7347,6 +7492,7 @@ CH4
         T3 = (3315, 'K'),
         T1 = (61, 'K'),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",
@@ -7409,6 +7555,7 @@ C2H6
         T3 = (73, 'K'),
         T1 = (1180, 'K'),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
+        comment = 'Reaction and kinetics from combustion_core\x0bersion4.',
     ),
     reference = None,
     referenceType = "",

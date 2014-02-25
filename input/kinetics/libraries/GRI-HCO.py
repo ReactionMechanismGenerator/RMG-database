@@ -43,7 +43,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.5e+18, 'cm^3/(mol*s)'), n=-1, Ea=(17000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.5e+18, 'cm^3/(mol*s)'),
+        n = -1,
+        Ea = (17000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-HCO.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -86,6 +92,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-HCO.',
     ),
     reference = None,
     referenceType = "",

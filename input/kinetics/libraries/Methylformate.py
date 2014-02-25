@@ -13,13 +13,13 @@ entry(
     reactant1 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     product1 = 
@@ -44,6 +44,7 @@ CH3OH
         n = 0.735,
         Ea = (68.628, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -63,13 +64,13 @@ entry(
     reactant1 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     product1 = 
@@ -94,6 +95,7 @@ CH2O
         n = 1.28,
         Ea = (75.979, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -113,13 +115,13 @@ entry(
     reactant1 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     product1 = 
@@ -144,6 +146,7 @@ CH4
         n = 0.832,
         Ea = (83.612, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -163,13 +166,13 @@ entry(
     reactant1 = 
 """
 Mofml
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 1 0 {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product1 = 
 """
@@ -187,7 +190,13 @@ CH3j
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2300000000.0, 's^-1'), n=1.09, Ea=(14.9, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2300000000.0, 's^-1'),
+        n = 1.09,
+        Ea = (14.9, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -212,22 +221,22 @@ CO
     reactant2 = 
 """
 CH3Oj
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {4,S} {5,S}
-3 H 0 0 {2,S}
-4 H 0 0 {2,S}
-5 H 0 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 Mofml
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 1 0 {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -235,6 +244,7 @@ Mofml
         n = 1.27,
         Ea = (5.81, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -269,16 +279,22 @@ CH2O
     product1 = 
 """
 Fmoml
-1 C 1 0 {4,S} {5,S} {6,S}
-2 C 0 0 {3,D} {4,S} {7,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5030, 'cm^3/(mol*s)'), n=2.48, Ea=(9.32, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5030, 'cm^3/(mol*s)'),
+        n = 2.48,
+        Ea = (9.32, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -302,13 +318,13 @@ Hj
     reactant2 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     product1 = 
@@ -320,16 +336,22 @@ H2
     product2 = 
 """
 Mofml
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 1 0 {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(228000, 'cm^3/(mol*s)'), n=2.5, Ea=(6.56, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (228000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (6.56, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -353,13 +375,13 @@ Hj
     reactant2 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     product1 = 
@@ -371,10 +393,10 @@ H2
     product2 = 
 """
 Fmoml
-1 C 1 0 {4,S} {5,S} {6,S}
-2 C 0 0 {3,D} {4,S} {7,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -385,6 +407,7 @@ Fmoml
         n = 2.55,
         Ea = (7.62, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -412,13 +435,13 @@ CH3j
     reactant2 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     product1 = 
@@ -433,16 +456,22 @@ CH4
     product2 = 
 """
 Mofml
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 1 0 {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.34, 'cm^3/(mol*s)'), n=2.82, Ea=(6.81, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6.34, 'cm^3/(mol*s)'),
+        n = 2.82,
+        Ea = (6.81, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -469,13 +498,13 @@ CH3j
     reactant2 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     product1 = 
@@ -490,16 +519,22 @@ CH4
     product2 = 
 """
 Fmoml
-1 C 1 0 {4,S} {5,S} {6,S}
-2 C 0 0 {3,D} {4,S} {7,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.257, 'cm^3/(mol*s)'), n=3.96, Ea=(8.02, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.257, 'cm^3/(mol*s)'),
+        n = 3.96,
+        Ea = (8.02, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -518,11 +553,11 @@ entry(
     reactant1 = 
 """
 CH3Oj
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {4,S} {5,S}
-3 H 0 0 {2,S}
-4 H 0 0 {2,S}
-5 H 0 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -534,13 +569,13 @@ HCjO
     product1 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -549,6 +584,7 @@ Mfmt
         n = 0,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -584,13 +620,13 @@ OjCHO
     product1 = 
 """
 Mfmt
-1 C 0 0 {4,S} {5,S} {6,S} {7,S}
-2 C 0 0 {3,D} {4,S} {8,S}
-3 O 0 2 {2,D}
-4 O 0 2 {1,S} {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {2,D}
 8 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -599,6 +635,7 @@ Mfmt
         n = 0,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Methylformate.',
     ),
     reference = None,
     referenceType = "",
