@@ -38,6 +38,7 @@ OH
         n = -0.41,
         Ea = (16600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -83,7 +84,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+17, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+17, 'cm^6/(mol^2*s)'),
+        n = -0.6,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -130,7 +137,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+19, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+19, 'cm^6/(mol^2*s)'),
+        n = -1,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -185,6 +198,7 @@ H
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -226,7 +240,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4300, 'cm^3/(mol*s)'), n=2.7, Ea=(-1822, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4300, 'cm^3/(mol*s)'),
+        n = 2.7,
+        Ea = (-1822, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -272,6 +292,7 @@ H2O
         n = 1.52,
         Ea = (3449, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -318,6 +339,7 @@ H
         n = 2.433,
         Ea = (53502, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -364,6 +386,7 @@ OH
         n = 0,
         Ea = (400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -410,6 +433,7 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -456,6 +480,7 @@ O2
         n = 0,
         Ea = (-445, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -504,6 +529,7 @@ O2
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -565,6 +591,7 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -613,6 +640,7 @@ OH
         n = 0,
         Ea = (3580, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -661,6 +689,7 @@ H2
         n = 0,
         Ea = (3760, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -704,7 +733,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9600000.0, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9600000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (3970, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -760,6 +795,7 @@ HO2
             ),
             Arrhenius(A=(1.6e+18, 'cm^3/(mol*s)'), n=0, Ea=(29410, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -806,6 +842,7 @@ O
         n = 0,
         Ea = (60500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -854,6 +891,7 @@ OH
         n = 2.18,
         Ea = (17943, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -903,6 +941,7 @@ HOCO
             ),
             Arrhenius(A=(1e+74, 'cm^3/(mol*s)'), n=-18, Ea=(37157, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -946,6 +985,7 @@ H
             Arrhenius(A=(2.8e+58, 's^-1'), n=-15, Ea=(46500, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(2e+71, 's^-1'), n=-18, Ea=(60000, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1002,6 +1042,7 @@ H2O
             ),
             Arrhenius(A=(9500000.0, 'cm^3/(mol*s)'), n=2, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1052,6 +1093,7 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1102,6 +1144,7 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1150,6 +1193,7 @@ H2
         n = 1.47,
         Ea = (2444, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1198,6 +1242,7 @@ OH
         n = 0.57,
         Ea = (2760, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1243,7 +1288,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(240000, 'cm^3/(mol*s)'), n=2.5, Ea=(36461, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (240000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (36461, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1293,6 +1344,7 @@ H2O
         n = 1.63,
         Ea = (-1055, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1340,7 +1392,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1389,7 +1447,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(32, 'cm^3/(mol*s)'), n=3.36, Ea=(4310, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (32, 'cm^3/(mol*s)'),
+        n = 3.36,
+        Ea = (4310, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1429,6 +1493,7 @@ CO
         n = -0.865,
         Ea = (16755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1475,6 +1540,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1521,6 +1587,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1567,6 +1634,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1615,6 +1683,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1663,6 +1732,7 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1717,6 +1787,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1767,6 +1838,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1812,7 +1884,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4100, 'cm^3/(mol*s)'), n=3.156, Ea=(8755, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4100, 'cm^3/(mol*s)'),
+        n = 3.156,
+        Ea = (8755, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1857,7 +1935,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(440000, 'cm^3/(mol*s)'), n=2.5, Ea=(6577, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (440000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (6577, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1909,6 +1993,7 @@ H2O
         n = 2.182,
         Ea = (2506, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -1958,7 +2043,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2012,6 +2103,7 @@ CH3
         n = 0,
         Ea = (10030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2066,6 +2158,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2114,6 +2207,7 @@ H2
         n = 0,
         Ea = (15100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2162,6 +2256,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2210,6 +2305,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2262,6 +2358,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2307,7 +2404,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1100, 'cm^3/(mol*s)'), n=3, Ea=(2780, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1100, 'cm^3/(mol*s)'),
+        n = 3,
+        Ea = (2780, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2357,6 +2460,7 @@ OH
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2409,6 +2513,7 @@ O2
         n = 2.228,
         Ea = (-3020, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2461,6 +2566,7 @@ OH
         n = 0.2688,
         Ea = (-687.5, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2511,6 +2617,7 @@ O
         n = 0,
         Ea = (28297, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2561,6 +2668,7 @@ OH
         n = 0,
         Ea = (9842, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2618,6 +2726,7 @@ CH3OO
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2670,6 +2779,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2724,6 +2834,7 @@ H
         n = 0,
         Ea = (16055, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2774,6 +2885,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2820,6 +2932,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2868,6 +2981,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2916,6 +3030,7 @@ H2O
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -2968,6 +3083,7 @@ H
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3016,6 +3132,7 @@ O
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3064,6 +3181,7 @@ H2
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3116,6 +3234,7 @@ H
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3166,6 +3285,7 @@ CH2O
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3212,6 +3332,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3262,6 +3383,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3310,6 +3432,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3362,6 +3485,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3412,6 +3536,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3462,6 +3587,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3514,6 +3640,7 @@ H2
         n = 1.24,
         Ea = (4491, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3566,6 +3693,7 @@ H2
         n = 1.24,
         Ea = (4491, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3618,6 +3746,7 @@ OH
         n = 0,
         Ea = (5305, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3670,6 +3799,7 @@ OH
         n = 0,
         Ea = (5305, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3724,6 +3854,7 @@ H2O
         n = 1.4434,
         Ea = (113, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3778,6 +3909,7 @@ H2O
         n = 1.4434,
         Ea = (113, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3834,6 +3966,7 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3888,6 +4021,7 @@ HO2
         n = 0,
         Ea = (46600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3942,6 +4076,7 @@ HO2
         n = 0,
         Ea = (54800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -3992,6 +4127,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4042,6 +4178,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4092,6 +4229,7 @@ OH
         n = 0,
         Ea = (-693, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4144,6 +4282,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4198,6 +4337,7 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4256,6 +4396,7 @@ HO2
             ),
             Arrhenius(A=(2.9e+16, 'cm^3/(mol*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4310,6 +4451,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4364,6 +4506,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4415,7 +4558,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5500, 'cm^3/(mol*s)'), n=2.81, Ea=(5862, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5500, 'cm^3/(mol*s)'),
+        n = 2.81,
+        Ea = (5862, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4473,6 +4622,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4531,6 +4681,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4584,7 +4735,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(22, 'cm^3/(mol*s)'), n=3.1, Ea=(16227, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (22, 'cm^3/(mol*s)'),
+        n = 3.1,
+        Ea = (16227, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4634,6 +4791,7 @@ H2
         n = 0,
         Ea = (745, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4684,6 +4842,7 @@ OH
         n = 0,
         Ea = (745, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4734,6 +4893,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4786,6 +4946,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4840,6 +5001,7 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4892,6 +5054,7 @@ HO2
         n = 0,
         Ea = (1749, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -4944,6 +5107,7 @@ CO2
         n = -4.93,
         Ea = (9080, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5000,6 +5164,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5058,6 +5223,7 @@ CH3
         n = 0,
         Ea = (15073, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5114,6 +5280,7 @@ HCO
         n = 0,
         Ea = (2981, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5172,6 +5339,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5215,7 +5383,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.2e+17, 's^-1'), n=-0.42, Ea=(44622, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.2e+17, 's^-1'),
+        n = -0.42,
+        Ea = (44622, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5273,6 +5447,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5327,6 +5502,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5381,6 +5557,7 @@ H2O
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5439,6 +5616,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5493,6 +5671,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5549,6 +5728,7 @@ H2O
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5609,6 +5789,7 @@ H2O
         n = 0,
         Ea = (-258, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5662,7 +5843,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5714,6 +5901,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5766,6 +5954,7 @@ O2
         n = 0,
         Ea = (-445, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5820,6 +6009,7 @@ O2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5874,6 +6064,7 @@ HO2
         n = 0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5930,6 +6121,7 @@ O2
         n = 0,
         Ea = (-1490, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -5988,6 +6180,7 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6043,7 +6236,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6103,6 +6302,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6157,6 +6357,7 @@ CO2
         n = 2.18,
         Ea = (17940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6210,7 +6411,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6270,6 +6477,7 @@ CH3OOH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6332,6 +6540,7 @@ CH2OH
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6409,6 +6618,7 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6475,6 +6685,7 @@ O2
         n = -0.55,
         Ea = (-1600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6539,6 +6750,7 @@ CH3CH2O
         n = 0,
         Ea = (-1410, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6600,7 +6812,13 @@ C2H5
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(19, 'cm^3/(mol*s)'), n=3.64, Ea=(17100, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (19, 'cm^3/(mol*s)'),
+        n = 3.64,
+        Ea = (17100, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6656,6 +6874,7 @@ H2
         n = 0,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -6707,7 +6926,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.1e-07, 'cm^3/(mol*s)'), n=6.5, Ea=(274, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.1e-07, 'cm^3/(mol*s)'),
+        n = 6.5,
+        Ea = (274, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6760,7 +6985,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9200000.0, 'cm^3/(mol*s)'), n=2, Ea=(990, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9200000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (990, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6815,7 +7046,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(110000, 'cm^3/(mol*s)'), n=2.5, Ea=(16850, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (110000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (16850, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6868,7 +7105,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(730000, 'cm^3/(mol*s)'), n=2.5, Ea=(49160, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (730000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (49160, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6941,6 +7184,7 @@ CH4
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7001,6 +7245,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7055,6 +7300,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7109,6 +7355,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7163,6 +7410,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7219,6 +7467,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7277,6 +7526,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7333,6 +7583,7 @@ HO2
         n = 1.09,
         Ea = (-1975, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7388,7 +7639,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5500, 'cm^3/(mol*s)'), n=2.81, Ea=(5860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5500, 'cm^3/(mol*s)'),
+        n = 2.81,
+        Ea = (5860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7446,6 +7703,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7506,6 +7764,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7572,6 +7831,7 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7606,10 +7866,10 @@ H
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -7619,7 +7879,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.62, Ea=(11266, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (240, 'cm^3/(mol*s)'),
+        n = 3.62,
+        Ea = (11266, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7671,6 +7937,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7723,6 +7990,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7786,6 +8054,7 @@ HCO
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7849,6 +8118,7 @@ H
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7884,10 +8154,10 @@ OH
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -7903,6 +8173,7 @@ H2O
         n = 1.8,
         Ea = (4166, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -7957,6 +8228,7 @@ CH2O
         n = -0.5,
         Ea = (11455, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8011,6 +8283,7 @@ H
         n = 0.81,
         Ea = (13867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8065,6 +8338,7 @@ H
         n = 0.75,
         Ea = (11491, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8126,6 +8400,7 @@ CH2CH2OH
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8182,6 +8457,7 @@ OH
         n = 0,
         Ea = (17200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8217,10 +8493,10 @@ O2
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -8236,6 +8512,7 @@ HO2
         n = 0,
         Ea = (60010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8273,10 +8550,10 @@ CH3
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -8294,6 +8571,7 @@ CH4
         n = 1.56,
         Ea = (16630, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8313,10 +8591,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8344,6 +8622,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8363,10 +8642,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8377,11 +8656,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -8394,6 +8673,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8413,10 +8693,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8446,6 +8726,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8465,10 +8746,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8500,6 +8781,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8519,10 +8801,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8534,16 +8816,22 @@ O2
     product1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3e+36, 'cm^3/(mol*s)'), n=-8, Ea=(5680, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3e+36, 'cm^3/(mol*s)'),
+        n = -8,
+        Ea = (5680, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8562,10 +8850,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8595,6 +8883,7 @@ HCO
         n = 0,
         Ea = (3130, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8614,10 +8903,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8647,6 +8936,7 @@ O
         n = 0,
         Ea = (4800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8666,10 +8956,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8699,6 +8989,7 @@ HO2
         n = 0,
         Ea = (7930, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8718,10 +9009,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8751,6 +9042,7 @@ CO
         n = 0,
         Ea = (3130, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8770,10 +9062,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8803,6 +9095,7 @@ CO2
         n = 0,
         Ea = (3130, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8822,10 +9115,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8854,7 +9147,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5400, 'cm^3/(mol*s)'), n=2.81, Ea=(5860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5400, 'cm^3/(mol*s)'),
+        n = 2.81,
+        Ea = (5860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8873,10 +9172,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8908,6 +9207,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8927,10 +9227,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -8964,6 +9264,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -8983,19 +9284,19 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -9022,6 +9323,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9041,18 +9343,18 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -9076,6 +9378,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9130,6 +9433,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9178,6 +9482,7 @@ H
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9221,7 +9526,13 @@ CO
 2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6100000.0, 'cm^3/(mol*s)'), n=2, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1900, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9253,9 +9564,9 @@ O
     product1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -9269,6 +9580,7 @@ OH
         n = -0.6,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9314,7 +9626,13 @@ CO
 2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.77, Ea=(4697, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (830000, 'cm^3/(mol*s)'),
+        n = 1.77,
+        Ea = (4697, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9347,10 +9665,10 @@ OH
     product1 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -9364,6 +9682,7 @@ H
         n = 1.89,
         Ea = (13603, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9421,6 +9740,7 @@ CHCHOH
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9454,11 +9774,11 @@ OH
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9466,7 +9786,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(15000, 'cm^3/(mol*s)'), n=2.45, Ea=(4477, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (15000, 'cm^3/(mol*s)'),
+        n = 2.45,
+        Ea = (4477, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9518,6 +9844,7 @@ HCO
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9570,6 +9897,7 @@ O
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9620,6 +9948,7 @@ HCO
         n = 1.8,
         Ea = (30600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9672,6 +10001,7 @@ CH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9705,7 +10035,13 @@ C2H2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(10000000.0, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (10000000.0, 's^-1'),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9753,6 +10089,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9786,11 +10123,11 @@ OH
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9803,6 +10140,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9853,6 +10191,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9884,9 +10223,9 @@ H2
     product1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -9894,7 +10233,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(400000, 'cm^3/(mol*s)'), n=2.4, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (400000, 'cm^3/(mol*s)'),
+        n = 2.4,
+        Ea = (1000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9913,9 +10258,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -9942,6 +10287,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -9961,9 +10307,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -9990,6 +10336,7 @@ H2O
         n = 2,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10009,9 +10356,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -10033,7 +10380,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(410000, 'cm^3/(mol*s)'), n=2.39, Ea=(864, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (410000, 'cm^3/(mol*s)'),
+        n = 2.39,
+        Ea = (864, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10052,9 +10405,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -10085,6 +10438,7 @@ H
         n = -0.16,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10104,9 +10458,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -10139,6 +10493,7 @@ C2H2
         n = 0,
         Ea = (976, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10170,9 +10525,9 @@ OH
     product1 = 
 """
 C2O
-1 C 2T 0 {2,D}
-2 C 0  0 {1,D} {3,D}
-3 O 0  2 {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2T 0 {1,D}
+3 O 0  2 {1,D}
 """,
     product2 = 
 """
@@ -10185,6 +10540,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10231,6 +10587,7 @@ CO
         n = 0,
         Ea = (980, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10250,12 +10607,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10289,6 +10646,7 @@ H2
         n = 1.65,
         Ea = (2827, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10308,12 +10666,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10347,6 +10705,7 @@ H2
         n = 1.8,
         Ea = (5098, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10366,12 +10725,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10405,6 +10764,7 @@ H2
         n = 1.65,
         Ea = (3038, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10424,12 +10784,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10463,6 +10823,7 @@ OH
         n = 1.85,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10482,12 +10843,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10521,6 +10882,7 @@ OH
         n = 1.7,
         Ea = (5459, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10540,12 +10902,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10579,6 +10941,7 @@ OH
         n = 2,
         Ea = (4448, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10598,12 +10961,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10639,6 +11002,7 @@ H2O
         n = 0.15,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10658,12 +11022,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10699,6 +11063,7 @@ H2O
         n = 0.27,
         Ea = (600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10718,12 +11083,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10759,6 +11124,7 @@ H2O
         n = 0.3,
         Ea = (1634, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10778,12 +11144,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10816,7 +11182,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8200, 'cm^3/(mol*s)'), n=2.55, Ea=(10750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8200, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (10750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10835,12 +11207,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10873,7 +11245,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(12000, 'cm^3/(mol*s)'), n=2.55, Ea=(15750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (12000, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (15750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10892,12 +11270,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10935,6 +11313,7 @@ H2O2
         n = 0,
         Ea = (24000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -10954,12 +11333,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -10994,7 +11373,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(730, 'cm^3/(mol*s)'), n=2.99, Ea=(7948, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (730, 'cm^3/(mol*s)'),
+        n = 2.99,
+        Ea = (7948, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11013,12 +11398,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -11053,7 +11438,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(220, 'cm^3/(mol*s)'), n=3.18, Ea=(9622, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (220, 'cm^3/(mol*s)'),
+        n = 3.18,
+        Ea = (9622, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11072,12 +11463,12 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -11112,7 +11503,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(150, 'cm^3/(mol*s)'), n=2.99, Ea=(7649, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (150, 'cm^3/(mol*s)'),
+        n = 2.99,
+        Ea = (7649, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11168,6 +11565,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11224,6 +11622,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11280,6 +11679,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11338,6 +11738,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11402,6 +11803,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11471,6 +11873,7 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11516,7 +11919,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(220000, 's^-1'), n=2.84, Ea=(32920, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (220000, 's^-1'),
+        n = 2.84,
+        Ea = (32920, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11557,7 +11966,13 @@ CH2CH2OH
 8 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.8e-29, 's^-1'), n=11.9, Ea=(4450, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.8e-29, 's^-1'),
+        n = 11.9,
+        Ea = (4450, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11613,6 +12028,7 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11669,6 +12085,7 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11727,6 +12144,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11765,12 +12183,12 @@ HO2
     product1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -11787,6 +12205,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11852,6 +12271,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11910,6 +12330,7 @@ HO2
         n = 1.09,
         Ea = (-1975, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -11955,7 +12376,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(13000000000000.0, 's^-1'), n=0, Ea=(20060, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (13000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (20060, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12011,6 +12438,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12069,6 +12497,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12127,6 +12556,7 @@ HO2
         n = 0,
         Ea = (645, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12185,6 +12615,7 @@ CO2
         n = -4.93,
         Ea = (9080, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12239,6 +12670,7 @@ H2
         n = -0.35,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12293,6 +12725,7 @@ H2
         n = 0.4,
         Ea = (5359, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12347,6 +12780,7 @@ OH
         n = -1.9,
         Ea = (2975, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12401,6 +12835,7 @@ OH
         n = -0.2,
         Ea = (3556, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12457,6 +12892,7 @@ H2O
         n = 0.3,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12513,6 +12949,7 @@ H2O
         n = -0.6,
         Ea = (800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12571,6 +13008,7 @@ H2O2
         n = -2.2,
         Ea = (14030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12629,6 +13067,7 @@ H2O2
         n = 0.4,
         Ea = (14864, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12680,7 +13119,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.5, Ea=(37554, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (120000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (37554, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12735,7 +13180,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.9e-07, 'cm^3/(mol*s)'), n=5.8, Ea=(2200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.9e-07, 'cm^3/(mol*s)'),
+        n = 5.8,
+        Ea = (2200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12790,7 +13241,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(25, 'cm^3/(mol*s)'), n=3.15, Ea=(5727, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (25, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (5727, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12838,6 +13295,7 @@ H
         n = 0.2,
         Ea = (71780, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12886,6 +13344,7 @@ HCO
         n = 0.4,
         Ea = (61880, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12934,6 +13393,7 @@ H
         n = 0.25,
         Ea = (65310, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -12964,11 +13424,11 @@ cC2H4O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -12982,6 +13442,7 @@ H2
         n = -0.2,
         Ea = (63030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13026,6 +13487,7 @@ CH3CHO
         n = -0.75,
         Ea = (46424, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13074,6 +13536,7 @@ H2O
         n = 0.06,
         Ea = (69530, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13128,6 +13591,7 @@ H2
         n = 0,
         Ea = (8310, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13163,10 +13627,10 @@ H
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -13182,6 +13646,7 @@ H2O
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13236,6 +13701,7 @@ OH
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13290,6 +13756,7 @@ OH
         n = 0,
         Ea = (5250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13346,6 +13813,7 @@ H2O
         n = 0,
         Ea = (3610, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13404,6 +13872,7 @@ H2O2
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13460,6 +13929,7 @@ HO2
         n = 0,
         Ea = (61500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13520,6 +13990,7 @@ CH4
         n = 0,
         Ea = (11830, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13569,7 +14040,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.63, Ea=(11266, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (240, 'cm^3/(mol*s)'),
+        n = 3.63,
+        Ea = (11266, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13623,6 +14100,7 @@ H2
         n = 1.7,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13688,6 +14166,7 @@ HCO
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13742,6 +14221,7 @@ OH
         n = 2,
         Ea = (4400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13793,7 +14273,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.13, 'cm^3/(mol*s)'), n=4.2, Ea=(-860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.13, 'cm^3/(mol*s)'),
+        n = 4.2,
+        Ea = (-860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13849,6 +14335,7 @@ H2O
         n = 0.3,
         Ea = (1600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13910,6 +14397,7 @@ OH
         n = 1.8,
         Ea = (39000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -13939,10 +14427,10 @@ CHCHOH
     product1 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -13951,7 +14439,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.5e+29, 's^-1'), n=-5.057, Ea=(52377, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.5e+29, 's^-1'),
+        n = -5.057,
+        Ea = (52377, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14003,6 +14497,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14037,12 +14532,12 @@ O
     product1 = 
 """
 OCHCHO
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 O 0 2 {3,D}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,D} {5,S}
+2 C 0 0 {1,S} {4,D} {6,S}
+3 O 0 2 {1,D}
+4 O 0 2 {2,D}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -14055,6 +14550,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14090,10 +14586,10 @@ O2
     product1 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -14104,7 +14600,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(140, 'cm^3/(mol*s)'), n=3.4, Ea=(3700, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (140, 'cm^3/(mol*s)'),
+        n = 3.4,
+        Ea = (3700, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14141,7 +14643,13 @@ CH2CHO
 6 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.7e+31, 's^-1'), n=-6.9, Ea=(14994, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.7e+31, 's^-1'),
+        n = -6.9,
+        Ea = (14994, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14170,11 +14678,11 @@ cC2H3O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -14182,7 +14690,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(50000000000000.0, 's^-1'), n=0, Ea=(14863, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (50000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (14863, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14223,7 +14737,13 @@ CO
 2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(7100000000000.0, 's^-1'), n=0, Ea=(14280, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (7100000000000.0, 's^-1'),
+        n = 0,
+        Ea = (14280, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14252,11 +14772,11 @@ CH2CHO
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -14269,6 +14789,7 @@ H
         n = -0.15,
         Ea = (45606, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14315,6 +14836,7 @@ CO
         n = 0.29,
         Ea = (40326, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14367,6 +14889,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14419,6 +14942,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14453,11 +14977,11 @@ H
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -14471,6 +14995,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14505,11 +15030,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -14523,6 +15048,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14558,11 +15084,11 @@ OH
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -14577,6 +15103,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14631,6 +15158,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14689,6 +15217,7 @@ OH
         n = 6.69,
         Ea = (4868, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14751,6 +15280,7 @@ H
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14811,6 +15341,7 @@ OH
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14867,6 +15398,7 @@ O2
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14923,6 +15455,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14969,6 +15502,7 @@ CO
         n = 0.63,
         Ea = (16895, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -14988,11 +15522,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15015,6 +15549,7 @@ CH3CO
         n = 1.61,
         Ea = (2627, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15067,6 +15602,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15101,11 +15637,11 @@ H
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -15119,6 +15655,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15171,6 +15708,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15205,11 +15743,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -15223,6 +15761,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15258,11 +15797,11 @@ OH
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -15277,6 +15816,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15343,6 +15883,7 @@ CH3O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15401,6 +15942,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15438,11 +15980,11 @@ CH3
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -15459,6 +16001,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15517,6 +16060,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15536,11 +16080,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15567,6 +16111,7 @@ CO
         n = 0.851,
         Ea = (2840, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15586,11 +16131,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15617,6 +16162,7 @@ H2
         n = 2,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15636,11 +16182,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15667,6 +16213,7 @@ CH2
         n = 0,
         Ea = (1350, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15686,11 +16233,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15717,6 +16264,7 @@ OH
         n = 2,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15736,11 +16284,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15769,6 +16317,7 @@ CO
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15788,11 +16337,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15821,6 +16370,7 @@ CO2
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15840,11 +16390,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15873,6 +16423,7 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15892,11 +16443,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15927,6 +16478,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15946,10 +16498,10 @@ entry(
     reactant1 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -15977,6 +16529,7 @@ H2
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -15996,10 +16549,10 @@ entry(
     reactant1 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16027,6 +16580,7 @@ OH
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16046,10 +16600,10 @@ entry(
     reactant1 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16079,6 +16633,7 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16127,6 +16682,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16179,6 +16735,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16229,6 +16786,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16262,9 +16820,9 @@ OH
     product1 = 
 """
 C2O
-1 C 2T 0 {2,D}
-2 C 0  0 {1,D} {3,D}
-3 O 0  2 {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2T 0 {1,D}
+3 O 0  2 {1,D}
 """,
     product2 = 
 """
@@ -16279,6 +16837,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16333,6 +16892,7 @@ H
         n = -0.142,
         Ea = (1150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16387,6 +16947,7 @@ OH
         n = -0.02,
         Ea = (1020, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16436,7 +16997,13 @@ O
 1 O 2T 2
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(220, 'cm^3/(mol*s)'), n=2.69, Ea=(3540, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (220, 'cm^3/(mol*s)'),
+        n = 2.69,
+        Ea = (3540, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -16470,10 +17037,10 @@ CH2
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -16488,6 +17055,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16546,6 +17114,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16565,9 +17134,9 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2T 0 {2,D}
-2 C 0  0 {1,D} {3,D}
-3 O 0  2 {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2T 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
@@ -16592,6 +17161,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16611,9 +17181,9 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2T 0 {2,D}
-2 C 0  0 {1,D} {3,D}
-3 O 0  2 {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2T 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
@@ -16644,6 +17214,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16663,9 +17234,9 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2T 0 {2,D}
-2 C 0  0 {1,D} {3,D}
-3 O 0  2 {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2T 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
@@ -16696,6 +17267,7 @@ O
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16715,9 +17287,9 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2T 0 {2,D}
-2 C 0  0 {1,D} {3,D}
-3 O 0  2 {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2T 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
@@ -16744,6 +17316,7 @@ CO2
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16763,15 +17336,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product1 = 
@@ -16793,7 +17366,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.2e+17, 's^-1'), n=-0.42, Ea=(44622, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.2e+17, 's^-1'),
+        n = -0.42,
+        Ea = (44622, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -16812,15 +17391,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -16857,6 +17436,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16876,15 +17456,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -16895,15 +17475,15 @@ H
     product1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -16917,6 +17497,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16936,15 +17517,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -16977,6 +17558,7 @@ H2O
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -16996,15 +17578,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -17041,6 +17623,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17060,15 +17643,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -17079,15 +17662,15 @@ O
     product1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -17101,6 +17684,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17120,15 +17704,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -17167,6 +17751,7 @@ H2O
         n = 0,
         Ea = (-258, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17186,15 +17771,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -17206,15 +17791,15 @@ OH
     product1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -17229,6 +17814,7 @@ H2O
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17248,15 +17834,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -17269,15 +17855,15 @@ HO2
     product1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -17288,7 +17874,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17307,15 +17899,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17346,6 +17938,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17365,15 +17958,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17404,6 +17997,7 @@ O2
         n = 0,
         Ea = (-145, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17423,15 +18017,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17442,12 +18036,12 @@ OH
     product1 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -17464,6 +18058,7 @@ O2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17483,15 +18078,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17524,6 +18119,7 @@ HO2
         n = 0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17543,15 +18139,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17563,15 +18159,15 @@ HO2
     product1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product2 = 
@@ -17586,6 +18182,7 @@ O2
         n = 0,
         Ea = (-1391, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17605,15 +18202,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17646,6 +18243,7 @@ CO2
         n = 2.18,
         Ea = (17940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17665,15 +18263,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17710,6 +18308,7 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17729,15 +18328,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17751,15 +18350,15 @@ CH4
     product1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product2 = 
@@ -17771,7 +18370,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17790,15 +18395,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17813,15 +18418,15 @@ CH3OH
     product1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product2 = 
@@ -17839,6 +18444,7 @@ CH2OH
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17858,15 +18464,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17879,15 +18485,15 @@ CH2O
     product1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product2 = 
@@ -17898,7 +18504,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17917,15 +18529,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -17968,6 +18580,7 @@ CH3CH2O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -17987,15 +18600,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -18012,15 +18625,15 @@ C2H6
     product1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product2 = 
@@ -18035,7 +18648,13 @@ C2H5
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.6, 'cm^3/(mol*s)'), n=3.76, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.6, 'cm^3/(mol*s)'),
+        n = 3.76,
+        Ea = (17200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18054,15 +18673,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -18078,15 +18697,15 @@ CH3CHO
     product1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product2 = 
@@ -18105,6 +18724,7 @@ CH3CO
         n = -2.2,
         Ea = (14030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18124,15 +18744,15 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -18148,15 +18768,15 @@ CH3CHO
     product1 = 
 """
 CH3CH2OOH
-1  O 0 2 {2,S} {5,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {6,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     product2 = 
@@ -18175,6 +18795,7 @@ CH2CHO
         n = 0.4,
         Ea = (14864, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18194,28 +18815,28 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -18253,6 +18874,7 @@ O2
         n = -0.27,
         Ea = (408, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18272,28 +18894,28 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -18309,12 +18931,12 @@ CH3CHO
     product2 = 
 """
 CH3CH2OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -18331,6 +18953,7 @@ O2
         n = 0,
         Ea = (-850, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18350,14 +18973,14 @@ entry(
     reactant1 = 
 """
 CH2CH2OOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {6,S} {7,S}
-4 C 1 0 {3,S} {8,S} {9,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product1 = 
@@ -18378,7 +19001,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(13000000000.0, 's^-1'), n=0.72, Ea=(15380, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (13000000000.0, 's^-1'),
+        n = 0.72,
+        Ea = (15380, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18397,31 +19026,37 @@ entry(
     reactant1 = 
 """
 CH2CH2OOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {6,S} {7,S}
-4 C 1 0 {3,S} {8,S} {9,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product1 = 
 """
 CH3CH2OO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {5,S} {6,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(12000000.0, 's^-1'), n=1.04, Ea=(17980, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (12000000.0, 's^-1'),
+        n = 1.04,
+        Ea = (17980, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18440,14 +19075,14 @@ entry(
     reactant1 = 
 """
 CH2CH2OOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {6,S} {7,S}
-4 C 1 0 {3,S} {8,S} {9,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product1 = 
@@ -18473,6 +19108,7 @@ HO2
         n = 0.52,
         Ea = (16150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18492,13 +19128,13 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     product1 = 
@@ -18518,7 +19154,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.2e+17, 's^-1'), n=-0.42, Ea=(44622, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.2e+17, 's^-1'),
+        n = -0.42,
+        Ea = (44622, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18537,13 +19179,13 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -18554,13 +19196,13 @@ H
     product1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -18574,6 +19216,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18593,13 +19236,13 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -18630,6 +19273,7 @@ H2O
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18649,13 +19293,13 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -18666,13 +19310,13 @@ O
     product1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -18686,6 +19330,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18705,13 +19350,13 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -18723,13 +19368,13 @@ OH
     product1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -18744,6 +19389,7 @@ H2O
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18763,13 +19409,13 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -18782,13 +19428,13 @@ HO2
     product1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
@@ -18799,7 +19445,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18818,13 +19470,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -18842,7 +19494,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9.6e+48, 's^-1'), n=-8.868, Ea=(110591, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9.6e+48, 's^-1'),
+        n = -8.868,
+        Ea = (110591, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18861,13 +19519,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -18885,7 +19543,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.1e+47, 's^-1'), n=-8.701, Ea=(111046, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.1e+47, 's^-1'),
+        n = -8.701,
+        Ea = (111046, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18904,13 +19568,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -18939,6 +19603,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -18958,13 +19623,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -18993,6 +19658,7 @@ O2
         n = 0,
         Ea = (-145, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19012,13 +19678,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19049,6 +19715,7 @@ O2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19068,13 +19735,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19105,6 +19772,7 @@ HO2
         n = 0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19124,13 +19792,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19142,13 +19810,13 @@ HO2
     product1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     product2 = 
@@ -19163,6 +19831,7 @@ O2
         n = 0,
         Ea = (-1391, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19182,13 +19851,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19219,6 +19888,7 @@ CO2
         n = 2.18,
         Ea = (17940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19238,13 +19908,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19279,6 +19949,7 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19298,13 +19969,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19318,13 +19989,13 @@ CH4
     product1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     product2 = 
@@ -19336,7 +20007,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19355,13 +20032,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19376,13 +20053,13 @@ CH3OH
     product1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     product2 = 
@@ -19400,6 +20077,7 @@ CH2OH
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19419,13 +20097,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19438,13 +20116,13 @@ CH2O
     product1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     product2 = 
@@ -19455,7 +20133,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19474,13 +20158,13 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 O 1 2 {2,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {5,S}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {3,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -19497,13 +20181,13 @@ C2H6
     product1 = 
 """
 CH2CHOOH
-1 O 0 2 {2,S} {5,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
     product2 = 
@@ -19518,7 +20202,13 @@ C2H5
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.6, 'cm^3/(mol*s)'), n=3.76, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.6, 'cm^3/(mol*s)'),
+        n = 3.76,
+        Ea = (17200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19537,12 +20227,12 @@ entry(
     reactant1 = 
 """
 OCHCHO
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 O 0 2 {3,D}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,D} {5,S}
+2 C 0 0 {1,S} {4,D} {6,S}
+3 O 0 2 {1,D}
+4 O 0 2 {2,D}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -19570,6 +20260,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19589,12 +20280,12 @@ entry(
     reactant1 = 
 """
 OCHCHO
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 O 0 2 {3,D}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,D} {5,S}
+2 C 0 0 {1,S} {4,D} {6,S}
+3 O 0 2 {1,D}
+4 O 0 2 {2,D}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -19628,6 +20319,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19665,15 +20357,15 @@ HCO
     product1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -19682,6 +20374,7 @@ C2H5CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19718,15 +20411,15 @@ CO
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19734,6 +20427,7 @@ C2H5CO
         n = 0,
         Ea = (4800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19771,15 +20465,15 @@ CH3
     product1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -19788,6 +20482,7 @@ C2H5CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19807,15 +20502,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -19826,15 +20521,15 @@ H
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -19848,6 +20543,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19867,15 +20563,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -19886,15 +20582,15 @@ O
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -19908,6 +20604,7 @@ OH
         n = 0,
         Ea = (1730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19927,15 +20624,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -19947,15 +20644,15 @@ OH
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -19970,6 +20667,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -19989,13 +20687,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20017,7 +20715,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3500000000000.0, 's^-1'), n=0, Ea=(70000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3500000000000.0, 's^-1'),
+        n = 0,
+        Ea = (70000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20036,26 +20740,26 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -20064,7 +20768,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(40000000000000.0, 's^-1'), n=0, Ea=(80000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (40000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (80000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20083,13 +20793,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20122,6 +20832,7 @@ CH3
         n = 0,
         Ea = (1302, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -20141,13 +20852,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20159,11 +20870,11 @@ H
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20175,7 +20886,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(170000, 'cm^3/(mol*s)'), n=2.5, Ea=(2492, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (170000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (2492, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20194,13 +20911,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20212,14 +20929,14 @@ H
     product1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -20228,7 +20945,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(410000, 'cm^3/(mol*s)'), n=2.5, Ea=(9794, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (410000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (9794, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20247,13 +20970,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20265,13 +20988,13 @@ H
     product1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     product2 = 
@@ -20281,7 +21004,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(800000, 'cm^3/(mol*s)'), n=2.5, Ea=(12284, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (800000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (12284, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20300,13 +21029,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20339,6 +21068,7 @@ HCO
         n = 1.76,
         Ea = (-1220, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -20358,13 +21088,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20376,11 +21106,11 @@ O
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20397,6 +21127,7 @@ OH
         n = 0.7,
         Ea = (5884, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -20416,13 +21147,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20434,13 +21165,13 @@ O
     product1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     product2 = 
@@ -20455,6 +21186,7 @@ OH
         n = 0.7,
         Ea = (8959, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -20474,13 +21206,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20492,14 +21224,14 @@ O
     product1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -20513,6 +21245,7 @@ OH
         n = 0.7,
         Ea = (7632, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -20532,13 +21265,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20550,14 +21283,14 @@ O
     product1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -20575,6 +21308,7 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -20594,13 +21328,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20613,11 +21347,11 @@ OH
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20630,7 +21364,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3100000.0, 'cm^3/(mol*s)'), n=2, Ea=(-298, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (-298, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20649,13 +21389,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20668,14 +21408,14 @@ OH
     product1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -20685,7 +21425,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1100000.0, 'cm^3/(mol*s)'), n=2, Ea=(1451, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1451, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20704,13 +21450,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20723,13 +21469,13 @@ OH
     product1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     product2 = 
@@ -20740,7 +21486,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2100000.0, 'cm^3/(mol*s)'), n=2, Ea=(2778, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (2778, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20759,13 +21511,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20779,11 +21531,11 @@ HO2
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20797,7 +21549,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9600, 'cm^3/(mol*s)'), n=2.6, Ea=(13910, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9600, 'cm^3/(mol*s)'),
+        n = 2.6,
+        Ea = (13910, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20816,13 +21574,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20836,11 +21594,11 @@ HCO
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20859,6 +21617,7 @@ CH2O
         n = 1.9,
         Ea = (17010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -20878,13 +21637,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20899,11 +21658,11 @@ CH3
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20918,7 +21677,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.2, 'cm^3/(mol*s)'), n=3.5, Ea=(5675, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.2, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (5675, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20937,13 +21702,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20958,14 +21723,14 @@ CH3
     product1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -20977,7 +21742,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.84, 'cm^3/(mol*s)'), n=3.5, Ea=(11656, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.84, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (11656, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20996,13 +21767,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21017,13 +21788,13 @@ CH3
     product1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     product2 = 
@@ -21036,7 +21807,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.4, 'cm^3/(mol*s)'), n=3.5, Ea=(12848, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.4, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (12848, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21055,13 +21832,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21072,13 +21849,13 @@ H
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21088,6 +21865,7 @@ C3H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21107,14 +21885,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -21124,13 +21902,13 @@ H
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21140,6 +21918,7 @@ C3H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21159,13 +21938,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21178,13 +21957,13 @@ HO2
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21200,6 +21979,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21219,11 +21999,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -21238,13 +22018,13 @@ HO2
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21260,6 +22040,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21279,14 +22060,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -21298,13 +22079,13 @@ HO2
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21320,6 +22101,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21339,11 +22121,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -21351,11 +22133,11 @@ CH2CHCH2
     reactant2 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -21363,26 +22145,26 @@ CH2CHCH2
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21390,6 +22172,7 @@ H2CCCH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21425,13 +22208,13 @@ CH3
     product1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -21440,6 +22223,7 @@ CH3CHCH
         n = -7.76,
         Ea = (13300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21459,13 +22243,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21476,11 +22260,11 @@ H
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -21496,6 +22280,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21515,13 +22300,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21552,6 +22337,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21571,13 +22357,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21588,14 +22374,14 @@ O
     product1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -21608,6 +22394,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21627,13 +22414,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21666,6 +22453,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21685,13 +22473,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21724,6 +22512,7 @@ HCO
         n = -3.29,
         Ea = (3892, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21743,13 +22532,13 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21761,14 +22550,14 @@ O2
     product1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -21786,6 +22575,7 @@ O
         n = -0.78,
         Ea = (3135, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21821,14 +22611,14 @@ CH3
     product1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21836,6 +22626,7 @@ CH3CCH2
         n = -4.39,
         Ea = (18850, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21855,14 +22646,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -21872,11 +22663,11 @@ H
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -21892,6 +22683,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21911,14 +22703,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -21948,6 +22740,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -21967,14 +22760,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -21984,11 +22777,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -22004,6 +22797,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22023,14 +22817,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -22062,6 +22856,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22081,14 +22876,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -22120,6 +22915,7 @@ CH2O
         n = -3.29,
         Ea = (3892, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22139,14 +22935,14 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -22182,6 +22978,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22218,11 +23015,11 @@ CH2(S)
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22238,6 +23035,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22257,10 +23055,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -22274,11 +23072,11 @@ CH3
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22289,7 +23087,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(470, 'cm^3/(mol*s)'), n=3.7, Ea=(5677, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (470, 'cm^3/(mol*s)'),
+        n = 3.7,
+        Ea = (5677, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22324,11 +23128,11 @@ CH3
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22339,6 +23143,7 @@ CH2CHCH2
         n = -12.82,
         Ea = (35730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22358,11 +23163,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22375,13 +23180,13 @@ H
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22395,6 +23200,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22414,11 +23220,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22431,12 +23237,12 @@ O
     product1 = 
 """
 CH2CHCHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -22451,6 +23257,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22470,11 +23277,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22488,13 +23295,13 @@ OH
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22509,6 +23316,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22528,11 +23336,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22547,12 +23355,12 @@ HO2
     product1 = 
 """
 CH2CHCHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -22573,6 +23381,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22592,11 +23401,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22610,13 +23419,13 @@ O2
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22631,6 +23440,7 @@ HO2
         n = -1.4,
         Ea = (22428, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22650,11 +23460,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22689,6 +23499,7 @@ CH2O
         n = 0.34,
         Ea = (12840, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22708,11 +23519,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22751,6 +23562,7 @@ OH
         n = -4.8,
         Ea = (15468, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22770,11 +23582,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22788,12 +23600,12 @@ O2
     product1 = 
 """
 CH2CHCHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -22809,6 +23621,7 @@ OH
         n = -0.41,
         Ea = (22860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22828,11 +23641,11 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22848,13 +23661,13 @@ CH3
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22871,6 +23684,7 @@ CH4
         n = -0.3,
         Ea = (-131, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22890,10 +23704,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -22906,13 +23720,13 @@ CH2
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22925,6 +23739,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22960,13 +23775,13 @@ CH3
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22979,6 +23794,7 @@ H
         n = 0.86,
         Ea = (22153, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -22998,13 +23814,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -23023,6 +23839,7 @@ H3CCCH
         n = 0,
         Ea = (68100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23042,13 +23859,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23077,6 +23894,7 @@ H
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23096,13 +23914,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23131,6 +23949,7 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23150,13 +23969,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23166,13 +23985,13 @@ H
     product1 = 
 """
 CH3CHCH
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -23181,6 +24000,7 @@ CH3CHCH
         n = -6.52,
         Ea = (15200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23200,13 +24020,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23216,14 +24036,14 @@ H
     product1 = 
 """
 CH3CCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23231,6 +24051,7 @@ CH3CCH2
         n = -8.65,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23250,13 +24071,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23266,11 +24087,11 @@ H
     product1 = 
 """
 CH2CHCH2
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23281,6 +24102,7 @@ CH2CHCH2
         n = -14.67,
         Ea = (26000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23300,13 +24122,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23335,6 +24157,7 @@ CO
         n = 1.8,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23354,13 +24177,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23391,6 +24214,7 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23410,13 +24234,13 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -23451,6 +24275,7 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23470,20 +24295,20 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -23509,6 +24334,7 @@ H2CCCH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23563,6 +24389,7 @@ H
         n = 1.1,
         Ea = (13644, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23617,6 +24444,7 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23671,6 +24499,7 @@ CH3
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23725,6 +24554,7 @@ CO
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23781,6 +24611,7 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23842,6 +24673,7 @@ CO
         n = 0,
         Ea = (41900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23902,6 +24734,7 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -23932,9 +24765,9 @@ H3CCCH
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -23960,6 +24793,7 @@ H2CCCH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24012,6 +24846,7 @@ H
         n = 0,
         Ea = (6621, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24064,6 +24899,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24118,6 +24954,7 @@ CO
         n = 0,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24137,19 +24974,19 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -24176,6 +25013,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24205,10 +25043,10 @@ H2CCCH
     product1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -24217,7 +25055,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5200000000000.0, 's^-1'), n=0, Ea=(78447, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5200000000000.0, 's^-1'),
+        n = 0,
+        Ea = (78447, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -24251,10 +25095,10 @@ H
     product1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -24269,6 +25113,7 @@ H2
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24311,9 +25156,9 @@ CH2O
     product2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24321,6 +25166,7 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24356,10 +25202,10 @@ OH
     product1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -24375,6 +25221,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24429,6 +25276,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24464,10 +25312,10 @@ OH
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -24483,6 +25331,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24519,13 +25368,13 @@ HO2
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -24539,6 +25388,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24595,6 +25445,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24630,11 +25481,11 @@ O2
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -24644,7 +25495,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(170000, 'cm^3/(mol*s)'), n=1.7, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (170000, 'cm^3/(mol*s)'),
+        n = 1.7,
+        Ea = (1500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -24680,13 +25537,13 @@ HCO
     product1 = 
 """
 H2CCCH2
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -24700,6 +25557,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24756,6 +25614,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24775,10 +25634,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -24806,6 +25665,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24825,10 +25685,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -24858,6 +25718,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",
@@ -24877,10 +25738,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -24914,6 +25775,7 @@ H
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Glarborg\\highP.',
     ),
     reference = None,
     referenceType = "",

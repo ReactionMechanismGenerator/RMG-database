@@ -13,26 +13,26 @@ entry(
     reactant1 = 
 """
 H2S
-1 S 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40,6 +40,7 @@ H2
         n = 1.94,
         Ea = (0.9, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nReactions from Sendt et al. Proc. Comb. Inst. 2002\nNot including reactions 1, 19, 20, 21',
     ),
     reference = None,
     referenceType = "",
@@ -59,26 +60,26 @@ entry(
     reactant1 = 
 """
 H2S
-1 S 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 S
-1 S 2S
+1 S 2S 2
 """,
     product1 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -86,6 +87,7 @@ SH
         n = 0,
         Ea = (7.38, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -104,24 +106,24 @@ entry(
     reactant1 = 
 """
 S
-1 S 2S
+1 S 2S 2
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -129,6 +131,7 @@ H
         n = 0,
         Ea = (19.29, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -147,24 +150,24 @@ entry(
     reactant1 = 
 """
 S
-1 S 2S
+1 S 2S 2
 """,
     reactant2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 S2
-1 S 0 {2,D}
-2 S 0 {1,D}
+1 S 0 2 {2,D}
+2 S 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -172,6 +175,7 @@ H
         n = 0,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -190,26 +194,26 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -217,6 +221,7 @@ SH
         n = 0.353,
         Ea = (0.21, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nUsing unadjusted singlet surface calculation for this one (see paper)',
     ),
     reference = None,
     referenceType = "",
@@ -235,31 +240,37 @@ entry(
     reactant1 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 S2
-1 S 0 {2,D}
-2 S 0 {1,D}
+1 S 0 2 {2,D}
+2 S 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6270, 'cm^3/(mol*s)'), n=3.05, Ea=(-1.1, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6270, 'cm^3/(mol*s)'),
+        n = 3.05,
+        Ea = (-1.1, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -277,26 +288,26 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 S2
-1 S 0 {2,D}
-2 S 0 {1,D}
+1 S 0 2 {2,D}
+2 S 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -304,6 +315,7 @@ S2
         n = 1.653,
         Ea = (-1.1, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -322,26 +334,26 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 S
-1 S 2S
+1 S 2S 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -349,6 +361,7 @@ S
         n = 0,
         Ea = (6.33, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -367,26 +380,26 @@ entry(
     reactant1 = 
 """
 S
-1 S 2S
+1 S 2S 2
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 S2
-1 S 0 {2,D}
-2 S 0 {1,D}
+1 S 0 2 {2,D}
+2 S 0 2 {1,D}
 """,
     product2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -394,6 +407,7 @@ SH
         n = 2.2,
         Ea = (-0.6, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -412,33 +426,39 @@ entry(
     reactant1 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2S2
-1 S 0 {2,S} {3,S}
-2 S 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 S 0 2 {2,S} {3,S}
+2 S 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 S2
-1 S 0 {2,D}
-2 S 0 {1,D}
+1 S 0 2 {2,D}
+2 S 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9.56, 'cm^3/(mol*s)'), n=3.37, Ea=(-1.67, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9.56, 'cm^3/(mol*s)'),
+        n = 3.37,
+        Ea = (-1.67, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -456,28 +476,28 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S} {3,S}
-2 S 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 S 0 2 {2,S} {3,S}
+2 S 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -485,6 +505,7 @@ H2
         n = 1.933,
         Ea = (-1.41, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -503,28 +524,28 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S} {3,S}
-2 S 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 S 0 2 {2,S} {3,S}
+2 S 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2S
-1 S 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -532,6 +553,7 @@ SH
         n = 1.724,
         Ea = (0.47, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -550,33 +572,39 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S} {3,S}
-2 S 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 S 0 2 {2,S} {3,S}
+2 S 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6400, 'cm^3/(mol*s)'), n=2.98, Ea=(-1.48, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6400, 'cm^3/(mol*s)'),
+        n = 2.98,
+        Ea = (-1.48, 'kcal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -594,28 +622,28 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S} {3,S}
-2 S 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 S 0 2 {2,S} {3,S}
+2 S 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 S
-1 S 2S
+1 S 2S 2
 """,
     product1 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -623,6 +651,7 @@ SH
         n = 2.31,
         Ea = (1.2, 'kcal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     reference = None,
     referenceType = "",
@@ -641,20 +670,20 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 S2
-1 S 0 {2,D}
-2 S 0 {1,D}
+1 S 0 2 {2,D}
+2 S 0 2 {1,D}
 """,
     product1 = 
 """
 HSS
-1 S 0 {2,S} {3,S}
-2 S 1 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 S 1 2 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -665,6 +694,7 @@ HSS
             T0 = (1, 'K'),
         ),
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1.0, '[Ar]': 0.88},
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nPressure dependent reactions from Sendt et al. Proc. Comb. Inst. 2002\nNot including reactions 1, 19, 20, 21',
     ),
     reference = None,
     referenceType = "",
@@ -684,22 +714,22 @@ entry(
     reactant1 = 
 """
 H2S2
-1 S 0 {2,S} {3,S}
-2 S 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 S 0 2 {2,S} {3,S}
+2 S 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 {2,S}
-2 H 0 {1,S}
+1 S 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -710,6 +740,7 @@ SH
             T0 = (1, 'K'),
         ),
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1.0, '[Ar]': 0.88},
+        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nA-factor could also be 2.31E14',
     ),
     reference = None,
     referenceType = "",

@@ -38,6 +38,7 @@ OH
         n = -0.406,
         Ea = (16599, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -77,7 +78,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(50800, 'cm^3/(mol*s)'), n=2.67, Ea=(6290, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (50800, 'cm^3/(mol*s)'),
+        n = 2.67,
+        Ea = (6290, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -123,6 +130,7 @@ H
         n = 1.51,
         Ea = (3430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -169,6 +177,7 @@ OH
         n = 2.02,
         Ea = (13400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -215,6 +224,7 @@ O2
         n = 0,
         Ea = (823, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -261,6 +271,7 @@ OH
         n = 0,
         Ea = (295, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -307,6 +318,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -355,6 +367,7 @@ O2
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -416,6 +429,7 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -464,6 +478,7 @@ OH
         n = 0,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -512,6 +527,7 @@ H2
         n = 0,
         Ea = (7950, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -555,7 +571,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9550000.0, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9550000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (3970, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -616,6 +638,7 @@ H2O
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -662,6 +685,7 @@ O
         n = 0,
         Ea = (47700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -710,6 +734,7 @@ OH
         n = 0,
         Ea = (23000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -756,6 +781,7 @@ H
         n = 1.89,
         Ea = (-1158.7, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -804,6 +830,7 @@ HO2
         n = 0,
         Ea = (410, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -850,6 +877,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -896,6 +924,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -944,6 +973,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -990,6 +1020,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1044,6 +1075,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1096,6 +1128,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1150,6 +1183,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1200,6 +1234,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1232,11 +1267,11 @@ O2
     product1 = 
 """
 O2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1244,6 +1279,7 @@ O2CHO
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1271,11 +1307,11 @@ CH2O
     reactant2 = 
 """
 O2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -1287,12 +1323,12 @@ HCO
     product2 = 
 """
 HO2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 0 2 {3,S} {6,S}
+1 C 0 0 {2,S} {4,D} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 O 0 2 {1,D}
 5 H 0 0 {1,S}
-6 H 0 0 {4,S}
+6 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1300,6 +1336,7 @@ HO2CHO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1319,12 +1356,12 @@ entry(
     reactant1 = 
 """
 HO2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 0 2 {3,S} {6,S}
+1 C 0 0 {2,S} {4,D} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 O 0 2 {1,D}
 5 H 0 0 {1,S}
-6 H 0 0 {4,S}
+6 H 0 0 {3,S}
 """,
     product1 = 
 """
@@ -1346,6 +1383,7 @@ OH
         n = 0,
         Ea = (40150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1394,6 +1432,7 @@ H2
         n = 1.9,
         Ea = (2748.6, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1442,6 +1481,7 @@ OH
         n = 0,
         Ea = (3080, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1492,6 +1532,7 @@ H2O
         n = 1.18,
         Ea = (-447, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1542,6 +1583,7 @@ HO2
         n = 3,
         Ea = (52000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1589,7 +1631,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41100, 'cm^3/(mol*s)'), n=2.5, Ea=(10210, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41100, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10210, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1643,6 +1691,7 @@ CH4
         n = 5.42,
         Ea = (998, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1677,13 +1726,13 @@ HO2
     product1 = 
 """
 OCH2O2H
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
-3 O 0 2 {2,S} {4,S}
-4 O 0 2 {3,S} {7,S}
-5 H 0 0 {2,S}
-6 H 0 0 {2,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 O 1 2 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1691,6 +1740,7 @@ OCH2O2H
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1710,27 +1760,33 @@ entry(
     reactant1 = 
 """
 OCH2O2H
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
-3 O 0 2 {2,S} {4,S}
-4 O 0 2 {3,S} {7,S}
-5 H 0 0 {2,S}
-6 H 0 0 {2,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 O 1 2 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product1 = 
 """
 HOCH2O2
-1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {7,S}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {3,S}
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(300000000000.0, 's^-1'), n=0, Ea=(8600, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (300000000000.0, 's^-1'),
+        n = 0,
+        Ea = (8600, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1749,12 +1805,12 @@ entry(
     reactant1 = 
 """
 HOCH2O2
-1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {7,S}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {3,S}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -1768,12 +1824,12 @@ HO2
 """
 HOCH2O2H
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
-2 O 0 2 {1,S} {7,S}
-3 O 0 2 {1,S} {4,S}
-4 O 0 2 {3,S} {8,S}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,S} {7,S}
+4 O 0 2 {2,S} {8,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+7 H 0 0 {3,S}
 8 H 0 0 {4,S}
 """,
     product2 = 
@@ -1788,6 +1844,7 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1824,12 +1881,12 @@ OH
 """
 HOCH2O2H
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
-2 O 0 2 {1,S} {7,S}
-3 O 0 2 {1,S} {4,S}
-4 O 0 2 {3,S} {8,S}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,S} {7,S}
+4 O 0 2 {2,S} {8,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+7 H 0 0 {3,S}
 8 H 0 0 {4,S}
 """,
     degeneracy = 1,
@@ -1838,6 +1895,7 @@ HOCH2O2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1886,6 +1944,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1936,6 +1995,7 @@ O
         n = -1.57,
         Ea = (29230, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -1981,7 +2041,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.351, 'cm^3/(mol*s)'), n=3.524, Ea=(7380, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.351, 'cm^3/(mol*s)'),
+        n = 3.524,
+        Ea = (7380, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2033,6 +2099,7 @@ OH
         n = 0.76,
         Ea = (-2325, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2083,6 +2150,7 @@ H2
         n = 1.97,
         Ea = (11210, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2133,6 +2201,7 @@ OH
         n = 0.5,
         Ea = (10290, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2185,6 +2254,7 @@ H2O
         n = 1.96,
         Ea = (2639, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2237,6 +2307,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2291,6 +2362,7 @@ H2O2
         n = 0,
         Ea = (18580, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2344,7 +2416,13 @@ CH3O
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(14.4, 'cm^3/(mol*s)'), n=3.1, Ea=(6935, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (14.4, 'cm^3/(mol*s)'),
+        n = 3.1,
+        Ea = (6935, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2400,6 +2478,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2450,6 +2529,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2469,12 +2549,12 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
@@ -2508,6 +2588,7 @@ HCO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2536,12 +2617,12 @@ CH4
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -2568,6 +2649,7 @@ CH3O2H
         n = 0,
         Ea = (18480, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2597,12 +2679,12 @@ CH3OH
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -2630,6 +2712,7 @@ CH3O2H
         n = 0,
         Ea = (13710, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2649,12 +2732,12 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
@@ -2688,6 +2771,7 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2707,12 +2791,12 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
@@ -2744,6 +2828,7 @@ O2
         n = 0,
         Ea = (-1570, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2763,22 +2848,22 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -2810,6 +2895,7 @@ O2
         n = -1.61,
         Ea = (-1051, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2829,22 +2915,22 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -2876,6 +2962,7 @@ CH3O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2895,12 +2982,12 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
@@ -2928,6 +3015,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2947,12 +3035,12 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
@@ -2980,6 +3068,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -2999,12 +3088,12 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
@@ -3034,6 +3123,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3082,6 +3172,7 @@ OH
         n = 0,
         Ea = (42300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3132,6 +3223,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3182,6 +3274,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3232,6 +3325,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3284,6 +3378,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3347,6 +3442,7 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3401,6 +3497,7 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3455,6 +3552,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3509,6 +3607,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3567,6 +3666,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3625,6 +3725,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3679,6 +3780,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3729,6 +3831,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3779,6 +3882,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3831,6 +3935,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3894,6 +3999,7 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -3948,6 +4054,7 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4000,6 +4107,7 @@ CO2
         n = 0,
         Ea = (11800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4054,6 +4162,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4112,6 +4221,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4164,6 +4274,7 @@ H2
         n = 0,
         Ea = (6095, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4216,6 +4327,7 @@ H2
         n = 0,
         Ea = (6095, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4263,7 +4375,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(388000, 'cm^3/(mol*s)'), n=2.5, Ea=(3080, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (388000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (3080, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4317,6 +4435,7 @@ H2O
         n = 2.1,
         Ea = (496.7, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4371,6 +4490,7 @@ H2O
         n = 1.8,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4425,6 +4545,7 @@ HO2
         n = 0,
         Ea = (44900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4476,7 +4597,13 @@ CH2O
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9635, 'cm^3/(mol*s)'), n=2.9, Ea=(13110, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9635, 'cm^3/(mol*s)'),
+        n = 2.9,
+        Ea = (13110, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4532,6 +4659,7 @@ H2O2
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4585,7 +4713,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(31.9, 'cm^3/(mol*s)'), n=3.17, Ea=(7172, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (31.9, 'cm^3/(mol*s)'),
+        n = 3.17,
+        Ea = (7172, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4645,6 +4779,7 @@ CH2OH
         n = 0,
         Ea = (4060, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4699,6 +4834,7 @@ C2H5
         n = 0.1,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4748,7 +4884,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2460000.0, 'cm^3/(mol*s)'), n=2, Ea=(8270, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2460000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (8270, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4802,6 +4944,7 @@ CH3
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4852,6 +4995,7 @@ H2O
         n = 1.6,
         Ea = (5420, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4902,6 +5046,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -4954,6 +5099,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5006,6 +5152,7 @@ H
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5056,6 +5203,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5102,6 +5250,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5150,6 +5299,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5193,7 +5343,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(500000, 'cm^3/(mol*s)'), n=2, Ea=(7230, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (500000, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (7230, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5241,6 +5397,7 @@ OH
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5291,6 +5448,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5341,6 +5499,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5391,6 +5550,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5439,6 +5599,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5489,6 +5650,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5535,6 +5697,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5581,6 +5744,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5629,6 +5793,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5677,6 +5842,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5729,6 +5895,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5777,6 +5944,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5827,6 +5995,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5873,6 +6042,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5925,6 +6095,7 @@ H2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -5973,6 +6144,7 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6019,6 +6191,7 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6063,6 +6236,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6107,6 +6281,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6153,6 +6328,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6201,6 +6377,7 @@ CH2O
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6249,6 +6426,7 @@ CO
         n = 0,
         Ea = (685, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6278,11 +6456,11 @@ HOCH2O
     product1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -6295,6 +6473,7 @@ H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6341,6 +6520,7 @@ HOCH2O
         n = -1.11,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6360,11 +6540,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -6380,7 +6560,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.593e+18, 's^-1'), n=-0.46, Ea=(108300, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4.593e+18, 's^-1'),
+        n = -0.46,
+        Ea = (108300, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6399,11 +6585,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -6436,6 +6622,7 @@ H
         n = 2.06,
         Ea = (916, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6455,11 +6642,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -6492,6 +6679,7 @@ OH
         n = 1.51,
         Ea = (-962, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6511,11 +6699,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -6546,6 +6734,7 @@ H
         n = 2.1,
         Ea = (4868, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6565,11 +6754,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -6600,6 +6789,7 @@ OH
         n = -0.35,
         Ea = (2988, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6619,11 +6809,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -6655,7 +6845,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.9e-07, 'cm^3/(mol*s)'), n=5.8, Ea=(2200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.9e-07, 'cm^3/(mol*s)'),
+        n = 5.8,
+        Ea = (2200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6674,11 +6870,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -6713,6 +6909,7 @@ OH
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6732,11 +6929,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -6767,6 +6964,7 @@ OH
         n = -1.9,
         Ea = (2975, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6823,6 +7021,7 @@ H2
         n = 1.9,
         Ea = (7530, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6879,6 +7078,7 @@ OH
         n = 2.4,
         Ea = (5830, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6937,6 +7137,7 @@ H2O
         n = 1.9,
         Ea = (950, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -6995,6 +7196,7 @@ HO2
         n = 0,
         Ea = (51870, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7052,7 +7254,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.51e-07, 'cm^3/(mol*s)'), n=6, Ea=(6047, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.51e-07, 'cm^3/(mol*s)'),
+        n = 6,
+        Ea = (6047, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7107,7 +7315,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(34.6, 'cm^3/(mol*s)'), n=3.61, Ea=(16920, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (34.6, 'cm^3/(mol*s)'),
+        n = 3.61,
+        Ea = (16920, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7138,12 +7352,12 @@ C2H6
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -7168,7 +7382,13 @@ CH3O2H
 7 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(19.4, 'cm^3/(mol*s)'), n=3.64, Ea=(17100, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (19.4, 'cm^3/(mol*s)'),
+        n = 3.64,
+        Ea = (17100, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7232,6 +7452,7 @@ CH3OH
         n = 0,
         Ea = (7090, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7290,6 +7511,7 @@ CH2
         n = 0,
         Ea = (-260, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7350,6 +7572,7 @@ C2H5
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7375,12 +7598,12 @@ H2
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -7404,6 +7627,7 @@ CH3O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7429,15 +7653,15 @@ H2
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -7447,13 +7671,13 @@ H
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -7464,6 +7688,7 @@ C2H5O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7514,10 +7739,10 @@ C2H5
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -7526,6 +7751,7 @@ C2H3
         n = 0,
         Ea = (71530, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7581,7 +7807,13 @@ C2H4
 6 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(11800, 'cm^3/(mol*s)'), n=2.45, Ea=(-2921, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (11800, 'cm^3/(mol*s)'),
+        n = 2.45,
+        Ea = (-2921, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7635,6 +7867,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7670,12 +7903,12 @@ O
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -7689,6 +7922,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7747,6 +7981,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7766,12 +8001,12 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
@@ -7811,6 +8046,7 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7848,12 +8084,12 @@ O2
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -7869,6 +8105,7 @@ HO2
         n = 0,
         Ea = (1097, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7888,12 +8125,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -7919,6 +8156,7 @@ C2H5O
         n = 0,
         Ea = (6400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7955,15 +8193,15 @@ O2
     product1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7971,6 +8209,7 @@ C2H5O2
         n = -13.82,
         Ea = (14620, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -7990,15 +8229,15 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -8011,13 +8250,13 @@ CH2O
     product1 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -8035,6 +8274,7 @@ HCO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8063,15 +8303,15 @@ CH4
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -8084,13 +8324,13 @@ CH3
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -8101,6 +8341,7 @@ C2H5O2H
         n = 0,
         Ea = (18480, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8130,15 +8371,15 @@ CH3OH
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -8152,13 +8393,13 @@ CH2OH
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -8169,6 +8410,7 @@ C2H5O2H
         n = 0,
         Ea = (13710, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8188,15 +8430,15 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -8208,13 +8450,13 @@ HO2
     product1 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -8231,6 +8473,7 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8262,15 +8505,15 @@ C2H6
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -8286,19 +8529,25 @@ C2H5
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.6, 'cm^3/(mol*s)'), n=3.76, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.6, 'cm^3/(mol*s)'),
+        n = 3.76,
+        Ea = (17200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8317,13 +8566,13 @@ entry(
     reactant1 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -8352,6 +8601,7 @@ OH
         n = 0,
         Ea = (42300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8388,9 +8638,9 @@ O2
     product1 = 
 """
 C2H4O2H
-1 C 1 0 {2,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
 4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
@@ -8404,6 +8654,7 @@ C2H4O2H
         n = -11.5,
         Ea = (14600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8466,6 +8717,7 @@ HO2
             ),
             Arrhenius(A=(0.4, 'cm^3/(mol*s)'), n=3.88, Ea=(13620, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8522,6 +8774,7 @@ OH
         n = -0.31,
         Ea = (6150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -8558,12 +8811,12 @@ O2
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -8573,7 +8826,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(826.5, 'cm^3/(mol*s)'), n=2.41, Ea=(5285, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (826.5, 'cm^3/(mol*s)'),
+        n = 2.41,
+        Ea = (5285, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8592,9 +8851,9 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1 C 1 0 {2,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
 4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
@@ -8605,18 +8864,24 @@ C2H4O2H
     product1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.203e+36, 's^-1'), n=-8.13, Ea=(27020, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.203e+36, 's^-1'),
+        n = -8.13,
+        Ea = (27020, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8635,25 +8900,25 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -8663,7 +8928,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.52e+41, 's^-1'), n=-10.2, Ea=(43710, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.52e+41, 's^-1'),
+        n = -10.2,
+        Ea = (43710, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8682,15 +8953,15 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -8710,7 +8981,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.815e+38, 's^-1'), n=-8.45, Ea=(37890, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.815e+38, 's^-1'),
+        n = -8.45,
+        Ea = (37890, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8729,15 +9006,15 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -8757,7 +9034,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4e+43, 's^-1'), n=-10.46, Ea=(45580, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4e+43, 's^-1'),
+        n = -10.46,
+        Ea = (45580, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8776,9 +9059,9 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1 C 1 0 {2,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
 4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
@@ -8804,7 +9087,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.848e+30, 's^-1'), n=-6.08, Ea=(20660, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.848e+30, 's^-1'),
+        n = -6.08,
+        Ea = (20660, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8823,9 +9112,9 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1 C 1 0 {2,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
 4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
@@ -8851,7 +9140,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.98e+34, 's^-1'), n=-7.25, Ea=(23250, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.98e+34, 's^-1'),
+        n = -7.25,
+        Ea = (23250, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8870,9 +9165,9 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1 C 1 0 {2,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
 4 O 0 2 {3,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
@@ -8883,12 +9178,12 @@ C2H4O2H
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -8898,7 +9193,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.188e+34, 's^-1'), n=-9.02, Ea=(29210, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.188e+34, 's^-1'),
+        n = -9.02,
+        Ea = (29210, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8941,7 +9242,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(36300000000000.0, 's^-1'), n=0, Ea=(57200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (36300000000000.0, 's^-1'),
+        n = 0,
+        Ea = (57200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8971,16 +9278,22 @@ C2H4O1-2
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(7407000000000.0, 's^-1'), n=0, Ea=(53800, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (7407000000000.0, 's^-1'),
+        n = 0,
+        Ea = (53800, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9016,11 +9329,11 @@ OH
     product1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product2 = 
@@ -9036,6 +9349,7 @@ H2O
         n = 0,
         Ea = (3610, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9071,11 +9385,11 @@ H
     product1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product2 = 
@@ -9090,6 +9404,7 @@ H2
         n = 0,
         Ea = (9680, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9127,11 +9442,11 @@ HO2
     product1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product2 = 
@@ -9148,6 +9463,7 @@ H2O2
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9178,21 +9494,21 @@ C2H4O1-2
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product2 = 
@@ -9212,6 +9528,7 @@ CH3O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9242,36 +9559,36 @@ C2H4O1-2
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -9282,6 +9599,7 @@ C2H5O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9320,11 +9638,11 @@ CH3
     product1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product2 = 
@@ -9342,6 +9660,7 @@ CH4
         n = 0,
         Ea = (11830, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9381,11 +9700,11 @@ CH3O
     product1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product2 = 
@@ -9404,6 +9723,7 @@ CH3OH
         n = 0,
         Ea = (6750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9423,22 +9743,22 @@ entry(
     reactant1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9446,6 +9766,7 @@ CH3CO
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9465,11 +9786,11 @@ entry(
     reactant1 = 
 """
 C2H3O1-2
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 """,
     product1 = 
@@ -9488,6 +9809,7 @@ CH2CHO
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9522,12 +9844,12 @@ HCO
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -9536,6 +9858,7 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9555,12 +9878,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -9571,12 +9894,12 @@ H
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9590,6 +9913,7 @@ H2
         n = 0,
         Ea = (3110, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9609,12 +9933,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -9625,12 +9949,12 @@ O
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9644,6 +9968,7 @@ OH
         n = 0,
         Ea = (1868, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9663,12 +9988,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -9680,12 +10005,12 @@ OH
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9700,6 +10025,7 @@ H2O
         n = 1.8,
         Ea = (1300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9719,12 +10045,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -9736,12 +10062,12 @@ O2
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9756,6 +10082,7 @@ HO2
         n = 0,
         Ea = (39150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9775,12 +10102,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -9794,12 +10121,12 @@ CH3
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9811,7 +10138,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1760, 'cm^3/(mol*s)'), n=2.79, Ea=(4950, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1760, 'cm^3/(mol*s)'),
+        n = 2.79,
+        Ea = (4950, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9830,12 +10163,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -9848,12 +10181,12 @@ HO2
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -9869,6 +10202,7 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9888,22 +10222,22 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -9920,12 +10254,12 @@ CH3O2H
     product2 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9933,6 +10267,7 @@ CH3CO
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -9952,48 +10287,48 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10001,6 +10336,7 @@ CH3CO3H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10020,12 +10356,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -10045,11 +10381,11 @@ CH3
     product2 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10057,6 +10393,7 @@ HCOOH
         n = -1.08,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10076,12 +10413,12 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -10108,7 +10445,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(172000, 'cm^3/(mol*s)'), n=2.4, Ea=(815, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (172000, 'cm^3/(mol*s)'),
+        n = 2.4,
+        Ea = (815, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10127,12 +10470,12 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10142,11 +10485,11 @@ H
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -10160,6 +10503,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10179,12 +10523,12 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10194,11 +10538,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -10212,6 +10556,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10231,12 +10576,12 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10249,11 +10594,11 @@ CH3
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -10270,6 +10615,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10289,12 +10635,12 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10305,14 +10651,14 @@ O2
     product1 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10320,6 +10666,7 @@ CH3CO3
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10339,14 +10686,14 @@ entry(
     reactant1 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     reactant2 = 
 """
@@ -10358,15 +10705,15 @@ HO2
     product1 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     product2 = 
 """
@@ -10380,6 +10727,7 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10407,14 +10755,14 @@ H2O2
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -10426,15 +10774,15 @@ HO2
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10442,6 +10790,7 @@ CH3CO3H
         n = 0,
         Ea = (9936, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10470,14 +10819,14 @@ CH4
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -10490,15 +10839,15 @@ CH3
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10506,6 +10855,7 @@ CH3CO3H
         n = 0,
         Ea = (18480, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10533,14 +10883,14 @@ CH2O
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -10552,15 +10902,15 @@ HCO
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10568,6 +10918,7 @@ CH3CO3H
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10599,14 +10950,14 @@ C2H6
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -10622,15 +10973,15 @@ C2H5
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10638,6 +10989,7 @@ CH3CO3H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10657,26 +11009,26 @@ entry(
     reactant1 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     product1 = 
 """
 CH3CO2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 O 0 2 {2,D}
+7 O 1 2 {2,S}
 """,
     product2 = 
 """
@@ -10690,6 +11042,7 @@ OH
         n = 0,
         Ea = (40150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10709,11 +11062,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10736,6 +11089,7 @@ CH2CHO
         n = 0,
         Ea = (12300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10794,6 +11148,7 @@ OH
         n = 0,
         Ea = (4200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10813,11 +11168,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10844,6 +11199,7 @@ CO
         n = 0,
         Ea = (3400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10863,11 +11219,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10894,6 +11250,7 @@ H2
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10913,11 +11270,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10944,6 +11301,7 @@ CO2
         n = 0,
         Ea = (1350, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -10963,11 +11321,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -10994,6 +11352,7 @@ OH
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11013,11 +11372,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -11046,6 +11405,7 @@ H2O
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11065,11 +11425,11 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -11098,6 +11458,7 @@ CO
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11124,11 +11485,11 @@ CH2(S)
     reactant2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -11152,6 +11513,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11206,6 +11568,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11254,6 +11617,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11306,6 +11670,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11360,6 +11725,7 @@ CO
         n = 0,
         Ea = (850, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11398,11 +11764,11 @@ H
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11410,6 +11776,7 @@ CH2CO
         n = 0,
         Ea = (-515, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11460,6 +11827,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11494,10 +11862,10 @@ H
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -11512,6 +11880,7 @@ H2
         n = 1.93,
         Ea = (12950, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11564,6 +11933,7 @@ HCO
         n = 1.88,
         Ea = (183, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11616,6 +11986,7 @@ H
         n = 1.88,
         Ea = (183, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11651,10 +12022,10 @@ OH
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -11665,7 +12036,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1800000.0, 'cm^3/(mol*s)'), n=2, Ea=(2500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1800000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (2500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11702,10 +12079,10 @@ CH3
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -11718,7 +12095,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.62, 'cm^3/(mol*s)'), n=3.7, Ea=(9500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6.62, 'cm^3/(mol*s)'),
+        n = 3.7,
+        Ea = (9500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11753,10 +12136,10 @@ O2
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -11772,6 +12155,7 @@ HO2
         n = 0,
         Ea = (58200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11810,10 +12194,10 @@ CH3O
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -11832,6 +12216,7 @@ CH3OH
         n = 0,
         Ea = (6750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11861,20 +12246,20 @@ C2H4
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -11894,6 +12279,7 @@ CH3O2H
         n = 0,
         Ea = (17190, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11923,35 +12309,35 @@ C2H4
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -11962,6 +12348,7 @@ C2H5O2H
         n = 0,
         Ea = (17190, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -11991,36 +12378,36 @@ C2H4
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12028,6 +12415,7 @@ CH3CO3H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12057,12 +12445,12 @@ C2H4
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -12090,6 +12478,7 @@ CH3O
         n = 0,
         Ea = (17110, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12119,15 +12508,15 @@ C2H4
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
@@ -12158,6 +12547,7 @@ C2H5O
         n = 0,
         Ea = (17110, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12214,6 +12604,7 @@ OH
         n = 0,
         Ea = (17190, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12266,6 +12657,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12285,10 +12677,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -12318,6 +12710,7 @@ CH2O
         n = -1.39,
         Ea = (1015, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12337,10 +12730,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -12370,6 +12763,7 @@ C2H2
         n = 1.61,
         Ea = (-384, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12389,10 +12783,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -12422,6 +12816,7 @@ CH2CHO
         n = 0.29,
         Ea = (11, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12449,10 +12844,10 @@ CH3
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -12478,6 +12873,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12497,10 +12893,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -12528,6 +12924,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12547,10 +12944,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -12580,6 +12977,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12630,6 +13028,7 @@ OH
         n = 1.5,
         Ea = (30100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12662,9 +13061,9 @@ C2H2
     product1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -12678,6 +13077,7 @@ OH
         n = -1.4,
         Ea = (28950, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12721,7 +13121,13 @@ CO
 2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6940000.0, 'cm^3/(mol*s)'), n=2, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6940000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1900, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12769,6 +13175,7 @@ H
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12802,9 +13209,9 @@ OH
     product1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
@@ -12819,6 +13226,7 @@ H2O
         n = 2,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12852,11 +13260,11 @@ OH
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -12869,6 +13277,7 @@ H
         n = 0,
         Ea = (12000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -12914,7 +13323,13 @@ CO
 2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.000483, 'cm^3/(mol*s)'), n=4, Ea=(-2000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.000483, 'cm^3/(mol*s)'),
+        n = 4,
+        Ea = (-2000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12952,14 +13367,20 @@ H
     product2 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(504000, 'cm^3/(mol*s)'), n=2.3, Ea=(13500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (504000, 'cm^3/(mol*s)'),
+        n = 2.3,
+        Ea = (13500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12983,10 +13404,10 @@ H
     reactant2 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product1 = 
@@ -12997,11 +13418,11 @@ H
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13009,6 +13430,7 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13028,12 +13450,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13047,9 +13469,9 @@ O2
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -13069,6 +13491,7 @@ HO2
         n = 0,
         Ea = (52800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13088,12 +13511,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13129,6 +13552,7 @@ HO2
         n = 0,
         Ea = (50150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13148,12 +13572,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13167,9 +13591,9 @@ OH
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -13189,6 +13613,7 @@ H2O
         n = 0.27,
         Ea = (600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13208,12 +13633,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13249,6 +13674,7 @@ H2O
         n = 0.15,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13268,12 +13694,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13309,6 +13735,7 @@ H2O
         n = 0.3,
         Ea = (1634, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13328,12 +13755,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13346,9 +13773,9 @@ H
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -13367,6 +13794,7 @@ H2
         n = 1.8,
         Ea = (5098, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13386,12 +13814,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13425,6 +13853,7 @@ H2
         n = 1.65,
         Ea = (2827, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13444,12 +13873,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13483,6 +13912,7 @@ H2
         n = 1.6,
         Ea = (3038, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13502,12 +13932,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13522,9 +13952,9 @@ HO2
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -13540,7 +13970,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(12300, 'cm^3/(mol*s)'), n=2.55, Ea=(15750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (12300, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (15750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13559,12 +13995,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13597,7 +14033,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8200, 'cm^3/(mol*s)'), n=2.55, Ea=(10750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8200, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (10750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13616,12 +14058,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13659,6 +14101,7 @@ H2O2
         n = 0,
         Ea = (24000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13678,12 +14121,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13691,19 +14134,19 @@ C2H5OH
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -13722,7 +14165,13 @@ CH3O2H
 7 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(12300, 'cm^3/(mol*s)'), n=2.55, Ea=(15750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (12300, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (15750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13741,12 +14190,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13754,12 +14203,12 @@ C2H5OH
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -13785,7 +14234,13 @@ CH3O2H
 7 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8200, 'cm^3/(mol*s)'), n=2.55, Ea=(10750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8200, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (10750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13804,12 +14259,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13817,12 +14272,12 @@ C2H5OH
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -13853,6 +14308,7 @@ CH3O2H
         n = 0,
         Ea = (24000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13872,12 +14328,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13890,9 +14346,9 @@ O
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -13911,6 +14367,7 @@ OH
         n = 1.7,
         Ea = (5459, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13930,12 +14387,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -13969,6 +14426,7 @@ OH
         n = 1.85,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -13988,12 +14446,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -14027,6 +14485,7 @@ OH
         n = 2,
         Ea = (4448, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14046,12 +14505,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -14067,9 +14526,9 @@ CH3
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -14086,7 +14545,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(133, 'cm^3/(mol*s)'), n=3.18, Ea=(9362, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (133, 'cm^3/(mol*s)'),
+        n = 3.18,
+        Ea = (9362, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14105,12 +14570,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -14145,7 +14610,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(444, 'cm^3/(mol*s)'), n=2.9, Ea=(7690, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (444, 'cm^3/(mol*s)'),
+        n = 2.9,
+        Ea = (7690, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14164,12 +14635,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -14204,7 +14675,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(134, 'cm^3/(mol*s)'), n=2.92, Ea=(7452, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (134, 'cm^3/(mol*s)'),
+        n = 2.92,
+        Ea = (7452, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14223,12 +14700,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -14247,9 +14724,9 @@ C2H5
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -14274,6 +14751,7 @@ C2H6
         n = 0,
         Ea = (13400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14293,12 +14771,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -14344,6 +14822,7 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14379,9 +14858,9 @@ OH
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -14394,6 +14873,7 @@ PC2H4OH
         n = -2.84,
         Ea = (1240, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14413,23 +14893,23 @@ entry(
     reactant1 = 
 """
 O2C2H4OH
-1  O 0 2 {2,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {10,S}
+4  O 0 2 {2,S} {9,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  O 1 2 {4,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 PC2H4OH
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {2,S}
@@ -14443,7 +14923,13 @@ O2
 2 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.9e+16, 's^-1'), n=-1, Ea=(30000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.9e+16, 's^-1'),
+        n = -1,
+        Ea = (30000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14462,15 +14948,15 @@ entry(
     reactant1 = 
 """
 O2C2H4OH
-1  O 0 2 {2,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {10,S}
+4  O 0 2 {2,S} {9,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  O 1 2 {4,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
@@ -14496,7 +14982,13 @@ CH2O
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3125000000.0, 's^-1'), n=0, Ea=(18900, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3125000000.0, 's^-1'),
+        n = 0,
+        Ea = (18900, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14533,12 +15025,12 @@ O2
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -14549,7 +15041,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3810000.0, 'cm^3/(mol*s)'), n=2, Ea=(1641, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3810000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1641, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14568,16 +15066,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -14588,15 +15086,15 @@ OH
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -14606,7 +15104,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(125000, 'cm^3/(mol*s)'), n=2.48, Ea=(445, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (125000, 'cm^3/(mol*s)'),
+        n = 2.48,
+        Ea = (445, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14625,16 +15129,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -14644,15 +15148,15 @@ H
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -14661,7 +15165,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(980000, 'cm^3/(mol*s)'), n=2.43, Ea=(5160, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (980000, 'cm^3/(mol*s)'),
+        n = 2.43,
+        Ea = (5160, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14680,16 +15190,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -14699,15 +15209,15 @@ O
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -14721,6 +15231,7 @@ OH
         n = 0.21,
         Ea = (4890, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14740,16 +15251,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -14762,15 +15273,15 @@ CH3
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -14787,6 +15298,7 @@ CH4
         n = 0,
         Ea = (9784, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14806,16 +15318,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -14829,15 +15341,15 @@ CH3O
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -14855,6 +15367,7 @@ CH3OH
         n = 0,
         Ea = (6460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14874,16 +15387,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -14894,15 +15407,15 @@ O2
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -14917,6 +15430,7 @@ HO2
         n = 0,
         Ea = (48500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -14936,16 +15450,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -14957,15 +15471,15 @@ HO2
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -14981,6 +15495,7 @@ H2O2
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15000,39 +15515,39 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -15051,6 +15566,7 @@ CH3O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15070,24 +15586,24 @@ entry(
     reactant1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -15103,6 +15619,7 @@ CH3
         n = 0,
         Ea = (31000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15122,15 +15639,15 @@ entry(
     reactant1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
@@ -15141,17 +15658,17 @@ O2
     product1 = 
 """
 CH3COCH2O2
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 1 2 {5,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  O 0 2 {1,S} {11,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
+11 O 1 2 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15159,6 +15676,7 @@ CH3COCH2O2
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15178,60 +15696,60 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 CH3COCH2O2
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 1 2 {5,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  O 0 2 {1,S} {11,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
+11 O 1 2 {4,S}
 """,
     product1 = 
 """
 CH3COCH2
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {4,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 C 1 0 {2,S} {8,S} {9,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 C 1 0 {2,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH3COCH2O2H
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {12,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {6,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 0 0 {1,S} {2,S} {11,D}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 O 0 2 {3,D}
+12 H 0 0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15239,6 +15757,7 @@ CH3COCH2O2H
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15266,17 +15785,17 @@ CH2O
     reactant2 = 
 """
 CH3COCH2O2
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 1 2 {5,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  O 0 2 {1,S} {11,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
+11 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -15288,18 +15807,18 @@ HCO
     product2 = 
 """
 CH3COCH2O2H
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {12,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {6,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 0 0 {1,S} {2,S} {11,D}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 O 0 2 {3,D}
+12 H 0 0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15307,6 +15826,7 @@ CH3COCH2O2H
         n = 0,
         Ea = (9000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15333,33 +15853,33 @@ HO2
     reactant2 = 
 """
 CH3COCH2O2
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 1 2 {5,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  O 0 2 {1,S} {11,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
+11 O 1 2 {4,S}
 """,
     product1 = 
 """
 CH3COCH2O2H
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {12,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {6,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 0 0 {1,S} {2,S} {11,D}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 O 0 2 {3,D}
+12 H 0 0 {5,S}
 """,
     product2 = 
 """
@@ -15373,6 +15893,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15392,32 +15913,32 @@ entry(
     reactant1 = 
 """
 CH3COCH2O2H
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {12,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {6,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 0 0 {1,S} {2,S} {11,D}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 O 0 2 {3,D}
+12 H 0 0 {5,S}
 """,
     product1 = 
 """
 CH3COCH2O
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {6,S} {7,S} {8,S}
-4  C 0 0 {2,S} {5,S} {9,S} {10,S}
-5  O 1 2 {4,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {5,S} {6,S} {7,S}
+2  C 0 0 {3,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  O 1 2 {2,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -15426,7 +15947,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+16, 's^-1'), n=0, Ea=(43000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+16, 's^-1'),
+        n = 0,
+        Ea = (43000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15445,12 +15972,12 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
@@ -15463,16 +15990,16 @@ CH2O
     product1 = 
 """
 CH3COCH2O
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {6,S} {7,S} {8,S}
-4  C 0 0 {2,S} {5,S} {9,S} {10,S}
-5  O 1 2 {4,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {5,S} {6,S} {7,S}
+2  C 0 0 {3,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  O 1 2 {2,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15480,6 +16007,7 @@ CH3COCH2O
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15499,10 +16027,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -15515,12 +16043,12 @@ HCO
     product1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15530,6 +16058,7 @@ C2H3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15549,12 +16078,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15566,13 +16095,13 @@ H
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -15586,6 +16115,7 @@ H2
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15605,12 +16135,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15622,13 +16152,13 @@ O
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -15642,6 +16172,7 @@ OH
         n = 0,
         Ea = (1868, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15661,12 +16192,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15698,6 +16229,7 @@ HCO
         n = 0,
         Ea = (3500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15717,12 +16249,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15734,11 +16266,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -15758,6 +16290,7 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15777,12 +16310,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15795,13 +16328,13 @@ OH
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -15816,6 +16349,7 @@ H2O
         n = 1.5,
         Ea = (-962, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15835,12 +16369,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15853,13 +16387,13 @@ O2
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -15874,6 +16408,7 @@ HO2
         n = 0,
         Ea = (40700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15893,12 +16428,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15912,13 +16447,13 @@ HO2
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -15934,6 +16469,7 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -15953,12 +16489,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -15973,13 +16509,13 @@ CH3
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -15996,6 +16532,7 @@ CH4
         n = 1.78,
         Ea = (5911, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16015,34 +16552,34 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16060,6 +16597,7 @@ C2H4
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16079,12 +16617,12 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -16100,13 +16638,13 @@ CH3O
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16124,6 +16662,7 @@ CH3OH
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16143,35 +16682,35 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16190,6 +16729,7 @@ CH3O2H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16209,10 +16749,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -16224,13 +16764,13 @@ CO
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16238,6 +16778,7 @@ C2H3CO
         n = 0,
         Ea = (4810, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16257,13 +16798,13 @@ entry(
     reactant1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -16294,6 +16835,7 @@ CO2
         n = -2.72,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16313,13 +16855,13 @@ entry(
     reactant1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -16329,10 +16871,10 @@ O
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -16348,6 +16890,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16385,15 +16928,15 @@ HCO
     product1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -16402,6 +16945,7 @@ C2H5CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16421,15 +16965,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16440,15 +16984,15 @@ H
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16462,6 +17006,7 @@ H2
         n = 0,
         Ea = (4200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16481,15 +17026,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16500,15 +17045,15 @@ O
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16522,6 +17067,7 @@ OH
         n = 0,
         Ea = (1790, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16541,15 +17087,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16561,15 +17107,15 @@ OH
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16584,6 +17130,7 @@ H2O
         n = 0.76,
         Ea = (-340, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16603,15 +17150,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16625,15 +17172,15 @@ CH3
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16650,6 +17197,7 @@ CH4
         n = 1.78,
         Ea = (5911, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16669,15 +17217,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16690,15 +17238,15 @@ HO2
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16714,6 +17262,7 @@ H2O2
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16733,15 +17282,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16756,15 +17305,15 @@ CH3O
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16782,6 +17331,7 @@ CH3OH
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16801,39 +17351,39 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16852,6 +17402,7 @@ CH3O2H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16871,15 +17422,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16896,15 +17447,15 @@ C2H5
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -16924,6 +17475,7 @@ C2H6
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -16943,15 +17495,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -16969,25 +17521,25 @@ C2H5O
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -16998,6 +17550,7 @@ C2H5OH
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17017,53 +17570,53 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -17074,6 +17627,7 @@ C2H5O2H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17093,15 +17647,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -17113,15 +17667,15 @@ O2
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -17136,6 +17690,7 @@ HO2
         n = 0,
         Ea = (40700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17155,54 +17710,54 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17210,6 +17765,7 @@ CH3CO3H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17229,38 +17785,38 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -17278,6 +17834,7 @@ C2H4
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17314,15 +17871,15 @@ CO
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17330,6 +17887,7 @@ C2H5CO
         n = 0,
         Ea = (4810, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17349,15 +17907,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17368,14 +17926,14 @@ OH
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17385,7 +17943,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(935000, 'cm^3/(mol*s)'), n=2.29, Ea=(-781, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (935000, 'cm^3/(mol*s)'),
+        n = 2.29,
+        Ea = (-781, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17404,15 +17968,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17422,14 +17986,14 @@ H
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17438,7 +18002,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(36120, 'cm^3/(mol*s)'), n=2.88, Ea=(2996, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (36120, 'cm^3/(mol*s)'),
+        n = 2.88,
+        Ea = (2996, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17457,15 +18027,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17475,14 +18045,14 @@ O
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17496,6 +18066,7 @@ OH
         n = 1.36,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17515,15 +18086,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17535,14 +18106,14 @@ HO2
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17558,6 +18129,7 @@ H2O2
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17577,37 +18149,37 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17626,6 +18198,7 @@ CH3O2H
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17645,15 +18218,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17666,14 +18239,14 @@ CH3
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17690,6 +18263,7 @@ CH4
         n = 5.73,
         Ea = (5699, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17709,15 +18283,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17728,14 +18302,14 @@ O2
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17750,6 +18324,7 @@ HO2
         n = 0,
         Ea = (44910, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17769,15 +18344,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17791,14 +18366,14 @@ CH3O
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -17816,6 +18391,7 @@ CH3OH
         n = 0,
         Ea = (4074, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17835,55 +18411,55 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3OCH2O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {10,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 1 2 {4,S}
 """,
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3OCH2O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {11,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
 11 H 0 0 {5,S}
 """,
     degeneracy = 1,
@@ -17892,6 +18468,7 @@ CH3OCH2O2H
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -17911,49 +18488,55 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 0 2 {3,S} {6,S}
+1 C 0 0 {2,S} {4,D} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 O 0 2 {1,D}
 5 H 0 0 {1,S}
-6 H 0 0 {4,S}
+6 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(44250, 'cm^3/(mol*s)'), n=2.6, Ea=(13910, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (44250, 'cm^3/(mol*s)'),
+        n = 2.6,
+        Ea = (13910, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17972,15 +18555,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -17993,23 +18576,23 @@ OCHO
     product1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18017,6 +18600,7 @@ HCOOH
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18036,14 +18620,14 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -18062,7 +18646,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(16000000000000.0, 's^-1'), n=0, Ea=(25500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (16000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (25500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18081,14 +18671,14 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -18102,15 +18692,15 @@ CH3O
     product1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -18126,6 +18716,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18145,14 +18736,14 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -18165,15 +18756,15 @@ CH2O
     product1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -18183,7 +18774,13 @@ HCO
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5490, 'cm^3/(mol*s)'), n=2.8, Ea=(5862, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5490, 'cm^3/(mol*s)'),
+        n = 2.8,
+        Ea = (5862, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18202,48 +18799,48 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18251,6 +18848,7 @@ CH3CO
         n = 0,
         Ea = (8499, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18270,14 +18868,14 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 1 0 {3,S} {7,S} {8,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -18288,16 +18886,16 @@ O2
     product1 = 
 """
 CH3OCH2O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {10,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 1 2 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18305,6 +18903,7 @@ CH3OCH2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18324,16 +18923,16 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {10,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -18346,16 +18945,16 @@ CH2O
     product1 = 
 """
 CH3OCH2O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {11,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
 11 H 0 0 {5,S}
 """,
     product2 = 
@@ -18371,6 +18970,7 @@ HCO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18390,52 +18990,52 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {10,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OCH2O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {11,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
 11 H 0 0 {5,S}
 """,
     product2 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18443,6 +19043,7 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18462,30 +19063,30 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {10,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3OCH2O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {10,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -18496,31 +19097,37 @@ O2
     product2 = 
 """
 CH3OCH2O
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2 C 0 0 {3,S} {4,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {2,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     product3 = 
 """
 CH3OCH2O
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2 C 0 0 {3,S} {4,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {2,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.21e+23, 'cm^3/(mol*s)'), n=-4.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.21e+23, 'cm^3/(mol*s)'),
+        n = -4.5,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18539,15 +19146,15 @@ entry(
     reactant1 = 
 """
 CH3OCH2O
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2 C 0 0 {3,S} {4,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {2,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -18558,16 +19165,16 @@ OH
     product1 = 
 """
 CH3OCH2O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {11,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
 11 H 0 0 {5,S}
 """,
     degeneracy = 1,
@@ -18576,6 +19183,7 @@ CH3OCH2O2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18612,15 +19220,15 @@ CH2O
     product1 = 
 """
 CH3OCH2O
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2 C 0 0 {3,S} {4,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {2,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18628,6 +19236,7 @@ CH3OCH2O
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18647,33 +19256,39 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {10,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 1 2 {4,S}
 """,
     product1 = 
 """
 CH2OCH2O2H
-1  C 1 0 {2,S} {6,S} {7,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 1 0 {3,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {10,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {5,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(60000000000.0, 's^-1'), n=0, Ea=(21580, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (60000000000.0, 's^-1'),
+        n = 0,
+        Ea = (21580, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18692,15 +19307,15 @@ entry(
     reactant1 = 
 """
 CH2OCH2O2H
-1  C 1 0 {2,S} {6,S} {7,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 1 0 {3,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {10,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {5,S}
 """,
     product1 = 
@@ -18726,7 +19341,13 @@ CH2O
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(15000000000000.0, 's^-1'), n=0, Ea=(20760, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (15000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (20760, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18745,15 +19366,15 @@ entry(
     reactant1 = 
 """
 CH2OCH2O2H
-1  C 1 0 {2,S} {6,S} {7,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 1 0 {3,S} {8,S} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {10,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {5,S}
 """,
     reactant2 = 
@@ -18765,18 +19386,18 @@ O2
     product1 = 
 """
 O2CH2OCH2O2H
-1  C 0 0 {2,S} {6,S} {8,S} {9,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {12,S}
-6  O 0 2 {1,S} {7,S}
-7  O 1 2 {6,S}
-8  H 0 0 {1,S}
+1  C 0 0 {3,S} {4,S} {9,S} {10,S}
+2  C 0 0 {3,S} {5,S} {7,S} {8,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {6,S}
+5  O 0 2 {2,S} {11,S}
+6  O 0 2 {4,S} {12,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {1,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {5,S}
+10 H 0 0 {1,S}
+11 O 1 2 {5,S}
+12 H 0 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18784,6 +19405,7 @@ O2CH2OCH2O2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18803,18 +19425,18 @@ entry(
     reactant1 = 
 """
 O2CH2OCH2O2H
-1  C 0 0 {2,S} {6,S} {8,S} {9,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {12,S}
-6  O 0 2 {1,S} {7,S}
-7  O 1 2 {6,S}
-8  H 0 0 {1,S}
+1  C 0 0 {3,S} {4,S} {9,S} {10,S}
+2  C 0 0 {3,S} {5,S} {7,S} {8,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {6,S}
+5  O 0 2 {2,S} {11,S}
+6  O 0 2 {4,S} {12,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {1,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {5,S}
+10 H 0 0 {1,S}
+11 O 1 2 {5,S}
+12 H 0 0 {6,S}
 """,
     product1 = 
 """
@@ -18837,7 +19459,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(40000000000.0, 's^-1'), n=0, Ea=(18580, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (40000000000.0, 's^-1'),
+        n = 0,
+        Ea = (18580, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18856,14 +19484,14 @@ entry(
     reactant1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -18875,12 +19503,12 @@ H
     product1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -18893,6 +19521,7 @@ C3H8
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18912,15 +19541,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -18931,12 +19560,12 @@ H
     product1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -18949,6 +19578,7 @@ C3H8
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -18968,12 +19598,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -18989,15 +19619,15 @@ O2
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
@@ -19013,6 +19643,7 @@ HO2
         n = 0,
         Ea = (49640, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19032,12 +19663,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19053,14 +19684,14 @@ O2
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -19077,6 +19708,7 @@ HO2
         n = 0,
         Ea = (52290, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19101,12 +19733,12 @@ H
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19122,15 +19754,15 @@ H2
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -19139,6 +19771,7 @@ IC3H7
         n = 2.4,
         Ea = (4471, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19163,12 +19796,12 @@ H
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19184,14 +19817,14 @@ H2
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -19201,6 +19834,7 @@ NC3H7
         n = 2.54,
         Ea = (6756, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19220,12 +19854,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19240,15 +19874,15 @@ O
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
@@ -19258,7 +19892,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(549000, 'cm^3/(mol*s)'), n=2.5, Ea=(3140, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (549000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (3140, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19277,12 +19917,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19297,14 +19937,14 @@ O
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -19320,6 +19960,7 @@ OH
         n = 2.4,
         Ea = (5505, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19339,12 +19980,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19360,14 +20001,14 @@ OH
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -19384,6 +20025,7 @@ H2O
         n = 0.97,
         Ea = (1586, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19403,12 +20045,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19424,15 +20066,15 @@ OH
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
@@ -19448,6 +20090,7 @@ H2O
         n = 1.61,
         Ea = (-35, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19467,12 +20110,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19489,15 +20132,15 @@ HO2
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
@@ -19509,7 +20152,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(58800, 'cm^3/(mol*s)'), n=2.5, Ea=(14860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (58800, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (14860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19528,12 +20177,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19550,14 +20199,14 @@ HO2
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -19570,7 +20219,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(81000, 'cm^3/(mol*s)'), n=2.5, Ea=(16690, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (81000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (16690, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19597,12 +20252,12 @@ CH3
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19621,19 +20276,25 @@ CH4
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(64000, 'cm^3/(mol*s)'), n=2.17, Ea=(7520, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (64000, 'cm^3/(mol*s)'),
+        n = 2.17,
+        Ea = (7520, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19660,12 +20321,12 @@ CH3
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19684,19 +20345,25 @@ CH4
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.904, 'cm^3/(mol*s)'), n=3.65, Ea=(7154, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.904, 'cm^3/(mol*s)'),
+        n = 3.65,
+        Ea = (7154, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19715,26 +20382,26 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19744,26 +20411,26 @@ C3H8
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19776,6 +20443,7 @@ C3H8
         n = 0,
         Ea = (12900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19795,21 +20463,21 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19829,15 +20497,15 @@ C2H4
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -19846,6 +20514,7 @@ IC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19865,21 +20534,21 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19899,14 +20568,14 @@ C2H4
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -19916,6 +20585,7 @@ NC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -19946,12 +20616,12 @@ C2H5
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -19973,15 +20643,15 @@ C2H6
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -19990,6 +20660,7 @@ IC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20020,12 +20691,12 @@ C2H5
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20047,14 +20718,14 @@ C2H6
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -20064,6 +20735,7 @@ NC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20083,12 +20755,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20098,11 +20770,11 @@ C3H8
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20110,27 +20782,27 @@ C3H5-A
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20140,6 +20812,7 @@ C3H6
         n = 0,
         Ea = (20500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20159,12 +20832,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20174,11 +20847,11 @@ C3H8
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -20186,27 +20859,27 @@ C3H5-A
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -20216,6 +20889,7 @@ C3H6
         n = 0,
         Ea = (16200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20235,12 +20909,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20259,14 +20933,14 @@ CH3O
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -20286,6 +20960,7 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20305,12 +20980,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20329,15 +21004,15 @@ CH3O
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
@@ -20356,6 +21031,7 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20375,22 +21051,22 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20411,19 +21087,25 @@ CH3O2H
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(81000, 'cm^3/(mol*s)'), n=2.5, Ea=(16690, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (81000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (16690, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20442,22 +21124,22 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20478,19 +21160,25 @@ CH3O2H
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(58800, 'cm^3/(mol*s)'), n=2.5, Ea=(14860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (58800, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (14860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20509,25 +21197,25 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20537,13 +21225,13 @@ C3H8
     product1 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -20551,19 +21239,25 @@ C2H5O2H
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(81000, 'cm^3/(mol*s)'), n=2.5, Ea=(16690, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (81000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (16690, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20582,25 +21276,25 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20610,13 +21304,13 @@ C3H8
     product1 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -20624,19 +21318,25 @@ C2H5O2H
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(58800, 'cm^3/(mol*s)'), n=2.5, Ea=(14860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (58800, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (14860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20655,28 +21355,28 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20686,16 +21386,16 @@ C3H8
     product1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -20703,14 +21403,14 @@ NC3H7O2H
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -20720,6 +21420,7 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20739,28 +21440,28 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20770,16 +21471,16 @@ C3H8
     product1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -20787,15 +21488,15 @@ NC3H7O2H
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -20804,6 +21505,7 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20823,28 +21525,28 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20854,14 +21556,14 @@ C3H8
     product1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -20871,14 +21573,14 @@ IC3H7O2H
     product2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -20888,6 +21590,7 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20907,28 +21610,28 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -20938,14 +21641,14 @@ C3H8
     product1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -20955,15 +21658,15 @@ IC3H7O2H
     product2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -20972,6 +21675,7 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -20991,12 +21695,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -21006,41 +21710,41 @@ C3H8
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21048,6 +21752,7 @@ CH3CO3H
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21067,12 +21772,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -21082,41 +21787,41 @@ C3H8
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21124,6 +21829,7 @@ CH3CO3H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21143,12 +21849,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -21158,38 +21864,44 @@ C3H8
     reactant2 = 
 """
 O2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
 """,
     product1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
 """
 HO2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 0 2 {3,S} {6,S}
+1 C 0 0 {2,S} {4,D} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 O 0 2 {1,D}
 5 H 0 0 {1,S}
-6 H 0 0 {4,S}
+6 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(55200, 'cm^3/(mol*s)'), n=2.55, Ea=(16480, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (55200, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (16480, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21208,12 +21920,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -21223,38 +21935,44 @@ C3H8
     reactant2 = 
 """
 O2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 1 2 {3,S}
-5 H 0 0 {1,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
 """,
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product2 = 
 """
 HO2CHO
-1 C 0 0 {2,D} {3,S} {5,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {4,S}
-4 O 0 2 {3,S} {6,S}
+1 C 0 0 {2,S} {4,D} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 O 0 2 {1,D}
 5 H 0 0 {1,S}
-6 H 0 0 {4,S}
+6 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(14750, 'cm^3/(mol*s)'), n=2.6, Ea=(13910, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (14750, 'cm^3/(mol*s)'),
+        n = 2.6,
+        Ea = (13910, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21278,28 +21996,28 @@ H
     reactant2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     product1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     degeneracy = 1,
@@ -21308,6 +22026,7 @@ IC3H7
         n = 0,
         Ea = (2160, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21327,15 +22046,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21368,6 +22087,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21387,15 +22107,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21407,13 +22127,13 @@ O2
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21425,7 +22145,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.5e-19, 'cm^3/(mol*s)'), n=0, Ea=(5020, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4.5e-19, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (5020, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21444,15 +22170,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21464,13 +22190,13 @@ OH
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21487,6 +22213,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21506,15 +22233,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21525,16 +22252,16 @@ O
     product1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -21547,6 +22274,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21566,15 +22294,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -21585,12 +22313,12 @@ O
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -21607,6 +22335,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21626,14 +22355,14 @@ entry(
     reactant1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -21656,7 +22385,13 @@ C2H4
 6 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9.97e+40, 's^-1'), n=-8.6, Ea=(41430, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9.97e+40, 's^-1'),
+        n = -8.6,
+        Ea = (41430, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21675,14 +22410,14 @@ entry(
     reactant1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -21694,18 +22429,24 @@ H
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.78e+39, 's^-1'), n=-8.1, Ea=(46580, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.78e+39, 's^-1'),
+        n = -8.1,
+        Ea = (46580, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21724,14 +22465,14 @@ entry(
     reactant1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -21744,13 +22485,13 @@ O2
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21762,7 +22503,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3e-19, 'cm^3/(mol*s)'), n=0, Ea=(3000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3e-19, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (3000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21781,53 +22528,53 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -21840,6 +22587,7 @@ C3H8
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21859,53 +22607,53 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -21918,6 +22666,7 @@ C3H8
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -21937,25 +22686,25 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -21963,26 +22712,26 @@ C3H5-A
     product1 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -21992,6 +22741,7 @@ C3H6
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22011,13 +22761,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22039,7 +22789,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(7.71e+69, 's^-1'), n=-16.09, Ea=(140000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (7.71e+69, 's^-1'),
+        n = -16.09,
+        Ea = (140000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22058,27 +22814,27 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22086,7 +22842,13 @@ H
 1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.62e+71, 's^-1'), n=-16.58, Ea=(139300, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.62e+71, 's^-1'),
+        n = -16.58,
+        Ea = (139300, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22105,13 +22867,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22144,6 +22906,7 @@ HCO
         n = 1.76,
         Ea = (-1216, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22163,13 +22926,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22181,11 +22944,11 @@ O
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -22206,6 +22969,7 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22225,13 +22989,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22243,14 +23007,14 @@ O
     product1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -22268,6 +23032,7 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22287,13 +23052,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22305,11 +23070,11 @@ O
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22326,6 +23091,7 @@ OH
         n = 0.7,
         Ea = (5884, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22345,13 +23111,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22384,6 +23150,7 @@ OH
         n = 0.7,
         Ea = (8959, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22403,13 +23170,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22421,14 +23188,14 @@ O
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22442,6 +23209,7 @@ OH
         n = 0.7,
         Ea = (7632, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22461,13 +23229,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22480,11 +23248,11 @@ OH
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22497,7 +23265,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3120000.0, 'cm^3/(mol*s)'), n=2, Ea=(-298, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3120000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (-298, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22516,13 +23290,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22552,7 +23326,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2110000.0, 'cm^3/(mol*s)'), n=2, Ea=(2778, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2110000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (2778, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22571,13 +23351,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22590,14 +23370,14 @@ OH
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22607,7 +23387,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1110000.0, 'cm^3/(mol*s)'), n=2, Ea=(1451, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1110000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1451, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22626,13 +23412,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22646,11 +23432,11 @@ HO2
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22664,7 +23450,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(27000, 'cm^3/(mol*s)'), n=2.5, Ea=(12340, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (27000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (12340, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22683,13 +23475,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22721,7 +23513,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(18000, 'cm^3/(mol*s)'), n=2.5, Ea=(27620, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (18000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (27620, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22740,13 +23538,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22760,14 +23558,14 @@ HO2
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22778,7 +23576,13 @@ H2O2
 4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9000, 'cm^3/(mol*s)'), n=2.5, Ea=(23590, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (23590, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22797,13 +23601,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22836,6 +23640,7 @@ CH3
         n = -3.04,
         Ea = (15610, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -22855,13 +23660,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22873,11 +23678,11 @@ H
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -22889,7 +23694,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(173000, 'cm^3/(mol*s)'), n=2.5, Ea=(2490, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (173000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (2490, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22908,13 +23719,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22926,14 +23737,14 @@ H
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -22942,7 +23753,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(400000, 'cm^3/(mol*s)'), n=2.5, Ea=(9790, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (400000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (9790, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22961,13 +23778,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -22995,7 +23812,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(804000, 'cm^3/(mol*s)'), n=2.5, Ea=(12283, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (804000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (12283, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -23014,13 +23837,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23033,11 +23856,11 @@ O2
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23055,6 +23878,7 @@ HO2
         n = 0,
         Ea = (39900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23074,13 +23898,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23115,6 +23939,7 @@ HO2
         n = 0,
         Ea = (62900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23134,13 +23959,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23153,14 +23978,14 @@ O2
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -23175,6 +24000,7 @@ HO2
         n = 0,
         Ea = (60700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23194,13 +24020,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23215,11 +24041,11 @@ CH3
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23234,7 +24060,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.21, 'cm^3/(mol*s)'), n=3.5, Ea=(5675, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.21, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (5675, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -23253,13 +24085,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23293,7 +24125,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.348, 'cm^3/(mol*s)'), n=3.5, Ea=(12850, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.348, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (12850, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -23312,13 +24150,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23333,14 +24171,14 @@ CH3
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -23352,7 +24190,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.84, 'cm^3/(mol*s)'), n=3.5, Ea=(11660, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.84, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (11660, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -23371,13 +24215,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23395,11 +24239,11 @@ C2H5
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23422,6 +24266,7 @@ C2H6
         n = 0,
         Ea = (9800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23441,36 +24286,36 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23478,15 +24323,15 @@ C3H5-A
     product2 = 
 """
 CH3CO3H
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 0 2 {4,S} {9,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,D}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {1,S}
-8 H 0 0 {1,S}
-9 H 0 0 {5,S}
+8 O 0 2 {2,D}
+9 H 0 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23494,6 +24339,7 @@ CH3CO3H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23513,34 +24359,34 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23562,6 +24408,7 @@ CH3O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23581,13 +24428,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23601,14 +24448,14 @@ HO2
     product1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -23624,6 +24471,7 @@ OH
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23643,37 +24491,37 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23681,13 +24529,13 @@ C3H5-A
     product2 = 
 """
 C2H5O2H
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  O 0 2 {2,S} {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
 4  O 0 2 {3,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {4,S}
@@ -23698,6 +24546,7 @@ C2H5O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23717,40 +24566,40 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23758,16 +24607,16 @@ C3H5-A
     product2 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -23778,6 +24627,7 @@ NC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23797,40 +24647,40 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -23838,14 +24688,14 @@ C3H5-A
     product2 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -23858,6 +24708,7 @@ IC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23877,13 +24728,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -23896,15 +24747,15 @@ OH
     product1 = 
 """
 C3H6OH
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 1 0 {1,S} {3,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {11,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
+4  O 0 2 {1,S} {11,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {4,S}
 """,
@@ -23914,6 +24765,7 @@ C3H6OH
         n = 0,
         Ea = (-960, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23933,15 +24785,15 @@ entry(
     reactant1 = 
 """
 C3H6OH
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 1 0 {1,S} {3,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {11,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
+4  O 0 2 {1,S} {11,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {4,S}
 """,
@@ -23954,19 +24806,19 @@ O2
     product1 = 
 """
 HOC3H6O2
-1  O 0 2 {2,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {5,S} {10,S}
-4  C 0 0 {3,S} {11,S} {12,S} {13,S}
-5  O 0 2 {3,S} {6,S}
-6  O 1 2 {5,S}
-7  H 0 0 {1,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {5,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  O 0 2 {2,S} {13,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
+11 H 0 0 {3,S}
+12 O 1 2 {4,S}
+13 H 0 0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23974,6 +24826,7 @@ HOC3H6O2
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -23993,29 +24846,29 @@ entry(
     reactant1 = 
 """
 HOC3H6O2
-1  O 0 2 {2,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {5,S} {10,S}
-4  C 0 0 {3,S} {11,S} {12,S} {13,S}
-5  O 0 2 {3,S} {6,S}
-6  O 1 2 {5,S}
-7  H 0 0 {1,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {5,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  O 0 2 {2,S} {13,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
+11 H 0 0 {3,S}
+12 O 1 2 {4,S}
+13 H 0 0 {5,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -24033,7 +24886,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(12500000000.0, 's^-1'), n=0, Ea=(18900, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (12500000000.0, 's^-1'),
+        n = 0,
+        Ea = (18900, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -24052,11 +24911,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24069,13 +24928,13 @@ H
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -24089,6 +24948,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24108,11 +24968,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24125,12 +24985,12 @@ O
     product1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -24145,6 +25005,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24164,11 +25025,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24182,12 +25043,12 @@ OH
     product1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -24207,6 +25068,7 @@ H
         n = -1.56,
         Ea = (26330, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24226,11 +25088,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24244,13 +25106,13 @@ OH
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -24265,6 +25127,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24284,11 +25147,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24302,13 +25165,13 @@ O2
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -24323,6 +25186,7 @@ HO2
         n = -2.85,
         Ea = (30755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24342,11 +25206,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24360,12 +25224,12 @@ O2
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -24381,6 +25245,7 @@ CH2O
         n = -1.21,
         Ea = (21046, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24400,11 +25265,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24418,12 +25283,12 @@ O2
     product1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -24439,6 +25304,7 @@ OH
         n = -0.45,
         Ea = (23017, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24458,11 +25324,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24477,13 +25343,13 @@ HCO
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -24499,6 +25365,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24518,11 +25385,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24538,13 +25405,13 @@ CH3
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -24561,6 +25428,7 @@ CH4
         n = -0.32,
         Ea = (-131, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24580,11 +25448,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24592,17 +25460,23 @@ C3H5-A
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.86e+53, 's^-1'), n=-12.81, Ea=(75883, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4.86e+53, 's^-1'),
+        n = -12.81,
+        Ea = (75883, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -24621,11 +25495,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24643,7 +25517,13 @@ C3H5-S
 8 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9.7e+48, 's^-1'), n=-11.73, Ea=(73700, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9.7e+48, 's^-1'),
+        n = -11.73,
+        Ea = (73700, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -24678,11 +25558,11 @@ CH3
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24693,6 +25573,7 @@ C3H5-A
         n = -11.89,
         Ea = (36476, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24712,11 +25593,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24724,20 +25605,20 @@ C3H5-A
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -24759,6 +25640,7 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24778,11 +25660,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24813,13 +25695,13 @@ C2H6
     product2 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24827,6 +25709,7 @@ C3H4-A
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24846,11 +25729,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24879,13 +25762,13 @@ C2H4
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -24895,6 +25778,7 @@ C3H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24914,11 +25798,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24926,10 +25810,10 @@ C3H5-A
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -24945,13 +25829,13 @@ C2H4
     product2 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24959,6 +25843,7 @@ C3H4-A
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -24978,11 +25863,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -24990,11 +25875,11 @@ C3H5-A
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -25002,24 +25887,24 @@ C3H5-A
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -25029,6 +25914,7 @@ C3H6
         n = 0,
         Ea = (-262, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25048,11 +25934,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -25067,10 +25953,10 @@ HO2
     product1 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -25089,6 +25975,7 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25139,6 +26026,7 @@ C3H5-S
         n = -8.21,
         Ea = (17100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25195,6 +26083,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25251,6 +26140,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25313,6 +26203,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25350,12 +26241,12 @@ O2
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -25371,6 +26262,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25435,6 +26327,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25473,13 +26366,13 @@ HCO
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -25495,6 +26388,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25557,6 +26451,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25592,14 +26487,14 @@ CH3
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25607,6 +26502,7 @@ C3H5-T
         n = -5.06,
         Ea = (21150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25626,14 +26522,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -25648,7 +26544,13 @@ C3H5-S
 8 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.1e+52, 's^-1'), n=-13.37, Ea=(57200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.1e+52, 's^-1'),
+        n = -13.37,
+        Ea = (57200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -25667,14 +26569,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -25704,6 +26606,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25723,14 +26626,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -25748,11 +26651,11 @@ CH3
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25760,6 +26663,7 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25779,14 +26683,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -25805,11 +26709,11 @@ CH3
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product3 = 
 """
@@ -25822,6 +26726,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25841,14 +26746,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -25859,12 +26764,12 @@ O2
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -25880,6 +26785,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25899,14 +26805,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -25926,11 +26832,11 @@ CH3
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product3 = 
 """
@@ -25944,6 +26850,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -25963,14 +26870,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -25982,13 +26889,13 @@ HCO
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -26004,6 +26911,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26023,14 +26931,14 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26066,6 +26974,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26101,13 +27010,13 @@ CH3
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -26120,6 +27029,7 @@ H
         n = 0.54,
         Ea = (23950, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26139,13 +27049,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26169,7 +27079,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1300000.0, 'cm^3/(mol*s)'), n=2, Ea=(5500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1300000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (5500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -26188,13 +27104,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26219,6 +27135,7 @@ C3H5-S
         n = -6.23,
         Ea = (18700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26238,13 +27155,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26254,14 +27171,14 @@ H
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26269,6 +27186,7 @@ C3H5-T
         n = -9.7,
         Ea = (14032, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26288,13 +27206,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26304,11 +27222,11 @@ H
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -26319,6 +27237,7 @@ C3H5-A
         n = -12.09,
         Ea = (26187, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26338,13 +27257,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26373,6 +27292,7 @@ CO
         n = 1.8,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26392,13 +27312,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26424,7 +27344,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5300000.0, 'cm^3/(mol*s)'), n=2, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5300000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (2000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -26443,13 +27369,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -26484,6 +27410,7 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26503,20 +27430,20 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -26542,6 +27469,7 @@ C3H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26561,33 +27489,33 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -26608,6 +27536,7 @@ C3H3
         n = 0,
         Ea = (64746.7, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26627,22 +27556,22 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -26660,13 +27589,13 @@ C3H3
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -26676,6 +27605,7 @@ C3H6
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26715,7 +27645,13 @@ CC3H4
 7 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.92e+40, 's^-1'), n=-8.69, Ea=(68706, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.92e+40, 's^-1'),
+        n = -8.69,
+        Ea = (68706, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -26745,16 +27681,22 @@ C3H4-P
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.12e+58, 's^-1'), n=-13.07, Ea=(92680, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.12e+58, 's^-1'),
+        n = -13.07,
+        Ea = (92680, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -26789,13 +27731,13 @@ H
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -26808,6 +27750,7 @@ H
         n = -1.01,
         Ea = (11523, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26843,14 +27786,14 @@ H
     product1 = 
 """
 C3H5-T
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 C 0 0 {2,D} {7,S} {8,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26858,6 +27801,7 @@ C3H5-T
         n = -10.55,
         Ea = (15910, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -26903,7 +27847,13 @@ C3H5-S
 8 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+34, 'cm^3/(mol*s)'), n=-6.88, Ea=(8900, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+34, 'cm^3/(mol*s)'),
+        n = -6.88,
+        Ea = (8900, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -26938,11 +27888,11 @@ H
     product1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -26953,6 +27903,7 @@ C3H5-A
         n = -13.89,
         Ea = (33953, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27002,7 +27953,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1300000.0, 'cm^3/(mol*s)'), n=2, Ea=(5500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1300000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (5500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27042,13 +27999,13 @@ C3H3
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -27066,6 +28023,7 @@ C3H3
         n = 1.74,
         Ea = (10450, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27120,6 +28078,7 @@ CH3
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27174,6 +28133,7 @@ CO
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27225,7 +28185,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1000000.0, 'cm^3/(mol*s)'), n=2, Ea=(100, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1000000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (100, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27255,9 +28221,9 @@ C3H4-P
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -27283,6 +28249,7 @@ C3H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27343,6 +28310,7 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27397,6 +28365,7 @@ H
         n = 0.56,
         Ea = (15453, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27427,10 +28396,10 @@ C3H4-P
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -27459,6 +28428,7 @@ C2H4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27489,11 +28459,11 @@ C3H4-P
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -27511,13 +28481,13 @@ C3H3
     product2 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -27527,6 +28497,7 @@ C3H6
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27557,16 +28528,22 @@ CC3H4
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.33e+41, 's^-1'), n=-8.93, Ea=(50475, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4.33e+41, 's^-1'),
+        n = -8.93,
+        Ea = (50475, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27614,6 +28591,7 @@ C3H4-P
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27648,13 +28626,13 @@ H
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27662,6 +28640,7 @@ C3H4-A
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27696,10 +28675,10 @@ H
     product1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -27714,6 +28693,7 @@ H2
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27756,9 +28736,9 @@ CH2O
     product2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27766,6 +28746,7 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27801,10 +28782,10 @@ OH
     product1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product2 = 
@@ -27820,6 +28801,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27855,11 +28837,11 @@ O2
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -27874,6 +28856,7 @@ HCO
         n = 0,
         Ea = (2868, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27922,10 +28905,10 @@ CO
     product3 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -27934,6 +28917,7 @@ C2H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -27970,13 +28954,13 @@ HO2
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -27990,6 +28974,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28046,6 +29031,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28082,13 +29068,13 @@ HCO
     product1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -28102,6 +29088,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28158,6 +29145,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28195,12 +29183,12 @@ HCCO
     product1 = 
 """
 C4H4
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,T}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {4,T}
 4 C 0 0 {3,T} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
@@ -28216,6 +29204,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28251,12 +29240,12 @@ CH
     product1 = 
 """
 C4H3-I
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 C 0 0 {3,D} {6,S} {7,S}
+1 C 0 0 {2,D} {5,S} {6,S}
+2 C 1 0 {1,D} {3,S}
+3 C 0 0 {2,S} {4,T}
+4 C 0 0 {3,T} {7,S}
 5 H 0 0 {1,S}
-6 H 0 0 {4,S}
+6 H 0 0 {1,S}
 7 H 0 0 {4,S}
 """,
     product2 = 
@@ -28270,6 +29259,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28306,12 +29296,12 @@ CH2
     product1 = 
 """
 C4H4
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,T}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {4,T}
 4 C 0 0 {3,T} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
@@ -28326,6 +29316,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28356,9 +29347,9 @@ C2H5
     reactant2 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
@@ -28384,6 +29375,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28403,10 +29395,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28430,6 +29422,7 @@ C3H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28449,10 +29442,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28480,6 +29473,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.\n/doi:10.1016/S0010-2180(99)00070-X atrributes this to [estimated]!',
     ),
     reference = None,
     referenceType = "",
@@ -28499,10 +29493,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28532,6 +29526,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28551,10 +29546,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28588,6 +29583,7 @@ CO
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28607,10 +29603,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28640,6 +29636,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28659,10 +29656,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28675,10 +29672,10 @@ CH2
     product1 = 
 """
 C4H3-N
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 1 0 {3,D} {7,S}
+1 C 0 0 {2,S} {3,D} {5,S}
+2 C 0 0 {1,S} {4,T}
+3 C 1 0 {1,D} {6,S}
+4 C 0 0 {2,T} {7,S}
 5 H 0 0 {1,S}
 6 H 0 0 {3,S}
 7 H 0 0 {4,S}
@@ -28694,6 +29691,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28713,10 +29711,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28730,12 +29728,12 @@ CH3
     product1 = 
 """
 C4H4
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,T}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {4,T}
 4 C 0 0 {3,T} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
@@ -28750,6 +29748,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28769,10 +29768,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28786,10 +29785,10 @@ HCCO
     product1 = 
 """
 C4H3-N
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 1 0 {3,D} {7,S}
+1 C 0 0 {2,S} {3,D} {5,S}
+2 C 0 0 {1,S} {4,T}
+3 C 1 0 {1,D} {6,S}
+4 C 0 0 {2,T} {7,S}
 5 H 0 0 {1,S}
 6 H 0 0 {3,S}
 7 H 0 0 {4,S}
@@ -28806,6 +29805,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28825,10 +29825,10 @@ entry(
     reactant1 = 
 """
 C3H2
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 C 1 0 {2,D} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -28858,6 +29858,7 @@ HCCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28877,14 +29878,14 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -28916,6 +29917,7 @@ CO2
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28935,14 +29937,14 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -28974,6 +29976,7 @@ CO
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -28993,14 +29996,14 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -29030,6 +30033,7 @@ CO
         n = 0,
         Ea = (1459, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29049,14 +30053,14 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {8,S}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -29066,12 +30070,12 @@ O
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -29086,6 +30090,7 @@ CO
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29105,14 +30110,14 @@ entry(
     reactant1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -29126,13 +30131,13 @@ HO2
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -29150,6 +30155,7 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29169,15 +30175,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -29190,13 +30196,13 @@ HO2
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -29214,6 +30220,7 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29233,24 +30240,24 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -29266,13 +30273,13 @@ CH3O
     product2 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -29284,6 +30291,7 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29303,25 +30311,25 @@ entry(
     reactant1 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
@@ -29336,13 +30344,13 @@ CH3O
     product2 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -29354,6 +30362,7 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29373,14 +30382,14 @@ entry(
     reactant1 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -29393,18 +30402,18 @@ O2
     product1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29412,6 +30421,7 @@ NC3H7O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29431,15 +30441,15 @@ entry(
     reactant1 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -29451,18 +30461,18 @@ O2
     product1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29470,6 +30480,7 @@ IC3H7O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29489,18 +30500,18 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -29513,16 +30524,16 @@ CH2O
     product1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -29540,6 +30551,7 @@ HCO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29559,43 +30571,43 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -29603,12 +30615,12 @@ NC3H7O2H
     product2 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29616,6 +30628,7 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29635,18 +30648,18 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -29659,14 +30672,14 @@ CH2O
     product1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -29686,6 +30699,7 @@ HCO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29705,41 +30719,41 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -29749,12 +30763,12 @@ IC3H7O2H
     product2 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29762,6 +30776,7 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29781,18 +30796,18 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -29804,16 +30819,16 @@ HO2
     product1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -29830,6 +30845,7 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29849,18 +30865,18 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -29872,14 +30888,14 @@ HO2
     product1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -29898,6 +30914,7 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -29927,41 +30944,41 @@ C2H4
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -29972,6 +30989,7 @@ NC3H7O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30001,39 +31019,39 @@ C2H4
     reactant2 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -30046,6 +31064,7 @@ IC3H7O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30075,18 +31094,18 @@ CH3OH
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -30100,16 +31119,16 @@ CH2OH
     product2 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -30120,6 +31139,7 @@ NC3H7O2H
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30149,18 +31169,18 @@ CH3OH
     reactant2 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -30174,14 +31194,14 @@ CH2OH
     product2 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -30194,6 +31214,7 @@ IC3H7O2H
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30213,55 +31234,55 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -30272,6 +31293,7 @@ NC3H7O2H
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30291,53 +31313,53 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C2H3CO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -30350,6 +31372,7 @@ IC3H7O2H
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30378,18 +31401,18 @@ CH4
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -30402,16 +31425,16 @@ CH3
     product2 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -30422,6 +31445,7 @@ NC3H7O2H
         n = 0,
         Ea = (24640, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30450,18 +31474,18 @@ CH4
     reactant2 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -30474,14 +31498,14 @@ CH3
     product2 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -30494,6 +31518,7 @@ IC3H7O2H
         n = 0,
         Ea = (24640, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30513,39 +31538,39 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -30572,6 +31597,7 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30591,39 +31617,39 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -30650,6 +31676,7 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30675,18 +31702,18 @@ H2
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -30696,16 +31723,16 @@ H
     product2 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -30716,6 +31743,7 @@ NC3H7O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30741,18 +31769,18 @@ H2
     reactant2 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -30762,14 +31790,14 @@ H
     product2 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -30782,6 +31810,7 @@ IC3H7O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30801,18 +31830,18 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -30829,14 +31858,14 @@ C2H6
     product1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -30860,6 +31889,7 @@ C2H5
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30879,18 +31909,18 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -30907,16 +31937,16 @@ C2H6
     product1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -30938,6 +31968,7 @@ C2H5
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -30957,44 +31988,44 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -31004,15 +32035,15 @@ IC3H7O2H
     product2 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31020,6 +32051,7 @@ C2H5CO
         n = 0,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31039,46 +32071,46 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -31086,15 +32118,15 @@ NC3H7O2H
     product2 = 
 """
 C2H5CO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31102,6 +32134,7 @@ C2H5CO
         n = 0,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31121,41 +32154,41 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31164,13 +32197,13 @@ IC3H7O
     product2 = 
 """
 CH3CO2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 O 0 2 {2,D}
+7 O 1 2 {2,S}
 """,
     product3 = 
 """
@@ -31184,6 +32217,7 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31203,41 +32237,41 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1 C 0 0 {2,S} {6,S} {7,S} {8,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 0 2 {2,S} {5,S}
-5 O 1 2 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,D}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 O 1 2 {3,S}
 """,
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -31246,13 +32280,13 @@ NC3H7O
     product2 = 
 """
 CH3CO2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 O 0 2 {2,D}
+7 O 1 2 {2,S}
 """,
     product3 = 
 """
@@ -31266,6 +32300,7 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31285,42 +32320,42 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31350,6 +32385,7 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31369,42 +32405,42 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C2H5O2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,S} {8,S} {9,S}
-3 O 0 2 {2,S} {4,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 8 H 0 0 {2,S}
-9 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -31434,6 +32470,7 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31453,34 +32490,34 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -31491,13 +32528,13 @@ O2
     product2 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31506,13 +32543,13 @@ IC3H7O
     product3 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31524,6 +32561,7 @@ IC3H7O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31543,34 +32581,34 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
@@ -31581,13 +32619,13 @@ O2
     product2 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -31596,13 +32634,13 @@ NC3H7O
     product3 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -31614,6 +32652,7 @@ NC3H7O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31633,45 +32672,45 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31680,13 +32719,13 @@ IC3H7O
     product2 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -31704,6 +32743,7 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31723,18 +32763,18 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -31747,13 +32787,13 @@ CH3
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31774,6 +32814,7 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31793,18 +32834,18 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -31820,13 +32861,13 @@ C2H5
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31850,6 +32891,7 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31869,43 +32911,43 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31914,13 +32956,13 @@ IC3H7O
     product2 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31932,6 +32974,7 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -31951,43 +32994,43 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -31996,13 +33039,13 @@ IC3H7O
     product2 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32014,6 +33057,7 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32033,27 +33077,27 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -32061,13 +33105,13 @@ C3H5-A
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -32076,10 +33120,10 @@ IC3H7O
     product2 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -32092,6 +33136,7 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32111,18 +33156,18 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -32135,13 +33180,13 @@ CH3
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32162,6 +33207,7 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32181,18 +33227,18 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
@@ -32208,13 +33254,13 @@ C2H5
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32238,6 +33284,7 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32257,43 +33304,43 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 IC3H7
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {2,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32302,13 +33349,13 @@ NC3H7O
     product2 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -32320,6 +33367,7 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32339,43 +33387,43 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 NC3H7
-1  C 1 0 {2,S} {4,S} {5,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 1 0 {1,S} {9,S} {10,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
 6  H 0 0 {2,S}
 7  H 0 0 {2,S}
-8  H 0 0 {3,S}
+8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32384,13 +33432,13 @@ NC3H7O
     product2 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32402,6 +33450,7 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32421,27 +33470,27 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -32449,13 +33498,13 @@ C3H5-A
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32464,10 +33513,10 @@ NC3H7O
     product2 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -32480,6 +33529,7 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32499,16 +33549,16 @@ entry(
     reactant1 = 
 """
 NC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
 13 H 0 0 {5,S}
@@ -32516,13 +33566,13 @@ NC3H7O2H
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32535,7 +33585,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.5e+16, 's^-1'), n=0, Ea=(42500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.5e+16, 's^-1'),
+        n = 0,
+        Ea = (42500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32554,14 +33610,14 @@ entry(
     reactant1 = 
 """
 IC3H7O2H
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {13,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
@@ -32571,13 +33627,13 @@ IC3H7O2H
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -32595,6 +33651,7 @@ OH
         n = 0,
         Ea = (42600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32633,13 +33690,13 @@ CH2O
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32651,6 +33708,7 @@ NC3H7O
         n = 0,
         Ea = (3496, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32670,15 +33728,15 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,D} {10,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {2,S}
+9  O 0 2 {3,D}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
@@ -32689,13 +33747,13 @@ H
     product1 = 
 """
 NC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 1 2 {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {6,S} {10,S} {11,S}
+4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  O 1 2 {3,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {2,S}
 10 H 0 0 {3,S}
@@ -32707,6 +33765,7 @@ NC3H7O
         n = 0,
         Ea = (6260, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32734,24 +33793,24 @@ CH3
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -32763,6 +33822,7 @@ IC3H7O
         n = 0,
         Ea = (9256, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32782,16 +33842,16 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -32801,13 +33861,13 @@ H
     product1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -32819,6 +33879,7 @@ IC3H7O
         n = 0,
         Ea = (7270, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32838,13 +33899,13 @@ entry(
     reactant1 = 
 """
 IC3H7O
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 1 2 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 1 2 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
@@ -32859,16 +33920,16 @@ O2
     product1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -32883,6 +33944,7 @@ HO2
         n = 0,
         Ea = (390, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -32902,37 +33964,43 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C3H6OOH1-2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 1 0 {1,S} {3,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 1 0 {1,S} {2,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {3,S}
+10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(600000000000.0, 's^-1'), n=0, Ea=(26850, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (600000000000.0, 's^-1'),
+        n = 0,
+        Ea = (26850, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32951,26 +34019,26 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C3H6OOH1-3
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
@@ -32981,7 +34049,13 @@ C3H6OOH1-3
 12 H 0 0 {5,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(112500000000.0, 's^-1'), n=0, Ea=(24400, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (112500000000.0, 's^-1'),
+        n = 0,
+        Ea = (24400, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33000,37 +34074,43 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C3H6OOH2-1
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1800000000000.0, 's^-1'), n=0, Ea=(29400, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1800000000000.0, 's^-1'),
+        n = 0,
+        Ea = (29400, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33049,32 +34129,32 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -33083,7 +34163,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.23e+35, 's^-1'), n=-6.96, Ea=(48880, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.23e+35, 's^-1'),
+        n = -6.96,
+        Ea = (48880, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33102,30 +34188,30 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 1 0 {1,S} {3,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 1 0 {1,S} {2,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {3,S}
+10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
     product1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -33136,7 +34222,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(600000000000.0, 's^-1'), n=0, Ea=(22000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (600000000000.0, 's^-1'),
+        n = 0,
+        Ea = (22000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33155,10 +34247,10 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
@@ -33171,16 +34263,16 @@ C3H6OOH1-3
     product1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     product2 = 
 """
@@ -33189,7 +34281,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(75000000000.0, 's^-1'), n=0, Ea=(15250, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (75000000000.0, 's^-1'),
+        n = 0,
+        Ea = (15250, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33208,15 +34306,15 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
@@ -33224,14 +34322,14 @@ C3H6OOH2-1
     product1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -33242,7 +34340,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(600000000000.0, 's^-1'), n=0, Ea=(22000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (600000000000.0, 's^-1'),
+        n = 0,
+        Ea = (22000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33261,13 +34365,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -33281,16 +34385,16 @@ HO2
     product1 = 
 """
 C3H6OOH1-2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 1 0 {1,S} {3,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 1 0 {1,S} {2,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {3,S}
+10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
@@ -33300,6 +34404,7 @@ C3H6OOH1-2
         n = 0,
         Ea = (11000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -33319,13 +34424,13 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -33339,15 +34444,15 @@ HO2
     product1 = 
 """
 C3H6OOH2-1
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
@@ -33358,6 +34463,7 @@ C3H6OOH2-1
         n = 0,
         Ea = (11750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -33377,10 +34483,10 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
@@ -33420,6 +34526,7 @@ C2H4
         n = -0.79,
         Ea = (27400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -33439,15 +34546,15 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
@@ -33455,12 +34562,12 @@ C3H6OOH2-1
     product1 = 
 """
 C2H3OOH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 O 0 2 {2,S} {4,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
 4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
@@ -33473,7 +34580,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.54e+27, 's^-1'), n=-5.14, Ea=(38320, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6.54e+27, 's^-1'),
+        n = -5.14,
+        Ea = (38320, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33492,16 +34605,16 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 1 0 {1,S} {3,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 1 0 {1,S} {2,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {3,S}
+10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
@@ -33530,7 +34643,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.31e+33, 's^-1'), n=-7.01, Ea=(48120, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.31e+33, 's^-1'),
+        n = -7.01,
+        Ea = (48120, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33549,16 +34668,16 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 1 0 {1,S} {3,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 1 0 {1,S} {2,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
+8  H 0 0 {2,S}
 9  H 0 0 {2,S}
-10 H 0 0 {3,S}
+10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
@@ -33571,20 +34690,20 @@ O2
     product1 = 
 """
 C3H6OOH1-2O2
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,S} {6,S} {11,S}
-3  C 0 0 {2,S} {4,S} {12,S} {13,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {14,S}
-6  O 0 2 {2,S} {7,S}
-7  O 1 2 {6,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {5,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {6,S}
+5  O 0 2 {1,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {3,S}
+11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {5,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33592,6 +34711,7 @@ C3H6OOH1-2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -33611,10 +34731,10 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {2,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
@@ -33633,20 +34753,20 @@ O2
     product1 = 
 """
 C3H6OOH1-3O2
-1  O 0 2 {2,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  C 0 0 {3,S} {5,S} {11,S} {12,S}
-5  C 0 0 {4,S} {6,S} {13,S} {14,S}
-6  O 0 2 {5,S} {7,S}
-7  O 1 2 {6,S}
+1  C 0 0 {2,S} {3,S} {7,S} {8,S}
+2  C 0 0 {1,S} {4,S} {9,S} {10,S}
+3  C 0 0 {1,S} {5,S} {11,S} {12,S}
+4  O 0 2 {2,S} {6,S}
+5  O 0 2 {3,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
 8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {5,S}
-14 H 0 0 {5,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 H 0 0 {3,S}
+12 H 0 0 {3,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33654,6 +34774,7 @@ C3H6OOH1-3O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -33673,15 +34794,15 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 1 0 {1,S} {10,S} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
+7  H 0 0 {2,S}
 8  H 0 0 {2,S}
-9  H 0 0 {3,S}
+9  H 0 0 {2,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
@@ -33695,20 +34816,20 @@ O2
     product1 = 
 """
 C3H6OOH2-1O2
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,S} {6,S} {11,S}
-3  C 0 0 {2,S} {4,S} {12,S} {13,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
-6  O 0 2 {2,S} {7,S}
-7  O 0 2 {6,S} {14,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {7,S}
+2  C 0 0 {1,S} {5,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {6,S}
+5  O 0 2 {2,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {3,S}
+11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {7,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33716,6 +34837,7 @@ C3H6OOH2-1O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -33735,34 +34857,34 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2O2
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,S} {6,S} {11,S}
-3  C 0 0 {2,S} {4,S} {12,S} {13,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {14,S}
-6  O 0 2 {2,S} {7,S}
-7  O 1 2 {6,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {5,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {6,S}
+5  O 0 2 {1,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {3,S}
+11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {5,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     product1 = 
 """
 C3KET12
-1  C 0 0 {2,S} {7,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {4,S} {10,S}
-3  C 0 0 {2,S} {6,D} {11,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,D} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
-6  O 0 2 {3,D}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {2,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
@@ -33773,7 +34895,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(600000000000.0, 's^-1'), n=0, Ea=(26400, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (600000000000.0, 's^-1'),
+        n = 0,
+        Ea = (26400, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33792,36 +34920,36 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3O2
-1  O 0 2 {2,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  C 0 0 {3,S} {5,S} {11,S} {12,S}
-5  C 0 0 {4,S} {6,S} {13,S} {14,S}
-6  O 0 2 {5,S} {7,S}
-7  O 1 2 {6,S}
+1  C 0 0 {2,S} {3,S} {7,S} {8,S}
+2  C 0 0 {1,S} {4,S} {9,S} {10,S}
+3  C 0 0 {1,S} {5,S} {11,S} {12,S}
+4  O 0 2 {2,S} {6,S}
+5  O 0 2 {3,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
 8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {5,S}
-14 H 0 0 {5,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 H 0 0 {3,S}
+12 H 0 0 {3,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     product1 = 
 """
 C3KET13
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  C 0 0 {3,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {12,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {6,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,D} {11,S}
+4  O 0 2 {2,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
+11 H 0 0 {3,S}
+12 H 0 0 {5,S}
 """,
     product2 = 
 """
@@ -33830,7 +34958,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(75000000000.0, 's^-1'), n=0, Ea=(21400, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (75000000000.0, 's^-1'),
+        n = 0,
+        Ea = (21400, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33849,36 +34983,36 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1O2
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,S} {6,S} {11,S}
-3  C 0 0 {2,S} {4,S} {12,S} {13,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
-6  O 0 2 {2,S} {7,S}
-7  O 0 2 {6,S} {14,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {7,S}
+2  C 0 0 {1,S} {5,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {6,S}
+5  O 0 2 {2,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {3,S}
+11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {7,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     product1 = 
 """
 C3KET21
-1  C 0 0 {2,S} {7,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {4,D}
-3  C 0 0 {2,S} {5,S} {10,S} {11,S}
-4  O 0 2 {2,D}
-5  O 0 2 {3,S} {6,S}
-6  O 0 2 {5,S} {12,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 0 0 {1,S} {2,S} {11,D}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {6,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 O 0 2 {3,D}
+12 H 0 0 {5,S}
 """,
     product2 = 
 """
@@ -33887,7 +35021,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(300000000000.0, 's^-1'), n=0, Ea=(23850, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (300000000000.0, 's^-1'),
+        n = 0,
+        Ea = (23850, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33906,41 +35046,47 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1O2
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,S} {6,S} {11,S}
-3  C 0 0 {2,S} {4,S} {12,S} {13,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
-6  O 0 2 {2,S} {7,S}
-7  O 0 2 {6,S} {14,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {7,S}
+2  C 0 0 {1,S} {5,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {1,S} {6,S}
+5  O 0 2 {2,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {3,S}
+11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {7,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     product1 = 
 """
 C3H51-2,3OOH
-1  C 1 0 {2,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {6,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {13,S}
-6  O 0 2 {2,S} {7,S}
-7  O 0 2 {6,S} {14,S}
+1  C 0 0 {2,S} {3,S} {4,S} {8,S}
+2  C 0 0 {1,S} {5,S} {9,S} {10,S}
+3  C 1 0 {1,S} {11,S} {12,S}
+4  O 0 2 {1,S} {7,S}
+5  O 0 2 {2,S} {6,S}
+6  O 0 2 {5,S} {13,S}
+7  O 0 2 {4,S} {14,S}
 8  H 0 0 {1,S}
-9  H 0 0 {1,S}
+9  H 0 0 {2,S}
 10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {5,S}
+13 H 0 0 {6,S}
 14 H 0 0 {7,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(112500000000.0, 's^-1'), n=0, Ea=(24400, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (112500000000.0, 's^-1'),
+        n = 0,
+        Ea = (24400, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33959,41 +35105,47 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2O2
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,S} {6,S} {11,S}
-3  C 0 0 {2,S} {4,S} {12,S} {13,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {14,S}
-6  O 0 2 {2,S} {7,S}
-7  O 1 2 {6,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {5,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  O 0 2 {2,S} {6,S}
+5  O 0 2 {1,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {3,S}
+11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {5,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     product1 = 
 """
 C3H51-2,3OOH
-1  C 1 0 {2,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {6,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {13,S}
-6  O 0 2 {2,S} {7,S}
-7  O 0 2 {6,S} {14,S}
+1  C 0 0 {2,S} {3,S} {4,S} {8,S}
+2  C 0 0 {1,S} {5,S} {9,S} {10,S}
+3  C 1 0 {1,S} {11,S} {12,S}
+4  O 0 2 {1,S} {7,S}
+5  O 0 2 {2,S} {6,S}
+6  O 0 2 {5,S} {13,S}
+7  O 0 2 {4,S} {14,S}
 8  H 0 0 {1,S}
-9  H 0 0 {1,S}
+9  H 0 0 {2,S}
 10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {5,S}
+13 H 0 0 {6,S}
 14 H 0 0 {7,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(900000000000.0, 's^-1'), n=0, Ea=(29400, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (900000000000.0, 's^-1'),
+        n = 0,
+        Ea = (29400, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34012,28 +35164,28 @@ entry(
     reactant1 = 
 """
 C3H51-2,3OOH
-1  C 1 0 {2,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {6,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 0 2 {4,S} {13,S}
-6  O 0 2 {2,S} {7,S}
-7  O 0 2 {6,S} {14,S}
+1  C 0 0 {2,S} {3,S} {4,S} {8,S}
+2  C 0 0 {1,S} {5,S} {9,S} {10,S}
+3  C 1 0 {1,S} {11,S} {12,S}
+4  O 0 2 {1,S} {7,S}
+5  O 0 2 {2,S} {6,S}
+6  O 0 2 {5,S} {13,S}
+7  O 0 2 {4,S} {14,S}
 8  H 0 0 {1,S}
-9  H 0 0 {1,S}
+9  H 0 0 {2,S}
 10 H 0 0 {2,S}
 11 H 0 0 {3,S}
 12 H 0 0 {3,S}
-13 H 0 0 {5,S}
+13 H 0 0 {6,S}
 14 H 0 0 {7,S}
 """,
     product1 = 
 """
 AC3H5OOH
-1  C 0 0 {2,D} {6,S} {7,S}
-2  C 0 0 {1,D} {3,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {4,S} {6,S} {7,S}
+2  C 0 0 {1,S} {3,D} {8,S}
+3  C 0 0 {2,D} {9,S} {10,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {11,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
@@ -34055,6 +35207,7 @@ HO2
         n = -0.49,
         Ea = (17770, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34074,41 +35227,47 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3O2
-1  O 0 2 {2,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  C 0 0 {3,S} {5,S} {11,S} {12,S}
-5  C 0 0 {4,S} {6,S} {13,S} {14,S}
-6  O 0 2 {5,S} {7,S}
-7  O 1 2 {6,S}
+1  C 0 0 {2,S} {3,S} {7,S} {8,S}
+2  C 0 0 {1,S} {4,S} {9,S} {10,S}
+3  C 0 0 {1,S} {5,S} {11,S} {12,S}
+4  O 0 2 {2,S} {6,S}
+5  O 0 2 {3,S} {13,S}
+6  O 0 2 {4,S} {14,S}
+7  H 0 0 {1,S}
 8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {5,S}
-14 H 0 0 {5,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 H 0 0 {3,S}
+12 H 0 0 {3,S}
+13 O 1 2 {5,S}
+14 H 0 0 {6,S}
 """,
     product1 = 
 """
 C3H52-1,3OOH
-1  O 0 2 {2,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  C 1 0 {3,S} {5,S} {11,S}
-5  C 0 0 {4,S} {6,S} {12,S} {13,S}
-6  O 0 2 {5,S} {7,S}
-7  O 0 2 {6,S} {14,S}
+1  C 0 0 {3,S} {4,S} {8,S} {9,S}
+2  C 0 0 {3,S} {5,S} {10,S} {11,S}
+3  C 1 0 {1,S} {2,S} {12,S}
+4  O 0 2 {1,S} {6,S}
+5  O 0 2 {2,S} {7,S}
+6  O 0 2 {4,S} {13,S}
+7  O 0 2 {5,S} {14,S}
 8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {5,S}
-13 H 0 0 {5,S}
+9  H 0 0 {1,S}
+10 H 0 0 {2,S}
+11 H 0 0 {2,S}
+12 H 0 0 {3,S}
+13 H 0 0 {6,S}
 14 H 0 0 {7,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(600000000000.0, 's^-1'), n=0, Ea=(26850, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (600000000000.0, 's^-1'),
+        n = 0,
+        Ea = (26850, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34127,28 +35286,28 @@ entry(
     reactant1 = 
 """
 C3H52-1,3OOH
-1  O 0 2 {2,S} {8,S}
-2  O 0 2 {1,S} {3,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  C 1 0 {3,S} {5,S} {11,S}
-5  C 0 0 {4,S} {6,S} {12,S} {13,S}
-6  O 0 2 {5,S} {7,S}
-7  O 0 2 {6,S} {14,S}
+1  C 0 0 {3,S} {4,S} {8,S} {9,S}
+2  C 0 0 {3,S} {5,S} {10,S} {11,S}
+3  C 1 0 {1,S} {2,S} {12,S}
+4  O 0 2 {1,S} {6,S}
+5  O 0 2 {2,S} {7,S}
+6  O 0 2 {4,S} {13,S}
+7  O 0 2 {5,S} {14,S}
 8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {5,S}
-13 H 0 0 {5,S}
+9  H 0 0 {1,S}
+10 H 0 0 {2,S}
+11 H 0 0 {2,S}
+12 H 0 0 {3,S}
+13 H 0 0 {6,S}
 14 H 0 0 {7,S}
 """,
     product1 = 
 """
 AC3H5OOH
-1  C 0 0 {2,D} {6,S} {7,S}
-2  C 0 0 {1,D} {3,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {4,S} {6,S} {7,S}
+2  C 0 0 {1,S} {3,D} {8,S}
+3  C 0 0 {2,D} {9,S} {10,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {11,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
@@ -34170,6 +35329,7 @@ HO2
         n = -0.63,
         Ea = (17250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34189,28 +35349,28 @@ entry(
     reactant1 = 
 """
 C3KET12
-1  C 0 0 {2,S} {7,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {4,S} {10,S}
-3  C 0 0 {2,S} {6,D} {11,S}
-4  O 0 2 {2,S} {5,S}
+1  C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,D} {11,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {12,S}
-6  O 0 2 {3,D}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {2,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 11 H 0 0 {3,S}
 12 H 0 0 {5,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -34232,6 +35392,7 @@ OH
         n = 0,
         Ea = (43000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34251,18 +35412,18 @@ entry(
     reactant1 = 
 """
 C3KET13
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  C 0 0 {3,S} {5,S} {10,S} {11,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {12,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {6,S}
+1  C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  C 0 0 {1,S} {4,S} {8,S} {9,S}
+3  C 0 0 {1,S} {10,D} {11,S}
+4  O 0 2 {2,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
+11 H 0 0 {3,S}
+12 H 0 0 {5,S}
 """,
     product1 = 
 """
@@ -34289,7 +35450,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+16, 's^-1'), n=0, Ea=(43000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+16, 's^-1'),
+        n = 0,
+        Ea = (43000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34308,18 +35475,18 @@ entry(
     reactant1 = 
 """
 C3KET21
-1  C 0 0 {2,S} {7,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {4,D}
-3  C 0 0 {2,S} {5,S} {10,S} {11,S}
-4  O 0 2 {2,D}
-5  O 0 2 {3,S} {6,S}
-6  O 0 2 {5,S} {12,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  C 0 0 {1,S} {2,S} {11,D}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {12,S}
+6  H 0 0 {1,S}
 7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {6,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 O 0 2 {3,D}
+12 H 0 0 {5,S}
 """,
     product1 = 
 """
@@ -34332,12 +35499,12 @@ CH2O
     product2 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product3 = 
 """
@@ -34346,7 +35513,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+16, 's^-1'), n=0, Ea=(43000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+16, 's^-1'),
+        n = 0,
+        Ea = (43000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34365,10 +35538,10 @@ entry(
     reactant1 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -34384,10 +35557,10 @@ OH
     product1 = 
 """
 AC3H5OOH
-1  C 0 0 {2,D} {6,S} {7,S}
-2  C 0 0 {1,D} {3,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {3,S} {5,S}
+1  C 0 0 {2,S} {4,S} {6,S} {7,S}
+2  C 0 0 {1,S} {3,D} {8,S}
+3  C 0 0 {2,D} {9,S} {10,S}
+4  O 0 2 {1,S} {5,S}
 5  O 0 2 {4,S} {11,S}
 6  H 0 0 {1,S}
 7  H 0 0 {1,S}
@@ -34402,6 +35575,7 @@ AC3H5OOH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34421,10 +35595,10 @@ entry(
     reactant1 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -34434,12 +35608,12 @@ C3H5O
     product1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -34454,6 +35628,7 @@ H
         n = 0,
         Ea = (29100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34473,10 +35648,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -34490,10 +35665,10 @@ CH2O
     product1 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -34506,6 +35681,7 @@ C3H5O
         n = 0,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34525,10 +35701,10 @@ entry(
     reactant1 = 
 """
 C3H5O
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,S} {8,S} {9,S}
-4 O 1 2 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 O 1 2 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {2,S}
@@ -34544,12 +35720,12 @@ O2
     product1 = 
 """
 C2H3CHO
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 C 0 0 {1,S} {5,D} {8,S}
+4 H 0 0 {1,S}
+5 O 0 2 {3,D}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 """,
@@ -34566,6 +35742,7 @@ HO2
         n = 0,
         Ea = (6000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34585,12 +35762,12 @@ entry(
     reactant1 = 
 """
 C2H3OOH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 O 0 2 {2,S} {4,S}
+1 C 0 0 {2,D} {3,S} {5,S}
+2 C 0 0 {1,D} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
 4 O 0 2 {3,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {4,S}
 """,
@@ -34616,6 +35793,7 @@ OH
         n = 0,
         Ea = (43000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34635,14 +35813,14 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -34670,6 +35848,7 @@ CH2O
         n = 0,
         Ea = (60000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34689,14 +35868,14 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -34717,10 +35896,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -34736,6 +35915,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34755,14 +35935,14 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -34782,10 +35962,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -34800,6 +35980,7 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34819,14 +36000,14 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -34846,10 +36027,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -34864,6 +36045,7 @@ OH
         n = 0,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34883,14 +36065,14 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -34912,10 +36094,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -34932,6 +36114,7 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -34951,26 +36134,26 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -34983,10 +36166,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35006,6 +36189,7 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35025,14 +36209,14 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {4,S} {6,S} {7,S}
+3  C 0 0 {1,S} {8,S} {9,S} {10,S}
+4  O 0 2 {1,S} {2,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
 9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 """,
@@ -35055,10 +36239,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35076,6 +36260,7 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35095,16 +36280,16 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     product1 = 
 """
@@ -35130,6 +36315,7 @@ CH2O
         n = 0,
         Ea = (60000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35149,16 +36335,16 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
@@ -35177,10 +36363,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35196,6 +36382,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35215,16 +36402,16 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
@@ -35242,10 +36429,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35260,6 +36447,7 @@ OH
         n = 0,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35279,16 +36467,16 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
@@ -35306,10 +36494,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35324,6 +36512,7 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35343,26 +36532,26 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -35375,10 +36564,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35398,6 +36587,7 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35417,16 +36607,16 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
@@ -35446,10 +36636,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35466,6 +36656,7 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35485,16 +36676,16 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1  O 0 2 {2,S} {3,S}
-2  C 0 0 {1,S} {4,S} {5,S} {6,S}
-3  C 0 0 {1,S} {4,S} {7,S} {8,S}
-4  C 0 0 {2,S} {3,S} {9,S} {10,S}
-5  H 0 0 {2,S}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  O 0 2 {2,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     reactant2 = 
 """
@@ -35515,10 +36706,10 @@ CH2O
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product3 = 
@@ -35536,6 +36727,7 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35555,29 +36747,29 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,S} {9,S}
-3  C 0 0 {2,S} {10,S} {11,S} {12,S}
-4  O 0 2 {2,S} {5,S}
-5  O 1 2 {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {1,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
 10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -35589,7 +36781,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.015e+43, 's^-1'), n=-9.41, Ea=(41490, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.015e+43, 's^-1'),
+        n = -9.41,
+        Ea = (41490, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35608,29 +36806,29 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  O 0 2 {3,S} {5,S}
-5  O 1 2 {4,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  O 0 2 {2,S} {12,S}
+5  H 0 0 {1,S}
 6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 11 H 0 0 {3,S}
-12 H 0 0 {3,S}
+12 O 1 2 {4,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -35642,7 +36840,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.044e+38, 's^-1'), n=-8.11, Ea=(40490, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.044e+38, 's^-1'),
+        n = -8.11,
+        Ea = (40490, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35661,14 +36865,14 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -35682,10 +36886,10 @@ H2O2
     product1 = 
 """
 C3H5OH
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {10,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {3,D} {7,S}
+3  C 0 0 {2,D} {8,S} {9,S}
+4  O 0 2 {1,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
@@ -35706,6 +36910,7 @@ HO2
         n = 0,
         Ea = (2583, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35725,10 +36930,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {10,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {3,D} {7,S}
+3  C 0 0 {2,D} {8,S} {9,S}
+4  O 0 2 {1,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
@@ -35745,14 +36950,14 @@ OH
     product1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product2 = 
@@ -35768,6 +36973,7 @@ H2O
         n = 0,
         Ea = (5960, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35787,10 +36993,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {10,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {3,D} {7,S}
+3  C 0 0 {2,D} {8,S} {9,S}
+4  O 0 2 {1,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
@@ -35806,14 +37012,14 @@ H
     product1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product2 = 
@@ -35823,7 +37029,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(390000, 'cm^3/(mol*s)'), n=2.5, Ea=(5821, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (390000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (5821, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35842,10 +37054,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {10,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {3,D} {7,S}
+3  C 0 0 {2,D} {8,S} {9,S}
+4  O 0 2 {1,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
@@ -35862,14 +37074,14 @@ O2
     product1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product2 = 
@@ -35885,6 +37097,7 @@ HO2
         n = 0,
         Ea = (60690, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35904,10 +37117,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {10,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {3,D} {7,S}
+3  C 0 0 {2,D} {8,S} {9,S}
+4  O 0 2 {1,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
@@ -35926,14 +37139,14 @@ CH3
     product1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product2 = 
@@ -35951,6 +37164,7 @@ CH4
         n = 0,
         Ea = (8030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -35970,14 +37184,14 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -35988,10 +37202,10 @@ H
     product1 = 
 """
 C3H5OH
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {10,S}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {3,D} {7,S}
+3  C 0 0 {2,D} {8,S} {9,S}
+4  O 0 2 {1,S} {10,S}
 5  H 0 0 {1,S}
 6  H 0 0 {1,S}
 7  H 0 0 {2,S}
@@ -36005,6 +37219,7 @@ C3H5OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36024,14 +37239,14 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     reactant2 = 
@@ -36069,6 +37284,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36088,14 +37304,14 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     product1 = 
@@ -36116,7 +37332,13 @@ CH2OH
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.163e+40, 's^-1'), n=-8.31, Ea=(45110, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.163e+40, 's^-1'),
+        n = -8.31,
+        Ea = (45110, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -36135,13 +37357,13 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36152,14 +37374,14 @@ OH
     product1 = 
 """
 CH2CCH2OH
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,S} {7,S} {8,S}
-4 O 0 2 {3,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 O 0 2 {1,S} {9,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 9 H 0 0 {4,S}
 """,
     degeneracy = 1,
@@ -36168,6 +37390,7 @@ CH2CCH2OH
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36192,25 +37415,25 @@ H
     reactant2 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36218,6 +37441,7 @@ CH3OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36242,25 +37466,25 @@ H
     reactant2 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36268,6 +37492,7 @@ CH3OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36287,14 +37512,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36304,13 +37529,13 @@ H
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36324,6 +37549,7 @@ H2
         n = 2.537,
         Ea = (6494.2, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36343,14 +37569,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36361,13 +37587,13 @@ OH
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36382,6 +37608,7 @@ H2O
         n = 0.054,
         Ea = (3340.5, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36401,14 +37628,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36421,13 +37648,13 @@ CH3
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36439,7 +37666,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.291, 'cm^3/(mol*s)'), n=3.7, Ea=(6823.8, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.291, 'cm^3/(mol*s)'),
+        n = 3.7,
+        Ea = (6823.8, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -36458,14 +37691,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36477,13 +37710,13 @@ HO2
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36499,6 +37732,7 @@ H2O2
         n = 2.44,
         Ea = (16594.3, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36518,35 +37752,35 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36565,6 +37799,7 @@ CH3O2H
         n = 2.44,
         Ea = (16594.3, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36584,14 +37819,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36605,13 +37840,13 @@ CH3O
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36629,6 +37864,7 @@ CH3OH
         n = 0.45,
         Ea = (4823.6, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36648,14 +37884,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36665,13 +37901,13 @@ O
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36685,6 +37921,7 @@ OH
         n = 2.44,
         Ea = (4593.2, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36704,14 +37941,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36722,13 +37959,13 @@ O2
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36743,6 +37980,7 @@ HO2
         n = 0.0796,
         Ea = (51749.8, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36762,14 +38000,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36781,13 +38019,13 @@ HCO
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36798,7 +38036,13 @@ CH2O
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(102500, 'cm^3/(mol*s)'), n=2.5, Ea=(18430, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (102500, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (18430, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -36817,14 +38061,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36840,13 +38084,13 @@ C2H5
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36866,6 +38110,7 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36885,34 +38130,34 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -36930,6 +38175,7 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -36949,14 +38195,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -36969,22 +38215,22 @@ OCHO
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36992,6 +38238,7 @@ HCOOH
         n = 2.44,
         Ea = (16594.3, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37011,14 +38258,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37028,13 +38275,13 @@ H
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37048,6 +38295,7 @@ H2
         n = 2.52,
         Ea = (5736.8, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37067,14 +38315,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37085,13 +38333,13 @@ OH
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37106,6 +38354,7 @@ H2O
         n = -0.981,
         Ea = (4946.1, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37125,14 +38374,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37145,13 +38394,13 @@ CH3
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37168,6 +38417,7 @@ CH4
         n = 3.69,
         Ea = (6052.6, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37187,35 +38437,35 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3O2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37234,6 +38484,7 @@ CH3O2H
         n = 2.18,
         Ea = (16544.4, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37253,14 +38504,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37272,13 +38523,13 @@ HO2
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37294,6 +38545,7 @@ H2O2
         n = 2.18,
         Ea = (16544.4, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37313,14 +38565,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37334,13 +38586,13 @@ CH3O
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37358,6 +38610,7 @@ CH3OH
         n = 0.83,
         Ea = (2912.4, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37377,14 +38630,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37394,13 +38647,13 @@ O
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37414,6 +38667,7 @@ OH
         n = 2.47,
         Ea = (4047.8, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37433,14 +38687,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37451,13 +38705,13 @@ O2
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37472,6 +38726,7 @@ HO2
         n = 0.113,
         Ea = (50759.6, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37491,14 +38746,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37510,13 +38765,13 @@ HCO
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37532,6 +38787,7 @@ CH2O
         n = 1.9,
         Ea = (17010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37551,14 +38807,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37574,13 +38830,13 @@ C2H5
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37600,6 +38856,7 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37619,34 +38876,34 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
@@ -37664,6 +38921,7 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37683,14 +38941,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -37703,22 +38961,22 @@ OCHO
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37726,6 +38984,7 @@ HCOOH
         n = 2.18,
         Ea = (16544.4, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37745,48 +39004,48 @@ entry(
     reactant1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37794,6 +39053,7 @@ CH2OCHO
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37828,13 +39088,13 @@ CO2
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37842,6 +39102,7 @@ CH3OCO
         n = 1.54,
         Ea = (34700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37876,13 +39137,13 @@ CO
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37890,6 +39151,7 @@ CH3OCO
         n = 2.02,
         Ea = (5730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37909,24 +39171,24 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37934,6 +39196,7 @@ CH3OCO
         n = -0.03,
         Ea = (38178, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -37968,13 +39231,13 @@ HCO
     product1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37982,6 +39245,7 @@ CH2OCHO
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38001,29 +39265,35 @@ entry(
     reactant1 = 
 """
 OCH2OCHO
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {4,S}
-4 C 0 0 {3,S} {5,D} {8,S}
-5 O 0 2 {4,D}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
-8 H 0 0 {4,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
 HOCH2OCO
-1 O 0 2 {2,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
-4 C 1 0 {3,S} {5,D}
-5 O 0 2 {4,D}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,S} {7,S}
+4 C 1 0 {2,S} {8,D}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {4,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(100000000000.0, 's^-1'), n=0, Ea=(14000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (100000000000.0, 's^-1'),
+        n = 0,
+        Ea = (14000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -38042,14 +39312,14 @@ entry(
     reactant1 = 
 """
 HOCH2OCO
-1 O 0 2 {2,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
-4 C 1 0 {3,S} {5,D}
-5 O 0 2 {4,D}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,S} {7,S}
+4 C 1 0 {2,S} {8,D}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {4,D}
 """,
     product1 = 
 """
@@ -38068,7 +39338,13 @@ CO
 2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.238e+19, 's^-1'), n=-2.02, Ea=(19690, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.238e+19, 's^-1'),
+        n = -2.02,
+        Ea = (19690, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -38087,14 +39363,14 @@ entry(
     reactant1 = 
 """
 HOCH2OCO
-1 O 0 2 {2,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {4,S}
-4 C 1 0 {3,S} {5,D}
-5 O 0 2 {4,D}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,S} {7,S}
+4 C 1 0 {2,S} {8,D}
+5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {4,D}
 """,
     product1 = 
 """
@@ -38113,7 +39389,13 @@ CO2
 3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.413e+17, 's^-1'), n=-1.57, Ea=(22120, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.413e+17, 's^-1'),
+        n = -1.57,
+        Ea = (22120, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -38148,14 +39430,14 @@ OCHO
     product1 = 
 """
 OCH2OCHO
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {4,S}
-4 C 0 0 {3,S} {5,D} {8,S}
-5 O 0 2 {4,D}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
-8 H 0 0 {4,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38163,6 +39445,7 @@ OCH2OCHO
         n = 0,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38182,13 +39465,13 @@ entry(
     reactant1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -38200,14 +39483,14 @@ HCO
     product1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -38221,6 +39504,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38240,13 +39524,13 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -38258,14 +39542,14 @@ HCO
     product1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -38279,6 +39563,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38298,13 +39583,13 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -38316,16 +39601,16 @@ HO2
     product1 = 
 """
 HOOCH2OCHO
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  O 0 2 {2,S} {4,S}
-4  C 0 0 {3,S} {5,S} {8,S} {9,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {10,S}
-7  H 0 0 {2,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {6,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,D} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {10,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  O 0 2 {2,D}
+9  H 0 0 {2,S}
+10 H 0 0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38333,6 +39618,7 @@ HOOCH2OCHO
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38352,14 +39638,14 @@ entry(
     reactant1 = 
 """
 OCH2OCHO
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {4,S}
-4 C 0 0 {3,S} {5,D} {8,S}
-5 O 0 2 {4,D}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
-8 H 0 0 {4,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -38370,16 +39656,16 @@ OH
     product1 = 
 """
 HOOCH2OCHO
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  O 0 2 {2,S} {4,S}
-4  C 0 0 {3,S} {5,S} {8,S} {9,S}
-5  O 0 2 {4,S} {6,S}
-6  O 0 2 {5,S} {10,S}
-7  H 0 0 {2,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {6,S}
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {3,S} {8,D} {9,S}
+3  O 0 2 {1,S} {2,S}
+4  O 0 2 {1,S} {5,S}
+5  O 0 2 {4,S} {10,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  O 0 2 {2,D}
+9  H 0 0 {2,S}
+10 H 0 0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38387,6 +39673,7 @@ HOOCH2OCHO
         n = 2.41,
         Ea = (-4132, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38406,13 +39693,13 @@ entry(
     reactant1 = 
 """
 CH3OCO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
+3 C 1 0 {2,S} {7,D}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
@@ -38426,14 +39713,14 @@ CH3O
     product1 = 
 """
 OCH2OCHO
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {2,S} {4,S}
-4 C 0 0 {3,S} {5,D} {8,S}
-5 O 0 2 {4,D}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
-8 H 0 0 {4,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 O 1 2 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
@@ -38449,6 +39736,7 @@ CH3
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38468,13 +39756,13 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1 C 1 0 {2,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 O 0 2 {3,D}
+1 C 1 0 {3,S} {5,S} {6,S}
+2 C 0 0 {3,S} {4,D} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {2,D}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
@@ -38485,15 +39773,15 @@ O2
     product1 = 
 """
 OOCH2OCHO
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 O 0 2 {2,S} {4,S}
-4 C 0 0 {3,S} {5,S} {8,S} {9,S}
-5 O 0 2 {4,S} {6,S}
-6 O 1 2 {5,S}
-7 H 0 0 {2,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 O 0 2 {1,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
+9 O 1 2 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38501,6 +39789,7 @@ OOCH2OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38520,13 +39809,13 @@ entry(
     reactant1 = 
 """
 OCH2O2H
-1 O 1 2 {2,S}
-2 C 0 0 {1,S} {3,S} {5,S} {6,S}
-3 O 0 2 {2,S} {4,S}
-4 O 0 2 {3,S} {7,S}
-5 H 0 0 {2,S}
-6 H 0 0 {2,S}
-7 H 0 0 {4,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 O 1 2 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
@@ -38537,15 +39826,15 @@ CO
     product1 = 
 """
 HOOCH2OC*O
-1 O 0 2 {2,D}
-2 C 1 0 {1,D} {3,S}
-3 O 0 2 {2,S} {4,S}
-4 C 0 0 {3,S} {5,S} {7,S} {8,S}
-5 O 0 2 {4,S} {6,S}
-6 O 0 2 {5,S} {9,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {6,S}
+1 C 0 0 {2,S} {3,S} {6,S} {7,S}
+2 O 0 2 {1,S} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 C 1 0 {2,S} {8,D}
+5 O 0 2 {3,S} {9,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 O 0 2 {4,D}
+9 H 0 0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38553,6 +39842,7 @@ HOOCH2OC*O
         n = 1.633,
         Ea = (5588, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38586,12 +39876,12 @@ CO
     product1 = 
 """
 CHOOCO
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 O 0 2 {2,S} {4,S}
-4 C 1 0 {3,S} {5,D}
-5 O 0 2 {4,D}
-6 H 0 0 {2,S}
+1 C 0 0 {2,S} {4,D} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 C 1 0 {2,S} {6,D}
+4 O 0 2 {1,D}
+5 H 0 0 {1,S}
+6 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38599,6 +39889,7 @@ CHOOCO
         n = 0,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38632,12 +39923,12 @@ CO2
     product1 = 
 """
 CHOOCO
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 O 0 2 {2,S} {4,S}
-4 C 1 0 {3,S} {5,D}
-5 O 0 2 {4,D}
-6 H 0 0 {2,S}
+1 C 0 0 {2,S} {4,D} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 C 1 0 {2,S} {6,D}
+4 O 0 2 {1,D}
+5 H 0 0 {1,S}
+6 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38645,6 +39936,7 @@ CHOOCO
         n = 0,
         Ea = (36730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38686,6 +39978,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38727,6 +40020,7 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38763,6 +40057,7 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.714e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, '[C]=O': 1.9, '[Ar]': 0.75},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38801,6 +40096,7 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.8e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.38, '[C]=O': 1.9, '[Ar]': 0.38},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38853,6 +40149,7 @@ HO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 1.9, '[O][O]': 0.78, 'O=C=O': 3.8, 'O': 11.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38907,6 +40204,7 @@ OH
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.64, '[C]=O': 1.9, '[Ar]': 0.64},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38956,6 +40254,7 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.87},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -38999,6 +40298,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 6.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39044,6 +40344,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39084,6 +40385,7 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.1e+45, 'cm^3/(mol*s)'), n=-8, Ea=(97510, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39146,6 +40448,7 @@ C2H6
         T1 = (1e-10, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39203,6 +40506,7 @@ CH4
         T1 = (2941, 'K'),
         T2 = (6964, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39262,6 +40566,7 @@ CH3OH
         T1 = (5900, 'K'),
         T2 = (6394, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39321,6 +40626,7 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39380,6 +40686,7 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39439,6 +40746,7 @@ CH3OH
         T1 = (3922, 'K'),
         T2 = (10180, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39489,6 +40797,7 @@ CH3
         T1 = (1995, 'K'),
         T2 = (5590, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39521,11 +40830,11 @@ CO
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -39546,6 +40855,7 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39585,6 +40895,7 @@ CH2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[C]=O': 0.0, 'O=C=O': 0.0, 'O': 0.0, '[Ar]': 0.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39630,6 +40941,7 @@ OCHO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39677,6 +40989,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39724,6 +41037,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39743,11 +41057,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -39771,6 +41085,7 @@ H2O
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39790,11 +41105,11 @@ entry(
     reactant1 = 
 """
 HCOOH
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 O 0 2 {1,S} {5,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 O 0 2 {1,D}
 4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -39813,6 +41128,7 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.5e+16, 'cm^3/(mol*s)'), n=0, Ea=(57000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39876,6 +41192,7 @@ C2H6
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39937,6 +41254,7 @@ C2H5
         T1 = (984, 'K'),
         T2 = (4374, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -39956,12 +41274,12 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -39987,6 +41305,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40006,13 +41325,13 @@ entry(
     reactant1 = 
 """
 CH3CO2
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 0 {1,S} {3,D} {4,S}
-3 O 0 2 {2,D}
-4 O 1 2 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+6 O 0 2 {2,D}
+7 O 1 2 {2,S}
 """,
     product1 = 
 """
@@ -40038,6 +41357,7 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40083,6 +41403,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40102,10 +41423,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -40142,6 +41463,7 @@ C2H4
         T1 = (2663, 'K'),
         T2 = (6095, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40201,6 +41523,7 @@ H2
         T1 = (1035, 'K'),
         T2 = (5417, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40233,10 +41556,10 @@ H
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -40258,6 +41581,7 @@ C2H3
         T1 = (1302, 'K'),
         T2 = (4167, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40277,9 +41601,9 @@ entry(
     reactant1 = 
 """
 C2H
-1 C 1 0 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 H 0 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 1 0 {1,T}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
@@ -40308,6 +41632,7 @@ C2H2
         T1 = (1315, 'K'),
         T2 = (5566, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40327,12 +41652,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -40368,6 +41693,7 @@ CH3
         T1 = (825, 'K'),
         T2 = (6100, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40387,12 +41713,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -40428,6 +41754,7 @@ OH
         T1 = (800, 'K'),
         T2 = (1000000000000000.0, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40447,12 +41774,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -40493,6 +41820,7 @@ H2O
         T1 = (800, 'K'),
         T2 = (3800, 'K'),
         efficiencies = {'O': 5.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40512,12 +41840,12 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 O 0 2 {2,S} {9,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 8 H 0 0 {2,S}
 9 H 0 0 {3,S}
@@ -40525,12 +41853,12 @@ C2H5OH
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -40553,6 +41881,7 @@ H2
         T1 = (1100, 'K'),
         T2 = (3500, 'K'),
         efficiencies = {'O': 5.0},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40584,12 +41913,12 @@ SC2H4OH
     product1 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product2 = 
@@ -40606,6 +41935,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40625,26 +41955,26 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {5,S} {6,S} {7,S}
-4  C 0 0 {2,S} {8,S} {9,S} {10,S}
-5  H 0 0 {3,S}
-6  H 0 0 {3,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C 0 0 {3,S} {4,S} {5,S} {6,S}
+2  C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  C 0 0 {1,S} {2,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {3,D}
 """,
     product1 = 
 """
 CH3CO
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 C 0 0 {1,S} {4,S} {5,S} {6,S}
-4 H 0 0 {3,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -40668,6 +41998,7 @@ CH3
         T1 = (416.4, 'K'),
         T2 = (3290000000.0, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40687,15 +42018,15 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {2,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -40728,6 +42059,7 @@ CH3O
         T1 = (556.36, 'K'),
         T2 = (6710000000.0, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40747,12 +42079,12 @@ entry(
     reactant1 = 
 """
 C3H8
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,S} {11,S}
 4  H 0 0 {1,S}
 5  H 0 0 {1,S}
-6  H 0 0 {1,S}
+6  H 0 0 {2,S}
 7  H 0 0 {2,S}
 8  H 0 0 {2,S}
 9  H 0 0 {3,S}
@@ -40792,6 +42124,7 @@ C2H5
         T1 = (3000, 'K'),
         T2 = (9000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40811,11 +42144,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -40828,13 +42161,13 @@ H
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -40857,6 +42190,7 @@ C3H6
         T1 = (1096.6, 'K'),
         T2 = (6859.5, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40876,10 +42210,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -40893,13 +42227,13 @@ CH3
     product1 = 
 """
 C3H6
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 8 H 0 0 {3,S}
 9 H 0 0 {3,S}
 """,
@@ -40922,6 +42256,7 @@ C3H6
         T1 = (60000, 'K'),
         T2 = (10139.8, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -40941,11 +42276,11 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 1 0 {2,S} {7,S} {8,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,S} {8,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 H 0 0 {2,S}
 6 H 0 0 {2,S}
 7 H 0 0 {3,S}
 8 H 0 0 {3,S}
@@ -40993,6 +42328,7 @@ C4H8-1
         T1 = (60000, 'K'),
         T2 = (6118.4, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -41012,14 +42348,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -41051,6 +42387,7 @@ CO
         T1 = (8336780000.0, 'K'),
         T2 = (8213940000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -41070,14 +42407,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -41109,6 +42446,7 @@ CO2
         T1 = (9918710000.0, 'K'),
         T2 = (3289900000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -41128,14 +42466,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -41167,6 +42505,7 @@ CH2O
         T1 = (618.799, 'K'),
         T2 = (6710100000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -41186,14 +42525,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -41225,6 +42564,7 @@ OCHO
         T1 = (9330200000.0, 'K'),
         T2 = (1786000000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",
@@ -41244,14 +42584,14 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 O 0 2 {1,S} {3,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,S} {7,D} {8,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
-7 H 0 0 {1,S}
-8 H 0 0 {3,S}
+7 O 0 2 {2,D}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
@@ -41283,6 +42623,7 @@ HCO
         T1 = (647.04, 'K'),
         T2 = (669800000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
+        comment = 'Reaction and kinetics from Dooley\\methylformate.',
     ),
     reference = None,
     referenceType = "",

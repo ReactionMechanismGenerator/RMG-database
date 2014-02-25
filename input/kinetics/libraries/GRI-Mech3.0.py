@@ -33,7 +33,13 @@ OH
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(38700, 'cm^3/(mol*s)'), n=2.7, Ea=(6260, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (38700, 'cm^3/(mol*s)'),
+        n = 2.7,
+        Ea = (6260, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -79,6 +85,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -122,7 +129,13 @@ HO2
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9630000.0, 'cm^3/(mol*s)'), n=2, Ea=(4000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9630000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (4000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -166,6 +179,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -212,6 +226,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -258,6 +273,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -304,6 +320,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -352,6 +369,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -402,6 +420,7 @@ CH3
         n = 1.5,
         Ea = (8600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -448,6 +467,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -494,6 +514,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -542,6 +563,7 @@ HCO
         n = 0,
         Ea = (3540, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -592,6 +614,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -642,6 +665,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -689,7 +713,13 @@ CH2OH
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(388000, 'cm^3/(mol*s)'), n=2.5, Ea=(3100, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (388000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (3100, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -736,7 +766,13 @@ CH3O
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(130000, 'cm^3/(mol*s)'), n=2.5, Ea=(5000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (130000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (5000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -782,6 +818,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -830,6 +867,7 @@ HCCO
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -878,6 +916,7 @@ C2H
         n = -1.41,
         Ea = (28950, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -921,7 +960,13 @@ CH2
 3 H 0  0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6940000.0, 'cm^3/(mol*s)'), n=2, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6940000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1900, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -945,10 +990,10 @@ O
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -959,11 +1004,11 @@ H
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -971,6 +1016,7 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1023,6 +1069,7 @@ HCO
         n = 1.83,
         Ea = (220, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1047,11 +1094,11 @@ O
     reactant2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -1077,6 +1124,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1119,11 +1167,11 @@ OH
     product2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -1133,6 +1181,7 @@ C2H5
         n = 1.92,
         Ea = (5690, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1185,6 +1234,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1209,11 +1259,11 @@ O
     reactant2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -1235,6 +1285,7 @@ HCCO
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1259,11 +1310,11 @@ O
     reactant2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -1285,6 +1336,7 @@ CO2
         n = 0,
         Ea = (1350, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1331,6 +1383,7 @@ CO2
         n = 0,
         Ea = (47800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1381,6 +1434,7 @@ HCO
         n = 0,
         Ea = (40000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1433,6 +1487,7 @@ O2
         n = -1.24,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1487,6 +1542,7 @@ H2O
         n = -0.76,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1531,6 +1587,7 @@ OH
         n = -0.6707,
         Ea = (17041, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1576,7 +1633,13 @@ H2
 2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9e+16, 'cm^6/(mol^2*s)'),
+        n = -0.6,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1623,7 +1686,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6e+19, 'cm^6/(mol^2*s)'), n=-1.25, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6e+19, 'cm^6/(mol^2*s)'),
+        n = -1.25,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1670,7 +1739,13 @@ CO2
 3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.5e+20, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.5e+20, 'cm^6/(mol^2*s)'),
+        n = -2,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1716,6 +1791,7 @@ H2O
         n = 0,
         Ea = (671, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1762,6 +1838,7 @@ H2
         n = 0,
         Ea = (1068, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1808,6 +1885,7 @@ OH
         n = 0,
         Ea = (635, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1856,6 +1934,7 @@ H2
         n = 2,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1904,6 +1983,7 @@ H2O
         n = 0,
         Ea = (3600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1948,6 +2028,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -1994,6 +2075,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2044,6 +2126,7 @@ H2
         n = 1.62,
         Ea = (10840, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2090,6 +2173,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2138,6 +2222,7 @@ H2
         n = 1.9,
         Ea = (2742, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2188,6 +2273,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2238,6 +2324,7 @@ CH3
         n = 0.65,
         Ea = (-284, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2288,6 +2375,7 @@ H2O
         n = -0.09,
         Ea = (610, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2338,6 +2426,7 @@ CH2OH
         n = 1.63,
         Ea = (1924, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2388,6 +2477,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2438,6 +2528,7 @@ CH3
         n = 0.5,
         Ea = (-110, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2488,6 +2579,7 @@ H2O
         n = -0.23,
         Ea = (1070, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2540,6 +2632,7 @@ H2
         n = 2.1,
         Ea = (4870, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2592,6 +2685,7 @@ H2
         n = 2.1,
         Ea = (4870, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2616,10 +2710,10 @@ H
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -2642,6 +2736,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2676,10 +2771,10 @@ C2H4
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -2694,6 +2789,7 @@ H2
         n = 2.53,
         Ea = (12240, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2718,11 +2814,11 @@ H
     reactant2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -2748,6 +2844,7 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2784,11 +2881,11 @@ C2H6
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -2804,6 +2901,7 @@ H2
         n = 1.9,
         Ea = (7530, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2852,6 +2950,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2876,11 +2975,11 @@ H
     reactant2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -2902,6 +3001,7 @@ H2
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2926,11 +3026,11 @@ H
     reactant2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -2952,6 +3052,7 @@ CO
         n = 0,
         Ea = (3428, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -2976,10 +3077,10 @@ H
     reactant2 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     product1 = 
@@ -2990,11 +3091,11 @@ H
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3002,6 +3103,7 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3048,6 +3150,7 @@ H2O
         n = 1.51,
         Ea = (3430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3089,7 +3192,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(35700, 'cm^3/(mol*s)'), n=2.4, Ea=(-2110, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (35700, 'cm^3/(mol*s)'),
+        n = 2.4,
+        Ea = (-2110, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -3148,6 +3257,7 @@ H2O
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3204,6 +3314,7 @@ H2O
             ),
             Arrhenius(A=(1.7e+18, 'cm^3/(mol*s)'), n=0, Ea=(29410, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3248,6 +3359,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3294,6 +3406,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3342,6 +3455,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3390,6 +3504,7 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3438,6 +3553,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3488,6 +3604,7 @@ H2O
         n = 1.6,
         Ea = (5420, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3538,6 +3655,7 @@ H2O
         n = -1.34,
         Ea = (1417, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3590,6 +3708,7 @@ H2O
         n = 1.6,
         Ea = (3120, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3636,6 +3755,7 @@ CO2
         n = 1.228,
         Ea = (70, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3684,6 +3804,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3734,6 +3855,7 @@ H2O
         n = 1.18,
         Ea = (-447, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3786,6 +3908,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3838,6 +3961,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -3887,7 +4011,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1440000.0, 'cm^3/(mol*s)'), n=2, Ea=(-840, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1440000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (-840, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -3936,7 +4066,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6300000.0, 'cm^3/(mol*s)'), n=2, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6300000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -3984,6 +4120,7 @@ HCCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4022,11 +4159,11 @@ H
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4034,6 +4171,7 @@ CH2CO
         n = 4.5,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4072,14 +4210,20 @@ H
     product2 = 
 """
 HCCOH
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
 5 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(504000, 'cm^3/(mol*s)'), n=2.3, Ea=(13500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (504000, 'cm^3/(mol*s)'),
+        n = 2.3,
+        Ea = (13500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4129,6 +4273,7 @@ H2O
         n = 2,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4174,7 +4319,13 @@ CO
 2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.000483, 'cm^3/(mol*s)'), n=4, Ea=(-2000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.000483, 'cm^3/(mol*s)'),
+        n = 4,
+        Ea = (-2000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4199,10 +4350,10 @@ OH
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -4226,6 +4377,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4261,10 +4413,10 @@ C2H4
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -4275,7 +4427,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3600000.0, 'cm^3/(mol*s)'), n=2, Ea=(2500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3600000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (2500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -4312,11 +4470,11 @@ C2H6
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -4333,6 +4491,7 @@ H2O
         n = 2.12,
         Ea = (870, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4358,11 +4517,11 @@ OH
     reactant2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -4385,6 +4544,7 @@ H2O
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4446,6 +4606,7 @@ H2O2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4496,6 +4657,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4548,6 +4710,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4600,6 +4763,7 @@ CH3O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4648,6 +4812,7 @@ CO2
         n = 0,
         Ea = (23600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4700,6 +4865,7 @@ H2O2
         n = 2,
         Ea = (12000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4744,6 +4910,7 @@ CO
         n = 0,
         Ea = (576, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4790,6 +4957,7 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4838,6 +5006,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4884,6 +5053,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4930,6 +5100,7 @@ CH2
         n = 0,
         Ea = (3110, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -4978,6 +5149,7 @@ CH2O
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5026,6 +5198,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5064,10 +5237,10 @@ H
     product2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -5076,6 +5249,7 @@ C2H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5128,6 +5302,7 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5176,6 +5351,7 @@ CO
         n = 0,
         Ea = (15792, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5214,11 +5390,11 @@ H
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5226,6 +5402,7 @@ CH2CO
         n = 0,
         Ea = (-515, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5276,6 +5453,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5329,6 +5507,7 @@ CO
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5372,7 +5551,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(500000, 'cm^3/(mol*s)'), n=2, Ea=(7230, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (500000, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (7230, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5422,6 +5607,7 @@ C2H2
         n = 0,
         Ea = (11944, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5474,6 +5660,7 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5523,7 +5710,13 @@ CH3
 4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2460000.0, 'cm^3/(mol*s)'), n=2, Ea=(8270, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2460000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (8270, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5557,10 +5750,10 @@ HCCO
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -5575,6 +5768,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5627,6 +5821,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5675,6 +5870,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5723,6 +5919,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5773,6 +5970,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5825,6 +6023,7 @@ C2H4
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5879,6 +6078,7 @@ CH3
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5927,6 +6127,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -5977,6 +6178,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6027,6 +6229,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6073,11 +6276,11 @@ CH3
     product2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -6087,6 +6290,7 @@ C2H5
         n = 0,
         Ea = (-550, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6137,6 +6341,7 @@ CH3O
         n = 0,
         Ea = (30480, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6187,6 +6392,7 @@ CH2O
         n = 0,
         Ea = (20315, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6236,7 +6442,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(24500, 'cm^3/(mol*s)'), n=2.47, Ea=(5180, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (24500, 'cm^3/(mol*s)'),
+        n = 2.47,
+        Ea = (5180, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6276,11 +6488,11 @@ H
     product2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -6290,6 +6502,7 @@ C2H5
         n = 0.1,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6342,6 +6555,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6391,7 +6605,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3320, 'cm^3/(mol*s)'), n=2.81, Ea=(5860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3320, 'cm^3/(mol*s)'),
+        n = 2.81,
+        Ea = (5860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6449,6 +6669,7 @@ CH4
         n = 1.5,
         Ea = (9940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6507,6 +6728,7 @@ CH4
         n = 1.5,
         Ea = (9940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6544,10 +6766,10 @@ C2H4
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product2 = 
@@ -6560,7 +6782,13 @@ CH4
 5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(227000, 'cm^3/(mol*s)'), n=2, Ea=(9200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (227000, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (9200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6599,11 +6827,11 @@ C2H6
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -6622,6 +6850,7 @@ CH4
         n = 1.74,
         Ea = (10450, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6671,7 +6900,13 @@ H2O
 3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.5e+18, 'cm^3/(mol*s)'), n=-1, Ea=(17000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.5e+18, 'cm^3/(mol*s)'),
+        n = -1,
+        Ea = (17000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6719,6 +6954,7 @@ CO
         n = 0,
         Ea = (400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6771,6 +7007,7 @@ CH2O
         n = 0,
         Ea = (900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6823,6 +7060,7 @@ CH2O
         n = 7.6,
         Ea = (-3530, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6871,6 +7109,7 @@ CO
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6919,6 +7158,7 @@ C2H2
         n = 0.9,
         Ea = (1993, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6938,10 +7178,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -6971,6 +7211,7 @@ CH2O
         n = -1.39,
         Ea = (1015, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -6990,11 +7231,11 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -7027,6 +7268,7 @@ C2H4
         n = 0,
         Ea = (3875, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7081,6 +7323,7 @@ CO
         n = 0,
         Ea = (854, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7139,6 +7382,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7192,6 +7436,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7244,6 +7489,7 @@ CH2CHO
         n = 1.83,
         Ea = (220, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7268,11 +7514,11 @@ O
     reactant2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -7284,12 +7530,12 @@ H
     product2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -7298,6 +7544,7 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7349,6 +7596,7 @@ CH2O
         n = 0.5,
         Ea = (-1755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7402,6 +7650,7 @@ CO2
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7450,6 +7699,7 @@ CH2O
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7505,6 +7755,7 @@ C2H2
         n = 0,
         Ea = (10989, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7556,6 +7807,7 @@ CH2O
         n = 0.25,
         Ea = (-935, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7575,10 +7827,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -7608,6 +7860,7 @@ CH2CHO
         n = 0.29,
         Ea = (11, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7627,10 +7880,10 @@ entry(
     reactant1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     reactant2 = 
@@ -7660,6 +7913,7 @@ C2H2
         n = 1.61,
         Ea = (-384, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7684,12 +7938,12 @@ O
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -7714,6 +7968,7 @@ CH2CHO
         n = 0,
         Ea = (1808, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7738,12 +7993,12 @@ O
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -7773,6 +8028,7 @@ CO
         n = 0,
         Ea = (1808, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7798,12 +8054,12 @@ O2
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -7834,6 +8090,7 @@ CO
         n = 0,
         Ea = (39150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7858,12 +8115,12 @@ H
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -7888,6 +8145,7 @@ H2
         n = 1.16,
         Ea = (2405, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7912,12 +8170,12 @@ H
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -7947,6 +8205,7 @@ CO
         n = 1.16,
         Ea = (2405, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -7972,12 +8231,12 @@ OH
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -8008,6 +8267,7 @@ CO
         n = 0.73,
         Ea = (-1113, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8034,12 +8294,12 @@ HO2
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -8071,6 +8331,7 @@ CO
         n = 0,
         Ea = (11923, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8098,12 +8359,12 @@ CH3
     reactant2 = 
 """
 CH3CHO
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,D} {7,S}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
 5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+6 O 0 2 {2,D}
 7 H 0 0 {2,S}
 """,
     product1 = 
@@ -8136,6 +8397,7 @@ CO
         n = 1.77,
         Ea = (5920, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8193,6 +8455,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8252,6 +8515,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8311,6 +8575,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8363,6 +8628,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8397,11 +8663,11 @@ CH2CHO
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
@@ -8415,6 +8681,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8457,11 +8724,11 @@ H2O
     product2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8469,6 +8736,7 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8523,6 +8791,7 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8559,6 +8828,7 @@ O2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.2e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'C': 2.0, 'O=C=O': 3.6, 'CC': 3.0, 'O': 15.4, '[H][H]': 2.4, '[C]=O': 1.75, '[Ar]': 0.83},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8595,6 +8865,7 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(5e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8638,6 +8909,7 @@ HO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 1.5, 'CC': 1.5, 'O': 0.0, '[O][O]': 0.0, 'N#N': 0.0, '[C]=O': 0.75, '[Ar]': 0.0},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8674,6 +8946,7 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'C': 2.0, 'O=C=O': 0.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 0.0, '[Ar]': 0.63},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8712,6 +8985,7 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.2e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'CC': 3.0, 'C': 2.0, '[H][H]': 0.73, 'O': 3.65, '[Ar]': 0.38},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8755,6 +9029,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8804,6 +9079,7 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'O=C=O': 3.5, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[O][O]': 6.0, '[C]=O': 1.5, '[Ar]': 0.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8859,6 +9135,7 @@ CH3
         T1 = (5836, 'K'),
         T2 = (8552, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8916,6 +9193,7 @@ CH4
         T1 = (2941, 'K'),
         T2 = (6964, 'K'),
         efficiencies = {'C': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -8971,6 +9249,7 @@ CH2O
         T1 = (2755, 'K'),
         T2 = (6570, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9028,6 +9307,7 @@ CH2OH
         T1 = (1291, 'K'),
         T2 = (4160, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9085,6 +9365,7 @@ CH3O
         T1 = (1555, 'K'),
         T2 = (4200, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9144,6 +9425,7 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9203,6 +9485,7 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9253,6 +9536,7 @@ C2H2
         T1 = (1315, 'K'),
         T2 = (5566, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9285,10 +9569,10 @@ C2H2
     product1 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     degeneracy = 1,
@@ -9310,6 +9594,7 @@ C2H3
         T1 = (1302, 'K'),
         T2 = (4167, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9334,10 +9619,10 @@ H
     reactant2 = 
 """
 C2H3
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+4 H 0 0 {1,S}
 5 H 0 0 {2,S}
 """,
     product1 = 
@@ -9369,6 +9654,7 @@ C2H4
         T1 = (2663, 'K'),
         T2 = (6095, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9403,11 +9689,11 @@ C2H4
     product1 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -9430,6 +9716,7 @@ C2H5
         T1 = (984, 'K'),
         T2 = (4374, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9454,11 +9741,11 @@ H
     reactant2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -9493,6 +9780,7 @@ C2H6
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9548,6 +9836,7 @@ CH2O
         T1 = (1540, 'K'),
         T2 = (10300, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9603,6 +9892,7 @@ H2O2
         T1 = (1756, 'K'),
         T2 = (5182, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9662,6 +9952,7 @@ CH3OH
         T1 = (5900, 'K'),
         T2 = (6394, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9717,6 +10008,7 @@ HCCO
         T1 = (1652, 'K'),
         T2 = (5069, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9749,11 +10041,11 @@ CO
     product1 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -9774,6 +10066,7 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9833,6 +10126,7 @@ CH3OH
         T1 = (3922, 'K'),
         T2 = (10180, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9896,6 +10190,7 @@ C2H6
         T1 = (1180, 'K'),
         T2 = (9999, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -9955,6 +10250,7 @@ C2H2
         T1 = (1035, 'K'),
         T2 = (5417, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -10010,6 +10306,7 @@ CH3
         T1 = (2535, 'K'),
         T2 = (9365, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -10034,11 +10331,11 @@ H
     reactant2 = 
 """
 CH2CO
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product1 = 
 """
@@ -10069,6 +10366,7 @@ CH2CHO
         T1 = (1773, 'K'),
         T2 = (5333, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",
@@ -10096,11 +10394,11 @@ CH3
     reactant2 = 
 """
 C2H5
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
 4 H 0 0 {1,S}
-5 H 0 0 {2,S}
+5 H 0 0 {1,S}
 6 H 0 0 {2,S}
 7 H 0 0 {2,S}
 """,
@@ -10138,6 +10436,7 @@ C3H8
         T1 = (2742, 'K'),
         T2 = (7748, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     reference = None,
     referenceType = "",

@@ -15,24 +15,24 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40,6 +40,7 @@ OH
         n = -0.41,
         Ea = (16600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -58,33 +59,39 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant3 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.4e+18, 'cm^6/(mol^2*s)'), n=-1.3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5.4e+18, 'cm^6/(mol^2*s)'),
+        n = -1.3,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -102,33 +109,39 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant3 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+17, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+17, 'cm^6/(mol^2*s)'),
+        n = -0.6,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -146,35 +159,41 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant3 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+19, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+19, 'cm^6/(mol^2*s)'),
+        n = -1,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -192,24 +211,24 @@ entry(
     reactant1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     duplicate = True,
@@ -228,6 +247,7 @@ H
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -246,29 +266,35 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4300, 'cm^3/(mol*s)'), n=2.7, Ea=(-1822, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4300, 'cm^3/(mol*s)'),
+        n = 2.7,
+        Ea = (-1822, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -286,26 +312,26 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -313,6 +339,7 @@ H2O
         n = 1.52,
         Ea = (3449, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -331,26 +358,26 @@ entry(
     reactant1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -358,6 +385,7 @@ H
         n = 2.433,
         Ea = (53502, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -376,26 +404,26 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -403,6 +431,7 @@ OH
         n = 0,
         Ea = (400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -421,26 +450,26 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -448,6 +477,7 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -466,26 +496,26 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -493,6 +523,7 @@ O2
         n = 0,
         Ea = (-445, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -511,28 +542,28 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -551,6 +582,7 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -569,30 +601,30 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -611,6 +643,7 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -629,28 +662,28 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -658,6 +691,7 @@ OH
         n = 0,
         Ea = (3580, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -676,28 +710,28 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -705,6 +739,7 @@ H2
         n = 0,
         Ea = (3760, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -723,31 +758,37 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9600000.0, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9600000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (3970, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -765,30 +806,30 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -802,6 +843,7 @@ HO2
             ),
             Arrhenius(A=(1.6e+18, 'cm^3/(mol*s)'), n=0, Ea=(29410, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -820,26 +862,26 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -847,6 +889,7 @@ O
         n = 0,
         Ea = (60500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -865,28 +908,28 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -894,6 +937,7 @@ OH
         n = 2.18,
         Ea = (17943, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -912,26 +956,26 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     duplicate = True,
@@ -945,6 +989,7 @@ H
             ),
             Arrhenius(A=(5800000.0, 'cm^3/(mol*s)'), n=1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -963,22 +1008,22 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCO
-1 O 0 {2,S} {3,S}
-2 C 1 {1,S} {4,D}
-3 H 0 {1,S}
-4 O 0 {2,D}
+1 O 0 2 {2,S} {3,S}
+2 C 1 0 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -993,6 +1038,7 @@ HOCO
             Arrhenius(A=(4e+38, 'cm^3/(mol*s)'), n=-9, Ea=(6955, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(5e+43, 'cm^3/(mol*s)'), n=-10, Ea=(13015, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1011,22 +1057,22 @@ entry(
     reactant1 = 
 """
 HOCO
-1 O 0 {2,S} {3,S}
-2 C 1 {1,S} {4,D}
-3 H 0 {1,S}
-4 O 0 {2,D}
+1 O 0 2 {2,S} {3,S}
+2 C 1 0 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     duplicate = True,
@@ -1035,6 +1081,7 @@ H
             Arrhenius(A=(1.4e+58, 's^-1'), n=-15, Ea=(46500, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(1e+71, 's^-1'), n=-18, Ea=(60000, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1053,30 +1100,30 @@ entry(
     reactant1 = 
 """
 HOCO
-1 O 0 {2,S} {3,S}
-2 C 1 {1,S} {4,D}
-3 H 0 {1,S}
-4 O 0 {2,D}
+1 O 0 2 {2,S} {3,S}
+2 C 1 0 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -1090,6 +1137,7 @@ H2O
             ),
             Arrhenius(A=(9500000.0, 'cm^3/(mol*s)'), n=2, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1108,30 +1156,30 @@ entry(
     reactant1 = 
 """
 HOCO
-1 O 0 {2,S} {3,S}
-2 C 1 {1,S} {4,D}
-3 H 0 {1,S}
-4 O 0 {2,D}
+1 O 0 2 {2,S} {3,S}
+2 C 1 0 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1139,6 +1187,7 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1157,28 +1206,28 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1186,6 +1235,7 @@ H2
         n = 1.47,
         Ea = (2444, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1204,28 +1254,28 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1233,6 +1283,7 @@ OH
         n = 0.57,
         Ea = (2760, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1251,33 +1302,39 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(240000, 'cm^3/(mol*s)'), n=2.5, Ea=(36461, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (240000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (36461, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1295,30 +1352,30 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1326,6 +1383,7 @@ H2O
         n = 1.63,
         Ea = (-1055, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1344,35 +1402,41 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1390,37 +1454,43 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(32, 'cm^3/(mol*s)'), n=3.36, Ea=(4310, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (32, 'cm^3/(mol*s)'),
+        n = 3.36,
+        Ea = (4310, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1438,20 +1508,20 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1459,6 +1529,7 @@ CO
         n = -0.865,
         Ea = (16755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1477,26 +1548,26 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1504,6 +1575,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1522,26 +1594,26 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1549,6 +1621,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1567,26 +1640,26 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1594,6 +1667,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1612,28 +1686,28 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1641,6 +1715,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1659,28 +1734,28 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1688,6 +1763,7 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1706,34 +1782,34 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1741,6 +1817,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1759,30 +1836,30 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1790,6 +1867,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1808,33 +1886,39 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4100, 'cm^3/(mol*s)'), n=3.156, Ea=(8755, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4100, 'cm^3/(mol*s)'),
+        n = 3.156,
+        Ea = (8755, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1852,33 +1936,39 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(440000, 'cm^3/(mol*s)'), n=2.5, Ea=(6577, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (440000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (6577, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1896,32 +1986,32 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1929,6 +2019,7 @@ H2O
         n = 2.182,
         Ea = (2506, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -1947,37 +2038,43 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -1995,34 +2092,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2030,6 +2127,7 @@ CH3
         n = 0,
         Ea = (10030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2048,34 +2146,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2083,6 +2181,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2101,28 +2200,28 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2130,6 +2229,7 @@ H2
         n = 0,
         Ea = (15100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2148,28 +2248,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2177,6 +2277,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2195,28 +2296,28 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2224,6 +2325,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2242,32 +2344,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2275,6 +2377,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2293,33 +2396,39 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1100, 'cm^3/(mol*s)'), n=3, Ea=(2780, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1100, 'cm^3/(mol*s)'),
+        n = 3,
+        Ea = (2780, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2337,30 +2446,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2368,6 +2477,7 @@ OH
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2386,35 +2496,41 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1800, 'cm^3/(mol*s)'), n=2.83, Ea=(-3730, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1800, 'cm^3/(mol*s)'),
+        n = 2.83,
+        Ea = (-3730, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2432,32 +2548,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2465,6 +2581,7 @@ OH
         n = 0,
         Ea = (1075, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2483,30 +2600,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2514,6 +2631,7 @@ O
         n = 0,
         Ea = (28297, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2532,30 +2650,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2563,6 +2681,7 @@ OH
         n = 0,
         Ea = (9842, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2581,26 +2700,26 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -2619,6 +2738,7 @@ CH3OO
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2637,32 +2757,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2670,6 +2790,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2688,34 +2809,34 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2723,6 +2844,7 @@ H
         n = 0,
         Ea = (16055, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2741,20 +2863,20 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -2765,6 +2887,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2783,20 +2906,20 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -2807,6 +2930,7 @@ H2
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2825,29 +2949,35 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1e+18, 'cm^3/(mol*s)'), n=-1.56, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1e+18, 'cm^3/(mol*s)'),
+        n = -1.56,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -2865,30 +2995,30 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2896,6 +3026,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2914,26 +3045,26 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2941,6 +3072,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -2959,28 +3091,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2988,6 +3120,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3006,28 +3139,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3035,6 +3168,7 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3053,28 +3187,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3082,6 +3216,7 @@ H2O
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3100,32 +3235,32 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3133,6 +3268,7 @@ H
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3151,28 +3287,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3180,6 +3316,7 @@ O
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3198,28 +3335,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3227,6 +3364,7 @@ H2
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3245,32 +3383,32 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3278,6 +3416,7 @@ H
         n = -3.3,
         Ea = (2867, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3296,30 +3435,30 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3327,6 +3466,7 @@ CH2O
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3345,28 +3485,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3374,6 +3514,7 @@ N2
         n = 0,
         Ea = (430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3392,26 +3533,26 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3419,6 +3560,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3437,26 +3579,26 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3464,6 +3606,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3482,30 +3625,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3513,6 +3656,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3531,28 +3675,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3560,6 +3704,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3578,32 +3723,32 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3611,6 +3756,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3629,30 +3775,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3660,6 +3806,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3678,30 +3825,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3709,6 +3856,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3727,24 +3875,24 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3752,6 +3900,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3770,24 +3919,24 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3795,6 +3944,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3813,26 +3963,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3840,6 +3990,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3858,26 +4009,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3885,6 +4036,7 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3903,26 +4055,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3930,6 +4082,7 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3948,28 +4101,28 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3977,6 +4130,7 @@ H
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -3995,28 +4149,28 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4024,6 +4178,7 @@ CO
         n = 1.75,
         Ea = (-1040, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4042,24 +4197,24 @@ entry(
     reactant1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4067,6 +4222,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4085,24 +4241,24 @@ entry(
     reactant1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4110,6 +4266,7 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4128,32 +4285,32 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4161,6 +4318,7 @@ H2
         n = 1.24,
         Ea = (4491, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4179,32 +4337,32 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4212,6 +4370,7 @@ H2
         n = 1.24,
         Ea = (4491, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4230,32 +4389,32 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4263,6 +4422,7 @@ OH
         n = 0,
         Ea = (5305, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4281,32 +4441,32 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4314,6 +4474,7 @@ OH
         n = 0,
         Ea = (5305, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4332,34 +4493,34 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4367,6 +4528,7 @@ H2O
         n = 1.4434,
         Ea = (113, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4385,34 +4547,34 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4420,6 +4582,7 @@ H2O
         n = 1.4434,
         Ea = (113, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4438,36 +4601,36 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4475,6 +4638,7 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4493,34 +4657,34 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4528,6 +4692,7 @@ HO2
         n = 0,
         Ea = (46600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4546,34 +4711,34 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4581,6 +4746,7 @@ HO2
         n = 0,
         Ea = (54800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4599,30 +4765,30 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4630,6 +4796,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4648,30 +4815,30 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4679,6 +4846,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4697,30 +4865,30 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4728,6 +4896,7 @@ OH
         n = 0,
         Ea = (-693, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4746,32 +4915,32 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4779,6 +4948,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4797,34 +4967,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4832,6 +5002,7 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4850,32 +5021,32 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -4889,6 +5060,7 @@ HO2
             ),
             Arrhenius(A=(2.9e+16, 'cm^3/(mol*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4907,34 +5079,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4942,6 +5114,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -4960,34 +5133,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4995,6 +5168,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5013,39 +5187,45 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5500, 'cm^3/(mol*s)'), n=2.81, Ea=(5862, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5500, 'cm^3/(mol*s)'),
+        n = 2.81,
+        Ea = (5862, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5063,38 +5243,38 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5102,6 +5282,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5120,38 +5301,38 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5159,6 +5340,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5177,41 +5359,47 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(22, 'cm^3/(mol*s)'), n=3.1, Ea=(16227, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (22, 'cm^3/(mol*s)'),
+        n = 3.1,
+        Ea = (16227, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5229,30 +5417,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5260,6 +5448,7 @@ H2
         n = 0,
         Ea = (745, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5278,30 +5467,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5309,6 +5498,7 @@ OH
         n = 0,
         Ea = (745, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5327,30 +5517,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5358,6 +5548,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5376,32 +5567,32 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5409,6 +5600,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5427,34 +5619,34 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5462,6 +5654,7 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5480,32 +5673,32 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5513,6 +5706,7 @@ HO2
         n = 0,
         Ea = (1749, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5531,32 +5725,32 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5564,6 +5758,7 @@ CO2
         n = -4.93,
         Ea = (9080, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5582,36 +5777,36 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5619,6 +5814,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5637,38 +5833,38 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5676,6 +5872,7 @@ CH3
         n = 0,
         Ea = (15073, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5694,36 +5891,36 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5731,6 +5928,7 @@ HCO
         n = 0,
         Ea = (2981, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5749,38 +5947,38 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5788,6 +5986,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5806,31 +6005,37 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.8e+26, 's^-1'), n=-3.5, Ea=(46340, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.8e+26, 's^-1'),
+        n = -3.5,
+        Ea = (46340, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -5848,34 +6053,34 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2OOH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5883,6 +6088,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5901,34 +6107,34 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5936,6 +6142,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -5954,34 +6161,34 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5989,6 +6196,7 @@ H2O
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6007,34 +6215,34 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2OOH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6042,6 +6250,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6060,34 +6269,34 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6095,6 +6304,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6113,36 +6323,36 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6150,6 +6360,7 @@ H2O
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6168,36 +6379,36 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OOH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6205,6 +6416,7 @@ H2O
         n = 0,
         Ea = (-258, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6223,41 +6435,47 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6275,32 +6493,32 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6308,6 +6526,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6326,32 +6545,32 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6359,6 +6578,7 @@ O2
         n = 0,
         Ea = (-445, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6377,34 +6597,34 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6412,6 +6632,7 @@ O2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6430,34 +6651,34 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6465,6 +6686,7 @@ HO2
         n = 0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6483,36 +6705,36 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6520,6 +6742,7 @@ O2
         n = 0,
         Ea = (-1490, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6538,38 +6761,38 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6577,6 +6800,7 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6595,43 +6819,49 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6649,40 +6879,40 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6690,6 +6920,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6708,34 +6939,34 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6743,6 +6974,7 @@ CO2
         n = 2.18,
         Ea = (17940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6761,41 +6993,47 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -6813,40 +7051,40 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6854,6 +7092,7 @@ CH3OOH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6872,42 +7111,42 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6915,6 +7154,7 @@ CH2OH
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -6933,46 +7173,46 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -6991,6 +7231,7 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7009,46 +7250,46 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7056,6 +7297,7 @@ O2
         n = -0.55,
         Ea = (-1600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7074,44 +7316,44 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7119,6 +7361,7 @@ CH3CH2O
         n = 0,
         Ea = (-1410, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7137,49 +7380,55 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3OOH
-1 H 0 {4,S}
-2 H 0 {4,S}
-3 H 0 {4,S}
-4 C 0 {1,S} {2,S} {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(19, 'cm^3/(mol*s)'), n=3.64, Ea=(17100, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (19, 'cm^3/(mol*s)'),
+        n = 3.64,
+        Ea = (17100, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7197,26 +7446,26 @@ entry(
     reactant1 = 
 """
 CH2OOH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     reversible = False,
@@ -7225,6 +7474,7 @@ OH
         n = -1.064,
         Ea = (1744, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7243,36 +7493,36 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7280,6 +7530,7 @@ H2
         n = 0,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7298,39 +7549,45 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.1e-07, 'cm^3/(mol*s)'), n=6.5, Ea=(274, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.1e-07, 'cm^3/(mol*s)'),
+        n = 6.5,
+        Ea = (274, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7348,41 +7605,47 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9200000.0, 'cm^3/(mol*s)'), n=2, Ea=(990, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9200000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (990, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7400,43 +7663,49 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(110000, 'cm^3/(mol*s)'), n=2.5, Ea=(16850, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (110000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (16850, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7454,41 +7723,47 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(730000, 'cm^3/(mol*s)'), n=2.5, Ea=(49160, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (730000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (49160, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -7506,42 +7781,42 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -7560,6 +7835,7 @@ CH4
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7578,40 +7854,40 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7619,6 +7895,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7637,34 +7914,34 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7672,6 +7949,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7690,34 +7968,34 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7725,6 +8003,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7743,34 +8022,34 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7778,6 +8057,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7796,36 +8076,36 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7833,6 +8113,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7851,38 +8132,38 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7890,6 +8171,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7908,36 +8190,36 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7945,6 +8227,7 @@ HO2
         n = 1.09,
         Ea = (-1975, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -7963,43 +8246,49 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5500, 'cm^3/(mol*s)'), n=2.81, Ea=(5860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5500, 'cm^3/(mol*s)'),
+        n = 2.81,
+        Ea = (5860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8017,38 +8306,38 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8056,6 +8345,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8074,40 +8364,40 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8115,6 +8405,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8133,46 +8424,46 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8180,6 +8471,7 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8198,35 +8490,41 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.62, Ea=(11266, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (240, 'cm^3/(mol*s)'),
+        n = 3.62,
+        Ea = (11266, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8244,32 +8542,32 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8277,6 +8575,7 @@ H
         n = 0,
         Ea = (-400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8295,32 +8594,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8328,6 +8627,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8346,32 +8646,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8379,6 +8679,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8397,32 +8698,32 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -8441,6 +8742,7 @@ HCO
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8459,32 +8761,32 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     duplicate = True,
@@ -8503,6 +8805,7 @@ H
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8521,37 +8824,43 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.13, 'cm^3/(mol*s)'), n=4.2, Ea=(-860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.13, 'cm^3/(mol*s)'),
+        n = 4.2,
+        Ea = (-860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -8569,34 +8878,34 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8604,6 +8913,7 @@ CH2O
         n = 0,
         Ea = (9079, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8622,34 +8932,34 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8657,6 +8967,7 @@ H
         n = -6.114,
         Ea = (24907, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8675,34 +8986,34 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8710,6 +9021,7 @@ H
         n = 0,
         Ea = (11527, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8728,30 +9040,30 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8759,6 +9071,7 @@ CH2CH2OH
         n = -2.399,
         Ea = (3294, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8777,36 +9090,36 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8814,6 +9127,7 @@ OH
         n = 0,
         Ea = (17200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8832,34 +9146,34 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8867,6 +9181,7 @@ HO2
         n = 0,
         Ea = (60010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8885,38 +9200,38 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8924,6 +9239,7 @@ CH4
         n = 1.56,
         Ea = (16630, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8942,30 +9258,30 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8973,6 +9289,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -8991,30 +9308,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9022,6 +9339,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9040,30 +9358,30 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9071,6 +9389,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9089,32 +9408,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9122,6 +9441,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9140,34 +9460,34 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9175,6 +9495,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9193,28 +9514,28 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9222,6 +9543,7 @@ CH2CHOO
         n = 0,
         Ea = (-1680, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9240,32 +9562,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9273,6 +9595,7 @@ HCO
         n = 0,
         Ea = (3130, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9291,32 +9614,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9324,6 +9647,7 @@ O
         n = 0,
         Ea = (4800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9342,32 +9666,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9375,6 +9699,7 @@ HO2
         n = 0,
         Ea = (7930, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9393,32 +9718,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9426,6 +9751,7 @@ CO
         n = 0,
         Ea = (3130, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9444,32 +9770,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9477,6 +9803,7 @@ CO2
         n = 0,
         Ea = (3130, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9495,39 +9822,45 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5400, 'cm^3/(mol*s)'), n=2.81, Ea=(5860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5400, 'cm^3/(mol*s)'),
+        n = 2.81,
+        Ea = (5860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -9545,34 +9878,34 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9580,6 +9913,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9598,36 +9932,36 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9635,6 +9969,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9653,32 +9988,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9686,6 +10021,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9704,38 +10040,38 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9743,6 +10079,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9761,34 +10098,34 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9796,6 +10133,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9814,28 +10152,28 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9843,6 +10181,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9861,28 +10200,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9890,6 +10229,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9908,34 +10248,34 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9943,6 +10283,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -9961,28 +10302,28 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9990,6 +10331,7 @@ H
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10008,31 +10350,37 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6100000.0, 'cm^3/(mol*s)'), n=2, Ea=(1900, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1900, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10050,28 +10398,28 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10079,6 +10427,7 @@ OH
         n = -0.6,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10097,33 +10446,39 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.77, Ea=(4697, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (830000, 'cm^3/(mol*s)'),
+        n = 1.77,
+        Ea = (4697, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10141,30 +10496,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCCOH
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 0 {3,S} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10172,6 +10527,7 @@ H
         n = 1.89,
         Ea = (13603, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10190,26 +10546,26 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CHCHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 1 {1,D} {5,S}
-3 O 0 {1,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -10228,6 +10584,7 @@ CHCHOH
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10246,33 +10603,39 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(15000, 'cm^3/(mol*s)'), n=2.45, Ea=(4477, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (15000, 'cm^3/(mol*s)'),
+        n = 2.45,
+        Ea = (4477, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10290,32 +10653,32 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10323,6 +10686,7 @@ HCO
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10341,32 +10705,32 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10374,6 +10738,7 @@ O
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10392,30 +10757,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10423,6 +10788,7 @@ HCO
         n = 1.8,
         Ea = (30600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10441,32 +10807,32 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10474,6 +10840,7 @@ CH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10492,21 +10859,27 @@ entry(
     reactant1 = 
 """
 H2CC
-1 C 0  {2,S} {3,S} {4,D}
-2 H 0  {1,S}
-3 H 0  {1,S}
-4 C 2S {1,D}
+1 C 0  0 {2,S} {3,S} {4,D}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 C 2S 0 {1,D}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(10000000.0, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (10000000.0, 's^-1'),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10524,28 +10897,28 @@ entry(
     reactant1 = 
 """
 H2CC
-1 C 0  {2,S} {3,S} {4,D}
-2 H 0  {1,S}
-3 H 0  {1,S}
-4 C 2S {1,D}
+1 C 0  0 {2,S} {3,S} {4,D}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 C 2S 0 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10553,6 +10926,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10571,30 +10945,30 @@ entry(
     reactant1 = 
 """
 H2CC
-1 C 0  {2,S} {3,S} {4,D}
-2 H 0  {1,S}
-3 H 0  {1,S}
-4 C 2S {1,D}
+1 C 0  0 {2,S} {3,S} {4,D}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 C 2S 0 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10602,6 +10976,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10620,30 +10995,30 @@ entry(
     reactant1 = 
 """
 H2CC
-1 C 0  {2,S} {3,S} {4,D}
-2 H 0  {1,S}
-3 H 0  {1,S}
-4 C 2S {1,D}
+1 C 0  0 {2,S} {3,S} {4,D}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 C 2S 0 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10651,6 +11026,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10669,29 +11045,35 @@ entry(
     reactant1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(400000, 'cm^3/(mol*s)'), n=2.4, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (400000, 'cm^3/(mol*s)'),
+        n = 2.4,
+        Ea = (1000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10709,26 +11091,26 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10736,6 +11118,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10754,26 +11137,26 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10781,6 +11164,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10799,28 +11183,28 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10828,6 +11212,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10846,28 +11231,28 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10875,6 +11260,7 @@ H2O
         n = 2,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10893,31 +11279,37 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(410000, 'cm^3/(mol*s)'), n=2.39, Ea=(864, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (410000, 'cm^3/(mol*s)'),
+        n = 2.39,
+        Ea = (864, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -10935,32 +11327,32 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10968,6 +11360,7 @@ H
         n = -0.16,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -10986,34 +11379,34 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11021,6 +11414,7 @@ C2H2
         n = 0,
         Ea = (976, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11039,23 +11433,24 @@ entry(
     reactant1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     product1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product2 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.5e+16, 'cm^3/(mol*s)'), n=0, Ea=(142300, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11074,24 +11469,24 @@ entry(
     reactant1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11099,6 +11494,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11117,26 +11513,26 @@ entry(
     reactant1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11144,6 +11540,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11162,26 +11559,26 @@ entry(
     reactant1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11189,6 +11586,7 @@ CO
         n = 0,
         Ea = (980, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11207,38 +11605,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11246,6 +11644,7 @@ H2
         n = 1.65,
         Ea = (2827, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11264,38 +11663,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11303,6 +11702,7 @@ H2
         n = 1.8,
         Ea = (5098, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11321,38 +11721,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11360,6 +11760,7 @@ H2
         n = 1.65,
         Ea = (3038, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11378,38 +11779,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11417,6 +11818,7 @@ OH
         n = 1.85,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11435,38 +11837,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11474,6 +11876,7 @@ OH
         n = 1.7,
         Ea = (5459, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11492,38 +11895,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11531,6 +11934,7 @@ OH
         n = 2,
         Ea = (4448, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11549,40 +11953,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11590,6 +11994,7 @@ H2O
         n = 0.15,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11608,40 +12013,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11649,6 +12054,7 @@ H2O
         n = 0.27,
         Ea = (600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11667,40 +12073,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11708,6 +12114,7 @@ H2O
         n = 0.3,
         Ea = (1634, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11726,45 +12133,51 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8200, 'cm^3/(mol*s)'), n=2.55, Ea=(10750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8200, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (10750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11782,45 +12195,51 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(12000, 'cm^3/(mol*s)'), n=2.55, Ea=(15750, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (12000, 'cm^3/(mol*s)'),
+        n = 2.55,
+        Ea = (15750, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11838,42 +12257,42 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11881,6 +12300,7 @@ H2O2
         n = 0,
         Ea = (24000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -11899,47 +12319,53 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(730, 'cm^3/(mol*s)'), n=2.99, Ea=(7948, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (730, 'cm^3/(mol*s)'),
+        n = 2.99,
+        Ea = (7948, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -11957,47 +12383,53 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(220, 'cm^3/(mol*s)'), n=3.18, Ea=(9622, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (220, 'cm^3/(mol*s)'),
+        n = 3.18,
+        Ea = (9622, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12015,47 +12447,53 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(150, 'cm^3/(mol*s)'), n=2.99, Ea=(7649, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (150, 'cm^3/(mol*s)'),
+        n = 2.99,
+        Ea = (7649, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12073,30 +12511,30 @@ entry(
     reactant1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -12107,6 +12545,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12125,36 +12564,36 @@ entry(
     reactant1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12162,6 +12601,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12180,36 +12620,36 @@ entry(
     reactant1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12217,6 +12657,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12235,36 +12676,36 @@ entry(
     reactant1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12272,6 +12713,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12290,38 +12732,38 @@ entry(
     reactant1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12329,6 +12771,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12347,44 +12790,44 @@ entry(
     reactant1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12392,6 +12835,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12410,38 +12854,38 @@ entry(
     reactant1 = 
 """
 CH3CHOH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 O 0 {2,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 O 0 2 {2,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -12460,6 +12904,7 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12478,33 +12923,39 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(220000, 's^-1'), n=2.84, Ea=(32920, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (220000, 's^-1'),
+        n = 2.84,
+        Ea = (32920, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12522,29 +12973,35 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.8e-29, 's^-1'), n=11.9, Ea=(4450, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.8e-29, 's^-1'),
+        n = 11.9,
+        Ea = (4450, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12562,36 +13019,36 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12599,6 +13056,7 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12617,36 +13075,36 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12654,6 +13112,7 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12672,38 +13131,38 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12711,6 +13170,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12729,40 +13189,40 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12770,6 +13230,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12788,44 +13249,44 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     reversible = False,
@@ -12834,6 +13295,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12852,38 +13314,38 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12891,6 +13353,7 @@ HO2
         n = 1.09,
         Ea = (-1975, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -12909,33 +13372,39 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(13000000000000.0, 's^-1'), n=0, Ea=(20060, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (13000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (20060, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -12953,36 +13422,36 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12990,6 +13459,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13008,38 +13478,38 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13047,6 +13517,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13065,38 +13536,38 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13104,6 +13575,7 @@ HO2
         n = 0,
         Ea = (645, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13122,38 +13594,38 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13161,6 +13633,7 @@ CO2
         n = -4.93,
         Ea = (9080, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13179,34 +13652,34 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13214,6 +13687,7 @@ H2
         n = -0.35,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13232,34 +13706,34 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13267,6 +13741,7 @@ H2
         n = 0.4,
         Ea = (5359, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13285,34 +13760,34 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13320,6 +13795,7 @@ OH
         n = -1.9,
         Ea = (2975, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13338,34 +13814,34 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13373,6 +13849,7 @@ OH
         n = -0.2,
         Ea = (3556, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13391,36 +13868,36 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13428,6 +13905,7 @@ H2O
         n = 0.3,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13446,36 +13924,36 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13483,6 +13961,7 @@ H2O
         n = -0.6,
         Ea = (800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13501,38 +13980,38 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13540,6 +14019,7 @@ H2O2
         n = -2.2,
         Ea = (14030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13558,38 +14038,38 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13597,6 +14077,7 @@ H2O2
         n = 0.4,
         Ea = (14864, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13615,39 +14096,45 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.5, Ea=(37554, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (120000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (37554, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13665,43 +14152,49 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.9e-07, 'cm^3/(mol*s)'), n=5.8, Ea=(2200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.9e-07, 'cm^3/(mol*s)'),
+        n = 5.8,
+        Ea = (2200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13719,43 +14212,49 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(25, 'cm^3/(mol*s)'), n=3.15, Ea=(5727, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (25, 'cm^3/(mol*s)'),
+        n = 3.15,
+        Ea = (5727, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -13773,28 +14272,28 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13802,6 +14301,7 @@ H
         n = 0.2,
         Ea = (71780, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13820,28 +14320,28 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13849,6 +14349,7 @@ HCO
         n = 0.4,
         Ea = (61880, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13867,28 +14368,28 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13896,6 +14397,7 @@ H
         n = 0.25,
         Ea = (65310, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13914,28 +14416,28 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13943,6 +14445,7 @@ H2
         n = -0.2,
         Ea = (63030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -13961,24 +14464,24 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13986,6 +14489,7 @@ CH3CHO
         n = -0.75,
         Ea = (46424, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14004,28 +14508,28 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14033,6 +14537,7 @@ H2O
         n = 0.06,
         Ea = (69530, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14051,34 +14556,34 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14086,6 +14591,7 @@ H2
         n = 0,
         Ea = (8310, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14104,34 +14610,34 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14139,6 +14645,7 @@ H2O
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14157,34 +14664,34 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14192,6 +14699,7 @@ OH
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14210,34 +14718,34 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14245,6 +14753,7 @@ OH
         n = 0,
         Ea = (5250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14263,36 +14772,36 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14300,6 +14809,7 @@ H2O
         n = 0,
         Ea = (3610, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14318,38 +14828,38 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14357,6 +14867,7 @@ H2O2
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14375,36 +14886,36 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14412,6 +14923,7 @@ HO2
         n = 0,
         Ea = (61500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14430,40 +14942,40 @@ entry(
     reactant1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14471,6 +14983,7 @@ CH4
         n = 0,
         Ea = (11830, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14489,37 +15002,43 @@ entry(
     reactant1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CHCHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 1 {1,D} {5,S}
-3 O 0 {1,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.63, Ea=(11266, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (240, 'cm^3/(mol*s)'),
+        n = 3.63,
+        Ea = (11266, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14537,34 +15056,34 @@ entry(
     reactant1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14572,6 +15091,7 @@ H2
         n = 1.7,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14590,34 +15110,34 @@ entry(
     reactant1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -14636,6 +15156,7 @@ HCO
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14654,34 +15175,34 @@ entry(
     reactant1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14689,6 +15210,7 @@ OH
         n = 2,
         Ea = (4400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14707,39 +15229,45 @@ entry(
     reactant1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CHCHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 1 {1,D} {5,S}
-3 O 0 {1,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.13, 'cm^3/(mol*s)'), n=4.2, Ea=(-860, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.13, 'cm^3/(mol*s)'),
+        n = 4.2,
+        Ea = (-860, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14757,36 +15285,36 @@ entry(
     reactant1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14794,6 +15322,7 @@ H2O
         n = 0.3,
         Ea = (1600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14812,40 +15341,40 @@ entry(
     reactant1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     reversible = False,
@@ -14854,6 +15383,7 @@ OH
         n = 1.8,
         Ea = (39000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14872,29 +15402,35 @@ entry(
     reactant1 = 
 """
 CHCHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 1 {1,D} {5,S}
-3 O 0 {1,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     product1 = 
 """
 HCCOH
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 0 {3,S} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.1e+31, 's^-1'), n=-6.153, Ea=(51383, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.1e+31, 's^-1'),
+        n = -6.153,
+        Ea = (51383, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -14912,32 +15448,32 @@ entry(
     reactant1 = 
 """
 CHCHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 1 {1,D} {5,S}
-3 O 0 {1,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14945,6 +15481,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -14963,32 +15500,32 @@ entry(
     reactant1 = 
 """
 CHCHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 1 {1,D} {5,S}
-3 O 0 {1,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 OCHCHO
-1 O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 H 0 {2,S}
-4 C 0 {2,S} {5,S} {6,D}
-5 H 0 {4,S}
-6 O 0 {4,D}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 0 0 {1,S} {5,S} {6,D}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14996,6 +15533,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15014,37 +15552,43 @@ entry(
     reactant1 = 
 """
 CHCHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 1 {1,D} {5,S}
-3 O 0 {1,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 O 0 2 {1,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCCOH
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 0 {3,S} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(140, 'cm^3/(mol*s)'), n=3.4, Ea=(3700, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (140, 'cm^3/(mol*s)'),
+        n = 3.4,
+        Ea = (3700, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15062,25 +15606,31 @@ entry(
     reactant1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.7e+31, 's^-1'), n=-6.9, Ea=(14994, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.7e+31, 's^-1'),
+        n = -6.9,
+        Ea = (14994, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15098,29 +15648,35 @@ entry(
     reactant1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(50000000000000.0, 's^-1'), n=0, Ea=(14863, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (50000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (14863, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15138,29 +15694,35 @@ entry(
     reactant1 = 
 """
 cC2H3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {3,S} {6,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {3,S} {6,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(7100000000000.0, 's^-1'), n=0, Ea=(14280, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (7100000000000.0, 's^-1'),
+        n = 0,
+        Ea = (14280, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15178,29 +15740,35 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.2e+36, 's^-1'), n=-6.48, Ea=(55171, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.2e+36, 's^-1'),
+        n = -6.48,
+        Ea = (55171, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15218,29 +15786,35 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.2e+33, 's^-1'), n=-5.97, Ea=(50448, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.2e+33, 's^-1'),
+        n = -5.97,
+        Ea = (50448, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15258,32 +15832,32 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15291,6 +15865,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15309,32 +15884,32 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15342,6 +15917,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15360,32 +15936,32 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15393,6 +15969,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15411,32 +15988,32 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15444,6 +16021,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15462,34 +16040,34 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15497,6 +16075,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15515,34 +16094,34 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15550,6 +16129,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15568,38 +16148,38 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15607,6 +16187,7 @@ OH
         n = 6.69,
         Ea = (4868, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15625,42 +16206,42 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15668,6 +16249,7 @@ H
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15686,40 +16268,40 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15727,6 +16309,7 @@ OH
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15745,36 +16328,36 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15782,6 +16365,7 @@ O2
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15800,36 +16384,36 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15837,6 +16421,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15855,34 +16440,34 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15890,6 +16475,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15908,29 +16494,35 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.3e+20, 's^-1'), n=-2.32, Ea=(18012, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.3e+20, 's^-1'),
+        n = -2.32,
+        Ea = (18012, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -15948,26 +16540,26 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15975,6 +16567,7 @@ CH3CO
         n = 1.61,
         Ea = (2627, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -15993,32 +16586,32 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16026,6 +16619,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16044,32 +16638,32 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16077,6 +16671,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16095,32 +16690,32 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16128,6 +16723,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16146,32 +16742,32 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16179,6 +16775,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16197,34 +16794,34 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16232,6 +16829,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16250,46 +16848,46 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16297,6 +16895,7 @@ CH3O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16315,38 +16914,38 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16354,6 +16953,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16372,38 +16972,38 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16411,6 +17011,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16429,38 +17030,38 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16468,6 +17069,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16486,30 +17088,30 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16517,6 +17119,7 @@ CO
         n = 0.851,
         Ea = (2840, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16535,30 +17138,30 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16566,6 +17169,7 @@ H2
         n = 2,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16584,30 +17188,30 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16615,6 +17219,7 @@ H
         n = 0,
         Ea = (-517, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16633,30 +17238,30 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16664,6 +17269,7 @@ CH2
         n = 0,
         Ea = (1350, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16682,30 +17288,30 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16713,6 +17319,7 @@ OH
         n = 2,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16731,32 +17338,32 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16764,6 +17371,7 @@ CO
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16782,32 +17390,32 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16815,6 +17423,7 @@ CO2
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16833,32 +17442,32 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16866,6 +17475,7 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16884,34 +17494,34 @@ entry(
     reactant1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16919,6 +17529,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16937,30 +17548,30 @@ entry(
     reactant1 = 
 """
 HCCOH
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 0 {3,S} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16968,6 +17579,7 @@ H2
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -16986,30 +17598,30 @@ entry(
     reactant1 = 
 """
 HCCOH
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 0 {3,S} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17017,6 +17629,7 @@ OH
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17035,32 +17648,32 @@ entry(
     reactant1 = 
 """
 HCCOH
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 0 {3,S} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 O 0 2 {1,S} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17068,6 +17681,7 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17086,28 +17700,28 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17115,6 +17729,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17133,32 +17748,32 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17166,6 +17781,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17184,30 +17800,30 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17215,6 +17831,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17233,30 +17850,30 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17264,6 +17881,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17282,34 +17900,34 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17317,6 +17935,7 @@ H
         n = -0.142,
         Ea = (1150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17335,34 +17954,34 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17370,6 +17989,7 @@ OH
         n = -0.02,
         Ea = (1020, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17388,37 +18008,43 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(220, 'cm^3/(mol*s)'), n=2.69, Ea=(3540, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (220, 'cm^3/(mol*s)'),
+        n = 2.69,
+        Ea = (3540, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17436,32 +18062,32 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17469,6 +18095,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17487,30 +18114,30 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17518,6 +18145,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17536,38 +18164,38 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17575,6 +18203,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17593,20 +18222,20 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     product1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -17617,6 +18246,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17635,26 +18265,26 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17662,6 +18292,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17680,26 +18311,26 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17707,6 +18338,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17725,32 +18357,32 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17758,6 +18390,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17776,32 +18409,32 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17809,6 +18442,7 @@ O
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17827,28 +18461,28 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17856,6 +18490,7 @@ CO2
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17874,26 +18509,26 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17901,6 +18536,7 @@ C2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -17919,37 +18555,43 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2e+35, 's^-1'), n=-6.7, Ea=(47450, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2e+35, 's^-1'),
+        n = -6.7,
+        Ea = (47450, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -17967,40 +18609,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CHOOH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 1 {1,S} {6,S} {7,S}
-6 H 0 {5,S}
-7 O 0 {5,S} {8,S}
-8 O 0 {7,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 1 0 {1,S} {3,S} {8,S}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {4,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18008,6 +18650,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18026,40 +18669,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18067,6 +18710,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18085,40 +18729,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18126,6 +18770,7 @@ H2O
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18144,40 +18789,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CHOOH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 1 {1,S} {6,S} {7,S}
-6 H 0 {5,S}
-7 O 0 {5,S} {8,S}
-8 O 0 {7,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 1 0 {1,S} {3,S} {8,S}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {4,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18185,6 +18830,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18203,40 +18849,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18244,6 +18890,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18262,42 +18909,42 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHOOH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 1 {1,S} {6,S} {7,S}
-6 H 0 {5,S}
-7 O 0 {5,S} {8,S}
-8 O 0 {7,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 1 0 {1,S} {3,S} {8,S}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {4,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18305,6 +18952,7 @@ H2O
         n = 0,
         Ea = (-258, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18323,42 +18971,42 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18366,6 +19014,7 @@ H2O
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18384,47 +19033,53 @@ entry(
     reactant1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18442,38 +19097,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18481,6 +19136,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18499,38 +19155,38 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18538,6 +19194,7 @@ O2
         n = 0,
         Ea = (-145, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18556,40 +19213,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18597,6 +19254,7 @@ O2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18615,40 +19273,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18656,6 +19314,7 @@ HO2
         n = 0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18674,42 +19333,42 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18717,6 +19376,7 @@ O2
         n = 0,
         Ea = (-1391, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18735,40 +19395,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18776,6 +19436,7 @@ CO2
         n = 2.18,
         Ea = (17940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18794,44 +19455,44 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18839,6 +19500,7 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18857,49 +19519,55 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -18917,48 +19585,48 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18966,6 +19634,7 @@ CH2OH
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -18984,47 +19653,53 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19042,50 +19717,50 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19093,6 +19768,7 @@ CH3CH2O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19111,55 +19787,61 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.6, 'cm^3/(mol*s)'), n=3.76, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.6, 'cm^3/(mol*s)'),
+        n = 3.76,
+        Ea = (17200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19177,50 +19859,50 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product2 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19228,6 +19910,7 @@ CH3CO
         n = -2.2,
         Ea = (14030, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19246,50 +19929,50 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product1 = 
 """
 CH3CH2OOH
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  O 0 {8,S} {10,S}
-10 H 0 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  O 0 2 {3,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     product2 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19297,6 +19980,7 @@ CH2CHO
         n = 0.4,
         Ea = (14864, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19315,58 +19999,58 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19374,6 +20058,7 @@ O2
         n = -0.27,
         Ea = (408, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19392,58 +20077,58 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19451,6 +20136,7 @@ O2
         n = 0,
         Ea = (-850, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19469,32 +20155,32 @@ entry(
     reactant1 = 
 """
 CH3CHOOH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 1 {1,S} {6,S} {7,S}
-6 H 0 {5,S}
-7 O 0 {5,S} {8,S}
-8 O 0 {7,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 1 0 {1,S} {3,S} {8,S}
+3 O 0 2 {2,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {4,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19502,6 +20188,7 @@ OH
         n = -0.947,
         Ea = (979, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19520,35 +20207,41 @@ entry(
     reactant1 = 
 """
 CH2CH2OOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,S} {7,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
-7 O 0 {4,S} {8,S}
-8 O 0 {7,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {4,S}
 """,
     product1 = 
 """
 cC2H4O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 {1,S} {2,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(13000000000.0, 's^-1'), n=0.72, Ea=(15380, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (13000000000.0, 's^-1'),
+        n = 0.72,
+        Ea = (15380, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19566,31 +20259,37 @@ entry(
     reactant1 = 
 """
 CH2CH2OOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,S} {7,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
-7 O 0 {4,S} {8,S}
-8 O 0 {7,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {4,S}
 """,
     product1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(12000000.0, 's^-1'), n=1.04, Ea=(17980, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (12000000.0, 's^-1'),
+        n = 1.04,
+        Ea = (17980, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19608,32 +20307,32 @@ entry(
     reactant1 = 
 """
 CH2CH2OOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,S} {7,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
-7 O 0 {4,S} {8,S}
-8 O 0 {7,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {7,S} {8,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {4,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19641,6 +20340,7 @@ HO2
         n = 0.52,
         Ea = (16150, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19659,33 +20359,39 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2e+35, 's^-1'), n=-6.7, Ea=(47450, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2e+35, 's^-1'),
+        n = -6.7,
+        Ea = (47450, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19703,36 +20409,36 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19740,6 +20446,7 @@ H2
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19758,36 +20465,36 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19795,6 +20502,7 @@ H2O
         n = 0,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19813,36 +20521,36 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19850,6 +20558,7 @@ OH
         n = 0,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19868,38 +20577,38 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19907,6 +20616,7 @@ H2O
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -19925,43 +20635,49 @@ entry(
     reactant1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -19979,31 +20695,37 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9.6e+48, 's^-1'), n=-8.868, Ea=(110591, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9.6e+48, 's^-1'),
+        n = -8.868,
+        Ea = (110591, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20021,31 +20743,37 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.1e+47, 's^-1'), n=-8.701, Ea=(111046, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.1e+47, 's^-1'),
+        n = -8.701,
+        Ea = (111046, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20063,27 +20791,33 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     product1 = 
 """
 CYCOOC
-1 C 0 {2,S} {3,S} {4,S} {7,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {1,S} {6,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {4,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {2,S} {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3900000000.0, 's^-1'), n=0, Ea=(22250, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3900000000.0, 's^-1'),
+        n = 0,
+        Ea = (22250, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20101,34 +20835,34 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20136,6 +20870,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20154,34 +20889,34 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20189,6 +20924,7 @@ O2
         n = 0,
         Ea = (-145, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20207,36 +20943,36 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHOH
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 O 0 {1,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20244,6 +20980,7 @@ O2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20262,36 +20999,36 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20299,6 +21036,7 @@ HO2
         n = 0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20317,38 +21055,38 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20356,6 +21094,7 @@ O2
         n = 0,
         Ea = (-1391, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20374,36 +21113,36 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20411,6 +21150,7 @@ CO2
         n = 2.18,
         Ea = (17940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20429,40 +21169,40 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20470,6 +21210,7 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20488,45 +21229,51 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(47000, 'cm^3/(mol*s)'), n=2.5, Ea=(21000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (47000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (21000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20544,44 +21291,44 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20589,6 +21336,7 @@ CH2OH
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20607,43 +21355,49 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20661,51 +21415,57 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2CHOOH
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {6,S} {8,S}
-8 H 0 {7,S}
+1 C 1 0 {2,S} {3,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {3,S} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     product2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.6, 'cm^3/(mol*s)'), n=3.76, Ea=(17200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (8.6, 'cm^3/(mol*s)'),
+        n = 3.76,
+        Ea = (17200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20723,31 +21483,37 @@ entry(
     reactant1 = 
 """
 CYCOOC
-1 C 0 {2,S} {3,S} {4,S} {7,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {1,S} {6,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {4,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {2,S} {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(61000000000.0, 's^-1'), n=0, Ea=(914, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (61000000000.0, 's^-1'),
+        n = 0,
+        Ea = (914, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20765,28 +21531,28 @@ entry(
     reactant1 = 
 """
 CYCOOC
-1 C 0 {2,S} {3,S} {4,S} {7,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 1 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 0 {1,S} {6,S}
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 1 0 {1,S} {4,S} {7,S}
+3 O 0 2 {1,S} {4,S}
+4 O 0 2 {2,S} {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 OCHCHO
-1 O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 H 0 {2,S}
-4 C 0 {2,S} {5,S} {6,D}
-5 H 0 {4,S}
-6 O 0 {4,D}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 0 0 {1,S} {5,S} {6,D}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20794,6 +21560,7 @@ H
         n = -1.093,
         Ea = (3159, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20812,32 +21579,32 @@ entry(
     reactant1 = 
 """
 OCHCHO
-1 O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 H 0 {2,S}
-4 C 0 {2,S} {5,S} {6,D}
-5 H 0 {4,S}
-6 O 0 {4,D}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 0 0 {1,S} {5,S} {6,D}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20845,6 +21612,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20863,38 +21631,38 @@ entry(
     reactant1 = 
 """
 OCHCHO
-1 O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 H 0 {2,S}
-4 C 0 {2,S} {5,S} {6,D}
-5 H 0 {4,S}
-6 O 0 {4,D}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 0 0 {1,S} {5,S} {6,D}
+3 O 0 2 {1,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20902,6 +21670,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -20920,41 +21689,47 @@ entry(
     reactant1 = 
 """
 HOCH2CH2OO
-1  H 0 {2,S}
-2  O 0 {1,S} {3,S}
-3  C 0 {2,S} {4,S} {5,S} {6,S}
-4  H 0 {3,S}
-5  H 0 {3,S}
-6  C 0 {3,S} {7,S} {8,S} {9,S}
-7  H 0 {6,S}
-8  H 0 {6,S}
-9  O 0 {6,S} {10,S}
-10 O 1 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {9,S}
+4  O 0 2 {2,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 1 2 {4,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(940000000.0, 's^-1'), n=0.994, Ea=(22250, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (940000000.0, 's^-1'),
+        n = 0.994,
+        Ea = (22250, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -20972,48 +21747,48 @@ entry(
     reactant1 = 
 """
 HOCH2CH2OO
-1  H 0 {2,S}
-2  O 0 {1,S} {3,S}
-3  C 0 {2,S} {4,S} {5,S} {6,S}
-4  H 0 {3,S}
-5  H 0 {3,S}
-6  C 0 {3,S} {7,S} {8,S} {9,S}
-7  H 0 {6,S}
-8  H 0 {6,S}
-9  O 0 {6,S} {10,S}
-10 O 1 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {9,S}
+4  O 0 2 {2,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OOH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     reversible = False,
@@ -21022,6 +21797,7 @@ O2
         n = 0,
         Ea = (-1490, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21040,54 +21816,60 @@ entry(
     reactant1 = 
 """
 HOCH2CH2OO
-1  H 0 {2,S}
-2  O 0 {1,S} {3,S}
-3  C 0 {2,S} {4,S} {5,S} {6,S}
-4  H 0 {3,S}
-5  H 0 {3,S}
-6  C 0 {3,S} {7,S} {8,S} {9,S}
-7  H 0 {6,S}
-8  H 0 {6,S}
-9  O 0 {6,S} {10,S}
-10 O 1 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {9,S}
+4  O 0 2 {2,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2OOH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product3 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     reversible = False,
-    kinetics = Arrhenius(A=(41000, 'cm^3/(mol*s)'), n=2.5, Ea=(10206, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (41000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (10206, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21105,54 +21887,54 @@ entry(
     reactant1 = 
 """
 HOCH2CH2OO
-1  H 0 {2,S}
-2  O 0 {1,S} {3,S}
-3  C 0 {2,S} {4,S} {5,S} {6,S}
-4  H 0 {3,S}
-5  H 0 {3,S}
-6  C 0 {3,S} {7,S} {8,S} {9,S}
-7  H 0 {6,S}
-8  H 0 {6,S}
-9  O 0 {6,S} {10,S}
-10 O 1 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {9,S}
+4  O 0 2 {2,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product3 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     degeneracy = 1,
     reversible = False,
@@ -21161,6 +21943,7 @@ CH3CHO
         n = 0,
         Ea = (17200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21179,34 +21962,34 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 C2H5CHO
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  C 0 {5,S} {9,S} {10,D}
-9  H 0 {8,S}
-10 O 0 {8,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21214,6 +21997,7 @@ C2H5CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21232,34 +22016,34 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5CHO
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  C 0 {5,S} {9,S} {10,D}
-9  H 0 {8,S}
-10 O 0 {8,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21267,6 +22051,7 @@ C2H5CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21285,40 +22070,40 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  C 0 {5,S} {9,S} {10,D}
-9  H 0 {8,S}
-10 O 0 {8,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 C 1 {5,S} {9,D}
-9 O 0 {8,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21326,6 +22111,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21344,40 +22130,40 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  C 0 {5,S} {9,S} {10,D}
-9  H 0 {8,S}
-10 O 0 {8,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 C 1 {5,S} {9,D}
-9 O 0 {8,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21385,6 +22171,7 @@ OH
         n = 0,
         Ea = (1730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21403,42 +22190,42 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  C 0 {5,S} {9,S} {10,D}
-9  H 0 {8,S}
-10 O 0 {8,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  C 0 0 {1,S} {9,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 C 1 {5,S} {9,D}
-9 O 0 {8,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21446,6 +22233,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21464,32 +22252,32 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 C2H5CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 C 1 {5,S} {9,D}
-9 O 0 {8,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 C 1 0 {1,S} {9,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21497,6 +22285,7 @@ C2H5CO
         n = 0,
         Ea = (4800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21515,35 +22304,41 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3500000000000.0, 's^-1'), n=0, Ea=(70000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3500000000000.0, 's^-1'),
+        n = 0,
+        Ea = (70000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21561,35 +22356,41 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(40000000000000.0, 's^-1'), n=0, Ea=(80000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (40000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (80000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21607,32 +22408,32 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21640,6 +22441,7 @@ C3H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21658,32 +22460,32 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21691,6 +22493,7 @@ C3H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21709,38 +22512,38 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21748,6 +22551,7 @@ CH3
         n = 0,
         Ea = (1302, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21766,41 +22570,47 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(170000, 'cm^3/(mol*s)'), n=2.5, Ea=(2492, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (170000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (2492, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21818,41 +22628,47 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(410000, 'cm^3/(mol*s)'), n=2.5, Ea=(9794, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (410000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (9794, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21870,41 +22686,47 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(800000, 'cm^3/(mol*s)'), n=2.5, Ea=(12284, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (800000, 'cm^3/(mol*s)'),
+        n = 2.5,
+        Ea = (12284, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -21922,38 +22744,38 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21961,6 +22783,7 @@ HCO
         n = 1.76,
         Ea = (-1220, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -21979,38 +22802,38 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22018,6 +22841,7 @@ OH
         n = 0.7,
         Ea = (5884, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22036,38 +22860,38 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22075,6 +22899,7 @@ OH
         n = 0.7,
         Ea = (8959, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22093,38 +22918,38 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22132,6 +22957,7 @@ OH
         n = 0.7,
         Ea = (7632, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22150,42 +22976,42 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CHCO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,D}
-8 O 0 {7,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22193,6 +23019,7 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22211,43 +23038,49 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3100000.0, 'cm^3/(mol*s)'), n=2, Ea=(-298, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (-298, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22265,43 +23098,49 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1100000.0, 'cm^3/(mol*s)'), n=2, Ea=(1451, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1451, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22319,43 +23158,49 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2100000.0, 'cm^3/(mol*s)'), n=2, Ea=(2778, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2100000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (2778, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22373,45 +23218,51 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9600, 'cm^3/(mol*s)'), n=2.6, Ea=(13910, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (9600, 'cm^3/(mol*s)'),
+        n = 2.6,
+        Ea = (13910, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22429,40 +23280,40 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22470,6 +23321,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22488,40 +23340,40 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22529,6 +23381,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22547,40 +23400,40 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22588,6 +23441,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22606,42 +23460,42 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22649,6 +23503,7 @@ CH2O
         n = 1.9,
         Ea = (17010, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22667,47 +23522,53 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.2, 'cm^3/(mol*s)'), n=3.5, Ea=(5675, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.2, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (5675, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22725,47 +23586,53 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.84, 'cm^3/(mol*s)'), n=3.5, Ea=(11656, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.84, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (11656, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22783,47 +23650,53 @@ entry(
     reactant1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.4, 'cm^3/(mol*s)'), n=3.5, Ea=(12848, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.4, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (12848, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -22841,50 +23714,50 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22892,6 +23765,7 @@ H2CCCH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22910,30 +23784,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22941,6 +23815,7 @@ CH3CHCH
         n = -7.76,
         Ea = (13300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -22959,36 +23834,36 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22996,6 +23871,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23014,36 +23890,36 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23051,6 +23927,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23069,36 +23946,36 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3CHCO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,D}
-8 O 0 {7,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23106,6 +23983,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23124,38 +24002,38 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23163,6 +24041,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23181,38 +24060,38 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23220,6 +24099,7 @@ HCO
         n = -3.29,
         Ea = (3892, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23238,42 +24118,42 @@ entry(
     reactant1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHCO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,D}
-8 O 0 {7,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23281,6 +24161,7 @@ O
         n = -0.78,
         Ea = (3135, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23299,30 +24180,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23330,6 +24211,7 @@ CH3CCH2
         n = -4.39,
         Ea = (18850, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23348,36 +24230,36 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23385,6 +24267,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23403,36 +24286,36 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23440,6 +24323,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23458,36 +24342,36 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23495,6 +24379,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23513,38 +24398,38 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23552,6 +24437,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23570,38 +24456,38 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23609,6 +24495,7 @@ CH2O
         n = -3.29,
         Ea = (3892, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23627,42 +24514,42 @@ entry(
     reactant1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23670,6 +24557,7 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23688,36 +24576,36 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23725,6 +24613,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23743,39 +24632,45 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(470, 'cm^3/(mol*s)'), n=3.7, Ea=(5677, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (470, 'cm^3/(mol*s)'),
+        n = 3.7,
+        Ea = (5677, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -23793,30 +24688,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23824,6 +24719,7 @@ CH2CHCH2
         n = -12.82,
         Ea = (35730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23842,36 +24738,36 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23879,6 +24775,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23897,36 +24794,36 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23934,6 +24831,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -23952,38 +24850,38 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23991,6 +24889,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24009,44 +24908,44 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24054,6 +24953,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24072,38 +24972,38 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24111,6 +25011,7 @@ HO2
         n = -1.4,
         Ea = (22428, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24129,38 +25030,38 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24168,6 +25069,7 @@ CH2O
         n = 0.34,
         Ea = (12840, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24186,42 +25088,42 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24229,6 +25131,7 @@ OH
         n = -4.8,
         Ea = (15468, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24247,38 +25150,38 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24286,6 +25189,7 @@ OH
         n = -0.41,
         Ea = (22860, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24304,42 +25208,42 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24347,6 +25251,7 @@ CH4
         n = -0.3,
         Ea = (-131, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24365,34 +25270,34 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24400,6 +25305,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24418,34 +25324,34 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24453,6 +25359,7 @@ H
         n = 0.86,
         Ea = (22153, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24471,24 +25378,24 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24496,6 +25403,7 @@ H3CCCH
         n = 0,
         Ea = (68100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24514,34 +25422,34 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24549,6 +25457,7 @@ H
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24567,34 +25476,34 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24602,6 +25511,7 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24620,30 +25530,30 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CHCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24651,6 +25561,7 @@ CH3CHCH
         n = -6.52,
         Ea = (15200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24669,30 +25580,30 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -24701,6 +25612,7 @@ CH3CCH2
         n = -8.65,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24719,30 +25631,30 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -24751,6 +25663,7 @@ CH2CHCH2
         n = -14.67,
         Ea = (26000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24769,34 +25682,34 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24804,6 +25717,7 @@ CO
         n = 1.8,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24822,36 +25736,36 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24859,6 +25773,7 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24877,40 +25792,40 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24918,6 +25833,7 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24936,38 +25852,38 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24975,6 +25891,7 @@ H2CCCH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -24993,34 +25910,34 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25028,6 +25945,7 @@ H
         n = 1.1,
         Ea = (13644, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25046,34 +25964,34 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25081,6 +25999,7 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25099,34 +26018,34 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25134,6 +26053,7 @@ CH3
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25152,34 +26072,34 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25187,6 +26107,7 @@ CO
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25205,36 +26126,36 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25242,6 +26163,7 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25260,40 +26182,40 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     reversible = False,
@@ -25302,6 +26224,7 @@ CO
         n = 0,
         Ea = (41900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25320,40 +26243,40 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25361,6 +26284,7 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25379,38 +26303,38 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25418,6 +26342,7 @@ H2CCCH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25436,24 +26361,24 @@ entry(
     reactant1 = 
 """
 cC3H4
-1 C 0 {2,S} {3,S} {4,S} {6,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,D}
-5 H 0 {4,S}
-6 C 0 {1,S} {4,D} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,D} {6,S}
+3 C 0 0 {1,S} {2,D} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25461,6 +26386,7 @@ H2CCCH2
         n = 0,
         Ea = (50450, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25479,24 +26405,24 @@ entry(
     reactant1 = 
 """
 cC3H4
-1 C 0 {2,S} {3,S} {4,S} {6,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,D}
-5 H 0 {4,S}
-6 C 0 {1,S} {4,D} {7,S}
-7 H 0 {6,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,D} {6,S}
+3 C 0 0 {1,S} {2,D} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25504,6 +26430,7 @@ H3CCCH
         n = 0,
         Ea = (43730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25522,32 +26449,32 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25555,6 +26482,7 @@ H
         n = 0,
         Ea = (6621, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25573,32 +26501,32 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25606,6 +26534,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25624,34 +26553,34 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25659,6 +26588,7 @@ CO
         n = 0,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25677,38 +26607,38 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25716,6 +26646,7 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25734,29 +26665,35 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     product1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5200000000000.0, 's^-1'), n=0, Ea=(78447, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (5200000000000.0, 's^-1'),
+        n = 0,
+        Ea = (78447, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -25774,32 +26711,32 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25807,6 +26744,7 @@ H2
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25825,32 +26763,32 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25858,6 +26796,7 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25876,34 +26815,34 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25911,6 +26850,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25929,34 +26869,34 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25964,6 +26904,7 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -25982,34 +26923,34 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26017,6 +26958,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26035,36 +26977,36 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26072,6 +27014,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26090,36 +27033,36 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26127,6 +27070,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26145,37 +27089,43 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(170000, 'cm^3/(mol*s)'), n=1.7, Ea=(1500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (170000, 'cm^3/(mol*s)'),
+        n = 1.7,
+        Ea = (1500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -26193,36 +27143,36 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26230,6 +27180,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26248,36 +27199,36 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26285,6 +27236,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26303,30 +27255,30 @@ entry(
     reactant1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C3H
-1 H 0  {2,S}
-2 C 1  {1,S} {3,D}
-3 C 0  {2,D} {4,D}
-4 C 2S {3,D}
+1 C 1  0 {2,D} {3,S}
+2 C 0  0 {1,D} {4,D}
+3 H 0  0 {1,S}
+4 C 2S 0 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26334,6 +27286,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26352,30 +27305,30 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26383,6 +27336,7 @@ H
         n = 0,
         Ea = (-121, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26401,30 +27355,30 @@ entry(
     reactant1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26432,6 +27386,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26450,32 +27405,32 @@ entry(
     reactant1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26483,6 +27438,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26501,36 +27457,36 @@ entry(
     reactant1 = 
 """
 C3H2
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 C 1 {3,D} {5,S}
-5 H 0 {4,S}
+1 C 0 0 {2,D} {3,D}
+2 C 1 0 {1,D} {4,S}
+3 C 1 0 {1,D} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26538,6 +27494,7 @@ H
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26556,28 +27513,28 @@ entry(
     reactant1 = 
 """
 C3H
-1 H 0  {2,S}
-2 C 1  {1,S} {3,D}
-3 C 0  {2,D} {4,D}
-4 C 2S {3,D}
+1 C 1  0 {2,D} {3,S}
+2 C 0  0 {1,D} {4,D}
+3 H 0  0 {1,S}
+4 C 2S 0 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26585,6 +27542,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26603,30 +27561,30 @@ entry(
     reactant1 = 
 """
 C3H
-1 H 0  {2,S}
-2 C 1  {1,S} {3,D}
-3 C 0  {2,D} {4,D}
-4 C 2S {3,D}
+1 C 1  0 {2,D} {3,S}
+2 C 0  0 {1,D} {4,D}
+3 H 0  0 {1,S}
+4 C 2S 0 {2,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26634,6 +27592,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26652,36 +27611,36 @@ entry(
     reactant1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26689,6 +27648,7 @@ HCO
         n = 0,
         Ea = (3500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26707,36 +27667,36 @@ entry(
     reactant1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHCO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 1 {4,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26744,6 +27704,7 @@ H2
         n = 0,
         Ea = (4200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26762,36 +27723,36 @@ entry(
     reactant1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CHCO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 1 {4,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26799,6 +27760,7 @@ OH
         n = 0,
         Ea = (1970, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26817,40 +27779,40 @@ entry(
     reactant1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26858,6 +27820,7 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26876,38 +27839,38 @@ entry(
     reactant1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHCO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 1 {4,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26915,6 +27878,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26933,38 +27897,38 @@ entry(
     reactant1 = 
 """
 CH2CHCHO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 0 {4,S} {7,S} {8,D}
-7 H 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 0 0 {1,S} {7,S} {8,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHCO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 1 {4,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26972,6 +27936,7 @@ HO2
         n = 0,
         Ea = (36000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -26990,28 +27955,28 @@ entry(
     reactant1 = 
 """
 CH2CHCO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 1 {4,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27019,6 +27984,7 @@ CO
         n = 0,
         Ea = (34000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27037,34 +28003,34 @@ entry(
     reactant1 = 
 """
 CH2CHCO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 1 {4,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27072,6 +28038,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27090,36 +28057,36 @@ entry(
     reactant1 = 
 """
 CH2CHCO
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 C 1 {4,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 C 1 0 {1,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27127,6 +28094,7 @@ CO2
         n = -2.72,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27145,26 +28113,26 @@ entry(
     reactant1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27172,6 +28140,7 @@ H2
         n = 0.72,
         Ea = (650, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27190,26 +28159,26 @@ entry(
     reactant1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27217,6 +28186,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27235,28 +28205,28 @@ entry(
     reactant1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27264,6 +28234,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27282,28 +28253,28 @@ entry(
     reactant1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27311,6 +28282,7 @@ NO
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27329,30 +28301,30 @@ entry(
     reactant1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27360,6 +28332,7 @@ H2O
         n = 0,
         Ea = (3100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27378,33 +28351,39 @@ entry(
     reactant1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(44000, 'cm^3/(mol*s)'), n=2.64, Ea=(4040, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (44000, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (4040, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27422,28 +28401,28 @@ entry(
     reactant1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27451,6 +28430,7 @@ OH
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27469,26 +28449,26 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27496,6 +28476,7 @@ OH
         n = 0,
         Ea = (362, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27514,26 +28495,26 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27541,6 +28522,7 @@ O2
         n = -0.52,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27559,33 +28541,39 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.9, 'cm^3/(mol*s)'), n=3.32, Ea=(3044, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1.9, 'cm^3/(mol*s)'),
+        n = 3.32,
+        Ea = (3044, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27603,33 +28591,39 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(19, 'cm^3/(mol*s)'), n=3.26, Ea=(4983, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (19, 'cm^3/(mol*s)'),
+        n = 3.26,
+        Ea = (4983, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27647,31 +28641,37 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(13000, 'cm^3/(mol*s)'), n=2.76, Ea=(29770, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (13000, 'cm^3/(mol*s)'),
+        n = 2.76,
+        Ea = (29770, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27689,31 +28689,37 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.4, 'cm^3/(mol*s)'), n=3.73, Ea=(32400, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.4, 'cm^3/(mol*s)'),
+        n = 3.73,
+        Ea = (32400, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -27731,34 +28737,34 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27766,6 +28772,7 @@ O2
         n = 0,
         Ea = (27599, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27784,30 +28791,30 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27815,6 +28822,7 @@ NO
         n = 0.73,
         Ea = (20900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27833,28 +28841,28 @@ entry(
     reactant1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27862,6 +28870,7 @@ OH
         n = 0.86,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27880,28 +28889,28 @@ entry(
     reactant1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27909,6 +28918,7 @@ H2O
         n = 1.89,
         Ea = (3850, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27927,28 +28937,28 @@ entry(
     reactant1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27956,6 +28966,7 @@ OH
         n = 0,
         Ea = (5960, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -27974,30 +28985,30 @@ entry(
     reactant1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28005,6 +29016,7 @@ H2O
         n = 0,
         Ea = (-520, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28023,32 +29035,32 @@ entry(
     reactant1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28056,6 +29068,7 @@ NO
         n = 0,
         Ea = (32700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28074,41 +29087,47 @@ entry(
     reactant1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product3 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.35, 'cm^3/(mol*s)'), n=3.64, Ea=(12140, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.35, 'cm^3/(mol*s)'),
+        n = 3.64,
+        Ea = (12140, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -28126,28 +29145,28 @@ entry(
     reactant1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28155,6 +29174,7 @@ OH
         n = 1.5,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28173,30 +29193,30 @@ entry(
     reactant1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28204,6 +29224,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28222,28 +29243,28 @@ entry(
     reactant1 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28251,6 +29272,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28269,28 +29291,28 @@ entry(
     reactant1 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28298,6 +29320,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28316,30 +29339,30 @@ entry(
     reactant1 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28347,6 +29370,7 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28365,36 +29389,36 @@ entry(
     reactant1 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28402,6 +29426,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28420,36 +29445,36 @@ entry(
     reactant1 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28457,6 +29482,7 @@ O2
         n = 0,
         Ea = (2940, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28475,30 +29501,30 @@ entry(
     reactant1 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28506,6 +29532,7 @@ NO3
         n = 1.5,
         Ea = (16400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28524,33 +29551,39 @@ entry(
     reactant1 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(61, 'cm^3/(mol*s)'), n=3.3, Ea=(6285, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (61, 'cm^3/(mol*s)'),
+        n = 3.3,
+        Ea = (6285, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -28568,33 +29601,39 @@ entry(
     reactant1 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(380000, 'cm^3/(mol*s)'), n=2.3, Ea=(6976, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (380000, 'cm^3/(mol*s)'),
+        n = 2.3,
+        Ea = (6976, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -28612,32 +29651,32 @@ entry(
     reactant1 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28645,6 +29684,7 @@ NO3
         n = 0,
         Ea = (-1240, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28663,26 +29703,26 @@ entry(
     reactant1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -28701,6 +29741,7 @@ OH
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28719,26 +29760,26 @@ entry(
     reactant1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28746,6 +29787,7 @@ NO
         n = 0,
         Ea = (27679, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28764,26 +29806,26 @@ entry(
     reactant1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28791,6 +29833,7 @@ O2
         n = 0,
         Ea = (15936, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28809,31 +29852,37 @@ entry(
     reactant1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.013, 'cm^3/(mol*s)'), n=4.72, Ea=(36560, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.013, 'cm^3/(mol*s)'),
+        n = 4.72,
+        Ea = (36560, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -28851,28 +29900,28 @@ entry(
     reactant1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28880,6 +29929,7 @@ NO
         n = 4.33,
         Ea = (25080, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28898,28 +29948,28 @@ entry(
     reactant1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28927,6 +29977,7 @@ N2
         n = 2.23,
         Ea = (46280, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28945,27 +29996,28 @@ entry(
     reactant1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.2e+16, 'cm^3/(mol*s)'), n=0, Ea=(93470, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -28984,28 +30036,28 @@ entry(
     reactant1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29013,6 +30065,7 @@ H2
         n = 2.39,
         Ea = (10171, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29031,28 +30084,28 @@ entry(
     reactant1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29060,6 +30113,7 @@ OH
         n = 1.94,
         Ea = (6460, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29078,30 +30132,30 @@ entry(
     reactant1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29109,6 +30163,7 @@ H2O
         n = 2.04,
         Ea = (566, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29127,32 +30182,32 @@ entry(
     reactant1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29160,6 +30215,7 @@ H2O2
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29178,29 +30234,35 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(720000, 'cm^3/(mol*s)'), n=2.32, Ea=(799, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (720000, 'cm^3/(mol*s)'),
+        n = 2.32,
+        Ea = (799, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -29218,26 +30280,26 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29245,6 +30307,7 @@ H
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29263,26 +30326,26 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29290,6 +30353,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29308,31 +30372,37 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4000000.0, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4000000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -29350,30 +30420,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29381,6 +30451,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29399,30 +30470,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29430,6 +30501,7 @@ O2
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29448,28 +30520,28 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29477,6 +30549,7 @@ O
         n = 0.48,
         Ea = (29586, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29495,28 +30568,28 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29524,6 +30597,7 @@ OH
         n = 1.23,
         Ea = (35100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29542,30 +30616,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29573,6 +30647,7 @@ NH
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29591,28 +30666,28 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29620,6 +30695,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29638,31 +30714,37 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2444, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (920000, 'cm^3/(mol*s)'),
+        n = 1.94,
+        Ea = (2444, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -29680,30 +30762,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29711,6 +30793,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29729,30 +30812,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29760,6 +30843,7 @@ NO
         n = 1.63,
         Ea = (-1250, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29778,28 +30862,28 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29807,6 +30891,7 @@ H2O
         n = -2.654,
         Ea = (1258, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29825,28 +30910,28 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29854,6 +30939,7 @@ OH
         n = 0.425,
         Ea = (-814, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29872,35 +30958,41 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(71, 'cm^3/(mol*s)'), n=3.02, Ea=(-4940, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (71, 'cm^3/(mol*s)'),
+        n = 3.02,
+        Ea = (-4940, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -29918,30 +31010,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29949,6 +31041,7 @@ H2O
         n = -1.44,
         Ea = (268, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -29967,30 +31060,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29998,6 +31091,7 @@ NO
         n = -1.44,
         Ea = (268, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30016,24 +31110,24 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30041,6 +31135,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30059,24 +31154,24 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30084,6 +31179,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30102,26 +31198,26 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30129,6 +31225,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30147,26 +31244,26 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30174,6 +31271,7 @@ H2O
         n = 0.5,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30192,29 +31290,35 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(460000, 'cm^3/(mol*s)'), n=2, Ea=(6500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (460000, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (6500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -30232,26 +31336,26 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30259,6 +31363,7 @@ OH
         n = 1.5,
         Ea = (100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30277,30 +31382,30 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30308,6 +31413,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30326,24 +31432,24 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30351,6 +31457,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30369,26 +31476,26 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30396,6 +31503,7 @@ H
         n = -0.4,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30414,26 +31522,26 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30441,6 +31549,7 @@ OH
         n = -0.23,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30459,30 +31568,30 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30490,6 +31599,7 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30508,28 +31618,28 @@ entry(
     reactant1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30537,6 +31647,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30555,24 +31666,24 @@ entry(
     reactant1 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30580,6 +31691,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30598,24 +31710,24 @@ entry(
     reactant1 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30623,6 +31735,7 @@ O
         n = 1,
         Ea = (6280, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30641,24 +31754,24 @@ entry(
     reactant1 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30666,6 +31779,7 @@ O
         n = 0.3,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30684,23 +31798,29 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(65000000.0, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (65000000.0, 's^-1'),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -30718,26 +31838,26 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30745,6 +31865,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30763,26 +31884,26 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30790,6 +31911,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30808,26 +31930,26 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30835,6 +31957,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30853,26 +31976,26 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30880,6 +32003,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30898,28 +32022,28 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30927,6 +32051,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30945,28 +32070,28 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30974,6 +32099,7 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -30992,32 +32118,32 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31025,6 +32151,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31043,28 +32170,28 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31072,6 +32199,7 @@ NH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31090,30 +32218,30 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31121,6 +32249,7 @@ NH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31139,28 +32268,28 @@ entry(
     reactant1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31168,6 +32297,7 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31186,26 +32316,26 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H4
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31213,6 +32343,7 @@ N2H4
         n = -11.3,
         Ea = (11882, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31231,32 +32362,32 @@ entry(
     reactant1 = 
 """
 N2H4
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31264,6 +32395,7 @@ H2
         n = 0,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31282,32 +32414,32 @@ entry(
     reactant1 = 
 """
 N2H4
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31315,6 +32447,7 @@ H2O
         n = 0,
         Ea = (-1270, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31333,32 +32466,32 @@ entry(
     reactant1 = 
 """
 N2H4
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31366,6 +32499,7 @@ OH
         n = 1.5,
         Ea = (2851, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31384,34 +32518,34 @@ entry(
     reactant1 = 
 """
 N2H4
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31419,6 +32553,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31437,36 +32572,36 @@ entry(
     reactant1 = 
 """
 N2H4
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31474,6 +32609,7 @@ NH3
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31492,27 +32628,33 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.6e+47, 's^-1'), n=-10.38, Ea=(69009, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.6e+47, 's^-1'),
+        n = -10.38,
+        Ea = (69009, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -31530,30 +32672,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31561,6 +32703,7 @@ H
         n = -0.03,
         Ea = (10084, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31579,30 +32722,30 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31610,6 +32753,7 @@ H2
         n = 1.5,
         Ea = (-10, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31628,30 +32772,30 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31659,6 +32803,7 @@ OH
         n = 1.5,
         Ea = (-646, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31677,30 +32822,30 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31708,6 +32853,7 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31726,34 +32872,34 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     reversible = False,
@@ -31762,6 +32908,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31780,32 +32927,32 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31813,6 +32960,7 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31831,32 +32979,32 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31864,6 +33012,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31882,32 +33031,32 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31915,6 +33064,7 @@ HNO
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -31933,37 +33083,43 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (14000, 'cm^3/(mol*s)'),
+        n = 2.69,
+        Ea = (-1600, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -31981,37 +33137,43 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2H4
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2126, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (920000, 'cm^3/(mol*s)'),
+        n = 1.94,
+        Ea = (2126, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32029,34 +33191,34 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32064,6 +33226,7 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32082,34 +33245,34 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32117,6 +33280,7 @@ NH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32135,32 +33299,32 @@ entry(
     reactant1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32168,6 +33332,7 @@ NH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32186,31 +33351,37 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(85000, 'cm^3/(mol*s)'), n=2.63, Ea=(230, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (85000, 'cm^3/(mol*s)'),
+        n = 2.63,
+        Ea = (230, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32228,28 +33399,28 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32257,6 +33428,7 @@ OH
         n = 1.5,
         Ea = (497, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32275,28 +33447,28 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32304,6 +33476,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32322,33 +33495,39 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(59, 'cm^3/(mol*s)'), n=3.4, Ea=(1360, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (59, 'cm^3/(mol*s)'),
+        n = 3.4,
+        Ea = (1360, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32366,35 +33545,41 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.088, 'cm^3/(mol*s)'), n=4.05, Ea=(1610, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.088, 'cm^3/(mol*s)'),
+        n = 4.05,
+        Ea = (1610, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32412,30 +33597,30 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32443,6 +33628,7 @@ NH2
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32461,30 +33647,30 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32492,6 +33678,7 @@ NH2
         n = 0,
         Ea = (11922, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32510,30 +33697,30 @@ entry(
     reactant1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32541,6 +33728,7 @@ H2
         n = -3.08,
         Ea = (3368, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32559,25 +33747,31 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.4e+26, 's^-1'), n=-4.83, Ea=(46228, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3.4e+26, 's^-1'),
+        n = -4.83,
+        Ea = (46228, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32595,28 +33789,28 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32624,6 +33818,7 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32642,28 +33837,28 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32671,6 +33866,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32689,28 +33885,28 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32718,6 +33914,7 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32736,28 +33933,28 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32765,6 +33962,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32783,30 +33981,30 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -32814,6 +34012,7 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32832,34 +34031,34 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     reversible = False,
@@ -32868,6 +34067,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32886,36 +34086,36 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     reversible = False,
@@ -32924,6 +34124,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -32942,35 +34143,41 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (29000, 'cm^3/(mol*s)'),
+        n = 2.69,
+        Ea = (-1600, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32988,30 +34195,30 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33019,6 +34226,7 @@ NO2
         n = 0,
         Ea = (5961, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33037,32 +34245,32 @@ entry(
     reactant1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33070,6 +34278,7 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33088,28 +34297,28 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33117,6 +34326,7 @@ H2
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33135,28 +34345,28 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33164,6 +34374,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33182,28 +34393,28 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33211,6 +34422,7 @@ OH
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33229,30 +34441,30 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33260,6 +34472,7 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33278,35 +34491,41 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (29000, 'cm^3/(mol*s)'),
+        n = 2.69,
+        Ea = (-1600, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33324,30 +34543,30 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33355,6 +34574,7 @@ HO2
         n = 0,
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33373,32 +34593,32 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33406,6 +34626,7 @@ NH3
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33424,33 +34645,39 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(20000, 'cm^3/(mol*s)'), n=2, Ea=(13000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (20000, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (13000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33468,32 +34695,32 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33501,6 +34728,7 @@ HNO
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33519,28 +34747,28 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33548,6 +34776,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33566,28 +34795,28 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33595,6 +34824,7 @@ H2
         n = 1.5,
         Ea = (378, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33613,28 +34843,28 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -33653,6 +34883,7 @@ OH
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33671,30 +34902,30 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33702,6 +34933,7 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33720,35 +34952,41 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1600, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (29000, 'cm^3/(mol*s)'),
+        n = 2.69,
+        Ea = (-1600, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33766,30 +35004,30 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33797,6 +35035,7 @@ HO2
         n = 0,
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33815,35 +35054,41 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,S} {5,S}
-5 H 0 {4,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(10, 'cm^3/(mol*s)'), n=3.46, Ea=(-467, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (10, 'cm^3/(mol*s)'),
+        n = 3.46,
+        Ea = (-467, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33861,32 +35106,32 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2NN
-1 H 0  {3,S}
-2 H 0  {3,S}
-3 N 0  {1,S} {2,S} {4,S}
-4 N 2S {3,S}
+1 N 0  1 {2,S} {3,S} {4,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 N 2S 1 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33894,6 +35139,7 @@ H2O
         n = -1.08,
         Ea = (1113, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33912,32 +35158,32 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33945,6 +35191,7 @@ HNO
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -33963,32 +35210,32 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -33996,6 +35243,7 @@ HNO
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34014,32 +35262,32 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product3 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34047,6 +35295,7 @@ N2
         n = -2.6,
         Ea = (124890, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34065,29 +35314,35 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(110000, 'cm^3/(mol*s)'), n=2.6, Ea=(1908, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (110000, 'cm^3/(mol*s)'),
+        n = 2.6,
+        Ea = (1908, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34105,29 +35360,35 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.64, Ea=(4980, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (14000, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (4980, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34145,26 +35406,26 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34172,6 +35433,7 @@ OH
         n = 0.4,
         Ea = (20665, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34190,29 +35452,35 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3500, 'cm^3/(mol*s)'), n=2.64, Ea=(4980, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3500, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (4980, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34230,28 +35498,28 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34259,6 +35527,7 @@ H2O
         n = 1.83,
         Ea = (10300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34277,31 +35546,37 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(59000, 'cm^3/(mol*s)'), n=2.4, Ea=(12500, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (59000, 'cm^3/(mol*s)'),
+        n = 2.4,
+        Ea = (12500, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34319,31 +35594,37 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.002, 'cm^3/(mol*s)'), n=4, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.002, 'cm^3/(mol*s)'),
+        n = 4,
+        Ea = (1000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34361,31 +35642,37 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.00078, 'cm^3/(mol*s)'), n=4, Ea=(4000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.00078, 'cm^3/(mol*s)'),
+        n = 4,
+        Ea = (4000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34403,28 +35690,28 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34432,6 +35719,7 @@ HO2
         n = 0,
         Ea = (75100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34450,28 +35738,28 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 NCCN
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 C 0 0 {2,S} {3,T}
+2 C 0 0 {1,S} {4,T}
+3 N 0 1 {1,T}
+4 N 0 1 {2,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34479,6 +35767,7 @@ H
         n = 1.71,
         Ea = (1530, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34497,26 +35786,26 @@ entry(
     reactant1 = 
 """
 HNC
-1 H 0 {2,S}
-2 N 0 {1,S} {3,T}
-3 C 0 {2,T}
+1 N 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 0 1 {1,T}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34524,6 +35813,7 @@ H
         n = 0,
         Ea = (3600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34542,26 +35832,26 @@ entry(
     reactant1 = 
 """
 HNC
-1 H 0 {2,S}
-2 N 0 {1,S} {3,T}
-3 C 0 {2,T}
+1 N 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 0 1 {1,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34569,6 +35859,7 @@ CO
         n = 0,
         Ea = (2200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34587,28 +35878,28 @@ entry(
     reactant1 = 
 """
 HNC
-1 H 0 {2,S}
-2 N 0 {1,S} {3,T}
-3 C 0 {2,T}
+1 N 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34616,6 +35907,7 @@ H
         n = 0,
         Ea = (3700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34634,28 +35926,28 @@ entry(
     reactant1 = 
 """
 HNC
-1 H 0 {2,S}
-2 N 0 {1,S} {3,T}
-3 C 0 {2,T}
+1 N 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 0 1 {1,T}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 NCCN
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 C 0 0 {2,S} {3,T}
+2 C 0 0 {1,S} {4,T}
+3 N 0 1 {1,T}
+4 N 0 1 {2,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34663,6 +35955,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34681,24 +35974,24 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34706,6 +35999,7 @@ N
         n = 0.46,
         Ea = (723, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34724,26 +36018,26 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34751,6 +36045,7 @@ H
         n = -0.437,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34769,26 +36064,26 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34796,6 +36091,7 @@ O
         n = 0,
         Ea = (-417, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34814,29 +36110,35 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.8e+17, 'cm^3/(mol*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2.8e+17, 'cm^3/(mol*s)'),
+        n = -2,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34854,26 +36156,26 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34881,6 +36183,7 @@ N
         n = 0,
         Ea = (42100, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34899,28 +36202,28 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34928,6 +36231,7 @@ NO
         n = -0.752,
         Ea = (344, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34946,28 +36250,28 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -34975,6 +36279,7 @@ N2O
         n = -0.752,
         Ea = (344, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -34993,28 +36298,28 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35022,6 +36327,7 @@ CO2
         n = -0.752,
         Ea = (344, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35040,28 +36346,28 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35069,6 +36375,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35087,30 +36394,30 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35118,6 +36425,7 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35136,31 +36444,37 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 NCN
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 C 0 0 {2,D} {3,D}
+2 N 1 1 {1,D}
+3 N 1 1 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3800, 'cm^3/(mol*s)'), n=2.6, Ea=(3700, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (3800, 'cm^3/(mol*s)'),
+        n = 2.6,
+        Ea = (3700, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35178,30 +36492,30 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35209,6 +36523,7 @@ NCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35227,28 +36542,28 @@ entry(
     reactant1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NCN
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 C 0 0 {2,D} {3,D}
+2 N 1 1 {1,D}
+3 N 1 1 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35256,6 +36571,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35274,31 +36590,37 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(36000, 'cm^3/(mol*s)'), n=2.49, Ea=(2345, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (36000, 'cm^3/(mol*s)'),
+        n = 2.49,
+        Ea = (2345, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35316,28 +36638,28 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35345,6 +36667,7 @@ H2
         n = 1.66,
         Ea = (13900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35363,28 +36686,28 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35392,6 +36715,7 @@ OH
         n = 2.11,
         Ea = (11430, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35410,28 +36734,28 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35439,6 +36763,7 @@ CO2
         n = 1.41,
         Ea = (8520, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35457,28 +36782,28 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35486,6 +36811,7 @@ CO
         n = 1.57,
         Ea = (44012, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35504,30 +36830,30 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35535,6 +36861,7 @@ H2O
         n = 1.5,
         Ea = (3600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35553,32 +36880,32 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35586,6 +36913,7 @@ H2O2
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35604,30 +36932,30 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35635,6 +36963,7 @@ CO2
         n = 0,
         Ea = (35000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35653,30 +36982,30 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35684,6 +37013,7 @@ NCO
         n = 0,
         Ea = (23700, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35702,28 +37032,28 @@ entry(
     reactant1 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35731,6 +37061,7 @@ H
         n = 0.84,
         Ea = (1917, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35749,28 +37080,28 @@ entry(
     reactant1 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35778,6 +37109,7 @@ CO
         n = 0.61,
         Ea = (2076, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35796,28 +37128,28 @@ entry(
     reactant1 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35825,6 +37157,7 @@ NCO
         n = 1.5,
         Ea = (6617, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35843,28 +37176,28 @@ entry(
     reactant1 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -35872,6 +37205,7 @@ NCO
         n = 1.5,
         Ea = (4133, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -35890,33 +37224,39 @@ entry(
     reactant1 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1200000.0, 'cm^3/(mol*s)'), n=2, Ea=(-248, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (1200000.0, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (-248, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35934,35 +37274,41 @@ entry(
     reactant1 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(3646, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (920000, 'cm^3/(mol*s)'),
+        n = 1.94,
+        Ea = (3646, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35980,25 +37326,31 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.2e+31, 's^-1'), n=-6.12, Ea=(61210, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4.2e+31, 's^-1'),
+        n = -6.12,
+        Ea = (61210, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -36016,28 +37368,28 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36045,6 +37397,7 @@ OH
         n = 0.841,
         Ea = (8612, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36063,28 +37416,28 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36092,6 +37445,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36110,30 +37464,30 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36141,6 +37495,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36159,28 +37514,28 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36188,6 +37543,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36206,34 +37562,34 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36241,6 +37597,7 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36259,34 +37616,34 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36294,6 +37651,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36312,30 +37670,30 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36343,6 +37701,7 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36361,30 +37720,30 @@ entry(
     reactant1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36392,6 +37751,7 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36410,26 +37770,26 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36437,6 +37797,7 @@ NH
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36455,26 +37816,26 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36482,6 +37843,7 @@ CO
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36500,28 +37862,28 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HON
-1 O 0  {2,S} {3,S}
-2 H 0  {1,S}
-3 N 2S {1,S}
+1 O 0  2 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 N 2S 1 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36529,6 +37891,7 @@ CO
         n = -0.07,
         Ea = (5126, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36547,32 +37910,32 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36580,6 +37943,7 @@ NO
         n = -0.05,
         Ea = (18042, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36598,30 +37962,30 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36629,6 +37993,7 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36647,28 +38012,28 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36676,6 +38041,7 @@ CO2
         n = 0,
         Ea = (20000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36694,31 +38060,37 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4e+19, 'cm^3/(mol*s)'), n=-2.19, Ea=(1743, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4e+19, 'cm^3/(mol*s)'),
+        n = -2.19,
+        Ea = (1743, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -36736,28 +38108,28 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36765,6 +38137,7 @@ CO2
         n = -2.74,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36783,34 +38156,34 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product3 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36818,6 +38191,7 @@ NO
         n = 0,
         Ea = (-707, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36836,30 +38210,30 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36867,6 +38241,7 @@ N2O
         n = 0,
         Ea = (-707, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36885,30 +38260,30 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36916,6 +38291,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36934,32 +38310,32 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -36967,6 +38343,7 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -36985,26 +38362,26 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37012,6 +38389,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37030,35 +38408,41 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(28000, 'cm^3/(mol*s)'), n=2.48, Ea=(980, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (28000, 'cm^3/(mol*s)'),
+        n = 2.48,
+        Ea = (980, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -37076,34 +38460,34 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37111,6 +38495,7 @@ N2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37129,25 +38514,31 @@ entry(
     reactant1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4e+28, 's^-1'), n=-6.03, Ea=(29897, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (4e+28, 's^-1'),
+        n = -6.03,
+        Ea = (29897, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -37165,28 +38556,28 @@ entry(
     reactant1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37194,6 +38585,7 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37212,28 +38604,28 @@ entry(
     reactant1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37241,6 +38633,7 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37259,30 +38652,30 @@ entry(
     reactant1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -37301,6 +38694,7 @@ H2O
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37319,30 +38713,30 @@ entry(
     reactant1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37350,6 +38744,7 @@ NO
         n = 0,
         Ea = (5961, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37368,32 +38763,32 @@ entry(
     reactant1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37401,6 +38796,7 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37419,28 +38815,28 @@ entry(
     reactant1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37448,6 +38844,7 @@ N2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37466,25 +38863,31 @@ entry(
     reactant1 = 
 """
 HCNH
-1 C 1 {2,D} {3,S}
-2 N 0 {1,D} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 1 0 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.1e+28, 's^-1'), n=-5.69, Ea=(24271, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6.1e+28, 's^-1'),
+        n = -5.69,
+        Ea = (24271, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -37502,28 +38905,28 @@ entry(
     reactant1 = 
 """
 HCNH
-1 C 1 {2,D} {3,S}
-2 N 0 {1,D} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 1 0 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37531,6 +38934,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37549,28 +38953,28 @@ entry(
     reactant1 = 
 """
 HCNH
-1 C 1 {2,D} {3,S}
-2 N 0 {1,D} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 1 0 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37578,6 +38982,7 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37596,28 +39001,28 @@ entry(
     reactant1 = 
 """
 HCNH
-1 C 1 {2,D} {3,S}
-2 N 0 {1,D} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 1 0 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37625,6 +39030,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37643,28 +39049,28 @@ entry(
     reactant1 = 
 """
 HCNH
-1 C 1 {2,D} {3,S}
-2 N 0 {1,D} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 1 0 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37672,6 +39078,7 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37690,30 +39097,30 @@ entry(
     reactant1 = 
 """
 HCNH
-1 C 1 {2,D} {3,S}
-2 N 0 {1,D} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 1 0 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37721,6 +39128,7 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37739,28 +39147,28 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37768,6 +39176,7 @@ CO2
         n = 0,
         Ea = (33800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37786,28 +39195,28 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37815,6 +39224,7 @@ CO2
         n = 0,
         Ea = (20237, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37833,32 +39243,32 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37866,6 +39276,7 @@ HCO
         n = 5.64,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37884,35 +39295,41 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.11, 'cm^3/(mol*s)'), n=4.22, Ea=(19850, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.11, 'cm^3/(mol*s)'),
+        n = 4.22,
+        Ea = (19850, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -37930,28 +39347,28 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -37959,6 +39376,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -37977,34 +39395,34 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38012,6 +39430,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38030,30 +39449,30 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38061,6 +39480,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38079,34 +39499,34 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product3 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38114,6 +39534,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38132,33 +39553,39 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.58, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.58, 'cm^3/(mol*s)'),
+        n = 3.84,
+        Ea = (115, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -38176,34 +39603,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38211,6 +39638,7 @@ CH3
         n = 0,
         Ea = (45800, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38229,34 +39657,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38264,6 +39692,7 @@ CH3
         n = 0,
         Ea = (37600, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38282,32 +39711,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38315,6 +39744,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38333,32 +39763,32 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38366,6 +39796,7 @@ CH4
         n = 0,
         Ea = (8400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38384,39 +39815,45 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(150, 'cm^3/(mol*s)'), n=3.32, Ea=(20035, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (150, 'cm^3/(mol*s)'),
+        n = 3.32,
+        Ea = (20035, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -38434,39 +39871,45 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2400, 'cm^3/(mol*s)'), n=2.9, Ea=(27470, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (2400, 'cm^3/(mol*s)'),
+        n = 2.9,
+        Ea = (27470, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -38484,32 +39927,32 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -38523,6 +39966,7 @@ CH2O
             ),
             Arrhenius(A=(2.5e+18, 'cm^3/(mol*s)'), n=-2.56, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38541,34 +39985,34 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38576,6 +40020,7 @@ CH2O
         n = 0,
         Ea = (2285, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38594,34 +40039,34 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38629,6 +40074,7 @@ CH3OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38647,32 +40093,32 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38680,6 +40126,7 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38698,34 +40145,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38733,6 +40180,7 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38751,34 +40199,34 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38786,6 +40234,7 @@ CH3OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38804,34 +40253,34 @@ entry(
     reactant1 = 
 """
 CH3OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38839,6 +40288,7 @@ CH3O
         n = 0,
         Ea = (-715, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38857,40 +40307,40 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38898,6 +40348,7 @@ C2H5
         n = 0,
         Ea = (41400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38916,40 +40367,40 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product2 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -38957,6 +40408,7 @@ C2H5
         n = 0,
         Ea = (33200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -38975,38 +40427,38 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39014,6 +40466,7 @@ CH3CH2O
         n = -0.2,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39032,36 +40485,36 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39069,6 +40522,7 @@ C2H3
         n = 0,
         Ea = (41400, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39087,36 +40541,36 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product2 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39124,6 +40578,7 @@ C2H3
         n = 0,
         Ea = (33200, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39142,32 +40597,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39175,6 +40630,7 @@ HNO
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39193,34 +40649,34 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39228,6 +40684,7 @@ CH2CHO
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39246,40 +40703,40 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39287,6 +40744,7 @@ CH3CH2O
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39305,38 +40763,38 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39344,6 +40802,7 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39362,40 +40821,40 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39403,6 +40862,7 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39421,36 +40881,36 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     product2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39458,6 +40918,7 @@ HONO
         n = 0,
         Ea = (-159, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39476,40 +40937,40 @@ entry(
     reactant1 = 
 """
 CH3CO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product3 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     reversible = False,
@@ -39518,6 +40979,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39536,44 +40998,44 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product3 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     reversible = False,
@@ -39582,6 +41044,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39600,36 +41063,36 @@ entry(
     reactant1 = 
 """
 CH2CHOO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 O 0 {4,S} {7,S}
-7 O 1 {6,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 O 0 2 {1,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 O 1 2 {3,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH2CHO
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {2,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39637,6 +41100,7 @@ CH2CHO
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39655,46 +41119,46 @@ entry(
     reactant1 = 
 """
 HOCH2CH2OO
-1  H 0 {2,S}
-2  O 0 {1,S} {3,S}
-3  C 0 {2,S} {4,S} {5,S} {6,S}
-4  H 0 {3,S}
-5  H 0 {3,S}
-6  C 0 {3,S} {7,S} {8,S} {9,S}
-7  H 0 {6,S}
-8  H 0 {6,S}
-9  O 0 {6,S} {10,S}
-10 O 1 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {9,S}
+4  O 0 2 {2,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 1 2 {4,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product3 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     reversible = False,
@@ -39703,6 +41167,7 @@ NO2
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39721,34 +41186,34 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39756,6 +41221,7 @@ CH3
         n = 0,
         Ea = (3730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39774,34 +41240,34 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3NO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,D}
-6 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 1 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39809,6 +41275,7 @@ OH
         n = 0,
         Ea = (3730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39827,37 +41294,43 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(540, 'cm^3/(mol*s)'), n=3.5, Ea=(5200, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (540, 'cm^3/(mol*s)'),
+        n = 3.5,
+        Ea = (5200, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -39875,34 +41348,34 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39910,6 +41383,7 @@ OH
         n = 0,
         Ea = (5350, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39928,36 +41402,36 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -39965,6 +41439,7 @@ HO2
         n = 0,
         Ea = (57000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -39983,36 +41458,36 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40020,6 +41495,7 @@ NO2
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40038,39 +41514,45 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(500000, 'cm^3/(mol*s)'), n=2, Ea=(1000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (500000, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (1000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -40088,38 +41570,38 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40127,6 +41609,7 @@ H2O2
         n = 0,
         Ea = (23000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40145,43 +41628,49 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.55, 'cm^3/(mol*s)'), n=4, Ea=(8300, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.55, 'cm^3/(mol*s)'),
+        n = 4,
+        Ea = (8300, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -40199,42 +41688,42 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40242,6 +41731,7 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40260,38 +41750,38 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40299,6 +41789,7 @@ HONO
         n = 0,
         Ea = (32000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40317,29 +41808,35 @@ entry(
     reactant1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(10000000000000.0, 's^-1'), n=0, Ea=(36000, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (10000000000000.0, 's^-1'),
+        n = 0,
+        Ea = (36000, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -40357,32 +41854,32 @@ entry(
     reactant1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40390,6 +41887,7 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40408,32 +41906,32 @@ entry(
     reactant1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40441,6 +41939,7 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40459,34 +41958,34 @@ entry(
     reactant1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40494,6 +41993,7 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40512,34 +42012,34 @@ entry(
     reactant1 = 
 """
 CH2NO2
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 0 {1,S} {5,S} {6,D}
-5 O 0 {4,S}
-6 O 0 {4,D}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 N 0 0 {1,S} {5,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 3 {2,S}
+6 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40547,6 +42047,7 @@ HONO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40565,34 +42066,34 @@ entry(
     reactant1 = 
 """
 CH3ONO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 N 0 1 {2,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40600,6 +42101,7 @@ NO
         n = 0,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40618,38 +42120,38 @@ entry(
     reactant1 = 
 """
 CH3ONO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 N 0 1 {2,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     product3 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40657,6 +42159,7 @@ NO
         n = 0,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40675,34 +42178,34 @@ entry(
     reactant1 = 
 """
 CH3ONO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 N 0 1 {2,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40710,6 +42213,7 @@ NO2
         n = 0,
         Ea = (5210, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40728,36 +42232,36 @@ entry(
     reactant1 = 
 """
 CH3ONO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 N 0 1 {2,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40765,6 +42269,7 @@ NO2
         n = 0,
         Ea = (3505, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40783,36 +42288,36 @@ entry(
     reactant1 = 
 """
 CH3ONO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,S} {8,D}
-7 O 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 N 0 0 {3,S} {7,S} {8,D}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 3 {2,S}
+8 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40820,6 +42325,7 @@ HONO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40838,36 +42344,36 @@ entry(
     reactant1 = 
 """
 CH3ONO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,S} {8,D}
-7 O 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 N 0 0 {3,S} {7,S} {8,D}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 3 {2,S}
+8 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40875,6 +42381,7 @@ NO3
         n = 0,
         Ea = (5260, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40893,38 +42400,38 @@ entry(
     reactant1 = 
 """
 CH3ONO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,S} {8,D}
-7 O 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 N 0 0 {3,S} {7,S} {8,D}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 3 {2,S}
+8 O 0 2 {2,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product2 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40932,6 +42439,7 @@ HONO2
         n = 0,
         Ea = (2027, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -40950,42 +42458,42 @@ entry(
     reactant1 = 
 """
 C2H5NO2
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  N 0 {5,S} {9,S} {10,D}
-9  O 0 {8,S}
-10 O 0 {8,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  N 0 0 {1,S} {9,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  O 0 3 {3,S}
+10 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -40993,6 +42501,7 @@ NO2
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41011,42 +42520,42 @@ entry(
     reactant1 = 
 """
 CH3CH2ONO
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  N 0 {8,S} {10,D}
-10 O 0 {9,D}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  N 0 1 {3,S} {10,D}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {4,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41054,6 +42563,7 @@ NO2
         n = 0,
         Ea = (3505, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41072,44 +42582,44 @@ entry(
     reactant1 = 
 """
 CH3CH2ONO2
-1  C 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 {1,S} {7,S} {8,S} {9,S}
-3  N 0 {4,S} {10,S} {11,D}
-4  O 0 {1,S} {3,S}
-5  H 0 {1,S}
-6  H 0 {1,S}
-7  H 0 {2,S}
-8  H 0 {2,S}
-9  H 0 {2,S}
-10 O 0 {3,S}
-11 O 0 {3,D}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  N 0 0 {4,S} {10,S} {11,D}
+4  O 0 2 {1,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 3 {3,S}
+11 O 0 2 {3,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product2 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -41128,6 +42638,7 @@ HONO2
                 T0 = (1, 'K'),
             ),
         ],
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41146,28 +42657,28 @@ entry(
     reactant1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41175,6 +42686,7 @@ CO
         n = 2.16,
         Ea = (26900, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41193,32 +42705,32 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41226,6 +42738,7 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41244,30 +42757,30 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41275,6 +42788,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41293,37 +42807,43 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(710000, 'cm^3/(mol*s)'), n=2, Ea=(9300, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (710000, 'cm^3/(mol*s)'),
+        n = 2,
+        Ea = (9300, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -41341,32 +42861,32 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41374,6 +42894,7 @@ NH2
         n = 0,
         Ea = (20000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41392,35 +42913,41 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(62000, 'cm^3/(mol*s)'), n=2.64, Ea=(-437, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (62000, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (-437, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -41438,34 +42965,34 @@ entry(
     reactant1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41473,6 +43000,7 @@ HNCO
         n = 0,
         Ea = (8120, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41491,28 +43019,28 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41520,6 +43048,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41538,33 +43067,39 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.15, 'cm^3/(mol*s)'), n=3.52, Ea=(3950, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.15, 'cm^3/(mol*s)'),
+        n = 3.52,
+        Ea = (3950, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -41582,33 +43117,39 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(0.15, 'cm^3/(mol*s)'), n=3.52, Ea=(3950, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (0.15, 'cm^3/(mol*s)'),
+        n = 3.52,
+        Ea = (3950, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -41626,30 +43167,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CH2CN
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,T}
-5 N 0 {4,T}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 C 0 0 {1,S} {5,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 N 0 1 {2,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41657,6 +43198,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41675,34 +43217,34 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HOCN
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 O 0 2 {2,S} {3,S}
+2 C 0 0 {1,S} {4,T}
+3 H 0 0 {1,S}
+4 N 0 1 {2,T}
 """,
     product1 = 
 """
 CH3CN
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,T}
-6 N 0 {5,T}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 N 0 1 {2,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41710,6 +43252,7 @@ OH
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41728,26 +43271,26 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41755,6 +43298,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41773,28 +43317,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41802,6 +43346,7 @@ H
         n = 0,
         Ea = (-378, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41820,28 +43365,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41849,6 +43394,7 @@ OH
         n = 0,
         Ea = (-378, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41867,30 +43413,30 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41898,6 +43444,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41916,28 +43463,28 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41945,6 +43492,7 @@ NH
         n = 0,
         Ea = (74000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -41963,28 +43511,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41992,6 +43540,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42010,28 +43559,28 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42039,6 +43588,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42057,30 +43607,30 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42088,6 +43638,7 @@ CN
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42106,34 +43657,34 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product3 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42141,6 +43692,7 @@ H
         n = 0,
         Ea = (-630, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42159,24 +43711,24 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42184,6 +43736,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42202,26 +43755,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42229,6 +43782,7 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42247,26 +43801,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42274,6 +43828,7 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42292,26 +43847,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42319,6 +43874,7 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42337,28 +43893,28 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42366,6 +43922,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42384,28 +43941,28 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42413,6 +43970,7 @@ NO
         n = 0,
         Ea = (-511, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42431,26 +43989,26 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 NCN
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 C 0 0 {2,D} {3,D}
+2 N 1 1 {1,D}
+3 N 1 1 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42458,6 +44016,7 @@ H
         n = 1.42,
         Ea = (20723, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42476,24 +44035,24 @@ entry(
     reactant1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42501,6 +44060,7 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42519,24 +44079,24 @@ entry(
     reactant1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42544,6 +44104,7 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42562,26 +44123,26 @@ entry(
     reactant1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     reactant2 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42589,6 +44150,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42607,24 +44169,24 @@ entry(
     reactant1 = 
 """
 C(T)
-1 C 4T
+1 C 4T 0
 """,
     reactant2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42632,6 +44194,7 @@ N
         n = 0,
         Ea = (46000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42650,32 +44213,32 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CH2CN
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,T}
-5 N 0 {4,T}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 C 0 0 {1,S} {5,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 N 0 1 {2,T}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42683,6 +44246,7 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42701,40 +44265,40 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42742,6 +44306,7 @@ NH3
         n = 1.8,
         Ea = (6300, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42760,38 +44325,38 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42799,6 +44364,7 @@ HCN
         n = 2.77,
         Ea = (-1788, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42817,40 +44383,40 @@ entry(
     reactant1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42858,6 +44424,7 @@ HNCO
         n = 6.89,
         Ea = (-2910, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42876,34 +44443,34 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42911,6 +44478,7 @@ NH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42929,34 +44497,34 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2CN
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 N 1 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 1 1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42964,6 +44532,7 @@ H2CN
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -42982,36 +44551,36 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43019,6 +44588,7 @@ NH3
         n = 0,
         Ea = (3950, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43037,34 +44607,34 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43072,6 +44642,7 @@ HCN
         n = -0.24,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43090,32 +44661,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43123,6 +44694,7 @@ CH2O
         n = -3.382,
         Ea = (1025, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43141,32 +44713,32 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     product2 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43174,6 +44746,7 @@ HCN
         n = 0,
         Ea = (1815, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43192,32 +44765,32 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43225,6 +44798,7 @@ NH2
         n = 0,
         Ea = (-735, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43243,28 +44817,28 @@ entry(
     reactant1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43272,6 +44846,7 @@ CO
         n = 0,
         Ea = (570, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43290,26 +44865,26 @@ entry(
     reactant1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43317,6 +44892,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43335,26 +44911,26 @@ entry(
     reactant1 = 
 """
 C2
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     reactant2 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43362,6 +44938,7 @@ CN
         n = 0,
         Ea = (41730, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43380,28 +44957,28 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43409,6 +44986,7 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43427,30 +45005,30 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43458,6 +45036,7 @@ CO
         n = 0.089,
         Ea = (-457, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43476,30 +45055,30 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43507,6 +45086,7 @@ CO2
         n = -0.75,
         Ea = (-90, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43525,32 +45105,32 @@ entry(
     reactant1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCNO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T} {4,S}
-4 O 0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 0 3 {2,S}
 """,
     product2 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43558,6 +45138,7 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43576,28 +45157,28 @@ entry(
     reactant1 = 
 """
 C2O
-1 C 2S {2,D}
-2 C 0  {1,D} {3,D}
-3 O 0  {2,D}
+1 C 0  0 {2,D} {3,D}
+2 C 2S 0 {1,D}
+3 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43605,6 +45186,7 @@ NCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43623,26 +45205,26 @@ entry(
     reactant1 = 
 """
 NCN
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 C 0 0 {2,D} {3,D}
+2 N 1 1 {1,D}
+3 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43650,6 +45232,7 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43668,26 +45251,26 @@ entry(
     reactant1 = 
 """
 NCN
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 C 0 0 {2,D} {3,D}
+2 N 1 1 {1,D}
+3 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43695,6 +45278,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43713,28 +45297,28 @@ entry(
     reactant1 = 
 """
 NCN
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 C 0 0 {2,D} {3,D}
+2 N 1 1 {1,D}
+3 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43742,6 +45326,7 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43760,31 +45345,37 @@ entry(
     reactant1 = 
 """
 NCN
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 C 0 0 {2,D} {3,D}
+2 N 1 1 {1,D}
+3 N 1 1 {1,D}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product2 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6000000000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (6000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (0, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -43802,32 +45393,32 @@ entry(
     reactant1 = 
 """
 CH3CN
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,T}
-6 N 0 {5,T}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43835,6 +45426,7 @@ CH3
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43853,32 +45445,32 @@ entry(
     reactant1 = 
 """
 CH3CN
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,T}
-6 N 0 {5,T}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CN
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,T}
-5 N 0 {4,T}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 C 0 0 {1,S} {5,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 N 0 1 {2,T}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43886,6 +45478,7 @@ H2
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -43904,35 +45497,41 @@ entry(
     reactant1 = 
 """
 CH3CN
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,T}
-6 N 0 {5,T}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(A=(15000, 'cm^3/(mol*s)'), n=2.64, Ea=(4980, 'cal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(
+        A = (15000, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (4980, 'cal/mol'),
+        T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -43950,34 +45549,34 @@ entry(
     reactant1 = 
 """
 CH3CN
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,T}
-6 N 0 {5,T}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CN
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,T}
-5 N 0 {4,T}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 C 0 0 {1,S} {5,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 N 0 1 {2,T}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -43985,6 +45584,7 @@ H2O
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44003,30 +45603,30 @@ entry(
     reactant1 = 
 """
 CH2CN
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,T}
-5 N 0 {4,T}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 C 0 0 {1,S} {5,T}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 N 0 1 {2,T}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -44034,6 +45634,7 @@ CN
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44052,23 +45653,24 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(7e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0.0, 'O': 0.0, 'N#N': 0.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44087,23 +45689,24 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(6.2e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44122,20 +45725,20 @@ entry(
     reactant1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44155,6 +45758,7 @@ HO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.0, '[O][O]': 0.78, 'O': 11.0, 'N#N': 0.0, '[Ar]': 0.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44173,18 +45777,18 @@ entry(
     reactant1 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -44195,6 +45799,7 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[O][O]': 1.5, 'O': 10.0, 'N#N': 1.5},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44213,25 +45818,26 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.5e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0.73, 'O': 12.0, '[Ar]': 0.38},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44250,22 +45856,22 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44281,6 +45887,7 @@ OH
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.5, 'O': 12.0, '[Ar]': 0.64},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44299,20 +45906,20 @@ entry(
     reactant1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 CO2
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44332,7 +45939,8 @@ CO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
-        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'C(=O)=O': 3.8, 'O': 12.0},
+        efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44351,22 +45959,22 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Lindemann(
@@ -44383,6 +45991,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44401,22 +46010,22 @@ entry(
     reactant1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Lindemann(
@@ -44428,6 +46037,7 @@ H2
             T0 = (1, 'K'),
         ),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44446,24 +46056,24 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44484,6 +46094,7 @@ CH4
         T1 = (3230, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'CC': 4.8, 'C': 1.9},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44502,22 +46113,22 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44533,6 +46144,7 @@ CH3
         T1 = (1995, 'K'),
         T2 = (5590, 'K'),
         efficiencies = {'O': 6.0, 'N#N': 1.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44551,30 +46163,30 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44595,6 +46207,7 @@ C2H6
         T1 = (1180, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44613,16 +46226,16 @@ entry(
     reactant1 = 
 """
 CH2(S)
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     product1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -44633,6 +46246,7 @@ CH2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H]': 0.0, 'O': 0.0, 'N#N': 0.0, '[Ar]': 0.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44651,26 +46265,26 @@ entry(
     reactant1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44686,6 +46300,7 @@ OH
         T1 = (59.51, 'K'),
         T2 = (9374, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44704,24 +46319,24 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44741,7 +46356,8 @@ H
         T3 = (67.6, 'K'),
         T1 = (1855, 'K'),
         T2 = (7543, 'K'),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 5.0},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44760,26 +46376,26 @@ entry(
     reactant1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44800,6 +46416,7 @@ CH3OH
         T1 = (1434, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44818,24 +46435,24 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44850,6 +46467,7 @@ H
         T3 = (1000, 'K'),
         T1 = (2000, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44868,26 +46486,26 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44907,7 +46525,8 @@ CH3OH
         T3 = (100, 'K'),
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, 'N#N': 1.0, '[C]=O': 1.5},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44926,28 +46545,28 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -44968,6 +46587,7 @@ C2H5
         T1 = (9147, 'K'),
         T2 = (152.4, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -44986,30 +46606,30 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45029,7 +46649,8 @@ C2H6
         T3 = (125, 'K'),
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45048,32 +46669,32 @@ entry(
     reactant1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45094,6 +46715,7 @@ CH3CH2OO
         T1 = (601, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45112,26 +46734,26 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45147,6 +46769,7 @@ C2H4
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45165,26 +46788,26 @@ entry(
     reactant1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product1 = 
 """
 H2CC
-1 C 0  {2,S} {3,S} {4,D}
-2 H 0  {1,S}
-3 H 0  {1,S}
-4 C 2S {1,D}
+1 C 0  0 {2,S} {3,S} {4,D}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
+4 C 2S 0 {1,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45205,6 +46828,7 @@ H2
         T1 = (1035, 'K'),
         T2 = (5417, 'K'),
         efficiencies = {'O': 6.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45223,24 +46847,24 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45259,7 +46883,8 @@ C2H3
         alpha = 0.7878,
         T3 = (-10212, 'K'),
         T1 = (1e+30, 'K'),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 5.0},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45278,22 +46903,22 @@ entry(
     reactant1 = 
 """
 C2H2
-1 C 0 {2,T} {3,S}
-2 C 0 {1,T} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 C2H
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 1 0 {1,T}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -45303,7 +46928,8 @@ H
             Ea = (127138, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 5.0},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45322,32 +46948,32 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH2OH
-1 C 1 {2,S} {3,S} {4,S}
-2 O 0 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 O 0 2 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     product2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45362,7 +46988,8 @@ CH3
         T3 = (200, 'K'),
         T1 = (890, 'K'),
         T2 = (4600, 'K'),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 5.0},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45381,32 +47008,32 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45421,7 +47048,8 @@ OH
         T3 = (300, 'K'),
         T1 = (900, 'K'),
         T2 = (5000, 'K'),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 5.0},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45440,32 +47068,32 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 H2O
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45486,6 +47114,7 @@ H2O
         T1 = (800, 'K'),
         T2 = (3800, 'K'),
         efficiencies = {'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45504,32 +47133,32 @@ entry(
     reactant1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product2 = 
 """
 H2
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45550,6 +47179,7 @@ H2
         T1 = (1100, 'K'),
         T2 = (3500, 'K'),
         efficiencies = {'O': 5.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45568,32 +47198,32 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 H 0 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45614,6 +47244,7 @@ CH3CH2OH
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45632,34 +47263,34 @@ entry(
     reactant1 = 
 """
 CH2CH2OH
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S}
-3 O 0 {1,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 1 {1,S} {6,S} {7,S}
+3 O 0 2 {1,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 O2
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HOCH2CH2OO
-1  H 0 {2,S}
-2  O 0 {1,S} {3,S}
-3  C 0 {2,S} {4,S} {5,S} {6,S}
-4  H 0 {3,S}
-5  H 0 {3,S}
-6  C 0 {3,S} {7,S} {8,S} {9,S}
-7  H 0 {6,S}
-8  H 0 {6,S}
-9  O 0 {6,S} {10,S}
-10 O 1 {9,S}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  O 0 2 {1,S} {9,S}
+4  O 0 2 {2,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {3,S}
+10 O 1 2 {4,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45680,6 +47311,7 @@ HOCH2CH2OO
         T1 = (601, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45698,30 +47330,30 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45732,6 +47364,7 @@ CH2O
         T1 = (1235, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45750,28 +47383,28 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 O 0 {2,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 O 0 2 {2,D}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 HCO
-1 C 1 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 C 1 0 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45787,6 +47420,7 @@ HCO
         T1 = (7000, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45805,24 +47439,24 @@ entry(
     reactant1 = 
 """
 CH2
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 CH2CO
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45843,6 +47477,7 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'O': 6.0, 'N#N': 1.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45861,22 +47496,22 @@ entry(
     reactant1 = 
 """
 CH
-1 C 3 {2,S}
-2 H 0 {1,S}
+1 C 3Q 0 {2,S}
+2 H 0  0 {1,S}
 """,
     reactant2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product1 = 
 """
 HCCO
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 O 1 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 H 0 0 {1,S}
+4 O 1 2 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45896,7 +47531,8 @@ HCCO
         T3 = (237, 'K'),
         T1 = (1652, 'K'),
         T2 = (5069, 'K'),
-        efficiencies = {'C': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45915,32 +47551,32 @@ entry(
     reactant1 = 
 """
 CH3CH2OO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 O 0 {5,S} {9,S}
-9 O 1 {8,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 O 0 2 {1,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 O 1 2 {3,S}
 """,
     product1 = 
 """
 C2H4
-1 C 0 {2,D} {3,S} {4,S}
-2 C 0 {1,D} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 O 1 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -45956,6 +47592,7 @@ HO2
         T1 = (106, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -45974,32 +47611,32 @@ entry(
     reactant1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46020,6 +47657,7 @@ C3H6
         T1 = (1097, 'K'),
         T2 = (6860, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46038,32 +47676,32 @@ entry(
     reactant1 = 
 """
 C2H3
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 1 0 {1,D} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H6
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 C 0 {5,D} {8,S} {9,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 0 0 {2,D} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46083,7 +47721,8 @@ C3H6
         T3 = (1341, 'K'),
         T1 = (60000, 'K'),
         T2 = (10140, 'K'),
-        efficiencies = {'C': 2.0, '[C]=O': 1.5, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'C(=O)=O': 2.0, 'C=C': 3.0, 'C#C': 3.0, '[Ar]': 0.7},
+        efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46102,30 +47741,30 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -46147,6 +47786,7 @@ CH3CCH2
         T1 = (1784, 'K'),
         T2 = (5740, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46165,30 +47805,30 @@ entry(
     reactant1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH3CCH2
-1 C 0 {3,S} {4,S} {5,S} {6,S}
-2 C 0 {3,D} {7,S} {8,S}
-3 C 1 {1,S} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 C 0 0 {3,D} {7,S} {8,S}
+3 C 1 0 {1,S} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46209,6 +47849,7 @@ CH3CCH2
         T1 = (1784, 'K'),
         T2 = (5740, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46227,30 +47868,30 @@ entry(
     reactant1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 CH2CHCH2
-1 C 0 {2,S} {3,D} {4,S}
-2 C 1 {1,S} {5,S} {6,S}
-3 C 0 {1,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {3,D} {4,S}
+2 C 1 0 {1,S} {5,S} {6,S}
+3 C 0 0 {1,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -46272,6 +47913,7 @@ CH2CHCH2
         T1 = (1784, 'K'),
         T2 = (5740, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46290,28 +47932,28 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H2CCCH2
-1 C 0 {3,D} {4,S} {5,S}
-2 C 0 {3,D} {6,S} {7,S}
-3 C 0 {1,D} {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {3,D} {4,S} {5,S}
+2 C 0 0 {3,D} {6,S} {7,S}
+3 C 0 0 {1,D} {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46326,7 +47968,8 @@ H2CCCH2
         T3 = (134, 'K'),
         T1 = (1784, 'K'),
         T2 = (5740, 'K'),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 8.6},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 8.6},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46345,28 +47988,28 @@ entry(
     reactant1 = 
 """
 H2CCCH
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 1 {1,S} {2,S} {4,S}
-4 C 0 {3,S} {5,T}
-5 C 0 {4,T} {6,S}
-6 H 0 {5,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 H3CCCH
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46381,7 +48024,8 @@ H3CCCH
         T3 = (134, 'K'),
         T1 = (1784, 'K'),
         T2 = (5740, 'K'),
-        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'C(=O)=O': 3.0, 'O': 8.6},
+        efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 8.6},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46400,20 +48044,20 @@ entry(
     reactant1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46434,6 +48078,7 @@ HNO
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'N#N': 1.6},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46452,20 +48097,20 @@ entry(
     reactant1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46486,6 +48131,7 @@ NO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[Ar]': 0.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46504,22 +48150,22 @@ entry(
     reactant1 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46540,6 +48186,7 @@ HONO
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46558,22 +48205,22 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     product1 = 
 """
 NO3
-1 N 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S}
-4 O 1 {1,S}
+1 N 0 0 {2,D} {3,S} {4,S}
+2 O 0 2 {1,D}
+3 O 0 3 {1,S}
+4 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46589,6 +48236,7 @@ NO3
         T1 = (1700, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46607,24 +48255,24 @@ entry(
     reactant1 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HONO2
-1 N 0 {2,S} {3,S} {4,D}
-2 O 0 {1,S} {5,S}
-3 O 0 {1,S}
-4 O 0 {1,D}
-5 H 0 {2,S}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 O 0 2 {1,S} {5,S}
+3 O 0 3 {1,S}
+4 O 0 2 {1,D}
+5 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46640,6 +48288,7 @@ HONO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46658,18 +48307,18 @@ entry(
     reactant1 = 
 """
 HNO2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D} {4,S}
-3 O 0 {2,D}
-4 O 0 {2,S}
+1 N 0 0 {2,S} {3,D} {4,S}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
+4 O 0 3 {1,S}
 """,
     product1 = 
 """
 HONO
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 O 0 2 {2,S} {3,S}
+2 N 0 1 {1,S} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -46685,6 +48334,7 @@ HONO
         T1 = (3125, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46703,20 +48353,20 @@ entry(
     reactant1 = 
 """
 N2O
-1 N 0 {2,D} {3,D}
-2 N 0 {1,D}
-3 O 0 {1,D}
+1 N 0 0 {2,D} {3,D}
+2 N 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     product2 = 
 """
 O
-1 O 2T
+1 O 2T 2
 """,
     degeneracy = 1,
     kinetics = Lindemann(
@@ -46727,7 +48377,8 @@ O
             Ea = (56600, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'O': 12.0, '[O][O]': 1.4, 'C(=O)=O': 3.0, 'N#N': 1.7},
+        efficiencies = {'O=C=O': 3.0, '[O][O]': 1.4, 'O': 12.0, 'N#N': 1.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46746,22 +48397,22 @@ entry(
     reactant1 = 
 """
 N2H2
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 H 0 {3,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 NNH
-1 N 1 {2,D}
-2 N 0 {1,D} {3,S}
-3 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -46772,6 +48423,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'O': 7.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46790,22 +48442,22 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -46816,6 +48468,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'O': 10.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46834,23 +48487,24 @@ entry(
     reactant1 = 
 """
 H2NO
-1 N 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.1e+29, 'cm^3/(mol*s)'), n=-4, Ea=(44000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O': 10.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46869,22 +48523,22 @@ entry(
     reactant1 = 
 """
 HNOH
-1 N 1 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 1 1 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 HNO
-1 N 0 {2,S} {3,D}
-2 H 0 {1,S}
-3 O 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -46895,6 +48549,7 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'O': 10.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46913,20 +48568,20 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product1 = 
 """
 H
-1 H 1
+1 H 1 0
 """,
     product2 = 
 """
 CN
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -46937,6 +48592,7 @@ CN
             T0 = (1, 'K'),
         ),
         efficiencies = {'[O][O]': 1.5, 'O': 10.0, 'N#N': 0.0},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46955,16 +48611,16 @@ entry(
     reactant1 = 
 """
 HCN
-1 C 0 {2,S} {3,T}
-2 H 0 {1,S}
-3 N 0 {1,T}
+1 C 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 N 0 1 {1,T}
 """,
     product1 = 
 """
 HNC
-1 H 0 {2,S}
-2 N 0 {1,S} {3,T}
-3 C 0 {2,T}
+1 N 0 0 {2,S} {3,T}
+2 H 0 0 {1,S}
+3 C 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -46974,7 +48630,8 @@ HNC
             Ea = (54600, 'cal/mol'),
             T0 = (1, 'K'),
         ),
-        efficiencies = {'C(=O)=O': 2.0, 'O': 7.0, '[Ar]': 0.7},
+        efficiencies = {'O=C=O': 2.0, 'O': 7.0, '[Ar]': 0.7},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -46993,27 +48650,28 @@ entry(
     reactant1 = 
 """
 HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,D} {3,S}
+2 C 0 0 {1,D} {4,D}
+3 H 0 0 {1,S}
+4 O 0 2 {2,D}
 """,
     product1 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     product2 = 
 """
 NH
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.1e+16, 'cm^3/(mol*s)'), n=0, Ea=(86000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'N#N': 1.5},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47032,20 +48690,20 @@ entry(
     reactant1 = 
 """
 NCO
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 C 0 0 {2,T} {3,S}
+2 N 0 1 {1,T}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 N
-1 N 3
+1 N 3Q 1
 """,
     product2 = 
 """
 CO
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -47056,6 +48714,7 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'N#N': 1.5},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47074,26 +48733,26 @@ entry(
     reactant1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3NO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,D}
-6 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 1 {1,S} {6,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -47114,6 +48773,7 @@ CH3NO
         T1 = (120, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47132,28 +48792,28 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3ONO
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,D}
-7 O 0 {6,D}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 N 0 1 {2,S} {7,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -47174,6 +48834,7 @@ CH3ONO
         T1 = (900, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47192,30 +48853,30 @@ entry(
     reactant1 = 
 """
 CH3O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 O 1 2 {1,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3ONO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 O 0 {1,S} {6,S}
-6 N 0 {5,S} {7,S} {8,D}
-7 O 0 {6,S}
-8 O 0 {6,D}
+1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2 N 0 0 {3,S} {7,S} {8,D}
+3 O 0 2 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 O 0 3 {2,S}
+8 O 0 2 {2,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -47236,6 +48897,7 @@ CH3ONO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47254,34 +48916,34 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO
-1 N 1 {2,D}
-2 O 0 {1,D}
+1 N 1 1 {2,D}
+2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3CH2ONO
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  O 0 {5,S} {9,S}
-9  N 0 {8,S} {10,D}
-10 O 0 {9,D}
+1  C 0 0 {2,S} {3,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  O 0 2 {1,S} {4,S}
+4  N 0 1 {3,S} {10,D}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 2 {4,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -47297,6 +48959,7 @@ CH3CH2ONO
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47315,36 +48978,36 @@ entry(
     reactant1 = 
 """
 CH3CH2O
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 O 1 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 O 1 2 {2,S}
 """,
     reactant2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CH2ONO2
-1  C 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 {1,S} {7,S} {8,S} {9,S}
-3  N 0 {4,S} {10,S} {11,D}
-4  O 0 {1,S} {3,S}
-5  H 0 {1,S}
-6  H 0 {1,S}
-7  H 0 {2,S}
-8  H 0 {2,S}
-9  H 0 {2,S}
-10 O 0 {3,S}
-11 O 0 {3,D}
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  N 0 0 {4,S} {10,S} {11,D}
+4  O 0 2 {1,S} {3,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 O 0 3 {3,S}
+11 O 0 2 {3,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -47360,6 +49023,7 @@ CH3CH2ONO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47378,28 +49042,28 @@ entry(
     reactant1 = 
 """
 CH3NO2
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 N 0 {1,S} {6,S} {7,D}
-6 O 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 N 0 0 {1,S} {6,S} {7,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 O 0 3 {2,S}
+7 O 0 2 {2,D}
 """,
     product1 = 
 """
 CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -47414,6 +49078,7 @@ NO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
@@ -47432,34 +49097,34 @@ entry(
     reactant1 = 
 """
 C2H5NO2
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  N 0 {5,S} {9,S} {10,D}
-9  O 0 {8,S}
-10 O 0 {8,D}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  N 0 0 {1,S} {9,S} {10,D}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {2,S}
+7  H 0 0 {2,S}
+8  H 0 0 {2,S}
+9  O 0 3 {3,S}
+10 O 0 2 {3,D}
 """,
     product1 = 
 """
 C2H5
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 {1,S} {6,S} {7,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 1 0 {1,S} {6,S} {7,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
 """,
     product2 = 
 """
 NO2
-1 N 0 {2,D} {3,S}
-2 O 0 {1,D}
-3 O 1 {1,S}
+1 N 0 1 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 O 1 2 {1,S}
 """,
     degeneracy = 1,
     kinetics = Lindemann(
@@ -47471,6 +49136,7 @@ NO2
         ),
         arrheniusLow = Arrhenius(A=(1e+18, 'cm^3/(mol*s)'), n=0, Ea=(36000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
+        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Gimenez_et_al.',
     ),
     reference = None,
     referenceType = "",
