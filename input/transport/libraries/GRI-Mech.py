@@ -34,7 +34,7 @@ entry(
     label = "C(T)",
     molecule =
 """
-1 C 4T
+1 C 4T 0
 """,
     transport = TransportData(
         shapeIndex = 0,
@@ -59,8 +59,8 @@ entry(
     label = "C2",
     molecule =
 """
-1 C 1 {2,T}
-2 C 1 {1,T}
+1 C 1 0 {2,T}
+2 C 1 0 {1,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -85,9 +85,9 @@ entry(
     label = "C2O",
     molecule =
 """
-1 C 2 {2,D}
-2 C 0 {1,D} {3,D}
-3 O 0 {2,D}
+1 C 2 0 {2,D}
+2 C 0 0 {1,D} {3,D}
+3 O 0 2 {2,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -139,9 +139,9 @@ entry(
     label = "C2H",
     molecule =
 """
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
+1 H 0 0 {2,S}
+2 C 0 0 {1,S} {3,T}
+3 C 1 0 {2,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -166,10 +166,10 @@ entry(
     label = "C2H2",
     molecule =
 """
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 H 0 {3,S}
+1 H 0 0 {2,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {4,S}
+4 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -194,12 +194,12 @@ entry(
     label = "C2H2OH",
     molecule =
 """
-1 C 1 {2,D} {4,S}
-2 C 0 {1,D} {3,S} {5,S}
-3 O 0 {2,S} {6,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {3,S}
+1 C 1 0 {2,D} {4,S}
+2 C 0 0 {1,D} {3,S} {5,S}
+3 O 0 2 {2,S} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -224,11 +224,11 @@ entry(
     label = "C2H3",
     molecule =
 """
-1 H 0 {2,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {4,S} {5,S}
-4 H 0 {3,S}
-5 H 0 {3,S}
+1 H 0 0 {2,S}
+2 C 1 0 {1,S} {3,D}
+3 C 0 0 {2,D} {4,S} {5,S}
+4 H 0 0 {3,S}
+5 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -253,12 +253,12 @@ entry(
     label = "C2H4",
     molecule =
 """
-1 H 0 {3,S}
-2 H 0 {3,S}
-3 C 0 {1,S} {2,S} {4,D}
-4 C 0 {3,D} {5,S} {6,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
+1 H 0 0 {3,S}
+2 H 0 0 {3,S}
+3 C 0 0 {1,S} {2,S} {4,D}
+4 C 0 0 {3,D} {5,S} {6,S}
+5 H 0 0 {4,S}
+6 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -283,13 +283,13 @@ entry(
     label = "C2H5",
     molecule =
 """
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,S} {7,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
-7 H 0 {4,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 C 0 0 {1,S} {5,S} {6,S} {7,S}
+5 H 0 0 {4,S}
+6 H 0 0 {4,S}
+7 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -314,14 +314,14 @@ entry(
     label = "C2H6",
     molecule =
 """
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,S} {8,S}
-6 H 0 {5,S}
-7 H 0 {5,S}
-8 H 0 {5,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 C 0 0 {1,S} {6,S} {7,S} {8,S}
+6 H 0 0 {5,S}
+7 H 0 0 {5,S}
+8 H 0 0 {5,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -400,11 +400,11 @@ entry(
     label = "C3H2",
     molecule =
 """
-1 C 1 {2,D} {4,S}
-2 C 0 {1,D} {3,D}
-3 C 1 {2,D} {5,S}
-4 H 0 {1,S}
-5 H 0 {3,S}
+1 C 1 0 {2,D} {4,S}
+2 C 0 0 {1,D} {3,D}
+3 C 1 0 {2,D} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -456,15 +456,15 @@ entry(
     label = "C3H6",
     molecule =
 """
-1 C 0 {2,D} {4,S} {5,S}
-2 C 0 {1,D} {3,S} {6,S}
-3 C 0 {2,S} {7,S} {8,S} {9,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
-9 H 0 {3,S}
+1 C 0 0 {2,D} {4,S} {5,S}
+2 C 0 0 {1,D} {3,S} {6,S}
+3 C 0 0 {2,S} {7,S} {8,S} {9,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -543,16 +543,16 @@ entry(
     label = "I*C3H7",
     molecule =
 """
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,S} {7,S}
-3 C 0 {2,S} {8,S} {9,S} {10,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
-9 H 0 {3,S}
-10 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,S} {7,S}
+3 C 0 0 {2,S} {8,S} {9,S} {10,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -577,16 +577,16 @@ entry(
     label = "N*C3H7",
     molecule =
 """
-1 C 1 {2,S} {4,S} {5,S}
-2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 C 0 {2,S} {8,S} {9,S} {10,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
-9 H 0 {3,S}
-10 H 0 {3,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 C 0 0 {2,S} {8,S} {9,S} {10,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {3,S}
+10 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -611,17 +611,17 @@ entry(
     label = "C3H8",
     molecule =
 """
-1  C 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 {1,S}
-3  H 0 {1,S}
-4  H 0 {1,S}
-5  C 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 {5,S}
-7  H 0 {5,S}
-8  C 0 {5,S} {9,S} {10,S} {11,S}
-9  H 0 {8,S}
-10 H 0 {8,S}
-11 H 0 {8,S}
+1  C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  H 0 0 {1,S}
+3  H 0 0 {1,S}
+4  H 0 0 {1,S}
+5  C 0 0 {1,S} {6,S} {7,S} {8,S}
+6  H 0 0 {5,S}
+7  H 0 0 {5,S}
+8  C 0 0 {5,S} {9,S} {10,S} {11,S}
+9  H 0 0 {8,S}
+10 H 0 0 {8,S}
+11 H 0 0 {8,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -646,11 +646,11 @@ entry(
     label = "C4H",
     molecule =
 """
-1 C 1 {2,T}
-2 C 0 {1,T} {3,S}
-3 C 0 {2,S} {4,T}
-4 C 0 {3,T} {5,S}
-5 H 0 {4,S}
+1 C 1 0 {2,T}
+2 C 0 0 {1,T} {3,S}
+3 C 0 0 {2,S} {4,T}
+4 C 0 0 {3,T} {5,S}
+5 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -675,12 +675,12 @@ entry(
     label = "C4H2",
     molecule =
 """
-1 C 0 {2,T} {5,S}
-2 C 0 {1,T} {3,S}
-3 C 0 {2,S} {4,T}
-4 C 0 {3,T} {6,S}
-5 H 0 {1,S}
-6 H 0 {4,S}
+1 C 0 0 {2,T} {5,S}
+2 C 0 0 {1,T} {3,S}
+3 C 0 0 {2,S} {4,T}
+4 C 0 0 {3,T} {6,S}
+5 H 0 0 {1,S}
+6 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -759,19 +759,19 @@ entry(
     label = "C4H9",
     molecule =
 """
-1 C 1 {2,S} {5,S} {6,S}
-2 C 0 {1,S} {3,S} {7,S} {8,S}
-3 C 0 {2,S} {4,S} {9,S} {10,S}
-4 C 0 {3,S} {11,S} {12,S} {13,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {2,S}
-9 H 0 {3,S}
-10 H 0 {3,S}
-11 H 0 {4,S}
-12 H 0 {4,S}
-13 H 0 {4,S}
+1 C 1 0 {2,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S} {7,S} {8,S}
+3 C 0 0 {2,S} {4,S} {9,S} {10,S}
+4 C 0 0 {3,S} {11,S} {12,S} {13,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
+10 H 0 0 {3,S}
+11 H 0 0 {4,S}
+12 H 0 0 {4,S}
+13 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -796,19 +796,19 @@ entry(
     label = "I*C4H9",
     molecule =
 """
-1 C 0 {2,S} {5,S} {6,S} {7,S}
-2 C 1 {1,S} {3,S} {8,S}
-3 C 0 {2,S} {4,S} {9,S} {10,S}
-4 C 0 {3,S} {11,S} {12,S} {13,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {1,S}
-8 H 0 {2,S}
-9 H 0 {3,S}
-10 H 0 {3,S}
-11 H 0 {4,S}
-12 H 0 {4,S}
-13 H 0 {4,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 1 0 {1,S} {3,S} {8,S}
+3 C 0 0 {2,S} {4,S} {9,S} {10,S}
+4 C 0 0 {3,S} {11,S} {12,S} {13,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
+10 H 0 0 {3,S}
+11 H 0 0 {4,S}
+12 H 0 0 {4,S}
+13 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1046,11 +1046,11 @@ u"""
 
 entry(
     index = 37,
-    label = "CH(Q)",
+    label = "CH(D)",
     molecule =
 """
-1 C 3Q {2,S}
-2 H 0  {1,S}
+1 C 3D 0 {2,S}
+2 H 0  0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -1075,9 +1075,9 @@ entry(
     label = "CH2",
     molecule =
 """
-1 C 2T {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2T 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1102,9 +1102,9 @@ entry(
     label = "CH2(S)",
     molecule =
 """
-1 C 2S {2,S} {3,S}
-2 H 0  {1,S}
-3 H 0  {1,S}
+1 C 2S 0 {2,S} {3,S}
+2 H 0  0 {1,S}
+3 H 0  0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1156,14 +1156,14 @@ entry(
     label = "CH2CHCCH",
     molecule =
 """
-1 C 0 {2,D} {5,S} {6,S}
-2 C 0 {1,D} {3,S} {7,S}
-3 C 0 {2,S} {4,T}
-4 C 0 {3,T} {8,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {4,S}
+1 C 0 0 {2,D} {5,S} {6,S}
+2 C 0 0 {1,D} {3,S} {7,S}
+3 C 0 0 {2,S} {4,T}
+4 C 0 0 {3,T} {8,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1188,15 +1188,15 @@ entry(
     label = "CH2CHCCH2",
     molecule =
 """
-1 C 0 {2,D} {5,S} {6,S}
-2 C 0 {1,D} {3,S} {7,S}
-3 C 1 {2,S} {4,D}
-4 C 0 {3,D} {8,S} {9,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {4,S}
-9 H 0 {4,S}
+1 C 0 0 {2,D} {5,S} {6,S}
+2 C 0 0 {1,D} {3,S} {7,S}
+3 C 1 0 {2,S} {4,D}
+4 C 0 0 {3,D} {8,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {4,S}
+9 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1221,14 +1221,14 @@ entry(
     label = "CH2CHCH2",
     molecule =
 """
-1 C 1 {2,S} {4,S} {5,S}
-2 C 0 {1,S} {3,D} {6,S}
-3 C 0 {2,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,D} {6,S}
+3 C 0 0 {2,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1253,15 +1253,15 @@ entry(
     label = "CH2CHCHCH",
     molecule =
 """
-1 C 0 {2,D} {5,S} {6,S}
-2 C 0 {1,D} {3,S} {7,S}
-3 C 0 {2,S} {4,D} {8,S}
-4 C 1 {3,D} {9,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
-9 H 0 {4,S}
+1 C 0 0 {2,D} {5,S} {6,S}
+2 C 0 0 {1,D} {3,S} {7,S}
+3 C 0 0 {2,S} {4,D} {8,S}
+4 C 1 0 {3,D} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1286,16 +1286,16 @@ entry(
     label = "CH2CHCHCH2",
     molecule =
 """
-1 C 0 {2,D} {5,S} {6,S}
-2 C 0 {1,D} {3,S} {7,S}
-3 C 0 {2,S} {4,D} {8,S}
-4 C 0 {3,D} {9,S} {10,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
-9 H 0 {4,S}
-10 H 0 {4,S}
+1 C 0 0 {2,D} {5,S} {6,S}
+2 C 0 0 {1,D} {3,S} {7,S}
+3 C 0 0 {2,S} {4,D} {8,S}
+4 C 0 0 {3,D} {9,S} {10,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
+9 H 0 0 {4,S}
+10 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1320,11 +1320,11 @@ entry(
     label = "CH2CO",
     molecule =
 """
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,D} {5,D}
-5 O 0 {4,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 C 0 0 {1,D} {5,D}
+5 O 0 2 {4,D}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1349,10 +1349,10 @@ entry(
     label = "CH2O",
     molecule =
 """
-1 C 0 {2,S} {3,S} {4,D}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,D}
+1 C 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,D}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1377,11 +1377,11 @@ entry(
     label = "CH2OH",
     molecule =
 """
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 O 0 {1,S} {5,S}
-5 H 0 {4,S}
+1 C 1 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 O 0 2 {1,S} {5,S}
+5 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1434,12 +1434,12 @@ entry(
     label = "CH3CC",
     molecule =
 """
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,T}
-3 C 1 {2,T}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,T}
+3 C 1 0 {2,T}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1464,15 +1464,15 @@ entry(
     label = "CH3CCCH2",
     molecule =
 """
-1 C 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 C 1 {3,S} {8,S} {9,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {1,S}
-8 H 0 {4,S}
-9 H 0 {4,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {4,S}
+4 C 1 0 {3,S} {8,S} {9,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {4,S}
+9 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1497,16 +1497,16 @@ entry(
     label = "CH3CCCH3",
     molecule =
 """
-1 C 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 C 0 {3,S} {8,S} {9,S} {10,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {1,S}
-8 H 0 {4,S}
-9 H 0 {4,S}
-10 H 0 {4,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {4,S}
+4 C 0 0 {3,S} {8,S} {9,S} {10,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {4,S}
+9 H 0 0 {4,S}
+10 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1531,14 +1531,14 @@ entry(
     label = "CH3CCH2",
     molecule =
 """
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,D}
-3 C 0 {2,D} {7,S} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {3,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,D}
+3 C 0 0 {2,D} {7,S} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {3,S}
+8 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1563,14 +1563,14 @@ entry(
     label = "CH3CHCH",
     molecule =
 """
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 {1,S} {3,D} {7,S}
-3 C 1 {2,D} {8,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {2,S}
-8 H 0 {3,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,D} {7,S}
+3 C 1 0 {2,D} {8,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1595,16 +1595,16 @@ entry(
     label = "CH3CH2CCH",
     molecule =
 """
-1 C 0 {2,S} {5,S} {6,S} {7,S}
-2 C 0 {1,S} {3,S} {8,S} {9,S}
-3 C 0 {2,S} {4,T}
-4 C 0 {3,T} {10,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {1,S}
-8 H 0 {2,S}
-9 H 0 {2,S}
-10 H 0 {4,S}
+1 C 0 0 {2,S} {5,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,S} {8,S} {9,S}
+3 C 0 0 {2,S} {4,T}
+4 C 0 0 {3,T} {10,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
+10 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1629,13 +1629,13 @@ entry(
     label = "CH3CHO",
     molecule =
 """
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 C 0 {1,S} {6,S} {7,D}
-6 H 0 {5,S}
-7 O 0 {5,D}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 C 0 0 {1,S} {6,S} {7,D}
+6 H 0 0 {5,S}
+7 O 0 2 {5,D}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1660,12 +1660,12 @@ entry(
     label = "CH2CHO",
     molecule =
 """
-1 C 1 {2,S} {4,S} {5,S}
-2 C 0 {1,S} {3,D} {6,S}
-3 O 0 {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,D} {6,S}
+3 O 0 2 {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1690,12 +1690,12 @@ entry(
     label = "CH3CO",
     molecule =
 """
-1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 {1,S} {3,D}
-3 O 0 {2,D}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 C 1 0 {1,S} {3,D}
+3 O 0 2 {2,D}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1720,11 +1720,11 @@ entry(
     label = "CH3O",
     molecule =
 """
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1749,12 +1749,12 @@ entry(
     label = "CH3OH",
     molecule =
 """
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 O 0 {1,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 O 0 2 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1779,11 +1779,11 @@ entry(
     label = "CH4",
     molecule =
 """
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -1835,8 +1835,8 @@ entry(
     label = "CN",
     molecule =
 """
-1 C 1 {2,T}
-2 N 0 {1,T}
+1 C 1 0 {2,T}
+2 N 0 0 {1,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -1915,8 +1915,8 @@ entry(
     label = "CO",
     molecule =
 """
-1 C 2T {2,D}
-2 O 0 {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -1941,9 +1941,9 @@ entry(
     label = "CO2",
     molecule =
 """
-1 C 0 {2,D} {3,D}
-2 O 0 {1,D}
-3 O 0 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 O 0 2 {1,D}
+3 O 0 2 {1,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -1968,7 +1968,7 @@ entry(
     label = "H",
     molecule =
 """
-1 H 1
+1 H 1 0
 """,
     transport = TransportData(
         shapeIndex = 0,
@@ -2020,8 +2020,8 @@ entry(
     label = "H2",
     molecule =
 """
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2046,13 +2046,13 @@ entry(
     label = "H2CCCCH",
     molecule =
 """
-1 C 1 {2,S} {5,S} {6,S}
-2 C 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 C 0 {3,T} {7,S}
-5 H 0 {1,S}
-6 H 0 {1,S}
-7 H 0 {4,S}
+1 C 1 0 {2,S} {5,S} {6,S}
+2 C 0 0 {1,S} {3,S}
+3 C 0 0 {2,S} {4,T}
+4 C 0 0 {3,T} {7,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2077,13 +2077,13 @@ entry(
     label = "H2CCCCH2",
     molecule =
 """
-1 C 0 {2,D} {4,S} {5,S}
-2 C 0 {1,D} {3,D}
-3 C 0 {2,D} {6,S} {7,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {3,S}
-7 H 0 {3,S}
+1 C 0 0 {2,D} {4,S} {5,S}
+2 C 0 0 {1,D} {3,D}
+3 C 0 0 {2,D} {6,S} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
+7 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2108,12 +2108,12 @@ entry(
     label = "H2CCCH",
     molecule =
 """
-1 C 1 {2,S} {4,S} {5,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {6,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-6 H 0 {3,S}
+1 C 1 0 {2,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {6,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2138,10 +2138,10 @@ entry(
     label = "H2CN",
     molecule =
 """
-1 C 0 {2,D} {3,S} {4,S}
-2 N 1 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 N 1 1 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2166,10 +2166,10 @@ entry(
     label = "H2NO",
     molecule =
 """
-1 N 0 {2,S} {3,S} {4,S}
-2 O 1 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 O 1 2 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2194,9 +2194,9 @@ entry(
     label = "H2O",
     molecule =
 """
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2221,10 +2221,10 @@ entry(
     label = "H2O2",
     molecule =
 """
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 O 0 {2,S} {4,S}
-4 H 0 {3,S}
+1 H 0 0 {2,S}
+2 O 0 2 {1,S} {3,S}
+3 O 0 2 {2,S} {4,S}
+4 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2249,11 +2249,11 @@ entry(
     label = "HC2N2",
     molecule =
 """
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 C 0 {2,T} {4,S}
-4 N 0 {3,S} {5,D}
-5 N 1 {4,D}
+1 H 0 0 {2,S}
+2 C 0 0 {1,S} {3,T}
+3 C 0 0 {2,T} {4,S}
+4 N 0 1 {3,S} {5,D}
+5 N 1 1 {4,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2278,13 +2278,13 @@ entry(
     label = "HCCHCCH",
     molecule =
 """
-1 C 1 {2,D} {5,S}
-2 C 0 {1,D} {3,S} {6,S}
-3 C 0 {2,S} {4,T}
-4 C 0 {3,T} {7,S}
-5 H 0 {1,S}
-6 H 0 {2,S}
-7 H 0 {4,S}
+1 C 1 0 {2,D} {5,S}
+2 C 0 0 {1,D} {3,S} {6,S}
+3 C 0 0 {2,S} {4,T}
+4 C 0 0 {3,T} {7,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2309,10 +2309,10 @@ entry(
     label = "HCCO",
     molecule =
 """
-1 C 1 {2,D} {4,S}
-2 C 0 {1,D} {3,D}
-3 O 0 {2,D}
-4 H 0 {1,S}
+1 C 1 0 {2,D} {4,S}
+2 C 0 0 {1,D} {3,D}
+3 O 0 2 {2,D}
+4 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2365,11 +2365,11 @@ entry(
     label = "HCCOH",
     molecule =
 """
-1 C 0 {2,T} {4,S}
-2 C 0 {1,T} {3,S}
-3 O 0 {2,S} {5,S}
-4 H 0 {1,S}
-5 H 0 {3,S}
+1 C 0 0 {2,T} {4,S}
+2 C 0 0 {1,T} {3,S}
+3 O 0 2 {2,S} {5,S}
+4 H 0 0 {1,S}
+5 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2394,9 +2394,9 @@ entry(
     label = "HCN",
     molecule =
 """
-1 H 0 {2,S}
-2 C 0 {1,S} {3,T}
-3 N 0 {2,T}
+1 H 0 0 {2,S}
+2 C 0 0 {1,S} {3,T}
+3 N 0 1 {2,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2421,9 +2421,9 @@ entry(
     label = "HCO",
     molecule =
 """
-1 C 1 {2,D} {3,S}
-2 O 0 {1,D}
-3 H 0 {1,S}
+1 C 1 0 {2,D} {3,S}
+2 O 0 2 {1,D}
+3 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2503,10 +2503,10 @@ entry(
     label = "HOCN",
     molecule =
 """
-1 H 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,T}
-4 N 0 {3,T}
+1 H 0 0 {2,S}
+2 O 0 2 {1,S} {3,S}
+3 C 0 0 {2,S} {4,T}
+4 N 0 1 {3,T}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2531,10 +2531,10 @@ entry(
     label = "HNCO",
     molecule =
 """
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
+1 H 0 0 {2,S}
+2 N 0 1 {1,S} {3,D}
+3 C 0 0 {2,D} {4,D}
+4 O 0 2 {3,D}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2559,10 +2559,10 @@ entry(
     label = "HNNO",
     molecule =
 """
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 N 0 {2,D} {4,S}
-4 O 1 {3,S}
+1 H 0 0 {2,S}
+2 N 0 1 {1,S} {3,D}
+3 N 0 1 {2,D} {4,S}
+4 O 1 2 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2587,9 +2587,9 @@ entry(
     label = "HNO",
     molecule =
 """
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 O 0 {2,D}
+1 H 0 0 {2,S}
+2 N 0 1 {1,S} {3,D}
+3 O 0 2 {2,D}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2614,10 +2614,10 @@ entry(
     label = "HNOH",
     molecule =
 """
-1 H 0 {2,S}
-2 N 1 {1,S} {3,S}
-3 O 0 {2,S} {4,S}
-4 H 0 {3,S}
+1 H 0 0 {2,S}
+2 N 1 1 {1,S} {3,S}
+3 O 0 2 {2,S} {4,S}
+4 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2642,9 +2642,9 @@ entry(
     label = "HO2",
     molecule =
 """
-1 O 1 {2,S}
-2 O 0 {1,S} {3,S}
-3 H 0 {2,S}
+1 O 1 2 {2,S}
+2 O 0 2 {1,S} {3,S}
+3 H 0 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2694,8 +2694,8 @@ entry(
     label = "N2",
     molecule =
 """
-1 N 0 {2,T}
-2 N 0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2720,10 +2720,10 @@ entry(
     label = "N2H2",
     molecule =
 """
-1 N 0 {2,D} {3,S}
-2 N 0 {1,D} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 N 0 1 {2,D} {3,S}
+2 N 0 1 {1,D} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2748,11 +2748,11 @@ entry(
     label = "N2H3",
     molecule =
 """
-1 N 0 {2,S} {3,S} {4,S}
-2 N 1 {1,S} {5,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 1 1 {1,S} {5,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2777,12 +2777,12 @@ entry(
     label = "N2H4",
     molecule =
 """
-1 N 0 {2,S} {3,S} {4,S}
-2 N 0 {1,S} {5,S} {6,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {2,S}
-6 H 0 {2,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 N 0 1 {1,S} {5,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
+6 H 0 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2834,9 +2834,9 @@ entry(
     label = "NCN",
     molecule =
 """
-1 N 1 {2,D}
-2 C 0 {1,D} {3,D}
-3 N 1 {2,D}
+1 N 1 1 {2,D}
+2 C 0 0 {1,D} {3,D}
+3 N 1 1 {2,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2861,9 +2861,9 @@ entry(
     label = "NCO",
     molecule =
 """
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 O 1 {2,S}
+1 N 0 1 {2,T}
+2 C 0 0 {1,T} {3,S}
+3 O 1 2 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2888,8 +2888,8 @@ entry(
     label = "NH(T)",
     molecule =
 """
-1 N 2T {2,S}
-2 H 0  {1,S}
+1 N 2T 1 {2,S}
+2 H 0  0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -2914,9 +2914,9 @@ entry(
     label = "NH2",
     molecule =
 """
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 N 1 1 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -2941,10 +2941,10 @@ entry(
     label = "NH3",
     molecule =
 """
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 N 0 1 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -3022,10 +3022,10 @@ entry(
     label = "NCNO",
     molecule =
 """
-1 N 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 N 0 {2,S} {4,D}
-4 O 0 {3,D}
+1 N 0 1 {2,T}
+2 C 0 0 {1,T} {3,S}
+3 N 0 1 {2,S} {4,D}
+4 O 0 2 {3,D}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -3077,7 +3077,7 @@ entry(
     label = "O(T)",
     molecule =
 """
-1 O 2T
+1 O 2T 2
 """,
     transport = TransportData(
         shapeIndex = 0,
@@ -3102,8 +3102,8 @@ entry(
     label = "O2",
     molecule =
 """
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -3128,8 +3128,8 @@ entry(
     label = "OH",
     molecule =
 """
-1 O 1 {2,S}
-2 H 0 {1,S}
+1 O 1 2 {2,S}
+2 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
