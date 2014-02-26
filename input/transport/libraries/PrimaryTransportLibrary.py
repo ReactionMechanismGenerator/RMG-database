@@ -14,8 +14,8 @@ entry(
     label = "H2",
     molecule = 
 """
-1 H 0 {2,S}
-2 H 0 {1,S}
+1 H 0 0 {2,S}
+2 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -41,8 +41,8 @@ entry(
     label = "O2",
     molecule = 
 """
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 O 1 2 {2,S}
+2 O 1 2 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -68,9 +68,9 @@ entry(
     label = "H2O",
     molecule = 
 """
-1 O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -96,10 +96,10 @@ entry(
     label = "H2O2",
     molecule = 
 """
-1 O 0 {2,S} {3,S}
-2 O 0 {1,S} {4,S}
-3 H 0 {1,S}
-4 H 0 {2,S}
+1 O 0 2 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -125,9 +125,9 @@ entry(
     label = "CO2",
     molecule = 
 """
-1 O 0 {2,D}
-2 C 0 {1,D} {3,D}
-3 O 0 {2,D}
+1 O 0 2 {2,D}
+2 C 0 0 {1,D} {3,D}
+3 O 0 2 {2,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -153,8 +153,8 @@ entry(
     label = "CO",
     molecule = 
 """
-1 C 2T {2,D}
-2 O 0  {1,D}
+1 C 2T 0 {2,D}
+2 O 0  2 {1,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -180,9 +180,9 @@ entry(
     label = "H2S",
     molecule = 
 """
-1 S 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
+1 S 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -208,8 +208,8 @@ entry(
     label = "N2",
     molecule = 
 """
-1     N     0 {2,T}
-2     N     0 {1,T}
+1 N 0 1 {2,T}
+2 N 0 1 {1,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -234,7 +234,7 @@ entry(
     label = "C(S)",
     molecule =
 """
-1 C 4S
+1 C 4S 0
 """,
     transport = TransportData(
         shapeIndex = 0,
@@ -259,8 +259,8 @@ entry(
     label = "NH(S)",
     molecule =
 """
-1 N 2S {2,S}
-2 H 0  {1,S}
+1 N 2S 1 {2,S}
+2 H 0  0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -285,7 +285,7 @@ entry(
     label = "N(D)",
     molecule =
 """
-1 N 3D
+1 N 3D 1
 """,
     transport = TransportData(
         shapeIndex = 0,
