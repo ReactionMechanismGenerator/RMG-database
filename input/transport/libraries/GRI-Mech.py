@@ -2669,7 +2669,7 @@ entry(
     label = "N(Q)",
     molecule =
 """
-1 N 3Q
+1 N 3Q 1 
 """,
     transport = TransportData(
         shapeIndex = 0,
