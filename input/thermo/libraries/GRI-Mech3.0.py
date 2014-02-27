@@ -421,8 +421,8 @@ entry(
     label = "CO",
     molecule = 
 """
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     thermo = NASA(
         polynomials = [
