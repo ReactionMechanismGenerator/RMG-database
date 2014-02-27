@@ -4298,8 +4298,8 @@ CH3CH2NH2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5011,8 +5011,8 @@ CH3CH2NH2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8201,8 +8201,8 @@ CH2O
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
@@ -8793,8 +8793,8 @@ CH2O
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
@@ -11902,8 +11902,8 @@ H
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
@@ -12063,8 +12063,8 @@ HNC
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
@@ -15757,8 +15757,8 @@ H2NCHO
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -15811,8 +15811,8 @@ H2NCO
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
