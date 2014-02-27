@@ -323,10 +323,10 @@ entry(
 	label = "Cb-noH",
 	group = 
 """
-1 * Cb 0 (2,B) (3,B) (4,B)
-2   R!H 0 (1,B)
-3   R!H 0 (1,B)
-4   R!H 0 (1,B)
+1 * Cb 0 {2,B} {3,B} {4,B}
+2   R!H 0 {1,B}
+3   R!H 0 {1,B}
+4   R!H 0 {1,B}
 
 """,
 	solute = SoluteData(
@@ -348,10 +348,10 @@ entry(
 	label = "Cb-H",
 	group = 
 """
-1 * Cb 0 (2,B) (3,B) (4,S)
-2   R!H 0 (1,B)
-3   R!H 0 (1,B)
-4   H   0 (1,S)
+1 * Cb 0 {2,B} {3,B} {4,S}
+2   R!H 0 {1,B}
+3   R!H 0 {1,B}
+4   H   0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -373,10 +373,10 @@ entry(
 	label = "Cb-noHnoRing",
 	group = 
 """
-1 * Cb 0 (2,B) (3,B) (4,S)
-2   R!H 0 (1,B)
-3   R!H 0 (1,B)
-4   R!H 0 (1,S)
+1 * Cb 0 {2,B} {3,B} {4,S}
+2   R!H 0 {1,B}
+3   R!H 0 {1,B}
+4   R!H 0 {1,S}
 
 """,
 	solute = SoluteData(
