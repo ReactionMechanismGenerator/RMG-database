@@ -17,8 +17,8 @@ entry(
     label = "COm;Y_rad",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -50,8 +50,8 @@ entry(
     label = "COm;H_rad",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -132,8 +132,8 @@ entry(
     label = "COm;H_rad",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -184,8 +184,8 @@ entry(
     label = "COm;C_methyl",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -237,8 +237,8 @@ entry(
     label = "COm;C_rad/H2/Cs",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -288,8 +288,8 @@ entry(
     label = "COm;Cd_pri_rad",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -340,8 +340,8 @@ entry(
     label = "COm;Cb_rad",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -438,8 +438,8 @@ entry(
     label = "COm;O_rad/NonDe",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -484,8 +484,8 @@ entry(
     label = "COm;C_methyl",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -526,8 +526,8 @@ entry(
     label = "COm;CH2CH3",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -571,8 +571,8 @@ entry(
     label = "COm;CH2CH2CH3",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
@@ -619,8 +619,8 @@ entry(
     label = "COm;CH[CH3]2",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     group2 = 
 """
