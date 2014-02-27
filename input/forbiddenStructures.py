@@ -8,6 +8,25 @@ longDesc = u"""
 """
 recommended = False
 
+
+entry(
+    label = "Ods",
+    group = 
+"""
+1 O {0,1,2,3,4} {2,D} {3,S}
+2 R {0,1,2,3,4} {1,D}
+3 R {0,1,2,3,4} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov 18 12:27:50 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this entry."""),
+    ],
+)
+
 entry(
     label = "Od_rad",
     group = 
