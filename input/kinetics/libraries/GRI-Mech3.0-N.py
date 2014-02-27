@@ -167,8 +167,8 @@ H
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -259,8 +259,8 @@ H2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -449,8 +449,8 @@ OH
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -793,8 +793,8 @@ CH
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -930,8 +930,8 @@ C2H2
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -1195,14 +1195,14 @@ H
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1335,8 +1335,8 @@ O2
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
@@ -2173,8 +2173,8 @@ H2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2935,8 +2935,8 @@ CH2(S)
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3035,8 +3035,8 @@ CH3
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3336,8 +3336,8 @@ H
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3712,8 +3712,8 @@ OH
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
@@ -3772,8 +3772,8 @@ H2O
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4282,8 +4282,8 @@ CH3
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4748,8 +4748,8 @@ HO2
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
@@ -4857,8 +4857,8 @@ O(T)
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5289,8 +5289,8 @@ HCO
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5381,8 +5381,8 @@ HCCO
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -5441,8 +5441,8 @@ H
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -5698,8 +5698,8 @@ C2H3
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5798,8 +5798,8 @@ OH
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5839,8 +5839,8 @@ O2
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -6085,8 +6085,8 @@ CH2(S)
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
@@ -6098,8 +6098,8 @@ CH2(T)
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6190,8 +6190,8 @@ CO2
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -6518,8 +6518,8 @@ CH4
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6855,8 +6855,8 @@ H
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
@@ -6910,8 +6910,8 @@ HO2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7062,8 +7062,8 @@ HCO
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7266,14 +7266,14 @@ OH
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7316,14 +7316,14 @@ HCCO
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
@@ -8984,8 +8984,8 @@ O(T)
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -9221,8 +9221,8 @@ NO
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9267,8 +9267,8 @@ NH
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9319,8 +9319,8 @@ H
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9365,8 +9365,8 @@ N2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9461,8 +9461,8 @@ N2O
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9601,8 +9601,8 @@ NH
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9791,8 +9791,8 @@ NH2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10108,8 +10108,8 @@ NO
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -10680,8 +10680,8 @@ O(T)
     product1 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product2 = 
 """
@@ -10991,8 +10991,8 @@ HNO
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11087,8 +11087,8 @@ NH2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11379,8 +11379,8 @@ NH2
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11477,8 +11477,8 @@ HCNO
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11767,8 +11767,8 @@ HNO
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11911,8 +11911,8 @@ NO
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11963,8 +11963,8 @@ H2
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -12544,8 +12544,8 @@ CH3
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -12605,8 +12605,8 @@ CH3
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -12718,8 +12718,8 @@ H2
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -12779,8 +12779,8 @@ H2O
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -12842,8 +12842,8 @@ H2O2
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -12907,8 +12907,8 @@ CH4
     product3 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     reversible = False,
@@ -13015,8 +13015,8 @@ OH
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product3 = 
 """
@@ -13524,8 +13524,8 @@ H
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -13697,8 +13697,8 @@ N
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -13785,8 +13785,8 @@ NH
     product2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -13816,8 +13816,8 @@ O(T)
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
@@ -14650,8 +14650,8 @@ H2
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
@@ -14819,8 +14819,8 @@ CH
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
@@ -14875,8 +14875,8 @@ CH2(T)
     reactant2 = 
 """
 CO
-1 C 2T 0 {2,D}
-2 O 0  2 {1,D}
+1 C 0 1 {2,T}
+2 O 0 1 {1,T}
 """,
     product1 = 
 """
