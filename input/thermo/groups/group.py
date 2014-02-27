@@ -47866,7 +47866,7 @@ entry(
     label = "N",
     group = 
 """
-1 * {N2d,N3s,N3d,N3t,N5s,N5d,N5dd,N5t} 0
+1 * {N1d,N3s,N3d,N3t,N5s,N5d,N5dd,N5t} 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -47886,10 +47886,10 @@ u"""
 
 entry(
     index = 1922,
-    label = "N2d",
+    label = "N1d",
     group = 
 """
-1 * N2d 0
+1 * N1d 0 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -47912,7 +47912,7 @@ entry(
     label = "N3s",
     group = 
 """
-1 * N3s 0
+1 * N3s 0 1
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -51353,7 +51353,7 @@ L1: R
                 L5: Ss-CtCb
                 L5: Ss-CbCb
     L2: N
-        L3: N2d
+        L3: N1d
         L3: N3s
             L4: N3s-CHH
                 L5: N3s-CsHH
