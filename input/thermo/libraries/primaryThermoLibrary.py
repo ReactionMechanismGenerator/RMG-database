@@ -410,7 +410,7 @@ entry(
     label = "He",
     molecule = 
 """
-1 He 0 4
+1 He 0 1
 """,
     thermo = NASA(
         polynomials = [
