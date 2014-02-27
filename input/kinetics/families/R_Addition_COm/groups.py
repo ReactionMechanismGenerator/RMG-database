@@ -12,8 +12,11 @@ template(reactants=["COm", "Y_rad"], products=["YC.=O"], ownReverse=False)
 reverse = "COM_Elimination_From_Carbonyl"
 
 recipe(actions=[
+    ['LOSE_PAIR', '*1', '1'],
+    ['CHANGE_BOND', '*1', '-1', '*3'],
+    ['GAIN_RADICAL', '*1', '1'],
+    ['GAIN_PAIR', '*3', '1'],
     ['FORM_BOND', '*1', 'S', '*2'],
-    ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*2', '1'],
 ])
 
@@ -22,8 +25,8 @@ entry(
     label = "COm",
     group = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 Ct 0 1 {2,T}
+2 *3 Ot 0 1 {1,T}
 """,
     kinetics = None,
     reference = None,
@@ -63,7 +66,7 @@ entry(
     label = "H_rad",
     group = 
 """
-1 *2 H 1
+1 *2 H 1 0
 """,
     kinetics = None,
     reference = None,
@@ -83,7 +86,7 @@ entry(
     label = "O_rad",
     group = 
 """
-1 *2 O 1
+1 *2 O 1 2
 """,
     kinetics = None,
     reference = None,
@@ -103,8 +106,8 @@ entry(
     label = "O_pri_rad",
     group = 
 """
-1 *2 O 1 {2,S}
-2    H 0 {1,S}
+1 *2 O 1 2 {2,S}
+2    H 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -124,8 +127,8 @@ entry(
     label = "O_sec_rad",
     group = 
 """
-1 *2 O   1 {2,S}
-2    R!H 0 {1,S}
+1 *2 O   1 2 {2,S}
+2    R!H 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -145,8 +148,8 @@ entry(
     label = "O_rad/NonDe",
     group = 
 """
-1 *2 O      1 {2,S}
-2    {Cs,O} 0 {1,S}
+1 *2 O      1 2 {2,S}
+2    {Cs,O} 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -166,8 +169,8 @@ entry(
     label = "O_rad/OneDe",
     group = 
 """
-1 *2 O             1 {2,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 O             1 2 {2,S}
+2    {Cd,Ct,Cb,CO} 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -187,8 +190,8 @@ entry(
     label = "Ct_rad",
     group = 
 """
-1 *2 C 1 {2,T}
-2    C 0 {1,T}
+1 *2 C 1 0 {2,T}
+2    C 0 0 {1,T}
 """,
     kinetics = None,
     reference = None,
@@ -208,8 +211,8 @@ entry(
     label = "CO_rad",
     group = 
 """
-1 *2 C 1 {2,D}
-2    O 0 {1,D}
+1 *2 C 1 0 {2,D}
+2    O 0 2 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -229,9 +232,9 @@ entry(
     label = "CO_pri_rad",
     group = 
 """
-1 *2 C 1 {2,D} {3,S}
-2    O 0 {1,D}
-3    H 0 {1,S}
+1 *2 C 1 0 {2,D} {3,S}
+2    O 0 2 {1,D}
+3    H 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -251,9 +254,9 @@ entry(
     label = "CO_sec_rad",
     group = 
 """
-1 *2 C   1 {2,D} {3,S}
-2    O   0 {1,D}
-3    R!H 0 {1,S}
+1 *2 C   1 0 {2,D} {3,S}
+2    O   0 2 {1,D}
+3    R!H 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -273,9 +276,9 @@ entry(
     label = "Cd_rad",
     group = 
 """
-1 *2 C 1 {2,D} {3,S}
-2    C 0 {1,D}
-3    R 0 {1,S}
+1 *2 C 1 0 {2,D} {3,S}
+2    C 0 0 {1,D}
+3    R 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -295,9 +298,9 @@ entry(
     label = "Cd_pri_rad",
     group = 
 """
-1 *2 C 1 {2,D} {3,S}
-2    C 0 {1,D}
-3    H 0 {1,S}
+1 *2 C 1 0 {2,D} {3,S}
+2    C 0 0 {1,D}
+3    H 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -317,9 +320,9 @@ entry(
     label = "Cd_sec_rad",
     group = 
 """
-1 *2 C   1 {2,D} {3,S}
-2    C   0 {1,D}
-3    R!H 0 {1,S}
+1 *2 C   1 0 {2,D} {3,S}
+2    C   0 0 {1,D}
+3    R!H 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -339,9 +342,9 @@ entry(
     label = "Cd_rad/NonDe",
     group = 
 """
-1 *2 C      1 {2,D} {3,S}
-2    C      0 {1,D}
-3    {Cs,O} 0 {1,S}
+1 *2 C      1 0 {2,D} {3,S}
+2    C      0 0 {1,D}
+3    {Cs,O} 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -361,9 +364,9 @@ entry(
     label = "Cd_rad/OneDe",
     group = 
 """
-1 *2 C             1 {2,D} {3,S}
-2    C             0 {1,D}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             1 0 {2,D} {3,S}
+2    C             0 0 {1,D}
+3    {Cd,Ct,Cb,CO} 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -383,9 +386,9 @@ entry(
     label = "Cb_rad",
     group = 
 """
-1 *2 Cb       1 {2,B} {3,B}
-2    {Cb,Cbf} 0 {1,B}
-3    {Cb,Cbf} 0 {1,B}
+1 *2 Cb       1 0 {2,B} {3,B}
+2    {Cb,Cbf} 0 0 {1,B}
+3    {Cb,Cbf} 0 0 {1,B}
 """,
     kinetics = None,
     reference = None,
@@ -405,10 +408,10 @@ entry(
     label = "Cs_rad",
     group = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    R 0 {1,S}
-3    R 0 {1,S}
-4    R 0 {1,S}
+1 *2 C 1 0 {2,S} {3,S} {4,S}
+2    R 0   {1,S}
+3    R 0   {1,S}
+4    R 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -428,10 +431,10 @@ entry(
     label = "C_methyl",
     group = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *2 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -451,10 +454,10 @@ entry(
     label = "C_pri_rad",
     group = 
 """
-1 *2 C   1 {2,S} {3,S} {4,S}
-2    H   0 {1,S}
-3    H   0 {1,S}
-4    R!H 0 {1,S}
+1 *2 C   1 0 {2,S} {3,S} {4,S}
+2    H   0 0 {1,S}
+3    H   0 0 {1,S}
+4    R!H 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -474,10 +477,10 @@ entry(
     label = "C_rad/H2/Cs",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    H  0 0 {1,S}
+3    H  0 0 {1,S}
+4    Cs 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -497,13 +500,13 @@ entry(
     label = "CH2CH3",
     group = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    C 0 {1,S} {5,S} {6,S} {7,S}
-5    H 0 {4,S}
-6    H 0 {4,S}
-7    H 0 {4,S}
+1 *2 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
+4    C 0 0 {1,S} {5,S} {6,S} {7,S}
+5    H 0 0 {4,S}
+6    H 0 0 {4,S}
+7    H 0 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -523,16 +526,16 @@ entry(
     label = "CH2CH2CH3",
     group = 
 """
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     C 0 {1,S} {5,S} {6,S} {7,S}
-5     H 0 {4,S}
-6     H 0 {4,S}
-7     C 0 {4,S} {8,S} {9,S} {10,S}
-8     H 0 {7,S}
-9     H 0 {7,S}
-10    H 0 {7,S}
+1  *2 C 1 0 {2,S} {3,S} {4,S}
+2     H 0 0 {1,S}
+3     H 0 0 {1,S}
+4     C 0 0 {1,S} {5,S} {6,S} {7,S}
+5     H 0 0 {4,S}
+6     H 0 0 {4,S}
+7     C 0 0 {4,S} {8,S} {9,S} {10,S}
+8     H 0 0 {7,S}
+9     H 0 0 {7,S}
+10    H 0 0 {7,S}
 """,
     kinetics = None,
     reference = None,
@@ -552,10 +555,10 @@ entry(
     label = "C_rad/H2/Cd",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cd 0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    H  0 0 {1,S}
+3    H  0 0 {1,S}
+4    Cd 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -575,10 +578,10 @@ entry(
     label = "C_rad/H2/Ct",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Ct 0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    H  0 0 {1,S}
+3    H  0 0 {1,S}
+4    Ct 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -598,10 +601,10 @@ entry(
     label = "C_rad/H2/Cb",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cb 0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    H  0 0 {1,S}
+3    H  0 0 {1,S}
+4    Cb 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -621,10 +624,10 @@ entry(
     label = "C_rad/H2/CO",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    CO 0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    H  0 0 {1,S}
+3    H  0 0 {1,S}
+4    CO 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -644,10 +647,10 @@ entry(
     label = "C_rad/H2/O",
     group = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    O 0 {1,S}
+1 *2 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
+4    O 0 2 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -667,10 +670,10 @@ entry(
     label = "C_sec_rad",
     group = 
 """
-1 *2 C   1 {2,S} {3,S} {4,S}
-2    H   0 {1,S}
-3    R!H 0 {1,S}
-4    R!H 0 {1,S}
+1 *2 C   1 0 {2,S} {3,S} {4,S}
+2    H   0 0 {1,S}
+3    R!H 0   {1,S}
+4    R!H 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -690,10 +693,10 @@ entry(
     label = "C_rad/H/NonDeC",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    H  0 0 {1,S}
+3    Cs 0 0 {1,S}
+4    Cs 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -713,16 +716,16 @@ entry(
     label = "CH[CH3]2",
     group = 
 """
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     C 0 {1,S} {5,S} {6,S} {7,S}
-4     C 0 {1,S} {8,S} {9,S} {10,S}
-5     H 0 {3,S}
-6     H 0 {3,S}
-7     H 0 {3,S}
-8     H 0 {4,S}
-9     H 0 {4,S}
-10    H 0 {4,S}
+1  *2 C 1 0 {2,S} {3,S} {4,S}
+2     H 0 0 {1,S}
+3     C 0 0 {1,S} {5,S} {6,S} {7,S}
+4     C 0 0 {1,S} {8,S} {9,S} {10,S}
+5     H 0 0 {3,S}
+6     H 0 0 {3,S}
+7     H 0 0 {3,S}
+8     H 0 0 {4,S}
+9     H 0 0 {4,S}
+10    H 0 0 {4,S}
 """,
     kinetics = None,
     reference = None,
@@ -742,10 +745,10 @@ entry(
     label = "C_rad/H/NonDeO",
     group = 
 """
-1 *2 C      1 {2,S} {3,S} {4,S}
-2    H      0 {1,S}
-3    O      0 {1,S}
-4    {Cs,O} 0 {1,S}
+1 *2 C      1 0 {2,S} {3,S} {4,S}
+2    H      0 0 {1,S}
+3    O      0 2 {1,S}
+4    {Cs,O} 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -765,10 +768,10 @@ entry(
     label = "C_rad/H/CsO",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
-4    O  0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    H  0 0 {1,S}
+3    Cs 0 0 {1,S}
+4    O  0 2 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -788,10 +791,10 @@ entry(
     label = "C_rad/H/O2",
     group = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    O 0 {1,S}
-4    O 0 {1,S}
+1 *2 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    O 0 2 {1,S}
+4    O 0 2 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -811,10 +814,10 @@ entry(
     label = "C_rad/H/OneDe",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cs,O}        0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    H             0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0   {1,S}
+4    {Cs,O}        0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -834,10 +837,10 @@ entry(
     label = "C_rad/H/OneDeC",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    Cs            0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    H             0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0   {1,S}
+4    Cs            0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -857,10 +860,10 @@ entry(
     label = "C_rad/H/OneDeO",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    O             0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    H             0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0   {1,S}
+4    O             0 2 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -880,10 +883,10 @@ entry(
     label = "C_rad/H/TwoDe",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    H             0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0   {1,S}
+4    {Cd,Ct,Cb,CO} 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -903,10 +906,10 @@ entry(
     label = "C_ter_rad",
     group = 
 """
-1 *2 C   1 {2,S} {3,S} {4,S}
-2    R!H 0 {1,S}
-3    R!H 0 {1,S}
-4    R!H 0 {1,S}
+1 *2 C   1 0 {2,S} {3,S} {4,S}
+2    R!H 0   {1,S}
+3    R!H 0   {1,S}
+4    R!H 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -926,10 +929,10 @@ entry(
     label = "C_rad/NonDeC",
     group = 
 """
-1 *2 C      1 {2,S} {3,S} {4,S}
-2    {Cs,O} 0 {1,S}
-3    {Cs,O} 0 {1,S}
-4    {Cs,O} 0 {1,S}
+1 *2 C      1 0 {2,S} {3,S} {4,S}
+2    {Cs,O} 0   {1,S}
+3    {Cs,O} 0   {1,S}
+4    {Cs,O} 0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -949,10 +952,10 @@ entry(
     label = "C_rad/Cs3",
     group = 
 """
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *2 C  1 0 {2,S} {3,S} {4,S}
+2    Cs 0 0 {1,S}
+3    Cs 0 0 {1,S}
+4    Cs 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -972,10 +975,10 @@ entry(
     label = "C_rad/NDMustO",
     group = 
 """
-1 *2 C      1 {2,S} {3,S} {4,S}
-2    O      0 {1,S}
-3    {Cs,O} 0 {1,S}
-4    {Cs,O} 0 {1,S}
+1 *2 C      1 0 {2,S} {3,S} {4,S}
+2    O      0 2 {1,S}
+3    {Cs,O} 0 0 {1,S}
+4    {Cs,O} 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -995,10 +998,10 @@ entry(
     label = "C_rad/OneDe",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cs,O}        0 {1,S}
-4    {Cs,O}        0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} 0   {1,S}
+3    {Cs,O}        0   {1,S}
+4    {Cs,O}        0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1018,10 +1021,10 @@ entry(
     label = "C_rad/OD_Cs2",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Cs            0 {1,S}
-4    Cs            0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} 0 0 {1,S}
+3    Cs            0 0 {1,S}
+4    Cs            0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1041,10 +1044,10 @@ entry(
     label = "C_rad/ODMustO",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    O             0 {1,S}
-4    {Cs,O}        0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} 0 0 {1,S}
+3    O             0 2 {1,S}
+4    {Cs,O}        0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1064,10 +1067,10 @@ entry(
     label = "C_rad/TwoDe",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cs,O}        0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} 0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 0 {1,S}
+4    {Cs,O}        0   {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1087,10 +1090,10 @@ entry(
     label = "C_rad/TD_Cs",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    Cs            0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} 0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 0 {1,S}
+4    Cs            0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1110,10 +1113,10 @@ entry(
     label = "C_rad/TDMustO",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    O             0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} 0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 0 {1,S}
+4    O             0 2 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1133,10 +1136,10 @@ entry(
     label = "C_rad/ThreeDe",
     group = 
 """
-1 *2 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             1 0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} 0 0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1210,8 +1213,8 @@ forbidden(
     label = "O2_birad",
     group = 
 """
-1 *2 O 1 {2,S}
-2    O 1 {1,S}
+1 *2 O 1 2 {2,S}
+2    O 1 2 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
