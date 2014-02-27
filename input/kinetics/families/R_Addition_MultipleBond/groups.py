@@ -26432,7 +26432,7 @@ u"""
 entry(
     index = 314,
     label = "Nd_R",
-    group = "OR{N3d_R}",
+    group = "OR{N1d_R,N3d_R}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -28049,6 +28049,27 @@ u"""
     ],
 )
 
+entry(
+    index = 394,
+    label = "N1d_R",
+    group = 
+"""
+1 *1 N1d 0 2 {2,D}
+2 *2 R!H 0 0 {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
 tree(
 """
 L1: R_R
@@ -28942,6 +28963,7 @@ L1: R_R
             L4: Od_N3d
             L4: Od_N5d
     L2: Nd_R
+        L3: N1d_R
         L3: N3d_R
             L4: N3d_Cd
                 L5: N3d_Cds
