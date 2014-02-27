@@ -1052,7 +1052,7 @@ CH2OH
 """
 CO
 1 C 0 1 {2,T}
-2 O 0 1 {1,T}}
+2 O 0 1 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
