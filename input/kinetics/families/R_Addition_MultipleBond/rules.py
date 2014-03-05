@@ -106946,7 +106946,7 @@ u"""
 
 entry(
     index = 3200,
-    label = "N3t_N3t-CH2_triplet",
+    label = "N3t_N3t;CH2_triplet",
     group1 = 
 """
 1 *1 N3t 0 {2,T}
@@ -106981,7 +106981,7 @@ Added by Beat Buesser, value for reaction: CH2 + N2 = CH2NN (B&D #22a) in 'Gas-P
 
 entry(
     index = 3201,
-    label = "N3t_N3t-CH_quartet",
+    label = "N3t_N3t;CH_quartet",
     group1 = 
 """
 1 *1 N3t 0 {2,T}
@@ -107015,7 +107015,7 @@ Added by Beat Buesser, value for reaction: CH + N2 = HCNN (B&D #24a) in 'Gas-Pha
 
 entry(
     index = 3202,
-    label = "N3d/H_N3d/H-H_rad",
+    label = "N3d/H_N3d/H;H_rad",
     group1 = 
 """
 1 *1 N3d 0 {2,D} {3,S}
@@ -107050,7 +107050,7 @@ Added by Beat Buesser, value for reaction: N2H2 + H = N2H3 (B&D #31a) in 'Gas-Ph
 
 entry(
     index = 3203,
-    label = "Ct/H_N3t-O_pri_rad",
+    label = "Ct/H_N3t;O_pri_rad",
     group1 = 
 """
 1 *1 Ct  0 {2,T} {3,S}
@@ -107085,7 +107085,7 @@ Added by Beat Buesser, value for reaction: HCN + OH = NCHOH (B&D #42b4) in 'Gas-
 
 entry(
     index = 3204,
-    label = "Ct/H_N3t-H_rad",
+    label = "Ct/H_N3t;H_rad",
     group1 = 
 """
 1 *1 Ct  0 {2,T} {3,S}
@@ -107119,7 +107119,7 @@ Added by Beat Buesser, value for reaction: HCN + H = H2CN (B&D #45a) in 'Gas-Pha
 
 entry(
     index = 3205,
-    label = "N3t_Ct/H-H_rad",
+    label = "N3t_CtH;H_rad",
     group1 = 
 """
 1 *1 N3t 0 {2,T}
@@ -107153,7 +107153,7 @@ Added by Beat Buesser, value for reaction: HCN + H = HCNH (B&D #46) in 'Gas-Phas
 
 entry(
     index = 3206,
-    label = "Cds/H2_N3d-H_rad",
+    label = "Cds/H2_N3d;H_rad",
     group1 = 
 """
 1 *1 Cd  0 {2,D} {3,S} {4,S}
@@ -107188,7 +107188,7 @@ Added by Beat Buesser, value for reaction: H2CNH + H = CH3NH (B&D #49a) in 'Gas-
 
 entry(
     index = 3207,
-    label = "N3d/H_Cds/H2-H_rad",
+    label = "N3d/H_Cds/H2;H_rad",
     group1 = 
 """
 1 *1 N3d 0 {2,D} {5,S}
@@ -107224,7 +107224,7 @@ Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-
 
 entry(
     index = 3208,
-    label = "N3t_Ct/H-O_atom_triplet",
+    label = "N3t_Ct/H;O_atom_triplet",
     group1 = 
 """
 1 *1 N3t 0 {2,T}
