@@ -10980,7 +10980,7 @@ u"""
 
 entry(
     index = 464,
-    label = "N3d_rad/OneDeCdd-O",
+    label = "N3d_rad/OneDeCdd_O",
     group = 
 """
 1 *3 N3d 1 {2,D}
@@ -12030,7 +12030,7 @@ L1: Y_rad_birad_trirad_quadrad
             L4: N3d_rad
                 L5: N3d_rad/OneDe
                     L6: N3d_rad/OneDeC
-                        L7:N3d_rad/OneDeCdd-O
+                        L7:N3d_rad/OneDeCdd_O
         L3: N5_rad
             L4: N5d_rad
 """
