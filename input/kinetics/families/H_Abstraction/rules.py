@@ -121,7 +121,7 @@ u"""
 
 entry(
     index = 3,
-    label = "X_H;O_atom_triplet",
+    label = "X_H;O_(T)",
     group1 = 
 """
 1 *1 R 0 {2,S}
@@ -129,7 +129,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (170000000.0, 'cm^3/(mol*s)'),
@@ -477,7 +477,7 @@ N. Cohen, *Intl. J. Chem. Kinet.* 14 (1982), p. 1339 http://dx.doi.org/10.1002/k
 
 entry(
     index = 145,
-    label = "C/H3/Cs;O_atom_triplet",
+    label = "C/H3/Cs;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -488,7 +488,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (950, 'cm^3/(mol*s)'),
@@ -522,7 +522,7 @@ Yushi Suzuki
 
 entry(
     index = 146,
-    label = "C/H2/NonDeC;O_atom_triplet",
+    label = "C/H2/NonDeC;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -533,7 +533,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (23900, 'cm^3/(mol*s)'),
@@ -568,7 +568,7 @@ Yushi Suzuki
 
 entry(
     index = 147,
-    label = "C/H/Cs3;O_atom_triplet",
+    label = "C/H/Cs3;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -579,7 +579,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (383000, 'cm^3/(mol*s)'),
@@ -2501,7 +2501,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 189,
-    label = "C/H2/NonDeC;CH2_triplet",
+    label = "C/H2/NonDeC;CH2_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -2512,9 +2512,9 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.755, 'cm^3/(mol*s)', '*|/', 10),
@@ -2551,7 +2551,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 190,
-    label = "C/H2/NonDeC;O_atom_triplet",
+    label = "C/H2/NonDeC;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -2562,7 +2562,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (23900, 'cm^3/(mol*s)', '*|/', 2),
@@ -3020,7 +3020,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 199,
-    label = "C/H/Cs3;O_atom_triplet",
+    label = "C/H/Cs3;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -3031,7 +3031,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (157000, 'cm^3/(mol*s)', '*|/', 2),
@@ -3074,7 +3074,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 200,
-    label = "C/H/Cs3;CH2_triplet",
+    label = "C/H/Cs3;CH2_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -3085,9 +3085,9 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1090000000000.0, 'cm^3/(mol*s)', '*|/', 5),
@@ -3116,7 +3116,7 @@ pg.23-24: Discussion on evaluated data
 
 Entry 43,25(b): Tsang recommends the rate coefficient expression reported by Bohland et al.
 
-Tsang notes that the rate for CH2_triplet abstracting a H-atom is faster than
+Tsang notes that the rate for CH2_(T) abstracting a H-atom is faster than
 the recommended value for CH3 abstracting a H-atom.
 MRH 31-Aug-2009
 """,
@@ -3503,7 +3503,7 @@ JDM 15-Jun-2010.
 
 entry(
     index = 209,
-    label = "Cd_pri;O_atom_triplet",
+    label = "Cd_pri;O_(T)",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -3513,7 +3513,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3780000.0, 'cm^3/(mol*s)'),
@@ -3639,7 +3639,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 212,
-    label = "Cd/H/NonDeC;O_atom_triplet",
+    label = "Cd/H/NonDeC;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,D} {3,S} {4,S}
@@ -3649,7 +3649,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (60200000000.0, 'cm^3/(mol*s)', '*|/', 3),
@@ -4343,7 +4343,7 @@ CH2O + O2 --> HCO + HO2 C.D.W divided original rate expression by 2, to get rate
 
 entry(
     index = 228,
-    label = "CO_pri;O_atom_triplet",
+    label = "CO_pri;O_(T)",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -4353,7 +4353,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (208000000000.0, 'cm^3/(mol*s)', '*|/', 2),
@@ -4393,7 +4393,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 229,
-    label = "CO_pri;CH2_triplet",
+    label = "CO_pri;CH2_(T)",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -4403,9 +4403,9 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3020000000.0, 'cm^3/(mol*s)'),
@@ -4953,7 +4953,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 240,
-    label = "CO/H/NonDe;O_atom_triplet",
+    label = "CO/H/NonDe;O_(T)",
     group1 = 
 """
 1 *1 C        0 {2,D} {3,S} {4,S}
@@ -4963,7 +4963,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (5000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
@@ -5336,7 +5336,7 @@ C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
 entry(
     index = 249,
-    label = "O_pri;O_atom_triplet",
+    label = "O_pri;O_(T)",
     group1 = 
 """
 1 *1 O 0 {2,S} {3,S}
@@ -5345,7 +5345,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (2630000000.0, 'cm^3/(mol*s)'),
@@ -5372,7 +5372,7 @@ H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 2.95E+
 
 entry(
     index = 250,
-    label = "O_pri;O_atom_triplet",
+    label = "O_pri;O_(T)",
     group1 = 
 """
 1 *1 O 0 {2,S} {3,S}
@@ -5381,7 +5381,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (74000, 'cm^3/(mol*s)'),
@@ -5781,7 +5781,7 @@ Verified by Greg Magoon: note that this reaction is endothermic; the reverse (R5
 
 entry(
     index = 259,
-    label = "O/H/NonDeC;O_atom_triplet",
+    label = "O/H/NonDeC;O_(T)",
     group1 = 
 """
 1 *1 O  0 {2,S} {3,S}
@@ -5790,7 +5790,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 'cm^3/(mol*s)', '*|/', 2.51),
@@ -5817,7 +5817,7 @@ CH3OH + O --> CH3O + OH
 
 entry(
     index = 260,
-    label = "O/H/NonDeC;CH2_triplet",
+    label = "O/H/NonDeC;CH2_(T)",
     group1 = 
 """
 1 *1 O  0 {2,S} {3,S}
@@ -5826,9 +5826,9 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (14.4, 'cm^3/(mol*s)', '*|/', 3),
@@ -18475,7 +18475,7 @@ u"""
 
 entry(
     index = 3108,
-    label = "C/H3/Cs\H\Cs\Cs|O;O_atom_triplet",
+    label = "C/H3/Cs\H\Cs\Cs|O;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -18490,7 +18490,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (323, 'cm^3/(mol*s)'),
@@ -18515,7 +18515,7 @@ u"""
 
 entry(
     index = 3110,
-    label = "C/H/Cs2/Cs\O;O_atom_triplet",
+    label = "C/H/Cs2/Cs\O;O_(T)",
     group1 = 
 """
 1     C 0 {2,S} {6,S} {7,S} {8,S}
@@ -18536,7 +18536,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (78000, 'cm^3/(mol*s)'),
@@ -18561,7 +18561,7 @@ u"""
 
 entry(
     index = 3112,
-    label = "C/H2/Cs\Cs2/O;O_atom_triplet",
+    label = "C/H2/Cs\Cs2/O;O_(T)",
     group1 = 
 """
 1     C 0 {2,S} {6,S} {7,S} {8,S}
@@ -18582,7 +18582,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (72500, 'cm^3/(mol*s)'),
@@ -18607,7 +18607,7 @@ u"""
 
 entry(
     index = 3114,
-    label = "O/H/NonDeC;O_atom_triplet",
+    label = "O/H/NonDeC;O_(T)",
     group1 = 
 """
 1 *1 O  0 {2,S} {3,S}
@@ -18616,7 +18616,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (0.00146, 'cm^3/(mol*s)'),
@@ -18874,7 +18874,7 @@ u"""
 
 entry(
     index = 3124,
-    label = "C/H2/Cs/Cs\O;O_atom_triplet",
+    label = "C/H2/Cs/Cs\O;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -18886,7 +18886,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (84.5, 'cm^3/(mol*s)'),
@@ -19025,7 +19025,7 @@ u"""
 
 entry(
     index = 3125,
-    label = "C/H2/Cs/Cs\Cs|O;O_atom_triplet",
+    label = "C/H2/Cs/Cs\Cs|O;O_(T)",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -19038,7 +19038,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (84.5, 'cm^3/(mol*s)'),
@@ -106895,7 +106895,7 @@ u"""
 
 entry(
     index = 2004,
-    label = "N3s_H;O_atom_triplet",
+    label = "N3s_H;O_(T)",
     group1 = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
@@ -106905,7 +106905,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (170000000, 'cm^3/(mol*s)'),
@@ -107153,7 +107153,7 @@ Added by Beat Buesser, value for reaction: NH3 + OH = NH2 + H2O (B&D #7) in 'Gas
 
 entry(
     index = 3000,
-    label = "NH3-O_atom_triplet",
+    label = "NH3-O_(T)",
     group1 = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
@@ -107163,7 +107163,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (9.40e+06, 'cm^3/(mol*s)'),
@@ -107222,7 +107222,7 @@ Added by Beat Buesser, value for reaction: NH2 + H = NH + H2 (B&D #9) in 'Gas-Ph
 
 entry(
     index = 3000,
-    label = "NH2_rad_H-O_atom_triplet",
+    label = "NH2_rad_H-O_(T)",
     group1 = 
 """
 1 *1 N3s 1 {2,S} {3,S}
@@ -107231,7 +107231,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (7.00e+12, 'cm^3/(mol*s)'),
@@ -107536,7 +107536,7 @@ Added by Beat Buesser, value for reaction: NH + H = N + H2 (B&D #27d) in 'Gas-Ph
 
 entry(
     index = 3000,
-    label = "N_birad_H-O_atom_triplet",
+    label = "N_birad_H-O_(T)",
     group1 = 
 """
 1 *1 N 2 {2,S}
@@ -107544,7 +107544,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (1.70e+8, 'cm^3/(mol*s)'),
@@ -107639,7 +107639,7 @@ Added by Beat Buesser, value for reaction: N2H2 + H = NNH + H2 (B&D #29c1) in 'G
 
 entry(
     index = 3000,
-    label = "N3d/H/NonDeN-O_atom_triplet",
+    label = "N3d/H/NonDeN-O_(T)",
     group1 = 
 """
 1 *1 N3d 0 {2,S} {3,D}
@@ -107648,7 +107648,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.30e+8, 'cm^3/(mol*s)'),
@@ -107781,7 +107781,7 @@ Added by Beat Buesser, value for reaction: N2H2 + CH3 = NNH + CH4 (B&D #29c5) in
 
 entry(
     index = 3000,
-    label = "N3d/H/NonDeN-NH_triplet",
+    label = "N3d/H/NonDeN-NH_(T)",
     group1 = 
 """
 1 *1 N3d 0 {2,S} {3,D}
@@ -107790,8 +107790,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 N3s 2T {2,s}
-2    H    0 {1,s}
+1 *3 N3s 2 {2,s}
+2    H   0 {1,s}
 """,
     kinetics = ArrheniusEP(
         A = (2.40e+6, 'cm^3/(mol*s)'),
@@ -107959,7 +107959,7 @@ Added by Beat Buesser, value for reaction: N2H4 + H = N2H3 + H2 (B&D #32a) in 'G
 
 entry(
     index = 3000,
-    label = "N3s/H2/NonDeN-O_atom_triplet",
+    label = "N3s/H2/NonDeN-O_(T)",
     group1 = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
@@ -107969,7 +107969,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (6.70e+8, 'cm^3/(mol*s)'),
@@ -108174,7 +108174,7 @@ Added by Beat Buesser, value for reaction: HNO + H = H2 + NO (B&D #36d1) in 'Gas
 
 entry(
     index = 3000,
-    label = "N3d/H/NonDeO-O_atom_triplet",
+    label = "N3d/H/NonDeO-O_(T)",
     group1 = 
 """
 1 *1 N3d 0 {2,S} {3,D}
@@ -108183,7 +108183,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (4.5e+11, 'cm^3/(mol*s)'),
@@ -108350,7 +108350,7 @@ Added by Beat Buesser, value for reaction: HONO + H = H2 + NO2 (B&D #40b1) in 'G
 
 entry(
     index = 3000,
-    label = "O/H/OneDeN-O_atom_triplet",
+    label = "O/H/OneDeN-O_(T)",
     group1 = 
 """
 1 *1 O         0 {2,S} {3,S}
@@ -108359,7 +108359,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (1.70e+8, 'cm^3/(mol*s)'),
@@ -108527,7 +108527,7 @@ Added by Beat Buesser, value for reaction: HNO2 + H = H2 + NO2 (B&D #41a) in 'Ga
 
 entry(
     index = 3000,
-    label = "N5d/H/NonDeOO-O_atom_triplet",
+    label = "N5d/H/NonDeOO-O_(T)",
     group1 = 
 """
 1 *1 N5d 0 {2,S} {3,S} {4,D}
@@ -108537,7 +108537,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (1.70e+8, 'cm^3/(mol*s)'),
@@ -108708,7 +108708,7 @@ Added by Beat Buesser, value for reaction: HCN + OH = CN + H2O (B&D #42a) in 'Ga
 
 entry(
     index = 3000,
-    label = "Ct/H/NonDeN-O_atom_triplet",
+    label = "Ct/H/NonDeN-O_(T)",
     group1 = 
 """
 1 *1 Ct  0 {2,S} {3,T}
@@ -108717,7 +108717,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (4.20e+10, 'cm^3/(mol*s)'),
@@ -108918,7 +108918,7 @@ Added by Beat Buesser, value for reaction: H2CNH + H = H2CN + H2 (B&D #48a1) in 
 
 entry(
     index = 3000,
-    label = "N3d/H/NonDeC-O_atom_triplet",
+    label = "N3d/H/NonDeC-O_(T)",
     group1 = 
 """
 1 *1 N3d 0 {2,S} {3,D}
@@ -108927,7 +108927,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (1.70e+8, 'cm^3/(mol*s)'),
@@ -109095,7 +109095,7 @@ Added by Beat Buesser, value for reaction: H2CNH + H = HCNH + H2 (B&D #48b1) in 
 
 entry(
     index = 3000,
-    label = "Cd/H2/NonDeN-O_atom_triplet",
+    label = "Cd/H2/NonDeN-O_(T)",
     group1 = 
 """
 1 *1 C   0 {2,D} {3,S} {4,S}
@@ -109105,7 +109105,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (2.20e+8, 'cm^3/(mol*s)'),
@@ -109277,7 +109277,7 @@ Added by Beat Buesser, value for reaction: CH3NH2 + H = CH2NH2 + H2 (B&D #51a1) 
 
 entry(
     index = 3000,
-    label = "Cs/H3/NonDeN-O_atom_triplet",
+    label = "Cs/H3/NonDeN-O_(T)",
     group1 = 
 """
 1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
@@ -109288,7 +109288,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (4.00e+8, 'cm^3/(mol*s)'),
@@ -109462,7 +109462,7 @@ Added by Beat Buesser, value for reaction: CH3NH2 + H = CH3NH + H2 (B&D #51b1) i
 
 entry(
     index = 3000,
-    label = "N3s/H2/NonDeC-O_atom_triplet",
+    label = "N3s/H2/NonDeC-O_(T)",
     group1 = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
@@ -109472,7 +109472,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.30e+8, 'cm^3/(mol*s)'),
@@ -109752,7 +109752,7 @@ Added by Beat Buesser, value for reaction: HOCN + H = H2 + NCO (B&D #55d) in 'Ga
 
 entry(
     index = 3000,
-    label = "O/H/OneDeC-O_atom_triplet",
+    label = "O/H/OneDeC-O_(T)",
     group1 = 
 """
 1 *1 O                0 {2,S} {3,S}
@@ -109761,7 +109761,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (1.70e+8, 'cm^3/(mol*s)'),
@@ -109963,7 +109963,7 @@ Added by Beat Buesser, value for reaction: HNCO + H = NCO + H2 (B&D #56e) in 'Ga
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeC-O_atom_triplet",
+    label = "N3d/H/OneDeC-O_(T)",
     group1 = 
 """
 1 *1 N3d            0 {2,S} {3,D}
@@ -109972,7 +109972,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.10e+6, 'cm^3/(mol*s)'),
@@ -110105,7 +110105,7 @@ Added by Beat Buesser, value for reaction: HNCO + NH2 = NCO + NH3 (B&D #56i) in 
 
 entry(
     index = 3000,
-    label = "Cs/H2/OneDeN-O_atom_triplet",
+    label = "Cs/H2/OneDeN-O_(T)",
     group1 = 
 """
 1 *1 C         1 {2,S} {3,S} {4,S}
@@ -110115,7 +110115,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.30e+8, 'cm^3/(mol*s)'),
@@ -110176,7 +110176,7 @@ Added by Beat Buesser, value for reaction: CH3NO + H = CH2NO + H2 (B&D #58a) in 
 
 entry(
     index = 3000,
-    label = "Cs/H3/OneDeN-O_atom_triplet",
+    label = "Cs/H3/OneDeN-O_(T)",
     group1 = 
 """
 1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
@@ -110187,7 +110187,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.30e+8, 'cm^3/(mol*s)'),
@@ -110361,7 +110361,7 @@ Added by Beat Buesser, value for reaction: NH2OH + H = HNOH + H2 (B&D #61b1) in 
 
 entry(
     index = 3000,
-    label = "N3s/H2/NonDeO-O_atom_triplet",
+    label = "N3s/H2/NonDeO-O_(T)",
     group1 = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
@@ -110371,7 +110371,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.30e+8, 'cm^3/(mol*s)'),
@@ -110577,7 +110577,7 @@ Added by Beat Buesser, value for reaction: NH2OH + H = NH2O + H2 (B&D #61b2) in 
 
 entry(
     index = 3000,
-    label = "O/H/NonDeN-O_atom_triplet",
+    label = "O/H/NonDeN-O_(T)",
     group1 = 
 """
 1 *1 O   0 {2,S} {3,S}
@@ -110586,7 +110586,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (1.7e+8, 'cm^3/(mol*s)'),
@@ -110789,7 +110789,7 @@ Added by Beat Buesser, value for reaction: NH2NO + H = HNNO + H2 (B&D #62b) in '
 
 entry(
     index = 3000,
-    label = "N3s/H2/OneDeN-O_atom_triplet",
+    label = "N3s/H2/OneDeN-O_(T)",
     group1 = 
 """
 1 *1 N3s       0 {2,S} {3,S} {4,S}
@@ -110799,7 +110799,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.30e+8, 'cm^3/(mol*s)'),
@@ -111006,7 +111006,7 @@ Added by Beat Buesser, value for reaction: H2NNHO + H = HNNHO + H2 (B&D #63b) in
 
 entry(
     index = 3000,
-    label = "N3s/H2/NonDeN-O_atom_triplet",
+    label = "N3s/H2/NonDeN-O_(T)",
     group1 = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
@@ -111016,7 +111016,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (3.30e+8, 'cm^3/(mol*s)'),
