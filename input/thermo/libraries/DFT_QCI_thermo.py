@@ -11,6 +11,7 @@ recommended = False
 entry(
     index = 1,
     label = "H2",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -34,11 +35,12 @@ u"""
 
 entry(
     index = 2,
-    label = "CH",
+    label = "CH_(Q)",
+    multiplicity = 4,
     molecule = 
 """
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -58,12 +60,13 @@ u"""
 
 entry(
     index = 3,
-    label = "CH2(S)",
+    label = "CH2_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 2S 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -83,12 +86,13 @@ u"""
 
 entry(
     index = 4,
-    label = "CH2(T)",
+    label = "CH2_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -109,6 +113,7 @@ u"""
 entry(
     index = 5,
     label = "CH3",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -135,6 +140,7 @@ u"""
 entry(
     index = 6,
     label = "CH4",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -162,6 +168,7 @@ u"""
 entry(
     index = 7,
     label = "OH",
+    multiplicity = 2,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -186,6 +193,7 @@ u"""
 entry(
     index = 8,
     label = "H2O",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -211,6 +219,7 @@ u"""
 entry(
     index = 9,
     label = "CO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 1 {2,T}
@@ -235,6 +244,7 @@ u"""
 entry(
     index = 10,
     label = "HCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,D} {3,S}
@@ -260,6 +270,7 @@ u"""
 entry(
     index = 11,
     label = "CH2O",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -285,13 +296,14 @@ u"""
 
 entry(
     index = 12,
-    label = "HCOH(S)",
+    label = "HCOH_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 2S 0 {2,S} {3,S}
-2 O 0  2 {1,S} {4,S}
-3 H 0  0 {1,S}
-4 H 0  0 {2,S}
+1 C 2 0 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -311,13 +323,14 @@ u"""
 
 entry(
     index = 13,
-    label = "HCOH(T)",
+    label = "HCOH_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 2T 0 {2,S} {3,S}
-2 O 0  2 {1,S} {4,S}
-3 H 0  0 {1,S}
-4 H 0  0 {2,S}
+1 C 2 0 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -338,6 +351,7 @@ u"""
 entry(
     index = 14,
     label = "CH3O",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -365,6 +379,7 @@ u"""
 entry(
     index = 15,
     label = "CH2OH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -392,6 +407,7 @@ u"""
 entry(
     index = 16,
     label = "CH3OH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -419,7 +435,8 @@ u"""
 
 entry(
     index = 17,
-    label = "O2",
+    label = "O2_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -444,6 +461,7 @@ u"""
 entry(
     index = 18,
     label = "HO2",
+    multiplicity = 2,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -469,6 +487,7 @@ u"""
 entry(
     index = 19,
     label = "HOOH",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -495,6 +514,7 @@ u"""
 entry(
     index = 20,
     label = "CO2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,D}
@@ -520,6 +540,7 @@ u"""
 entry(
     index = 21,
     label = "HOCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,D}
@@ -546,6 +567,7 @@ u"""
 entry(
     index = 22,
     label = "formyloxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -572,6 +594,7 @@ u"""
 entry(
     index = 23,
     label = "formic_acid",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -599,6 +622,7 @@ u"""
 entry(
     index = 24,
     label = "CH3OO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -627,6 +651,7 @@ u"""
 entry(
     index = 25,
     label = "HOCH2O",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -655,6 +680,7 @@ u"""
 entry(
     index = 26,
     label = "CH3OOH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -684,6 +710,7 @@ u"""
 entry(
     index = 27,
     label = "cCO3",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -710,6 +737,7 @@ u"""
 entry(
     index = 28,
     label = "formylperoxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -737,6 +765,7 @@ u"""
 entry(
     index = 29,
     label = "OCHOOH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -765,6 +794,7 @@ u"""
 entry(
     index = 30,
     label = "HOOCH2O",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -794,6 +824,7 @@ u"""
 entry(
     index = 31,
     label = "HOCH2OO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -823,6 +854,7 @@ u"""
 entry(
     index = 32,
     label = "HOOCH2OH",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {5,S}
@@ -852,7 +884,8 @@ u"""
 
 entry(
     index = 33,
-    label = "C2(T)",
+    label = "C2_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 1 0 {2,T}
@@ -877,6 +910,7 @@ u"""
 entry(
     index = 34,
     label = "HC2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,T}
@@ -902,6 +936,7 @@ u"""
 entry(
     index = 35,
     label = "C2H2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -927,7 +962,8 @@ u"""
 
 entry(
     index = 36,
-    label = "C2H2(T)",
+    label = "C2H2_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 1 0 {2,D} {3,S}
@@ -953,13 +989,14 @@ u"""
 
 entry(
     index = 37,
-    label = "H2CC(S)",
+    label = "H2CC_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,D} {3,S} {4,S}
-2 C 2S 0 {1,D}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 2 0 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -979,13 +1016,14 @@ u"""
 
 entry(
     index = 38,
-    label = "H2CC(T)",
+    label = "H2CC_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 0  0 {2,D} {3,S} {4,S}
-2 C 2T 0 {1,D}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 2 0 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1006,6 +1044,7 @@ u"""
 entry(
     index = 39,
     label = "C2H3",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1032,14 +1071,15 @@ u"""
 
 entry(
     index = 40,
-    label = "CCH3",
+    label = "CCH3_(Q)",
+    multiplicity = 4,
     molecule = 
 """
-1 C 0  0 {2,S} {3,S} {4,S} {5,S}
-2 C 3Q 0 {1,S}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 H 0  0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 3 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1061,6 +1101,7 @@ u"""
 entry(
     index = 41,
     label = "C2H4",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1088,7 +1129,8 @@ u"""
 
 entry(
     index = 42,
-    label = "C2H4(T)",
+    label = "C2H4_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -1116,15 +1158,16 @@ u"""
 
 entry(
     index = 43,
-    label = "CHCH3(S)",
+    label = "CHCH3_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,S} {3,S} {4,S} {5,S}
-2 C 2S 0 {1,S} {6,S}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 H 0  0 {1,S}
-6 H 0  0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 2 0 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1144,15 +1187,16 @@ u"""
 
 entry(
     index = 44,
-    label = "CHCH3(T)",
+    label = "CHCH3_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 0  0 {2,S} {3,S} {4,S} {5,S}
-2 C 2T 0 {1,S} {6,S}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 H 0  0 {1,S}
-6 H 0  0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 2 0 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1173,6 +1217,7 @@ u"""
 entry(
     index = 45,
     label = "C2H5",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -1202,6 +1247,7 @@ u"""
 entry(
     index = 46,
     label = "C2H6",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1231,12 +1277,13 @@ u"""
 
 entry(
     index = 47,
-    label = "C2O(S)",
+    label = "C2O_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,D} {3,D}
-2 C 2S 0 {1,D}
-3 O 0  2 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 C 2 0 {1,D}
+3 O 0 2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1256,12 +1303,13 @@ u"""
 
 entry(
     index = 48,
-    label = "C2O(T)",
+    label = "C2O_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 0  0 {2,D} {3,D}
-2 C 2T 0 {1,D}
-3 O 0  2 {1,D}
+1 C 0 0 {2,D} {3,D}
+2 C 2 0 {1,D}
+3 O 0 2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1282,6 +1330,7 @@ u"""
 entry(
     index = 49,
     label = "HCCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,D} {4,S}
@@ -1308,6 +1357,7 @@ u"""
 entry(
     index = 50,
     label = "ethynol",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -1335,6 +1385,7 @@ u"""
 entry(
     index = 51,
     label = "ketene",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1361,7 +1412,8 @@ u"""
 
 entry(
     index = 52,
-    label = "ketene(T)",
+    label = "ketene_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1390,6 +1442,7 @@ u"""
 entry(
     index = 53,
     label = "oxirene",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1417,6 +1470,7 @@ u"""
 entry(
     index = 54,
     label = "oxiranyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1445,6 +1499,7 @@ u"""
 entry(
     index = 55,
     label = "CHCHOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1473,6 +1528,7 @@ u"""
 entry(
     index = 56,
     label = "CH2COH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {5,S}
@@ -1501,6 +1557,7 @@ u"""
 entry(
     index = 57,
     label = "vinoxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {4,S} {5,S}
@@ -1529,6 +1586,7 @@ u"""
 entry(
     index = 58,
     label = "acetyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1557,6 +1615,7 @@ u"""
 entry(
     index = 59,
     label = "oxirane",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1586,6 +1645,7 @@ u"""
 entry(
     index = 60,
     label = "ethenol",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1615,6 +1675,7 @@ u"""
 entry(
     index = 61,
     label = "CH3CHO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1644,6 +1705,7 @@ u"""
 entry(
     index = 62,
     label = "CH3CH2O",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -1674,6 +1736,7 @@ u"""
 entry(
     index = 63,
     label = "CH3OCH2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -1704,6 +1767,7 @@ u"""
 entry(
     index = 64,
     label = "CH2CH2OH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1734,6 +1798,7 @@ u"""
 entry(
     index = 65,
     label = "CH3CHOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -1764,6 +1829,7 @@ u"""
 entry(
     index = 66,
     label = "ethanol",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1795,6 +1861,7 @@ u"""
 entry(
     index = 67,
     label = "DME",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -1825,7 +1892,8 @@ u"""
 
 entry(
     index = 68,
-    label = "OCCO(T)",
+    label = "OCCO_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -1852,6 +1920,7 @@ u"""
 entry(
     index = 69,
     label = "OCHCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {4,S}
@@ -1879,6 +1948,7 @@ u"""
 entry(
     index = 70,
     label = "OCCOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -1906,6 +1976,7 @@ u"""
 entry(
     index = 71,
     label = "glyoxal",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {5,S}
@@ -1934,6 +2005,7 @@ u"""
 entry(
     index = 72,
     label = "oxiranone",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1962,6 +2034,7 @@ u"""
 entry(
     index = 73,
     label = "hydroxyketene",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {4,S}
@@ -1990,6 +2063,7 @@ u"""
 entry(
     index = 74,
     label = "ethynediol",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {4,S}
@@ -2018,6 +2092,7 @@ u"""
 entry(
     index = 75,
     label = "CH2CHOO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -2047,6 +2122,7 @@ u"""
 entry(
     index = 76,
     label = "CHCHOOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {5,S}
@@ -2076,6 +2152,7 @@ u"""
 entry(
     index = 77,
     label = "OCH2CHO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2105,6 +2182,7 @@ u"""
 entry(
     index = 78,
     label = "CH2OCHO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {3,S} {5,S} {6,S}
@@ -2134,6 +2212,7 @@ u"""
 entry(
     index = 79,
     label = "CH3OCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -2163,6 +2242,7 @@ u"""
 entry(
     index = 80,
     label = "cC2H3O2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2192,6 +2272,7 @@ u"""
 entry(
     index = 81,
     label = "acetyloxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2221,6 +2302,7 @@ u"""
 entry(
     index = 82,
     label = "CH2COOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,D}
@@ -2250,6 +2332,7 @@ u"""
 entry(
     index = 83,
     label = "CH2CHOOH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -2280,6 +2363,7 @@ u"""
 entry(
     index = 84,
     label = "acetic_acid",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -2310,6 +2394,7 @@ u"""
 entry(
     index = 85,
     label = "methyl_formate",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -2340,6 +2425,7 @@ u"""
 entry(
     index = 86,
     label = "HOCHCHOH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -2370,6 +2456,7 @@ u"""
 entry(
     index = 87,
     label = "HOCH2CHO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2400,6 +2487,7 @@ u"""
 entry(
     index = 88,
     label = "CH3CH2OO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2431,6 +2519,7 @@ u"""
 entry(
     index = 89,
     label = "CH2CH2OOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -2462,6 +2551,7 @@ u"""
 entry(
     index = 90,
     label = "HOCH2CHOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -2493,6 +2583,7 @@ u"""
 entry(
     index = 91,
     label = "HOCH2CH2O",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2524,6 +2615,7 @@ u"""
 entry(
     index = 92,
     label = "CH3OCHOH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -2555,6 +2647,7 @@ u"""
 entry(
     index = 93,
     label = "HOCH2OCH2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -2586,6 +2679,7 @@ u"""
 entry(
     index = 94,
     label = "CH3OCH2O",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -2617,6 +2711,7 @@ u"""
 entry(
     index = 95,
     label = "CH3CH2OOH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -2649,6 +2744,7 @@ u"""
 entry(
     index = 96,
     label = "CH3OOCH3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -2681,6 +2777,7 @@ u"""
 entry(
     index = 97,
     label = "ketenylperoxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {6,S}
@@ -2709,6 +2806,7 @@ u"""
 entry(
     index = 98,
     label = "acetylperoxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -2739,6 +2837,7 @@ u"""
 entry(
     index = 99,
     label = "vinoxyperoxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2769,6 +2868,7 @@ u"""
 entry(
     index = 100,
     label = "hoo_acetyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -2799,6 +2899,7 @@ u"""
 entry(
     index = 101,
     label = "hoo_vinoxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {5,D}
@@ -2829,6 +2930,7 @@ u"""
 entry(
     index = 102,
     label = "CH3OOCH2O",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {6,S} {7,S} {8,S}
@@ -2861,6 +2963,7 @@ u"""
 entry(
     index = 103,
     label = "HOOCH2CH2OO",
+    multiplicity = 2,
     molecule = 
 """
 1  O 1 2 {2,S}
@@ -2893,14 +2996,15 @@ u"""
 
 entry(
     index = 104,
-    label = "H2CCC(S)",
+    label = "H2CCC_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,D} {3,S} {4,S}
-2 C 0  0 {1,D} {5,D}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 C 2S 0 {2,D}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {5,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 C 2 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2920,7 +3024,8 @@ u"""
 
 entry(
     index = 105,
-    label = "HCCCH(S)",
+    label = "HCCCH_(S)",
+    multiplicity = 1,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -2948,14 +3053,15 @@ u"""
 
 entry(
     index = 106,
-    label = "HCCCH(T)",
+    label = "HCCCH_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 0  0 {2,T} {3,S}
-2 C 0  0 {1,T} {4,S}
-3 C 2T 0 {1,S} {5,S}
-4 H 0  0 {2,S}
-5 H 0  0 {3,S}
+1 C 0 0 {2,T} {3,S}
+2 C 0 0 {1,T} {4,S}
+3 C 2 0 {1,S} {5,S}
+4 H 0 0 {2,S}
+5 H 0 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2977,6 +3083,7 @@ u"""
 entry(
     index = 107,
     label = "C3H3",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {5,S}
@@ -3005,6 +3112,7 @@ u"""
 entry(
     index = 108,
     label = "allene",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {3,D} {4,S} {5,S}
@@ -3034,6 +3142,7 @@ u"""
 entry(
     index = 109,
     label = "propyne",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3063,6 +3172,7 @@ u"""
 entry(
     index = 110,
     label = "cC3H4",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3092,6 +3202,7 @@ u"""
 entry(
     index = 111,
     label = "allyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -3122,6 +3233,7 @@ u"""
 entry(
     index = 112,
     label = "cC3H5",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3152,6 +3264,7 @@ u"""
 entry(
     index = 113,
     label = "propen2yl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -3182,6 +3295,7 @@ u"""
 entry(
     index = 114,
     label = "propen1yl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3212,6 +3326,7 @@ u"""
 entry(
     index = 115,
     label = "cC3H6",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3243,6 +3358,7 @@ u"""
 entry(
     index = 116,
     label = "C3H6",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3273,7 +3389,8 @@ u"""
 
 entry(
     index = 117,
-    label = "C3H6(T)",
+    label = "C3H6_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3305,6 +3422,7 @@ u"""
 entry(
     index = 118,
     label = "npropyl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3337,6 +3455,7 @@ u"""
 entry(
     index = 119,
     label = "ipropyl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -3369,6 +3488,7 @@ u"""
 entry(
     index = 120,
     label = "C3H8",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3402,6 +3522,7 @@ u"""
 entry(
     index = 121,
     label = "HCCCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,T} {5,S}
@@ -3429,6 +3550,7 @@ u"""
 entry(
     index = 122,
     label = "propynal",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,D} {5,S}
@@ -3457,6 +3579,7 @@ u"""
 entry(
     index = 123,
     label = "CH2CCO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {5,S}
@@ -3485,6 +3608,7 @@ u"""
 entry(
     index = 124,
     label = "CH2CHCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -3514,6 +3638,7 @@ u"""
 entry(
     index = 125,
     label = "CH2CCHO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,D} {5,S} {6,S}
@@ -3543,6 +3668,7 @@ u"""
 entry(
     index = 126,
     label = "CHCHCHO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {4,S}
@@ -3572,6 +3698,7 @@ u"""
 entry(
     index = 127,
     label = "acrolein",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -3601,7 +3728,8 @@ u"""
 
 entry(
     index = 128,
-    label = "acrolein(T)",
+    label = "acrolein_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -3632,6 +3760,7 @@ u"""
 entry(
     index = 129,
     label = "methylketene",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3662,6 +3791,7 @@ u"""
 entry(
     index = 130,
     label = "oxetene",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3692,6 +3822,7 @@ u"""
 entry(
     index = 131,
     label = "allyloxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3723,6 +3854,7 @@ u"""
 entry(
     index = 132,
     label = "propen2oxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3754,6 +3886,7 @@ u"""
 entry(
     index = 133,
     label = "CH2CH2CHO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3785,6 +3918,7 @@ u"""
 entry(
     index = 134,
     label = "oxiranylmethyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3816,6 +3950,7 @@ u"""
 entry(
     index = 135,
     label = "CH2OCHCH2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {5,S}
@@ -3847,6 +3982,7 @@ u"""
 entry(
     index = 136,
     label = "CH3CHCHO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3878,6 +4014,7 @@ u"""
 entry(
     index = 137,
     label = "CH3CH2CO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3909,6 +4046,7 @@ u"""
 entry(
     index = 138,
     label = "oxetanyl2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -3940,6 +4078,7 @@ u"""
 entry(
     index = 139,
     label = "oxetanyl3",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -3971,6 +4110,7 @@ u"""
 entry(
     index = 140,
     label = "hydroxyl1allyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -4002,6 +4142,7 @@ u"""
 entry(
     index = 141,
     label = "hydroxyl2allyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {4,S}
@@ -4033,6 +4174,7 @@ u"""
 entry(
     index = 142,
     label = "acetone",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -4065,6 +4207,7 @@ u"""
 entry(
     index = 143,
     label = "propanal",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4097,6 +4240,7 @@ u"""
 entry(
     index = 144,
     label = "propen1ol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -4129,6 +4273,7 @@ u"""
 entry(
     index = 145,
     label = "propen2ol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -4161,6 +4306,7 @@ u"""
 entry(
     index = 146,
     label = "cC3H6O",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4193,6 +4339,7 @@ u"""
 entry(
     index = 147,
     label = "oxetane",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -4225,6 +4372,7 @@ u"""
 entry(
     index = 148,
     label = "propen3ol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -4257,6 +4405,7 @@ u"""
 entry(
     index = 149,
     label = "cyclopropanol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4289,6 +4438,7 @@ u"""
 entry(
     index = 150,
     label = "npropoxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4322,6 +4472,7 @@ u"""
 entry(
     index = 151,
     label = "ipropoxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4355,6 +4506,7 @@ u"""
 entry(
     index = 152,
     label = "CH2CH2CH2OH",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -4388,6 +4540,7 @@ u"""
 entry(
     index = 153,
     label = "CH3CH2CHOH",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -4421,6 +4574,7 @@ u"""
 entry(
     index = 154,
     label = "CH3CHCH2OH",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -4454,6 +4608,7 @@ u"""
 entry(
     index = 155,
     label = "CH3CHOHCH2",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4487,6 +4642,7 @@ u"""
 entry(
     index = 156,
     label = "CH3COHCH3",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -4520,6 +4676,7 @@ u"""
 entry(
     index = 157,
     label = "CH3CH2OCH2",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -4553,6 +4710,7 @@ u"""
 entry(
     index = 158,
     label = "CH2CH2OCH3",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -4586,6 +4744,7 @@ u"""
 entry(
     index = 159,
     label = "CH3CHOCH3",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -4619,6 +4778,7 @@ u"""
 entry(
     index = 160,
     label = "npropanol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -4653,6 +4813,7 @@ u"""
 entry(
     index = 161,
     label = "ipropanol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4687,6 +4848,7 @@ u"""
 entry(
     index = 162,
     label = "EME",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -4721,6 +4883,7 @@ u"""
 entry(
     index = 163,
     label = "allylperoxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -4753,6 +4916,7 @@ u"""
 entry(
     index = 164,
     label = "propen1peroxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -4785,6 +4949,7 @@ u"""
 entry(
     index = 165,
     label = "propen2peroxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -4817,6 +4982,7 @@ u"""
 entry(
     index = 166,
     label = "OCHCH2CH2O",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4849,6 +5015,7 @@ u"""
 entry(
     index = 167,
     label = "CH3CHOCHO",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4881,6 +5048,7 @@ u"""
 entry(
     index = 168,
     label = "CH3COCH2O",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -4913,6 +5081,7 @@ u"""
 entry(
     index = 169,
     label = "oxiranylmethoxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4945,6 +5114,7 @@ u"""
 entry(
     index = 170,
     label = "CH2CHCH2OOH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
@@ -4978,6 +5148,7 @@ u"""
 entry(
     index = 171,
     label = "propen1ooh",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {6,S} {7,S} {8,S}
@@ -5011,6 +5182,7 @@ u"""
 entry(
     index = 172,
     label = "propen2ooh",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {6,S} {7,S} {8,S}
@@ -5044,6 +5216,7 @@ u"""
 entry(
     index = 173,
     label = "npropylperoxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -5078,6 +5251,7 @@ u"""
 entry(
     index = 174,
     label = "ipropylperoxy",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -5112,6 +5286,7 @@ u"""
 entry(
     index = 175,
     label = "QOOH_1",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -5146,6 +5321,7 @@ u"""
 entry(
     index = 176,
     label = "QOOH_2",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
@@ -5180,6 +5356,7 @@ u"""
 entry(
     index = 177,
     label = "QOOH_3",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -5214,6 +5391,7 @@ u"""
 entry(
     index = 178,
     label = "npropylooh",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -5249,6 +5427,7 @@ u"""
 entry(
     index = 179,
     label = "ipropylooh",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -5284,6 +5463,7 @@ u"""
 entry(
     index = 180,
     label = "CH3CHOOCHO",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -5317,6 +5497,7 @@ u"""
 entry(
     index = 181,
     label = "OCHCH2CH2OO",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -5350,6 +5531,7 @@ u"""
 entry(
     index = 182,
     label = "CH3COCH2OO",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -5383,6 +5565,7 @@ u"""
 entry(
     index = 183,
     label = "oxiranylmoo",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -5416,6 +5599,7 @@ u"""
 entry(
     index = 184,
     label = "CH3CHOOHCHO",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -5450,6 +5634,7 @@ u"""
 entry(
     index = 185,
     label = "OCHCH2CH2OOH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -5484,6 +5669,7 @@ u"""
 entry(
     index = 186,
     label = "CH3COCH2OOH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
@@ -5518,6 +5704,7 @@ u"""
 entry(
     index = 187,
     label = "cC2H3OCH2OOH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -5552,6 +5739,7 @@ u"""
 entry(
     index = 188,
     label = "HOOCH2CH2CH2OO",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
@@ -5588,6 +5776,7 @@ u"""
 entry(
     index = 189,
     label = "CH3CHOOCH2OOH",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {7,S}
@@ -5624,6 +5813,7 @@ u"""
 entry(
     index = 190,
     label = "CH3CHOOHCH2OO",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -5660,6 +5850,7 @@ u"""
 entry(
     index = 191,
     label = "HOOCH2CHCH2OOH",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {8,S} {9,S}
@@ -5696,6 +5887,7 @@ u"""
 entry(
     index = 192,
     label = "CH2CHOOHCH2OOH",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {8,S}
@@ -5732,6 +5924,7 @@ u"""
 entry(
     index = 193,
     label = "HCCCCH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {5,S}
@@ -5760,6 +5953,7 @@ u"""
 entry(
     index = 194,
     label = "HCCCHCH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {5,S}
@@ -5789,6 +5983,7 @@ u"""
 entry(
     index = 195,
     label = "CH2CCCH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {5,S} {6,S}
@@ -5818,6 +6013,7 @@ u"""
 entry(
     index = 196,
     label = "CH2CHCCH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -5848,6 +6044,7 @@ u"""
 entry(
     index = 197,
     label = "butatriene123",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {3,D} {5,S} {6,S}
@@ -5878,6 +6075,7 @@ u"""
 entry(
     index = 198,
     label = "CH3CHCCH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -5909,6 +6107,7 @@ u"""
 entry(
     index = 199,
     label = "CH2CHCCH2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {5,S}
@@ -5940,6 +6139,7 @@ u"""
 entry(
     index = 200,
     label = "CH2CHCHCH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {5,S}
@@ -5971,6 +6171,7 @@ u"""
 entry(
     index = 201,
     label = "butyne1",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -6003,6 +6204,7 @@ u"""
 entry(
     index = 202,
     label = "CH3CHCCH2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -6035,6 +6237,7 @@ u"""
 entry(
     index = 203,
     label = "butadiene13",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,D} {5,S}
@@ -6067,6 +6270,7 @@ u"""
 entry(
     index = 204,
     label = "m1_allyl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -6100,6 +6304,7 @@ u"""
 entry(
     index = 205,
     label = "m2_allyl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -6133,6 +6338,7 @@ u"""
 entry(
     index = 206,
     label = "buten1yl1",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -6166,6 +6372,7 @@ u"""
 entry(
     index = 207,
     label = "buten3yl1",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -6199,6 +6406,7 @@ u"""
 entry(
     index = 208,
     label = "buten22yl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -6232,6 +6440,7 @@ u"""
 entry(
     index = 209,
     label = "butene1",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -6266,6 +6475,7 @@ u"""
 entry(
     index = 211,
     label = "butene2t",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -6300,6 +6510,7 @@ u"""
 entry(
     index = 212,
     label = "isobutene",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -6334,6 +6545,7 @@ u"""
 entry(
     index = 213,
     label = "butyl_1",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -6369,6 +6581,7 @@ u"""
 entry(
     index = 214,
     label = "butyl_2",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -6404,6 +6617,7 @@ u"""
 entry(
     index = 215,
     label = "ibutyl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -6439,6 +6653,7 @@ u"""
 entry(
     index = 216,
     label = "tbutyl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {4,S} {5,S} {6,S} {7,S}
@@ -6474,6 +6689,7 @@ u"""
 entry(
     index = 217,
     label = "nbutane",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -6510,6 +6726,7 @@ u"""
 entry(
     index = 218,
     label = "ibutane",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
