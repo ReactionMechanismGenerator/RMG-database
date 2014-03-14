@@ -9,6 +9,7 @@ longDesc = u"""
 entry(
     index = 1,
     label = "H2",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -30,6 +31,7 @@ u"""
 entry(
     index = 2,
     label = "H",
+    multiplicity = 2,
     molecule = 
 """
 1 H 1 0
@@ -50,6 +52,7 @@ u"""
 entry(
     index = 3,
     label = "O2",
+    multiplicity = 3,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -71,6 +74,7 @@ u"""
 entry(
     index = 5,
     label = "CO3s1",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,D}
@@ -94,6 +98,7 @@ u"""
 entry(
     index = 6,
     label = "CO3t1",
+    multiplicity = 3,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -117,6 +122,7 @@ u"""
 entry(
     index = 7,
     label = "CO3t2",
+    multiplicity = 3,
     molecule = 
 """
 1 C 1 0 {2,S} {3,D}
@@ -140,6 +146,7 @@ u"""
 entry(
     index = 8,
     label = "cyclopropene12diyl",
+    multiplicity = 3,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -164,6 +171,7 @@ u"""
 entry(
     index = 9,
     label = "cyclopropynylidyne",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -186,7 +194,8 @@ u"""
 
 entry(
     index = 10,
-    label = "OCCO(S)",
+    label = "OCCO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,D}
@@ -209,7 +218,8 @@ u"""
 
 entry(
     index = 11,
-    label = "OCCO",
+    label = "OCCO_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -232,14 +242,15 @@ u"""
 
 entry(
     index = 12,
-    label = "C3H2",
+    label = "C3H2_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,D} {3,S} {4,S}
-2 C 0  0 {1,D} {3,S} {5,S}
-3 C 2S 0 {1,S} {2,S}
-4 H 0  0 {1,S}
-5 H 0  0 {2,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 0 0 {1,D} {3,S} {5,S}
+3 C 2 0 {1,S} {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -256,7 +267,8 @@ u"""
 
 entry(
     index = 13,
-    label = "S2",
+    label = "S2_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 S 1 2 {2,S}
@@ -278,6 +290,7 @@ u"""
 entry(
     index = 14,
     label = "HCS",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,D} {3,S}
@@ -300,6 +313,7 @@ u"""
 entry(
     index = 15,
     label = "Ar",
+    multiplicity = 1,
     molecule = 
 """
 1 Ar 0 4
@@ -329,6 +343,7 @@ to 298K.
 entry(
     index = 16,
     label = "N2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,T}
@@ -359,6 +374,7 @@ to 298K.
 entry(
     index = 17,
     label = "He",
+    multiplicity = 1,
     molecule = 
 """
 1 He 0 1
@@ -380,10 +396,11 @@ u"""
 
 entry(
     index = 18,
-    label = "C(S)",
+    label = "C_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 4S 0
+1 C 4 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -402,10 +419,11 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 19,
-    label = "C(T)",
+    label = "C_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 4T 0
+1 C 4 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -424,12 +442,13 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 20,
-    label = "CH2(S)",
+    label = "CH2_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 2S 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -448,12 +467,13 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 21,
-    label = "CH2(T)",
+    label = "CH2_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -473,6 +493,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 22,
     label = "CH4",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -498,11 +519,12 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 23,
-    label = "NH(T)",
+    label = "NH_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -522,6 +544,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 24,
     label = "NH2(D)",
+    multiplicity = 2,
     molecule = 
 """
 1 N 1 1 {2,S} {3,S}
@@ -546,6 +569,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 25,
     label = "NH3",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -570,10 +594,11 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 26,
-    label = "O(S)",
+    label = "O_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 O 2S 2
+1 O 2 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -592,10 +617,11 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 27,
-    label = "O(T)",
+    label = "O_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 O 2T 2
+1 O 2 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -615,6 +641,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 28,
     label = "OH(D)",
+    multiplicity = 2,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -638,6 +665,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 29,
     label = "H2O",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -662,6 +690,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 30,
     label = "Cl2",
+    multiplicity = 1,
     molecule = 
 """
 1 Cl 0 3 {2,S}
@@ -688,6 +717,7 @@ Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
 entry(
     index = 31,
     label = "Cl",
+    multiplicity = 2,
     molecule = 
 """
 1 Cl 1 3
@@ -713,6 +743,7 @@ HF298=121.302+/-0.008 kJ HF0=119.633+/- 0.008 kJ  REF=JANAF  {HF298=121.302
 entry(
     index = 32,
     label = "HCl",
+    multiplicity = 1,
     molecule = 
 """
 1 Cl 0 3 {2,S}
@@ -735,5 +766,31 @@ HYDROCHLORIC ACID CALCULATED FROM ORIGINAL TABLES  REF=Gurvich 1989
 HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @ 
 6000 K 0.17%
 """,
+)
+
+entry(
+    index = 18,
+    label = "C_(V)_testestestestest_delete_immediately",
+    multiplicity = 5,
+    molecule = 
+"""
+1 C 4 0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (200.397,'kcal/mol'),
+        S298 = (33.393,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+H298: ATcT version 1.110
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
 )
 
