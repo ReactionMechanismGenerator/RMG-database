@@ -40,9 +40,9 @@ entry(
     label = "carbene;mb_db_unsub",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -80,7 +80,7 @@ entry(
     label = "o_atom;mb_db_unsub",
     group1 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     group2 = 
 """
@@ -117,7 +117,7 @@ entry(
     label = "o_atom;mb_db_monosub_Nd",
     group1 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     group2 = 
 """
@@ -154,7 +154,7 @@ entry(
     label = "o_atom;mb_db_monosub_Nd",
     group1 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     group2 = 
 """
@@ -192,7 +192,7 @@ entry(
     label = "o_atom;mb_db_monosub_Nd",
     group1 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     group2 = 
 """
@@ -232,7 +232,7 @@ entry(
     label = "o_atom;mb_db_onecdisub_Nd",
     group1 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     group2 = 
 """
@@ -272,7 +272,7 @@ entry(
     label = "o_atom;mb_db_twocdisub_Nd",
     group1 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     group2 = 
 """
@@ -311,7 +311,7 @@ entry(
     label = "o_atom;mb_db_tetrasub_Nd",
     group1 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     group2 = 
 """
@@ -351,9 +351,9 @@ entry(
     label = "carbene;mb_tb_unsub",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -388,9 +388,9 @@ entry(
     label = "carbene;mb_db_unsub",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -427,9 +427,9 @@ entry(
     label = "carbene;mb_tb_monosub_Nd",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -464,9 +464,9 @@ entry(
     label = "carbene;mb_db_monosub_Nd",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -503,9 +503,9 @@ entry(
     label = "carbene;mb_db_dbSub",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -539,9 +539,9 @@ entry(
     label = "carbene;mb_tb_disub_twoNd",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -576,9 +576,9 @@ entry(
     label = "carbene;mb_db_monosub_De",
     group1 = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
