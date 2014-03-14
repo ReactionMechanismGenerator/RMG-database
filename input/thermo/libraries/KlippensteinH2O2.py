@@ -11,6 +11,7 @@ recommended = False
 entry(
     index = 1,
     label = "H",
+    multiplicity = 2,
     molecule = 
 """
 1 H 1 0
@@ -34,6 +35,7 @@ u"""
 entry(
     index = 2,
     label = "H2",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -57,10 +59,11 @@ u"""
 
 entry(
     index = 3,
-    label = "O",
+    label = "O_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 O 2T 2
+1 O 2 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -81,6 +84,7 @@ u"""
 entry(
     index = 4,
     label = "OH",
+    multiplicity = 2,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -105,6 +109,7 @@ u"""
 entry(
     index = 5,
     label = "H2O",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -129,7 +134,8 @@ u"""
 
 entry(
     index = 6,
-    label = "O2",
+    label = "O2_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -154,6 +160,7 @@ u"""
 entry(
     index = 7,
     label = "HO2",
+    multiplicity = 2,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -179,6 +186,7 @@ u"""
 entry(
     index = 8,
     label = "H2O2",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -205,6 +213,7 @@ u"""
 entry(
     index = 9,
     label = "CO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 1 {2,T}
@@ -229,6 +238,7 @@ u"""
 entry(
     index = 10,
     label = "CO2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,D}
