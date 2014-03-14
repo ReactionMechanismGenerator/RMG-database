@@ -9,6 +9,7 @@ longDesc = u"""
 entry(
     index = 1,
     label = "NO2",
+    multiplicity = 2,
     molecule = 
 """
 1 N 1 0 {2,D} {3,S}
@@ -30,10 +31,11 @@ u"""
 
 entry(
     index = 2,
-    label = "O",
+    label = "O_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 O 2T 2
+1 O 2 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50,10 +52,11 @@ u"""
 
 entry(
     index = 3,
-    label = "C(T)",
+    label = "C_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 4T 0
+1 C 4 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -71,6 +74,7 @@ u"""
 entry(
     index = 4,
     label = "HO2",
+    multiplicity = 2,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -93,6 +97,7 @@ u"""
 entry(
     index = 5,
     label = "NH2",
+    multiplicity = 2,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -115,6 +120,7 @@ u"""
 entry(
     index = 6,
     label = "NH3",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -138,6 +144,7 @@ u"""
 entry(
     index = 7,
     label = "NO",
+    multiplicity = 2,
     molecule = 
 """
 1 N 1 1 {2,D}
@@ -159,6 +166,7 @@ u"""
 entry(
     index = 8,
     label = "HNO",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -181,6 +189,7 @@ u"""
 entry(
     index = 9,
     label = "HONO",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
