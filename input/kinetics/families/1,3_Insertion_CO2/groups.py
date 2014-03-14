@@ -55,6 +55,7 @@ u"""
 entry(
     index = 3,
     label = "CO2_Od",
+    multiplicity = [1],
     group = 
 """
 1 *2 Cdd 0 {2,D} {3,D}
@@ -77,6 +78,7 @@ u"""
 entry(
     index = 4,
     label = "CO2_Cdd",
+    multiplicity = [1],
     group = 
 """
 1 *1 Cdd 0 {2,D} {3,D}
