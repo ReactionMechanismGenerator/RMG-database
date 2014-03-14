@@ -93,12 +93,12 @@ JDM 31-Mar-2010
 
 entry(
     index = 488,
-    label = "CH2_triplet;Cmethyl_Csrad",
+    label = "CH2_(T);Cmethyl_Csrad",
     group1 = 
 """
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -766,12 +766,12 @@ JDM 31-Mar-2010
 
 entry(
     index = 502,
-    label = "CH2_triplet;C/H2/Nd_Csrad",
+    label = "CH2_(T);C/H2/Nd_Csrad",
     group1 = 
 """
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -2392,10 +2392,10 @@ JDM 31-Mar-2010
 
 entry(
     index = 536,
-    label = "O_atom_triplet;O_Csrad",
+    label = "O_(T);O_Csrad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -2436,12 +2436,12 @@ MRH 1-Sept-2009
 
 entry(
     index = 537,
-    label = "CH2_triplet;O_Csrad",
+    label = "CH2_(T);O_Csrad",
     group1 = 
 """
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -3501,10 +3501,10 @@ Added by Beat Buesser, value for reaction: NNH + OH = N2 + H2O (B&D #28d2) in 'G
 
 entry(
     index = 604,
-    label = "O_atom_triplet;N3d/H_d_Nrad",
+    label = "O_(T);N3d/H_d_Nrad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -3676,10 +3676,10 @@ Added by Beat Buesser, value for reaction: H2NN + H = NNH + H2 (B&D #30c2) in 'G
 
 entry(
     index = 609,
-    label = "O_atom_triplet;N3s/H2_s_Nbirad",
+    label = "O_(T);N3s/H2_s_Nbirad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -3893,10 +3893,10 @@ Added by Beat Buesser, value for reaction: N2H3 + H = N2H2 + H2 (B&D #31b) in 'G
 
 entry(
     index = 615,
-    label = "O_atom_triplet;N3s/H2_s_Nrad",
+    label = "O_(T);N3s/H2_s_Nrad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -4146,10 +4146,10 @@ Added by Beat Buesser, value for reaction: NH2O + H = HNO + H2 (B&D #37c2) in 'G
 
 entry(
     index = 622,
-    label = "O_atom_triplet;N3s/H2_s_Orad",
+    label = "O_(T);N3s/H2_s_Orad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -4397,10 +4397,10 @@ Added by Beat Buesser, value for reaction: HNOH + H = HNO + H2 (B&D #38b2) in 'G
 
 entry(
     index = 629,
-    label = "O_atom_triplet;O_Nrad",
+    label = "O_(T);O_Nrad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -4827,10 +4827,10 @@ Added by Beat Buesser, value for reaction: H2CN + NH2 = HCN + NH3 (B&D #45h) in 
 
 entry(
     index = 641,
-    label = "O_atom_triplet;Cds/H2_d_N3rad",
+    label = "O_(T);Cds/H2_d_N3rad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -4896,10 +4896,10 @@ Added by Beat Buesser, value for reaction: HCNH + H = HCN + H2 (B&D #46a2) in 'G
 
 entry(
     index = 643,
-    label = "O_atom_triplet;N3d/H_d_Crad",
+    label = "O_(T);N3d/H_d_Crad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -5038,10 +5038,10 @@ Added by Beat Buesser, value for reaction: CH3NH + H = H2CNH + H2 (B&D #49b) in 
 
 entry(
     index = 647,
-    label = "O_atom_triplet;Cmethyl_Nrad",
+    label = "O_(T);Cmethyl_Nrad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
@@ -5185,10 +5185,10 @@ Added by Beat Buesser, value for reaction: CH2NH2 + H = H2CNH + H2 (B&D #50b) in
 
 entry(
     index = 651,
-    label = "O_atom_triplet;N3s/H2_s_Cssrad",
+    label = "O_(T);N3s/H2_s_Cssrad",
     group1 = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     group2 = 
 """
