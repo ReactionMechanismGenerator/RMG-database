@@ -12,6 +12,7 @@ recommended = True
 entry(
     index = 1,
     label = "H2",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -38,7 +39,8 @@ u"""
 
 entry(
     index = 2,
-    label = "O2",
+    label = "O2_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -66,6 +68,7 @@ u"""
 entry(
     index = 3,
     label = "H2O",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -94,6 +97,7 @@ u"""
 entry(
     index = 4,
     label = "H2O2",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -123,6 +127,7 @@ u"""
 entry(
     index = 5,
     label = "CO2",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,D}
@@ -151,6 +156,7 @@ u"""
 entry(
     index = 6,
     label = "CO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 1 {2,T}
@@ -178,6 +184,7 @@ u"""
 entry(
     index = 7,
     label = "H2S",
+    multiplicity = 1,
     molecule = 
 """
 1 S 0 2 {2,S} {3,S}
@@ -206,6 +213,7 @@ u"""
 entry(
     index = 8,
     label = "N2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,T}
@@ -232,9 +240,10 @@ u"""
 entry(
     index = 9,
     label = "C(S)",
+    multiplicity = 1,
     molecule =
 """
-1 C 4S 0
+1 C 4 0
 """,
     transport = TransportData(
         shapeIndex = 0,
@@ -257,10 +266,11 @@ u"""
 entry(
     index = 10,
     label = "NH(S)",
+    multiplicity = 1,
     molecule =
 """
-1 N 2S 1 {2,S}
-2 H 0  0 {1,S}
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -283,9 +293,10 @@ u"""
 entry(
     index = 11,
     label = "N(D)",
+    multiplicity = 2,
     molecule =
 """
-1 N 3D 1
+1 N 3 1
 """,
     transport = TransportData(
         shapeIndex = 0,
