@@ -20,10 +20,11 @@ recipe(actions=[
 entry(
     index = 1,
     label = "CSm",
+    multiplicity = [1,3],
     group = 
 """
-1 *1 C {2S,2T} {2,D}
-2    S 0       {1,D}
+1 *1 C 2 {2,D}
+2    S 0 {1,D}
 """,
     kinetics = None,
     reference = None,
