@@ -65,10 +65,11 @@ u"""
 
 entry(
     index = 4,
-    label = "O_atom_triplet",
+    label = "O_(T)",
+    multiplicity = [3],
     group = 
 """
-1 *1 O 2T
+1 *1 O 2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -80,12 +81,13 @@ u"""
 
 entry(
     index = 5,
-    label = "CH2_triplet",
+    label = "CH2_(T)",
+    multiplicity = [3],
     group = 
 """
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -2066,7 +2068,7 @@ u"""
 entry(
     index = 200,
     label = "Y_1centertrirad",
-    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
+    group = "OR{N_(Q), N_(D), CH_(Q), CH_(D)}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -2153,11 +2155,12 @@ u"""
 
 entry(
     index = 207,
-    label = "NH_triplet",
+    label = "NH_(T)",
+    multiplicity = [3],
     group = 
 """
-1 *1 N3s 2T {2,S}
-2    H   0  {1,S}
+1 *1 N3s 2 {2,S}
+2    H   0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3534,10 +3537,11 @@ u"""
 
 entry(
     index = 288,
-    label = "C_quintet",
+    label = "C_(V)",
+    multiplicity = [5],
     group = 
 """
-1 *1 C 4V
+1 *1 C 4
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3549,10 +3553,11 @@ u"""
 
 entry(
     index = 289,
-    label = "C_triplet",
+    label = "C_(T)",
+    multiplicity = [3],
     group = 
 """
-1 *1 C 4T
+1 *1 C 4
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3564,10 +3569,11 @@ u"""
 
 entry(
     index = 290,
-    label = "C_singlet",
+    label = "C_(S)",
+    multiplicity = [1],
     group = 
 """
-1 *1 C 4S
+1 *1 C 4
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3579,10 +3585,11 @@ u"""
 
 entry(
     index = 291,
-    label = "N_atom_quartet",
+    label = "N_(Q)",
+    multiplicity = [4],
     group = 
 """
-1 *1 N 3Q
+1 *1 N 3
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3594,10 +3601,11 @@ u"""
 
 entry(
     index = 292,
-    label = "N_atom_doublet",
+    label = "N_(D)",
+    multiplicity = [2],
     group = 
 """
-1 *1 N 3D
+1 *1 N 3
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3609,11 +3617,12 @@ u"""
 
 entry(
     index = 293,
-    label = "CH_quartet",
+    label = "CH_(Q)",
+    multiplicity = [4],
     group = 
 """
-1 *1 C 3Q {2,S}
-2    H 0  {1,S}
+1 *1 C 3 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3625,11 +3634,12 @@ u"""
 
 entry(
     index = 294,
-    label = "CH_doublet",
+    label = "CH_(D)",
+    multiplicity = [2],
     group = 
 """
-1 *1 C 3D {2,S}
-2    H 0  {1,S}
+1 *1 C 3 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3641,10 +3651,11 @@ u"""
 
 entry(
     index = 295,
-    label = "O_atom_singlet",
+    label = "O_(S)",
+    multiplicity = [1],
     group = 
 """
-1 *1 O 2S
+1 *1 O 2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3656,12 +3667,13 @@ u"""
 
 entry(
     index = 296,
-    label = "CH2_singlet",
+    label = "CH2_(S)",
+    multiplicity = [1],
     group = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3673,11 +3685,12 @@ u"""
 
 entry(
     index = 297,
-    label = "NH_singlet",
+    label = "NH_(S)",
+    multiplicity = [1],
     group = 
 """
-1 *1 N 2S {2,S}
-2    H 0  {1,S}
+1 *1 N 2 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3690,7 +3703,7 @@ u"""
 entry(
     index = 298,
     label = "Y_1centerquadrad",
-    group = "OR{C_quintet, C_triplet, C_singlet}",
+    group = "OR{C_(V), C_(T), C_(S)}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -3703,25 +3716,25 @@ tree(
 """
 L1: Y_rad_birad_trirad_quadrad
     L2: Y_1centerquadrad
-        L3: C_quintet
-        L3: C_triplet
-        L3: C_singlet
+        L3: C_(V)
+        L3: C_(T)
+        L3: C_(S)
     L2: Y_1centertrirad
-        L3: N_atom_quartet
-        L3: N_atom_doublet
-        L3: CH_quartet
-        L3: CH_doublet
+        L3: N_(Q)
+        L3: N_(D)
+        L3: CH_(Q)
+        L3: CH_(D)
     L2: Y_2centerbirad    
         L3: O2b
         L3: C2b
     L2: Y_1centerbirad
         L3: CO_birad
-        L3: O_atom_triplet
-        L3: O_atom_singlet
-        L3: CH2_triplet
-        L3: CH2_singlet
-        L3: NH_triplet
-        L3: NH_singlet
+        L3: O_(T)
+        L3: O_(S)
+        L3: CH2_(T)
+        L3: CH2_(S)
+        L3: NH_(T)
+        L3: NH_(S)
     L2: H_rad
     L2: Y_rad
         L3: Ct_rad
