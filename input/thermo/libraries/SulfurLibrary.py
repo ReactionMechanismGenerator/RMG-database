@@ -11,6 +11,7 @@ recommended = False
 entry(
     index = 1,
     label = "CS2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,D}
@@ -36,6 +37,7 @@ u"""
 entry(
     index = 2,
     label = "CH2CS",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -63,6 +65,7 @@ u"""
 entry(
     index = 3,
     label = "H2S",
+    multiplicity = 1,
     molecule = 
 """
 1 S 0 2 {2,S} {3,S}
@@ -88,6 +91,7 @@ u"""
 entry(
     index = 4,
     label = "H2S2",
+    multiplicity = 1,
     molecule = 
 """
 1 S 0 2 {2,S} {3,S}
@@ -114,6 +118,7 @@ u"""
 entry(
     index = 5,
     label = "H2S3",
+    multiplicity = 1,
     molecule = 
 """
 1 S 0 2 {2,S} {3,S}
@@ -141,6 +146,7 @@ u"""
 entry(
     index = 6,
     label = "CH3SH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -169,6 +175,7 @@ u"""
 entry(
     index = 7,
     label = "CH3SCH3",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -200,6 +207,7 @@ u"""
 entry(
     index = 8,
     label = "C2H3SC2H3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,D} {5,S} {6,S}
@@ -233,6 +241,7 @@ u"""
 entry(
     index = 9,
     label = "C2H3SC2H",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {6,S}
@@ -264,6 +273,7 @@ u"""
 entry(
     index = 10,
     label = "C2H3SH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -293,6 +303,7 @@ u"""
 entry(
     index = 11,
     label = "CH3SC2H3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {4,S} {5,S} {6,S} {7,S}
@@ -325,6 +336,7 @@ u"""
 entry(
     index = 12,
     label = "CH3SC2H",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -355,6 +367,7 @@ u"""
 entry(
     index = 13,
     label = "HCSSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -382,6 +395,7 @@ u"""
 entry(
     index = 14,
     label = "HCSSCH3",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -412,6 +426,7 @@ u"""
 entry(
     index = 15,
     label = "HCSSC2H3",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {5,S}
@@ -443,6 +458,7 @@ u"""
 entry(
     index = 16,
     label = "HCSSC2H",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {6,S}
@@ -472,6 +488,7 @@ u"""
 entry(
     index = 17,
     label = "HCSSCSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {6,S}
@@ -501,6 +518,7 @@ u"""
 entry(
     index = 18,
     label = "HCSSSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -529,6 +547,7 @@ u"""
 entry(
     index = 19,
     label = "C2H5SH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -560,6 +579,7 @@ u"""
 entry(
     index = 20,
     label = "allylthiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -592,6 +612,7 @@ u"""
 entry(
     index = 21,
     label = "prop2yne1thiol",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -622,6 +643,7 @@ u"""
 entry(
     index = 22,
     label = "SHCH2SH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -651,6 +673,7 @@ u"""
 entry(
     index = 23,
     label = "HCSCH2SH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -681,6 +704,7 @@ u"""
 entry(
     index = 24,
     label = "propane2thiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -715,6 +739,7 @@ u"""
 entry(
     index = 25,
     label = "but1ene3thiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -750,6 +775,7 @@ u"""
 entry(
     index = 26,
     label = "but1yne3thiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -783,6 +809,7 @@ u"""
 entry(
     index = 27,
     label = "ethane11dithiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -815,6 +842,7 @@ u"""
 entry(
     index = 28,
     label = "HCSCHCH3SH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -848,6 +876,7 @@ u"""
 entry(
     index = 29,
     label = "t_butanethiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -885,6 +914,7 @@ u"""
 entry(
     index = 30,
     label = "CH3CHS",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -914,6 +944,7 @@ u"""
 entry(
     index = 31,
     label = "HCSC2H5",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -946,6 +977,7 @@ u"""
 entry(
     index = 32,
     label = "propanethial2methyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -981,6 +1013,7 @@ u"""
 entry(
     index = 33,
     label = "propanethial22dimethyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1019,6 +1052,7 @@ u"""
 entry(
     index = 34,
     label = "propene2thiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -1051,6 +1085,7 @@ u"""
 entry(
     index = 35,
     label = "propenethial",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1081,6 +1116,7 @@ u"""
 entry(
     index = 36,
     label = "propynethial",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {5,S}
@@ -1109,6 +1145,7 @@ u"""
 entry(
     index = 37,
     label = "ethanedithial",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {5,S}
@@ -1137,6 +1174,7 @@ u"""
 entry(
     index = 38,
     label = "propane2thione",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -1169,6 +1207,7 @@ u"""
 entry(
     index = 39,
     label = "but3ene2thione",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -1202,6 +1241,7 @@ u"""
 entry(
     index = 40,
     label = "but3yne2thione",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -1233,6 +1273,7 @@ u"""
 entry(
     index = 41,
     label = "HCSCSCH3",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -1264,6 +1305,7 @@ u"""
 entry(
     index = 42,
     label = "C2HSC2H",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {6,S}
@@ -1293,6 +1335,7 @@ u"""
 entry(
     index = 43,
     label = "C2HSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -1320,6 +1363,7 @@ u"""
 entry(
     index = 44,
     label = "C2H3SSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {5,S}
@@ -1350,6 +1394,7 @@ u"""
 entry(
     index = 45,
     label = "CH3SSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -1379,6 +1424,7 @@ u"""
 entry(
     index = 46,
     label = "C2HSSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,T}
@@ -1407,6 +1453,7 @@ u"""
 entry(
     index = 47,
     label = "CH3SC2H5",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -1441,6 +1488,7 @@ u"""
 entry(
     index = 48,
     label = "isopropyl_methyl_sulfide",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -1478,6 +1526,7 @@ u"""
 entry(
     index = 49,
     label = "tertbutyl_methyl_sulfide",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {7,S} {8,S} {9,S}
@@ -1518,6 +1567,7 @@ u"""
 entry(
     index = 50,
     label = "allyl_methyl_sulfide",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -1553,6 +1603,7 @@ u"""
 entry(
     index = 51,
     label = "but1ene3thiomethyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
@@ -1591,6 +1642,7 @@ u"""
 entry(
     index = 52,
     label = "methyl_propargyl_sulfide",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
@@ -1624,6 +1676,7 @@ u"""
 entry(
     index = 53,
     label = "but1yne3thiomethyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {7,S}
@@ -1660,6 +1713,7 @@ u"""
 entry(
     index = 54,
     label = "propene2thiomethyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {6,S} {7,S} {8,S}
@@ -1695,6 +1749,7 @@ u"""
 entry(
     index = 55,
     label = "CH3SSCH3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -1727,6 +1782,7 @@ u"""
 entry(
     index = 56,
     label = "CH3SSC2H3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {4,S} {6,S} {7,S} {8,S}
@@ -1760,6 +1816,7 @@ u"""
 entry(
     index = 57,
     label = "CH3SSC2H",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {6,S} {7,S} {8,S}
@@ -1791,6 +1848,7 @@ u"""
 entry(
     index = 58,
     label = "CH3SSSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -1821,6 +1879,7 @@ u"""
 entry(
     index = 59,
     label = "CH3SSSCH3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {6,S} {7,S} {8,S}
@@ -1854,6 +1913,7 @@ u"""
 entry(
     index = 60,
     label = "CH2S",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1880,6 +1940,7 @@ u"""
 entry(
     index = 61,
     label = "CH3CSSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -1910,6 +1971,7 @@ u"""
 entry(
     index = 62,
     label = "C2H3SC2H5",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -1945,6 +2007,7 @@ u"""
 entry(
     index = 63,
     label = "pent1ene3thia4methyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -1983,6 +2046,7 @@ u"""
 entry(
     index = 64,
     label = "pent1ene3thia24dimethyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,D} {8,S} {9,S}
@@ -2024,6 +2088,7 @@ u"""
 entry(
     index = 65,
     label = "C2H3SC2CH3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {4,S} {7,S} {8,S} {9,S}
@@ -2058,6 +2123,7 @@ u"""
 entry(
     index = 66,
     label = "CH3SC2SH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {6,S} {7,S} {8,S}
@@ -2089,6 +2155,7 @@ u"""
 entry(
     index = 67,
     label = "penta14diene3thia24dimethyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {8,S} {9,S} {10,S}
@@ -2128,6 +2195,7 @@ u"""
 entry(
     index = 68,
     label = "HCSSC2H2SCH3",
+    multiplicity = 1,
     molecule = 
 """
 1  S 0 2 {2,D}
@@ -2163,6 +2231,7 @@ u"""
 entry(
     index = 69,
     label = "HCSSC2H5",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -2196,6 +2265,7 @@ u"""
 entry(
     index = 70,
     label = "CH3CSSC2H5",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {7,S} {8,S} {9,S}
@@ -2232,6 +2302,7 @@ u"""
 entry(
     index = 71,
     label = "SHCSC2H5",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -2265,6 +2336,7 @@ u"""
 entry(
     index = 72,
     label = "pent1ene4methyl3thione",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -2304,6 +2376,7 @@ u"""
 entry(
     index = 73,
     label = "but-3-ene-2-thione-3-methyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {6,S} {7,S} {8,S}
@@ -2340,6 +2413,7 @@ u"""
 entry(
     index = 74,
     label = "prop-2-enethial-2-methyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -2373,6 +2447,7 @@ u"""
 entry(
     index = 75,
     label = "pent-1-yne-3-thione",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -2407,6 +2482,7 @@ u"""
 entry(
     index = 76,
     label = "C2HSSCSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {7,S}
@@ -2437,6 +2513,7 @@ u"""
 entry(
     index = 77,
     label = "butane-23-dithione",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,D}
@@ -2471,6 +2548,7 @@ u"""
 entry(
     index = 78,
     label = "tertbutyl_hydrodisulfide",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2509,6 +2587,7 @@ u"""
 entry(
     index = 79,
     label = "methanetrithiol",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2539,6 +2618,7 @@ u"""
 entry(
     index = 80,
     label = "ethane-111-trithiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2572,6 +2652,7 @@ u"""
 entry(
     index = 81,
     label = "propane-22-dithiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2607,6 +2688,7 @@ u"""
 entry(
     index = 82,
     label = "butane-22-dithiol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -2645,6 +2727,7 @@ u"""
 entry(
     index = 83,
     label = "ethane-11-dithiol-1thiomethyl",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2681,6 +2764,7 @@ u"""
 entry(
     index = 84,
     label = "mercapto_rad",
+    multiplicity = 2,
     molecule = 
 """
 1 S 1 2 {2,S}
@@ -2705,6 +2789,7 @@ u"""
 entry(
     index = 85,
     label = "CH3Sj",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2732,6 +2817,7 @@ u"""
 entry(
     index = 86,
     label = "C2H3Sj",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -2760,6 +2846,7 @@ u"""
 entry(
     index = 87,
     label = "C2HSj",
+    multiplicity = 2,
     molecule = 
 """
 1 S 1 2 {2,S}
@@ -2786,6 +2873,7 @@ u"""
 entry(
     index = 88,
     label = "HCSSj",
+    multiplicity = 2,
     molecule = 
 """
 1 S 1 2 {2,S}
@@ -2812,6 +2900,7 @@ u"""
 entry(
     index = 89,
     label = "SHSj",
+    multiplicity = 2,
     molecule = 
 """
 1 S 1 2 {2,S}
@@ -2837,6 +2926,7 @@ u"""
 entry(
     index = 90,
     label = "CH3SSj",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2865,6 +2955,7 @@ u"""
 entry(
     index = 91,
     label = "SHSSj",
+    multiplicity = 2,
     molecule = 
 """
 1 S 1 2 {2,S}
@@ -2891,6 +2982,7 @@ u"""
 entry(
     index = 92,
     label = "CH2jSH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -2918,6 +3010,7 @@ u"""
 entry(
     index = 93,
     label = "CH3CHjSH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -2948,6 +3041,7 @@ u"""
 entry(
     index = 94,
     label = "C2H3CHjSH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {5,S}
@@ -2979,6 +3073,7 @@ u"""
 entry(
     index = 95,
     label = "C2HCHjSH",
+    multiplicity = 2,
     molecule = 
 """
 1 S 0 2 {2,S} {5,S}
@@ -3008,6 +3103,7 @@ u"""
 entry(
     index = 96,
     label = "HCSCHjSH",
+    multiplicity = 2,
     molecule = 
 """
 1 S 0 2 {2,S} {5,S}
@@ -3037,6 +3133,7 @@ u"""
 entry(
     index = 97,
     label = "SHCHjSH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -3065,6 +3162,7 @@ u"""
 entry(
     index = 98,
     label = "isopropyl-2-thiol",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -3098,6 +3196,7 @@ u"""
 entry(
     index = 99,
     label = "but-1-en-3-yl-3-thiol",
+    multiplicity = 2,
     molecule = 
 """
 1  C 1 0 {2,S} {3,S} {4,S}
@@ -3132,6 +3231,7 @@ u"""
 entry(
     index = 100,
     label = "but-1-yn-3-yl-3-thiol",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {6,S} {7,S} {8,S}
@@ -3164,6 +3264,7 @@ u"""
 entry(
     index = 101,
     label = "propanethial-2-yl-2-thiol",
+    multiplicity = 2,
     molecule = 
 """
 1  C 1 0 {2,S} {3,S} {4,S}
@@ -3196,6 +3297,7 @@ u"""
 entry(
     index = 102,
     label = "ethanyl-11-dithiol",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -3227,6 +3329,7 @@ u"""
 entry(
     index = 103,
     label = "ethenyl-1-thiol",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {4,S} {5,S}
@@ -3255,6 +3358,7 @@ u"""
 entry(
     index = 104,
     label = "thioacetyl",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3283,9 +3387,10 @@ u"""
 entry(
     index = 105,
     label = "Sjj",
+    multiplicity = 1,
     molecule = 
 """
-1 S 2S 2
+1 S 2 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3306,6 +3411,7 @@ u"""
 entry(
     index = 106,
     label = "ethylthio",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3336,6 +3442,7 @@ u"""
 entry(
     index = 107,
     label = "propyl-2-thio",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3369,6 +3476,7 @@ u"""
 entry(
     index = 108,
     label = "tert-butylthio",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3405,6 +3513,7 @@ u"""
 entry(
     index = 109,
     label = "CH3SCH2Sj",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -3436,6 +3545,7 @@ u"""
 entry(
     index = 110,
     label = "C2H3CH2Sj",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3467,6 +3577,7 @@ u"""
 entry(
     index = 111,
     label = "C2H3C2H2Sj",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,D} {5,S}
@@ -3499,6 +3610,7 @@ u"""
 entry(
     index = 112,
     label = "propen-2-thio",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3530,6 +3642,7 @@ u"""
 entry(
     index = 113,
     label = "propen-1-thio",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3561,6 +3674,7 @@ u"""
 entry(
     index = 114,
     label = "CH3SSSj",
+    multiplicity = 2,
     molecule = 
 """
 1 S 1 2 {2,S}
@@ -3590,6 +3704,7 @@ u"""
 entry(
     index = 115,
     label = "CH3SCH2j",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -3620,6 +3735,7 @@ u"""
 entry(
     index = 116,
     label = "CH3SSCH2j",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -3651,6 +3767,7 @@ u"""
 entry(
     index = 117,
     label = "SHCH2SCH2j",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -3682,6 +3799,7 @@ u"""
 entry(
     index = 118,
     label = "CH3SCHjCH3",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -3715,6 +3833,7 @@ u"""
 entry(
     index = 119,
     label = "C2H5SCHjCH3",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -3751,6 +3870,7 @@ u"""
 entry(
     index = 120,
     label = "pentan-2-yl-2-methyl-3-thia",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {7,S} {8,S} {9,S}
@@ -3790,6 +3910,7 @@ u"""
 entry(
     index = 121,
     label = "hex-2-yn-4-yl-4-methyl-5-thia",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {8,S} {9,S} {10,S}
@@ -3828,6 +3949,7 @@ u"""
 entry(
     index = 122,
     label = "propan-1-yl-1-thione",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3859,10 +3981,11 @@ u"""
 entry(
     index = 123,
     label = "CS",
+    multiplicity = 1,
     molecule = 
 """
-1 C 2S 0 {2,D}
-2 S 0  2 {1,D}
+1 C 2 0 {2,D}
+2 S 0 2 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3883,6 +4006,7 @@ u"""
 entry(
     index = 124,
     label = "C2H5SC2H5",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -3920,6 +4044,7 @@ u"""
 entry(
     index = 125,
     label = "CH2JCH2SC2H5",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -3956,6 +4081,7 @@ u"""
 entry(
     index = 127,
     label = "CH2OHSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3985,6 +4111,7 @@ u"""
 entry(
     index = 128,
     label = "CHCH3OHSH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4017,6 +4144,7 @@ u"""
 entry(
     index = 129,
     label = "CH2OHSJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4045,6 +4173,7 @@ u"""
 entry(
     index = 130,
     label = "CHCH3OHSJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -4076,6 +4205,7 @@ u"""
 entry(
     index = 131,
     label = "CHOHS",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {4,S}
@@ -4103,6 +4233,7 @@ u"""
 entry(
     index = 132,
     label = "CHOSH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {4,S}
@@ -4130,6 +4261,7 @@ u"""
 entry(
     index = 133,
     label = "CHOSJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -4156,6 +4288,7 @@ u"""
 entry(
     index = 134,
     label = "COS",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,D}
@@ -4181,6 +4314,7 @@ u"""
 entry(
     index = 135,
     label = "thiophene",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {6,S}
@@ -4212,6 +4346,7 @@ u"""
 entry(
     index = 136,
     label = "DHTP-2-ol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,D} {5,S} {6,S}
@@ -4244,6 +4379,7 @@ u"""
 entry(
     index = 137,
     label = "DHTP-3-ol",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,D} {6,S}
@@ -4276,6 +4412,7 @@ u"""
 entry(
     index = 138,
     label = "benzaldehyde",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,B} {6,B} {9,S}
@@ -4312,6 +4449,7 @@ u"""
 entry(
     index = 139,
     label = "benzenethial",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,B} {6,B} {9,S}
@@ -4348,6 +4486,7 @@ u"""
 entry(
     index = 140,
     label = "PhCHOHSH",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,B} {6,B} {10,S}
@@ -4387,6 +4526,7 @@ u"""
 entry(
     index = 141,
     label = "cyc-C6H10",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,D} {6,S} {7,S}
@@ -4425,6 +4565,7 @@ u"""
 entry(
     index = 142,
     label = "cyc-C6H9J-3",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
@@ -4462,6 +4603,7 @@ u"""
 entry(
     index = 143,
     label = "cyc-C6H9J-4",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {7,S} {8,S}
@@ -4499,6 +4641,7 @@ u"""
 entry(
     index = 144,
     label = "cyc-C6H8",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,D} {6,S} {7,S}
@@ -4535,6 +4678,7 @@ u"""
 entry(
     index = 145,
     label = "cyc-C6H7J",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,D} {6,S} {7,S}
@@ -4570,6 +4714,7 @@ u"""
 entry(
     index = 146,
     label = "benzene",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,B} {6,B} {7,S}
@@ -4604,6 +4749,7 @@ u"""
 entry(
     index = 147,
     label = "toluene",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,B} {6,B} {8,S}
@@ -4641,6 +4787,7 @@ u"""
 entry(
     index = 148,
     label = "benzyl",
+    multiplicity = 2,
     molecule = 
 """
 1  C 0 0 {2,B} {6,B} {8,S}
