@@ -11,8 +11,18 @@ recommended = False
 entry(
     index = 0,
     label = "Radical",
-    group = "OR{RJ, RJ2, RJ3}",
-    thermo = u'RJ',
+    multiplicity = [1,2,3,4,5],
+#    group = "OR{RJ, RJ2, RJ3}",
+    group = 
+"""
+1 * R {1,2,3,4}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -6238,9 +6248,10 @@ u"""
 entry(
     index = 106,
     label = "RJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * R {2S,2T}
+1 * R 2
 """,
     thermo = u'CJ2',
     shortDesc = u"""""",
@@ -6256,9 +6267,10 @@ u"""
 entry(
     index = 107,
     label = "CJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * C {2S,2T}
+1 * C 2
 """,
     thermo = u'CsJ2',
     shortDesc = u"""""",
@@ -6274,9 +6286,10 @@ u"""
 entry(
     index = 108,
     label = "CsJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * Cs {2S,2T}
+1 * Cs 2
 """,
     thermo = u'CH2',
     shortDesc = u"""""",
@@ -6292,11 +6305,12 @@ u"""
 entry(
     index = 109,
     label = "CH2",
+    multiplicity = [1,3],
     group = 
 """
-1 * C {2S,2T} {2,S} {3,S}
-2   H 0       {1,S}
-3   H 0       {1,S}
+1 * C 2 {2,S} {3,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
 """,
     thermo = u'CH2_t',
     shortDesc = u"""""",
@@ -6312,11 +6326,12 @@ u"""
 entry(
     index = 110,
     label = "CH2_t",
+    multiplicity = [3],
     group = 
 """
-1 * C 2T {2,S} {3,S}
-2   H 0  {1,S}
-3   H 0  {1,S}
+1 * C 2 {2,S} {3,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6337,11 +6352,12 @@ u"""
 entry(
     index = 111,
     label = "CH2_s",
+    multiplicity = [1],
     group = 
 """
-1 * C 2S {2,S} {3,S}
-2   H 0  {1,S}
-3   H 0  {1,S}
+1 * C 2 {2,S} {3,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6362,11 +6378,12 @@ u"""
 entry(
     index = 112,
     label = "CsJ2_P",
+    multiplicity = [1,3],
     group = 
 """
-1 * C {2S,2T} {2,S} {3,S}
-2   C 0       {1,S}
-3   H 0       {1,S}
+1 * C 2 {2,S} {3,S}
+2   C 0 {1,S}
+3   H 0 {1,S}
 """,
     thermo = u'CsCsJ2',
     shortDesc = u"""""",
@@ -6382,11 +6399,12 @@ u"""
 entry(
     index = 113,
     label = "CsCsJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * C  {2S,2T} {2,S} {3,S}
-2   Cs 0       {1,S}
-3   H  0       {1,S}
+1 * C  2 {2,S} {3,S}
+2   Cs 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = u'CCJ2',
     shortDesc = u"""""",
@@ -6402,14 +6420,15 @@ u"""
 entry(
     index = 114,
     label = "CCJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * C  {2S,2T} {2,S} {3,S}
-2   Cs 0       {1,S} {4,S} {5,S} {6,S}
-3   H  0       {1,S}
-4   H  0       {2,S}
-5   H  0       {2,S}
-6   H  0       {2,S}
+1 * C  2 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   H  0 {1,S}
+4   H  0 {2,S}
+5   H  0 {2,S}
+6   H  0 {2,S}
 """,
     thermo = u'CCJ2_t',
     shortDesc = u"""""",
@@ -6425,14 +6444,15 @@ u"""
 entry(
     index = 115,
     label = "CCJ2_t",
+    multiplicity = [3],
     group = 
 """
-1 * C  2T {2,S} {3,S}
-2   Cs 0  {1,S} {4,S} {5,S} {6,S}
-3   H  0  {1,S}
-4   H  0  {2,S}
-5   H  0  {2,S}
-6   H  0  {2,S}
+1 * C  2 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   H  0 {1,S}
+4   H  0 {2,S}
+5   H  0 {2,S}
+6   H  0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6453,14 +6473,15 @@ u"""
 entry(
     index = 116,
     label = "CCJ2_s",
+    multiplicity = [1],
     group = 
 """
-1 * C  2S {2,S} {3,S}
-2   Cs 0  {1,S} {4,S} {5,S} {6,S}
-3   H  0  {1,S}
-4   H  0  {2,S}
-5   H  0  {2,S}
-6   H  0  {2,S}
+1 * C  2 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   H  0 {1,S}
+4   H  0 {2,S}
+5   H  0 {2,S}
+6   H  0 {2,S}
 """,
     thermo = u'CCJ2_t',
     shortDesc = u"""""",
@@ -6476,11 +6497,12 @@ u"""
 entry(
     index = 117,
     label = "PhCH",
+    multiplicity = [1,3],
     group = 
 """
-1 * C  {2S,2T} {2,S} {3,S}
-2   Cb 0       {1,S}
-3   H  0       {1,S}
+1 * C  2 {2,S} {3,S}
+2   Cb 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = u'PhCH_t',
     shortDesc = u"""""",
@@ -6496,11 +6518,12 @@ u"""
 entry(
     index = 118,
     label = "PhCH_t",
+    multiplicity = [3],
     group = 
 """
-1 * C  2T {2,S} {3,S}
-2   Cb 0  {1,S}
-3   H  0  {1,S}
+1 * C  2 {2,S} {3,S}
+2   Cb 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6521,11 +6544,12 @@ u"""
 entry(
     index = 119,
     label = "PhCH_s",
+    multiplicity = [1],
     group = 
 """
-1 * C  2S {2,S} {3,S}
-2   Cb 0  {1,S}
-3   H  0  {1,S}
+1 * C  2 {2,S} {3,S}
+2   Cb 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6546,11 +6570,12 @@ u"""
 entry(
     index = 120,
     label = "AllylJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * C  {2S,2T} {2,S} {3,S}
-2   Cd 0       {1,S}
-3   H  0       {1,S}
+1 * C  2 {2,S} {3,S}
+2   Cd 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = u'AllylJ2_t',
     shortDesc = u"""""",
@@ -6566,11 +6591,12 @@ u"""
 entry(
     index = 121,
     label = "AllylJ2_t",
+    multiplicity = [3],
     group = 
 """
-1 * C  2T {2,S} {3,S}
-2   Cd 0  {1,S}
-3   H  0  {1,S}
+1 * C  2 {2,S} {3,S}
+2   Cd 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6591,11 +6617,12 @@ u"""
 entry(
     index = 122,
     label = "AllylJ2_s",
+    multiplicity = [1],
     group = 
 """
-1 * C  2S {2,S} {3,S}
-2   Cd 0  {1,S}
-3   H  0  {1,S}
+1 * C  2 {2,S} {3,S}
+2   Cd 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = u'AllylJ2_t',
     shortDesc = u"""""",
@@ -6611,11 +6638,12 @@ u"""
 entry(
     index = 123,
     label = "CsJ2_S",
+    multiplicity = [1],
     group = 
 """
-1 * C {2S,2T} {2,S} {3,S}
-2   C 0       {1,S}
-3   C 0       {1,S}
+1 * C 2 {2,S} {3,S}
+2   C 0 {1,S}
+3   C 0 {1,S}
 """,
     thermo = u'CsJ2_P',
     shortDesc = u"""""",
@@ -6631,9 +6659,10 @@ u"""
 entry(
     index = 124,
     label = "CdJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * {Cd,CO} {2S,2T}
+1 * {Cd,CO} 2
 """,
     thermo = u'CCdJ2',
     shortDesc = u"""""",
@@ -6649,10 +6678,11 @@ u"""
 entry(
     index = 125,
     label = "CCdJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * C {2S,2T} {2,D}
-2   C 0       {1,D}
+1 * C 2 {2,D}
+2   C 0 {1,D}
 """,
     thermo = u'CCdJ2_s',
     shortDesc = u"""""",
@@ -6668,10 +6698,11 @@ u"""
 entry(
     index = 126,
     label = "CCdJ2_t",
+    multiplicity = [3],
     group = 
 """
-1 * C 2T {2,D}
-2   C 0  {1,D}
+1 * C 2 {2,D}
+2   C 0 {1,D}
 """,
     thermo = u'CCdJ2_s',
     shortDesc = u"""""",
@@ -6687,10 +6718,11 @@ u"""
 entry(
     index = 127,
     label = "CCdJ2_s",
+    multiplicity = [1],
     group = 
 """
-1 * C 2S {2,D}
-2   C 0  {1,D}
+1 * C 2 {2,D}
+2   C 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6708,37 +6740,38 @@ u"""
     ],
 )
 
-entry(
-    index = 128,
-    label = "CO",
-    group = 
-"""
-1 * C {2S,2T} {2,D}
-2   O 0       {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
-        H298 = (103.73,'kcal/mol'),
-        S298 = (-6.47,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
+#entry(
+#    index = 128,
+#    label = "CO",
+#    group = 
+#"""
+#1 * C {2S,2T} {2,D}
+#2   O 0       {1,D}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
+#        H298 = (103.73,'kcal/mol'),
+#        S298 = (-6.47,'cal/(mol*K)'),
+#    ),
+#    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+#    ],
+#)
 
 entry(
     index = -1,
     label = "CdJ2-Sd",
+    multiplicity = [1,3],
     group = 
 """
-1 * Cd {2S,2T} {2,D}
-2   Sd 0       {1,D}
+1 * Cd 2 {2,D}
+2   Sd 0 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6754,10 +6787,11 @@ u"""
 entry(
     index = 261,
     label = "CdJ2-Sd_s",
+    multiplicity = [1],
     group = 
 """
-1 * Cd 2S {2,D}
-2   Sd 0  {1,D}
+1 * Cd 2 {2,D}
+2   Sd 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6778,10 +6812,11 @@ u"""
 entry(
     index = 262,
     label = "CdJ2-Sd_t",
+    multiplicity = [3],
     group = 
 """
-1 * Cd 2T {2,D}
-2   Sd 0  {1,D}
+1 * Cd 2 {2,D}
+2   Sd 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6802,9 +6837,10 @@ u"""
 entry(
     index = 129,
     label = "Oa",
+    multiplicity = [1,3],
     group = 
 """
-1 * O {2S,2T}
+1 * O 2
 """,
     thermo = u'Oa_t',
     shortDesc = u"""""",
@@ -6820,9 +6856,10 @@ u"""
 entry(
     index = 130,
     label = "Oa_t",
+    multiplicity = [3],
     group = 
 """
-1 * O 2T
+1 * O 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6843,9 +6880,10 @@ u"""
 entry(
     index = 131,
     label = "Oa_s",
+    multiplicity = [1],
     group = 
 """
-1 * O 2S
+1 * O 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6866,9 +6904,10 @@ u"""
 entry(
     index = 135,
     label = "SiJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * Si {2S,2T}
+1 * Si 2
 """,
     thermo = u'CJ2',
     shortDesc = u"""""",
@@ -6884,9 +6923,10 @@ u"""
 entry(
     index = 263,
     label = "SJ2",
+    multiplicity = [1,3],
     group = 
 """
-1 * S {2S,2T}
+1 * S 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6907,9 +6947,10 @@ u"""
 entry(
     index = 132,
     label = "RJ3",
+    multiplicity = [2,4],
     group = 
 """
-1 * R 3Q
+1 * R 3
 """,
     thermo = u'CJ3',
     shortDesc = u"""""",
@@ -6925,9 +6966,10 @@ u"""
 entry(
     index = 133,
     label = "CJ3",
+    multiplicity = [2,4],
     group = 
 """
-1 * C 3Q
+1 * C 3
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6948,9 +6990,10 @@ u"""
 entry(
     index = 136,
     label = "SiJ3",
+    multiplicity = [2,4],
     group = 
 """
-1 * Si 3Q
+1 * Si 3
 """,
     thermo = u'CJ3',
     shortDesc = u"""""",
@@ -7225,7 +7268,6 @@ L1: Radical
                 L5: CCdJ2
                     L6: CCdJ2_t
                     L6: CCdJ2_s
-                L5: CO
                 L5: CdJ2-Sd
                     L6: CdJ2-Sd_s
                     L6: CdJ2-Sd_t
