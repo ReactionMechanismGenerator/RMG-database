@@ -193,10 +193,10 @@ entry(
     label = "R4",
     group = 
 """
-1 *1 R!H                 1           {2,{S,D,T,B}}
-2 *4 R!H                 {0,1,2S,2T} {1,{S,D,T,B}} {3,S}
-3 *2 {Cd,Ct,CO,N}        0           {2,S} {4,{D,T}}
-4 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {3,{D,T}}
+1 *1 R!H                 1       {2,{S,D,T,B}}
+2 *4 R!H                 {0,1,2} {1,{S,D,T,B}} {3,S}
+3 *2 {Cd,Ct,CO,N}        0       {2,S} {4,{D,T}}
+4 *3 {Cd,Ct,Od,Sd,Cdd,N} 0       {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -593,11 +593,11 @@ entry(
     label = "R5",
     group = 
 """
-1 *1 R!H           1           {2,{S,D,T,B}}
-2 *4 R!H           {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *5 R!H           {0,1,2S,2T} {2,{S,D,T,B}} {4,S}
-4 *2 {Cd,Ct,CO,N}    0           {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {4,{D,T}}
+1 *1 R!H           1       {2,{S,D,T,B}}
+2 *4 R!H           {0,1,2} {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *5 R!H           {0,1,2} {2,{S,D,T,B}} {4,S}
+4 *2 {Cd,Ct,CO,N}    0     {3,S} {5,{D,T}}
+5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1446,12 +1446,12 @@ entry(
     label = "R6",
     group = 
 """
-1 *1 R!H                 1           {2,{S,D,T,B}}
-2 *4 R!H                 {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H                 {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *5 R!H                 {0,1,2S,2T} {3,{S,D,T,B}} {5,S}
-5 *2 {Cd,Ct,CO,N}        0           {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {5,{D,T}}
+1 *1 R!H                 1       {2,{S,D,T,B}}
+2 *4 R!H                 {0,1,2} {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H                 {0,1,2} {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *5 R!H                 {0,1,2} {3,{S,D,T,B}} {5,S}
+5 *2 {Cd,Ct,CO,N}        0       {4,S} {6,{D,T}}
+6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0       {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2773,10 +2773,10 @@ entry(
     group = 
 """
 1 *1 R!H           1           {2,{S,D,T,B}}
-2 *4 R!H           {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H           {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *7 R!H           {0,1,2S,2T} {3,{S,D,T,B}} {5,{S,D,T,B}}
-5 *5 R!H           {0,1,2S,2T} {4,{S,D,T,B}} {6,S}
+2 *4 R!H           {0,1,2} {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H           {0,1,2} {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H           {0,1,2} {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *5 R!H           {0,1,2} {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO,N}    0           {5,S} {7,{D,T}}
 7 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {6,{D,T}}
 """,
@@ -2799,11 +2799,11 @@ entry(
     group = 
 """
 1 *1 R!H           1           {2,{S,D,T,B}}
-2 *4 R!H           {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H           {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *7 R!H           {0,1,2S,2T} {3,{S,D,T,B}} {5,{S,D,T,B}}
-5 *8 R!H           {0,1,2S,2T} {4,{S,D,T,B}} {6,{S,D,T,B}}
-6 *5 R!H           {0,1,2S,2T} {5,{S,D,T,B}} {7,S}
+2 *4 R!H           {0,1,2} {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H           {0,1,2} {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H           {0,1,2} {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H           {0,1,2} {4,{S,D,T,B}} {6,{S,D,T,B}}
+6 *5 R!H           {0,1,2} {5,{S,D,T,B}} {7,S}
 7 *2 {Cd,Ct,CO,N}    0           {6,S} {8,{D,T}}
 8 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {7,{D,T}}
 """,
@@ -2826,12 +2826,12 @@ entry(
     group = 
 """
 1 *1 R!H           1           {2,{S,D,T,B}}
-2 *4 R!H           {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H           {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *7 R!H           {0,1,2S,2T} {3,{S,D,T,B}} {5,{S,D,T,B}}
-5 *8 R!H           {0,1,2S,2T} {4,{S,D,T,B}} {6,{S,D,T,B}}
-6 *9 R!H           {0,1,2S,2T} {5,{S,D,T,B}} {7,{S,D,T,B}}
-7 *5 R!H           {0,1,2S,2T} {6,{S,D,T,B}} {8,S}
+2 *4 R!H           {0,1,2} {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H           {0,1,2} {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H           {0,1,2} {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H           {0,1,2} {4,{S,D,T,B}} {6,{S,D,T,B}}
+6 *9 R!H           {0,1,2} {5,{S,D,T,B}} {7,{S,D,T,B}}
+7 *5 R!H           {0,1,2} {6,{S,D,T,B}} {8,S}
 8 *2 {Cd,Ct,CO,N}    0           {7,S} {9,{D,T}}
 9 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {8,{D,T}}
 """,
