@@ -6415,9 +6415,10 @@ u"""
 entry(
     index = 334,
     label = "Y_1centerbirad",
+    multiplicity = [1,3],
     group = 
 """
-1 *3 {Cs,Cd,O} {2S,2T}
+1 *3 {Cs,Cd,O} 2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6429,10 +6430,11 @@ u"""
 
 entry(
     index = 335,
-    label = "O_atom_triplet",
+    label = "O_(T)",
+    multiplicity = [3],
     group = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6444,12 +6446,13 @@ u"""
 
 entry(
     index = 336,
-    label = "CH2_triplet",
+    label = "CH2_(T)",
+    multiplicity = [3],
     group = 
 """
-1 *3 C {2S,2T} {2,S} {3,S}
-2    H 0       {1,S}
-3    H 0       {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -7117,8 +7120,8 @@ L1: YJ
                 L5: CsJ-TwoDeSs
             L4: CsJ-ThreeDe
     L2: Y_1centerbirad
-        L3: O_atom_triplet
-        L3: CH2_triplet
+        L3: O_(T)
+        L3: CH2_(T)
     L2: Y_2centeradjbirad
         L3: O2b
         L3: C2b
