@@ -15,7 +15,7 @@ entry(
 """,
     group2 = 
 """
-1 *2 O 2T
+1 *2 O 2
 """,
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 'cm^3/(mol*s)'),
