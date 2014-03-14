@@ -14,23 +14,27 @@ entry(
     index = 1,
     reactant1 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     reactant2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -59,18 +63,21 @@ entry(
     reactant1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -100,6 +107,7 @@ entry(
     reactant1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -107,13 +115,15 @@ N2O
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -143,24 +153,28 @@ entry(
     reactant1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -189,24 +203,28 @@ entry(
     reactant1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -235,6 +253,7 @@ entry(
     reactant1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -243,6 +262,7 @@ NH3
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -250,6 +270,7 @@ NH2
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -275,6 +296,7 @@ entry(
     reactant1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -283,11 +305,13 @@ NH3
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -295,6 +319,7 @@ NH2
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -323,6 +348,7 @@ entry(
     reactant1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -331,12 +357,14 @@ NH3
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -344,6 +372,7 @@ NH2
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -373,6 +402,7 @@ entry(
     reactant1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -380,12 +410,14 @@ NH3
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -393,6 +425,7 @@ NH2
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -421,6 +454,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -428,17 +462,20 @@ NH2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
-NH(S)
-1 N 2S 1 {2,S}
-2 H 0  0 {1,S}
+NH_(S)
+1
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -467,6 +504,7 @@ entry(
     reactant1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -474,12 +512,14 @@ HO2
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -487,6 +527,7 @@ NO2
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -515,6 +556,7 @@ entry(
     reactant1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -522,11 +564,13 @@ N2O
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -574,6 +618,7 @@ entry(
     reactant1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -581,17 +626,20 @@ N2O
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -620,24 +668,28 @@ entry(
     reactant1 = 
 """
 H
+2
 1 H 1 0
 """,
     reactant2 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -666,11 +718,13 @@ entry(
     reactant1 = 
 """
 H
+2
 1 H 1 0
 """,
     reactant2 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -678,14 +732,16 @@ N2O
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -711,25 +767,29 @@ entry(
     index = 16,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -757,27 +817,31 @@ entry(
     index = 18,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -803,19 +867,22 @@ entry(
     index = 19,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
-HNOO
+HNOO_(T)
+3
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -852,25 +919,29 @@ entry(
     index = 20,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -898,24 +969,28 @@ entry(
     index = 21,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -944,27 +1019,31 @@ entry(
     index = 22,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -991,19 +1070,22 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1011,8 +1093,9 @@ NH2O
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1039,19 +1122,22 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1059,6 +1145,7 @@ HNO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1087,6 +1174,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1094,6 +1182,7 @@ NH2
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -1101,6 +1190,7 @@ HO2
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1109,6 +1199,7 @@ NH2O
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1137,6 +1228,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1144,6 +1236,7 @@ NH2
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -1151,6 +1244,7 @@ HO2
     product1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1158,7 +1252,8 @@ NH3
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -1187,18 +1282,21 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1206,6 +1304,7 @@ HNO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -1233,24 +1332,28 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1279,6 +1382,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1286,12 +1390,14 @@ NH2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -1335,6 +1441,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1342,18 +1449,21 @@ NH2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
-NH(S)
-1 N 2S 1 {2,S}
-2 H 0  0 {1,S}
+NH_(S)
+1
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1383,6 +1493,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1390,6 +1501,7 @@ NH2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1397,6 +1509,7 @@ NH2
     product1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -1446,6 +1559,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1453,6 +1567,7 @@ NH2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1460,14 +1575,16 @@ NH2
     product1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1513,6 +1630,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1520,6 +1638,7 @@ NH2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1527,6 +1646,7 @@ NH2
     product1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -1536,6 +1656,7 @@ N2H3
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -1580,6 +1701,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1587,6 +1709,7 @@ NH2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1594,6 +1717,7 @@ NH2
     product1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1601,9 +1725,10 @@ NH3
 """,
     product2 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1630,6 +1755,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1637,18 +1763,21 @@ NH2
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1678,6 +1807,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1685,12 +1815,14 @@ NH2
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -1698,6 +1830,7 @@ NNH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1726,6 +1859,7 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1733,12 +1867,14 @@ NH2
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -1787,6 +1923,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1795,18 +1932,21 @@ CH3
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     reactant3 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -1817,6 +1957,7 @@ CH3NO
     product2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -1845,6 +1986,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1853,12 +1995,14 @@ CH3
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -1903,6 +2047,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1911,12 +2056,14 @@ CH3
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1925,6 +2072,7 @@ H2CN
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1953,6 +2101,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1961,12 +2110,14 @@ CH3
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -1974,6 +2125,7 @@ HCN
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2003,6 +2155,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2010,12 +2163,14 @@ CH3
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2024,6 +2179,7 @@ H2CN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -2051,6 +2207,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2058,12 +2215,14 @@ CH3
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -2071,6 +2230,7 @@ HCN
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2099,6 +2259,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2106,12 +2267,14 @@ CH3
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -2120,6 +2283,7 @@ HCNH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -2147,6 +2311,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2155,6 +2320,7 @@ CH3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2162,6 +2328,7 @@ NH2
     product1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -2212,6 +2379,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2220,6 +2388,7 @@ CH3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2227,6 +2396,7 @@ NH2
     product1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -2237,6 +2407,7 @@ CH2NH2
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -2281,6 +2452,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2289,6 +2461,7 @@ CH3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2296,6 +2469,7 @@ NH2
     product1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2306,6 +2480,7 @@ CH3NH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -2350,6 +2525,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2358,6 +2534,7 @@ CH3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2365,6 +2542,7 @@ NH2
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -2374,6 +2552,7 @@ H2CNH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2419,6 +2598,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2427,6 +2607,7 @@ CH3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2434,6 +2615,7 @@ NH2
     product1 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2442,9 +2624,10 @@ CH4
 """,
     product2 = 
 """
-NH(S)
-1 N 2S 1 {2,S}
-2 H 0  0 {1,S}
+NH_(S)
+1
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2471,6 +2654,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2479,20 +2663,23 @@ CH3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     product1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2522,20 +2709,23 @@ entry(
     index = 51,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product1 = 
 """
 CH2NN
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2583,29 +2773,33 @@ entry(
     index = 52,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
 """,
     product2 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2631,20 +2825,23 @@ entry(
     index = 53,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -2653,6 +2850,7 @@ HCNO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -2679,20 +2877,23 @@ entry(
     index = 54,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -2700,6 +2901,7 @@ HCN
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2727,20 +2929,23 @@ entry(
     index = 55,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -2749,6 +2954,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -2775,20 +2981,23 @@ entry(
     index = 56,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2796,6 +3005,7 @@ NH2
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -2823,20 +3033,23 @@ entry(
     index = 57,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2844,8 +3057,9 @@ H2CN
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2871,19 +3085,22 @@ entry(
     index = 58,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product1 = 
 """
 HCNN
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -2930,27 +3147,31 @@ entry(
     index = 59,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
 """,
     product2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2976,27 +3197,31 @@ entry(
     index = 60,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3022,24 +3247,28 @@ entry(
     index = 61,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -3068,24 +3297,28 @@ entry(
     index = 62,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product2 = 
 """
 HCO
+2
 1 C 1 0 {2,S} {3,D}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -3114,25 +3347,29 @@ entry(
     index = 63,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -3160,25 +3397,29 @@ entry(
     index = 64,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -3206,25 +3447,29 @@ entry(
     index = 65,
     reactant1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3250,25 +3495,29 @@ entry(
     index = 66,
     reactant1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3294,24 +3543,28 @@ entry(
     index = 67,
     reactant1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3338,24 +3591,28 @@ entry(
     index = 68,
     reactant1 = 
 """
-CH
-1 C 3Q 0 {2,S}
-2 H 0  0 {1,S}
+CH_(Q)
+4
+1 C 3 0 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3382,19 +3639,22 @@ entry(
     index = 69,
     reactant1 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -3402,6 +3662,7 @@ HCN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3428,24 +3689,28 @@ entry(
     index = 70,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3473,29 +3738,34 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     product3 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3523,22 +3793,26 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
-C(T)
-1 C 4T 0
+C_(T)
+3
+1 C 4 0
 """,
     product2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -3566,30 +3840,35 @@ entry(
     index = 73,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     product3 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3617,19 +3896,22 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -3638,6 +3920,7 @@ N2H2
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3665,19 +3948,22 @@ entry(
     reactant1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3685,8 +3971,9 @@ NH3
 """,
     product2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3712,19 +3999,22 @@ entry(
     index = 76,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3732,6 +4022,7 @@ HNO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3758,24 +4049,28 @@ entry(
     index = 77,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3804,23 +4099,27 @@ entry(
     index = 78,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3848,24 +4147,28 @@ entry(
     index = 79,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3892,13 +4195,15 @@ entry(
     index = 81,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3907,6 +4212,7 @@ CH3
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -3916,6 +4222,7 @@ H2CNH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -3942,13 +4249,15 @@ entry(
     index = 82,
     reactant1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3957,6 +4266,7 @@ CH3
     product1 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3965,8 +4275,9 @@ CH4
 """,
     product2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3993,25 +4304,29 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -4041,19 +4356,22 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -4061,6 +4379,7 @@ N2O
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4089,6 +4408,7 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4096,17 +4416,20 @@ NNH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4135,6 +4458,7 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4142,18 +4466,21 @@ NNH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4183,24 +4510,28 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4229,6 +4560,7 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4236,6 +4568,7 @@ NNH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4243,12 +4576,14 @@ NH2
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4279,6 +4614,7 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4286,6 +4622,7 @@ NNH
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -4293,12 +4630,14 @@ HO2
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -4329,6 +4668,7 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4336,6 +4676,7 @@ NNH
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -4343,6 +4684,7 @@ HO2
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4351,6 +4693,7 @@ HNNO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4379,6 +4722,7 @@ entry(
     reactant1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4386,18 +4730,21 @@ NNH
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -4427,6 +4774,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4435,6 +4783,7 @@ N2H2
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4442,6 +4791,7 @@ NNH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -4484,6 +4834,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4492,10 +4843,11 @@ N2H2
     product1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -4524,6 +4876,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4532,11 +4885,13 @@ N2H2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4544,6 +4899,7 @@ NNH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4572,6 +4928,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4579,12 +4936,14 @@ N2H2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4592,6 +4951,7 @@ NNH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4620,6 +4980,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4628,12 +4989,14 @@ N2H2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4641,6 +5004,7 @@ NNH
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4670,6 +5034,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4678,6 +5043,7 @@ N2H2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4685,6 +5051,7 @@ NH2
     product1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4693,6 +5060,7 @@ NH3
     product2 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4722,6 +5090,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4730,6 +5099,7 @@ N2H2
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4738,6 +5108,7 @@ CH3
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4745,6 +5116,7 @@ NNH
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4776,6 +5148,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4783,13 +5156,15 @@ N2H2
 """,
     reactant2 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4797,6 +5172,7 @@ NNH
     product2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4826,6 +5202,7 @@ entry(
     reactant1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -4834,12 +5211,14 @@ N2H2
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -4847,6 +5226,7 @@ N2O
     product2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4876,14 +5256,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -4891,6 +5273,7 @@ NNH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -4943,20 +5326,23 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4964,6 +5350,7 @@ NH2
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -4993,19 +5380,22 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -5014,6 +5404,7 @@ N2H2
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5041,19 +5432,22 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -5061,6 +5455,7 @@ NNH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5089,19 +5484,22 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5109,6 +5507,7 @@ NH2
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -5137,25 +5536,29 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -5185,20 +5588,23 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -5208,6 +5614,7 @@ NH2NO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5235,20 +5642,23 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -5256,6 +5666,7 @@ NNH
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5285,14 +5696,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5301,6 +5714,7 @@ CH3
     product1 = 
 """
 H2CNNH2
+1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 N 0 1 {3,S} {6,S} {7,S}
 3 N 0 1 {1,D} {2,S}
@@ -5312,6 +5726,7 @@ H2CNNH2
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5339,14 +5754,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5355,6 +5772,7 @@ CH3
     product1 = 
 """
 CH3NNH
+1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 N 0 1 {1,S} {3,D}
 3 N 0 1 {2,D} {7,S}
@@ -5366,6 +5784,7 @@ CH3NNH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5393,14 +5812,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5409,6 +5830,7 @@ CH3
     product1 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5418,6 +5840,7 @@ CH4
     product2 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -5447,14 +5870,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5462,6 +5887,7 @@ NH2
     product1 = 
 """
 HNNNH2
+1
 1 H 0 0 {2,S}
 2 N 0 1 {1,S} {3,D}
 3 N 0 1 {2,D} {4,S}
@@ -5472,6 +5898,7 @@ HNNNH2
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5499,14 +5926,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5514,6 +5943,7 @@ NH2
     product1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5522,6 +5952,7 @@ NH3
     product2 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -5551,14 +5982,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -5566,6 +5999,7 @@ HO2
     product1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -5575,6 +6009,7 @@ NH2NO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5603,14 +6038,16 @@ entry(
     reactant1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -5618,6 +6055,7 @@ HO2
     product1 = 
 """
 NNH
+2
 1 N 0 1 {2,D} {3,S}
 2 N 1 1 {1,D}
 3 H 0 0 {1,S}
@@ -5625,6 +6063,7 @@ NNH
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -5655,6 +6094,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -5664,6 +6104,7 @@ N2H3
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -5672,6 +6113,7 @@ N2H2
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5701,6 +6143,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -5710,11 +6153,13 @@ N2H3
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -5723,6 +6168,7 @@ N2H2
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5751,6 +6197,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -5759,12 +6206,14 @@ N2H3
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5772,6 +6221,7 @@ NH2
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5801,6 +6251,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -5809,12 +6260,14 @@ N2H3
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -5824,6 +6277,7 @@ NH2NO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5851,6 +6305,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -5859,12 +6314,14 @@ N2H3
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -5873,6 +6330,7 @@ N2H2
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5901,6 +6359,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -5910,12 +6369,14 @@ N2H3
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -5924,6 +6385,7 @@ N2H2
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5953,6 +6415,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -5962,20 +6425,23 @@ N2H3
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6005,6 +6471,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6014,6 +6481,7 @@ N2H3
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6022,6 +6490,7 @@ CH3
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -6030,6 +6499,7 @@ N2H2
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6061,6 +6531,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6070,6 +6541,7 @@ N2H3
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6078,14 +6550,16 @@ CH3
     product1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6117,6 +6591,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6126,6 +6601,7 @@ N2H3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6133,6 +6609,7 @@ NH2
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -6141,6 +6618,7 @@ N2H2
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6171,6 +6649,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6180,6 +6659,7 @@ N2H3
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6187,14 +6667,16 @@ NH2
     product1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6225,6 +6707,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6234,6 +6717,7 @@ N2H3
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -6241,6 +6725,7 @@ HO2
     product1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6251,6 +6736,7 @@ H2NNHO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6279,6 +6765,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6288,6 +6775,7 @@ N2H3
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -6295,6 +6783,7 @@ HO2
     product1 = 
 """
 N2H2
+1
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -6303,6 +6792,7 @@ N2H2
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -6333,6 +6823,7 @@ entry(
     reactant1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6342,6 +6833,7 @@ N2H3
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -6349,6 +6841,7 @@ HO2
     product1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6358,7 +6851,8 @@ N2H4
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -6387,6 +6881,7 @@ entry(
     reactant1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6397,14 +6892,16 @@ N2H4
     product1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6435,6 +6932,7 @@ entry(
     reactant1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6445,11 +6943,13 @@ N2H4
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6459,6 +6959,7 @@ N2H3
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6487,6 +6988,7 @@ entry(
     reactant1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6496,12 +6998,14 @@ N2H4
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6511,6 +7015,7 @@ N2H3
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6539,6 +7044,7 @@ entry(
     reactant1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6549,12 +7055,14 @@ N2H4
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6564,6 +7072,7 @@ N2H3
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6593,6 +7102,7 @@ entry(
     reactant1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6603,6 +7113,7 @@ N2H4
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6611,6 +7122,7 @@ CH3
     product1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6620,6 +7132,7 @@ N2H3
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6651,6 +7164,7 @@ entry(
     reactant1 = 
 """
 N2H4
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -6661,6 +7175,7 @@ N2H4
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6668,6 +7183,7 @@ NH2
     product1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -6677,6 +7193,7 @@ N2H3
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6707,24 +7224,28 @@ entry(
     reactant1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
-C(T)
-1 C 4T 0
+C_(T)
+3
+1 C 4 0
 """,
     product1 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6751,24 +7272,28 @@ entry(
     reactant1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
-C(T)
-1 C 4T 0
+C_(T)
+3
+1 C 4 0
 """,
     product1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6795,12 +7320,14 @@ entry(
     reactant1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HCCO
+2
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -6809,6 +7336,7 @@ HCCO
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -6817,6 +7345,7 @@ HCNO
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -6845,12 +7374,14 @@ entry(
     reactant1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     reactant2 = 
 """
 HCCO
+2
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -6859,6 +7390,7 @@ HCCO
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -6866,6 +7398,7 @@ HCN
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -6895,6 +7428,7 @@ entry(
     reactant1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -6902,17 +7436,20 @@ NO2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6941,24 +7478,28 @@ entry(
     reactant1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -6987,6 +7528,7 @@ entry(
     reactant1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -6994,13 +7536,15 @@ NO2
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -7030,6 +7574,7 @@ entry(
     reactant1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -7037,6 +7582,7 @@ NO2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7044,6 +7590,7 @@ NH2
     product1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -7051,6 +7598,7 @@ N2O
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7080,6 +7628,7 @@ entry(
     reactant1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -7087,6 +7636,7 @@ NO2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7094,6 +7644,7 @@ NH2
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7102,6 +7653,7 @@ NH2O
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -7130,6 +7682,7 @@ entry(
     reactant1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -7137,6 +7690,7 @@ NO2
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7145,12 +7699,14 @@ CH3
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH3O
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7182,6 +7738,7 @@ entry(
     reactant1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -7189,18 +7746,21 @@ N2O
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -7230,6 +7790,7 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7237,11 +7798,13 @@ HNO
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -7268,6 +7831,7 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7275,6 +7839,7 @@ HNO
     reactant2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7282,6 +7847,7 @@ HNO
     product1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -7289,6 +7855,7 @@ N2O
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7318,6 +7885,7 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7325,18 +7893,21 @@ HNO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7366,6 +7937,7 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7373,17 +7945,20 @@ HNO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -7412,24 +7987,28 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -7458,6 +8037,7 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7465,6 +8045,7 @@ HNO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7472,6 +8053,7 @@ NH2
     product1 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7480,6 +8062,7 @@ NH3
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -7508,6 +8091,7 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7515,12 +8099,14 @@ HNO
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -7528,6 +8114,7 @@ N2O
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -7556,25 +8143,29 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -7604,6 +8195,7 @@ entry(
     reactant1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7611,6 +8203,7 @@ HNO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7619,12 +8212,14 @@ CH3
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7656,6 +8251,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7664,6 +8260,7 @@ NH2O
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7671,6 +8268,7 @@ HNO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -7701,6 +8299,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7709,6 +8308,7 @@ NH2O
     product1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -7741,6 +8341,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7749,11 +8350,13 @@ NH2O
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7761,6 +8364,7 @@ NH2
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -7789,6 +8393,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7797,11 +8402,13 @@ NH2O
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7809,6 +8416,7 @@ HNO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -7837,6 +8445,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7844,12 +8453,14 @@ NH2O
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7857,6 +8468,7 @@ HNO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -7885,6 +8497,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7893,12 +8506,14 @@ NH2O
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7906,6 +8521,7 @@ HNO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7935,6 +8551,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7943,6 +8560,7 @@ NH2O
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7951,6 +8569,7 @@ CH3
     product1 = 
 """
 CH3O
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7960,6 +8579,7 @@ CH3O
     product2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7989,6 +8609,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7997,6 +8618,7 @@ NH2O
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8005,6 +8627,7 @@ CH3
     product1 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8014,6 +8637,7 @@ CH4
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8043,6 +8667,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8051,6 +8676,7 @@ NH2O
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8058,6 +8684,7 @@ NH2
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8065,6 +8692,7 @@ HNO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8095,6 +8723,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8103,6 +8732,7 @@ NH2O
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -8110,6 +8740,7 @@ HO2
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8117,6 +8748,7 @@ HNO
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8147,6 +8779,7 @@ entry(
     reactant1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8155,19 +8788,22 @@ NH2O
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
 """,
     product1 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product2 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -8199,6 +8835,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8207,11 +8844,13 @@ HNOH
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8244,6 +8883,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8252,11 +8892,13 @@ HNOH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8264,6 +8906,7 @@ NH2
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8292,6 +8935,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8300,11 +8944,13 @@ HNOH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8312,6 +8958,7 @@ HNO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8340,6 +8987,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8347,12 +8995,14 @@ HNOH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8360,6 +9010,7 @@ HNO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8388,6 +9039,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8396,12 +9048,14 @@ HNOH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8409,6 +9063,7 @@ HNO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8438,6 +9093,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8446,6 +9102,7 @@ HNOH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8454,6 +9111,7 @@ CH3
     product1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -8464,6 +9122,7 @@ CH3NH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8492,6 +9151,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8500,6 +9160,7 @@ HNOH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8508,6 +9169,7 @@ CH3
     product1 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8517,6 +9179,7 @@ CH4
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8546,6 +9209,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8554,6 +9218,7 @@ HNOH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8561,6 +9226,7 @@ NH2
     product1 = 
 """
 N2H3
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -8570,6 +9236,7 @@ N2H3
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8598,6 +9265,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8606,6 +9274,7 @@ HNOH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8613,14 +9282,16 @@ NH2
     product1 = 
 """
 H2NN
-1 N 0  1 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 1 {1,S}
+1
+1 N 0 0 {2,S} {3,S} {4,D}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 0 2 {1,D}
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8650,6 +9321,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8658,6 +9330,7 @@ HNOH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8665,6 +9338,7 @@ NH2
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8672,6 +9346,7 @@ HNO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8702,6 +9377,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8710,6 +9386,7 @@ HNOH
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -8717,6 +9394,7 @@ HO2
     product1 = 
 """
 HONHO
+2
 1 H 0 0 {2,S}
 2 O 0 2 {1,S} {3,S}
 3 N 0 1 {2,S} {4,S} {5,S}
@@ -8726,6 +9404,7 @@ HONHO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8754,6 +9433,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8762,6 +9442,7 @@ HNOH
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -8769,6 +9450,7 @@ HO2
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8776,6 +9458,7 @@ HNO
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8806,6 +9489,7 @@ entry(
     reactant1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8814,6 +9498,7 @@ HNOH
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -8821,6 +9506,7 @@ HO2
     product1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -8829,7 +9515,8 @@ NH2OH
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -8857,7 +9544,8 @@ entry(
     index = 181,
     reactant1 = 
 """
-HNOO
+HNOO_(T)
+3
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -8866,12 +9554,14 @@ HNOO
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -8903,6 +9593,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -8911,12 +9602,14 @@ HONO
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -8948,6 +9641,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -8956,17 +9650,20 @@ HONO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -8996,6 +9693,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -9004,11 +9702,13 @@ HONO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9016,6 +9716,7 @@ H2O
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -9044,6 +9745,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -9052,17 +9754,20 @@ HONO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -9092,6 +9797,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -9099,18 +9805,21 @@ HONO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9140,6 +9849,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -9148,12 +9858,14 @@ HONO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9161,6 +9873,7 @@ H2O
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9190,6 +9903,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -9198,6 +9912,7 @@ HONO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9206,6 +9921,7 @@ CH3
     product1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9213,6 +9929,7 @@ NO2
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9244,6 +9961,7 @@ entry(
     reactant1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -9252,6 +9970,7 @@ HONO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9259,6 +9978,7 @@ NH2
     product1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9266,6 +9986,7 @@ NO2
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9296,6 +10017,7 @@ entry(
     reactant1 = 
 """
 HNO2
+1
 1 N 0 0 {2,S} {3,D} {4,S}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -9304,6 +10026,7 @@ HNO2
     product1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -9336,6 +10059,7 @@ entry(
     reactant1 = 
 """
 HNO2
+1
 1 N 0 0 {2,S} {3,D} {4,S}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -9344,17 +10068,20 @@ HNO2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9384,6 +10111,7 @@ entry(
     reactant1 = 
 """
 HNO2
+1
 1 N 0 0 {2,S} {3,D} {4,S}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -9391,18 +10119,21 @@ HNO2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9432,6 +10163,7 @@ entry(
     reactant1 = 
 """
 HNO2
+1
 1 N 0 0 {2,S} {3,D} {4,S}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -9440,12 +10172,14 @@ HNO2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9453,6 +10187,7 @@ H2O
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9482,6 +10217,7 @@ entry(
     reactant1 = 
 """
 HNO2
+1
 1 N 0 0 {2,S} {3,D} {4,S}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -9490,6 +10226,7 @@ HNO2
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9498,6 +10235,7 @@ CH3
     product1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9505,6 +10243,7 @@ NO2
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9536,6 +10275,7 @@ entry(
     reactant1 = 
 """
 HNO2
+1
 1 N 0 0 {2,S} {3,D} {4,S}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -9544,6 +10284,7 @@ HNO2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9551,6 +10292,7 @@ NH2
     product1 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -9558,6 +10300,7 @@ NO2
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9588,6 +10331,7 @@ entry(
     reactant1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -9595,6 +10339,7 @@ HCN
     product1 = 
 """
 HNC
+1
 1 N 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 C 0 1 {1,T}
@@ -9626,12 +10371,14 @@ entry(
     reactant1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -9639,6 +10386,7 @@ HCN
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -9647,6 +10395,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -9674,12 +10423,14 @@ entry(
     reactant1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -9687,6 +10438,7 @@ HCN
     product1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -9695,6 +10447,7 @@ HOCN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -9722,12 +10475,14 @@ entry(
     reactant1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -9735,6 +10490,7 @@ HCN
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9742,6 +10498,7 @@ NH2
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -9770,12 +10527,14 @@ entry(
     reactant1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -9783,6 +10542,7 @@ HCN
     product1 = 
 """
 NCHOH
+2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 N 1 1 {1,D}
@@ -9831,24 +10591,28 @@ entry(
     reactant1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -9877,18 +10641,21 @@ entry(
     reactant1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -9896,6 +10663,7 @@ NCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -9923,24 +10691,28 @@ entry(
     reactant1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -9968,25 +10740,29 @@ entry(
     index = 205,
     reactant1 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     reactant2 = 
 """
 HNC
+1
 1 N 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 C 0 1 {1,T}
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -10015,12 +10791,14 @@ entry(
     reactant1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HNC
+1
 1 N 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 C 0 1 {1,T}
@@ -10028,6 +10806,7 @@ HNC
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -10036,6 +10815,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -10063,19 +10843,22 @@ entry(
     reactant1 = 
 """
 HNC
+1
 1 N 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 C 0 1 {1,T}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -10083,8 +10866,9 @@ HNCO
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10111,25 +10895,29 @@ entry(
     reactant1 = 
 """
 HNC
+1
 1 N 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 C 0 1 {1,T}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -10159,18 +10947,21 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10178,6 +10969,7 @@ HCN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -10205,12 +10997,14 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10218,6 +11012,7 @@ H2O
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10225,6 +11020,7 @@ HCN
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10253,24 +11049,28 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10297,26 +11097,30 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10343,18 +11147,21 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -10362,6 +11169,7 @@ NCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -10389,12 +11197,14 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10402,6 +11212,7 @@ HCN
     product1 = 
 """
 NCCN
+1
 1 C 0 0 {2,S} {3,T}
 2 C 0 0 {1,S} {4,T}
 3 N 0 1 {1,T}
@@ -10410,6 +11221,7 @@ NCCN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -10437,12 +11249,14 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -10450,6 +11264,7 @@ N2O
     product1 = 
 """
 NCN
+3
 1 N 1 1 {2,D}
 2 C 0 0 {1,D} {3,D}
 3 N 1 1 {2,D}
@@ -10457,6 +11272,7 @@ NCN
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -10485,12 +11301,14 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -10498,6 +11316,7 @@ NO2
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -10505,6 +11324,7 @@ NCO
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -10533,12 +11353,14 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10548,6 +11370,7 @@ CH4
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10555,6 +11378,7 @@ HCN
     product2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10585,12 +11409,14 @@ entry(
     reactant1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     reactant2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10599,6 +11425,7 @@ NH3
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10606,6 +11433,7 @@ HCN
     product2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10635,6 +11463,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10643,6 +11472,7 @@ H2CN
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10650,6 +11480,7 @@ HCN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -10679,6 +11510,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10687,6 +11519,7 @@ H2CN
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -10694,6 +11527,7 @@ HO2
     product1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -10703,6 +11537,7 @@ CH2NO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10731,6 +11566,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10739,6 +11575,7 @@ H2CN
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -10746,6 +11583,7 @@ HO2
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10753,6 +11591,7 @@ HCN
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -10783,6 +11622,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10791,6 +11631,7 @@ H2CN
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -10798,6 +11639,7 @@ HO2
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -10806,7 +11648,8 @@ H2CNH
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -10835,6 +11678,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10842,13 +11686,15 @@ H2CN
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10857,6 +11703,7 @@ CH2O
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -10885,6 +11732,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10893,6 +11741,7 @@ H2CN
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10901,6 +11750,7 @@ CH3
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10908,6 +11758,7 @@ HCN
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10939,6 +11790,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10947,12 +11799,14 @@ H2CN
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -10960,6 +11814,7 @@ HCN
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11006,6 +11861,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11013,21 +11869,24 @@ H2CN
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
-CH2(T)
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+CH2_(T)
+3
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11054,6 +11913,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11062,11 +11922,13 @@ H2CN
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11074,6 +11936,7 @@ HCN
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -11102,6 +11965,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11110,6 +11974,7 @@ H2CN
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11117,6 +11982,7 @@ NH2
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11124,6 +11990,7 @@ HCN
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11154,6 +12021,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11161,12 +12029,14 @@ H2CN
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11174,6 +12044,7 @@ HCN
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -11202,6 +12073,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11209,12 +12081,14 @@ H2CN
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -11223,6 +12097,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -11250,6 +12125,7 @@ entry(
     reactant1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11257,12 +12133,14 @@ H2CN
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -11271,6 +12149,7 @@ HCNO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -11298,6 +12177,7 @@ entry(
     reactant1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -11306,6 +12186,7 @@ HCNH
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11313,6 +12194,7 @@ HCN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -11342,6 +12224,7 @@ entry(
     reactant1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -11350,11 +12233,13 @@ HCNH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11363,6 +12248,7 @@ H2CN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -11390,6 +12276,7 @@ entry(
     reactant1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -11398,11 +12285,13 @@ HCNH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11410,6 +12299,7 @@ HCN
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -11438,6 +12328,7 @@ entry(
     reactant1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -11445,12 +12336,14 @@ HCNH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -11459,6 +12352,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -11486,6 +12380,7 @@ entry(
     reactant1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -11493,12 +12388,14 @@ HCNH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11506,6 +12403,7 @@ HCN
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -11534,6 +12432,7 @@ entry(
     reactant1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -11542,12 +12441,14 @@ HCNH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11555,6 +12456,7 @@ HCN
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11584,6 +12486,7 @@ entry(
     reactant1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -11592,6 +12495,7 @@ HCNH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11600,6 +12504,7 @@ CH3
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -11607,6 +12512,7 @@ HCN
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11638,6 +12544,7 @@ entry(
     reactant1 = 
 """
 HCNN
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -11645,18 +12552,21 @@ HCNN
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -11664,6 +12574,7 @@ CO2
     product3 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -11692,6 +12603,7 @@ entry(
     reactant1 = 
 """
 HCNN
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -11699,13 +12611,15 @@ HCNN
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
+2
 1 C 1 0 {2,S} {3,D}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -11713,6 +12627,7 @@ HCO
     product2 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -11742,6 +12657,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11751,11 +12667,13 @@ H2CNH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11764,6 +12682,7 @@ H2CN
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -11792,6 +12711,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11800,12 +12720,14 @@ H2CNH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11814,6 +12736,7 @@ H2CN
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -11842,6 +12765,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11851,12 +12775,14 @@ H2CNH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11865,6 +12791,7 @@ H2CN
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11894,6 +12821,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11903,6 +12831,7 @@ H2CNH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11911,6 +12840,7 @@ CH3
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11919,6 +12849,7 @@ H2CN
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11950,6 +12881,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11959,6 +12891,7 @@ H2CNH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11966,6 +12899,7 @@ NH2
     product1 = 
 """
 H2CN
+2
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11974,6 +12908,7 @@ H2CN
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12004,6 +12939,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12013,11 +12949,13 @@ H2CNH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -12026,6 +12964,7 @@ HCNH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12054,6 +12993,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12062,12 +13002,14 @@ H2CNH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -12076,6 +13018,7 @@ HCNH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12104,6 +13047,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12113,12 +13057,14 @@ H2CNH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -12127,6 +13073,7 @@ HCNH
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12156,6 +13103,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12165,6 +13113,7 @@ H2CNH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12173,6 +13122,7 @@ CH3
     product1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -12181,6 +13131,7 @@ HCNH
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12212,6 +13163,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12221,6 +13173,7 @@ H2CNH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12228,6 +13181,7 @@ NH2
     product1 = 
 """
 HCNH
+2
 1 C 1 0 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -12236,6 +13190,7 @@ HCNH
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12266,6 +13221,7 @@ entry(
     reactant1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12274,12 +13230,14 @@ H2CNH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12287,9 +13245,10 @@ CH2O
 """,
     product2 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12316,6 +13275,7 @@ entry(
     reactant1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -12326,6 +13286,7 @@ CH3NH
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12335,6 +13296,7 @@ H2CNH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -12364,6 +13326,7 @@ entry(
     reactant1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -12374,11 +13337,13 @@ CH3NH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12388,6 +13353,7 @@ H2CNH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12416,6 +13382,7 @@ entry(
     reactant1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -12425,12 +13392,14 @@ CH3NH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12440,6 +13409,7 @@ H2CNH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12468,6 +13438,7 @@ entry(
     reactant1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -12478,12 +13449,14 @@ CH3NH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12493,6 +13466,7 @@ H2CNH
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12522,6 +13496,7 @@ entry(
     reactant1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -12532,6 +13507,7 @@ CH3NH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12540,6 +13516,7 @@ CH3
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12549,6 +13526,7 @@ H2CNH
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12580,6 +13558,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12590,6 +13569,7 @@ CH2NH2
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12599,6 +13579,7 @@ H2CNH
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -12628,6 +13609,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12637,13 +13619,15 @@ CH2NH2
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12653,6 +13637,7 @@ H2CNH
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -12682,6 +13667,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12691,13 +13677,15 @@ CH2NH2
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12705,6 +13693,7 @@ NH2
     product2 = 
 """
 CH2O
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12712,8 +13701,9 @@ CH2O
 """,
     product3 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12740,6 +13730,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12750,11 +13741,13 @@ CH2NH2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12764,6 +13757,7 @@ H2CNH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12792,6 +13786,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12801,12 +13796,14 @@ CH2NH2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12815,6 +13812,7 @@ CH2O
     product2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12844,6 +13842,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12853,12 +13852,14 @@ CH2NH2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12868,6 +13869,7 @@ H2CNH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12896,6 +13898,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12906,12 +13909,14 @@ CH2NH2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -12921,6 +13926,7 @@ CH2OH
     product2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12950,6 +13956,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12960,12 +13967,14 @@ CH2NH2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12975,6 +13984,7 @@ H2CNH
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13004,6 +14014,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -13014,6 +14025,7 @@ CH2NH2
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13022,6 +14034,7 @@ CH3
     product1 = 
 """
 C2H5
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13033,6 +14046,7 @@ C2H5
     product2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13062,6 +14076,7 @@ entry(
     reactant1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -13072,6 +14087,7 @@ CH2NH2
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13080,6 +14096,7 @@ CH3
     product1 = 
 """
 H2CNH
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 N 0 1 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -13089,6 +14106,7 @@ H2CNH
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13120,6 +14138,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13131,11 +14150,13 @@ CH3NH2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -13146,6 +14167,7 @@ CH2NH2
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13174,6 +14196,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13184,12 +14207,14 @@ CH3NH2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -13200,6 +14225,7 @@ CH2NH2
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13228,6 +14254,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13239,12 +14266,14 @@ CH3NH2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -13255,6 +14284,7 @@ CH2NH2
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13284,6 +14314,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13295,6 +14326,7 @@ CH3NH2
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13303,6 +14335,7 @@ CH3
     product1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -13313,6 +14346,7 @@ CH2NH2
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13344,6 +14378,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13355,6 +14390,7 @@ CH3NH2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13362,6 +14398,7 @@ NH2
     product1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -13372,6 +14409,7 @@ CH2NH2
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13402,6 +14440,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13413,11 +14452,13 @@ CH3NH2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13428,6 +14469,7 @@ CH3NH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13456,6 +14498,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13466,12 +14509,14 @@ CH3NH2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13482,6 +14527,7 @@ CH3NH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13510,6 +14556,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13521,12 +14568,14 @@ CH3NH2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13537,6 +14586,7 @@ CH3NH
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13566,6 +14616,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13577,6 +14628,7 @@ CH3NH2
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13585,6 +14637,7 @@ CH3
     product1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13595,6 +14648,7 @@ CH3NH
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13626,6 +14680,7 @@ entry(
     reactant1 = 
 """
 CH3NH2
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -13637,6 +14692,7 @@ CH3NH2
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13644,6 +14700,7 @@ NH2
     product1 = 
 """
 CH3NH
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 1 1 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13654,6 +14711,7 @@ CH3NH
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13684,6 +14742,7 @@ entry(
     reactant1 = 
 """
 NCCN
+1
 1 C 0 0 {2,S} {3,T}
 2 C 0 0 {1,S} {4,T}
 3 N 0 1 {1,T}
@@ -13692,12 +14751,14 @@ NCCN
     product1 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -13729,6 +14790,7 @@ entry(
     reactant1 = 
 """
 NCCN
+1
 1 C 0 0 {2,S} {3,T}
 2 C 0 0 {1,S} {4,T}
 3 N 0 1 {1,T}
@@ -13736,12 +14798,14 @@ NCCN
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -13749,6 +14813,7 @@ NCO
     product2 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -13777,6 +14842,7 @@ entry(
     reactant1 = 
 """
 NCCN
+1
 1 C 0 0 {2,S} {3,T}
 2 C 0 0 {1,S} {4,T}
 3 N 0 1 {1,T}
@@ -13785,12 +14851,14 @@ NCCN
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -13799,6 +14867,7 @@ HOCN
     product2 = 
 """
 CN
+2
 1 C 1 0 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -13827,6 +14896,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -13834,12 +14904,14 @@ NCO
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -13847,6 +14919,7 @@ CO2
     product2 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
@@ -13875,6 +14948,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -13882,12 +14956,14 @@ NCO
     reactant2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -13895,6 +14971,7 @@ N2O
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -13923,18 +15000,21 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
 """,
     product1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -13966,6 +15046,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -13973,12 +15054,14 @@ NCO
     reactant2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -13987,6 +15070,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -14014,24 +15098,28 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -14060,23 +15148,27 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -14106,6 +15198,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14113,17 +15206,20 @@ NCO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -14152,24 +15248,28 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
 """,
     reactant2 = 
 """
-N
-1 N 3Q 1
+N_(Q)
+4
+1 N 3 1
 """,
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -14198,6 +15298,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14205,12 +15306,14 @@ NCO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -14218,8 +15321,9 @@ HNCO
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14246,6 +15350,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14253,19 +15358,22 @@ NCO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
-HON(T)
-1 O 0  2 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 N 2T 1 {1,S}
+HON_(T)
+3
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 N 2 1 {1,S}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -14294,6 +15402,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14301,23 +15410,27 @@ NCO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -14346,6 +15459,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14353,6 +15467,7 @@ NCO
     reactant2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -14360,6 +15475,7 @@ NO2
     product1 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -14367,6 +15483,7 @@ CO2
     product2 = 
 """
 N2O
+1
 1 N 0 0 {2,D} {3,D}
 2 N 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -14396,6 +15513,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14403,6 +15521,7 @@ NCO
     reactant2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -14410,18 +15529,21 @@ NO2
     product1 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product3 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -14450,6 +15572,7 @@ entry(
     reactant1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14457,6 +15580,7 @@ NCO
     reactant2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14466,6 +15590,7 @@ CH4
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -14474,6 +15599,7 @@ HNCO
     product2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14504,6 +15630,7 @@ entry(
     reactant1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -14512,14 +15639,16 @@ HCNO
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = PDepArrhenius(
@@ -14548,6 +15677,7 @@ entry(
     reactant1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -14556,11 +15686,13 @@ HCNO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -14569,6 +15701,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -14596,6 +15729,7 @@ entry(
     reactant1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -14604,11 +15738,13 @@ HCNO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HCN
+1
 1 C 0 0 {2,S} {3,T}
 2 H 0 0 {1,S}
 3 N 0 1 {1,T}
@@ -14616,6 +15752,7 @@ HCN
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -14644,6 +15781,7 @@ entry(
     reactant1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -14652,11 +15790,13 @@ HCNO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14664,6 +15804,7 @@ NH2
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -14692,6 +15833,7 @@ entry(
     reactant1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -14700,11 +15842,13 @@ HCNO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -14713,6 +15857,7 @@ HOCN
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -14740,6 +15885,7 @@ entry(
     reactant1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -14747,12 +15893,14 @@ HCNO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HCO
+2
 1 C 1 0 {2,S} {3,D}
 2 H 0 0 {1,S}
 3 O 0 2 {1,D}
@@ -14760,6 +15908,7 @@ HCO
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -14788,6 +15937,7 @@ entry(
     reactant1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -14796,20 +15946,23 @@ HCNO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCOH
-1 C 2S 0 {2,S} {3,S}
-2 O 0  2 {1,S} {4,S}
-3 H 0  0 {1,S}
-4 H 0  0 {2,S}
+1
+1 C 2 0 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -14838,6 +15991,7 @@ entry(
     reactant1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -14846,11 +16000,13 @@ HOCN
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -14859,6 +16015,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -14886,6 +16043,7 @@ entry(
     reactant1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -14894,11 +16052,13 @@ HOCN
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14906,6 +16066,7 @@ NH2
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -14934,6 +16095,7 @@ entry(
     reactant1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -14942,17 +16104,20 @@ HOCN
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -14982,6 +16147,7 @@ entry(
     reactant1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -14989,18 +16155,21 @@ HOCN
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -15030,6 +16199,7 @@ entry(
     reactant1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -15038,12 +16208,14 @@ HOCN
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15051,6 +16223,7 @@ H2O
     product2 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -15080,6 +16253,7 @@ entry(
     reactant1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -15088,6 +16262,7 @@ HOCN
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15096,6 +16271,7 @@ CH3
     product1 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15105,6 +16281,7 @@ CH4
     product2 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -15134,6 +16311,7 @@ entry(
     reactant1 = 
 """
 HOCN
+1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,T}
 3 H 0 0 {1,S}
@@ -15142,6 +16320,7 @@ HOCN
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15149,6 +16328,7 @@ NH2
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -15156,6 +16336,7 @@ NCO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15186,6 +16367,7 @@ entry(
     reactant1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15193,13 +16375,15 @@ HNCO
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -15226,6 +16410,7 @@ entry(
     reactant1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15234,11 +16419,13 @@ HNCO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15246,6 +16433,7 @@ NH2
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -15274,6 +16462,7 @@ entry(
     reactant1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15281,12 +16470,14 @@ HNCO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -15294,6 +16485,7 @@ HNO
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -15322,6 +16514,7 @@ entry(
     reactant1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15329,18 +16522,21 @@ HNCO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
-NH(T)
-1 N 2T 1 {2,S}
-2 H 0  0 {1,S}
+NH_(T)
+3
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -15370,6 +16566,7 @@ entry(
     reactant1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15378,12 +16575,14 @@ HNCO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15391,6 +16590,7 @@ NH2
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -15420,6 +16620,7 @@ entry(
     reactant1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15428,12 +16629,14 @@ HNCO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -15441,6 +16644,7 @@ NCO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15470,6 +16674,7 @@ entry(
     reactant1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15478,6 +16683,7 @@ HNCO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15485,6 +16691,7 @@ NH2
     product1 = 
 """
 NCO
+2
 1 C 0 0 {2,T} {3,S}
 2 N 0 1 {1,T}
 3 O 1 2 {1,S}
@@ -15492,6 +16699,7 @@ NCO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15522,6 +16730,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15531,6 +16740,7 @@ CH2NO
     product1 = 
 """
 HNCO
+1
 1 N 0 1 {2,D} {3,S}
 2 C 0 0 {1,D} {4,D}
 3 H 0 0 {1,S}
@@ -15539,6 +16749,7 @@ HNCO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -15568,6 +16779,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15576,13 +16788,15 @@ CH2NO
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15591,6 +16805,7 @@ CH2O
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -15620,6 +16835,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15629,11 +16845,13 @@ CH2NO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15642,6 +16860,7 @@ CH3
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -15670,6 +16889,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15679,11 +16899,13 @@ CH2NO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -15692,6 +16914,7 @@ HCNO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -15720,6 +16943,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15728,12 +16952,14 @@ CH2NO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15742,6 +16968,7 @@ CH2O
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -15770,6 +16997,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15778,12 +17006,14 @@ CH2NO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -15792,6 +17022,7 @@ HCNO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -15820,6 +17051,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15829,12 +17061,14 @@ CH2NO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -15844,6 +17078,7 @@ CH2OH
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -15872,6 +17107,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15881,12 +17117,14 @@ CH2NO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -15895,6 +17133,7 @@ HCNO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15924,6 +17163,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15933,6 +17173,7 @@ CH2NO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15941,6 +17182,7 @@ CH3
     product1 = 
 """
 C2H5
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -15952,6 +17194,7 @@ C2H5
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -15980,6 +17223,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -15989,6 +17233,7 @@ CH2NO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15997,6 +17242,7 @@ CH3
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -16005,6 +17251,7 @@ HCNO
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16036,6 +17283,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -16045,6 +17293,7 @@ CH2NO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16052,6 +17301,7 @@ NH2
     product1 = 
 """
 CH2NH2
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -16062,6 +17312,7 @@ CH2NH2
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -16090,6 +17341,7 @@ entry(
     reactant1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -16099,6 +17351,7 @@ CH2NO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16106,6 +17359,7 @@ NH2
     product1 = 
 """
 HCNO
+1
 1 C 0 0 {2,T} {3,S}
 2 N 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -16114,6 +17368,7 @@ HCNO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16144,6 +17399,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16154,11 +17410,13 @@ CH3NO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -16168,6 +17426,7 @@ CH2NO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -16196,6 +17455,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16205,12 +17465,14 @@ CH3NO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -16220,6 +17482,7 @@ CH2NO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -16248,6 +17511,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16258,12 +17522,14 @@ CH3NO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -16273,6 +17539,7 @@ CH2NO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16302,6 +17569,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16312,6 +17580,7 @@ CH3NO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16320,6 +17589,7 @@ CH3
     product1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -16329,6 +17599,7 @@ CH2NO
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16360,6 +17631,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16370,6 +17642,7 @@ CH3NO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16377,6 +17650,7 @@ NH2
     product1 = 
 """
 CH2NO
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -16386,6 +17660,7 @@ CH2NO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16416,6 +17691,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16426,11 +17702,13 @@ CH3NO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16439,6 +17717,7 @@ CH3
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -16468,6 +17747,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16477,12 +17757,14 @@ CH3NO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16491,6 +17773,7 @@ CH3
     product2 = 
 """
 NO2
+2
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -16520,6 +17803,7 @@ entry(
     reactant1 = 
 """
 CH3NO
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 N 0 1 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -16530,12 +17814,14 @@ CH3NO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16544,6 +17830,7 @@ CH3
     product2 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -16573,20 +17860,23 @@ entry(
     index = 341,
     reactant1 = 
 """
-HON(S)
-1 O 0  2 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 N 2S 1 {1,S}
+HON_(S)
+1
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 N 2 1 {1,S}
 """,
     product1 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -16616,19 +17906,22 @@ entry(
     index = 342,
     reactant1 = 
 """
-HON(S)
-1 O 0  2 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 N 2S 1 {1,S}
+HON_(S)
+1
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 N 2 1 {1,S}
 """,
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -16636,6 +17929,7 @@ HNO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -16662,27 +17956,31 @@ entry(
     index = 343,
     reactant1 = 
 """
-HON(S)
-1 O 0  2 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 N 2S 1 {1,S}
+HON_(S)
+1
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 N 2 1 {1,S}
 """,
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
-NH(S)
-1 N 2S 1 {2,S}
-2 H 0  0 {1,S}
+NH_(S)
+1
+1 N 2 1 {2,S}
+2 H 0 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16708,25 +18006,29 @@ entry(
     index = 344,
     reactant1 = 
 """
-HON(S)
-1 O 0  2 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 N 2S 1 {1,S}
+HON_(S)
+1
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 N 2 1 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NO
+2
 1 N 1 1 {2,D}
 2 O 0 2 {1,D}
 """,
@@ -16754,20 +18056,23 @@ entry(
     index = 345,
     reactant1 = 
 """
-HON(S)
-1 O 0  2 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 N 2S 1 {1,S}
+HON_(S)
+1
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 N 2 1 {1,S}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -16776,6 +18081,7 @@ HONO
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -16802,20 +18108,23 @@ entry(
     index = 346,
     reactant1 = 
 """
-HON(S)
-1 O 0  2 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 N 2S 1 {1,S}
+HON_(S)
+1
+1 O 0 2 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 N 2 1 {1,S}
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HONO
+1
 1 O 0 2 {2,S} {3,S}
 2 N 0 1 {1,S} {4,D}
 3 H 0 0 {1,S}
@@ -16823,8 +18132,9 @@ HONO
 """,
     product2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16851,14 +18161,16 @@ entry(
     reactant1 = 
 """
 HCOH
-1 C 2S 0 {2,S} {3,S}
-2 O 0  2 {1,S} {4,S}
-3 H 0  0 {1,S}
-4 H 0  0 {2,S}
+1
+1 C 2 0 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,S} {3,S} {4,D}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16891,6 +18203,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -16900,11 +18213,13 @@ NH2OH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -16913,6 +18228,7 @@ HNOH
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -16941,6 +18257,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -16950,11 +18267,13 @@ NH2OH
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16963,6 +18282,7 @@ NH2O
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -16991,6 +18311,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -16999,12 +18320,14 @@ NH2OH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17013,6 +18336,7 @@ HNOH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -17041,6 +18365,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17049,12 +18374,14 @@ NH2OH
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17063,6 +18390,7 @@ NH2O
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -17091,6 +18419,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17100,12 +18429,14 @@ NH2OH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17114,6 +18445,7 @@ HNOH
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17143,6 +18475,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17152,12 +18485,14 @@ NH2OH
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17166,6 +18501,7 @@ NH2O
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17195,6 +18531,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17204,6 +18541,7 @@ NH2OH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17212,6 +18550,7 @@ CH3
     product1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17220,6 +18559,7 @@ HNOH
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17251,6 +18591,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17260,6 +18601,7 @@ NH2OH
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17268,6 +18610,7 @@ CH3
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17276,6 +18619,7 @@ NH2O
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17307,6 +18651,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17316,6 +18661,7 @@ NH2OH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17323,6 +18669,7 @@ NH2
     product1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17331,6 +18678,7 @@ HNOH
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17361,6 +18709,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17370,6 +18719,7 @@ NH2OH
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17377,6 +18727,7 @@ NH2
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17385,6 +18736,7 @@ NH2O
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17415,6 +18767,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17424,6 +18777,7 @@ NH2OH
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -17431,6 +18785,7 @@ HO2
     product1 = 
 """
 HNOH
+2
 1 N 1 1 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17439,6 +18794,7 @@ HNOH
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17469,6 +18825,7 @@ entry(
     reactant1 = 
 """
 NH2OH
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17478,6 +18835,7 @@ NH2OH
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -17485,6 +18843,7 @@ HO2
     product1 = 
 """
 NH2O
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17493,6 +18852,7 @@ NH2O
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17523,6 +18883,7 @@ entry(
     reactant1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -17532,12 +18893,14 @@ NH2NO
     product1 = 
 """
 N2
+1
 1 N 0 1 {2,T}
 2 N 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17569,6 +18932,7 @@ entry(
     reactant1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -17578,11 +18942,13 @@ NH2NO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -17591,6 +18957,7 @@ HNNO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -17619,6 +18986,7 @@ entry(
     reactant1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -17627,12 +18995,14 @@ NH2NO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -17641,6 +19011,7 @@ HNNO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -17669,6 +19040,7 @@ entry(
     reactant1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -17678,12 +19050,14 @@ NH2NO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -17692,6 +19066,7 @@ HNNO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17721,6 +19096,7 @@ entry(
     reactant1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -17730,6 +19106,7 @@ NH2NO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17738,6 +19115,7 @@ CH3
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -17746,6 +19124,7 @@ HNNO
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17777,6 +19156,7 @@ entry(
     reactant1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -17786,6 +19166,7 @@ NH2NO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17793,6 +19174,7 @@ NH2
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -17801,6 +19183,7 @@ HNNO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17831,6 +19214,7 @@ entry(
     reactant1 = 
 """
 NH2NO
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,D}
 3 H 0 0 {1,S}
@@ -17840,6 +19224,7 @@ NH2NO
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -17847,6 +19232,7 @@ HO2
     product1 = 
 """
 HNNO
+2
 1 N 0 1 {2,D} {3,S}
 2 N 0 1 {1,D} {4,S}
 3 H 0 0 {1,S}
@@ -17855,6 +19241,7 @@ HNNO
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17885,6 +19272,7 @@ entry(
     reactant1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -17895,6 +19283,7 @@ H2NNHO
     product1 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17902,6 +19291,7 @@ NH2
     product2 = 
 """
 HNO
+1
 1 N 0 1 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -17933,6 +19323,7 @@ entry(
     reactant1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -17943,11 +19334,13 @@ H2NNHO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HNNHO
+2
 1 N 0 0 {2,S} {3,S} {4,D}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -17957,6 +19350,7 @@ HNNHO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -17985,6 +19379,7 @@ entry(
     reactant1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -17994,12 +19389,14 @@ H2NNHO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 HNNHO
+2
 1 N 0 0 {2,S} {3,S} {4,D}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -18009,6 +19406,7 @@ HNNHO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -18037,6 +19435,7 @@ entry(
     reactant1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -18047,12 +19446,14 @@ H2NNHO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HNNHO
+2
 1 N 0 0 {2,S} {3,S} {4,D}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -18062,6 +19463,7 @@ HNNHO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -18091,6 +19493,7 @@ entry(
     reactant1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -18101,6 +19504,7 @@ H2NNHO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -18109,6 +19513,7 @@ CH3
     product1 = 
 """
 HNNHO
+2
 1 N 0 0 {2,S} {3,S} {4,D}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -18118,6 +19523,7 @@ HNNHO
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -18149,6 +19555,7 @@ entry(
     reactant1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -18159,6 +19566,7 @@ H2NNHO
     reactant2 = 
 """
 NH2
+2
 1 N 1 1 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -18166,6 +19574,7 @@ NH2
     product1 = 
 """
 HNNHO
+2
 1 N 0 0 {2,S} {3,S} {4,D}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -18175,6 +19584,7 @@ HNNHO
     product2 = 
 """
 NH3
+1
 1 N 0 1 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -18205,6 +19615,7 @@ entry(
     reactant1 = 
 """
 H2NNHO
+2
 1 N 0 1 {2,S} {3,S} {4,S}
 2 N 0 1 {1,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -18215,6 +19626,7 @@ H2NNHO
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 O 1 2 {1,S}
@@ -18222,6 +19634,7 @@ HO2
     product1 = 
 """
 HNNHO
+2
 1 N 0 0 {2,S} {3,S} {4,D}
 2 N 1 1 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -18231,6 +19644,7 @@ HNNHO
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
