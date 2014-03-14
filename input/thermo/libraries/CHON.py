@@ -12,6 +12,7 @@ Table 46. Entropy of Gas - Organic Compounds
 entry(
     index = 1,
     label = "CH3NO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -37,6 +38,7 @@ u"""
 entry(
     index = 2,
     label = "CH3NO2a",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -63,6 +65,7 @@ u"""
 entry(
     index = 3,
     label = "CH3NO2b",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -89,6 +92,7 @@ u"""
 entry(
     index = 4,
     label = "CH3NO3",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -116,6 +120,7 @@ u"""
 entry(
     index = 5,
     label = "C2H3NO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
@@ -142,6 +147,7 @@ u"""
 entry(
     index = 6,
     label = "C2H5NOa",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -170,6 +176,7 @@ u"""
 entry(
     index = 7,
     label = "C2H5NOb",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -198,6 +205,7 @@ u"""
 entry(
     index = 8,
     label = "C2H5NO2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -227,6 +235,7 @@ u"""
 entry(
     index = 9,
     label = "C2H5NO3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -257,6 +266,7 @@ u"""
 entry(
     index = 10,
     label = "C2H7NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -287,6 +297,7 @@ u"""
 entry(
     index = 11,
     label = "C2H7NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -317,6 +328,7 @@ u"""
 entry(
     index = 12,
     label = "C3H5NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,D}
@@ -346,6 +358,7 @@ u"""
 entry(
     index = 13,
     label = "C3H5NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -375,6 +388,7 @@ u"""
 entry(
     index = 14,
     label = "C3H5NOc",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -404,6 +418,7 @@ u"""
 entry(
     index = 15,
     label = "C3H7NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -435,6 +450,7 @@ u"""
 entry(
     index = 16,
     label = "C3H7NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -466,6 +482,7 @@ u"""
 entry(
     index = 17,
     label = "C3H7NO2a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -498,6 +515,7 @@ u"""
 entry(
     index = 18,
     label = "C3H7NO2b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -530,6 +548,7 @@ u"""
 entry(
     index = 19,
     label = "C3H7NO3a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -563,6 +582,7 @@ u"""
 entry(
     index = 20,
     label = "C3H7NO3b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -596,6 +616,7 @@ u"""
 entry(
     index = 21,
     label = "C3H9NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -629,6 +650,7 @@ u"""
 entry(
     index = 22,
     label = "C3H9NOd",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -662,6 +684,7 @@ u"""
 entry(
     index = 23,
     label = "C4H5NO2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,T} {3,S}
@@ -693,6 +716,7 @@ u"""
 entry(
     index = 24,
     label = "C4H7NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -725,6 +749,7 @@ u"""
 entry(
     index = 25,
     label = "C4H7NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {6,S} {7,S} {8,S}
@@ -757,6 +782,7 @@ u"""
 entry(
     index = 26,
     label = "C4H7NOc",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
@@ -789,6 +815,7 @@ u"""
 entry(
     index = 27,
     label = "C4H7NOd",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -821,6 +848,7 @@ u"""
 entry(
     index = 28,
     label = "C4H9NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {4,S} {6,S} {7,S} {8,S}
@@ -855,6 +883,7 @@ u"""
 entry(
     index = 29,
     label = "C4H9NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {7,S} {8,S}
@@ -889,6 +918,7 @@ u"""
 entry(
     index = 30,
     label = "C4H9NO2a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {8,S} {9,S}
@@ -924,6 +954,7 @@ u"""
 entry(
     index = 31,
     label = "C4H9NO2b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -959,6 +990,7 @@ u"""
 entry(
     index = 32,
     label = "C4H9NO2c",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -994,6 +1026,7 @@ u"""
 entry(
     index = 33,
     label = "C4H9NO2d",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1029,6 +1062,7 @@ u"""
 entry(
     index = 34,
     label = "C4H11NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -1065,6 +1099,7 @@ u"""
 entry(
     index = 35,
     label = "C4H11NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {7,S}
@@ -1101,6 +1136,7 @@ u"""
 entry(
     index = 36,
     label = "C4H11NOc",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {7,S}
@@ -1137,6 +1173,7 @@ u"""
 entry(
     index = 37,
     label = "C4H11NOd",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
@@ -1173,6 +1210,7 @@ u"""
 entry(
     index = 38,
     label = "C4H11NOe",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {7,S}
@@ -1209,6 +1247,7 @@ u"""
 entry(
     index = 39,
     label = "C4H11NOf",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1245,6 +1284,7 @@ u"""
 entry(
     index = 40,
     label = "C4H11NOg",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {9,S} {10,S}
@@ -1281,6 +1321,7 @@ u"""
 entry(
     index = 41,
     label = "C4H11NOh",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
@@ -1317,6 +1358,7 @@ u"""
 entry(
     index = 42,
     label = "C4H11NOi",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -1353,6 +1395,7 @@ u"""
 entry(
     index = 46,
     label = "C4H11NO2a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {8,S} {9,S}
@@ -1390,6 +1433,7 @@ u"""
 entry(
     index = 47,
     label = "C4H11NO2b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {4,S} {6,S} {7,S} {10,S}
@@ -1427,6 +1471,7 @@ u"""
 entry(
     index = 48,
     label = "C4H11NO2c",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1464,6 +1509,7 @@ u"""
 entry(
     index = 49,
     label = "C4H11NO2d",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {8,S}
@@ -1501,6 +1547,7 @@ u"""
 entry(
     index = 50,
     label = "C4H12N2O",
+    multiplicity = 1,
     molecule = 
 """
 1  N 0 1 {2,S} {8,S} {9,S}
@@ -1539,6 +1586,7 @@ u"""
 entry(
     index = 51,
     label = "C5H7NO2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,T} {3,S}
@@ -1573,6 +1621,7 @@ u"""
 entry(
     index = 52,
     label = "C5H9NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
@@ -1608,6 +1657,7 @@ u"""
 entry(
     index = 53,
     label = "C5H9NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
@@ -1643,6 +1693,7 @@ u"""
 entry(
     index = 54,
     label = "C5H9NOc",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -1678,6 +1729,7 @@ u"""
 entry(
     index = 55,
     label = "C5H9NOd",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1713,6 +1765,7 @@ u"""
 entry(
     index = 56,
     label = "C5H9NO4",
+    multiplicity = 1,
     molecule = 
 """
 1  N 0 1 {2,S} {11,S} {12,S}
@@ -1751,6 +1804,7 @@ u"""
 entry(
     index = 57,
     label = "C5H11NO",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1788,6 +1842,7 @@ u"""
 entry(
     index = 58,
     label = "C5H11NO2a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {9,S} {10,S}
@@ -1826,6 +1881,7 @@ u"""
 entry(
     index = 59,
     label = "C5H11NO2b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
@@ -1864,6 +1920,7 @@ u"""
 entry(
     index = 60,
     label = "C5H11NO2c",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
@@ -1902,6 +1959,7 @@ u"""
 entry(
     index = 61,
     label = "C5H11NO2d",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -1940,6 +1998,7 @@ u"""
 entry(
     index = 62,
     label = "C5H11NO2e",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {7,S}
@@ -1978,6 +2037,7 @@ u"""
 entry(
     index = 63,
     label = "C5H11NO2f",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -2016,6 +2076,7 @@ u"""
 entry(
     index = 64,
     label = "C5H11NO2g",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -2054,6 +2115,7 @@ u"""
 entry(
     index = 65,
     label = "C5H11NO2h",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -2092,6 +2154,7 @@ u"""
 entry(
     index = 66,
     label = "C5H13NO2a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {6,S} {9,S} {10,S}
@@ -2132,6 +2195,7 @@ u"""
 entry(
     index = 67,
     label = "C5H13NO2b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
@@ -2172,6 +2236,7 @@ u"""
 entry(
     index = 68,
     label = "C6H4N2O4a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,B} {5,B} {7,S}
@@ -2207,6 +2272,7 @@ u"""
 entry(
     index = 69,
     label = "C6H4N2O4b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,B} {4,B} {7,S}
@@ -2242,6 +2308,7 @@ u"""
 entry(
     index = 70,
     label = "C6H4N2O4c",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,B} {6,B} {7,S}
@@ -2277,6 +2344,7 @@ u"""
 entry(
     index = 71,
     label = "C6H5NO2",
+    multiplicity = 1,
     molecule = 
 """
 1  N 0 0 {2,D} {3,S} {4,S}
@@ -2310,6 +2378,7 @@ u"""
 entry(
     index = 72,
     label = "C6H6N2O2a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,B} {5,B} {7,S}
@@ -2345,6 +2414,7 @@ u"""
 entry(
     index = 73,
     label = "C6H6N2O2b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,B} {4,B} {7,S}
@@ -2380,6 +2450,7 @@ u"""
 entry(
     index = 74,
     label = "C6H6N2O2c",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,B} {6,B} {7,S}
@@ -2415,6 +2486,7 @@ u"""
 entry(
     index = 75,
     label = "C6H8N2O",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,T} {3,S}
@@ -2451,6 +2523,7 @@ u"""
 entry(
     index = 76,
     label = "C6H11NOa",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {10,S} {11,S}
@@ -2489,6 +2562,7 @@ u"""
 entry(
     index = 77,
     label = "C6H11NOb",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {11,S} {12,S}
@@ -2527,6 +2601,7 @@ u"""
 entry(
     index = 78,
     label = "C6H13NO2a",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {10,S} {11,S}
@@ -2568,6 +2643,7 @@ u"""
 entry(
     index = 79,
     label = "C6H13NO2b",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {7,S} {8,S}
@@ -2609,6 +2685,7 @@ u"""
 entry(
     index = 80,
     label = "C6H13NO2c",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
@@ -2650,6 +2727,7 @@ u"""
 entry(
     index = 81,
     label = "C6H13NO2d",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {8,S}
@@ -2691,6 +2769,7 @@ u"""
 entry(
     index = 82,
     label = "C6H13NO2e",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {5,S} {8,S}
@@ -2732,6 +2811,7 @@ u"""
 entry(
     index = 83,
     label = "C6H13NO2f",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {6,S} {8,S}
@@ -2773,6 +2853,7 @@ u"""
 entry(
     index = 84,
     label = "C6H13NO2g",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {7,S}
@@ -2814,6 +2895,7 @@ u"""
 entry(
     index = 85,
     label = "C6H13NO2h",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {8,S}
@@ -2855,6 +2937,7 @@ u"""
 entry(
     index = 86,
     label = "C6H13NO2i",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {4,S} {5,S} {8,S}
@@ -2896,6 +2979,7 @@ u"""
 entry(
     index = 87,
     label = "C6H13NO2j",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {8,S}
@@ -2937,6 +3021,7 @@ u"""
 entry(
     index = 88,
     label = "C6H13NO2k",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -2978,6 +3063,7 @@ u"""
 entry(
     index = 89,
     label = "C6H13NO2l",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3019,6 +3105,7 @@ u"""
 entry(
     index = 90,
     label = "C6H13NO2m",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {6,S} {9,S}
@@ -3060,6 +3147,7 @@ u"""
 entry(
     index = 91,
     label = "C6H13NO2n",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3101,6 +3189,7 @@ u"""
 entry(
     index = 92,
     label = "C6H13NO2o",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
@@ -3142,6 +3231,7 @@ u"""
 entry(
     index = 93,
     label = "C6H13NO2p",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3183,6 +3273,7 @@ u"""
 entry(
     index = 94,
     label = "C6H13NO2q",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {8,S}
@@ -3224,6 +3315,7 @@ u"""
 entry(
     index = 95,
     label = "C6H14N2O2",
+    multiplicity = 1,
     molecule = 
 """
 1  N 0 1 {2,S} {11,S} {12,S}
@@ -3267,6 +3359,7 @@ u"""
 entry(
     index = 96,
     label = "C6H15NO2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {10,S} {11,S}
@@ -3310,6 +3403,7 @@ u"""
 entry(
     index = 97,
     label = "C6H15NO3",
+    multiplicity = 1,
     molecule = 
 """
 1  N 0 1 {2,S} {5,S} {8,S}
