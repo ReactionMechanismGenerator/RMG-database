@@ -8,12 +8,13 @@ longDesc = u"""
 """
 entry(
     index = 3,
-    label = "CH2(S)",
+    label = "CH2_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 2S 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -30,12 +31,13 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 4,
-    label = "CH2(T)",
+    label = "CH2_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 2T 0 {2,S} {3,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
+1 C 2 0 {2,S} {3,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -53,6 +55,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 5,
     label = "CH3",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -76,6 +79,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 6,
     label = "CH4",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -100,6 +104,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 7,
     label = "OH",
+    multiplicity = 2,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -122,6 +127,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC ===
 entry(
     index = 8,
     label = "H2O",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -144,6 +150,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 9,
     label = "CO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 1 {2,T}
@@ -165,6 +172,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 10,
     label = "HCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,D} {3,S}
@@ -187,6 +195,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 11,
     label = "CH2O",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -209,13 +218,14 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 12,
-    label = "HCOH(S)",
+    label = "HCOH_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 2S 0 {2,S} {3,S}
-2 O 0  2 {1,S} {4,S}
-3 H 0  0 {1,S}
-4 H 0  0 {2,S}
+1 C 2 0 {2,S} {3,S}
+2 O 0 2 {1,S} {4,S}
+3 H 0 0 {1,S}
+4 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -233,6 +243,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 14,
     label = "CH3O",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -257,6 +268,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 15,
     label = "CH2OH",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -281,6 +293,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 16,
     label = "CH3OH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -306,6 +319,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 18,
     label = "HO2",
+    multiplicity = 2,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -328,6 +342,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 19,
     label = "HOOH",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -351,6 +366,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 20,
     label = "CO2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,D}
@@ -373,6 +389,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 21,
     label = "HOCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,D}
@@ -396,6 +413,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 22,
     label = "formyloxy",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -419,6 +437,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 23,
     label = "formic_acid",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -443,6 +462,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 24,
     label = "CH3OO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -468,6 +488,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 26,
     label = "CH3OOH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -494,6 +515,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 35,
     label = "HC2",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,T}
@@ -516,6 +538,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 36,
     label = "C2H2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -538,13 +561,14 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 38,
-    label = "H2CC(S)",
+    label = "H2CC_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,D} {3,S} {4,S}
-2 C 2S 0 {1,D}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 2 0 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -562,6 +586,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 40,
     label = "C2H3",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -586,13 +611,14 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 41,
     label = "CCH3",
+    multiplicity = 4,
     molecule = 
 """
-1 C 0  0 {2,S} {3,S} {4,S} {5,S}
-2 C 3Q 0 {1,S}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 H 0  0 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 3 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -610,6 +636,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 42,
     label = "C2H4",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -634,15 +661,16 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 44,
-    label = "CHCH3(S)",
+    label = "CHCH3_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,S} {3,S} {4,S} {5,S}
-2 C 2S 0 {1,S} {6,S}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 H 0  0 {1,S}
-6 H 0  0 {2,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 2 0 {1,S} {6,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -660,6 +688,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 46,
     label = "C2H5",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -686,6 +715,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 47,
     label = "C2H6",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -712,12 +742,13 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 49,
-    label = "C2O(T)",
+    label = "C2O_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 C 2T 0 {2,D}
-2 C 0  0 {1,D} {3,D}
-3 O 0  2 {2,D}
+1 C 2 0 {2,D}
+2 C 0 0 {1,D} {3,D}
+3 O 0 2 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -735,6 +766,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 50,
     label = "HCCO",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,D} {4,S}
@@ -758,6 +790,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 220,
     label = "HCN",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,T}
@@ -780,6 +813,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 221,
     label = "HNC",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {3,T}
@@ -802,6 +836,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 222,
     label = "HNCO",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,D} {3,S}
@@ -825,6 +860,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 223,
     label = "HOCN",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -848,6 +884,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 224,
     label = "HCNO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -871,6 +908,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 225,
     label = "HONC",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -894,6 +932,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 226,
     label = "HNCNJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 1 {2,D} {3,S}
@@ -917,6 +956,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 228,
     label = "CH_NO2_3",
+    multiplicity = 1,
     molecule = 
 """
 1  H 0 0 {2,S}
@@ -947,6 +987,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 229,
     label = "CH2NJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,D}
@@ -970,6 +1011,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 231,
     label = "HCNHJ_cis",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,D} {3,S}
@@ -993,6 +1035,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 233,
     label = "CH2NOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -1017,6 +1060,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 entry(
     index = 235,
     label = "CH2NO2J",
+    multiplicity = 2,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -1042,6 +1086,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 entry(
     index = 238,
     label = "CH2NN",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -1066,6 +1111,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 243,
     label = "CH2_NO2_2",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -1094,13 +1140,14 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 244,
     label = "CH3NJJ",
+    multiplicity = 3,
     molecule = 
 """
-1 C 0  0 {2,S} {3,S} {4,S} {5,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 N 2T 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 N 2 1 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1118,6 +1165,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 245,
     label = "CH3NO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1143,6 +1191,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 248,
     label = "HOCHNH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,D} {4,S}
@@ -1168,6 +1217,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 249,
     label = "CH3NO2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1194,6 +1244,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 250,
     label = "CH3ONO",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -1220,6 +1271,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 251,
     label = "CH3ONO2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1247,6 +1299,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 252,
     label = "CH3NNJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1272,6 +1325,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 253,
     label = "CH2NNHJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {4,S} {5,S}
@@ -1297,6 +1351,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 254,
     label = "CH3NHJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1322,6 +1377,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 255,
     label = "CH2NH2J",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -1347,6 +1403,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 259,
     label = "CH3NH2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1373,6 +1430,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 263,
     label = "CH3NHNH2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1401,6 +1459,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 264,
     label = "CNJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,T}
@@ -1422,6 +1481,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 265,
     label = "NCOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -1443,7 +1503,8 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 266,
-    label = "CNNJJ",
+    label = "CNNJJ_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 N 0 0 {2,T} {3,S}
@@ -1465,7 +1526,8 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 267,
-    label = "NCNJJ",
+    label = "NCNJJ_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 C 0 0 {2,D} {3,D}
@@ -1488,6 +1550,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 268,
     label = "C_NO2_4",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {5,S} {8,S} {11,S}
@@ -1519,7 +1582,8 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 269,
-    label = "HCCNJJ",
+    label = "HCCNJJ_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -1543,6 +1607,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 272,
     label = "CH2CNJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -1567,6 +1632,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 273,
     label = "CH2NCJ",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -1591,6 +1657,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 276,
     label = "CH3CN",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1616,6 +1683,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 277,
     label = "CH3NC",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1641,6 +1709,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 284,
     label = "C2H5NO2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1670,6 +1739,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 286,
     label = "C2H5NNN",
+    multiplicity = 2,
     molecule = 
 """
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1698,6 +1768,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 290,
     label = "CH3_2_NNO2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -1729,6 +1800,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, one rigid r
 entry(
     index = 291,
     label = "CH3NHCH3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1758,6 +1830,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 295,
     label = "N_CH3_2_NH2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {9,S}
@@ -1789,6 +1862,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 297,
     label = "NCCN",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,T}
@@ -1812,6 +1886,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 298,
     label = "NO2CCNO2",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,T} {3,S}
@@ -1839,6 +1914,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 301,
     label = "HCCCN",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -1863,6 +1939,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 314,
     label = "C3H7CN",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1894,6 +1971,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 316,
     label = "C4H9NO2",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -1929,6 +2007,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 318,
     label = "HONO",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,D}
@@ -1952,6 +2031,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 319,
     label = "NO2OH",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {3,S} {4,D}
@@ -1975,11 +2055,12 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 320,
-    label = "NHJJ",
+    label = "NH_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 H 0  0 {2,S}
-2 N 2T 1 {1,S}
+1 H 0 0 {2,S}
+2 N 2 1 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1997,6 +2078,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 321,
     label = "NH2J",
+    multiplicity = 2,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -2019,6 +2101,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 322,
     label = "NH2OJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -2042,6 +2125,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 323,
     label = "NH3",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -2065,6 +2149,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 324,
     label = "NH2OH",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {3,S}
@@ -2089,6 +2174,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 325,
     label = "NOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 1 1 {2,D}
@@ -2110,6 +2196,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 326,
     label = "NO2J",
+    multiplicity = 2,
     molecule = 
 """
 1 N 1 0 {2,D} {3,S}
@@ -2132,6 +2219,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 327,
     label = "NO3J",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 0 {2,D} {3,S} {4,S}
@@ -2155,6 +2243,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 328,
     label = "N2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,T}
@@ -2176,6 +2265,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 329,
     label = "NNHJ",
+    multiplicity = 2,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -2198,6 +2288,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 330,
     label = "HNNH",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,D} {3,S}
@@ -2221,6 +2312,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 331,
     label = "NH2NO2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -2246,6 +2338,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 entry(
     index = 332,
     label = "NH2NHJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -2270,6 +2363,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, rigid scan
 entry(
     index = 333,
     label = "NH2NH2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -2295,6 +2389,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 334,
     label = "N2O",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,D} {3,D}
@@ -2317,6 +2412,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 335,
     label = "NO2NO",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {3,D} {4,S}
@@ -2341,6 +2437,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 336,
     label = "NO2NO2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {3,D} {4,S}
@@ -2366,6 +2463,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 337,
     label = "NO2ONO2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {3,S} {4,D} {5,S}
@@ -2392,6 +2490,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 338,
     label = "NNNJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 1 1 {2,D}
@@ -2414,6 +2513,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 339,
     label = "HNNN",
+    multiplicity = 1,
     molecule = 
 """
 1 H 0 0 {2,S}
@@ -2437,6 +2537,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 340,
     label = "NO2ONO",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {4,D} {5,S}
@@ -2462,6 +2563,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 343,
     label = "NNH2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {3,S} {4,D}
@@ -2485,6 +2587,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 345,
     label = "HNOHJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 1 1 {2,S} {3,S}
@@ -2508,11 +2611,12 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 346,
     label = "NOHJJ",
+    multiplicity = 3,
     molecule = 
 """
-1 O 0  2 {2,S} {3,S}
-2 N 2T 1 {1,S}
-3 H 0  0 {1,S}
+1 O 0 2 {2,S} {3,S}
+2 N 2 1 {1,S}
+3 H 0 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2530,6 +2634,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 347,
     label = "HNO",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,D}
@@ -2552,6 +2657,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 348,
     label = "N_CH3_3",
+    multiplicity = 1,
     molecule = 
 """
 1  N 0 1 {2,S} {6,S} {10,S}
@@ -2584,6 +2690,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 352,
     label = "CNOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 0 {2,D} {3,D}
@@ -2606,6 +2713,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 353,
     label = "CH2NH",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,D} {3,S} {4,S}
@@ -2630,6 +2738,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 354,
     label = "ONNO_cis",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,D}
@@ -2653,6 +2762,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 355,
     label = "ONNOJJ_cis",
+    multiplicity = 3,
     molecule = 
 """
 1 N 0 1 {2,D} {3,S}
@@ -2676,6 +2786,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 entry(
     index = 356,
     label = "HCNN",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,D} {3,S}
@@ -2699,6 +2810,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 357,
     label = "ONOONO",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -2724,6 +2836,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no O-O roto
 entry(
     index = 358,
     label = "HNO2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {3,D} {4,S}
@@ -2747,6 +2860,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 359,
     label = "HNO2JJ",
+    multiplicity = 3,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -2770,6 +2884,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, MOLPRO NoSy
 entry(
     index = 360,
     label = "ONOOH",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -2794,6 +2909,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 361,
     label = "ONONO",
+    multiplicity = 1,
     molecule = 
 """
 1 O 0 2 {2,S} {3,S}
@@ -2818,6 +2934,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 363,
     label = "NO2OOH",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,D} {3,S} {4,S}
@@ -2843,6 +2960,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 364,
     label = "ONOOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 1 {2,S} {3,D}
@@ -2866,6 +2984,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geomet
 entry(
     index = 365,
     label = "NO2OOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 0 {2,D} {3,S} {4,S}
@@ -2890,6 +3009,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geomet
 entry(
     index = 368,
     label = "HNOO",
+    multiplicity = 3,
     molecule = 
 """
 1 N 1 1 {2,S} {3,S}
@@ -2913,6 +3033,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 369,
     label = "NH2OOH",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {4,S} {5,S}
@@ -2937,14 +3058,15 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, NH2 rotor r
 
 entry(
     index = 370,
-    label = "CH3N(S)",
+    label = "CH3N_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0  0 {2,S} {3,S} {4,S} {5,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
-5 N 2S 1 {1,S}
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
+5 N 2 1 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2962,6 +3084,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 371,
     label = "NH2OOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -2986,6 +3109,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 372,
     label = "NCNO",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,T}
@@ -3009,6 +3133,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 entry(
     index = 373,
     label = "HONNOH",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,D} {3,S}
@@ -3034,6 +3159,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 374,
     label = "HNOHOH",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -3058,12 +3184,13 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 376,
-    label = "HNC(T)",
+    label = "HNC_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 N 0  1 {2,S} {3,D}
-2 H 0  0 {1,S}
-3 C 2T 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 C 2 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3080,12 +3207,13 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 377,
-    label = "HNCJJ(S",
+    label = "HNCJJ_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 N 0  1 {2,S} {3,D}
-2 H 0  0 {1,S}
-3 C 2S 0 {1,D}
+1 N 0 1 {2,S} {3,D}
+2 H 0 0 {1,S}
+3 C 2 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3103,6 +3231,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 378,
     label = "HCNOJJ",
+    multiplicity = 3,
     molecule = 
 """
 1 C 1 0 {2,D} {3,S}
@@ -3126,6 +3255,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 383,
     label = "NCCOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 1 {2,T}
@@ -3149,6 +3279,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 386,
     label = "HNNOH",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,D} {3,S}
@@ -3173,6 +3304,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 389,
     label = "ONOONO2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,S} {5,D} {6,S}
@@ -3199,6 +3331,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 392,
     label = "NO2OONO2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 0 {2,D} {3,S} {4,S}
@@ -3226,6 +3359,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 395,
     label = "CH3NNN",
+    multiplicity = 1,
     molecule = 
 """
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -3252,6 +3386,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 398,
     label = "HNNNH2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {4,S} {5,S}
@@ -3277,6 +3412,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 entry(
     index = 400,
     label = "NH2NHOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -3302,6 +3438,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 401,
     label = "CH3C_NO2_3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -3335,6 +3472,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 402,
     label = "CH3NONOCH3",
+    multiplicity = 1,
     molecule = 
 """
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
@@ -3366,6 +3504,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, not N=N rot
 entry(
     index = 403,
     label = "CH_NO2_2J",
+    multiplicity = 2,
     molecule = 
 """
 1 C 1 0 {2,S} {3,S} {4,S}
@@ -3393,6 +3532,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 431,
     label = "NH2NO",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,S} {3,S} {4,S}
@@ -3417,9 +3557,10 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 432,
     label = "NNOJJ",
+    multiplicity = 3,
     molecule = 
 """
-1 N 0 1 {2,D} {3,S}
+1 N 1 1 {2,D} {3,S}
 2 N 0 1 {1,D}
 3 O 1 2 {1,S}
 """,
@@ -3438,13 +3579,14 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 
 entry(
     index = 434,
-    label = "NNH2(S)",
+    label = "NNH2_(S)",
+    multiplicity = 1,
     molecule = 
 """
-1 N 0  0 {2,S} {3,S} {4,S}
-2 H 0  0 {1,S}
-3 H 0  0 {1,S}
-4 N 2S 2 {1,S}
+1 N 0 0 {2,S} {3,S} {4,S}
+2 H 0 0 {1,S}
+3 H 0 0 {1,S}
+4 N 2 2 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
