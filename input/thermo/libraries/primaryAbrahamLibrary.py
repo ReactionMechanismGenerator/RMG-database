@@ -8,7 +8,8 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "O2",
+    label = "O2_(T)",
+    multiplicity = 3,
     molecule = 
 """
 1 O 1 2 {2,S}
@@ -25,6 +26,7 @@ u"""
 entry(
     index = 2,
     label = "HOJ",
+    multiplicity = 2,
     molecule = 
 """
 1 O 1 2 {2,S}
