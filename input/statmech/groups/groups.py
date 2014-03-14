@@ -465,7 +465,7 @@ entry(
     label = "C_R2",
     group = 
 """
-1 * C {2S,2T}
+1 * C 2
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -696,7 +696,7 @@ entry(
     label = "R!Hx2",
     group = 
 """
-1 * R!H {2S,2T}
+1 * R!H 2
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -712,7 +712,7 @@ entry(
     label = "R!Hx3",
     group = 
 """
-1 * R!H {3D,3Q}
+1 * R!H 3
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -768,11 +768,11 @@ entry(
     label = "RsCH3x2",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   H   0       {1,S}
-4   H   0       {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -826,10 +826,10 @@ entry(
     label = "RdCH2x2",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H {2S,2T} {1,D}
-3   H   0       {1,S}
-4   H   0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 2 {1,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -941,11 +941,11 @@ entry(
     label = "RsCH2sRx02",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -961,11 +961,11 @@ entry(
     label = "RsCH2sRx12",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 1       {1,S}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 1 {1,S}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -981,11 +981,11 @@ entry(
     label = "RsCH2sRx22",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1039,10 +1039,10 @@ entry(
     label = "Aldehydex2",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   O   0       {1,D}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   O   0 {1,D}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1094,9 +1094,9 @@ entry(
     label = "Ketenex2",
     group = 
 """
-1 * C   0       {2,D} {3,D}
-2   O   0       {1,D}
-3   R!H {2S,2T} {1,D}
+1 * C   0 {2,D} {3,D}
+2   O   0 {1,D}
+3   R!H 2 {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1166,9 +1166,9 @@ entry(
     label = "Cumulenex02",
     group = 
 """
-1 * C 0       {2,D} {3,D}
-2   C 0       {1,D}
-3   C {2S,2T} {1,D}
+1 * C 0 {2,D} {3,D}
+2   C 0 {1,D}
+3   C 2 {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1184,9 +1184,9 @@ entry(
     label = "Cumulenex12",
     group = 
 """
-1 * C 0       {2,D} {3,D}
-2   C 1       {1,D}
-3   C {2S,2T} {1,D}
+1 * C 0 {2,D} {3,D}
+2   C 1 {1,D}
+3   C 2 {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1202,9 +1202,9 @@ entry(
     label = "Cumulenex22",
     group = 
 """
-1 * C 0       {2,D} {3,D}
-2   C {2S,2T} {1,D}
-3   C {2S,2T} {1,D}
+1 * C 0 {2,D} {3,D}
+2   C 2 {1,D}
+3   C 2 {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1296,10 +1296,10 @@ entry(
     label = "CdCHsRx02",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   C   0       {1,D}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   C   0 {1,D}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1315,10 +1315,10 @@ entry(
     label = "CdCHsRx20",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   C   {2S,2T} {1,D}
-3   R!H 0       {1,S}
-4   H   0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   C   2 {1,D}
+3   R!H 0 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1334,10 +1334,10 @@ entry(
     label = "CdCHsRx12",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   C   1       {1,D}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   C   1 {1,D}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1353,10 +1353,10 @@ entry(
     label = "CdCHsRx21",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   C   {2S,2T} {1,D}
-3   R!H 1       {1,S}
-4   H   0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   C   2 {1,D}
+3   R!H 1 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1372,10 +1372,10 @@ entry(
     label = "CdCHsRx22",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   C   {2S,2T} {1,D}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   C   2 {1,D}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1463,9 +1463,9 @@ entry(
     label = "CtCsRx02",
     group = 
 """
-1 * C   0       {2,T} {3,S}
-2   C   0       {1,T}
-3   R!H {2S,2T} {1,S}
+1 * C   0 {2,T} {3,S}
+2   C   0 {1,T}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1481,9 +1481,9 @@ entry(
     label = "CtCsRx12",
     group = 
 """
-1 * C   0       {2,T} {3,S}
-2   C   1       {1,T}
-3   R!H {2S,2T} {1,S}
+1 * C   0 {2,T} {3,S}
+2   C   1 {1,T}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1539,11 +1539,11 @@ entry(
     label = "RsCHsR2x222",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1579,11 +1579,11 @@ entry(
     label = "RsCHsR2x002",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H 0       {1,S}
-4   R!H {2S,2T} {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 2 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1619,11 +1619,11 @@ entry(
     label = "RsCHsR2x112",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 1       {1,S}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 1 {1,S}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1639,11 +1639,11 @@ entry(
     label = "RsCHsR2x220",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H 0       {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 0 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1659,11 +1659,11 @@ entry(
     label = "RsCHsR2x221",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H 1       {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 1 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1679,11 +1679,11 @@ entry(
     label = "RsCHsR2x012",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
-5   H   0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
+5   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1756,10 +1756,10 @@ entry(
     label = "RdCsR2x002",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H 0       {1,D}
-3   R!H 0       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 0 {1,D}
+3   R!H 0 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1775,10 +1775,10 @@ entry(
     label = "RdCsR2x012",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H 0       {1,D}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 0 {1,D}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1794,10 +1794,10 @@ entry(
     label = "RdCsR2x022",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H 0       {1,D}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 0 {1,D}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1870,10 +1870,10 @@ entry(
     label = "RdCsR2x102",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H 1       {1,D}
-3   R!H 0       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 1 {1,D}
+3   R!H 0 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1889,10 +1889,10 @@ entry(
     label = "RdCsR2x112",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H 1       {1,D}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 1 {1,D}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1908,10 +1908,10 @@ entry(
     label = "RdCsR2x122",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H 1       {1,D}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 1 {1,D}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1927,10 +1927,10 @@ entry(
     label = "RdCsR2x200",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H {2S,2T} {1,D}
-3   R!H 0       {1,S}
-4   R!H 0       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 2 {1,D}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1946,10 +1946,10 @@ entry(
     label = "RdCsR2x201",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H {2S,2T} {1,D}
-3   R!H 0       {1,S}
-4   R!H 1       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 2 {1,D}
+3   R!H 0 {1,S}
+4   R!H 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1965,10 +1965,10 @@ entry(
     label = "RdCsR2x211",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H {2S,2T} {1,D}
-3   R!H 1       {1,S}
-4   R!H 1       {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 2 {1,D}
+3   R!H 1 {1,S}
+4   R!H 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -1984,10 +1984,10 @@ entry(
     label = "RdCsR2x202",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H {2S,2T} {1,D}
-3   R!H 0       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 2 {1,D}
+3   R!H 0 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2003,10 +2003,10 @@ entry(
     label = "RdCsR2x212",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H {2S,2T} {1,D}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 2 {1,D}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2022,10 +2022,10 @@ entry(
     label = "RdCsR2x222",
     group = 
 """
-1 * C   0       {2,D} {3,S} {4,S}
-2   R!H {2S,2T} {1,D}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   R!H 2 {1,D}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2098,10 +2098,10 @@ entry(
     label = "Ketonex02",
     group = 
 """
-1 * C 0       {2,D} {3,S} {4,S}
-2   O 0       {1,D}
-3   C 0       {1,S}
-4   C {2S,2T} {1,S}
+1 * C 0 {2,D} {3,S} {4,S}
+2   O 0 {1,D}
+3   C 0 {1,S}
+4   C 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2117,10 +2117,10 @@ entry(
     label = "Ketonex12",
     group = 
 """
-1 * C 0       {2,D} {3,S} {4,S}
-2   O 0       {1,D}
-3   C 1       {1,S}
-4   C {2S,2T} {1,S}
+1 * C 0 {2,D} {3,S} {4,S}
+2   O 0 {1,D}
+3   C 1 {1,S}
+4   C 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2136,10 +2136,10 @@ entry(
     label = "Ketonex22",
     group = 
 """
-1 * C 0       {2,D} {3,S} {4,S}
-2   O 0       {1,D}
-3   C {2S,2T} {1,S}
-4   C {2S,2T} {1,S}
+1 * C 0 {2,D} {3,S} {4,S}
+2   O 0 {1,D}
+3   C 2 {1,S}
+4   C 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2195,11 +2195,11 @@ entry(
     label = "RsCsR3x2222",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2235,11 +2235,11 @@ entry(
     label = "RsCsR3x0002",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H 0       {1,S}
-4   R!H 0       {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2275,11 +2275,11 @@ entry(
     label = "RsCsR3x1112",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 1       {1,S}
-3   R!H 1       {1,S}
-4   R!H 1       {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 1 {1,S}
+3   R!H 1 {1,S}
+4   R!H 1 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2295,11 +2295,11 @@ entry(
     label = "RsCsR3x2220",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
-5   R!H 0       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
+5   R!H 0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2315,11 +2315,11 @@ entry(
     label = "RsCsR3x2221",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
-5   R!H 1       {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
+5   R!H 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2355,11 +2355,11 @@ entry(
     label = "RsCsR3x0022",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H 0       {1,S}
-4   R!H {2S,2T} {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 2 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2375,11 +2375,11 @@ entry(
     label = "RsCsR3x1122",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 1       {1,S}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 1 {1,S}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2395,11 +2395,11 @@ entry(
     label = "RsCsR3x0012",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H 0       {1,S}
-4   R!H 1       {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 1 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2415,11 +2415,11 @@ entry(
     label = "RsCsR3x0112",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H 1       {1,S}
-4   R!H 1       {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 1 {1,S}
+4   R!H 1 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2435,11 +2435,11 @@ entry(
     label = "RsCsR3x0122",
     group = 
 """
-1 * C   0       {2,S} {3,S} {4,S} {5,S}
-2   R!H 0       {1,S}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
-5   R!H {2S,2T} {1,S}
+1 * C   0 {2,S} {3,S} {4,S} {5,S}
+2   R!H 0 {1,S}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
+5   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2493,10 +2493,10 @@ entry(
     label = "RsCH2rx2",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H {2S,2T} {1,S}
-3   H   0       {1,S}
-4   H   0       {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 2 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2548,9 +2548,9 @@ entry(
     label = "RdCHrx2",
     group = 
 """
-1 * C   1       {2,D} {3,S}
-2   R!H {2S,2T} {1,D}
-3   H   0       {1,S}
+1 * C   1 {2,D} {3,S}
+2   R!H 2 {1,D}
+3   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2657,10 +2657,10 @@ entry(
     label = "RsCHrsRx02",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H 0       {1,S}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 0 {1,S}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2676,10 +2676,10 @@ entry(
     label = "RsCHrsRx12",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H 1       {1,S}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 1 {1,S}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2695,10 +2695,10 @@ entry(
     label = "RsCHrsRx22",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   H   0       {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2750,9 +2750,9 @@ entry(
     label = "OdCrsRx2",
     group = 
 """
-1 * C   1       {2,D} {3,S}
-2   O   0       {1,D}
-3   R!H {2S,2T} {1,S}
+1 * C   1 {2,D} {3,S}
+2   O   0 {1,D}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2840,9 +2840,9 @@ entry(
     label = "CdCrsRx02",
     group = 
 """
-1 * C   1       {2,D} {3,S}
-2   C   0       {1,D}
-3   R!H {2S,2T} {1,S}
+1 * C   1 {2,D} {3,S}
+2   C   0 {1,D}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2858,9 +2858,9 @@ entry(
     label = "CdCrsRx20",
     group = 
 """
-1 * C   1       {2,D} {3,S}
-2   C   {2S,2T} {1,D}
-3   R!H 0       {1,S}
+1 * C   1 {2,D} {3,S}
+2   C   2 {1,D}
+3   R!H 0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2876,9 +2876,9 @@ entry(
     label = "CdCrsRx12",
     group = 
 """
-1 * C   1       {2,D} {3,S}
-2   C   1       {1,D}
-3   R!H {2S,2T} {1,S}
+1 * C   1 {2,D} {3,S}
+2   C   1 {1,D}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2894,9 +2894,9 @@ entry(
     label = "CdCrsRx21",
     group = 
 """
-1 * C   1       {2,D} {3,S}
-2   C   {2S,2T} {1,D}
-3   R!H 1       {1,S}
+1 * C   1 {2,D} {3,S}
+2   C   2 {1,D}
+3   R!H 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2912,9 +2912,9 @@ entry(
     label = "CdCrsRx22",
     group = 
 """
-1 * C   1       {2,D} {3,S}
-2   C   {2S,2T} {1,D}
-3   R!H {2S,2T} {1,S}
+1 * C   1 {2,D} {3,S}
+2   C   2 {1,D}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -2968,10 +2968,10 @@ entry(
     label = "RsCrsR2x222",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3006,10 +3006,10 @@ entry(
     label = "RsCrsR2x002",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H 0       {1,S}
-3   R!H 0       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3044,10 +3044,10 @@ entry(
     label = "RsCrsR2x112",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H 1       {1,S}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 1 {1,S}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3063,10 +3063,10 @@ entry(
     label = "RsCrsR2x220",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H 0       {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3082,10 +3082,10 @@ entry(
     label = "RsCrsR2x221",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
-4   R!H 1       {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
+4   R!H 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3101,10 +3101,10 @@ entry(
     label = "RsCrsR2x012",
     group = 
 """
-1 * C   1       {2,S} {3,S} {4,S}
-2   R!H 0       {1,S}
-3   R!H 1       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 0 {1,S}
+3   R!H 1 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3120,9 +3120,9 @@ entry(
     label = "RsCHrrx0",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H 0       {1,S}
-3   H   0       {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 0 {1,S}
+3   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3138,9 +3138,9 @@ entry(
     label = "RsCHrrx1",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H 1       {1,S}
-3   H   0       {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 1 {1,S}
+3   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3156,9 +3156,9 @@ entry(
     label = "RsCHrrx2",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H {2S,2T} {1,S}
-3   H   0       {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 2 {1,S}
+3   H   0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3174,8 +3174,8 @@ entry(
     label = "RdCrrx0",
     group = 
 """
-1 * C   {2S,2T} {2,D}
-2   R!H 0       {1,D}
+1 * C   2 {2,D}
+2   R!H 0 {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3191,8 +3191,8 @@ entry(
     label = "RdCrrx1",
     group = 
 """
-1 * C   {2S,2T} {2,D}
-2   R!H 1       {1,D}
+1 * C   2 {2,D}
+2   R!H 1 {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3208,8 +3208,8 @@ entry(
     label = "RdCrrx2",
     group = 
 """
-1 * C   {2S,2T} {2,D}
-2   R!H {2S,2T} {1,D}
+1 * C   2 {2,D}
+2   R!H 2 {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3225,9 +3225,9 @@ entry(
     label = "RsCrrsRx00",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H 0       {1,S}
-3   R!H 0       {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3243,9 +3243,9 @@ entry(
     label = "RsCrrsRx01",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H 0       {1,S}
-3   R!H 1       {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 0 {1,S}
+3   R!H 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3261,9 +3261,9 @@ entry(
     label = "RsCrrsRx11",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H 1       {1,S}
-3   R!H 1       {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 1 {1,S}
+3   R!H 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3279,9 +3279,9 @@ entry(
     label = "RsCrrsRx02",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H 0       {1,S}
-3   R!H {2S,2T} {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 0 {1,S}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3297,9 +3297,9 @@ entry(
     label = "RsCrrsRx12",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H 1       {1,S}
-3   R!H {2S,2T} {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 1 {1,S}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3315,9 +3315,9 @@ entry(
     label = "RsCrrsRx22",
     group = 
 """
-1 * C   {2S,2T} {2,S} {3,S}
-2   R!H {2S,2T} {1,S}
-3   R!H {2S,2T} {1,S}
+1 * C   2 {2,S} {3,S}
+2   R!H 2 {1,S}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3369,9 +3369,9 @@ entry(
     label = "Alcoholx2",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C {2S,2T} {1,S}
-3   H 0       {1,S}
+1 * O 0 {2,S} {3,S}
+2   C 2 {1,S}
+3   H 0 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3441,9 +3441,9 @@ entry(
     label = "Etherx02",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C 0       {1,S}
-3   C {2S,2T} {1,S}
+1 * O 0 {2,S} {3,S}
+2   C 0 {1,S}
+3   C 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3459,9 +3459,9 @@ entry(
     label = "Etherx12",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C 1       {1,S}
-3   C {2S,2T} {1,S}
+1 * O 0 {2,S} {3,S}
+2   C 1 {1,S}
+3   C 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3477,9 +3477,9 @@ entry(
     label = "Etherx22",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C {2S,2T} {1,S}
-3   C {2S,2T} {1,S}
+1 * O 0 {2,S} {3,S}
+2   C 2 {1,S}
+3   C 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3533,10 +3533,10 @@ entry(
     label = "ROOHx2",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C {2S,2T} {1,S}
-3   O 0       {1,S} {4,S}
-4   H 0       {3,S}
+1 * O 0 {2,S} {3,S}
+2   C 2 {1,S}
+3   O 0 {1,S} {4,S}
+4   H 0 {3,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3609,10 +3609,10 @@ entry(
     label = "ROORx02",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C 0       {1,S}
-3   O 0       {1,S} {4,S}
-4   C {2S,2T} {3,S}
+1 * O 0 {2,S} {3,S}
+2   C 0 {1,S}
+3   O 0 {1,S} {4,S}
+4   C 2 {3,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3628,10 +3628,10 @@ entry(
     label = "ROORx12",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C 1       {1,S}
-3   O 0       {1,S} {4,S}
-4   C {2S,2T} {3,S}
+1 * O 0 {2,S} {3,S}
+2   C 1 {1,S}
+3   O 0 {1,S} {4,S}
+4   C 2 {3,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3647,10 +3647,10 @@ entry(
     label = "ROORx22",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C {2S,2T} {1,S}
-3   O 0       {1,S} {4,S}
-4   C {2S,2T} {3,S}
+1 * O 0 {2,S} {3,S}
+2   C 2 {1,S}
+3   O 0 {1,S} {4,S}
+4   C 2 {3,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3702,9 +3702,9 @@ entry(
     label = "Peroxyx2",
     group = 
 """
-1 * O 0       {2,S} {3,S}
-2   C {2S,2T} {1,S}
-3   O 1       {1,S}
+1 * O 0 {2,S} {3,S}
+2   C 2 {1,S}
+3   O 1 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -3754,8 +3754,8 @@ entry(
     label = "Oxyx2",
     group = 
 """
-1 * O 1       {2,S}
-2   C {2S,2T} {1,S}
+1 * O 1 {2,S}
+2   C 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -4157,9 +4157,9 @@ entry(
     label = "Nitrilex2",
     group = 
 """
-1 * N   0       {2,T}
-2   C   0       {1,T} {3,S}
-3   C   {2S,2T} {2,S}
+1 * N   0 {2,T}
+2   C   0 {1,T} {3,S}
+3   C   2 {2,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -4230,9 +4230,9 @@ entry(
     label = "Nitrosox2",
     group = 
 """
-1 * N   0       {2,D} {3,S}
-2   O   0       {1,D}
-3   R!H {2S,2T} {1,S}
+1 * N   0 {2,D} {3,S}
+2   O   0 {1,D}
+3   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -4348,10 +4348,10 @@ entry(
     label = "Nitrox2",
     group = 
 """
-1 * N   0       {2,D} {3,S} {4,S}
-2   O   0       {1,D}
-3   O   0       {1,S}
-4   R!H {2S,2T} {1,S}
+1 * N   0 {2,D} {3,S} {4,S}
+2   O   0 {1,D}
+3   O   0 {1,S}
+4   R!H 2 {1,S}
 """,
     statmech = None,
     shortDesc = u"""""",
