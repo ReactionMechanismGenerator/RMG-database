@@ -13,22 +13,26 @@ entry(
     reactant1 = 
 """
 H
+2
 1 H 1 0
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -124,23 +128,27 @@ entry(
     index = 2,
     reactant1 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     reactant2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -180,18 +188,21 @@ entry(
     reactant1 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -199,6 +210,7 @@ H2O
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -226,23 +238,27 @@ entry(
     reactant1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -272,6 +288,7 @@ entry(
     reactant1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -279,6 +296,7 @@ H2O
     reactant2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -286,17 +304,20 @@ H2O
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product3 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -335,6 +356,7 @@ entry(
     reactant1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -342,17 +364,20 @@ HO2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -391,6 +416,7 @@ entry(
     reactant1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -398,17 +424,20 @@ HO2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -437,24 +466,28 @@ entry(
     reactant1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -485,6 +518,7 @@ entry(
     reactant1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -492,19 +526,22 @@ HO2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -533,6 +570,7 @@ entry(
     reactant1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -540,6 +578,7 @@ HO2
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -547,6 +586,7 @@ HO2
     product1 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -554,7 +594,8 @@ H2O2
 """,
     product2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -597,6 +638,7 @@ entry(
     reactant1 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -605,11 +647,13 @@ H2O2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -617,6 +661,7 @@ H2O
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -645,6 +690,7 @@ entry(
     reactant1 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -653,11 +699,13 @@ H2O2
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -665,6 +713,7 @@ HO2
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -693,6 +742,7 @@ entry(
     reactant1 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -700,18 +750,21 @@ H2O2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -741,6 +794,7 @@ entry(
     reactant1 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -749,12 +803,14 @@ H2O2
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -762,6 +818,7 @@ HO2
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -802,17 +859,20 @@ entry(
     reactant1 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 H
+2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -842,17 +902,20 @@ entry(
     index = 19,
     reactant1 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -883,17 +946,20 @@ entry(
     index = 20,
     reactant1 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -920,6 +986,7 @@ entry(
     reactant1 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -927,11 +994,13 @@ H2O
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -964,17 +1033,20 @@ entry(
     reactant1 = 
 """
 H
+2
 1 H 1 0
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1018,6 +1090,7 @@ entry(
     reactant1 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -1026,12 +1099,14 @@ H2O2
     product1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
