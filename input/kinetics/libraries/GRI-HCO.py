@@ -13,6 +13,7 @@ entry(
     reactant1 = 
 """
 HCO
+2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -20,6 +21,7 @@ HCO
     reactant2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -27,17 +29,20 @@ H2O
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -68,6 +73,7 @@ entry(
     reactant1 = 
 """
 HCO
+2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -75,11 +81,13 @@ HCO
     product1 = 
 """
 H
+2
 1 H 1 0
 """,
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
