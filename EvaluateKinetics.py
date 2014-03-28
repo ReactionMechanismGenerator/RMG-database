@@ -432,7 +432,7 @@ def checkFamilies(FullDatabase):
             problemsExist=[]
             for problem in problems:
                 problemsExist.append(not problem==[] and not problem=={})
-            if not problemsExist==[False, False, False, False, False]:
+            if True in problemsExist:
                 outputFile.write(family + '\n')
                 if problemsExist[0]:
                     outputFile.write('\n' + 'These groups exist in rules.py but not groups.py:' + '\n')
@@ -454,12 +454,23 @@ def checkFamilies(FullDatabase):
                     for group in problems[2]:
                         outputFile.write(group + '\n')
                 if problemsExist[3]:
-                    outputFile.write('\n' + 'These groups are not actually subgroups of their parent' + '\n')
-                    for group, parent in problems[3].iteritems():
-                        outputFile.write('Child: ' + group + ', Parent: ' + parent + '\n') 
+                    outputFile.write('\n' + 'These groups are not unique' + '\n')
+                    for key, groups in problems[3].iteritems():
+                        outputFile.write(key + ' matches ')
+                        for group in groups:
+                            if group==groups[-1]:
+                                if len(groups)>1:
+                                    outputFile.write('and ')
+                                outputFile.write(group + '\n')
+                            else:
+                                outputFile.write(group +', ' )
                 if problemsExist[4]:
+                    outputFile.write('\n' + 'These groups are not actually subgroups of their parent' + '\n')
+                    for group, parent in problems[4].iteritems():
+                        outputFile.write('Child: ' + group + ', Parent: ' + parent + '\n') 
+                if problemsExist[5]:
                     outputFile.write('\n' + 'These groups are probably products, but you should check them anyway' + '\n')
-                    for group in problems[4]:
+                    for group in problems[5]:
                         outputFile.write(group + '\n')
                 outputFile.write('\n\n')
 if __name__ == '__main__':
