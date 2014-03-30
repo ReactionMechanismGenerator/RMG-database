@@ -22,7 +22,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
+    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad, H_rad}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -41,8 +41,8 @@ entry(
     label = "XH_Rrad",
     group = 
 """
-1 *2 R!H 0 {2,S} {3,S}
-2 *3 R!H 1 {1,S}
+1 *2 R!H 0 {2,{S,D}} {3,S}
+2 *3 R!H 1 {1,{S,D}}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -125,8 +125,7 @@ entry(
     label = "Y_rad",
     group = 
 """
-1 *1 R 1 {2,S}
-2    R 0 {1,S}
+1 *1 R 1
 """,
     kinetics = None,
     reference = None,
@@ -166,8 +165,8 @@ entry(
     label = "Ct_rad/Ct",
     group = 
 """
-1 *1 C 1 {2,T}
-2    C 0 {1,T}
+1 *1 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = None,
     reference = None,
@@ -1097,7 +1096,7 @@ entry(
 1 *1 C             1 {2,S} {3,S} {4,S}
 2    H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cs,O,S}      0 {1,S}
+4    {Cs,O,S,N}      0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1440,7 +1439,7 @@ entry(
     group = 
 """
 1 *2 Cd             0 {2,S} {3,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 """,
     kinetics = None,
@@ -1550,7 +1549,7 @@ entry(
     group = 
 """
 1 *2 CO             0 {2,S} {3,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 """,
     kinetics = None,
@@ -1660,7 +1659,7 @@ entry(
     group = 
 """
 1 *2 O              0 {2,S} {3,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 """,
     kinetics = None,
@@ -1858,7 +1857,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    H              0 {1,S}
 5    H              0 {1,S}
@@ -2002,7 +2001,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    H              0 {1,S}
 5    R!H            0 {1,S}
@@ -2026,7 +2025,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    H              0 {1,S}
 5    {Cs,O,S}       0 {1,S}
@@ -2146,7 +2145,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    H              0 {1,S}
 5    {Cd,Ct,Cb,CO}  0 {1,S}
@@ -2266,7 +2265,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    R!H            0 {1,S}
 5    R!H            0 {1,S}
@@ -2290,7 +2289,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    {Cs,O,S}       0 {1,S}
 5    {Cs,O,S}       0 {1,S}
@@ -2410,7 +2409,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    {Cs,O,S}       0 {1,S}
 5    {Cd,Ct,Cb,CO}  0 {1,S}
@@ -2530,7 +2529,7 @@ entry(
     group = 
 """
 1 *2 C              0 {2,S} {3,S} {4,S} {5,S}
-2 *3 {Cs,Cd,CO,O,S} 1 {1,S}
+2 *3 {Cs,Cd,CO,O,S,N} 1 {1,S}
 3 *4 H              0 {1,S}
 4    {Cd,Ct,Cb,CO}  0 {1,S}
 5    {Cd,Ct,Cb,CO}  0 {1,S}
@@ -2648,26 +2647,6 @@ entry(
     index = 200,
     label = "Y_1centertrirad",
     group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
-entry(
-    index = 201,
-    label = "N3_atom_quartet",
-    group = 
-"""
-1 *1 N3s 3
-""",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -3639,7 +3618,7 @@ entry(
     group = 
 """
 1 *2 N 0 {2,S} {3,S}
-2 *3 R 1 {1,S}
+2 *3 R!H 1 {1,S}
 3 *4 H 0 {1,S}
 """,
     kinetics = None,
@@ -3661,7 +3640,7 @@ entry(
     group = 
 """
 1 *2 N3s 0 {2,S} {3,S}
-2 *3 R   1 {1,S}
+2 *3 R!H   1 {1,S}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -3683,7 +3662,7 @@ entry(
     group = 
 """
 1 *2 N3s 0 {2,S} {3,S} {4,S}
-2 *3 R   1 {1,S}
+2 *3 R!H   1 {1,S}
 3 *4 H   0 {1,S}
 4    H   0 {1,S}
 """,
@@ -3821,7 +3800,7 @@ entry(
     group = 
 """
 1 *2 N3s         0 {2,S} {3,S} {4,S}
-2 *3 N           1 {1,S}
+2 *3 R!H           1 {1,S}
 3 *4 H           0 {1,S}
 4    {Cs,N3s,Os} 0 {1,S}
 """,
@@ -3844,7 +3823,7 @@ entry(
     group = 
 """
 1 *2 N3s           0 {2,S} {3,S} {4,S}
-2 *3 N             1 {1,S}
+2 *3 R!H             1 {1,S}
 3 *4 H             0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
@@ -3867,7 +3846,7 @@ entry(
     group = 
 """
 1 *2 {N5s,N5d} 0 {2,S} {3,S}
-2 *3 R         1 {1,S}
+2 *3 R!H         1 {1,S}
 3 *4 H         0 {1,S}
 """,
     kinetics = None,
@@ -4276,7 +4255,7 @@ entry(
     label = "N5d/H_d_Rrad",
     group = 
 """
-1 *2 N3d 0 {2,D} {3,S}
+1 *2 N5d 0 {2,D} {3,S}
 2 *3 R!H 1 {1,D}
 3 *4 H   0 {1,S}
 """,
@@ -4292,29 +4271,7 @@ u"""
         ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
     ],
 )
-
-entry(
-    index = 275,
-    label = "N5dd/H_d_Rrad",
-    group = 
-"""
-1 *2 N3d 0 {2,D} {3,S}
-2 *3 R!H 1 {1,D}
-3 *4 H   0 {1,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)   
-    
+  
 entry(
     index = 276,
     label = "XH_Rbirad",
@@ -4874,9 +4831,9 @@ L1: Y_rad_birad_trirad_quadrad
             L4: C_sec_rad
                 L5: C_rad/H/NonDeC
                 L5: C_rad/H/NonDeO
-                L5: C_rad/H/NonDeN
                     L6: C_rad/H/CsO
                     L6: C_rad/H/O2
+                L5: C_rad/H/NonDeN
                 L5: C_rad/H/NonDeS
                     L6: C_rad/H/CsS
                     L6: C_rad/H/S2
@@ -5007,8 +4964,7 @@ L1: XH_Rrad_birad
                 L5: N3d/H_d_Rrad            
                     L6: N3d/H_d_Crad        
                     L6: N3d/H_d_Nrad        
-                L5: N5d/H_d_Rrad            
-                L5: N5dd/H_d_Rrad            
+                L5: N5d/H_d_Rrad                      
     L2: XH_Rbirad                        
         L3: XH_s_Rbirad                    
             L4: CH_s_Rbirad                
