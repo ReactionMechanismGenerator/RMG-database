@@ -11,13 +11,8 @@ recommended = True
 entry(
     index = 485,
     label = "Y_rad_birad_trirad_quadrad;XH_Rrad_birad",
-    group1 = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
-    group2 = 
-"""
-1 *2 R!H 0 {2,S} {3,S}
-2 *3 R!H 1 {1,S}
-3 *4 H   0 {1,S}
-""",
+    group1 = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad, H_rad}",
+    group2 ="OR{XH_Rrad, XH_Rbirad}",
     kinetics = ArrheniusEP(
         A = (300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -41,7 +36,7 @@ u"""
 
 entry(
     index = 487,
-    label = "O2_birad;Cmethyl_Csrad",
+    label = "O2b;Cmethyl_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -715,7 +710,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 501,
-    label = "O2_birad;C/H2/Nd_Csrad",
+    label = "O2b;C/H2/Nd_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -1295,7 +1290,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 513,
-    label = "O2_birad;C/H/NdNd_Csrad",
+    label = "O2b;C/H/NdNd_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -1835,7 +1830,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 524,
-    label = "O2_birad;Cdpri_Csrad",
+    label = "O2b;Cdpri_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -2261,7 +2256,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 533,
-    label = "O2_birad;O_Csrad",
+    label = "O2b;O_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -2304,7 +2299,7 @@ JDM 31-Mar-2010
 
 entry(
     index = 534,
-    label = "O2_birad;O_Csrad",
+    label = "O2b;O_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -2347,7 +2342,7 @@ JDM 31-Mar-2010
 
 entry(
     index = 535,
-    label = "O2_birad;O_Csrad",
+    label = "O2b;O_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -3260,7 +3255,7 @@ u"""
 
 entry(
     index = 555,
-    label = "O2_birad;O_Csrad",
+    label = "O2b;O_Csrad",
     group1 = 
 """
 1 *1 O 1 {2,S}
@@ -3326,18 +3321,13 @@ This rate coefficient recommendation is up to 3x slower than the previous RMG-em
 
 entry(
     index = 556,
-    label = "O2_birad;XH_Rrad_birad",
+    label = "O2b;XH_Rrad_birad",
     group1 = 
 """
 1 *1 O 1 {2,S}
 2    O 1 {1,S}
 """,
-    group2 = 
-"""
-1 *2 R!H 0 {2,S} {3,S}
-2 *3 R!H 1 {1,S}
-3 *4 H   0 {1,S}
-""",
+    group2 = "OR{XH_Rrad, XH_Rbirad}",
     kinetics = ArrheniusEP(
         A = (300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
