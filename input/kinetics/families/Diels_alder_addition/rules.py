@@ -30,17 +30,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 0,
     shortDesc = u"""default""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -81,8 +76,6 @@ entry(
         Tmin = (464, 'K'),
         Tmax = (557, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [198]""",
     longDesc = 
@@ -92,9 +85,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.06-0.59 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -135,8 +125,6 @@ entry(
         Tmin = (464, 'K'),
         Tmax = (557, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [198]""",
     longDesc = 
@@ -146,9 +134,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.06-0.59 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -189,8 +174,6 @@ entry(
         Tmin = (515, 'K'),
         Tmax = (572, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
@@ -200,9 +183,6 @@ u"""
 
 Absolute value measured directly. Excitation: thermal. Pressure 0.64-0.78 atm
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -243,8 +223,6 @@ entry(
         Tmin = (515, 'K'),
         Tmax = (572, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
@@ -254,9 +232,6 @@ u"""
 
 Absolute value measured directly. Excitation: thermal. Pressure 0.64-0.78 atm
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -297,8 +272,6 @@ entry(
         Tmin = (1000, 'K'),
         Tmax = (1180, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""Simmie [199]""",
     longDesc = 
@@ -308,9 +281,6 @@ CH2=C(CH3)CH=CH2 + C2H4 --> 1-methyl-cyclohexane
 
 Data derived from fitting to a complex mechanism. Excitation: thermal. Analysis: GC. Presure 2.50 atm
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -351,8 +321,6 @@ entry(
         Tmin = (1000, 'K'),
         Tmax = (1180, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""Simmie [199]""",
     longDesc = 
@@ -362,9 +330,6 @@ CH2=C(CH3)CH=CH2 + C2H4 --> 1-methyl-cyclohexane
 
 Data derived from fitting to a complex mechanism. Excitation: thermal. Analysis: GC. Presure 2.50 atm
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -405,8 +370,6 @@ entry(
         Tmin = (492, 'K'),
         Tmax = (606, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
@@ -416,9 +379,6 @@ CH2=CHCHO + CH2=C(CH3)CH=CH2 --> 3-cyclohexene-1-carboxaldehyde,4-methyl
 
 Absolute value measured directly. Excitation: thermal. Pressure 0.64-0.78 atm
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -459,8 +419,6 @@ entry(
         Tmin = (492, 'K'),
         Tmax = (606, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
@@ -470,10 +428,6 @@ CH2=CHCHO + CH2=C(CH3)CH=CH2 --> 3-cyclohexene-1-carboxaldehyde,4-methyl
 
 Absolute value measured directly. Excitation: thermal. Pressure 0.64-0.78 atm
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -514,8 +468,6 @@ entry(
         Tmin = (450, 'K'),
         Tmax = (592, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [109]""",
     longDesc = 
@@ -525,10 +477,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.05-0.25 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -569,8 +517,6 @@ entry(
         Tmin = (488, 'K'),
         Tmax = (606, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
@@ -580,10 +526,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.07-0.82 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -624,8 +566,6 @@ entry(
         Tmin = (488, 'K'),
         Tmax = (606, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
@@ -635,9 +575,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.07-0.82 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -678,8 +615,6 @@ entry(
         Tmin = (488, 'K'),
         Tmax = (606, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
@@ -689,10 +624,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.07-0.82 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -733,8 +664,6 @@ entry(
         Tmin = (488, 'K'),
         Tmax = (606, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
@@ -744,9 +673,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.07-0.82 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -787,8 +713,6 @@ entry(
         Tmin = (488, 'K'),
         Tmax = (600, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
@@ -798,10 +722,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.07-0.82 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -842,8 +762,6 @@ entry(
         Tmin = (486, 'K'),
         Tmax = (600, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
@@ -853,10 +771,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.07-0.82 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -897,8 +811,6 @@ entry(
         Tmin = (488, 'K'),
         Tmax = (606, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
@@ -908,9 +820,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.07-0.82 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -951,8 +860,6 @@ entry(
         Tmin = (379, 'K'),
         Tmax = (581, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Van Mele et al [110]""",
     longDesc = 
@@ -962,10 +869,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.06-0.27 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1006,8 +909,6 @@ entry(
         Tmin = (379, 'K'),
         Tmax = (581, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Van Mele et al [110]""",
     longDesc = 
@@ -1017,9 +918,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.06-0.27 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1060,8 +958,6 @@ entry(
         Tmin = (437, 'K'),
         Tmax = (526, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [111]""",
     longDesc = 
@@ -1071,9 +967,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.15-0.64 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1114,8 +1007,6 @@ entry(
         Tmin = (437, 'K'),
         Tmax = (526, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Huybrechts et al. [111]""",
     longDesc = 
@@ -1125,9 +1016,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.15-0.64 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1168,8 +1056,6 @@ entry(
         Tmin = (379, 'K'),
         Tmax = (581, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Van Mele et al [110]""",
     longDesc = 
@@ -1179,10 +1065,6 @@ u"""
 
 Absolute value measured directly using thermal excitation technique and GC. Pressure 0.06-0.27 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1223,8 +1105,6 @@ entry(
         Tmin = (352, 'K'),
         Tmax = (423, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Benford et al [200]""",
     longDesc = 
@@ -1234,10 +1114,6 @@ Cyclopentadiene + cyclopentadiene --> Tricyclo[5.2.1.02,6]deca-c,8-diene.
 
 Absolute value measured directly using thermal excitation technique and mass spectrometry. Pressure 0.20-0.97 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1278,8 +1154,6 @@ entry(
         Tmin = (352, 'K'),
         Tmax = (423, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Benford et al [200]""",
     longDesc = 
@@ -1289,10 +1163,6 @@ Cyclopentadiene + cyclopentadiene --> Tricyclo[5.2.1.02,6]deca-c,8-diene.
 
 Absolute value measured directly using thermal excitation technique and mass spectrometry. Pressure 0.20-0.97 atm.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1332,15 +1202,10 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""A.G. Vandeputte""",
     longDesc = 
 u"""
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> importedd this entry by importing the old RMG database."""),
-    ],
 )
 

@@ -42,17 +42,12 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.\nReactions from Sendt et al. Proc. Comb. Inst. 2002\nNot including reactions 1, 19, 20, 21',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Reactions from Sendt et al. Proc. Comb. Inst. 2002
 Not including reactions 1, 19, 20, 21
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -89,16 +84,11 @@ SH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -133,16 +123,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -177,16 +162,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -223,16 +203,11 @@ SH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.\nUsing unadjusted singlet surface calculation for this one (see paper)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Using unadjusted singlet surface calculation for this one (see paper)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -271,16 +246,11 @@ S2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -317,16 +287,11 @@ S2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -363,16 +328,11 @@ S
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -409,16 +369,11 @@ SH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -459,16 +414,11 @@ S2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -507,16 +457,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -555,16 +500,11 @@ SH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -605,16 +545,11 @@ HSS
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -653,16 +588,11 @@ SH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -696,17 +626,12 @@ HSS
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1.0, '[Ar]': 0.88},
         comment = 'Reaction and kinetics from Sulfur\\Sendt.\nPressure dependent reactions from Sendt et al. Proc. Comb. Inst. 2002\nNot including reactions 1, 19, 20, 21',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Pressure dependent reactions from Sendt et al. Proc. Comb. Inst. 2002
 Not including reactions 1, 19, 20, 21
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -742,15 +667,10 @@ SH
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1.0, '[Ar]': 0.88},
         comment = 'Reaction and kinetics from Sulfur\\Sendt.\nA-factor could also be 2.31E14',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 A-factor could also be 2.31E14
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

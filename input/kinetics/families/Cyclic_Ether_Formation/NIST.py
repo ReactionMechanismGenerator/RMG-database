@@ -86,9 +86,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAL/HIS1615:8"""),
-    ],
 )
 
 entry(
@@ -169,9 +166,6 @@ Quantum calculations of energetics of pathways related to reaction between neope
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
-    history = [
-        ("Fri Jul 13 08:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:23"""),
-    ],
 )
 
 entry(
@@ -252,8 +246,5 @@ Quantum calculations of energetics of pathways related to reaction between neope
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
-    history = [
-        ("Fri Jul 13 08:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:24"""),
-    ],
 )
 

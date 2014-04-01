@@ -32,17 +32,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -69,17 +64,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -106,17 +96,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -143,17 +128,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -179,17 +159,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -215,17 +190,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -252,17 +222,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -289,17 +254,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -326,17 +286,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -363,17 +318,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -400,17 +350,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -437,17 +382,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -477,17 +417,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -517,17 +452,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -557,17 +487,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -597,17 +522,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -636,17 +556,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -675,17 +590,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -715,17 +625,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -755,17 +660,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -795,17 +695,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -835,17 +730,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -875,17 +765,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -915,17 +800,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -955,17 +835,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -995,17 +870,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1035,17 +905,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1074,17 +939,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1113,17 +973,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1153,17 +1008,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1193,17 +1043,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1233,17 +1078,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1273,17 +1113,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1313,17 +1148,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1353,17 +1183,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1393,17 +1218,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1433,17 +1253,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1472,17 +1287,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1511,17 +1321,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1551,17 +1356,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1591,17 +1391,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1631,17 +1426,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1671,17 +1461,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1711,17 +1496,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1751,17 +1531,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1786,17 +1561,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1824,17 +1594,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1859,17 +1624,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1897,17 +1657,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1935,17 +1690,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1973,17 +1723,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2014,17 +1759,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2055,17 +1795,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2091,17 +1826,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2126,17 +1856,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2162,17 +1887,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2200,17 +1920,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2236,17 +1951,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2272,17 +1982,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2311,17 +2016,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2349,17 +2049,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2388,17 +2083,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2429,17 +2119,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2468,17 +2153,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2507,17 +2187,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2544,17 +2219,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2581,17 +2251,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2618,17 +2283,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2655,17 +2315,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2691,17 +2346,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2727,17 +2377,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2765,17 +2410,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2803,17 +2443,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2841,17 +2476,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2878,17 +2508,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2915,17 +2540,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2952,17 +2572,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2992,17 +2607,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3032,17 +2642,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3072,17 +2677,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3112,17 +2712,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3151,17 +2746,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3190,17 +2780,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3231,17 +2816,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3272,17 +2852,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3313,17 +2888,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3353,17 +2923,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3393,17 +2958,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3433,17 +2993,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3473,17 +3028,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3513,17 +3063,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3553,17 +3098,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3592,17 +3132,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3631,17 +3166,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3671,17 +3201,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3711,17 +3236,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3751,17 +3271,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3791,17 +3306,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3831,17 +3341,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3871,17 +3376,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3911,17 +3411,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3951,17 +3446,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3990,17 +3480,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4029,17 +3514,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4070,17 +3550,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4111,17 +3586,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4152,17 +3622,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4192,17 +3657,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4232,17 +3692,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4272,17 +3727,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4307,17 +3757,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4345,17 +3790,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4380,17 +3820,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4418,17 +3853,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4456,17 +3886,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4494,17 +3919,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4535,17 +3955,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4576,17 +3991,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4612,17 +4022,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4647,17 +4052,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4683,17 +4083,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4721,17 +4116,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4757,17 +4147,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4793,17 +4178,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4832,17 +4212,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4870,17 +4245,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4909,17 +4279,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4950,17 +4315,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4989,17 +4349,12 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5028,16 +4383,11 @@ entry(
         Tmin = (500, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

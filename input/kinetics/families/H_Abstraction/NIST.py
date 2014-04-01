@@ -60,9 +60,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:109"""),
-    ],
 )
 
 entry(
@@ -119,9 +116,6 @@ u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991RAB/SUT674-681:3"""),
-    ],
 )
 
 entry(
@@ -176,9 +170,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:94"""),
-    ],
 )
 
 entry(
@@ -231,9 +222,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:108"""),
-    ],
 )
 
 entry(
@@ -287,9 +275,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978ART/BEL37-74:19"""),
-    ],
 )
 
 entry(
@@ -342,9 +327,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968WAL2391:2"""),
-    ],
 )
 
 entry(
@@ -404,10 +386,6 @@ Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonan
 
 Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:2"""),
-        ("Wed Jul 18 14:38:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed incorrect T and P ranges according to http://onlinelibrary.wiley.com/doi/10.1002/kin.20560/full"""),
-    ],
 )
 
 entry(
@@ -466,9 +444,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996KNY/BEN11346-11354:2"""),
-    ],
 )
 
 entry(
@@ -527,9 +502,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995BAE/SHI543-546:2"""),
-    ],
 )
 
 entry(
@@ -586,9 +558,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995BAE/SHI15925-15929:3"""),
-    ],
 )
 
 entry(
@@ -647,9 +616,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986MOL/MOZ854:3"""),
-    ],
 )
 
 entry(
@@ -708,9 +674,6 @@ Bath gas: (E)-CH3N=NCH3
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981MAR/SHA2271:1"""),
-    ],
 )
 
 entry(
@@ -769,9 +732,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974KOB/PAC3665:1"""),
-    ],
 )
 
 entry(
@@ -830,9 +790,6 @@ Bath gas: H2
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1956AYS/POL961:1"""),
-    ],
 )
 
 entry(
@@ -888,9 +845,6 @@ PrIMe Reaction: r00002017
 
 Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at the UMP2/6-31G(d,p) level. Eckart-level tunneling contributions are applied.
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA3107-3122:22"""),
-    ],
 )
 
 entry(
@@ -944,9 +898,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MAI/DUN2152-2159:1"""),
-    ],
 )
 
 entry(
@@ -1000,9 +951,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996ESP/COR16561-16567:2"""),
-    ],
 )
 
 entry(
@@ -1058,9 +1006,6 @@ u"""
 PrIMe Reaction: r00002017
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MAN/LOU1547-1555:9"""),
-    ],
 )
 
 entry(
@@ -1114,9 +1059,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985LER/SAN1447-1456:6"""),
-    ],
 )
 
 entry(
@@ -1170,9 +1112,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975ART/DON2431:1"""),
-    ],
 )
 
 entry(
@@ -1227,9 +1166,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973CLA/DOV2155:1"""),
-    ],
 )
 
 entry(
@@ -1286,9 +1222,6 @@ u"""
 PrIMe Reaction: r00002017
 Bath gas: (CH3)2O
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959BEN/JAI1008:3"""),
-    ],
 )
 
 entry(
@@ -1342,9 +1275,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1955POL1505:2"""),
-    ],
 )
 
 entry(
@@ -1404,10 +1334,6 @@ Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonan
 
 Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:1"""),
-        ("Wed Jul 18 14:38:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed incorrect T and P ranges according to http://onlinelibrary.wiley.com/doi/10.1002/kin.20560/full"""),
-    ],
 )
 
 entry(
@@ -1462,9 +1388,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:30"""),
-    ],
 )
 
 entry(
@@ -1521,9 +1444,6 @@ u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991RAB/SUT674-681:1"""),
-    ],
 )
 
 entry(
@@ -1578,9 +1498,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:24"""),
-    ],
 )
 
 entry(
@@ -1633,9 +1550,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.41
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:14"""),
-    ],
 )
 
 entry(
@@ -1693,9 +1607,6 @@ PrIMe Reaction: r00002017
 Uncertainty: 1.15
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979SEP/MAR835:1"""),
-    ],
 )
 
 entry(
@@ -1748,9 +1659,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968WAL2391:1"""),
-    ],
 )
 
 entry(
@@ -1809,9 +1717,6 @@ Uncertainty: 2.0
 Bath gas: N2
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967DIX/WIL951-958:3"""),
-    ],
 )
 
 entry(
@@ -1871,10 +1776,6 @@ Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonan
 
 Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:4"""),
-        ("Wed Jul 18 14:38:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed incorrect T and P ranges according to http://onlinelibrary.wiley.com/doi/10.1002/kin.20560/full"""),
-    ],
 )
 
 entry(
@@ -1936,9 +1837,6 @@ Analytical technique: Resonance fluorescence
 
 Error limits are 2 sigma and reflect only statistical contributions.
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA3107-3122:5"""),
-    ],
 )
 
 entry(
@@ -1995,9 +1893,6 @@ u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995BAE/SHI543-546:1"""),
-    ],
 )
 
 entry(
@@ -2052,9 +1947,6 @@ u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995BAE/SHI15925-15929:1"""),
-    ],
 )
 
 entry(
@@ -2113,9 +2005,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994MAR/DAS600-605:1"""),
-    ],
 )
 
 entry(
@@ -2174,9 +2063,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991RAB/SUT674-681:2"""),
-    ],
 )
 
 entry(
@@ -2235,9 +2121,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980ROT93:2"""),
-    ],
 )
 
 entry(
@@ -2297,9 +2180,6 @@ Bath gas: Ar
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979SEP/MAR835:2"""),
-    ],
 )
 
 entry(
@@ -2358,9 +2238,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ROT/JUS1339:2"""),
-    ],
 )
 
 entry(
@@ -2416,9 +2293,6 @@ PrIMe Reaction: r00002017
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976BIO/LAZ57:1"""),
-    ],
 )
 
 entry(
@@ -2477,9 +2351,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975ROT/JUS682:2"""),
-    ],
 )
 
 entry(
@@ -2534,9 +2405,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.38
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:2"""),
-    ],
 )
 
 entry(
@@ -2595,9 +2463,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970KUR/HOL1773:1"""),
-    ],
 )
 
 entry(
@@ -2656,9 +2521,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969KUR/TIM5076:1"""),
-    ],
 )
 
 entry(
@@ -2717,9 +2579,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967AZA577-584:1"""),
-    ],
 )
 
 entry(
@@ -2776,9 +2635,6 @@ Bath gas: N2
 Excitation technique: Ultrasonics
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966LAW/FIR4564:1"""),
-    ],
 )
 
 entry(
@@ -2835,9 +2691,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964JAM/BRO1638:1"""),
-    ],
 )
 
 entry(
@@ -2896,9 +2749,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962GOR/NAL946:1"""),
-    ],
 )
 
 entry(
@@ -2955,9 +2805,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961FEN/JON2200-2203:2"""),
-    ],
 )
 
 entry(
@@ -3017,9 +2864,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1954BER/LER650:1"""),
-    ],
 )
 
 entry(
@@ -3076,9 +2920,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Variational transition state theory (VTST) with microcanonically optimized multidimensional tunneling corrections used to validate theory to accurate quantum dynamics (QD) calculations. Ratio of VTST to QD calculations varies from 0.86 to 0.99 over stated temperature range. Rate constants fit to modified Arrhenius expression by abstracter.
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002PU/TRU1479-1481:1"""),
-    ],
 )
 
 entry(
@@ -3134,9 +2975,6 @@ PrIMe Reaction: r00002017
 
 Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at the UMP2/6-31G(d,p) level. Eckart-level tunneling contributions are applied.
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA3107-3122:21"""),
-    ],
 )
 
 entry(
@@ -3190,9 +3028,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MAI/DUN2152-2159:6"""),
-    ],
 )
 
 entry(
@@ -3246,9 +3081,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997BER/EHL107-116:1"""),
-    ],
 )
 
 entry(
@@ -3302,9 +3134,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996ESP/COR16561-16567:1"""),
-    ],
 )
 
 entry(
@@ -3358,9 +3187,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990GON/MCD7467-7471:2"""),
-    ],
 )
 
 entry(
@@ -3414,9 +3240,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985LER/SAN1447-1456:3"""),
-    ],
 )
 
 entry(
@@ -3470,9 +3293,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978SHA1179:3"""),
-    ],
 )
 
 entry(
@@ -3527,9 +3347,6 @@ u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.05
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973CLA/DOV2147:1"""),
-    ],
 )
 
 entry(
@@ -3583,9 +3400,6 @@ entry(
 u"""
 PrIMe Reaction: r00002017
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959SKI/RUE1736:3"""),
-    ],
 )
 
 entry(
@@ -3642,9 +3456,6 @@ u"""
 PrIMe Reaction: r00002017
 Bath gas: (CH3)2O
 """,
-    history = [
-        ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959BEN/JAI1008:1"""),
-    ],
 )
 
 entry(
@@ -3695,9 +3506,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:201"""),
-    ],
 )
 
 entry(
@@ -3748,9 +3556,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.5
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:242"""),
-    ],
 )
 
 entry(
@@ -3799,9 +3604,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:181"""),
-    ],
 )
 
 entry(
@@ -3852,9 +3654,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.51
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:33"""),
-    ],
 )
 
 entry(
@@ -3904,9 +3703,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979COH/WES46:2"""),
-    ],
 )
 
 entry(
@@ -3959,9 +3755,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Uncertainty: 10.0
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963KAU/DEL659:9"""),
-    ],
 )
 
 entry(
@@ -4016,9 +3809,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989DAV/CHA1877-1885:1"""),
-    ],
 )
 
 entry(
@@ -4073,9 +3863,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MIC/SUT3853:3"""),
-    ],
 )
 
 entry(
@@ -4128,9 +3915,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986FEL/MAD135-150:6"""),
-    ],
 )
 
 entry(
@@ -4185,9 +3969,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAD/FEL1857:1"""),
-    ],
 )
 
 entry(
@@ -4237,9 +4018,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985LER/SAN1447-1456:21"""),
-    ],
 )
 
 entry(
@@ -4292,9 +4070,6 @@ u"""
 PrIMe Reaction: r00013781
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 21:00:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965DIX/SUT495:4"""),
-    ],
 )
 
 entry(
@@ -4344,9 +4119,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ATK/BAU1461-1738:47"""),
-    ],
 )
 
 entry(
@@ -4396,9 +4168,6 @@ u"""
 PrIMe Reaction: r00013781
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:17"""),
-    ],
 )
 
 entry(
@@ -4447,9 +4216,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:245"""),
-    ],
 )
 
 entry(
@@ -4499,9 +4265,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU1329-1499:45"""),
-    ],
 )
 
 entry(
@@ -4551,9 +4314,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:227"""),
-    ],
 )
 
 entry(
@@ -4606,9 +4366,6 @@ u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992OLD/LOG8426-8430:1"""),
-    ],
 )
 
 entry(
@@ -4659,9 +4416,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:111"""),
-    ],
 )
 
 entry(
@@ -4711,9 +4465,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:162"""),
-    ],
 )
 
 entry(
@@ -4764,9 +4515,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.26
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:89"""),
-    ],
 )
 
 entry(
@@ -4819,9 +4567,6 @@ u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MIC/SUT3853:2"""),
-    ],
 )
 
 entry(
@@ -4872,9 +4617,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:99"""),
-    ],
 )
 
 entry(
@@ -4923,9 +4665,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.41
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:110"""),
-    ],
 )
 
 entry(
@@ -4976,9 +4715,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.51
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:21"""),
-    ],
 )
 
 entry(
@@ -5028,9 +4764,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ZEL18:3"""),
-    ],
 )
 
 entry(
@@ -5080,9 +4813,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979COH/WES46:1"""),
-    ],
 )
 
 entry(
@@ -5135,9 +4865,6 @@ u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974GAR/MAL2290:2"""),
-    ],
 )
 
 entry(
@@ -5187,9 +4914,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973BAU/DRY107-118:1"""),
-    ],
 )
 
 entry(
@@ -5240,9 +4964,6 @@ u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WIL535-573:11"""),
-    ],
 )
 
 entry(
@@ -5296,9 +5017,6 @@ PrIMe Reaction: r00013781
 Uncertainty: 1.41
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972DIX219:3"""),
-    ],
 )
 
 entry(
@@ -5349,9 +5067,6 @@ u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966DIX/WIL2877:3"""),
-    ],
 )
 
 entry(
@@ -5404,9 +5119,6 @@ u"""
 PrIMe Reaction: r00013781
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965DIX/SUT495:2"""),
-    ],
 )
 
 entry(
@@ -5459,9 +5171,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Uncertainty: 10.0
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963KAU/DEL659:1"""),
-    ],
 )
 
 entry(
@@ -5520,9 +5229,6 @@ Analytical technique: Resonance fluorescence
 
 The overall uncertainty factor is given by the expression f(T) = 1.04*exp(50*(1/T-1/298)) (95% confidence limits).
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006ORK/KOZ6978-6985:2"""),
-    ],
 )
 
 entry(
@@ -5581,9 +5287,6 @@ Analytical technique: Resonance fluorescence
 
 The overall uncertainty factor is given by the expression f(T) = 1.04*exp(50*(1/T-1/298)) (95% confidence limits).
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006ORK/KOZ6978-6985:1"""),
-    ],
 )
 
 entry(
@@ -5639,9 +5342,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004KRA/MIC5643-5648:1"""),
-    ],
 )
 
 entry(
@@ -5696,9 +5396,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996TAL/GIE3037-3043:1"""),
-    ],
 )
 
 entry(
@@ -5753,9 +5450,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985ROT/JUS807:1"""),
-    ],
 )
 
 entry(
@@ -5811,9 +5505,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985FRA/JUS181:1"""),
-    ],
 )
 
 entry(
@@ -5868,9 +5559,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981RAV/NIC2498:1"""),
-    ],
 )
 
 entry(
@@ -5926,9 +5614,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981RAV/NIC2498:2"""),
-    ],
 )
 
 entry(
@@ -5983,9 +5668,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980TUL/RAV3126:2"""),
-    ],
 )
 
 entry(
@@ -6040,9 +5722,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975VAN/PEE745:4"""),
-    ],
 )
 
 entry(
@@ -6097,9 +5776,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975ATK/HAN1703:4"""),
-    ],
 )
 
 entry(
@@ -6154,9 +5830,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974SMI/ZEL1045:1"""),
-    ],
 )
 
 entry(
@@ -6211,9 +5884,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974GAR/MAL2290:1"""),
-    ],
 )
 
 entry(
@@ -6268,9 +5938,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973WES/DEH4061:4"""),
-    ],
 )
 
 entry(
@@ -6321,9 +5988,6 @@ Bath gas: H2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973SMI/ZEL24C:1"""),
-    ],
 )
 
 entry(
@@ -6379,9 +6043,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973GAR/MAL61:2"""),
-    ],
 )
 
 entry(
@@ -6436,9 +6097,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971EBE/HOY713:1"""),
-    ],
 )
 
 entry(
@@ -6493,9 +6151,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV emission
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BRA/BEL129:3"""),
-    ],
 )
 
 entry(
@@ -6552,9 +6207,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969GRE5049:2"""),
-    ],
 )
 
 entry(
@@ -6610,9 +6262,6 @@ Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BAL/GER659-662:1"""),
-    ],
 )
 
 entry(
@@ -6664,9 +6313,6 @@ PrIMe Reaction: r00013781
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967AZA/ROM77-85:1"""),
-    ],
 )
 
 entry(
@@ -6721,9 +6367,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966RIP/GAR2285:1"""),
-    ],
 )
 
 entry(
@@ -6778,9 +6421,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966BAL/GER659:1"""),
-    ],
 )
 
 entry(
@@ -6831,9 +6471,6 @@ u"""
 PrIMe Reaction: r00013781
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002HAW/BAC1533-1541:10"""),
-    ],
 )
 
 entry(
@@ -6884,9 +6521,6 @@ u"""
 PrIMe Reaction: r00013781
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002HAW/BAC1533-1541:9"""),
-    ],
 )
 
 entry(
@@ -6936,9 +6570,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998MAT/MAN4828-4836:1"""),
-    ],
 )
 
 entry(
@@ -6988,9 +6619,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ISA3832-3839:1"""),
-    ],
 )
 
 entry(
@@ -7040,9 +6668,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993COH/WIL5885-5897:1"""),
-    ],
 )
 
 entry(
@@ -7092,9 +6717,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990FIS/MIC2465-2471:1"""),
-    ],
 )
 
 entry(
@@ -7144,9 +6766,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990FIS/MIC2465-2471:2"""),
-    ],
 )
 
 entry(
@@ -7200,9 +6819,6 @@ PrIMe Reaction: r00013781
 Bath gas: Ar
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MIC/SUT3853:1"""),
-    ],
 )
 
 entry(
@@ -7252,9 +6868,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985LER/SAN1447-1456:7"""),
-    ],
 )
 
 entry(
@@ -7304,9 +6917,6 @@ entry(
 u"""
 PrIMe Reaction: r00013781
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977SHA929:1"""),
-    ],
 )
 
 entry(
@@ -7358,9 +6968,6 @@ PrIMe Reaction: r00013781
 Bath gas: N2
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 21:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965DIX/SUT255:4"""),
-    ],
 )
 
 entry(
@@ -7413,9 +7020,6 @@ u"""
 PrIMe Reaction: r00002499
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:58"""),
-    ],
 )
 
 entry(
@@ -7468,9 +7072,6 @@ u"""
 PrIMe Reaction: r00002499
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:73"""),
-    ],
 )
 
 entry(
@@ -7523,9 +7124,6 @@ u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985GAR/TAN1851:1"""),
-    ],
 )
 
 entry(
@@ -7576,9 +7174,6 @@ u"""
 PrIMe Reaction: r00002499
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:35"""),
-    ],
 )
 
 entry(
@@ -7633,9 +7228,6 @@ u"""
 PrIMe Reaction: r00002499
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996PEE/VAN15124-15129:1"""),
-    ],
 )
 
 entry(
@@ -7692,9 +7284,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV emission
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975BEC/MAC1363:3"""),
-    ],
 )
 
 entry(
@@ -7750,9 +7339,6 @@ PrIMe Reaction: r00002499
 Uncertainty: 2.51
 Bath gas: C2H2
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974YAM/LAV17:1"""),
-    ],
 )
 
 entry(
@@ -7807,9 +7393,6 @@ u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978TAN/GAR563-572:4"""),
-    ],
 )
 
 entry(
@@ -7863,9 +7446,6 @@ PrIMe Reaction: r00002499
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:51:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BRO/POR1035:2"""),
-    ],
 )
 
 entry(
@@ -7920,9 +7500,6 @@ PrIMe Reaction: r00002499
 A factor and sign on Ea given in table in paper are incorrect
 Note: Invalid activation energy uncertainty (1.164) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:7"""),
-    ],
 )
 
 entry(
@@ -7978,9 +7555,6 @@ No direct measurements of rate constants. Rate constants reported are either fro
 
 Rate expressions for C2H + H2 -> C2H2 + H and C2H + C2H2 -> C4H2 + H were reported based on fits to data in the literature.
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003EIT/FRE391-414:8"""),
-    ],
 )
 
 entry(
@@ -8035,9 +7609,6 @@ u"""
 PrIMe Reaction: r00002499
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996OPA/LEO19904-19910:4"""),
-    ],
 )
 
 entry(
@@ -8090,9 +7661,6 @@ u"""
 PrIMe Reaction: r00002499
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:59"""),
-    ],
 )
 
 entry(
@@ -8145,9 +7713,6 @@ u"""
 PrIMe Reaction: r00002499
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:108"""),
-    ],
 )
 
 entry(
@@ -8200,9 +7765,6 @@ u"""
 PrIMe Reaction: r00002499
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:92"""),
-    ],
 )
 
 entry(
@@ -8255,9 +7817,6 @@ u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985GAR/TAN1851:2"""),
-    ],
 )
 
 entry(
@@ -8308,9 +7867,6 @@ u"""
 PrIMe Reaction: r00002499
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:107"""),
-    ],
 )
 
 entry(
@@ -8367,9 +7923,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997KRU/ROT2138-2146:2"""),
-    ],
 )
 
 entry(
@@ -8426,9 +7979,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Chemiluminescence
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996PEE/VAN15124-15129:2"""),
-    ],
 )
 
 entry(
@@ -8485,9 +8035,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996OPA/LEO19904-19910:3"""),
-    ],
 )
 
 entry(
@@ -8544,9 +8091,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993FAR/MOR12789-12792:2"""),
-    ],
 )
 
 entry(
@@ -8603,9 +8147,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992KOS/FUK9839-9843:2"""),
-    ],
 )
 
 entry(
@@ -8660,9 +8201,6 @@ u"""
 PrIMe Reaction: r00002499
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996PEE/VAN15124-15129:3"""),
-    ],
 )
 
 entry(
@@ -8714,9 +8252,6 @@ entry(
 u"""
 PrIMe Reaction: r00002499
 """,
-    history = [
-        ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAR/SCH5172-5173:1"""),
-    ],
 )
 
 entry(
@@ -8777,9 +8312,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:101"""),
-    ],
 )
 
 entry(
@@ -8842,9 +8374,6 @@ u"""
 PrIMe Reaction: r00009460
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BAL/WAL2116-2122:3"""),
-    ],
 )
 
 entry(
@@ -8910,9 +8439,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982CAO/BAC3039:1"""),
-    ],
 )
 
 entry(
@@ -8978,9 +8504,6 @@ Bath gas: H2
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968REI/LER3275:1"""),
-    ],
 )
 
 entry(
@@ -9042,9 +8565,6 @@ PrIMe Reaction: r00009460
 
 Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:8"""),
-    ],
 )
 
 entry(
@@ -9106,9 +8626,6 @@ PrIMe Reaction: r00009460
 
 Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:9"""),
-    ],
 )
 
 entry(
@@ -9170,9 +8687,6 @@ u"""
 PrIMe Reaction: r00009460
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MAN/LOU1547-1555:11"""),
-    ],
 )
 
 entry(
@@ -9232,9 +8746,6 @@ entry(
 u"""
 PrIMe Reaction: r00009460
 """,
-    history = [
-        ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAL/LAN251:13"""),
-    ],
 )
 
 entry(
@@ -9296,9 +8807,6 @@ PrIMe Reaction: r00009460
 
 Fit of the combined data of 2001BRY/SLA6900-6909 and 1977JON/MOR1311. Conditions under which this expression is valid are not specified but were assumed to encompass the temperature ranges of the two studies.
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:10"""),
-    ],
 )
 
 entry(
@@ -9359,9 +8867,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:40"""),
-    ],
 )
 
 entry(
@@ -9422,9 +8927,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:39"""),
-    ],
 )
 
 entry(
@@ -9483,9 +8985,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:21"""),
-    ],
 )
 
 entry(
@@ -9546,9 +9045,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.26
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984CAO/BAC961-966:1"""),
-    ],
 )
 
 entry(
@@ -9611,9 +9107,6 @@ u"""
 PrIMe Reaction: r00009460
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974CAM/MAR1434:1"""),
-    ],
 )
 
 entry(
@@ -9675,9 +9168,6 @@ Uncertainty: 1.78
 Bath gas: O2
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964BAL/MEL1785:1"""),
-    ],
 )
 
 entry(
@@ -9745,9 +9235,6 @@ Analytical technique: Resonance fluorescence
 
 Error limits (2?igma? reflect only statistical contributions.
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:1"""),
-    ],
 )
 
 entry(
@@ -9812,9 +9299,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984CAO/BAC86:1"""),
-    ],
 )
 
 entry(
@@ -9874,9 +9358,6 @@ entry(
 u"""
 PrIMe Reaction: r00009460
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:2"""),
-    ],
 )
 
 entry(
@@ -9942,9 +9423,6 @@ Bath gas: C2H6
 Excitation technique: Electron beam
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978LED/VIL392:1"""),
-    ],
 )
 
 entry(
@@ -10010,9 +9488,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977JON/MOR1311:1"""),
-    ],
 )
 
 entry(
@@ -10077,9 +9552,6 @@ Bath gas: Ar
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974CAM/MAR1434:2"""),
-    ],
 )
 
 entry(
@@ -10140,9 +9612,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.38
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:4"""),
-    ],
 )
 
 entry(
@@ -10207,9 +9676,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969AZA/FIL49:1"""),
-    ],
 )
 
 entry(
@@ -10272,9 +9738,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969AZA/FIL193-196:1"""),
-    ],
 )
 
 entry(
@@ -10336,9 +9799,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968PAR/ARA486:1"""),
-    ],
 )
 
 entry(
@@ -10403,9 +9863,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967AZA577-584:3"""),
-    ],
 )
 
 entry(
@@ -10471,9 +9928,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965BAL/JAC423-433:1"""),
-    ],
 )
 
 entry(
@@ -10536,9 +9990,6 @@ Bath gas: Ar
 Excitation technique: Ultrasonics
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963YAN562:1"""),
-    ],
 )
 
 entry(
@@ -10603,9 +10054,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Other
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963FEN/JON597:2"""),
-    ],
 )
 
 entry(
@@ -10670,9 +10118,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962GOR/NAL946:2"""),
-    ],
 )
 
 entry(
@@ -10736,9 +10181,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1953BER/LER50:1"""),
-    ],
 )
 
 entry(
@@ -10800,9 +10242,6 @@ PrIMe Reaction: r00009460
 
 Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:7"""),
-    ],
 )
 
 entry(
@@ -10864,9 +10303,6 @@ PrIMe Reaction: r00009460
 
 Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:6"""),
-    ],
 )
 
 entry(
@@ -10927,9 +10363,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.0700001
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973CLA/DOV2147:3"""),
-    ],
 )
 
 entry(
@@ -10990,9 +10423,6 @@ u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964BAL/JAC423-433:2"""),
-    ],
 )
 
 entry(
@@ -11051,9 +10481,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:31:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:3"""),
-    ],
 )
 
 entry(
@@ -11108,9 +10535,6 @@ u"""
 PrIMe Reaction: r00009467
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:31:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:9"""),
-    ],
 )
 
 entry(
@@ -11169,9 +10593,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:31:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:1"""),
-    ],
 )
 
 entry(
@@ -11229,9 +10650,6 @@ PrIMe Reaction: r00009476
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009476/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:31:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:27"""),
-    ],
 )
 
 entry(
@@ -11289,9 +10707,6 @@ PrIMe Reaction: r00009476
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:31:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:4"""),
-    ],
 )
 
 entry(
@@ -11350,9 +10765,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996LI/WIL1017-1024:3"""),
-    ],
 )
 
 entry(
@@ -11413,9 +10825,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Laser schlieren
 """,
-    history = [
-        ("Thu Jul 12 20:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992CRI/DOV169-185:5"""),
-    ],
 )
 
 entry(
@@ -11477,9 +10886,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981VAN/VAN473:3"""),
-    ],
 )
 
 entry(
@@ -11540,9 +10946,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981HOY/SIE149:2"""),
-    ],
 )
 
 entry(
@@ -11601,9 +11004,6 @@ u"""
 PrIMe Reaction: r00009476
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979WES/DRY125:3"""),
-    ],
 )
 
 entry(
@@ -11661,9 +11061,6 @@ PrIMe Reaction: r00009476
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:2"""),
-    ],
 )
 
 entry(
@@ -11717,9 +11114,6 @@ PrIMe Reaction: r00009477
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009477/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:32:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:95"""),
-    ],
 )
 
 entry(
@@ -11772,9 +11166,6 @@ u"""
 PrIMe Reaction: r00009477
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:4"""),
-    ],
 )
 
 entry(
@@ -11827,9 +11218,6 @@ u"""
 PrIMe Reaction: r00009477
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:8"""),
-    ],
 )
 
 entry(
@@ -11884,9 +11272,6 @@ u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989CHO/LIN19-28:2"""),
-    ],
 )
 
 entry(
@@ -11940,9 +11325,6 @@ PrIMe Reaction: r00009477
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009477/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:10"""),
-    ],
 )
 
 entry(
@@ -11993,9 +11375,6 @@ u"""
 PrIMe Reaction: r00009477
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:4"""),
-    ],
 )
 
 entry(
@@ -12055,9 +11434,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002FRI/DAV374-386:1"""),
-    ],
 )
 
 entry(
@@ -12118,9 +11494,6 @@ Analytical technique: Electron spin resonance (ESR or EPR)
 At pressures of a few millibars using the discharge flow method with electron paramagnetic resonance (EPR) for the detection of H and D atoms and laser-induced fluorescence (LIF) for the
 measurement of HCO.
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000OEH/WAG10500-10510:1"""),
-    ],
 )
 
 entry(
@@ -12172,9 +11545,6 @@ entry(
 u"""
 PrIMe Reaction: r00009477
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993IRD/KIE285-303:2"""),
-    ],
 )
 
 entry(
@@ -12231,9 +11601,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Laser schlieren
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992CRI/DOV169-185:1"""),
-    ],
 )
 
 entry(
@@ -12291,9 +11658,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989CHO/LIN19-28:1"""),
-    ],
 )
 
 entry(
@@ -12350,9 +11714,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986VAN/OLD127:3"""),
-    ],
 )
 
 entry(
@@ -12409,9 +11770,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982KLI/PEN869:2"""),
-    ],
 )
 
 entry(
@@ -12469,9 +11827,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Other (IR)
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980DEA/JOH41:3"""),
-    ],
 )
 
 entry(
@@ -12528,9 +11883,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979KLE1987:1"""),
-    ],
 )
 
 entry(
@@ -12587,9 +11939,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WES/DEH2213:1"""),
-    ],
 )
 
 entry(
@@ -12644,9 +11993,6 @@ u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989HID/OKI7134-7139:1"""),
-    ],
 )
 
 entry(
@@ -12701,9 +12047,6 @@ u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985SAI/KAK3109:2"""),
-    ],
 )
 
 entry(
@@ -12758,9 +12101,6 @@ u"""
 PrIMe Reaction: r00009477
 Bath gas: CH2O
 """,
-    history = [
-        ("Thu Jul 12 20:32:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1956KLE/SCH50:1"""),
-    ],
 )
 
 entry(
@@ -12817,9 +12157,6 @@ u"""
 PrIMe Reaction: r00009480
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:96"""),
-    ],
 )
 
 entry(
@@ -12880,9 +12217,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996KNY/BEN11346-11354:4"""),
-    ],
 )
 
 entry(
@@ -12943,9 +12277,6 @@ Bath gas: H2
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984CAL/SMI119:2"""),
-    ],
 )
 
 entry(
@@ -13001,9 +12332,6 @@ entry(
 u"""
 PrIMe Reaction: r00009480
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996KNY/BEN11346-11354:3"""),
-    ],
 )
 
 entry(
@@ -13059,9 +12387,6 @@ entry(
 u"""
 PrIMe Reaction: r00009480
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995MEB/MOR3440-3449:1"""),
-    ],
 )
 
 entry(
@@ -13117,9 +12442,6 @@ entry(
 u"""
 PrIMe Reaction: r00009480
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WEI/BEN4080:5"""),
-    ],
 )
 
 entry(
@@ -13177,9 +12499,6 @@ u"""
 PrIMe Reaction: r00009480
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MAN/LOU1547-1555:10"""),
-    ],
 )
 
 entry(
@@ -13235,9 +12554,6 @@ entry(
 u"""
 PrIMe Reaction: r00009480
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:8"""),
-    ],
 )
 
 entry(
@@ -13295,9 +12611,6 @@ PrIMe Reaction: r00009480
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000001.xml
 Bath gas: H2
 """,
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BEN/HAU1735:6"""),
-    ],
 )
 
 entry(
@@ -13354,9 +12667,6 @@ u"""
 PrIMe Reaction: r00009480
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:47"""),
-    ],
 )
 
 entry(
@@ -13414,9 +12724,6 @@ PrIMe Reaction: r00009480
 Uncertainty: 3.0
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:56"""),
-    ],
 )
 
 entry(
@@ -13471,9 +12778,6 @@ u"""
 PrIMe Reaction: r00009480
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:27"""),
-    ],
 )
 
 entry(
@@ -13534,9 +12838,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981HAU/SAN149:1"""),
-    ],
 )
 
 entry(
@@ -13594,9 +12895,6 @@ PrIMe Reaction: r00009480
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977PEE969:1"""),
-    ],
 )
 
 entry(
@@ -13658,9 +12956,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974YAM938:1"""),
-    ],
 )
 
 entry(
@@ -13722,9 +13017,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974YAM532:1"""),
-    ],
 )
 
 entry(
@@ -13786,9 +13078,6 @@ Excitation technique: Thermal
 Analytical technique: Other (direct)
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963AZA/NAL1095-1098:1"""),
-    ],
 )
 
 entry(
@@ -13854,9 +13143,6 @@ Ea = 5.54kcal/mol
 DrH = 7.6kcal/mol
 no uncertainties reported.
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007HUY/PAN2156-2165:1"""),
-    ],
 )
 
 entry(
@@ -13912,9 +13198,6 @@ entry(
 u"""
 PrIMe Reaction: r00009480
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998BHA/WES333-347:1"""),
-    ],
 )
 
 entry(
@@ -13970,9 +13253,6 @@ entry(
 u"""
 PrIMe Reaction: r00009480
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996KNY/BEN11346-11354:1"""),
-    ],
 )
 
 entry(
@@ -14028,9 +13308,6 @@ entry(
 u"""
 PrIMe Reaction: r00009480
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WEI/BEN4080:1"""),
-    ],
 )
 
 entry(
@@ -14088,9 +13365,6 @@ u"""
 PrIMe Reaction: r00009480
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MAN/LOU1547-1555:1"""),
-    ],
 )
 
 entry(
@@ -14149,9 +13423,6 @@ u"""
 PrIMe Reaction: r00009480
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977JUS/ROT961:3"""),
-    ],
 )
 
 entry(
@@ -14210,9 +13481,6 @@ u"""
 PrIMe Reaction: r00009480
 Bath gas: C2H4
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975NAM/SHE851:2"""),
-    ],
 )
 
 entry(
@@ -14269,9 +13537,6 @@ u"""
 PrIMe Reaction: r00009480
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973PEE/MAH53C:1"""),
-    ],
 )
 
 entry(
@@ -14329,9 +13594,6 @@ PrIMe Reaction: r00009480
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000001.xml
 Bath gas: H2
 """,
-    history = [
-        ("Thu Jul 12 20:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BEN/HAU1735:2"""),
-    ],
 )
 
 entry(
@@ -14384,9 +13646,6 @@ u"""
 PrIMe Reaction: r00009484
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:36:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:98"""),
-    ],
 )
 
 entry(
@@ -14437,9 +13696,6 @@ u"""
 PrIMe Reaction: r00009484
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:36:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:109"""),
-    ],
 )
 
 entry(
@@ -14492,9 +13748,6 @@ u"""
 PrIMe Reaction: r00009484
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:36:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:9"""),
-    ],
 )
 
 entry(
@@ -14548,9 +13801,6 @@ PrIMe Reaction: r00009484
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000002.xml
 Bath gas: H2
 """,
-    history = [
-        ("Thu Jul 12 20:36:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BAL/JAC1676-1686:1"""),
-    ],
 )
 
 entry(
@@ -14602,9 +13852,6 @@ entry(
 u"""
 PrIMe Reaction: r00009484
 """,
-    history = [
-        ("Thu Jul 12 20:36:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:31"""),
-    ],
 )
 
 entry(
@@ -14657,9 +13904,6 @@ u"""
 PrIMe Reaction: r00009484
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:36:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:197"""),
-    ],
 )
 
 entry(
@@ -14712,9 +13956,6 @@ u"""
 PrIMe Reaction: r00009484
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:36:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:235"""),
-    ],
 )
 
 entry(
@@ -14768,9 +14009,6 @@ PrIMe Reaction: r00009484
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000002.xml
 Bath gas: H2
 """,
-    history = [
-        ("Thu Jul 12 20:36:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BAL/JAC1676-1686:6"""),
-    ],
 )
 
 entry(
@@ -14822,9 +14060,6 @@ entry(
 u"""
 PrIMe Reaction: r00009484
 """,
-    history = [
-        ("Thu Jul 12 20:36:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998LEE/HOC385-406:1"""),
-    ],
 )
 
 entry(
@@ -14876,9 +14111,6 @@ entry(
 u"""
 PrIMe Reaction: r00009484
 """,
-    history = [
-        ("Thu Jul 12 20:36:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:36"""),
-    ],
 )
 
 entry(
@@ -14929,9 +14161,6 @@ u"""
 PrIMe Reaction: r00009509
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:37:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:100"""),
-    ],
 )
 
 entry(
@@ -14986,9 +14215,6 @@ Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:37:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000MIC/SUT1471-1478:1"""),
-    ],
 )
 
 entry(
@@ -15043,9 +14269,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:37:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989KOI2480-2484:1"""),
-    ],
 )
 
 entry(
@@ -15095,9 +14318,6 @@ entry(
 u"""
 PrIMe Reaction: r00009509
 """,
-    history = [
-        ("Thu Jul 12 20:37:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000MIC/SUT1471-1478:2"""),
-    ],
 )
 
 entry(
@@ -15147,9 +14367,6 @@ entry(
 u"""
 PrIMe Reaction: r00009509
 """,
-    history = [
-        ("Thu Jul 12 20:37:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999KAR/OSH11918-11927:4"""),
-    ],
 )
 
 entry(
@@ -15202,9 +14419,6 @@ u"""
 PrIMe Reaction: r00009509
 Bath gas: CH4
 """,
-    history = [
-        ("Thu Jul 12 20:37:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972SKI/LIF3853:2"""),
-    ],
 )
 
 entry(
@@ -15255,9 +14469,6 @@ u"""
 PrIMe Reaction: r00009509
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009509/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:37:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968MAY/SCH2628-2631:10"""),
-    ],
 )
 
 entry(
@@ -15308,9 +14519,6 @@ u"""
 PrIMe Reaction: r00009509
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:171"""),
-    ],
 )
 
 entry(
@@ -15361,9 +14569,6 @@ u"""
 PrIMe Reaction: r00009509
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:217"""),
-    ],
 )
 
 entry(
@@ -15412,9 +14617,6 @@ u"""
 PrIMe Reaction: r00009509
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:165"""),
-    ],
 )
 
 entry(
@@ -15468,9 +14670,6 @@ PrIMe Reaction: r00009509
 Uncertainty: 3.3900001
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983PRA/WOO2597:1"""),
-    ],
 )
 
 entry(
@@ -15521,9 +14720,6 @@ u"""
 PrIMe Reaction: r00009509
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:17"""),
-    ],
 )
 
 entry(
@@ -15576,9 +14772,6 @@ Pressure dependence: Rate constant is pressure independent
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007MOU/SAH1901-1913:1"""),
-    ],
 )
 
 entry(
@@ -15631,9 +14824,6 @@ Pressure dependence: Rate constant is pressure independent
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007MOU/SAH1901-1913:2"""),
-    ],
 )
 
 entry(
@@ -15683,9 +14873,6 @@ entry(
 u"""
 PrIMe Reaction: r00009509
 """,
-    history = [
-        ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999KAR/OSH11918-11927:3"""),
-    ],
 )
 
 entry(
@@ -15742,9 +14929,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.6
 """,
-    history = [
-        ("Thu Jul 12 20:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:166"""),
-    ],
 )
 
 entry(
@@ -15802,9 +14986,6 @@ PrIMe Reaction: r00010849
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000001.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:24"""),
-    ],
 )
 
 entry(
@@ -15860,9 +15041,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996MA/LIU37-44:1"""),
-    ],
 )
 
 entry(
@@ -15918,9 +15096,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985LER/SAN1447-1456:13"""),
-    ],
 )
 
 entry(
@@ -15988,10 +15163,6 @@ where T is in Kelvin.
 
 Literature results are discussed and compared and a rate expression covering the temperature range of 195-2025 K is given.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:2"""),
-        ("Wed Jul 18 14:47:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed pressure range according to http://pubs.acs.org/doi/full/10.1021/jp040679j"""),
-    ],
 )
 
 entry(
@@ -16047,9 +15218,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BON/DAE4384-4389:2"""),
-    ],
 )
 
 entry(
@@ -16104,9 +15272,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:88"""),
-    ],
 )
 
 entry(
@@ -16162,9 +15327,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:58"""),
-    ],
 )
 
 entry(
@@ -16220,9 +15382,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.1
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:88"""),
-    ],
 )
 
 entry(
@@ -16279,9 +15438,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.41
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:28"""),
-    ],
 )
 
 entry(
@@ -16337,9 +15493,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:59"""),
-    ],
 )
 
 entry(
@@ -16396,9 +15549,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.26
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:22"""),
-    ],
 )
 
 entry(
@@ -16455,9 +15605,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.4
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:22"""),
-    ],
 )
 
 entry(
@@ -16516,9 +15663,6 @@ u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986FEL/MAD135-150:2"""),
-    ],
 )
 
 entry(
@@ -16575,9 +15719,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986BAU/BOW465:1"""),
-    ],
 )
 
 entry(
@@ -16634,9 +15775,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK69:9"""),
-    ],
 )
 
 entry(
@@ -16691,9 +15829,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:13"""),
-    ],
 )
 
 entry(
@@ -16751,9 +15886,6 @@ PrIMe Reaction: r00010849
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000001.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:1"""),
-    ],
 )
 
 entry(
@@ -16809,9 +15941,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ZEL18:1"""),
-    ],
 )
 
 entry(
@@ -16870,9 +15999,6 @@ u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978ERN/WAG409:2"""),
-    ],
 )
 
 entry(
@@ -16929,9 +16055,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WIL535-573:2"""),
-    ],
 )
 
 entry(
@@ -16990,9 +16113,6 @@ u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967WIL/WES1143-1150:1"""),
-    ],
 )
 
 entry(
@@ -17052,9 +16172,6 @@ PrIMe Reaction: r00010849
 Bath gas: N2
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967DIX/WIL951-958:2"""),
-    ],
 )
 
 entry(
@@ -17125,10 +16242,6 @@ where T is in Kelvin.
 
 Literature results are discussed and compared and a rate expression covering the temperature range of 195-2025 K is given.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:1"""),
-        ("Wed Jul 18 14:47:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed pressure range according to http://pubs.acs.org/doi/full/10.1021/jp040679j"""),
-    ],
 )
 
 entry(
@@ -17193,9 +16306,6 @@ Analytical technique: Laser induced fluorescence
 
 OH produced through 193 nm photolysis of N2O -> N2 + O(1D), then O(1D) + H2O -> 2OH. OH detected using LIF at 282 nm excitation monitoring fluor. at 308-316 nm. Typical conc. CH4 1-4E16, C3H8 1-3E15, Cl2 1-5E15 molecules/cm3.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004BRY/KNY10464-10472:3"""),
-    ],
 )
 
 entry(
@@ -17258,9 +16368,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BON/DAE4384-4389:1"""),
-    ],
 )
 
 entry(
@@ -17321,9 +16428,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997GIE/TAL3125-3134:1"""),
-    ],
 )
 
 entry(
@@ -17384,9 +16488,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994MEL/TET473-487:1"""),
-    ],
 )
 
 entry(
@@ -17447,9 +16548,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993SHA/SMI631-638:1"""),
-    ],
 )
 
 entry(
@@ -17510,9 +16608,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DUN/TUL11148-11150:1"""),
-    ],
 )
 
 entry(
@@ -17573,9 +16668,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992LAN/LEB1487-1492:1"""),
-    ],
 )
 
 entry(
@@ -17636,9 +16728,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992FIN/EZE1371-1374:2"""),
-    ],
 )
 
 entry(
@@ -17699,9 +16788,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991VAG/RAV406-409:1"""),
-    ],
 )
 
 entry(
@@ -17762,9 +16848,6 @@ Bath gas: Ar
 Excitation technique: Direct photolysis
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986FEL/MAD135-150:3"""),
-    ],
 )
 
 entry(
@@ -17825,9 +16908,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985MAD/FEL703:1"""),
-    ],
 )
 
 entry(
@@ -17888,9 +16968,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984JON/MUL4100:1"""),
-    ],
 )
 
 entry(
@@ -17951,9 +17028,6 @@ Bath gas: CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983BAU/CRA689:1"""),
-    ],
 )
 
 entry(
@@ -18014,9 +17088,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982JEO/KAU1808:2"""),
-    ],
 )
 
 entry(
@@ -18077,9 +17148,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982FAI/SMI107:1"""),
-    ],
 )
 
 entry(
@@ -18140,9 +17208,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980TUL/RAV3126:1"""),
-    ],
 )
 
 entry(
@@ -18203,9 +17268,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976ZEL/STE397:1"""),
-    ],
 )
 
 entry(
@@ -18266,9 +17328,6 @@ Bath gas: H2O
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975ZEL1:1"""),
-    ],
 )
 
 entry(
@@ -18329,9 +17388,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975STE/ZEL31:1"""),
-    ],
 )
 
 entry(
@@ -18392,9 +17448,6 @@ Bath gas: H2O
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975GOR/MUL289:1"""),
-    ],
 )
 
 entry(
@@ -18455,9 +17508,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974MAR/KAU80:1"""),
-    ],
 )
 
 entry(
@@ -18518,9 +17568,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974DAV/FIS2213:1"""),
-    ],
 )
 
 entry(
@@ -18581,9 +17628,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973PEE/MAH133:3"""),
-    ],
 )
 
 entry(
@@ -18640,9 +17684,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.38
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:1"""),
-    ],
 )
 
 entry(
@@ -18704,9 +17745,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:1"""),
-    ],
 )
 
 entry(
@@ -18767,9 +17805,6 @@ Bath gas: Ar
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967HOR/NOR1373:1"""),
-    ],
 )
 
 entry(
@@ -18830,9 +17865,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963FRI560:1"""),
-    ],
 )
 
 entry(
@@ -18891,9 +17923,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961FEN/JON2200-2203:1"""),
-    ],
 )
 
 entry(
@@ -18953,9 +17982,6 @@ PrIMe Reaction: r00010849
 
 The title reaction was modeled using ab initio MP2 and a hybrid density functional method (BHandHLYP) methods, and the 6-311G(d,p) basis set. Single-point calculations at the CCSD(T) level were carried out at the optimized geometries. Hindered Internal Rotation partition functions calculations were explicitly carried out and included in the total partition functions. The explicit participation of the tunnel effect was taken into account.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005BRA/ALV213-223:3"""),
-    ],
 )
 
 entry(
@@ -19015,9 +18041,6 @@ Rate constants calculated at several temperatures using the VTST-ISPE mapped int
 
 Calculations at several other levels of theory also presented.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MAS/GON4515-4526:1"""),
-    ],
 )
 
 entry(
@@ -19076,9 +18099,6 @@ PrIMe Reaction: r00010849
 Rate constants calculated at several temperatures using the VTST-ISPE mapped interpolation scheme at the CCSD(T)-SAC//MP2cc-pVTZ level of theory. Parameters are from a fit by the abstractor to these data.
 Rate constants were also calculated at other levels of theory and at this level of theory but with a single-point energy approach.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MAS/GON2154-2165:1"""),
-    ],
 )
 
 entry(
@@ -19134,9 +18154,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998SCH/MAR10074-10081:2"""),
-    ],
 )
 
 entry(
@@ -19192,9 +18209,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993MEL/TRU1013-1027:1"""),
-    ],
 )
 
 entry(
@@ -19254,9 +18268,6 @@ Rate constants in this work were computed using transition state theory employin
 
 Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a free rotor approximation for the torsional mode.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:3"""),
-    ],
 )
 
 entry(
@@ -19316,9 +18327,6 @@ Rate constants in this work were computed using transition state theory employin
 
 Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a harmonic oscillator approximation for the torsional mode.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:2"""),
-    ],
 )
 
 entry(
@@ -19378,9 +18386,6 @@ Rate constants in this work were computed using transition state theory employin
 
 Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a harmonic oscillator approximation for the torsional mode.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:4"""),
-    ],
 )
 
 entry(
@@ -19440,9 +18445,6 @@ Rate constants in this work were computed using transition state theory employin
 
 Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a free rotor approximation for the torsional mode.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:5"""),
-    ],
 )
 
 entry(
@@ -19502,9 +18504,6 @@ Rate constants in this work were computed using transition state theory employin
 
 Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a harmonic oscillator approximation for the torsional mode.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:6"""),
-    ],
 )
 
 entry(
@@ -19564,9 +18563,6 @@ Rate constants in this work were computed using transition state theory employin
 
 Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a free rotor approximation for the torsional mode.
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:1"""),
-    ],
 )
 
 entry(
@@ -19622,9 +18618,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:1"""),
-    ],
 )
 
 entry(
@@ -19680,9 +18673,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TRU/TRU1761:1"""),
-    ],
 )
 
 entry(
@@ -19738,9 +18728,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990GON/MCD7467-7471:1"""),
-    ],
 )
 
 entry(
@@ -19796,9 +18783,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987COH/BEN162-170:3"""),
-    ],
 )
 
 entry(
@@ -19854,9 +18838,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985LER/SAN1447-1456:2"""),
-    ],
 )
 
 entry(
@@ -19912,9 +18893,6 @@ entry(
 u"""
 PrIMe Reaction: r00010849
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982COH1339:1"""),
-    ],
 )
 
 entry(
@@ -19971,9 +18949,6 @@ u"""
 PrIMe Reaction: r00010849
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978SHA1179:1"""),
-    ],
 )
 
 entry(
@@ -20047,9 +19022,6 @@ The first channel dominates at all temperatures, the second channel begins to co
 
 NOTE The rate expression given for the CH3CH2O+H2 channel (k3) in Table II of the paper appears to be incorrect. The correct rate expressions can be found in the text.
 """,
-    history = [
-        ("Thu Jul 12 19:35:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:4"""),
-    ],
 )
 
 entry(
@@ -20123,9 +19095,6 @@ The first channel dominates at all temperatures, the second channel begins to co
 
 NOTE The rate expression given for the CH3CH2O+H2 channel (k3) in Table II of the paper appears to be incorrect. The correct rate expressions can be found in the text.
 """,
-    history = [
-        ("Thu Jul 12 19:35:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:5"""),
-    ],
 )
 
 entry(
@@ -20194,9 +19163,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:35:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973ADE/WAG712:2"""),
-    ],
 )
 
 entry(
@@ -20269,9 +19235,6 @@ The first channel dominates at all temperatures, the second channel begins to co
 
 There is a disagreement between the calculated value for the total rate with experimental measurements by Adler and Wagner Ber. Buns. Phys. Chem. 77, 712 (1973), the calc values being 2-3 times lower. The current authors attribute the difference to incorrect assumptions regarding secondary reactions in the experimental measurements, and they employing modeling to demonstrate such.
 """,
-    history = [
-        ("Thu Jul 12 19:35:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:2"""),
-    ],
 )
 
 entry(
@@ -20343,9 +19306,6 @@ Found barriers of
 27.2 kcal/mol for CH3CH2* + H2O channel
 The first channel dominates at all temperatures, the second channel begins to contribute at about 1000 K and is roughly equal at 3000 K, the third channel is <5% even at 3000 K. The fourth channel is kinetically insignificant.
 """,
-    history = [
-        ("Thu Jul 12 19:35:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:3"""),
-    ],
 )
 
 entry(
@@ -20413,9 +19373,6 @@ PrIMe Reaction: r00001950
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001950/rk00000002.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:38:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:25"""),
-    ],
 )
 
 entry(
@@ -20482,9 +19439,6 @@ u"""
 PrIMe Reaction: r00001950
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:35"""),
-    ],
 )
 
 entry(
@@ -20552,9 +19506,6 @@ PrIMe Reaction: r00001950
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001950/rk00000002.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:32"""),
-    ],
 )
 
 entry(
@@ -20619,9 +19570,6 @@ u"""
 PrIMe Reaction: r00001950
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:18"""),
-    ],
 )
 
 entry(
@@ -20687,9 +19635,6 @@ entry(
 u"""
 PrIMe Reaction: r00001950
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978ART/BEL37-74:5"""),
-    ],
 )
 
 entry(
@@ -20761,9 +19706,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987MOL/MOZ660:1"""),
-    ],
 )
 
 entry(
@@ -20834,9 +19776,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ROT/JUS577:2"""),
-    ],
 )
 
 entry(
@@ -20907,9 +19846,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ROT/JUS1339:6"""),
-    ],
 )
 
 entry(
@@ -20980,9 +19916,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976BRA/WES558:1"""),
-    ],
 )
 
 entry(
@@ -21054,9 +19987,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974YAM/RYB321:1"""),
-    ],
 )
 
 entry(
@@ -21127,9 +20057,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972PAC/PUR1462:2"""),
-    ],
 )
 
 entry(
@@ -21198,9 +20125,6 @@ u"""
 PrIMe Reaction: r00001950
 Bath gas: (CH3)2O
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977HEL/MAN4128:2"""),
-    ],
 )
 
 entry(
@@ -21267,9 +20191,6 @@ u"""
 PrIMe Reaction: r00001950
 Uncertainty: 1.02
 """,
-    history = [
-        ("Thu Jul 12 19:38:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973CLA/DOV2147:2"""),
-    ],
 )
 
 entry(
@@ -21332,9 +20253,6 @@ u"""
 PrIMe Reaction: r00001957
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:39:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:17"""),
-    ],
 )
 
 entry(
@@ -21399,9 +20317,6 @@ u"""
 PrIMe Reaction: r00001957
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:39:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989WAN/OLD973-981:1"""),
-    ],
 )
 
 entry(
@@ -21465,9 +20380,6 @@ PrIMe Reaction: r00001957
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 19:39:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:7"""),
-    ],
 )
 
 entry(
@@ -21533,9 +20445,6 @@ PrIMe Reaction: r00001957
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001957/rk00000001.xml
 Bath gas: (CD3)2CO
 """,
-    history = [
-        ("Thu Jul 12 19:39:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966SHA/THY104:3"""),
-    ],
 )
 
 entry(
@@ -21598,9 +20507,6 @@ u"""
 PrIMe Reaction: r00001957
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:39:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:7"""),
-    ],
 )
 
 entry(
@@ -21666,9 +20572,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:39:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963SHA/HAR2455-2461:2"""),
-    ],
 )
 
 entry(
@@ -21732,9 +20635,6 @@ PrIMe Reaction: r00001957
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 19:39:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:5"""),
-    ],
 )
 
 entry(
@@ -21798,9 +20698,6 @@ PrIMe Reaction: r00001965
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001965/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:40:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:23"""),
-    ],
 )
 
 entry(
@@ -21864,9 +20761,6 @@ PrIMe Reaction: r00001965
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 19:40:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:8"""),
-    ],
 )
 
 entry(
@@ -21930,9 +20824,6 @@ PrIMe Reaction: r00001965
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001965/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:40:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:8"""),
-    ],
 )
 
 entry(
@@ -21997,9 +20888,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:40:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963SHA/HAR2455-2461:3"""),
-    ],
 )
 
 entry(
@@ -22063,9 +20951,6 @@ PrIMe Reaction: r00001965
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 19:40:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:6"""),
-    ],
 )
 
 entry(
@@ -22125,9 +21010,6 @@ PrIMe Reaction: r00001966
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001966/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:40:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:18"""),
-    ],
 )
 
 entry(
@@ -22186,9 +21068,6 @@ u"""
 PrIMe Reaction: r00001966
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:40:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008HUY/TRU107-118:1"""),
-    ],
 )
 
 entry(
@@ -22247,9 +21126,6 @@ u"""
 PrIMe Reaction: r00001966
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:3"""),
-    ],
 )
 
 entry(
@@ -22308,9 +21184,6 @@ u"""
 PrIMe Reaction: r00001966
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:3"""),
-    ],
 )
 
 entry(
@@ -22370,9 +21243,6 @@ PrIMe Reaction: r00001966
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001966/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:4"""),
-    ],
 )
 
 entry(
@@ -22430,9 +21300,6 @@ entry(
 u"""
 PrIMe Reaction: r00001966
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985HSU/LIN95:1"""),
-    ],
 )
 
 entry(
@@ -22489,9 +21356,6 @@ u"""
 PrIMe Reaction: r00001966
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:2"""),
-    ],
 )
 
 entry(
@@ -22554,9 +21418,6 @@ Bath gas: CH2O
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989CHO/SAN801-808:1"""),
-    ],
 )
 
 entry(
@@ -22620,9 +21481,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Other
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989CHO/SAN5143-5147:1"""),
-    ],
 )
 
 entry(
@@ -22685,9 +21543,6 @@ Bath gas: CH2O
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983ANA749:1"""),
-    ],
 )
 
 entry(
@@ -22751,9 +21606,6 @@ Bath gas: (CH3)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978MAN/PAC1307:1"""),
-    ],
 )
 
 entry(
@@ -22816,9 +21668,6 @@ The authors have calculated the potential energy surface of the CH2O1CH3 reactio
 
 Energies, frequencies, and bond length information for the intermediates and transition states are presented.
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003LIU/LI7214-7221:1"""),
-    ],
 )
 
 entry(
@@ -22884,9 +21733,6 @@ Calculated barriers are 40 kcal/mol for abstraction, 34 kcal/mol for C addition,
 
 Fits given here in database are NIST fits to curves in Figure 3 in paper.  Rate expressions NOT given in paper.
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003CHE/ZHA2929-2933:1"""),
-    ],
 )
 
 entry(
@@ -22947,9 +21793,6 @@ u"""
 PrIMe Reaction: r00001966
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989CHO/SAN5143-5147:2"""),
-    ],
 )
 
 entry(
@@ -23013,9 +21856,6 @@ PrIMe Reaction: r00001968
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000002.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:41:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:19"""),
-    ],
 )
 
 entry(
@@ -23077,9 +21917,6 @@ entry(
 u"""
 PrIMe Reaction: r00001968
 """,
-    history = [
-        ("Thu Jul 12 19:41:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:3"""),
-    ],
 )
 
 entry(
@@ -23142,9 +21979,6 @@ u"""
 PrIMe Reaction: r00001968
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:42"""),
-    ],
 )
 
 entry(
@@ -23208,9 +22042,6 @@ PrIMe Reaction: r00001968
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000002.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:49"""),
-    ],
 )
 
 entry(
@@ -23271,9 +22102,6 @@ u"""
 PrIMe Reaction: r00001968
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:25"""),
-    ],
 )
 
 entry(
@@ -23341,9 +22169,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZHA/BAC21-35:1"""),
-    ],
 )
 
 entry(
@@ -23410,9 +22235,6 @@ Uncertainty: 2.51
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989AHO/LIN1-20:2"""),
-    ],
 )
 
 entry(
@@ -23479,9 +22301,6 @@ Uncertainty: 2.51
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989AHO/LIN1-20:1"""),
-    ],
 )
 
 entry(
@@ -23549,9 +22368,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988AHO/BAC578:1"""),
-    ],
 )
 
 entry(
@@ -23618,9 +22434,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Laser schlieren
 """,
-    history = [
-        ("Thu Jul 12 19:41:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979TAB/BAU63:4"""),
-    ],
 )
 
 entry(
@@ -23679,9 +22492,6 @@ u"""
 PrIMe Reaction: r00001973
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:26"""),
-    ],
 )
 
 entry(
@@ -23741,9 +22551,6 @@ PrIMe Reaction: r00001973
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:21"""),
-    ],
 )
 
 entry(
@@ -23807,9 +22614,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:42:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988BAL/JON199-207:1"""),
-    ],
 )
 
 entry(
@@ -23869,9 +22673,6 @@ PrIMe Reaction: r00001973
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:165"""),
-    ],
 )
 
 entry(
@@ -23928,9 +22729,6 @@ u"""
 PrIMe Reaction: r00002003
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:29"""),
-    ],
 )
 
 entry(
@@ -23987,9 +22785,6 @@ u"""
 PrIMe Reaction: r00002003
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:42:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:23"""),
-    ],
 )
 
 entry(
@@ -24045,9 +22840,6 @@ entry(
 u"""
 PrIMe Reaction: r00002003
 """,
-    history = [
-        ("Thu Jul 12 19:42:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978SHA1179:2"""),
-    ],
 )
 
 entry(
@@ -24106,9 +22898,6 @@ u"""
 PrIMe Reaction: r00002003
 Bath gas: CH4
 """,
-    history = [
-        ("Thu Jul 12 19:42:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972SKI/LIF3853:1"""),
-    ],
 )
 
 entry(
@@ -24165,9 +22954,6 @@ u"""
 PrIMe Reaction: r00002003
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002003/rk00000002.xml
 """,
-    history = [
-        ("Thu Jul 12 19:42:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968MAY/SCH2628-2631:4"""),
-    ],
 )
 
 entry(
@@ -24227,9 +23013,6 @@ PrIMe Reaction: r00002425
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002425/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:51:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:68"""),
-    ],
 )
 
 entry(
@@ -24289,9 +23072,6 @@ PrIMe Reaction: r00002425
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002425/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:51:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:15"""),
-    ],
 )
 
 entry(
@@ -24358,9 +23138,6 @@ Analytical technique: Chemiluminescence
 
 Chemiluminescence from CCH + O2-> CH + CO2used to monitor CCH.
 """,
-    history = [
-        ("Thu Jul 12 19:51:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000CEU/NGU412-420:1"""),
-    ],
 )
 
 entry(
@@ -24424,9 +23201,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 19:51:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996OPA/LEO4888-4892:2"""),
-    ],
 )
 
 entry(
@@ -24489,9 +23263,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 19:51:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996OPA/LEO4888-4892:1"""),
-    ],
 )
 
 entry(
@@ -24558,9 +23329,6 @@ u"""
 PrIMe Reaction: r00002782
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:55:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:40"""),
-    ],
 )
 
 entry(
@@ -24627,9 +23395,6 @@ u"""
 PrIMe Reaction: r00002782
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002782/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 12 19:55:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:6"""),
-    ],
 )
 
 entry(
@@ -24698,9 +23463,6 @@ u"""
 PrIMe Reaction: r00002782
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:55:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989HID/OKI689-701:4"""),
-    ],
 )
 
 entry(
@@ -24767,9 +23529,6 @@ u"""
 PrIMe Reaction: r00002782
 Uncertainty: 1.5
 """,
-    history = [
-        ("Thu Jul 12 19:55:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:48"""),
-    ],
 )
 
 entry(
@@ -24838,9 +23597,6 @@ u"""
 PrIMe Reaction: r00002782
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:55:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973BAL/WAL826:2"""),
-    ],
 )
 
 entry(
@@ -24909,9 +23665,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:57:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986MAR/PUR929:1"""),
-    ],
 )
 
 entry(
@@ -24972,9 +23725,6 @@ u"""
 PrIMe Reaction: r00003234
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:58:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BAL/KEE435:6"""),
-    ],
 )
 
 entry(
@@ -25038,9 +23788,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:58:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983LIF/BEN1782:5"""),
-    ],
 )
 
 entry(
@@ -25102,9 +23849,6 @@ entry(
 u"""
 PrIMe Reaction: r00005745
 """,
-    history = [
-        ("Thu Jul 12 20:16:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992TSA3-8:1"""),
-    ],
 )
 
 entry(
@@ -25167,9 +23911,6 @@ u"""
 PrIMe Reaction: r00005745
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:16:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:59"""),
-    ],
 )
 
 entry(
@@ -25232,9 +23973,6 @@ u"""
 PrIMe Reaction: r00005745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005745/rk00000007.xml
 """,
-    history = [
-        ("Thu Jul 12 20:16:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:11"""),
-    ],
 )
 
 entry(
@@ -25297,9 +24035,6 @@ u"""
 PrIMe Reaction: r00005745
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:16:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:73"""),
-    ],
 )
 
 entry(
@@ -25362,9 +24097,6 @@ u"""
 PrIMe Reaction: r00005745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005745/rk00000007.xml
 """,
-    history = [
-        ("Thu Jul 12 20:16:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:13"""),
-    ],
 )
 
 entry(
@@ -25435,9 +24167,6 @@ Analytical technique: Vis-UV absorption
 
 The uncertainty of log(A) is +/- 0.48.
 """,
-    history = [
-        ("Thu Jul 12 20:17:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007TAK/YAM97-108:4"""),
-    ],
 )
 
 entry(
@@ -25504,9 +24233,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:17:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007TAK/YAM97-108:3"""),
-    ],
 )
 
 entry(
@@ -25575,9 +24301,6 @@ Analytical technique: Vis-UV absorption
 
 The high-temperature pyrolysis of dimethyl ether (DME) was studied behind reflected shock waves using single-pulse (reaction time between 1.3 and 2.9 ms), time-resolved IR absorption (3.39 mm), IR emission (4.24mm), and UV absorption (216 nm) methods. The studies were done using DME-Ar, DME-H2-Ar, DME-CO-Ar and DME-CH2O-Ar mixtures. From a computer simulation, a 94-reaction mechanism that could explain all exp. data was constructed.
 """,
-    history = [
-        ("Thu Jul 12 20:17:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000HID/SAT1-22:2"""),
-    ],
 )
 
 entry(
@@ -25644,9 +24367,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:17:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981LEE/MAC2839:2"""),
-    ],
 )
 
 entry(
@@ -25713,9 +24433,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:17:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979FAU/HOY532:2"""),
-    ],
 )
 
 entry(
@@ -25784,9 +24501,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:17:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974MEA/KIM2650:3"""),
-    ],
 )
 
 entry(
@@ -25854,9 +24568,6 @@ PrIMe Reaction: r00009459
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009459/rk00000002.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:27:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:47"""),
-    ],
 )
 
 entry(
@@ -25924,9 +24635,6 @@ PrIMe Reaction: r00009459
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009459/rk00000002.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:27:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:39"""),
-    ],
 )
 
 entry(
@@ -25998,9 +24706,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:27:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAR/PUR2999:1"""),
-    ],
 )
 
 entry(
@@ -26072,9 +24777,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:27:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAR/PUR2999:2"""),
-    ],
 )
 
 entry(
@@ -26140,9 +24842,6 @@ entry(
 u"""
 PrIMe Reaction: r00009459
 """,
-    history = [
-        ("Thu Jul 12 20:27:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:5"""),
-    ],
 )
 
 entry(
@@ -26211,9 +24910,6 @@ u"""
 PrIMe Reaction: r00009459
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:27:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAK/BAL2812:6"""),
-    ],
 )
 
 entry(
@@ -26282,9 +24978,6 @@ u"""
 PrIMe Reaction: r00009459
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:27:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989HID/OKI689-701:3"""),
-    ],
 )
 
 entry(
@@ -26344,9 +25037,6 @@ PrIMe Reaction: r00009465
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009465/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:31:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:93"""),
-    ],
 )
 
 entry(
@@ -26406,9 +25096,6 @@ PrIMe Reaction: r00009482
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009482/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:36:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:97"""),
-    ],
 )
 
 entry(
@@ -26465,9 +25152,6 @@ u"""
 PrIMe Reaction: r00009482
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:36:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:53"""),
-    ],
 )
 
 entry(
@@ -26530,9 +25214,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:36:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976WHY/MIC4871:1"""),
-    ],
 )
 
 entry(
@@ -26595,9 +25276,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:36:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973ADE/WAG332:1"""),
-    ],
 )
 
 entry(
@@ -26654,9 +25332,6 @@ Pressure dependence: Rate constant is pressure independent
 
 The k(T) dependence is the result of TST calculations based on high-level quantum chemical calculations of the PES and comparison with the experimental data.
 """,
-    history = [
-        ("Thu Jul 12 20:39:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005CAR/NGU114307:2"""),
-    ],
 )
 
 entry(
@@ -26713,9 +25388,6 @@ u"""
 PrIMe Reaction: r00010403
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988LIU/MUL5942:1"""),
-    ],
 )
 
 entry(
@@ -26770,9 +25442,6 @@ u"""
 PrIMe Reaction: r00010403
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:71"""),
-    ],
 )
 
 entry(
@@ -26835,9 +25504,6 @@ Analytical technique: IR absorption
 
 No direct measurements of rate constants. Rate constants reported are either from estimates or optimization fits. Enthalpies of formation were also allowed to be varied in fits. This paper is combined experimental and modeling. These measurements consist of shock tube oxidation of C2H2 at temperatures of 1150-2130 K, pressures of 0.9-1.9 atm, with lean to rich conditions (Phi = 0.06 to 1.7). CO produced was detected using CO laser absorption at 2077.1 cm-1
 """,
-    history = [
-        ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003EIT/FRE391-414:4"""),
-    ],
 )
 
 entry(
@@ -26897,9 +25563,6 @@ Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LIU/JON687-691:2"""),
-    ],
 )
 
 entry(
@@ -26958,9 +25621,6 @@ Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949AVR/LOR867:3"""),
-    ],
 )
 
 entry(
@@ -27014,9 +25674,6 @@ entry(
 u"""
 PrIMe Reaction: r00010403
 """,
-    history = [
-        ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989MIL/MEL1031-1039:3"""),
-    ],
 )
 
 entry(
@@ -27071,9 +25728,6 @@ u"""
 PrIMe Reaction: r00010403
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BRO/POR1035:1"""),
-    ],
 )
 
 entry(
@@ -27134,9 +25788,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:41:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:11"""),
-    ],
 )
 
 entry(
@@ -27193,9 +25844,6 @@ u"""
 PrIMe Reaction: r00010587
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:41:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:8"""),
-    ],
 )
 
 entry(
@@ -27256,9 +25904,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Reported uncertainties are two sigma and are precision only.
 """,
-    history = [
-        ("Thu Jul 12 20:41:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GAL/ALV4648-4662:8"""),
-    ],
 )
 
 entry(
@@ -27319,9 +25964,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:41:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:9"""),
-    ],
 )
 
 entry(
@@ -27381,9 +26023,6 @@ u"""
 PrIMe Reaction: r00010587
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 20:41:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LOR/RHA158:1"""),
-    ],
 )
 
 entry(
@@ -27443,9 +26082,6 @@ PrIMe Reaction: r00011303
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:47:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:12"""),
-    ],
 )
 
 entry(
@@ -27507,9 +26143,6 @@ PrIMe Reaction: r00011303
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:47:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/HAS61:6"""),
-    ],
 )
 
 entry(
@@ -27567,9 +26200,6 @@ u"""
 PrIMe Reaction: r00011303
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:64"""),
-    ],
 )
 
 entry(
@@ -27630,9 +26260,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996LI/WIL1017-1024:1"""),
-    ],
 )
 
 entry(
@@ -27696,9 +26323,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981VAN/VAN473:2"""),
-    ],
 )
 
 entry(
@@ -27759,9 +26383,6 @@ u"""
 PrIMe Reaction: r00011303
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979WES/DRY125:2"""),
-    ],
 )
 
 entry(
@@ -27824,9 +26445,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975BOW343:2"""),
-    ],
 )
 
 entry(
@@ -27887,9 +26505,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Reported uncertainties are two sigma and are precision only.
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GAL/ALV4648-4662:7"""),
-    ],
 )
 
 entry(
@@ -27949,9 +26564,6 @@ PrIMe Reaction: r00011303
 
 The calculated rate constants are in good agreement with experiment.
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999JOD/RAY3750-3765:10"""),
-    ],
 )
 
 entry(
@@ -28013,9 +26625,6 @@ PrIMe Reaction: r00011303
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:47:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/HAS61:3"""),
-    ],
 )
 
 entry(
@@ -28071,9 +26680,6 @@ PrIMe Reaction: r00011341
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011341/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:48:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:183"""),
-    ],
 )
 
 entry(
@@ -28128,9 +26734,6 @@ PrIMe Reaction: r00011341
 Pressure dependence: None reported
 Note: Invalid activation energy uncertainty (1.247) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:53"""),
-    ],
 )
 
 entry(
@@ -28185,9 +26788,6 @@ u"""
 PrIMe Reaction: r00011341
 Note: Invalid activation energy uncertainty (1.247) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:31"""),
-    ],
 )
 
 entry(
@@ -28242,9 +26842,6 @@ u"""
 PrIMe Reaction: r00011341
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:6"""),
-    ],
 )
 
 entry(
@@ -28299,9 +26896,6 @@ u"""
 PrIMe Reaction: r00011341
 Note: Invalid activation energy uncertainty (1.247) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:35"""),
-    ],
 )
 
 entry(
@@ -28357,9 +26951,6 @@ PrIMe Reaction: r00011341
 Uncertainty: 1.26
 Note: Invalid activation energy uncertainty (1.247) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:2"""),
-    ],
 )
 
 entry(
@@ -28415,9 +27006,6 @@ PrIMe Reaction: r00011341
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011341/rk00000001.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:8"""),
-    ],
 )
 
 entry(
@@ -28470,9 +27058,6 @@ u"""
 PrIMe Reaction: r00011341
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:3"""),
-    ],
 )
 
 entry(
@@ -28527,9 +27112,6 @@ u"""
 PrIMe Reaction: r00011341
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WIL535-573:1"""),
-    ],
 )
 
 entry(
@@ -28595,9 +27177,6 @@ Equation was derived at NIST and is an unweighted fit to the data reported by th
 
 The authors estimate the uncertainty in their absolute rates to be +/- 15% at 1229 K and +/- 25% at 1595 K, taking into account both experimental and mechanism-induced contributions.
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005VAS/DAV98-109:2"""),
-    ],
 )
 
 entry(
@@ -28656,9 +27235,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988ZAB/FLE117:1"""),
-    ],
 )
 
 entry(
@@ -28717,9 +27293,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986VAN/OLD127:2"""),
-    ],
 )
 
 entry(
@@ -28779,9 +27352,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Other (IR)
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980DEA/JOH41:2"""),
-    ],
 )
 
 entry(
@@ -28840,9 +27410,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978SMI519:1"""),
-    ],
 )
 
 entry(
@@ -28902,9 +27469,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 Note: Invalid activation energy uncertainty (1.247) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978ATK/PIT3581:1"""),
-    ],
 )
 
 entry(
@@ -28964,9 +27528,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977VAN/VAN1133:1"""),
-    ],
 )
 
 entry(
@@ -29025,9 +27586,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965WES/FRI473:1"""),
-    ],
 )
 
 entry(
@@ -29083,9 +27641,6 @@ PrIMe Reaction: r00011341
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006XU/ZHU322-326:1"""),
-    ],
 )
 
 entry(
@@ -29141,9 +27696,6 @@ PrIMe Reaction: r00011341
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006XU/ZHU322-326:2"""),
-    ],
 )
 
 entry(
@@ -29197,9 +27749,6 @@ entry(
 u"""
 PrIMe Reaction: r00011341
 """,
-    history = [
-        ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992FRA7597-7602:1"""),
-    ],
 )
 
 entry(
@@ -29259,9 +27808,6 @@ PrIMe Reaction: r00011431
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011431/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:50:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:199"""),
-    ],
 )
 
 entry(
@@ -29322,9 +27868,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Abstracter fit reported rate constants to modified Arrhenius expression. Small tunneling corrections (not included in calculations of present rate constants) indicate that tunneling makes a significant contribution at low temperatures (see text).
 """,
-    history = [
-        ("Thu Jul 12 20:50:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002LIU/DIN1021-1027:1"""),
-    ],
 )
 
 entry(
@@ -29383,9 +27926,6 @@ u"""
 PrIMe Reaction: r00011431
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:46"""),
-    ],
 )
 
 entry(
@@ -29445,9 +27985,6 @@ PrIMe Reaction: r00011431
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011431/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:53"""),
-    ],
 )
 
 entry(
@@ -29504,9 +28041,6 @@ u"""
 PrIMe Reaction: r00011431
 Uncertainty: 2.51
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:26"""),
-    ],
 )
 
 entry(
@@ -29569,9 +28103,6 @@ Experimental procedure: Flames
 Time resolution: In real time
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998BHA/WES333-347:2"""),
-    ],
 )
 
 entry(
@@ -29634,9 +28165,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989WES/THO863-871:1"""),
-    ],
 )
 
 entry(
@@ -29699,9 +28227,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TUL510:1"""),
-    ],
 )
 
 entry(
@@ -29764,9 +28289,6 @@ Bath gas: Ar
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987LIU/MUL25:1"""),
-    ],
 )
 
 entry(
@@ -29829,9 +28351,6 @@ Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949AVR/LOR867:2"""),
-    ],
 )
 
 entry(
@@ -29891,9 +28410,6 @@ PrIMe Reaction: r00011431
 
 The rate constant was determined using the CVT method with the molecular-property data obtained at the RQCISD(T)/cc-pV∞Z//UB3LYP/6-311++G(d,p) level
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008HUY/BAR1436-1444:3"""),
-    ],
 )
 
 entry(
@@ -29954,9 +28470,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Abstracter fit reported rate constants to modified Arrhenius expression. Small tunneling corrections (not included in calculations of present rate constants) indicate that tunneling makes a >7% contribution to the rate constant for temperatures <730 K (see text).
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002LIU/DIN1021-1027:2"""),
-    ],
 )
 
 entry(
@@ -30017,9 +28530,6 @@ u"""
 PrIMe Reaction: r00011431
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988LIU/MUL3828:3"""),
-    ],
 )
 
 entry(
@@ -30075,9 +28585,6 @@ PrIMe Reaction: r00011842
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011842/rk00000002.xml
 Uncertainty: 1.51
 """,
-    history = [
-        ("Thu Jul 12 20:51:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:14"""),
-    ],
 )
 
 entry(
@@ -30134,9 +28641,6 @@ u"""
 PrIMe Reaction: r00011842
 Bath gas: H2O2
 """,
-    history = [
-        ("Thu Jul 12 20:51:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961KON120-122:1"""),
-    ],
 )
 
 entry(
@@ -30190,9 +28694,6 @@ entry(
 u"""
 PrIMe Reaction: r00011842
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ATK/BAU1461-1738:57"""),
-    ],
 )
 
 entry(
@@ -30246,9 +28747,6 @@ u"""
 PrIMe Reaction: r00011842
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:20"""),
-    ],
 )
 
 entry(
@@ -30301,9 +28799,6 @@ entry(
 u"""
 PrIMe Reaction: r00011842
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:340"""),
-    ],
 )
 
 entry(
@@ -30357,9 +28852,6 @@ entry(
 u"""
 PrIMe Reaction: r00011842
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU1329-1499:72"""),
-    ],
 )
 
 entry(
@@ -30413,9 +28905,6 @@ u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:323"""),
-    ],
 )
 
 entry(
@@ -30470,9 +28959,6 @@ u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:183"""),
-    ],
 )
 
 entry(
@@ -30526,9 +29012,6 @@ entry(
 u"""
 PrIMe Reaction: r00011842
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:253"""),
-    ],
 )
 
 entry(
@@ -30583,9 +29066,6 @@ u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.26
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:173"""),
-    ],
 )
 
 entry(
@@ -30640,9 +29120,6 @@ u"""
 PrIMe Reaction: r00011842
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:226"""),
-    ],
 )
 
 entry(
@@ -30695,9 +29172,6 @@ u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:172"""),
-    ],
 )
 
 entry(
@@ -30754,9 +29228,6 @@ u"""
 PrIMe Reaction: r00011842
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981WIN/SEM4390:1"""),
-    ],
 )
 
 entry(
@@ -30811,9 +29282,6 @@ u"""
 PrIMe Reaction: r00011842
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WIL535-573:18"""),
-    ],
 )
 
 entry(
@@ -30877,9 +29345,6 @@ Analytical technique: Mass spectrometry
 Reported uncertainty includes estimated systematic error.
 Note: Invalid activation energy uncertainty (1.247) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004JIM/GIE1139-1149:3"""),
-    ],
 )
 
 entry(
@@ -30938,10 +29403,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VAK/MCC10642-10647:1"""),
-        ("Wed Jul 18 15:09:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed invalid pressure range according to http://pubs.acs.org/doi/full/10.1021/jp030424q"""),
-    ],
 )
 
 entry(
@@ -31000,9 +29461,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Laser magnetic resonance (LMR)
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990LOV/MUR2386-2393:2"""),
-    ],
 )
 
 entry(
@@ -31061,9 +29519,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989VAG/RAV7833-7837:2"""),
-    ],
 )
 
 entry(
@@ -31122,9 +29577,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983LAM/MOL4467:1"""),
-    ],
 )
 
 entry(
@@ -31184,9 +29636,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982KUR/MUR1149:1"""),
-    ],
 )
 
 entry(
@@ -31245,9 +29694,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981WIN/SEM4390:2"""),
-    ],
 )
 
 entry(
@@ -31306,9 +29752,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980SRI/REI1286:1"""),
-    ],
 )
 
 entry(
@@ -31367,9 +29810,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980KEY1659:1"""),
-    ],
 )
 
 entry(
@@ -31427,9 +29867,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975HAC/HOY329:3"""),
-    ],
 )
 
 entry(
@@ -31486,9 +29923,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HAC/HOY1236:2"""),
-    ],
 )
 
 entry(
@@ -31548,9 +29982,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969TRO946:1"""),
-    ],
 )
 
 entry(
@@ -31610,9 +30041,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968GRE406:2"""),
-    ],
 )
 
 entry(
@@ -31669,9 +30097,6 @@ u"""
 PrIMe Reaction: r00011842
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989VAG/RAV7833-7837:4"""),
-    ],
 )
 
 entry(
@@ -31728,9 +30153,6 @@ u"""
 PrIMe Reaction: r00011842
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989VAG/RAV7833-7837:3"""),
-    ],
 )
 
 entry(
@@ -31784,9 +30206,6 @@ entry(
 u"""
 PrIMe Reaction: r00011842
 """,
-    history = [
-        ("Thu Jul 12 20:51:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:35"""),
-    ],
 )
 
 entry(
@@ -31849,9 +30268,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:56:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:243"""),
-    ],
 )
 
 entry(
@@ -31915,9 +30331,6 @@ PrIMe Reaction: r00013765
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:56:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:34"""),
-    ],
 )
 
 entry(
@@ -31981,9 +30394,6 @@ PrIMe Reaction: r00013765
 
 Evaluated rate expression derived from data reported in previous reaction rate measurements and shock tube data reported in this manuscript.
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004KRA/MIC5643-5648:3"""),
-    ],
 )
 
 entry(
@@ -32045,9 +30455,6 @@ u"""
 PrIMe Reaction: r00013765
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:51"""),
-    ],
 )
 
 entry(
@@ -32108,9 +30515,6 @@ entry(
 u"""
 PrIMe Reaction: r00013765
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:96"""),
-    ],
 )
 
 entry(
@@ -32172,9 +30576,6 @@ entry(
 u"""
 PrIMe Reaction: r00013765
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:65"""),
-    ],
 )
 
 entry(
@@ -32236,9 +30637,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.1
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:97"""),
-    ],
 )
 
 entry(
@@ -32301,9 +30699,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.41
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:38"""),
-    ],
 )
 
 entry(
@@ -32365,9 +30760,6 @@ entry(
 u"""
 PrIMe Reaction: r00013765
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:63"""),
-    ],
 )
 
 entry(
@@ -32430,9 +30822,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.26
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:26"""),
-    ],
 )
 
 entry(
@@ -32495,9 +30884,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:37"""),
-    ],
 )
 
 entry(
@@ -32560,9 +30946,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986BAU/BOW465:2"""),
-    ],
 )
 
 entry(
@@ -32625,9 +31008,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK69:12"""),
-    ],
 )
 
 entry(
@@ -32688,9 +31068,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:20"""),
-    ],
 )
 
 entry(
@@ -32754,9 +31131,6 @@ PrIMe Reaction: r00013765
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000001.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:2"""),
-    ],
 )
 
 entry(
@@ -32819,9 +31193,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WIL535-573:5"""),
-    ],
 )
 
 entry(
@@ -32889,9 +31260,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004KRA/MIC5643-5648:2"""),
-    ],
 )
 
 entry(
@@ -32958,9 +31326,6 @@ Bath gas: N2
 Excitation technique: Electron beam
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998DON/AND3121-3126:8"""),
-    ],
 )
 
 entry(
@@ -33027,9 +31392,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996CRO/CAM3601-3606:1"""),
-    ],
 )
 
 entry(
@@ -33097,9 +31459,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996ANC/VAN1009-1016:1"""),
-    ],
 )
 
 entry(
@@ -33166,9 +31525,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994TAL/MEL973-990:1"""),
-    ],
 )
 
 entry(
@@ -33235,9 +31591,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993SHA/SMI631-638:2"""),
-    ],
 )
 
 entry(
@@ -33304,9 +31657,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987WAL/NEU725:3"""),
-    ],
 )
 
 entry(
@@ -33373,9 +31723,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TUL/DRO691:1"""),
-    ],
 )
 
 entry(
@@ -33442,9 +31789,6 @@ Bath gas: He
 Excitation technique: Thermal
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SMI/MOL41:1"""),
-    ],
 )
 
 entry(
@@ -33510,9 +31854,6 @@ Bath gas: Ar
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984NIE/PAG283:1"""),
-    ],
 )
 
 entry(
@@ -33576,9 +31917,6 @@ PrIMe Reaction: r00013765
 Excitation technique: Electron beam
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984JEO/HSU1222:3"""),
-    ],
 )
 
 entry(
@@ -33642,9 +31980,6 @@ PrIMe Reaction: r00013765
 Excitation technique: Thermal
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984JEO/HSU1222:2"""),
-    ],
 )
 
 entry(
@@ -33711,9 +32046,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983TUL/RAV1111:1"""),
-    ],
 )
 
 entry(
@@ -33780,9 +32112,6 @@ Bath gas: CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983BAU/CRA689:2"""),
-    ],
 )
 
 entry(
@@ -33849,9 +32178,6 @@ Bath gas: H2O
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975GOR/MUL289:2"""),
-    ],
 )
 
 entry(
@@ -33914,9 +32240,6 @@ u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.38
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:3"""),
-    ],
 )
 
 entry(
@@ -33984,9 +32307,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:2"""),
-    ],
 )
 
 entry(
@@ -34053,9 +32373,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAL/HOP189:3"""),
-    ],
 )
 
 entry(
@@ -34124,9 +32441,6 @@ Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967HOR/NOR1373:2"""),
-    ],
 )
 
 entry(
@@ -34193,9 +32507,6 @@ Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949AVR/LOR867:1"""),
-    ],
 )
 
 entry(
@@ -34261,9 +32572,6 @@ PrIMe Reaction: r00013765
 
 The title reaction was modeled using ab initio MP2 and a hybrid density functional method (BHandHLYP) methods, and the 6-311G(d,p) basis set. Single-point calculations at the CCSD(T) level were carried out at the optimized geometries. Hindered Internal Rotation partition functions calculations were explicitly carried out and included in the total partition functions. The explicit participation of the tunnel effect was taken into account.
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005BRA/ALV213-223:2"""),
-    ],
 )
 
 entry(
@@ -34327,9 +32635,6 @@ PrIMe Reaction: r00013765
 
 Evaluated rate expression derived by fitting a theoretical extrapolation based on conventional transition state theory (computed with B3LYP/6-31G* calculations) with experimental data reported in previous reaction rate measurements and wtih the shock tube data reported in this manuscript. Wigner tunneling corrections were included in the fit model.
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004KRA/MIC5643-5648:4"""),
-    ],
 )
 
 entry(
@@ -34391,9 +32696,6 @@ entry(
 u"""
 PrIMe Reaction: r00013765
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:2"""),
-    ],
 )
 
 entry(
@@ -34455,9 +32757,6 @@ entry(
 u"""
 PrIMe Reaction: r00013765
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987COH/BEN171-175:3"""),
-    ],
 )
 
 entry(
@@ -34522,9 +32821,6 @@ u"""
 PrIMe Reaction: r00013765
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:1"""),
-    ],
 )
 
 entry(
@@ -34586,9 +32882,6 @@ entry(
 u"""
 PrIMe Reaction: r00013765
 """,
-    history = [
-        ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982COH1339:2"""),
-    ],
 )
 
 entry(
@@ -34641,9 +32934,6 @@ u"""
 PrIMe Reaction: r00013767
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013767/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:59:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968MAY/SCH2628-2631:12"""),
-    ],
 )
 
 entry(
@@ -34695,9 +32985,6 @@ entry(
 u"""
 PrIMe Reaction: r00013767
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ATK/BAU1461-1738:54"""),
-    ],
 )
 
 entry(
@@ -34749,9 +33036,6 @@ u"""
 PrIMe Reaction: r00013767
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:19"""),
-    ],
 )
 
 entry(
@@ -34802,9 +33086,6 @@ entry(
 u"""
 PrIMe Reaction: r00013767
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:309"""),
-    ],
 )
 
 entry(
@@ -34856,9 +33137,6 @@ entry(
 u"""
 PrIMe Reaction: r00013767
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU1329-1499:53"""),
-    ],
 )
 
 entry(
@@ -34910,9 +33188,6 @@ u"""
 PrIMe Reaction: r00013767
 Uncertainty: 1.3
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:291"""),
-    ],
 )
 
 entry(
@@ -34965,9 +33240,6 @@ u"""
 PrIMe Reaction: r00013767
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:91"""),
-    ],
 )
 
 entry(
@@ -35020,9 +33292,6 @@ u"""
 PrIMe Reaction: r00013767
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:170"""),
-    ],
 )
 
 entry(
@@ -35074,9 +33343,6 @@ entry(
 u"""
 PrIMe Reaction: r00013767
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:225"""),
-    ],
 )
 
 entry(
@@ -35129,9 +33395,6 @@ u"""
 PrIMe Reaction: r00013767
 Uncertainty: 1.26
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:142"""),
-    ],
 )
 
 entry(
@@ -35184,9 +33447,6 @@ u"""
 PrIMe Reaction: r00013767
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:12"""),
-    ],
 )
 
 entry(
@@ -35243,9 +33503,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KEY1193:1"""),
-    ],
 )
 
 entry(
@@ -35302,9 +33559,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SRI/QIU1281:1"""),
-    ],
 )
 
 entry(
@@ -35356,9 +33610,6 @@ entry(
 u"""
 PrIMe Reaction: r00013767
 """,
-    history = [
-        ("Thu Jul 12 20:59:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992GON/THE1767-1774:1"""),
-    ],
 )
 
 entry(
@@ -35421,9 +33672,6 @@ u"""
 PrIMe Reaction: r00005746
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005746/rk00000002.xml
 """,
-    history = [
-        ("Fri Jul 27 09:33:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992TSA3-8:2"""),
-    ],
 )
 
 entry(
@@ -35486,9 +33734,6 @@ u"""
 PrIMe Reaction: r00005747
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005747/rk00000002.xml
 """,
-    history = [
-        ("Fri Jul 27 09:34:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992TSA3-8:3"""),
-    ],
 )
 
 entry(
@@ -35545,9 +33790,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 The rate constant was calculated by CCSD(T)/6-311+G(3df,2p)/QCISD/6-311G(d,p)+ZPVE CVT/SCT. The results of this theoretical study indicate that the C2H+H2O ->C2H2+OH reaction is slow.
 """,
-    history = [
-        ("Fri Jul 27 10:53:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001DIN/ZHA8206-8215:1"""),
-    ],
 )
 
 entry(
@@ -35609,9 +33851,6 @@ PrIMe Reaction: r00001351
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001351/rk00000003.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:34:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:3"""),
-    ],
 )
 
 entry(
@@ -35673,9 +33912,6 @@ PrIMe Reaction: r00001357
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001357/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:34:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:5"""),
-    ],
 )
 
 entry(
@@ -35737,9 +33973,6 @@ PrIMe Reaction: r00001357
 
 Results of an ab initio direct dynamics study are reported. Geometries of stationary points on the PES were optimized using the MP2/cc-pVDZ method and the energies further refined at the QCISD(T)/cc-pVTZ level of theory. Rate constants were evaluated using canonical variational transition state theory (CVT) and canonical variational transition state theory with small-curvature tunneling contributions (CVT/SCT) in the temperature range of 300 - 2500 K. Calculations are in good agreement with the very limited experimental data.
 """,
-    history = [
-        ("Thu Jul 12 19:34:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ZHA/ZHA51-56:1"""),
-    ],
 )
 
 entry(
@@ -35799,9 +34032,6 @@ entry(
 u"""
 PrIMe Reaction: r00001357
 """,
-    history = [
-        ("Thu Jul 12 19:34:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:1"""),
-    ],
 )
 
 entry(
@@ -35856,9 +34086,6 @@ u"""
 PrIMe Reaction: r00001370
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 19:34:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:7"""),
-    ],
 )
 
 entry(
@@ -35913,9 +34140,6 @@ u"""
 PrIMe Reaction: r00001370
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:34:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:9"""),
-    ],
 )
 
 entry(
@@ -35976,9 +34200,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:34:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU7902-7914:5"""),
-    ],
 )
 
 entry(
@@ -36038,10 +34259,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:34:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MIC/KUM5942-5948:2"""),
-        ("Wed Jul 18 15:13:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed pressure range according to http://pubs.acs.org/doi/full/10.1021/jp9909457"""),
-    ],
 )
 
 entry(
@@ -36101,9 +34318,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:34:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974BAL/FUL1257:1"""),
-    ],
 )
 
 entry(
@@ -36159,10 +34373,6 @@ entry(
 u"""
 PrIMe Reaction: r00001370
 """,
-    history = [
-        ("Thu Jul 12 19:34:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MIC/KUM5942-5948:3"""),
-        ("Wed Jul 18 15:13:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to http://pubs.acs.org/doi/full/10.1021/jp9909457"""),
-    ],
 )
 
 entry(
@@ -36234,9 +34444,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:35:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968GRA/HER1568:2"""),
-    ],
 )
 
 entry(
@@ -36307,9 +34514,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Significant minor channel at all temperatures, modified G2/B3LYP 6-311G(d,p) geometries, rates by TST and CVTST plus tunneling
 """,
-    history = [
-        ("Thu Jul 12 19:35:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004XU/PAR6593-6599:3"""),
-    ],
 )
 
 entry(
@@ -36380,9 +34584,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Significant minor channel at all temperatures, modified G2/B3LYP 6-311G(d,p) geometries, rates by TST and CVTST plus tunneling
 """,
-    history = [
-        ("Thu Jul 12 19:35:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004XU/PAR6593-6599:4"""),
-    ],
 )
 
 entry(
@@ -36455,9 +34656,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:35:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968GRA/HER1568:3"""),
-    ],
 )
 
 entry(
@@ -36528,9 +34726,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Dominant below 800 K, significant minor channel above 1000 K, modified G2/B3LYP 6-311G(d,p) geometries, rates by TST and CVTST plus tunneling
 """,
-    history = [
-        ("Thu Jul 12 19:35:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004XU/PAR6593-6599:2"""),
-    ],
 )
 
 entry(
@@ -36601,9 +34796,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Dominant below 800 K, significant minor channel above 1000 K, modified G2/B3LYP 6-311G(d,p) geometries, rates by TST and CVTST plus tunneling
 """,
-    history = [
-        ("Thu Jul 12 19:35:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004XU/PAR6593-6599:1"""),
-    ],
 )
 
 entry(
@@ -36668,9 +34860,6 @@ PrIMe Reaction: r00001609
 Pressure dependence: None reported
 Note: Invalid activation energy uncertainty (1.663) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:35:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:69"""),
-    ],
 )
 
 entry(
@@ -36737,9 +34926,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Reported uncertainties are two sigma and are precision only.
 """,
-    history = [
-        ("Thu Jul 12 19:35:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GAL/ALV4648-4662:11"""),
-    ],
 )
 
 entry(
@@ -36807,9 +34993,6 @@ PrIMe Reaction: r00001609
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001609/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:35:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982NAT/BHA834:2"""),
-    ],
 )
 
 entry(
@@ -36875,9 +35058,6 @@ PrIMe Reaction: r00001687
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001687/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:35:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:9"""),
-    ],
 )
 
 entry(
@@ -36943,9 +35123,6 @@ PrIMe Reaction: r00001687
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001687/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:35:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:6"""),
-    ],
 )
 
 entry(
@@ -37007,9 +35184,6 @@ PrIMe Reaction: r00001688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001688/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:35:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:10"""),
-    ],
 )
 
 entry(
@@ -37071,9 +35245,6 @@ PrIMe Reaction: r00001688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001688/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:35:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:1"""),
-    ],
 )
 
 entry(
@@ -37139,9 +35310,6 @@ PrIMe Reaction: r00001689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001689/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:36:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:11"""),
-    ],
 )
 
 entry(
@@ -37207,9 +35375,6 @@ PrIMe Reaction: r00001690
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001690/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:36:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:12"""),
-    ],
 )
 
 entry(
@@ -37269,9 +35434,6 @@ PrIMe Reaction: r00001705
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001705/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:36:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:16"""),
-    ],
 )
 
 entry(
@@ -37346,9 +35508,6 @@ Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:36:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965OGA/NAL237:1"""),
-    ],
 )
 
 entry(
@@ -37417,9 +35576,6 @@ Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 19:37:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000SAT/HID291-311:2"""),
-    ],
 )
 
 entry(
@@ -37489,9 +35645,6 @@ Bath gas: Ar
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 19:37:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976AMB/BRA1870:1"""),
-    ],
 )
 
 entry(
@@ -37559,9 +35712,6 @@ Uncertainty: 1.05
 Excitation technique: Thermal
 Analytical technique: Other
 """,
-    history = [
-        ("Thu Jul 12 19:37:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972AZA/GYU727:1"""),
-    ],
 )
 
 entry(
@@ -37627,9 +35777,6 @@ PrIMe Reaction: r00001954
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001954/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:39:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:16"""),
-    ],
 )
 
 entry(
@@ -37699,9 +35846,6 @@ PrIMe Reaction: r00002098
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002098/rk00000005.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:49:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:31"""),
-    ],
 )
 
 entry(
@@ -37770,9 +35914,6 @@ u"""
 PrIMe Reaction: r00002098
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:49:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:18"""),
-    ],
 )
 
 entry(
@@ -37842,9 +35983,6 @@ PrIMe Reaction: r00002103
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002103/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:24"""),
-    ],
 )
 
 entry(
@@ -37914,9 +36052,6 @@ PrIMe Reaction: r00002103
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002103/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:19"""),
-    ],
 )
 
 entry(
@@ -37982,9 +36117,6 @@ PrIMe Reaction: r00002104
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002104/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:33"""),
-    ],
 )
 
 entry(
@@ -38049,9 +36181,6 @@ u"""
 PrIMe Reaction: r00002104
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008HUY/TRU107-118:2"""),
-    ],
 )
 
 entry(
@@ -38117,9 +36246,6 @@ PrIMe Reaction: r00002104
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002104/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:11"""),
-    ],
 )
 
 entry(
@@ -38188,9 +36314,6 @@ u"""
 PrIMe Reaction: r00002105
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:34"""),
-    ],
 )
 
 entry(
@@ -38264,9 +36387,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:50:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985HID/SHI441:2"""),
-    ],
 )
 
 entry(
@@ -38334,9 +36454,6 @@ entry(
 u"""
 PrIMe Reaction: r00002105
 """,
-    history = [
-        ("Thu Jul 12 19:50:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:4"""),
-    ],
 )
 
 entry(
@@ -38405,9 +36522,6 @@ u"""
 PrIMe Reaction: r00002105
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:58"""),
-    ],
 )
 
 entry(
@@ -38481,9 +36595,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:50:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZHA/BAC21-35:2"""),
-    ],
 )
 
 entry(
@@ -38556,9 +36667,6 @@ Uncertainty: 2.51
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:50:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989AHO/LIN1-20:3"""),
-    ],
 )
 
 entry(
@@ -38630,9 +36738,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:50:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968HAL/QUI103:1"""),
-    ],
 )
 
 entry(
@@ -38707,9 +36812,6 @@ Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:50:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968BOY/WU2415:1"""),
-    ],
 )
 
 entry(
@@ -38772,9 +36874,6 @@ u"""
 PrIMe Reaction: r00002126
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:39"""),
-    ],
 )
 
 entry(
@@ -38837,9 +36936,6 @@ u"""
 PrIMe Reaction: r00002126
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:38"""),
-    ],
 )
 
 entry(
@@ -38903,9 +36999,6 @@ PrIMe Reaction: r00002126
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002126/rk00000003.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:50:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973TAY/KUL455-468:3"""),
-    ],
 )
 
 entry(
@@ -38965,9 +37058,6 @@ PrIMe Reaction: r00002294
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002294/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:55"""),
-    ],
 )
 
 entry(
@@ -39033,9 +37123,6 @@ PrIMe Reaction: r00002411
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002411/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:50:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:75"""),
-    ],
 )
 
 entry(
@@ -39105,9 +37192,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: IR absorption
 Note: Invalid activation energy uncertainty (0.133) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:50:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996OPA/LEO19904-19910:1"""),
-    ],
 )
 
 entry(
@@ -39180,9 +37264,6 @@ u"""
 PrIMe Reaction: r00002724
 Uncertainty: 1.5
 """,
-    history = [
-        ("Thu Jul 12 19:53:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:25"""),
-    ],
 )
 
 entry(
@@ -39259,9 +37340,6 @@ Bath gas: He
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:53:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978MIN/LER941:4"""),
-    ],
 )
 
 entry(
@@ -39339,9 +37417,6 @@ Bath gas: C3H8
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:53:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968LEA/PUR553:2"""),
-    ],
 )
 
 entry(
@@ -39414,9 +37489,6 @@ u"""
 PrIMe Reaction: r00002724
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:8"""),
-    ],
 )
 
 entry(
@@ -39484,9 +37556,6 @@ u"""
 PrIMe Reaction: r00002745
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:52"""),
-    ],
 )
 
 entry(
@@ -39554,9 +37623,6 @@ entry(
 u"""
 PrIMe Reaction: r00002745
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:2"""),
-    ],
 )
 
 entry(
@@ -39629,9 +37695,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:4"""),
-    ],
 )
 
 entry(
@@ -39703,9 +37766,6 @@ PrIMe Reaction: r00002745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002745/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAK/BAL2812:3"""),
-    ],
 )
 
 entry(
@@ -39773,9 +37833,6 @@ entry(
 u"""
 PrIMe Reaction: r00002745
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997HU/ROS6911-6921:1"""),
-    ],
 )
 
 entry(
@@ -39843,9 +37900,6 @@ entry(
 u"""
 PrIMe Reaction: r00002745
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997HU/ROS6911-6921:2"""),
-    ],
 )
 
 entry(
@@ -39913,9 +37967,6 @@ entry(
 u"""
 PrIMe Reaction: r00002745
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:4"""),
-    ],
 )
 
 entry(
@@ -39986,9 +38037,6 @@ u"""
 PrIMe Reaction: r00002745
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:54:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:2"""),
-    ],
 )
 
 entry(
@@ -40062,9 +38110,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:55:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:5"""),
-    ],
 )
 
 entry(
@@ -40132,9 +38177,6 @@ entry(
 u"""
 PrIMe Reaction: r00002746
 """,
-    history = [
-        ("Thu Jul 12 19:55:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997HU/ROS6911-6921:3"""),
-    ],
 )
 
 entry(
@@ -40202,9 +38244,6 @@ entry(
 u"""
 PrIMe Reaction: r00002746
 """,
-    history = [
-        ("Thu Jul 12 19:55:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:5"""),
-    ],
 )
 
 entry(
@@ -40275,9 +38314,6 @@ u"""
 PrIMe Reaction: r00002746
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:55:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:3"""),
-    ],
 )
 
 entry(
@@ -40342,9 +38378,6 @@ u"""
 PrIMe Reaction: r00003010
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:68"""),
-    ],
 )
 
 entry(
@@ -40407,9 +38440,6 @@ u"""
 PrIMe Reaction: r00003010
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:51"""),
-    ],
 )
 
 entry(
@@ -40478,9 +38508,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAL/MAT109:1"""),
-    ],
 )
 
 entry(
@@ -40551,9 +38578,6 @@ Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968LIU/LAI479:3"""),
-    ],
 )
 
 entry(
@@ -40622,9 +38646,6 @@ Bath gas: (CH3N)2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965KER/CAL1022:1"""),
-    ],
 )
 
 entry(
@@ -40693,9 +38714,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO2059:1"""),
-    ],
 )
 
 entry(
@@ -40764,9 +38782,6 @@ Bath gas: CH3CHO
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1955DOD699:1"""),
-    ],
 )
 
 entry(
@@ -40835,9 +38850,6 @@ Bath gas: CH3CHO
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1952VOL/BRI1764:1"""),
-    ],
 )
 
 entry(
@@ -40904,9 +38916,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1952BRI/VOL1053:1"""),
-    ],
 )
 
 entry(
@@ -40974,9 +38983,6 @@ Bath gas: CH3CHO
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1951DOD56-62:1"""),
-    ],
 )
 
 entry(
@@ -41040,9 +39046,6 @@ entry(
 u"""
 PrIMe Reaction: r00003010
 """,
-    history = [
-        ("Thu Jul 12 19:56:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAL/LAN251:6"""),
-    ],
 )
 
 entry(
@@ -41107,9 +39110,6 @@ u"""
 PrIMe Reaction: r00003010
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:56:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:20"""),
-    ],
 )
 
 entry(
@@ -41169,9 +39169,6 @@ u"""
 PrIMe Reaction: r00003024
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 19:57:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:54"""),
-    ],
 )
 
 entry(
@@ -41230,9 +39227,6 @@ entry(
 u"""
 PrIMe Reaction: r00003024
 """,
-    history = [
-        ("Thu Jul 12 19:57:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:129"""),
-    ],
 )
 
 entry(
@@ -41292,9 +39286,6 @@ entry(
 u"""
 PrIMe Reaction: r00003024
 """,
-    history = [
-        ("Thu Jul 12 19:57:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:91"""),
-    ],
 )
 
 entry(
@@ -41354,9 +39345,6 @@ u"""
 PrIMe Reaction: r00003024
 Uncertainty: 1.4
 """,
-    history = [
-        ("Thu Jul 12 19:57:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:129"""),
-    ],
 )
 
 entry(
@@ -41416,9 +39404,6 @@ entry(
 u"""
 PrIMe Reaction: r00003024
 """,
-    history = [
-        ("Thu Jul 12 19:57:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:87"""),
-    ],
 )
 
 entry(
@@ -41479,9 +39464,6 @@ u"""
 PrIMe Reaction: r00003024
 Uncertainty: 1.26
 """,
-    history = [
-        ("Thu Jul 12 19:57:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:45"""),
-    ],
 )
 
 entry(
@@ -41546,9 +39528,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Bath gas: He
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Thu Jul 12 19:57:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996TAY/RAH497-504:7"""),
-    ],
 )
 
 entry(
@@ -41613,9 +39592,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Bath gas: He
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Thu Jul 12 19:57:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996TAY/RAH497-504:8"""),
-    ],
 )
 
 entry(
@@ -41680,9 +39656,6 @@ u"""
 PrIMe Reaction: r00003205
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003205/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:57:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ATK2233-2307:22"""),
-    ],
 )
 
 entry(
@@ -41753,9 +39726,6 @@ Excitation technique: Direct photolysis
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:57:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001WIL/SAW1445-1448:2"""),
-    ],
 )
 
 entry(
@@ -41826,9 +39796,6 @@ Excitation technique: Direct photolysis
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:57:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001WIL/SAW1445-1448:1"""),
-    ],
 )
 
 entry(
@@ -41898,9 +39865,6 @@ Excitation technique: Direct photolysis
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:57:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999DEM/BAY2649-2654:9"""),
-    ],
 )
 
 entry(
@@ -41970,9 +39934,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:57:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992DOB/TUR191-198:2"""),
-    ],
 )
 
 entry(
@@ -42040,9 +40001,6 @@ PrIMe Reaction: r00003205
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 19:57:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991DOB/TUR499-503:1"""),
-    ],
 )
 
 entry(
@@ -42111,9 +40069,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Uncertainty: 1.41
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:58:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BAL/KEE435:4"""),
-    ],
 )
 
 entry(
@@ -42176,9 +40131,6 @@ u"""
 PrIMe Reaction: r00003226
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 19:58:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BAL/KEE435:5"""),
-    ],
 )
 
 entry(
@@ -42243,9 +40195,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 19:58:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LOR/ZEL1228:1"""),
-    ],
 )
 
 entry(
@@ -42310,9 +40259,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 19:58:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982FRI/LOR192:2"""),
-    ],
 )
 
 entry(
@@ -42384,9 +40330,6 @@ entry(
 u"""
 PrIMe Reaction: r00004630
 """,
-    history = [
-        ("Thu Jul 12 20:08:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:22"""),
-    ],
 )
 
 entry(
@@ -42461,9 +40404,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:08:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968PAR/NAL724:2"""),
-    ],
 )
 
 entry(
@@ -42535,9 +40475,6 @@ entry(
 u"""
 PrIMe Reaction: r00004630
 """,
-    history = [
-        ("Thu Jul 12 20:08:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989NIC/VAG5121-5123:2"""),
-    ],
 )
 
 entry(
@@ -42602,9 +40539,6 @@ u"""
 PrIMe Reaction: r00004785
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004785/rk00000002.xml
 """,
-    history = [
-        ("Thu Jul 12 20:08:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WEI/BEN4080:4"""),
-    ],
 )
 
 entry(
@@ -42669,9 +40603,6 @@ u"""
 PrIMe Reaction: r00004785
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004785/rk00000002.xml
 """,
-    history = [
-        ("Thu Jul 12 20:08:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WEI/BEN4080:6"""),
-    ],
 )
 
 entry(
@@ -42736,9 +40667,6 @@ u"""
 PrIMe Reaction: r00004785
 Bath gas: H2
 """,
-    history = [
-        ("Thu Jul 12 20:08:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BEN/HAU1735:7"""),
-    ],
 )
 
 entry(
@@ -42807,9 +40735,6 @@ u"""
 PrIMe Reaction: r00005661
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994KIN/ROS191-200:4"""),
-    ],
 )
 
 entry(
@@ -42878,9 +40803,6 @@ u"""
 PrIMe Reaction: r00005661
 Uncertainty: 1.4
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:37"""),
-    ],
 )
 
 entry(
@@ -42948,9 +40870,6 @@ PrIMe Reaction: r00005661
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005661/rk00000002.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:73"""),
-    ],
 )
 
 entry(
@@ -43024,9 +40943,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994KIN/ROS191-200:5"""),
-    ],
 )
 
 entry(
@@ -43094,9 +41010,6 @@ entry(
 u"""
 PrIMe Reaction: r00005661
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992HID/NAK761-780:5"""),
-    ],
 )
 
 entry(
@@ -43164,9 +41077,6 @@ entry(
 u"""
 PrIMe Reaction: r00005661
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:8"""),
-    ],
 )
 
 entry(
@@ -43237,9 +41147,6 @@ u"""
 PrIMe Reaction: r00005661
 Bath gas: H2
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987BAL/KEE759:2"""),
-    ],
 )
 
 entry(
@@ -43308,9 +41215,6 @@ u"""
 PrIMe Reaction: r00005661
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:3"""),
-    ],
 )
 
 entry(
@@ -43378,9 +41282,6 @@ entry(
 u"""
 PrIMe Reaction: r00005661
 """,
-    history = [
-        ("Thu Jul 12 20:15:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:2"""),
-    ],
 )
 
 entry(
@@ -43446,9 +41347,6 @@ PrIMe Reaction: r00005688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005688/rk00000002.xml
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:15:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:53"""),
-    ],
 )
 
 entry(
@@ -43520,9 +41418,6 @@ PrIMe Reaction: r00005793
 Uncertainty: 1.26
 Bath gas: (CH3)2O
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAT/ALV81:3"""),
-    ],
 )
 
 entry(
@@ -43593,9 +41488,6 @@ Experimental procedure: Stirred flow reactor(PSR etc.)
 Time resolution: In real time
 Analytical technique: Fourier transform (FTIR)
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008ZHA/CHA1-18:3"""),
-    ],
 )
 
 entry(
@@ -43670,9 +41562,6 @@ Analytical technique: Vis-UV absorption
 
 The high-temperature pyrolysis of dimethyl ether (DME) was studied behind reflected shock waves using single-pulse (reaction time between 1.3 and 2.9 ms), time-resolved IR absorption (3.39 mm), IR emission (4.24mm), and UV absorption (216 nm) methods. The studies were done using DME-Ar, DME-H2-Ar, DME-CO-Ar and DME-CH2O-Ar mixtures. From a computer simulation, a 94-reaction mechanism that could explain all exp. data was constructed.
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000HID/SAT1-22:3"""),
-    ],
 )
 
 entry(
@@ -43746,9 +41635,6 @@ Bath gas: (CH3)2O
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAT/ALV81:2"""),
-    ],
 )
 
 entry(
@@ -43822,9 +41708,6 @@ Bath gas: (CH3)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975PAC2742:2"""),
-    ],
 )
 
 entry(
@@ -43897,9 +41780,6 @@ Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969ART/GRA1347:3"""),
-    ],
 )
 
 entry(
@@ -43971,9 +41851,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968GRA/HER2723:4"""),
-    ],
 )
 
 entry(
@@ -44046,9 +41923,6 @@ Bath gas: (CH3)2O
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967LOU2775:1"""),
-    ],
 )
 
 entry(
@@ -44117,9 +41991,6 @@ u"""
 PrIMe Reaction: r00005793
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005793/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1951GOM/KIS85:3"""),
-    ],
 )
 
 entry(
@@ -44183,9 +42054,6 @@ entry(
 u"""
 PrIMe Reaction: r00005795
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BON/DAE4384-4389:3"""),
-    ],
 )
 
 entry(
@@ -44249,9 +42117,6 @@ u"""
 PrIMe Reaction: r00005795
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:76"""),
-    ],
 )
 
 entry(
@@ -44315,9 +42180,6 @@ entry(
 u"""
 PrIMe Reaction: r00005795
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:132"""),
-    ],
 )
 
 entry(
@@ -44382,9 +42244,6 @@ u"""
 PrIMe Reaction: r00005795
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK69:81"""),
-    ],
 )
 
 entry(
@@ -44455,9 +42314,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BON/DAE4384-4389:4"""),
-    ],
 )
 
 entry(
@@ -44527,9 +42383,6 @@ Excitation technique: Direct photolysis
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999DEM/BAY2649-2654:5"""),
-    ],
 )
 
 entry(
@@ -44598,9 +42451,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ARI/DEL2436-2441:1"""),
-    ],
 )
 
 entry(
@@ -44669,9 +42519,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995MEL/TET791-805:4"""),
-    ],
 )
 
 entry(
@@ -44740,9 +42587,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WAL/LIU41:6"""),
-    ],
 )
 
 entry(
@@ -44812,9 +42656,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977PER/ATK611:2"""),
-    ],
 )
 
 entry(
@@ -44880,9 +42721,6 @@ PrIMe Reaction: r00005795
 
 The reactions of CH3OCH3 + OH and CF3OCH3 + OH via two hydrogen abstractionchannels are investigated theoretically using the dual-level direct dynamics approach. The minimumenergy path calculation is carried out at the MP2/6-311G(d,p) level, and energetic information isfurther refined by the G3 theory. For each reaction hydrogen abstraction is favored for theout-of-plane hydrogen, while the abstraction from the in-plane hydrogen is a minor channel.Hydrogen-bonded complexes are present on the reactants and products sides of the primary channel, indicating that the reactions may proceed via an indirect mechanism. By means of variational transition state theory with interpolated single-point energies method the dynamic results of all channels are obtained, and the small-curvature tunneling is included.
 """,
-    history = [
-        ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003WU/LIU10986-10995:1"""),
-    ],
 )
 
 entry(
@@ -44955,9 +42793,6 @@ u"""
 PrIMe Reaction: r00009456
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:27:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:57"""),
-    ],
 )
 
 entry(
@@ -45033,9 +42868,6 @@ PrIMe Reaction: r00009456
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009456/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:27:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979EVA/WAL1458:1"""),
-    ],
 )
 
 entry(
@@ -45108,9 +42940,6 @@ u"""
 PrIMe Reaction: r00009456
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:27:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:49"""),
-    ],
 )
 
 entry(
@@ -45182,9 +43011,6 @@ entry(
 u"""
 PrIMe Reaction: r00009456
 """,
-    history = [
-        ("Thu Jul 12 20:27:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:9"""),
-    ],
 )
 
 entry(
@@ -45257,9 +43083,6 @@ u"""
 PrIMe Reaction: r00009456
 Uncertainty: 1.38
 """,
-    history = [
-        ("Thu Jul 12 20:27:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:11"""),
-    ],
 )
 
 entry(
@@ -45334,9 +43157,6 @@ u"""
 PrIMe Reaction: r00009456
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:27:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAK/BAL2812:12"""),
-    ],
 )
 
 entry(
@@ -45414,9 +43234,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:31:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COL/RIC5:2"""),
-    ],
 )
 
 entry(
@@ -45488,9 +43305,6 @@ entry(
 u"""
 PrIMe Reaction: r00009474
 """,
-    history = [
-        ("Thu Jul 12 20:31:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:21"""),
-    ],
 )
 
 entry(
@@ -45563,9 +43377,6 @@ u"""
 PrIMe Reaction: r00009474
 Uncertainty: 1.38
 """,
-    history = [
-        ("Thu Jul 12 20:31:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:12"""),
-    ],
 )
 
 entry(
@@ -45640,9 +43451,6 @@ u"""
 PrIMe Reaction: r00009474
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:31:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAK/BAL2812:17"""),
-    ],
 )
 
 entry(
@@ -45714,9 +43522,6 @@ entry(
 u"""
 PrIMe Reaction: r00009474
 """,
-    history = [
-        ("Thu Jul 12 20:31:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989NIC/VAG5121-5123:1"""),
-    ],
 )
 
 entry(
@@ -45790,9 +43595,6 @@ PrIMe Reaction: r00009496
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009496/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:37:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:58"""),
-    ],
 )
 
 entry(
@@ -45869,9 +43671,6 @@ Bath gas: iso-C4H8
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:37:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DOU/PER1628-1647:3"""),
-    ],
 )
 
 entry(
@@ -45945,9 +43744,6 @@ PrIMe Reaction: r00009496
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009496/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:37:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:50"""),
-    ],
 )
 
 entry(
@@ -46019,9 +43815,6 @@ entry(
 u"""
 PrIMe Reaction: r00009496
 """,
-    history = [
-        ("Thu Jul 12 20:37:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:10"""),
-    ],
 )
 
 entry(
@@ -46095,9 +43888,6 @@ Bath gas: iso-C4H8
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:38:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DOU/PER1628-1647:5"""),
-    ],
 )
 
 entry(
@@ -46170,9 +43960,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:38:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989TSA/WAL1015-1022:2"""),
-    ],
 )
 
 entry(
@@ -46228,9 +44015,6 @@ PrIMe Reaction: r00010391
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010391/rk00000002.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:39:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:72"""),
-    ],
 )
 
 entry(
@@ -46291,9 +44075,6 @@ u"""
 PrIMe Reaction: r00011302
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:47:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:45"""),
-    ],
 )
 
 entry(
@@ -46357,9 +44138,6 @@ PrIMe Reaction: r00011302
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011302/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:47:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/HAS61:5"""),
-    ],
 )
 
 entry(
@@ -46420,9 +44198,6 @@ u"""
 PrIMe Reaction: r00011302
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:47:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:14"""),
-    ],
 )
 
 entry(
@@ -46486,9 +44261,6 @@ PrIMe Reaction: r00011302
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011302/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:47:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/HAS61:2"""),
-    ],
 )
 
 entry(
@@ -46546,9 +44318,6 @@ PrIMe Reaction: r00011339
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011339/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:47:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:182"""),
-    ],
 )
 
 entry(
@@ -46605,9 +44374,6 @@ u"""
 PrIMe Reaction: r00011339
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:4"""),
-    ],
 )
 
 entry(
@@ -46665,9 +44431,6 @@ PrIMe Reaction: r00011339
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011339/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:7"""),
-    ],
 )
 
 entry(
@@ -46724,9 +44487,6 @@ u"""
 PrIMe Reaction: r00011339
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:1"""),
-    ],
 )
 
 entry(
@@ -46782,9 +44542,6 @@ entry(
 u"""
 PrIMe Reaction: r00011339
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998EIT/YU5196-5205:2"""),
-    ],
 )
 
 entry(
@@ -46845,9 +44602,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992JEM/LIG25-30:1"""),
-    ],
 )
 
 entry(
@@ -46909,9 +44663,6 @@ Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991HOC/YET171-177:1"""),
-    ],
 )
 
 entry(
@@ -46971,9 +44722,6 @@ Bath gas: CH2O
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971VAR/SAC315:1"""),
-    ],
 )
 
 entry(
@@ -47032,9 +44780,6 @@ Pressure dependence: Rate constant is pressure independent
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The article incorrectly reports the units of the preexponential factor as cm3mol-1s-1. The correct units are cm3molecule-1s-1, as can be seen from the rate constant values given in tables and plots.
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005LI/ZHA12027-12035:1"""),
-    ],
 )
 
 entry(
@@ -47090,9 +44835,6 @@ entry(
 u"""
 PrIMe Reaction: r00011339
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974VAR/SAC153-159:1"""),
-    ],
 )
 
 entry(
@@ -47148,9 +44890,6 @@ entry(
 u"""
 PrIMe Reaction: r00011339
 """,
-    history = [
-        ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAL/LAN251:1"""),
-    ],
 )
 
 entry(
@@ -47212,9 +44951,6 @@ PrIMe Reaction: r00011429
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011429/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:50:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:198"""),
-    ],
 )
 
 entry(
@@ -47274,9 +45010,6 @@ u"""
 PrIMe Reaction: r00011638
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:50:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:79"""),
-    ],
 )
 
 entry(
@@ -47336,9 +45069,6 @@ entry(
 u"""
 PrIMe Reaction: r00011638
 """,
-    history = [
-        ("Thu Jul 12 20:50:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:242"""),
-    ],
 )
 
 entry(
@@ -47399,9 +45129,6 @@ u"""
 PrIMe Reaction: r00011638
 Uncertainty: 2.51
 """,
-    history = [
-        ("Thu Jul 12 20:50:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:162"""),
-    ],
 )
 
 entry(
@@ -47461,9 +45188,6 @@ entry(
 u"""
 PrIMe Reaction: r00011638
 """,
-    history = [
-        ("Thu Jul 12 20:50:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:211"""),
-    ],
 )
 
 entry(
@@ -47529,9 +45253,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:50:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989VAG/RAV1948-1959:2"""),
-    ],
 )
 
 entry(
@@ -47597,9 +45318,6 @@ PrIMe Reaction: r00013691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:54:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:237"""),
-    ],
 )
 
 entry(
@@ -47664,9 +45382,6 @@ u"""
 PrIMe Reaction: r00013691
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:36"""),
-    ],
 )
 
 entry(
@@ -47732,9 +45447,6 @@ PrIMe Reaction: r00013691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:36"""),
-    ],
 )
 
 entry(
@@ -47797,9 +45509,6 @@ u"""
 PrIMe Reaction: r00013691
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:19"""),
-    ],
 )
 
 entry(
@@ -47864,9 +45573,6 @@ u"""
 PrIMe Reaction: r00013691
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:2"""),
-    ],
 )
 
 entry(
@@ -47936,9 +45642,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986BAL/DEA89:1"""),
-    ],
 )
 
 entry(
@@ -48007,9 +45710,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963KNO/WEL2786-2800:1"""),
-    ],
 )
 
 entry(
@@ -48074,9 +45774,6 @@ u"""
 PrIMe Reaction: r00013691
 Pressure dependence: Rate constant is pressure independent
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005CAR/DEA995-1003:2"""),
-    ],
 )
 
 entry(
@@ -48143,9 +45840,6 @@ Pressure dependence: Rate constant is pressure independent
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction.
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005CAR/DEA995-1003:1"""),
-    ],
 )
 
 entry(
@@ -48211,9 +45905,6 @@ u"""
 PrIMe Reaction: r00013691
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963SAM5095-5106:1"""),
-    ],
 )
 
 entry(
@@ -48269,9 +45960,6 @@ PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:55:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:234"""),
-    ],
 )
 
 entry(
@@ -48345,9 +46033,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Wed Jul 25 11:55:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965OGA/NAL237:2"""),
-    ],
 )
 
 entry(
@@ -48418,9 +46103,6 @@ Analytical technique: Fourier transform (FTIR)
 
 All data sets were fit to a modified Arrhenius expression k=(1.25±0.06)x10-14e(-733±14/T)/T/(1-e(-1.44x280/T))2/(1-e(-1.44x500/T)) cm3molecule-1s-1at 200-360 K.
 """,
-    history = [
-        ("Thu Jul 26 17:57:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998CLA/KRO9847-9857:3"""),
-    ],
 )
 
 entry(
@@ -48485,9 +46167,6 @@ The authors used ab initio molecular orbital theory to examine the kinetics and 
 
 The listed rate expression is a fit derived at NIST to the calculated rate constants reported by the authors at 298, 600, 1000, 1500, 2000, and 2500 K. The fitted expression reproduces the calculated rates within 2.5%.
 """,
-    history = [
-        ("Thu Jul 26 18:17:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:1"""),
-    ],
 )
 
 entry(
@@ -48552,9 +46231,6 @@ The authors used ab initio molecular orbital theory to examine the kinetics and 
 
 The listed rate expression is a fit derived at NIST to the calculated rate constants reported by the authors at 298, 600, 1000, 1500, 2000, and 2500 K. The fitted expression reproduces the calculated rates within 2.5%.
 """,
-    history = [
-        ("Thu Jul 26 18:18:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:2"""),
-    ],
 )
 
 entry(
@@ -48624,9 +46300,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 26 18:39:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985BAL/HIS743:2"""),
-    ],
 )
 
 entry(
@@ -48692,9 +46365,6 @@ PrIMe Reaction: r00005689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005689/rk00000003.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Fri Jul 27 09:28:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:54"""),
-    ],
 )
 
 entry(
@@ -48759,9 +46429,6 @@ u"""
 PrIMe Reaction: r00005691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005691/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 27 09:31:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:55"""),
-    ],
 )
 
 entry(
@@ -48835,9 +46502,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 10:50:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COL/RIC5:4"""),
-    ],
 )
 
 entry(
@@ -48899,9 +46563,6 @@ PrIMe Reaction: r00011639
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000006.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Fri Jul 27 11:25:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:163"""),
-    ],
 )
 
 entry(
@@ -48962,9 +46623,6 @@ u"""
 PrIMe Reaction: r00011639
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000007.xml
 """,
-    history = [
-        ("Fri Jul 27 11:31:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:243"""),
-    ],
 )
 
 entry(
@@ -49020,9 +46678,6 @@ PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000003.xml
 Uncertainty: 2.51
 """,
-    history = [
-        ("Fri Jul 27 11:45:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:90"""),
-    ],
 )
 
 entry(
@@ -49078,9 +46733,6 @@ PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000006.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Fri Jul 27 11:46:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:11"""),
-    ],
 )
 
 entry(
@@ -49140,9 +46792,6 @@ Bath gas: O2
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 11:48:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979COX/BUR2560:1"""),
-    ],
 )
 
 entry(
@@ -49202,9 +46851,6 @@ Bath gas: H2
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 11:49:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979LII/GOR1803:1"""),
-    ],
 )
 
 entry(
@@ -49264,9 +46910,6 @@ Bath gas: H2
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 11:50:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980LII/GOR813:1"""),
-    ],
 )
 
 entry(
@@ -49326,9 +46969,6 @@ Bath gas: He
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 11:51:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BUR/COX147:1"""),
-    ],
 )
 
 entry(
@@ -49388,9 +47028,6 @@ Bath gas: H2
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 11:52:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981LII/SAU2833:1"""),
-    ],
 )
 
 entry(
@@ -49450,9 +47087,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 11:53:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982PAT/PIL343:1"""),
-    ],
 )
 
 entry(
@@ -49513,9 +47147,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: IR absorption
 Note: Invalid Ea value uncertainty (8314472.0) found and ignored
 """,
-    history = [
-        ("Fri Jul 27 11:53:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982THR/TYN232:1"""),
-    ],
 )
 
 entry(
@@ -49570,9 +47201,6 @@ u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000028.xml
 """,
-    history = [
-        ("Fri Jul 27 11:55:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985MOZ/BEN787:1"""),
-    ],
 )
 
 entry(
@@ -49628,9 +47256,6 @@ PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000030.xml
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 27 11:59:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986PIT/WES113-133:2"""),
-    ],
 )
 
 entry(
@@ -49690,9 +47315,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Laser magnetic resonance (LMR)
 """,
-    history = [
-        ("Fri Jul 27 12:00:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TAK/HOW687:1"""),
-    ],
 )
 
 entry(
@@ -49752,9 +47374,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 12:00:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988AND/COX283:1"""),
-    ],
 )
 
 entry(
@@ -49810,9 +47429,6 @@ PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000038.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Fri Jul 27 12:01:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:169"""),
-    ],
 )
 
 entry(
@@ -49871,9 +47487,6 @@ Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 Note: Invalid Ea value uncertainty (8314472.0) found and ignored
 """,
-    history = [
-        ("Fri Jul 27 12:02:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/BEN8798-8809:1"""),
-    ],
 )
 
 entry(
@@ -49933,9 +47546,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 12:04:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994MAR/SZE2078-2082:3"""),
-    ],
 )
 
 entry(
@@ -49990,9 +47600,6 @@ u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000042.xml
 """,
-    history = [
-        ("Fri Jul 27 12:06:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU1329-1499:50"""),
-    ],
 )
 
 entry(
@@ -50046,9 +47653,6 @@ u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000043.xml
 """,
-    history = [
-        ("Fri Jul 27 12:08:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:307"""),
-    ],
 )
 
 entry(
@@ -50103,9 +47707,6 @@ PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000045.xml
 Pressure dependence: None reported
 """,
-    history = [
-        ("Fri Jul 27 12:12:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:22"""),
-    ],
 )
 
 entry(
@@ -50160,9 +47761,6 @@ u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000046.xml
 """,
-    history = [
-        ("Fri Jul 27 12:14:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ATK/BAU1461-1738:60"""),
-    ],
 )
 
 entry(
@@ -50223,9 +47821,6 @@ PrIMe Reaction: r00011639
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000008.xml
 Pressure dependence: None reported
 """,
-    history = [
-        ("Fri Jul 27 12:22:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:78"""),
-    ],
 )
 
 entry(
@@ -50289,9 +47884,6 @@ PrIMe Reaction: r00001347
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001347/rk00000002.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:34:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:2"""),
-    ],
 )
 
 entry(
@@ -50355,9 +47947,6 @@ PrIMe Reaction: r00001360
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001360/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:34:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:6"""),
-    ],
 )
 
 entry(
@@ -50425,9 +48014,6 @@ PrIMe Reaction: r00001676
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001676/rk00000001.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:35:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:5"""),
-    ],
 )
 
 entry(
@@ -50495,9 +48081,6 @@ PrIMe Reaction: r00001691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001691/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:36:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:13"""),
-    ],
 )
 
 entry(
@@ -50568,9 +48151,6 @@ u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.0700001
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985ART/NEW3486-3491:1"""),
-    ],
 )
 
 entry(
@@ -50643,9 +48223,6 @@ u"""
 PrIMe Reaction: r00001769
 Bath gas: H2
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972SHA/WES1669:1"""),
-    ],
 )
 
 entry(
@@ -50720,9 +48297,6 @@ Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000SAT/HID291-311:4"""),
-    ],
 )
 
 entry(
@@ -50797,9 +48371,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996MOU/PAC3573-3579:2"""),
-    ],
 )
 
 entry(
@@ -50875,9 +48446,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994KIN/ROS191-200:1"""),
-    ],
 )
 
 entry(
@@ -50953,9 +48521,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983ARI/ART2185:1"""),
-    ],
 )
 
 entry(
@@ -51031,9 +48596,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980DUK/HOL1232:1"""),
-    ],
 )
 
 entry(
@@ -51108,9 +48670,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ART/NEW1025:1"""),
-    ],
 )
 
 entry(
@@ -51186,9 +48745,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976ART/LEE1483:1"""),
-    ],
 )
 
 entry(
@@ -51262,9 +48818,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DON/DOR828:1"""),
-    ],
 )
 
 entry(
@@ -51340,9 +48893,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970FER/PEA910:1"""),
-    ],
 )
 
 entry(
@@ -51419,9 +48969,6 @@ Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969GRA/LEY780:3"""),
-    ],
 )
 
 entry(
@@ -51497,9 +49044,6 @@ Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968SHA/TOB2337:1"""),
-    ],
 )
 
 entry(
@@ -51573,9 +49117,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968GRA/HER1568:4"""),
-    ],
 )
 
 entry(
@@ -51649,9 +49190,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966GRE/THY379:1"""),
-    ],
 )
 
 entry(
@@ -51725,9 +49263,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963SHA/HAR2455-2461:4"""),
-    ],
 )
 
 entry(
@@ -51802,9 +49337,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY/GRA2403-2409:1"""),
-    ],
 )
 
 entry(
@@ -51879,9 +49411,6 @@ Bath gas: CD4
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1955DAI/MCE657:1"""),
-    ],
 )
 
 entry(
@@ -51954,9 +49483,6 @@ Excitation technique: Thermal
 Analytical technique: Other (direct)
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1954PRI/PRI1425:2"""),
-    ],
 )
 
 entry(
@@ -52026,9 +49552,6 @@ entry(
 u"""
 PrIMe Reaction: r00001769
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967KON831-840:1"""),
-    ],
 )
 
 entry(
@@ -52099,9 +49622,6 @@ u"""
 PrIMe Reaction: r00001769
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:36:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1951GOM/KIS85:1"""),
-    ],
 )
 
 entry(
@@ -52175,9 +49695,6 @@ Used ab initio potential surfaces from earlier work by the authors PCCP 5, 333 (
 
 All reaction channels proceed through weakly bound adducts. The abstraction channel is the sum of two configurations with different hydrogen bonding arrangements. Tunneling correction is very important at low temperatures. The calculated rate constants agree well (20-30%) with experimental values including describing curvature in temperature dependence.
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:2"""),
-    ],
 )
 
 entry(
@@ -52251,9 +49768,6 @@ Used ab initio potential surfaces from earlier work by the authors PCCP 5, 333 (
 
 All reaction channels proceed through weakly bound adducts. The abstraction channel is the sum of two configurations with different hydrogen bonding arrangements. Tunneling correction is very important at low temperatures. The calculated rate constants agree well (20-30%) with experimental values including describing curvature in temperature dependence.
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:3"""),
-    ],
 )
 
 entry(
@@ -52327,9 +49841,6 @@ Used ab initio potential surfaces from earlier work by the authors PCCP 5, 333 (
 
 All reaction channels proceed through weakly bound adducts. The abstraction channel is the sum of two configurations with different hydrogen bonding arrangements. Tunneling correction is very important at low temperatures. The calculated rate constants agree well (20-30%) with experimental values including describing curvature in temperature dependence.
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:1"""),
-    ],
 )
 
 entry(
@@ -52394,9 +49905,6 @@ entry(
 u"""
 PrIMe Reaction: r00001778
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:83"""),
-    ],
 )
 
 entry(
@@ -52463,9 +49971,6 @@ u"""
 PrIMe Reaction: r00001778
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001778/rk00000006.xml
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:49"""),
-    ],
 )
 
 entry(
@@ -52531,9 +50036,6 @@ entry(
 u"""
 PrIMe Reaction: r00001778
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:51"""),
-    ],
 )
 
 entry(
@@ -52600,9 +50102,6 @@ u"""
 PrIMe Reaction: r00001778
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:17"""),
-    ],
 )
 
 entry(
@@ -52675,9 +50174,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005VAS/DAV3352-3359:3"""),
-    ],
 )
 
 entry(
@@ -52748,9 +50244,6 @@ Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000SAT/HID291-311:3"""),
-    ],
 )
 
 entry(
@@ -52819,9 +50312,6 @@ Pressure dependence: Rate constant is pressure independent
 
 The authors used CCSD(T)//BHandHLYP/6-311G(d,p) calculations to study the OH hydrogen abstraction reaction from acetone, 2-pentanone, and methyl butanone (3-methyl-2-butanone). The calulations appear to confirm the formation of a hydogen-bonded transition-state complex involving the carbonyl oxygen for some H abstractions, particularly those beta to the carbonyl, which result in a 6-center transition state. Good agreement between calculated and experimental k at 298 K has been obtained.
 """,
-    history = [
-        ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ALV/CRU2740-2749:1"""),
-    ],
 )
 
 entry(
@@ -52902,9 +50392,6 @@ Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:38:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965OGA/NAL237:3"""),
-    ],
 )
 
 entry(
@@ -52983,9 +50470,6 @@ u"""
 PrIMe Reaction: r00002092
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:49:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:9"""),
-    ],
 )
 
 entry(
@@ -53068,9 +50552,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:49:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976SZI/MAR897:1"""),
-    ],
 )
 
 entry(
@@ -53155,9 +50636,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:49:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974SZI/MAR417:1"""),
-    ],
 )
 
 entry(
@@ -53236,9 +50714,6 @@ u"""
 PrIMe Reaction: r00002092
 Uncertainty: 2.5
 """,
-    history = [
-        ("Thu Jul 12 19:49:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:41"""),
-    ],
 )
 
 entry(
@@ -53310,9 +50785,6 @@ PrIMe Reaction: r00002096
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002096/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:49:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:30"""),
-    ],
 )
 
 entry(
@@ -53385,9 +50857,6 @@ Pressure dependence: Rate constant is pressure independent
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction.
 """,
-    history = [
-        ("Thu Jul 12 19:49:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005CAR/DEA995-1003:4"""),
-    ],
 )
 
 entry(
@@ -53458,9 +50927,6 @@ u"""
 PrIMe Reaction: r00002096
 Pressure dependence: Rate constant is pressure independent
 """,
-    history = [
-        ("Thu Jul 12 19:49:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005CAR/DEA995-1003:3"""),
-    ],
 )
 
 entry(
@@ -53540,9 +51006,6 @@ PrIMe Reaction: r00002710
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002710/rk00000001.xml
 Uncertainty: 2.5
 """,
-    history = [
-        ("Thu Jul 12 19:53:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:42"""),
-    ],
 )
 
 entry(
@@ -53622,9 +51085,6 @@ PrIMe Reaction: r00002710
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002710/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:10"""),
-    ],
 )
 
 entry(
@@ -53700,9 +51160,6 @@ PrIMe Reaction: r00002719
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002719/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:22"""),
-    ],
 )
 
 entry(
@@ -53778,9 +51235,6 @@ PrIMe Reaction: r00002719
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002719/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:3"""),
-    ],
 )
 
 entry(
@@ -53856,9 +51310,6 @@ PrIMe Reaction: r00002720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002720/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:23"""),
-    ],
 )
 
 entry(
@@ -53934,9 +51385,6 @@ PrIMe Reaction: r00002720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002720/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:5"""),
-    ],
 )
 
 entry(
@@ -54012,9 +51460,6 @@ PrIMe Reaction: r00002728
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002728/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:26"""),
-    ],
 )
 
 entry(
@@ -54090,9 +51535,6 @@ PrIMe Reaction: r00002728
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002728/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:4"""),
-    ],
 )
 
 entry(
@@ -54168,9 +51610,6 @@ PrIMe Reaction: r00002729
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002729/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:27"""),
-    ],
 )
 
 entry(
@@ -54246,9 +51685,6 @@ PrIMe Reaction: r00002729
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002729/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:6"""),
-    ],
 )
 
 entry(
@@ -54320,9 +51756,6 @@ PrIMe Reaction: r00002730
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002730/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:28"""),
-    ],
 )
 
 entry(
@@ -54394,9 +51827,6 @@ PrIMe Reaction: r00002730
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002730/rk00000001.xml
 Uncertainty: 2.5
 """,
-    history = [
-        ("Thu Jul 12 19:54:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:1"""),
-    ],
 )
 
 entry(
@@ -54468,9 +51898,6 @@ PrIMe Reaction: r00002731
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002731/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:29"""),
-    ],
 )
 
 entry(
@@ -54542,9 +51969,6 @@ PrIMe Reaction: r00002731
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002731/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:2"""),
-    ],
 )
 
 entry(
@@ -54619,9 +52043,6 @@ Bath gas: (n-C3H7)-N=N-(n-C3H7)
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 19:54:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980KNO/NAC481:1"""),
-    ],
 )
 
 entry(
@@ -54696,9 +52117,6 @@ u"""
 PrIMe Reaction: r00002732
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:30"""),
-    ],
 )
 
 entry(
@@ -54773,9 +52191,6 @@ u"""
 PrIMe Reaction: r00002732
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002732/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:54:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:5"""),
-    ],
 )
 
 entry(
@@ -54850,9 +52265,6 @@ u"""
 PrIMe Reaction: r00002733
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:31"""),
-    ],
 )
 
 entry(
@@ -54927,9 +52339,6 @@ u"""
 PrIMe Reaction: r00002733
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002733/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:54:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:6"""),
-    ],
 )
 
 entry(
@@ -55000,9 +52409,6 @@ u"""
 PrIMe Reaction: r00002740
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:34"""),
-    ],
 )
 
 entry(
@@ -55074,9 +52480,6 @@ PrIMe Reaction: r00002740
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002740/rk00000003.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:4"""),
-    ],
 )
 
 entry(
@@ -55147,9 +52550,6 @@ u"""
 PrIMe Reaction: r00002740
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:77"""),
-    ],
 )
 
 entry(
@@ -55219,9 +52619,6 @@ PrIMe Reaction: r00002766
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002766/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:55:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:37"""),
-    ],
 )
 
 entry(
@@ -55291,9 +52688,6 @@ PrIMe Reaction: r00002767
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002767/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:55:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:38"""),
-    ],
 )
 
 entry(
@@ -55370,9 +52764,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:56:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970HOH/FRE6118:2"""),
-    ],
 )
 
 entry(
@@ -55443,9 +52834,6 @@ u"""
 PrIMe Reaction: r00003005
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:56:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:35"""),
-    ],
 )
 
 entry(
@@ -55512,9 +52900,6 @@ u"""
 PrIMe Reaction: r00003016
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003016/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:56:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:7"""),
-    ],
 )
 
 entry(
@@ -55576,9 +52961,6 @@ PrIMe Reaction: r00003032
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003032/rk00000002.xml
 Uncertainty: 1.0
 """,
-    history = [
-        ("Thu Jul 12 19:57:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:71"""),
-    ],
 )
 
 entry(
@@ -55667,9 +53049,6 @@ Heating of the reaction mixtures are achived through CO2-laser induced excitatio
 
 Note: iso-butyl product corrected to tert-butyl (Aug 30, 2011)
 """,
-    history = [
-        ("Thu Jul 12 19:59:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001GOO/HIP732-740:1"""),
-    ],
 )
 
 entry(
@@ -55747,9 +53126,6 @@ entry(
 u"""
 PrIMe Reaction: r00003291
 """,
-    history = [
-        ("Thu Jul 12 19:59:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZHA/BAC537:2"""),
-    ],
 )
 
 entry(
@@ -55828,9 +53204,6 @@ u"""
 PrIMe Reaction: r00003291
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:32"""),
-    ],
 )
 
 entry(
@@ -55914,9 +53287,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:59:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA748:1"""),
-    ],
 )
 
 entry(
@@ -56000,9 +53370,6 @@ Bath gas: iso-C4H10
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:59:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976YAM/TSI560:1"""),
-    ],
 )
 
 entry(
@@ -56084,9 +53451,6 @@ PrIMe Reaction: r00003291
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003291/rk00000001.xml
 Bath gas: iso-C4H8
 """,
-    history = [
-        ("Thu Jul 12 19:59:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973KON/MAR1007:2"""),
-    ],
 )
 
 entry(
@@ -56165,9 +53529,6 @@ u"""
 PrIMe Reaction: r00003291
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:7"""),
-    ],
 )
 
 entry(
@@ -56245,9 +53606,6 @@ entry(
 u"""
 PrIMe Reaction: r00003292
 """,
-    history = [
-        ("Thu Jul 12 20:00:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZHA/BAC537:4"""),
-    ],
 )
 
 entry(
@@ -56326,9 +53684,6 @@ u"""
 PrIMe Reaction: r00003292
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:00:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:33"""),
-    ],
 )
 
 entry(
@@ -56410,9 +53765,6 @@ PrIMe Reaction: r00003292
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003292/rk00000001.xml
 Bath gas: iso-C4H8
 """,
-    history = [
-        ("Thu Jul 12 20:00:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973KON/MAR1007:3"""),
-    ],
 )
 
 entry(
@@ -56491,9 +53843,6 @@ u"""
 PrIMe Reaction: r00003292
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:00:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:8"""),
-    ],
 )
 
 entry(
@@ -56568,9 +53917,6 @@ u"""
 PrIMe Reaction: r00003317
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:44"""),
-    ],
 )
 
 entry(
@@ -56644,9 +53990,6 @@ entry(
 u"""
 PrIMe Reaction: r00003317
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:4"""),
-    ],
 )
 
 entry(
@@ -56721,9 +54064,6 @@ u"""
 PrIMe Reaction: r00003317
 Uncertainty: 1.38
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:9"""),
-    ],
 )
 
 entry(
@@ -56802,9 +54142,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:7"""),
-    ],
 )
 
 entry(
@@ -56882,9 +54219,6 @@ PrIMe Reaction: r00003317
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003317/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAK/BAL2812:9"""),
-    ],
 )
 
 entry(
@@ -56958,9 +54292,6 @@ entry(
 u"""
 PrIMe Reaction: r00003317
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:7"""),
-    ],
 )
 
 entry(
@@ -57037,9 +54368,6 @@ u"""
 PrIMe Reaction: r00003317
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:4"""),
-    ],
 )
 
 entry(
@@ -57117,9 +54445,6 @@ PrIMe Reaction: r00003317
 Uncertainty: 1.23
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:02:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL2157:1"""),
-    ],
 )
 
 entry(
@@ -57194,9 +54519,6 @@ u"""
 PrIMe Reaction: r00003318
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:04:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:45"""),
-    ],
 )
 
 entry(
@@ -57276,9 +54598,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:04:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:8"""),
-    ],
 )
 
 entry(
@@ -57352,9 +54671,6 @@ entry(
 u"""
 PrIMe Reaction: r00003318
 """,
-    history = [
-        ("Thu Jul 12 20:04:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:8"""),
-    ],
 )
 
 entry(
@@ -57431,9 +54747,6 @@ u"""
 PrIMe Reaction: r00003318
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:04:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:5"""),
-    ],
 )
 
 entry(
@@ -57514,9 +54827,6 @@ Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:04:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965OGA/NAL237:4"""),
-    ],
 )
 
 entry(
@@ -57595,9 +54905,6 @@ u"""
 PrIMe Reaction: r00003832
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003832/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:05:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:15"""),
-    ],
 )
 
 entry(
@@ -57676,9 +54983,6 @@ u"""
 PrIMe Reaction: r00003833
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003833/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:05:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:16"""),
-    ],
 )
 
 entry(
@@ -57757,9 +55061,6 @@ u"""
 PrIMe Reaction: r00003834
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003834/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:06:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:17"""),
-    ],
 )
 
 entry(
@@ -57843,9 +55144,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:07:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA748:2"""),
-    ],
 )
 
 entry(
@@ -57927,9 +55225,6 @@ PrIMe Reaction: r00004593
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004593/rk00000002.xml
 Bath gas: n-C4H10
 """,
-    history = [
-        ("Thu Jul 12 20:07:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975YAM449:2"""),
-    ],
 )
 
 entry(
@@ -58011,9 +55306,6 @@ PrIMe Reaction: r00004594
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004594/rk00000001.xml
 Bath gas: n-C4H10
 """,
-    history = [
-        ("Thu Jul 12 20:07:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975YAM449:3"""),
-    ],
 )
 
 entry(
@@ -58087,9 +55379,6 @@ entry(
 u"""
 PrIMe Reaction: r00004608
 """,
-    history = [
-        ("Thu Jul 12 20:07:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:11"""),
-    ],
 )
 
 entry(
@@ -58168,9 +55457,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:07:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986DRO/TUL5937:2"""),
-    ],
 )
 
 entry(
@@ -58250,9 +55536,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:07:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:12"""),
-    ],
 )
 
 entry(
@@ -58326,9 +55609,6 @@ entry(
 u"""
 PrIMe Reaction: r00004608
 """,
-    history = [
-        ("Thu Jul 12 20:07:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:16"""),
-    ],
 )
 
 entry(
@@ -58405,9 +55685,6 @@ u"""
 PrIMe Reaction: r00004608
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:07:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:8"""),
-    ],
 )
 
 entry(
@@ -58486,9 +55763,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:08:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986DRO/TUL5937:3"""),
-    ],
 )
 
 entry(
@@ -58568,9 +55842,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:08:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:13"""),
-    ],
 )
 
 entry(
@@ -58644,9 +55915,6 @@ entry(
 u"""
 PrIMe Reaction: r00004609
 """,
-    history = [
-        ("Thu Jul 12 20:08:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:17"""),
-    ],
 )
 
 entry(
@@ -58723,9 +55991,6 @@ u"""
 PrIMe Reaction: r00004609
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:08:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:9"""),
-    ],
 )
 
 entry(
@@ -58799,9 +56064,6 @@ PrIMe Reaction: r00004743
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004743/rk00000001.xml
 Bath gas: Ne
 """,
-    history = [
-        ("Thu Jul 12 20:08:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:3"""),
-    ],
 )
 
 entry(
@@ -58880,9 +56142,6 @@ u"""
 PrIMe Reaction: r00005291
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005291/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:10:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:26"""),
-    ],
 )
 
 entry(
@@ -58961,9 +56220,6 @@ u"""
 PrIMe Reaction: r00005292
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005292/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:10:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:27"""),
-    ],
 )
 
 entry(
@@ -59042,9 +56298,6 @@ u"""
 PrIMe Reaction: r00005293
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005293/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:10:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:28"""),
-    ],
 )
 
 entry(
@@ -59119,9 +56372,6 @@ u"""
 PrIMe Reaction: r00005641
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:14:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:65"""),
-    ],
 )
 
 entry(
@@ -59196,9 +56446,6 @@ u"""
 PrIMe Reaction: r00005641
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005641/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:14:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:12"""),
-    ],
 )
 
 entry(
@@ -59273,9 +56520,6 @@ u"""
 PrIMe Reaction: r00005641
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:14:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:4"""),
-    ],
 )
 
 entry(
@@ -59350,9 +56594,6 @@ u"""
 PrIMe Reaction: r00005641
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005641/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:14:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:3"""),
-    ],
 )
 
 entry(
@@ -59425,9 +56666,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Uncertainty: 10.0
 Bath gas: Products
 """,
-    history = [
-        ("Thu Jul 12 20:14:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:36"""),
-    ],
 )
 
 entry(
@@ -59499,9 +56737,6 @@ PrIMe Reaction: r00005669
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005669/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:15:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:42"""),
-    ],
 )
 
 entry(
@@ -59573,9 +56808,6 @@ PrIMe Reaction: r00005669
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005669/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:15:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:2"""),
-    ],
 )
 
 entry(
@@ -59643,9 +56875,6 @@ PrIMe Reaction: r00005671
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005671/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:15:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:43"""),
-    ],
 )
 
 entry(
@@ -59713,9 +56942,6 @@ PrIMe Reaction: r00005671
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005671/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:1"""),
-    ],
 )
 
 entry(
@@ -59787,9 +57013,6 @@ PrIMe Reaction: r00005672
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005672/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:15:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:44"""),
-    ],
 )
 
 entry(
@@ -59868,9 +57091,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:18:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976BRA/WES558:3"""),
-    ],
 )
 
 entry(
@@ -59951,9 +57171,6 @@ Bath gas: neo-C5H12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:18:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969HAL/KON525:1"""),
-    ],
 )
 
 entry(
@@ -60027,9 +57244,6 @@ entry(
 u"""
 PrIMe Reaction: r00005825
 """,
-    history = [
-        ("Thu Jul 12 20:18:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993MIT/BEN931-955:1"""),
-    ],
 )
 
 entry(
@@ -60106,9 +57320,6 @@ u"""
 PrIMe Reaction: r00005825
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 20:18:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976BRA/WES8:1"""),
-    ],
 )
 
 entry(
@@ -60185,9 +57396,6 @@ u"""
 PrIMe Reaction: r00005825
 Bath gas: iso-C4H8
 """,
-    history = [
-        ("Thu Jul 12 20:18:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973KON/MAR1007:4"""),
-    ],
 )
 
 entry(
@@ -60257,9 +57465,6 @@ entry(
 u"""
 PrIMe Reaction: r00006461
 """,
-    history = [
-        ("Thu Jul 12 20:19:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ATK2233-2307:23"""),
-    ],
 )
 
 entry(
@@ -60330,9 +57535,6 @@ u"""
 PrIMe Reaction: r00006461
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:19:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:11"""),
-    ],
 )
 
 entry(
@@ -60408,9 +57610,6 @@ Excitation technique: Direct photolysis
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:19:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999DEM/BAY2649-2654:6"""),
-    ],
 )
 
 entry(
@@ -60486,9 +57685,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:19:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992DOB/TUR191-198:3"""),
-    ],
 )
 
 entry(
@@ -60559,9 +57755,6 @@ u"""
 PrIMe Reaction: r00006461
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006461/rk00000002.xml
 """,
-    history = [
-        ("Thu Jul 12 20:19:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982COH1339:12"""),
-    ],
 )
 
 entry(
@@ -60631,9 +57824,6 @@ entry(
 u"""
 PrIMe Reaction: r00006461
 """,
-    history = [
-        ("Thu Jul 12 20:19:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:28"""),
-    ],
 )
 
 entry(
@@ -60711,9 +57901,6 @@ PrIMe Reaction: r00006492
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006492/rk00000003.xml
 Bath gas: O2
 """,
-    history = [
-        ("Thu Jul 12 20:20:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:4"""),
-    ],
 )
 
 entry(
@@ -60791,9 +57978,6 @@ entry(
 u"""
 PrIMe Reaction: r00007071
 """,
-    history = [
-        ("Thu Jul 12 20:22:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:30"""),
-    ],
 )
 
 entry(
@@ -60876,9 +58060,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:22:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972FUR/LAI1115:1"""),
-    ],
 )
 
 entry(
@@ -60948,9 +58129,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:38:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991LOD/WAL2361-2365:2"""),
-    ],
 )
 
 entry(
@@ -61015,9 +58193,6 @@ u"""
 PrIMe Reaction: r00010120
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:38:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:54"""),
-    ],
 )
 
 entry(
@@ -61082,9 +58257,6 @@ u"""
 PrIMe Reaction: r00010120
 Uncertainty: 20.0
 """,
-    history = [
-        ("Thu Jul 12 20:38:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:58"""),
-    ],
 )
 
 entry(
@@ -61154,9 +58326,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:38:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998BAR/BAR503-522:1"""),
-    ],
 )
 
 entry(
@@ -61226,9 +58395,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:38:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991STO/WAL241-247:1"""),
-    ],
 )
 
 entry(
@@ -61298,9 +58464,6 @@ PrIMe Reaction: r00010128
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010128/rk00000002.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:39:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:107"""),
-    ],
 )
 
 entry(
@@ -61370,9 +58533,6 @@ PrIMe Reaction: r00010128
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010128/rk00000002.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:39:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:106"""),
-    ],
 )
 
 entry(
@@ -61440,9 +58600,6 @@ PrIMe Reaction: r00010128
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010128/rk00000002.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:39:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:51"""),
-    ],
 )
 
 entry(
@@ -61502,9 +58659,6 @@ u"""
 PrIMe Reaction: r00010441
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:97"""),
-    ],
 )
 
 entry(
@@ -61563,9 +58717,6 @@ entry(
 u"""
 PrIMe Reaction: r00010441
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:260"""),
-    ],
 )
 
 entry(
@@ -61625,9 +58776,6 @@ entry(
 u"""
 PrIMe Reaction: r00010441
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:203"""),
-    ],
 )
 
 entry(
@@ -61687,9 +58835,6 @@ u"""
 PrIMe Reaction: r00010441
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:240"""),
-    ],
 )
 
 entry(
@@ -61749,9 +58894,6 @@ entry(
 u"""
 PrIMe Reaction: r00010441
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992LIG/COX1805-1961:2"""),
-    ],
 )
 
 entry(
@@ -61811,9 +58953,6 @@ entry(
 u"""
 PrIMe Reaction: r00010441
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:174"""),
-    ],
 )
 
 entry(
@@ -61874,9 +59013,6 @@ u"""
 PrIMe Reaction: r00010441
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:99"""),
-    ],
 )
 
 entry(
@@ -61937,9 +59073,6 @@ u"""
 PrIMe Reaction: r00010441
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:133"""),
-    ],
 )
 
 entry(
@@ -62004,9 +59137,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991LIG/ROU3213-3220:2"""),
-    ],
 )
 
 entry(
@@ -62071,9 +59201,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988DAG/WAL3833:1"""),
-    ],
 )
 
 entry(
@@ -62139,9 +59266,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980COX/TYN153:1"""),
-    ],
 )
 
 entry(
@@ -62207,9 +59331,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979COX/TYN357:2"""),
-    ],
 )
 
 entry(
@@ -62273,9 +59394,6 @@ Geometries of stationary points of both singlet and triplet surfaces optimized a
 The lowest energy pathway is on the triplet PES and leads to CH3OOH and O2. The strong negative temperature dependence is due to the formation of a hydrogen-bonded diradical complex.
 Reported rate constants for all reaction channels and include an Eckart tunneling factor. Parameters are abstractor fit to the reported data.
 """,
-    history = [
-        ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006ANG/OLI6073-6082:1"""),
-    ],
 )
 
 entry(
@@ -62339,9 +59457,6 @@ PrIMe Reaction: r00010450
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010450/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:40:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:135"""),
-    ],
 )
 
 entry(
@@ -62413,9 +59528,6 @@ PrIMe Reaction: r00010539
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010539/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:41:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:113"""),
-    ],
 )
 
 entry(
@@ -62487,9 +59599,6 @@ PrIMe Reaction: r00010539
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010539/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:41:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:35"""),
-    ],
 )
 
 entry(
@@ -62553,9 +59662,6 @@ PrIMe Reaction: r00011760
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011760/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:51:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:210"""),
-    ],
 )
 
 entry(
@@ -62618,9 +59724,6 @@ u"""
 PrIMe Reaction: r00011760
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:51:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:69"""),
-    ],
 )
 
 entry(
@@ -62685,9 +59788,6 @@ u"""
 PrIMe Reaction: r00011760
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:51:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977COL/NAE1023:1"""),
-    ],
 )
 
 entry(
@@ -62766,9 +59866,6 @@ u"""
 PrIMe Reaction: r00003835
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003835/rk00000001.xml
 """,
-    history = [
-        ("Wed Jul 25 12:25:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:18"""),
-    ],
 )
 
 entry(
@@ -62842,9 +59939,6 @@ PrIMe Reaction: r00004666
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004666/rk00000002.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 26 18:06:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:68"""),
-    ],
 )
 
 entry(
@@ -62916,9 +60010,6 @@ Bath gas: HC(O)OCH3
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 26 18:09:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY676:2"""),
-    ],
 )
 
 entry(
@@ -62989,9 +60080,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 26 18:10:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DON/DOR828:4"""),
-    ],
 )
 
 entry(
@@ -63062,9 +60150,6 @@ The authors used ab initio molecular orbital theory to examine the kinetics and 
 
 The listed rate expression is a fit derived at NIST to the calculated rate constants reported by the authors at 298, 600, 1000, 1500, 2000, and 2500 K. The fitted expression reproduces the calculated rates within 2.5%.
 """,
-    history = [
-        ("Thu Jul 26 18:11:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:4"""),
-    ],
 )
 
 entry(
@@ -63131,9 +60216,6 @@ The authors used ab initio molecular orbital theory to examine the kinetics and 
 
 The listed rate expression is a fit derived at NIST to the calculated rate constants reported by the authors at 298, 600, 1000, 1500, 2000, and 2500 K. The fitted expression reproduces the calculated rates within 2.5%.
 """,
-    history = [
-        ("Thu Jul 26 18:15:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:5"""),
-    ],
 )
 
 entry(
@@ -63200,9 +60282,6 @@ The authors used ab initio molecular orbital theory to examine the kinetics and 
 
 The listed rate expression is a fit derived at NIST to the calculated rate constants reported by the authors at 298, 600, 1000, 1500, 2000, and 2500 K. The fitted expression reproduces the calculated rates within 2.5%.
 """,
-    history = [
-        ("Thu Jul 26 18:16:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:6"""),
-    ],
 )
 
 entry(
@@ -63273,9 +60352,6 @@ The authors used ab initio molecular orbital theory to examine the kinetics and 
 
 The listed rate expression is a fit derived at NIST to the calculated rate constants reported by the authors at 298, 600, 1000, 1500, 2000, and 2500 K. The fitted expression reproduces the calculated rates within 2.5%.
 """,
-    history = [
-        ("Fri Jul 27 09:26:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:3"""),
-    ],
 )
 
 entry(
@@ -63355,9 +60431,6 @@ Bath gas: CH3CHO
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 10:30:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969YOK/BRI2987:1"""),
-    ],
 )
 
 entry(
@@ -63431,9 +60504,6 @@ PrIMe Reaction: r00007720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000002.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Fri Jul 27 10:31:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:92"""),
-    ],
 )
 
 entry(
@@ -63512,9 +60582,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Laser magnetic resonance (LMR)
 """,
-    history = [
-        ("Fri Jul 27 10:32:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA900-902:5"""),
-    ],
 )
 
 entry(
@@ -63588,9 +60655,6 @@ PrIMe Reaction: r00008211
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008211/rk00000002.xml
 Uncertainty: 2.0
 """,
-    history = [
-        ("Fri Jul 27 10:47:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:96"""),
-    ],
 )
 
 entry(
@@ -63678,9 +60742,6 @@ Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:35:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962LON/SKI1403:1"""),
-    ],
 )
 
 entry(
@@ -63753,9 +60814,6 @@ u"""
 PrIMe Reaction: r00001773
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001773/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:37:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987SCH/LOS300:2"""),
-    ],
 )
 
 entry(
@@ -63824,9 +60882,6 @@ u"""
 PrIMe Reaction: r00001912
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Thu Jul 12 19:38:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997MEB/LIN3189-3196:1"""),
-    ],
 )
 
 entry(
@@ -63899,9 +60954,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 19:38:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984NIC/RAV2534-2541:1"""),
-    ],
 )
 
 entry(
@@ -63971,9 +61023,6 @@ PrIMe Reaction: r00001912
 
 Expressions are derived for rate constants of the reactions of hydrogen abstraction by H atom from six-member aromatic rings.
 """,
-    history = [
-        ("Thu Jul 12 19:38:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004VIO/TRU4846-4852:1"""),
-    ],
 )
 
 entry(
@@ -64044,9 +61093,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Authors reported rate constant for forward reaction at 298.15 K (units assumed to cm3molecule-1s-1from the magnitude) and the temperature exponent (n) and activation energy (Ea) in a modified Arrhenius expression calculated from transition state theory rate constants (not reported) at 298-2000 K. Abstracter used the reported rate constant at 298.15 K to calculate the A-factor, which is abstracted without error bounds. Error bounds on n and Eaare assumed to be one sigma from the least-squares fit.
 """,
-    history = [
-        ("Thu Jul 12 19:38:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BAR/BAR140-152:1"""),
-    ],
 )
 
 entry(
@@ -64118,9 +61164,6 @@ PrIMe Reaction: r00001912
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001912/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:38:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971ASA/FUJ1-12:4"""),
-    ],
 )
 
 entry(
@@ -64194,9 +61237,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Fourier transform (FTIR)
 """,
-    history = [
-        ("Thu Jul 12 19:38:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997PAR/DYA8839-8843:1"""),
-    ],
 )
 
 entry(
@@ -64268,9 +61308,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:38:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996HEC/HIP543-550:5"""),
-    ],
 )
 
 entry(
@@ -64338,9 +61375,6 @@ entry(
 u"""
 PrIMe Reaction: r00001912
 """,
-    history = [
-        ("Thu Jul 12 19:38:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997MEB/LIN3189-3196:6"""),
-    ],
 )
 
 entry(
@@ -64430,9 +61464,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:49:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC2369:1"""),
-    ],
 )
 
 entry(
@@ -64517,9 +61548,6 @@ u"""
 PrIMe Reaction: r00002707
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 19:52:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:16"""),
-    ],
 )
 
 entry(
@@ -64608,9 +61636,6 @@ Bath gas: C3H8
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:52:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BER/WOO3305-3311:1"""),
-    ],
 )
 
 entry(
@@ -64700,9 +61725,6 @@ Bath gas: C3H8
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:52:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968LEA/PUR553:1"""),
-    ],
 )
 
 entry(
@@ -64787,9 +61809,6 @@ u"""
 PrIMe Reaction: r00002707
 Uncertainty: 1.5
 """,
-    history = [
-        ("Thu Jul 12 19:52:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:21"""),
-    ],
 )
 
 entry(
@@ -64878,9 +61897,6 @@ Bath gas: C3H8
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:52:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BER/WOO3305-3311:2"""),
-    ],
 )
 
 entry(
@@ -64958,9 +61974,6 @@ PrIMe Reaction: r00002716
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002716/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:19"""),
-    ],
 )
 
 entry(
@@ -65038,9 +62051,6 @@ PrIMe Reaction: r00002717
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002717/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:53:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:20"""),
-    ],
 )
 
 entry(
@@ -65118,9 +62128,6 @@ PrIMe Reaction: r00002734
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002734/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:32"""),
-    ],
 )
 
 entry(
@@ -65198,9 +62205,6 @@ PrIMe Reaction: r00002735
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002735/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:54:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:33"""),
-    ],
 )
 
 entry(
@@ -65273,9 +62277,6 @@ u"""
 PrIMe Reaction: r00003004
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003004/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:55:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:6"""),
-    ],
 )
 
 entry(
@@ -65348,9 +62349,6 @@ u"""
 PrIMe Reaction: r00003004
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:55:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:49"""),
-    ],
 )
 
 entry(
@@ -65423,9 +62421,6 @@ u"""
 PrIMe Reaction: r00003004
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003004/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 19:55:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:10"""),
-    ],
 )
 
 entry(
@@ -65511,9 +62506,6 @@ PrIMe Reaction: r00003275
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003275/rk00000001.xml
 Uncertainty: 2.5
 """,
-    history = [
-        ("Thu Jul 12 19:58:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:51"""),
-    ],
 )
 
 entry(
@@ -65599,9 +62591,6 @@ PrIMe Reaction: r00003275
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003275/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:9"""),
-    ],
 )
 
 entry(
@@ -65687,9 +62676,6 @@ PrIMe Reaction: r00003276
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003276/rk00000001.xml
 Uncertainty: 2.5
 """,
-    history = [
-        ("Thu Jul 12 19:58:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:52"""),
-    ],
 )
 
 entry(
@@ -65775,9 +62761,6 @@ PrIMe Reaction: r00003276
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003276/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:10"""),
-    ],
 )
 
 entry(
@@ -65858,9 +62841,6 @@ u"""
 PrIMe Reaction: r00003287
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:30"""),
-    ],
 )
 
 entry(
@@ -65946,9 +62926,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:59:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAT/RAT1183:1"""),
-    ],
 )
 
 entry(
@@ -66035,9 +63012,6 @@ Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 19:59:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961BER/TRO348:2"""),
-    ],
 )
 
 entry(
@@ -66118,9 +63092,6 @@ u"""
 PrIMe Reaction: r00003287
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:3"""),
-    ],
 )
 
 entry(
@@ -66202,9 +63173,6 @@ PrIMe Reaction: r00003288
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003288/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:31"""),
-    ],
 )
 
 entry(
@@ -66286,9 +63254,6 @@ PrIMe Reaction: r00003288
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003288/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:5"""),
-    ],
 )
 
 entry(
@@ -66370,9 +63335,6 @@ PrIMe Reaction: r00003298
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003298/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:00:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:34"""),
-    ],
 )
 
 entry(
@@ -66454,9 +63416,6 @@ PrIMe Reaction: r00003298
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003298/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:00:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:4"""),
-    ],
 )
 
 entry(
@@ -66538,9 +63497,6 @@ PrIMe Reaction: r00003299
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003299/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:35"""),
-    ],
 )
 
 entry(
@@ -66622,9 +63578,6 @@ PrIMe Reaction: r00003299
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003299/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:6"""),
-    ],
 )
 
 entry(
@@ -66702,9 +63655,6 @@ PrIMe Reaction: r00003300
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003300/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:36"""),
-    ],
 )
 
 entry(
@@ -66782,9 +63732,6 @@ PrIMe Reaction: r00003300
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003300/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:1"""),
-    ],
 )
 
 entry(
@@ -66862,9 +63809,6 @@ PrIMe Reaction: r00003301
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003301/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:37"""),
-    ],
 )
 
 entry(
@@ -66942,9 +63886,6 @@ PrIMe Reaction: r00003301
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003301/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:2"""),
-    ],
 )
 
 entry(
@@ -67026,9 +63967,6 @@ PrIMe Reaction: r00003302
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003302/rk00000002.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:38"""),
-    ],
 )
 
 entry(
@@ -67110,9 +64048,6 @@ PrIMe Reaction: r00003303
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003303/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:01:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:39"""),
-    ],
 )
 
 entry(
@@ -67189,9 +64124,6 @@ u"""
 PrIMe Reaction: r00003313
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:02:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:42"""),
-    ],
 )
 
 entry(
@@ -67269,9 +64201,6 @@ PrIMe Reaction: r00003313
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003313/rk00000003.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:02:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:5"""),
-    ],
 )
 
 entry(
@@ -67348,9 +64277,6 @@ u"""
 PrIMe Reaction: r00003313
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:02:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:88"""),
-    ],
 )
 
 entry(
@@ -67426,9 +64352,6 @@ PrIMe Reaction: r00003329
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003329/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:04:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:47"""),
-    ],
 )
 
 entry(
@@ -67504,9 +64427,6 @@ PrIMe Reaction: r00003330
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003330/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:04:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:48"""),
-    ],
 )
 
 entry(
@@ -67587,9 +64507,6 @@ u"""
 PrIMe Reaction: r00003823
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003823/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 12 20:05:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:5"""),
-    ],
 )
 
 entry(
@@ -67670,9 +64587,6 @@ u"""
 PrIMe Reaction: r00003824
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003824/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 12 20:05:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:6"""),
-    ],
 )
 
 entry(
@@ -67754,9 +64668,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:06:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO2059:2"""),
-    ],
 )
 
 entry(
@@ -67827,9 +64738,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:06:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007BAE/GLO4114-4128:1"""),
-    ],
 )
 
 entry(
@@ -67899,9 +64807,6 @@ Bath gas: He
 Excitation technique: Electron beam
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:06:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995TYN/STA1009-1020:2"""),
-    ],
 )
 
 entry(
@@ -67971,9 +64876,6 @@ Only abstraction of the aldehydic H is found to be important over the studied ra
 
 Uncertainties represent 2 standard deviations of the analytical expression from the actual calculated values.
 """,
-    history = [
-        ("Thu Jul 12 20:06:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004GAL/ALV1379-1388:2"""),
-    ],
 )
 
 entry(
@@ -68051,9 +64953,6 @@ PrIMe Reaction: r00004604
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004604/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:07:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:6"""),
-    ],
 )
 
 entry(
@@ -68131,9 +65030,6 @@ PrIMe Reaction: r00004605
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004605/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:07:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986PIT/WES113-133:1"""),
-    ],
 )
 
 entry(
@@ -68213,9 +65109,6 @@ Bath gas: (C2H5)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:09:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962BRO/JAM796-803:2"""),
-    ],
 )
 
 entry(
@@ -68290,9 +65183,6 @@ Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:09:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963THY/GRA1149:1"""),
-    ],
 )
 
 entry(
@@ -68363,9 +65253,6 @@ Bath gas: (CH3O)2
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 20:09:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY/GRA295:1"""),
-    ],
 )
 
 entry(
@@ -68446,9 +65333,6 @@ u"""
 PrIMe Reaction: r00005282
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005282/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 12 20:10:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:19"""),
-    ],
 )
 
 entry(
@@ -68529,9 +65413,6 @@ u"""
 PrIMe Reaction: r00005283
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005283/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 12 20:10:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:20"""),
-    ],
 )
 
 entry(
@@ -68612,9 +65493,6 @@ u"""
 PrIMe Reaction: r00005285
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005285/rk00000002.xml
 """,
-    history = [
-        ("Thu Jul 12 20:10:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:12"""),
-    ],
 )
 
 entry(
@@ -68694,9 +65572,6 @@ entry(
 u"""
 PrIMe Reaction: r00005285
 """,
-    history = [
-        ("Thu Jul 12 20:10:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:21"""),
-    ],
 )
 
 entry(
@@ -68774,9 +65649,6 @@ Bath gas: HCOOC2H5
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:11:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY676:3"""),
-    ],
 )
 
 entry(
@@ -68857,9 +65729,6 @@ u"""
 PrIMe Reaction: r00005638
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:14:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:26"""),
-    ],
 )
 
 entry(
@@ -68946,9 +65815,6 @@ Bath gas: CH3CH=CH2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:14:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976SZI/MAR897:2"""),
-    ],
 )
 
 entry(
@@ -69029,9 +65895,6 @@ u"""
 PrIMe Reaction: r00005638
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:14:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:13"""),
-    ],
 )
 
 entry(
@@ -69111,9 +65974,6 @@ entry(
 u"""
 PrIMe Reaction: r00005638
 """,
-    history = [
-        ("Thu Jul 12 20:14:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:4"""),
-    ],
 )
 
 entry(
@@ -69187,9 +66047,6 @@ PrIMe Reaction: r00005652
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005652/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:14:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:33"""),
-    ],
 )
 
 entry(
@@ -69270,9 +66127,6 @@ u"""
 PrIMe Reaction: r00005653
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:14:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:34"""),
-    ],
 )
 
 entry(
@@ -69353,9 +66207,6 @@ u"""
 PrIMe Reaction: r00005653
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005653/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:14:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:7"""),
-    ],
 )
 
 entry(
@@ -69436,9 +66287,6 @@ u"""
 PrIMe Reaction: r00005653
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:14:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:14"""),
-    ],
 )
 
 entry(
@@ -69519,9 +66367,6 @@ u"""
 PrIMe Reaction: r00005653
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005653/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:14:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:5"""),
-    ],
 )
 
 entry(
@@ -69598,9 +66443,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:18:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994ING/WAL767-774:1"""),
-    ],
 )
 
 entry(
@@ -69670,9 +66512,6 @@ entry(
 u"""
 PrIMe Reaction: r00005864
 """,
-    history = [
-        ("Thu Jul 12 20:18:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000CHE/BOZ9715-9732:1"""),
-    ],
 )
 
 entry(
@@ -69742,9 +66581,6 @@ entry(
 u"""
 PrIMe Reaction: r00005864
 """,
-    history = [
-        ("Thu Jul 12 20:18:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000CHE/BOZ9715-9732:2"""),
-    ],
 )
 
 entry(
@@ -69826,9 +66662,6 @@ Bath gas: C2H5CHO
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Thu Jul 12 20:18:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981PET/ACS235:1"""),
-    ],
 )
 
 entry(
@@ -69909,9 +66742,6 @@ Bath gas: C2H5CHO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:18:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960KER/TRO1611:2"""),
-    ],
 )
 
 entry(
@@ -69993,9 +66823,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:18:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO2059:5"""),
-    ],
 )
 
 entry(
@@ -70082,9 +66909,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:20:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ZHA/AHO1541-1549:9"""),
-    ],
 )
 
 entry(
@@ -70161,9 +66985,6 @@ u"""
 PrIMe Reaction: r00006488
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006488/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:20:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ATK2233-2307:24"""),
-    ],
 )
 
 entry(
@@ -70242,9 +67063,6 @@ u"""
 PrIMe Reaction: r00006488
 Bath gas: O2
 """,
-    history = [
-        ("Thu Jul 12 20:20:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:1"""),
-    ],
 )
 
 entry(
@@ -70321,9 +67139,6 @@ u"""
 PrIMe Reaction: r00006488
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:20:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:12"""),
-    ],
 )
 
 entry(
@@ -70405,9 +67220,6 @@ Excitation technique: Direct photolysis
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:20:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999DEM/BAY2649-2654:7"""),
-    ],
 )
 
 entry(
@@ -70488,9 +67300,6 @@ Bath gas: N2
 Excitation technique: Electron beam
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:20:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998DON/AND3121-3126:5"""),
-    ],
 )
 
 entry(
@@ -70571,9 +67380,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:20:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DRO/TUL1222:2"""),
-    ],
 )
 
 entry(
@@ -70649,9 +67455,6 @@ entry(
 u"""
 PrIMe Reaction: r00006488
 """,
-    history = [
-        ("Thu Jul 12 20:20:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982COH1339:13"""),
-    ],
 )
 
 entry(
@@ -70735,9 +67538,6 @@ entry(
 u"""
 PrIMe Reaction: r00007057
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993MIT/BEN931-955:3"""),
-    ],
 )
 
 entry(
@@ -70827,9 +67627,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA748:4"""),
-    ],
 )
 
 entry(
@@ -70918,9 +67715,6 @@ Bath gas: neo-C5H12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ROD/PAC6298:1"""),
-    ],
 )
 
 entry(
@@ -71009,9 +67803,6 @@ Bath gas: neo-C5H12
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984FUR/MAN1203:1"""),
-    ],
 )
 
 entry(
@@ -71100,9 +67891,6 @@ Bath gas: neo-C5H12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978MAR/COM171:2"""),
-    ],
 )
 
 entry(
@@ -71191,9 +67979,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976BRA/WES8:4"""),
-    ],
 )
 
 entry(
@@ -71283,9 +68068,6 @@ Bath gas: neo-C5H12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973PAC2415:2"""),
-    ],
 )
 
 entry(
@@ -71373,9 +68155,6 @@ Bath gas: (CH3N)2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973BER/SAF1734:2"""),
-    ],
 )
 
 entry(
@@ -71464,9 +68243,6 @@ Bath gas: neo-C5H12
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972FUR/LAI1123:1"""),
-    ],
 )
 
 entry(
@@ -71557,9 +68333,6 @@ Bath gas: neo-C5H12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969HAL/KON525:3"""),
-    ],
 )
 
 entry(
@@ -71640,9 +68413,6 @@ u"""
 PrIMe Reaction: r00007065
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007065/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ATK2233-2307:11"""),
-    ],
 )
 
 entry(
@@ -71723,9 +68493,6 @@ u"""
 PrIMe Reaction: r00007065
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986BAU/BOW465:22"""),
-    ],
 )
 
 entry(
@@ -71806,9 +68573,6 @@ u"""
 PrIMe Reaction: r00007065
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK69:91"""),
-    ],
 )
 
 entry(
@@ -71888,9 +68652,6 @@ entry(
 u"""
 PrIMe Reaction: r00007065
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:14"""),
-    ],
 )
 
 entry(
@@ -71971,9 +68732,6 @@ u"""
 PrIMe Reaction: r00007065
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:13"""),
-    ],
 )
 
 entry(
@@ -72058,9 +68816,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TUL/KOS715:1"""),
-    ],
 )
 
 entry(
@@ -72146,9 +68901,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:20"""),
-    ],
 )
 
 entry(
@@ -72228,9 +68980,6 @@ entry(
 u"""
 PrIMe Reaction: r00007065
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:43"""),
-    ],
 )
 
 entry(
@@ -72313,9 +69062,6 @@ u"""
 PrIMe Reaction: r00007065
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:15"""),
-    ],
 )
 
 entry(
@@ -72395,9 +69141,6 @@ entry(
 u"""
 PrIMe Reaction: r00007065
 """,
-    history = [
-        ("Thu Jul 12 20:22:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982COH1339:14"""),
-    ],
 )
 
 entry(
@@ -72475,9 +69218,6 @@ Excitation technique: Thermal
 Analytical technique: Other (direct)
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:38:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969KER/SMI1400:1"""),
-    ],
 )
 
 entry(
@@ -72556,9 +69296,6 @@ Bath gas: (CH3N)2
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:38:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966GRE/THY3338:2"""),
-    ],
 )
 
 entry(
@@ -72635,9 +69372,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:41:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO2059:8"""),
-    ],
 )
 
 entry(
@@ -72703,9 +69437,6 @@ u"""
 PrIMe Reaction: r00011731
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:94"""),
-    ],
 )
 
 entry(
@@ -72771,9 +69502,6 @@ u"""
 PrIMe Reaction: r00011731
 Pressure dependence: None reported
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:98"""),
-    ],
 )
 
 entry(
@@ -72838,9 +69566,6 @@ entry(
 u"""
 PrIMe Reaction: r00011731
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:301"""),
-    ],
 )
 
 entry(
@@ -72906,9 +69631,6 @@ entry(
 u"""
 PrIMe Reaction: r00011731
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:247"""),
-    ],
 )
 
 entry(
@@ -72974,9 +69696,6 @@ u"""
 PrIMe Reaction: r00011731
 Uncertainty: 1.5
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:283"""),
-    ],
 )
 
 entry(
@@ -73042,9 +69761,6 @@ entry(
 u"""
 PrIMe Reaction: r00011731
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992WAL/DAG667-710:13"""),
-    ],
 )
 
 entry(
@@ -73111,9 +69827,6 @@ u"""
 PrIMe Reaction: r00011731
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011731/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992LIG/COX1805-1961:15"""),
-    ],
 )
 
 entry(
@@ -73179,9 +69892,6 @@ entry(
 u"""
 PrIMe Reaction: r00011731
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:215"""),
-    ],
 )
 
 entry(
@@ -73248,9 +69958,6 @@ u"""
 PrIMe Reaction: r00011731
 Uncertainty: 1.58
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:132"""),
-    ],
 )
 
 entry(
@@ -73321,9 +70028,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994MAR/SZE2078-2082:2"""),
-    ],
 )
 
 entry(
@@ -73394,9 +70098,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:51:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993FEN/CAT3530-3538:2"""),
-    ],
 )
 
 entry(
@@ -73474,9 +70175,6 @@ PrIMe Reaction: r00012776
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012776/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:125"""),
-    ],
 )
 
 entry(
@@ -73554,9 +70252,6 @@ PrIMe Reaction: r00012776
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012776/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:54:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:43"""),
-    ],
 )
 
 entry(
@@ -73634,9 +70329,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Wed Jul 25 12:27:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970FER/PEA910:3"""),
-    ],
 )
 
 entry(
@@ -73715,9 +70407,6 @@ Bath gas: CH3C(O)OCH3
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Wed Jul 25 12:29:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ART/NEW1697:2"""),
-    ],
 )
 
 entry(
@@ -73795,9 +70484,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Wed Jul 25 12:32:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970FER/PEA910:4"""),
-    ],
 )
 
 entry(
@@ -73876,9 +70562,6 @@ Bath gas: CH3C(O)OCH3
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Wed Jul 25 12:33:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ART/NEW1697:3"""),
-    ],
 )
 
 entry(
@@ -73955,9 +70638,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Uncertainty: 1.78
 Bath gas: CH3C(O)OCH3
 """,
-    history = [
-        ("Wed Jul 25 12:36:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981ART/NEW727:1"""),
-    ],
 )
 
 entry(
@@ -74040,9 +70720,6 @@ Bath gas: C2H5CHO
 Excitation technique: Thermal
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
-    history = [
-        ("Fri Jul 27 09:41:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981PET/ACS235:2"""),
-    ],
 )
 
 entry(
@@ -74125,9 +70802,6 @@ Bath gas: C2H5CHO
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 09:42:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981PET/ACS235:3"""),
-    ],
 )
 
 entry(
@@ -74210,9 +70884,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:34:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981ALA/SEL1036:1"""),
-    ],
 )
 
 entry(
@@ -74303,9 +70974,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:34:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986SER/HUH829:2"""),
-    ],
 )
 
 entry(
@@ -74396,9 +71064,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:34:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FOU/MAR132:4"""),
-    ],
 )
 
 entry(
@@ -74491,9 +71156,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:34:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970HOH/FRE6118:1"""),
-    ],
 )
 
 entry(
@@ -74575,9 +71237,6 @@ Analytical technique: Fourier transform (FTIR)
 
 This work was also studied by pulsed laser photolysis/mass spectrometry, and got the same result.
 """,
-    history = [
-        ("Thu Jul 12 19:39:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999TOK/PAR3636-3645:1"""),
-    ],
 )
 
 entry(
@@ -74655,9 +71314,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 19:39:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996HEC/HIP543-550:2"""),
-    ],
 )
 
 entry(
@@ -74736,9 +71392,6 @@ Bath gas: 1-Phenylethanone
 Excitation technique: Direct photolysis
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 19:39:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962DUN/TRO4672:1"""),
-    ],
 )
 
 entry(
@@ -74818,9 +71471,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:39:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ZHA/AHO1541-1549:1"""),
-    ],
 )
 
 entry(
@@ -74899,9 +71549,6 @@ Bath gas: (CH3)2Hg
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 19:39:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967KRE/PRI157:1"""),
-    ],
 )
 
 entry(
@@ -74982,9 +71629,6 @@ Ea = 71.8kJ/mol
 DrH = 30.6kJ/mol
 no uncertainties reported.
 """,
-    history = [
-        ("Thu Jul 12 19:39:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006HEM/VAN13624-13631:1"""),
-    ],
 )
 
 entry(
@@ -75076,9 +71720,6 @@ PrIMe Reaction: r00003271
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003271/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:22"""),
-    ],
 )
 
 entry(
@@ -75170,9 +71811,6 @@ PrIMe Reaction: r00003271
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003271/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:16"""),
-    ],
 )
 
 entry(
@@ -75264,9 +71902,6 @@ PrIMe Reaction: r00003272
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003272/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:23"""),
-    ],
 )
 
 entry(
@@ -75358,9 +71993,6 @@ PrIMe Reaction: r00003272
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003272/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:18"""),
-    ],
 )
 
 entry(
@@ -75444,9 +72076,6 @@ PrIMe Reaction: r00003281
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003281/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:26"""),
-    ],
 )
 
 entry(
@@ -75530,9 +72159,6 @@ PrIMe Reaction: r00003282
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003282/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:58:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:27"""),
-    ],
 )
 
 entry(
@@ -75624,9 +72250,6 @@ PrIMe Reaction: r00003283
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003283/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:28"""),
-    ],
 )
 
 entry(
@@ -75718,9 +72341,6 @@ PrIMe Reaction: r00003283
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003283/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:17"""),
-    ],
 )
 
 entry(
@@ -75812,9 +72432,6 @@ PrIMe Reaction: r00003284
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003284/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:29"""),
-    ],
 )
 
 entry(
@@ -75906,9 +72523,6 @@ PrIMe Reaction: r00003284
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003284/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 19:59:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:19"""),
-    ],
 )
 
 entry(
@@ -75992,9 +72606,6 @@ PrIMe Reaction: r00003307
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003307/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:02:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:40"""),
-    ],
 )
 
 entry(
@@ -76078,9 +72689,6 @@ PrIMe Reaction: r00003308
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003308/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:02:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:41"""),
-    ],
 )
 
 entry(
@@ -76169,9 +72777,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 Note: Invalid activation energy uncertainty (108.92) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:05:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TUL147-153:2"""),
-    ],
 )
 
 entry(
@@ -76256,9 +72861,6 @@ u"""
 PrIMe Reaction: r00003753
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003753/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:05:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MUL/LOU148-152:2"""),
-    ],
 )
 
 entry(
@@ -76345,9 +72947,6 @@ u"""
 PrIMe Reaction: r00004242
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004242/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:07:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:9"""),
-    ],
 )
 
 entry(
@@ -76431,9 +73030,6 @@ Bath gas: CH2=CHCHO
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:09:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985SZI117:1"""),
-    ],
 )
 
 entry(
@@ -76504,9 +73100,6 @@ u"""
 PrIMe Reaction: r00005240
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:10:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:98"""),
-    ],
 )
 
 entry(
@@ -76581,9 +73174,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:10:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HE/MAL2196:4"""),
-    ],
 )
 
 entry(
@@ -76667,9 +73257,6 @@ Bath gas: HCOOC2H5
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:10:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY676:4"""),
-    ],
 )
 
 entry(
@@ -76756,9 +73343,6 @@ u"""
 PrIMe Reaction: r00005439
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005439/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:11:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:23"""),
-    ],
 )
 
 entry(
@@ -76845,9 +73429,6 @@ u"""
 PrIMe Reaction: r00005440
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005440/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:11:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:24"""),
-    ],
 )
 
 entry(
@@ -76935,9 +73516,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:11:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO2059:4"""),
-    ],
 )
 
 entry(
@@ -77021,9 +73599,6 @@ Bath gas: HCOOCH2CH2CH3
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:11:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY1394:2"""),
-    ],
 )
 
 entry(
@@ -77115,9 +73690,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:11:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA748:3"""),
-    ],
 )
 
 entry(
@@ -77208,9 +73780,6 @@ Uncertainty: 2.75
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:11:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ALN/HOL1601-1608:2"""),
-    ],
 )
 
 entry(
@@ -77293,9 +73862,6 @@ u"""
 PrIMe Reaction: r00005493
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005493/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ATK2233-2307:25"""),
-    ],
 )
 
 entry(
@@ -77378,9 +73944,6 @@ u"""
 PrIMe Reaction: r00005493
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK69:74"""),
-    ],
 )
 
 entry(
@@ -77463,9 +74026,6 @@ u"""
 PrIMe Reaction: r00005493
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:10"""),
-    ],
 )
 
 entry(
@@ -77553,9 +74113,6 @@ Excitation technique: Direct photolysis
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999DEM/BAY2649-2654:4"""),
-    ],
 )
 
 entry(
@@ -77642,9 +74199,6 @@ Bath gas: N2
 Excitation technique: Electron beam
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998DON/AND3121-3126:4"""),
-    ],
 )
 
 entry(
@@ -77731,9 +74285,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DRO/TUL1222:1"""),
-    ],
 )
 
 entry(
@@ -77821,9 +74372,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:14"""),
-    ],
 )
 
 entry(
@@ -77908,9 +74456,6 @@ u"""
 PrIMe Reaction: r00005493
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:10"""),
-    ],
 )
 
 entry(
@@ -77992,9 +74537,6 @@ entry(
 u"""
 PrIMe Reaction: r00005493
 """,
-    history = [
-        ("Thu Jul 12 20:12:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982COH1339:11"""),
-    ],
 )
 
 entry(
@@ -78070,9 +74612,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:12:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988ZAB/FLE117:2"""),
-    ],
 )
 
 entry(
@@ -78160,9 +74699,6 @@ PrIMe Reaction: r00005634
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005634/rk00000001.xml
 Uncertainty: 10.0
 """,
-    history = [
-        ("Thu Jul 12 20:13:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:23"""),
-    ],
 )
 
 entry(
@@ -78250,9 +74786,6 @@ PrIMe Reaction: r00005634
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005634/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:13:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:15"""),
-    ],
 )
 
 entry(
@@ -78331,9 +74864,6 @@ u"""
 PrIMe Reaction: r00005677
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:15:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:9"""),
-    ],
 )
 
 entry(
@@ -78412,9 +74942,6 @@ u"""
 PrIMe Reaction: r00005677
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:15:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOS/SCH237-245:1"""),
-    ],
 )
 
 entry(
@@ -78502,9 +75029,6 @@ PrIMe Reaction: r00005700
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005700/rk00000001.xml
 Uncertainty: 3.0
 """,
-    history = [
-        ("Thu Jul 12 20:16:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:57"""),
-    ],
 )
 
 entry(
@@ -78592,9 +75116,6 @@ PrIMe Reaction: r00005700
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005700/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:16:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:16"""),
-    ],
 )
 
 entry(
@@ -78687,9 +75208,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:20:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ZHA/AHO1541-1549:11"""),
-    ],
 )
 
 entry(
@@ -78785,9 +75303,6 @@ E12p?1/2E7= 75.6?.8 kJ mol-1, log[(A12p= A71/2)/(dm3mol-1s-1)1/2] = (5.53?.52)
 and
 E12c?1/2E7= 71.2 ?3.9 kJ mol-1, log[(A12c= A71/2)/(dm3mol-1s-1)1/2] = (5.58?.40).
 """,
-    history = [
-        ("Thu Jul 12 20:20:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002HAN/WAL620-627:2"""),
-    ],
 )
 
 entry(
@@ -78874,9 +75389,6 @@ Analytical technique: Gas chromatography
 The listed rate expression is recommended by authors for extrapolation of their data outside of their experimental temperature range of 673 to 783 K. The value of n = 2.5 was estimated by the authors on the basis of values for related reactions reported in the literature. No specific range of validity was given by the authors, but an approximate temperature range was inferred by us from the discussion in the paper. Uncertainties in the rate constant derived from this expression are suggested by the authors to be about 40% at 600 to 800 K and a factor of 2 at 1200 K.
 The authors also suggest generic values of the RH + OOH reaction for primary, secondary, and tertiary hydrogens in this paper.
 """,
-    history = [
-        ("Thu Jul 12 20:20:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002HAN/WAL620-627:4"""),
-    ],
 )
 
 entry(
@@ -78964,9 +75476,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Thu Jul 12 20:21:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997HOO/OPA1338-1342:4"""),
-    ],
 )
 
 entry(
@@ -79058,9 +75567,6 @@ Bath gas: CO2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:24:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996KOR/SER253-273:2"""),
-    ],
 )
 
 entry(
@@ -79151,9 +75657,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:24:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA900-902:4"""),
-    ],
 )
 
 entry(
@@ -79241,9 +75744,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:25:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO2059:6"""),
-    ],
 )
 
 entry(
@@ -79320,9 +75820,6 @@ Bath gas: CH3OCOOCH3
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:26:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968YEE/THY211:3"""),
-    ],
 )
 
 entry(
@@ -79400,9 +75897,6 @@ Bath gas: CH3OCOOCH3
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:26:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966QUE/THY3154:2"""),
-    ],
 )
 
 entry(
@@ -79478,9 +75972,6 @@ Bath gas: SF6
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:26:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997BIL/MOG3514-3525:8"""),
-    ],
 )
 
 entry(
@@ -79564,9 +76055,6 @@ Bath gas: HCOOCH(CH3)2
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:27:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY1394:4"""),
-    ],
 )
 
 entry(
@@ -79654,9 +76142,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:27:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO2059:7"""),
-    ],
 )
 
 entry(
@@ -79729,9 +76214,6 @@ u"""
 PrIMe Reaction: r00011163
 Bath gas: He
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994LIN/KUO2098-2105:1"""),
-    ],
 )
 
 entry(
@@ -79802,9 +76284,6 @@ u"""
 PrIMe Reaction: r00011163
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:18"""),
-    ],
 )
 
 entry(
@@ -79883,9 +76362,6 @@ Analytical technique: Laser induced fluorescence
 
 Uncertainties of the Arrhenius parameters are not reported. This article reports development of a novel kinetic technique: shock tube / pulsed laser-induced fluorescence imaging.
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SET/NAK64103:1"""),
-    ],
 )
 
 entry(
@@ -79960,9 +76436,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990KNI/KOC1375-1379:1"""),
-    ],
 )
 
 entry(
@@ -80037,9 +76510,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TUL/RAV2262:1"""),
-    ],
 )
 
 entry(
@@ -80116,9 +76586,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977PER/ATK296:2"""),
-    ],
 )
 
 entry(
@@ -80196,9 +76663,6 @@ The listed rate constants are those recommended in the paper on the basis of tra
 
 The estimated uncertainty factor of 1.35 applies to the overall rate of reaction and the major reaction channels. The minor channels are estimated by the authors to have uncertainty factors of up to 2.
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SET/NAK5081-5090:4"""),
-    ],
 )
 
 entry(
@@ -80271,9 +76735,6 @@ Pressure dependence: Rate constant is pressure independent
 
 Temperature range was not specified. The temperature range used for this record (230 - 1500 K) was taken from table 7 of the article.
 """,
-    history = [
-        ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004CHE/BOZ4632-4652:4"""),
-    ],
 )
 
 entry(
@@ -80337,9 +76798,6 @@ entry(
 u"""
 PrIMe Reaction: r00011914
 """,
-    history = [
-        ("Thu Jul 12 20:54:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:242"""),
-    ],
 )
 
 entry(
@@ -80419,9 +76877,6 @@ calc equil const k2 1.9E-(27?) exp[+(6925?40 K)/T] at 298-373 K;DrH298 = -64? kJ
 
 Note: Table 2 should be k-2 (k2reverse) = 2.3E13 exp(-6925 K/T). Calculated using assumed temperature dependence by analogy to CH2O + HO2
 """,
-    history = [
-        ("Thu Jul 12 20:54:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001TOM/VIL3505-3514:7"""),
-    ],
 )
 
 entry(
@@ -80508,9 +76963,6 @@ u"""
 PrIMe Reaction: r00003724
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003724/rk00000001.xml
 """,
-    history = [
-        ("Wed Jul 25 12:19:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:10"""),
-    ],
 )
 
 entry(
@@ -80597,9 +77049,6 @@ u"""
 PrIMe Reaction: r00003725
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003725/rk00000001.xml
 """,
-    history = [
-        ("Wed Jul 25 12:21:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:11"""),
-    ],
 )
 
 entry(
@@ -80686,9 +77135,6 @@ u"""
 PrIMe Reaction: r00003726
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003726/rk00000001.xml
 """,
-    history = [
-        ("Wed Jul 25 12:22:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:12"""),
-    ],
 )
 
 entry(
@@ -80780,9 +77226,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Wed Jul 25 12:39:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:10"""),
-    ],
 )
 
 entry(
@@ -80869,9 +77312,6 @@ u"""
 PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000003.xml
 """,
-    history = [
-        ("Wed Jul 25 12:41:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:8"""),
-    ],
 )
 
 entry(
@@ -80961,9 +77401,6 @@ PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000004.xml
 Bath gas: N2
 """,
-    history = [
-        ("Wed Jul 25 12:42:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:7"""),
-    ],
 )
 
 entry(
@@ -81050,9 +77487,6 @@ u"""
 PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000005.xml
 """,
-    history = [
-        ("Wed Jul 25 12:44:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:14"""),
-    ],
 )
 
 entry(
@@ -81130,9 +77564,6 @@ PrIMe Reaction: r00004761
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004761/rk00000001.xml
 Bath gas: Ne
 """,
-    history = [
-        ("Wed Jul 25 12:50:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:4"""),
-    ],
 )
 
 entry(
@@ -81219,9 +77650,6 @@ u"""
 PrIMe Reaction: r00005442
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005442/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 26 18:23:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:25"""),
-    ],
 )
 
 entry(
@@ -81295,9 +77723,6 @@ PrIMe Reaction: r00001906
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001906/rk00000001.xml
 Bath gas: Ar
 """,
-    history = [
-        ("Thu Jul 12 19:38:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971ASA/FUJ1-12:3"""),
-    ],
 )
 
 entry(
@@ -81388,9 +77813,6 @@ Analytical technique: Vis-UV absorption
 
 Phenyl radicals are produced from 193 nm photolysis of C6H5COCH3.The cavity ringdown spectroscopy and/or mass spectrometry have been used to monitor reactan and/or products.
 """,
-    history = [
-        ("Thu Jul 12 19:49:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001PAR/GHE64-69:1"""),
-    ],
 )
 
 entry(
@@ -81476,9 +77898,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:49:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ZHA/AHO1541-1549:3"""),
-    ],
 )
 
 entry(
@@ -81566,9 +77985,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:57:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981ALA/SEL1036:3"""),
-    ],
 )
 
 entry(
@@ -81656,9 +78072,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:57:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981ALA/SEL1036:4"""),
-    ],
 )
 
 entry(
@@ -81756,9 +78169,6 @@ PrIMe Reaction: r00003324
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003324/rk00000001.xml
 Uncertainty: 2.5
 """,
-    history = [
-        ("Thu Jul 12 20:04:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:46"""),
-    ],
 )
 
 entry(
@@ -81856,9 +78266,6 @@ PrIMe Reaction: r00003324
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003324/rk00000001.xml
 Uncertainty: 5.0
 """,
-    history = [
-        ("Thu Jul 12 20:04:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:21"""),
-    ],
 )
 
 entry(
@@ -81952,9 +78359,6 @@ Bath gas: (CH3)2CHCHO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:06:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959KER/TRO921:3"""),
-    ],
 )
 
 entry(
@@ -82042,9 +78446,6 @@ Analytical technique: Gas chromatography
 
 The authors carried out a detailed analysis of products obtained from the addition of small amounts of toluene or ethylbenzene to N2 mixtures containing H2 and O2 at 773 K and 500 Torr total pressure. A detainled kinetic model with approximately 50 reactions was constructed to explain the results. Kinetics were obtained using this mechanism and the observed product formation rates. Typically, relative rates were derived and converted to absolute rates using data from the literature.
 """,
-    history = [
-        ("Thu Jul 12 20:07:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ELL/SCO291-304:16"""),
-    ],
 )
 
 entry(
@@ -82124,9 +78525,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:10:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965MUL/WIL20-38:2"""),
-    ],
 )
 
 entry(
@@ -82204,9 +78602,6 @@ Bath gas: Ar
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:10:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990KNI/KOC1375-1379:6"""),
-    ],
 )
 
 entry(
@@ -82299,9 +78694,6 @@ Analytical technique: Gas chromatography
 Rate constant used for the reference reaction HO2+ HO2-> H2O2+ O2was
 k/(cm3mol-1s-1= 1.87x1012exp(-775/T)
 """,
-    history = [
-        ("Thu Jul 12 20:12:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HAN/WAL2043-2052:1"""),
-    ],
 )
 
 entry(
@@ -82396,9 +78788,6 @@ k/(cm3mol-1s-1= 1.87x1012exp(-775/T)
 
 Authors do not specifically indicate the temperature range over which they recommend this rate expression. The indicated range is approximate and was inferred by us from their discussion.
 """,
-    history = [
-        ("Thu Jul 12 20:12:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HAN/WAL2043-2052:2"""),
-    ],
 )
 
 entry(
@@ -82490,9 +78879,6 @@ Bath gas: (C2H5)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:12:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958JAM/STE289:2"""),
-    ],
 )
 
 entry(
@@ -82586,9 +78972,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:15:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:4"""),
-    ],
 )
 
 entry(
@@ -82681,9 +79064,6 @@ u"""
 PrIMe Reaction: r00006329
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006329/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:19:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:39"""),
-    ],
 )
 
 entry(
@@ -82776,9 +79156,6 @@ u"""
 PrIMe Reaction: r00006330
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006330/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:19:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:40"""),
-    ],
 )
 
 entry(
@@ -82872,9 +79249,6 @@ Bath gas: N2
 Excitation technique: Electron beam
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:20:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998DON/AND3121-3126:6"""),
-    ],
 )
 
 entry(
@@ -82977,9 +79351,6 @@ Bath gas: neo-C5H12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:21:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979SZI/MAR369:1"""),
-    ],
 )
 
 entry(
@@ -83065,9 +79436,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:24:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997BUR/DVI505-514:3"""),
-    ],
 )
 
 entry(
@@ -83150,9 +79518,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:24:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997BUR/DVI505-514:5"""),
-    ],
 )
 
 entry(
@@ -83229,9 +79594,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:25:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985MUL/LOU1135:1"""),
-    ],
 )
 
 entry(
@@ -83310,9 +79672,6 @@ Bath gas: CH3OCOOCH3
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:26:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968YEE/THY211:1"""),
-    ],
 )
 
 entry(
@@ -83392,9 +79751,6 @@ Bath gas: CH3OCOOCH3
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:26:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966QUE/THY3154:1"""),
-    ],
 )
 
 entry(
@@ -83481,9 +79837,6 @@ Excitation technique: Thermal
 Analytical technique: Other (direct)
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:38:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969KER/SMI1400:2"""),
-    ],
 )
 
 entry(
@@ -83577,9 +79930,6 @@ Bath gas: n-C3H7CHO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 09:44:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959KER/TRO572:2"""),
-    ],
 )
 
 entry(
@@ -83674,9 +80024,6 @@ Bath gas: n-C3H7CHO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 09:45:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979FOR/BER219:1"""),
-    ],
 )
 
 entry(
@@ -83770,9 +80117,6 @@ Bath gas: n-C3H7CHO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 09:46:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959KER/TRO572:3"""),
-    ],
 )
 
 entry(
@@ -83868,9 +80212,6 @@ Excitation technique: Direct photolysis
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 09:47:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979FOR/BER219:2"""),
-    ],
 )
 
 entry(
@@ -83963,9 +80304,6 @@ u"""
 PrIMe Reaction: r00006332
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006332/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 27 09:56:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:41"""),
-    ],
 )
 
 entry(
@@ -84058,9 +80396,6 @@ u"""
 PrIMe Reaction: r00006333
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006333/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 27 09:58:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:42"""),
-    ],
 )
 
 entry(
@@ -84158,9 +80493,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 10:04:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:22"""),
-    ],
 )
 
 entry(
@@ -84258,9 +80590,6 @@ Uncertainty: 1.35
 Bath gas: N2
 Note: Invalid Ea value uncertainty (948.0) found and ignored
 """,
-    history = [
-        ("Fri Jul 27 10:05:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL2157:6"""),
-    ],
 )
 
 entry(
@@ -84356,9 +80685,6 @@ PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000003.xml
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 27 10:06:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL2157:7"""),
-    ],
 )
 
 entry(
@@ -84451,9 +80777,6 @@ u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000004.xml
 """,
-    history = [
-        ("Fri Jul 27 10:08:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:16"""),
-    ],
 )
 
 entry(
@@ -84549,9 +80872,6 @@ PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000005.xml
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 27 10:16:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:16"""),
-    ],
 )
 
 entry(
@@ -84644,9 +80964,6 @@ u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000006.xml
 """,
-    history = [
-        ("Fri Jul 27 10:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:45"""),
-    ],
 )
 
 entry(
@@ -84744,9 +81061,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 10:18:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:23"""),
-    ],
 )
 
 entry(
@@ -84842,9 +81156,6 @@ PrIMe Reaction: r00007084
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007084/rk00000002.xml
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 27 10:18:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:17"""),
-    ],
 )
 
 entry(
@@ -84937,9 +81248,6 @@ u"""
 PrIMe Reaction: r00007084
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007084/rk00000003.xml
 """,
-    history = [
-        ("Fri Jul 27 10:19:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:46"""),
-    ],
 )
 
 entry(
@@ -85037,9 +81345,6 @@ Bath gas: H2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 10:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COL/RIC5:1"""),
-    ],
 )
 
 entry(
@@ -85131,9 +81436,6 @@ PrIMe Reaction: r00007758
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml
 Bath gas: (Z)-2-C4H8
 """,
-    history = [
-        ("Fri Jul 27 10:46:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980RIC/BOI921:4"""),
-    ],
 )
 
 entry(
@@ -85219,9 +81521,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:34:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965MUL/WIL20-38:1"""),
-    ],
 )
 
 entry(
@@ -85316,9 +81615,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:37:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981ALA/SEL1036:2"""),
-    ],
 )
 
 entry(
@@ -85405,9 +81701,6 @@ Bath gas: 1-Phenylethanone
 Excitation technique: Direct photolysis
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Thu Jul 12 19:57:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962DUN/TRO4672:2"""),
-    ],
 )
 
 entry(
@@ -85510,9 +81803,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:02:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:1"""),
-    ],
 )
 
 entry(
@@ -85616,9 +81906,6 @@ Bath gas: Ar
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:02:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982PAR/SON6445:1"""),
-    ],
 )
 
 entry(
@@ -85720,9 +82007,6 @@ PrIMe Reaction: r00003306
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003306/rk00000001.xml
 Bath gas: tert-C4H9OCl
 """,
-    history = [
-        ("Thu Jul 12 20:02:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BRO/NEC2029:3"""),
-    ],
 )
 
 entry(
@@ -85811,9 +82095,6 @@ Bath gas: Methoxybenzene
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:07:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967MUL/TUC1155-1171:1"""),
-    ],
 )
 
 entry(
@@ -85897,9 +82178,6 @@ Bath gas: Ar
 Excitation technique: Direct photolysis
 Analytical technique: Resonance fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:07:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977PER/ATK1607:6"""),
-    ],
 )
 
 entry(
@@ -86002,9 +82280,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:07:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:2"""),
-    ],
 )
 
 entry(
@@ -86106,9 +82381,6 @@ PrIMe Reaction: r00004599
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004599/rk00000001.xml
 Bath gas: tert-C4H9OCl
 """,
-    history = [
-        ("Thu Jul 12 20:07:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BRO/NEC2029:4"""),
-    ],
 )
 
 entry(
@@ -86210,9 +82482,6 @@ PrIMe Reaction: r00004600
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004600/rk00000001.xml
 Bath gas: tert-C4H9OCl
 """,
-    history = [
-        ("Thu Jul 12 20:07:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BRO/NEC2029:6"""),
-    ],
 )
 
 entry(
@@ -86308,9 +82577,6 @@ Bath gas: HCOOCH2CH2CH3
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:11:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY1394:1"""),
-    ],
 )
 
 entry(
@@ -86414,9 +82680,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:13:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:17"""),
-    ],
 )
 
 entry(
@@ -86514,9 +82777,6 @@ entry(
 u"""
 PrIMe Reaction: r00005579
 """,
-    history = [
-        ("Thu Jul 12 20:13:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:28"""),
-    ],
 )
 
 entry(
@@ -86617,9 +82877,6 @@ u"""
 PrIMe Reaction: r00005579
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:13:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:12"""),
-    ],
 )
 
 entry(
@@ -86719,9 +82976,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:18:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:5"""),
-    ],
 )
 
 entry(
@@ -86821,9 +83075,6 @@ Bath gas: N2
 Excitation technique: Electron beam
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Thu Jul 12 20:21:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998DON/AND3121-3126:7"""),
-    ],
 )
 
 entry(
@@ -86901,9 +83152,6 @@ entry(
 u"""
 PrIMe Reaction: r00006974
 """,
-    history = [
-        ("Thu Jul 12 20:21:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007PAR/TOK6881-6889:5"""),
-    ],
 )
 
 entry(
@@ -86984,9 +83232,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
-    history = [
-        ("Thu Jul 12 20:21:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:11"""),
-    ],
 )
 
 entry(
@@ -87089,9 +83334,6 @@ Bath gas: (iso-C3H7)-N=N-(iso-C3H7)
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:24:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992KOR/SER2445-2450:1"""),
-    ],
 )
 
 entry(
@@ -87200,9 +83442,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:25:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA748:5"""),
-    ],
 )
 
 entry(
@@ -87300,9 +83539,6 @@ entry(
 u"""
 PrIMe Reaction: r00008065
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ATK2233-2307:19"""),
-    ],
 )
 
 entry(
@@ -87401,9 +83637,6 @@ u"""
 PrIMe Reaction: r00008065
 Uncertainty: 2.0
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986BAU/BOW465:25"""),
-    ],
 )
 
 entry(
@@ -87502,9 +83735,6 @@ u"""
 PrIMe Reaction: r00008065
 Uncertainty: 1.2
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK69:100"""),
-    ],
 )
 
 entry(
@@ -87602,9 +83832,6 @@ entry(
 u"""
 PrIMe Reaction: r00008065
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:17"""),
-    ],
 )
 
 entry(
@@ -87703,9 +83930,6 @@ u"""
 PrIMe Reaction: r00008065
 Uncertainty: 2.51
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COH/WES531:15"""),
-    ],
 )
 
 entry(
@@ -87809,9 +84033,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:25"""),
-    ],
 )
 
 entry(
@@ -87909,9 +84130,6 @@ entry(
 u"""
 PrIMe Reaction: r00008065
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:50"""),
-    ],
 )
 
 entry(
@@ -88012,9 +84230,6 @@ u"""
 PrIMe Reaction: r00008065
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:20"""),
-    ],
 )
 
 entry(
@@ -88112,9 +84327,6 @@ entry(
 u"""
 PrIMe Reaction: r00008065
 """,
-    history = [
-        ("Thu Jul 12 20:25:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982COH1339:16"""),
-    ],
 )
 
 entry(
@@ -88195,9 +84407,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
-    history = [
-        ("Thu Jul 12 20:46:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:7"""),
-    ],
 )
 
 entry(
@@ -88278,9 +84487,6 @@ u"""
 PrIMe Reaction: r00011903
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011903/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:53:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992LIG/COX1805-1961:22"""),
-    ],
 )
 
 entry(
@@ -88364,9 +84570,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:53:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CRA/SZE5337-5343:2"""),
-    ],
 )
 
 entry(
@@ -88451,9 +84654,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:53:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ROW/LES4889-4894:4"""),
-    ],
 )
 
 entry(
@@ -88543,9 +84743,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Fourier transform (FTIR)
 """,
-    history = [
-        ("Thu Jul 12 20:54:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ROW/LES7043-7048:3"""),
-    ],
 )
 
 entry(
@@ -88649,9 +84846,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 26 18:26:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:16"""),
-    ],
 )
 
 entry(
@@ -88753,9 +84947,6 @@ PrIMe Reaction: r00005578
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005578/rk00000002.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 26 18:27:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:11"""),
-    ],
 )
 
 entry(
@@ -88854,9 +85045,6 @@ u"""
 PrIMe Reaction: r00005578
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005578/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 26 18:28:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:27"""),
-    ],
 )
 
 entry(
@@ -88960,9 +85148,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 26 18:29:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:18"""),
-    ],
 )
 
 entry(
@@ -89064,9 +85249,6 @@ PrIMe Reaction: r00005581
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005581/rk00000002.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 26 18:30:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:13"""),
-    ],
 )
 
 entry(
@@ -89165,9 +85347,6 @@ u"""
 PrIMe Reaction: r00005581
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005581/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 26 18:30:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:29"""),
-    ],
 )
 
 entry(
@@ -89271,9 +85450,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 26 18:31:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:19"""),
-    ],
 )
 
 entry(
@@ -89375,9 +85551,6 @@ PrIMe Reaction: r00005582
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000002.xml
 Bath gas: N2
 """,
-    history = [
-        ("Thu Jul 26 18:33:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:14"""),
-    ],
 )
 
 entry(
@@ -89476,9 +85649,6 @@ u"""
 PrIMe Reaction: r00005582
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000003.xml
 """,
-    history = [
-        ("Thu Jul 26 18:33:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:30"""),
-    ],
 )
 
 entry(
@@ -89580,9 +85750,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 26 18:50:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985BAL/HIS743:4"""),
-    ],
 )
 
 entry(
@@ -89684,9 +85851,6 @@ PrIMe Reaction: r00007395
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007395/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 27 10:23:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:18"""),
-    ],
 )
 
 entry(
@@ -89785,9 +85949,6 @@ u"""
 PrIMe Reaction: r00007395
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007395/rk00000002.xml
 """,
-    history = [
-        ("Fri Jul 27 10:24:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:48"""),
-    ],
 )
 
 entry(
@@ -89889,9 +86050,6 @@ PrIMe Reaction: r00007396
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007396/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 27 10:28:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:19"""),
-    ],
 )
 
 entry(
@@ -89990,9 +86148,6 @@ u"""
 PrIMe Reaction: r00007396
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007396/rk00000002.xml
 """,
-    history = [
-        ("Fri Jul 27 10:29:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:49"""),
-    ],
 )
 
 entry(
@@ -90092,9 +86247,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 10:38:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:9"""),
-    ],
 )
 
 entry(
@@ -90194,9 +86346,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 27 10:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:10"""),
-    ],
 )
 
 entry(
@@ -90277,9 +86426,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
-    history = [
-        ("Fri Jul 27 11:01:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:6"""),
-    ],
 )
 
 entry(
@@ -90365,9 +86511,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 27 11:40:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BOY/LES6594-6603:4"""),
-    ],
 )
 
 entry(
@@ -90473,9 +86616,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 19:35:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FOU/MAR132:3"""),
-    ],
 )
 
 entry(
@@ -90574,9 +86714,6 @@ DFT quantum calculations B3LYP/aug-cc-pvTZ energies. Rate expressions calculated
 
 Quantum calculations found abstraction barrier of about 3.9 kcal/mol, C addition channel with barrier of about 9.4 kcal/mol, and O addition channel with barrier of about 12.4 kcal/mol. Thus, abstraction dominates. C addition channel can lead to beta scission of CH3 and formation of methyl phenyl ketone with calculated barrier of about 8.1 kcal/mol
 """,
-    history = [
-        ("Thu Jul 12 19:37:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003CHO/PAR7755-7761:1"""),
-    ],
 )
 
 entry(
@@ -90672,9 +86809,6 @@ Quantum calculations found abstraction barrier of about 3.9 kcal/mol, C addition
 
 Used transition states from quantum calculations to get functional form of rate expression in order to provide expression over a range of temperatures (298-1200 K). Adjusted calculated barrier of 3.9 kcal/mol to 3.3 kcal/mol to get rate expression to agree with experimental rate constants.
 """,
-    history = [
-        ("Thu Jul 12 19:37:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003CHO/PAR7755-7761:3"""),
-    ],
 )
 
 entry(
@@ -90775,9 +86909,6 @@ Analytical technique: Mass spectrometry
 
 The rate constant is higher than the only measurement by 1962DUN/TRO4672. However, the previous rate constant is obtained from the assumed C6H5 recombination rate, and the study was carried out at unspecified wavelengths.
 """,
-    history = [
-        ("Thu Jul 12 20:00:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999PAR/GHE645-653:1"""),
-    ],
 )
 
 entry(
@@ -90863,9 +86994,6 @@ PrIMe Reaction: r00004365
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004365/rk00000001.xml
 Uncertainty: 3.1600001
 """,
-    history = [
-        ("Thu Jul 12 20:07:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:39"""),
-    ],
 )
 
 entry(
@@ -90970,9 +87098,6 @@ Bath gas: n-C4H9CHO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:11:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960KER/TRO1602:2"""),
-    ],
 )
 
 entry(
@@ -91077,9 +87202,6 @@ u"""
 PrIMe Reaction: r00005609
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005609/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:13:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:32"""),
-    ],
 )
 
 entry(
@@ -91189,9 +87311,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:22:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:6"""),
-    ],
 )
 
 entry(
@@ -91297,9 +87416,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:23:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:7"""),
-    ],
 )
 
 entry(
@@ -91404,9 +87520,6 @@ Bath gas: iso-C4H9CHO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:25:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960MET/TRO5072-5077:2"""),
-    ],
 )
 
 entry(
@@ -91509,9 +87622,6 @@ Bath gas: 2,2-dimethylpropanal
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:27:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO4218:2"""),
-    ],
 )
 
 entry(
@@ -91598,9 +87708,6 @@ u"""
 PrIMe Reaction: r00010498
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010498/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:40:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992LIG/COX1805-1961:11"""),
-    ],
 )
 
 entry(
@@ -91691,9 +87798,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:40:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ROW/LES4889-4894:3"""),
-    ],
 )
 
 entry(
@@ -91805,9 +87909,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:11:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972CAF11:1"""),
-    ],
 )
 
 entry(
@@ -91917,9 +88018,6 @@ Bath gas: (tert-C4H9O)2
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:11:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967MOR/THY2470-2475:2"""),
-    ],
 )
 
 entry(
@@ -92029,9 +88127,6 @@ Excitation technique: Thermal
 Analytical technique: Other (direct)
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Thu Jul 12 20:11:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1954PRI/PRI1425:4"""),
-    ],
 )
 
 entry(
@@ -92143,9 +88238,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:12:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991SWA2157-2159:3"""),
-    ],
 )
 
 entry(
@@ -92257,9 +88349,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:12:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:3"""),
-    ],
 )
 
 entry(
@@ -92360,9 +88449,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:20:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995YU/LIN8599-8603:3"""),
-    ],
 )
 
 entry(
@@ -92455,9 +88541,6 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:24:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997BUR/DVI505-514:4"""),
-    ],
 )
 
 entry(
@@ -92569,9 +88652,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Thu Jul 12 20:24:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:8"""),
-    ],
 )
 
 entry(
@@ -92657,9 +88737,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Fourier transform (FTIR)
 """,
-    history = [
-        ("Thu Jul 12 20:51:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994NOZ/LES2864-2873:11"""),
-    ],
 )
 
 entry(
@@ -92770,9 +88847,6 @@ u"""
 PrIMe Reaction: r00006129
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006129/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 27 09:49:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:34"""),
-    ],
 )
 
 entry(
@@ -92883,9 +88957,6 @@ u"""
 PrIMe Reaction: r00006130
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006130/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 27 09:50:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:35"""),
-    ],
 )
 
 entry(
@@ -92996,9 +89067,6 @@ u"""
 PrIMe Reaction: r00006131
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006131/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 27 09:53:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:36"""),
-    ],
 )
 
 entry(
@@ -93109,9 +89177,6 @@ u"""
 PrIMe Reaction: r00006132
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006132/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 27 09:55:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:37"""),
-    ],
 )
 
 entry(
@@ -93202,9 +89267,6 @@ u"""
 PrIMe Reaction: r00005225
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005225/rk00000001.xml
 """,
-    history = [
-        ("Thu Jul 12 20:10:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989LOV/BRE547-560:3"""),
-    ],
 )
 
 entry(
@@ -93311,9 +89373,6 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Thu Jul 12 20:12:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995YU/LIN8599-8603:2"""),
-    ],
 )
 
 entry(
@@ -93436,8 +89495,5 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Thu Jul 12 20:24:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999PAR/GHE645-653:3"""),
-    ],
 )
 

@@ -71,9 +71,6 @@ u"""
 PrIMe Reaction: r00006456
 Bath gas: Ar
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BEA/GOL2943:2"""),
-    ],
 )
 
 entry(
@@ -146,9 +143,6 @@ Analytical technique: Gas chromatography
 
 Two experimental set-ups were used: experiments at 644-750 K and 16-25 torr were performed in a static reactor, while the shock tube methodology was used at 939-1089 K with shock pressures of about 2-3 atm. The rate parameters are from the literature but provide an excellent fit to the present data.
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LEW/BER4112:4"""),
-    ],
 )
 
 entry(
@@ -216,9 +210,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974BAR/COC1782:4"""),
-    ],
 )
 
 entry(
@@ -286,9 +277,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BEA/GOL2943:1"""),
-    ],
 )
 
 entry(
@@ -356,9 +344,6 @@ Bath gas: Cyclobutane
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963VRE/SWI3349-3353:1"""),
-    ],
 )
 
 entry(
@@ -426,9 +411,6 @@ Bath gas: Cyclobutane
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963CAR/WAL1370-1372:1"""),
-    ],
 )
 
 entry(
@@ -497,9 +479,6 @@ Bath gas: Cyclobutane
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963BUT/OGA3346-3349:1"""),
-    ],
 )
 
 entry(
@@ -568,9 +547,6 @@ Bath gas: Cyclobutane
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1953GEN/KER6196-6199:1"""),
-    ],
 )
 
 entry(
@@ -638,9 +614,6 @@ Pressure dependence: None reported
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory. This is the rate expression for the "global" reaction proceeding via formation of a biradical intermediate.
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:17"""),
-    ],
 )
 
 entry(
@@ -708,9 +681,6 @@ Pressure dependence: None reported
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory. This is the rate expression for the "global" reaction proceeding via formation of a biradical intermediate.
 """,
-    history = [
-        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:18"""),
-    ],
 )
 
 entry(
@@ -778,9 +748,6 @@ Bath gas: C2H4
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 07:55:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972QUI/KNE61:1"""),
-    ],
 )
 
 entry(
@@ -845,9 +812,6 @@ Bath gas: Oxetane
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983ZAL/HUN505:1"""),
-    ],
 )
 
 entry(
@@ -912,9 +876,6 @@ Uncertainty: 2.04
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975HOL/SCO1849:1"""),
-    ],
 )
 
 entry(
@@ -988,9 +949,6 @@ Bath gas: Methylcyclobutane
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 07:56:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969THO/CON7611-7616:1"""),
-    ],
 )
 
 entry(
@@ -1064,9 +1022,6 @@ Bath gas: Methylcyclobutane
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964PAT/WAL3894-3899:1"""),
-    ],
 )
 
 entry(
@@ -1141,9 +1096,6 @@ Bath gas: Methylcyclobutane
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 07:56:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958DAS/WAL22-33:1"""),
-    ],
 )
 
 entry(
@@ -1209,9 +1161,6 @@ Bath gas: SF6
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BRA/MCN1846:1"""),
-    ],
 )
 
 entry(
@@ -1277,9 +1226,6 @@ Bath gas: Cyclobutanone
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972MCG/SCH963:1"""),
-    ],
 )
 
 entry(
@@ -1346,9 +1292,6 @@ Bath gas: Cyclobutanone
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 07:56:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1954DAS/KER6271-6274:1"""),
-    ],
 )
 
 entry(
@@ -1418,9 +1361,6 @@ Uncertainty: 1.45
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER79:2"""),
-    ],
 )
 
 entry(
@@ -1490,9 +1430,6 @@ Uncertainty: 1.3200001
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:2"""),
-    ],
 )
 
 entry(
@@ -1563,9 +1500,6 @@ Bath gas: Oxetane, 2-methyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:2"""),
-    ],
 )
 
 entry(
@@ -1635,9 +1569,6 @@ Uncertainty: 1.48
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER79:3"""),
-    ],
 )
 
 entry(
@@ -1707,9 +1638,6 @@ Uncertainty: 1.48
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:3"""),
-    ],
 )
 
 entry(
@@ -1780,9 +1708,6 @@ Bath gas: Oxetane, 2-methyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:4"""),
-    ],
 )
 
 entry(
@@ -1853,9 +1778,6 @@ Uncertainty: 1.86
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 17:32:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:1"""),
-    ],
 )
 
 entry(
@@ -1928,9 +1850,6 @@ Uncertainty: 1.12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987FRE/WAT601:1"""),
-    ],
 )
 
 entry(
@@ -2006,9 +1925,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997LEW/CHA4097-4102:3"""),
-    ],
 )
 
 entry(
@@ -2086,9 +2002,6 @@ Bath gas: Ethenylcyclobutane
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FRE/POT1827:1"""),
-    ],
 )
 
 entry(
@@ -2166,9 +2079,6 @@ Bath gas: Cyclobutanemethanol
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 07:58:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991DIR/HOL691-693:1"""),
-    ],
 )
 
 entry(
@@ -2249,9 +2159,6 @@ Bath gas: Cyclobutane, ethyl-
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 07:58:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957WEL/WAL1542-1546:1"""),
-    ],
 )
 
 entry(
@@ -2328,9 +2235,6 @@ Bath gas: Oxetane, 2,2-dimethyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:58:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:6"""),
-    ],
 )
 
 entry(
@@ -2407,9 +2311,6 @@ Bath gas: Oxetane, 2,2-dimethyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:58:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:7"""),
-    ],
 )
 
 entry(
@@ -2486,9 +2387,6 @@ Bath gas: Oxetane, 3,3-dimethyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:58:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967COH/WAL2326-2331:1"""),
-    ],
 )
 
 entry(
@@ -2561,9 +2459,6 @@ Bath gas: Cyclobutanecarboxaldehyde
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Tue Jul 24 17:35:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962ROQ/WAL4049-4052:1"""),
-    ],
 )
 
 entry(
@@ -2644,9 +2539,6 @@ Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Tue Jul 24 17:42:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:2"""),
-    ],
 )
 
 entry(
@@ -2727,9 +2619,6 @@ Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Tue Jul 24 17:48:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:2"""),
-    ],
 )
 
 entry(
@@ -2810,9 +2699,6 @@ Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Tue Jul 24 17:50:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:3"""),
-    ],
 )
 
 entry(
@@ -2893,9 +2779,6 @@ Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Tue Jul 24 17:51:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:3"""),
-    ],
 )
 
 entry(
@@ -2972,9 +2855,6 @@ Uncertainty: 1.8200001
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 17:55:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:1"""),
-    ],
 )
 
 entry(
@@ -3051,9 +2931,6 @@ Uncertainty: 1.78
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 17:56:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:3"""),
-    ],
 )
 
 entry(
@@ -3130,9 +3007,6 @@ Uncertainty: 1.78
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 17:59:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:2"""),
-    ],
 )
 
 entry(
@@ -3209,9 +3083,6 @@ Uncertainty: 1.66
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 18:00:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:4"""),
-    ],
 )
 
 entry(
@@ -3293,9 +3164,6 @@ Bath gas: Bicyclo[3.2.0]heptane
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:55:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ELL/FRE4184-4187:2"""),
-    ],
 )
 
 entry(
@@ -3383,9 +3251,6 @@ Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 07:56:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963ZUP/WAL1845-1848:1"""),
-    ],
 )
 
 entry(
@@ -3464,9 +3329,6 @@ Bath gas: Cyclobutanone, 3,3-dimethyl-
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 07:57:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977FRE/SMI752:1"""),
-    ],
 )
 
 entry(
@@ -3548,9 +3410,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:57:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978SIM227:1"""),
-    ],
 )
 
 entry(
@@ -3629,9 +3488,6 @@ Bath gas: Ethanone, 1-cyclobutyl)-
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Fri Jul 13 07:58:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958DAI/WAL541-545:1"""),
-    ],
 )
 
 entry(
@@ -3718,9 +3574,6 @@ Bath gas: Cyclobutane, propyl-
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 07:58:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961KEL/WAL466-469:1"""),
-    ],
 )
 
 entry(
@@ -3799,9 +3652,6 @@ Bath gas: Bicyclo[3.2.0]hept-6-ene
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:58:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE2564:2"""),
-    ],
 )
 
 entry(
@@ -3888,9 +3738,6 @@ Uncertainty: 1.15
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:59:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:1"""),
-    ],
 )
 
 entry(
@@ -3973,9 +3820,6 @@ Uncertainty: 1.42
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 07:59:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:2"""),
-    ],
 )
 
 entry(
@@ -4056,9 +3900,6 @@ Bath gas: Cyclobutane,(1-methylethenyl)-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 17:38:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963ELL/FRE2076-2079:2"""),
-    ],
 )
 
 entry(
@@ -4141,9 +3982,6 @@ Uncertainty: 1.42
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 17:40:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FRE/POT1827:3"""),
-    ],
 )
 
 entry(
@@ -4230,9 +4068,6 @@ Uncertainty: 1.17
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 18:02:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:2"""),
-    ],
 )
 
 entry(
@@ -4313,9 +4148,6 @@ Bath gas: Cyclobutanecarboxylic acid methyl ester
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ZUP/WAL173-176:1"""),
-    ],
 )
 
 entry(
@@ -4400,9 +4232,6 @@ Bath gas: 1-Propanone, 1-cyclobutyl-
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
-    history = [
-        ("Fri Jul 13 07:58:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ROQ/WAL1606-1609:1"""),
-    ],
 )
 
 entry(
@@ -4491,9 +4320,6 @@ Uncertainty: 1.16
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 07:58:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:1"""),
-    ],
 )
 
 entry(
@@ -4570,9 +4396,6 @@ Bath gas: CH3CH=CH2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:58:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972EGG/COC211:1"""),
-    ],
 )
 
 entry(
@@ -4652,9 +4475,6 @@ Uncertainty: 1.26
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:58:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972COC/EGG2014:1"""),
-    ],
 )
 
 entry(
@@ -4743,9 +4563,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:00:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987CHI/FRE365:2"""),
-    ],
 )
 
 entry(
@@ -4838,9 +4655,6 @@ Bath gas: Cyclobutane, 1,1,3,3-tetramethyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 17:53:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969COC/FRE1671-1673:1"""),
-    ],
 )
 
 entry(
@@ -4930,9 +4744,6 @@ Bath gas: Oxetane, 2,2,3,4-tetramethyl-,(E)-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 18:03:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984HAM/HOL691:2"""),
-    ],
 )
 
 entry(
@@ -5022,9 +4833,6 @@ Bath gas: Oxetane, 2,2,3,4-tetramethyl-,(Z)-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 18:05:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984HAM/HOL691:3"""),
-    ],
 )
 
 entry(
@@ -5109,9 +4917,6 @@ Uncertainty: 5.0
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Tue Jul 24 18:06:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980CAR/MAI1849:1"""),
-    ],
 )
 
 entry(
@@ -5201,9 +5006,6 @@ Uncertainty: 1.0700001
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:58:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973FRE/HOP2016:1"""),
-    ],
 )
 
 entry(
@@ -5292,8 +5094,5 @@ Uncertainty: 1.66
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 07:56:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973EGG285:1"""),
-    ],
 )
 

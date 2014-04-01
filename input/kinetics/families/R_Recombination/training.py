@@ -39,8 +39,6 @@ entry(
         Ea = (33.3, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    reference = None,
-    referenceType = "Quantum Calculation",
     shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
     longDesc = 
 u"""
@@ -51,9 +49,6 @@ dx.doi.org/10.1021/jp2079204
 
 Method CBS-QB3 w/ 1-d Hindered rotor corrections
 """,
-    history = [
-        ("Sun Sep 22 11:35:10 2013","Shamel Merchant <shamel@mit.edu>","action","""New entry. Rate rule for CO[O] = [CH3] + O2"""),
-    ],
 )
 
 entry(
@@ -87,8 +82,6 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.49e+21, 's^-1'), n=-2.41, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
-    reference = None,
-    referenceType = "Quantum Calculation",
     shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
     longDesc = 
 u"""
@@ -99,9 +92,6 @@ dx.doi.org/10.1021/jp2079204
 
 Method CBS-QB3 w/ 1-d Hindered rotor corrections
 """,
-    history = [
-        ("Sun Sep 22 11:45:54 2013","Shamel Merchant <shamel@mit.edu>","action","""New entry. Rate rule for CCO[O] = C[CH2] + O2"""),
-    ],
 )
 
 entry(
@@ -141,8 +131,6 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.52e+23, 's^-1'), n=-2.71, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
-    reference = None,
-    referenceType = "Quantum Calculation",
     shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
     longDesc = 
 u"""
@@ -153,9 +141,6 @@ dx.doi.org/10.1021/jp2079204
 
 Method CBS-QB3 w/ 1-d Hindered rotor corrections
 """,
-    history = [
-        ("Sun Sep 22 11:59:44 2013","Shamel Merchant <shamel@mit.edu>","action","""New entry. Rate rule for CCCO[O] = C[CH2] + O2"""),
-    ],
 )
 
 entry(
@@ -190,18 +175,12 @@ entry(
         Ea = (-567.2, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""CBS-QB3 w/ 1-d HR""",
     longDesc = 
 u"""
 Reference: Low-Temperature Combustion Chemistry of n-Butanol: Principal Oxidation Pathways of Hydroxybutyl Radicals 
 DOI: 10.1021/jp403792t
 """,
-    history = [
-        ("Mon Nov 18 15:16:03 2013","Connie Gao <connieg@mit.edu>","action","""New entry. Updated rate rule for CCC[C]O + O2 = CCCC(O[O])O"""),
-        ("Tue Nov 19 13:18:37 2013","Connie Gao <connieg@mit.edu>","action","""Updated rate with atom starring in forward direction for CCC[C]O + O2 = CCCC(O[O])O"""),
-    ],
 )
 
 entry(
@@ -258,9 +237,6 @@ Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Wed Dec 18 10:24:30 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988BOR/COB4377-4384:1"""),
-    ],
 )
 
 entry(
@@ -312,9 +288,6 @@ Bath gas: NO2
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Wed Dec 18 12:01:41 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962ASH/BUR253:5"""),
-    ],
 )
 
 entry(
@@ -374,9 +347,6 @@ Analytical technique: Vis-UV absorption
 
 Theoretical modeling of k0, k∞ and Fc=0.38 exp(-T/4900K) led to consistency with the experimental data.
 """,
-    history = [
-        ("Wed Dec 18 14:36:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000HAH/LUT5098-5104:4"""),
-    ],
 )
 
 entry(
@@ -427,9 +397,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Quantum dynamics calculations. Reaction potential energy suraface was studied using quantum chemistry.
 """,
-    history = [
-        ("Fri Dec 20 17:45:27 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2"""),
-    ],
 )
 
 entry(
@@ -481,8 +448,5 @@ Reference reaction: 2007WIL/POG154321:4
 Branching ration: 0.05
 Quantum dynamics calculations. Reaction potential energy suraface was studied using quantum chemistry.
 """,
-    history = [
-        ("Fri Dec 20 17:45:27 2013","Beat Buesser <bbuesser@mit.edu>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007WIL/POG154321:2"""),
-    ],
 )
 

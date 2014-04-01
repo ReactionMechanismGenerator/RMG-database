@@ -29,16 +29,11 @@ entry(
 4    R 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Nov 19 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -49,16 +44,11 @@ entry(
 1 *2 O  {2T,2S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Nov 19 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 tree(
@@ -84,6 +74,4 @@ forbidden(
 u"""
 
 """,
-    history = [
-    ],
 )

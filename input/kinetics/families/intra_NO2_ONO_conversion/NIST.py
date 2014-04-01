@@ -56,8 +56,5 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Rate constant is an upper limit.
 Bath gas: N2
 """,
-    history = [
-        ("Tue Jul 24 19:26:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1"""),
-    ],
 )
 

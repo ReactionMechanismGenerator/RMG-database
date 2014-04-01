@@ -70,9 +70,6 @@ Bath gas: H2C=C=O
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 13 08:21:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BLA/DAV491:1"""),
-    ],
 )
 
 entry(
@@ -158,8 +155,5 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Excitation technique: Thermal
 Analytical technique: Fourier transform (FTIR)
 """,
-    history = [
-        ("Fri Jul 13 08:21:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986VAL/BAI16:2"""),
-    ],
 )
 

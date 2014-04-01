@@ -40,16 +40,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -86,16 +81,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -134,16 +124,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -178,16 +163,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -224,16 +204,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -270,16 +245,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -316,16 +286,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -364,16 +329,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -414,16 +374,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -460,16 +415,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -506,16 +456,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -554,16 +499,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -604,16 +544,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -654,16 +589,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -706,16 +636,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -758,16 +683,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -804,16 +724,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -852,16 +767,11 @@ HCCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -900,16 +810,11 @@ C2H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -948,16 +853,11 @@ CH2(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -998,16 +898,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1050,16 +945,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1104,16 +994,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1160,16 +1045,11 @@ C2H5
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1212,16 +1092,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1262,16 +1137,11 @@ HCCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1312,16 +1182,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1358,16 +1223,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1408,16 +1268,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1460,16 +1315,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1514,16 +1364,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1566,16 +1411,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1610,16 +1450,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1660,16 +1495,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1712,16 +1542,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1764,16 +1589,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1810,16 +1630,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1856,16 +1671,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1902,16 +1712,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1950,16 +1755,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1998,16 +1798,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2042,16 +1837,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2088,16 +1878,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2138,16 +1923,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2184,16 +1964,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2232,16 +2007,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2282,16 +2052,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2332,16 +2097,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2382,16 +2142,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2432,16 +2187,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2482,16 +2232,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2532,16 +2277,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2582,16 +2322,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2634,16 +2369,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2686,16 +2416,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2736,16 +2461,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2788,16 +2508,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2842,16 +2557,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2898,16 +2608,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2946,16 +2651,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2996,16 +2696,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3046,16 +2741,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3096,16 +2786,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3142,16 +2827,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3188,16 +2868,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3247,16 +2922,11 @@ H2O
         ],
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3303,16 +2973,11 @@ H2O
         ],
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3347,16 +3012,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3393,16 +3053,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3441,16 +3096,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3489,16 +3139,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3537,16 +3182,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3587,16 +3227,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3637,16 +3272,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3689,16 +3319,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3735,16 +3360,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3783,16 +3403,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3833,16 +3448,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3885,16 +3495,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3937,16 +3542,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3991,16 +3591,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4045,16 +3640,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4093,16 +3683,11 @@ HCCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4143,16 +3728,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4193,16 +3773,11 @@ HCCOH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4243,16 +3818,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4293,16 +3863,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4345,16 +3910,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4399,16 +3959,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4457,16 +4012,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4509,16 +4059,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4570,16 +4115,11 @@ H2O2
         ],
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4620,16 +4160,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4672,16 +4207,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4724,16 +4254,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4772,16 +4297,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4824,16 +4344,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4868,16 +4383,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4914,16 +4424,11 @@ C2H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4962,16 +4467,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5008,16 +4508,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5054,16 +4549,11 @@ CH2(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5102,16 +4592,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5150,16 +4635,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5200,16 +4680,11 @@ C2H3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5252,16 +4727,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5300,16 +4770,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5350,16 +4815,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5400,16 +4860,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5453,16 +4908,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5501,16 +4951,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5551,16 +4996,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5603,16 +5043,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5657,16 +5092,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5709,16 +5139,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5757,16 +5182,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5809,16 +5229,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5857,16 +5272,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5905,16 +5315,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5955,16 +5360,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6007,16 +5407,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6061,16 +5456,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6109,16 +5499,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6159,16 +5544,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6209,16 +5589,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6269,16 +5644,11 @@ C2H5
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6319,16 +5689,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6369,16 +5734,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6423,16 +5783,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6477,16 +5832,11 @@ C2H5
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6529,16 +5879,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6583,16 +5928,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6641,16 +5981,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6699,16 +6034,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6757,16 +6087,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6819,16 +6144,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6873,16 +6193,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6921,16 +6236,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6973,16 +6283,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7025,16 +6330,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7073,16 +6373,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7121,16 +6416,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7173,16 +6463,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7229,16 +6514,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7283,16 +6563,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7341,16 +6616,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7385,16 +6655,11 @@ O(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7429,16 +6694,11 @@ O(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7473,16 +6733,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7519,16 +6774,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7565,16 +6815,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7611,16 +6856,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7659,16 +6899,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7707,16 +6942,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7753,16 +6983,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7799,16 +7024,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7843,16 +7063,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7887,16 +7102,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7933,16 +7143,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7979,16 +7184,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8025,16 +7225,11 @@ O(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8071,16 +7266,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8115,16 +7305,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8163,16 +7348,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8209,16 +7389,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8255,16 +7430,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8301,16 +7471,11 @@ NH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8347,16 +7512,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8393,16 +7553,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8441,16 +7596,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8482,16 +7632,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8530,16 +7675,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8576,16 +7716,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8622,16 +7757,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8668,16 +7798,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8716,16 +7841,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8768,16 +7888,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8814,16 +7929,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8860,16 +7970,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8908,16 +8013,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8956,16 +8056,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9000,16 +8095,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9046,16 +8136,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9094,16 +8179,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9140,16 +8220,11 @@ O(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9186,16 +8261,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9232,16 +8302,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9278,16 +8343,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9330,16 +8390,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9376,16 +8431,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9424,16 +8474,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9472,16 +8517,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9520,16 +8560,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9566,16 +8601,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9612,16 +8642,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9658,16 +8683,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9706,16 +8726,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9754,16 +8769,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9802,16 +8812,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9850,16 +8855,11 @@ CH2(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9894,16 +8894,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9940,16 +8935,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9988,16 +8978,11 @@ NH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10036,16 +9021,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10080,16 +9060,11 @@ O(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10124,16 +9099,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10170,16 +9140,11 @@ O(T)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10216,16 +9181,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10262,16 +9222,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10310,16 +9265,11 @@ HNCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10358,16 +9308,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10406,16 +9351,11 @@ HCNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10454,16 +9394,11 @@ HNCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10502,16 +9437,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10550,16 +9480,11 @@ HCNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10600,16 +9525,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10650,16 +9570,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10702,16 +9617,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10750,16 +9660,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10804,16 +9709,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10858,16 +9758,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10906,16 +9801,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10954,16 +9844,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11002,16 +9887,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11050,16 +9930,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11098,16 +9973,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11146,16 +10016,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11196,16 +10061,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11246,16 +10106,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11294,16 +10149,11 @@ HNCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11342,16 +10192,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11390,16 +10235,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11438,16 +10278,11 @@ HNCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11488,16 +10323,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11536,16 +10366,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11584,16 +10409,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11632,16 +10452,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11682,16 +10497,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11730,16 +10540,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11778,16 +10583,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11826,16 +10626,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11876,16 +10671,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11922,16 +10712,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11975,16 +10760,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12027,16 +10807,11 @@ CH2CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12081,16 +10856,11 @@ CH3CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12132,16 +10902,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12185,16 +10950,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12233,16 +10993,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12288,16 +11043,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12339,16 +11089,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12391,16 +11136,11 @@ CH2CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12443,16 +11183,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12497,16 +11232,11 @@ CH2CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12556,16 +11286,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12617,16 +11342,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12671,16 +11391,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12730,16 +11445,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12791,16 +11501,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12854,16 +11559,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12919,16 +11619,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12976,16 +11671,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13035,16 +11725,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13094,16 +11779,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13146,16 +11826,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13198,16 +11873,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13252,16 +11922,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13306,16 +11971,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13342,16 +12002,11 @@ O2
         efficiencies = {'C': 2.0, 'O=C=O': 3.6, 'CC': 3.0, 'O': 15.4, '[H][H]': 2.4, '[C]=O': 1.75, '[Ar]': 0.83},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13378,16 +12033,11 @@ OH
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13421,16 +12071,11 @@ HO2
         efficiencies = {'O=C=O': 1.5, 'CC': 1.5, 'O': 0.0, '[O][O]': 0.0, 'N#N': 0.0, '[C]=O': 0.75, '[Ar]': 0.0},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13457,16 +12102,11 @@ H2
         efficiencies = {'C': 2.0, 'O=C=O': 0.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 0.0, '[Ar]': 0.63},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13495,16 +12135,11 @@ H2O
         efficiencies = {'CC': 3.0, 'C': 2.0, '[H][H]': 0.73, 'O': 3.65, '[Ar]': 0.38},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13538,16 +12173,11 @@ CO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 2.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13581,16 +12211,11 @@ NO2
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13625,16 +12250,11 @@ H
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13668,16 +12288,11 @@ HNO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13711,16 +12326,11 @@ CO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13754,16 +12364,11 @@ CN
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13794,16 +12399,11 @@ CO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13843,16 +12443,11 @@ CO2
         efficiencies = {'C': 2.0, 'O=C=O': 3.5, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[O][O]': 6.0, '[C]=O': 1.5, '[Ar]': 0.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13887,16 +12482,11 @@ O(T)
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.625},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13938,16 +12528,11 @@ H2CN
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13993,16 +12578,11 @@ CH3
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14050,16 +12630,11 @@ CH4
         efficiencies = {'C': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14105,16 +12680,11 @@ CH2O
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14162,16 +12732,11 @@ CH2OH
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14219,16 +12784,11 @@ CH3O
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14278,16 +12838,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14337,16 +12892,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14387,16 +12937,11 @@ C2H2
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14444,16 +12989,11 @@ C2H3
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14503,16 +13043,11 @@ C2H4
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14564,16 +13099,11 @@ C2H5
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14627,16 +13157,11 @@ C2H6
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14682,16 +13207,11 @@ CH2O
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14737,16 +13257,11 @@ H2O2
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14796,16 +13311,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14851,16 +13361,11 @@ HCCO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14908,16 +13413,11 @@ CH2CO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14967,16 +13467,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15030,16 +13525,11 @@ C2H6
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15089,16 +13579,11 @@ C2H2
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15144,16 +13629,11 @@ HCNN
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 1.0},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15199,16 +13679,11 @@ CH3
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15258,16 +13733,11 @@ CH2CHO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15327,15 +13797,10 @@ C3H8
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from GRI-Mech3.0-N.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

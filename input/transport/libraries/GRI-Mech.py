@@ -23,9 +23,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 
@@ -49,9 +46,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -75,9 +69,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -102,9 +93,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -128,9 +116,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -156,9 +141,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -184,9 +166,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -214,9 +193,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -243,9 +219,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -273,9 +246,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -304,9 +274,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -336,9 +303,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -362,9 +326,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -389,9 +350,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -419,9 +377,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -445,9 +400,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -479,9 +431,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -505,9 +454,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -532,9 +478,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -567,9 +510,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -601,9 +541,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -636,9 +573,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -665,9 +599,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -695,9 +626,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -721,9 +649,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -748,9 +673,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -786,9 +708,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -823,9 +742,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -849,9 +765,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -876,9 +789,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -903,9 +813,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -930,9 +837,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -957,9 +861,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -984,9 +885,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -1011,9 +909,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -1038,9 +933,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -1065,9 +957,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1092,9 +981,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1119,9 +1005,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -1145,9 +1028,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -1178,9 +1058,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1211,9 +1088,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1243,9 +1117,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1276,9 +1147,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1310,9 +1178,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1339,9 +1204,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1367,9 +1229,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1396,9 +1255,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1424,9 +1280,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1454,9 +1307,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1487,9 +1337,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1521,9 +1368,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1553,9 +1397,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1585,9 +1426,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1619,9 +1457,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1650,9 +1485,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1680,9 +1512,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1710,9 +1539,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1739,9 +1565,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1769,9 +1592,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1798,9 +1618,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -1824,9 +1641,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -1851,9 +1665,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -1877,9 +1688,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -1904,9 +1712,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -1931,9 +1736,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1958,9 +1760,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -1983,9 +1782,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -2009,9 +1805,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -2036,9 +1829,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2067,9 +1857,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2098,9 +1885,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2128,9 +1912,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2156,9 +1937,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2184,9 +1962,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2211,9 +1986,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2239,9 +2011,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2268,9 +2037,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2299,9 +2065,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2327,9 +2090,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2355,9 +2115,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2384,9 +2141,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2411,9 +2165,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2438,9 +2189,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 '''
@@ -2464,9 +2212,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
 
@@ -2493,9 +2238,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2521,9 +2263,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2549,9 +2288,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2577,9 +2313,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2604,9 +2337,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2632,9 +2362,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2659,9 +2386,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2684,9 +2408,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2710,9 +2431,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2738,9 +2456,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2767,9 +2482,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2797,9 +2509,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2824,9 +2533,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2851,9 +2557,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2878,9 +2581,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2904,9 +2604,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2931,9 +2628,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2959,9 +2653,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -2986,9 +2677,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -3012,9 +2700,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -3040,9 +2725,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -3067,9 +2749,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -3092,9 +2771,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -3118,9 +2794,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
 entry(
@@ -3144,7 +2817,4 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
-        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
