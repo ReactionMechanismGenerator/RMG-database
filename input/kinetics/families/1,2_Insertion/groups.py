@@ -194,7 +194,7 @@ entry(
     label = "Cd_H",
     group = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
+1 *2 Cd 0 {2,D} {3,S} {4,S}
 2    C 0 {1,D}
 3 *3 H 0 {1,S}
 4    R 0 {1,S}
@@ -212,7 +212,7 @@ entry(
     label = "Cd_pri",
     group = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
+1 *2 Cd 0 {2,D} {3,S} {4,S}
 2    C 0 {1,D}
 3 *3 H 0 {1,S}
 4    H 0 {1,S}
@@ -230,8 +230,8 @@ entry(
     label = "ethene",
     group = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D} {5,S} {6,S}
+1 *2 Cd 0 {2,D} {3,S} {4,S}
+2    Cd 0 {1,D} {5,S} {6,S}
 3 *3 H 0 {1,S}
 4    H 0 {1,S}
 5    H 0 {2,S}
@@ -250,7 +250,7 @@ entry(
     label = "Cd_sec",
     group = 
 """
-1 *2 C   0 {2,D} {3,S} {4,S}
+1 *2 Cd   0 {2,D} {3,S} {4,S}
 2    C   0 {1,D}
 3 *3 H   0 {1,S}
 4    R!H 0 {1,S}
@@ -268,7 +268,7 @@ entry(
     label = "Cd/H/NonDeC",
     group = 
 """
-1 *2 C  0 {2,D} {3,S} {4,S}
+1 *2 Cd  0 {2,D} {3,S} {4,S}
 2    C  0 {1,D}
 3 *3 H  0 {1,S}
 4    Cs 0 {1,S}
@@ -286,7 +286,7 @@ entry(
     label = "Cd/H/NonDeO",
     group = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
+1 *2 Cd 0 {2,D} {3,S} {4,S}
 2    C 0 {1,D}
 3 *3 H 0 {1,S}
 4    O 0 {1,S}
@@ -304,7 +304,7 @@ entry(
     label = "Cd/H/OneDe",
     group = 
 """
-1 *2 C             0 {2,D} {3,S} {4,S}
+1 *2 Cd             0 {2,D} {3,S} {4,S}
 2    C             0 {1,D}
 3 *3 H             0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
@@ -340,7 +340,7 @@ entry(
     label = "Cs_H",
     group = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H 0 {1,S}
 3    R 0 {1,S}
 4    R 0 {1,S}
@@ -359,7 +359,7 @@ entry(
     label = "C_methane",
     group = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H 0 {1,S}
 3    H 0 {1,S}
 4    H 0 {1,S}
@@ -378,7 +378,7 @@ entry(
     label = "C_pri",
     group = 
 """
-1 *2 C   0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs   0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   0 {1,S}
 3    H   0 {1,S}
 4    H   0 {1,S}
@@ -397,7 +397,7 @@ entry(
     label = "C_pri/NonDeC",
     group = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
@@ -416,7 +416,7 @@ entry(
     label = "C_pri/NonDeO",
     group = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H 0 {1,S}
 3    H 0 {1,S}
 4    H 0 {1,S}
@@ -435,7 +435,7 @@ entry(
     label = "C_pri/De",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    H             0 {1,S}
 4    H             0 {1,S}
@@ -454,7 +454,7 @@ entry(
     label = "C_pri/Cd",
     group = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
@@ -473,7 +473,7 @@ entry(
     label = "C_pri/Ct",
     group = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
@@ -492,7 +492,7 @@ entry(
     label = "C_sec",
     group = 
 """
-1 *2 C   0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs   0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   0 {1,S}
 3    H   0 {1,S}
 4    R!H 0 {1,S}
@@ -511,7 +511,7 @@ entry(
     label = "C/H2/NonDeC",
     group = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    Cs 0 {1,S}
@@ -530,7 +530,7 @@ entry(
     label = "C/H2/NonDeO",
     group = 
 """
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs      0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H      0 {1,S}
 3    H      0 {1,S}
 4    O      0 {1,S}
@@ -549,7 +549,7 @@ entry(
     label = "C/H2/CsO",
     group = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    O  0 {1,S}
@@ -568,7 +568,7 @@ entry(
     label = "C/H2/O2",
     group = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H 0 {1,S}
 3    H 0 {1,S}
 4    O 0 {1,S}
@@ -587,7 +587,7 @@ entry(
     label = "C/H2/OneDe",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    H             0 {1,S}
 4    {Cd,Ct,CO,Cb} 0 {1,S}
@@ -606,7 +606,7 @@ entry(
     label = "C/H2/OneDeC",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    H             0 {1,S}
 4    {Cd,Ct,CO,Cb} 0 {1,S}
@@ -625,7 +625,7 @@ entry(
     label = "C/H2/OneDeO",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    H             0 {1,S}
 4    {Cd,Ct,CO,Cb} 0 {1,S}
@@ -644,7 +644,7 @@ entry(
     label = "C/H2/TwoDe",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    H             0 {1,S}
 4    {Cd,Ct,CO,Cb} 0 {1,S}
@@ -663,7 +663,7 @@ entry(
     label = "C_ter",
     group = 
 """
-1 *2 C   0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs   0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H   0 {1,S}
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
@@ -682,7 +682,7 @@ entry(
     label = "C/H/NonDeC",
     group = 
 """
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs      0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H      0 {1,S}
 3    {Cs,O} 0 {1,S}
 4    {Cs,O} 0 {1,S}
@@ -701,7 +701,7 @@ entry(
     label = "C/H/Cs3",
     group = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
@@ -720,7 +720,7 @@ entry(
     label = "C/H/NDMustO",
     group = 
 """
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs      0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H      0 {1,S}
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
@@ -739,7 +739,7 @@ entry(
     label = "C/H/OneDe",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 4    {Cs,O}        0 {1,S}
@@ -758,7 +758,7 @@ entry(
     label = "C/H/Cs2",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 4    Cs            0 {1,S}
@@ -777,7 +777,7 @@ entry(
     label = "C/H/ODMustO",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 4    O             0 {1,S}
@@ -796,7 +796,7 @@ entry(
     label = "C/H/TwoDe",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
@@ -815,7 +815,7 @@ entry(
     label = "C/H/Cs",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
@@ -834,7 +834,7 @@ entry(
     label = "C/H/TDMustO",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
@@ -853,7 +853,7 @@ entry(
     label = "C/H/ThreeDe",
     group = 
 """
-1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs             0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H             0 {1,S}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
