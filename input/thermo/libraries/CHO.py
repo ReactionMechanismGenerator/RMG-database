@@ -9,8 +9,6 @@ Table 30. Heat Capacity of Gas - Organic Compounds
 Table 38. Enthalpy of Formation of Gas - Organic Compounds
 Table 46. Entropy of Gas - Organic Compounds
 """
-recommended = False
-
 entry(
     index = 1,
     label = "CH2O",

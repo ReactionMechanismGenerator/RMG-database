@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = True
-
 entry(
     index = 1,
     label = "XSYJ;YJ;S-RR",

@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = True
-
 entry(
     index = 485,
     label = "Y_rad_birad_trirad_quadrad;XH_Rrad_birad",

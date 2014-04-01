@@ -21,8 +21,6 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 
 .. [Tsang1991] W. Tsang; "Chemical kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
 """
-recommended = True
-
 entry(
     index = 0,
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H;Y_rad_birad_trirad_quadrad",

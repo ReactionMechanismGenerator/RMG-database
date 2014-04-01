@@ -10,8 +10,6 @@ The zero-point energy is that computed by the CBS-QB3 calculations.  The frequen
 In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the 
 temperatures used were from 600 K to 2000 K (in 200 K increments).
 """
-recommended = True
-
 entry(
     index = 416,
     label = "COm;Y_rad",

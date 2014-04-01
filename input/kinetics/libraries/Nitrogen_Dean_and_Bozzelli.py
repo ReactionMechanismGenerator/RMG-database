@@ -8,8 +8,6 @@ Anthony M. Dean and Joseph W. Bozzelli
 Combustion Chemistry of Nitrogen
 in Gas-Phase Combustion Chemistry, 2000, pp 125-341
 """
-recommended = False
-
 entry(
     index = 1,
     reactant1 = 

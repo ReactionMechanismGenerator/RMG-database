@@ -8,8 +8,6 @@ Arnas Lucassen, Kuiwen Zhang, Julia Warkentin, Kai Moshammer, Peter Glarborg, Pa
 Fuel-nitrogen conversion in the combustion of small amines using dimethylamine and ethylamine as biomass-related model fuels
 Combustion and Flame 159 (2012) 2254–2279
 """
-recommended = False
-
 entry(
     index = 1,
     reactant1 = 

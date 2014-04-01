@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = True
-
 entry(
     index = 589,
     label = "diene_out;diene_in;ene",

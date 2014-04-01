@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = False
-
 entry(
     index = 1,
     label = "2004LI/KAZ7671-7680:4",

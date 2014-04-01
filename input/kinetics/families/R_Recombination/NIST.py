@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = False
-
 entry(
     index = 1,
     label = "1950DIN/LER1632-1637:1",

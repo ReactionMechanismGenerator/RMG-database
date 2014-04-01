@@ -8,8 +8,6 @@ Jorge Gimenez Lopeza, Christian Lund Rasmussena, Maria U. Alzuetab, Yide Gaoc, P
 Experimental and kinetic modeling study of C2H4 oxidation at high pressure
 Proceedings of the Combustion Institute Volume 32, Issue 1, 2009, Pages 367–375
 """
-recommended = False
-
 entry(
     index = 1,
     reactant1 = 

@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = True
-
 entry(
     index = 480,
     label = "Rn;Y_rad_out;Ypri_rad_out",
