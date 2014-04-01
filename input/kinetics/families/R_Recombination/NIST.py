@@ -8420,7 +8420,6 @@ Bath gas: (CH3)2O
 )
 
 entry(
-<<<<<<< HEAD
     index = 148,
     label = "2004LI/KAZ7671-7680:12",
     reactant1 = 
@@ -8547,8 +8546,6 @@ The authors used their data together with that from the literature to perform a 
 )
 
 entry(
-=======
->>>>>>> GreenGroup/master
     index = 150,
     label = "2004LI/KAZ7671-7680:14",
     reactant1 = 
@@ -8610,7 +8607,6 @@ The authors used their data together with that from the literature to perform a 
 )
 
 entry(
-<<<<<<< HEAD
     index = 151,
     label = "2004LI/KAZ7671-7680:9",
     reactant1 = 
@@ -8863,8 +8859,6 @@ The authors used their data together with that from the literature to perform a 
 )
 
 entry(
-=======
->>>>>>> GreenGroup/master
     index = 155,
     label = "2004TSA456-465:2",
     reactant1 = 
