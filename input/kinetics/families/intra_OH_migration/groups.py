@@ -23,16 +23,11 @@ entry(
     label = "RnOOH",
     group = "OR{ROOH, R2OOH, R3OOH, R4OOH}",
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -43,16 +38,11 @@ entry(
 1 *1 {Cd,Cs,Sid,Sis,N} 1
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -66,16 +56,11 @@ entry(
 4    H                 0 {3,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -90,16 +75,11 @@ entry(
 5    H                 0 {4,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -114,16 +94,11 @@ entry(
 5    H       0 {4,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -138,16 +113,11 @@ entry(
 5    H  0 {4,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -163,16 +133,11 @@ entry(
 6    H                 0 {5,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -188,16 +153,11 @@ entry(
 6    H       0 {5,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -213,16 +173,11 @@ entry(
 6    H       0 {5,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -238,16 +193,11 @@ entry(
 6    H       0 {5,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -264,16 +214,11 @@ entry(
 7    H                 0 {6,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -290,16 +235,11 @@ entry(
 7    H       0 {6,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -316,16 +256,11 @@ entry(
 7    H       0 {6,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -342,16 +277,11 @@ entry(
 7    H       0 {6,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -368,16 +298,11 @@ entry(
 7    H       0 {6,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -394,16 +319,11 @@ entry(
 7    H  0 {6,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -415,16 +335,11 @@ entry(
 2    Cd 0 {1,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -436,16 +351,11 @@ entry(
 2    R  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -457,16 +367,11 @@ entry(
 2    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -478,16 +383,11 @@ entry(
 2    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -499,16 +399,11 @@ entry(
 2    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -521,16 +416,11 @@ entry(
 3    R 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -543,16 +433,11 @@ entry(
 3    H 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -565,16 +450,11 @@ entry(
 3    R!H 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -587,16 +467,11 @@ entry(
 3    Cs 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -609,16 +484,11 @@ entry(
 3    O 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -631,16 +501,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -653,16 +518,11 @@ entry(
 3    R!H 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -675,16 +535,11 @@ entry(
 3    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -697,16 +552,11 @@ entry(
 3    Cs 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -719,16 +569,11 @@ entry(
 3    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -741,16 +586,11 @@ entry(
 3    {Cs,O}        0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -763,16 +603,11 @@ entry(
 3    Cs            0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -785,16 +620,11 @@ entry(
 3    O             0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -807,16 +637,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 tree(

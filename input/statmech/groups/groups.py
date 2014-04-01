@@ -19,9 +19,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -38,9 +35,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -64,9 +58,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -89,9 +80,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -112,9 +100,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -138,9 +123,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -164,9 +146,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -187,9 +166,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -209,9 +185,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -234,9 +207,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -256,9 +226,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -280,9 +247,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -304,9 +268,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -328,9 +289,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -351,9 +309,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -370,9 +325,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -395,9 +347,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -419,9 +368,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -435,9 +381,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -459,9 +402,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -482,9 +422,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -504,9 +441,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -526,9 +460,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -545,9 +476,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -561,9 +489,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -577,9 +502,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -593,9 +515,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -612,9 +531,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -635,9 +551,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -656,9 +569,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -681,9 +591,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -703,9 +610,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -726,9 +630,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -745,9 +646,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -761,9 +659,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -780,9 +675,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -799,9 +691,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -818,9 +707,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -837,9 +723,6 @@ u"""
 
 
 """,
-    history = [
-        ("Tue Feb 4 12:27:50 2014","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -860,9 +743,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -883,9 +763,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -906,9 +783,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -928,9 +802,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -950,9 +821,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -972,9 +840,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -993,9 +858,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1014,9 +876,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1037,9 +896,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1060,9 +916,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1083,9 +936,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1106,9 +956,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1129,9 +976,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1152,9 +996,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1174,9 +1015,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1196,9 +1034,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1218,9 +1053,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1239,9 +1071,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1260,9 +1089,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1281,9 +1107,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1302,9 +1125,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1323,9 +1143,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1344,9 +1161,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1365,9 +1179,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1386,9 +1197,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1407,9 +1215,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1429,9 +1234,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1451,9 +1253,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1473,9 +1272,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1495,9 +1291,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1517,9 +1310,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1539,9 +1329,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1561,9 +1348,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1583,9 +1367,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1605,9 +1386,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1626,9 +1404,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1647,9 +1422,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1668,9 +1440,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1689,9 +1458,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1710,9 +1476,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1731,9 +1494,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1754,9 +1514,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1777,9 +1534,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1800,9 +1554,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1823,9 +1574,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1846,9 +1594,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1869,9 +1614,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1892,9 +1634,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1915,9 +1654,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1938,9 +1674,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1961,9 +1694,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1983,9 +1713,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2005,9 +1732,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2027,9 +1751,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2049,9 +1770,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2071,9 +1789,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2093,9 +1808,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2115,9 +1827,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2137,9 +1846,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2159,9 +1865,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2181,9 +1884,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2203,9 +1903,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2225,9 +1922,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2247,9 +1941,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2269,9 +1960,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2291,9 +1979,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2313,9 +1998,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2335,9 +2017,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2357,9 +2036,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2379,9 +2055,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2401,9 +2074,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2423,9 +2093,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2445,9 +2112,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2467,9 +2131,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2489,9 +2150,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2512,9 +2170,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2535,9 +2190,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2558,9 +2210,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2581,9 +2230,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2604,9 +2250,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2627,9 +2270,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2650,9 +2290,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2673,9 +2310,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2696,9 +2330,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2719,9 +2350,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2742,9 +2370,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2765,9 +2390,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2788,9 +2410,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2811,9 +2430,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2834,9 +2450,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2856,9 +2469,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2878,9 +2488,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2900,9 +2507,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2921,9 +2525,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2942,9 +2543,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2963,9 +2561,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2983,9 +2578,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3003,9 +2595,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3025,9 +2614,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3047,9 +2633,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3069,9 +2652,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3091,9 +2671,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3113,9 +2690,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3135,9 +2709,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3156,9 +2727,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3177,9 +2745,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3198,9 +2763,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3219,9 +2781,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3240,9 +2799,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3261,9 +2817,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3282,9 +2835,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3303,9 +2853,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3324,9 +2871,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3345,9 +2889,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3366,9 +2907,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3387,9 +2925,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3409,9 +2944,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3431,9 +2963,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3453,9 +2982,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3475,9 +3001,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3497,9 +3020,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3519,9 +3039,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3541,9 +3058,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3563,9 +3077,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3585,9 +3096,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3607,9 +3115,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3628,9 +3133,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3649,9 +3151,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3670,9 +3169,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3690,9 +3186,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3710,9 +3203,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3730,9 +3220,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3751,9 +3238,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3772,9 +3256,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3793,9 +3274,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3814,9 +3292,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3835,9 +3310,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3856,9 +3328,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3877,9 +3346,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3898,9 +3364,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3919,9 +3382,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3940,9 +3400,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3961,9 +3418,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3982,9 +3436,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4003,9 +3454,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4024,9 +3472,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4045,9 +3490,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4067,9 +3509,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4089,9 +3528,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4111,9 +3547,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4133,9 +3566,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4155,9 +3585,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4177,9 +3604,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4199,9 +3623,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4221,9 +3642,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4243,9 +3661,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4264,9 +3679,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4285,9 +3697,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4306,9 +3715,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4326,9 +3732,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4346,9 +3749,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4366,9 +3766,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 
@@ -4404,9 +3801,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thurs May 16 02:43:49 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4433,9 +3827,6 @@ u"""
 
 
 """,
-    history = [
-        ("Thurs May 16 02:43:49 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4457,9 +3848,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4482,9 +3870,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4506,9 +3891,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4531,9 +3913,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4555,9 +3934,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4580,9 +3956,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4606,9 +3979,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4631,9 +4001,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4653,9 +4020,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4676,9 +4040,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4698,9 +4059,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4719,9 +4077,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4741,9 +4096,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4764,9 +4116,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4785,9 +4134,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4806,9 +4152,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4827,9 +4170,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4849,9 +4189,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4870,9 +4207,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4891,9 +4225,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4912,9 +4243,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4936,9 +4264,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4957,9 +4282,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4983,9 +4305,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5005,9 +4324,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5027,9 +4343,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5049,9 +4362,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5075,9 +4385,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5097,9 +4404,6 @@ u"""
 
 
 """,
-    history = [
-        ("Mon Aug 05 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 tree(

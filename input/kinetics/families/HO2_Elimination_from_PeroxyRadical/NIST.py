@@ -68,9 +68,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 08:20:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990WAG/SLA1853-1868:1"""),
-    ],
 )
 
 entry(
@@ -138,10 +135,6 @@ Employed earlier quantum calculations (see references below) combined with maste
 Miller and Klippenstein, IJCK 33, 654 (2001)
 DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
-    history = [
-        ("Fri Jul 13 08:20:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:3"""),
-        ("Wed Jul 18 13:27:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946"""),
-    ],
 )
 
 entry(
@@ -203,9 +196,6 @@ Pressure dependence: Rate constant is pressure dependent
 
 Potential energy diagrams for various product channels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temperature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 1.38E-2 T^(-0.651) exp(-22890/RT) cm^3 / molecule s with F(cent)=exp (-T/106).
 """,
-    history = [
-        ("Fri Jul 13 08:20:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:3"""),
-    ],
 )
 
 entry(
@@ -280,10 +270,6 @@ Employed earlier quantum calculations (see references below) combined with maste
 Miller and Klippenstein, IJCK 33, 654 (2001)
 DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
-    history = [
-        ("Fri Jul 13 08:20:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:9"""),
-        ("Wed Jul 18 13:27:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946"""),
-    ],
 )
 
 entry(
@@ -357,9 +343,6 @@ Employed earlier quantum calculations (see references below) combined with maste
 Miller and Klippenstein, IJCK 33, 654 (2001)
 DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
-    history = [
-        ("Tue Jul 24 16:31:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:6"""),
-    ],
 )
 
 entry(
@@ -430,9 +413,6 @@ PrIMe Reaction: r00011861
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Fri Jul 13 08:20:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:8"""),
-    ],
 )
 
 entry(
@@ -503,8 +483,5 @@ PrIMe Reaction: r00011861
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Fri Jul 13 08:20:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:2"""),
-    ],
 )
 

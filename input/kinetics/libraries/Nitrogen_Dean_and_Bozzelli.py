@@ -42,16 +42,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -83,16 +78,11 @@ O
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -126,16 +116,11 @@ O
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -172,16 +157,11 @@ O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -218,16 +198,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -258,16 +233,11 @@ H
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -306,16 +276,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -356,16 +321,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -404,16 +364,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -450,16 +405,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -498,16 +448,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -557,16 +502,11 @@ HNNO
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -603,16 +543,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -649,16 +584,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -695,16 +625,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -741,16 +666,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -787,16 +707,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -836,16 +751,11 @@ HNOO
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -882,16 +792,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -928,16 +833,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -974,16 +874,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1022,16 +917,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1070,16 +960,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1120,16 +1005,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1170,16 +1050,11 @@ O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1216,16 +1091,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1262,16 +1132,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1318,16 +1183,11 @@ NH2OH
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1366,16 +1226,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1429,16 +1284,11 @@ N2H4
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1496,16 +1346,11 @@ H2
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1563,16 +1408,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1613,16 +1453,11 @@ NH(T)
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1661,16 +1496,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1709,16 +1539,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1770,16 +1595,11 @@ NH2NO
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1828,16 +1648,11 @@ N2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1886,16 +1701,11 @@ CH3NO
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1936,16 +1746,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -1986,16 +1791,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2034,16 +1834,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2082,16 +1877,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2130,16 +1920,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2195,16 +1980,11 @@ CH3NH2
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2264,16 +2044,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2333,16 +2108,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2402,16 +2172,11 @@ H2
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2454,16 +2219,11 @@ NH(S)
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2506,16 +2266,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2567,16 +2322,11 @@ CH2NN
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2615,16 +2365,11 @@ NH(T)
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2663,16 +2408,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2711,16 +2451,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2759,16 +2494,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2807,16 +2537,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2855,16 +2580,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2914,16 +2634,11 @@ HCNN
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -2960,16 +2675,11 @@ N
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3006,16 +2716,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3052,16 +2757,11 @@ NCO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3098,16 +2798,11 @@ HCO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3144,16 +2839,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3190,16 +2880,11 @@ CN
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3234,16 +2919,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3278,16 +2958,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3322,16 +2997,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3366,16 +3036,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3412,16 +3077,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3456,16 +3116,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3506,16 +3161,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3550,16 +3200,11 @@ N2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3600,16 +3245,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3648,16 +3288,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3696,16 +3331,11 @@ N
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3742,16 +3372,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3788,16 +3413,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3832,16 +3452,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3876,16 +3491,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3926,16 +3536,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -3976,16 +3581,11 @@ N
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4024,16 +3624,11 @@ HO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4072,16 +3667,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4118,16 +3708,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4166,16 +3751,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4212,16 +3792,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4262,16 +3837,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4312,16 +3882,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4362,16 +3927,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4410,16 +3970,11 @@ HNO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4467,16 +4022,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4507,16 +4057,11 @@ H2NN
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4555,16 +4100,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4603,16 +4143,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4653,16 +4188,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4705,16 +4235,11 @@ NNH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4759,16 +4284,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4809,16 +4329,11 @@ NH2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4859,16 +4374,11 @@ NH2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4926,16 +4436,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -4976,16 +4481,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5024,16 +4524,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5072,16 +4567,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5120,16 +4610,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5168,16 +4653,11 @@ NNH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5218,16 +4698,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5268,16 +4743,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5322,16 +4792,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5376,16 +4841,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5430,16 +4890,11 @@ NNH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5482,16 +4937,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5534,16 +4984,11 @@ NNH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5586,16 +5031,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5638,16 +5078,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5684,16 +5119,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5734,16 +5164,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5784,16 +5209,11 @@ HNO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5834,16 +5254,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5884,16 +5299,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5936,16 +5346,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -5988,16 +5393,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6044,16 +5444,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6100,16 +5495,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6154,16 +5544,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6208,16 +5593,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6262,16 +5642,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6316,16 +5691,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6370,16 +5740,11 @@ O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6418,16 +5783,11 @@ H2
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6470,16 +5830,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6522,16 +5877,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6576,16 +5926,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6634,16 +5979,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6690,16 +6030,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6734,16 +6069,11 @@ N
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6778,16 +6108,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6828,16 +6153,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6878,16 +6198,11 @@ CO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6924,16 +6239,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -6970,16 +6280,11 @@ O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7013,16 +6318,11 @@ O
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7063,16 +6363,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7113,16 +6408,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7165,16 +6455,11 @@ CH3O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7213,16 +6498,11 @@ HO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7251,16 +6531,11 @@ NO
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7301,16 +6576,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7349,16 +6619,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7395,16 +6660,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7441,16 +6701,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7491,16 +6746,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7539,16 +6789,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7587,16 +6832,11 @@ HO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7639,16 +6879,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7684,16 +6919,11 @@ H
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7724,16 +6954,11 @@ HNOH
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7772,16 +6997,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7820,16 +7040,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7868,16 +7083,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7918,16 +7128,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -7972,16 +7177,11 @@ NH2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8026,16 +7226,11 @@ HNO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8078,16 +7273,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8130,16 +7320,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8182,16 +7367,11 @@ NH2OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8227,16 +7407,11 @@ HNO
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8275,16 +7450,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8323,16 +7493,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8371,16 +7536,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8421,16 +7581,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8475,16 +7630,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8529,16 +7679,11 @@ HNO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8581,16 +7726,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8633,16 +7773,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8685,16 +7820,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8737,16 +7867,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8789,16 +7914,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8841,16 +7961,11 @@ O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8886,16 +8001,11 @@ NO
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8931,16 +8041,11 @@ NO
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -8979,16 +8084,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9027,16 +8127,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9075,16 +8170,11 @@ HNO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9123,16 +8213,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9173,16 +8258,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9227,16 +8307,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9279,16 +8354,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9319,16 +8389,11 @@ HONO
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9367,16 +8432,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9415,16 +8475,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9465,16 +8520,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9519,16 +8569,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9571,16 +8616,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9609,16 +8649,11 @@ HNC
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9657,16 +8692,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9705,16 +8735,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9753,16 +8778,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9814,16 +8834,11 @@ NCHOH
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9860,16 +8875,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9906,16 +8916,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9952,16 +8957,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -9998,16 +8998,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10046,16 +9041,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10094,16 +9084,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10142,16 +9127,11 @@ CO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10188,16 +9168,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10236,16 +9211,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10280,16 +9250,11 @@ N
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10326,16 +9291,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10372,16 +9332,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10420,16 +9375,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10468,16 +9418,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10516,16 +9461,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10568,16 +9508,11 @@ CH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10618,16 +9553,11 @@ NH2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10662,16 +9592,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10714,16 +9639,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10766,16 +9686,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10818,16 +9733,11 @@ O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10868,16 +9778,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10922,16 +9827,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -10989,16 +9889,11 @@ H2O
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11037,16 +9932,11 @@ CH2(T)
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11085,16 +9975,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11137,16 +10022,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11185,16 +10065,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11233,16 +10108,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11281,16 +10151,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11325,16 +10190,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11373,16 +10233,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11421,16 +10276,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11469,16 +10319,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11517,16 +10362,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11567,16 +10407,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11621,16 +10456,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11675,16 +10505,11 @@ N2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11725,16 +10550,11 @@ N2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11775,16 +10595,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11825,16 +10640,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11877,16 +10687,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11933,16 +10738,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -11987,16 +10787,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12037,16 +10832,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12087,16 +10877,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12139,16 +10924,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12195,16 +10975,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12249,16 +11024,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12299,16 +11069,11 @@ NH(T)
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12347,16 +11112,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12399,16 +11159,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12451,16 +11206,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12505,16 +11255,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12563,16 +11308,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12611,16 +11351,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12665,16 +11400,11 @@ HO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12723,16 +11453,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12775,16 +11500,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12827,16 +11547,11 @@ NH2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12879,16 +11594,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12933,16 +11643,11 @@ NH2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -12987,16 +11692,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13045,16 +11745,11 @@ NH2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13103,16 +11798,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13157,16 +11847,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13211,16 +11896,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13267,16 +11947,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13327,16 +12002,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13385,16 +12055,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13439,16 +12104,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13493,16 +12153,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13549,16 +12204,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13609,16 +12259,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13667,16 +12312,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13712,16 +12352,11 @@ CN
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13760,16 +12395,11 @@ CN
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13810,16 +12440,11 @@ CN
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13858,16 +12483,11 @@ N2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13906,16 +12526,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13949,16 +12564,11 @@ CO
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -13997,16 +12607,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14043,16 +12648,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14089,16 +12689,11 @@ CO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14135,16 +12730,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14181,16 +12771,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14229,16 +12814,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14277,16 +12857,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14329,16 +12904,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14379,16 +12949,11 @@ N2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14433,16 +12998,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14487,16 +13047,11 @@ CH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14531,16 +13086,11 @@ O
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14579,16 +13129,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14627,16 +13172,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14675,16 +13215,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14723,16 +13258,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14771,16 +13301,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14821,16 +13346,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14869,16 +13389,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14917,16 +13432,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -14965,16 +13475,11 @@ NCO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15013,16 +13518,11 @@ NCO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15063,16 +13563,11 @@ NCO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15117,16 +13612,11 @@ NCO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15169,16 +13659,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15209,16 +13694,11 @@ CO
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15257,16 +13737,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15305,16 +13780,11 @@ CO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15353,16 +13823,11 @@ CO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15403,16 +13868,11 @@ CO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15453,16 +13913,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15505,16 +13960,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15551,16 +14001,11 @@ H
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15603,16 +14048,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15653,16 +14093,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15703,16 +14138,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15753,16 +14183,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15803,16 +14228,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15855,16 +14275,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15907,16 +14322,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -15963,16 +14373,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16019,16 +14424,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16073,16 +14473,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16127,16 +14522,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16179,16 +14569,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16231,16 +14616,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16285,16 +14665,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16343,16 +14718,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16399,16 +14769,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16451,16 +14816,11 @@ HNO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16503,16 +14863,11 @@ NO2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16557,16 +14912,11 @@ HONO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16600,16 +14950,11 @@ H
         efficiencies = {},
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16646,16 +14991,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16692,16 +15032,11 @@ NH(S)
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16738,16 +15073,11 @@ NO
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16786,16 +15116,11 @@ H
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16834,16 +15159,11 @@ O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16874,16 +15194,11 @@ CH2O
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16924,16 +15239,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -16974,16 +15284,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17024,16 +15329,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17074,16 +15374,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17126,16 +15421,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17178,16 +15468,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17234,16 +15519,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17290,16 +15570,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17344,16 +15619,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17398,16 +15668,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17452,16 +15717,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17506,16 +15766,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17552,16 +15807,11 @@ H2O
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17602,16 +15852,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17652,16 +15897,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17704,16 +15944,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17760,16 +15995,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17814,16 +16044,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17868,16 +16093,11 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17916,16 +16136,11 @@ HNO
         ],
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -17968,16 +16183,11 @@ H2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -18020,16 +16230,11 @@ OH
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -18074,16 +16279,11 @@ H2O
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -18132,16 +16332,11 @@ CH4
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -18188,16 +16383,11 @@ NH3
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 
 entry(
@@ -18244,15 +16434,10 @@ H2O2
         T0 = (1, 'K'),
         comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
-    history = [
-        ("Thurs May 15 13:20:19 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> added this entry"""),
-    ],
 )
 

@@ -46,16 +46,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -102,16 +97,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -154,16 +144,11 @@ H2S
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -212,16 +197,11 @@ CH3SH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -260,16 +240,11 @@ CH3SCH2SJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -312,16 +287,11 @@ CH3SSCH2J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -364,16 +334,11 @@ CH3SCH2SJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -418,16 +383,11 @@ CH3CH2SCH2SJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -476,16 +436,11 @@ CH3CH2SSCH2J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -534,16 +489,11 @@ CH3CH2SCH2SJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -586,16 +536,11 @@ CH3SSCH2J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -638,16 +583,11 @@ CH3SCH2SJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -696,16 +636,11 @@ CH3CH2SSCH2J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -754,16 +689,11 @@ CH3CH2SCH2SJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -794,16 +724,11 @@ CS2H2(2)
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -832,16 +757,11 @@ CS2H(1)J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -876,16 +796,11 @@ CS2H(1)J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -918,16 +833,11 @@ HJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -966,16 +876,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1020,16 +925,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1070,16 +970,11 @@ H2S
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1126,16 +1021,11 @@ CH3SH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1174,16 +1064,11 @@ CH2S
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1218,16 +1103,11 @@ C2H3S2(2)J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1266,15 +1146,10 @@ CH3J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

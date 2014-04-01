@@ -63,9 +63,6 @@ Excitation technique: Thermal
 Analytical technique: Other (direct)
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 08:17:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969KER/SMI1400:3"""),
-    ],
 )
 
 entry(
@@ -119,9 +116,6 @@ PrIMe Reaction: r00011188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011188/rk00000001.xml
 Bath gas: Cyclopropanecarboxaldehyde
 """,
-    history = [
-        ("Fri Jul 13 08:17:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967GRE/THY1367:1"""),
-    ],
 )
 
 entry(
@@ -183,9 +177,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
 """,
-    history = [
-        ("Fri Jul 13 08:17:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:1"""),
-    ],
 )
 
 entry(
@@ -254,9 +245,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Uncertainty: 1.58
 Bath gas: H2S
 """,
-    history = [
-        ("Fri Jul 13 08:17:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986GIE/GAW623-637:4"""),
-    ],
 )
 
 entry(
@@ -323,9 +311,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 The log(k∞/k) values at various pressures were presented in four parameters form
 """,
-    history = [
-        ("Fri Jul 13 08:17:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006TSA8501-8509:11"""),
-    ],
 )
 
 entry(
@@ -392,9 +377,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
 """,
-    history = [
-        ("Fri Jul 13 08:17:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:2"""),
-    ],
 )
 
 entry(
@@ -464,9 +446,6 @@ Bath gas: O2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:7"""),
-    ],
 )
 
 entry(
@@ -535,9 +514,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Uncertainty: 1.58
 Bath gas: H2S
 """,
-    history = [
-        ("Fri Jul 13 08:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986GIE/GAW623-637:1"""),
-    ],
 )
 
 entry(
@@ -604,9 +580,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 The log(k∞/k) values at various pressures were presented in four parameters form
 """,
-    history = [
-        ("Fri Jul 13 08:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006TSA8501-8509:9"""),
-    ],
 )
 
 entry(
@@ -679,9 +652,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVTZ calculations of Sumathi.
 """,
-    history = [
-        ("Fri Jul 13 08:17:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:3"""),
-    ],
 )
 
 entry(
@@ -755,9 +725,6 @@ PrIMe Reaction: r00015692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015692/rk00000001.xml
 Bath gas: O2
 """,
-    history = [
-        ("Fri Jul 13 08:17:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:13"""),
-    ],
 )
 
 entry(
@@ -828,8 +795,5 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
-    history = [
-        ("Tue Jul 24 15:30:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:16"""),
-    ],
 )
 

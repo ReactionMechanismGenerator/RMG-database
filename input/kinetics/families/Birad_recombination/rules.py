@@ -28,17 +28,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -73,8 +68,6 @@ entry(
         Tmin = (550, 'K'),
         Tmax = (650, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""[186] Benson et al.""",
     longDesc = 
@@ -90,9 +83,6 @@ Verified by Greg Magoon: Rxn. -d. also looks to be of interest here; whether the
 
 Note: after some preliminary confusion on my part, it looks like the existing groups are correct (the correct resonance form for the CH2 radical is taken into account with the Ypri_rad_out (i.e. Cpri_rad_out_H2)), but arguably, another, a more-specific group (C_rad_out_H2/OneDe and Cpri_rad_out_H2/OneDe) should be specified to account for delocalizing group at this site
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -125,8 +115,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""[x] Sirjean et al.""",
     longDesc = 
@@ -139,9 +127,6 @@ TST calculation
 
 Added by Greg Magoon: Stated pressure is 1 atm, but I believe they are actually calculating the high-pressure limit rate constant
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -175,8 +160,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""[x] Sirjean et al.""",
     longDesc = 
@@ -191,9 +174,6 @@ Added by Greg Magoon: Stated pressure is 1 atm, but I believe they are actually 
 
 Note: Recent experimental/RRKM study by Kiefer, Gupte, Harding, and Klippenstein (http://www.combustion.org.uk/ECM_2009/P810069.pdf) (stated uncertainty is +/- 30%) appears to agree with Sirjean et al. results, but they only report forward rate constant
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -228,17 +208,12 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""[x] Sirjean et al.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -266,16 +241,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""A.G. Vandeputte""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

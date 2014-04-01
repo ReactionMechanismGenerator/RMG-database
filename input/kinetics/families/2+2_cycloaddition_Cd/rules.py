@@ -21,8 +21,6 @@ entry(
         Tmin = (723, 'K'),
         Tmax = (786, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Quick et al. [107]""",
     longDesc = 
@@ -32,9 +30,6 @@ u"""
 C2H4 + C2H4 --> cyclobutane, absolute value measured directly using thermal excitation technique 
 and mass spectrometry. Pressure  0.40 - 1.73 bar.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -60,16 +55,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 0,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

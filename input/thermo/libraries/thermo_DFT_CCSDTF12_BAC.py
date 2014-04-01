@@ -28,9 +28,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -53,9 +50,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -79,9 +73,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -106,9 +97,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -131,9 +119,6 @@ u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC ===
 ! NOTE THAT multiplicity = 4 because we do not account for the spin orbit coupling; hence 2 for spin degeneracy and 2 for spatial degeneracy.
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -156,9 +141,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -180,9 +162,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -205,9 +184,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -231,9 +207,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -257,9 +230,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -284,9 +254,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -311,9 +278,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -339,9 +303,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -364,9 +325,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -390,9 +348,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -415,9 +370,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -441,9 +393,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -467,9 +416,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -494,9 +440,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -522,9 +465,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -551,9 +491,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -576,9 +513,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -602,9 +536,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -628,9 +559,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -655,9 +583,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -682,9 +607,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -710,9 +632,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -738,9 +657,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -767,9 +683,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -797,9 +710,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -822,9 +732,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -848,9 +755,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -873,9 +777,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -898,9 +799,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -924,9 +822,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -950,9 +845,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -976,9 +868,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1002,9 +891,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1028,9 +914,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1061,9 +944,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1087,9 +967,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1113,9 +990,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1140,9 +1014,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1168,9 +1039,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine rotor fit
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1195,9 +1063,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1226,9 +1091,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1253,9 +1115,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1281,9 +1140,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1309,9 +1165,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1338,9 +1191,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1367,9 +1217,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1397,9 +1244,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1425,9 +1269,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1453,9 +1294,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1481,9 +1319,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1509,9 +1344,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1538,9 +1370,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1569,9 +1398,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1593,9 +1419,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1618,9 +1441,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1643,9 +1463,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1668,9 +1485,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1703,9 +1517,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1729,9 +1540,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1756,9 +1564,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1783,9 +1588,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1811,9 +1613,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1839,9 +1638,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1871,9 +1667,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1902,9 +1695,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1936,9 +1726,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, one rigid rotor
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -1968,9 +1755,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2002,9 +1786,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2028,9 +1809,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2058,9 +1836,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2085,9 +1860,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2119,9 +1891,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2157,9 +1926,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2183,9 +1949,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2210,9 +1973,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2234,9 +1994,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2259,9 +2016,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2285,9 +2039,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2311,9 +2062,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2338,9 +2086,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2362,9 +2107,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2387,9 +2129,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2413,9 +2152,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2437,9 +2173,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2462,9 +2195,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2488,9 +2218,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2516,9 +2243,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine rotor fit
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2543,9 +2267,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, rigid scan
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2571,9 +2292,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2596,9 +2314,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2623,9 +2338,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2651,9 +2363,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2680,9 +2389,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2705,9 +2411,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2731,9 +2434,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2759,9 +2459,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2785,9 +2482,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2811,9 +2505,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2836,9 +2527,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2861,9 +2549,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2896,9 +2581,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2921,9 +2603,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2948,9 +2627,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -2974,9 +2650,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3000,9 +2673,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3026,9 +2696,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3054,9 +2721,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no O-O rotor
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3080,9 +2744,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3106,9 +2767,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, MOLPRO NoSym
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3133,9 +2791,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3160,9 +2815,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3188,9 +2840,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3214,9 +2863,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geometry, no rotors
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3241,9 +2887,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geometry
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3267,9 +2910,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3295,9 +2935,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, NH2 rotor rigid scan
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3322,9 +2959,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3349,9 +2983,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3375,9 +3006,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3403,9 +3031,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3431,9 +3056,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3456,9 +3078,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3481,9 +3100,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3507,9 +3123,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3533,9 +3146,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3560,9 +3170,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3589,9 +3196,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3619,9 +3223,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3648,9 +3249,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3676,9 +3274,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine rotor fit
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3704,9 +3299,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3740,9 +3332,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3774,9 +3363,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, not N=N rotor
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3804,9 +3390,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3831,9 +3414,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3856,9 +3436,6 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -3882,8 +3459,5 @@ entry(
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 

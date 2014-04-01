@@ -44,16 +44,11 @@ IM1
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -92,16 +87,11 @@ IM2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -140,16 +130,11 @@ IM4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.\nthiophene = IM3        2.35E05    0.75    86.11    0.0    0.0    0.0',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 thiophene = IM3        2.35E05    0.75    86.11    0.0    0.0    0.0
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -192,16 +177,11 @@ H2CCS
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -240,16 +220,11 @@ IM5
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -288,16 +263,11 @@ IM4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -336,16 +306,11 @@ IM6
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.\nIM2 = IM2a            3.15E12    -0.03    6.03    0.0    0.0    0.0',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 IM2 = IM2a            3.15E12    -0.03    6.03    0.0    0.0    0.0
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -388,16 +353,11 @@ propyne
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -436,16 +396,11 @@ IM7
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -488,16 +443,11 @@ propadiene
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -536,8 +486,6 @@ IM11
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.\nIM3 = IM8a            3.46E19    0.59    13.39    0.0    0.0    0.0\nIM8 = IM8a            2.34E12    -0.09    3.68    0.0    0.0    0.0\nIM8a = IM9            5.40E16    1.27    83.03    0.0    0.0    0.0\nBelow reaction not found with CBS-QB3, guessed (Ea from paper)\nIM9 = H2S + butadiyne    1.00E10    0.10    11.63    0.0    0.0    0.0\nIM3 = IM10            1.00E12    0.23    13.53    0.0    0.0    0.0',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -548,9 +496,6 @@ Below reaction not found with CBS-QB3, guessed (Ea from paper)
 IM9 = H2S + butadiyne    1.00E10    0.10    11.63    0.0    0.0    0.0
 IM3 = IM10            1.00E12    0.23    13.53    0.0    0.0    0.0
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -593,16 +538,11 @@ H2CCS
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -641,15 +581,10 @@ IM8
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\TP_Song.\nIM4 = IM4a            1.24E12    0.02    2.07    0.0    0.0    0.0',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 IM4 = IM4a            1.24E12    0.02    2.07    0.0    0.0    0.0
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

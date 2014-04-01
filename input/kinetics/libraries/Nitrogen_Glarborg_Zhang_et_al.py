@@ -52,16 +52,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -106,16 +101,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -160,16 +150,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -214,16 +199,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -264,16 +244,11 @@ CH3CH2ONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -324,16 +299,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -384,16 +354,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -444,16 +409,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -504,16 +464,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -564,16 +519,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -626,16 +576,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -688,16 +633,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -750,16 +690,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -814,16 +749,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -878,16 +808,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -940,16 +865,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1006,16 +926,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1072,16 +987,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1124,16 +1034,11 @@ CH2CH2NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1176,16 +1081,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1228,16 +1128,11 @@ C2H5NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1291,16 +1186,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1349,16 +1239,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1412,16 +1297,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1470,16 +1350,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1535,16 +1410,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1595,16 +1465,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1662,16 +1527,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1727,16 +1587,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1777,16 +1632,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1831,16 +1681,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1885,16 +1730,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1939,16 +1779,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1993,16 +1828,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2049,16 +1879,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2105,16 +1930,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2151,16 +1971,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2226,16 +2041,11 @@ HONO2
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2288,16 +2098,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2342,16 +2147,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2396,16 +2196,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2450,16 +2245,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2504,16 +2294,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2560,16 +2345,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2616,16 +2396,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2664,16 +2439,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2718,16 +2488,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2772,16 +2537,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2826,16 +2586,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2880,16 +2635,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2936,16 +2686,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2992,16 +2737,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3050,16 +2790,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3106,16 +2841,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3166,16 +2896,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3228,16 +2953,11 @@ CH3OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3286,16 +3006,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3332,16 +3047,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3384,16 +3094,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3436,16 +3141,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3490,16 +3190,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3544,16 +3239,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3602,16 +3292,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3656,16 +3341,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3714,16 +3394,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3768,16 +3443,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3824,16 +3494,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3880,16 +3545,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3936,16 +3596,11 @@ NO3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3994,16 +3649,11 @@ HONO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4046,16 +3696,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4098,16 +3743,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4152,16 +3792,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4210,16 +3845,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4266,16 +3896,11 @@ NH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4318,16 +3943,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4370,16 +3990,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4424,16 +4039,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4468,16 +4078,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4518,16 +4123,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4568,16 +4168,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4618,16 +4213,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4668,16 +4258,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4720,16 +4305,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4772,16 +4352,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4824,16 +4399,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4880,16 +4450,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4936,16 +4501,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4980,16 +4540,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5030,16 +4585,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5080,16 +4630,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5132,16 +4677,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5187,16 +4727,11 @@ H
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5233,16 +4768,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5279,16 +4809,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5325,16 +4850,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5371,16 +4891,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5417,16 +4932,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5463,16 +4973,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5522,16 +5027,11 @@ O2
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5583,16 +5083,11 @@ O2
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5631,16 +5126,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5679,16 +5169,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5727,16 +5212,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5783,16 +5263,11 @@ HO2
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5829,16 +5304,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5877,16 +5347,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5927,16 +5392,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5979,16 +5439,11 @@ H
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6021,16 +5476,11 @@ HOCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6064,16 +5514,11 @@ H
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6120,16 +5565,11 @@ H2O
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6170,16 +5610,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6218,16 +5653,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6266,16 +5696,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6316,16 +5741,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6366,16 +5786,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6418,16 +5833,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6472,16 +5882,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6512,16 +5917,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6558,16 +5958,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6604,16 +5999,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6650,16 +6040,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6698,16 +6083,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6746,16 +6126,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6800,16 +6175,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6850,16 +6220,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6900,16 +6265,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6950,16 +6310,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7002,16 +6357,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7056,16 +6406,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7110,16 +6455,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7164,16 +6504,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7212,16 +6547,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7260,16 +6590,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7308,16 +6633,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7360,16 +6680,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7410,16 +6725,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7460,16 +6770,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7512,16 +6817,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7564,16 +6864,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7614,16 +6909,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7664,16 +6954,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7716,16 +7001,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7759,16 +7039,11 @@ H
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7802,16 +7077,11 @@ H2
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7848,16 +7118,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7898,16 +7163,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7944,16 +7204,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7992,16 +7247,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8040,16 +7290,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8088,16 +7333,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8140,16 +7380,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8188,16 +7423,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8240,16 +7470,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8290,16 +7515,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8338,16 +7558,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8386,16 +7601,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8432,16 +7642,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8478,16 +7683,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8528,16 +7728,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8576,16 +7771,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8626,16 +7816,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8676,16 +7861,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8720,16 +7900,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8764,16 +7939,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8810,16 +7980,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8856,16 +8021,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8902,16 +8062,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8950,16 +8105,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8998,16 +8148,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9042,16 +8187,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9086,16 +8226,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9138,16 +8273,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9190,16 +8320,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9242,16 +8367,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9294,16 +8414,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9348,16 +8463,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9402,16 +8512,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9458,16 +8563,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9512,16 +8612,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9566,16 +8661,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9616,16 +8706,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9666,16 +8751,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9716,16 +8796,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9768,16 +8843,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9822,16 +8892,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9880,16 +8945,11 @@ HO2
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9934,16 +8994,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9988,16 +9043,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10044,16 +9094,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10102,16 +9147,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10160,16 +9200,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10218,16 +9253,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10268,16 +9298,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10318,16 +9343,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10368,16 +9388,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10420,16 +9435,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10474,16 +9484,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10526,16 +9531,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10578,16 +9578,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10634,16 +9629,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10692,16 +9682,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10748,16 +9733,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10806,16 +9786,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10862,16 +9837,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10918,16 +9888,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10976,16 +9941,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11036,16 +9996,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11094,16 +10049,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11167,16 +10117,11 @@ CH4
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11227,16 +10172,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11281,16 +10221,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11335,16 +10270,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11389,16 +10319,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11443,16 +10368,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11499,16 +10419,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11557,16 +10472,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11613,16 +10523,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11673,16 +10578,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11731,16 +10631,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11791,16 +10686,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11857,16 +10747,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11909,16 +10794,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11961,16 +10841,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12013,16 +10888,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12065,16 +10935,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12128,16 +10993,11 @@ HCO
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12191,16 +11051,11 @@ H
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12245,16 +11100,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12299,16 +11149,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12353,16 +11198,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12407,16 +11247,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12461,16 +11296,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12519,16 +11349,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12569,16 +11394,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12619,16 +11439,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12669,16 +11484,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12721,16 +11531,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12775,16 +11580,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12827,16 +11627,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12879,16 +11674,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12931,16 +11721,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12983,16 +11768,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13035,16 +11815,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13091,16 +11866,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13145,16 +11915,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13201,16 +11966,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13253,16 +12013,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13311,16 +12066,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13365,16 +12115,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13413,16 +12158,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13461,16 +12201,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13515,16 +12250,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13563,16 +12293,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13611,16 +12336,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13659,16 +12379,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13709,16 +12424,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13759,16 +12469,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13809,16 +12514,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13866,16 +12566,11 @@ CHCHOH
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13918,16 +12613,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -13970,16 +12660,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14020,16 +12705,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14072,16 +12752,11 @@ CH2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14110,16 +12785,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14158,16 +12828,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14208,16 +12873,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14258,16 +12918,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14304,16 +12959,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14350,16 +13000,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14396,16 +13041,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14444,16 +13084,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14492,16 +13127,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14540,16 +13170,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14592,16 +13217,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14646,16 +13266,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14682,16 +13297,11 @@ C(T)
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14726,16 +13336,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14772,16 +13377,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14818,16 +13418,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14876,16 +13471,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14934,16 +13524,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -14992,16 +13577,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15050,16 +13630,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15108,16 +13683,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15166,16 +13736,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15226,16 +13791,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15286,16 +13846,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15346,16 +13901,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15408,16 +13958,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15470,16 +14015,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15532,16 +14072,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15596,16 +14131,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15660,16 +14190,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15724,16 +14249,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15777,16 +14297,11 @@ H
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15833,16 +14348,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15889,16 +14399,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -15945,16 +14450,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16003,16 +14503,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16067,16 +14562,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16136,16 +14626,11 @@ HO2
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16192,16 +14677,11 @@ CH2CH2OH
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16248,16 +14728,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16304,16 +14779,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16362,16 +14832,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16422,16 +14887,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16487,16 +14947,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16545,16 +15000,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16595,16 +15045,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16651,16 +15096,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16709,16 +15149,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16767,16 +15202,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16825,16 +15255,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16879,16 +15304,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16933,16 +15353,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -16987,16 +15402,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17041,16 +15451,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17097,16 +15502,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17153,16 +15553,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17211,16 +15606,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17269,16 +15659,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17325,16 +15710,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17385,16 +15765,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17445,16 +15820,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17499,16 +15869,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17553,16 +15918,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17618,16 +15978,11 @@ HCO
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17672,16 +16027,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17728,16 +16078,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17784,16 +16129,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17845,16 +16185,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17891,16 +16226,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17937,16 +16267,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -17989,16 +16314,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18041,16 +16361,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18093,16 +16408,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18145,16 +16455,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18199,16 +16504,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18253,16 +16553,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18311,16 +16606,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18371,16 +16661,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18427,16 +16712,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18489,16 +16769,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18545,16 +16820,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18599,16 +16869,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18645,16 +16910,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18697,16 +16957,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18749,16 +17004,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18801,16 +17051,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18853,16 +17098,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18907,16 +17147,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -18965,16 +17200,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19023,16 +17253,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19081,16 +17306,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19131,16 +17351,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19181,16 +17396,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19231,16 +17441,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19281,16 +17486,11 @@ CH2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19331,16 +17531,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19383,16 +17578,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19435,16 +17625,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19487,16 +17672,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19541,16 +17721,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19591,16 +17766,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19641,16 +17811,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19693,16 +17858,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19741,16 +17901,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19793,16 +17948,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19843,16 +17993,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19893,16 +18038,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -19947,16 +18087,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20001,16 +18136,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20055,16 +18185,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20107,16 +18232,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20157,16 +18277,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20215,16 +18330,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20258,16 +18368,11 @@ CO
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20304,16 +18409,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20350,16 +18450,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20402,16 +18497,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20454,16 +18544,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20502,16 +18587,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20548,16 +18628,11 @@ C2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20600,16 +18675,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20658,16 +18728,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20698,16 +18763,11 @@ H
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20746,16 +18806,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20794,16 +18849,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20844,16 +18894,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20896,16 +18941,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20942,16 +18982,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -20988,16 +19023,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21040,16 +19070,11 @@ OH
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21088,16 +19113,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21138,16 +19158,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21188,16 +19203,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21236,16 +19246,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21284,16 +19289,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21334,16 +19334,11 @@ NH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21382,16 +19377,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21432,16 +19422,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21482,16 +19467,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21530,16 +19510,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21578,16 +19553,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21630,16 +19600,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21680,16 +19645,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21730,16 +19690,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21774,16 +19729,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21818,16 +19768,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21864,16 +19809,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21910,16 +19850,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -21956,16 +19891,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22002,16 +19932,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22052,16 +19977,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22096,16 +20016,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22142,16 +20057,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22188,16 +20098,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22238,16 +20143,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22286,16 +20186,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22330,16 +20225,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22374,16 +20264,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22418,16 +20303,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22458,16 +20338,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22504,16 +20379,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22550,16 +20420,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22596,16 +20461,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22642,16 +20502,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22690,16 +20545,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22738,16 +20588,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22790,16 +20635,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22838,16 +20678,11 @@ NH2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22888,16 +20723,11 @@ NH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22936,16 +20766,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -22984,16 +20809,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23032,16 +20852,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23080,16 +20895,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23130,16 +20940,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23182,16 +20987,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23232,16 +21032,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23284,16 +21079,11 @@ NH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23334,16 +21124,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23386,16 +21171,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23434,16 +21214,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23482,16 +21257,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23541,16 +21311,11 @@ OH
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23591,16 +21356,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23643,16 +21403,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23693,16 +21448,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23745,16 +21495,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23797,16 +21542,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23849,16 +21589,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23901,16 +21636,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23947,16 +21677,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -23993,16 +21718,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24041,16 +21761,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24089,16 +21804,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24139,16 +21849,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24189,16 +21894,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24237,16 +21937,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24283,16 +21978,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24329,16 +22019,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24379,16 +22064,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24429,16 +22109,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24477,16 +22152,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24525,16 +22195,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24579,16 +22244,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24629,16 +22289,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24677,16 +22332,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24725,16 +22375,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24773,16 +22418,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24823,16 +22463,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24875,16 +22510,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24933,16 +22563,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -24981,16 +22606,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25031,16 +22651,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25079,16 +22694,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25127,16 +22737,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25177,16 +22782,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25233,16 +22833,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25289,16 +22884,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25339,16 +22929,11 @@ NO3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25389,16 +22974,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25439,16 +23019,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25491,16 +23066,11 @@ NO3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25548,16 +23118,11 @@ OH
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25594,16 +23159,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25640,16 +23200,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25688,16 +23243,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25736,16 +23286,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25784,16 +23329,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25836,16 +23376,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25882,16 +23417,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25928,16 +23458,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -25974,16 +23499,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26020,16 +23540,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26068,16 +23583,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26116,16 +23626,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26164,16 +23669,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26212,16 +23712,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26260,16 +23755,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26306,16 +23796,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26352,16 +23837,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26400,16 +23880,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26448,16 +23923,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26492,16 +23962,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26538,16 +24003,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26584,16 +24044,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26630,16 +24085,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26678,16 +24128,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26726,16 +24171,11 @@ N2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26774,16 +24214,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26822,16 +24257,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26872,16 +24302,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26920,16 +24345,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -26970,16 +24390,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27018,16 +24433,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27066,16 +24476,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27114,16 +24519,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27162,16 +24562,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27210,16 +24605,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27258,16 +24648,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27308,16 +24693,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27360,16 +24740,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27410,16 +24785,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27460,16 +24830,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27508,16 +24873,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27556,16 +24916,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27604,16 +24959,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27652,16 +25002,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27702,16 +25047,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27754,16 +25094,11 @@ NH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27796,16 +25131,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27844,16 +25174,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27892,16 +25217,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27942,16 +25262,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -27990,16 +25305,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28044,16 +25354,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28098,16 +25403,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28148,16 +25448,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28198,16 +25493,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28244,16 +25534,11 @@ NH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28290,16 +25575,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28338,16 +25618,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28390,16 +25665,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28440,16 +25710,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28488,16 +25753,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28536,16 +25796,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28584,16 +25839,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28638,16 +25888,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28688,16 +25933,11 @@ N2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28738,16 +25978,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28790,16 +26025,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28836,16 +26066,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28888,16 +26113,11 @@ NH2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28942,16 +26162,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -28990,16 +26205,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29038,16 +26248,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29084,16 +26289,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29132,16 +26332,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29184,16 +26379,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29236,16 +26426,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29286,16 +26471,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29338,16 +26518,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29386,16 +26561,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29440,16 +26610,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29490,16 +26655,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29544,16 +26704,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29594,16 +26749,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29644,16 +26794,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29698,16 +26843,11 @@ NH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29750,16 +26890,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29804,16 +26939,11 @@ HNCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29858,16 +26988,11 @@ NH2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29912,16 +27037,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -29964,16 +27084,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30014,16 +27129,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30064,16 +27174,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30116,16 +27221,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30170,16 +27270,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30224,16 +27319,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30274,16 +27364,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30326,16 +27411,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30378,16 +27458,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30430,16 +27505,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30484,16 +27554,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30534,16 +27599,11 @@ CN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30586,16 +27646,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30640,16 +27695,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30686,16 +27736,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30734,16 +27779,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30782,16 +27822,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30832,16 +27867,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30880,16 +27910,11 @@ NH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30928,16 +27953,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -30976,16 +27996,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31026,16 +28041,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31076,16 +28086,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31122,16 +28127,11 @@ NH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31168,16 +28168,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31214,16 +28209,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31260,16 +28250,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31306,16 +28291,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31354,16 +28334,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31402,16 +28377,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31448,16 +28418,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31494,16 +28459,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31540,16 +28500,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31588,16 +28543,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31636,16 +28586,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31680,16 +28625,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31724,16 +28664,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31770,16 +28705,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31814,16 +28744,11 @@ N2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31870,16 +28795,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31926,16 +28846,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -31984,16 +28899,11 @@ CH2O
         ],
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32038,16 +28948,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32092,16 +28997,11 @@ CH3OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32144,16 +29044,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32198,16 +29093,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32252,16 +29142,11 @@ CH3OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32310,16 +29195,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32370,16 +29250,11 @@ HNCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32430,16 +29305,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32490,16 +29360,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32548,16 +29413,11 @@ CH3CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32600,16 +29460,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32656,16 +29511,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32712,16 +29562,11 @@ NO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32764,16 +29609,11 @@ HNO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32818,16 +29658,11 @@ CH2CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32870,16 +29705,11 @@ HCN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32918,16 +29748,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -32964,16 +29789,11 @@ N
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33010,16 +29830,11 @@ CN
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33068,16 +29883,11 @@ CH3CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33128,16 +29938,11 @@ CH3CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33193,16 +29998,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33249,16 +30049,11 @@ HONO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33310,16 +30105,11 @@ NO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33358,16 +30148,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33408,16 +30193,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33458,16 +30238,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33510,16 +30285,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33558,16 +30328,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33608,16 +30373,11 @@ NCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33670,16 +30430,11 @@ CH3CH2ONO
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33734,16 +30489,11 @@ CH3CH2ONO2
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33789,16 +30539,11 @@ NO2
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33850,16 +30595,11 @@ CH3ONO
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33913,16 +30653,11 @@ CH3ONO2
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -33972,16 +30707,11 @@ CH3NO
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34008,16 +30738,11 @@ H2
         efficiencies = {'[H][H]': 0.0, 'O': 0.0, 'N#N': 0.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34044,16 +30769,11 @@ OH
         efficiencies = {'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34096,16 +30816,11 @@ HO2
         efficiencies = {'[H][H]': 2.0, '[O][O]': 0.78, 'O': 11.0, 'N#N': 0.0, '[Ar]': 0.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34137,16 +30852,11 @@ O2
         efficiencies = {'[O][O]': 1.5, 'O': 10.0, 'N#N': 1.5},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34175,16 +30885,11 @@ H2O
         efficiencies = {'[H][H]': 0.73, 'O': 12.0, '[Ar]': 0.38},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34225,16 +30930,11 @@ OH
         efficiencies = {'[H][H]': 2.5, 'O': 12.0, '[Ar]': 0.64},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34278,16 +30978,11 @@ CO2
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34329,16 +31024,11 @@ H
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34375,16 +31065,11 @@ H2
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34432,16 +31117,11 @@ CH4
         efficiencies = {'CC': 4.8, 'C': 1.9},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34482,16 +31162,11 @@ CH3
         efficiencies = {'O': 6.0, 'N#N': 1.0, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34521,16 +31196,11 @@ CH2
         efficiencies = {'[H]': 0.0, '[O][O]': 0.0, 'O': 0.0, 'N#N': 0.0, '[Ar]': 0.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34575,16 +31245,11 @@ OH
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34632,16 +31297,11 @@ H
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34691,16 +31351,11 @@ CH3OH
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34742,16 +31397,11 @@ H
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34801,16 +31451,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34864,16 +31509,11 @@ C2H6
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34925,16 +31565,11 @@ C2H5
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -34983,16 +31618,11 @@ C2H6
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35037,16 +31667,11 @@ C2H4
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35096,16 +31721,11 @@ H2
         efficiencies = {'O': 6.0, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35152,16 +31772,11 @@ C2H3
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35197,16 +31812,11 @@ H
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35257,16 +31867,11 @@ CH3
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35317,16 +31922,11 @@ OH
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35382,16 +31982,11 @@ H2O
         efficiencies = {'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35442,16 +32037,11 @@ H2
         efficiencies = {'O': 5.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35502,16 +32092,11 @@ CH3CH2OH
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35555,16 +32140,11 @@ CH2O
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35611,16 +32191,11 @@ HCO
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35668,16 +32243,11 @@ CH2CO
         efficiencies = {'O': 6.0, 'N#N': 1.0, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35723,16 +32293,11 @@ HCCO
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35763,16 +32328,11 @@ H
         efficiencies = {'O': 10.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35816,16 +32376,11 @@ HNO
         efficiencies = {'N#N': 1.6},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35869,16 +32424,11 @@ NO2
         efficiencies = {'[Ar]': 0.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35924,16 +32474,11 @@ HONO
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -35974,16 +32519,11 @@ NO3
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -36026,16 +32566,11 @@ HONO2
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -36072,16 +32607,11 @@ HONO
         efficiencies = {},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -36116,16 +32646,11 @@ O
         efficiencies = {'O=C=O': 3.0, '[O][O]': 1.4, 'O': 12.0, 'N#N': 1.7},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -36159,16 +32684,11 @@ CN
         efficiencies = {'[O][O]': 1.5, 'O': 10.0, 'N#N': 0.0},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -36198,16 +32718,11 @@ HNC
         efficiencies = {'O=C=O': 2.0, 'O': 7.0, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -36238,16 +32753,11 @@ NH
         efficiencies = {'N#N': 1.5},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -36281,15 +32791,10 @@ CO
         efficiencies = {'N#N': 1.5},
         comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 14:03:16 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

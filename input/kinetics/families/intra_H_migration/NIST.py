@@ -56,9 +56,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Rate constant is an upper limit.
 Bath gas: N2
 """,
-    history = [
-        ("Tue Jul 24 19:26:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1"""),
-    ],
 )
 
 entry(
@@ -118,9 +115,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 """,
-    history = [
-        ("Tue Jul 24 19:06:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:4"""),
-    ],
 )
 
 entry(
@@ -172,9 +166,6 @@ PrIMe Reaction: r00012711
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Wed Jul 25 12:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3"""),
-    ],
 )
 
 entry(
@@ -227,9 +218,6 @@ u"""
 PrIMe Reaction: r00015630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000001.xml
 """,
-    history = [
-        ("Wed Jul 25 12:57:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2"""),
-    ],
 )
 
 entry(
@@ -282,9 +270,6 @@ u"""
 PrIMe Reaction: r00015630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml
 """,
-    history = [
-        ("Wed Jul 25 12:58:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:1"""),
-    ],
 )
 
 entry(
@@ -351,9 +336,6 @@ Bath gas: H2S
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:02:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988GIE/GAW435:4"""),
-    ],
 )
 
 entry(
@@ -421,9 +403,6 @@ Bath gas: C2H6
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:02:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC2369:4"""),
-    ],
 )
 
 entry(
@@ -490,9 +469,6 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 
 1,3 Hydrogen shift
 """,
-    history = [
-        ("Fri Jul 13 08:02:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:8"""),
-    ],
 )
 
 entry(
@@ -559,9 +535,6 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 
 1,2 Hydrogen shift
 """,
-    history = [
-        ("Fri Jul 13 08:02:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:7"""),
-    ],
 )
 
 entry(
@@ -628,9 +601,6 @@ Bath gas: H2S
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:02:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988GIE/GAW435:2"""),
-    ],
 )
 
 entry(
@@ -692,9 +662,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 """,
-    history = [
-        ("Tue Jul 24 19:11:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:6"""),
-    ],
 )
 
 entry(
@@ -760,9 +727,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 """,
-    history = [
-        ("Wed Jul 25 12:56:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:5"""),
-    ],
 )
 
 entry(
@@ -833,9 +797,6 @@ u"""
 PrIMe Reaction: r00011467
 Bath gas: n-C5H12
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990MAR935-950:3"""),
-    ],
 )
 
 entry(
@@ -909,9 +870,6 @@ Bath gas: n-C5H12
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990MAR935-950:4"""),
-    ],
 )
 
 entry(
@@ -984,9 +942,6 @@ Bath gas: CO2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971WAT6355:4"""),
-    ],
 )
 
 entry(
@@ -1060,9 +1015,6 @@ Bath gas: (CH3)2CO
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966END/LER4081:2"""),
-    ],
 )
 
 entry(
@@ -1135,9 +1087,6 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 
 1,2 Hydrogen shift
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:9"""),
-    ],
 )
 
 entry(
@@ -1210,9 +1159,6 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 
 1,4 Hydrogen shift
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:11"""),
-    ],
 )
 
 entry(
@@ -1282,9 +1228,6 @@ PrIMe Reaction: r00011467
 Bath gas: Products
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999YAM/MIY2723-2733:1"""),
-    ],
 )
 
 entry(
@@ -1352,9 +1295,6 @@ entry(
 u"""
 PrIMe Reaction: r00011467
 """,
-    history = [
-        ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WAT3738:1"""),
-    ],
 )
 
 entry(
@@ -1428,9 +1368,6 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 
 1,3 Hydrogen shift
 """,
-    history = [
-        ("Fri Jul 13 08:03:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:10"""),
-    ],
 )
 
 entry(
@@ -1496,9 +1433,6 @@ PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Wed Jul 25 13:14:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:6"""),
-    ],
 )
 
 entry(
@@ -1564,9 +1498,6 @@ PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml
 Bath gas: n-C4H9ONO
 """,
-    history = [
-        ("Wed Jul 25 13:16:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3"""),
-    ],
 )
 
 entry(
@@ -1637,9 +1568,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Wed Jul 25 13:17:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987MOR/HEI2641:3"""),
-    ],
 )
 
 entry(
@@ -1720,10 +1648,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Wed Jul 25 13:20:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:1"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -1791,9 +1715,6 @@ Pressure dependence: Rate constant is pressure dependent
 
 The authors have studied the 1-butoxy H-shift reaction, exploring several approaches for deriving rate constants for a reaction system with multiple reactant rotamers and multiple transition state conformers. It is shown that the various treatments are fully consistent, even if the TST expressions themselves appear different. Rate constants are derived at 298 K and 1 atm pressure and compared with the literature.
 """,
-    history = [
-        ("Wed Jul 25 13:24:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE5159-5170:2"""),
-    ],
 )
 
 entry(
@@ -1882,9 +1803,6 @@ This expression was derived via detailed balance and low temperature data on the
 
 1-hexyl was generated from the n-hexyl iodide and the products of isomerization and decomposition determined. An RRKM model was developed and high pressure rate constants determined normalizing the relative rates against literature values for beta bond fission reactions for the radical. Tabular results for fall-off effect are presented for T = 500-1900 K and pressures of 0.1 - 1000 bar.
 """,
-    history = [
-        ("Fri Jul 13 08:03:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007TSA/WAL141-148:2"""),
-    ],
 )
 
 entry(
@@ -1964,9 +1882,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:03:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DOB/BER895:1"""),
-    ],
 )
 
 entry(
@@ -2046,9 +1961,6 @@ Bath gas: C2H4
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:03:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969WAT/OST2080:1"""),
-    ],
 )
 
 entry(
@@ -2124,9 +2036,6 @@ PrIMe Reaction: r00011474
 Bath gas: Products
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [
-        ("Fri Jul 13 08:03:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999YAM/MIY2723-2733:2"""),
-    ],
 )
 
 entry(
@@ -2203,9 +2112,6 @@ u"""
 PrIMe Reaction: r00011474
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 13 08:03:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987IMB/MAR81:6"""),
-    ],
 )
 
 entry(
@@ -2282,9 +2188,6 @@ u"""
 PrIMe Reaction: r00011474
 Bath gas: N2
 """,
-    history = [
-        ("Fri Jul 13 08:03:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987IMB/MAR81:5"""),
-    ],
 )
 
 entry(
@@ -2369,10 +2272,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:30:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:4"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -2457,10 +2356,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:37:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:2"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -2534,9 +2429,6 @@ PrIMe Reaction: r00015688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015688/rk00000001.xml
 Bath gas: O2
 """,
-    history = [
-        ("Wed Jul 25 12:59:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10"""),
-    ],
 )
 
 entry(
@@ -2610,9 +2502,6 @@ PrIMe Reaction: r00015689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml
 Bath gas: O2
 """,
-    history = [
-        ("Wed Jul 25 13:06:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9"""),
-    ],
 )
 
 entry(
@@ -2688,9 +2577,6 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 
 1,4 Hydrogen shift
 """,
-    history = [
-        ("Wed Jul 25 13:13:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:13"""),
-    ],
 )
 
 entry(
@@ -2758,9 +2644,6 @@ PrIMe Reaction: r00016683
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016683/rk00000001.xml
 Bath gas: N2
 """,
-    history = [
-        ("Wed Jul 25 13:26:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9"""),
-    ],
 )
 
 entry(
@@ -2847,10 +2730,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Wed Jul 25 13:30:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:3"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -2927,9 +2806,6 @@ Bath gas: CO2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Wed Jul 25 13:32:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:3"""),
-    ],
 )
 
 entry(
@@ -3007,9 +2883,6 @@ Bath gas: He
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
-    history = [
-        ("Fri Jul 13 08:05:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992HUG/HAL645-652:1"""),
-    ],
 )
 
 entry(
@@ -3087,9 +2960,6 @@ Bath gas: N2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:05:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAL/HIS1615:4"""),
-    ],
 )
 
 entry(
@@ -3167,9 +3037,6 @@ Quantum calculations of energetics of pathways related to reaction between neope
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
-    history = [
-        ("Fri Jul 13 08:05:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:21"""),
-    ],
 )
 
 entry(
@@ -3247,9 +3114,6 @@ Quantum calculations of energetics of pathways related to reaction between neope
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
-    history = [
-        ("Fri Jul 13 08:05:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:22"""),
-    ],
 )
 
 entry(
@@ -3340,10 +3204,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:27:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:8"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -3434,10 +3294,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:42:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:7"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -3528,10 +3384,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:45:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:9"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -3622,10 +3474,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:47:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:6"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -3716,10 +3564,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:49:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:5"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -3816,10 +3660,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:13:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:10"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -3916,10 +3756,6 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:22:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:11"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 
 entry(
@@ -4001,9 +3837,6 @@ Analytical technique: Gas chromatography
 
 Derived from end product yields in the overall reaction of cyclohexyl + O2.
 """,
-    history = [
-        ("Tue Jul 24 18:58:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HAN/WAL2043-2052:5"""),
-    ],
 )
 
 entry(
@@ -4085,9 +3918,6 @@ Analytical technique: Gas chromatography
 
 Derived from end product yields in the overall reaction of cyclohexyl + O2.
 """,
-    history = [
-        ("Tue Jul 24 19:00:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HAN/WAL2043-2052:4"""),
-    ],
 )
 
 entry(
@@ -4169,9 +3999,6 @@ Analytical technique: Gas chromatography
 
 Derived from end product yields in the overall reaction of cyclohexyl + O2.
 """,
-    history = [
-        ("Tue Jul 24 19:02:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HAN/WAL2043-2052:3"""),
-    ],
 )
 
 entry(
@@ -4264,9 +4091,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Wed Jul 25 12:52:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DOB/BER895:2"""),
-    ],
 )
 
 entry(
@@ -4359,9 +4183,6 @@ Bath gas: N2
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Wed Jul 25 13:28:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DOB/BER895:3"""),
-    ],
 )
 
 entry(
@@ -4432,9 +4253,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
-    history = [
-        ("Wed Jul 25 13:35:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:7"""),
-    ],
 )
 
 entry(
@@ -4505,9 +4323,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
-    history = [
-        ("Wed Jul 25 13:36:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:6"""),
-    ],
 )
 
 entry(
@@ -4610,9 +4425,5 @@ In fact, by crunching the numbers it looks like they were not. The valid tempera
 not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
-    history = [
-        ("Tue Jul 24 18:40:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:12"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
 )
 

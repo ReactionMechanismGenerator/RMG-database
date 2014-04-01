@@ -32,17 +32,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 0,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -65,8 +60,6 @@ entry(
         Tmin = (345, 'K'),
         Tmax = (449, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""Arai et al [102].""",
     longDesc = 
@@ -122,9 +115,6 @@ reported by Sepehrad et al., they estimate a value of k2.
 (176C, 1.23x10^-16 cm3/molecule/s). ***
 MRH 1-Sept-2009
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -147,8 +137,6 @@ entry(
         Tmin = (305, 'K'),
         Tmax = (375, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Gordon et al [103].""",
     longDesc = 
@@ -174,9 +162,6 @@ coefficients reported are LOWER LIMITS.  The discussion appears to suggest that
 the authors suspect oxygen contamination; they further note that the reaction between
 H-atom and O2 is 10^4 times faster than the H+CO-->HCO rxn. ***
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -202,8 +187,6 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""Baulch et al. [94]""",
     longDesc = 
@@ -227,9 +210,6 @@ coefficient comes from the preferred (from this reference) rxn rate and the equi
 constant (from Bencsura et al.)
 MRH 31-Aug-2009
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -255,8 +235,6 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
@@ -278,9 +256,6 @@ Fall-off corrections and collision efficiencies are also available
 (although we do not store them in RMG_database)
 MRH 28-Aug-2009
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -305,8 +280,6 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
@@ -330,9 +303,6 @@ Fall-off corrections and collision efficiencies are also available
 (although we do not store them in RMG_database).
 MRH 28-Aug-2009
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -357,8 +327,6 @@ entry(
         Tmin = (295, 'K'),
         Tmax = (500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Nam et al [104].""",
     longDesc = 
@@ -428,9 +396,6 @@ k1_inf = 10^12.17+/-0.18 * exp[(-1676+/-149)/T] cm3/mole/s
 now stores the k1_inf value. ***
 MRH 1-Sept-2009
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -454,8 +419,6 @@ entry(
         Tmin = (250, 'K'),
         Tmax = (2500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 5,
     shortDesc = u"""Wang et al. [105].""",
     longDesc = 
@@ -474,9 +437,6 @@ in "y = -1.502x - 37.412" with an R^2 value of 1.  The A and Ea values calculate
 by MRH are thus: A=3.40x10^7 cm3/mol/s, Ea=2.98 kcal/mol, in agreement w/database.
 MRH 1-Sept-2009
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -502,8 +462,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
@@ -516,9 +474,6 @@ CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, one hindered rotor (methyl group, symmetry = 3)
 CH3CO (doublet): EXTSYM = 1, one hindered rotor (methyl group, symmetry = 3)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -547,8 +502,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
@@ -561,9 +514,6 @@ CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, two hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 1)
 CH3CH2CO (doublet): EXTSYM = 1, two hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 1)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -595,8 +545,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
@@ -609,9 +557,6 @@ CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 2; propyl group, symmetry = 1)
 CH3CH2CH2CO (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 1; propyl group, symmetry = 1)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -643,8 +588,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
     longDesc = 
@@ -657,8 +600,5 @@ CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; methyl group, symmetry = 3; propyl group, symmetry = 1)
 CH3CH(CO)CH3 (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; methyl group, symmetry = 3; propyl group, symmetry = 1)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

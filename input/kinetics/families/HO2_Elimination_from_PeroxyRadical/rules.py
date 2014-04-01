@@ -31,17 +31,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 0,
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -67,17 +62,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -103,17 +93,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -139,17 +124,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -175,17 +155,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -211,17 +186,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -247,17 +217,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -283,17 +248,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -319,17 +279,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -355,17 +310,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -392,8 +342,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
     longDesc = 
@@ -416,9 +364,6 @@ The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Ar
 k(T) = 2.476e+06 * (T/1K)^1.829 * exp(-24.247 kcal/mol / RT) cm3/mol/s.  MRH divided this rate coefficient by
 three to account for the reaction path degeneracy, yielding the value stored in the rateLibrary.
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -444,8 +389,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Same as node 845 (MRH assumption)""",
     longDesc = 
@@ -458,10 +401,6 @@ case of the CH3CH(OO)CHCH2 node, the -CH=CH2 functional group).  MRH thinks usin
 in the event node 846 is hit is reasonable, considering this part of the molecule does not play a role in the
 TS (and it is certainly better than leaving RMG to estimate via "Average of Average").
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -485,8 +424,6 @@ entry(
         Tmin = (600, 'K'),
         Tmax = (2000, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
     longDesc = 
@@ -525,9 +462,6 @@ All external symmetry numbers were set equal to one.
 The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Arrhenius expression from CanTherm was:
 k(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -549,8 +483,6 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (600, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""Hermans et al. 2005 (doi:10.1021/jp044080v) G2M calculations""",
     longDesc = 
@@ -560,9 +492,6 @@ MRH approximation for the general OCOO node
 In the event RMG finds any H-O-C-O-O* connection, the kinetics used for direct
 HO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -588,17 +517,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -624,17 +548,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -660,17 +579,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -696,17 +610,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -732,17 +641,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -768,17 +672,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""ss ,Multiplied 1.5 to trans rate coefficient , CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -804,17 +703,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -840,17 +734,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -876,17 +765,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -912,17 +796,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -948,17 +827,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -984,17 +858,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1020,17 +889,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1056,17 +920,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1092,17 +951,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""ss ,Multiplied 1.5 to trans rate coefficient , CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1128,17 +982,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1164,17 +1013,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1200,17 +1044,12 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 2,
     shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Tue Jul 30 14:45:06 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1234,16 +1073,11 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
-    reference = None,
-    referenceType = "",
     rank = 4,
     shortDesc = u"""BMK/cbsb7, HO""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 

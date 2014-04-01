@@ -44,16 +44,11 @@ CH2OHSH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -98,16 +93,11 @@ CHCH3OHSH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -144,16 +134,11 @@ HJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -196,16 +181,11 @@ CH3J
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -236,16 +216,11 @@ CHOSH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -278,16 +253,11 @@ HJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -324,16 +294,11 @@ CSOHOH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.\n1st pathway, 1st step 53.85 w/o catalysis',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 1st pathway, 1st step 53.85 w/o catalysis
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -366,16 +331,11 @@ COSHOH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -412,16 +372,11 @@ H2S
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -458,16 +413,11 @@ COSHOH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.\n2nd pathway, 1st step 43.86 w/o catalysis',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 2nd pathway, 1st step 43.86 w/o catalysis
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -506,16 +456,11 @@ CH2OHSH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.\n3rd pathway, form aldehyde from first product (reverse)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 3rd pathway, form aldehyde from first product (reverse)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -560,15 +505,10 @@ CHCH3OHSH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

@@ -62,8 +62,6 @@ Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
 using Variflex.
 """,
-    history = [
-    ],
 )
 
 

@@ -23,16 +23,11 @@ entry(
     label = "Rn",
     group = "OR{R3, R4, R5, R6, R7, R8, R9}",
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -44,16 +39,11 @@ entry(
 2 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {1,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -64,16 +54,11 @@ entry(
 1 *1 R!H 1
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -86,17 +71,11 @@ entry(
 3 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {2,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -109,17 +88,11 @@ entry(
 3 *3 {Cd,Cdd}  0 {2,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -132,16 +105,11 @@ entry(
 3 *3 Ct  0 {2,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -154,16 +122,11 @@ entry(
 3 *3 Od  0 {2,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -176,16 +139,11 @@ entry(
 3 *3 Sd  0 {2,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -199,17 +157,11 @@ entry(
 4 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {3,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -223,17 +175,11 @@ entry(
 4 *3 {Cd,Ct,Od,Sd,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -247,17 +193,11 @@ entry(
 4 *3 {Cd,Cdd}  0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -271,16 +211,11 @@ entry(
 4 *3 Ct  0 {3,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -294,16 +229,11 @@ entry(
 4 *3 Od  0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -317,17 +247,11 @@ entry(
 4 *3 {Cd,Ct,Od,Sd,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -341,17 +265,11 @@ entry(
 4 *3 {Cd,Cdd} 0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -365,16 +283,11 @@ entry(
 4 *3 Ct 0 {3,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -388,16 +301,11 @@ entry(
 4 *3 Od 0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -411,17 +319,11 @@ entry(
 4 *3 {Cd,Ct,Od,Sd,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -435,17 +337,11 @@ entry(
 4 *3 {Cd,Cdd} 0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -459,16 +355,11 @@ entry(
 4 *3 Ct 0 {3,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -482,16 +373,11 @@ entry(
 4 *3 Od 0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -505,17 +391,11 @@ entry(
 4 *3 {Cd,Ct,Od,Sd,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -529,17 +409,11 @@ entry(
 4 *3 {Cd,Cdd} 0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -553,16 +427,11 @@ entry(
 4 *3 Ct 0 {3,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -576,16 +445,11 @@ entry(
 4 *3 Od 0 {3,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -600,16 +464,11 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -624,18 +483,12 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, single.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -650,8 +503,6 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -659,10 +510,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, single.
 The multiple bond being attacked is a double bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -677,8 +524,6 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -686,9 +531,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, single.
 The multiple bond being attacked is a triple bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -703,8 +545,6 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -712,9 +552,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, single.
 The multiple bond being attacked is a C=O bond.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -729,18 +566,12 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then double. (The next is a single)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -755,8 +586,6 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -764,10 +593,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then double. (The next is a single)
 The multiple bond being attacked is a double bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -782,8 +607,6 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -791,9 +614,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then double. (The next is a single)
 The multiple bond being attacked is a triple bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -808,8 +628,6 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -817,9 +635,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then double. (The next is a single)
 The multiple bond being attacked is a C=O bond.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -834,18 +649,12 @@ entry(
 5 *3 {Cd,Cdd,Ct,Od,Sd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are double, then single. (The next is a single)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -860,8 +669,6 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -869,10 +676,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are double, then single. (The next is a single)
 The multiple bond being attacked is a double bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -887,8 +690,6 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -896,9 +697,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are double, then single. (The next is a single)
 The multiple bond being attacked is a triple bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -913,8 +711,6 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -922,10 +718,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are double, then single. (The next is a single)
 The multiple bond being attacked is a C=O bond.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -940,19 +732,12 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then triple. (The next is a single)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -967,8 +752,6 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -976,10 +759,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then triple. (The next is a single)
 The multiple bond being attacked is a double bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -994,8 +773,6 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1003,9 +780,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then triple. (The next is a single)
 The multiple bond being attacked is a triple bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1020,8 +794,6 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1029,9 +801,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then triple. (The next is a single)
 The multiple bond being attacked is a C=O bond.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1046,18 +815,12 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are triple, then single. (The next is a single)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1072,8 +835,6 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1081,10 +842,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are triple, then single. (The next is a single)
 The multiple bond being attacked is a double bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1099,8 +856,6 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1108,9 +863,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are triple, then single. (The next is a single)
 The multiple bond being attacked is a triple bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1125,8 +877,6 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1134,9 +884,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are triple, then single. (The next is a single)
 The multiple bond being attacked is a C=O bond.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1151,18 +898,12 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1177,8 +918,6 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1186,10 +925,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
 The multiple bond being attacked is a double bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1204,8 +939,6 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1213,9 +946,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
 The multiple bond being attacked is a triple bond (to another carbon).
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1230,8 +960,6 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1239,9 +967,6 @@ The ring being formed has 5 atoms in.
 Starting at the radical site, the first two bonds are single, then aromatic. (The next is a single)
 The multiple bond being attacked is a C=O bond.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1256,17 +981,11 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1281,17 +1000,11 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1306,16 +1019,11 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1330,16 +1038,11 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1354,17 +1057,11 @@ entry(
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1379,17 +1076,11 @@ entry(
 5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-    ],
 )
 
 entry(
@@ -1404,16 +1095,11 @@ entry(
 5 *3 Ct  0 {4,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1428,17 +1114,11 @@ entry(
 5 *3 Od  0 {4,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1454,16 +1134,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1479,18 +1154,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1506,18 +1174,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1533,18 +1194,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1560,18 +1214,11 @@ entry(
 6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1587,17 +1234,11 @@ entry(
 6 *3 Ct  0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1613,17 +1254,11 @@ entry(
 6 *3 Od  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1639,18 +1274,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1666,18 +1294,11 @@ entry(
 6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1693,17 +1314,11 @@ entry(
 6 *3 Ct         0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1719,17 +1334,11 @@ entry(
 6 *3 Od         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1745,18 +1354,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1772,18 +1374,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1799,18 +1394,11 @@ entry(
 6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1826,17 +1414,11 @@ entry(
 6 *3 Ct  0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1852,17 +1434,11 @@ entry(
 6 *3 Od  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1878,18 +1454,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1905,18 +1474,11 @@ entry(
 6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1932,17 +1494,11 @@ entry(
 6 *3 Ct         0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1958,17 +1514,11 @@ entry(
 6 *3 Od         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1984,18 +1534,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2011,18 +1554,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2038,18 +1574,11 @@ entry(
 6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2065,17 +1594,11 @@ entry(
 6 *3 Ct  0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2091,17 +1614,11 @@ entry(
 6 *3 Od  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2117,18 +1634,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2144,18 +1654,11 @@ entry(
 6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2171,17 +1674,11 @@ entry(
 6 *3 Ct         0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2197,17 +1694,11 @@ entry(
 6 *3 Od         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2223,18 +1714,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2250,18 +1734,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2277,18 +1754,11 @@ entry(
 6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2304,17 +1774,11 @@ entry(
 6 *3 Ct  0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2330,17 +1794,11 @@ entry(
 6 *3 Od  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2356,18 +1814,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2383,18 +1834,11 @@ entry(
 6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2410,17 +1854,11 @@ entry(
 6 *3 Ct         0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2436,17 +1874,11 @@ entry(
 6 *3 Od         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2462,18 +1894,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2489,18 +1914,11 @@ entry(
 6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2516,17 +1934,11 @@ entry(
 6 *3 Ct         0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2542,17 +1954,11 @@ entry(
 6 *3 Od         0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2568,18 +1974,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2595,18 +1994,11 @@ entry(
 6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2622,17 +2014,11 @@ entry(
 6 *3 Ct  0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2648,17 +2034,11 @@ entry(
 6 *3 Od  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2674,18 +2054,11 @@ entry(
 6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2701,18 +2074,11 @@ entry(
 6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2728,17 +2094,11 @@ entry(
 6 *3 Ct  0 {5,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2754,17 +2114,11 @@ entry(
 6 *3 Od  0 {5,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2781,16 +2135,11 @@ entry(
 7 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2808,16 +2157,11 @@ entry(
 8 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2836,16 +2180,11 @@ entry(
 9 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {8,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2864,16 +2203,11 @@ entry(
 9 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {8,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2892,16 +2226,11 @@ entry(
 9 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {8,{D,T}}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2913,19 +2242,12 @@ entry(
 2 *3 {Cd,Cdd} 0 {1,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Note that nodes below this currently do not match allenic type Cdd atoms for *3,
 so this is the most specific group that will match such a molecule.
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Feb 14 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba and Richard West added Cdd atom type to *3."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2938,17 +2260,11 @@ entry(
 3    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2963,17 +2279,11 @@ entry(
 5    H  0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2988,17 +2298,11 @@ entry(
 5    {Cs,O,S} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3013,17 +2317,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3038,16 +2336,11 @@ entry(
 5    Cd 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3062,16 +2355,11 @@ entry(
 5    Ct 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3086,17 +2374,11 @@ entry(
 5    {Cs,O,S} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3111,17 +2393,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3136,16 +2412,11 @@ entry(
 5    Cd       0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3160,16 +2431,11 @@ entry(
 5    Ct       0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3184,17 +2450,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3207,17 +2467,11 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3232,17 +2486,11 @@ entry(
 5    H        0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3257,17 +2505,11 @@ entry(
 5    {Cs,O,S} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3282,17 +2524,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3307,16 +2543,11 @@ entry(
 5    Cd       0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3331,16 +2562,11 @@ entry(
 5    Ct       0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3355,17 +2581,11 @@ entry(
 5    {Cs,O,S} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3380,17 +2600,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3405,16 +2619,11 @@ entry(
 5    Cd       0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3429,16 +2638,11 @@ entry(
 5    Ct       0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3453,17 +2657,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3476,17 +2674,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3501,17 +2693,11 @@ entry(
 5    H             0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3526,17 +2712,11 @@ entry(
 5    {Cs,O,S}      0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3551,17 +2731,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3576,16 +2750,11 @@ entry(
 5    Cd            0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3600,16 +2769,11 @@ entry(
 5    Ct            0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3624,17 +2788,11 @@ entry(
 5    {Cs,O,S}      0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3649,17 +2807,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3674,16 +2826,11 @@ entry(
 5    Cd            0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3698,16 +2845,11 @@ entry(
 5    Ct            0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3722,17 +2864,11 @@ entry(
 5    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3744,16 +2880,11 @@ entry(
 2 *3 Ct 0 {1,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3766,16 +2897,11 @@ entry(
 3    H  0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3788,16 +2914,11 @@ entry(
 3    {Cs,O,S} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3810,16 +2931,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3831,16 +2947,11 @@ entry(
 2 *3 O  0 {1,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3853,16 +2964,11 @@ entry(
 3    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3875,16 +2981,11 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3897,16 +2998,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3918,16 +3014,11 @@ entry(
 2 *3 Sd 0 {1,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3940,16 +3031,11 @@ entry(
 3    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3962,16 +3048,11 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3984,16 +3065,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4004,16 +3080,11 @@ entry(
 1 *1 Cs 1
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4026,16 +3097,11 @@ entry(
 3    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4048,16 +3114,11 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4070,17 +3131,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4093,16 +3148,11 @@ entry(
 3    Cd 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4115,16 +3165,11 @@ entry(
 3    Ct 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4137,17 +3182,11 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4160,17 +3199,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> updated this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4183,16 +3216,11 @@ entry(
 3    Cd       0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4205,16 +3233,11 @@ entry(
 3    Ct       0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Feb 10 21:39:02 2014","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> added this entry by importing the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4227,16 +3250,11 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4247,16 +3265,11 @@ entry(
 1 *1 O 1
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4267,16 +3280,11 @@ entry(
 1 *1 S 1
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4287,16 +3295,11 @@ entry(
 1 *1 Cb 1
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4308,16 +3311,11 @@ entry(
 2    R  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4329,16 +3327,11 @@ entry(
 2    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4350,16 +3343,11 @@ entry(
 2    {Cs,O,S} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4371,16 +3359,11 @@ entry(
 2    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4392,16 +3375,11 @@ entry(
 2    Cd 0 {1,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4413,16 +3391,11 @@ entry(
 2    O  0 {1,D}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4434,16 +3407,11 @@ entry(
 2    Ct 0 {1,T}
 """,
     kinetics = None,
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 tree(
@@ -4643,8 +3611,6 @@ forbidden(
 u"""
 
 """,
-    history = [
-    ],
 )
 
 forbidden(
@@ -4659,7 +3625,5 @@ forbidden(
 u"""
 
 """,
-    history = [
-    ],
 )
 

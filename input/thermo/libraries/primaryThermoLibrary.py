@@ -27,9 +27,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -50,9 +47,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -74,9 +68,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -100,9 +91,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -126,9 +114,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -152,9 +137,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -179,9 +161,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -205,9 +184,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -231,9 +207,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -257,9 +230,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -284,9 +254,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -308,9 +275,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -333,9 +297,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -365,10 +326,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -399,10 +356,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -425,9 +378,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu Sep 22 15:44:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -450,9 +400,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -475,9 +422,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -502,9 +446,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -529,9 +470,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -558,9 +496,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -584,9 +519,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -611,9 +543,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -639,9 +568,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -664,9 +590,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -689,9 +612,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -715,9 +635,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -742,9 +659,6 @@ H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
 level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
 )
 
 entry(
@@ -771,9 +685,6 @@ Burcat Thermo Data
 REFERENCE ELEMENT REF=Gurvich 1989 V1 py.1 p.177 HF298=0.00 kcal Max Lst 
 Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
 """,
-    history = [
-        ("Tue Sep 17 12:44:29 2013","Connie Gao <connieg@mit.edu>","action","""connieg added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -799,9 +710,6 @@ Burcat Thermo Data
 HF298=121.302+/-0.008 kJ HF0=119.633+/- 0.008 kJ  REF=JANAF  {HF298=121.302
 +/-0.002 kJ  REF=ATcT A}
 """,
-    history = [
-        ("Tue Sep 17 12:44:29 2013","Connie Gao <connieg@mit.edu>","action","""connieg added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -829,8 +737,5 @@ HYDROCHLORIC ACID CALCULATED FROM ORIGINAL TABLES  REF=Gurvich 1989
 HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @ 
 6000 K 0.17%
 """,
-    history = [
-        ("Tue Sep 17 12:44:29 2013","Connie Gao <connieg@mit.edu>","action","""connieg added this entry to the database."""),
-    ],
 )
 
