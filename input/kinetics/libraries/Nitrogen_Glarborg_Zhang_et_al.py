@@ -8,8 +8,6 @@ Kuiwen Zhang, Lidong Zhang, Mingfeng Xie, Lili Ye, Feng Zhang, Peter Glarborg, F
 An experimental and kinetic modeling study of premixed nitroethane flames at low pressure
 Proceedings of the Combustion Institute 34 (2013) 617–624
 """
-recommended = False
-
 entry(
     index = 1,
     reactant1 = 

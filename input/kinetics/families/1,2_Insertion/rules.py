@@ -8,8 +8,6 @@ longDesc = u"""
 
 transition states are treated as free rotations as they are relatively loose TSs.
 """
-recommended = True
-
 entry(
     index = 553,
     label = "CO_birad;RR'",

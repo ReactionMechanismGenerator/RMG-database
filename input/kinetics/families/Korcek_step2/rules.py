@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = True
-
 entry(
     index = 1,
     label = "C1(R)(H)(O[OC3(OH)(R')]C2)",

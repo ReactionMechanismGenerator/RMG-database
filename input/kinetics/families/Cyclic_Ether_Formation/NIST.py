@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = False
-
 entry(
     index = 1,
     label = "1982BAL/HIS1615:8",

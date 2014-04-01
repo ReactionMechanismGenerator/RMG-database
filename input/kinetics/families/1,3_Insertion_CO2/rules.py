@@ -11,8 +11,6 @@ The dictionary defines CO2 in two ways, allowing the R-R' to insert either way
 around. However, there are only rates for one of these ways. The other is
 presumably matching the top level node.
 """
-recommended = True
-
 entry(
     index = 571,
     label = "CO2;RR'",

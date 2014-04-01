@@ -34,8 +34,6 @@ and toluene is included.
 
 The reaction model was subject to validation tests against reliable H2/CO/C1-C4 combustion data.
 """
-recommended = False
-
 entry(
     index = 1,
     label = "AR",

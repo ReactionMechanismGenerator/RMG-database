@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = False
-
 entry(
     index = 0,
     label = "CsOsCd",

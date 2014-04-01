@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = True
-
 entry(
     index = 809,
     label = "Rn;multiplebond_intra;radadd_intra",

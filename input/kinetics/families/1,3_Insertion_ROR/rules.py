@@ -8,8 +8,6 @@ longDesc = u"""
 
 transition states are treated as free rotations as they are relatively loose TSs.
 """
-recommended = True
-
 entry(
     index = 560,
     label = "doublebond;R_OR",

@@ -6,8 +6,6 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = False
-
 
 entry(
     label = "Ods",
