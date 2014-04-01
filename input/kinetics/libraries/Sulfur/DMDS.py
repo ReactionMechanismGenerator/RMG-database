@@ -42,8 +42,6 @@ C2H5SJ2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMDS.\nsmall molecule oxidation library, reaction file, version 2, JS, August 6, 2003\noriginally from Leeds methane oxidation mechanism v1.5\nhttp://www.chem.leeds.ac.uk/Combustion/Combustion.html\nfix bug for O2 + HCO = HO2 + CO 1.52E13 0.00 -7.09, change E into positive, change A into 5.12E13 according to NIST\nOntbinding DMDS',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -57,9 +55,6 @@ fix bug for O2 + HCO = HO2 + CO 1.52E13 0.00 -7.09, change E into positive, chan
 
 Ontbinding DMDS
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -100,16 +95,11 @@ C2H5SJ2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMDS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -138,15 +128,10 @@ S2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\DMDS.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

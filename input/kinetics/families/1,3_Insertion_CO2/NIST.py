@@ -65,10 +65,6 @@ Formic acid was produced via thermal (shock induced) dissociation of the dimer. 
 
 The precise temperature range is not reported in the paper. The listed values are approximate and were derived from the Arrhenius plots given in Figure 4 of the paper.
 """,
-    history = [
-        ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:5"""),
-        ("Wed Jul 18 12:58:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp045072h"""),
-    ],
 )
 
 entry(
@@ -128,10 +124,6 @@ Formic acid was produced via thermal (shock induced) dissociation of the dimer. 
 
 The precise temperature range is not reported in the paper. The listed values are approximate and were derived from the Arrhenius plots given in Figure 4 of the paper.
 """,
-    history = [
-        ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:4"""),
-        ("Wed Jul 18 12:58:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp045072h"""),
-    ],
 )
 
 entry(
@@ -185,9 +177,6 @@ Bath gas: HCOOH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BLA/DAV1923:1"""),
-    ],
 )
 
 entry(
@@ -242,9 +231,6 @@ Bath gas: HCOOH
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BLA/HIN444-455:1"""),
-    ],
 )
 
 entry(
@@ -296,9 +282,6 @@ Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM .
 """,
-    history = [
-        ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007CHA/CHE6789-6797:3"""),
-    ],
 )
 
 entry(
@@ -359,9 +342,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:2"""),
-    ],
 )
 
 entry(
@@ -422,9 +402,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:1"""),
-    ],
 )
 
 entry(
@@ -485,9 +462,6 @@ Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 08:14:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BLA/JAC94-96:1"""),
-    ],
 )
 
 entry(
@@ -546,9 +520,6 @@ Bath gas: CH3CH=CH2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968BLA/JAC1153-1155:1"""),
-    ],
 )
 
 entry(
@@ -608,9 +579,6 @@ Bath gas: CH3C(O)OH
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Fri Jul 13 08:14:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949BAM/DEW2877-2882:1"""),
-    ],
 )
 
 entry(
@@ -665,9 +633,6 @@ entry(
 u"""
 PrIMe Reaction: r00001645
 """,
-    history = [
-        ("Fri Jul 13 08:14:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DUA/PAG5114-5119:1"""),
-    ],
 )
 
 entry(
@@ -733,9 +698,6 @@ Bath gas: C2H5COOH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966BLA/HOL577-579:1"""),
-    ],
 )
 
 entry(
@@ -801,9 +763,6 @@ PrIMe Reaction: r00008316
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 08:14:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BIG/CLA1:1"""),
-    ],
 )
 
 entry(
@@ -869,9 +828,6 @@ PrIMe Reaction: r00008316
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 08:14:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BIG/WEA745:1"""),
-    ],
 )
 
 entry(
@@ -938,9 +894,6 @@ Bath gas: CH2=CHCH2COOH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964SMI/BLA1231-1234:1"""),
-    ],
 )
 
 entry(
@@ -1007,9 +960,6 @@ Bath gas: CH2(COOH)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986CAO/BAC967:1"""),
-    ],
 )
 
 entry(
@@ -1082,9 +1032,6 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976BIG/WEA592:2"""),
-    ],
 )
 
 entry(
@@ -1163,9 +1110,6 @@ Bath gas: He
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 08:14:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:2"""),
-    ],
 )
 
 entry(
@@ -1243,9 +1187,6 @@ Bath gas: CH2=CHC(CH3)2COOH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:3"""),
-    ],
 )
 
 entry(
@@ -1329,9 +1270,6 @@ Bath gas: 3-Pentenoic acid, 2,2-dimethyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:14:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:4"""),
-    ],
 )
 
 entry(
@@ -1415,9 +1353,6 @@ Bath gas: CH2=C(CH3)C(CH3)2COOH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 14:32:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:2"""),
-    ],
 )
 
 entry(
@@ -1503,9 +1438,6 @@ Bath gas: He
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Tue Jul 24 14:39:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:1"""),
-    ],
 )
 
 entry(
@@ -1585,9 +1517,6 @@ Bath gas: Benzeneacetic acid
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 08:14:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992COL/AMO2125-2127:1"""),
-    ],
 )
 
 entry(
@@ -1679,9 +1608,6 @@ Bath gas: 1-Cyclopentene-1-acetic acid, α,α-dimethyl-
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:15:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:6"""),
-    ],
 )
 
 entry(
@@ -1772,9 +1698,6 @@ Kinetics were determined by following pressure vs. time. Products were determine
 
 Uncertainties are precision only and are at the 90% confidence level.
 """,
-    history = [
-        ("Fri Jul 20 17:40:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:2"""),
-    ],
 )
 
 entry(
@@ -1870,8 +1793,5 @@ Bath gas: CH3CH=C(C2H5)C(CH3)2COOH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 15:01:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:5"""),
-    ],
 )
 

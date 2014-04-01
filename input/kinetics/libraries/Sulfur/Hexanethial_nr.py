@@ -74,17 +74,12 @@ H2S
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nFirst one should be 36.30 kcal/mol, second 44.42 kcal/mol\nC6H12O + H2S = C6H12SHOH    6.13E+01    2.77    36.30    0.0    0.0    0.0',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 First one should be 36.30 kcal/mol, second 44.42 kcal/mol
 C6H12O + H2S = C6H12SHOH    6.13E+01    2.77    36.30    0.0    0.0    0.0
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -145,17 +140,12 @@ C5H11COSH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nCorrect value of next reaction is in R_Addition_MultipleBond\nC5H11COHS + HJ = C5H11CJOHSH    1.18E+09    1.15    -0.06    0.0    0.0    0.0',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Correct value of next reaction is in R_Addition_MultipleBond
 C5H11COHS + HJ = C5H11CJOHSH    1.18E+09    1.15    -0.06    0.0    0.0    0.0
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -218,16 +208,11 @@ C5H11COSJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -294,16 +279,11 @@ C6H12OHSJ
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -370,16 +350,11 @@ hexen-1-ol
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nreverse of next reaction is in R_Addition_MultipleBond library:',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 reverse of next reaction is in R_Addition_MultipleBond library:
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -438,16 +413,11 @@ C6H12O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -486,15 +456,10 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nApprox water gas shift reaction',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 Approx water gas shift reaction
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

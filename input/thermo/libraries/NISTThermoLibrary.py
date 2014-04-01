@@ -28,9 +28,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -51,9 +48,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -74,9 +68,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -99,9 +90,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -124,9 +112,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -150,9 +135,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -174,9 +156,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -199,9 +178,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -225,8 +201,5 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Dec 24 11:29:29 2013","Beat Buesser <bbuesser@mit.edu>","action","""bbuesser added this entry to the database."""),
-    ],
 )
 

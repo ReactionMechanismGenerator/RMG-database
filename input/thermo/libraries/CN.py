@@ -32,8 +32,5 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Mon Mar 11 13:27:57 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

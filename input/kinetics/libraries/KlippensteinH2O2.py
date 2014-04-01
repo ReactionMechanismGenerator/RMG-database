@@ -40,8 +40,6 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n!<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>!\n!\n!                     ----- H2 Kinetic Mechanism -----\n!                     -----   Version 6-10-2011  -----\n!\n! (c) Burke, Chaos, Ju, Dryer, and Klippenstein; Princeton University, 2011.\n!\n!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n!\n!  HOW TO USE THIS MECHANISM:\n!\n! (*) Due to limitations of CHEMKIN-II format (specifically, an inability to\n!     implement temperature-dependent collision efficiencies in falloff\n!     reactions) and the lack of fundamental understanding of the mixing rules\n!     for the falloff reactions with the bath gases that have different\n!     broadening factors, the present implementation represents a compromise\n!     (approximate) formulation.  As a consequence,\n!\n!     PRIOR TO ITS USE IN THE CALCULATIONS, THIS FILE HAS TO BE MODIFIED.\n!     DEPENDING ON WHAT BATH GAS (DILUTANT) IS MOST ABUNDANT IN YOUR SYSTEM\n!     (THE PRESENT CHOICES ARE N2, AR, OR HE),  YOU  SHOULD UNCOMMENT THE\n!     CORRESPONDING BLOCK FOR THE REACTION H+O2(+M)=HO2(+M), AND COMMENT THE\n!     BLOCK FOR OTHER DILUTANT(S).  AS GIVEN, THE MAIN DILUTANT IS SET TO BE N2.\n!\n!\n!  HOW TO REFERENCE THIS MECHANISM:\n!\n!     M.P. Burke, M. Chaos, Y. Ju, F.L. Dryer, S.J. Klippenstein\n!        "Comprehensive H2/O2 Kinetic Model for High-Pressure Combustion,"\n!        Int. J. Chem. Kinet. (2011).\n!\n!  FUTURE REVISIONS/UPDATES MAY BE FOUND ON THE FUELS AND COMBUSTION RESEARCH LABORATORY\n!  WEBSITE: < http://www.princeton.edu/mae/people/faculty/dryer/homepage/combustion_lab/ >\n!\n!\n!  HOW TO CONTACT THE AUTHORS:\n!\n!     Dr. Michael P. Burke\n!     R122 Building 200\n!     Chemical Sciences and Engineering Division\n!     Argonne National Laboratory\n!     Argonne, IL 60439\n!     Email: mpburke@anl.gov\n!\n!     Prof. Frederick L. Dryer\n!     D-329D Engineering Quadrangle\n!     Mechanical and Aerospace Engineering\n!     Princeton University\n!     Princeton, NJ 08544\n!     Phone: 609-258-5206\n!     Lab:   609-258-0316\n!     FAX:   609-258-1939\n!     Email: fldryer@princeton.edu\n!\n!\n!<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>!\n!\nELEMENTS\nH O N AR HE C\nEND\n!======================\n!H2-O2 Chain Reactions\n!======================\n! Hong et al., Proc. Comb. Inst. 33:309-316 (2011)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -115,9 +113,6 @@ END
 !======================
 ! Hong et al., Proc. Comb. Inst. 33:309-316 (2011)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -163,16 +158,11 @@ OH
         ],
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -209,16 +199,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Michael and Sutherland, J. Phys. Chem. 92:3853 (1988)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Michael and Sutherland, J. Phys. Chem. 92:3853 (1988)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -255,16 +240,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -309,8 +289,6 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n!============================\n!H2-O2 Dissociation Reactions\n!============================\n! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)\nH2+AR = H+H+AR                                  5.840E+18 -1.10  1.0438E+05\nH2+HE = H+H+HE                                  5.840E+18 -1.10  1.0438E+05\n! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)\nO+O+AR = O2+AR                                  1.886E+13  0.00 -1.788E+03\nO+O+HE = O2+HE                                  1.886E+13  0.00 -1.788E+03\n! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -325,9 +303,6 @@ O+O+AR = O2+AR                                  1.886E+13  0.00 -1.788E+03
 O+O+HE = O2+HE                                  1.886E+13  0.00 -1.788E+03
 ! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -364,8 +339,6 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n!=================================\n! Formation and consumption of HO2\n!=================================\n! High-pressure limit from Troe, Proc. Comb. Inst. 28:1463-1469 (2000)\n! Low-pressure  limit from Michael et al., J. Phys. Chem. A 106:5297-5313\n! Centering factors from Fernandes et al., Phys. Chem. Chem. Phys. 10:4313-4321 (2008)\n!=================================================================================\n! Michael et al., Proc. Comb. Inst. 28:1471 (2000)\n!HO2+H = H2+O2                                     3.659E+06  2.09 -1.451E+03\n!Scaled by 0.75',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -381,9 +354,6 @@ u"""
 !HO2+H = H2+O2                                     3.659E+06  2.09 -1.451E+03
 !Scaled by 0.75
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -420,16 +390,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Mueller et al., Int. J. Chem. Kinetic. 31:113 (1999)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Mueller et al., Int. J. Chem. Kinetic. 31:113 (1999)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -466,8 +431,6 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Fernandez-Ramos and Varandas, J. Phys. Chem. A 106:4077-4083 (2002)\n!HO2+O = O2+OH                                   4.750E+11  1.00 -7.2393E+02\n!Scaled by 0.60',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -475,9 +438,6 @@ u"""
 !HO2+O = O2+OH                                   4.750E+11  1.00 -7.2393E+02
 !Scaled by 0.60
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -516,16 +476,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Keyser, J. Phys. Chem. 92:1193 (1988)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Keyser, J. Phys. Chem. 92:1193 (1988)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -577,8 +532,6 @@ O2
         ],
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n!=====================================\n!Formation and Consumption of H2O2\n!=====================================\n! Hippler et al., J. Chem. Phys. 93:1755 (1990)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -587,9 +540,6 @@ u"""
 !=====================================
 ! Hippler et al., J. Chem. Phys. 93:1755 (1990)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -628,16 +578,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -676,16 +621,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -724,16 +664,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from KlippensteinH2O2.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -785,16 +720,11 @@ H2O
         ],
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Hong et al., J. Phys. Chem. A  114 (2010) 5718-5727',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Hong et al., J. Phys. Chem. A  114 (2010) 5718-5727
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -826,16 +756,11 @@ H
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -867,16 +792,11 @@ O2
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -903,16 +823,11 @@ OH
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, '[C]=O': 1.9, '[Ar]': 0.75},
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -946,17 +861,12 @@ OH
         efficiencies = {'O=C=O': 3.8, 'O': 0.0, '[H][H]': 3.0, '[He]': 1.1, '[O][O]': 1.5, 'N#N': 2.0, '[C]=O': 1.9},
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)\n! Rate constant is for Ar with efficiencies from Michael et al., J. Phys. Chem. A, 106 (2002)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 ! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
 ! Rate constant is for Ar with efficiencies from Michael et al., J. Phys. Chem. A, 106 (2002)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -999,8 +909,6 @@ HO2
         efficiencies = {'O=C=O': 3.8, 'O': 14.0, '[H][H]': 2.0, '[He]': 0.8, '[O][O]': 0.78, '[C]=O': 1.9, '[Ar]': 0.67},
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n! Efficiencies for CO and CO2 taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)\n! MAIN BATH GAS IS N2 (comment this reaction otherwise)\n!',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1008,9 +916,6 @@ u"""
 ! MAIN BATH GAS IS N2 (comment this reaction otherwise)
 !
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1055,8 +960,6 @@ OH
         efficiencies = {'OO': 7.7, 'O=C=O': 1.6, 'O': 7.5, '[H][H]': 3.7, '[He]': 0.65, '[O][O]': 1.2, 'N#N': 1.5, '[C]=O': 2.8},
         comment = 'Reaction and kinetics from KlippensteinH2O2.\n!=================================================================================\n! MAIN BATH GAS IS AR OR HE (comment this reaction otherwise)\n!\n!H + O2 (+M) <=> HO2 (+M)      4.65084E+12  0.44  0.000E+00    0.0 0.0 0.0\n!H2/ 3.0/ H2O/ 21/ O2/ 1.1/ CO/ 2.7/ CO2/ 5.4/ HE/ 1.2/ N2/ 1.5/\n!=================================================================================\n! Troe, Combust. Flame,  158:594-601 (2011)\n! Rate constant is for Ar\n! Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1070,8 +973,5 @@ u"""
 ! Rate constant is for Ar
 ! Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
 """,
-    history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 

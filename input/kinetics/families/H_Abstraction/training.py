@@ -68,8 +68,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -91,9 +89,6 @@ enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are
 Barrier:        18.8        19.62           17.57
 Enthalpy:       14.25       14.66           13.70
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -155,8 +150,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -178,9 +171,6 @@ enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are
 Barrier:        14.64       15.47           14.72
 Enthalpy:       11.05       12.41           10.11
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -242,8 +232,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -265,9 +253,6 @@ enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are
 Barrier:        15.43       16.37           16.33
 Enthalpy:       13.53       14.02           11.48
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -329,8 +314,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -352,9 +335,6 @@ enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are
 Barrier:        12.62       13.23           11.74
 Enthalpy:        8.35        8.63            7.17
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -416,8 +396,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -431,9 +409,6 @@ tunneling correction was employed and the frequencies were scaled by 0.99 (as su
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -495,8 +470,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -510,9 +483,6 @@ tunneling correction was employed and the frequencies were scaled by 0.99 (as su
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -574,8 +544,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -589,9 +557,6 @@ tunneling correction was employed and the frequencies were scaled by 0.99 (as su
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -653,8 +618,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -668,9 +631,6 @@ tunneling correction was employed and the frequencies were scaled by 0.99 (as su
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -732,8 +692,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -747,9 +705,6 @@ tunneling correction was employed and the frequencies were scaled by 0.99 (as su
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -805,8 +760,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -829,9 +782,6 @@ There are no rate coefficients for this reaction in the literature (based on MRH
    The previous estimate by RMG for this reaction was: k(T) = 5.500e+03 * T^2.81 * exp(-5.86 kcal/mol / RT) cm3 mol-1 s-1.
    This rate coefficient is 80-13,000x faster than MRH's calculation over the range 600-2000K.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -907,8 +857,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -923,9 +871,6 @@ InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity =
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1001,8 +946,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1017,9 +960,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multipl
  +
 InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1097,8 +1037,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1113,9 +1051,6 @@ InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicit
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1193,8 +1128,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1209,9 +1142,6 @@ InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicit
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1289,8 +1219,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1305,9 +1233,6 @@ InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicit
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1385,8 +1310,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1401,9 +1324,6 @@ InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicit
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1475,8 +1395,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1495,9 +1413,6 @@ Tsang [Tsang1991]_ recommends k(T) = 2.23e+00 * (T/K)^3.5 * exp(-6.64 kcal/mol /
 for the reaction C3H6 + iso-C4H9 = iso-C4H10 + C3H5.  The new rate coefficient expression is
 in good agreement with this expression (within 10% over most of the valid temperature range).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1569,8 +1484,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1589,9 +1502,6 @@ Tsang [Tsang1991]_ recommends k(T) = 3.01e-05 * (T/K)^4.9 * exp(-7.95 kcal/mol /
 for the reaction C3H6 + tert-C4H9 = iso-C4H10 + C3H5.  The new rate coefficient expression is faster
 by as much as 10x over of the valid temperature range.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1663,8 +1573,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1679,9 +1587,6 @@ InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity =
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1753,8 +1658,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1769,9 +1672,6 @@ InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity =
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1841,8 +1741,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1861,9 +1759,6 @@ Tsang [Tsang1990]_ recommends k(T) = 2.894e-01 * (T/K)^3.7 * exp(-9.78 kcal/mol 
 for the reaction C2H6 + iso-C4H9 = iso-C4H10 + C2H5.  The new rate coefficient expression is faster
 by 10-100x over of the valid temperature range.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1933,8 +1828,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -1953,9 +1846,6 @@ Tsang [Tsang1990]_ recommends k(T) = 5.41e-01 * (T/K)^3.46 * exp(-5.96 kcal/mol 
 for the reaction iso-C4H10 + C2H5 = C2H6 + tert-C4H9.  The new rate coefficient expression is
 in good agreement with this expression (within a factor of 1.6 over the valid temperature range).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2025,8 +1915,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2041,9 +1929,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multipl
  +
 InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2113,8 +1998,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2129,9 +2012,6 @@ InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2197,8 +2077,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2217,9 +2095,6 @@ Tsang [Tsang1990]_ recommends k(T) = 9.04e-01 * (T/K)^3.46 * exp(-2.60 kcal/mol 
 for the reaction iso-C4H10 + C2H3 = C2H4 + tert-C4H9.  The new rate coefficient is faster by 4-10x
 over the valid temperature range.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2291,8 +2166,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2307,9 +2180,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin mul
  +
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2381,8 +2251,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2397,9 +2265,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multipl
  +
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2473,8 +2338,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2489,9 +2352,6 @@ InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicit
  +
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2565,8 +2425,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2581,9 +2439,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multi
  +
 InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2657,8 +2512,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2673,9 +2526,6 @@ InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multipl
  +
 InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2729,8 +2579,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2745,9 +2593,6 @@ InChI=1/C4H7O/c1-4(2)3-5/h3H,1-2H3 (external symmetry number = 1, spin multiplic
  +
 InChI=1/H2/h1H (external symmetry number = 2, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2815,8 +2660,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2831,9 +2674,6 @@ InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicit
  +
 InChI=1/C3H6O/c1-2-3-4/h2-4H,1H3/ (external symmetry number = 1, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2889,8 +2729,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2905,9 +2743,6 @@ InChI=1/C4H7/c1-3-4-2/h3-4H,1H2,2H3  (external symmetry number = 1, spin multipl
  +
 H2O2 (external symmetry number = 2, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2963,8 +2798,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -2981,9 +2814,6 @@ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+  (external symmetry number = 2, spin mul
  +
 HO2 (external symmetry number = 1, spin multiplicity = 2)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3039,8 +2869,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -3057,9 +2885,6 @@ InChI=1/C4H7/c1-3-4-2/h3-4H,1H2,2H3   (external symmetry number = 1, spin multip
  +
 H2O2 (external symmetry number = 2, spin multiplicity = 1)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3115,8 +2940,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 5,
     shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -3133,9 +2956,6 @@ InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3  (external symmetry number = 1, spin multipl
  +
 HO2 (external symmetry number = 1, spin multiplicity = 2)
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3193,8 +3013,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
@@ -3216,9 +3034,6 @@ in the A parameter was MRH guess.
 RMG previously estimated the kinetics of the titled reaction to be ~10^3 times faster
 than calculations of MHS.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3264,8 +3079,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
@@ -3287,9 +3100,6 @@ in the A parameter was MRH guess.
 RMG previously estimated the kinetics of the titled reaction to be 1-3 orders of magnitude faster
 than calculations of MHS.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3351,8 +3161,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations, w/1dHR corrections""",
     longDesc = 
@@ -3383,9 +3191,6 @@ his stated uncertainty is a factor of ten.  However, one would expect abstractio
 1-butane to be faster than the primary carbon of propene, because the C-H bond strength should be weaker.  So,
 this calculation is in reasonable agreement with the literature.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3435,8 +3240,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
@@ -3458,9 +3261,6 @@ in the A parameter was MRH guess.
 RMG previously estimated the kinetics of the titled reaction to be ~2 orders of magnitude faster
 than calculations of MHS.
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3518,8 +3318,6 @@ entry(
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MHS CBS-QB3 w/o 1dHR calculations""",
     longDesc = 
@@ -3534,9 +3332,6 @@ MHS computed the fitted Arrhenius expression to be: k(T) = 1.91e-4 (T/1K)^4.25 e
 The uncertainty in the E0 was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
 in the A parameter was MRH guess.
 """,
-    history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3612,8 +3407,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
@@ -3632,9 +3425,6 @@ Tsang [Tsang1990]_ recommends k(T) = 1.51e-03 * (T/K)^4.2 * exp(-5.96 kcal/mol /
 for the reaction iso-C4H10 + iso-C3H7 = C3H8 + tert-C4H9.  The new rate coefficient expression is
 in good agreement with this expression (within a factor of 3.5 over the valid temperature range).
 """,
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3684,8 +3474,6 @@ entry(
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
     longDesc = 
@@ -3702,9 +3490,6 @@ Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
 """,
-    history = [
-        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
-    ],
 )
 
 entry(
@@ -3760,8 +3545,6 @@ entry(
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
     longDesc = 
@@ -3778,9 +3561,6 @@ Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
 """,
-    history = [
-        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
-    ],
 )
 
 entry(
@@ -3836,8 +3616,6 @@ entry(
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
     longDesc = 
@@ -3854,9 +3632,6 @@ Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
 """,
-    history = [
-        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
-    ],
 )
 
 entry(
@@ -3912,8 +3687,6 @@ entry(
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
     longDesc = 
@@ -3930,9 +3703,6 @@ Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
 """,
-    history = [
-        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
-    ],
 )
 
 entry(
@@ -3994,8 +3764,6 @@ entry(
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
     longDesc = 
@@ -4012,9 +3780,6 @@ Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
 """,
-    history = [
-        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
-    ],
 )
 
 entry(
@@ -4076,8 +3841,6 @@ entry(
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
     longDesc = 
@@ -4094,9 +3857,6 @@ Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
 """,
-    history = [
-        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
-    ],
 )
 
 entry(
@@ -4158,8 +3918,6 @@ entry(
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
     longDesc = 
@@ -4176,9 +3934,6 @@ Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
 """,
-    history = [
-        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
-    ],
 )
 
 entry(
@@ -4238,18 +3993,11 @@ entry(
         Tmin = (700,"K"),
         Tmax = (2000,"K"),
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Zador CCSD(T) calc""",
     longDesc = 
 u"""
 Rate comes from quantum calculation by J. Zador at CCSD(T) level
 [ This rate was obtained by personal communication as of Sept 2012]
 """,
-    history = [
-        ("Wed Sep 12 14:33:46 2012","Shamel Merchant <shamel@mit.edu>","action","""New entry. CCCCO + OH = CCC[CH]O + H2O"""),
-        ("Wed Sep 12 14:35:29 2012","Shamel Merchant <shamel@mit.edu>","action","""Changed degeneracy to 2"""),
-        ("Wed Nov  7 17:13:14 2012","Connie Gao <connieg@mit.edu>","action","""Updated temperature range."""),
-    ],
 )
 

@@ -59,9 +59,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [Ar]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -88,9 +85,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 N#N
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -115,9 +109,6 @@ L 7/88.
 [H]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -142,9 +133,6 @@ L 1/90.
 [O]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -169,9 +157,6 @@ S 9/01.
 [OH]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -197,9 +182,6 @@ L 5/89.
 [O]O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -225,9 +207,6 @@ TPIS78.
 [H][H]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -252,9 +231,6 @@ L 8/89.
 O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -280,9 +256,6 @@ L 7/88.
 OO
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -308,9 +281,6 @@ TPIS89.
 [O][O]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -335,9 +305,6 @@ L11/88.
 [C]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -362,9 +329,6 @@ TPIS79.
 [CH]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -389,9 +353,6 @@ L S/93.
 [CH2]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -416,9 +377,6 @@ L S/93.
 singlet[CH2]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -443,9 +401,6 @@ L11/89.
 [CH3]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:47 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -470,9 +425,6 @@ L 8/88.
 C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -498,9 +450,6 @@ L12/89.
 [CH]=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -526,9 +475,6 @@ L 8/88.
 C=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -554,9 +500,6 @@ IU1/03.
 C[O]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -582,9 +525,6 @@ IU2/03.
 [CH2]O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -610,9 +550,6 @@ L 8/88.
 CO
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -638,9 +575,6 @@ TPIS79.
 [C]=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -667,9 +601,6 @@ L 7/88.
 O=C=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -696,9 +627,6 @@ RUS 79.
 [C]#C[O]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -724,9 +652,6 @@ L 1/91.
 [C]#C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -752,9 +677,6 @@ L 1/91.
 C#C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -784,10 +706,6 @@ Corrected from Triplet to Singlet state:
     as the triplet, but this thermochemistry is definitely that of the singlet, which
     is roughly 200kJ/mol more stable.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-        ("Mon Aug  13 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> changed the electronic state from Triplet to Singlet"""),
-    ],
 )
 
 entry(
@@ -813,9 +731,6 @@ L 2/92.
 [CH]=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -841,9 +756,6 @@ L 1/91.
 C=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -869,9 +781,6 @@ L12/92.
 [CH2]C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -897,9 +806,6 @@ L 8/88.
 CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -927,9 +833,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]=C=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -957,9 +860,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#CO
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -986,9 +886,6 @@ D05/90.
 C=C=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1015,9 +912,6 @@ T 9/92.
 C[C]=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1045,9 +939,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1075,9 +966,6 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 [CH]1CO1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1104,9 +992,6 @@ L 8/88.
 CC=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1134,9 +1019,6 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 C1CO1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1163,9 +1045,6 @@ T 5/97.
 C#C[CH2]
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1192,9 +1071,6 @@ T 2/90.
 C#CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1221,9 +1097,6 @@ L 8/89.
 C=C=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1251,9 +1124,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C1=CC1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1281,9 +1151,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1311,9 +1178,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=[C]C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1341,9 +1205,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]=CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1371,9 +1232,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1401,9 +1259,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1431,9 +1286,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C[CH]C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1461,9 +1313,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1492,9 +1341,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=C[C]=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1523,9 +1369,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=CC=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1554,9 +1397,6 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 CC1CO1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1585,9 +1425,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCC=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1615,9 +1452,6 @@ T 5/92.
 CC(C)=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1646,9 +1480,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#CC#C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1677,9 +1508,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]=CC#C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1708,9 +1536,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#C[C]=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1739,9 +1564,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#CC=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1770,9 +1592,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]=CC=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1801,9 +1620,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=[C]C=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1832,9 +1648,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C#CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1863,9 +1676,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]1C=CC1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1894,9 +1704,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=CC=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1925,9 +1732,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=C=CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1956,9 +1760,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC#CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -1987,9 +1788,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]CC=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2018,9 +1816,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C(=C)C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2049,9 +1844,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=CCC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2080,9 +1872,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC=CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2111,9 +1900,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=C(C)C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2142,9 +1928,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]CCC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2172,9 +1955,6 @@ T07/95.
 C[CH]CC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2203,9 +1983,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C(C)C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2234,9 +2011,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C[C](C)C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2265,9 +2039,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCCC
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2296,9 +2067,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC(C)C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2328,9 +2096,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=C=C=C=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2359,9 +2124,6 @@ T03/97.
 c1ccoc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2391,9 +2153,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C=CC=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2423,9 +2182,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC=C[C]=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2455,9 +2211,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=CC1CO1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2486,9 +2239,6 @@ T 3/97.
 C1=COCC1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2518,9 +2268,6 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 CC=CC=O
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2549,9 +2296,6 @@ T 3/97.
 C1=CCOC1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2581,9 +2325,6 @@ T 8/99.
 O=C1C=CC=C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2614,9 +2355,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 O=C1C=C[CH]C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2647,9 +2385,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [O]C1C=CC=C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2679,9 +2414,6 @@ T 8/99.
 OC1=CC=C[CH]1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2712,9 +2444,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 OC1C=CC=C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2744,9 +2473,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]1C=CC=C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2775,9 +2501,6 @@ T 1/90.
 C1=CCC=C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2807,9 +2530,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C=CC=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2840,9 +2560,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#CC#CC#C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2873,9 +2590,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]=CC#CC#C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2906,9 +2620,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#CC#CC=C
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2939,9 +2650,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C1#CC=C[CH][CH]1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -2972,9 +2680,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C1=C[CH]C=CC=1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3005,9 +2710,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 c1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3038,9 +2740,6 @@ T08/90.
 [CH2]c1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3071,9 +2770,6 @@ L 6/87.
 Cc1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3106,9 +2802,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#Cc1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3139,9 +2832,6 @@ T05/02.
 O=C1C=C[CH]C=C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3173,9 +2863,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 Oc1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3208,9 +2895,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 O=C1C=CC(=O)C=C1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3243,9 +2927,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 O=[C]c1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3278,9 +2959,6 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 O=Cc1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3312,9 +2990,6 @@ L 7/87.
 OCc1ccccc1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3347,9 +3022,6 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC1=CC(=O)C=C[CH]1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3381,9 +3053,6 @@ AVG CRESOL6/87.
 Cc1cccc(O)c1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 
 entry(
@@ -3415,8 +3084,5 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC1=CC=C=C[CH]1
 Imported from USC-Mech ii thermdat.txt.
 """,
-    history = [
-        ("Thu Aug  8 17:29:49 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
-    ],
 )
 

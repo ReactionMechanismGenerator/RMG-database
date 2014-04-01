@@ -38,9 +38,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -66,9 +63,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -93,9 +87,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -121,9 +112,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -149,9 +137,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -178,9 +163,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -207,9 +189,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -237,9 +216,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -264,9 +240,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -292,9 +265,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -321,9 +291,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -350,9 +317,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -380,9 +344,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -411,9 +372,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -439,9 +397,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -468,9 +423,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -497,9 +449,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -527,9 +476,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -558,9 +504,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -593,10 +536,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -626,9 +565,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -655,9 +591,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -685,9 +618,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -716,9 +646,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -748,9 +675,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -781,9 +705,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -815,9 +736,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -846,9 +764,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -880,10 +795,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -916,10 +827,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -951,10 +858,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -981,9 +884,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1010,9 +910,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1037,9 +934,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1066,9 +960,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1095,9 +986,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1123,9 +1011,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1152,9 +1037,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1182,9 +1064,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1210,9 +1089,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1239,9 +1115,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1273,10 +1146,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1308,10 +1177,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1343,10 +1208,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1373,9 +1234,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1401,9 +1259,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1435,10 +1290,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1468,10 +1319,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1500,10 +1347,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1542,10 +1385,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1583,10 +1422,6 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 
 entry(
@@ -1617,9 +1452,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
 )
 
 entry(
@@ -1653,9 +1485,5 @@ by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range p
 introduces less error than not using the thermo at all, so the range has been extended
 to 298K.
 """,
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
 )
 

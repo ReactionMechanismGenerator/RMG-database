@@ -69,10 +69,6 @@ The authors used a variable pressure flow reactor to study ethanol pyrolysis at 
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:4"""),
-        ("Wed Jul 18 14:10:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to comments in long description"""),
-    ],
 )
 
 entry(
@@ -136,10 +132,6 @@ The authors used a variable pressure flow reactor to study ethanol pyrolysis at 
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:6"""),
-        ("Wed Jul 18 14:10:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to comments in long description"""),
-    ],
 )
 
 entry(
@@ -203,10 +195,6 @@ The authors used a variable pressure flow reactor to study ethanol pyrolysis at 
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:7"""),
-        ("Wed Jul 18 14:10:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to comments in long description"""),
-    ],
 )
 
 entry(
@@ -270,10 +258,6 @@ The authors used a variable pressure flow reactor to study ethanol pyrolysis at 
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:5"""),
-        ("Wed Jul 18 14:10:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to comments in long description"""),
-    ],
 )
 
 entry(
@@ -337,10 +321,6 @@ The authors used a variable pressure flow reactor to study ethanol pyrolysis at 
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:1"""),
-        ("Wed Jul 18 14:10:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to comments in long description"""),
-    ],
 )
 
 entry(
@@ -404,10 +384,6 @@ The authors used a variable pressure flow reactor to study ethanol pyrolysis at 
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:2"""),
-        ("Wed Jul 18 14:10:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to comments in long description"""),
-    ],
 )
 
 entry(
@@ -471,10 +447,6 @@ The authors used a variable pressure flow reactor to study ethanol pyrolysis at 
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:3"""),
-        ("Wed Jul 18 14:10:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Fixed T and P ranges according to comments in long description"""),
-    ],
 )
 
 entry(
@@ -536,9 +508,6 @@ Results are based on a review and analysis of the literature data. The article d
 
 Some analytical formats for intermediate pressures are also given in the paper but are too complex to reproduce here.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004TSA456-465:1"""),
-    ],
 )
 
 entry(
@@ -596,9 +565,6 @@ u"""
 PrIMe Reaction: r00001601
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001601/rk00000001.xml
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MAR183-220:3"""),
-    ],
 )
 
 entry(
@@ -665,9 +631,6 @@ Good agreement (1 kcal/mol) between experimentally derived barriers for HF and H
 
 Note that initial CH2=CH2(OH) product from HF elimination channel quickly isomerizes to CH3-CHO.
 """,
-    history = [
-        ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003RAJ/RED9782-9793:7"""),
-    ],
 )
 
 entry(
@@ -727,9 +690,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:15:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:4"""),
-    ],
 )
 
 entry(
@@ -790,9 +750,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:15:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:3"""),
-    ],
 )
 
 entry(
@@ -853,9 +810,6 @@ Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 08:15:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BLA/JAC94-96:2"""),
-    ],
 )
 
 entry(
@@ -915,9 +869,6 @@ Bath gas: CH3C(O)OH
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
-    history = [
-        ("Fri Jul 13 08:15:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949BAM/DEW2877-2882:2"""),
-    ],
 )
 
 entry(
@@ -972,9 +923,6 @@ entry(
 u"""
 PrIMe Reaction: r00001646
 """,
-    history = [
-        ("Fri Jul 13 08:15:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DUA/PAG5114-5119:2"""),
-    ],
 )
 
 entry(
@@ -1044,9 +992,6 @@ Bath gas: iso-C3H7OH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:15:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975TRE2405:2"""),
-    ],
 )
 
 entry(
@@ -1117,9 +1062,6 @@ The authors studied the unimolecular decomposition of iso-C3H7OH with a modified
 
 Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
-    history = [
-        ("Fri Jul 13 08:15:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:6"""),
-    ],
 )
 
 entry(
@@ -1190,9 +1132,6 @@ The authors studied the unimolecular decomposition of iso-C3H7OH with a modified
 
 Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
-    history = [
-        ("Fri Jul 13 08:15:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:7"""),
-    ],
 )
 
 entry(
@@ -1261,9 +1200,6 @@ The authors studied the unimolecular decomposition of iso-C3H7OH with a modified
 
 Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
-    history = [
-        ("Fri Jul 13 08:15:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:8"""),
-    ],
 )
 
 entry(
@@ -1337,9 +1273,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:15:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FOU/MAR132:1"""),
-    ],
 )
 
 entry(
@@ -1413,9 +1346,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:15:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975SER/HUH120-123:1"""),
-    ],
 )
 
 entry(
@@ -1490,9 +1420,6 @@ Bath gas: (C2H5)2O
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [
-        ("Fri Jul 13 08:15:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964LAI/MCK517-526:1"""),
-    ],
 )
 
 entry(
@@ -1566,9 +1493,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979NEW/ONE1167:1"""),
-    ],
 )
 
 entry(
@@ -1642,9 +1566,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LEW/KEI4398:1"""),
-    ],
 )
 
 entry(
@@ -1715,9 +1636,6 @@ Bath gas: tert-C4H9OH
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971GON/LEW103-123:3"""),
-    ],
 )
 
 entry(
@@ -1792,9 +1710,6 @@ Bath gas: He
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DOR/MCG2526:2"""),
-    ],
 )
 
 entry(
@@ -1868,9 +1783,6 @@ Bath gas: He
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964TSA1498-1505:1"""),
-    ],
 )
 
 entry(
@@ -1947,9 +1859,6 @@ Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 08:16:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959BAR947-951:1"""),
-    ],
 )
 
 entry(
@@ -2020,9 +1929,6 @@ Uncertainty: 3.1600001
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973TRE1737:1"""),
-    ],
 )
 
 entry(
@@ -2096,9 +2002,6 @@ Bath gas: Toluene
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 08:16:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ROT/CHU909-915:4"""),
-    ],
 )
 
 entry(
@@ -2178,9 +2081,6 @@ Bath gas: tert-C4H9OCH3
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987BRO/BAR19:1"""),
-    ],
 )
 
 entry(
@@ -2260,9 +2160,6 @@ Bath gas: tert-C4H9OCH3
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980BRO/BAR321:1"""),
-    ],
 )
 
 entry(
@@ -2339,9 +2236,6 @@ PrIMe Reaction: r00009888
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [
-        ("Fri Jul 13 08:16:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974CHO/GOL631:1"""),
-    ],
 )
 
 entry(
@@ -2420,9 +2314,6 @@ Bath gas: He
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968DAL/WEN2711-2716:1"""),
-    ],
 )
 
 entry(
@@ -2509,9 +2400,6 @@ Bath gas: (iso-C3H7)2O
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966DAL/STI239-250:1"""),
-    ],
 )
 
 entry(
@@ -2595,9 +2483,6 @@ Bath gas: CH2(OC2H5)2
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997HER/MAN5494-5499:5"""),
-    ],
 )
 
 entry(
@@ -2684,9 +2569,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:9"""),
-    ],
 )
 
 entry(
@@ -2773,9 +2655,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:10"""),
-    ],
 )
 
 entry(
@@ -2862,9 +2741,6 @@ Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [
-        ("Fri Jul 13 08:16:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008YAS/KUR192-197:1"""),
-    ],
 )
 
 entry(
@@ -2951,9 +2827,6 @@ Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 08:16:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968DAL/WEN1535:1"""),
-    ],
 )
 
 entry(
@@ -3041,9 +2914,6 @@ Bath gas: Ar
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Tue Jul 24 15:16:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:5"""),
-    ],
 )
 
 entry(
@@ -3137,9 +3007,6 @@ Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 08:16:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970DAL/ZIO541:1"""),
-    ],
 )
 
 entry(
@@ -3233,9 +3100,6 @@ Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [
-        ("Fri Jul 13 08:16:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970DAL/ZIO541:2"""),
-    ],
 )
 
 entry(
@@ -3317,9 +3181,6 @@ Bath gas: Cyclohexene
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [
-        ("Fri Jul 13 08:16:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996CHU/ROT787-794:5"""),
-    ],
 )
 
 entry(
@@ -3404,8 +3265,5 @@ Analytical technique: Gas chromatography
 
 Reactor surface seasoned with allyl bromide.No effect of change in surface to volume by factor of 6.
 """,
-    history = [
-        ("Fri Jul 13 08:15:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHU/ROT401-407:3"""),
-    ],
 )
 

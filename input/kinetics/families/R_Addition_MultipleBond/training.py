@@ -64,8 +64,6 @@ entry(
         Tmax = (493,"K"),
     ),
     reference = Article(authors=["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals', journal="J. Chem. Soc.", pages="""940-944""", year="1962", url="http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:1"),
-    referenceType = "",
-    shortDesc = u"""Dominguez et al. (1962). Data derived from fitting a complex mechanism.""",
     longDesc = 
 u"""
 Dominguez et al. Data derived from fitting to a complex mechanism.
@@ -75,9 +73,6 @@ C2H2 + Tert-C4H9 --> (CH3)3CCH=CH
 Was in the rules database with rank=4. Richard moved to the training database and checked with NIST database. NIST squib: 1962GAR/TRO940-944
 A=5.01e+10 cm^3/(mol*s) is the full rate; NB the degeneracy=2 so the per-site rate is half this.
 """,
-    history = [
-        ("2011-08-09","Richard West <rwest@mit.edu>","action","""New entry. Moved from rules to training, cross-referenced with NIST and PrIMe."""),
-    ],
 )
 
 entry(

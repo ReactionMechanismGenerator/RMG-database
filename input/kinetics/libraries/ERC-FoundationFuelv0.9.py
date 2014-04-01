@@ -40,16 +40,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -95,16 +90,11 @@ OH
         ],
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -141,16 +131,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -187,16 +172,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -241,16 +221,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -287,16 +262,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -333,16 +303,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -379,16 +344,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -425,16 +385,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -484,16 +439,11 @@ O2
         ],
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -545,16 +495,11 @@ O2
         ],
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -593,16 +538,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -641,16 +581,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -689,16 +624,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -750,16 +680,11 @@ HO2
         ],
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -796,16 +721,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -848,16 +768,11 @@ CO2
         ],
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -896,16 +811,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -942,16 +852,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -988,16 +893,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1034,16 +934,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1082,16 +977,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1130,16 +1020,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1174,16 +1059,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1218,16 +1098,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1262,16 +1137,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1306,16 +1176,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1352,16 +1217,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1398,16 +1258,11 @@ CH2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1446,16 +1301,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1492,16 +1342,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1538,16 +1383,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1584,16 +1424,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1635,16 +1470,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1683,16 +1513,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1734,16 +1559,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1782,16 +1602,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1830,16 +1645,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1880,16 +1690,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1928,16 +1733,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -1981,16 +1781,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2034,16 +1829,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2083,16 +1873,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2129,16 +1914,11 @@ C2H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2177,16 +1957,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2232,16 +2007,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2282,16 +2052,11 @@ H2CC
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2328,16 +2093,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2379,16 +2139,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2427,16 +2182,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2475,16 +2225,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2523,16 +2268,11 @@ O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2573,16 +2313,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2623,16 +2358,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2675,16 +2405,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2723,16 +2448,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2773,16 +2493,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2823,16 +2538,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2871,16 +2581,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2919,16 +2624,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -2969,16 +2669,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3019,16 +2714,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3071,16 +2761,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3121,16 +2806,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3173,16 +2853,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3225,16 +2900,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3277,16 +2947,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3333,16 +2998,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3381,16 +3041,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3434,16 +3089,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3484,16 +3134,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3534,16 +3179,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3584,16 +3224,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3636,16 +3271,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3688,16 +3318,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3738,16 +3363,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3788,16 +3408,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3836,16 +3451,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3886,16 +3496,11 @@ C2H3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3938,16 +3543,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -3990,16 +3590,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4044,16 +3639,11 @@ C2H5
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4096,16 +3686,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4150,16 +3735,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4200,16 +3780,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4250,16 +3825,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4300,16 +3870,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4350,16 +3915,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4400,16 +3960,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4452,16 +4007,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4504,16 +4054,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4560,16 +4105,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4612,16 +4152,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4662,16 +4197,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4712,16 +4242,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4762,16 +4287,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4812,16 +4332,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4864,16 +4379,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4916,16 +4426,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -4972,16 +4477,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5022,16 +4522,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5072,16 +4567,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5124,16 +4614,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5178,16 +4663,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5230,16 +4710,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5284,16 +4759,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5338,16 +4808,11 @@ CH3
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5392,16 +4857,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5444,16 +4904,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5496,16 +4951,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5548,16 +4998,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5600,16 +5045,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5654,16 +5094,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5708,16 +5143,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5762,16 +5192,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5818,16 +5243,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5874,16 +5294,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5928,16 +5343,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -5984,16 +5394,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6040,16 +5445,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6096,16 +5496,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6152,16 +5547,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6210,16 +5600,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6268,16 +5653,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6324,16 +5704,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6380,16 +5755,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6440,16 +5810,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6500,16 +5865,11 @@ CH3O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6546,16 +5906,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6594,16 +5949,11 @@ HCCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6642,16 +5992,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6690,16 +6035,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6738,16 +6078,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6790,16 +6125,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6838,16 +6168,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6892,16 +6217,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6942,16 +6262,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -6994,16 +6309,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7052,16 +6362,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7100,16 +6405,11 @@ HCCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7148,16 +6448,11 @@ CH2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7198,16 +6493,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7248,16 +6538,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7298,16 +6583,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7346,16 +6626,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7396,16 +6671,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7446,16 +6716,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7496,16 +6761,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7546,16 +6806,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7596,16 +6851,11 @@ HCCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7646,16 +6896,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7696,16 +6941,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7746,16 +6986,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7798,16 +7033,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7850,16 +7080,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7902,16 +7127,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -7954,16 +7174,11 @@ CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8004,16 +7219,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8054,16 +7264,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8104,16 +7309,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8156,16 +7356,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8208,16 +7403,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8260,16 +7450,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8312,16 +7497,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8364,16 +7544,11 @@ O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8416,16 +7591,11 @@ HO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8472,16 +7642,11 @@ C2H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8524,16 +7689,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8576,16 +7736,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8628,16 +7783,11 @@ H
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8685,16 +7835,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8739,16 +7884,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8793,16 +7933,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8852,16 +7987,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8904,16 +8034,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -8956,16 +8081,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9008,16 +8128,11 @@ CO2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9062,16 +8177,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9120,16 +8230,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9180,16 +8285,11 @@ OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9234,16 +8334,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9292,16 +8387,11 @@ CH2CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9346,16 +8436,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9400,16 +8485,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9454,16 +8534,11 @@ CH2CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9508,16 +8583,11 @@ CH3CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9564,16 +8634,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9620,16 +8685,11 @@ CH3CO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9678,16 +8738,11 @@ H2O2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9738,16 +8793,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9790,16 +8840,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9842,16 +8887,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9894,16 +8934,11 @@ CH2CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -9946,16 +8981,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10000,16 +9030,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10058,16 +9083,11 @@ CH4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10112,16 +9132,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10166,16 +9181,11 @@ CH2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10220,16 +9230,11 @@ CH3CHO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10274,16 +9279,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10330,16 +9330,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10390,16 +9385,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10450,16 +9440,11 @@ HCO
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10514,16 +9499,11 @@ CH2OH
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10570,16 +9550,11 @@ H2
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10626,16 +9601,11 @@ C2H5
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10684,16 +9654,11 @@ H2O
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10742,16 +9707,11 @@ C2H4
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10802,16 +9762,11 @@ C2H5
         T0 = (1, 'K'),
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10875,16 +9830,11 @@ CH4
         ],
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10916,16 +9866,11 @@ H
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10957,16 +9902,11 @@ O2
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -10998,16 +9938,11 @@ OH
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, '[C]=O': 1.9, '[Ar]': 0.75},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11041,16 +9976,11 @@ OH
         efficiencies = {'O=C=O': 3.8, 'O': 0.0, '[H][H]': 3.0, '[He]': 0.22, '[O][O]': 1.5, 'N#N': 2.0, '[C]=O': 1.9, '[Ar]': 0.36},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11094,16 +10024,11 @@ HO2
         efficiencies = {'O=C=O': 2.02, 'O': 12.36, '[H][H]': 1.08, '[He]': 0.57, '[O][O]': 0.54, '[C]=O': 1.08, '[Ar]': 0.39},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11149,16 +10074,11 @@ OH
         efficiencies = {'OO': 7.7, 'O=C=O': 1.6, 'O': 7.5, '[H][H]': 3.7, '[He]': 0.65, '[O][O]': 1.2, 'N#N': 1.5, '[C]=O': 2.8},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11198,16 +10118,11 @@ CO2
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.87},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11241,16 +10156,11 @@ CO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 9.55, 'C=O': 2.5, '[He]': 0.95, '[C]=O': 1.5, '[Ar]': 1.02},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11296,16 +10206,11 @@ CH3
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11351,16 +10256,11 @@ HCCO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11406,16 +10306,11 @@ CH3
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11465,16 +10360,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11520,16 +10410,11 @@ CH2O
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11570,16 +10455,11 @@ CO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11627,16 +10507,11 @@ CH4
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11686,16 +10561,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11749,16 +10619,11 @@ C2H6
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11801,16 +10666,11 @@ CH2O
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11860,16 +10720,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11917,16 +10772,11 @@ CH2O
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -11976,16 +10826,11 @@ CH3OH
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12031,16 +10876,11 @@ C2H2
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12078,16 +10918,11 @@ H2CC
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12135,16 +10970,11 @@ C2H3
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12192,16 +11022,11 @@ CH2CO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12251,16 +11076,11 @@ C2H4
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12310,16 +11130,11 @@ H
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12369,16 +11184,11 @@ CO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12428,16 +11238,11 @@ CO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12489,16 +11294,11 @@ CH3CHO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12545,16 +11345,11 @@ CO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12601,16 +11396,11 @@ HCO
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12655,16 +11445,11 @@ H2CC
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12716,16 +11501,11 @@ C2H5
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
 entry(
@@ -12779,15 +11559,10 @@ C2H6
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
         comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
-    history = [
-        ("Mon Sep 16 17:01:57 2013","Shamel Merchant <shamel@mit.edu>","action","""Shamel Merchant <shamel@mit.edu> imported this entry from the old RMG database."""),
-    ],
 )
 
