@@ -107,10 +107,10 @@ def getKineticsLeaveOneOut(family, missingGroups):
 
 #returns the average temperature for the range given by the kinetic model
 def getAverageTemp(kineticModel):
-    try:
-        return (kineticModel.Tmin.value + kineticModel.Tmax.value)/2
-    except AttributeError:
-        return 1000
+#     try:
+#         return (kineticModel.Tmin.value + kineticModel.Tmax.value)/2
+#     except AttributeError:
+    return 1000
         
 #calculates the parity values for each
 def calculateParity(exactKineticModel, approxKineticModel, T):
@@ -130,7 +130,7 @@ def analyzeForParity(exactKinetics, approxKinetics, T=None, cutoff=0):
         exact=exactKinetics[key].getRateCoefficient(T)
         approx=approxKinetics[key].getRateCoefficient(T)
         dataPoint=[exact, approx]
-        if cutoff!=0 and math.log((float(exact)/float(approx)))**2 > cutoff**2:
+        if cutoff!=0 and math.log10((float(exact)/float(approx)))**2 > cutoff**2:
             continue
         parityData[key]=dataPoint
     
@@ -143,7 +143,7 @@ def analyzeForParity(exactKinetics, approxKinetics, T=None, cutoff=0):
 def calculateQ(parityData):
     Q=0
     for key, value in parityData.iteritems():
-        Q+=(math.log(value[0]/value[1]))**2
+        Q+=(math.log10(value[0]/value[1]))**2
     return (Q/len(parityData))**0.5
 
 def createParityPlot(parityData):
