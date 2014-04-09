@@ -78741,9 +78741,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -78775,9 +78775,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -78809,9 +78809,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -78843,9 +78843,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -78877,9 +78877,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -78912,9 +78912,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -78947,9 +78947,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -78982,9 +78982,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79018,9 +79018,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79054,9 +79054,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79088,9 +79088,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79122,9 +79122,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79156,9 +79156,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79190,9 +79190,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79224,9 +79224,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79258,9 +79258,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79293,9 +79293,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -79328,9 +79328,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80613,9 +80613,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80647,9 +80647,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80681,9 +80681,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80715,9 +80715,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80749,9 +80749,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80784,9 +80784,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80819,9 +80819,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80854,9 +80854,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80890,9 +80890,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80926,9 +80926,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80960,9 +80960,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -80994,9 +80994,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -81028,9 +81028,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -81062,9 +81062,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -81096,9 +81096,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -81130,9 +81130,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -81165,9 +81165,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -81200,9 +81200,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -88445,9 +88445,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -88539,9 +88539,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     group2 = 
 """
@@ -89560,8 +89560,8 @@ u"""
 entry(
     index = 3000,
     label = "R_R;YJ",
-    group1 = "OR{Cd_R, Ct_R, Od_R, Sd_R}",
-    group2 = "OR{HJ, CJ, O_rad, SJ, Y_1centerbirad}",
+    group1 = "OR{Cd_R, Ct_R, Od_R, Sd_R, Nd_R, Nt_R}", 
+    group2 = "OR{HJ, CJ, OJ, SJ, NJ, Y_1centerbirad, Y_1centertrirad, Y_1centerquadrad}",
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -90053,7 +90053,7 @@ u"""
 
 entry(
     index = 3015,
-    label = "Cds-HH_Cds-HH;O_pri_rad",
+    label = "Cds-HH_Cds-HH;OJ_pri",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91272,7 +91272,7 @@ u"""
 
 entry(
     index = 3052,
-    label = "Ct-H_Ct-H;O_pri_rad",
+    label = "Ct-H_Ct-H;OJ_pri",
     group1 = 
 """
 1 *1 Ct 0 {2,T} {3,S}
@@ -91303,7 +91303,7 @@ u"""
 
 entry(
     index = 3053,
-    label = "Ct-H_Ct-H;O_pri_rad",
+    label = "Ct-H_Ct-H;OJ_pri",
     group1 = 
 """
 1 *1 Ct 0 {2,T} {3,S}
@@ -91334,7 +91334,7 @@ u"""
 
 entry(
     index = 3054,
-    label = "Ct-H_Ct-H;O_sec_rad",
+    label = "Ct-H_Ct-H;OJ_sec",
     group1 = 
 """
 1 *1 Ct 0 {2,T} {3,S}
@@ -91400,7 +91400,7 @@ u"""
 
 entry(
     index = 3056,
-    label = "CO/H/Nd_O;O_rad/NonDeO",
+    label = "CO/H/Nd_O;OJ-Os",
     group1 = 
 """
 1 *1 CO     0 {2,D} {3,S} {4,S}
@@ -91431,7 +91431,7 @@ u"""
 
 entry(
     index = 3057,
-    label = "CO/Nd2_O;O_rad/NonDeO",
+    label = "CO/Nd2_O;OJ-Os",
     group1 = 
 """
 1 *1 CO     0 {2,D} {3,S} {4,S}
@@ -91462,7 +91462,7 @@ u"""
 
 entry(
     index = 3058,
-    label = "CO/H2_O;O_rad/NonDeO",
+    label = "CO/H2_O;OJ-Os",
     group1 = 
 """
 1 *1 CO 0 {2,D} {3,S} {4,S}
@@ -91493,7 +91493,7 @@ u"""
 
 entry(
     index = 3059,
-    label = "CO/Nd2_O;O_rad/NonDeO",
+    label = "CO/Nd2_O;OJ-Os",
     group1 = 
 """
 1 *1 CO     0 {2,D} {3,S} {4,S}
@@ -91524,7 +91524,7 @@ u"""
 
 entry(
     index = 3060,
-    label = "Cds-HH_Cds-HH;O_rad/NonDeO",
+    label = "Cds-HH_Cds-HH;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91557,7 +91557,7 @@ u"""
 
 entry(
     index = 3061,
-    label = "Cds-HH_Cds-CsH;O_rad/NonDeO",
+    label = "Cds-HH_Cds-CsH;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91590,7 +91590,7 @@ u"""
 
 entry(
     index = 3062,
-    label = "Cds-HH_Cds-CsCs;O_rad/NonDeO",
+    label = "Cds-HH_Cds-CsCs;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91623,7 +91623,7 @@ u"""
 
 entry(
     index = 3063,
-    label = "Cds-CsH_Cds-HH;O_rad/NonDeO",
+    label = "Cds-CsH_Cds-HH;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91656,7 +91656,7 @@ u"""
 
 entry(
     index = 3064,
-    label = "Cds-CsH_Cds-CsH;O_rad/NonDeO",
+    label = "Cds-CsH_Cds-CsH;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91689,7 +91689,7 @@ u"""
 
 entry(
     index = 3065,
-    label = "Cds-CsH_Cds-CsCs;O_rad/NonDeO",
+    label = "Cds-CsH_Cds-CsCs;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91722,7 +91722,7 @@ u"""
 
 entry(
     index = 3066,
-    label = "Cds-CsCs_Cds-HH;O_rad/NonDeO",
+    label = "Cds-CsCs_Cds-HH;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91755,7 +91755,7 @@ u"""
 
 entry(
     index = 3067,
-    label = "Cds-CsCs_Cds-CsH;O_rad/NonDeO",
+    label = "Cds-CsCs_Cds-CsH;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91788,7 +91788,7 @@ u"""
 
 entry(
     index = 3068,
-    label = "Cds-CsCs_Cds-CsCs;O_rad/NonDeO",
+    label = "Cds-CsCs_Cds-CsCs;OJ-Os",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -91821,7 +91821,7 @@ u"""
 
 entry(
     index = 3069,
-    label = "Cds-HH_Cds-CsH;O_pri_rad",
+    label = "Cds-HH_Cds-CsH;OJ_pri",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -93277,7 +93277,7 @@ u"""
 
 entry(
     index = 3119,
-    label = "Cds-HH_Cds-Cs\H3/H;O_pri_rad",
+    label = "Cds-HH_Cds-Cs\H3/H;OJ_pri",
     group1 = 
 """
 1    C 0 {2,S} {4,S} {5,S} {6,S}
@@ -93737,7 +93737,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 Cs 3 {2,S}
+1 *3 Cs 3Q {2,S}
 2    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
@@ -93758,7 +93758,7 @@ Added by Beat Buesser, value for reaction: CH + N2 = HCNN (B&D #24a) in 'Gas-Pha
 
 entry(
     index = 3202,
-    label = "N3d/H_N3d/H;H_rad",
+    label = "N3d-H_N3d-H;HJ",
     group1 = 
 """
 1 *1 N3d 0 {2,D} {3,S}
@@ -93788,7 +93788,7 @@ Added by Beat Buesser, value for reaction: N2H2 + H = N2H3 (B&D #31a) in 'Gas-Ph
 
 entry(
     index = 3203,
-    label = "Ct/H_N3t;O_pri_rad",
+    label = "Ct-H_N3t;OJ_pri",
     group1 = 
 """
 1 *1 Ct  0 {2,T} {3,S}
@@ -93818,7 +93818,7 @@ Added by Beat Buesser, value for reaction: HCN + OH = NCHOH (B&D #42b4) in 'Gas-
 
 entry(
     index = 3204,
-    label = "Ct/H_N3t;H_rad",
+    label = "Ct-H_N3t;HJ",
     group1 = 
 """
 1 *1 Ct  0 {2,T} {3,S}
@@ -93847,7 +93847,7 @@ Added by Beat Buesser, value for reaction: HCN + H = H2CN (B&D #45a) in 'Gas-Pha
 
 entry(
     index = 3205,
-    label = "N3t_CtH;H_rad",
+    label = "N3t_Ct-H;HJ",
     group1 = 
 """
 1 *1 N3t 0 {2,T}
@@ -93876,7 +93876,7 @@ Added by Beat Buesser, value for reaction: HCN + H = HCNH (B&D #46) in 'Gas-Phas
 
 entry(
     index = 3206,
-    label = "Cds/H2_N3d;H_rad",
+    label = "Cds-HH_N3d;HJ",
     group1 = 
 """
 1 *1 Cd  0 {2,D} {3,S} {4,S}
@@ -93906,7 +93906,7 @@ Added by Beat Buesser, value for reaction: H2CNH + H = CH3NH (B&D #49a) in 'Gas-
 
 entry(
     index = 3207,
-    label = "N3d/H_Cds/H2;H_rad",
+    label = "N3d-H_Cds-HH;HJ",
     group1 = 
 """
 1 *1 N3d 0 {2,D} {5,S}
@@ -93937,7 +93937,7 @@ Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-
 
 entry(
     index = 3208,
-    label = "N3t_Ct/H;O_atom_triplet",
+    label = "N3t_Ct-H;O_atom_triplet",
     group1 = 
 """
 1 *1 N3t 0 {2,T}
