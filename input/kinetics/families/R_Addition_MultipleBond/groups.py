@@ -17500,9 +17500,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -17592,9 +17592,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -20670,9 +20670,9 @@ entry(
     label = "CH2_triplet",
     group = 
 """
-1 *3 C {2S,2T} {2,S} {3,S}
-2    H 0       {1,S}
-3    H 0       {1,S}
+1 *3 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -20687,7 +20687,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 *3 Ss 1 {2,S}
+1 *3 S 1 {2,S}
 2    R  0 {1,S}
 """,
     kinetics = None,
