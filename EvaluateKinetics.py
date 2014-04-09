@@ -435,9 +435,16 @@ def checkFamilies(FullDatabase):
             if True in problemsExist:
                 outputFile.write(family + '\n')
                 if problemsExist[0]:
-                    outputFile.write('\n' + 'These groups exist in rules.py but not groups.py:' + '\n')
-                    for group in problems[0]:
-                        outputFile.write(group + '\n')
+                    outputFile.write('\n' + 'These groups exist in rules.py but not groups.py:' + '\n' + "A suggested match could be incorrect, but if 'No match' is written, it is true (and most unfortunate)" + '\n')
+                    for group, matchedGroups in problems[0].iteritems():
+                        outputFile.write(group + ', Suggested match from groups.py: ')
+                        for matchedGroup in matchedGroups:
+                            if matchedGroup==matchedGroups[-1]:
+                                if len(matchedGroups)>1:
+                                    outputFile.write('and ')
+                                outputFile.write(matchedGroup + '\n')
+                            else:
+                                outputFile.write(matchedGroup +', ' )
                 if problemsExist[1]:
                     outputFile.write('\n' + 'These groups do not match the definition in the rule' + '\n')
                     for rule, groups in problems[1].iteritems():
