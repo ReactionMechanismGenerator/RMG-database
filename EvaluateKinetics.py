@@ -482,7 +482,7 @@ def checkFamilies(FullDatabase):
                 outputFile.write('\n\n')
 if __name__ == '__main__':
 
-    
+    databaseProjectRootPath = os.path.dirname( os.path.abspath( __file__ ))
     #Thermo stuff
 #     ThermoDatabase=ThermoDatabase()
 #     ThermoDatabase.load(path)
@@ -490,9 +490,9 @@ if __name__ == '__main__':
 #     ThermoDatabase.save(path)
     FullDatabase=RMGDatabase()
 #     path=r'C:\RMG-database\input\thermo'
-    path='C:\RMG-database\input'
+    path = os.path.join(databaseProjectRootPath, 'input')
 #     FullDatabase.load(thermoLibraries=)
-    FullDatabase.load(path)
+    FullDatabase.load(path, kineticsFamilies='all')
     checkFamilies(FullDatabase)
 #     trialDir=r'C:\Users\User1\Dropbox\Research\RMG\kinetics\LeaveOneOut\test'
 #     trialDir=r'C:\RMG-database\input_test'
