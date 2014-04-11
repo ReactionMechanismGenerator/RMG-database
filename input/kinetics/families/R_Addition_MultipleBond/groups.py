@@ -21619,7 +21619,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 R!H 2
+1 *3 R!H 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -21634,7 +21634,7 @@ entry(
     label = "CO_birad",
     group = 
 """
-1 *3 C  2 {2,D}
+1 *3 C  2T {2,D}
 2    Od 0 {1,D}
 """,
     kinetics = None,
@@ -22202,54 +22202,6 @@ entry(
     group = 
 """
 1 *3 C 3D {2,S}
-2    H 0  {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 390,
-    label = "O_atom_singlet",
-    group = 
-"""
-1 *3 O 2S
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 391,
-    label = "CH2_singlet",
-    group = 
-"""
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 392,
-    label = "NH_singlet",
-    group = 
-"""
-1 *3 N 2S {2,S}
 2    H 0  {1,S}
 """,
     kinetics = None,
@@ -23439,9 +23391,6 @@ L1: YJ
                 L5: N3dJ_O
                 L5: N3dJ_N
     L2: Y_1centerbirad
-		L3: O_atom_singlet
-		L3: NH_singlet
-		L3: CH2_singlet
         L3: O_atom_triplet
         L3: SJJ
         L3: CH2_triplet
