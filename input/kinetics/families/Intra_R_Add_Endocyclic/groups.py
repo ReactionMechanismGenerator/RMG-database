@@ -1148,7 +1148,7 @@ entry(
 """
 1 *1 R!H                 1 {2,{S,D,T,B}}
 2 *4 R!H                 0 {1,{S,D,T,B}} {3,S}
-3    R!H                 0 {2,S} {4,{S,D,T,B}}
+3 *6 R!H                 0 {2,S} {4,{S,D,T,B}}
 4 *5 R!H                 0 {3,{S,D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO,N}        0 {4,S} {6,{D,T}}
 6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0 {5,{D,T}}
@@ -2944,7 +2944,7 @@ entry(
     group = 
 """
 1 *2 CO 0 {2,D}
-2 *3 O  0 {1,D}
+2 *3 Od  0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -2960,7 +2960,7 @@ entry(
     group = 
 """
 1 *2 CO 0 {2,D} {3,S}
-2 *3 O  0 {1,D}
+2 *3 Od  0 {1,D}
 3    H  0 {1,S}
 """,
     kinetics = None,
@@ -2977,7 +2977,7 @@ entry(
     group = 
 """
 1 *2 CO       0 {2,D} {3,S}
-2 *3 O        0 {1,D}
+2 *3 Od        0 {1,D}
 3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = None,
@@ -2994,7 +2994,7 @@ entry(
     group = 
 """
 1 *2 CO            0 {2,D} {3,S}
-2 *3 O             0 {1,D}
+2 *3 Od             0 {1,D}
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
