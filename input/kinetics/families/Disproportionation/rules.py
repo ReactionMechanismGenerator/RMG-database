@@ -518,8 +518,8 @@ entry(
     label = "Ct_rad/Ct;Cmethyl_Csrad",
     group1 = 
 """
-1 *1 C 1 {2,T}
-2    C 0 {1,T}
+1 *1 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     group2 = 
 """
@@ -1075,8 +1075,8 @@ entry(
     label = "Ct_rad/Ct;C/H2/Nd_Csrad",
     group1 = 
 """
-1 *1 C 1 {2,T}
-2    C 0 {1,T}
+1 *1 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     group2 = 
 """
@@ -1200,8 +1200,8 @@ entry(
     label = "Ct_rad/Ct;C/H/NdNd_Csrad",
     group1 = 
 """
-1 *1 C 1 {2,T}
-2    C 0 {1,T}
+1 *1 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     group2 = 
 """
@@ -2636,46 +2636,6 @@ Entry 39,19 (a): CH2OH + C2H3 --> C2H4 + CH2O
 Author suggests a disproportionation rate coefficient near the collision limit, due
 
 to rxn's exothermicity.  No data available at the time.
-MRH 30-Aug-2009
-""",
-)
-
-entry(
-    index = 548,
-    label = "Ct_rad;O_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,T}
-2    C 0 {1,T}
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (36100000000000.0, 'cm^3/(mol*s)', '*|/', 5),
-        n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-    ),
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: C2H + CH2OH --> C2H2 + CH2O
-
-pg. 504: Discussion on evaluated data
-
-Entry 39,21 (a): CH2OH + C2H --> C2H2 + CH2O
-
-Author suggest a disproportionation rate coefficient of 6.0x10^-11 cm3/molecule/s, due
-
-to very exothermic rxn.  No data available at the time.
 MRH 30-Aug-2009
 """,
 )
