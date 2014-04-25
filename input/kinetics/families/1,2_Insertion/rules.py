@@ -13,8 +13,8 @@ entry(
     label = "CO_birad;RR'",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = "OR{R_H, R_R'}",
     kinetics = ArrheniusEP(
@@ -38,8 +38,8 @@ entry(
     label = "CO_birad;C_methyl_C_methyl",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = 
 """
@@ -73,8 +73,8 @@ entry(
     label = "CO_birad;H2",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = 
 """
@@ -102,8 +102,8 @@ entry(
     label = "CO_birad;C_methane",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = 
 """
@@ -134,8 +134,8 @@ entry(
     label = "CO_birad;C_pri/NonDeC",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = 
 """
@@ -166,8 +166,8 @@ entry(
     label = "CO_birad;C/H2/NonDeC",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = 
 """
@@ -198,8 +198,8 @@ entry(
     label = "CO_birad;C/H/Cs3",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = 
 """
@@ -230,8 +230,8 @@ entry(
     label = "CO_birad;CsO_H",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     group2 = 
 """
@@ -261,9 +261,9 @@ entry(
     label = "carbene;ethene",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -295,9 +295,9 @@ entry(
     label = "carbene;Cd_pri",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -327,9 +327,9 @@ entry(
     label = "carbene;acetylene",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -359,9 +359,9 @@ entry(
     label = "carbene;Ct_H",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -389,9 +389,9 @@ entry(
     label = "carbene;C_pri/Cd",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -422,9 +422,9 @@ entry(
     label = "carbene;C_pri/Ct",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -455,9 +455,9 @@ entry(
     label = "carbene;Cd/H/NonDeC",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
@@ -487,9 +487,9 @@ entry(
     label = "carbene;Cd/H/OneDe",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """

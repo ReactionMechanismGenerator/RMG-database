@@ -92749,7 +92749,7 @@ u"""
 
 entry(
     index = 3100,
-    label = "Cds-HH_Cds-HH;O_atom_triplet",
+    label = "Cds-HH_Cds-HH;O_(T)",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -92761,7 +92761,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (44200000.0, 'cm^3/(mol*s)'),
@@ -92781,7 +92781,7 @@ u"""
 
 entry(
     index = 3101,
-    label = "Cds-CsH_Cds-HH;O_atom_triplet",
+    label = "Cds-CsH_Cds-HH;O_(T)",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -92793,7 +92793,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (41700000.0, 'cm^3/(mol*s)'),
@@ -92813,7 +92813,7 @@ u"""
 
 entry(
     index = 3102,
-    label = "Cds-HH_Cds-CsH;O_atom_triplet",
+    label = "Cds-HH_Cds-CsH;O_(T)",
     group1 = 
 """
 1 *1 Cd 0 {2,D} {3,S} {4,S}
@@ -92825,7 +92825,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (106000000.0, 'cm^3/(mol*s)'),
@@ -93699,7 +93699,11 @@ u"""
 
 entry(
     index = 3200,
+<<<<<<< HEAD
     label = "N3t_N3t;CH2_triplet",
+=======
+    label = "N3t_N3t-CH2_(T)",
+>>>>>>> origin/spin_conservation
     group1 = 
 """
 1 *1 N3t 0 {2,T}
@@ -93707,9 +93711,9 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.6e+32, 'cm^3/(mol*s)'),
@@ -93937,7 +93941,7 @@ Added by Beat Buesser, value for reaction: H2CNH + H = CH2NH2 (B&D #50) in 'Gas-
 
 entry(
     index = 3208,
-    label = "N3t_Ct/H;O_atom_triplet",
+    label = "N3t_Ct/H-O_(T)",
     group1 = 
 """
 1 *1 N3t 0 {2,T}
@@ -93946,7 +93950,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 O 2T
+1 *3 O 2
 """,
     kinetics = ArrheniusEP(
         A = (9.99e+25, 'cm^3/(mol*s)'),

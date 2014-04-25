@@ -35,9 +35,10 @@ u"""
 entry(
     index = 2,
     label = "Oa",
+    multiplicity = [3],
     group = 
 """
-1 *2 O 2T
+1 *2 O 2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -923,6 +924,7 @@ L1: Oa
 
 forbidden(
     label = "O2_birad",
+    multiplicity = [3],
     group = 
 """
 1 *1 O 1 {2,S}
@@ -936,11 +938,11 @@ u"""
 )
 
 forbidden(
-    label = "O2_1centeredBirad",
+    label = "O_(S)",
+    multiplicity = [1],
     group = 
 """
-1 *1 O 2T {2,S}
-2    R 0  {1,S}
+1 *1 O 2 2
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -949,16 +951,5 @@ u"""
 """,
 )
 
-forbidden(
-    label = "O_atom_singlet",
-    group = 
-"""
-1 *1 O 2S
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
 
-""",
-)
 

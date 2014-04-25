@@ -21,7 +21,12 @@ recipe(actions=[
 entry(
     index = 1,
     label = "elec_def",
-    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom, imidogen}",
+#    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom, imidogen}",
+    multiplicity = [1,2,3,4,5],
+    group = 
+"""
+1 *3 R 2
+""",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -45,9 +50,10 @@ u"""
 entry(
     index = 3,
     label = "o_atom",
+    multiplicity = [1],
     group = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2 2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -60,11 +66,12 @@ u"""
 entry(
     index = 4,
     label = "carbene",
+    multiplicity = [1],
     group = 
 """
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -77,14 +84,15 @@ u"""
 entry(
     index = 5,
     label = "me_carbene",
+    multiplicity = [1],
     group = 
 """
-1 *3 C  2S {2,S} {3,S}
-2    Cs 0  {1,S} {4,S} {5,S} {6,S}
-3    H  0  {1,S}
-4    H  0  {2,S}
-5    H  0  {2,S}
-6    H  0  {2,S}
+1 *3 C  2 {2,S} {3,S}
+2    Cs 0 {1,S} {4,S} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {2,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -97,16 +105,17 @@ u"""
 entry(
     index = 6,
     label = "ph_carbene",
+    multiplicity = [1],
     group = 
 """
-1 *3 C  2S {2,S} {3,S}
-2    Cb 0  {1,S} {4,B} {5,B}
-3    H  0  {1,S}
-4    Cb 0  {2,B} {6,B}
-5    Cb 0  {2,B} {7,B}
-6    Cb 0  {4,B} {8,B}
-7    Cb 0  {5,B} {8,B}
-8    Cb 0  {6,B} {7,B}
+1 *3 C  2 {2,S} {3,S}
+2    Cb 0 {1,S} {4,B} {5,B}
+3    H  0 {1,S}
+4    Cb 0 {2,B} {6,B}
+5    Cb 0 {2,B} {7,B}
+6    Cb 0 {4,B} {8,B}
+7    Cb 0 {5,B} {8,B}
+8    Cb 0 {6,B} {7,B}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -119,17 +128,18 @@ u"""
 entry(
     index = 7,
     label = "dime_carbene",
+    multiplicity = [1],
     group = 
 """
-1 *3 C  2S {2,S} {3,S}
-2    Cs 0  {1,S} {4,S} {5,S} {6,S}
-3    Cs 0  {1,S} {7,S} {8,S} {9,S}
-4    H  0  {2,S}
-5    H  0  {2,S}
-6    H  0  {2,S}
-7    H  0  {3,S}
-8    H  0  {3,S}
-9    H  0  {3,S}
+1 *3 C  2 {2,S} {3,S}
+2    Cs 0 {1,S} {4,S} {5,S} {6,S}
+3    Cs 0 {1,S} {7,S} {8,S} {9,S}
+4    H  0 {2,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
+7    H  0 {3,S}
+8    H  0 {3,S}
+9    H  0 {3,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -145,7 +155,7 @@ entry(
     group = 
 """
 1 *1 {CO,Cdd,N} 0 {2,D}
-2 *2 {O,N}        0 {1,D}
+2 *2 {O,N}      0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -925,10 +935,11 @@ u"""
 entry(
     index = 45,
     label = "imidogen",
+    multiplicity = [1],
     group = 
 """
-1 *3 N3s {2S,2T} {2,S}
-2    H   0       {1,S}
+1 *3 N3s 2 {2,S}
+2    H   0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -994,11 +1005,12 @@ L1: multiplebond
 
 forbidden(
     label = "carbene_triplet",
+    multiplicity = [3],
     group = 
 """
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 

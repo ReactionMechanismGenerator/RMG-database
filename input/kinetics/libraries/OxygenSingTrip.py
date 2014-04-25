@@ -10,13 +10,15 @@ entry(
     index = 1,
     reactant1 = 
 """
-O2S
+O2_(S)
+1
 1 O 0 2 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -41,13 +43,15 @@ entry(
     index = 2,
     reactant1 = 
 """
-O2S
+O2_(S)
+1
 1 O 0 2 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -70,13 +74,15 @@ entry(
     index = 3,
     reactant1 = 
 """
-O2S
+O2_(S)
+1
 1 O 0 2 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,

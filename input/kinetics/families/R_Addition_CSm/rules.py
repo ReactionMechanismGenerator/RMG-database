@@ -11,8 +11,8 @@ entry(
     label = "CSm;Y_rad",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    S 0       {1,D}
+1 *1 C 2 {2,D}
+2    S 0 {1,D}
 """,
     group2 = 
 """
@@ -39,8 +39,8 @@ entry(
     label = "CSm;H_rad",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    S 0       {1,D}
+1 *1 C 2 {2,D}
+2    S 0 {1,D}
 """,
     group2 = 
 """
@@ -67,8 +67,8 @@ entry(
     label = "CSm;C_methyl",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    S 0       {1,D}
+1 *1 C 2 {2,D}
+2    S 0 {1,D}
 """,
     group2 = 
 """
@@ -98,8 +98,8 @@ entry(
     label = "CSm;CH2CH3",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    S 0       {1,D}
+1 *1 C 2 {2,D}
+2    S 0 {1,D}
 """,
     group2 = 
 """

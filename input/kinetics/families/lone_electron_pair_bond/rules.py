@@ -23,7 +23,7 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 """
 entry(
     index = 0,
-    label = "N3sRRR;O_atom_singlet",
+    label = "N3sRRR;O_(S)",
     group1 = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
@@ -33,7 +33,7 @@ entry(
 """,
     group2 = 
 """
-1 *2 O {2T,2S}
+1 *2 O 2
 """,
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),

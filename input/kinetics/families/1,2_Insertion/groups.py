@@ -21,7 +21,12 @@ recipe(actions=[
 entry(
     index = 1,
     label = "Y_birad",
-    group = "OR{carbene, CO_birad}",
+    multiplicity = [1,2,3,4,5],
+#    group = "OR{carbene, CO_birad}",
+    group = 
+"""
+1 *1 R!H 2
+""",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -45,10 +50,11 @@ u"""
 entry(
     index = 3,
     label = "CO_birad",
+    multiplicity = [1],
     group = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C 2 {2,D}
+2    O 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -61,11 +67,12 @@ u"""
 entry(
     index = 4,
     label = "carbene",
+    multiplicity = [1],
     group = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -76,12 +83,13 @@ u"""
 )
 
 forbidden(
-    label = "carbene_triplet",
+    label = "carbene_(T)",
+    multiplicity = [3],
     group = 
 """
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C 2 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -95,7 +103,7 @@ entry(
     group = 
 """
 1 *2 {H,Cs,Cd,Cb,Ct,O,Sis,Sid,N} 0 {2,S}
-2 *3 H                         0 {1,S}
+2 *3 H                           0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -874,9 +882,9 @@ entry(
 """
 1 *2 {Cs,Sis,N}              0 {2,S} {3,S} {4,S} {5,S}
 2 *3 {Cs,Cd,Cb,Ct,Sis,Sid,N} 0 {1,S}
-3    H                     0 {1,S}
-4    H                     0 {1,S}
-5    H                     0 {1,S}
+3    H                       0 {1,S}
+4    H                       0 {1,S}
+5    H                       0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",

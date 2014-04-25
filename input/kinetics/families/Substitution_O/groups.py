@@ -31,7 +31,11 @@ u"""
 entry(
     index = 2,
     label = "YJ",
-    group = "OR{Y_2centeradjbirad, HJ, CJ, O_rad, OJ, Y_1centerbirad, NJ}",
+#    group = "OR{Y_2centeradjbirad, HJ, CJ, O_rad, OJ, Y_1centerbirad, NJ}",
+    group = 
+"""
+1 *3 R {1,2,3,4}
+""",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -4449,9 +4453,9 @@ entry(
     label = "O-RRrad",
     group = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 R  1 {1,S}
-3    R  0 {1,S}
+1 *1 Os 0       {2,S} {3,S}
+2 *2 R  {1,2,3} {1,S}
+3    R  0       {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -4464,9 +4468,10 @@ u"""
 entry(
     index = 226,
     label = "Y_1centerbirad",
+    multiplicity = [1,3],
     group = 
 """
-1 *3 {Cs,Cd,CO,O,N} {2T,2S}
+1 *3 {Cs,Cd,CO,O,N} 2
 """,
     kinetics = None,
     shortDesc = u"""""",

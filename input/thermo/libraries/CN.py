@@ -12,6 +12,7 @@ Table 46. Entropy of Gas - Organic Compounds
 entry(
     index = 1,
     label = "C2N2",
+    multiplicity = 1,
     molecule = 
 """
 1 N 0 1 {2,T}

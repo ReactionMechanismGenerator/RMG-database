@@ -11,11 +11,13 @@ entry(
     reactant1 = 
 """
 H
+2
 1 H 1 0
 """,
     reactant2 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -27,6 +29,7 @@ CH2OCHO
     product1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -56,11 +59,13 @@ entry(
     reactant1 = 
 """
 H
+2
 1 H 1 0
 """,
     reactant2 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -72,6 +77,7 @@ CH3OCO
     product1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -101,6 +107,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -113,11 +120,13 @@ CH3OCHO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -129,6 +138,7 @@ CH2OCHO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -152,6 +162,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -164,12 +175,14 @@ CH3OCHO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -181,6 +194,7 @@ CH2OCHO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -205,6 +219,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -217,6 +232,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -225,6 +241,7 @@ CH3
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -236,6 +253,7 @@ CH2OCHO
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -262,6 +280,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -274,6 +293,7 @@ CH3OCHO
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -281,6 +301,7 @@ HO2
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -292,6 +313,7 @@ CH2OCHO
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -317,6 +339,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -329,6 +352,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O2
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -339,6 +363,7 @@ CH3O2
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -350,6 +375,7 @@ CH2OCHO
     product2 = 
 """
 CH3O2H
+1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -378,6 +404,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -390,6 +417,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -399,6 +427,7 @@ CH3O
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -410,6 +439,7 @@ CH2OCHO
     product2 = 
 """
 CH3OH
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -437,6 +467,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -448,12 +479,14 @@ CH3OCHO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -465,6 +498,7 @@ CH2OCHO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -488,6 +522,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -499,13 +534,15 @@ CH3OCHO
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -517,6 +554,7 @@ CH2OCHO
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -541,6 +579,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -553,6 +592,7 @@ CH3OCHO
     reactant2 = 
 """
 HCO
+2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -560,6 +600,7 @@ HCO
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -571,6 +612,7 @@ CH2OCHO
     product2 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -596,6 +638,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -608,6 +651,7 @@ CH3OCHO
     reactant2 = 
 """
 OCHO
+2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 1 2 {1,S}
 3 O 0 2 {1,D}
@@ -616,6 +660,7 @@ OCHO
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -627,6 +672,7 @@ CH2OCHO
     product2 = 
 """
 HCOOH
+1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -653,6 +699,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -665,6 +712,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H5
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -676,6 +724,7 @@ C2H5
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -687,6 +736,7 @@ CH2OCHO
     product2 = 
 """
 C2H6
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -716,6 +766,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -728,6 +779,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H3
+2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -737,6 +789,7 @@ C2H3
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -748,6 +801,7 @@ CH2OCHO
     product2 = 
 """
 C2H4
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -775,6 +829,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -787,11 +842,13 @@ CH3OCHO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -803,6 +860,7 @@ CH3OCO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -826,6 +884,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -838,12 +897,14 @@ CH3OCHO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -855,6 +916,7 @@ CH3OCO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -879,6 +941,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -891,6 +954,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -899,6 +963,7 @@ CH3
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -910,6 +975,7 @@ CH3OCO
     product2 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -936,6 +1002,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -948,6 +1015,7 @@ CH3OCHO
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -955,6 +1023,7 @@ HO2
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -966,6 +1035,7 @@ CH3OCO
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -991,6 +1061,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1003,6 +1074,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O2
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -1013,6 +1085,7 @@ CH3O2
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1024,6 +1097,7 @@ CH3OCO
     product2 = 
 """
 CH3O2H
+1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -1052,6 +1126,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1064,6 +1139,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1073,6 +1149,7 @@ CH3O
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1084,6 +1161,7 @@ CH3OCO
     product2 = 
 """
 CH3OH
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -1111,6 +1189,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1122,12 +1201,14 @@ CH3OCHO
 """,
     reactant2 = 
 """
-O
-1 O 2T 2
+O_(T)
+3
+1 O 2 2
 """,
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1139,6 +1220,7 @@ CH3OCO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1162,6 +1244,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1173,13 +1256,15 @@ CH3OCHO
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1191,6 +1276,7 @@ CH3OCO
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1215,6 +1301,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1227,6 +1314,7 @@ CH3OCHO
     reactant2 = 
 """
 OCHO
+2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 1 2 {1,S}
 3 O 0 2 {1,D}
@@ -1235,6 +1323,7 @@ OCHO
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1246,6 +1335,7 @@ CH3OCO
     product2 = 
 """
 HCOOH
+1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -1272,6 +1362,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1284,6 +1375,7 @@ CH3OCHO
     reactant2 = 
 """
 HCO
+2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1291,6 +1383,7 @@ HCO
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1302,6 +1395,7 @@ CH3OCO
     product2 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1327,6 +1421,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1339,6 +1434,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H5
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -1350,6 +1446,7 @@ C2H5
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1361,6 +1458,7 @@ CH3OCO
     product2 = 
 """
 C2H6
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -1390,6 +1488,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1402,6 +1501,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H3
+2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -1411,6 +1511,7 @@ C2H3
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1422,6 +1523,7 @@ CH3OCO
     product2 = 
 """
 C2H4
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -1449,6 +1551,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1457,6 +1560,7 @@ CH3
     reactant2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -1464,6 +1568,7 @@ CO2
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1492,6 +1597,7 @@ entry(
     reactant1 = 
 """
 CH3O
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1501,12 +1607,14 @@ CH3O
     reactant2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1535,6 +1643,7 @@ entry(
     reactant1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -1546,6 +1655,7 @@ CH2OCHO
     product1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1574,6 +1684,7 @@ entry(
     reactant1 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1582,6 +1693,7 @@ CH2O
     reactant2 = 
 """
 HCO
+2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1589,6 +1701,7 @@ HCO
     product1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -1617,6 +1730,7 @@ entry(
     reactant1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1628,6 +1742,7 @@ CH3OCO
     reactant2 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1640,6 +1755,7 @@ CH3OCHO
     product1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1652,6 +1768,7 @@ CH3OCHO
     product2 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -1680,6 +1797,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1688,6 +1806,7 @@ CH3
     reactant2 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -1699,6 +1818,7 @@ CH2OCHO
     product1 = 
 """
 CH3CH2OCHO
+1
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {4,S} {10,D} {11,S}
@@ -1731,6 +1851,7 @@ entry(
     reactant1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1739,6 +1860,7 @@ CH3
     reactant2 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1750,6 +1872,7 @@ CH3OCO
     product1 = 
 """
 CH3CO2CH3
+1
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
 2  C 0 0 {4,S} {8,S} {9,S} {10,S}
 3  C 0 0 {1,S} {4,S} {11,D}
@@ -1782,6 +1905,7 @@ entry(
     reactant1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -1793,6 +1917,7 @@ CH2OCHO
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1800,6 +1925,7 @@ HO2
     product1 = 
 """
 HO2CH2OCHO
+1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,D} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -1831,6 +1957,7 @@ entry(
     reactant1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1842,6 +1969,7 @@ CH3OCO
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1849,6 +1977,7 @@ HO2
     product1 = 
 """
 CH3OCOO2H
+1
 1  C 0 0 {3,S} {6,S} {7,S} {8,S}
 2  C 0 0 {3,S} {4,S} {9,D}
 3  O 0 2 {1,S} {2,S}
@@ -1880,6 +2009,7 @@ entry(
     reactant1 = 
 """
 OCH2OCHO
+2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1892,12 +2022,14 @@ OCH2OCHO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HO2CH2OCHO
+1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,D} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -1929,6 +2061,7 @@ entry(
     reactant1 = 
 """
 CH3OCOO
+2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -1941,12 +2074,14 @@ CH3OCOO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OCOO2H
+1
 1  C 0 0 {3,S} {6,S} {7,S} {8,S}
 2  C 0 0 {3,S} {4,S} {9,D}
 3  O 0 2 {1,S} {2,S}
@@ -1978,6 +2113,7 @@ entry(
     reactant1 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -1985,6 +2121,7 @@ CO2
     reactant2 = 
 """
 CH3O
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1994,6 +2131,7 @@ CH3O
     product1 = 
 """
 CH3OCOO
+2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2023,6 +2161,7 @@ entry(
     reactant1 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2031,6 +2170,7 @@ CH2O
     reactant2 = 
 """
 OCHO
+2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 1 2 {1,S}
 3 O 0 2 {1,D}
@@ -2039,6 +2179,7 @@ OCHO
     product1 = 
 """
 OCH2OCHO
+2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2068,6 +2209,7 @@ entry(
     reactant1 = 
 """
 CH3OCO
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -2078,13 +2220,15 @@ CH3OCO
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OCOOO
+2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,D}
 3 O 0 2 {1,S} {2,S}
@@ -2115,6 +2259,7 @@ entry(
     reactant1 = 
 """
 CH2OCHO
+2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -2125,13 +2270,15 @@ CH2OCHO
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 OOCH2OCHO
+2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2162,6 +2309,7 @@ entry(
     reactant1 = 
 """
 OOCH2OCHO
+2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2175,6 +2323,7 @@ OOCH2OCHO
     product1 = 
 """
 HOOCH2OCO
+2
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -2205,6 +2354,7 @@ entry(
     reactant1 = 
 """
 CH3OCOOO
+2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,D}
 3 O 0 2 {1,S} {2,S}
@@ -2218,6 +2368,7 @@ CH3OCOOO
     product1 = 
 """
 CH2OCOOOH
+2
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2248,6 +2399,7 @@ entry(
     reactant1 = 
 """
 CH2O2H
+2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {6,S}
@@ -2258,6 +2410,7 @@ CH2O2H
     reactant2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -2265,6 +2418,7 @@ CO2
     product1 = 
 """
 HOOCH2OCO
+2
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -2295,6 +2449,7 @@ entry(
     reactant1 = 
 """
 OCH2O2H
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -2306,12 +2461,14 @@ OCH2O2H
     reactant2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 HOOCH2OCO
+2
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -2342,12 +2499,14 @@ entry(
     reactant1 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2356,6 +2515,7 @@ CH2O
     product1 = 
 """
 CH2O2H
+2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {6,S}
@@ -2383,6 +2543,7 @@ entry(
     reactant1 = 
 """
 OCH2O2H
+2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -2394,6 +2555,7 @@ OCH2O2H
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2402,6 +2564,7 @@ CH2O
     product2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2426,6 +2589,7 @@ entry(
     reactant1 = 
 """
 CH2OCOOOH
+2
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2439,6 +2603,7 @@ CH2OCOOOH
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2447,6 +2612,7 @@ CH2O
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -2454,6 +2620,7 @@ CO2
     product3 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2477,6 +2644,7 @@ entry(
     reactant1 = 
 """
 CH2OCOOOH
+2
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2490,6 +2658,7 @@ CH2OCOOOH
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2498,12 +2667,14 @@ CH2O
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2528,6 +2699,7 @@ entry(
     reactant1 = 
 """
 CH2OCOOOH
+2
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2541,6 +2713,7 @@ CH2OCOOOH
     product1 = 
 """
 cyOCH2OCO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,S} {7,D}
 3 O 0 2 {1,S} {2,S}
@@ -2552,6 +2725,7 @@ cyOCH2OCO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2575,6 +2749,7 @@ entry(
     reactant1 = 
 """
 HOOCH2OCO
+2
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -2588,6 +2763,7 @@ HOOCH2OCO
     product1 = 
 """
 cyOCH2OCO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,S} {7,D}
 3 O 0 2 {1,S} {2,S}
@@ -2599,6 +2775,7 @@ cyOCH2OCO
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2622,6 +2799,7 @@ entry(
     reactant1 = 
 """
 CH2OCOOOH
+2
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2634,13 +2812,15 @@ CH2OCOOOH
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 OOCH2OCOOOH
+2
 1  C 0 0 {3,S} {5,S} {7,S} {8,S}
 2  C 0 0 {3,S} {4,S} {9,D}
 3  O 0 2 {1,S} {2,S}
@@ -2673,6 +2853,7 @@ entry(
     reactant1 = 
 """
 HOOCH2OCO
+2
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -2685,13 +2866,15 @@ HOOCH2OCO
 """,
     reactant2 = 
 """
-O2
+O2_(T)
+3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HOOCH2OCOOO
+2
 1  C 0 0 {3,S} {4,S} {7,S} {8,S}
 2  C 0 0 {3,S} {5,S} {9,D}
 3  O 0 2 {1,S} {2,S}
@@ -2724,6 +2907,7 @@ entry(
     reactant1 = 
 """
 OOCH2OCOOOH
+2
 1  C 0 0 {3,S} {5,S} {7,S} {8,S}
 2  C 0 0 {3,S} {4,S} {9,D}
 3  O 0 2 {1,S} {2,S}
@@ -2739,6 +2923,7 @@ OOCH2OCOOOH
     product1 = 
 """
 OCHOCOOOH
+1
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2752,6 +2937,7 @@ OCHOCOOOH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2775,6 +2961,7 @@ entry(
     reactant1 = 
 """
 HOOCH2OCOOO
+2
 1  C 0 0 {3,S} {4,S} {7,S} {8,S}
 2  C 0 0 {3,S} {5,S} {9,D}
 3  O 0 2 {1,S} {2,S}
@@ -2790,6 +2977,7 @@ HOOCH2OCOOO
     product1 = 
 """
 OCHOCOOOH
+1
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2803,6 +2991,7 @@ OCHOCOOOH
     product2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2826,6 +3015,7 @@ entry(
     reactant1 = 
 """
 OCHOCOOOH
+1
 1 C 0 0 {3,S} {4,S} {6,D}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -2839,6 +3029,7 @@ OCHOCOOOH
     product1 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -2846,6 +3037,7 @@ CO2
     product2 = 
 """
 OCHO
+2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 1 2 {1,S}
 3 O 0 2 {1,D}
@@ -2854,6 +3046,7 @@ OCHO
     product3 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2877,6 +3070,7 @@ entry(
     reactant1 = 
 """
 cyOCH2OCO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,S} {7,D}
 3 O 0 2 {1,S} {2,S}
@@ -2888,11 +3082,13 @@ cyOCH2OCO
     reactant2 = 
 """
 H
+2
 1 H 1 0
 """,
     product1 = 
 """
 CHOOCO
+2
 1 C 1 0 {3,S} {4,S} {6,S}
 2 C 0 0 {3,S} {4,S} {5,D}
 3 O 0 2 {1,S} {2,S}
@@ -2903,6 +3099,7 @@ CHOOCO
     product2 = 
 """
 H2
+1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2926,6 +3123,7 @@ entry(
     reactant1 = 
 """
 cyOCH2OCO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,S} {7,D}
 3 O 0 2 {1,S} {2,S}
@@ -2937,12 +3135,14 @@ cyOCH2OCO
     reactant2 = 
 """
 OH
+2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CHOOCO
+2
 1 C 1 0 {3,S} {4,S} {6,S}
 2 C 0 0 {3,S} {4,S} {5,D}
 3 O 0 2 {1,S} {2,S}
@@ -2953,6 +3153,7 @@ CHOOCO
     product2 = 
 """
 H2O
+1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2977,6 +3178,7 @@ entry(
     reactant1 = 
 """
 cyOCH2OCO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,S} {7,D}
 3 O 0 2 {1,S} {2,S}
@@ -2988,6 +3190,7 @@ cyOCH2OCO
     reactant2 = 
 """
 HO2
+2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2995,6 +3198,7 @@ HO2
     product1 = 
 """
 CHOOCO
+2
 1 C 1 0 {3,S} {4,S} {6,S}
 2 C 0 0 {3,S} {4,S} {5,D}
 3 O 0 2 {1,S} {2,S}
@@ -3005,6 +3209,7 @@ CHOOCO
     product2 = 
 """
 H2O2
+1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -3030,6 +3235,7 @@ entry(
     reactant1 = 
 """
 OCHO
+2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 1 2 {1,S}
 3 O 0 2 {1,D}
@@ -3038,12 +3244,14 @@ OCHO
     reactant2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 CHOOCO
+2
 1 C 1 0 {3,S} {4,S} {6,S}
 2 C 0 0 {3,S} {4,S} {5,D}
 3 O 0 2 {1,S} {2,S}
@@ -3071,6 +3279,7 @@ entry(
     reactant1 = 
 """
 HCO
+2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3078,6 +3287,7 @@ HCO
     reactant2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -3085,6 +3295,7 @@ CO2
     product1 = 
 """
 CHOOCO
+2
 1 C 1 0 {3,S} {4,S} {6,S}
 2 C 0 0 {3,S} {4,S} {5,D}
 3 O 0 2 {1,S} {2,S}
@@ -3112,6 +3323,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -3124,6 +3336,7 @@ CH3OCHO
     product1 = 
 """
 CH3OH
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -3134,6 +3347,7 @@ CH3OH
     product2 = 
 """
 CO
+1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -3165,6 +3379,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -3177,6 +3392,7 @@ CH3OCHO
     product1 = 
 """
 CH4
+1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3186,6 +3402,7 @@ CH4
     product2 = 
 """
 CO2
+1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -3218,6 +3435,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -3230,6 +3448,7 @@ CH3OCHO
     product1 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3238,6 +3457,7 @@ CH2O
     product2 = 
 """
 CH2O
+1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3271,6 +3491,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -3283,6 +3504,7 @@ CH3OCHO
     product1 = 
 """
 CH3
+2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3291,6 +3513,7 @@ CH3
     product2 = 
 """
 OCHO
+2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 1 2 {1,S}
 3 O 0 2 {1,D}
@@ -3324,6 +3547,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
+1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -3336,6 +3560,7 @@ CH3OCHO
     product1 = 
 """
 CH3O
+2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3345,6 +3570,7 @@ CH3O
     product2 = 
 """
 HCO
+2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
