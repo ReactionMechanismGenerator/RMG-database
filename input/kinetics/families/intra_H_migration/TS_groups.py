@@ -11,13 +11,27 @@ entry(
     index = 1,
     label = "RnH",
     group = "OR{R2H, R3H, R4H, R5H, R6H, R7H}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 2.27248, 'd13': 1.339657, 'd23': 1.292727},
+        uncertainties = {'d12': 0.147038, 'd13': 0.066512, 'd23': 0.060703},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 12 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=210 label="Cs_H_out">]
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=164 label="R7H">, <Entry index=179 label="C_rad_out_2H">, <Entry index=199 label="O_H_out">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -74,13 +88,18 @@ entry(
 2 *2 R!H 0 {1,{S,D,B}} {3,S}
 3 *3 H   0 {2,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.780342, 'd13': -0.053695, 'd23': -0.029122},
+        uncertainties = {'d12': 0.334568, 'd13': 0.325737, 'd23': 0.404825},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -96,13 +115,18 @@ entry(
 2 *2 R!H 0 {1,S} {3,S}
 3 *3 H   0 {2,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.780342, 'd13': -0.053695, 'd23': -0.029122},
+        uncertainties = {'d12': 0.334568, 'd13': 0.325737, 'd23': 0.404825},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -185,13 +209,18 @@ entry(
     index = 9,
     label = "Others-R2H_S",
     group = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.780342, 'd13': -0.053695, 'd23': -0.029122},
+        uncertainties = {'d12': 0.334568, 'd13': 0.325737, 'd23': 0.404825},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -246,13 +275,18 @@ entry(
     index = 12,
     label = "R3H",
     group = "OR{R3H_SR, R3H_MS, R3H_BB}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.114367, 'd13': 0.032614, 'd23': 0.047761},
+        uncertainties = {'d12': 2.04679, 'd13': 0.290832, 'd23': 0.213783},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -269,13 +303,18 @@ entry(
 3 *2 R!H 0 {2,{S,D,T,B}} {4,S}
 4 *3 H   0 {3,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.114367, 'd13': 0.032614, 'd23': 0.047761},
+        uncertainties = {'d12': 2.04679, 'd13': 0.290832, 'd23': 0.213783},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -292,13 +331,18 @@ entry(
 3 *2 R!H 0 {2,S} {4,S}
 4 *3 H   0 {3,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.114367, 'd13': 0.032614, 'd23': 0.047761},
+        uncertainties = {'d12': 2.04679, 'd13': 0.290832, 'd23': 0.213783},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -577,13 +621,18 @@ entry(
     index = 26,
     label = "Others-R3H_SS",
     group = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.114367, 'd13': 0.032614, 'd23': 0.047761},
+        uncertainties = {'d12': 2.04679, 'd13': 0.290832, 'd23': 0.213783},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -778,13 +827,18 @@ entry(
     index = 35,
     label = "R4H",
     group = "OR{R4H_RSR, R4H_SMS, R4H_SBB, R4H_BBS, R4H_BBB}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.214392, 'd13': 0.011624, 'd23': 0.01349},
+        uncertainties = {'d12': 1.03899, 'd13': 0.150634, 'd23': 0.193248},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -802,13 +856,18 @@ entry(
 4 *2 R!H 0 {3,{S,D,T,B}} {5,S}
 5 *3 H   0 {4,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.214392, 'd13': 0.011624, 'd23': 0.01349},
+        uncertainties = {'d12': 1.03899, 'd13': 0.150634, 'd23': 0.193248},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -826,13 +885,18 @@ entry(
 4 *2 R!H 0 {3,S} {5,S}
 5 *3 H   0 {4,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.214392, 'd13': 0.011624, 'd23': 0.01349},
+        uncertainties = {'d12': 1.03899, 'd13': 0.150634, 'd23': 0.193248},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -850,13 +914,18 @@ entry(
 4 *2 R!H 0 {3,S} {5,S}
 5 *3 H   0 {4,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.214392, 'd13': 0.011624, 'd23': 0.01349},
+        uncertainties = {'d12': 1.03899, 'd13': 0.150634, 'd23': 0.193248},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -1600,13 +1669,18 @@ entry(
     index = 69,
     label = "R5H",
     group = "OR{R5H_RSSR, R5H_RSMS, R5H_SMSR, R5H_BBSR, R5H_RSBB, R5H_SBBS, R5H_SBBB, R5H_BBBS, R5H_BBBB}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.284917, 'd13': 0.031417, 'd23': -0.009447},
+        uncertainties = {'d12': 1.151051, 'd13': 0.346579, 'd23': 0.248831},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -1625,13 +1699,18 @@ entry(
 5 *2 R!H 0 {4,{S,D,T,B}} {6,S}
 6 *3 H   0 {5,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.284917, 'd13': 0.031417, 'd23': -0.009447},
+        uncertainties = {'d12': 1.151051, 'd13': 0.346579, 'd23': 0.248831},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -1650,13 +1729,18 @@ entry(
 5 *2 R!H 0 {4,{S,D,T,B}} {6,S}
 6 *3 H   0 {5,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.284917, 'd13': 0.031417, 'd23': -0.009447},
+        uncertainties = {'d12': 1.151051, 'd13': 0.346579, 'd23': 0.248831},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -1675,13 +1759,18 @@ entry(
 5 *2 R!H 0 {4,S} {6,S}
 6 *3 H   0 {5,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.284917, 'd13': 0.031417, 'd23': -0.009447},
+        uncertainties = {'d12': 1.151051, 'd13': 0.346579, 'd23': 0.248831},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -1700,13 +1789,17 @@ entry(
 5 *2 C 0 {4,S} {6,S}
 6 *3 H 0 {5,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.244595, 'd13': 0.000377, 'd23': -0.037537},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -2956,13 +3049,18 @@ entry(
     index = 122,
     label = "R6H",
     group = "OR{R6H_RSSSR, R6H_RSSMS, R6H_RSMSR, R6H_SMSSR, R6H_SMSMS, R6H_BBSRS, R6H_BBSSM, R6H_BBSBB, R6H_SBBSR, R6H_RSBBS, R6H_BBBSR, R6H_SBBBS, R6H_RSBBB, R6H_SBBBB, R6H_BBBBS, R6H_BBBBB}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.264228, 'd13': -0.013414, 'd23': 0.010889},
+        uncertainties = {'d12': 0.940541, 'd13': 0.148253, 'd23': 0.359681},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -2982,13 +3080,18 @@ entry(
 6 *2 R!H 0 {5,{S,D,T,B}} {7,S}
 7 *3 H   0 {6,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.264228, 'd13': -0.013414, 'd23': 0.010889},
+        uncertainties = {'d12': 0.940541, 'd13': 0.148253, 'd23': 0.359681},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -3008,13 +3111,18 @@ entry(
 6 *2 R!H 0 {5,{S,D,T,B}} {7,S}
 7 *3 H   0 {6,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.264228, 'd13': -0.013414, 'd23': 0.010889},
+        uncertainties = {'d12': 0.940541, 'd13': 0.148253, 'd23': 0.359681},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -3034,13 +3142,18 @@ entry(
 6 *2 R!H 0 {5,S} {7,S}
 7 *3 H   0 {6,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.264228, 'd13': -0.013414, 'd23': 0.010889},
+        uncertainties = {'d12': 0.940541, 'd13': 0.148253, 'd23': 0.359681},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4055,13 +4168,17 @@ entry(
 7 *2 R!H 0 {6,{S,D,T,B}} {8,S}
 8 *3 H   0 {7,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.265539, 'd13': -0.005884, 'd23': -0.075617},
+        uncertainties = {'d12': 0.579275, 'd13': 1.125309, 'd23': 0.955315},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=164 label="R7H">, <Entry index=179 label="C_rad_out_2H">, <Entry index=199 label="O_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4130,13 +4247,18 @@ entry(
 """
 1 *1 O 1
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.046796, 'd13': -0.056767, 'd23': -0.051092},
+        uncertainties = {'d12': 0.678492, 'd13': 0.345512, 'd23': 0.203413},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4361,13 +4483,25 @@ entry(
 2    R 0 {1,S}
 3    R 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.011011, 'd13': 0.013357, 'd23': 0.012022},
+        uncertainties = {'d12': 0.16215, 'd13': 0.072741, 'd23': 0.06791},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 10 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=210 label="Cs_H_out">]
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
+[<Entry index=164 label="R7H">, <Entry index=179 label="C_rad_out_2H">, <Entry index=199 label="O_H_out">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4383,13 +4517,21 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.011478, 'd13': 0.019908, 'd23': 0.018479},
+        uncertainties = {'d12': 0.13711, 'd13': 0.10601, 'd23': 0.094331},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 6 distances.
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=210 label="Cs_H_out">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=164 label="R7H">, <Entry index=179 label="C_rad_out_2H">, <Entry index=199 label="O_H_out">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4405,13 +4547,19 @@ entry(
 2    H   0 {1,S}
 3    R!H 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.049769, 'd13': -0.002845, 'd23': 0.020086},
+        uncertainties = {'d12': 0.533232, 'd13': 0.08068, 'd23': 0.073561},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4427,13 +4575,19 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.049769, 'd13': -0.002845, 'd23': 0.020086},
+        uncertainties = {'d12': 0.533232, 'd13': 0.08068, 'd23': 0.073561},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4515,13 +4669,17 @@ entry(
 2    R!H 0 {1,S}
 3    R!H 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.049385, 'd13': 0.02183, 'd23': -0.075767},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4537,13 +4695,17 @@ entry(
 2    {Cs,O,S} 0 {1,S}
 3    {Cs,O,S} 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.049385, 'd13': 0.02183, 'd23': -0.075767},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4559,13 +4721,17 @@ entry(
 2    Cs 0 {1,S}
 3    Cs 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.049385, 'd13': 0.02183, 'd23': -0.075767},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4645,13 +4811,17 @@ entry(
     index = 191,
     label = "Others-C_rad_out_Cs2",
     group = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.049385, 'd13': 0.02183, 'd23': -0.075767},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -4819,13 +4989,19 @@ entry(
 1 *2 O 0 {2,S}
 2 *3 H 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.033615, 'd13': -0.014553, 'd23': -0.060682},
+        uncertainties = {'d12': 0.272006, 'd13': 0.169049, 'd23': 0.150687},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
+[<Entry index=164 label="R7H">, <Entry index=179 label="C_rad_out_2H">, <Entry index=199 label="O_H_out">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -5059,13 +5235,24 @@ entry(
 3    R  0 {1,S}
 4    R  0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.017967, 'd13': 0.007779, 'd23': 0.032433},
+        uncertainties = {'d12': 0.147337, 'd13': 0.03553, 'd23': 0.036207},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 8 distances.
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=210 label="Cs_H_out">]
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -5082,13 +5269,18 @@ entry(
 3    H  0 {1,S}
 4    H  0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.1301, 'd13': 0.00855, 'd23': 0.045533},
+        uncertainties = {'d12': 1.402253, 'd13': 0.170936, 'd23': 0.22177},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
+[<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -5105,13 +5297,20 @@ entry(
 3    R!H 0 {1,S}
 4    H   0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.01868, 'd13': 0.013555, 'd23': 0.036165},
+        uncertainties = {'d12': 0.222077, 'd13': 0.051875, 'd23': 0.053968},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -5128,13 +5327,20 @@ entry(
 3    Cs 0 {1,S}
 4    H  0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.01868, 'd13': 0.013555, 'd23': 0.036165},
+        uncertainties = {'d12': 0.222077, 'd13': 0.051875, 'd23': 0.053968},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
@@ -5152,13 +5358,19 @@ entry(
 4    H  0 {1,S}
 5    Cs 0 {3,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.011076, 'd13': 0.022571, 'd23': 0.044702},
+        uncertainties = {'d12': 0.332794, 'd13': 0.078022, 'd23': 0.08012},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
     history = [
         ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
