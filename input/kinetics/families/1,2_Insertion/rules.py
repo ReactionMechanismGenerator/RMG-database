@@ -4,9 +4,6 @@
 name = "1,2_Insertion/rules"
 shortDesc = u""
 longDesc = u"""
-553 - 559 Some of the tortional motions in the alkyl part of the 
-
-transition states are treated as free rotations as they are relatively loose TSs.
 """
 entry(
     index = 553,
@@ -29,7 +26,8 @@ entry(
     shortDesc = u"""Default""",
     longDesc = 
 u"""
-
+Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
 """,
 )
 
@@ -64,7 +62,8 @@ entry(
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
 u"""
-
+Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
 """,
 )
 
@@ -93,7 +92,8 @@ entry(
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
 u"""
-
+Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
 """,
 )
 
@@ -107,7 +107,7 @@ entry(
 """,
     group2 = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H 0 {1,S}
 3    H 0 {1,S}
 4    H 0 {1,S}
@@ -125,7 +125,8 @@ entry(
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
 u"""
-
+Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
 """,
 )
 
@@ -139,7 +140,7 @@ entry(
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
@@ -157,7 +158,8 @@ entry(
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
 u"""
-
+Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
 """,
 )
 
@@ -171,7 +173,7 @@ entry(
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    Cs 0 {1,S}
@@ -189,7 +191,8 @@ entry(
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
 u"""
-
+Some of the tortional motions in the alkyl part of the
+transition states are treated as free rotations as they are relatively loose TSs.
 """,
 )
 
@@ -203,7 +206,7 @@ entry(
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
@@ -261,14 +264,14 @@ entry(
     label = "carbene;ethene",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
     group2 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D} {5,S} {6,S}
+1 *2 Cd 0 {2,D} {3,S} {4,S}
+2    Cd 0 {1,D} {5,S} {6,S}
 3 *3 H 0 {1,S}
 4    H 0 {1,S}
 5    H 0 {2,S}
@@ -295,13 +298,13 @@ entry(
     label = "carbene;Cd_pri",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
     group2 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
+1 *2 Cd 0 {2,D} {3,S} {4,S}
 2    C 0 {1,D}
 3 *3 H 0 {1,S}
 4    H 0 {1,S}
@@ -327,7 +330,7 @@ entry(
     label = "carbene;acetylene",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
@@ -359,7 +362,7 @@ entry(
     label = "carbene;Ct_H",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
@@ -389,13 +392,13 @@ entry(
     label = "carbene;C_pri/Cd",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
@@ -422,13 +425,13 @@ entry(
     label = "carbene;C_pri/Ct",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+1 *2 Cs  0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
@@ -455,13 +458,13 @@ entry(
     label = "carbene;Cd/H/NonDeC",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
     group2 = 
 """
-1 *2 C  0 {2,D} {3,S} {4,S}
+1 *2 Cd  0 {2,D} {3,S} {4,S}
 2    C  0 {1,D}
 3 *3 H  0 {1,S}
 4    Cs 0 {1,S}
@@ -487,13 +490,13 @@ entry(
     label = "carbene;Cd/H/OneDe",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
     group2 = 
 """
-1 *2 C             0 {2,D} {3,S} {4,S}
+1 *2 Cd            0 {2,D} {3,S} {4,S}
 2    C             0 {1,D}
 3 *3 H             0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
