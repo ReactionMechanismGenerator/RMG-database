@@ -63,7 +63,7 @@ entry(
     label = "carbene",
     group = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
@@ -304,7 +304,7 @@ entry(
     label = "Cd/H/OneDe",
     group = 
 """
-1 *2 Cd             0 {2,D} {3,S} {4,S}
+1 *2 Cd            0 {2,D} {3,S} {4,S}
 2    C             0 {1,D}
 3 *3 H             0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
