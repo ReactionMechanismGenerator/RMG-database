@@ -77,9 +77,9 @@ entry(
     label = "Ct_H",
     group = 
 """
-1 *1 Ct    0 {2,T} {3,S}
-2    {C,N} 0 {1,T}
-3 *2 H     0 {1,S}
+1 *1 Ct    0 {2,S} {3,T}
+2 *2 H     0 {1,S}
+3    {C,N} 0 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
