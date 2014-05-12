@@ -24,8 +24,8 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 entry(
     index = 0,
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H;Y_rad_birad_trirad_quadrad",
-    group1 = "OR{X_H, Xrad_H}",
-    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
+    group1 = "OR{X_H, Xrad_H, Xbirad_H, Xtrirad_H}",
+    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad, Y_1centerquadrad}",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 0,
@@ -57,7 +57,7 @@ entry(
 1 *1 R 0 {2,S}
 2 *2 H 0 {1,S}
 """,
-    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
+    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad, Y_1centerquadrad}",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 0,
@@ -3467,12 +3467,12 @@ MRH 31-Aug-2009
 
 entry(
     index = 218,
-    label = "Ct_H;O2b",
+    label = "Ct/H/NonDeC;O2b",
     group1 = 
 """
-1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
-3 *2 H 0 {1,S}
+1 *1 Ct 0 {2,S} {3,T}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,T}
 """,
     group2 = 
 """
@@ -3510,12 +3510,12 @@ MRH 28-Aug-2009
 
 entry(
     index = 220,
-    label = "Ct_H;C_rad/H2/Cs",
+    label = "Ct/H/NonDeC;C_rad/H2/Cs",
     group1 = 
 """
-1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
-3 *2 H 0 {1,S}
+1 *1 Ct 0 {2,S} {3,T}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,T}
 """,
     group2 = 
 """
@@ -3553,12 +3553,12 @@ MRH 28-Aug-2009
 
 entry(
     index = 221,
-    label = "Ct_H;O_pri_rad",
+    label = "Ct/H/NonDeC;O_pri_rad",
     group1 = 
 """
-1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
-3 *2 H 0 {1,S}
+1 *1 Ct 0 {2,S} {3,T}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,T}
 """,
     group2 = 
 """
@@ -7598,7 +7598,7 @@ The degeneracy of this reaction is 8 though, so per-site A is:
 
 entry(
     index = 534,
-    label = "H2O2;O_rad/Cd\H_Cd\H\Cs|Cs",
+    label = "H2O2;O_rad/Cd\H_Cd\H\Cs",
     group1 = 
 """
 1 *1 O 0 {2,S} {3,S}
@@ -7609,8 +7609,8 @@ entry(
     group2 = 
 """
 1 *3 O  1 {2,S}
-2    C  0 {1,S} {3,D} {4,S}
-3    C  0 {2,D} {5,S} {6,S}
+2    Cd 0 {1,S} {3,D} {4,S}
+3    Cd 0 {2,D} {5,S} {6,S}
 4    H  0 {2,S}
 5    Cs 0 {3,S}
 6    H  0 {3,S}
@@ -93456,7 +93456,7 @@ u"""
 
 entry(
     index = 2008,
-    label = "CsXX;InChI=1S/NO3/c2-1(3)4",
+    label = "C/H3/Ct;InChI=1S/NO3/c2-1(3)4",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
