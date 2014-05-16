@@ -7,11 +7,12 @@ longDesc = u"""
 
 """
 entry(
-    index = 0,
-    label = "R",
+    index        = 0,
+    label        = "R",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * R 0
+1 * R U0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27,15 +28,16 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "ketene",
+    index        = 10,
+    label        = "ketene",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2   C 0 {1,D} {5,D}
-3   R 0 {1,S}
-4   R 0 {1,S}
-5   O 0 {2,D}
+1 * C U0 {2,D} {3,S} {4,S}
+2   C U0 {1,D} {5,D}
+3   R U0 {1,S}
+4   R U0 {1,S}
+5   O U0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -51,17 +53,18 @@ u"""
 )
 
 entry(
-    index = 13,
-    label = "ketene_2C-C",
+    index        = 13,
+    label        = "ketene_2C-C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * C       0 {2,D} {3,S} {4,S}
-2   C       0 {1,D} {5,D}
-3   {Cs,Cd} 0 {1,S} {6,S}
-4   {Cs,Cd} 0 {1,S} {7,S}
-5   O       0 {2,D}
-6   C       0 {3,S}
-7   C       0 {4,S}
+1 * C       U0 {2,D} {3,S} {4,S}
+2   C       U0 {1,D} {5,D}
+3   {Cs,Cd} U0 {1,S} {6,S}
+4   {Cs,Cd} U0 {1,S} {7,S}
+5   O       U0 {2,D}
+6   C       U0 {3,S}
+7   C       U0 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -77,19 +80,20 @@ u"""
 )
 
 entry(
-    index = 11,
-    label = "ketene_1C-C_1C-H",
+    index        = 11,
+    label        = "ketene_1C-C_1C-H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * C       0 {2,D} {3,S} {4,S}
-2   C       0 {1,D} {5,D}
-3   {Cs,Cd} 0 {1,S} {6,S}
-4   C       0 {1,S} {7,S} {8,S} {9,S}
-5   O       0 {2,D}
-6   C       0 {3,S}
-7   H       0 {4,S}
-8   H       0 {4,S}
-9   H       0 {4,S}
+1 * C       U0 {2,D} {3,S} {4,S}
+2   C       U0 {1,D} {5,D}
+3   {Cs,Cd} U0 {1,S} {6,S}
+4   C       U0 {1,S} {7,S} {8,S} {9,S}
+5   O       U0 {2,D}
+6   C       U0 {3,S}
+7   H       U0 {4,S}
+8   H       U0 {4,S}
+9   H       U0 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -105,20 +109,21 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "biketene",
+    index        = 14,
+    label        = "biketene",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1    C   0 {2,S} {3,S} {4,S} {5,S}
-2    C   0 {1,S} {6,D}
-3  * C   0 {1,S} {7,D} {10,S}
-4    R!H 0 {1,S}
-5    R!H 0 {1,S}
-6    C   0 {2,D} {8,D}
-7    C   0 {3,D} {9,D}
-8    O   0 {6,D}
-9    O   0 {7,D}
-10   R   0 {3,S}
+1    C   U0 {2,S} {3,S} {4,S} {5,S}
+2    C   U0 {1,S} {6,D}
+3  * C   U0 {1,S} {7,D} {10,S}
+4    R!H U0 {1,S}
+5    R!H U0 {1,S}
+6    C   U0 {2,D} {8,D}
+7    C   U0 {3,D} {9,D}
+8    O   U0 {6,D}
+9    O   U0 {7,D}
+10   R   U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -134,21 +139,22 @@ u"""
 )
 
 entry(
-    index = 12,
-    label = "ketene_2C-H",
+    index        = 12,
+    label        = "ketene_2C-H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1  * C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D} {5,D}
-3    C 0 {1,S} {6,S} {7,S} {8,S}
-4    C 0 {1,S} {9,S} {10,S} {11,S}
-5    O 0 {2,D}
-6    H 0 {3,S}
-7    H 0 {3,S}
-8    H 0 {3,S}
-9    H 0 {4,S}
-10   H 0 {4,S}
-11   H 0 {4,S}
+1  * C U0 {2,D} {3,S} {4,S}
+2    C U0 {1,D} {5,D}
+3    C U0 {1,S} {6,S} {7,S} {8,S}
+4    C U0 {1,S} {9,S} {10,S} {11,S}
+5    O U0 {2,D}
+6    H U0 {3,S}
+7    H U0 {3,S}
+8    H U0 {3,S}
+9    H U0 {4,S}
+10   H U0 {4,S}
+11   H U0 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -164,16 +170,17 @@ u"""
 )
 
 entry(
-    index = 1,
-    label = "cis",
+    index        = 1,
+    label        = "cis",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * C   0 {2,Dcis} {3,S} {4,S}
-2 * C   0 {1,Dcis} {5,S} {6,S}
-3   R!H 0 {1,S}
-4   H   0 {1,S}
-5   R!H 0 {2,S}
-6   H   0 {2,S}
+1 * C   U0 {2,Dcis} {3,S} {4,S}
+2 * C   U0 {1,Dcis} {5,S} {6,S}
+3   R!H U0 {1,S}
+4   H   U0 {1,S}
+5   R!H U0 {2,S}
+6   H   U0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -189,19 +196,20 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "2-ene_cis",
+    index        = 2,
+    label        = "2-ene_cis",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * C   0 {2,Dcis} {3,S} {4,S}
-2 * C   0 {1,Dcis} {5,S} {6,S}
-3   C   0 {1,S} {7,S} {8,S} {9,S}
-4   H   0 {1,S}
-5   R!H 0 {2,S}
-6   H   0 {2,S}
-7   H   0 {3,S}
-8   H   0 {3,S}
-9   H   0 {3,S}
+1 * C   U0 {2,Dcis} {3,S} {4,S}
+2 * C   U0 {1,Dcis} {5,S} {6,S}
+3   C   U0 {1,S} {7,S} {8,S} {9,S}
+4   H   U0 {1,S}
+5   R!H U0 {2,S}
+6   H   U0 {2,S}
+7   H   U0 {3,S}
+8   H   U0 {3,S}
+9   H   U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -217,22 +225,23 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "2-butene_cis",
+    index        = 3,
+    label        = "2-butene_cis",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1  * C 0 {2,Dcis} {3,S} {4,S}
-2  * C 0 {1,Dcis} {5,S} {6,S}
-3    C 0 {1,S} {7,S} {8,S} {9,S}
-4    H 0 {1,S}
-5    C 0 {2,S} {10,S} {11,S} {12,S}
-6    H 0 {2,S}
-7    H 0 {3,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
-10   H 0 {5,S}
-11   H 0 {5,S}
-12   H 0 {5,S}
+1  * C U0 {2,Dcis} {3,S} {4,S}
+2  * C U0 {1,Dcis} {5,S} {6,S}
+3    C U0 {1,S} {7,S} {8,S} {9,S}
+4    H U0 {1,S}
+5    C U0 {2,S} {10,S} {11,S} {12,S}
+6    H U0 {2,S}
+7    H U0 {3,S}
+8    H U0 {3,S}
+9    H U0 {3,S}
+10   H U0 {5,S}
+11   H U0 {5,S}
+12   H U0 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -248,22 +257,23 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "t-butyl_cis_2-ene",
+    index        = 4,
+    label        = "t-butyl_cis_2-ene",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1  * C   0 {2,Dcis} {3,S} {4,S}
-2  * C   0 {1,Dcis} {5,S} {6,S}
-3    C   0 {1,S} {7,S} {8,S} {9,S}
-4    H   0 {1,S}
-5    C   0 {2,S} {10,S} {11,S} {12,S}
-6    H   0 {2,S}
-7    H   0 {3,S}
-8    H   0 {3,S}
-9    H   0 {3,S}
-10   R!H 0 {5,S}
-11   R!H 0 {5,S}
-12   R!H 0 {5,S}
+1  * C   U0 {2,Dcis} {3,S} {4,S}
+2  * C   U0 {1,Dcis} {5,S} {6,S}
+3    C   U0 {1,S} {7,S} {8,S} {9,S}
+4    H   U0 {1,S}
+5    C   U0 {2,S} {10,S} {11,S} {12,S}
+6    H   U0 {2,S}
+7    H   U0 {3,S}
+8    H   U0 {3,S}
+9    H   U0 {3,S}
+10   R!H U0 {5,S}
+11   R!H U0 {5,S}
+12   R!H U0 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -279,22 +289,23 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "higher-ene_cis",
+    index        = 5,
+    label        = "higher-ene_cis",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1  * C   0 {2,Dcis} {3,S} {4,S}
-2  * C   0 {1,Dcis} {5,S} {6,S}
-3    C   0 {1,S} {7,S} {8,S} {9,S}
-4    H   0 {1,S}
-5    C   0 {2,S} {10,S} {11,S} {12,S}
-6    H   0 {2,S}
-7    R!H 0 {3,S}
-8    R   0 {3,S}
-9    R   0 {3,S}
-10   R!H 0 {5,S}
-11   R   0 {5,S}
-12   R   0 {5,S}
+1  * C   U0 {2,Dcis} {3,S} {4,S}
+2  * C   U0 {1,Dcis} {5,S} {6,S}
+3    C   U0 {1,S} {7,S} {8,S} {9,S}
+4    H   U0 {1,S}
+5    C   U0 {2,S} {10,S} {11,S} {12,S}
+6    H   U0 {2,S}
+7    R!H U0 {3,S}
+8    R   U0 {3,S}
+9    R   U0 {3,S}
+10   R!H U0 {5,S}
+11   R   U0 {5,S}
+12   R   U0 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -310,22 +321,23 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "t-butyl_cis",
+    index        = 7,
+    label        = "t-butyl_cis",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1  * C   0 {2,Dcis} {3,S} {4,S}
-2  * C   0 {1,Dcis} {5,S} {6,S}
-3    C   0 {1,S} {7,S} {8,S} {9,S}
-4    H   0 {1,S}
-5    C   0 {2,S} {10,S} {11,S} {12,S}
-6    H   0 {2,S}
-7    R!H 0 {3,S}
-8    R!H 0 {3,S}
-9    R!H 0 {3,S}
-10   R!H 0 {5,S}
-11   R   0 {5,S}
-12   R   0 {5,S}
+1  * C   U0 {2,Dcis} {3,S} {4,S}
+2  * C   U0 {1,Dcis} {5,S} {6,S}
+3    C   U0 {1,S} {7,S} {8,S} {9,S}
+4    H   U0 {1,S}
+5    C   U0 {2,S} {10,S} {11,S} {12,S}
+6    H   U0 {2,S}
+7    R!H U0 {3,S}
+8    R!H U0 {3,S}
+9    R!H U0 {3,S}
+10   R!H U0 {5,S}
+11   R   U0 {5,S}
+12   R   U0 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -341,22 +353,23 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "t-butyl_cis_t-butyl",
+    index        = 6,
+    label        = "t-butyl_cis_t-butyl",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1  * C   0 {2,Dcis} {3,S} {4,S}
-2  * C   0 {1,Dcis} {5,S} {6,S}
-3    C   0 {1,S} {7,S} {8,S} {9,S}
-4    H   0 {1,S}
-5    C   0 {2,S} {10,S} {11,S} {12,S}
-6    H   0 {2,S}
-7    R!H 0 {3,S}
-8    R!H 0 {3,S}
-9    R!H 0 {3,S}
-10   R!H 0 {5,S}
-11   R!H 0 {5,S}
-12   R!H 0 {5,S}
+1  * C   U0 {2,Dcis} {3,S} {4,S}
+2  * C   U0 {1,Dcis} {5,S} {6,S}
+3    C   U0 {1,S} {7,S} {8,S} {9,S}
+4    H   U0 {1,S}
+5    C   U0 {2,S} {10,S} {11,S} {12,S}
+6    H   U0 {2,S}
+7    R!H U0 {3,S}
+8    R!H U0 {3,S}
+9    R!H U0 {3,S}
+10   R!H U0 {5,S}
+11   R!H U0 {5,S}
+12   R!H U0 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -372,16 +385,17 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "double_cis",
+    index        = 8,
+    label        = "double_cis",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * C   0 {2,Dcis} {3,S} {4,S}
-2 * C   0 {1,Dcis} {5,S} {6,S}
-3   R!H 0 {1,S}
-4   R!H 0 {1,S}
-5   R!H 0 {2,S}
-6   R!H 0 {2,S}
+1 * C   U0 {2,Dcis} {3,S} {4,S}
+2 * C   U0 {1,Dcis} {5,S} {6,S}
+3   R!H U0 {1,S}
+4   R!H U0 {1,S}
+5   R!H U0 {2,S}
+6   R!H U0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -397,16 +411,17 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "ortho",
+    index        = 9,
+    label        = "ortho",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * C   0 {2,B} {3,B} {4,S}
-2 * C   0 {1,B} {5,B} {6,S}
-3   C   0 {1,B}
-4   R!H 0 {1,S}
-5   C   0 {2,B}
-6   R!H 0 {2,S}
+1 * C   U0 {2,B} {3,B} {4,S}
+2 * C   U0 {1,B} {5,B} {6,S}
+3   C   U0 {1,B}
+4   R!H U0 {1,S}
+5   C   U0 {2,B}
+6   R!H U0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
