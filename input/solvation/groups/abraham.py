@@ -13,7 +13,7 @@ entry(
     label = "O",
     group = 
 """
-1 * {Os,Od} 0
+1 * {Os,Od} U0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -27,7 +27,7 @@ entry(
 	label = "R",
 	group = 
 """
-1 * R 0
+1 * R U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -42,7 +42,7 @@ entry(
 	label = "C",
 	group = 
 """
-1 * C 0
+1 * C U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -57,7 +57,7 @@ entry(
 	label = "Css",
 	group = 
 """
-1 * Cs 0
+1 * Cs U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -72,7 +72,7 @@ entry(
 	label = "Cds",
 	group = 
 """
-1 * {Cd,CO} 0
+1 * {Cd,CO} U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -87,11 +87,11 @@ entry(
     label = "CssH3",
     group = 
 """
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   H   0 {1,S}
-3   H   0 {1,S}
-4   H   0 {1,S}
-5   R   0 {1,S}
+1 * Cs  U0 {2,S} {3,S} {4,S} {5,S}
+2   H   U0 {1,S}
+3   H   U0 {1,S}
+4   H   U0 {1,S}
+5   R   U0 {1,S}
 """,
     solute = SoluteData(
         S = -0.075,
@@ -112,11 +112,11 @@ entry(
     label = "CssH2",
     group = 
 """
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   H   0 {1,S}
-3   H   0 {1,S}
-4   R!H 0 {1,S}
-5   R!H 0 {1,S}  
+1 * Cs  U0 {2,S} {3,S} {4,S} {5,S}
+2   H   U0 {1,S}
+3   H   U0 {1,S}
+4   R!H U0 {1,S}
+5   R!H U0 {1,S}  
 """,
     solute = SoluteData(
         S =  0,
@@ -137,11 +137,11 @@ entry(
     label = "CssH",
     group = 
 """
-1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
-2   H   0 {1,S}
-3   R!H   0 {1,S}
-4   R!H   0 {1,S}
-5   R!H   0 {1,S}
+1 * Cs  U0 {2,S} {3,S} {4,S} {5,S}
+2   H   U0 {1,S}
+3   R!H U0 {1,S}
+4   R!H U0 {1,S}
+5   R!H U0 {1,S}
 
 """,
     solute = SoluteData(
@@ -163,11 +163,11 @@ entry(
 	label = "Css-noH",
 	group = 
 """
-1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
-2   R!H   0 {1,S}
-3   R!H   0 {1,S}
-4   R!H   0 {1,S}
-5	R!H	  0	{1,S}
+1 * Cs  U0 {2,S} {3,S} {4,S} {5,S}
+2   R!H U0 {1,S}
+3   R!H U0 {1,S}
+4   R!H U0 {1,S}
+5   R!H U0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -188,10 +188,10 @@ entry(
 	label = "CdsH2",
 	group = 
 """
-1 * {Cd,CO} 0 {2,S} {3,S} {4,D}
-2   H 0 {1,S}
-3   H 0 {1,S}
-4   R!H 0 {1,D}
+1 * {Cd,CO} U0 {2,S} {3,S} {4,D}
+2   H       U0 {1,S}
+3   H       U0 {1,S}
+4   R!H     U0 {1,D}
 
 """,
 	solute = SoluteData(
@@ -213,10 +213,10 @@ entry(
 	label = "CdsH",
 	group = 
 """
-1 * {Cd,CO} 0 {2,S} {3,S} {4,D}
-2   H 0 {1,S}
-3   R!H 0 {1,S}
-4   R!H 0 {1,D}
+1 * {Cd,CO} U0 {2,S} {3,S} {4,D}
+2   H       U0 {1,S}
+3   R!H     U0 {1,S}
+4   R!H     U0 {1,D}
 
 """,
 	solute = SoluteData(
@@ -238,10 +238,10 @@ entry(
 	label = "Cds-noH",
 	group = 
 """
-1 * {Cd,CO,Cb} 0 {2,S} {3,S} {4,D}
-2   R!H 0 {1,S}
-3   R!H 0 {1,S}
-4   R!H 0 {1,D}
+1 * {Cd,CO,Cb} U0 {2,S} {3,S} {4,D}
+2   R!H        U0 {1,S}
+3   R!H        U0 {1,S}
+4   R!H        U0 {1,D}
 
 """,
 	solute = SoluteData(
@@ -263,7 +263,7 @@ entry(
 	label = "Cbf",
 	group = 
 """
-1 * Cbf 0
+1 * Cbf U0
 
 """,
 	solute = SoluteData(
@@ -285,7 +285,7 @@ entry(
 	label = "Ct",
 	group = 
 """
-1 * Ct 0
+1 * Ct U0
 
 """,
 	solute = SoluteData(
@@ -307,7 +307,7 @@ entry(
 	label = "Cb",
 	group = 
 """
-1 * Cb 0
+1 * Cb U0
 
 """,
 	solute = None,
@@ -323,10 +323,10 @@ entry(
 	label = "Cb-noH",
 	group = 
 """
-1 * Cb 0 {2,B} {3,B} {4,B}
-2   R!H 0 {1,B}
-3   R!H 0 {1,B}
-4   R!H 0 {1,B}
+1 * Cb  U0 {2,B} {3,B} {4,B}
+2   R!H U0 {1,B}
+3   R!H U0 {1,B}
+4   R!H U0 {1,B}
 
 """,
 	solute = SoluteData(
@@ -348,10 +348,10 @@ entry(
 	label = "Cb-H",
 	group = 
 """
-1 * Cb 0 {2,B} {3,B} {4,S}
-2   R!H 0 {1,B}
-3   R!H 0 {1,B}
-4   H   0 {1,S}
+1 * Cb  U0 {2,B} {3,B} {4,S}
+2   R!H U0 {1,B}
+3   R!H U0 {1,B}
+4   H   U0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -373,10 +373,10 @@ entry(
 	label = "Cb-noHnoRing",
 	group = 
 """
-1 * Cb 0 {2,B} {3,B} {4,S}
-2   R!H 0 {1,B}
-3   R!H 0 {1,B}
-4   R!H 0 {1,S}
+1 * Cb  U0 {2,B} {3,B} {4,S}
+2   R!H U0 {1,B}
+3   R!H U0 {1,B}
+4   R!H U0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -400,7 +400,7 @@ entry(
 	label = "O",
 	group = 
 """
-1 * O 0
+1 * O U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -415,7 +415,7 @@ entry(
 	label = "Oss",
 	group = 
 """
-1 * Os 0
+1 * Os U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -431,8 +431,8 @@ entry(
 	label = "OssH",
 	group = 
 """
-1 * Os 0 {2,S}
-2   H 0 {1,S}
+1 * Os U0 {2,S}
+2   H  U0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -454,9 +454,9 @@ entry(
 	label = "Oss-noncyclic",
 	group = 
 """
-1 * Os 0 {2,S} {3,S}
-2   R!H 0 {1,S}
-3   R!H 0 {1,S}
+1 * Os  U0 {2,S} {3,S}
+2   R!H U0 {1,S}
+3   R!H U0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -478,7 +478,7 @@ entry(
 	label = "Od",
 	group = 
 """
-1 * Od 0
+1 * Od U0
 
 """,
 	solute = SoluteData(
@@ -500,7 +500,7 @@ entry(
 	label = "Cdd",
 	group = 
 """
-1 * Cdd 0
+1 * Cdd U0
 
 """,
 	solute = SoluteData(
