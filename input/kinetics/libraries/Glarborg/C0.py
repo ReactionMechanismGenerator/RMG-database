@@ -11,26 +11,26 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -54,33 +54,33 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant3 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -104,19 +104,19 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant3 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -124,14 +124,14 @@ H2O
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -156,27 +156,27 @@ entry(
     reactant1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     reactant2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -210,27 +210,27 @@ entry(
     reactant1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -255,27 +255,27 @@ entry(
     reactant1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -300,21 +300,21 @@ entry(
     reactant1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -322,7 +322,7 @@ HO2
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -345,7 +345,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -353,20 +353,20 @@ HO2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -390,7 +390,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -398,13 +398,13 @@ HO2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -412,7 +412,7 @@ H2O
     product2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     degeneracy = 1,
@@ -435,7 +435,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -443,20 +443,20 @@ HO2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -480,7 +480,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -488,14 +488,14 @@ HO2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -503,7 +503,7 @@ H2O
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -527,7 +527,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -535,7 +535,7 @@ HO2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -543,7 +543,7 @@ HO2
     product1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -552,7 +552,7 @@ H2O2
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -587,7 +587,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -596,13 +596,13 @@ H2O2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -610,7 +610,7 @@ H2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -634,7 +634,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -643,13 +643,13 @@ H2O2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -657,7 +657,7 @@ HO2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -681,7 +681,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -690,13 +690,13 @@ H2O2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -704,7 +704,7 @@ HO2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -728,7 +728,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -737,14 +737,14 @@ H2O2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -752,7 +752,7 @@ H2O
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -783,20 +783,20 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -833,7 +833,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -842,14 +842,14 @@ H2O2
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -881,19 +881,19 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -915,19 +915,19 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -949,19 +949,19 @@ entry(
     reactant1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -988,20 +988,20 @@ entry(
     reactant1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
