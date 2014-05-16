@@ -11,26 +11,26 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -54,26 +54,26 @@ entry(
     reactant1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     reactant2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -97,21 +97,21 @@ entry(
     reactant1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -119,7 +119,7 @@ H2O
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -142,13 +142,13 @@ entry(
     reactant1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     reactant2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -156,14 +156,14 @@ H2O
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -187,7 +187,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -195,20 +195,20 @@ HO2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -232,7 +232,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -240,20 +240,20 @@ HO2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -277,7 +277,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -285,20 +285,20 @@ HO2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -322,7 +322,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -330,14 +330,14 @@ HO2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -345,7 +345,7 @@ H2O
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -369,7 +369,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -377,7 +377,7 @@ HO2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -385,7 +385,7 @@ HO2
     product1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -394,7 +394,7 @@ H2O2
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -429,7 +429,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -438,13 +438,13 @@ H2O2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -452,7 +452,7 @@ H2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -476,7 +476,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -485,13 +485,13 @@ H2O2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -499,7 +499,7 @@ HO2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -523,7 +523,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -532,20 +532,20 @@ H2O2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -570,7 +570,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -579,14 +579,14 @@ H2O2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -594,7 +594,7 @@ HO2
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -630,21 +630,21 @@ entry(
     reactant1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -652,7 +652,7 @@ CO2
     product2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     degeneracy = 1,
@@ -675,14 +675,14 @@ entry(
     reactant1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -690,7 +690,7 @@ HO2
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -698,7 +698,7 @@ CO2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -722,21 +722,21 @@ entry(
     reactant1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -744,7 +744,7 @@ CO2
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -767,7 +767,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -775,21 +775,21 @@ HCO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -814,7 +814,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -822,20 +822,20 @@ HCO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -859,7 +859,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -867,20 +867,20 @@ HCO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -904,7 +904,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -912,21 +912,21 @@ HCO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -951,7 +951,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -959,13 +959,13 @@ HCO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -973,7 +973,7 @@ CO2
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -996,7 +996,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1004,7 +1004,7 @@ HCO
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1012,7 +1012,7 @@ HO2
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -1020,14 +1020,14 @@ CO2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -1050,7 +1050,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1058,7 +1058,7 @@ HCO
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1067,14 +1067,14 @@ CH3
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1101,7 +1101,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1109,7 +1109,7 @@ HCO
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1117,21 +1117,21 @@ HCO
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -1155,7 +1155,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1163,7 +1163,7 @@ HCO
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1171,7 +1171,7 @@ HCO
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1180,7 +1180,7 @@ CH2O
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -1204,7 +1204,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1212,14 +1212,14 @@ HCO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O2CHO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -1246,7 +1246,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1255,7 +1255,7 @@ CH2O
     reactant2 = 
 """
 O2CHO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -1265,7 +1265,7 @@ O2CHO
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1273,7 +1273,7 @@ HCO
     product2 = 
 """
 HO2CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {6,S}
@@ -1301,7 +1301,7 @@ entry(
     reactant1 = 
 """
 HO2CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {6,S}
@@ -1312,7 +1312,7 @@ HO2CHO
     product1 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -1321,7 +1321,7 @@ OCHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1345,7 +1345,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1354,13 +1354,13 @@ CH2O
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1368,7 +1368,7 @@ HCO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1392,7 +1392,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1401,13 +1401,13 @@ CH2O
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1415,7 +1415,7 @@ HCO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1439,7 +1439,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1448,14 +1448,14 @@ CH2O
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1463,7 +1463,7 @@ HCO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1488,7 +1488,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1497,14 +1497,14 @@ CH2O
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1512,7 +1512,7 @@ HCO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1537,7 +1537,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1546,7 +1546,7 @@ CH2O
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1554,7 +1554,7 @@ HO2
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1562,7 +1562,7 @@ HCO
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -1588,7 +1588,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1597,7 +1597,7 @@ CH2O
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1606,7 +1606,7 @@ CH3
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1614,7 +1614,7 @@ HCO
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1641,7 +1641,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1650,7 +1650,7 @@ CH2O
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1658,7 +1658,7 @@ HO2
     product1 = 
 """
 OCH2O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -1687,7 +1687,7 @@ entry(
     reactant1 = 
 """
 OCH2O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -1699,7 +1699,7 @@ OCH2O2H
     product1 = 
 """
 HOCH2O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {7,S}
 3 O 0 2 {1,S} {6,S}
@@ -1728,7 +1728,7 @@ entry(
     reactant1 = 
 """
 HOCH2O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {7,S}
 3 O 0 2 {1,S} {6,S}
@@ -1740,7 +1740,7 @@ HOCH2O2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1748,7 +1748,7 @@ HO2
     product1 = 
 """
 HOCH2O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {7,S}
@@ -1761,7 +1761,7 @@ HOCH2O2H
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -1785,7 +1785,7 @@ entry(
     reactant1 = 
 """
 HOCH2O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 O 1 2 {1,S}
@@ -1796,14 +1796,14 @@ HOCH2O
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCH2O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {7,S}
@@ -1833,7 +1833,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1842,13 +1842,13 @@ CH3
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1857,7 +1857,7 @@ CH2O
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -1880,7 +1880,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1889,14 +1889,14 @@ CH3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1906,7 +1906,7 @@ CH3O
     product2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     degeneracy = 1,
@@ -1929,7 +1929,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1938,14 +1938,14 @@ CH3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1954,7 +1954,7 @@ CH2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -1978,7 +1978,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1987,7 +1987,7 @@ CH3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -1995,7 +1995,7 @@ HO2
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2005,7 +2005,7 @@ CH3O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2029,7 +2029,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2039,13 +2039,13 @@ CH4
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2054,7 +2054,7 @@ CH3
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2078,7 +2078,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2088,13 +2088,13 @@ CH4
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2103,7 +2103,7 @@ CH3
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2127,7 +2127,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2137,14 +2137,14 @@ CH4
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2153,7 +2153,7 @@ CH3
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2178,7 +2178,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2187,7 +2187,7 @@ CH3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2195,7 +2195,7 @@ HO2
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2205,7 +2205,7 @@ CH4
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -2229,7 +2229,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2239,7 +2239,7 @@ CH4
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2247,7 +2247,7 @@ HO2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2256,7 +2256,7 @@ CH3
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -2282,7 +2282,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2291,7 +2291,7 @@ CH3
     reactant2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2302,7 +2302,7 @@ CH3OH
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2312,7 +2312,7 @@ CH4
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2339,7 +2339,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2349,7 +2349,7 @@ CH3O
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2358,7 +2358,7 @@ CH3
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2367,7 +2367,7 @@ CH2O
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2394,7 +2394,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2404,13 +2404,13 @@ CH3O
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2419,7 +2419,7 @@ CH2O
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2443,7 +2443,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2454,7 +2454,7 @@ CH3O2
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2463,7 +2463,7 @@ CH2O
     product1 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -2475,7 +2475,7 @@ CH3O2H
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2500,7 +2500,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2510,7 +2510,7 @@ CH4
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2521,7 +2521,7 @@ CH3O2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2530,7 +2530,7 @@ CH3
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -2559,7 +2559,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2570,7 +2570,7 @@ CH3OH
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2581,7 +2581,7 @@ CH3O2
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -2591,7 +2591,7 @@ CH2OH
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -2620,7 +2620,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2631,7 +2631,7 @@ CH3O2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -2640,7 +2640,7 @@ CH3
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2650,7 +2650,7 @@ CH3O
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2677,7 +2677,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2688,7 +2688,7 @@ CH3O2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2696,7 +2696,7 @@ HO2
     product1 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -2708,7 +2708,7 @@ CH3O2H
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -2732,7 +2732,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2743,7 +2743,7 @@ CH3O2
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2754,7 +2754,7 @@ CH3O2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -2763,7 +2763,7 @@ CH2O
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2774,7 +2774,7 @@ CH3OH
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -2798,7 +2798,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2809,7 +2809,7 @@ CH3O2
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2820,14 +2820,14 @@ CH3O2
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2837,7 +2837,7 @@ CH3O
     product3 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2864,7 +2864,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2875,13 +2875,13 @@ CH3O2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2891,7 +2891,7 @@ CH3O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -2915,7 +2915,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2926,13 +2926,13 @@ CH3O2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -2942,7 +2942,7 @@ CH3O
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -2966,7 +2966,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2977,14 +2977,14 @@ CH3O2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -2995,7 +2995,7 @@ CH3OH
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -3019,7 +3019,7 @@ entry(
     reactant1 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -3031,7 +3031,7 @@ CH3O2H
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3041,7 +3041,7 @@ CH3O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3065,7 +3065,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3075,13 +3075,13 @@ CH2OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3090,7 +3090,7 @@ CH2O
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3114,7 +3114,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3124,13 +3124,13 @@ CH2OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3139,7 +3139,7 @@ CH3
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3163,7 +3163,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3173,13 +3173,13 @@ CH2OH
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3188,7 +3188,7 @@ CH2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3212,7 +3212,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3222,14 +3222,14 @@ CH2OH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3238,7 +3238,7 @@ CH2O
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3263,7 +3263,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3273,14 +3273,14 @@ CH2OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3289,7 +3289,7 @@ CH2O
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3325,7 +3325,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3335,7 +3335,7 @@ CH2OH
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3343,7 +3343,7 @@ HO2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3352,7 +3352,7 @@ CH2O
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -3378,7 +3378,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3388,7 +3388,7 @@ CH2OH
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3396,7 +3396,7 @@ HCO
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -3407,7 +3407,7 @@ CH3OH
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -3431,7 +3431,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3441,7 +3441,7 @@ CH2OH
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3449,7 +3449,7 @@ HCO
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3458,7 +3458,7 @@ CH2O
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3484,7 +3484,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3494,7 +3494,7 @@ CH2OH
     reactant2 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3504,7 +3504,7 @@ CH2OH
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -3515,7 +3515,7 @@ CH3OH
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3541,7 +3541,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3551,7 +3551,7 @@ CH2OH
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3561,7 +3561,7 @@ CH3O
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -3572,7 +3572,7 @@ CH3OH
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3598,7 +3598,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -3608,7 +3608,7 @@ CH2OH
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3616,7 +3616,7 @@ HO2
     product1 = 
 """
 HOCH2O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 O 1 2 {1,S}
@@ -3627,7 +3627,7 @@ HOCH2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3651,7 +3651,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3661,13 +3661,13 @@ CH3O
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3676,7 +3676,7 @@ CH3
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3700,7 +3700,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3710,13 +3710,13 @@ CH3O
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3725,7 +3725,7 @@ CH2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -3749,7 +3749,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3759,14 +3759,14 @@ CH3O
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3775,7 +3775,7 @@ CH2O
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3800,7 +3800,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3810,14 +3810,14 @@ CH3O
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3826,7 +3826,7 @@ CH2O
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3862,7 +3862,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3872,7 +3872,7 @@ CH3O
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3880,7 +3880,7 @@ HO2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3889,7 +3889,7 @@ CH2O
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -3915,7 +3915,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3925,14 +3925,14 @@ CH3O
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -3941,7 +3941,7 @@ CH3
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -3966,7 +3966,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -3976,7 +3976,7 @@ CH3O
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -3984,7 +3984,7 @@ HCO
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -3995,7 +3995,7 @@ CH3OH
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -4019,7 +4019,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4029,7 +4029,7 @@ CH3O
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4039,7 +4039,7 @@ CH3O
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4050,7 +4050,7 @@ CH3OH
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -4076,7 +4076,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4087,13 +4087,13 @@ CH3OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4103,7 +4103,7 @@ CH2OH
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4127,7 +4127,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4138,13 +4138,13 @@ CH3OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4154,7 +4154,7 @@ CH3O
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4178,7 +4178,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4189,13 +4189,13 @@ CH3OH
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4205,7 +4205,7 @@ CH2OH
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -4229,7 +4229,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4240,14 +4240,14 @@ CH3OH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4257,7 +4257,7 @@ CH3O
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4282,7 +4282,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4293,14 +4293,14 @@ CH3OH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4310,7 +4310,7 @@ CH2OH
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4335,7 +4335,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4346,14 +4346,14 @@ CH3OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4363,7 +4363,7 @@ CH2OH
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4388,7 +4388,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4399,7 +4399,7 @@ CH3OH
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -4407,7 +4407,7 @@ HCO
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4417,7 +4417,7 @@ CH2OH
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -4443,7 +4443,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4454,7 +4454,7 @@ CH3OH
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4462,7 +4462,7 @@ HO2
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4472,7 +4472,7 @@ CH2OH
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -4498,7 +4498,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4509,7 +4509,7 @@ CH3OH
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4518,7 +4518,7 @@ CH3
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4528,7 +4528,7 @@ CH2OH
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4555,7 +4555,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4565,7 +4565,7 @@ CH3O
     reactant2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4576,7 +4576,7 @@ CH3OH
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -4587,7 +4587,7 @@ CH3OH
     product2 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -4614,7 +4614,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4623,7 +4623,7 @@ CH3
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4632,13 +4632,13 @@ CH3
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -4667,7 +4667,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4677,7 +4677,7 @@ CH4
     reactant2 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4685,7 +4685,7 @@ CH2_(T)
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4694,7 +4694,7 @@ CH3
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4720,7 +4720,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4730,7 +4730,7 @@ CH4
     reactant2 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4738,7 +4738,7 @@ CH2_(S)
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4747,7 +4747,7 @@ CH3
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4773,7 +4773,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4782,14 +4782,14 @@ CH3
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4797,7 +4797,7 @@ CH2_(T)
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4822,7 +4822,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4831,14 +4831,14 @@ CH3
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4846,7 +4846,7 @@ CH2_(S)
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4871,7 +4871,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4880,7 +4880,7 @@ CH3
     reactant2 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4888,7 +4888,7 @@ CH2_(T)
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -4899,7 +4899,7 @@ C2H4
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -4922,7 +4922,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4931,7 +4931,7 @@ CH3
     reactant2 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4939,7 +4939,7 @@ CH2_(S)
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -4950,7 +4950,7 @@ C2H4
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -4973,7 +4973,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -4983,13 +4983,13 @@ CH3O
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -4997,7 +4997,7 @@ CH2_(S)
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5022,7 +5022,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5030,13 +5030,13 @@ CH2_(T)
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5044,7 +5044,7 @@ HCO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5067,7 +5067,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5075,14 +5075,14 @@ CH2_(T)
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5091,7 +5091,7 @@ CH2O
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5114,7 +5114,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5122,20 +5122,20 @@ CH2_(T)
     reactant2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5161,7 +5161,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5169,14 +5169,14 @@ CH2_(T)
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5184,7 +5184,7 @@ HCO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5208,7 +5208,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5216,7 +5216,7 @@ CH2_(T)
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -5224,7 +5224,7 @@ HO2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5233,7 +5233,7 @@ CH2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5257,7 +5257,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5265,7 +5265,7 @@ CH2_(T)
     reactant2 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5273,7 +5273,7 @@ CH2_(T)
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -5282,7 +5282,7 @@ C2H2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5306,7 +5306,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5314,7 +5314,7 @@ CH2_(S)
     reactant2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5322,7 +5322,7 @@ H2O
     product1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5330,7 +5330,7 @@ CH2_(T)
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5355,7 +5355,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5363,14 +5363,14 @@ CH2_(S)
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5378,7 +5378,7 @@ CH2_(T)
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -5402,7 +5402,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5410,7 +5410,7 @@ CH2_(S)
     reactant2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -5418,7 +5418,7 @@ CO2
     product1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5426,7 +5426,7 @@ CH2_(T)
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -5451,7 +5451,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5459,20 +5459,20 @@ CH2_(S)
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5496,7 +5496,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5504,13 +5504,13 @@ CH2_(S)
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5518,7 +5518,7 @@ HCO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5541,7 +5541,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5549,14 +5549,14 @@ CH2_(S)
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5565,7 +5565,7 @@ CH2O
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5588,7 +5588,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5596,14 +5596,14 @@ CH2_(S)
     reactant2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5612,7 +5612,7 @@ CH3
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -5635,7 +5635,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5643,27 +5643,27 @@ CH2_(S)
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product3 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -5687,7 +5687,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5695,21 +5695,21 @@ CH2_(S)
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5734,7 +5734,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5742,7 +5742,7 @@ CH2_(S)
     reactant2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -5750,7 +5750,7 @@ CO2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5759,7 +5759,7 @@ CH2O
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -5783,7 +5783,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5791,20 +5791,20 @@ CH2_(S)
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5828,7 +5828,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5836,20 +5836,20 @@ CH2_(T)
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -5879,7 +5879,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5887,21 +5887,21 @@ CH2_(T)
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -5926,21 +5926,21 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -5948,7 +5948,7 @@ HCO
     product2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     degeneracy = 1,
@@ -5971,26 +5971,26 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C_(V)
-5
+multiplicity 5
 1 C 4 0
 """,
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6014,27 +6014,27 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -6057,21 +6057,21 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -6079,7 +6079,7 @@ HCO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -6102,14 +6102,14 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6117,13 +6117,13 @@ H2O
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -6149,14 +6149,14 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -6164,7 +6164,7 @@ CO2
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -6172,7 +6172,7 @@ HCO
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -6196,7 +6196,7 @@ entry(
     reactant1 = 
 """
 HOCH2O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 O 1 2 {1,S}
@@ -6207,7 +6207,7 @@ HOCH2O
     product1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6217,7 +6217,7 @@ HCOOH
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -6240,7 +6240,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -6249,14 +6249,14 @@ CH2O
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOCH2O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 O 1 2 {1,S}
@@ -6284,7 +6284,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6294,7 +6294,7 @@ HCOOH
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -6302,7 +6302,7 @@ HCO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6326,7 +6326,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6336,14 +6336,14 @@ HCOOH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6351,7 +6351,7 @@ H2O
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -6359,7 +6359,7 @@ CO2
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -6382,7 +6382,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6392,14 +6392,14 @@ HCOOH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6407,14 +6407,14 @@ H2O
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6438,7 +6438,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6448,20 +6448,20 @@ HCOOH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -6469,7 +6469,7 @@ CO2
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -6492,7 +6492,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6502,27 +6502,27 @@ HCOOH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6546,7 +6546,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6556,7 +6556,7 @@ HCOOH
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6565,7 +6565,7 @@ CH3
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6575,14 +6575,14 @@ CH4
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6606,7 +6606,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6616,7 +6616,7 @@ HCOOH
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -6624,7 +6624,7 @@ HO2
     product1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -6633,14 +6633,14 @@ H2O2
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6664,7 +6664,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -6674,27 +6674,27 @@ HCOOH
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6718,7 +6718,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -6731,13 +6731,13 @@ C2H6
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -6749,7 +6749,7 @@ C2H5
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6773,7 +6773,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -6786,13 +6786,13 @@ C2H6
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -6804,7 +6804,7 @@ C2H5
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -6828,7 +6828,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -6841,14 +6841,14 @@ C2H6
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -6860,7 +6860,7 @@ C2H5
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6885,7 +6885,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -6898,14 +6898,14 @@ C2H6
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -6917,7 +6917,7 @@ C2H5
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -6942,7 +6942,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -6955,7 +6955,7 @@ C2H6
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -6964,7 +6964,7 @@ CH3
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -6976,7 +6976,7 @@ C2H5
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7003,7 +7003,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -7016,7 +7016,7 @@ C2H6
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -7024,7 +7024,7 @@ HO2
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7036,7 +7036,7 @@ C2H5
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -7062,7 +7062,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -7075,7 +7075,7 @@ C2H6
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -7086,7 +7086,7 @@ CH3O2
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7098,7 +7098,7 @@ C2H5
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -7127,7 +7127,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -7140,7 +7140,7 @@ C2H6
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -7150,7 +7150,7 @@ CH3O
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7162,7 +7162,7 @@ C2H5
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -7190,7 +7190,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -7203,14 +7203,14 @@ C2H6
     reactant2 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7222,7 +7222,7 @@ C2H5
     product2 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7247,7 +7247,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7255,7 +7255,7 @@ CH2_(S)
     reactant2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -7268,7 +7268,7 @@ C2H6
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7277,7 +7277,7 @@ CH3
     product2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7306,14 +7306,14 @@ entry(
     reactant1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -7324,13 +7324,13 @@ CH3O2
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -7359,14 +7359,14 @@ entry(
     reactant1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -7380,13 +7380,13 @@ C2H5O2
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -7418,7 +7418,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -7429,7 +7429,7 @@ C2H4
     reactant2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -7440,7 +7440,7 @@ C2H4
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7452,7 +7452,7 @@ C2H5
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -7479,7 +7479,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7488,7 +7488,7 @@ CH3
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7500,7 +7500,7 @@ C2H5
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7510,7 +7510,7 @@ CH4
     product2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -7538,7 +7538,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7550,13 +7550,13 @@ C2H5
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -7567,7 +7567,7 @@ C2H4
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -7591,7 +7591,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7603,13 +7603,13 @@ C2H5
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -7621,7 +7621,7 @@ CH3CHO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -7644,7 +7644,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7656,7 +7656,7 @@ C2H5
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -7664,7 +7664,7 @@ HO2
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -7677,7 +7677,7 @@ C2H5O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -7701,7 +7701,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -7712,7 +7712,7 @@ CH3O2
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7724,7 +7724,7 @@ C2H5
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -7734,7 +7734,7 @@ CH3O
     product2 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -7764,7 +7764,7 @@ entry(
     reactant1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -7777,14 +7777,14 @@ C2H5O
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -7796,7 +7796,7 @@ CH3CHO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -7821,7 +7821,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -7833,13 +7833,13 @@ CH3CHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -7869,7 +7869,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -7881,14 +7881,14 @@ C2H5
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -7919,7 +7919,7 @@ entry(
     reactant1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -7933,7 +7933,7 @@ C2H5O2
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7942,7 +7942,7 @@ CH2O
     product1 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -7957,7 +7957,7 @@ C2H5O2H
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -7982,7 +7982,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -7992,7 +7992,7 @@ CH4
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8006,7 +8006,7 @@ C2H5O2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8015,7 +8015,7 @@ CH3
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -8047,7 +8047,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -8058,7 +8058,7 @@ CH3OH
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8072,7 +8072,7 @@ C2H5O2
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -8082,7 +8082,7 @@ CH2OH
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -8114,7 +8114,7 @@ entry(
     reactant1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8128,7 +8128,7 @@ C2H5O2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -8136,7 +8136,7 @@ HO2
     product1 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -8151,7 +8151,7 @@ C2H5O2H
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -8175,7 +8175,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -8188,7 +8188,7 @@ C2H6
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8202,7 +8202,7 @@ C2H5O2
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -8214,7 +8214,7 @@ C2H5
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -8246,7 +8246,7 @@ entry(
     reactant1 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -8261,7 +8261,7 @@ C2H5O2H
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -8274,7 +8274,7 @@ C2H5O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8298,7 +8298,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -8310,14 +8310,14 @@ C2H5
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H4O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 1 0 {1,S} {7,S} {8,S}
 3 O 0 2 {1,S} {4,S}
@@ -8348,7 +8348,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -8360,14 +8360,14 @@ C2H5
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -8378,7 +8378,7 @@ C2H4
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -8409,7 +8409,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -8421,14 +8421,14 @@ C2H5
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -8440,7 +8440,7 @@ C2H4O1-2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8464,7 +8464,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -8476,14 +8476,14 @@ C2H5
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -8495,7 +8495,7 @@ CH3CHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8519,7 +8519,7 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 1 0 {1,S} {7,S} {8,S}
 3 O 0 2 {1,S} {4,S}
@@ -8533,7 +8533,7 @@ C2H4O2H
     product1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8564,7 +8564,7 @@ entry(
     reactant1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8578,7 +8578,7 @@ C2H5O2
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -8590,7 +8590,7 @@ CH3CHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8614,7 +8614,7 @@ entry(
     reactant1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8628,7 +8628,7 @@ C2H5O2
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -8639,7 +8639,7 @@ C2H4
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -8664,7 +8664,7 @@ entry(
     reactant1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -8678,7 +8678,7 @@ C2H5O2
     product1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -8690,7 +8690,7 @@ C2H4O1-2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8714,7 +8714,7 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 1 0 {1,S} {7,S} {8,S}
 3 O 0 2 {1,S} {4,S}
@@ -8728,7 +8728,7 @@ C2H4O2H
     product1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -8740,7 +8740,7 @@ C2H4O1-2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8764,7 +8764,7 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 1 0 {1,S} {7,S} {8,S}
 3 O 0 2 {1,S} {4,S}
@@ -8778,7 +8778,7 @@ C2H4O2H
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -8789,7 +8789,7 @@ C2H4
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -8814,7 +8814,7 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 1 0 {1,S} {7,S} {8,S}
 3 O 0 2 {1,S} {4,S}
@@ -8828,7 +8828,7 @@ C2H4O2H
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -8840,7 +8840,7 @@ CH3CHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -8864,7 +8864,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -8876,7 +8876,7 @@ C2H4O1-2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -8885,7 +8885,7 @@ CH3
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -8910,7 +8910,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -8922,7 +8922,7 @@ C2H4O1-2
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -8951,7 +8951,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -8963,14 +8963,14 @@ C2H4O1-2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -8981,7 +8981,7 @@ C2H3O1-2
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9006,7 +9006,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -9018,13 +9018,13 @@ C2H4O1-2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9035,7 +9035,7 @@ C2H3O1-2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -9059,7 +9059,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -9071,7 +9071,7 @@ C2H4O1-2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -9079,7 +9079,7 @@ HO2
     product1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9090,7 +9090,7 @@ C2H3O1-2
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -9116,7 +9116,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -9128,7 +9128,7 @@ C2H4O1-2
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -9139,7 +9139,7 @@ CH3O2
     product1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9150,7 +9150,7 @@ C2H3O1-2
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -9179,7 +9179,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -9191,7 +9191,7 @@ C2H4O1-2
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -9205,7 +9205,7 @@ C2H5O2
     product1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9216,7 +9216,7 @@ C2H3O1-2
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -9248,7 +9248,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -9260,7 +9260,7 @@ C2H4O1-2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9269,7 +9269,7 @@ CH3
     product1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9280,7 +9280,7 @@ C2H3O1-2
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9307,7 +9307,7 @@ entry(
     reactant1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -9319,7 +9319,7 @@ C2H4O1-2
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -9329,7 +9329,7 @@ CH3O
     product1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9340,7 +9340,7 @@ C2H3O1-2
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -9368,7 +9368,7 @@ entry(
     reactant1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9379,7 +9379,7 @@ C2H3O1-2
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9407,7 +9407,7 @@ entry(
     reactant1 = 
 """
 C2H3O1-2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {3,S} {6,S}
 3 O 0 2 {1,S} {2,S}
@@ -9418,7 +9418,7 @@ C2H3O1-2
     product1 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -9446,7 +9446,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9455,7 +9455,7 @@ CH3
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -9463,7 +9463,7 @@ HCO
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9492,7 +9492,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9504,13 +9504,13 @@ CH3CHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9521,7 +9521,7 @@ CH3CO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -9545,7 +9545,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9557,13 +9557,13 @@ CH3CHO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9574,7 +9574,7 @@ CH3CO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -9598,7 +9598,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9610,14 +9610,14 @@ CH3CHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9628,7 +9628,7 @@ CH3CO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9653,7 +9653,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9665,14 +9665,14 @@ CH3CHO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9683,7 +9683,7 @@ CH3CO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -9708,7 +9708,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9720,7 +9720,7 @@ CH3CHO
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9729,7 +9729,7 @@ CH3
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9740,7 +9740,7 @@ CH3CO
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9767,7 +9767,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9779,7 +9779,7 @@ CH3CHO
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -9787,7 +9787,7 @@ HO2
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9798,7 +9798,7 @@ CH3CO
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -9824,7 +9824,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -9835,7 +9835,7 @@ CH3O2
     reactant2 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9847,7 +9847,7 @@ CH3CHO
     product1 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -9859,7 +9859,7 @@ CH3O2H
     product2 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9887,7 +9887,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9899,7 +9899,7 @@ CH3CHO
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -9912,7 +9912,7 @@ CH3CO3
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -9923,7 +9923,7 @@ CH3CO
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -9954,7 +9954,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -9966,14 +9966,14 @@ CH3CHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -9982,7 +9982,7 @@ CH3
     product2 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -10009,7 +10009,7 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -10021,14 +10021,14 @@ CH3CHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -10039,7 +10039,7 @@ CH2CHO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10064,7 +10064,7 @@ entry(
     reactant1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -10075,13 +10075,13 @@ CH3CO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10091,7 +10091,7 @@ CH2CO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10115,7 +10115,7 @@ entry(
     reactant1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -10126,13 +10126,13 @@ CH3CO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10142,7 +10142,7 @@ CH2CO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10166,7 +10166,7 @@ entry(
     reactant1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -10177,7 +10177,7 @@ CH3CO
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10186,7 +10186,7 @@ CH3
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10196,7 +10196,7 @@ CH2CO
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10223,7 +10223,7 @@ entry(
     reactant1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -10234,14 +10234,14 @@ CH3CO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -10271,7 +10271,7 @@ entry(
     reactant1 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -10284,7 +10284,7 @@ CH3CO3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -10292,7 +10292,7 @@ HO2
     product1 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -10306,7 +10306,7 @@ CH3CO3H
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -10330,7 +10330,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -10339,7 +10339,7 @@ H2O2
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -10352,7 +10352,7 @@ CH3CO3
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -10360,7 +10360,7 @@ HO2
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -10391,7 +10391,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10401,7 +10401,7 @@ CH4
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -10414,7 +10414,7 @@ CH3CO3
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10423,7 +10423,7 @@ CH3
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -10454,7 +10454,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -10463,7 +10463,7 @@ CH2O
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -10476,7 +10476,7 @@ CH3CO3
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -10484,7 +10484,7 @@ HCO
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -10515,7 +10515,7 @@ entry(
     reactant1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -10528,7 +10528,7 @@ C2H6
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -10541,7 +10541,7 @@ CH3CO3
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -10553,7 +10553,7 @@ C2H5
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -10584,7 +10584,7 @@ entry(
     reactant1 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -10598,7 +10598,7 @@ CH3CO3H
     product1 = 
 """
 CH3CO2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -10610,7 +10610,7 @@ CH3CO2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10634,7 +10634,7 @@ entry(
     reactant1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10644,13 +10644,13 @@ CH2CO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -10678,7 +10678,7 @@ entry(
     reactant1 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -10689,14 +10689,14 @@ CH2CHO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -10705,14 +10705,14 @@ CH2O
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10736,7 +10736,7 @@ entry(
     reactant1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10746,13 +10746,13 @@ CH2CO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10761,7 +10761,7 @@ CH3
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -10785,7 +10785,7 @@ entry(
     reactant1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10795,13 +10795,13 @@ CH2CO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -10810,7 +10810,7 @@ HCCO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10834,7 +10834,7 @@ entry(
     reactant1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10844,13 +10844,13 @@ CH2CO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10858,7 +10858,7 @@ CH2_(T)
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -10883,7 +10883,7 @@ entry(
     reactant1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10893,13 +10893,13 @@ CH2CO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -10908,7 +10908,7 @@ HCCO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -10932,7 +10932,7 @@ entry(
     reactant1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10942,14 +10942,14 @@ CH2CO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -10958,7 +10958,7 @@ HCCO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -10983,7 +10983,7 @@ entry(
     reactant1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -10993,14 +10993,14 @@ CH2CO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -11010,7 +11010,7 @@ CH2OH
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -11034,7 +11034,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11042,7 +11042,7 @@ CH2_(S)
     reactant2 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -11052,7 +11052,7 @@ CH2CO
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11063,7 +11063,7 @@ C2H4
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -11087,7 +11087,7 @@ entry(
     reactant1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -11096,28 +11096,28 @@ HCCO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -11141,13 +11141,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -11156,7 +11156,7 @@ HCCO
     product1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11164,7 +11164,7 @@ CH2_(S)
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -11188,7 +11188,7 @@ entry(
     reactant1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -11197,26 +11197,26 @@ HCCO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -11240,7 +11240,7 @@ entry(
     reactant1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -11249,28 +11249,28 @@ HCCO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -11294,14 +11294,14 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -11310,13 +11310,13 @@ CH2O
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -11343,14 +11343,14 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -11359,14 +11359,14 @@ HCCO
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -11392,7 +11392,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11403,13 +11403,13 @@ C2H4
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11419,7 +11419,7 @@ C2H3
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -11443,7 +11443,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11454,13 +11454,13 @@ C2H4
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11469,7 +11469,7 @@ CH3
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -11494,7 +11494,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11505,13 +11505,13 @@ C2H4
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -11522,7 +11522,7 @@ CH2CHO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -11545,7 +11545,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11556,14 +11556,14 @@ C2H4
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11573,7 +11573,7 @@ C2H3
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11598,7 +11598,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11609,7 +11609,7 @@ C2H4
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11618,7 +11618,7 @@ CH3
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11628,7 +11628,7 @@ C2H3
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -11655,7 +11655,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11666,14 +11666,14 @@ C2H4
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11683,7 +11683,7 @@ C2H3
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -11708,7 +11708,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11719,7 +11719,7 @@ C2H4
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -11729,7 +11729,7 @@ CH3O
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11739,7 +11739,7 @@ C2H3
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -11767,7 +11767,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11778,7 +11778,7 @@ C2H4
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -11789,7 +11789,7 @@ CH3O2
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11799,7 +11799,7 @@ C2H3
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -11828,7 +11828,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11839,7 +11839,7 @@ C2H4
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -11853,7 +11853,7 @@ C2H5O2
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11863,7 +11863,7 @@ C2H3
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -11895,7 +11895,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11906,7 +11906,7 @@ C2H4
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -11919,7 +11919,7 @@ CH3CO3
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -11929,7 +11929,7 @@ C2H3
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -11960,7 +11960,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -11971,7 +11971,7 @@ C2H4
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -11982,7 +11982,7 @@ CH3O2
     product1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -11994,7 +11994,7 @@ C2H4O1-2
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -12021,7 +12021,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12032,7 +12032,7 @@ C2H4
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -12046,7 +12046,7 @@ C2H5O2
     product1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -12058,7 +12058,7 @@ C2H4O1-2
     product2 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -12088,7 +12088,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12099,7 +12099,7 @@ C2H4
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -12107,7 +12107,7 @@ HO2
     product1 = 
 """
 C2H4O1-2
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,S} {6,S} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -12119,7 +12119,7 @@ C2H4O1-2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12143,14 +12143,14 @@ entry(
     reactant1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12160,7 +12160,7 @@ CH4
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -12171,7 +12171,7 @@ C2H4
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -12194,7 +12194,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12204,14 +12204,14 @@ C2H3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -12219,7 +12219,7 @@ HCO
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -12245,7 +12245,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12255,14 +12255,14 @@ C2H3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -12270,7 +12270,7 @@ HO2
     product2 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12296,7 +12296,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12306,20 +12306,20 @@ C2H3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product2 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -12347,7 +12347,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12356,7 +12356,7 @@ CH3
     reactant2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12366,7 +12366,7 @@ C2H3
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12376,7 +12376,7 @@ CH4
     product2 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12402,7 +12402,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12412,13 +12412,13 @@ C2H3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12427,7 +12427,7 @@ C2H2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12451,7 +12451,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -12461,14 +12461,14 @@ C2H3
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12477,7 +12477,7 @@ C2H2
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12502,7 +12502,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12511,14 +12511,14 @@ C2H2
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -12527,7 +12527,7 @@ HCCO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12551,13 +12551,13 @@ entry(
     reactant1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     reactant2 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12566,7 +12566,7 @@ C2H2
     product1 = 
 """
 C2H
-2
+multiplicity 2
 1 C 0 0 {2,T} {3,S}
 2 C 1 0 {1,T}
 3 H 0 0 {1,S}
@@ -12574,7 +12574,7 @@ C2H
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -12598,7 +12598,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12607,13 +12607,13 @@ C2H2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12621,7 +12621,7 @@ CH2_(T)
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -12645,7 +12645,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12654,13 +12654,13 @@ C2H2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -12669,7 +12669,7 @@ HCCO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -12692,7 +12692,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12701,14 +12701,14 @@ C2H2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H
-2
+multiplicity 2
 1 C 0 0 {2,T} {3,S}
 2 C 1 0 {1,T}
 3 H 0 0 {1,S}
@@ -12716,7 +12716,7 @@ C2H
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12741,7 +12741,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12750,14 +12750,14 @@ C2H2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -12767,7 +12767,7 @@ CH2CO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -12790,7 +12790,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12799,14 +12799,14 @@ C2H2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -12815,7 +12815,7 @@ CH3
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -12839,14 +12839,14 @@ entry(
     reactant1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -12855,13 +12855,13 @@ C2H2
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 HCCOH
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -12888,13 +12888,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 HCCOH
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -12904,13 +12904,13 @@ HCCOH
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -12937,7 +12937,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -12951,14 +12951,14 @@ C2H5OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -12971,7 +12971,7 @@ PC2H4OH
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -12996,7 +12996,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13010,14 +13010,14 @@ C2H5OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -13030,7 +13030,7 @@ SC2H4OH
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -13055,7 +13055,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13069,14 +13069,14 @@ C2H5OH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -13089,7 +13089,7 @@ PC2H4OH
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13114,7 +13114,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13128,14 +13128,14 @@ C2H5OH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -13148,7 +13148,7 @@ SC2H4OH
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13173,7 +13173,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13187,14 +13187,14 @@ C2H5OH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -13207,7 +13207,7 @@ C2H5O
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13232,7 +13232,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13246,13 +13246,13 @@ C2H5OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -13265,7 +13265,7 @@ PC2H4OH
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13289,7 +13289,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13303,13 +13303,13 @@ C2H5OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -13322,7 +13322,7 @@ SC2H4OH
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13346,7 +13346,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13360,13 +13360,13 @@ C2H5OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -13379,7 +13379,7 @@ C2H5O
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13403,7 +13403,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13417,7 +13417,7 @@ C2H5OH
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -13425,7 +13425,7 @@ HO2
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -13438,7 +13438,7 @@ PC2H4OH
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -13464,7 +13464,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13478,7 +13478,7 @@ C2H5OH
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -13486,7 +13486,7 @@ HO2
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -13499,7 +13499,7 @@ SC2H4OH
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -13525,7 +13525,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13539,7 +13539,7 @@ C2H5OH
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -13547,7 +13547,7 @@ HO2
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -13560,7 +13560,7 @@ C2H5O
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -13586,7 +13586,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13600,7 +13600,7 @@ C2H5OH
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13611,7 +13611,7 @@ CH3O2
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -13624,7 +13624,7 @@ PC2H4OH
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -13653,7 +13653,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13667,7 +13667,7 @@ C2H5OH
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13678,7 +13678,7 @@ CH3O2
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -13691,7 +13691,7 @@ SC2H4OH
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -13720,7 +13720,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13734,7 +13734,7 @@ C2H5OH
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -13745,7 +13745,7 @@ CH3O2
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -13758,7 +13758,7 @@ C2H5O
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -13787,7 +13787,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13801,13 +13801,13 @@ C2H5OH
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -13820,7 +13820,7 @@ PC2H4OH
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13844,7 +13844,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13858,13 +13858,13 @@ C2H5OH
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -13877,7 +13877,7 @@ SC2H4OH
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13901,7 +13901,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13915,13 +13915,13 @@ C2H5OH
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -13934,7 +13934,7 @@ C2H5O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -13958,7 +13958,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -13972,7 +13972,7 @@ C2H5OH
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -13981,7 +13981,7 @@ CH3
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -13994,7 +13994,7 @@ PC2H4OH
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14021,7 +14021,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -14035,7 +14035,7 @@ C2H5OH
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14044,7 +14044,7 @@ CH3
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -14057,7 +14057,7 @@ SC2H4OH
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14084,7 +14084,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -14098,7 +14098,7 @@ C2H5OH
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14107,7 +14107,7 @@ CH3
     product1 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -14120,7 +14120,7 @@ C2H5O
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14147,7 +14147,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -14161,7 +14161,7 @@ C2H5OH
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -14173,7 +14173,7 @@ C2H5
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -14186,7 +14186,7 @@ PC2H4OH
     product2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -14216,7 +14216,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -14230,7 +14230,7 @@ C2H5OH
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -14242,7 +14242,7 @@ C2H5
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -14255,7 +14255,7 @@ SC2H4OH
     product2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -14285,7 +14285,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -14296,14 +14296,14 @@ C2H4
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -14333,7 +14333,7 @@ entry(
     reactant1 = 
 """
 O2C2H4OH
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  O 0 2 {1,S} {10,S}
@@ -14348,7 +14348,7 @@ O2C2H4OH
     product1 = 
 """
 PC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 O 0 2 {1,S} {8,S}
@@ -14361,7 +14361,7 @@ PC2H4OH
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -14385,7 +14385,7 @@ entry(
     reactant1 = 
 """
 O2C2H4OH
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  O 0 2 {1,S} {10,S}
@@ -14400,14 +14400,14 @@ O2C2H4OH
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -14416,7 +14416,7 @@ CH2O
     product3 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -14442,7 +14442,7 @@ entry(
     reactant1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -14455,14 +14455,14 @@ SC2H4OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -14474,7 +14474,7 @@ CH3CHO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -14499,7 +14499,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14514,14 +14514,14 @@ CH3COCH3
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14535,7 +14535,7 @@ CH3COCH2
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14560,7 +14560,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14575,13 +14575,13 @@ CH3COCH3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14595,7 +14595,7 @@ CH3COCH2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -14619,7 +14619,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14634,13 +14634,13 @@ CH3COCH3
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14654,7 +14654,7 @@ CH3COCH2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -14678,7 +14678,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14693,7 +14693,7 @@ CH3COCH3
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14702,7 +14702,7 @@ CH3
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14716,7 +14716,7 @@ CH3COCH2
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -14743,7 +14743,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14758,7 +14758,7 @@ CH3COCH3
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -14768,7 +14768,7 @@ CH3O
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14782,7 +14782,7 @@ CH3COCH2
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -14810,7 +14810,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14825,14 +14825,14 @@ CH3COCH3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14846,7 +14846,7 @@ CH3COCH2
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -14871,7 +14871,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14886,7 +14886,7 @@ CH3COCH3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -14894,7 +14894,7 @@ HO2
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14908,7 +14908,7 @@ CH3COCH2
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -14934,7 +14934,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -14949,7 +14949,7 @@ CH3COCH3
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -14960,7 +14960,7 @@ CH3O2
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -14974,7 +14974,7 @@ CH3COCH2
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -15003,7 +15003,7 @@ entry(
     reactant1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -15017,7 +15017,7 @@ CH3COCH2
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -15027,7 +15027,7 @@ CH2CO
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15053,7 +15053,7 @@ entry(
     reactant1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -15067,14 +15067,14 @@ CH3COCH2
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3COCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -15107,7 +15107,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -15122,7 +15122,7 @@ CH3COCH3
     reactant2 = 
 """
 CH3COCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -15138,7 +15138,7 @@ CH3COCH2O2
     product1 = 
 """
 CH3COCH2
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 C 1 0 {2,S} {8,S} {9,S}
@@ -15152,7 +15152,7 @@ CH3COCH2
     product2 = 
 """
 CH3COCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 0 0 {1,S} {2,S} {11,D}
@@ -15186,7 +15186,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -15195,7 +15195,7 @@ CH2O
     reactant2 = 
 """
 CH3COCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -15211,7 +15211,7 @@ CH3COCH2O2
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -15219,7 +15219,7 @@ HCO
     product2 = 
 """
 CH3COCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 0 0 {1,S} {2,S} {11,D}
@@ -15253,7 +15253,7 @@ entry(
     reactant1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -15261,7 +15261,7 @@ HO2
     reactant2 = 
 """
 CH3COCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -15277,7 +15277,7 @@ CH3COCH2O2
     product1 = 
 """
 CH3COCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 0 0 {1,S} {2,S} {11,D}
@@ -15294,7 +15294,7 @@ CH3COCH2O2H
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -15318,7 +15318,7 @@ entry(
     reactant1 = 
 """
 CH3COCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 0 0 {1,S} {2,S} {11,D}
@@ -15335,7 +15335,7 @@ CH3COCH2O2H
     product1 = 
 """
 CH3COCH2O
-2
+multiplicity 2
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
 2  C 0 0 {3,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -15350,7 +15350,7 @@ CH3COCH2O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -15374,7 +15374,7 @@ entry(
     reactant1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -15385,7 +15385,7 @@ CH3CO
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -15394,7 +15394,7 @@ CH2O
     product1 = 
 """
 CH3COCH2O
-2
+multiplicity 2
 1  C 0 0 {3,S} {5,S} {6,S} {7,S}
 2  C 0 0 {3,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -15426,7 +15426,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -15436,7 +15436,7 @@ C2H3
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -15444,7 +15444,7 @@ HCO
     product1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15474,7 +15474,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15487,13 +15487,13 @@ C2H3CHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -15505,7 +15505,7 @@ C2H3CO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -15529,7 +15529,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15542,13 +15542,13 @@ C2H3CHO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -15560,7 +15560,7 @@ C2H3CO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -15584,7 +15584,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15597,13 +15597,13 @@ C2H3CHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -15614,7 +15614,7 @@ C2H4
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -15639,7 +15639,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15652,13 +15652,13 @@ C2H3CHO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -15668,7 +15668,7 @@ CH2CO
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -15676,7 +15676,7 @@ HCO
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -15699,7 +15699,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15712,14 +15712,14 @@ C2H3CHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -15731,7 +15731,7 @@ C2H3CO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15756,7 +15756,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15769,14 +15769,14 @@ C2H3CHO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -15788,7 +15788,7 @@ C2H3CO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -15813,7 +15813,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15826,7 +15826,7 @@ C2H3CHO
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -15834,7 +15834,7 @@ HO2
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -15846,7 +15846,7 @@ C2H3CO
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -15872,7 +15872,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15885,7 +15885,7 @@ C2H3CHO
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15894,7 +15894,7 @@ CH3
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -15906,7 +15906,7 @@ C2H3CO
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -15933,7 +15933,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -15946,7 +15946,7 @@ C2H3CHO
     reactant2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -15956,7 +15956,7 @@ C2H3
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -15968,7 +15968,7 @@ C2H3CO
     product2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -15996,7 +15996,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -16009,7 +16009,7 @@ C2H3CHO
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -16019,7 +16019,7 @@ CH3O
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -16031,7 +16031,7 @@ C2H3CO
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -16059,7 +16059,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -16072,7 +16072,7 @@ C2H3CHO
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -16083,7 +16083,7 @@ CH3O2
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -16095,7 +16095,7 @@ C2H3CO
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -16124,7 +16124,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -16134,14 +16134,14 @@ C2H3
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -16170,7 +16170,7 @@ entry(
     reactant1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -16182,14 +16182,14 @@ C2H3CO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -16200,7 +16200,7 @@ CH2CHO
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -16225,7 +16225,7 @@ entry(
     reactant1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -16237,13 +16237,13 @@ C2H3CO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -16253,7 +16253,7 @@ C2H3
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -16278,7 +16278,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -16290,7 +16290,7 @@ C2H5
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -16298,7 +16298,7 @@ HCO
     product1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16330,7 +16330,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16345,13 +16345,13 @@ C2H5CHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16365,7 +16365,7 @@ C2H5CO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -16389,7 +16389,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16404,13 +16404,13 @@ C2H5CHO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16424,7 +16424,7 @@ C2H5CO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -16448,7 +16448,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16463,14 +16463,14 @@ C2H5CHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16484,7 +16484,7 @@ C2H5CO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16509,7 +16509,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16524,7 +16524,7 @@ C2H5CHO
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16533,7 +16533,7 @@ CH3
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16547,7 +16547,7 @@ C2H5CO
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -16574,7 +16574,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16589,7 +16589,7 @@ C2H5CHO
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -16597,7 +16597,7 @@ HO2
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16611,7 +16611,7 @@ C2H5CO
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -16637,7 +16637,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16652,7 +16652,7 @@ C2H5CHO
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -16662,7 +16662,7 @@ CH3O
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16676,7 +16676,7 @@ C2H5CO
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -16704,7 +16704,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16719,7 +16719,7 @@ C2H5CHO
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -16730,7 +16730,7 @@ CH3O2
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16744,7 +16744,7 @@ C2H5CO
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -16773,7 +16773,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16788,7 +16788,7 @@ C2H5CHO
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -16800,7 +16800,7 @@ C2H5
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16814,7 +16814,7 @@ C2H5CO
     product2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -16844,7 +16844,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16859,7 +16859,7 @@ C2H5CHO
     reactant2 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -16872,7 +16872,7 @@ C2H5O
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16886,7 +16886,7 @@ C2H5CO
     product2 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -16917,7 +16917,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -16932,7 +16932,7 @@ C2H5CHO
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -16946,7 +16946,7 @@ C2H5O2
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -16960,7 +16960,7 @@ C2H5CO
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -16992,7 +16992,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -17007,14 +17007,14 @@ C2H5CHO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -17028,7 +17028,7 @@ C2H5CO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -17053,7 +17053,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -17068,7 +17068,7 @@ C2H5CHO
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -17081,7 +17081,7 @@ CH3CO3
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -17095,7 +17095,7 @@ C2H5CO
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -17126,7 +17126,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -17141,7 +17141,7 @@ C2H5CHO
     reactant2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -17151,7 +17151,7 @@ C2H3
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -17165,7 +17165,7 @@ C2H5CO
     product2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -17193,7 +17193,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -17205,14 +17205,14 @@ C2H5
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -17243,7 +17243,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17257,14 +17257,14 @@ CH3OCH3
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17277,7 +17277,7 @@ CH3OCH2
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17302,7 +17302,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17316,13 +17316,13 @@ CH3OCH3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17335,7 +17335,7 @@ CH3OCH2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -17359,7 +17359,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17373,13 +17373,13 @@ CH3OCH3
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17392,7 +17392,7 @@ CH3OCH2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -17416,7 +17416,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17430,7 +17430,7 @@ CH3OCH3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -17438,7 +17438,7 @@ HO2
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17451,7 +17451,7 @@ CH3OCH2
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -17477,7 +17477,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17491,7 +17491,7 @@ CH3OCH3
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -17502,7 +17502,7 @@ CH3O2
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17515,7 +17515,7 @@ CH3OCH2
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -17544,7 +17544,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17558,7 +17558,7 @@ CH3OCH3
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17567,7 +17567,7 @@ CH3
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17580,7 +17580,7 @@ CH3OCH2
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17607,7 +17607,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17621,14 +17621,14 @@ CH3OCH3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17641,7 +17641,7 @@ CH3OCH2
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -17666,7 +17666,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17680,7 +17680,7 @@ CH3OCH3
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -17690,7 +17690,7 @@ CH3O
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17703,7 +17703,7 @@ CH3OCH2
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -17731,7 +17731,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17745,7 +17745,7 @@ CH3OCH3
     reactant2 = 
 """
 CH3OCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -17760,7 +17760,7 @@ CH3OCH2O2
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17773,7 +17773,7 @@ CH3OCH2
     product2 = 
 """
 CH3OCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  O 0 2 {1,S} {2,S}
@@ -17806,7 +17806,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17820,7 +17820,7 @@ CH3OCH3
     reactant2 = 
 """
 O2CHO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -17830,7 +17830,7 @@ O2CHO
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17843,7 +17843,7 @@ CH3OCH2
     product2 = 
 """
 HO2CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {6,S}
@@ -17871,7 +17871,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -17885,7 +17885,7 @@ CH3OCH3
     reactant2 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -17894,7 +17894,7 @@ OCHO
     product1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17907,7 +17907,7 @@ CH3OCH2
     product2 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -17934,7 +17934,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17947,7 +17947,7 @@ CH3OCH2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -17956,7 +17956,7 @@ CH2O
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -17982,7 +17982,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -17995,7 +17995,7 @@ CH3OCH2
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -18005,7 +18005,7 @@ CH3O
     product1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -18019,7 +18019,7 @@ CH3OCH3
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18045,7 +18045,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -18058,7 +18058,7 @@ CH3OCH2
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18067,7 +18067,7 @@ CH2O
     product1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -18081,7 +18081,7 @@ CH3OCH3
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18106,7 +18106,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -18119,7 +18119,7 @@ CH3OCH2
     reactant2 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -18131,7 +18131,7 @@ CH3CHO
     product1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -18145,7 +18145,7 @@ CH3OCH3
     product2 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -18173,7 +18173,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 1 0 {3,S} {7,S} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -18186,14 +18186,14 @@ CH3OCH2
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18225,7 +18225,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18240,7 +18240,7 @@ CH3OCH2O2
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18249,7 +18249,7 @@ CH2O
     product1 = 
 """
 CH3OCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  O 0 2 {1,S} {2,S}
@@ -18265,7 +18265,7 @@ CH3OCH2O2H
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18290,7 +18290,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18305,7 +18305,7 @@ CH3OCH2O2
     reactant2 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -18317,7 +18317,7 @@ CH3CHO
     product1 = 
 """
 CH3OCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  O 0 2 {1,S} {2,S}
@@ -18333,7 +18333,7 @@ CH3OCH2O2H
     product2 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -18361,7 +18361,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18376,7 +18376,7 @@ CH3OCH2O2
     reactant2 = 
 """
 CH3OCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18391,14 +18391,14 @@ CH3OCH2O2
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product2 = 
 """
 CH3OCH2O
-2
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -18412,7 +18412,7 @@ CH3OCH2O
     product3 = 
 """
 CH3OCH2O
-2
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -18443,7 +18443,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2O
-2
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -18457,14 +18457,14 @@ CH3OCH2O
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OCH2O2H
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  O 0 2 {1,S} {2,S}
@@ -18497,7 +18497,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -18507,7 +18507,7 @@ CH3O
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18516,7 +18516,7 @@ CH2O
     product1 = 
 """
 CH3OCH2O
-2
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -18547,7 +18547,7 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18562,7 +18562,7 @@ CH3OCH2O2
     product1 = 
 """
 CH2OCH2O2H
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 1 0 {3,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18594,7 +18594,7 @@ entry(
     reactant1 = 
 """
 CH2OCH2O2H
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 1 0 {3,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18609,14 +18609,14 @@ CH2OCH2O2H
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18625,7 +18625,7 @@ CH2O
     product3 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -18651,7 +18651,7 @@ entry(
     reactant1 = 
 """
 CH2OCH2O2H
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 1 0 {3,S} {8,S} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -18666,14 +18666,14 @@ CH2OCH2O2H
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 O2CH2OCH2O2H
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {9,S} {10,S}
 2  C 0 0 {3,S} {5,S} {7,S} {8,S}
 3  O 0 2 {1,S} {2,S}
@@ -18707,7 +18707,7 @@ entry(
     reactant1 = 
 """
 O2CH2OCH2O2H
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {9,S} {10,S}
 2  C 0 0 {3,S} {5,S} {7,S} {8,S}
 3  O 0 2 {1,S} {2,S}
@@ -18724,7 +18724,7 @@ O2CH2OCH2O2H
     product1 = 
 """
 HO2CH2OCHO
-1
+multiplicity 1
 1  O 0 2 {2,S} {7,S}
 2  O 0 2 {1,S} {3,S}
 3  C 0 0 {2,S} {4,S} {8,S} {9,S}
@@ -18739,7 +18739,7 @@ HO2CH2OCHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -18763,7 +18763,7 @@ entry(
     reactant1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -18778,13 +18778,13 @@ NC3H7
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -18817,7 +18817,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -18832,13 +18832,13 @@ IC3H7
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -18871,7 +18871,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -18887,14 +18887,14 @@ C3H8
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -18909,7 +18909,7 @@ IC3H7
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -18934,7 +18934,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -18950,14 +18950,14 @@ C3H8
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -18972,7 +18972,7 @@ NC3H7
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -18997,13 +18997,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19019,14 +19019,14 @@ C3H8
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19058,13 +19058,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19080,14 +19080,14 @@ C3H8
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19119,7 +19119,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19135,13 +19135,13 @@ C3H8
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19156,7 +19156,7 @@ IC3H7
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -19180,7 +19180,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19196,13 +19196,13 @@ C3H8
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19217,7 +19217,7 @@ NC3H7
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -19241,7 +19241,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19257,14 +19257,14 @@ C3H8
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19279,7 +19279,7 @@ NC3H7
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -19304,7 +19304,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19320,14 +19320,14 @@ C3H8
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19342,7 +19342,7 @@ IC3H7
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -19367,7 +19367,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19383,7 +19383,7 @@ C3H8
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -19391,7 +19391,7 @@ HO2
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19406,7 +19406,7 @@ IC3H7
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -19432,7 +19432,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19448,7 +19448,7 @@ C3H8
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -19456,7 +19456,7 @@ HO2
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19471,7 +19471,7 @@ NC3H7
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -19497,7 +19497,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -19506,7 +19506,7 @@ CH3
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19522,7 +19522,7 @@ C3H8
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -19532,7 +19532,7 @@ CH4
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19564,7 +19564,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -19573,7 +19573,7 @@ CH3
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19589,7 +19589,7 @@ C3H8
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -19599,7 +19599,7 @@ CH4
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19631,7 +19631,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19646,7 +19646,7 @@ IC3H7
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19662,7 +19662,7 @@ C3H8
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19677,7 +19677,7 @@ NC3H7
     product2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19710,7 +19710,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -19720,7 +19720,7 @@ C2H3
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19736,7 +19736,7 @@ C3H8
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -19747,7 +19747,7 @@ C2H4
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19779,7 +19779,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -19789,7 +19789,7 @@ C2H3
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19805,7 +19805,7 @@ C3H8
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -19816,7 +19816,7 @@ C2H4
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19848,7 +19848,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -19860,7 +19860,7 @@ C2H5
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19876,7 +19876,7 @@ C3H8
     product1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -19889,7 +19889,7 @@ C2H6
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -19921,7 +19921,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -19933,7 +19933,7 @@ C2H5
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -19949,7 +19949,7 @@ C3H8
     product1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -19962,7 +19962,7 @@ C2H6
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -19994,7 +19994,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20010,7 +20010,7 @@ C3H8
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -20023,7 +20023,7 @@ C3H5-A
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -20038,7 +20038,7 @@ NC3H7
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -20069,7 +20069,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20085,7 +20085,7 @@ C3H8
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -20098,7 +20098,7 @@ C3H5-A
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -20113,7 +20113,7 @@ IC3H7
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -20144,7 +20144,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20160,7 +20160,7 @@ C3H8
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -20170,7 +20170,7 @@ CH3O
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -20185,7 +20185,7 @@ NC3H7
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -20213,7 +20213,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20229,7 +20229,7 @@ C3H8
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -20239,7 +20239,7 @@ CH3O
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -20254,7 +20254,7 @@ IC3H7
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -20282,7 +20282,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -20293,7 +20293,7 @@ CH3O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20309,7 +20309,7 @@ C3H8
     product1 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -20321,7 +20321,7 @@ CH3O2H
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -20353,7 +20353,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -20364,7 +20364,7 @@ CH3O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20380,7 +20380,7 @@ C3H8
     product1 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -20392,7 +20392,7 @@ CH3O2H
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -20424,7 +20424,7 @@ entry(
     reactant1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -20438,7 +20438,7 @@ C2H5O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20454,7 +20454,7 @@ C3H8
     product1 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -20469,7 +20469,7 @@ C2H5O2H
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -20501,7 +20501,7 @@ entry(
     reactant1 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -20515,7 +20515,7 @@ C2H5O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20531,7 +20531,7 @@ C3H8
     product1 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -20546,7 +20546,7 @@ C2H5O2H
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -20578,7 +20578,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20595,7 +20595,7 @@ NC3H7O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20611,7 +20611,7 @@ C3H8
     product1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -20629,7 +20629,7 @@ NC3H7O2H
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -20661,7 +20661,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20678,7 +20678,7 @@ NC3H7O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20694,7 +20694,7 @@ C3H8
     product1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -20712,7 +20712,7 @@ NC3H7O2H
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -20744,7 +20744,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20761,7 +20761,7 @@ IC3H7O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20777,7 +20777,7 @@ C3H8
     product1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -20795,7 +20795,7 @@ IC3H7O2H
     product2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -20827,7 +20827,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20844,7 +20844,7 @@ IC3H7O2
     reactant2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20860,7 +20860,7 @@ C3H8
     product1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -20878,7 +20878,7 @@ IC3H7O2H
     product2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -20910,7 +20910,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -20926,7 +20926,7 @@ C3H8
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -20939,7 +20939,7 @@ CH3CO3
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -20954,7 +20954,7 @@ IC3H7
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -20985,7 +20985,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -21001,7 +21001,7 @@ C3H8
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -21014,7 +21014,7 @@ CH3CO3
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -21029,7 +21029,7 @@ NC3H7
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -21060,7 +21060,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -21076,7 +21076,7 @@ C3H8
     reactant2 = 
 """
 O2CHO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -21086,7 +21086,7 @@ O2CHO
     product1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -21101,7 +21101,7 @@ NC3H7
     product2 = 
 """
 HO2CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {6,S}
@@ -21129,7 +21129,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -21145,7 +21145,7 @@ C3H8
     reactant2 = 
 """
 O2CHO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -21155,7 +21155,7 @@ O2CHO
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21170,7 +21170,7 @@ IC3H7
     product2 = 
 """
 HO2CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {6,S}
@@ -21198,13 +21198,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -21218,7 +21218,7 @@ C3H6
     product1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21250,7 +21250,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21265,13 +21265,13 @@ IC3H7
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -21283,7 +21283,7 @@ C2H5
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -21309,7 +21309,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21324,14 +21324,14 @@ IC3H7
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -21345,7 +21345,7 @@ C3H6
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -21370,7 +21370,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21385,14 +21385,14 @@ IC3H7
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -21406,7 +21406,7 @@ C3H6
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -21431,7 +21431,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21446,13 +21446,13 @@ IC3H7
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -21467,7 +21467,7 @@ CH3COCH3
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -21490,7 +21490,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21505,13 +21505,13 @@ IC3H7
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -21523,7 +21523,7 @@ CH3CHO
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -21549,7 +21549,7 @@ entry(
     reactant1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -21564,7 +21564,7 @@ NC3H7
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -21573,7 +21573,7 @@ CH3
     product2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -21601,7 +21601,7 @@ entry(
     reactant1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -21616,13 +21616,13 @@ NC3H7
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -21653,7 +21653,7 @@ entry(
     reactant1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -21668,14 +21668,14 @@ NC3H7
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -21689,7 +21689,7 @@ C3H6
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -21714,7 +21714,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -21729,7 +21729,7 @@ C2H5CHO
     reactant2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -21744,7 +21744,7 @@ NC3H7
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -21758,7 +21758,7 @@ C2H5CO
     product2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -21791,7 +21791,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -21806,7 +21806,7 @@ C2H5CHO
     reactant2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -21821,7 +21821,7 @@ IC3H7
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -21835,7 +21835,7 @@ C2H5CO
     product2 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -21868,7 +21868,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -21883,7 +21883,7 @@ C2H5CHO
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -21896,7 +21896,7 @@ C3H5-A
     product1 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -21910,7 +21910,7 @@ C2H5CO
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -21941,7 +21941,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -21955,7 +21955,7 @@ C3H6
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -21968,7 +21968,7 @@ C3H5-S
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -21991,7 +21991,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22005,7 +22005,7 @@ C3H6
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -22018,7 +22018,7 @@ C3H5-T
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -22041,7 +22041,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22055,13 +22055,13 @@ C3H6
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -22073,7 +22073,7 @@ C2H5
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -22098,7 +22098,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22112,13 +22112,13 @@ C3H6
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -22128,7 +22128,7 @@ CH2CO
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -22137,7 +22137,7 @@ CH3
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -22160,7 +22160,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22174,13 +22174,13 @@ C3H6
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3CHCO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,D}
@@ -22193,13 +22193,13 @@ CH3CHCO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -22222,7 +22222,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22236,13 +22236,13 @@ C3H6
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -22255,7 +22255,7 @@ C3H5-A
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -22279,7 +22279,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22293,13 +22293,13 @@ C3H6
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -22312,7 +22312,7 @@ C3H5-S
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -22336,7 +22336,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22350,13 +22350,13 @@ C3H6
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -22369,7 +22369,7 @@ C3H5-T
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -22393,7 +22393,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22407,14 +22407,14 @@ C3H6
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -22427,7 +22427,7 @@ C3H5-A
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -22452,7 +22452,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22466,14 +22466,14 @@ C3H6
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -22486,7 +22486,7 @@ C3H5-S
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -22511,7 +22511,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22525,14 +22525,14 @@ C3H6
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -22545,7 +22545,7 @@ C3H5-T
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -22570,7 +22570,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22584,7 +22584,7 @@ C3H6
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -22592,7 +22592,7 @@ HO2
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -22605,7 +22605,7 @@ C3H5-A
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -22631,7 +22631,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22645,7 +22645,7 @@ C3H6
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -22653,7 +22653,7 @@ HO2
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -22666,7 +22666,7 @@ C3H5-S
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -22692,7 +22692,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22706,7 +22706,7 @@ C3H6
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -22714,7 +22714,7 @@ HO2
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -22727,7 +22727,7 @@ C3H5-T
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -22753,7 +22753,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22767,13 +22767,13 @@ C3H6
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -22784,7 +22784,7 @@ C2H4
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -22810,7 +22810,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22824,13 +22824,13 @@ C3H6
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -22843,7 +22843,7 @@ C3H5-A
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -22867,7 +22867,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22881,13 +22881,13 @@ C3H6
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -22900,7 +22900,7 @@ C3H5-T
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -22924,7 +22924,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22938,13 +22938,13 @@ C3H6
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -22957,7 +22957,7 @@ C3H5-S
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -22981,7 +22981,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -22995,14 +22995,14 @@ C3H6
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23015,7 +23015,7 @@ C3H5-A
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -23040,7 +23040,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23054,14 +23054,14 @@ C3H6
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -23074,7 +23074,7 @@ C3H5-S
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -23099,7 +23099,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23113,14 +23113,14 @@ C3H6
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -23133,7 +23133,7 @@ C3H5-T
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -23158,7 +23158,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23172,7 +23172,7 @@ C3H6
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -23181,7 +23181,7 @@ CH3
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23194,7 +23194,7 @@ C3H5-A
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -23221,7 +23221,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23235,7 +23235,7 @@ C3H6
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -23244,7 +23244,7 @@ CH3
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -23257,7 +23257,7 @@ C3H5-S
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -23284,7 +23284,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23298,7 +23298,7 @@ C3H6
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -23307,7 +23307,7 @@ CH3
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -23320,7 +23320,7 @@ C3H5-T
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -23347,7 +23347,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23361,7 +23361,7 @@ C3H6
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -23373,7 +23373,7 @@ C2H5
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23386,7 +23386,7 @@ C3H5-A
     product2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -23416,7 +23416,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23430,7 +23430,7 @@ C3H6
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -23443,7 +23443,7 @@ CH3CO3
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23456,7 +23456,7 @@ C3H5-A
     product2 = 
 """
 CH3CO3H
-1
+multiplicity 1
 1 C 0 0 {2,S} {5,S} {6,S} {7,S}
 2 C 0 0 {1,S} {3,S} {8,D}
 3 O 0 2 {2,S} {4,S}
@@ -23487,7 +23487,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23501,7 +23501,7 @@ C3H6
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -23512,7 +23512,7 @@ CH3O2
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23525,7 +23525,7 @@ C3H5-A
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -23554,7 +23554,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23568,7 +23568,7 @@ C3H6
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -23576,7 +23576,7 @@ HO2
     product1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -23591,7 +23591,7 @@ C3H6O1-2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -23615,7 +23615,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23629,7 +23629,7 @@ C3H6
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -23643,7 +23643,7 @@ C2H5O2
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23656,7 +23656,7 @@ C3H5-A
     product2 = 
 """
 C2H5O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  O 0 2 {1,S} {4,S}
@@ -23688,7 +23688,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23702,7 +23702,7 @@ C3H6
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -23719,7 +23719,7 @@ NC3H7O2
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23732,7 +23732,7 @@ C3H5-A
     product2 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -23767,7 +23767,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23781,7 +23781,7 @@ C3H6
     reactant2 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -23798,7 +23798,7 @@ IC3H7O2
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -23811,7 +23811,7 @@ C3H5-A
     product2 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -23846,7 +23846,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -23860,14 +23860,14 @@ C3H6
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H6OH
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -23900,7 +23900,7 @@ entry(
     reactant1 = 
 """
 C3H6OH
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -23916,14 +23916,14 @@ C3H6OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HOC3H6O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {5,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -23958,7 +23958,7 @@ entry(
     reactant1 = 
 """
 HOC3H6O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {5,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -23976,7 +23976,7 @@ HOC3H6O2
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -23988,7 +23988,7 @@ CH3CHO
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -23997,7 +23997,7 @@ CH2O
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -24021,7 +24021,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24034,13 +24034,13 @@ C3H5-A
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -24052,7 +24052,7 @@ C3H4-A
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -24076,7 +24076,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24089,13 +24089,13 @@ C3H5-A
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -24108,7 +24108,7 @@ C2H3CHO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -24131,7 +24131,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24144,14 +24144,14 @@ C3H5-A
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -24164,13 +24164,13 @@ C2H3CHO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -24193,7 +24193,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24206,14 +24206,14 @@ C3H5-A
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -24225,7 +24225,7 @@ C3H4-A
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -24250,7 +24250,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24263,14 +24263,14 @@ C3H5-A
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -24282,7 +24282,7 @@ C3H4-A
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -24307,7 +24307,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24320,14 +24320,14 @@ C3H5-A
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -24338,7 +24338,7 @@ CH3CO
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -24364,7 +24364,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24377,14 +24377,14 @@ C3H5-A
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -24397,7 +24397,7 @@ C2H3CHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -24421,7 +24421,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24434,7 +24434,7 @@ C3H5-A
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -24442,7 +24442,7 @@ HCO
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -24456,7 +24456,7 @@ C3H6
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -24480,7 +24480,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24493,7 +24493,7 @@ C3H5-A
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -24502,7 +24502,7 @@ CH3
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -24514,7 +24514,7 @@ C3H4-A
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -24541,7 +24541,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24554,7 +24554,7 @@ C3H5-A
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -24584,7 +24584,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24597,7 +24597,7 @@ C3H5-A
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -24627,7 +24627,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -24636,7 +24636,7 @@ C2H2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -24645,7 +24645,7 @@ CH3
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24675,7 +24675,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24688,7 +24688,7 @@ C3H5-A
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -24699,7 +24699,7 @@ CH3O2
     product1 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -24713,7 +24713,7 @@ C3H5O
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -24740,7 +24740,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24753,7 +24753,7 @@ C3H5-A
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -24765,7 +24765,7 @@ C2H5
     product1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -24778,7 +24778,7 @@ C2H6
     product2 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -24807,7 +24807,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24820,7 +24820,7 @@ C3H5-A
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -24832,7 +24832,7 @@ C2H5
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -24843,7 +24843,7 @@ C2H4
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -24874,7 +24874,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24887,7 +24887,7 @@ C3H5-A
     reactant2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -24897,7 +24897,7 @@ C2H3
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -24908,7 +24908,7 @@ C2H4
     product2 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -24937,7 +24937,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24950,7 +24950,7 @@ C3H5-A
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -24963,7 +24963,7 @@ C3H5-A
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -24975,7 +24975,7 @@ C3H4-A
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -25006,7 +25006,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -25019,7 +25019,7 @@ C3H5-A
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -25027,7 +25027,7 @@ HO2
     product1 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -25041,7 +25041,7 @@ C3H5O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -25065,7 +25065,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -25074,7 +25074,7 @@ C2H2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25083,7 +25083,7 @@ CH3
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25113,7 +25113,7 @@ entry(
     reactant1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25126,13 +25126,13 @@ C3H5-S
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -25144,7 +25144,7 @@ C3H4-P
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -25168,7 +25168,7 @@ entry(
     reactant1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25181,13 +25181,13 @@ C3H5-S
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -25198,7 +25198,7 @@ C2H4
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -25223,7 +25223,7 @@ entry(
     reactant1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25236,14 +25236,14 @@ C3H5-S
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -25254,7 +25254,7 @@ C2H4
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -25262,7 +25262,7 @@ HCO
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -25285,7 +25285,7 @@ entry(
     reactant1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25298,14 +25298,14 @@ C3H5-S
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -25317,7 +25317,7 @@ CH3CHO
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -25342,7 +25342,7 @@ entry(
     reactant1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25355,7 +25355,7 @@ C3H5-S
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -25363,7 +25363,7 @@ HO2
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -25374,7 +25374,7 @@ C2H4
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -25382,7 +25382,7 @@ HCO
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -25406,7 +25406,7 @@ entry(
     reactant1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25419,7 +25419,7 @@ C3H5-S
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -25427,7 +25427,7 @@ HCO
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -25441,7 +25441,7 @@ C3H6
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -25465,7 +25465,7 @@ entry(
     reactant1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25478,7 +25478,7 @@ C3H5-S
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25487,7 +25487,7 @@ CH3
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -25499,7 +25499,7 @@ C3H4-P
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25526,7 +25526,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -25535,7 +25535,7 @@ C2H2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25544,7 +25544,7 @@ CH3
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25574,7 +25574,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25587,7 +25587,7 @@ C3H5-T
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -25617,7 +25617,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25630,13 +25630,13 @@ C3H5-T
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -25648,7 +25648,7 @@ C3H4-P
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -25672,7 +25672,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25685,13 +25685,13 @@ C3H5-T
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25700,7 +25700,7 @@ CH3
     product2 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -25727,7 +25727,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25740,14 +25740,14 @@ C3H5-T
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25756,7 +25756,7 @@ CH3
     product2 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -25766,7 +25766,7 @@ CH2CO
     product3 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -25789,7 +25789,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25802,14 +25802,14 @@ C3H5-T
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -25820,7 +25820,7 @@ CH3CO
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -25846,7 +25846,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25859,7 +25859,7 @@ C3H5-T
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -25867,7 +25867,7 @@ HO2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25876,7 +25876,7 @@ CH3
     product2 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -25886,7 +25886,7 @@ CH2CO
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -25910,7 +25910,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25923,7 +25923,7 @@ C3H5-T
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -25931,7 +25931,7 @@ HCO
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -25945,7 +25945,7 @@ C3H6
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -25969,7 +25969,7 @@ entry(
     reactant1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -25982,7 +25982,7 @@ C3H5-T
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -25991,7 +25991,7 @@ CH3
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26003,7 +26003,7 @@ C3H4-P
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -26030,7 +26030,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -26039,7 +26039,7 @@ C2H2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -26048,7 +26048,7 @@ CH3
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26060,7 +26060,7 @@ C3H4-A
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -26083,7 +26083,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26095,13 +26095,13 @@ C3H4-A
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26112,7 +26112,7 @@ C3H3
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -26136,7 +26136,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26148,13 +26148,13 @@ C3H4-A
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -26184,7 +26184,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26196,13 +26196,13 @@ C3H4-A
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -26232,7 +26232,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26244,13 +26244,13 @@ C3H4-A
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -26280,7 +26280,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26292,13 +26292,13 @@ C3H4-A
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -26309,7 +26309,7 @@ C2H4
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -26333,7 +26333,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26345,14 +26345,14 @@ C3H4-A
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26363,7 +26363,7 @@ C3H3
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -26388,7 +26388,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26400,7 +26400,7 @@ C3H4-A
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -26409,7 +26409,7 @@ CH3
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26420,7 +26420,7 @@ C3H3
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -26447,7 +26447,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26459,7 +26459,7 @@ C3H4-A
     reactant2 = 
 """
 C2H
-2
+multiplicity 2
 1 C 0 0 {2,T} {3,S}
 2 C 1 0 {1,T}
 3 H 0 0 {1,S}
@@ -26467,7 +26467,7 @@ C2H
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -26476,7 +26476,7 @@ C2H2
     product2 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26504,7 +26504,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26516,7 +26516,7 @@ C3H4-A
     reactant2 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26528,7 +26528,7 @@ C3H4-A
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -26541,7 +26541,7 @@ C3H5-A
     product2 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26569,7 +26569,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26581,7 +26581,7 @@ C3H4-A
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -26594,7 +26594,7 @@ C3H5-A
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26605,7 +26605,7 @@ C3H3
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -26636,7 +26636,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26648,7 +26648,7 @@ C3H4-P
     product1 = 
 """
 CC3H4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 C 0 0 {1,S} {2,D} {7,S}
@@ -26677,7 +26677,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26689,7 +26689,7 @@ C3H4-P
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26718,7 +26718,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26730,13 +26730,13 @@ C3H4-P
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -26748,7 +26748,7 @@ C3H4-A
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -26771,7 +26771,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26783,13 +26783,13 @@ C3H4-P
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-T
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -26819,7 +26819,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26831,13 +26831,13 @@ C3H4-P
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-S
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 1 0 {2,D} {8,S}
@@ -26867,7 +26867,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26879,13 +26879,13 @@ C3H4-P
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -26915,7 +26915,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26927,13 +26927,13 @@ C3H4-P
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26944,7 +26944,7 @@ C3H3
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -26968,7 +26968,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -26980,7 +26980,7 @@ C3H4-P
     reactant2 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -26991,7 +26991,7 @@ C3H3
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -27003,7 +27003,7 @@ C3H4-A
     product2 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27031,7 +27031,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27043,13 +27043,13 @@ C3H4-P
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -27058,7 +27058,7 @@ HCCO
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -27084,7 +27084,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27096,13 +27096,13 @@ C3H4-P
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -27113,7 +27113,7 @@ C2H4
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -27137,7 +27137,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27149,14 +27149,14 @@ C3H4-P
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27167,7 +27167,7 @@ C3H3
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -27192,7 +27192,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27204,7 +27204,7 @@ C3H4-P
     reactant2 = 
 """
 C2H
-2
+multiplicity 2
 1 C 0 0 {2,T} {3,S}
 2 C 1 0 {1,T}
 3 H 0 0 {1,S}
@@ -27212,7 +27212,7 @@ C2H
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -27221,7 +27221,7 @@ C2H2
     product2 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27249,7 +27249,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27261,7 +27261,7 @@ C3H4-P
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -27270,7 +27270,7 @@ CH3
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27281,7 +27281,7 @@ C3H3
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -27308,7 +27308,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -27317,7 +27317,7 @@ C2H2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -27326,7 +27326,7 @@ CH3
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27338,7 +27338,7 @@ C3H4-P
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -27361,7 +27361,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27373,7 +27373,7 @@ C3H4-P
     reactant2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -27383,7 +27383,7 @@ C2H3
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27394,7 +27394,7 @@ C3H3
     product2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -27422,7 +27422,7 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27434,7 +27434,7 @@ C3H4-P
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -27447,7 +27447,7 @@ C3H5-A
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27458,7 +27458,7 @@ C3H3
     product2 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -27489,7 +27489,7 @@ entry(
     reactant1 = 
 """
 CC3H4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 C 0 0 {1,S} {2,D} {7,S}
@@ -27501,7 +27501,7 @@ CC3H4
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -27530,7 +27530,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27541,13 +27541,13 @@ C3H3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27576,7 +27576,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27587,13 +27587,13 @@ C3H3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -27622,7 +27622,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27633,13 +27633,13 @@ C3H3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -27649,7 +27649,7 @@ C3H2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -27673,7 +27673,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27684,13 +27684,13 @@ C3H3
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -27699,7 +27699,7 @@ CH2O
     product2 = 
 """
 C2H
-2
+multiplicity 2
 1 C 0 0 {2,T} {3,S}
 2 C 1 0 {1,T}
 3 H 0 0 {1,S}
@@ -27724,7 +27724,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27735,14 +27735,14 @@ C3H3
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -27752,7 +27752,7 @@ C3H2
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -27777,7 +27777,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27788,14 +27788,14 @@ C3H3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -27805,7 +27805,7 @@ CH2CO
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -27830,7 +27830,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27841,7 +27841,7 @@ C3H3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -27849,21 +27849,21 @@ HO2
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -27890,7 +27890,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27901,7 +27901,7 @@ C3H3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -27909,7 +27909,7 @@ HO2
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -27921,7 +27921,7 @@ C3H4-A
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -27945,7 +27945,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -27956,7 +27956,7 @@ C3H3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -27964,7 +27964,7 @@ HO2
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -27976,7 +27976,7 @@ C3H4-P
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -28000,7 +28000,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -28011,7 +28011,7 @@ C3H3
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -28019,7 +28019,7 @@ HCO
     product1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -28031,7 +28031,7 @@ C3H4-A
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28055,7 +28055,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -28066,7 +28066,7 @@ C3H3
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -28074,7 +28074,7 @@ HCO
     product1 = 
 """
 C3H4-P
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -28086,7 +28086,7 @@ C3H4-P
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28110,7 +28110,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -28121,7 +28121,7 @@ C3H3
     reactant2 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -28130,7 +28130,7 @@ HCCO
     product1 = 
 """
 C4H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {5,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {4,T}
@@ -28143,7 +28143,7 @@ C4H4
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28167,7 +28167,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -28178,14 +28178,14 @@ C3H3
     reactant2 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C4H3-I
-2
+multiplicity 2
 1 C 0 0 {2,D} {5,S} {6,S}
 2 C 1 0 {1,D} {3,S}
 3 C 0 0 {2,S} {4,T}
@@ -28197,7 +28197,7 @@ C4H3-I
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -28220,7 +28220,7 @@ entry(
     reactant1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -28231,7 +28231,7 @@ C3H3
     reactant2 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -28239,7 +28239,7 @@ CH2_(T)
     product1 = 
 """
 C4H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {5,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {4,T}
@@ -28252,7 +28252,7 @@ C4H4
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -28275,7 +28275,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -28287,7 +28287,7 @@ C2H5
     reactant2 = 
 """
 C2H
-2
+multiplicity 2
 1 C 0 0 {2,T} {3,S}
 2 C 1 0 {1,T}
 3 H 0 0 {1,S}
@@ -28295,7 +28295,7 @@ C2H
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -28306,7 +28306,7 @@ C3H3
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -28332,7 +28332,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28342,13 +28342,13 @@ C3H2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {4,S} {5,S}
 2 C 0 0 {1,D} {3,D}
 3 C 1 0 {2,D} {6,S}
@@ -28376,7 +28376,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28386,13 +28386,13 @@ C3H2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -28401,7 +28401,7 @@ C2H2
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28425,7 +28425,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28435,14 +28435,14 @@ C3H2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -28450,7 +28450,7 @@ HCO
     product2 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -28476,7 +28476,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28486,14 +28486,14 @@ C3H2
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -28502,13 +28502,13 @@ HCCO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product3 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28532,7 +28532,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28542,14 +28542,14 @@ C3H2
     reactant2 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C4H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {5,S}
 2 C 0 0 {1,T} {3,S}
 3 C 0 0 {2,S} {4,T}
@@ -28560,7 +28560,7 @@ C4H2
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -28583,7 +28583,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28593,7 +28593,7 @@ C3H2
     reactant2 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -28601,7 +28601,7 @@ CH2_(T)
     product1 = 
 """
 C4H3-N
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {5,S}
 2 C 0 0 {1,S} {4,T}
 3 C 1 0 {1,D} {6,S}
@@ -28613,7 +28613,7 @@ C4H3-N
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -28636,7 +28636,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28646,7 +28646,7 @@ C3H2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -28655,7 +28655,7 @@ CH3
     product1 = 
 """
 C4H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {5,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {4,T}
@@ -28668,7 +28668,7 @@ C4H4
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -28691,7 +28691,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28701,7 +28701,7 @@ C3H2
     reactant2 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -28710,7 +28710,7 @@ HCCO
     product1 = 
 """
 C4H3-N
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {5,S}
 2 C 0 0 {1,S} {4,T}
 3 C 1 0 {1,D} {6,S}
@@ -28722,7 +28722,7 @@ C4H3-N
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28746,7 +28746,7 @@ entry(
     reactant1 = 
 """
 C3H2
-3
+multiplicity 3
 1 C 0 0 {2,D} {3,D}
 2 C 1 0 {1,D} {4,S}
 3 C 1 0 {1,D} {5,S}
@@ -28756,14 +28756,14 @@ C3H2
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -28771,7 +28771,7 @@ HCO
     product2 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -28797,7 +28797,7 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,D}
@@ -28810,14 +28810,14 @@ CH3CHCO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -28829,7 +28829,7 @@ C2H5
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -28854,7 +28854,7 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,D}
@@ -28867,14 +28867,14 @@ CH3CHCO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -28887,7 +28887,7 @@ SC2H4OH
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28911,7 +28911,7 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,D}
@@ -28924,13 +28924,13 @@ CH3CHCO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -28942,7 +28942,7 @@ C2H5
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -28966,7 +28966,7 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,D}
@@ -28979,13 +28979,13 @@ CH3CHCO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -28997,7 +28997,7 @@ CH3CHO
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -29021,7 +29021,7 @@ entry(
     reactant1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -29036,7 +29036,7 @@ NC3H7
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -29044,7 +29044,7 @@ HO2
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -29060,7 +29060,7 @@ NC3H7O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -29084,7 +29084,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -29099,7 +29099,7 @@ IC3H7
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -29107,7 +29107,7 @@ HO2
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29123,7 +29123,7 @@ IC3H7O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -29147,7 +29147,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -29158,7 +29158,7 @@ CH3O2
     reactant2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -29173,7 +29173,7 @@ NC3H7
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -29183,7 +29183,7 @@ CH3O
     product2 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -29216,7 +29216,7 @@ entry(
     reactant1 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -29227,7 +29227,7 @@ CH3O2
     reactant2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -29242,7 +29242,7 @@ IC3H7
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -29252,7 +29252,7 @@ CH3O
     product2 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29285,7 +29285,7 @@ entry(
     reactant1 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -29300,14 +29300,14 @@ NC3H7
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29341,7 +29341,7 @@ entry(
     reactant1 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -29356,14 +29356,14 @@ IC3H7
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29397,7 +29397,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29414,7 +29414,7 @@ NC3H7O2
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -29423,7 +29423,7 @@ CH2O
     product1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29441,7 +29441,7 @@ NC3H7O2H
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -29466,7 +29466,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29483,7 +29483,7 @@ NC3H7O2
     reactant2 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -29495,7 +29495,7 @@ CH3CHO
     product1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29513,7 +29513,7 @@ NC3H7O2H
     product2 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -29541,7 +29541,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29558,7 +29558,7 @@ IC3H7O2
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -29567,7 +29567,7 @@ CH2O
     product1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29585,7 +29585,7 @@ IC3H7O2H
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -29610,7 +29610,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29627,7 +29627,7 @@ IC3H7O2
     reactant2 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -29639,7 +29639,7 @@ CH3CHO
     product1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29657,7 +29657,7 @@ IC3H7O2H
     product2 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -29685,7 +29685,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29702,7 +29702,7 @@ NC3H7O2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -29710,7 +29710,7 @@ HO2
     product1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29728,7 +29728,7 @@ NC3H7O2H
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -29752,7 +29752,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29769,7 +29769,7 @@ IC3H7O2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -29777,7 +29777,7 @@ HO2
     product1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29795,7 +29795,7 @@ IC3H7O2H
     product2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -29819,7 +29819,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -29830,7 +29830,7 @@ C2H4
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29847,7 +29847,7 @@ NC3H7O2
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -29857,7 +29857,7 @@ C2H3
     product2 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29892,7 +29892,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -29903,7 +29903,7 @@ C2H4
     reactant2 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29920,7 +29920,7 @@ IC3H7O2
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -29930,7 +29930,7 @@ C2H3
     product2 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -29965,7 +29965,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -29976,7 +29976,7 @@ CH3OH
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -29993,7 +29993,7 @@ NC3H7O2
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -30003,7 +30003,7 @@ CH2OH
     product2 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30038,7 +30038,7 @@ entry(
     reactant1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -30049,7 +30049,7 @@ CH3OH
     reactant2 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30066,7 +30066,7 @@ IC3H7O2
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -30076,7 +30076,7 @@ CH2OH
     product2 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30111,7 +30111,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -30124,7 +30124,7 @@ C2H3CHO
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30141,7 +30141,7 @@ NC3H7O2
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -30153,7 +30153,7 @@ C2H3CO
     product2 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30188,7 +30188,7 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -30201,7 +30201,7 @@ C2H3CHO
     reactant2 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30218,7 +30218,7 @@ IC3H7O2
     product1 = 
 """
 C2H3CO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,D}
@@ -30230,7 +30230,7 @@ C2H3CO
     product2 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30265,7 +30265,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -30275,7 +30275,7 @@ CH4
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30292,7 +30292,7 @@ NC3H7O2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -30301,7 +30301,7 @@ CH3
     product2 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30336,7 +30336,7 @@ entry(
     reactant1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -30346,7 +30346,7 @@ CH4
     reactant2 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30363,7 +30363,7 @@ IC3H7O2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -30372,7 +30372,7 @@ CH3
     product2 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30407,7 +30407,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30424,7 +30424,7 @@ NC3H7O2
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -30435,7 +30435,7 @@ CH3O2
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -30451,7 +30451,7 @@ NC3H7O
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -30461,7 +30461,7 @@ CH3O
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -30485,7 +30485,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30502,7 +30502,7 @@ IC3H7O2
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -30513,7 +30513,7 @@ CH3O2
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30529,7 +30529,7 @@ IC3H7O
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -30539,7 +30539,7 @@ CH3O
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -30563,14 +30563,14 @@ entry(
     reactant1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30587,13 +30587,13 @@ NC3H7O2
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30628,14 +30628,14 @@ entry(
     reactant1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30652,13 +30652,13 @@ IC3H7O2
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30693,7 +30693,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30710,7 +30710,7 @@ IC3H7O2
     reactant2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -30723,7 +30723,7 @@ C2H6
     product1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30741,7 +30741,7 @@ IC3H7O2H
     product2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -30770,7 +30770,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30787,7 +30787,7 @@ NC3H7O2
     reactant2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -30800,7 +30800,7 @@ C2H6
     product1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30818,7 +30818,7 @@ NC3H7O2H
     product2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -30847,7 +30847,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30864,7 +30864,7 @@ IC3H7O2
     reactant2 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -30879,7 +30879,7 @@ C2H5CHO
     product1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30897,7 +30897,7 @@ IC3H7O2H
     product2 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -30928,7 +30928,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -30945,7 +30945,7 @@ NC3H7O2
     reactant2 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -30960,7 +30960,7 @@ C2H5CHO
     product1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -30978,7 +30978,7 @@ NC3H7O2H
     product2 = 
 """
 C2H5CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 C 1 0 {1,S} {9,D}
@@ -31009,7 +31009,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31026,7 +31026,7 @@ IC3H7O2
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -31039,7 +31039,7 @@ CH3CO3
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31055,7 +31055,7 @@ IC3H7O
     product2 = 
 """
 CH3CO2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -31067,7 +31067,7 @@ CH3CO2
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -31091,7 +31091,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31108,7 +31108,7 @@ NC3H7O2
     reactant2 = 
 """
 CH3CO3
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,D}
 3 O 0 2 {2,S} {8,S}
@@ -31121,7 +31121,7 @@ CH3CO3
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -31137,7 +31137,7 @@ NC3H7O
     product2 = 
 """
 CH3CO2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -31149,7 +31149,7 @@ CH3CO2
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -31173,7 +31173,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31190,7 +31190,7 @@ IC3H7O2
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -31204,7 +31204,7 @@ C2H5O2
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31220,7 +31220,7 @@ IC3H7O
     product2 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -31233,7 +31233,7 @@ C2H5O
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -31257,7 +31257,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31274,7 +31274,7 @@ NC3H7O2
     reactant2 = 
 """
 C2H5O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -31288,7 +31288,7 @@ C2H5O2
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -31304,7 +31304,7 @@ NC3H7O
     product2 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -31317,7 +31317,7 @@ C2H5O
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -31341,7 +31341,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31358,7 +31358,7 @@ IC3H7O2
     reactant2 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31375,14 +31375,14 @@ IC3H7O2
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product2 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31398,7 +31398,7 @@ IC3H7O
     product3 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31431,7 +31431,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31448,7 +31448,7 @@ NC3H7O2
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31465,14 +31465,14 @@ NC3H7O2
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product2 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -31488,7 +31488,7 @@ NC3H7O
     product3 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -31521,7 +31521,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31538,7 +31538,7 @@ IC3H7O2
     reactant2 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31555,7 +31555,7 @@ NC3H7O2
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31571,7 +31571,7 @@ IC3H7O
     product2 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -31587,7 +31587,7 @@ NC3H7O
     product3 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -31611,7 +31611,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31628,7 +31628,7 @@ IC3H7O2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -31637,7 +31637,7 @@ CH3
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31653,7 +31653,7 @@ IC3H7O
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -31680,7 +31680,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31697,7 +31697,7 @@ IC3H7O2
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -31709,7 +31709,7 @@ C2H5
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31725,7 +31725,7 @@ IC3H7O
     product2 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -31755,7 +31755,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31772,7 +31772,7 @@ IC3H7O2
     reactant2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -31787,7 +31787,7 @@ IC3H7
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31803,7 +31803,7 @@ IC3H7O
     product2 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31836,7 +31836,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31853,7 +31853,7 @@ IC3H7O2
     reactant2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -31868,7 +31868,7 @@ NC3H7
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31884,7 +31884,7 @@ IC3H7O
     product2 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -31917,7 +31917,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31934,7 +31934,7 @@ IC3H7O2
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -31947,7 +31947,7 @@ C3H5-A
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -31963,7 +31963,7 @@ IC3H7O
     product2 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -31994,7 +31994,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32011,7 +32011,7 @@ NC3H7O2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -32020,7 +32020,7 @@ CH3
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32036,7 +32036,7 @@ NC3H7O
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -32063,7 +32063,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32080,7 +32080,7 @@ NC3H7O2
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -32092,7 +32092,7 @@ C2H5
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32108,7 +32108,7 @@ NC3H7O
     product2 = 
 """
 C2H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 O 1 2 {2,S}
@@ -32138,7 +32138,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32155,7 +32155,7 @@ NC3H7O2
     reactant2 = 
 """
 IC3H7
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {2,S} {10,S}
@@ -32170,7 +32170,7 @@ IC3H7
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32186,7 +32186,7 @@ NC3H7O
     product2 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32219,7 +32219,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32236,7 +32236,7 @@ NC3H7O2
     reactant2 = 
 """
 NC3H7
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 1 0 {1,S} {9,S} {10,S}
@@ -32251,7 +32251,7 @@ NC3H7
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32267,7 +32267,7 @@ NC3H7O
     product2 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32300,7 +32300,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32317,7 +32317,7 @@ NC3H7O2
     reactant2 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -32330,7 +32330,7 @@ C3H5-A
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32346,7 +32346,7 @@ NC3H7O
     product2 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -32377,7 +32377,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -32395,7 +32395,7 @@ NC3H7O2H
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32411,7 +32411,7 @@ NC3H7O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -32435,7 +32435,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2H
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -32453,7 +32453,7 @@ IC3H7O2H
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32469,7 +32469,7 @@ IC3H7O
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -32493,7 +32493,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -32505,7 +32505,7 @@ C2H5
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -32514,7 +32514,7 @@ CH2O
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32547,7 +32547,7 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,D} {10,S}
@@ -32562,13 +32562,13 @@ C2H5CHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 NC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {6,S} {10,S} {11,S}
@@ -32601,7 +32601,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -32610,7 +32610,7 @@ CH3
     reactant2 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -32622,7 +32622,7 @@ CH3CHO
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32655,7 +32655,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -32670,13 +32670,13 @@ CH3COCH3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32709,7 +32709,7 @@ entry(
     reactant1 = 
 """
 IC3H7O
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32725,14 +32725,14 @@ IC3H7O
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -32747,7 +32747,7 @@ CH3COCH3
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -32772,7 +32772,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32789,7 +32789,7 @@ NC3H7O2
     product1 = 
 """
 C3H6OOH1-2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 1 0 {1,S} {2,S} {11,S}
@@ -32823,7 +32823,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32840,7 +32840,7 @@ NC3H7O2
     product1 = 
 """
 C3H6OOH1-3
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -32874,7 +32874,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32891,7 +32891,7 @@ IC3H7O2
     product1 = 
 """
 C3H6OOH2-1
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -32925,7 +32925,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -32942,7 +32942,7 @@ IC3H7O2
     product1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -32957,7 +32957,7 @@ CH3COCH3
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -32981,7 +32981,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 1 0 {1,S} {2,S} {11,S}
@@ -32998,7 +32998,7 @@ C3H6OOH1-2
     product1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -33013,7 +33013,7 @@ C3H6O1-2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -33037,7 +33037,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -33054,7 +33054,7 @@ C3H6OOH1-3
     product1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -33069,7 +33069,7 @@ C3H6O1-3
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -33093,7 +33093,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -33110,7 +33110,7 @@ C3H6OOH2-1
     product1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -33125,7 +33125,7 @@ C3H6O1-2
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -33149,7 +33149,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -33163,7 +33163,7 @@ C3H6
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -33171,7 +33171,7 @@ HO2
     product1 = 
 """
 C3H6OOH1-2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 1 0 {1,S} {2,S} {11,S}
@@ -33205,7 +33205,7 @@ entry(
     reactant1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -33219,7 +33219,7 @@ C3H6
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -33227,7 +33227,7 @@ HO2
     product1 = 
 """
 C3H6OOH2-1
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -33261,7 +33261,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -33278,14 +33278,14 @@ C3H6OOH1-3
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -33294,7 +33294,7 @@ CH2O
     product3 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -33322,7 +33322,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -33339,7 +33339,7 @@ C3H6OOH2-1
     product1 = 
 """
 C2H3OOH
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {5,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 O 0 2 {1,S} {4,S}
@@ -33352,7 +33352,7 @@ C2H3OOH
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -33378,7 +33378,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 1 0 {1,S} {2,S} {11,S}
@@ -33395,7 +33395,7 @@ C3H6OOH1-2
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -33406,7 +33406,7 @@ C2H4
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -33415,7 +33415,7 @@ CH2O
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -33439,7 +33439,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 1 0 {1,S} {2,S} {11,S}
@@ -33456,14 +33456,14 @@ C3H6OOH1-2
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6OOH1-2O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -33499,7 +33499,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -33516,14 +33516,14 @@ C3H6OOH1-3
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6OOH1-3O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
 2  C 0 0 {1,S} {4,S} {9,S} {10,S}
 3  C 0 0 {1,S} {5,S} {11,S} {12,S}
@@ -33559,7 +33559,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 1 0 {1,S} {10,S} {11,S}
@@ -33576,14 +33576,14 @@ C3H6OOH2-1
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C3H6OOH2-1O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
 2  C 0 0 {1,S} {5,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -33619,7 +33619,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -33638,7 +33638,7 @@ C3H6OOH1-2O2
     product1 = 
 """
 C3KET12
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,D} {11,S}
@@ -33655,7 +33655,7 @@ C3KET12
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -33679,7 +33679,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
 2  C 0 0 {1,S} {4,S} {9,S} {10,S}
 3  C 0 0 {1,S} {5,S} {11,S} {12,S}
@@ -33698,7 +33698,7 @@ C3H6OOH1-3O2
     product1 = 
 """
 C3KET13
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,D} {11,S}
@@ -33715,7 +33715,7 @@ C3KET13
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -33739,7 +33739,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
 2  C 0 0 {1,S} {5,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -33758,7 +33758,7 @@ C3H6OOH2-1O2
     product1 = 
 """
 C3KET21
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 0 0 {1,S} {2,S} {11,D}
@@ -33775,7 +33775,7 @@ C3KET21
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -33799,7 +33799,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {7,S}
 2  C 0 0 {1,S} {5,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -33818,7 +33818,7 @@ C3H6OOH2-1O2
     product1 = 
 """
 C3H51-2,3OOH
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {8,S}
 2  C 0 0 {1,S} {5,S} {9,S} {10,S}
 3  C 1 0 {1,S} {11,S} {12,S}
@@ -33854,7 +33854,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -33873,7 +33873,7 @@ C3H6OOH1-2O2
     product1 = 
 """
 C3H51-2,3OOH
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {8,S}
 2  C 0 0 {1,S} {5,S} {9,S} {10,S}
 3  C 1 0 {1,S} {11,S} {12,S}
@@ -33909,7 +33909,7 @@ entry(
     reactant1 = 
 """
 C3H51-2,3OOH
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {8,S}
 2  C 0 0 {1,S} {5,S} {9,S} {10,S}
 3  C 1 0 {1,S} {11,S} {12,S}
@@ -33928,7 +33928,7 @@ C3H51-2,3OOH
     product1 = 
 """
 AC3H5OOH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
 2  C 0 0 {1,S} {3,D} {8,S}
 3  C 0 0 {2,D} {9,S} {10,S}
@@ -33944,7 +33944,7 @@ AC3H5OOH
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -33969,7 +33969,7 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {7,S} {8,S}
 2  C 0 0 {1,S} {4,S} {9,S} {10,S}
 3  C 0 0 {1,S} {5,S} {11,S} {12,S}
@@ -33988,7 +33988,7 @@ C3H6OOH1-3O2
     product1 = 
 """
 C3H52-1,3OOH
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {8,S} {9,S}
 2  C 0 0 {3,S} {5,S} {10,S} {11,S}
 3  C 1 0 {1,S} {2,S} {12,S}
@@ -34024,7 +34024,7 @@ entry(
     reactant1 = 
 """
 C3H52-1,3OOH
-2
+multiplicity 2
 1  C 0 0 {3,S} {4,S} {8,S} {9,S}
 2  C 0 0 {3,S} {5,S} {10,S} {11,S}
 3  C 1 0 {1,S} {2,S} {12,S}
@@ -34043,7 +34043,7 @@ C3H52-1,3OOH
     product1 = 
 """
 AC3H5OOH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
 2  C 0 0 {1,S} {3,D} {8,S}
 3  C 0 0 {2,D} {9,S} {10,S}
@@ -34059,7 +34059,7 @@ AC3H5OOH
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -34084,7 +34084,7 @@ entry(
     reactant1 = 
 """
 C3KET12
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,D} {11,S}
@@ -34101,7 +34101,7 @@ C3KET12
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -34113,7 +34113,7 @@ CH3CHO
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34121,7 +34121,7 @@ HCO
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -34145,7 +34145,7 @@ entry(
     reactant1 = 
 """
 C3KET13
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {6,S} {7,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {10,D} {11,S}
@@ -34162,7 +34162,7 @@ C3KET13
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34171,7 +34171,7 @@ CH2O
     product2 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -34182,7 +34182,7 @@ CH2CHO
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -34206,7 +34206,7 @@ entry(
     reactant1 = 
 """
 C3KET21
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,S} {9,S} {10,S}
 3  C 0 0 {1,S} {2,S} {11,D}
@@ -34223,7 +34223,7 @@ C3KET21
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34232,7 +34232,7 @@ CH2O
     product2 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -34243,7 +34243,7 @@ CH3CO
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -34267,7 +34267,7 @@ entry(
     reactant1 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -34281,14 +34281,14 @@ C3H5O
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 AC3H5OOH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
 2  C 0 0 {1,S} {3,D} {8,S}
 3  C 0 0 {2,D} {9,S} {10,S}
@@ -34321,7 +34321,7 @@ entry(
     reactant1 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -34335,7 +34335,7 @@ C3H5O
     product1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -34348,7 +34348,7 @@ C2H3CHO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -34371,7 +34371,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -34381,7 +34381,7 @@ C2H3
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34390,7 +34390,7 @@ CH2O
     product1 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -34421,7 +34421,7 @@ entry(
     reactant1 = 
 """
 C3H5O
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -34435,14 +34435,14 @@ C3H5O
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 C2H3CHO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 C 0 0 {1,S} {5,D} {8,S}
@@ -34455,7 +34455,7 @@ C2H3CHO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -34480,7 +34480,7 @@ entry(
     reactant1 = 
 """
 C2H3OOH
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {5,S}
 2 C 0 0 {1,D} {6,S} {7,S}
 3 O 0 2 {1,S} {4,S}
@@ -34493,7 +34493,7 @@ C2H3OOH
     product1 = 
 """
 CH2CHO
-2
+multiplicity 2
 1 C 1 0 {2,S} {4,S} {5,S}
 2 C 0 0 {1,S} {3,D} {6,S}
 3 O 0 2 {2,D}
@@ -34504,7 +34504,7 @@ CH2CHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -34528,7 +34528,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -34543,7 +34543,7 @@ C3H6O1-2
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -34554,7 +34554,7 @@ C2H4
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34580,7 +34580,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -34595,14 +34595,14 @@ C3H6O1-2
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34611,7 +34611,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -34621,7 +34621,7 @@ C2H3
     product3 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -34646,7 +34646,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -34661,13 +34661,13 @@ C3H6O1-2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34676,7 +34676,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -34686,7 +34686,7 @@ C2H3
     product3 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -34710,7 +34710,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -34725,13 +34725,13 @@ C3H6O1-2
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34740,7 +34740,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -34750,7 +34750,7 @@ C2H3
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -34774,7 +34774,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -34789,7 +34789,7 @@ C3H6O1-2
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -34797,7 +34797,7 @@ HO2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34806,7 +34806,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -34816,7 +34816,7 @@ C2H3
     product3 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -34842,7 +34842,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -34857,7 +34857,7 @@ C3H6O1-2
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -34868,7 +34868,7 @@ CH3O2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34877,7 +34877,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -34887,7 +34887,7 @@ C2H3
     product3 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -34916,7 +34916,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {8,S} {9,S} {10,S}
@@ -34931,7 +34931,7 @@ C3H6O1-2
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -34940,7 +34940,7 @@ CH3
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -34949,7 +34949,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -34959,7 +34959,7 @@ C2H3
     product3 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -34986,7 +34986,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -35001,7 +35001,7 @@ C3H6O1-3
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -35012,7 +35012,7 @@ C2H4
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35038,7 +35038,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -35053,14 +35053,14 @@ C3H6O1-3
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35069,7 +35069,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -35079,7 +35079,7 @@ C2H3
     product3 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -35104,7 +35104,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -35119,13 +35119,13 @@ C3H6O1-3
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35134,7 +35134,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -35144,7 +35144,7 @@ C2H3
     product3 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -35168,7 +35168,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -35183,13 +35183,13 @@ C3H6O1-3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35198,7 +35198,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -35208,7 +35208,7 @@ C2H3
     product3 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -35232,7 +35232,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -35247,7 +35247,7 @@ C3H6O1-3
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -35258,7 +35258,7 @@ CH3O2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35267,7 +35267,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -35277,7 +35277,7 @@ C2H3
     product3 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -35306,7 +35306,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -35321,7 +35321,7 @@ C3H6O1-3
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -35329,7 +35329,7 @@ HO2
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35338,7 +35338,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -35348,7 +35348,7 @@ C2H3
     product3 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -35374,7 +35374,7 @@ entry(
     reactant1 = 
 """
 C3H6O1-3
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {4,S} {9,S} {10,S}
@@ -35389,7 +35389,7 @@ C3H6O1-3
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -35398,7 +35398,7 @@ CH3
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35407,7 +35407,7 @@ CH2O
     product2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -35417,7 +35417,7 @@ C2H3
     product3 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -35444,7 +35444,7 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -35461,7 +35461,7 @@ IC3H7O2
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -35475,7 +35475,7 @@ C3H6
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -35500,7 +35500,7 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-2
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {5,S} {6,S}
 2  C 0 0 {1,S} {4,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -35517,7 +35517,7 @@ NC3H7O2
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -35531,7 +35531,7 @@ C3H6
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -35556,7 +35556,7 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35570,7 +35570,7 @@ CH2CCH2OH
     reactant2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -35579,7 +35579,7 @@ H2O2
     product1 = 
 """
 C3H5OH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {3,D} {7,S}
 3  C 0 0 {2,D} {8,S} {9,S}
@@ -35594,7 +35594,7 @@ C3H5OH
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -35619,7 +35619,7 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {3,D} {7,S}
 3  C 0 0 {2,D} {8,S} {9,S}
@@ -35634,14 +35634,14 @@ C3H5OH
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35655,7 +35655,7 @@ CH2CCH2OH
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -35680,7 +35680,7 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {3,D} {7,S}
 3  C 0 0 {2,D} {8,S} {9,S}
@@ -35695,13 +35695,13 @@ C3H5OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35715,7 +35715,7 @@ CH2CCH2OH
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -35739,7 +35739,7 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {3,D} {7,S}
 3  C 0 0 {2,D} {8,S} {9,S}
@@ -35754,14 +35754,14 @@ C3H5OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35775,7 +35775,7 @@ CH2CCH2OH
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -35800,7 +35800,7 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {3,D} {7,S}
 3  C 0 0 {2,D} {8,S} {9,S}
@@ -35815,7 +35815,7 @@ C3H5OH
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -35824,7 +35824,7 @@ CH3
     product1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35838,7 +35838,7 @@ CH2CCH2OH
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -35865,7 +35865,7 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35879,13 +35879,13 @@ CH2CCH2OH
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H5OH
-1
+multiplicity 1
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {3,D} {7,S}
 3  C 0 0 {2,D} {8,S} {9,S}
@@ -35917,7 +35917,7 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35931,14 +35931,14 @@ CH2CCH2OH
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -35948,14 +35948,14 @@ CH2OH
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product3 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -35981,7 +35981,7 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -35995,7 +35995,7 @@ CH2CCH2OH
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -36004,7 +36004,7 @@ C2H2
     product2 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -36031,7 +36031,7 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -36043,14 +36043,14 @@ C3H4-A
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2CCH2OH
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -36081,13 +36081,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36099,7 +36099,7 @@ CH2OCHO
     product1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36129,13 +36129,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -36147,7 +36147,7 @@ CH3OCO
     product1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36177,7 +36177,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36190,13 +36190,13 @@ CH3OCHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36208,7 +36208,7 @@ CH2OCHO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -36232,7 +36232,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36245,14 +36245,14 @@ CH3OCHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36264,7 +36264,7 @@ CH2OCHO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -36289,7 +36289,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36302,7 +36302,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -36311,7 +36311,7 @@ CH3
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36323,7 +36323,7 @@ CH2OCHO
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -36350,7 +36350,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36363,7 +36363,7 @@ CH3OCHO
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -36371,7 +36371,7 @@ HO2
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36383,7 +36383,7 @@ CH2OCHO
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -36409,7 +36409,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36422,7 +36422,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -36433,7 +36433,7 @@ CH3O2
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36445,7 +36445,7 @@ CH2OCHO
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -36474,7 +36474,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36487,7 +36487,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -36497,7 +36497,7 @@ CH3O
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36509,7 +36509,7 @@ CH2OCHO
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -36537,7 +36537,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36550,13 +36550,13 @@ CH3OCHO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36568,7 +36568,7 @@ CH2OCHO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -36592,7 +36592,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36605,14 +36605,14 @@ CH3OCHO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36624,7 +36624,7 @@ CH2OCHO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -36649,7 +36649,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36662,7 +36662,7 @@ CH3OCHO
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -36670,7 +36670,7 @@ HCO
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36682,7 +36682,7 @@ CH2OCHO
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -36708,7 +36708,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36721,7 +36721,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -36733,7 +36733,7 @@ C2H5
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36745,7 +36745,7 @@ CH2OCHO
     product2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -36775,7 +36775,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36788,7 +36788,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -36798,7 +36798,7 @@ C2H3
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36810,7 +36810,7 @@ CH2OCHO
     product2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -36838,7 +36838,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36851,7 +36851,7 @@ CH3OCHO
     reactant2 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -36860,7 +36860,7 @@ OCHO
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -36872,7 +36872,7 @@ CH2OCHO
     product2 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -36899,7 +36899,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36912,13 +36912,13 @@ CH3OCHO
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -36930,7 +36930,7 @@ CH3OCO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -36954,7 +36954,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -36967,14 +36967,14 @@ CH3OCHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -36986,7 +36986,7 @@ CH3OCO
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -37011,7 +37011,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37024,7 +37024,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -37033,7 +37033,7 @@ CH3
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37045,7 +37045,7 @@ CH3OCO
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -37072,7 +37072,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37085,7 +37085,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -37096,7 +37096,7 @@ CH3O2
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37108,7 +37108,7 @@ CH3OCO
     product2 = 
 """
 CH3O2H
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -37137,7 +37137,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37150,7 +37150,7 @@ CH3OCHO
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -37158,7 +37158,7 @@ HO2
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37170,7 +37170,7 @@ CH3OCO
     product2 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -37196,7 +37196,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37209,7 +37209,7 @@ CH3OCHO
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -37219,7 +37219,7 @@ CH3O
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37231,7 +37231,7 @@ CH3OCO
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -37259,7 +37259,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37272,13 +37272,13 @@ CH3OCHO
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37290,7 +37290,7 @@ CH3OCO
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -37314,7 +37314,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37327,14 +37327,14 @@ CH3OCHO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37346,7 +37346,7 @@ CH3OCO
     product2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -37371,7 +37371,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37384,7 +37384,7 @@ CH3OCHO
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -37392,7 +37392,7 @@ HCO
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37404,7 +37404,7 @@ CH3OCO
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -37430,7 +37430,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37443,7 +37443,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -37455,7 +37455,7 @@ C2H5
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37467,7 +37467,7 @@ CH3OCO
     product2 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -37497,7 +37497,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37510,7 +37510,7 @@ CH3OCHO
     reactant2 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -37520,7 +37520,7 @@ C2H3
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37532,7 +37532,7 @@ CH3OCO
     product2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -37560,7 +37560,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37573,7 +37573,7 @@ CH3OCHO
     reactant2 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -37582,7 +37582,7 @@ OCHO
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37594,7 +37594,7 @@ CH3OCO
     product2 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -37621,7 +37621,7 @@ entry(
     reactant1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37633,7 +37633,7 @@ CH3OCO
     reactant2 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37646,7 +37646,7 @@ CH3OCHO
     product1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37659,7 +37659,7 @@ CH3OCHO
     product2 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -37688,7 +37688,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -37697,7 +37697,7 @@ CH3
     reactant2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -37705,7 +37705,7 @@ CO2
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37734,7 +37734,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -37744,14 +37744,14 @@ CH3O
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37780,7 +37780,7 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -37792,7 +37792,7 @@ CH2OCHO
     product1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -37821,7 +37821,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -37830,7 +37830,7 @@ CH2O
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -37838,7 +37838,7 @@ HCO
     product1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -37867,7 +37867,7 @@ entry(
     reactant1 = 
 """
 OCH2OCHO
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -37880,7 +37880,7 @@ OCH2OCHO
     product1 = 
 """
 HOCH2OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {7,S}
@@ -37910,7 +37910,7 @@ entry(
     reactant1 = 
 """
 HOCH2OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {7,S}
@@ -37923,7 +37923,7 @@ HOCH2OCO
     product1 = 
 """
 HOCH2O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 O 1 2 {1,S}
@@ -37934,7 +37934,7 @@ HOCH2O
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -37958,7 +37958,7 @@ entry(
     reactant1 = 
 """
 HOCH2OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {7,S}
@@ -37971,7 +37971,7 @@ HOCH2OCO
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -37981,7 +37981,7 @@ CH2OH
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -38006,7 +38006,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38015,7 +38015,7 @@ CH2O
     reactant2 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -38024,7 +38024,7 @@ OCHO
     product1 = 
 """
 OCH2OCHO
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -38054,7 +38054,7 @@ entry(
     reactant1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -38066,7 +38066,7 @@ CH3OCO
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38074,7 +38074,7 @@ HCO
     product1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -38087,7 +38087,7 @@ CH3OCHO
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -38111,7 +38111,7 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -38123,7 +38123,7 @@ CH2OCHO
     reactant2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38131,7 +38131,7 @@ HCO
     product1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -38144,7 +38144,7 @@ CH3OCHO
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -38168,7 +38168,7 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -38180,7 +38180,7 @@ CH2OCHO
     reactant2 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -38188,7 +38188,7 @@ HO2
     product1 = 
 """
 HOOCH2OCHO
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,D} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -38220,7 +38220,7 @@ entry(
     reactant1 = 
 """
 OCH2OCHO
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -38233,14 +38233,14 @@ OCH2OCHO
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HOOCH2OCHO
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {6,S} {7,S}
 2  C 0 0 {3,S} {8,D} {9,S}
 3  O 0 2 {1,S} {2,S}
@@ -38272,7 +38272,7 @@ entry(
     reactant1 = 
 """
 CH3OCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -38284,7 +38284,7 @@ CH3OCO
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -38294,7 +38294,7 @@ CH3O
     product1 = 
 """
 OCH2OCHO
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -38307,7 +38307,7 @@ OCH2OCHO
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -38333,7 +38333,7 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -38345,14 +38345,14 @@ CH2OCHO
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 OOCH2OCHO
-2
+multiplicity 2
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -38383,7 +38383,7 @@ entry(
     reactant1 = 
 """
 OCH2O2H
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 O 0 2 {2,S} {7,S}
@@ -38395,14 +38395,14 @@ OCH2O2H
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 HOOCH2OC*O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,S} {5,S}
@@ -38433,7 +38433,7 @@ entry(
     reactant1 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -38442,14 +38442,14 @@ OCHO
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 CHOOCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,D} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {6,D}
@@ -38477,7 +38477,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38485,7 +38485,7 @@ HCO
     reactant2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -38493,7 +38493,7 @@ CO2
     product1 = 
 """
 CHOOCO
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,D} {5,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {6,D}
@@ -38521,20 +38521,20 @@ entry(
     reactant1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -38560,19 +38560,19 @@ entry(
     reactant1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -38599,19 +38599,19 @@ entry(
     reactant1 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -38633,20 +38633,20 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -38669,20 +38669,20 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
     product1 = 
 """
 HO2
-2
+multiplicity 2
 1 O 0 2 {2,S} {3,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -38719,7 +38719,7 @@ entry(
     reactant1 = 
 """
 H2O2
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 O 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -38728,14 +38728,14 @@ H2O2
     product1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -38771,20 +38771,20 @@ entry(
     reactant1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     reactant2 = 
 """
 O_(T)
-3
+multiplicity 3
 1 O 2 2
 """,
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -38818,7 +38818,7 @@ entry(
     reactant1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38826,13 +38826,13 @@ HCO
     product1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -38859,7 +38859,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38868,7 +38868,7 @@ CH2O
     product1 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38876,7 +38876,7 @@ HCO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -38902,7 +38902,7 @@ entry(
     reactant1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -38911,14 +38911,14 @@ CH2O
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -38940,7 +38940,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -38949,7 +38949,7 @@ CH3
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -38958,7 +38958,7 @@ CH3
     product1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -39000,7 +39000,7 @@ entry(
     reactant1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39009,13 +39009,13 @@ CH3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39055,14 +39055,14 @@ entry(
     reactant1 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39071,7 +39071,7 @@ CH3
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -39112,13 +39112,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -39128,7 +39128,7 @@ CH2OH
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -39169,13 +39169,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -39185,7 +39185,7 @@ CH3O
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -39226,7 +39226,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39234,7 +39234,7 @@ CH2_(S)
     reactant2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39242,7 +39242,7 @@ H2O
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -39283,7 +39283,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39291,13 +39291,13 @@ CH2_(T)
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39331,7 +39331,7 @@ entry(
     reactant1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39339,14 +39339,14 @@ CH2_(T)
     reactant2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product1 = 
 """
 CH2CO
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -39386,7 +39386,7 @@ entry(
     reactant1 = 
 """
 CH2_(S)
-1
+multiplicity 1
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39394,7 +39394,7 @@ CH2_(S)
     product1 = 
 """
 CH2_(T)
-3
+multiplicity 3
 1 C 2 0 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39422,13 +39422,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -39436,7 +39436,7 @@ CO2
     product1 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -39465,7 +39465,7 @@ entry(
     reactant1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -39475,7 +39475,7 @@ CH2OH
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -39484,7 +39484,7 @@ CH2O
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -39510,7 +39510,7 @@ entry(
     reactant1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -39520,7 +39520,7 @@ CH3O
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -39529,7 +39529,7 @@ CH2O
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -39555,7 +39555,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -39565,14 +39565,14 @@ HCOOH
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39600,7 +39600,7 @@ entry(
     reactant1 = 
 """
 HCOOH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -39610,7 +39610,7 @@ HCOOH
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -39618,7 +39618,7 @@ CO2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -39640,7 +39640,7 @@ entry(
     reactant1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -39652,13 +39652,13 @@ C2H5
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 H 0 0 {1,S}
@@ -39701,13 +39701,13 @@ entry(
     reactant1 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -39718,7 +39718,7 @@ C2H4
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -39760,7 +39760,7 @@ entry(
     reactant1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -39771,7 +39771,7 @@ CH3CO
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39780,7 +39780,7 @@ CH3
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -39808,7 +39808,7 @@ entry(
     reactant1 = 
 """
 CH3CO2
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -39820,7 +39820,7 @@ CH3CO2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -39829,7 +39829,7 @@ CH3
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -39857,7 +39857,7 @@ entry(
     reactant1 = 
 """
 HCCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {4,S}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
@@ -39866,14 +39866,14 @@ HCCO
     product1 = 
 """
 CH_(Q)
-4
+multiplicity 4
 1 C 3 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -39900,7 +39900,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -39910,13 +39910,13 @@ C2H3
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -39957,7 +39957,7 @@ entry(
     reactant1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -39968,7 +39968,7 @@ C2H4
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -39977,7 +39977,7 @@ C2H2
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -40014,7 +40014,7 @@ entry(
     reactant1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -40023,13 +40023,13 @@ C2H2
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -40069,7 +40069,7 @@ entry(
     reactant1 = 
 """
 C2H
-2
+multiplicity 2
 1 C 0 0 {2,T} {3,S}
 2 C 1 0 {1,T}
 3 H 0 0 {1,S}
@@ -40077,13 +40077,13 @@ C2H
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C2H2
-1
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -40117,7 +40117,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -40131,7 +40131,7 @@ C2H5OH
     product1 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
@@ -40141,7 +40141,7 @@ CH2OH
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40175,7 +40175,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -40189,7 +40189,7 @@ C2H5OH
     product1 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -40201,7 +40201,7 @@ C2H5
     product2 = 
 """
 OH
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -40233,7 +40233,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -40247,7 +40247,7 @@ C2H5OH
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -40258,7 +40258,7 @@ C2H4
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40296,7 +40296,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -40310,7 +40310,7 @@ C2H5OH
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -40322,7 +40322,7 @@ CH3CHO
     product2 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -40354,7 +40354,7 @@ entry(
     reactant1 = 
 """
 SC2H4OH
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 1 0 {1,S} {3,S} {7,S}
 3 O 0 2 {2,S} {8,S}
@@ -40367,7 +40367,7 @@ SC2H4OH
     product1 = 
 """
 CH3CHO
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 H 0 0 {1,S}
@@ -40379,7 +40379,7 @@ CH3CHO
     product2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -40405,7 +40405,7 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1
+multiplicity 1
 1  C 0 0 {3,S} {4,S} {5,S} {6,S}
 2  C 0 0 {3,S} {7,S} {8,S} {9,S}
 3  C 0 0 {1,S} {2,S} {10,D}
@@ -40420,7 +40420,7 @@ CH3COCH3
     product1 = 
 """
 CH3CO
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,D}
 3 H 0 0 {1,S}
@@ -40431,7 +40431,7 @@ CH3CO
     product2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40465,7 +40465,7 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,S} {8,S} {9,S}
 3 O 0 2 {1,S} {2,S}
@@ -40479,7 +40479,7 @@ CH3OCH3
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40488,7 +40488,7 @@ CH3
     product2 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -40523,7 +40523,7 @@ entry(
     reactant1 = 
 """
 C3H8
-1
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  C 0 0 {1,S} {6,S} {7,S} {8,S}
 3  C 0 0 {1,S} {9,S} {10,S} {11,S}
@@ -40539,7 +40539,7 @@ C3H8
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40548,7 +40548,7 @@ CH3
     product2 = 
 """
 C2H5
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -40585,7 +40585,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -40598,13 +40598,13 @@ C3H5-A
     reactant2 = 
 """
 H
-2
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -40648,7 +40648,7 @@ entry(
     reactant1 = 
 """
 C2H3
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 1 0 {1,D} {5,S}
 3 H 0 0 {1,S}
@@ -40658,7 +40658,7 @@ C2H3
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40667,7 +40667,7 @@ CH3
     product1 = 
 """
 C3H6
-1
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,D} {7,S}
 3 C 0 0 {2,D} {8,S} {9,S}
@@ -40711,7 +40711,7 @@ entry(
     reactant1 = 
 """
 C3H5-A
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 C 1 0 {1,S} {7,S} {8,S}
@@ -40724,7 +40724,7 @@ C3H5-A
     reactant2 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40733,7 +40733,7 @@ CH3
     product1 = 
 """
 C4H8-1
-1
+multiplicity 1
 1  C 0 0 {2,D} {5,S} {6,S}
 2  C 0 0 {1,D} {3,S} {7,S}
 3  C 0 0 {2,S} {4,S} {8,S} {9,S}
@@ -40780,7 +40780,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -40793,7 +40793,7 @@ CH3OCHO
     product1 = 
 """
 CH3OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -40804,7 +40804,7 @@ CH3OH
     product2 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
@@ -40836,7 +40836,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -40849,7 +40849,7 @@ CH3OCHO
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40859,7 +40859,7 @@ CH4
     product2 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -40892,7 +40892,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -40905,7 +40905,7 @@ CH3OCHO
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -40914,7 +40914,7 @@ CH2O
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -40948,7 +40948,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -40961,7 +40961,7 @@ CH3OCHO
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -40970,7 +40970,7 @@ CH3
     product2 = 
 """
 OCHO
-2
+multiplicity 2
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 O 1 2 {1,S}
@@ -41004,7 +41004,7 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -41017,7 +41017,7 @@ CH3OCHO
     product1 = 
 """
 CH3O
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -41027,7 +41027,7 @@ CH3O
     product2 = 
 """
 HCO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
