@@ -7,20 +7,20 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index        = 1,
     reactant1 = 
 """
 O2_(S)
 multiplicity 1
-1 O 0 2 {2,D}
-2 O 0 2 {1,D}
+1 O U0 L2 E0  {2,D}
+2 O U0 L2 E0  {1,D}
 """,
     product1 = 
 """
 O2_(T)
 multiplicity 3
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+1 O U1 L2 E0  {2,S}
+2 O U1 L2 E0  {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -40,20 +40,20 @@ u"""
 )
 
 entry(
-    index = 2,
+    index        = 2,
     reactant1 = 
 """
 O2_(S)
 multiplicity 1
-1 O 0 2 {2,D}
-2 O 0 2 {1,D}
+1 O U0 L2 E0  {2,D}
+2 O U0 L2 E0  {1,D}
 """,
     product1 = 
 """
 O2_(T)
 multiplicity 3
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+1 O U1 L2 E0  {2,S}
+2 O U1 L2 E0  {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -71,20 +71,20 @@ u"""
 )
 
 entry(
-    index = 3,
+    index        = 3,
     reactant1 = 
 """
 O2_(S)
 multiplicity 1
-1 O 0 2 {2,D}
-2 O 0 2 {1,D}
+1 O U0 L2 E0  {2,D}
+2 O U0 L2 E0  {1,D}
 """,
     product1 = 
 """
 O2_(T)
 multiplicity 3
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+1 O U1 L2 E0  {2,S}
+2 O U1 L2 E0  {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
