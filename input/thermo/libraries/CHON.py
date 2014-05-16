@@ -10,17 +10,17 @@ Table 38. Enthalpy of Formation of Gas - Organic Compounds
 Table 46. Entropy of Gas - Organic Compounds
 """
 entry(
-    index = 1,
-    label = "CH3NO",
+    index        = 1,
+    label        = "CH3NO",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 N 0 1 {1,S} {5,S} {6,S}
-4 H 0 0 {1,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C U0 L0 E0  {2,D} {3,S} {4,S}
+2 O U0 L2 E0  {1,D}
+3 N U0 L1 E0  {1,S} {5,S} {6,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {3,S}
+6 H U0 L0 E0  {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -36,18 +36,18 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "CH3NO2a",
+    index        = 2,
+    label        = "CH3NO2a",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 N 0 0 {1,S} {6,D} {7,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 O 0 2 {2,D}
-7 O 0 3 {2,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 N U0 L0 E+1 {1,S} {6,D} {7,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 O U0 L2 E0  {2,D}
+7 O U0 L3 E-1 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -63,18 +63,18 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "CH3NO2b",
+    index        = 3,
+    label        = "CH3NO2b",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 O 0 2 {1,S} {3,S}
-3 N 0 1 {2,S} {7,D}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 O 0 2 {3,D}
+1 C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2 O U0 L2 E0  {1,S} {3,S}
+3 N U0 L1 E0  {2,S} {7,D}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 O U0 L2 E0  {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -90,19 +90,19 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "CH3NO3",
+    index        = 4,
+    label        = "CH3NO3",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 O 0 2 {1,S} {6,S}
-6 N 0 0 {5,S} {7,D} {8,S}
-7 O 0 2 {6,D}
-8 O 0 3 {6,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 O U0 L2 E0  {1,S} {6,S}
+6 N U0 L0 E+1 {5,S} {7,D} {8,S}
+7 O U0 L2 E0  {6,D}
+8 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -118,18 +118,18 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "C2H3NO",
+    index        = 5,
+    label        = "C2H3NO",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {5,S} {6,S} {7,S}
-2 N 0 1 {1,S} {3,D}
-3 C 0 0 {2,D} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+1 C U0 L0 E0  {2,S} {5,S} {6,S} {7,S}
+2 N U0 L1 E0  {1,S} {3,D}
+3 C U0 L0 E0  {2,D} {4,D}
+4 O U0 L2 E0  {3,D}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -145,20 +145,20 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "C2H5NOa",
+    index        = 6,
+    label        = "C2H5NOa",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,D}
-3 N 0 1 {2,S} {8,S} {9,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 O 0 2 {2,D}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+1 C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2 C U0 L0 E0  {1,S} {3,S} {7,D}
+3 N U0 L1 E0  {2,S} {8,S} {9,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 O U0 L2 E0  {2,D}
+8 H U0 L0 E0  {3,S}
+9 H U0 L0 E0  {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -174,20 +174,20 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "C2H5NOb",
+    index        = 7,
+    label        = "C2H5NOb",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 N 0 1 {1,S} {3,S} {7,S}
-3 C 0 0 {2,S} {8,S} {9,D}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {3,S}
-9 O 0 2 {3,D}
+1 C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2 N U0 L1 E0  {1,S} {3,S} {7,S}
+3 C U0 L0 E0  {2,S} {8,S} {9,D}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {3,S}
+9 O U0 L2 E0  {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -203,21 +203,21 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "C2H5NO2",
+    index        = 8,
+    label        = "C2H5NO2",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 0 {1,S}
-3  H 0 0 {1,S}
-4  H 0 0 {1,S}
-5  C 0 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 0 {5,S}
-7  H 0 0 {5,S}
-8  N 0 0 {5,S} {9,D} {10,S}
-9  O 0 2 {8,D}
-10 O 0 3 {8,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  H U0 L0 E0  {1,S}
+3  H U0 L0 E0  {1,S}
+4  H U0 L0 E0  {1,S}
+5  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+6  H U0 L0 E0  {5,S}
+7  H U0 L0 E0  {5,S}
+8  N U0 L0 E+1 {5,S} {9,D} {10,S}
+9  O U0 L2 E0  {8,D}
+10 O U0 L3 E-1 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -233,22 +233,22 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "C2H5NO3",
+    index        = 9,
+    label        = "C2H5NO3",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  H 0 0 {1,S}
-3  H 0 0 {1,S}
-4  H 0 0 {1,S}
-5  C 0 0 {1,S} {6,S} {7,S} {8,S}
-6  H 0 0 {5,S}
-7  H 0 0 {5,S}
-8  O 0 2 {5,S} {9,S}
-9  N 0 0 {8,S} {10,D} {11,S}
-10 O 0 2 {9,D}
-11 O 0 3 {9,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  H U0 L0 E0  {1,S}
+3  H U0 L0 E0  {1,S}
+4  H U0 L0 E0  {1,S}
+5  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+6  H U0 L0 E0  {5,S}
+7  H U0 L0 E0  {5,S}
+8  O U0 L2 E0  {5,S} {9,S}
+9  N U0 L0 E+1 {8,S} {10,D} {11,S}
+10 O U0 L2 E0  {9,D}
+11 O U0 L3 E-1 {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -264,22 +264,22 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "C2H7NOa",
+    index        = 10,
+    label        = "C2H7NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {6,S}
-2  C 0 0 {1,S} {4,S} {7,S} {8,S}
-3  N 0 1 {1,S} {9,S} {10,S}
-4  O 0 2 {2,S} {11,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {4,S} {7,S} {8,S}
+3  N U0 L1 E0  {1,S} {9,S} {10,S}
+4  O U0 L2 E0  {2,S} {11,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -295,22 +295,22 @@ u"""
 )
 
 entry(
-    index = 11,
-    label = "C2H7NOb",
+    index        = 11,
+    label        = "C2H7NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  N 0 1 {1,S} {9,S} {10,S}
-4  O 0 2 {1,S} {11,S}
-5  H 0 0 {1,S}
-6  H 0 0 {2,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  N U0 L1 E0  {1,S} {9,S} {10,S}
+4  O U0 L2 E0  {1,S} {11,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -326,21 +326,21 @@ u"""
 )
 
 entry(
-    index = 12,
-    label = "C3H5NOa",
+    index        = 12,
+    label        = "C3H5NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,D}
-2  C 0 0 {1,S} {3,D} {6,S}
-3  C 0 0 {2,D} {7,S} {8,S}
-4  N 0 1 {1,S} {9,S} {10,S}
-5  O 0 2 {1,D}
-6  H 0 0 {2,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,D}
+2  C U0 L0 E0  {1,S} {3,D} {6,S}
+3  C U0 L0 E0  {2,D} {7,S} {8,S}
+4  N U0 L1 E0  {1,S} {9,S} {10,S}
+5  O U0 L2 E0  {1,D}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {3,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -356,21 +356,21 @@ u"""
 )
 
 entry(
-    index = 13,
-    label = "C3H5NOb",
+    index        = 13,
+    label        = "C3H5NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {6,S}
-2  C 0 0 {1,S} {4,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,T}
-4  O 0 2 {2,S} {10,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  N 0 1 {3,T}
-10 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {4,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,T}
+4  O U0 L2 E0  {2,S} {10,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  N U0 L1 E0  {3,T}
+10 H U0 L0 E0  {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -386,21 +386,21 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "C3H5NOc",
+    index        = 14,
+    label        = "C3H5NOc",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,T}
-4  O 0 2 {1,S} {10,S}
-5  H 0 0 {1,S}
-6  H 0 0 {2,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  N 0 1 {3,T}
-10 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,T}
+4  O U0 L2 E0  {1,S} {10,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  N U0 L1 E0  {3,T}
+10 H U0 L0 E0  {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -416,23 +416,23 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "C3H7NOa",
+    index        = 15,
+    label        = "C3H7NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,S} {5,S} {6,S} {7,S}
-2  C 0 0 {3,S} {8,S} {9,S} {10,S}
-3  N 0 1 {1,S} {2,S} {4,S}
-4  C 0 0 {3,S} {11,D} {12,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 O 0 2 {4,D}
-12 H 0 0 {4,S}
+1  C U0 L0 E0  {3,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {3,S} {8,S} {9,S} {10,S}
+3  N U0 L1 E0  {1,S} {2,S} {4,S}
+4  C U0 L0 E0  {3,S} {11,D} {12,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 O U0 L2 E0  {4,D}
+12 H U0 L0 E0  {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -448,23 +448,23 @@ u"""
 )
 
 entry(
-    index = 16,
-    label = "C3H7NOb",
+    index        = 16,
+    label        = "C3H7NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,S} {5,S} {6,S} {7,S}
-2  C 0 0 {4,S} {8,S} {9,S} {10,S}
-3  N 0 1 {1,S} {4,S} {12,S}
-4  C 0 0 {2,S} {3,S} {11,D}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 O 0 2 {4,D}
-12 H 0 0 {3,S}
+1  C U0 L0 E0  {3,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {4,S} {8,S} {9,S} {10,S}
+3  N U0 L1 E0  {1,S} {4,S} {12,S}
+4  C U0 L0 E0  {2,S} {3,S} {11,D}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 O U0 L2 E0  {4,D}
+12 H U0 L0 E0  {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -480,24 +480,24 @@ u"""
 )
 
 entry(
-    index = 17,
-    label = "C3H7NO2a",
+    index        = 17,
+    label        = "C3H7NO2a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {6,S}
-2  C 0 0 {1,S} {4,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  N 0 0 {2,S} {12,D} {13,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 O 0 2 {4,D}
-13 O 0 3 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {4,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  N U0 L0 E+1 {2,S} {12,D} {13,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 O U0 L2 E0  {4,D}
+13 O U0 L3 E-1 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -513,24 +513,24 @@ u"""
 )
 
 entry(
-    index = 18,
-    label = "C3H7NO2b",
+    index        = 18,
+    label        = "C3H7NO2b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  N 0 0 {1,S} {12,D} {13,S}
-5  H 0 0 {1,S}
-6  H 0 0 {2,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 O 0 2 {4,D}
-13 O 0 3 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  N U0 L0 E+1 {1,S} {12,D} {13,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 O U0 L2 E0  {4,D}
+13 O U0 L3 E-1 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -546,25 +546,25 @@ u"""
 )
 
 entry(
-    index = 19,
-    label = "C3H7NO3a",
+    index        = 19,
+    label        = "C3H7NO3a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {6,S} {7,S}
-2  C 0 0 {1,S} {5,S} {8,S} {9,S}
-3  C 0 0 {1,S} {10,S} {11,S} {12,S}
-4  N 0 0 {5,S} {13,D} {14,S}
-5  O 0 2 {2,S} {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 O 0 2 {4,D}
-14 O 0 3 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {10,S} {11,S} {12,S}
+4  N U0 L0 E+1 {5,S} {13,D} {14,S}
+5  O U0 L2 E0  {2,S} {4,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 O U0 L2 E0  {4,D}
+14 O U0 L3 E-1 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -580,25 +580,25 @@ u"""
 )
 
 entry(
-    index = 20,
-    label = "C3H7NO3b",
+    index        = 20,
+    label        = "C3H7NO3b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {6,S}
-2  C 0 0 {1,S} {7,S} {8,S} {9,S}
-3  C 0 0 {1,S} {10,S} {11,S} {12,S}
-4  N 0 0 {5,S} {13,D} {14,S}
-5  O 0 2 {1,S} {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 O 0 2 {4,D}
-14 O 0 3 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {7,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {10,S} {11,S} {12,S}
+4  N U0 L0 E+1 {5,S} {13,D} {14,S}
+5  O U0 L2 E0  {1,S} {4,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 O U0 L2 E0  {4,D}
+14 O U0 L3 E-1 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -614,25 +614,25 @@ u"""
 )
 
 entry(
-    index = 21,
-    label = "C3H9NOb",
+    index        = 21,
+    label        = "C3H9NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {6,S} {7,S}
-2  C 0 0 {1,S} {4,S} {8,S} {9,S}
-3  C 0 0 {1,S} {5,S} {10,S} {11,S}
-4  N 0 1 {2,S} {12,S} {13,S}
-5  O 0 2 {3,S} {14,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {5,S} {10,S} {11,S}
+4  N U0 L1 E0  {2,S} {12,S} {13,S}
+5  O U0 L2 E0  {3,S} {14,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -648,25 +648,25 @@ u"""
 )
 
 entry(
-    index = 22,
-    label = "C3H9NOd",
+    index        = 22,
+    label        = "C3H9NOd",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {6,S}
-2  C 0 0 {1,S} {5,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  N 0 1 {1,S} {12,S} {13,S}
-5  O 0 2 {2,S} {14,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {6,S}
+2  C U0 L0 E0  {1,S} {5,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  N U0 L1 E0  {1,S} {12,S} {13,S}
+5  O U0 L2 E0  {2,S} {14,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -674,7 +674,8 @@ entry(
         H298 = (-52.419,'kcal/mol'),
         S298 = (85.742,'cal/(mol*K)'),
     ),
-    shortDesc = u"""2-amino-1-propanol, (�)""",
+    shortDesc = u"""2-amino-1-propanol, ()
+""",
     longDesc = 
 u"""
 
@@ -682,23 +683,23 @@ u"""
 )
 
 entry(
-    index = 23,
-    label = "C4H5NO2",
+    index        = 23,
+    label        = "C4H5NO2",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,T} {3,S}
-2  N 0 1 {1,T}
-3  C 0 0 {1,S} {4,S} {8,S} {9,S}
-4  C 0 0 {3,S} {5,D} {6,S}
-5  O 0 2 {4,D}
-6  O 0 2 {4,S} {7,S}
-7  C 0 0 {6,S} {10,S} {11,S} {12,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {7,S}
-11 H 0 0 {7,S}
-12 H 0 0 {7,S}
+1  C U0 L0 E0  {2,T} {3,S}
+2  N U0 L1 E0  {1,T}
+3  C U0 L0 E0  {1,S} {4,S} {8,S} {9,S}
+4  C U0 L0 E0  {3,S} {5,D} {6,S}
+5  O U0 L2 E0  {4,D}
+6  O U0 L2 E0  {4,S} {7,S}
+7  C U0 L0 E0  {6,S} {10,S} {11,S} {12,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {7,S}
+11 H U0 L0 E0  {7,S}
+12 H U0 L0 E0  {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -714,24 +715,24 @@ u"""
 )
 
 entry(
-    index = 24,
-    label = "C4H7NOa",
+    index        = 24,
+    label        = "C4H7NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,T}
-5  O 0 2 {1,S} {13,S}
-6  H 0 0 {2,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 N 0 1 {4,T}
-13 H 0 0 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,T}
+5  O U0 L2 E0  {1,S} {13,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 N U0 L1 E0  {4,T}
+13 H U0 L0 E0  {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -747,24 +748,24 @@ u"""
 )
 
 entry(
-    index = 25,
-    label = "C4H7NOb",
+    index        = 25,
+    label        = "C4H7NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {4,D}
-3  C 0 0 {2,S} {5,S} {9,D}
-4  C 0 0 {2,D} {10,S} {11,S}
-5  N 0 1 {3,S} {12,S} {13,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  O 0 2 {3,D}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {5,S}
-13 H 0 0 {5,S}
+1  C U0 L0 E0  {2,S} {6,S} {7,S} {8,S}
+2  C U0 L0 E0  {1,S} {3,S} {4,D}
+3  C U0 L0 E0  {2,S} {5,S} {9,D}
+4  C U0 L0 E0  {2,D} {10,S} {11,S}
+5  N U0 L1 E0  {3,S} {12,S} {13,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {1,S}
+9  O U0 L2 E0  {3,D}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {4,S}
+12 H U0 L0 E0  {5,S}
+13 H U0 L0 E0  {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -780,24 +781,24 @@ u"""
 )
 
 entry(
-    index = 26,
-    label = "C4H7NOc",
+    index        = 26,
+    label        = "C4H7NOc",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {6,S} {7,S}
-2  C 0 0 {1,S} {5,S} {8,S} {9,S}
-3  C 0 0 {4,S} {10,S} {11,S} {12,S}
-4  O 0 2 {1,S} {3,S}
-5  C 0 0 {2,S} {13,T}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 N 0 1 {5,T}
+1  C U0 L0 E0  {2,S} {4,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {4,S} {10,S} {11,S} {12,S}
+4  O U0 L2 E0  {1,S} {3,S}
+5  C U0 L0 E0  {2,S} {13,T}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 N U0 L1 E0  {5,T}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -813,24 +814,24 @@ u"""
 )
 
 entry(
-    index = 27,
-    label = "C4H7NOd",
+    index        = 27,
+    label        = "C4H7NOd",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {6,S} {7,S}
-2  C 0 0 {1,S} {4,S} {8,S} {9,S}
-3  C 0 0 {1,S} {5,S} {10,S} {11,S}
-4  N 0 1 {2,S} {5,S} {13,S}
-5  C 0 0 {3,S} {4,S} {12,D}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 O 0 2 {5,D}
-13 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {5,S} {10,S} {11,S}
+4  N U0 L1 E0  {2,S} {5,S} {13,S}
+5  C U0 L0 E0  {3,S} {4,S} {12,D}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 O U0 L2 E0  {5,D}
+13 H U0 L0 E0  {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -846,26 +847,26 @@ u"""
 )
 
 entry(
-    index = 28,
-    label = "C4H9NOa",
+    index        = 28,
+    label        = "C4H9NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {4,S} {6,S} {7,S} {8,S}
-2  C 0 0 {4,S} {12,S} {13,S} {14,S}
-3  C 0 0 {5,S} {9,S} {10,S} {11,S}
-4  N 0 1 {1,S} {2,S} {5,S}
-5  C 0 0 {3,S} {4,S} {15,D}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {2,S}
-13 H 0 0 {2,S}
-14 H 0 0 {2,S}
-15 O 0 2 {5,D}
+1  C U0 L0 E0  {4,S} {6,S} {7,S} {8,S}
+2  C U0 L0 E0  {4,S} {12,S} {13,S} {14,S}
+3  C U0 L0 E0  {5,S} {9,S} {10,S} {11,S}
+4  N U0 L1 E0  {1,S} {2,S} {5,S}
+5  C U0 L0 E0  {3,S} {4,S} {15,D}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {2,S}
+14 H U0 L0 E0  {2,S}
+15 O U0 L2 E0  {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -881,26 +882,26 @@ u"""
 )
 
 entry(
-    index = 29,
-    label = "C4H9NOb",
+    index        = 29,
+    label        = "C4H9NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,S} {5,S} {7,S} {8,S}
-2  C 0 0 {4,S} {5,S} {9,S} {10,S}
-3  C 0 0 {1,S} {6,S} {11,S} {12,S}
-4  C 0 0 {2,S} {6,S} {13,S} {14,S}
-5  N 0 1 {1,S} {2,S} {15,S}
-6  O 0 2 {3,S} {4,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
+1  C U0 L0 E0  {3,S} {5,S} {7,S} {8,S}
+2  C U0 L0 E0  {4,S} {5,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {6,S} {11,S} {12,S}
+4  C U0 L0 E0  {2,S} {6,S} {13,S} {14,S}
+5  N U0 L1 E0  {1,S} {2,S} {15,S}
+6  O U0 L2 E0  {3,S} {4,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -916,27 +917,27 @@ u"""
 )
 
 entry(
-    index = 30,
-    label = "C4H9NO2a",
+    index        = 30,
+    label        = "C4H9NO2a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {8,S} {9,S}
-2  C 0 0 {1,S} {4,S} {6,S} {7,S}
-3  C 0 0 {1,S} {5,S} {10,S} {11,S}
-4  C 0 0 {2,S} {12,S} {13,S} {14,S}
-5  N 0 0 {3,S} {15,D} {16,S}
-6  H 0 0 {2,S}
-7  H 0 0 {2,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 O 0 2 {5,D}
-16 O 0 3 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {8,S} {9,S}
+2  C U0 L0 E0  {1,S} {4,S} {6,S} {7,S}
+3  C U0 L0 E0  {1,S} {5,S} {10,S} {11,S}
+4  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+5  N U0 L0 E+1 {3,S} {15,D} {16,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 O U0 L2 E0  {5,D}
+16 O U0 L3 E-1 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -952,27 +953,27 @@ u"""
 )
 
 entry(
-    index = 31,
-    label = "C4H9NO2b",
+    index        = 31,
+    label        = "C4H9NO2b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {6,S}
-2  C 0 0 {1,S} {4,S} {7,S} {8,S}
-3  C 0 0 {1,S} {12,S} {13,S} {14,S}
-4  C 0 0 {2,S} {9,S} {10,S} {11,S}
-5  N 0 0 {1,S} {15,D} {16,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {3,S}
-15 O 0 2 {5,D}
-16 O 0 3 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {4,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+4  C U0 L0 E0  {2,S} {9,S} {10,S} {11,S}
+5  N U0 L0 E+1 {1,S} {15,D} {16,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {4,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {3,S}
+15 O U0 L2 E0  {5,D}
+16 O U0 L3 E-1 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -988,27 +989,27 @@ u"""
 )
 
 entry(
-    index = 32,
-    label = "C4H9NO2c",
+    index        = 32,
+    label        = "C4H9NO2c",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {6,S}
-2  C 0 0 {1,S} {5,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  N 0 0 {2,S} {15,D} {16,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 O 0 2 {5,D}
-16 O 0 3 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {6,S}
+2  C U0 L0 E0  {1,S} {5,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  N U0 L0 E+1 {2,S} {15,D} {16,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 O U0 L2 E0  {5,D}
+16 O U0 L3 E-1 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1024,27 +1025,27 @@ u"""
 )
 
 entry(
-    index = 33,
-    label = "C4H9NO2d",
+    index        = 33,
+    label        = "C4H9NO2d",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  N 0 0 {1,S} {15,D} {16,S}
-6  H 0 0 {2,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 O 0 2 {5,D}
-16 O 0 3 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  N U0 L0 E+1 {1,S} {15,D} {16,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 O U0 L2 E0  {5,D}
+16 O U0 L3 E-1 {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1060,28 +1061,28 @@ u"""
 )
 
 entry(
-    index = 34,
-    label = "C4H11NOa",
+    index        = 34,
+    label        = "C4H11NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {6,S}
-2  C 0 0 {1,S} {5,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  N 0 1 {2,S} {15,S} {16,S}
-6  O 0 2 {1,S} {17,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {6,S}
+2  C U0 L0 E0  {1,S} {5,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  N U0 L1 E0  {2,S} {15,S} {16,S}
+6  O U0 L2 E0  {1,S} {17,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1097,28 +1098,28 @@ u"""
 )
 
 entry(
-    index = 35,
-    label = "C4H11NOb",
+    index        = 35,
+    label        = "C4H11NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {6,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  N 0 1 {1,S} {15,S} {16,S}
-6  O 0 2 {3,S} {17,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,S} {8,S} {9,S}
+3  C U0 L0 E0  {2,S} {6,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  N U0 L1 E0  {1,S} {15,S} {16,S}
+6  O U0 L2 E0  {3,S} {17,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1134,28 +1135,28 @@ u"""
 )
 
 entry(
-    index = 36,
-    label = "C4H11NOc",
+    index        = 36,
+    label        = "C4H11NOc",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {7,S}
-2  C 0 0 {1,S} {4,S} {6,S} {8,S}
-3  C 0 0 {1,S} {12,S} {13,S} {14,S}
-4  C 0 0 {2,S} {9,S} {10,S} {11,S}
-5  N 0 1 {1,S} {15,S} {16,S}
-6  O 0 2 {2,S} {17,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {3,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,S} {6,S} {8,S}
+3  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+4  C U0 L0 E0  {2,S} {9,S} {10,S} {11,S}
+5  N U0 L1 E0  {1,S} {15,S} {16,S}
+6  O U0 L2 E0  {2,S} {17,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {4,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1171,28 +1172,28 @@ u"""
 )
 
 entry(
-    index = 37,
-    label = "C4H11NOd",
+    index        = 37,
+    label        = "C4H11NOd",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {7,S} {8,S}
-2  C 0 0 {1,S} {4,S} {9,S} {10,S}
-3  C 0 0 {1,S} {5,S} {11,S} {12,S}
-4  C 0 0 {2,S} {6,S} {13,S} {14,S}
-5  N 0 1 {3,S} {15,S} {16,S}
-6  O 0 2 {4,S} {17,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {7,S} {8,S}
+2  C U0 L0 E0  {1,S} {4,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {5,S} {11,S} {12,S}
+4  C U0 L0 E0  {2,S} {6,S} {13,S} {14,S}
+5  N U0 L1 E0  {3,S} {15,S} {16,S}
+6  O U0 L2 E0  {4,S} {17,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1208,28 +1209,28 @@ u"""
 )
 
 entry(
-    index = 38,
-    label = "C4H11NOe",
+    index        = 38,
+    label        = "C4H11NOe",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {7,S}
-2  C 0 0 {1,S} {4,S} {8,S} {9,S}
-3  C 0 0 {1,S} {6,S} {10,S} {11,S}
-4  C 0 0 {2,S} {12,S} {13,S} {14,S}
-5  N 0 1 {1,S} {15,S} {16,S}
-6  O 0 2 {3,S} {17,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {6,S} {10,S} {11,S}
+4  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+5  N U0 L1 E0  {1,S} {15,S} {16,S}
+6  O U0 L2 E0  {3,S} {17,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1237,7 +1238,8 @@ entry(
         H298 = (-48.276,'kcal/mol'),
         S298 = (91.92,'cal/(mol*K)'),
     ),
-    shortDesc = u"""2-amino-1-butanol, (�)-""",
+    shortDesc = u"""2-amino-1-butanol, ()-
+""",
     longDesc = 
 u"""
 
@@ -1245,28 +1247,28 @@ u"""
 )
 
 entry(
-    index = 39,
-    label = "C4H11NOf",
+    index        = 39,
+    label        = "C4H11NOf",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  N 0 1 {1,S} {15,S} {16,S}
-6  O 0 2 {2,S} {17,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  N U0 L1 E0  {1,S} {15,S} {16,S}
+6  O U0 L2 E0  {2,S} {17,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1282,28 +1284,28 @@ u"""
 )
 
 entry(
-    index = 40,
-    label = "C4H11NOg",
+    index        = 40,
+    label        = "C4H11NOg",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,S} {5,S} {9,S} {10,S}
-2  C 0 0 {4,S} {5,S} {7,S} {8,S}
-3  C 0 0 {1,S} {6,S} {11,S} {12,S}
-4  C 0 0 {2,S} {13,S} {14,S} {15,S}
-5  N 0 1 {1,S} {2,S} {16,S}
-6  O 0 2 {3,S} {17,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {3,S} {5,S} {9,S} {10,S}
+2  C U0 L0 E0  {4,S} {5,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {6,S} {11,S} {12,S}
+4  C U0 L0 E0  {2,S} {13,S} {14,S} {15,S}
+5  N U0 L1 E0  {1,S} {2,S} {16,S}
+6  O U0 L2 E0  {3,S} {17,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1319,28 +1321,28 @@ u"""
 )
 
 entry(
-    index = 41,
-    label = "C4H11NOh",
+    index        = 41,
+    label        = "C4H11NOh",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {5,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  N 0 1 {3,S} {15,S} {16,S}
-6  O 0 2 {1,S} {17,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {4,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,S} {8,S} {9,S}
+3  C U0 L0 E0  {2,S} {5,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  N U0 L1 E0  {3,S} {15,S} {16,S}
+6  O U0 L2 E0  {1,S} {17,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1356,28 +1358,28 @@ u"""
 )
 
 entry(
-    index = 42,
-    label = "C4H11NOi",
+    index        = 42,
+    label        = "C4H11NOi",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {6,S} {7,S}
-2  C 0 0 {1,S} {4,S} {8,S} {9,S}
-3  C 0 0 {1,S} {5,S} {10,S} {11,S}
-4  C 0 0 {2,S} {12,S} {13,S} {14,S}
-5  N 0 1 {3,S} {15,S} {16,S}
-6  O 0 2 {1,S} {17,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {5,S} {10,S} {11,S}
+4  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+5  N U0 L1 E0  {3,S} {15,S} {16,S}
+6  O U0 L2 E0  {1,S} {17,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1393,29 +1395,29 @@ u"""
 )
 
 entry(
-    index = 46,
-    label = "C4H11NO2a",
+    index        = 46,
+    label        = "C4H11NO2a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,S} {5,S} {8,S} {9,S}
-2  C 0 0 {4,S} {5,S} {10,S} {11,S}
-3  C 0 0 {1,S} {6,S} {12,S} {13,S}
-4  C 0 0 {2,S} {7,S} {14,S} {15,S}
-5  N 0 1 {1,S} {2,S} {16,S}
-6  O 0 2 {3,S} {17,S}
-7  O 0 2 {4,S} {18,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {2,S}
-11 H 0 0 {2,S}
-12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
-18 H 0 0 {7,S}
+1  C U0 L0 E0  {3,S} {5,S} {8,S} {9,S}
+2  C U0 L0 E0  {4,S} {5,S} {10,S} {11,S}
+3  C U0 L0 E0  {1,S} {6,S} {12,S} {13,S}
+4  C U0 L0 E0  {2,S} {7,S} {14,S} {15,S}
+5  N U0 L1 E0  {1,S} {2,S} {16,S}
+6  O U0 L2 E0  {3,S} {17,S}
+7  O U0 L2 E0  {4,S} {18,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
+18 H U0 L0 E0  {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1431,29 +1433,29 @@ u"""
 )
 
 entry(
-    index = 47,
-    label = "C4H11NO2b",
+    index        = 47,
+    label        = "C4H11NO2b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {4,S} {6,S} {7,S} {10,S}
-2  C 0 0 {3,S} {5,S} {8,S} {9,S}
-3  C 0 0 {2,S} {6,S} {11,S} {12,S}
-4  C 0 0 {1,S} {13,S} {14,S} {15,S}
-5  N 0 1 {2,S} {16,S} {17,S}
-6  O 0 2 {1,S} {3,S}
-7  O 0 2 {1,S} {18,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {1,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {7,S}
+1  C U0 L0 E0  {4,S} {6,S} {7,S} {10,S}
+2  C U0 L0 E0  {3,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {2,S} {6,S} {11,S} {12,S}
+4  C U0 L0 E0  {1,S} {13,S} {14,S} {15,S}
+5  N U0 L1 E0  {2,S} {16,S} {17,S}
+6  O U0 L2 E0  {1,S} {3,S}
+7  O U0 L2 E0  {1,S} {18,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1469,29 +1471,29 @@ u"""
 )
 
 entry(
-    index = 48,
-    label = "C4H11NO2c",
+    index        = 48,
+    label        = "C4H11NO2c",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {8,S} {9,S}
-3  C 0 0 {1,S} {7,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  N 0 1 {1,S} {15,S} {16,S}
-6  O 0 2 {2,S} {17,S}
-7  O 0 2 {3,S} {18,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
-18 H 0 0 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {7,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  N U0 L1 E0  {1,S} {15,S} {16,S}
+6  O U0 L2 E0  {2,S} {17,S}
+7  O U0 L2 E0  {3,S} {18,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
+18 H U0 L0 E0  {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1507,29 +1509,29 @@ u"""
 )
 
 entry(
-    index = 49,
-    label = "C4H11NO2d",
+    index        = 49,
+    label        = "C4H11NO2d",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {6,S} {8,S}
-2  C 0 0 {1,S} {5,S} {9,S} {10,S}
-3  C 0 0 {1,S} {7,S} {11,S} {12,S}
-4  C 0 0 {5,S} {13,S} {14,S} {15,S}
-5  N 0 1 {2,S} {4,S} {16,S}
-6  O 0 2 {1,S} {18,S}
-7  O 0 2 {3,S} {17,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 H 0 0 {5,S}
-17 H 0 0 {7,S}
-18 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {8,S}
+2  C U0 L0 E0  {1,S} {5,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {7,S} {11,S} {12,S}
+4  C U0 L0 E0  {5,S} {13,S} {14,S} {15,S}
+5  N U0 L1 E0  {2,S} {4,S} {16,S}
+6  O U0 L2 E0  {1,S} {18,S}
+7  O U0 L2 E0  {3,S} {17,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {7,S}
+18 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1545,30 +1547,30 @@ u"""
 )
 
 entry(
-    index = 50,
-    label = "C4H12N2O",
+    index        = 50,
+    label        = "C4H12N2O",
     multiplicity = 1,
     molecule = 
 """
-1  N 0 1 {2,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,S} {10,S} {11,S}
-3  C 0 0 {2,S} {4,S} {12,S} {13,S}
-4  N 0 1 {3,S} {5,S} {14,S}
-5  C 0 0 {4,S} {6,S} {15,S} {16,S}
-6  C 0 0 {5,S} {7,S} {17,S} {18,S}
-7  O 0 2 {6,S} {19,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {2,S}
-11 H 0 0 {2,S}
-12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {6,S}
-18 H 0 0 {6,S}
-19 H 0 0 {7,S}
+1  N U0 L1 E0  {2,S} {8,S} {9,S}
+2  C U0 L0 E0  {1,S} {3,S} {10,S} {11,S}
+3  C U0 L0 E0  {2,S} {4,S} {12,S} {13,S}
+4  N U0 L1 E0  {3,S} {5,S} {14,S}
+5  C U0 L0 E0  {4,S} {6,S} {15,S} {16,S}
+6  C U0 L0 E0  {5,S} {7,S} {17,S} {18,S}
+7  O U0 L2 E0  {6,S} {19,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {6,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1584,26 +1586,26 @@ u"""
 )
 
 entry(
-    index = 51,
-    label = "C5H7NO2",
+    index        = 51,
+    label        = "C5H7NO2",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,T} {3,S}
-2  N 0 1 {1,T}
-3  C 0 0 {1,S} {4,S} {9,S} {10,S}
-4  C 0 0 {3,S} {5,D} {6,S}
-5  O 0 2 {4,D}
-6  O 0 2 {4,S} {7,S}
-7  C 0 0 {6,S} {8,S} {11,S} {12,S}
-8  C 0 0 {7,S} {13,S} {14,S} {15,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {7,S}
-12 H 0 0 {7,S}
-13 H 0 0 {8,S}
-14 H 0 0 {8,S}
-15 H 0 0 {8,S}
+1  C U0 L0 E0  {2,T} {3,S}
+2  N U0 L1 E0  {1,T}
+3  C U0 L0 E0  {1,S} {4,S} {9,S} {10,S}
+4  C U0 L0 E0  {3,S} {5,D} {6,S}
+5  O U0 L2 E0  {4,D}
+6  O U0 L2 E0  {4,S} {7,S}
+7  C U0 L0 E0  {6,S} {8,S} {11,S} {12,S}
+8  C U0 L0 E0  {7,S} {13,S} {14,S} {15,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {7,S}
+12 H U0 L0 E0  {7,S}
+13 H U0 L0 E0  {8,S}
+14 H U0 L0 E0  {8,S}
+15 H U0 L0 E0  {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1619,27 +1621,27 @@ u"""
 )
 
 entry(
-    index = 52,
-    label = "C5H9NOa",
+    index        = 52,
+    label        = "C5H9NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {7,S} {8,S}
-2  C 0 0 {1,S} {4,S} {9,S} {10,S}
-3  C 0 0 {1,S} {5,S} {11,S} {12,S}
-4  C 0 0 {2,S} {13,S} {14,S} {15,S}
-5  N 0 1 {3,S} {6,D}
-6  C 0 0 {5,D} {16,D}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 O 0 2 {6,D}
+1  C U0 L0 E0  {2,S} {3,S} {7,S} {8,S}
+2  C U0 L0 E0  {1,S} {4,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {5,S} {11,S} {12,S}
+4  C U0 L0 E0  {2,S} {13,S} {14,S} {15,S}
+5  N U0 L1 E0  {3,S} {6,D}
+6  C U0 L0 E0  {5,D} {16,D}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 O U0 L2 E0  {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1655,27 +1657,27 @@ u"""
 )
 
 entry(
-    index = 53,
-    label = "C5H9NOb",
+    index        = 53,
+    label        = "C5H9NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {7,S} {8,S}
-2  C 0 0 {1,S} {5,S} {9,S} {10,S}
-3  C 0 0 {1,S} {6,S} {11,S} {12,S}
-4  C 0 0 {5,S} {13,S} {14,S} {15,S}
-5  N 0 1 {2,S} {4,S} {6,S}
-6  C 0 0 {3,S} {5,S} {16,D}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 O 0 2 {6,D}
+1  C U0 L0 E0  {2,S} {3,S} {7,S} {8,S}
+2  C U0 L0 E0  {1,S} {5,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {6,S} {11,S} {12,S}
+4  C U0 L0 E0  {5,S} {13,S} {14,S} {15,S}
+5  N U0 L1 E0  {2,S} {4,S} {6,S}
+6  C U0 L0 E0  {3,S} {5,S} {16,D}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 O U0 L2 E0  {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1691,27 +1693,27 @@ u"""
 )
 
 entry(
-    index = 54,
-    label = "C5H9NOc",
+    index        = 54,
+    label        = "C5H9NOc",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {7,S}
-2  C 0 0 {1,S} {5,S} {8,S} {9,S}
-3  C 0 0 {1,S} {10,S} {11,S} {12,S}
-4  C 0 0 {1,S} {13,S} {14,S} {15,S}
-5  N 0 1 {2,S} {6,D}
-6  C 0 0 {5,D} {16,D}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 O 0 2 {6,D}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {10,S} {11,S} {12,S}
+4  C U0 L0 E0  {1,S} {13,S} {14,S} {15,S}
+5  N U0 L1 E0  {2,S} {6,D}
+6  C U0 L0 E0  {5,D} {16,D}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 O U0 L2 E0  {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1727,27 +1729,27 @@ u"""
 )
 
 entry(
-    index = 55,
-    label = "C5H9NOd",
+    index        = 55,
+    label        = "C5H9NOd",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {7,S} {8,S} {9,S}
-3  C 0 0 {1,S} {10,S} {11,S} {12,S}
-4  C 0 0 {1,S} {13,S} {14,S} {15,S}
-5  N 0 1 {1,S} {6,D}
-6  C 0 0 {5,D} {16,D}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 O 0 2 {6,D}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {7,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {10,S} {11,S} {12,S}
+4  C U0 L0 E0  {1,S} {13,S} {14,S} {15,S}
+5  N U0 L1 E0  {1,S} {6,D}
+6  C U0 L0 E0  {5,D} {16,D}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 O U0 L2 E0  {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1763,30 +1765,30 @@ u"""
 )
 
 entry(
-    index = 56,
-    label = "C5H9NO4",
+    index        = 56,
+    label        = "C5H9NO4",
     multiplicity = 1,
     molecule = 
 """
-1  N 0 1 {2,S} {11,S} {12,S}
-2  C 0 0 {1,S} {3,S} {8,S} {13,S}
-3  C 0 0 {2,S} {4,S} {14,S} {15,S}
-4  C 0 0 {3,S} {5,S} {16,S} {17,S}
-5  C 0 0 {4,S} {6,D} {7,S}
-6  O 0 2 {5,D}
-7  O 0 2 {5,S} {18,S}
-8  C 0 0 {2,S} {9,D} {10,S}
-9  O 0 2 {8,D}
-10 O 0 2 {8,S} {19,S}
-11 H 0 0 {1,S}
-12 H 0 0 {1,S}
-13 H 0 0 {2,S}
-14 H 0 0 {3,S}
-15 H 0 0 {3,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 H 0 0 {7,S}
-19 H 0 0 {10,S}
+1  N U0 L1 E0  {2,S} {11,S} {12,S}
+2  C U0 L0 E0  {1,S} {3,S} {8,S} {13,S}
+3  C U0 L0 E0  {2,S} {4,S} {14,S} {15,S}
+4  C U0 L0 E0  {3,S} {5,S} {16,S} {17,S}
+5  C U0 L0 E0  {4,S} {6,D} {7,S}
+6  O U0 L2 E0  {5,D}
+7  O U0 L2 E0  {5,S} {18,S}
+8  C U0 L0 E0  {2,S} {9,D} {10,S}
+9  O U0 L2 E0  {8,D}
+10 O U0 L2 E0  {8,S} {19,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {1,S}
+13 H U0 L0 E0  {2,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {3,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 H U0 L0 E0  {7,S}
+19 H U0 L0 E0  {10,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1802,29 +1804,29 @@ u"""
 )
 
 entry(
-    index = 57,
-    label = "C5H11NO",
+    index        = 57,
+    label        = "C5H11NO",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {8,S} {9,S} {10,S}
-3  C 0 0 {1,S} {11,S} {12,S} {13,S}
-4  C 0 0 {1,S} {14,S} {15,S} {16,S}
-5  N 0 1 {1,S} {6,S} {17,S}
-6  C 0 0 {5,S} {7,D} {18,S}
-7  O 0 2 {6,D}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {8,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {11,S} {12,S} {13,S}
+4  C U0 L0 E0  {1,S} {14,S} {15,S} {16,S}
+5  N U0 L1 E0  {1,S} {6,S} {17,S}
+6  C U0 L0 E0  {5,S} {7,D} {18,S}
+7  O U0 L2 E0  {6,D}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1840,30 +1842,30 @@ u"""
 )
 
 entry(
-    index = 58,
-    label = "C5H11NO2a",
+    index        = 58,
+    label        = "C5H11NO2a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {9,S} {10,S}
-2  C 0 0 {1,S} {4,S} {11,S} {12,S}
-3  C 0 0 {1,S} {5,S} {7,S} {8,S}
-4  C 0 0 {2,S} {6,S} {13,S} {14,S}
-5  C 0 0 {3,S} {15,S} {16,S} {17,S}
-6  N 0 0 {4,S} {18,D} {19,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
-12 H 0 0 {2,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {9,S} {10,S}
+2  C U0 L0 E0  {1,S} {4,S} {11,S} {12,S}
+3  C U0 L0 E0  {1,S} {5,S} {7,S} {8,S}
+4  C U0 L0 E0  {2,S} {6,S} {13,S} {14,S}
+5  C U0 L0 E0  {3,S} {15,S} {16,S} {17,S}
+6  N U0 L0 E+1 {4,S} {18,D} {19,S}
+7  H U0 L0 E0  {3,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1879,30 +1881,30 @@ u"""
 )
 
 entry(
-    index = 59,
-    label = "C5H11NO2b",
+    index        = 59,
+    label        = "C5H11NO2b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {10,S} {11,S}
-3  C 0 0 {2,S} {5,S} {8,S} {9,S}
-4  C 0 0 {1,S} {15,S} {16,S} {17,S}
-5  C 0 0 {3,S} {12,S} {13,S} {14,S}
-6  N 0 0 {1,S} {18,D} {19,S}
-7  H 0 0 {1,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {2,S}
-11 H 0 0 {2,S}
-12 H 0 0 {5,S}
-13 H 0 0 {5,S}
-14 H 0 0 {5,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {4,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,S} {10,S} {11,S}
+3  C U0 L0 E0  {2,S} {5,S} {8,S} {9,S}
+4  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+5  C U0 L0 E0  {3,S} {12,S} {13,S} {14,S}
+6  N U0 L0 E+1 {1,S} {18,D} {19,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {5,S}
+13 H U0 L0 E0  {5,S}
+14 H U0 L0 E0  {5,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1918,30 +1920,30 @@ u"""
 )
 
 entry(
-    index = 60,
-    label = "C5H11NO2c",
+    index        = 60,
+    label        = "C5H11NO2c",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {6,S} {7,S}
-2  C 0 0 {1,S} {4,S} {8,S} {9,S}
-3  C 0 0 {1,S} {5,S} {10,S} {11,S}
-4  C 0 0 {2,S} {12,S} {13,S} {14,S}
-5  C 0 0 {3,S} {15,S} {16,S} {17,S}
-6  N 0 0 {1,S} {18,D} {19,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {5,S} {10,S} {11,S}
+4  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {3,S} {15,S} {16,S} {17,S}
+6  N U0 L0 E+1 {1,S} {18,D} {19,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1957,30 +1959,30 @@ u"""
 )
 
 entry(
-    index = 61,
-    label = "C5H11NO2d",
+    index        = 61,
+    label        = "C5H11NO2d",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {7,S}
-2  C 0 0 {1,S} {5,S} {8,S} {9,S}
-3  C 0 0 {1,S} {6,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {2,S} {15,S} {16,S} {17,S}
-6  N 0 0 {3,S} {18,D} {19,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {6,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {2,S} {15,S} {16,S} {17,S}
+6  N U0 L0 E+1 {3,S} {18,D} {19,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1996,30 +1998,30 @@ u"""
 )
 
 entry(
-    index = 62,
-    label = "C5H11NO2e",
+    index        = 62,
+    label        = "C5H11NO2e",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {6,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {1,S} {15,S} {16,S} {17,S}
-6  N 0 0 {3,S} {18,D} {19,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,S} {8,S} {9,S}
+3  C U0 L0 E0  {2,S} {6,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+6  N U0 L0 E+1 {3,S} {18,D} {19,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2035,30 +2037,30 @@ u"""
 )
 
 entry(
-    index = 63,
-    label = "C5H11NO2f",
+    index        = 63,
+    label        = "C5H11NO2f",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {6,S}
-2  C 0 0 {1,S} {5,S} {7,S} {8,S}
-3  C 0 0 {1,S} {12,S} {13,S} {14,S}
-4  C 0 0 {1,S} {15,S} {16,S} {17,S}
-5  C 0 0 {2,S} {9,S} {10,S} {11,S}
-6  N 0 0 {1,S} {18,D} {19,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {5,S}
-10 H 0 0 {5,S}
-11 H 0 0 {5,S}
-12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {3,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {6,S}
+2  C U0 L0 E0  {1,S} {5,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+4  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+5  C U0 L0 E0  {2,S} {9,S} {10,S} {11,S}
+6  N U0 L0 E+1 {1,S} {18,D} {19,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {5,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2074,30 +2076,30 @@ u"""
 )
 
 entry(
-    index = 64,
-    label = "C5H11NO2g",
+    index        = 64,
+    label        = "C5H11NO2g",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {7,S}
-2  C 0 0 {1,S} {5,S} {6,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {2,S} {15,S} {16,S} {17,S}
-6  N 0 0 {2,S} {18,D} {19,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {6,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {2,S} {15,S} {16,S} {17,S}
+6  N U0 L0 E+1 {2,S} {18,D} {19,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2113,30 +2115,30 @@ u"""
 )
 
 entry(
-    index = 65,
-    label = "C5H11NO2h",
+    index        = 65,
+    label        = "C5H11NO2h",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {1,S} {15,S} {16,S} {17,S}
-6  N 0 0 {2,S} {18,D} {19,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 O 0 2 {6,D}
-19 O 0 3 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+6  N U0 L0 E+1 {2,S} {18,D} {19,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 O U0 L2 E0  {6,D}
+19 O U0 L3 E-1 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2152,32 +2154,32 @@ u"""
 )
 
 entry(
-    index = 66,
-    label = "C5H13NO2a",
+    index        = 66,
+    label        = "C5H13NO2a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,S} {6,S} {9,S} {10,S}
-2  C 0 0 {4,S} {6,S} {11,S} {12,S}
-3  C 0 0 {1,S} {7,S} {13,S} {14,S}
-4  C 0 0 {2,S} {8,S} {15,S} {16,S}
-5  C 0 0 {6,S} {17,S} {18,S} {19,S}
-6  N 0 1 {1,S} {2,S} {5,S}
-7  O 0 2 {3,S} {20,S}
-8  O 0 2 {4,S} {21,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {2,S}
-12 H 0 0 {2,S}
-13 H 0 0 {3,S}
-14 H 0 0 {3,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {5,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {7,S}
-21 H 0 0 {8,S}
+1  C U0 L0 E0  {3,S} {6,S} {9,S} {10,S}
+2  C U0 L0 E0  {4,S} {6,S} {11,S} {12,S}
+3  C U0 L0 E0  {1,S} {7,S} {13,S} {14,S}
+4  C U0 L0 E0  {2,S} {8,S} {15,S} {16,S}
+5  C U0 L0 E0  {6,S} {17,S} {18,S} {19,S}
+6  N U0 L1 E0  {1,S} {2,S} {5,S}
+7  O U0 L2 E0  {3,S} {20,S}
+8  O U0 L2 E0  {4,S} {21,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {7,S}
+21 H U0 L0 E0  {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2193,32 +2195,32 @@ u"""
 )
 
 entry(
-    index = 67,
-    label = "C5H13NO2b",
+    index        = 67,
+    label        = "C5H13NO2b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {6,S}
-2  C 0 0 {1,S} {5,S} {9,S} {10,S}
-3  C 0 0 {1,S} {7,S} {11,S} {12,S}
-4  C 0 0 {1,S} {8,S} {13,S} {14,S}
-5  C 0 0 {2,S} {15,S} {16,S} {17,S}
-6  N 0 1 {1,S} {18,S} {19,S}
-7  O 0 2 {3,S} {20,S}
-8  O 0 2 {4,S} {21,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {7,S}
-21 H 0 0 {8,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {6,S}
+2  C U0 L0 E0  {1,S} {5,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {7,S} {11,S} {12,S}
+4  C U0 L0 E0  {1,S} {8,S} {13,S} {14,S}
+5  C U0 L0 E0  {2,S} {15,S} {16,S} {17,S}
+6  N U0 L1 E0  {1,S} {18,S} {19,S}
+7  O U0 L2 E0  {3,S} {20,S}
+8  O U0 L2 E0  {4,S} {21,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {7,S}
+21 H U0 L0 E0  {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2234,27 +2236,27 @@ u"""
 )
 
 entry(
-    index = 68,
-    label = "C6H4N2O4a",
+    index        = 68,
+    label        = "C6H4N2O4a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,B} {5,B} {7,S}
-2  C 0 0 {3,B} {4,B} {8,S}
-3  C 0 0 {1,B} {2,B} {9,S}
-4  C 0 0 {2,B} {6,B} {10,S}
-5  C 0 0 {1,B} {6,B} {12,S}
-6  C 0 0 {4,B} {5,B} {11,S}
-7  N 0 0 {1,S} {13,D} {14,S}
-8  N 0 0 {2,S} {15,D} {16,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {6,S}
-12 H 0 0 {5,S}
-13 O 0 2 {7,D}
-14 O 0 3 {7,S}
-15 O 0 2 {8,D}
-16 O 0 3 {8,S}
+1  C U0 L0 E0  {3,B} {5,B} {7,S}
+2  C U0 L0 E0  {3,B} {4,B} {8,S}
+3  C U0 L0 E0  {1,B} {2,B} {9,S}
+4  C U0 L0 E0  {2,B} {6,B} {10,S}
+5  C U0 L0 E0  {1,B} {6,B} {12,S}
+6  C U0 L0 E0  {4,B} {5,B} {11,S}
+7  N U0 L0 E+1 {1,S} {13,D} {14,S}
+8  N U0 L0 E+1 {2,S} {15,D} {16,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {6,S}
+12 H U0 L0 E0  {5,S}
+13 O U0 L2 E0  {7,D}
+14 O U0 L3 E-1 {7,S}
+15 O U0 L2 E0  {8,D}
+16 O U0 L3 E-1 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2270,27 +2272,27 @@ u"""
 )
 
 entry(
-    index = 69,
-    label = "C6H4N2O4b",
+    index        = 69,
+    label        = "C6H4N2O4b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,B} {4,B} {7,S}
-2  C 0 0 {1,B} {3,B} {8,S}
-3  C 0 0 {2,B} {5,B} {9,S}
-4  C 0 0 {1,B} {6,B} {12,S}
-5  C 0 0 {3,B} {6,B} {10,S}
-6  C 0 0 {4,B} {5,B} {11,S}
-7  N 0 0 {1,S} {13,D} {14,S}
-8  N 0 0 {2,S} {15,D} {16,S}
-9  H 0 0 {3,S}
-10 H 0 0 {5,S}
-11 H 0 0 {6,S}
-12 H 0 0 {4,S}
-13 O 0 2 {7,D}
-14 O 0 3 {7,S}
-15 O 0 2 {8,D}
-16 O 0 3 {8,S}
+1  C U0 L0 E0  {2,B} {4,B} {7,S}
+2  C U0 L0 E0  {1,B} {3,B} {8,S}
+3  C U0 L0 E0  {2,B} {5,B} {9,S}
+4  C U0 L0 E0  {1,B} {6,B} {12,S}
+5  C U0 L0 E0  {3,B} {6,B} {10,S}
+6  C U0 L0 E0  {4,B} {5,B} {11,S}
+7  N U0 L0 E+1 {1,S} {13,D} {14,S}
+8  N U0 L0 E+1 {2,S} {15,D} {16,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {6,S}
+12 H U0 L0 E0  {4,S}
+13 O U0 L2 E0  {7,D}
+14 O U0 L3 E-1 {7,S}
+15 O U0 L2 E0  {8,D}
+16 O U0 L3 E-1 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2306,27 +2308,27 @@ u"""
 )
 
 entry(
-    index = 70,
-    label = "C6H4N2O4c",
+    index        = 70,
+    label        = "C6H4N2O4c",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,B} {6,B} {7,S}
-2  C 0 0 {4,B} {5,B} {8,S}
-3  C 0 0 {1,B} {4,B} {9,S}
-4  C 0 0 {2,B} {3,B} {10,S}
-5  C 0 0 {2,B} {6,B} {11,S}
-6  C 0 0 {1,B} {5,B} {12,S}
-7  N 0 0 {1,S} {13,D} {14,S}
-8  N 0 0 {2,S} {15,D} {16,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
-13 O 0 2 {7,D}
-14 O 0 3 {7,S}
-15 O 0 2 {8,D}
-16 O 0 3 {8,S}
+1  C U0 L0 E0  {3,B} {6,B} {7,S}
+2  C U0 L0 E0  {4,B} {5,B} {8,S}
+3  C U0 L0 E0  {1,B} {4,B} {9,S}
+4  C U0 L0 E0  {2,B} {3,B} {10,S}
+5  C U0 L0 E0  {2,B} {6,B} {11,S}
+6  C U0 L0 E0  {1,B} {5,B} {12,S}
+7  N U0 L0 E+1 {1,S} {13,D} {14,S}
+8  N U0 L0 E+1 {2,S} {15,D} {16,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
+13 O U0 L2 E0  {7,D}
+14 O U0 L3 E-1 {7,S}
+15 O U0 L2 E0  {8,D}
+16 O U0 L3 E-1 {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2342,25 +2344,25 @@ u"""
 )
 
 entry(
-    index = 71,
-    label = "C6H5NO2",
+    index        = 71,
+    label        = "C6H5NO2",
     multiplicity = 1,
     molecule = 
 """
-1  N 0 0 {2,D} {3,S} {4,S}
-2  O 0 2 {1,D}
-3  O 0 3 {1,S}
-4  C 0 0 {1,S} {5,B} {13,B}
-5  C 0 0 {4,B} {6,S} {7,B}
-6  H 0 0 {5,S}
-7  C 0 0 {5,B} {8,S} {9,B}
-8  H 0 0 {7,S}
-9  C 0 0 {7,B} {10,S} {11,B}
-10 H 0 0 {9,S}
-11 C 0 0 {9,B} {12,S} {13,B}
-12 H 0 0 {11,S}
-13 C 0 0 {4,B} {11,B} {14,S}
-14 H 0 0 {13,S}
+1  N U0 L0 E+1 {2,D} {3,S} {4,S}
+2  O U0 L2 E0  {1,D}
+3  O U0 L3 E-1 {1,S}
+4  C U0 L0 E0  {1,S} {5,B} {13,B}
+5  C U0 L0 E0  {4,B} {6,S} {7,B}
+6  H U0 L0 E0  {5,S}
+7  C U0 L0 E0  {5,B} {8,S} {9,B}
+8  H U0 L0 E0  {7,S}
+9  C U0 L0 E0  {7,B} {10,S} {11,B}
+10 H U0 L0 E0  {9,S}
+11 C U0 L0 E0  {9,B} {12,S} {13,B}
+12 H U0 L0 E0  {11,S}
+13 C U0 L0 E0  {4,B} {11,B} {14,S}
+14 H U0 L0 E0  {13,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2376,27 +2378,27 @@ u"""
 )
 
 entry(
-    index = 72,
-    label = "C6H6N2O2a",
+    index        = 72,
+    label        = "C6H6N2O2a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,B} {5,B} {7,S}
-2  C 0 0 {3,B} {4,B} {8,S}
-3  C 0 0 {1,B} {2,B} {9,S}
-4  C 0 0 {2,B} {6,B} {10,S}
-5  C 0 0 {1,B} {6,B} {12,S}
-6  C 0 0 {4,B} {5,B} {11,S}
-7  N 0 0 {1,S} {13,D} {14,S}
-8  N 0 1 {2,S} {15,S} {16,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {6,S}
-12 H 0 0 {5,S}
-13 O 0 2 {7,D}
-14 O 0 3 {7,S}
-15 H 0 0 {8,S}
-16 H 0 0 {8,S}
+1  C U0 L0 E0  {3,B} {5,B} {7,S}
+2  C U0 L0 E0  {3,B} {4,B} {8,S}
+3  C U0 L0 E0  {1,B} {2,B} {9,S}
+4  C U0 L0 E0  {2,B} {6,B} {10,S}
+5  C U0 L0 E0  {1,B} {6,B} {12,S}
+6  C U0 L0 E0  {4,B} {5,B} {11,S}
+7  N U0 L0 E+1 {1,S} {13,D} {14,S}
+8  N U0 L1 E0  {2,S} {15,S} {16,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {6,S}
+12 H U0 L0 E0  {5,S}
+13 O U0 L2 E0  {7,D}
+14 O U0 L3 E-1 {7,S}
+15 H U0 L0 E0  {8,S}
+16 H U0 L0 E0  {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2412,27 +2414,27 @@ u"""
 )
 
 entry(
-    index = 73,
-    label = "C6H6N2O2b",
+    index        = 73,
+    label        = "C6H6N2O2b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,B} {4,B} {7,S}
-2  C 0 0 {1,B} {3,B} {8,S}
-3  C 0 0 {2,B} {5,B} {9,S}
-4  C 0 0 {1,B} {6,B} {12,S}
-5  C 0 0 {3,B} {6,B} {10,S}
-6  C 0 0 {4,B} {5,B} {11,S}
-7  N 0 0 {1,S} {13,D} {14,S}
-8  N 0 1 {2,S} {15,S} {16,S}
-9  H 0 0 {3,S}
-10 H 0 0 {5,S}
-11 H 0 0 {6,S}
-12 H 0 0 {4,S}
-13 O 0 2 {7,D}
-14 O 0 3 {7,S}
-15 H 0 0 {8,S}
-16 H 0 0 {8,S}
+1  C U0 L0 E0  {2,B} {4,B} {7,S}
+2  C U0 L0 E0  {1,B} {3,B} {8,S}
+3  C U0 L0 E0  {2,B} {5,B} {9,S}
+4  C U0 L0 E0  {1,B} {6,B} {12,S}
+5  C U0 L0 E0  {3,B} {6,B} {10,S}
+6  C U0 L0 E0  {4,B} {5,B} {11,S}
+7  N U0 L0 E+1 {1,S} {13,D} {14,S}
+8  N U0 L1 E0  {2,S} {15,S} {16,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {6,S}
+12 H U0 L0 E0  {4,S}
+13 O U0 L2 E0  {7,D}
+14 O U0 L3 E-1 {7,S}
+15 H U0 L0 E0  {8,S}
+16 H U0 L0 E0  {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2448,27 +2450,27 @@ u"""
 )
 
 entry(
-    index = 74,
-    label = "C6H6N2O2c",
+    index        = 74,
+    label        = "C6H6N2O2c",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,B} {6,B} {7,S}
-2  C 0 0 {4,B} {5,B} {8,S}
-3  C 0 0 {1,B} {4,B} {9,S}
-4  C 0 0 {2,B} {3,B} {10,S}
-5  C 0 0 {2,B} {6,B} {11,S}
-6  C 0 0 {1,B} {5,B} {12,S}
-7  N 0 0 {1,S} {13,D} {14,S}
-8  N 0 1 {2,S} {15,S} {16,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
-13 O 0 2 {7,D}
-14 O 0 3 {7,S}
-15 H 0 0 {8,S}
-16 H 0 0 {8,S}
+1  C U0 L0 E0  {3,B} {6,B} {7,S}
+2  C U0 L0 E0  {4,B} {5,B} {8,S}
+3  C U0 L0 E0  {1,B} {4,B} {9,S}
+4  C U0 L0 E0  {2,B} {3,B} {10,S}
+5  C U0 L0 E0  {2,B} {6,B} {11,S}
+6  C U0 L0 E0  {1,B} {5,B} {12,S}
+7  N U0 L0 E+1 {1,S} {13,D} {14,S}
+8  N U0 L1 E0  {2,S} {15,S} {16,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
+13 O U0 L2 E0  {7,D}
+14 O U0 L3 E-1 {7,S}
+15 H U0 L0 E0  {8,S}
+16 H U0 L0 E0  {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2484,28 +2486,28 @@ u"""
 )
 
 entry(
-    index = 75,
-    label = "C6H8N2O",
+    index        = 75,
+    label        = "C6H8N2O",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,T} {3,S}
-2  N 0 1 {1,T}
-3  C 0 0 {1,S} {4,S} {10,S} {11,S}
-4  C 0 0 {3,S} {5,S} {12,S} {13,S}
-5  O 0 2 {4,S} {6,S}
-6  C 0 0 {5,S} {7,S} {14,S} {15,S}
-7  C 0 0 {6,S} {8,S} {16,S} {17,S}
-8  C 0 0 {7,S} {9,T}
-9  N 0 1 {8,T}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {6,S}
-15 H 0 0 {6,S}
-16 H 0 0 {7,S}
-17 H 0 0 {7,S}
+1  C U0 L0 E0  {2,T} {3,S}
+2  N U0 L1 E0  {1,T}
+3  C U0 L0 E0  {1,S} {4,S} {10,S} {11,S}
+4  C U0 L0 E0  {3,S} {5,S} {12,S} {13,S}
+5  O U0 L2 E0  {4,S} {6,S}
+6  C U0 L0 E0  {5,S} {7,S} {14,S} {15,S}
+7  C U0 L0 E0  {6,S} {8,S} {16,S} {17,S}
+8  C U0 L0 E0  {7,S} {9,T}
+9  N U0 L1 E0  {8,T}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {6,S}
+15 H U0 L0 E0  {6,S}
+16 H U0 L0 E0  {7,S}
+17 H U0 L0 E0  {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2521,30 +2523,30 @@ u"""
 )
 
 entry(
-    index = 76,
-    label = "C6H11NOa",
+    index        = 76,
+    label        = "C6H11NOa",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {10,S} {11,S}
-2  C 0 0 {1,S} {4,S} {8,S} {9,S}
-3  C 0 0 {1,S} {5,S} {12,S} {13,S}
-4  C 0 0 {2,S} {7,S} {14,S} {15,S}
-5  C 0 0 {3,S} {6,S} {16,S} {17,S}
-6  C 0 0 {5,S} {7,S} {18,D}
-7  N 0 1 {4,S} {6,S} {19,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {1,S}
-11 H 0 0 {1,S}
-12 H 0 0 {3,S}
-13 H 0 0 {3,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 O 0 2 {6,D}
-19 H 0 0 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {10,S} {11,S}
+2  C U0 L0 E0  {1,S} {4,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {5,S} {12,S} {13,S}
+4  C U0 L0 E0  {2,S} {7,S} {14,S} {15,S}
+5  C U0 L0 E0  {3,S} {6,S} {16,S} {17,S}
+6  C U0 L0 E0  {5,S} {7,S} {18,D}
+7  N U0 L1 E0  {4,S} {6,S} {19,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 O U0 L2 E0  {6,D}
+19 H U0 L0 E0  {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2560,30 +2562,30 @@ u"""
 )
 
 entry(
-    index = 77,
-    label = "C6H11NOb",
+    index        = 77,
+    label        = "C6H11NOb",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {11,S} {12,S}
-2  C 0 0 {1,S} {4,S} {9,S} {10,S}
-3  C 0 0 {1,S} {5,S} {13,S} {14,S}
-4  C 0 0 {2,S} {6,S} {15,S} {16,S}
-5  C 0 0 {3,S} {6,S} {17,S} {18,S}
-6  C 0 0 {4,S} {5,S} {7,D}
-7  N 0 1 {6,D} {8,S}
-8  O 0 2 {7,S} {19,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {1,S}
-12 H 0 0 {1,S}
-13 H 0 0 {3,S}
-14 H 0 0 {3,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {5,S}
-18 H 0 0 {5,S}
-19 H 0 0 {8,S}
+1  C U0 L0 E0  {2,S} {3,S} {11,S} {12,S}
+2  C U0 L0 E0  {1,S} {4,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {5,S} {13,S} {14,S}
+4  C U0 L0 E0  {2,S} {6,S} {15,S} {16,S}
+5  C U0 L0 E0  {3,S} {6,S} {17,S} {18,S}
+6  C U0 L0 E0  {4,S} {5,S} {7,D}
+7  N U0 L1 E0  {6,D} {8,S}
+8  O U0 L2 E0  {7,S} {19,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {1,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2599,33 +2601,33 @@ u"""
 )
 
 entry(
-    index = 78,
-    label = "C6H13NO2a",
+    index        = 78,
+    label        = "C6H13NO2a",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {10,S} {11,S}
-2  C 0 0 {1,S} {3,S} {12,S} {13,S}
-3  C 0 0 {2,S} {5,S} {14,S} {15,S}
-4  C 0 0 {1,S} {6,S} {8,S} {9,S}
-5  C 0 0 {3,S} {7,S} {16,S} {17,S}
-6  C 0 0 {4,S} {18,S} {19,S} {20,S}
-7  N 0 0 {5,S} {21,D} {22,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {1,S}
-11 H 0 0 {1,S}
-12 H 0 0 {2,S}
-13 H 0 0 {2,S}
-14 H 0 0 {3,S}
-15 H 0 0 {3,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {4,S} {10,S} {11,S}
+2  C U0 L0 E0  {1,S} {3,S} {12,S} {13,S}
+3  C U0 L0 E0  {2,S} {5,S} {14,S} {15,S}
+4  C U0 L0 E0  {1,S} {6,S} {8,S} {9,S}
+5  C U0 L0 E0  {3,S} {7,S} {16,S} {17,S}
+6  C U0 L0 E0  {4,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {5,S} {21,D} {22,S}
+8  H U0 L0 E0  {4,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {2,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {3,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2641,33 +2643,33 @@ u"""
 )
 
 entry(
-    index = 79,
-    label = "C6H13NO2b",
+    index        = 79,
+    label        = "C6H13NO2b",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,S} {13,S} {14,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  C 0 0 {3,S} {6,S} {9,S} {10,S}
-5  C 0 0 {1,S} {18,S} {19,S} {20,S}
-6  C 0 0 {4,S} {15,S} {16,S} {17,S}
-7  N 0 0 {1,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {2,S}
-14 H 0 0 {2,S}
-15 H 0 0 {6,S}
-16 H 0 0 {6,S}
-17 H 0 0 {6,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {5,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {5,S} {7,S} {8,S}
+2  C U0 L0 E0  {1,S} {3,S} {13,S} {14,S}
+3  C U0 L0 E0  {2,S} {4,S} {11,S} {12,S}
+4  C U0 L0 E0  {3,S} {6,S} {9,S} {10,S}
+5  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+6  C U0 L0 E0  {4,S} {15,S} {16,S} {17,S}
+7  N U0 L0 E+1 {1,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {2,S}
+14 H U0 L0 E0  {2,S}
+15 H U0 L0 E0  {6,S}
+16 H U0 L0 E0  {6,S}
+17 H U0 L0 E0  {6,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {5,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2683,33 +2685,33 @@ u"""
 )
 
 entry(
-    index = 80,
-    label = "C6H13NO2c",
+    index        = 80,
+    label        = "C6H13NO2c",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {7,S} {8,S}
-2  C 0 0 {1,S} {4,S} {11,S} {12,S}
-3  C 0 0 {1,S} {6,S} {13,S} {14,S}
-4  C 0 0 {2,S} {5,S} {9,S} {10,S}
-5  C 0 0 {4,S} {15,S} {16,S} {17,S}
-6  C 0 0 {3,S} {18,S} {19,S} {20,S}
-7  N 0 0 {1,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
-11 H 0 0 {2,S}
-12 H 0 0 {2,S}
-13 H 0 0 {3,S}
-14 H 0 0 {3,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {7,S} {8,S}
+2  C U0 L0 E0  {1,S} {4,S} {11,S} {12,S}
+3  C U0 L0 E0  {1,S} {6,S} {13,S} {14,S}
+4  C U0 L0 E0  {2,S} {5,S} {9,S} {10,S}
+5  C U0 L0 E0  {4,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {3,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {1,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2725,33 +2727,33 @@ u"""
 )
 
 entry(
-    index = 81,
-    label = "C6H13NO2d",
+    index        = 81,
+    label        = "C6H13NO2d",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {8,S}
-2  C 0 0 {1,S} {3,S} {11,S} {12,S}
-3  C 0 0 {2,S} {6,S} {9,S} {10,S}
-4  C 0 0 {1,S} {7,S} {13,S} {14,S}
-5  C 0 0 {1,S} {18,S} {19,S} {20,S}
-6  C 0 0 {3,S} {15,S} {16,S} {17,S}
-7  N 0 0 {4,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {2,S}
-12 H 0 0 {2,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {6,S}
-16 H 0 0 {6,S}
-17 H 0 0 {6,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {5,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {8,S}
+2  C U0 L0 E0  {1,S} {3,S} {11,S} {12,S}
+3  C U0 L0 E0  {2,S} {6,S} {9,S} {10,S}
+4  C U0 L0 E0  {1,S} {7,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+6  C U0 L0 E0  {3,S} {15,S} {16,S} {17,S}
+7  N U0 L0 E+1 {4,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {6,S}
+16 H U0 L0 E0  {6,S}
+17 H U0 L0 E0  {6,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {5,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2767,33 +2769,33 @@ u"""
 )
 
 entry(
-    index = 82,
-    label = "C6H13NO2e",
+    index        = 82,
+    label        = "C6H13NO2e",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {5,S} {8,S}
-2  C 0 0 {1,S} {4,S} {11,S} {12,S}
-3  C 0 0 {1,S} {6,S} {9,S} {10,S}
-4  C 0 0 {2,S} {7,S} {13,S} {14,S}
-5  C 0 0 {1,S} {18,S} {19,S} {20,S}
-6  C 0 0 {3,S} {15,S} {16,S} {17,S}
-7  N 0 0 {4,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {2,S}
-12 H 0 0 {2,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {6,S}
-16 H 0 0 {6,S}
-17 H 0 0 {6,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {5,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {8,S}
+2  C U0 L0 E0  {1,S} {4,S} {11,S} {12,S}
+3  C U0 L0 E0  {1,S} {6,S} {9,S} {10,S}
+4  C U0 L0 E0  {2,S} {7,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+6  C U0 L0 E0  {3,S} {15,S} {16,S} {17,S}
+7  N U0 L0 E+1 {4,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {6,S}
+16 H U0 L0 E0  {6,S}
+17 H U0 L0 E0  {6,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {5,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2809,33 +2811,33 @@ u"""
 )
 
 entry(
-    index = 83,
-    label = "C6H13NO2f",
+    index        = 83,
+    label        = "C6H13NO2f",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {8,S}
-2  C 0 0 {1,S} {3,S} {9,S} {10,S}
-3  C 0 0 {2,S} {4,S} {11,S} {12,S}
-4  C 0 0 {3,S} {7,S} {13,S} {14,S}
-5  C 0 0 {1,S} {15,S} {16,S} {17,S}
-6  C 0 0 {1,S} {18,S} {19,S} {20,S}
-7  N 0 0 {4,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {5,S} {6,S} {8,S}
+2  C U0 L0 E0  {1,S} {3,S} {9,S} {10,S}
+3  C U0 L0 E0  {2,S} {4,S} {11,S} {12,S}
+4  C U0 L0 E0  {3,S} {7,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {4,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2851,33 +2853,33 @@ u"""
 )
 
 entry(
-    index = 84,
-    label = "C6H13NO2g",
+    index        = 84,
+    label        = "C6H13NO2g",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {7,S}
-2  C 0 0 {1,S} {3,S} {10,S} {11,S}
-3  C 0 0 {2,S} {6,S} {8,S} {9,S}
-4  C 0 0 {1,S} {15,S} {16,S} {17,S}
-5  C 0 0 {1,S} {18,S} {19,S} {20,S}
-6  C 0 0 {3,S} {12,S} {13,S} {14,S}
-7  N 0 0 {1,S} {21,D} {22,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {2,S}
-11 H 0 0 {2,S}
-12 H 0 0 {6,S}
-13 H 0 0 {6,S}
-14 H 0 0 {6,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {5,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,S} {10,S} {11,S}
+3  C U0 L0 E0  {2,S} {6,S} {8,S} {9,S}
+4  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+5  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+6  C U0 L0 E0  {3,S} {12,S} {13,S} {14,S}
+7  N U0 L0 E+1 {1,S} {21,D} {22,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {6,S}
+13 H U0 L0 E0  {6,S}
+14 H U0 L0 E0  {6,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {5,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2893,33 +2895,33 @@ u"""
 )
 
 entry(
-    index = 85,
-    label = "C6H13NO2h",
+    index        = 85,
+    label        = "C6H13NO2h",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {8,S}
-2  C 0 0 {1,S} {5,S} {7,S} {9,S}
-3  C 0 0 {1,S} {6,S} {10,S} {11,S}
-4  C 0 0 {1,S} {15,S} {16,S} {17,S}
-5  C 0 0 {2,S} {18,S} {19,S} {20,S}
-6  C 0 0 {3,S} {12,S} {13,S} {14,S}
-7  N 0 0 {2,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {6,S}
-13 H 0 0 {6,S}
-14 H 0 0 {6,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {5,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {8,S}
+2  C U0 L0 E0  {1,S} {5,S} {7,S} {9,S}
+3  C U0 L0 E0  {1,S} {6,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+5  C U0 L0 E0  {2,S} {18,S} {19,S} {20,S}
+6  C U0 L0 E0  {3,S} {12,S} {13,S} {14,S}
+7  N U0 L0 E+1 {2,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {6,S}
+13 H U0 L0 E0  {6,S}
+14 H U0 L0 E0  {6,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {5,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2935,33 +2937,33 @@ u"""
 )
 
 entry(
-    index = 86,
-    label = "C6H13NO2i",
+    index        = 86,
+    label        = "C6H13NO2i",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {3,S} {4,S} {5,S} {8,S}
-2  C 0 0 {3,S} {6,S} {7,S} {9,S}
-3  C 0 0 {1,S} {2,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {1,S} {15,S} {16,S} {17,S}
-6  C 0 0 {2,S} {18,S} {19,S} {20,S}
-7  N 0 0 {2,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {3,S} {4,S} {5,S} {8,S}
+2  C U0 L0 E0  {3,S} {6,S} {7,S} {9,S}
+3  C U0 L0 E0  {1,S} {2,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {2,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {2,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2977,33 +2979,33 @@ u"""
 )
 
 entry(
-    index = 87,
-    label = "C6H13NO2j",
+    index        = 87,
+    label        = "C6H13NO2j",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {8,S}
-2  C 0 0 {1,S} {3,S} {7,S} {9,S}
-3  C 0 0 {2,S} {6,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {1,S} {15,S} {16,S} {17,S}
-6  C 0 0 {3,S} {18,S} {19,S} {20,S}
-7  N 0 0 {2,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {8,S}
+2  C U0 L0 E0  {1,S} {3,S} {7,S} {9,S}
+3  C U0 L0 E0  {2,S} {6,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {3,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {2,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3019,33 +3021,33 @@ u"""
 )
 
 entry(
-    index = 88,
-    label = "C6H13NO2k",
+    index        = 88,
+    label        = "C6H13NO2k",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {7,S}
-2  C 0 0 {1,S} {5,S} {8,S} {9,S}
-3  C 0 0 {1,S} {6,S} {10,S} {11,S}
-4  C 0 0 {1,S} {15,S} {16,S} {17,S}
-5  C 0 0 {2,S} {12,S} {13,S} {14,S}
-6  C 0 0 {3,S} {18,S} {19,S} {20,S}
-7  N 0 0 {1,S} {21,D} {22,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {5,S}
-13 H 0 0 {5,S}
-14 H 0 0 {5,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {6,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+5  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+6  C U0 L0 E0  {3,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {1,S} {21,D} {22,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {5,S}
+13 H U0 L0 E0  {5,S}
+14 H U0 L0 E0  {5,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3061,33 +3063,33 @@ u"""
 )
 
 entry(
-    index = 89,
-    label = "C6H13NO2l",
+    index        = 89,
+    label        = "C6H13NO2l",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {8,S} {9,S}
-3  C 0 0 {1,S} {7,S} {10,S} {11,S}
-4  C 0 0 {1,S} {15,S} {16,S} {17,S}
-5  C 0 0 {1,S} {18,S} {19,S} {20,S}
-6  C 0 0 {2,S} {12,S} {13,S} {14,S}
-7  N 0 0 {3,S} {21,D} {22,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {6,S}
-13 H 0 0 {6,S}
-14 H 0 0 {6,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {5,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {7,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+5  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+6  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+7  N U0 L0 E+1 {3,S} {21,D} {22,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {6,S}
+13 H U0 L0 E0  {6,S}
+14 H U0 L0 E0  {6,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {5,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3103,33 +3105,33 @@ u"""
 )
 
 entry(
-    index = 90,
-    label = "C6H13NO2m",
+    index        = 90,
+    label        = "C6H13NO2m",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {6,S} {9,S}
-2  C 0 0 {1,S} {4,S} {5,S} {8,S}
-3  C 0 0 {1,S} {7,S} {10,S} {11,S}
-4  C 0 0 {2,S} {12,S} {13,S} {14,S}
-5  C 0 0 {2,S} {15,S} {16,S} {17,S}
-6  C 0 0 {1,S} {18,S} {19,S} {20,S}
-7  N 0 0 {3,S} {21,D} {22,S}
-8  H 0 0 {2,S}
-9  H 0 0 {1,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {9,S}
+2  C U0 L0 E0  {1,S} {4,S} {5,S} {8,S}
+3  C U0 L0 E0  {1,S} {7,S} {10,S} {11,S}
+4  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {2,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {3,S} {21,D} {22,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3145,33 +3147,33 @@ u"""
 )
 
 entry(
-    index = 91,
-    label = "C6H13NO2n",
+    index        = 91,
+    label        = "C6H13NO2n",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {7,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {1,S} {15,S} {16,S} {17,S}
-6  C 0 0 {1,S} {18,S} {19,S} {20,S}
-7  N 0 0 {3,S} {21,D} {22,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {3,S} {8,S} {9,S}
+3  C U0 L0 E0  {2,S} {7,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {3,S} {21,D} {22,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3187,33 +3189,33 @@ u"""
 )
 
 entry(
-    index = 92,
-    label = "C6H13NO2o",
+    index        = 92,
+    label        = "C6H13NO2o",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {7,S}
-2  C 0 0 {1,S} {5,S} {6,S} {8,S}
-3  C 0 0 {1,S} {15,S} {16,S} {17,S}
-4  C 0 0 {1,S} {18,S} {19,S} {20,S}
-5  C 0 0 {2,S} {9,S} {10,S} {11,S}
-6  C 0 0 {2,S} {12,S} {13,S} {14,S}
-7  N 0 0 {1,S} {21,D} {22,S}
-8  H 0 0 {2,S}
-9  H 0 0 {5,S}
-10 H 0 0 {5,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
-13 H 0 0 {6,S}
-14 H 0 0 {6,S}
-15 H 0 0 {3,S}
-16 H 0 0 {3,S}
-17 H 0 0 {3,S}
-18 H 0 0 {4,S}
-19 H 0 0 {4,S}
-20 H 0 0 {4,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {6,S} {8,S}
+3  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+4  C U0 L0 E0  {1,S} {18,S} {19,S} {20,S}
+5  C U0 L0 E0  {2,S} {9,S} {10,S} {11,S}
+6  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+7  N U0 L0 E+1 {1,S} {21,D} {22,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {5,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
+13 H U0 L0 E0  {6,S}
+14 H U0 L0 E0  {6,S}
+15 H U0 L0 E0  {3,S}
+16 H U0 L0 E0  {3,S}
+17 H U0 L0 E0  {3,S}
+18 H U0 L0 E0  {4,S}
+19 H U0 L0 E0  {4,S}
+20 H U0 L0 E0  {4,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3229,33 +3231,33 @@ u"""
 )
 
 entry(
-    index = 93,
-    label = "C6H13NO2p",
+    index        = 93,
+    label        = "C6H13NO2p",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {5,S}
-2  C 0 0 {1,S} {6,S} {7,S} {8,S}
-3  C 0 0 {1,S} {9,S} {10,S} {11,S}
-4  C 0 0 {1,S} {12,S} {13,S} {14,S}
-5  C 0 0 {1,S} {15,S} {16,S} {17,S}
-6  C 0 0 {2,S} {18,S} {19,S} {20,S}
-7  N 0 0 {2,S} {21,D} {22,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  C U0 L0 E0  {1,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {2,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {2,S} {21,D} {22,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3271,33 +3273,33 @@ u"""
 )
 
 entry(
-    index = 94,
-    label = "C6H13NO2q",
+    index        = 94,
+    label        = "C6H13NO2q",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {3,S} {4,S} {8,S}
-2  C 0 0 {1,S} {5,S} {9,S} {10,S}
-3  C 0 0 {1,S} {6,S} {11,S} {12,S}
-4  C 0 0 {1,S} {7,S} {13,S} {14,S}
-5  C 0 0 {2,S} {15,S} {16,S} {17,S}
-6  C 0 0 {3,S} {18,S} {19,S} {20,S}
-7  N 0 0 {4,S} {21,D} {22,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {2,S}
-11 H 0 0 {3,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
-15 H 0 0 {5,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {6,S}
-21 O 0 2 {7,D}
-22 O 0 3 {7,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {8,S}
+2  C U0 L0 E0  {1,S} {5,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {6,S} {11,S} {12,S}
+4  C U0 L0 E0  {1,S} {7,S} {13,S} {14,S}
+5  C U0 L0 E0  {2,S} {15,S} {16,S} {17,S}
+6  C U0 L0 E0  {3,S} {18,S} {19,S} {20,S}
+7  N U0 L0 E+1 {4,S} {21,D} {22,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {5,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {6,S}
+21 O U0 L2 E0  {7,D}
+22 O U0 L3 E-1 {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3313,35 +3315,35 @@ u"""
 )
 
 entry(
-    index = 95,
-    label = "C6H14N2O2",
+    index        = 95,
+    label        = "C6H14N2O2",
     multiplicity = 1,
     molecule = 
 """
-1  N 0 1 {2,S} {11,S} {12,S}
-2  C 0 0 {1,S} {3,S} {8,S} {13,S}
-3  C 0 0 {2,S} {4,S} {14,S} {15,S}
-4  C 0 0 {3,S} {5,S} {16,S} {17,S}
-5  C 0 0 {4,S} {6,S} {18,S} {19,S}
-6  C 0 0 {5,S} {7,S} {20,S} {21,S}
-7  N 0 1 {6,S} {22,S} {23,S}
-8  C 0 0 {2,S} {9,D} {10,S}
-9  O 0 2 {8,D}
-10 O 0 2 {8,S} {24,S}
-11 H 0 0 {1,S}
-12 H 0 0 {1,S}
-13 H 0 0 {2,S}
-14 H 0 0 {3,S}
-15 H 0 0 {3,S}
-16 H 0 0 {4,S}
-17 H 0 0 {4,S}
-18 H 0 0 {5,S}
-19 H 0 0 {5,S}
-20 H 0 0 {6,S}
-21 H 0 0 {6,S}
-22 H 0 0 {7,S}
-23 H 0 0 {7,S}
-24 H 0 0 {10,S}
+1  N U0 L1 E0  {2,S} {11,S} {12,S}
+2  C U0 L0 E0  {1,S} {3,S} {8,S} {13,S}
+3  C U0 L0 E0  {2,S} {4,S} {14,S} {15,S}
+4  C U0 L0 E0  {3,S} {5,S} {16,S} {17,S}
+5  C U0 L0 E0  {4,S} {6,S} {18,S} {19,S}
+6  C U0 L0 E0  {5,S} {7,S} {20,S} {21,S}
+7  N U0 L1 E0  {6,S} {22,S} {23,S}
+8  C U0 L0 E0  {2,S} {9,D} {10,S}
+9  O U0 L2 E0  {8,D}
+10 O U0 L2 E0  {8,S} {24,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {1,S}
+13 H U0 L0 E0  {2,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {3,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {4,S}
+18 H U0 L0 E0  {5,S}
+19 H U0 L0 E0  {5,S}
+20 H U0 L0 E0  {6,S}
+21 H U0 L0 E0  {6,S}
+22 H U0 L0 E0  {7,S}
+23 H U0 L0 E0  {7,S}
+24 H U0 L0 E0  {10,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3357,35 +3359,35 @@ u"""
 )
 
 entry(
-    index = 96,
-    label = "C6H15NO2",
+    index        = 96,
+    label        = "C6H15NO2",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {10,S} {11,S}
-2  C 0 0 {1,S} {3,S} {4,S} {12,S}
-3  O 0 2 {2,S} {13,S}
-4  C 0 0 {2,S} {14,S} {15,S} {16,S}
-5  N 0 1 {1,S} {6,S} {17,S}
-6  C 0 0 {5,S} {7,S} {18,S} {19,S}
-7  C 0 0 {6,S} {8,S} {9,S} {20,S}
-8  O 0 2 {7,S} {21,S}
-9  C 0 0 {7,S} {22,S} {23,S} {24,S}
-10 H 0 0 {1,S}
-11 H 0 0 {1,S}
-12 H 0 0 {2,S}
-13 H 0 0 {3,S}
-14 H 0 0 {4,S}
-15 H 0 0 {4,S}
-16 H 0 0 {4,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {7,S}
-21 H 0 0 {8,S}
-22 H 0 0 {9,S}
-23 H 0 0 {9,S}
-24 H 0 0 {9,S}
+1  C U0 L0 E0  {2,S} {5,S} {10,S} {11,S}
+2  C U0 L0 E0  {1,S} {3,S} {4,S} {12,S}
+3  O U0 L2 E0  {2,S} {13,S}
+4  C U0 L0 E0  {2,S} {14,S} {15,S} {16,S}
+5  N U0 L1 E0  {1,S} {6,S} {17,S}
+6  C U0 L0 E0  {5,S} {7,S} {18,S} {19,S}
+7  C U0 L0 E0  {6,S} {8,S} {9,S} {20,S}
+8  O U0 L2 E0  {7,S} {21,S}
+9  C U0 L0 E0  {7,S} {22,S} {23,S} {24,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {4,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {4,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {7,S}
+21 H U0 L0 E0  {8,S}
+22 H U0 L0 E0  {9,S}
+23 H U0 L0 E0  {9,S}
+24 H U0 L0 E0  {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3401,36 +3403,36 @@ u"""
 )
 
 entry(
-    index = 97,
-    label = "C6H15NO3",
+    index        = 97,
+    label        = "C6H15NO3",
     multiplicity = 1,
     molecule = 
 """
-1  N 0 1 {2,S} {5,S} {8,S}
-2  C 0 0 {1,S} {3,S} {11,S} {12,S}
-3  C 0 0 {2,S} {4,S} {13,S} {14,S}
-4  O 0 2 {3,S} {15,S}
-5  C 0 0 {1,S} {6,S} {16,S} {17,S}
-6  C 0 0 {5,S} {7,S} {18,S} {19,S}
-7  O 0 2 {6,S} {20,S}
-8  C 0 0 {1,S} {9,S} {21,S} {22,S}
-9  C 0 0 {8,S} {10,S} {23,S} {24,S}
-10 O 0 2 {9,S} {25,S}
-11 H 0 0 {2,S}
-12 H 0 0 {2,S}
-13 H 0 0 {3,S}
-14 H 0 0 {3,S}
-15 H 0 0 {4,S}
-16 H 0 0 {5,S}
-17 H 0 0 {5,S}
-18 H 0 0 {6,S}
-19 H 0 0 {6,S}
-20 H 0 0 {7,S}
-21 H 0 0 {8,S}
-22 H 0 0 {8,S}
-23 H 0 0 {9,S}
-24 H 0 0 {9,S}
-25 H 0 0 {10,S}
+1  N U0 L1 E0  {2,S} {5,S} {8,S}
+2  C U0 L0 E0  {1,S} {3,S} {11,S} {12,S}
+3  C U0 L0 E0  {2,S} {4,S} {13,S} {14,S}
+4  O U0 L2 E0  {3,S} {15,S}
+5  C U0 L0 E0  {1,S} {6,S} {16,S} {17,S}
+6  C U0 L0 E0  {5,S} {7,S} {18,S} {19,S}
+7  O U0 L2 E0  {6,S} {20,S}
+8  C U0 L0 E0  {1,S} {9,S} {21,S} {22,S}
+9  C U0 L0 E0  {8,S} {10,S} {23,S} {24,S}
+10 O U0 L2 E0  {9,S} {25,S}
+11 H U0 L0 E0  {2,S}
+12 H U0 L0 E0  {2,S}
+13 H U0 L0 E0  {3,S}
+14 H U0 L0 E0  {3,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {5,S}
+17 H U0 L0 E0  {5,S}
+18 H U0 L0 E0  {6,S}
+19 H U0 L0 E0  {6,S}
+20 H U0 L0 E0  {7,S}
+21 H U0 L0 E0  {8,S}
+22 H U0 L0 E0  {8,S}
+23 H U0 L0 E0  {9,S}
+24 H U0 L0 E0  {9,S}
+25 H U0 L0 E0  {10,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

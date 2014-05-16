@@ -35,12 +35,12 @@ and toluene is included.
 The reaction model was subject to validation tests against reliable H2/CO/C1-C4 combustion data.
 """
 entry(
-    index = 1,
-    label = "AR",
+    index        = 1,
+    label        = "AR",
     multiplicity = 1,
     molecule = 
 """
-1 Ar 0 4
+1 Ar U0 L4 E0 
 """,
     thermo = NASA(
         polynomials = [
@@ -61,13 +61,13 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 2,
-    label = "N2",
+    index        = 2,
+    label        = "N2",
     multiplicity = 1,
     molecule = 
 """
-1 N 0 1 {2,T}
-2 N 0 1 {1,T}
+1 N U0 L1 E0  {2,T}
+2 N U0 L1 E0  {1,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -88,12 +88,12 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 3,
-    label = "H",
+    index        = 3,
+    label        = "H",
     multiplicity = 2,
     molecule = 
 """
-1 H 1 0
+1 H U1 L0 E0 
 """,
     thermo = NASA(
         polynomials = [
@@ -113,12 +113,12 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 4,
-    label = "O_(T)",
+    index        = 4,
+    label        = "O_(T)",
     multiplicity = 3,
     molecule = 
 """
-1 O 2 2
+1 O U2 L2 E0 
 """,
     thermo = NASA(
         polynomials = [
@@ -138,13 +138,13 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 5,
-    label = "OH",
+    index        = 5,
+    label        = "OH",
     multiplicity = 2,
     molecule = 
 """
-1 O 1 2 {2,S}
-2 H 0 0 {1,S}
+1 O U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -164,14 +164,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 6,
-    label = "HO2",
+    index        = 6,
+    label        = "HO2",
     multiplicity = 2,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 O 1 2 {1,S}
-3 H 0 0 {1,S}
+1 O U0 L2 E0  {2,S} {3,S}
+2 O U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -191,13 +191,13 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 7,
-    label = "H2",
+    index        = 7,
+    label        = "H2",
     multiplicity = 1,
     molecule = 
 """
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+1 H U0 L0 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -217,14 +217,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 8,
-    label = "H2O",
+    index        = 8,
+    label        = "H2O",
     multiplicity = 1,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+1 O U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -244,15 +244,15 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 9,
-    label = "H2O2",
+    index        = 9,
+    label        = "H2O2",
     multiplicity = 1,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 O 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+1 O U0 L2 E0  {2,S} {3,S}
+2 O U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -272,13 +272,13 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 10,
-    label = "O2_(T)",
+    index        = 10,
+    label        = "O2_(T)",
     multiplicity = 3,
     molecule = 
 """
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+1 O U1 L2 E0  {2,S}
+2 O U1 L2 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -298,12 +298,12 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 11,
-    label = "C_(T)",
+    index        = 11,
+    label        = "C_(T)",
     multiplicity = 3,
     molecule = 
 """
-1 C 4 0
+1 C U4 L0 E0 
 """,
     thermo = NASA(
         polynomials = [
@@ -323,13 +323,13 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 12,
-    label = "CH_(Q)",
+    index        = 12,
+    label        = "CH_(Q)",
     multiplicity = 4,
     molecule = 
 """
-1 C 3 0 {2,S}
-2 H 0 0 {1,S}
+1 C U3 L0 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -349,14 +349,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 13,
-    label = "CH2_(T)",
+    index        = 13,
+    label        = "CH2_(T)",
     multiplicity = 3,
     molecule = 
 """
-1 C 2 0 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+1 C U2 L0 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -376,14 +376,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 14,
-    label = "CH2_(S)",
+    index        = 14,
+    label        = "CH2_(S)",
     multiplicity = 1,
     molecule = 
 """
-1 C 2 0 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+1 C U2 L0 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -403,15 +403,15 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 15,
-    label = "CH3",
+    index        = 15,
+    label        = "CH3",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,S} {3,S} {4,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
+1 C U1 L0 E0  {2,S} {3,S} {4,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -431,16 +431,16 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 16,
-    label = "CH4",
+    index        = 16,
+    label        = "CH4",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -460,14 +460,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 17,
-    label = "HCO",
+    index        = 17,
+    label        = "HCO",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,D} {3,S}
-2 O 0 2 {1,D}
-3 H 0 0 {1,S}
+1 C U1 L0 E0  {2,D} {3,S}
+2 O U0 L2 E0  {1,D}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -487,15 +487,15 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 18,
-    label = "CH2O",
+    index        = 18,
+    label        = "CH2O",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {3,S} {4,S}
-2 O 0 2 {1,D}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
+1 C U0 L0 E0  {2,D} {3,S} {4,S}
+2 O U0 L2 E0  {1,D}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -515,16 +515,16 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 19,
-    label = "CH3O",
+    index        = 19,
+    label        = "CH3O",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 O 1 2 {1,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 O U1 L2 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -544,16 +544,16 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 20,
-    label = "CH2OH",
+    index        = 20,
+    label        = "CH2OH",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,S} {3,S} {4,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 O 1 2 {1,S} {5,S}
-5 H 0 0 {4,S}
+1 C U1 L0 E0  {2,S} {3,S} {4,S}
+2 O U1 L1 E+1 {1,S} {5,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -573,17 +573,17 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 21,
-    label = "CH3OH",
+    index        = 21,
+    label        = "CH3OH",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 O 0 2 {1,S} {6,S}
-6 H 0 0 {5,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 O U0 L2 E0  {1,S} {6,S}
+6 H U0 L0 E0  {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -603,13 +603,13 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 22,
-    label = "CO",
+    index        = 22,
+    label        = "CO",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C U0 L1 E-1 {2,T}
+2 O U0 L1 E+1 {1,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -629,14 +629,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 23,
-    label = "CO2",
+    index        = 23,
+    label        = "CO2",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {3,D}
-2 O 0 2 {1,D}
-3 O 0 2 {1,D}
+1 C U0 L0 E0  {2,D} {3,D}
+2 O U0 L2 E0  {1,D}
+3 O U0 L2 E0  {1,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -656,14 +656,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 24,
-    label = "C2O",
+    index        = 24,
+    label        = "C2O",
     multiplicity = 3,
     molecule = 
 """
-1 C 0 0 {2,T} {3,S}
-2 C 1 0 {1,T}
-3 O 1 2 {1,S}
+1 C U0 L0 E0  {2,T} {3,S}
+2 C U1 L0 E0  {1,T}
+3 O U1 L2 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -683,14 +683,14 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 25,
-    label = "C2H",
+    index        = 25,
+    label        = "C2H",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,T} {3,S}
-2 C 1 0 {1,T}
-3 H 0 0 {1,S}
+1 C U0 L0 E0  {2,T} {3,S}
+2 C U1 L0 E0  {1,T}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -710,15 +710,15 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 26,
-    label = "C2H2",
+    index        = 26,
+    label        = "C2H2",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,T} {3,S}
-2 C 0 0 {1,T} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+1 C U0 L0 E0  {2,T} {3,S}
+2 C U0 L0 E0  {1,T} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -738,15 +738,15 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 27,
-    label = "H2CC",
+    index        = 27,
+    label        = "H2CC",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {3,S} {4,S}
-2 C 2 0 {1,D}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
+1 C U0 L0 E0  {2,D} {3,S} {4,S}
+2 C U2 L0 E0  {1,D}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -770,16 +770,16 @@ Corrected from Triplet to Singlet state:
 )
 
 entry(
-    index = 28,
-    label = "C2H3",
+    index        = 28,
+    label        = "C2H3",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,D} {3,S}
-2 C 0 0 {1,D} {4,S} {5,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
-5 H 0 0 {2,S}
+1 C U1 L0 E0  {2,D} {3,S}
+2 C U0 L0 E0  {1,D} {4,S} {5,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
+5 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -799,17 +799,17 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 29,
-    label = "C2H4",
+    index        = 29,
+    label        = "C2H4",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {3,S} {4,S}
-2 C 0 0 {1,D} {5,S} {6,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {2,S}
+1 C U0 L0 E0  {2,D} {3,S} {4,S}
+2 C U0 L0 E0  {1,D} {5,S} {6,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {2,S}
+6 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -829,18 +829,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 30,
-    label = "C2H5",
+    index        = 30,
+    label        = "C2H5",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,S} {3,S} {4,S}
-2 C 0 0 {1,S} {5,S} {6,S} {7,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
+1 C U1 L0 E0  {2,S} {3,S} {4,S}
+2 C U0 L0 E0  {1,S} {5,S} {6,S} {7,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {2,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -860,19 +860,19 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 31,
-    label = "C2H6",
+    index        = 31,
+    label        = "C2H6",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 0 {1,S} {6,S} {7,S} {8,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -892,15 +892,15 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 32,
-    label = "HCCO",
+    index        = 32,
+    label        = "HCCO",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
-4 H 0 0 {1,S}
+1 C U1 L0 E0  {2,D} {4,S}
+2 C U0 L0 E0  {1,D} {3,D}
+3 O U0 L2 E0  {2,D}
+4 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -921,16 +921,16 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 33,
-    label = "HCCOH",
+    index        = 33,
+    label        = "HCCOH",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 O 0 2 {2,S} {5,S}
-4 H 0 0 {1,S}
-5 H 0 0 {3,S}
+1 C U0 L0 E0  {2,T} {3,S}
+2 C U0 L0 E0  {1,T} {4,S}
+3 O U0 L2 E0  {1,S} {5,S}
+4 H U0 L0 E0  {2,S}
+5 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -951,16 +951,16 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 34,
-    label = "CH2CO",
+    index        = 34,
+    label        = "CH2CO",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
+1 C U0 L0 E0  {2,D} {3,S} {4,S}
+2 C U0 L0 E0  {1,D} {5,D}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 O U0 L2 E0  {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -980,17 +980,17 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 35,
-    label = "CH3CO",
+    index        = 35,
+    label        = "CH3CO",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 1 0 {1,S} {3,D}
-3 O 0 2 {2,D}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 C U1 L0 E0  {1,S} {6,D}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 O U0 L2 E0  {2,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -1010,17 +1010,17 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 36,
-    label = "CH2CHO",
+    index        = 36,
+    label        = "CH2CHO",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 O 0 2 {2,D}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
+1 C U1 L0 E0  {2,S} {4,S} {5,S}
+2 C U0 L0 E0  {1,S} {3,D} {6,S}
+3 O U0 L2 E0  {2,D}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1041,17 +1041,17 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 37,
-    label = "CH2OCH",
+    index        = 37,
+    label        = "CH2OCH",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 0 {1,S} {3,S} {6,S}
-3 O 0 2 {1,S} {2,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 C U1 L0 E0  {1,S} {3,S} {6,S}
+3 O U0 L2 E0  {1,S} {2,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1072,18 +1072,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 38,
-    label = "CH3CHO",
+    index        = 38,
+    label        = "CH3CHO",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 O 0 2 {2,D}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 C U0 L0 E0  {1,S} {6,D} {7,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 O U0 L2 E0  {2,D}
+7 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1103,18 +1103,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 39,
-    label = "CH2OCH2",
+    index        = 39,
+    label        = "CH2OCH2",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,S} {6,S} {7,S}
-3 O 0 2 {1,S} {2,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 C U0 L0 E0  {1,S} {3,S} {6,S} {7,S}
+3 O U0 L2 E0  {1,S} {2,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1135,17 +1135,17 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 40,
-    label = "C3H3",
+    index        = 40,
+    label        = "C3H3",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 C 1 0 {2,S} {5,S} {6,S}
-4 H 0 0 {1,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
+1 C U0 L0 E0  {2,T} {4,S}
+2 C U0 L0 E0  {1,T} {3,S}
+3 C U1 L0 E0  {2,S} {5,S} {6,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {3,S}
+6 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1165,18 +1165,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 41,
-    label = "pC3H4",
+    index        = 41,
+    label        = "pC3H4",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,T} {4,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {5,S} {6,S} {7,S}
-4 H 0 0 {1,S}
-5 H 0 0 {3,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+1 C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2 C U0 L0 E0  {1,S} {3,T}
+3 C U0 L0 E0  {2,T} {7,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1196,18 +1196,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 42,
-    label = "aC3H4",
+    index        = 42,
+    label        = "aC3H4",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+1 C U0 L0 E0  {3,D} {4,S} {5,S}
+2 C U0 L0 E0  {3,D} {6,S} {7,S}
+3 C U0 L0 E0  {1,D} {2,D}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1227,18 +1227,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 43,
-    label = "cC3H4",
+    index        = 43,
+    label        = "cC3H4",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {3,S} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {1,S} {2,S} {6,S} {7,S}
-4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 C U0 L0 E0  {1,S} {3,D} {6,S}
+3 C U0 L0 E0  {1,S} {2,D} {7,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1259,19 +1259,19 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 44,
-    label = "aC3H5",
+    index        = 44,
+    label        = "aC3H5",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {7,S} {8,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+1 C U0 L0 E0  {2,S} {3,D} {4,S}
+2 C U1 L0 E0  {1,S} {5,S} {6,S}
+3 C U0 L0 E0  {1,D} {7,S} {8,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {2,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {3,S}
+8 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1292,19 +1292,19 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 45,
-    label = "CH3CCH2",
+    index        = 45,
+    label        = "CH3CCH2",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+1 C U0 L0 E0  {3,S} {4,S} {5,S} {6,S}
+2 C U0 L0 E0  {3,D} {7,S} {8,S}
+3 C U1 L0 E0  {1,S} {2,D}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1325,19 +1325,19 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 46,
-    label = "CH3CHCH",
+    index        = 46,
+    label        = "CH3CHCH",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,D} {4,S}
-2 C 0 0 {1,D} {3,S} {5,S}
-3 C 0 0 {2,S} {6,S} {7,S} {8,S}
-4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
+1 C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2 C U0 L0 E0  {1,S} {3,D} {7,S}
+3 C U1 L0 E0  {2,D} {8,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1358,20 +1358,20 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 47,
-    label = "C3H6",
+    index        = 47,
+    label        = "C3H6",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {4,S} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {7,S} {8,S} {9,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
-8 H 0 0 {3,S}
-9 H 0 0 {3,S}
+1 C U0 L0 E0  {2,D} {4,S} {5,S}
+2 C U0 L0 E0  {1,D} {3,S} {6,S}
+3 C U0 L0 E0  {2,S} {7,S} {8,S} {9,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {3,S}
+8 H U0 L0 E0  {3,S}
+9 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1392,21 +1392,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 48,
-    label = "nC3H7",
+    index        = 48,
+    label        = "nC3H7",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 1 0 {2,S} {9,S} {10,S}
-4  H 0 0 {1,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U1 L0 E0  {1,S} {9,S} {10,S}
+4  H U0 L0 E0  {1,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1427,21 +1427,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 49,
-    label = "iC3H7",
+    index        = 49,
+    label        = "iC3H7",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 1 0 {1,S} {3,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
-4  H 0 0 {1,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+1  C U0 L0 E0  {3,S} {4,S} {5,S} {6,S}
+2  C U0 L0 E0  {3,S} {7,S} {8,S} {9,S}
+3  C U1 L0 E0  {1,S} {2,S} {10,S}
+4  H U0 L0 E0  {1,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1462,22 +1462,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 50,
-    label = "C3H8",
+    index        = 50,
+    label        = "C3H8",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {4,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  H 0 0 {1,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {3,S} {7,S} {8,S}
+3  C U0 L0 E0  {2,S} {9,S} {10,S} {11,S}
+4  H U0 L0 E0  {1,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1498,18 +1498,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 51,
-    label = "CH2CHCO",
+    index        = 51,
+    label        = "CH2CHCO",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 1 0 {2,S} {4,D}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
+1 C U0 L0 E0  {2,D} {5,S} {6,S}
+2 C U0 L0 E0  {1,D} {3,S} {7,S}
+3 C U1 L0 E0  {2,S} {4,D}
+4 O U0 L2 E0  {3,D}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1530,19 +1530,19 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 52,
-    label = "C2H3CHO",
+    index        = 52,
+    label        = "C2H3CHO",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 0 0 {1,D} {3,S} {7,S}
-3 C 0 0 {2,S} {4,D} {8,S}
-4 O 0 2 {3,D}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {3,S}
+1 C U0 L0 E0  {2,D} {5,S} {6,S}
+2 C U0 L0 E0  {1,D} {3,S} {7,S}
+3 C U0 L0 E0  {2,S} {4,D} {8,S}
+4 O U0 L2 E0  {3,D}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1563,21 +1563,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 53,
-    label = "CH3CHOCH2",
+    index        = 53,
+    label        = "CH3CHOCH2",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  O 0 2 {2,S} {3,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {4,S} {6,S} {7,S}
+3  C U0 L0 E0  {1,S} {8,S} {9,S} {10,S}
+4  O U0 L2 E0  {1,S} {2,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1598,21 +1598,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 54,
-    label = "CH3CH2CHO",
+    index        = 54,
+    label        = "CH3CH2CHO",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,D} {10,S}
-4  O 0 2 {3,D}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,D} {10,S}
+4  H U0 L0 E0  {1,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  O U0 L2 E0  {3,D}
+10 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1633,21 +1633,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 55,
-    label = "CH3COCH3",
+    index        = 55,
+    label        = "CH3COCH3",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,D}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
-4  O 0 2 {2,D}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
+1  C U0 L0 E0  {3,S} {4,S} {5,S} {6,S}
+2  C U0 L0 E0  {3,S} {7,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {2,S} {10,D}
+4  H U0 L0 E0  {1,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 O U0 L2 E0  {3,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -1667,17 +1667,17 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 56,
-    label = "C4H2",
+    index        = 56,
+    label        = "C4H2",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {6,S}
-5 H 0 0 {1,S}
-6 H 0 0 {4,S}
+1 C U0 L0 E0  {2,T} {5,S}
+2 C U0 L0 E0  {1,T} {3,S}
+3 C U0 L0 E0  {2,S} {4,T}
+4 C U0 L0 E0  {3,T} {6,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1698,18 +1698,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 57,
-    label = "nC4H3",
+    index        = 57,
+    label        = "nC4H3",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,D} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {7,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {4,S}
+1 C U0 L0 E0  {2,S} {3,D} {5,S}
+2 C U0 L0 E0  {1,S} {4,T}
+3 C U1 L0 E0  {1,D} {6,S}
+4 C U0 L0 E0  {2,T} {7,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {3,S}
+7 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1730,18 +1730,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 58,
-    label = "iC4H3",
+    index        = 58,
+    label        = "iC4H3",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 1 0 {2,S} {4,D}
-4 C 0 0 {3,D} {6,S} {7,S}
-5 H 0 0 {1,S}
-6 H 0 0 {4,S}
-7 H 0 0 {4,S}
+1 C U0 L0 E0  {2,D} {5,S} {6,S}
+2 C U1 L0 E0  {1,D} {3,S}
+3 C U0 L0 E0  {2,S} {4,T}
+4 C U0 L0 E0  {3,T} {7,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1762,19 +1762,19 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 59,
-    label = "C4H4",
+    index        = 59,
+    label        = "C4H4",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,T} {5,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,D} {6,S}
-4 C 0 0 {3,D} {7,S} {8,S}
-5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
+1 C U0 L0 E0  {2,T} {5,S}
+2 C U0 L0 E0  {1,T} {3,S}
+3 C U0 L0 E0  {2,S} {4,D} {6,S}
+4 C U0 L0 E0  {3,D} {7,S} {8,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {3,S}
+7 H U0 L0 E0  {4,S}
+8 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1795,20 +1795,20 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 60,
-    label = "nC4H5",
+    index        = 60,
+    label        = "nC4H5",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,D} {5,S}
-2 C 0 0 {1,D} {3,S} {6,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 C 0 0 {3,D} {8,S} {9,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C U0 L0 E0  {2,S} {3,D} {5,S}
+2 C U0 L0 E0  {1,S} {4,D} {6,S}
+3 C U0 L0 E0  {1,D} {7,S} {8,S}
+4 C U1 L0 E0  {2,D} {9,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {3,S}
+8 H U0 L0 E0  {3,S}
+9 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1829,20 +1829,20 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 61,
-    label = "iC4H5",
+    index        = 61,
+    label        = "iC4H5",
     multiplicity = 2,
     molecule = 
 """
-1 C 0 0 {2,D} {5,S} {6,S}
-2 C 1 0 {1,D} {3,S}
-3 C 0 0 {2,S} {4,D} {7,S}
-4 C 0 0 {3,D} {8,S} {9,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C U0 L0 E0  {2,D} {4,S} {5,S}
+2 C U0 L0 E0  {1,D} {6,S} {7,S}
+3 C U0 L0 E0  {4,D} {8,S} {9,S}
+4 C U1 L0 E0  {1,S} {3,D}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {3,S}
+9 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1863,20 +1863,20 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 62,
-    label = "C4H5-2",
+    index        = 62,
+    label        = "C4H5-2",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,T}
-3 C 0 0 {2,T} {4,S}
-4 C 0 0 {3,S} {7,S} {8,S} {9,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {4,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C U0 L0 E0  {3,S} {5,S} {6,S} {7,S}
+2 C U1 L0 E0  {4,S} {8,S} {9,S}
+3 C U0 L0 E0  {1,S} {4,T}
+4 C U0 L0 E0  {2,S} {3,T}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {1,S}
+8 H U0 L0 E0  {2,S}
+9 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1897,20 +1897,20 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 63,
-    label = "c-C4H5",
+    index        = 63,
+    label        = "c-C4H5",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,S} {4,S} {5,S}
-2 C 0 0 {1,S} {3,D} {6,S}
-3 C 0 0 {2,D} {4,S} {7,S}
-4 C 0 0 {1,S} {3,S} {8,S} {9,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {3,S}
-8 H 0 0 {4,S}
-9 H 0 0 {4,S}
+1 C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2 C U1 L0 E0  {1,S} {4,S} {7,S}
+3 C U0 L0 E0  {1,S} {4,D} {8,S}
+4 C U0 L0 E0  {2,S} {3,D} {9,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {3,S}
+9 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1931,21 +1931,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 64,
-    label = "C4H6",
+    index        = 64,
+    label        = "C4H6",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,D} {8,S}
-4  C 0 0 {3,D} {9,S} {10,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,D} {5,S}
+2  C U0 L0 E0  {1,S} {4,D} {6,S}
+3  C U0 L0 E0  {1,D} {7,S} {8,S}
+4  C U0 L0 E0  {2,D} {9,S} {10,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {3,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -1966,21 +1966,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 65,
-    label = "C4H612",
+    index        = 65,
+    label        = "C4H612",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,D}
-3  C 0 0 {2,D} {4,S} {7,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,D} {8,S}
+3  C U0 L0 E0  {4,D} {9,S} {10,S}
+4  C U0 L0 E0  {2,D} {3,D}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2001,21 +2001,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 66,
-    label = "C4H6-2",
+    index        = 66,
+    label        = "C4H6-2",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,T}
-3  C 0 0 {2,T} {4,S}
-4  C 0 0 {3,S} {8,S} {9,S} {10,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
+1  C U0 L0 E0  {3,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {4,S} {8,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {4,T}
+4  C U0 L0 E0  {2,S} {3,T}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2036,22 +2036,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 67,
-    label = "C4H7",
+    index        = 67,
+    label        = "C4H7",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {4,D} {9,S}
-4  C 0 0 {3,D} {10,S} {11,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {4,D} {7,S}
+3  C U1 L0 E0  {1,S} {8,S} {9,S}
+4  C U0 L0 E0  {2,D} {10,S} {11,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2072,22 +2072,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 68,
-    label = "iC4H7",
+    index        = 68,
+    label        = "iC4H7",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,D} {4,S}
-3  C 0 0 {2,D} {7,S} {8,S}
-4  C 0 0 {2,S} {9,S} {10,S} {11,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,S} {4,D}
+3  C U1 L0 E0  {2,S} {8,S} {9,S}
+4  C U0 L0 E0  {2,D} {10,S} {11,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2108,23 +2108,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 69,
-    label = "C4H81",
+    index        = 69,
+    label        = "C4H81",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  C 0 0 {3,S} {10,S} {11,S} {12,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {7,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {4,D} {10,S}
+4  C U0 L0 E0  {3,D} {11,S} {12,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {4,S}
+12 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2145,23 +2145,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 70,
-    label = "C4H82",
+    index        = 70,
+    label        = "C4H82",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,D} {8,S}
-3  C 0 0 {2,D} {4,S} {9,S}
-4  C 0 0 {3,S} {10,S} {11,S} {12,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
+1  C U0 L0 E0  {3,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {4,S} {8,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {4,D} {11,S}
+4  C U0 L0 E0  {2,S} {3,D} {12,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2182,23 +2182,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 71,
-    label = "iC4H8",
+    index        = 71,
+    label        = "iC4H8",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {4,S}
-3  C 0 0 {2,S} {7,S} {8,S} {9,S}
-4  C 0 0 {2,S} {10,S} {11,S} {12,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {3,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
+1  C U0 L0 E0  {3,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {3,S} {8,S} {9,S} {10,S}
+3  C U0 L0 E0  {1,S} {2,S} {4,D}
+4  C U0 L0 E0  {3,D} {11,S} {12,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {4,S}
+12 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2219,24 +2219,24 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 72,
-    label = "pC4H9",
+    index        = 72,
+    label        = "pC4H9",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {7,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  C 0 0 {3,S} {11,S} {12,S} {13,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {4,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U1 L0 E0  {2,S} {12,S} {13,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2257,24 +2257,24 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 73,
-    label = "sC4H9",
+    index        = 73,
+    label        = "sC4H9",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 1 0 {1,S} {3,S} {8,S}
-3  C 0 0 {2,S} {4,S} {9,S} {10,S}
-4  C 0 0 {3,S} {11,S} {12,S} {13,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {7,S} {8,S} {9,S}
+3  C U0 L0 E0  {4,S} {10,S} {11,S} {12,S}
+4  C U1 L0 E0  {1,S} {3,S} {13,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2294,24 +2294,24 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 74,
-    label = "iC4H9",
+    index        = 74,
+    label        = "iC4H9",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,S} {4,S} {7,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
-4  C 0 0 {2,S} {11,S} {12,S} {13,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U1 L0 E0  {1,S} {12,S} {13,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2332,24 +2332,24 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 75,
-    label = "tC4H9",
+    index        = 75,
+    label        = "tC4H9",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 1 0 {1,S} {3,S} {4,S}
-3  C 0 0 {2,S} {8,S} {9,S} {10,S}
-4  C 0 0 {2,S} {11,S} {12,S} {13,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
+1  C U0 L0 E0  {4,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {4,S} {8,S} {9,S} {10,S}
+3  C U0 L0 E0  {4,S} {11,S} {12,S} {13,S}
+4  C U1 L0 E0  {1,S} {2,S} {3,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {2,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {3,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2370,25 +2370,25 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 76,
-    label = "C4H10",
+    index        = 76,
+    label        = "C4H10",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {8,S} {9,S}
-3  C 0 0 {2,S} {4,S} {10,S} {11,S}
-4  C 0 0 {3,S} {12,S} {13,S} {14,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {4,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {2,S} {12,S} {13,S} {14,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2409,25 +2409,25 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 77,
-    label = "iC4H10",
+    index        = 77,
+    label        = "iC4H10",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {5,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,S} {4,S} {8,S}
-3  C 0 0 {2,S} {9,S} {10,S} {11,S}
-4  C 0 0 {2,S} {12,S} {13,S} {14,S}
-5  H 0 0 {1,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {3,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {4,S}
-14 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2  C U0 L0 E0  {1,S} {6,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {9,S} {10,S} {11,S}
+4  C U0 L0 E0  {1,S} {12,S} {13,S} {14,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {4,S}
+14 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2448,18 +2448,18 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 78,
-    label = "H2C4O",
+    index        = 78,
+    label        = "H2C4O",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {6,S} {7,S}
-2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {4,D}
-4 C 0 0 {3,D} {5,D}
-5 O 0 2 {4,D}
-6 H 0 0 {1,S}
-7 H 0 0 {1,S}
+1 C U0 L0 E0  {2,D} {6,S} {7,S}
+2 C U0 L0 E0  {1,D} {3,D}
+3 C U0 L0 E0  {2,D} {4,D}
+4 C U0 L0 E0  {3,D} {5,D}
+5 O U0 L2 E0  {4,D}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {1,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2480,20 +2480,20 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 79,
-    label = "C4H4O",
+    index        = 79,
+    label        = "C4H4O",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,S} {5,D} {6,S}
-2 C 0 0 {1,S} {3,D} {7,S}
-3 C 0 0 {2,D} {4,S} {8,S}
-4 O 0 2 {3,S} {5,S}
-5 C 0 0 {1,D} {4,S} {9,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {3,S}
-9 H 0 0 {5,S}
+1 C U0 L0 E0  {2,S} {5,D} {6,S}
+2 C U0 L0 E0  {1,S} {3,D} {7,S}
+3 C U0 L0 E0  {2,D} {4,S} {8,S}
+4 O U0 L2 E0  {3,S} {5,S}
+5 C U0 L0 E0  {1,D} {4,S} {9,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {3,S}
+9 H U0 L0 E0  {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2513,21 +2513,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 80,
-    label = "CH2CHCHCHO",
+    index        = 80,
+    label        = "CH2CHCHCHO",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,D} {8,S}
-3  C 0 0 {2,D} {4,S} {9,S}
-4  C 0 0 {3,S} {5,D} {10,S}
-5  O 0 2 {4,D}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
+1  C U0 L0 E0  {2,D} {3,S} {5,S}
+2  C U0 L0 E0  {1,D} {4,S} {6,S}
+3  C U1 L0 E0  {1,S} {8,S} {9,S}
+4  C U0 L0 E0  {2,S} {7,D} {10,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {2,S}
+7  O U0 L2 E0  {4,D}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2548,21 +2548,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 81,
-    label = "CH3CHCHCO",
+    index        = 81,
+    label        = "CH3CHCHCO",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,D} {9,S}
-3  C 0 0 {2,D} {4,S} {10,S}
-4  C 1 0 {3,S} {5,D}
-5  O 0 2 {4,D}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
+1  C U0 L0 E0  {2,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,D} {8,S}
+3  C U0 L0 E0  {2,D} {4,S} {9,S}
+4  C U1 L0 E0  {3,S} {10,D}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 O U0 L2 E0  {4,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -2583,22 +2583,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 82,
-    label = "C2H3CHOCH2",
+    index        = 82,
+    label        = "C2H3CHOCH2",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {6,S} {7,S}
-2  C 0 0 {1,D} {3,S} {8,S}
-3  C 0 0 {2,S} {4,S} {5,S} {9,S}
-4  C 0 0 {3,S} {5,S} {10,S} {11,S}
-5  O 0 2 {3,S} {4,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {4,S}
+1  C U0 L0 E0  {2,S} {3,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {5,S} {7,S} {8,S}
+3  C U0 L0 E0  {1,S} {4,D} {9,S}
+4  C U0 L0 E0  {3,D} {10,S} {11,S}
+5  O U0 L2 E0  {1,S} {2,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2619,22 +2619,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 83,
-    label = "C4H6O23",
+    index        = 83,
+    label        = "C4H6O23",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  O 0 2 {2,S} {4,S}
-4  C 0 0 {3,S} {5,S} {8,S} {9,S}
-5  C 0 0 {1,S} {4,S} {10,S} {11,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {4,S}
-9  H 0 0 {4,S}
-10 H 0 0 {5,S}
-11 H 0 0 {5,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {1,S} {4,D} {10,S}
+4  C U0 L0 E0  {3,D} {5,S} {11,S}
+5  O U0 L2 E0  {2,S} {4,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2654,23 +2654,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 84,
-    label = "CH3CHCHCHO",
+    index        = 84,
+    label        = "CH3CHCHCHO",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {6,S} {7,S} {8,S}
-2  C 0 0 {1,S} {3,D} {9,S}
-3  C 0 0 {2,D} {4,S} {10,S}
-4  C 0 0 {3,S} {5,D} {11,S}
-5  O 0 2 {4,D}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {1,S}
-9  H 0 0 {2,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-
+1  C U0 L0 E0  {2,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,D} {8,S}
+3  C U0 L0 E0  {2,D} {4,S} {9,S}
+4  C U0 L0 E0  {3,S} {10,D} {11,S}
+5  H U0 L0 E0  {1,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 O U0 L2 E0  {4,D}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2691,22 +2690,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 85,
-    label = "C4H6O25",
+    index        = 85,
+    label        = "C4H6O25",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  O 0 2 {3,S} {5,S}
-5  C 0 0 {1,S} {4,S} {10,S} {11,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {5,S}
-11 H 0 0 {5,S}
+1  C U0 L0 E0  {4,S} {5,S} {6,S} {7,S}
+2  C U0 L0 E0  {3,S} {5,S} {8,S} {9,S}
+3  C U0 L0 E0  {2,S} {4,D} {10,S}
+4  C U0 L0 E0  {1,S} {3,D} {11,S}
+5  O U0 L2 E0  {1,S} {2,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {4,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2726,21 +2725,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 86,
-    label = "C5H4O",
+    index        = 86,
+    label        = "C5H4O",
     multiplicity = 1,
     molecule = 
 """
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {6,S}
-3  C 0 0 {2,S} {4,D} {7,S}
-4  C 0 0 {3,D} {5,S} {8,S}
-5  C 0 0 {4,S} {6,D} {9,S}
-6  C 0 0 {2,S} {5,D} {10,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {5,S}
-10 H 0 0 {6,S}
+1  O U0 L2 E0  {2,D}
+2  C U0 L0 E0  {1,D} {3,S} {6,S}
+3  C U0 L0 E0  {2,S} {4,D} {7,S}
+4  C U0 L0 E0  {3,D} {5,S} {8,S}
+5  C U0 L0 E0  {4,S} {6,D} {9,S}
+6  C U0 L0 E0  {2,S} {5,D} {10,S}
+7  H U0 L0 E0  {3,S}
+8  H U0 L0 E0  {4,S}
+9  H U0 L0 E0  {5,S}
+10 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2760,23 +2759,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 87,
-    label = "C5H5O(1,3)",
+    index        = 87,
+    label        = "C5H5O(1,3)",
     multiplicity = 2,
     molecule = 
 """
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {6,S}
-3  C 0 0 {2,S} {4,D} {7,S}
-4  C 0 0 {3,D} {5,S} {8,S}
-5  C 1 0 {4,S} {6,S} {9,S}
-6  C 0 0 {2,S} {5,S} {10,S} {11,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {5,S}
-10 H 0 0 {6,S}
-11 H 0 0 {6,S}
-
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,S} {8,D}
+3  C U1 L0 E0  {1,S} {5,S} {9,S}
+4  C U0 L0 E0  {2,S} {5,D} {10,S}
+5  C U0 L0 E0  {3,S} {4,D} {11,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  O U0 L2 E0  {2,D}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2797,22 +2795,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 88,
-    label = "C5H5O(2,4)",
+    index        = 88,
+    label        = "C5H5O(2,4)",
     multiplicity = 2,
     molecule = 
 """
-1  O 1 2 {2,S}
-2  C 0 0 {1,S} {3,S} {6,S} {7,S}
-3  C 0 0 {2,S} {4,D} {8,S}
-4  C 0 0 {3,D} {5,S} {9,S}
-5  C 0 0 {4,S} {6,D} {10,S}
-6  C 0 0 {2,S} {5,D} {11,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {5,S}
-11 H 0 0 {6,S}
+1  C U0 L0 E0  {2,S} {3,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {4,D} {8,S}
+3  C U0 L0 E0  {1,S} {5,D} {9,S}
+4  C U0 L0 E0  {2,D} {5,S} {10,S}
+5  C U0 L0 E0  {3,D} {4,S} {11,S}
+6  O U1 L2 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2833,22 +2831,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 89,
-    label = "C5H4OH",
+    index        = 89,
+    label        = "C5H4OH",
     multiplicity = 2,
     molecule = 
 """
-1  O 0 2 {2,S} {7,S}
-2  C 0 0 {1,S} {3,D} {6,S}
-3  C 0 0 {2,D} {4,S} {8,S}
-4  C 0 0 {3,S} {5,D} {9,S}
-5  C 0 0 {4,D} {6,S} {10,S}
-6  C 1 0 {2,S} {5,S} {11,S}
-7  H 0 0 {1,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {5,S}
-11 H 0 0 {6,S}
+1  C U0 L0 E0  {2,D} {3,S} {6,S}
+2  C U0 L0 E0  {1,D} {4,S} {7,S}
+3  C U1 L0 E0  {1,S} {5,S} {10,S}
+4  C U0 L0 E0  {2,S} {5,D} {8,S}
+5  C U0 L0 E0  {3,S} {4,D} {9,S}
+6  O U0 L2 E0  {1,S} {11,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {4,S}
+9  H U0 L0 E0  {5,S}
+10 H U0 L0 E0  {3,S}
+11 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2868,24 +2866,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 90,
-    label = "C5H5OH",
+    index        = 90,
+    label        = "C5H5OH",
     multiplicity = 1,
     molecule = 
 """
-1  O 0 2 {2,S} {7,S}
-2  C 0 0 {1,S} {3,S} {6,S} {8,S}
-3  C 0 0 {2,S} {4,D} {9,S}
-4  C 0 0 {3,D} {5,S} {10,S}
-5  C 0 0 {4,S} {6,D} {11,S}
-6  C 0 0 {2,S} {5,D} {12,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
-
+1  O U0 L2 E0  {2,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,S} {6,S} {8,S}
+3  C U0 L0 E0  {2,S} {4,D} {9,S}
+4  C U0 L0 E0  {3,D} {5,S} {10,S}
+5  C U0 L0 E0  {4,S} {6,D} {11,S}
+6  C U0 L0 E0  {2,S} {5,D} {12,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2906,21 +2903,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 91,
-    label = "C5H5",
+    index        = 91,
+    label        = "C5H5",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {5,S} {6,S}
-2  C 0 0 {1,S} {3,D} {7,S}
-3  C 0 0 {2,D} {4,S} {8,S}
-4  C 0 0 {3,S} {5,D} {9,S}
-5  C 0 0 {1,S} {4,D} {10,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {5,S}
+1  C U1 L0 E0  {2,S} {5,S} {6,S}
+2  C U0 L0 E0  {1,S} {3,D} {7,S}
+3  C U0 L0 E0  {2,D} {4,S} {8,S}
+4  C U0 L0 E0  {3,S} {5,D} {9,S}
+5  C U0 L0 E0  {1,S} {4,D} {10,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2941,23 +2938,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 92,
-    label = "C5H6",
+    index        = 92,
+    label        = "C5H6",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {5,S} {6,S}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,S} {8,S} {9,S}
-4  C 0 0 {3,S} {5,D} {10,S}
-5  C 0 0 {1,S} {4,D} {11,S}
-6  H 0 0 {1,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-
+1  C U0 L0 E0  {2,D} {5,S} {6,S}
+2  C U0 L0 E0  {1,D} {3,S} {7,S}
+3  C U0 L0 E0  {2,S} {4,S} {8,S} {9,S}
+4  C U0 L0 E0  {3,S} {5,D} {10,S}
+5  C U0 L0 E0  {1,S} {4,D} {11,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -2977,23 +2973,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 93,
-    label = "lC5H7",
+    index        = 93,
+    label        = "lC5H7",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {6,S} {7,S}
-2  C 0 0 {1,S} {3,D} {8,S}
-3  C 0 0 {2,D} {4,S} {9,S}
-4  C 0 0 {3,S} {5,D} {10,S}
-5  C 0 0 {4,D} {11,S} {12,S}
-6  H 0 0 {1,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {5,S}
+1  C U1 L0 E0  {2,S} {6,S} {7,S}
+2  C U0 L0 E0  {1,S} {3,D} {8,S}
+3  C U0 L0 E0  {2,D} {4,S} {9,S}
+4  C U0 L0 E0  {3,S} {5,D} {10,S}
+5  C U0 L0 E0  {4,D} {11,S} {12,S}
+6  H U0 L0 E0  {1,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {5,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3014,19 +3010,19 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 94,
-    label = "C6H2",
+    index        = 94,
+    label        = "C6H2",
     multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,T} {7,S}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {5,S}
-5 C 0 0 {4,S} {6,T}
-6 C 0 0 {5,T} {8,S}
-7 H 0 0 {1,S}
-8 H 0 0 {6,S}
+1 C U0 L0 E0  {2,T} {7,S}
+2 C U0 L0 E0  {1,T} {3,S}
+3 C U0 L0 E0  {2,S} {4,T}
+4 C U0 L0 E0  {3,T} {5,S}
+5 C U0 L0 E0  {4,S} {6,T}
+6 C U0 L0 E0  {5,T} {8,S}
+7 H U0 L0 E0  {1,S}
+8 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3047,20 +3043,20 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 95,
-    label = "C6H3",
+    index        = 95,
+    label        = "C6H3",
     multiplicity = 2,
     molecule = 
 """
-1 C 1 0 {2,D} {7,S}
-2 C 0 0 {1,D} {3,S} {8,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {5,S}
-5 C 0 0 {4,S} {6,T}
-6 C 0 0 {5,T} {9,S}
-7 H 0 0 {1,S}
-8 H 0 0 {2,S}
-9 H 0 0 {6,S}
+1 C U1 L0 E0  {2,D} {7,S}
+2 C U0 L0 E0  {1,D} {3,S} {8,S}
+3 C U0 L0 E0  {2,S} {4,T}
+4 C U0 L0 E0  {3,T} {5,S}
+5 C U0 L0 E0  {4,S} {6,T}
+6 C U0 L0 E0  {5,T} {9,S}
+7 H U0 L0 E0  {1,S}
+8 H U0 L0 E0  {2,S}
+9 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3081,21 +3077,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 96,
-    label = "l-C6H4",
+    index        = 96,
+    label        = "l-C6H4",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,T} {7,S}
-2  C 0 0 {1,T} {3,S}
-3  C 0 0 {2,S} {4,T}
-4  C 0 0 {3,T} {5,S}
-5  C 0 0 {4,S} {6,D} {8,S}
-6  C 0 0 {5,D} {9,S} {10,S}
-7  H 0 0 {1,S}
-8  H 0 0 {5,S}
-9  H 0 0 {6,S}
-10 H 0 0 {6,S}
+1  C U0 L0 E0  {2,T} {7,S}
+2  C U0 L0 E0  {1,T} {3,S}
+3  C U0 L0 E0  {2,S} {4,T}
+4  C U0 L0 E0  {3,T} {5,S}
+5  C U0 L0 E0  {4,S} {6,D} {8,S}
+6  C U0 L0 E0  {5,D} {9,S} {10,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {5,S}
+9  H U0 L0 E0  {6,S}
+10 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3116,21 +3112,21 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 97,
-    label = "o-C6H4",
+    index        = 97,
+    label        = "o-C6H4",
     multiplicity = 3,
     molecule = 
 """
-1  C 0 0 {2,T} {6,S}
-2  C 0 0 {1,T} {3,S}
-3  C 0 0 {2,S} {4,D} {7,S}
-4  C 0 0 {3,D} {5,S} {8,S}
-5  C 1 0 {4,S} {6,S} {9,S}
-6  C 1 0 {1,S} {5,S} {10,S}
-7  H 0 0 {3,S}
-8  H 0 0 {4,S}
-9  H 0 0 {5,S}
-10 H 0 0 {6,S}
+1  C U0 L0 E0  {2,T} {6,S}
+2  C U0 L0 E0  {1,T} {3,S}
+3  C U0 L0 E0  {2,S} {4,D} {7,S}
+4  C U0 L0 E0  {3,D} {5,S} {8,S}
+5  C U1 L0 E0  {4,S} {6,S} {9,S}
+6  C U1 L0 E0  {1,S} {5,S} {10,S}
+7  H U0 L0 E0  {3,S}
+8  H U0 L0 E0  {4,S}
+9  H U0 L0 E0  {5,S}
+10 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3151,22 +3147,22 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 98,
-    label = "C6H5",
+    index        = 98,
+    label        = "C6H5",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,D} {6,D}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 1 0 {2,S} {4,S} {8,S}
-4  C 0 0 {3,S} {5,D} {9,S}
-5  C 0 0 {4,D} {6,S} {10,S}
-6  C 0 0 {1,D} {5,S} {11,S}
-7  H 0 0 {2,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {5,S}
-11 H 0 0 {6,S}
+1  C U0 L0 E0  {2,D} {6,D}
+2  C U0 L0 E0  {1,D} {3,S} {7,S}
+3  C U1 L0 E0  {2,S} {4,S} {8,S}
+4  C U0 L0 E0  {3,S} {5,D} {9,S}
+5  C U0 L0 E0  {4,D} {6,S} {10,S}
+6  C U0 L0 E0  {1,D} {5,S} {11,S}
+7  H U0 L0 E0  {2,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3187,23 +3183,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 99,
-    label = "C6H6",
+    index        = 99,
+    label        = "C6H6",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,D} {6,S} {7,S}
-2  C 0 0 {1,D} {3,S} {8,S}
-3  C 0 0 {2,S} {4,D} {9,S}
-4  C 0 0 {3,D} {5,S} {10,S}
-5  C 0 0 {4,S} {6,D} {11,S}
-6  C 0 0 {1,S} {5,D} {12,S}
-7  H 0 0 {1,S}
-8  H 0 0 {2,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
+1  C U0 L0 E0  {2,D} {6,S} {7,S}
+2  C U0 L0 E0  {1,D} {3,S} {8,S}
+3  C U0 L0 E0  {2,S} {4,D} {9,S}
+4  C U0 L0 E0  {3,D} {5,S} {10,S}
+5  C U0 L0 E0  {4,S} {6,D} {11,S}
+6  C U0 L0 E0  {1,S} {5,D} {12,S}
+7  H U0 L0 E0  {1,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3224,25 +3220,25 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 100,
-    label = "C6H5CH2",
+    index        = 100,
+    label        = "C6H5CH2",
     multiplicity = 2,
     molecule = 
 """
-1  C 1 0 {2,S} {8,S} {9,S}
-2  C 0 0 {1,S} {3,D} {7,S}
-3  C 0 0 {2,D} {4,S} {10,S}
-4  C 0 0 {3,S} {5,D} {11,S}
-5  C 0 0 {4,D} {6,S} {12,S}
-6  C 0 0 {5,S} {7,D} {13,S}
-7  C 0 0 {2,S} {6,D} {14,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {3,S}
-11 H 0 0 {4,S}
-12 H 0 0 {5,S}
-13 H 0 0 {6,S}
-14 H 0 0 {7,S}
+1  C U0 L0 E0  {2,D} {3,S} {7,S}
+2  C U0 L0 E0  {1,D} {4,S} {8,S}
+3  C U0 L0 E0  {1,S} {6,D} {12,S}
+4  C U0 L0 E0  {2,S} {5,D} {9,S}
+5  C U0 L0 E0  {4,D} {6,S} {10,S}
+6  C U0 L0 E0  {3,D} {5,S} {11,S}
+7  C U1 L0 E0  {1,S} {13,S} {14,S}
+8  H U0 L0 E0  {2,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {6,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {7,S}
+14 H U0 L0 E0  {7,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3262,26 +3258,26 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 101,
-    label = "C6H5CH3",
+    index        = 101,
+    label        = "C6H5CH3",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,D} {7,S}
-3  C 0 0 {2,D} {4,S} {11,S}
-4  C 0 0 {3,S} {5,D} {12,S}
-5  C 0 0 {4,D} {6,S} {13,S}
-6  C 0 0 {5,S} {7,D} {14,S}
-7  C 0 0 {2,S} {6,D} {15,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {5,S}
-14 H 0 0 {6,S}
-15 H 0 0 {7,S}
+1  C U0 L0 E0  {2,S} {8,S} {9,S} {10,S}
+2  C U0 L0 E0  {1,S} {3,D} {7,S}
+3  C U0 L0 E0  {2,D} {4,S} {11,S}
+4  C U0 L0 E0  {3,S} {5,D} {12,S}
+5  C U0 L0 E0  {4,D} {6,S} {13,S}
+6  C U0 L0 E0  {5,S} {7,D} {14,S}
+7  C U0 L0 E0  {2,S} {6,D} {15,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {5,S}
+14 H U0 L0 E0  {6,S}
+15 H U0 L0 E0  {7,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3301,25 +3297,25 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 102,
-    label = "C6H5C2H",
+    index        = 102,
+    label        = "C6H5C2H",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,T} {9,S}
-2  C 0 0 {1,T} {3,S}
-3  C 0 0 {2,S} {4,D} {8,S}
-4  C 0 0 {3,D} {5,S} {10,S}
-5  C 0 0 {4,S} {6,D} {11,S}
-6  C 0 0 {5,D} {7,S} {12,S}
-7  C 0 0 {6,S} {8,D} {13,S}
-8  C 0 0 {3,S} {7,D} {14,S}
-9  H 0 0 {1,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
-13 H 0 0 {7,S}
-14 H 0 0 {8,S}
+1  C U0 L0 E0  {2,T} {9,S}
+2  C U0 L0 E0  {1,T} {3,S}
+3  C U0 L0 E0  {2,S} {4,D} {8,S}
+4  C U0 L0 E0  {3,D} {5,S} {10,S}
+5  C U0 L0 E0  {4,S} {6,D} {11,S}
+6  C U0 L0 E0  {5,D} {7,S} {12,S}
+7  C U0 L0 E0  {6,S} {8,D} {13,S}
+8  C U0 L0 E0  {3,S} {7,D} {14,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
+13 H U0 L0 E0  {7,S}
+14 H U0 L0 E0  {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3340,23 +3336,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 103,
-    label = "C6H5O",
+    index        = 103,
+    label        = "C6H5O",
     multiplicity = 2,
     molecule = 
 """
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {7,S}
-3  C 0 0 {2,S} {4,D} {8,S}
-4  C 0 0 {3,D} {5,S} {9,S}
-5  C 1 0 {4,S} {6,S} {10,S}
-6  C 0 0 {5,S} {7,D} {11,S}
-7  C 0 0 {2,S} {6,D} {12,S}
-8  H 0 0 {3,S}
-9  H 0 0 {4,S}
-10 H 0 0 {5,S}
-11 H 0 0 {6,S}
-12 H 0 0 {7,S}
+1  O U0 L2 E0  {2,D}
+2  C U0 L0 E0  {1,D} {3,S} {7,S}
+3  C U0 L0 E0  {2,S} {4,D} {8,S}
+4  C U0 L0 E0  {3,D} {5,S} {9,S}
+5  C U1 L0 E0  {4,S} {6,S} {10,S}
+6  C U0 L0 E0  {5,S} {7,D} {11,S}
+7  C U0 L0 E0  {2,S} {6,D} {12,S}
+8  H U0 L0 E0  {3,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {6,S}
+12 H U0 L0 E0  {7,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3376,24 +3372,24 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 104,
-    label = "C6H5OH",
+    index        = 104,
+    label        = "C6H5OH",
     multiplicity = 1,
     molecule = 
 """
-1  O 0 2 {2,S} {8,S}
-2  C 0 0 {1,S} {3,D} {7,S}
-3  C 0 0 {2,D} {4,S} {9,S}
-4  C 0 0 {3,S} {5,D} {10,S}
-5  C 0 0 {4,D} {6,S} {11,S}
-6  C 0 0 {5,S} {7,D} {12,S}
-7  C 0 0 {2,S} {6,D} {13,S}
-8  H 0 0 {1,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
-13 H 0 0 {7,S}
+1  O U0 L2 E0  {2,S} {8,S}
+2  C U0 L0 E0  {1,S} {3,D} {7,S}
+3  C U0 L0 E0  {2,D} {4,S} {9,S}
+4  C U0 L0 E0  {3,S} {5,D} {10,S}
+5  C U0 L0 E0  {4,D} {6,S} {11,S}
+6  C U0 L0 E0  {5,S} {7,D} {12,S}
+7  C U0 L0 E0  {2,S} {6,D} {13,S}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
+13 H U0 L0 E0  {7,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3414,23 +3410,23 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 105,
-    label = "C6H4O2",
+    index        = 105,
+    label        = "C6H4O2",
     multiplicity = 1,
     molecule = 
 """
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {8,S}
-3  C 0 0 {2,S} {4,D} {9,S}
-4  C 0 0 {3,D} {5,S} {10,S}
-5  C 0 0 {4,S} {6,D} {7,S}
-6  O 0 2 {5,D}
-7  C 0 0 {5,S} {8,D} {11,S}
-8  C 0 0 {2,S} {7,D} {12,S}
-9  H 0 0 {3,S}
-10 H 0 0 {4,S}
-11 H 0 0 {7,S}
-12 H 0 0 {8,S}
+1  O U0 L2 E0  {2,D}
+2  C U0 L0 E0  {1,D} {3,S} {8,S}
+3  C U0 L0 E0  {2,S} {4,D} {9,S}
+4  C U0 L0 E0  {3,D} {5,S} {10,S}
+5  C U0 L0 E0  {4,S} {6,D} {7,S}
+6  O U0 L2 E0  {5,D}
+7  C U0 L0 E0  {5,S} {8,D} {11,S}
+8  C U0 L0 E0  {2,S} {7,D} {12,S}
+9  H U0 L0 E0  {3,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {7,S}
+12 H U0 L0 E0  {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3451,24 +3447,24 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 106,
-    label = "C6H5CO",
+    index        = 106,
+    label        = "C6H5CO",
     multiplicity = 2,
     molecule = 
 """
-1  O 0 2 {2,D}
-2  C 1 0 {1,D} {3,S}
-3  C 0 0 {2,S} {4,D} {8,S}
-4  C 0 0 {3,D} {5,S} {9,S}
-5  C 0 0 {4,S} {6,D} {10,S}
-6  C 0 0 {5,D} {7,S} {11,S}
-7  C 0 0 {6,S} {8,D} {12,S}
-8  C 0 0 {3,S} {7,D} {13,S}
-9  H 0 0 {4,S}
-10 H 0 0 {5,S}
-11 H 0 0 {6,S}
-12 H 0 0 {7,S}
-13 H 0 0 {8,S}
+1  O U0 L2 E0  {2,D}
+2  C U1 L0 E0  {1,D} {3,S}
+3  C U0 L0 E0  {2,S} {4,D} {8,S}
+4  C U0 L0 E0  {3,D} {5,S} {9,S}
+5  C U0 L0 E0  {4,S} {6,D} {10,S}
+6  C U0 L0 E0  {5,D} {7,S} {11,S}
+7  C U0 L0 E0  {6,S} {8,D} {12,S}
+8  C U0 L0 E0  {3,S} {7,D} {13,S}
+9  H U0 L0 E0  {4,S}
+10 H U0 L0 E0  {5,S}
+11 H U0 L0 E0  {6,S}
+12 H U0 L0 E0  {7,S}
+13 H U0 L0 E0  {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3489,25 +3485,25 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 107,
-    label = "C6H5CHO",
+    index        = 107,
+    label        = "C6H5CHO",
     multiplicity = 1,
     molecule = 
 """
-1  O 0 2 {2,D}
-2  C 0 0 {1,D} {3,S} {9,S}
-3  C 0 0 {2,S} {4,D} {8,S}
-4  C 0 0 {3,D} {5,S} {10,S}
-5  C 0 0 {4,S} {6,D} {11,S}
-6  C 0 0 {5,D} {7,S} {12,S}
-7  C 0 0 {6,S} {8,D} {13,S}
-8  C 0 0 {3,S} {7,D} {14,S}
-9  H 0 0 {2,S}
-10 H 0 0 {4,S}
-11 H 0 0 {5,S}
-12 H 0 0 {6,S}
-13 H 0 0 {7,S}
-14 H 0 0 {8,S}
+1  O U0 L2 E0  {2,D}
+2  C U0 L0 E0  {1,D} {3,S} {9,S}
+3  C U0 L0 E0  {2,S} {4,D} {8,S}
+4  C U0 L0 E0  {3,D} {5,S} {10,S}
+5  C U0 L0 E0  {4,S} {6,D} {11,S}
+6  C U0 L0 E0  {5,D} {7,S} {12,S}
+7  C U0 L0 E0  {6,S} {8,D} {13,S}
+8  C U0 L0 E0  {3,S} {7,D} {14,S}
+9  H U0 L0 E0  {2,S}
+10 H U0 L0 E0  {4,S}
+11 H U0 L0 E0  {5,S}
+12 H U0 L0 E0  {6,S}
+13 H U0 L0 E0  {7,S}
+14 H U0 L0 E0  {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3528,27 +3524,27 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 108,
-    label = "C6H5CH2OH",
+    index        = 108,
+    label        = "C6H5CH2OH",
     multiplicity = 1,
     molecule = 
 """
-1  O 0 2 {2,S} {9,S}
-2  C 0 0 {1,S} {3,S} {10,S} {11,S}
-3  C 0 0 {2,S} {4,D} {8,S}
-4  C 0 0 {3,D} {5,S} {12,S}
-5  C 0 0 {4,S} {6,D} {13,S}
-6  C 0 0 {5,D} {7,S} {14,S}
-7  C 0 0 {6,S} {8,D} {15,S}
-8  C 0 0 {3,S} {7,D} {16,S}
-9  H 0 0 {1,S}
-10 H 0 0 {2,S}
-11 H 0 0 {2,S}
-12 H 0 0 {4,S}
-13 H 0 0 {5,S}
-14 H 0 0 {6,S}
-15 H 0 0 {7,S}
-16 H 0 0 {8,S}
+1  C U0 L0 E0  {2,S} {8,S} {9,S} {10,S}
+2  C U0 L0 E0  {1,S} {3,D} {4,S}
+3  C U0 L0 E0  {2,D} {5,S} {11,S}
+4  C U0 L0 E0  {2,S} {7,D} {15,S}
+5  C U0 L0 E0  {3,S} {6,D} {12,S}
+6  C U0 L0 E0  {5,D} {7,S} {13,S}
+7  C U0 L0 E0  {4,D} {6,S} {14,S}
+8  O U0 L2 E0  {1,S} {16,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {5,S}
+13 H U0 L0 E0  {6,S}
+14 H U0 L0 E0  {7,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3568,26 +3564,26 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 109,
-    label = "OC6H4CH3",
+    index        = 109,
+    label        = "OC6H4CH3",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,S} {9,S} {10,S} {11,S}
-2  C 0 0 {1,S} {3,D} {8,S}
-3  C 0 0 {2,D} {4,S} {12,S}
-4  C 0 0 {3,S} {5,D} {6,S}
-5  O 0 2 {4,D}
-6  C 0 0 {4,S} {7,D} {13,S}
-7  C 0 0 {6,D} {8,S} {14,S}
-8  C 1 0 {2,S} {7,S} {15,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {1,S}
-12 H 0 0 {3,S}
-13 H 0 0 {6,S}
-14 H 0 0 {7,S}
-15 H 0 0 {8,S}
+1  C U0 L0 E0  {2,S} {9,S} {10,S} {11,S}
+2  C U0 L0 E0  {1,S} {3,D} {8,S}
+3  C U0 L0 E0  {2,D} {4,S} {12,S}
+4  C U0 L0 E0  {3,S} {5,D} {6,S}
+5  O U0 L2 E0  {4,D}
+6  C U0 L0 E0  {4,S} {7,D} {13,S}
+7  C U0 L0 E0  {6,D} {8,S} {14,S}
+8  C U1 L0 E0  {2,S} {7,S} {15,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {3,S}
+13 H U0 L0 E0  {6,S}
+14 H U0 L0 E0  {7,S}
+15 H U0 L0 E0  {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3608,27 +3604,27 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 110,
-    label = "HOC6H4CH3",
+    index        = 110,
+    label        = "HOC6H4CH3",
     multiplicity = 1,
     molecule = 
 """
-1  C 0 0 {2,S} {9,S} {10,S} {11,S}
-2  C 0 0 {1,S} {3,D} {8,S}
-3  C 0 0 {2,D} {4,S} {12,S}
-4  C 0 0 {3,S} {5,D} {13,S}
-5  C 0 0 {4,D} {6,S} {14,S}
-6  C 0 0 {5,S} {7,S} {8,D}
-7  O 0 2 {6,S} {15,S}
-8  C 0 0 {2,S} {6,D} {16,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {1,S}
-12 H 0 0 {3,S}
-13 H 0 0 {4,S}
-14 H 0 0 {5,S}
-15 H 0 0 {7,S}
-16 H 0 0 {8,S}
+1  C U0 L0 E0  {2,S} {9,S} {10,S} {11,S}
+2  C U0 L0 E0  {1,S} {4,S} {5,D}
+3  C U0 L0 E0  {4,D} {6,S} {8,S}
+4  C U0 L0 E0  {2,S} {3,D} {15,S}
+5  C U0 L0 E0  {2,D} {7,S} {12,S}
+6  C U0 L0 E0  {3,S} {7,D} {14,S}
+7  C U0 L0 E0  {5,S} {6,D} {13,S}
+8  O U0 L2 E0  {3,S} {16,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {1,S}
+12 H U0 L0 E0  {5,S}
+13 H U0 L0 E0  {7,S}
+14 H U0 L0 E0  {6,S}
+15 H U0 L0 E0  {4,S}
+16 H U0 L0 E0  {8,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -3648,25 +3644,25 @@ Imported from USC-Mech ii thermdat.txt.
 )
 
 entry(
-    index = 111,
-    label = "C6H4CH3",
+    index        = 111,
+    label        = "C6H4CH3",
     multiplicity = 2,
     molecule = 
 """
-1  C 0 0 {2,S} {8,S} {9,S} {10,S}
-2  C 0 0 {1,S} {3,D} {7,S}
-3  C 0 0 {2,D} {4,S} {11,S}
-4  C 0 0 {3,S} {5,D} {12,S}
-5  C 0 0 {4,D} {6,D}
-6  C 0 0 {5,D} {7,S} {13,S}
-7  C 1 0 {2,S} {6,S} {14,S}
-8  H 0 0 {1,S}
-9  H 0 0 {1,S}
-10 H 0 0 {1,S}
-11 H 0 0 {3,S}
-12 H 0 0 {4,S}
-13 H 0 0 {6,S}
-14 H 0 0 {7,S}
+1  C U0 L0 E0  {2,S} {8,S} {9,S} {10,S}
+2  C U0 L0 E0  {1,S} {3,D} {4,S}
+3  C U0 L0 E0  {2,D} {5,S} {11,S}
+4  C U1 L0 E0  {2,S} {6,S} {12,S}
+5  C U0 L0 E0  {3,S} {7,D} {13,S}
+6  C U0 L0 E0  {4,S} {7,D} {14,S}
+7  C U0 L0 E0  {5,D} {6,D}
+8  H U0 L0 E0  {1,S}
+9  H U0 L0 E0  {1,S}
+10 H U0 L0 E0  {1,S}
+11 H U0 L0 E0  {3,S}
+12 H U0 L0 E0  {4,S}
+13 H U0 L0 E0  {5,S}
+14 H U0 L0 E0  {6,S}
 """,
     thermo = NASA(
         polynomials = [
