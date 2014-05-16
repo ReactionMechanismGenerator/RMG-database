@@ -11,7 +11,7 @@ entry(
     label = "R_ring",
     group =
 """
-1 * R {0,1,2}
+1 * R U{0,1,2}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -26,7 +26,7 @@ entry(
     label = "C_centered_ring",
     group =
 """
-1 * C {0,1,2}
+1 * C U{0,1,2}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -38,7 +38,7 @@ entry(
     label = "O_centered_ring",
     group =
 """
-1 * O {0,1}
+1 * O U{0,1}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -49,7 +49,7 @@ entry(
     label = "S_centered_ring",
     group =
 """
-1 * S {0,1}
+1 * S U{0,1}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -61,11 +61,11 @@ entry(
     label = "CsringH2R2",
     group =
 """
-1 * C 0 {2,S} {3,S} {4,S} {5,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 * C U0 {2,S} {3,S} {4,S} {5,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
+4 H   U0 {1,S}
+5 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0100,
@@ -86,11 +86,11 @@ entry(
     label = "CsringHR3",
     group =
 """
-1 * C 0 {2,S} {3,S} {4,S} {5,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
-5 H 0 {1,S}
+1 * C U0 {2,S} {3,S} {4,S} {5,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
+5 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0122,
@@ -111,11 +111,11 @@ entry(
     label = "CsringR4",
     group =
 """
-1 * C 0 {2,S} {3,S} {4,S} {5,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
-5 R!H 0 {1,S}
+1 * C U0 {2,S} {3,S} {4,S} {5,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
+5 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0042,
@@ -136,10 +136,10 @@ entry(
     label = "CdringHR2",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 R!H 0 {1,D}
-3 R!H 0 {1,S}
-4 H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 R!H U0 {1,D}
+3 R!H U0 {1,S}
+4 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0082,
@@ -160,10 +160,10 @@ entry(
     label = "CdringR3",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 R!H 0 {1,D}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 R!H U0 {1,D}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0143,
@@ -184,9 +184,9 @@ entry(
     label = "Cddring",
     group =
 """
-1 * C 0 {2,D} {3,D}
-2 R!H 0 {1,D}
-3 R!H 0 {1,D}
+1 * C U0 {2,D} {3,D}
+2 R!H U0 {1,D}
+3 R!H U0 {1,D}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0143,
@@ -210,8 +210,8 @@ entry(
     label = "Ctring",
     group =
 """
-1 * C 0 {2,T}
-2 R!H 0 {1,T}
+1 * C U0 {2,T}
+2 R!H U0 {1,T}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0143,
@@ -236,9 +236,9 @@ entry(
     label = "Ether_ring",
     group =
 """
-1 * O 0 {2,S} {3,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
+1 * O U0 {2,S} {3,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0098,
@@ -259,10 +259,10 @@ entry(
     label = "Ketone_ring",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 O   U0 {1,D}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0284,
@@ -283,9 +283,9 @@ entry(
     label = "Thioether_ring",
     group =
 """
-1 * S 0 {2,S} {3,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
+1 * S U0 {2,S} {3,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0019,
