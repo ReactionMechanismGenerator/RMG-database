@@ -21,12 +21,12 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
-    label = "COm",
+    index        = 1,
+    label        = "COm",
     group = 
 """
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
+1 *1 Ct U0 L1 {2,T}
+2 *3 Ot U0 L1 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -37,11 +37,11 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "Y_rad",
+    index        = 2,
+    label        = "Y_rad",
     group = 
 """
-1 *2 R 1
+1 *2 R U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -52,11 +52,11 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "H_rad",
+    index        = 3,
+    label        = "H_rad",
     group = 
 """
-1 *2 H 1 0
+1 *2 H U1 L0
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -67,11 +67,11 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "O_rad",
+    index        = 4,
+    label        = "O_rad",
     group = 
 """
-1 *2 O 1 2
+1 *2 O U1 L2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -82,12 +82,12 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "O_pri_rad",
+    index        = 5,
+    label        = "O_pri_rad",
     group = 
 """
-1 *2 O 1 2 {2,S}
-2    H 0 0 {1,S}
+1 *2 O U1 L2 {2,S}
+2    H U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -98,12 +98,12 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "O_sec_rad",
+    index        = 6,
+    label        = "O_sec_rad",
     group = 
 """
-1 *2 O   1 2 {2,S}
-2    R!H 0   {1,S}
+1 *2 O   U1 L2 {2,S}
+2    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -114,12 +114,12 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "O_rad/NonDe",
+    index        = 7,
+    label        = "O_rad/NonDe",
     group = 
 """
-1 *2 O      1 2 {2,S}
-2    {Cs,O} 0   {1,S}
+1 *2 O      U1 L2 {2,S}
+2    {Cs,O} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -130,12 +130,12 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "O_rad/OneDe",
+    index        = 8,
+    label        = "O_rad/OneDe",
     group = 
 """
-1 *2 O             1 2 {2,S}
-2    {Cd,Ct,Cb,CO} 0   {1,S}
+1 *2 O             U1 L2 {2,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -146,12 +146,12 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "Ct_rad",
+    index        = 9,
+    label        = "Ct_rad",
     group = 
 """
-1 *2 C 1 0 {2,T}
-2    C 0 0 {1,T}
+1 *2 C U1 L0 {2,T}
+2    C U0 L0 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -162,12 +162,12 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "CO_rad",
+    index        = 10,
+    label        = "CO_rad",
     group = 
 """
-1 *2 C 1 0 {2,D}
-2    O 0 2 {1,D}
+1 *2 C U1 L0 {2,D}
+2    O U0 L2 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -178,13 +178,13 @@ u"""
 )
 
 entry(
-    index = 11,
-    label = "CO_pri_rad",
+    index        = 11,
+    label        = "CO_pri_rad",
     group = 
 """
-1 *2 C 1 0 {2,D} {3,S}
-2    O 0 2 {1,D}
-3    H 0 0 {1,S}
+1 *2 C U1 L0 {2,D} {3,S}
+2    O U0 L2 {1,D}
+3    H U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -195,13 +195,13 @@ u"""
 )
 
 entry(
-    index = 12,
-    label = "CO_sec_rad",
+    index        = 12,
+    label        = "CO_sec_rad",
     group = 
 """
-1 *2 C   1 0 {2,D} {3,S}
-2    O   0 2 {1,D}
-3    R!H 0   {1,S}
+1 *2 C   U1 L0 {2,D} {3,S}
+2    O   U0 L2 {1,D}
+3    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -212,13 +212,13 @@ u"""
 )
 
 entry(
-    index = 13,
-    label = "Cd_rad",
+    index        = 13,
+    label        = "Cd_rad",
     group = 
 """
-1 *2 C 1 0 {2,D} {3,S}
-2    C 0 0 {1,D}
-3    R 0   {1,S}
+1 *2 C U1 L0 {2,D} {3,S}
+2    C U0 L0 {1,D}
+3    R U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -229,13 +229,13 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "Cd_pri_rad",
+    index        = 14,
+    label        = "Cd_pri_rad",
     group = 
 """
-1 *2 C 1 0 {2,D} {3,S}
-2    C 0 0 {1,D}
-3    H 0 0 {1,S}
+1 *2 C U1 L0 {2,D} {3,S}
+2    C U0 L0 {1,D}
+3    H U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -246,13 +246,13 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "Cd_sec_rad",
+    index        = 15,
+    label        = "Cd_sec_rad",
     group = 
 """
-1 *2 C   1 0 {2,D} {3,S}
-2    C   0 0 {1,D}
-3    R!H 0   {1,S}
+1 *2 C   U1 L0 {2,D} {3,S}
+2    C   U0 L0 {1,D}
+3    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -263,13 +263,13 @@ u"""
 )
 
 entry(
-    index = 16,
-    label = "Cd_rad/NonDe",
+    index        = 16,
+    label        = "Cd_rad/NonDe",
     group = 
 """
-1 *2 C      1 0 {2,D} {3,S}
-2    C      0 0 {1,D}
-3    {Cs,O} 0   {1,S}
+1 *2 C      U1 L0 {2,D} {3,S}
+2    C      U0 L0 {1,D}
+3    {Cs,O} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -280,13 +280,13 @@ u"""
 )
 
 entry(
-    index = 17,
-    label = "Cd_rad/OneDe",
+    index        = 17,
+    label        = "Cd_rad/OneDe",
     group = 
 """
-1 *2 C             1 0 {2,D} {3,S}
-2    C             0 0 {1,D}
-3    {Cd,Ct,Cb,CO} 0   {1,S}
+1 *2 C             U1 L0 {2,D} {3,S}
+2    C             U0 L0 {1,D}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -297,13 +297,13 @@ u"""
 )
 
 entry(
-    index = 18,
-    label = "Cb_rad",
+    index        = 18,
+    label        = "Cb_rad",
     group = 
 """
-1 *2 Cb       1 0 {2,B} {3,B}
-2    {Cb,Cbf} 0 0 {1,B}
-3    {Cb,Cbf} 0 0 {1,B}
+1 *2 Cb       U1 L0 {2,B} {3,B}
+2    {Cb,Cbf} U0 L0 {1,B}
+3    {Cb,Cbf} U0 L0 {1,B}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -314,14 +314,14 @@ u"""
 )
 
 entry(
-    index = 19,
-    label = "Cs_rad",
+    index        = 19,
+    label        = "Cs_rad",
     group = 
 """
-1 *2 C 1 0 {2,S} {3,S} {4,S}
-2    R 0   {1,S}
-3    R 0   {1,S}
-4    R 0   {1,S}
+1 *2 C U1 L0 {2,S} {3,S} {4,S}
+2    R U0 {1,S}
+3    R U0 {1,S}
+4    R U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -332,14 +332,14 @@ u"""
 )
 
 entry(
-    index = 20,
-    label = "C_methyl",
+    index        = 20,
+    label        = "C_methyl",
     group = 
 """
-1 *2 C 1 0 {2,S} {3,S} {4,S}
-2    H 0 0 {1,S}
-3    H 0 0 {1,S}
-4    H 0 0 {1,S}
+1 *2 C U1 L0 {2,S} {3,S} {4,S}
+2    H U0 L0 {1,S}
+3    H U0 L0 {1,S}
+4    H U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -350,14 +350,14 @@ u"""
 )
 
 entry(
-    index = 21,
-    label = "C_pri_rad",
+    index        = 21,
+    label        = "C_pri_rad",
     group = 
 """
-1 *2 C   1 0 {2,S} {3,S} {4,S}
-2    H   0 0 {1,S}
-3    H   0 0 {1,S}
-4    R!H 0   {1,S}
+1 *2 C   U1 L0 {2,S} {3,S} {4,S}
+2    H   U0 L0 {1,S}
+3    H   U0 L0 {1,S}
+4    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -368,14 +368,14 @@ u"""
 )
 
 entry(
-    index = 22,
-    label = "C_rad/H2/Cs",
+    index        = 22,
+    label        = "C_rad/H2/Cs",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    H  0 0 {1,S}
-3    H  0 0 {1,S}
-4    Cs 0 0 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    H  U0 L0 {1,S}
+3    H  U0 L0 {1,S}
+4    Cs U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -386,17 +386,17 @@ u"""
 )
 
 entry(
-    index = 23,
-    label = "CH2CH3",
+    index        = 23,
+    label        = "CH2CH3",
     group = 
 """
-1 *2 C 1 0 {2,S} {3,S} {4,S}
-2    H 0 0 {1,S}
-3    H 0 0 {1,S}
-4    C 0 0 {1,S} {5,S} {6,S} {7,S}
-5    H 0 0 {4,S}
-6    H 0 0 {4,S}
-7    H 0 0 {4,S}
+1 *2 C U1 L0 {2,S} {3,S} {4,S}
+2    H U0 L0 {1,S}
+3    H U0 L0 {1,S}
+4    C U0 L0 {1,S} {5,S} {6,S} {7,S}
+5    H U0 L0 {4,S}
+6    H U0 L0 {4,S}
+7    H U0 L0 {4,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -407,20 +407,20 @@ u"""
 )
 
 entry(
-    index = 24,
-    label = "CH2CH2CH3",
+    index        = 24,
+    label        = "CH2CH2CH3",
     group = 
 """
-1  *2 C 1 0 {2,S} {3,S} {4,S}
-2     H 0 0 {1,S}
-3     H 0 0 {1,S}
-4     C 0 0 {1,S} {5,S} {6,S} {7,S}
-5     H 0 0 {4,S}
-6     H 0 0 {4,S}
-7     C 0 0 {4,S} {8,S} {9,S} {10,S}
-8     H 0 0 {7,S}
-9     H 0 0 {7,S}
-10    H 0 0 {7,S}
+1  *2 C U1 L0 {2,S} {3,S} {4,S}
+2     H U0 L0 {1,S}
+3     H U0 L0 {1,S}
+4     C U0 L0 {1,S} {5,S} {6,S} {7,S}
+5     H U0 L0 {4,S}
+6     H U0 L0 {4,S}
+7     C U0 L0 {4,S} {8,S} {9,S} {10,S}
+8     H U0 L0 {7,S}
+9     H U0 L0 {7,S}
+10    H U0 L0 {7,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -431,14 +431,14 @@ u"""
 )
 
 entry(
-    index = 25,
-    label = "C_rad/H2/Cd",
+    index        = 25,
+    label        = "C_rad/H2/Cd",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    H  0 0 {1,S}
-3    H  0 0 {1,S}
-4    Cd 0 0 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    H  U0 L0 {1,S}
+3    H  U0 L0 {1,S}
+4    Cd U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -449,14 +449,14 @@ u"""
 )
 
 entry(
-    index = 26,
-    label = "C_rad/H2/Ct",
+    index        = 26,
+    label        = "C_rad/H2/Ct",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    H  0 0 {1,S}
-3    H  0 0 {1,S}
-4    Ct 0 0 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    H  U0 L0 {1,S}
+3    H  U0 L0 {1,S}
+4    Ct U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -467,14 +467,14 @@ u"""
 )
 
 entry(
-    index = 27,
-    label = "C_rad/H2/Cb",
+    index        = 27,
+    label        = "C_rad/H2/Cb",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    H  0 0 {1,S}
-3    H  0 0 {1,S}
-4    Cb 0 0 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    H  U0 L0 {1,S}
+3    H  U0 L0 {1,S}
+4    Cb U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -485,14 +485,14 @@ u"""
 )
 
 entry(
-    index = 28,
-    label = "C_rad/H2/CO",
+    index        = 28,
+    label        = "C_rad/H2/CO",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    H  0 0 {1,S}
-3    H  0 0 {1,S}
-4    CO 0 0 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    H  U0 L0 {1,S}
+3    H  U0 L0 {1,S}
+4    CO U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -503,14 +503,14 @@ u"""
 )
 
 entry(
-    index = 29,
-    label = "C_rad/H2/O",
+    index        = 29,
+    label        = "C_rad/H2/O",
     group = 
 """
-1 *2 C 1 0 {2,S} {3,S} {4,S}
-2    H 0 0 {1,S}
-3    H 0 0 {1,S}
-4    O 0 2 {1,S}
+1 *2 C U1 L0 {2,S} {3,S} {4,S}
+2    H U0 L0 {1,S}
+3    H U0 L0 {1,S}
+4    O U0 L2 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -521,14 +521,14 @@ u"""
 )
 
 entry(
-    index = 30,
-    label = "C_sec_rad",
+    index        = 30,
+    label        = "C_sec_rad",
     group = 
 """
-1 *2 C   1 0 {2,S} {3,S} {4,S}
-2    H   0 0 {1,S}
-3    R!H 0   {1,S}
-4    R!H 0   {1,S}
+1 *2 C   U1 L0 {2,S} {3,S} {4,S}
+2    H   U0 L0 {1,S}
+3    R!H U0 {1,S}
+4    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -539,14 +539,14 @@ u"""
 )
 
 entry(
-    index = 31,
-    label = "C_rad/H/NonDeC",
+    index        = 31,
+    label        = "C_rad/H/NonDeC",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    H  0 0 {1,S}
-3    Cs 0 0 {1,S}
-4    Cs 0 0 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    H  U0 L0 {1,S}
+3    Cs U0 L0 {1,S}
+4    Cs U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -557,20 +557,20 @@ u"""
 )
 
 entry(
-    index = 32,
-    label = "CH[CH3]2",
+    index        = 32,
+    label        = "CH[CH3]2",
     group = 
 """
-1  *2 C 1 0 {2,S} {3,S} {4,S}
-2     H 0 0 {1,S}
-3     C 0 0 {1,S} {5,S} {6,S} {7,S}
-4     C 0 0 {1,S} {8,S} {9,S} {10,S}
-5     H 0 0 {3,S}
-6     H 0 0 {3,S}
-7     H 0 0 {3,S}
-8     H 0 0 {4,S}
-9     H 0 0 {4,S}
-10    H 0 0 {4,S}
+1  *2 C U1 L0 {2,S} {3,S} {4,S}
+2     H U0 L0 {1,S}
+3     C U0 L0 {1,S} {5,S} {6,S} {7,S}
+4     C U0 L0 {1,S} {8,S} {9,S} {10,S}
+5     H U0 L0 {3,S}
+6     H U0 L0 {3,S}
+7     H U0 L0 {3,S}
+8     H U0 L0 {4,S}
+9     H U0 L0 {4,S}
+10    H U0 L0 {4,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -581,14 +581,14 @@ u"""
 )
 
 entry(
-    index = 33,
-    label = "C_rad/H/NonDeO",
+    index        = 33,
+    label        = "C_rad/H/NonDeO",
     group = 
 """
-1 *2 C      1 0 {2,S} {3,S} {4,S}
-2    H      0 0 {1,S}
-3    O      0 2 {1,S}
-4    {Cs,O} 0   {1,S}
+1 *2 C      U1 L0 {2,S} {3,S} {4,S}
+2    H      U0 L0 {1,S}
+3    O      U0 L2 {1,S}
+4    {Cs,O} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -599,14 +599,14 @@ u"""
 )
 
 entry(
-    index = 34,
-    label = "C_rad/H/CsO",
+    index        = 34,
+    label        = "C_rad/H/CsO",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    H  0 0 {1,S}
-3    Cs 0 0 {1,S}
-4    O  0 2 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    H  U0 L0 {1,S}
+3    Cs U0 L0 {1,S}
+4    O  U0 L2 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -617,14 +617,14 @@ u"""
 )
 
 entry(
-    index = 35,
-    label = "C_rad/H/O2",
+    index        = 35,
+    label        = "C_rad/H/O2",
     group = 
 """
-1 *2 C 1 0 {2,S} {3,S} {4,S}
-2    H 0 0 {1,S}
-3    O 0 2 {1,S}
-4    O 0 2 {1,S}
+1 *2 C U1 L0 {2,S} {3,S} {4,S}
+2    H U0 L0 {1,S}
+3    O U0 L2 {1,S}
+4    O U0 L2 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -635,14 +635,14 @@ u"""
 )
 
 entry(
-    index = 36,
-    label = "C_rad/H/OneDe",
+    index        = 36,
+    label        = "C_rad/H/OneDe",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    H             0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0   {1,S}
-4    {Cs,O}        0   {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    H             U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cs,O}        U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -653,14 +653,14 @@ u"""
 )
 
 entry(
-    index = 37,
-    label = "C_rad/H/OneDeC",
+    index        = 37,
+    label        = "C_rad/H/OneDeC",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    H             0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0   {1,S}
-4    Cs            0 0 {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    H             U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    Cs            U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -671,14 +671,14 @@ u"""
 )
 
 entry(
-    index = 38,
-    label = "C_rad/H/OneDeO",
+    index        = 38,
+    label        = "C_rad/H/OneDeO",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    H             0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0   {1,S}
-4    O             0 2 {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    H             U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    O             U0 L2 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -689,14 +689,14 @@ u"""
 )
 
 entry(
-    index = 39,
-    label = "C_rad/H/TwoDe",
+    index        = 39,
+    label        = "C_rad/H/TwoDe",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    H             0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0   {1,S}
-4    {Cd,Ct,Cb,CO} 0   {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    H             U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -707,14 +707,14 @@ u"""
 )
 
 entry(
-    index = 40,
-    label = "C_ter_rad",
+    index        = 40,
+    label        = "C_ter_rad",
     group = 
 """
-1 *2 C   1 0 {2,S} {3,S} {4,S}
-2    R!H 0   {1,S}
-3    R!H 0   {1,S}
-4    R!H 0   {1,S}
+1 *2 C   U1 L0 {2,S} {3,S} {4,S}
+2    R!H U0 {1,S}
+3    R!H U0 {1,S}
+4    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -725,14 +725,14 @@ u"""
 )
 
 entry(
-    index = 41,
-    label = "C_rad/NonDeC",
+    index        = 41,
+    label        = "C_rad/NonDeC",
     group = 
 """
-1 *2 C      1 0 {2,S} {3,S} {4,S}
-2    {Cs,O} 0   {1,S}
-3    {Cs,O} 0   {1,S}
-4    {Cs,O} 0   {1,S}
+1 *2 C      U1 L0 {2,S} {3,S} {4,S}
+2    {Cs,O} U0 {1,S}
+3    {Cs,O} U0 {1,S}
+4    {Cs,O} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -743,14 +743,14 @@ u"""
 )
 
 entry(
-    index = 42,
-    label = "C_rad/Cs3",
+    index        = 42,
+    label        = "C_rad/Cs3",
     group = 
 """
-1 *2 C  1 0 {2,S} {3,S} {4,S}
-2    Cs 0 0 {1,S}
-3    Cs 0 0 {1,S}
-4    Cs 0 0 {1,S}
+1 *2 C  U1 L0 {2,S} {3,S} {4,S}
+2    Cs U0 L0 {1,S}
+3    Cs U0 L0 {1,S}
+4    Cs U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -761,14 +761,14 @@ u"""
 )
 
 entry(
-    index = 43,
-    label = "C_rad/NDMustO",
+    index        = 43,
+    label        = "C_rad/NDMustO",
     group = 
 """
-1 *2 C      1 0 {2,S} {3,S} {4,S}
-2    O      0 2 {1,S}
-3    {Cs,O} 0 0 {1,S}
-4    {Cs,O} 0 0 {1,S}
+1 *2 C      U1 L0 {2,S} {3,S} {4,S}
+2    O      U0 L2 {1,S}
+3    {Cs,O} U0 L0 {1,S}
+4    {Cs,O} U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -779,14 +779,14 @@ u"""
 )
 
 entry(
-    index = 44,
-    label = "C_rad/OneDe",
+    index        = 44,
+    label        = "C_rad/OneDe",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0   {1,S}
-3    {Cs,O}        0   {1,S}
-4    {Cs,O}        0   {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    {Cs,O}        U0 {1,S}
+4    {Cs,O}        U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -797,14 +797,14 @@ u"""
 )
 
 entry(
-    index = 45,
-    label = "C_rad/OD_Cs2",
+    index        = 45,
+    label        = "C_rad/OD_Cs2",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 0 {1,S}
-3    Cs            0 0 {1,S}
-4    Cs            0 0 {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+3    Cs            U0 L0 {1,S}
+4    Cs            U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -815,14 +815,14 @@ u"""
 )
 
 entry(
-    index = 46,
-    label = "C_rad/ODMustO",
+    index        = 46,
+    label        = "C_rad/ODMustO",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 0 {1,S}
-3    O             0 2 {1,S}
-4    {Cs,O}        0   {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+3    O             U0 L2 {1,S}
+4    {Cs,O}        U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -833,14 +833,14 @@ u"""
 )
 
 entry(
-    index = 47,
-    label = "C_rad/TwoDe",
+    index        = 47,
+    label        = "C_rad/TwoDe",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 0 {1,S}
-4    {Cs,O}        0   {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+4    {Cs,O}        U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -851,14 +851,14 @@ u"""
 )
 
 entry(
-    index = 48,
-    label = "C_rad/TD_Cs",
+    index        = 48,
+    label        = "C_rad/TD_Cs",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 0 {1,S}
-4    Cs            0 0 {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+4    Cs            U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -869,14 +869,14 @@ u"""
 )
 
 entry(
-    index = 49,
-    label = "C_rad/TDMustO",
+    index        = 49,
+    label        = "C_rad/TDMustO",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 0 {1,S}
-4    O             0 2 {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+4    O             U0 L2 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -887,14 +887,14 @@ u"""
 )
 
 entry(
-    index = 50,
-    label = "C_rad/ThreeDe",
+    index        = 50,
+    label        = "C_rad/ThreeDe",
     group = 
 """
-1 *2 C             1 0 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 0 {1,S}
+1 *2 C             U1 L0 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 L0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 L0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -961,10 +961,11 @@ L1: Y_rad
 
 forbidden(
     label = "O2_birad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 O 1 2 {2,S}
-2    O 1 2 {1,S}
+1 *2 O U1 L2 {2,S}
+2    O U1 L2 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 

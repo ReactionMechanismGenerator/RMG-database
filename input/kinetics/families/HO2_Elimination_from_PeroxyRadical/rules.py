@@ -11,15 +11,15 @@ or in a section(s) titled 'General'
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 """
 entry(
-    index = 835,
-    label = "R2OO",
+    index        = 835,
+    label        = "R2OO",
     group1 = 
 """
-1 *1 {C,Si,O} 0 {2,S} {5,S}
-2 *2 {C,Si}   0 {1,S} {3,S}
-3 *3 O        0 {2,S} {4,S}
-4 *4 O        1 {3,S}
-5 *5 H        0 {1,S}
+1 *1 {C,Si,O} U0 {2,S} {5,S}
+2 *2 {C,Si}   U0 {1,S} {3,S}
+3 *3 O        U0 {2,S} {4,S}
+4 *4 O        U1 {3,S}
+5 *5 H        U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (10000000000.0, 's^-1'),
@@ -38,19 +38,19 @@ u"""
 )
 
 entry(
-    index = 836,
-    label = "R2OO_2H_2H",
+    index        = 836,
+    label        = "R2OO_2H_2H",
     group1 = 
 """
-1 *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+1 *1 C U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O U0 {2,S} {4,S}
+4 *4 O U1 {3,S}
+5 *5 H U0 {1,S}
+6    H U0 {1,S}
+7    H U0 {1,S}
+8    H U0 {2,S}
+9    H U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (15600000.0, 's^-1'),
@@ -69,19 +69,19 @@ u"""
 )
 
 entry(
-    index = 837,
-    label = "R2OO_HNd_2H",
+    index        = 837,
+    label        = "R2OO_HNd_2H",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    H      0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    H      U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (47900000.0, 's^-1'),
@@ -100,19 +100,19 @@ u"""
 )
 
 entry(
-    index = 838,
-    label = "R2OO_NdNd_2H",
+    index        = 838,
+    label        = "R2OO_NdNd_2H",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    H      0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    H      U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (506000000.0, 's^-1'),
@@ -131,19 +131,19 @@ u"""
 )
 
 entry(
-    index = 839,
-    label = "R2OO_2H_HNd",
+    index        = 839,
+    label        = "R2OO_2H_HNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    H      0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    H      U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (979000000.0, 's^-1'),
@@ -162,19 +162,19 @@ u"""
 )
 
 entry(
-    index = 840,
-    label = "R2OO_HNd_HNd",
+    index        = 840,
+    label        = "R2OO_HNd_HNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (1650000000.0, 's^-1'),
@@ -193,19 +193,19 @@ u"""
 )
 
 entry(
-    index = 841,
-    label = "R2OO_NdNd_HNd",
+    index        = 841,
+    label        = "R2OO_NdNd_HNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (64800000000.0, 's^-1'),
@@ -224,19 +224,19 @@ u"""
 )
 
 entry(
-    index = 842,
-    label = "R2OO_2H_NdNd",
+    index        = 842,
+    label        = "R2OO_2H_NdNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    H      0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    H      U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (7480000000.0, 's^-1'),
@@ -255,19 +255,19 @@ u"""
 )
 
 entry(
-    index = 843,
-    label = "R2OO_HNd_NdNd",
+    index        = 843,
+    label        = "R2OO_HNd_NdNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (811000000000000.0, 's^-1'),
@@ -286,19 +286,19 @@ u"""
 )
 
 entry(
-    index = 844,
-    label = "R2OO_NdNd_NdNd",
+    index        = 844,
+    label        = "R2OO_NdNd_NdNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.1e+19, 's^-1'),
@@ -317,20 +317,20 @@ u"""
 )
 
 entry(
-    index = 845,
-    label = "R2OO_2H_HCd",
+    index        = 845,
+    label        = "R2OO_2H_HCd",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     C 0 {2,S} {10,D}
-10    C 0 {9,D}
+1  *1 C U0 {2,S} {5,S} {6,S} {7,S}
+2  *2 C U0 {1,S} {3,S} {8,S} {9,S}
+3  *3 O U0 {2,S} {4,S}
+4  *4 O U1 {3,S}
+5  *5 H U0 {1,S}
+6     H U0 {1,S}
+7     H U0 {1,S}
+8     H U0 {2,S}
+9     C U0 {2,S} {10,D}
+10    C U0 {9,D}
 """,
     kinetics = ArrheniusEP(
         A = (825300, 's^-1', '*|/', 5),
@@ -365,19 +365,19 @@ three to account for the reaction path degeneracy, yielding the value stored in 
 )
 
 entry(
-    index = 846,
-    label = "R2OO_2H_HDe",
+    index        = 846,
+    label        = "R2OO_2H_HDe",
     group1 = 
 """
-1 *1 C             0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C             0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O             0 {2,S} {4,S}
-4 *4 O             1 {3,S}
-5 *5 H             0 {1,S}
-6    H             0 {1,S}
-7    H             0 {1,S}
-8    H             0 {2,S}
-9    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 C             U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C             U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O             U0 {2,S} {4,S}
+4 *4 O             U1 {3,S}
+5 *5 H             U0 {1,S}
+6    H             U0 {1,S}
+7    H             U0 {1,S}
+8    H             U0 {2,S}
+9    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (825300, 's^-1', '*|/', 5),
@@ -402,17 +402,17 @@ TS (and it is certainly better than leaving RMG to estimate via "Average of Aver
 )
 
 entry(
-    index = 847,
-    label = "R2OO_O_HNd",
+    index        = 847,
+    label        = "R2OO_O_HNd",
     group1 = 
 """
-1 *1 O 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
-6    H 0 {2,S}
-7    C 0 {2,S}
+1 *1 O U0 {2,S} {5,S}
+2 *2 C U0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O U0 {2,S} {4,S}
+4 *4 O U1 {3,S}
+5 *5 H U0 {1,S}
+6    H U0 {2,S}
+7    C U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (68130000000.0, 's^-1', '*|/', 10),
@@ -463,15 +463,15 @@ k(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.
 )
 
 entry(
-    index = 848,
-    label = "R2OO_O",
+    index        = 848,
+    label        = "R2OO_O",
     group1 = 
 """
-1 *1 O 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {3,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
+1 *1 O U0 {2,S} {5,S}
+2 *2 C U0 {1,S} {3,S}
+3 *3 O U0 {2,S} {4,S}
+4 *4 O U1 {3,S}
+5 *5 H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6380000000000.0, 's^-1', '*|/', 5),
@@ -493,19 +493,19 @@ HO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.
 )
 
 entry(
-    index = 849,
-    label = "R2OO_2H_2H",
+    index        = 849,
+    label        = "R2OO_2H_2H",
     group1 = 
 """
-1 *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+1 *1 C U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O U0 {2,S} {4,S}
+4 *4 O U1 {3,S}
+5 *5 H U0 {1,S}
+6    H U0 {1,S}
+7    H U0 {1,S}
+8    H U0 {2,S}
+9    H U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (4840000.0, 's^-1'),
@@ -524,267 +524,19 @@ u"""
 )
 
 entry(
-    index = 850,
-    label = "R2OO_2H_HNd",
+    index        = 849,
+    label        = "R2OO_2H_2H",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    H      0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (136000000.0, 's^-1'),
-        n = 1.28,
-        alpha = 0,
-        E0 = (30, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 851,
-    label = "R2OO_HNd_2H",
-    group1 = 
-"""
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    H      0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (208000000.0, 's^-1'),
-        n = 1.25,
-        alpha = 0,
-        E0 = (29.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 852,
-    label = "R2OO_2H_NdNd",
-    group1 = 
-"""
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    H      0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (36600000000.0, 's^-1'),
-        n = 0.62,
-        alpha = 0,
-        E0 = (30.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 853,
-    label = "R2OO_NdNd_2H",
-    group1 = 
-"""
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    H      0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (194000000.0, 's^-1'),
-        n = 1.27,
-        alpha = 0,
-        E0 = (29.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 855,
-    label = "R2OO_HNd_HNd",
-    group1 = 
-"""
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (108700000000.0, 's^-1'),
-        n = 0.8,
-        alpha = 0,
-        E0 = (29.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""ss ,Multiplied 1.5 to trans rate coefficient , CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 856,
-    label = "R2OO_NdNd_HNd",
-    group1 = 
-"""
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (35000000000.0, 's^-1'),
-        n = 0.71,
-        alpha = 0,
-        E0 = (30.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 857,
-    label = "R2OO_HNd_NdNd",
-    group1 = 
-"""
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (56200000000.0, 's^-1'),
-        n = 0.58,
-        alpha = 0,
-        E0 = (29.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 858,
-    label = "R2OO_NdNd_NdNd",
-    group1 = 
-"""
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (6250000000000.0, 's^-1'),
-        n = 0.02,
-        alpha = 0,
-        E0 = (30.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 849,
-    label = "R2OO_2H_2H",
-    group1 = 
-"""
-1 *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+1 *1 C U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O U0 {2,S} {4,S}
+4 *4 O U1 {3,S}
+5 *5 H U0 {1,S}
+6    H U0 {1,S}
+7    H U0 {1,S}
+8    H U0 {2,S}
+9    H U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (4840000.0, 's^-1'),
@@ -803,19 +555,19 @@ u"""
 )
 
 entry(
-    index = 850,
-    label = "R2OO_2H_HNd",
+    index        = 850,
+    label        = "R2OO_2H_HNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    H      0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    H      U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (136000000.0, 's^-1'),
@@ -834,19 +586,50 @@ u"""
 )
 
 entry(
-    index = 851,
-    label = "R2OO_HNd_2H",
+    index        = 850,
+    label        = "R2OO_2H_HNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    H      0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    H      U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (136000000.0, 's^-1'),
+        n = 1.28,
+        alpha = 0,
+        E0 = (30, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 851,
+    label        = "R2OO_HNd_2H",
+    group1 = 
+"""
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    H      U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (208000000.0, 's^-1'),
@@ -865,19 +648,50 @@ u"""
 )
 
 entry(
-    index = 852,
-    label = "R2OO_2H_NdNd",
+    index        = 851,
+    label        = "R2OO_HNd_2H",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    H      0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    H      U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (208000000.0, 's^-1'),
+        n = 1.25,
+        alpha = 0,
+        E0 = (29.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 852,
+    label        = "R2OO_2H_NdNd",
+    group1 = 
+"""
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    H      U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (36600000000.0, 's^-1'),
@@ -896,19 +710,50 @@ u"""
 )
 
 entry(
-    index = 853,
-    label = "R2OO_NdNd_2H",
+    index        = 852,
+    label        = "R2OO_2H_NdNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    H      0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    H      U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (36600000000.0, 's^-1'),
+        n = 0.62,
+        alpha = 0,
+        E0 = (30.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 853,
+    label        = "R2OO_NdNd_2H",
+    group1 = 
+"""
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    H      U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (194000000.0, 's^-1'),
@@ -927,19 +772,50 @@ u"""
 )
 
 entry(
-    index = 855,
-    label = "R2OO_HNd_HNd",
+    index        = 853,
+    label        = "R2OO_NdNd_2H",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    H      U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (194000000.0, 's^-1'),
+        n = 1.27,
+        alpha = 0,
+        E0 = (29.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 855,
+    label        = "R2OO_HNd_HNd",
+    group1 = 
+"""
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (108700000000.0, 's^-1'),
@@ -958,19 +834,50 @@ u"""
 )
 
 entry(
-    index = 856,
-    label = "R2OO_NdNd_HNd",
+    index        = 855,
+    label        = "R2OO_HNd_HNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    H      0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (108700000000.0, 's^-1'),
+        n = 0.8,
+        alpha = 0,
+        E0 = (29.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""ss ,Multiplied 1.5 to trans rate coefficient , CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 856,
+    label        = "R2OO_NdNd_HNd",
+    group1 = 
+"""
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (35000000000.0, 's^-1'),
@@ -989,19 +896,50 @@ u"""
 )
 
 entry(
-    index = 857,
-    label = "R2OO_HNd_NdNd",
+    index        = 856,
+    label        = "R2OO_NdNd_HNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    H      0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    H      U0 {2,S}
+9    {Cs,O} U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (35000000000.0, 's^-1'),
+        n = 0.71,
+        alpha = 0,
+        E0 = (30.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 857,
+    label        = "R2OO_HNd_NdNd",
+    group1 = 
+"""
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (56200000000.0, 's^-1'),
@@ -1020,19 +958,50 @@ u"""
 )
 
 entry(
-    index = 858,
-    label = "R2OO_NdNd_NdNd",
+    index        = 857,
+    label        = "R2OO_HNd_NdNd",
     group1 = 
 """
-1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
-2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
-3 *3 O      0 {2,S} {4,S}
-4 *4 O      1 {3,S}
-5 *5 H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {1,S}
-8    {Cs,O} 0 {2,S}
-9    {Cs,O} 0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    H      U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (56200000000.0, 's^-1'),
+        n = 0.58,
+        alpha = 0,
+        E0 = (29.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 858,
+    label        = "R2OO_NdNd_NdNd",
+    group1 = 
+"""
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (6250000000000.0, 's^-1'),
@@ -1051,17 +1020,48 @@ u"""
 )
 
 entry(
-    index = 869,
-    label = "R2OO_0H_2H",
+    index        = 858,
+    label        = "R2OO_NdNd_NdNd",
     group1 = 
 """
-1 *1 Cd 0 {2,S} {5,S}
-2 *2 C  0 {1,S} {3,S} {6,S} {7,S}
-3 *3 O  0 {2,S} {4,S}
-4 *4 O  1 {3,S}
-5 *5 H  0 {1,S}
-6    H  0 {2,S}
-7    H  0 {2,S}
+1 *1 C      U0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      U0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      U0 {2,S} {4,S}
+4 *4 O      U1 {3,S}
+5 *5 H      U0 {1,S}
+6    {Cs,O} U0 {1,S}
+7    {Cs,O} U0 {1,S}
+8    {Cs,O} U0 {2,S}
+9    {Cs,O} U0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (6250000000000.0, 's^-1'),
+        n = 0.02,
+        alpha = 0,
+        E0 = (30.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 869,
+    label        = "R2OO_0H_2H",
+    group1 = 
+"""
+1 *1 Cd U0 {2,S} {5,S}
+2 *2 C  U0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O  U0 {2,S} {4,S}
+4 *4 O  U1 {3,S}
+5 *5 H  U0 {1,S}
+6    H  U0 {2,S}
+7    H  U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (3630000000.0, 's^-1'),

@@ -7,20 +7,20 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
-    label = "O-HCs(HHH);HJ",
+    index        = 1,
+    label        = "O-HCs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (39.0416, 'cm^3/(mol*s)'),
@@ -39,20 +39,20 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "O-HCs(CsHH);HJ",
+    index        = 2,
+    label        = "O-HCs(CsHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (5567.88, 'cm^3/(mol*s)'),
@@ -71,20 +71,20 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "O-HCs(CsCsH);HJ",
+    index        = 3,
+    label        = "O-HCs(CsCsH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (114441, 'cm^3/(mol*s)'),
@@ -103,20 +103,20 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "O-HCs(CsCsCs);HJ",
+    index        = 4,
+    label        = "O-HCs(CsCsCs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (12013600.0, 'cm^3/(mol*s)'),
@@ -135,19 +135,19 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "O-HCds(H);HJ",
+    index        = 5,
+    label        = "O-HCds(H);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cd 0 {1,S} {4,D} {5,S}
-4    C  0 {3,D}
-5    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cd U0 {1,S} {4,D} {5,S}
+4    C  U0 {3,D}
+5    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (211470, 'cm^3/(mol*s)'),
@@ -166,19 +166,19 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "O-HCds(Cs);HJ",
+    index        = 6,
+    label        = "O-HCds(Cs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cd 0 {1,S} {4,D} {5,S}
-4    C  0 {3,D}
-5    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cd U0 {1,S} {4,D} {5,S}
+4    C  U0 {3,D}
+5    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (1770540.0, 'cm^3/(mol*s)'),
@@ -197,20 +197,20 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "O-HCs(CdHH);HJ",
+    index        = 7,
+    label        = "O-HCs(CdHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (8.34234, 'cm^3/(mol*s)'),
@@ -229,20 +229,20 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "O-HCs(CdCsH);HJ",
+    index        = 8,
+    label        = "O-HCs(CdCsH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (86.3518, 'cm^3/(mol*s)'),
@@ -261,20 +261,20 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "O-HCs(CdCsCs);HJ",
+    index        = 9,
+    label        = "O-HCs(CdCsCs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (61645, 'cm^3/(mol*s)'),
@@ -293,20 +293,20 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "O-HCs(CtHH);HJ",
+    index        = 10,
+    label        = "O-HCs(CtHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Ct 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Ct U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (389.816, 'cm^3/(mol*s)'),
@@ -325,20 +325,20 @@ u"""
 )
 
 entry(
-    index = 11,
-    label = "O-HCs(CtCsH);HJ",
+    index        = 11,
+    label        = "O-HCs(CtCsH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Ct 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Ct U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (135928, 'cm^3/(mol*s)'),
@@ -357,20 +357,20 @@ u"""
 )
 
 entry(
-    index = 12,
-    label = "O-HCs(CtCsCs);HJ",
+    index        = 12,
+    label        = "O-HCs(CtCsCs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Ct 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Ct U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (178246, 'cm^3/(mol*s)'),
@@ -389,23 +389,23 @@ u"""
 )
 
 entry(
-    index = 13,
-    label = "O-Cs(HHH)Cs(HHH);HJ",
+    index        = 13,
+    label        = "O-Cs(HHH)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (33825, 'cm^3/(mol*s)'),
@@ -424,23 +424,23 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "O-Cs(HHH)Cs(CsHH);HJ",
+    index        = 14,
+    label        = "O-Cs(HHH)Cs(CsHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    Cs 0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    Cs U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (552923, 'cm^3/(mol*s)'),
@@ -459,23 +459,23 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "O-Cs(HHH)Cs(CsCsH);HJ",
+    index        = 15,
+    label        = "O-Cs(HHH)Cs(CsCsH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    Cs 0 {2,S}
-5    Cs 0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    Cs U0 {2,S}
+5    Cs U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (7919.31, 'cm^3/(mol*s)'),
@@ -494,23 +494,23 @@ u"""
 )
 
 entry(
-    index = 16,
-    label = "O-Cs(HHH)Cs(CsCsCs);HJ",
+    index        = 16,
+    label        = "O-Cs(HHH)Cs(CsCsCs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    Cs 0 {2,S}
-5    Cs 0 {2,S}
-6    Cs 0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    Cs U0 {2,S}
+5    Cs U0 {2,S}
+6    Cs U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (5310.83, 'cm^3/(mol*s)'),
@@ -529,22 +529,22 @@ u"""
 )
 
 entry(
-    index = 17,
-    label = "O-Cs(HHH)Cds(H);HJ",
+    index        = 17,
+    label        = "O-Cs(HHH)Cds(H);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cd 0 {1,S} {4,D} {5,S}
-3    Cs 0 {1,S} {6,S} {7,S} {8,S}
-4    C  0 {2,D}
-5    H  0 {2,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cd U0 {1,S} {4,D} {5,S}
+3    Cs U0 {1,S} {6,S} {7,S} {8,S}
+4    C  U0 {2,D}
+5    H  U0 {2,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (5843820000.0, 'cm^3/(mol*s)'),
@@ -563,22 +563,22 @@ u"""
 )
 
 entry(
-    index = 18,
-    label = "O-Cs(HHH)Cds(Cs);HJ",
+    index        = 18,
+    label        = "O-Cs(HHH)Cds(Cs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cd 0 {1,S} {4,D} {5,S}
-3    Cs 0 {1,S} {6,S} {7,S} {8,S}
-4    C  0 {2,D}
-5    Cs 0 {2,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cd U0 {1,S} {4,D} {5,S}
+3    Cs U0 {1,S} {6,S} {7,S} {8,S}
+4    C  U0 {2,D}
+5    Cs U0 {2,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (201997000000.0, 'cm^3/(mol*s)'),
@@ -597,23 +597,23 @@ u"""
 )
 
 entry(
-    index = 19,
-    label = "O-Cs(HHH)Cs(CdHH);HJ",
+    index        = 19,
+    label        = "O-Cs(HHH)Cs(CdHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Cd 0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Cd U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (0.271178, 'cm^3/(mol*s)'),
@@ -632,23 +632,23 @@ u"""
 )
 
 entry(
-    index = 20,
-    label = "O-Cs(HHH)Cs(CdCsH);HJ",
+    index        = 20,
+    label        = "O-Cs(HHH)Cs(CdCsH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Cd 0 {3,S}
-8    Cs 0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Cd U0 {3,S}
+8    Cs U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (39.8648, 'cm^3/(mol*s)'),
@@ -667,23 +667,23 @@ u"""
 )
 
 entry(
-    index = 21,
-    label = "O-Cs(HHH)Cs(CdCsCs);HJ",
+    index        = 21,
+    label        = "O-Cs(HHH)Cs(CdCsCs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Cd 0 {3,S}
-8    Cs 0 {3,S}
-9    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Cd U0 {3,S}
+8    Cs U0 {3,S}
+9    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (7.27488, 'cm^3/(mol*s)'),
@@ -702,23 +702,23 @@ u"""
 )
 
 entry(
-    index = 22,
-    label = "O-Cs(HHH)Cs(CtHH);HJ",
+    index        = 22,
+    label        = "O-Cs(HHH)Cs(CtHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Ct 0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Ct U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (74.6326, 'cm^3/(mol*s)'),
@@ -737,23 +737,23 @@ u"""
 )
 
 entry(
-    index = 23,
-    label = "O-Cs(HHH)Cs(CtCsH);HJ",
+    index        = 23,
+    label        = "O-Cs(HHH)Cs(CtCsH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Ct 0 {3,S}
-8    Cs 0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Ct U0 {3,S}
+8    Cs U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (2084.17, 'cm^3/(mol*s)'),
@@ -772,23 +772,23 @@ u"""
 )
 
 entry(
-    index = 24,
-    label = "O-Cs(HHH)Cs(CtCsCs);HJ",
+    index        = 24,
+    label        = "O-Cs(HHH)Cs(CtCsCs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Ct 0 {3,S}
-8    Cs 0 {3,S}
-9    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Ct U0 {3,S}
+8    Cs U0 {3,S}
+9    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (3599.97, 'cm^3/(mol*s)'),
@@ -807,23 +807,23 @@ u"""
 )
 
 entry(
-    index = 26,
-    label = "O-Cs(CsHH)Cs(HHH);HJ",
+    index        = 26,
+    label        = "O-Cs(CsHH)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    Cs 0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    Cs U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (8855.14, 'cm^3/(mol*s)'),
@@ -842,23 +842,23 @@ u"""
 )
 
 entry(
-    index = 27,
-    label = "O-Cs(CsCsH)Cs(HHH);HJ",
+    index        = 27,
+    label        = "O-Cs(CsCsH)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    Cs 0 {2,S}
-5    Cs 0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    Cs U0 {2,S}
+5    Cs U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (4.31229, 'cm^3/(mol*s)'),
@@ -877,23 +877,23 @@ u"""
 )
 
 entry(
-    index = 28,
-    label = "O-Cs(CsCsCs)Cs(HHH);HJ",
+    index        = 28,
+    label        = "O-Cs(CsCsCs)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3 *2 Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    Cs 0 {2,S}
-5    Cs 0 {2,S}
-6    Cs 0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3 *2 Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    Cs U0 {2,S}
+5    Cs U0 {2,S}
+6    Cs U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (1.02268, 'cm^3/(mol*s)'),
@@ -912,22 +912,22 @@ u"""
 )
 
 entry(
-    index = 29,
-    label = "O-Cds(H)Cs(HHH);HJ",
+    index        = 29,
+    label        = "O-Cds(H)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cd 0 {1,S} {4,D} {5,S}
-3 *2 Cs 0 {1,S} {6,S} {7,S} {8,S}
-4    C  0 {2,D}
-5    H  0 {2,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cd U0 {1,S} {4,D} {5,S}
+3 *2 Cs U0 {1,S} {6,S} {7,S} {8,S}
+4    C  U0 {2,D}
+5    H  U0 {2,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (20.283, 'cm^3/(mol*s)'),
@@ -946,22 +946,22 @@ u"""
 )
 
 entry(
-    index = 30,
-    label = "O-Cds(Cs)Cs(HHH);HJ",
+    index        = 30,
+    label        = "O-Cds(Cs)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Cd 0 {1,S} {4,D} {5,S}
-3 *2 Cs 0 {1,S} {6,S} {7,S} {8,S}
-4    C  0 {2,D}
-5    Cs 0 {2,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Cd U0 {1,S} {4,D} {5,S}
+3 *2 Cs U0 {1,S} {6,S} {7,S} {8,S}
+4    C  U0 {2,D}
+5    Cs U0 {2,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (12.5685, 'cm^3/(mol*s)'),
@@ -980,23 +980,23 @@ u"""
 )
 
 entry(
-    index = 31,
-    label = "O-Cs(CdHH)Cs(HHH);HJ",
+    index        = 31,
+    label        = "O-Cs(CdHH)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Cd 0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Cd U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (131.885, 'cm^3/(mol*s)'),
@@ -1015,23 +1015,23 @@ u"""
 )
 
 entry(
-    index = 32,
-    label = "O-Cs(CdCsH)Cs(HHH);HJ",
+    index        = 32,
+    label        = "O-Cs(CdCsH)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Cd 0 {3,S}
-8    Cs 0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Cd U0 {3,S}
+8    Cs U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (0.0459721, 'cm^3/(mol*s)'),
@@ -1050,23 +1050,23 @@ u"""
 )
 
 entry(
-    index = 33,
-    label = "O-Cs(CdCsCs)Cs(HHH);HJ",
+    index        = 33,
+    label        = "O-Cs(CdCsCs)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Cd 0 {3,S}
-8    Cs 0 {3,S}
-9    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Cd U0 {3,S}
+8    Cs U0 {3,S}
+9    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (0.000646694, 'cm^3/(mol*s)'),
@@ -1085,23 +1085,23 @@ u"""
 )
 
 entry(
-    index = 35,
-    label = "O-Cs(CtCsH)Cs(HHH);HJ",
+    index        = 35,
+    label        = "O-Cs(CtCsH)Cs(HHH);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    Ct 0 {3,S}
-8    Cs 0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    Ct U0 {3,S}
+8    Cs U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (0.731898, 'cm^3/(mol*s)'),
@@ -1120,23 +1120,23 @@ u"""
 )
 
 entry(
-    index = 37,
-    label = "O-HCs(HHH);CsJ-HHH",
+    index        = 37,
+    label        = "O-HCs(HHH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (11.2231, 'cm^3/(mol*s)'),
@@ -1155,23 +1155,23 @@ u"""
 )
 
 entry(
-    index = 38,
-    label = "O-HCs(CsHH);CsJ-HHH",
+    index        = 38,
+    label        = "O-HCs(CsHH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (39.3494, 'cm^3/(mol*s)'),
@@ -1190,23 +1190,23 @@ u"""
 )
 
 entry(
-    index = 39,
-    label = "O-HCs(CsCsH);CsJ-HHH",
+    index        = 39,
+    label        = "O-HCs(CsCsH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1798.65, 'cm^3/(mol*s)'),
@@ -1225,23 +1225,23 @@ u"""
 )
 
 entry(
-    index = 40,
-    label = "O-HCs(CsCsCs);CsJ-HHH",
+    index        = 40,
+    label        = "O-HCs(CsCsCs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (747648, 'cm^3/(mol*s)'),
@@ -1260,22 +1260,22 @@ u"""
 )
 
 entry(
-    index = 41,
-    label = "O-HCds(H);CsJ-HHH",
+    index        = 41,
+    label        = "O-HCds(H);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cd 0 {1,S} {4,D} {5,S}
-4    C  0 {3,D}
-5    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cd U0 {1,S} {4,D} {5,S}
+4    C  U0 {3,D}
+5    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3250.38, 'cm^3/(mol*s)'),
@@ -1294,22 +1294,22 @@ u"""
 )
 
 entry(
-    index = 42,
-    label = "O-HCds(Cs);CsJ-HHH",
+    index        = 42,
+    label        = "O-HCds(Cs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cd 0 {1,S} {4,D} {5,S}
-4    C  0 {3,D}
-5    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cd U0 {1,S} {4,D} {5,S}
+4    C  U0 {3,D}
+5    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3518130.0, 'cm^3/(mol*s)'),
@@ -1328,23 +1328,23 @@ u"""
 )
 
 entry(
-    index = 43,
-    label = "O-HCs(CdHH);CsJ-HHH",
+    index        = 43,
+    label        = "O-HCs(CdHH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.0537217, 'cm^3/(mol*s)'),
@@ -1363,23 +1363,23 @@ u"""
 )
 
 entry(
-    index = 44,
-    label = "O-HCs(CdCsH);CsJ-HHH",
+    index        = 44,
+    label        = "O-HCs(CdCsH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.29521e-08, 'cm^3/(mol*s)'),
@@ -1398,23 +1398,23 @@ u"""
 )
 
 entry(
-    index = 45,
-    label = "O-HCs(CdCsCs);CsJ-HHH",
+    index        = 45,
+    label        = "O-HCs(CdCsCs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.49022e-09, 'cm^3/(mol*s)'),
@@ -1433,23 +1433,23 @@ u"""
 )
 
 entry(
-    index = 46,
-    label = "O-HCs(CtHH);CsJ-HHH",
+    index        = 46,
+    label        = "O-HCs(CtHH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Ct 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Ct U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (401.198, 'cm^3/(mol*s)'),
@@ -1468,23 +1468,23 @@ u"""
 )
 
 entry(
-    index = 47,
-    label = "O-HCs(CtCsH);CsJ-HHH",
+    index        = 47,
+    label        = "O-HCs(CtCsH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Ct 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Ct U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2115.14, 'cm^3/(mol*s)'),
@@ -1503,23 +1503,23 @@ u"""
 )
 
 entry(
-    index = 48,
-    label = "O-HCs(CtCsCs);CsJ-HHH",
+    index        = 48,
+    label        = "O-HCs(CtCsCs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Ct 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Ct U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (76057.9, 'cm^3/(mol*s)'),
@@ -1538,18 +1538,18 @@ u"""
 )
 
 entry(
-    index = 51,
-    label = "O-HOs(H);HJ",
+    index        = 51,
+    label        = "O-HOs(H);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Os 0 {1,S} {4,S}
-4    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Os U0 {1,S} {4,S}
+4    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (128437000.0, 'cm^3/(mol*s)'),
@@ -1568,21 +1568,21 @@ u"""
 )
 
 entry(
-    index = 52,
-    label = "O-Cs(HHH)Os(H);HJ",
+    index        = 52,
+    label        = "O-Cs(HHH)Os(H);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {4,S}
-3    Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    H  0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {4,S}
+3    Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    H  U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (8010170.0, 'cm^3/(mol*s)'),
@@ -1601,18 +1601,18 @@ u"""
 )
 
 entry(
-    index = 53,
-    label = "O-HOs(Cs);HJ",
+    index        = 53,
+    label        = "O-HOs(Cs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (65906100.0, 'cm^3/(mol*s)'),
@@ -1631,21 +1631,21 @@ u"""
 )
 
 entry(
-    index = 54,
-    label = "O-Cs(HHH)Os(Cs);HJ",
+    index        = 54,
+    label        = "O-Cs(HHH)Os(Cs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {4,S}
-3    Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    Cs 0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {4,S}
+3    Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    Cs U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (70275100000.0, 'cm^3/(mol*s)'),
@@ -1664,21 +1664,21 @@ u"""
 )
 
 entry(
-    index = 55,
-    label = "O-HOs(H);CsJ-HHH",
+    index        = 55,
+    label        = "O-HOs(H);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Os 0 {1,S} {4,S}
-4    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Os U0 {1,S} {4,S}
+4    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (44559.9, 'cm^3/(mol*s)'),
@@ -1697,21 +1697,21 @@ u"""
 )
 
 entry(
-    index = 56,
-    label = "O-HOs(Cs);CsJ-HHH",
+    index        = 56,
+    label        = "O-HOs(Cs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (26526.7, 'cm^3/(mol*s)'),
@@ -1730,24 +1730,24 @@ u"""
 )
 
 entry(
-    index = 57,
-    label = "O-Cs(HHH)Os(H);CsJ-HHH",
+    index        = 57,
+    label        = "O-Cs(HHH)Os(H);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {4,S}
-3    Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    H  0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {4,S}
+3    Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    H  U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (20989.5, 'cm^3/(mol*s)'),
@@ -1766,24 +1766,24 @@ u"""
 )
 
 entry(
-    index = 58,
-    label = "O-Cs(HHH)Os(Cs);CsJ-HHH",
+    index        = 58,
+    label        = "O-Cs(HHH)Os(Cs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {4,S}
-3    Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    Cs 0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {4,S}
+3    Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    Cs U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (12996000.0, 'cm^3/(mol*s)'),
@@ -1802,19 +1802,19 @@ u"""
 )
 
 entry(
-    index = 59,
-    label = "O-Os(H)Os(H);HJ",
+    index        = 59,
+    label        = "O-Os(H)Os(H);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {5,S}
-3    Os 0 {1,S} {4,S}
-4    H  0 {3,S}
-5    H  0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {5,S}
+3    Os U0 {1,S} {4,S}
+4    H  U0 {3,S}
+5    H  U0 {2,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (3737720.0, 'cm^3/(mol*s)'),
@@ -1833,18 +1833,18 @@ u"""
 )
 
 entry(
-    index = 60,
-    label = "O-HOs(Os);HJ",
+    index        = 60,
+    label        = "O-HOs(Os);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Os 0 {1,S} {4,S}
-4    Os 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Os U0 {1,S} {4,S}
+4    Os U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (717266000.0, 'cm^3/(mol*s)'),
@@ -1863,19 +1863,19 @@ u"""
 )
 
 entry(
-    index = 61,
-    label = "O-Os(Cs)Os(H);HJ",
+    index        = 61,
+    label        = "O-Os(Cs)Os(H);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {5,S}
-3    Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
-5    H  0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {5,S}
+3    Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
+5    H  U0 {2,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (2950510.0, 'cm^3/(mol*s)'),
@@ -1894,21 +1894,21 @@ u"""
 )
 
 entry(
-    index = 62,
-    label = "O-Cs(HHH)Os(Os);HJ",
+    index        = 62,
+    label        = "O-Cs(HHH)Os(Os);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {4,S}
-3    Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    Os 0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {4,S}
+3    Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    Os U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (95652900.0, 'cm^3/(mol*s)'),
@@ -1927,19 +1927,19 @@ u"""
 )
 
 entry(
-    index = 64,
-    label = "O-Os(H)Os(Cs);HJ",
+    index        = 64,
+    label        = "O-Os(H)Os(Cs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Os 0 {1,S} {5,S}
-3 *2 Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
-5    H  0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Os U0 {1,S} {5,S}
+3 *2 Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
+5    H  U0 {2,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (1240900.0, 'cm^3/(mol*s)'),
@@ -1958,19 +1958,19 @@ u"""
 )
 
 entry(
-    index = 67,
-    label = "O-Os(Cs)Os(Cs);HJ",
+    index        = 67,
+    label        = "O-Os(Cs)Os(Cs);HJ",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {5,S}
-3    Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
-5    Cs 0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {5,S}
+3    Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
+5    Cs U0 {2,S}
 """,
     group2 = 
 """
-1 *3 H 1
+1 *3 H U1
 """,
     kinetics = ArrheniusEP(
         A = (7954240.0, 'cm^3/(mol*s)'),
@@ -1989,22 +1989,22 @@ u"""
 )
 
 entry(
-    index = 69,
-    label = "O-Os(H)Os(H);CsJ-HHH",
+    index        = 69,
+    label        = "O-Os(H)Os(H);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {5,S}
-3    Os 0 {1,S} {4,S}
-4    H  0 {3,S}
-5    H  0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {5,S}
+3    Os U0 {1,S} {4,S}
+4    H  U0 {3,S}
+5    H  U0 {2,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1119.49, 'cm^3/(mol*s)'),
@@ -2023,21 +2023,21 @@ u"""
 )
 
 entry(
-    index = 70,
-    label = "O-HOs(Os);CsJ-HHH",
+    index        = 70,
+    label        = "O-HOs(Os);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Os 0 {1,S} {4,S}
-4    Os 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Os U0 {1,S} {4,S}
+4    Os U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (17942.7, 'cm^3/(mol*s)'),
@@ -2056,22 +2056,22 @@ u"""
 )
 
 entry(
-    index = 71,
-    label = "O-Os(H)Os(Cs);CsJ-HHH",
+    index        = 71,
+    label        = "O-Os(H)Os(Cs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Os 0 {1,S} {5,S}
-3 *2 Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
-5    H  0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Os U0 {1,S} {5,S}
+3 *2 Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
+5    H  U0 {2,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (152659, 'cm^3/(mol*s)'),
@@ -2090,24 +2090,24 @@ u"""
 )
 
 entry(
-    index = 72,
-    label = "O-Cs(HHH)Os(Os);CsJ-HHH",
+    index        = 72,
+    label        = "O-Cs(HHH)Os(Os);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {4,S}
-3    Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    Os 0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {4,S}
+3    Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    Os U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (101433, 'cm^3/(mol*s)'),
@@ -2126,22 +2126,22 @@ u"""
 )
 
 entry(
-    index = 73,
-    label = "O-Os(Cs)Os(H);CsJ-HHH",
+    index        = 73,
+    label        = "O-Os(Cs)Os(H);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {5,S}
-3    Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
-5    H  0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {5,S}
+3    Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
+5    H  U0 {2,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (26016.1, 'cm^3/(mol*s)'),
@@ -2160,22 +2160,22 @@ u"""
 )
 
 entry(
-    index = 75,
-    label = "O-Os(Cs)Os(Cs);CsJ-HHH",
+    index        = 75,
+    label        = "O-Os(Cs)Os(Cs);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Os 0 {1,S} {5,S}
-3    Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
-5    Cs 0 {2,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Os U0 {1,S} {5,S}
+3    Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
+5    Cs U0 {2,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (98402.5, 'cm^3/(mol*s)'),
@@ -2194,20 +2194,20 @@ u"""
 )
 
 entry(
-    index = 77,
-    label = "O-HH;CsJ-HHH",
+    index        = 77,
+    label        = "O-HH;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.00708537, 'cm^3/(mol*s)'),
@@ -2226,20 +2226,20 @@ u"""
 )
 
 entry(
-    index = 78,
-    label = "O-HH;CsJ-CsHH",
+    index        = 78,
+    label        = "O-HH;CsJ-CsHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.452921, 'cm^3/(mol*s)'),
@@ -2258,20 +2258,20 @@ u"""
 )
 
 entry(
-    index = 79,
-    label = "O-HH;CsJ-CsCsH",
+    index        = 79,
+    label        = "O-HH;CsJ-CsCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.40815e-05, 'cm^3/(mol*s)'),
@@ -2290,20 +2290,20 @@ u"""
 )
 
 entry(
-    index = 80,
-    label = "O-HH;CsJ-CsCsCs",
+    index        = 80,
+    label        = "O-HH;CsJ-CsCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.87045e-06, 'cm^3/(mol*s)'),
@@ -2322,19 +2322,19 @@ u"""
 )
 
 entry(
-    index = 81,
-    label = "O-HH;CdsJ-H",
+    index        = 81,
+    label        = "O-HH;CdsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,D} {3,S}
-2    C 0 {1,D}
-3    H 0 {1,S}
+1 *3 C U1 {2,D} {3,S}
+2    C U0 {1,D}
+3    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.0147515, 'cm^3/(mol*s)'),
@@ -2353,19 +2353,19 @@ u"""
 )
 
 entry(
-    index = 82,
-    label = "O-HH;CdsJ-Cs",
+    index        = 82,
+    label        = "O-HH;CdsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,D} {3,S}
-2    C  0 {1,D}
-3    Cs 0 {1,S}
+1 *3 C  U1 {2,D} {3,S}
+2    C  U0 {1,D}
+3    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.014133, 'cm^3/(mol*s)'),
@@ -2384,21 +2384,21 @@ u"""
 )
 
 entry(
-    index = 83,
-    label = "O-HH;CsJ-CdHH",
+    index        = 83,
+    label        = "O-HH;CsJ-CdHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (0.000337211, 'cm^3/(mol*s)'),
@@ -2417,21 +2417,21 @@ u"""
 )
 
 entry(
-    index = 84,
-    label = "O-HH;CsJ-CdCsH",
+    index        = 84,
+    label        = "O-HH;CsJ-CdCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (0.000106961, 'cm^3/(mol*s)'),
@@ -2450,21 +2450,21 @@ u"""
 )
 
 entry(
-    index = 85,
-    label = "O-HH;CsJ-CdCsCs",
+    index        = 85,
+    label        = "O-HH;CsJ-CdCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (5.39936e-06, 'cm^3/(mol*s)'),
@@ -2483,20 +2483,20 @@ u"""
 )
 
 entry(
-    index = 86,
-    label = "O-HH;CsJ-CtHH",
+    index        = 86,
+    label        = "O-HH;CsJ-CtHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.000900586, 'cm^3/(mol*s)'),
@@ -2515,20 +2515,20 @@ u"""
 )
 
 entry(
-    index = 87,
-    label = "O-HH;CsJ-CtCsH",
+    index        = 87,
+    label        = "O-HH;CsJ-CtCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.000266769, 'cm^3/(mol*s)'),
@@ -2547,20 +2547,20 @@ u"""
 )
 
 entry(
-    index = 88,
-    label = "O-HH;CsJ-CtCsCs",
+    index        = 88,
+    label        = "O-HH;CsJ-CtCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (9.15707e-07, 'cm^3/(mol*s)'),
@@ -2579,23 +2579,23 @@ u"""
 )
 
 entry(
-    index = 89,
-    label = "O-Cs(HHH)H;CsJ-HHH",
+    index        = 89,
+    label        = "O-Cs(HHH)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.02386e-06, 'cm^3/(mol*s)'),
@@ -2614,23 +2614,23 @@ u"""
 )
 
 entry(
-    index = 90,
-    label = "O-Cs(HHH)H;CsJ-CsHH",
+    index        = 90,
+    label        = "O-Cs(HHH)H;CsJ-CsHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.43164e-05, 'cm^3/(mol*s)'),
@@ -2649,23 +2649,23 @@ u"""
 )
 
 entry(
-    index = 91,
-    label = "O-Cs(HHH)H;CsJ-CsCsH",
+    index        = 91,
+    label        = "O-Cs(HHH)H;CsJ-CsCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.62031e-09, 'cm^3/(mol*s)'),
@@ -2684,23 +2684,23 @@ u"""
 )
 
 entry(
-    index = 92,
-    label = "O-Cs(HHH)H;CsJ-CsCsCs",
+    index        = 92,
+    label        = "O-Cs(HHH)H;CsJ-CsCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.95558e-11, 'cm^3/(mol*s)'),
@@ -2719,22 +2719,22 @@ u"""
 )
 
 entry(
-    index = 93,
-    label = "O-Cs(HHH)H;CdsJ-H",
+    index        = 93,
+    label        = "O-Cs(HHH)H;CdsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,D} {3,S}
-2    C 0 {1,D}
-3    H 0 {1,S}
+1 *3 C U1 {2,D} {3,S}
+2    C U0 {1,D}
+3    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.0166055, 'cm^3/(mol*s)'),
@@ -2753,22 +2753,22 @@ u"""
 )
 
 entry(
-    index = 94,
-    label = "O-Cs(HHH)H;CdsJ-Cs",
+    index        = 94,
+    label        = "O-Cs(HHH)H;CdsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,D} {3,S}
-2    C  0 {1,D}
-3    Cs 0 {1,S}
+1 *3 C  U1 {2,D} {3,S}
+2    C  U0 {1,D}
+3    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.00341995, 'cm^3/(mol*s)'),
@@ -2787,24 +2787,24 @@ u"""
 )
 
 entry(
-    index = 95,
-    label = "O-Cs(HHH)H;CsJ-CdHH",
+    index        = 95,
+    label        = "O-Cs(HHH)H;CsJ-CdHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (1.76802e-08, 'cm^3/(mol*s)'),
@@ -2823,24 +2823,24 @@ u"""
 )
 
 entry(
-    index = 96,
-    label = "O-Cs(HHH)H;CsJ-CdCsH",
+    index        = 96,
+    label        = "O-Cs(HHH)H;CsJ-CdCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (1.44203e-07, 'cm^3/(mol*s)'),
@@ -2859,24 +2859,24 @@ u"""
 )
 
 entry(
-    index = 97,
-    label = "O-Cs(HHH)H;CsJ-CdCsCs",
+    index        = 97,
+    label        = "O-Cs(HHH)H;CsJ-CdCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (2.78109e-13, 'cm^3/(mol*s)'),
@@ -2895,23 +2895,23 @@ u"""
 )
 
 entry(
-    index = 98,
-    label = "O-Cs(HHH)H;CsJ-CtHH",
+    index        = 98,
+    label        = "O-Cs(HHH)H;CsJ-CtHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.01409e-07, 'cm^3/(mol*s)'),
@@ -2930,23 +2930,23 @@ u"""
 )
 
 entry(
-    index = 99,
-    label = "O-Cs(HHH)H;CsJ-CtCsH",
+    index        = 99,
+    label        = "O-Cs(HHH)H;CsJ-CtCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.75102e-08, 'cm^3/(mol*s)'),
@@ -2965,23 +2965,23 @@ u"""
 )
 
 entry(
-    index = 100,
-    label = "O-Cs(HHH)H;CsJ-CtCsCs",
+    index        = 100,
+    label        = "O-Cs(HHH)H;CsJ-CtCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.82635e-11, 'cm^3/(mol*s)'),
@@ -3000,23 +3000,23 @@ u"""
 )
 
 entry(
-    index = 102,
-    label = "O-Cs(CsHH)H;CsJ-HHH",
+    index        = 102,
+    label        = "O-Cs(CsHH)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.01263e-06, 'cm^3/(mol*s)'),
@@ -3035,23 +3035,23 @@ u"""
 )
 
 entry(
-    index = 103,
-    label = "O-Cs(CsCsH)H;CsJ-HHH",
+    index        = 103,
+    label        = "O-Cs(CsCsH)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.23057e-06, 'cm^3/(mol*s)'),
@@ -3070,23 +3070,23 @@ u"""
 )
 
 entry(
-    index = 104,
-    label = "O-Cs(CsCsCs)H;CsJ-HHH",
+    index        = 104,
+    label        = "O-Cs(CsCsCs)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cs 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cs U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.02826e-06, 'cm^3/(mol*s)'),
@@ -3105,22 +3105,22 @@ u"""
 )
 
 entry(
-    index = 105,
-    label = "O-Cds(H)H;CsJ-HHH",
+    index        = 105,
+    label        = "O-Cds(H)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cd 0 {1,S} {4,D} {5,S}
-4    C  0 {3,D}
-5    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cd U0 {1,S} {4,D} {5,S}
+4    C  U0 {3,D}
+5    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.49946e-07, 'cm^3/(mol*s)'),
@@ -3139,22 +3139,22 @@ u"""
 )
 
 entry(
-    index = 106,
-    label = "O-Cds(Cs)H;CsJ-HHH",
+    index        = 106,
+    label        = "O-Cds(Cs)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cd 0 {1,S} {4,D} {5,S}
-4    C  0 {3,D}
-5    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cd U0 {1,S} {4,D} {5,S}
+4    C  U0 {3,D}
+5    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.83798e-09, 'cm^3/(mol*s)'),
@@ -3173,23 +3173,23 @@ u"""
 )
 
 entry(
-    index = 107,
-    label = "O-Cs(CdHH)H;CsJ-HHH",
+    index        = 107,
+    label        = "O-Cs(CdHH)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.1701e-05, 'cm^3/(mol*s)'),
@@ -3208,23 +3208,23 @@ u"""
 )
 
 entry(
-    index = 108,
-    label = "O-Cs(CdCsH)H;CsJ-HHH",
+    index        = 108,
+    label        = "O-Cs(CdCsH)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.30403e-08, 'cm^3/(mol*s)'),
@@ -3243,23 +3243,23 @@ u"""
 )
 
 entry(
-    index = 109,
-    label = "O-Cs(CdCsCs)H;CsJ-HHH",
+    index        = 109,
+    label        = "O-Cs(CdCsCs)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Cd 0 {3,S}
-5    Cs 0 {3,S}
-6    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Cd U0 {3,S}
+5    Cs U0 {3,S}
+6    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.76943e-10, 'cm^3/(mol*s)'),
@@ -3278,23 +3278,23 @@ u"""
 )
 
 entry(
-    index = 111,
-    label = "O-Cs(CtCsH)H;CsJ-HHH",
+    index        = 111,
+    label        = "O-Cs(CtCsH)H;CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    Ct 0 {3,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    Ct U0 {3,S}
+5    Cs U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.04813e-07, 'cm^3/(mol*s)'),
@@ -3313,23 +3313,23 @@ u"""
 )
 
 entry(
-    index = 113,
-    label = "O-HCs(HHH);CsJ-HHH",
+    index        = 113,
+    label        = "O-HCs(HHH);CsJ-HHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (11.2231, 'cm^3/(mol*s)'),
@@ -3348,23 +3348,23 @@ u"""
 )
 
 entry(
-    index = 114,
-    label = "O-HCs(HHH);CsJ-CsHH",
+    index        = 114,
+    label        = "O-HCs(HHH);CsJ-CsHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (17.6374, 'cm^3/(mol*s)'),
@@ -3383,23 +3383,23 @@ u"""
 )
 
 entry(
-    index = 115,
-    label = "O-HCs(HHH);CsJ-CsCsH",
+    index        = 115,
+    label        = "O-HCs(HHH);CsJ-CsCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.00208552, 'cm^3/(mol*s)'),
@@ -3418,23 +3418,23 @@ u"""
 )
 
 entry(
-    index = 116,
-    label = "O-HCs(HHH);CsJ-CsCsCs",
+    index        = 116,
+    label        = "O-HCs(HHH);CsJ-CsCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.002356, 'cm^3/(mol*s)'),
@@ -3453,22 +3453,22 @@ u"""
 )
 
 entry(
-    index = 117,
-    label = "O-HCs(HHH);CdsJ-H",
+    index        = 117,
+    label        = "O-HCs(HHH);CdsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C 1 {2,D} {3,S}
-2    C 0 {1,D}
-3    H 0 {1,S}
+1 *3 C U1 {2,D} {3,S}
+2    C U0 {1,D}
+3    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.24935, 'cm^3/(mol*s)'),
@@ -3487,22 +3487,22 @@ u"""
 )
 
 entry(
-    index = 118,
-    label = "O-HCs(HHH);CdsJ-Cs",
+    index        = 118,
+    label        = "O-HCs(HHH);CdsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,D} {3,S}
-2    C  0 {1,D}
-3    Cs 0 {1,S}
+1 *3 C  U1 {2,D} {3,S}
+2    C  U0 {1,D}
+3    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (154.741, 'cm^3/(mol*s)'),
@@ -3521,24 +3521,24 @@ u"""
 )
 
 entry(
-    index = 119,
-    label = "O-HCs(HHH);CsJ-CdHH",
+    index        = 119,
+    label        = "O-HCs(HHH);CsJ-CdHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (0.0119654, 'cm^3/(mol*s)'),
@@ -3557,24 +3557,24 @@ u"""
 )
 
 entry(
-    index = 120,
-    label = "O-HCs(HHH);CsJ-CdCsH",
+    index        = 120,
+    label        = "O-HCs(HHH);CsJ-CdCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (8.84018e-11, 'cm^3/(mol*s)'),
@@ -3593,24 +3593,24 @@ u"""
 )
 
 entry(
-    index = 121,
-    label = "O-HCs(HHH);CsJ-CdCsCs",
+    index        = 121,
+    label        = "O-HCs(HHH);CsJ-CdCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cd 0 {1,S} {5,D}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-5    C  0 {2,D}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cd U0 {1,S} {5,D}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
+5    C  U0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (1.68446e-15, 'cm^3/(mol*s)'),
@@ -3629,23 +3629,23 @@ u"""
 )
 
 entry(
-    index = 122,
-    label = "O-HCs(HHH);CsJ-CtHH",
+    index        = 122,
+    label        = "O-HCs(HHH);CsJ-CtHH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (5.10728, 'cm^3/(mol*s)'),
@@ -3664,23 +3664,23 @@ u"""
 )
 
 entry(
-    index = 123,
-    label = "O-HCs(HHH);CsJ-CtCsH",
+    index        = 123,
+    label        = "O-HCs(HHH);CsJ-CtCsH",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    Cs U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.0228734, 'cm^3/(mol*s)'),
@@ -3699,23 +3699,23 @@ u"""
 )
 
 entry(
-    index = 124,
-    label = "O-HCs(HHH);CsJ-CtCsCs",
+    index        = 124,
+    label        = "O-HCs(HHH);CsJ-CtCsCs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Ct 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.00215301, 'cm^3/(mol*s)'),
@@ -3734,18 +3734,18 @@ u"""
 )
 
 entry(
-    index = 127,
-    label = "O-HH;OsJ-H",
+    index        = 127,
+    label        = "O-HH;OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (14521.4, 'cm^3/(mol*s)'),
@@ -3764,21 +3764,21 @@ u"""
 )
 
 entry(
-    index = 128,
-    label = "O-Cs(HHH)H;OsJ-H",
+    index        = 128,
+    label        = "O-Cs(HHH)H;OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (11.0699, 'cm^3/(mol*s)'),
@@ -3797,18 +3797,18 @@ u"""
 )
 
 entry(
-    index = 129,
-    label = "O-HH;OsJ-Cs",
+    index        = 129,
+    label        = "O-HH;OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (561.118, 'cm^3/(mol*s)'),
@@ -3827,21 +3827,21 @@ u"""
 )
 
 entry(
-    index = 130,
-    label = "O-Cs(HHH)H;OsJ-Cs",
+    index        = 130,
+    label        = "O-Cs(HHH)H;OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.05378, 'cm^3/(mol*s)'),
@@ -3860,21 +3860,21 @@ u"""
 )
 
 entry(
-    index = 131,
-    label = "O-HCs(HHH);OsJ-H",
+    index        = 131,
+    label        = "O-HCs(HHH);OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (27760.5, 'cm^3/(mol*s)'),
@@ -3893,21 +3893,21 @@ u"""
 )
 
 entry(
-    index = 132,
-    label = "O-HCs(HHH);OsJ-Cs",
+    index        = 132,
+    label        = "O-HCs(HHH);OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1244.45, 'cm^3/(mol*s)'),
@@ -3926,24 +3926,24 @@ u"""
 )
 
 entry(
-    index = 133,
-    label = "O-Cs(HHH)Cs(HHH);OsJ-H",
+    index        = 133,
+    label        = "O-Cs(HHH)Cs(HHH);OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (23264400.0, 'cm^3/(mol*s)'),
@@ -3962,24 +3962,24 @@ u"""
 )
 
 entry(
-    index = 134,
-    label = "O-Cs(HHH)Cs(HHH);OsJ-Cs",
+    index        = 134,
+    label        = "O-Cs(HHH)Cs(HHH);OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (117221, 'cm^3/(mol*s)'),
@@ -3998,19 +3998,19 @@ u"""
 )
 
 entry(
-    index = 135,
-    label = "O-Os(H)H;OsJ-H",
+    index        = 135,
+    label        = "O-Os(H)H;OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Os 0 {1,S} {4,S}
-4    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Os U0 {1,S} {4,S}
+4    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.00278991, 'cm^3/(mol*s)'),
@@ -4029,18 +4029,18 @@ u"""
 )
 
 entry(
-    index = 136,
-    label = "O-HH;OsJ-Os",
+    index        = 136,
+    label        = "O-HH;OsJ-Os",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    H  0 {1,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    H  U0 {1,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Os 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Os U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.0267498, 'cm^3/(mol*s)'),
@@ -4059,19 +4059,19 @@ u"""
 )
 
 entry(
-    index = 137,
-    label = "O-Os(Cs)H;OsJ-H",
+    index        = 137,
+    label        = "O-Os(Cs)H;OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.000781287, 'cm^3/(mol*s)'),
@@ -4090,21 +4090,21 @@ u"""
 )
 
 entry(
-    index = 138,
-    label = "O-Cs(HHH)H;OsJ-Os",
+    index        = 138,
+    label        = "O-Cs(HHH)H;OsJ-Os",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Os 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Os U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.54686e-05, 'cm^3/(mol*s)'),
@@ -4123,19 +4123,19 @@ u"""
 )
 
 entry(
-    index = 140,
-    label = "O-Os(H)H;OsJ-Cs",
+    index        = 140,
+    label        = "O-Os(H)H;OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Os 0 {1,S} {4,S}
-4    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Os U0 {1,S} {4,S}
+4    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.47435e-05, 'cm^3/(mol*s)'),
@@ -4154,19 +4154,19 @@ u"""
 )
 
 entry(
-    index = 143,
-    label = "O-Os(Cs)H;OsJ-Cs",
+    index        = 143,
+    label        = "O-Os(Cs)H;OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 H  0 {1,S}
-3    Os 0 {1,S} {4,S}
-4    Cs 0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Os U0 {1,S} {4,S}
+4    Cs U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.92558e-06, 'cm^3/(mol*s)'),
@@ -4185,22 +4185,22 @@ u"""
 )
 
 entry(
-    index = 145,
-    label = "O-Os(H)Cs(HHH);OsJ-H",
+    index        = 145,
+    label        = "O-Os(H)Cs(HHH);OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Os 0 {1,S} {4,S}
-3 *2 Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    H  0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Os U0 {1,S} {4,S}
+3 *2 Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    H  U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.376691, 'cm^3/(mol*s)'),
@@ -4219,21 +4219,21 @@ u"""
 )
 
 entry(
-    index = 146,
-    label = "O-HCs(HHH);OsJ-Os",
+    index        = 146,
+    label        = "O-HCs(HHH);OsJ-Os",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    H  0 {1,S}
-3 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-4    H  0 {3,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    H  U0 {1,S}
+3 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+4    H  U0 {3,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Os 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Os U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.00368718, 'cm^3/(mol*s)'),
@@ -4252,22 +4252,22 @@ u"""
 )
 
 entry(
-    index = 147,
-    label = "O-Os(H)Cs(HHH);OsJ-Cs",
+    index        = 147,
+    label        = "O-Os(H)Cs(HHH);OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Os 0 {1,S} {4,S}
-3 *2 Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    H  0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Os U0 {1,S} {4,S}
+3 *2 Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    H  U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.37223, 'cm^3/(mol*s)'),
@@ -4286,24 +4286,24 @@ u"""
 )
 
 entry(
-    index = 148,
-    label = "O-Cs(HHH)Cs(HHH);OsJ-Os",
+    index        = 148,
+    label        = "O-Cs(HHH)Cs(HHH);OsJ-Os",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2 *2 Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2 *2 Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Os 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Os U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (13.1108, 'cm^3/(mol*s)'),
@@ -4322,22 +4322,22 @@ u"""
 )
 
 entry(
-    index = 149,
-    label = "O-Os(Cs)Cs(HHH);OsJ-H",
+    index        = 149,
+    label        = "O-Os(Cs)Cs(HHH);OsJ-H",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Os 0 {1,S} {4,S}
-3 *2 Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    Cs 0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Os U0 {1,S} {4,S}
+3 *2 Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    Cs U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    H  0 {1,S}
+1 *3 Os U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (21552.6, 'cm^3/(mol*s)'),
@@ -4356,22 +4356,22 @@ u"""
 )
 
 entry(
-    index = 151,
-    label = "O-Os(Cs)Cs(HHH);OsJ-Cs",
+    index        = 151,
+    label        = "O-Os(Cs)Cs(HHH);OsJ-Cs",
     group1 = 
 """
-1 *1 Os 0 {2,S} {3,S}
-2    Os 0 {1,S} {4,S}
-3 *2 Cs 0 {1,S} {5,S} {6,S} {7,S}
-4    Cs 0 {2,S}
-5    H  0 {3,S}
-6    H  0 {3,S}
-7    H  0 {3,S}
+1 *1 Os U0 {2,S} {3,S}
+2    Os U0 {1,S} {4,S}
+3 *2 Cs U0 {1,S} {5,S} {6,S} {7,S}
+4    Cs U0 {2,S}
+5    H  U0 {3,S}
+6    H  U0 {3,S}
+7    H  U0 {3,S}
 """,
     group2 = 
 """
-1 *3 Os 1 {2,S}
-2    Cs 0 {1,S}
+1 *3 Os U1 {2,S}
+2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.0036016, 'cm^3/(mol*s)'),

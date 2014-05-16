@@ -20,14 +20,14 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
-    label = "RJJ",
+    index        = 1,
+    label        = "RJJ",
     group = 
 """
-1 *1 R 1 {2,{S,D}}
-2 *2 R 0 {1,{S,D}} {3,S}
-3 *3 R 0 {2,S} {4,{S,D}}
-4 *4 R 1 {3,{S,D}}
+1 *1 R U1 {2,{S,D}}
+2 *2 R U0 {1,{S,D}} {3,S}
+3 *3 R U0 {2,S} {4,{S,D}}
+4 *4 R U1 {3,{S,D}}
 """,
     kinetics = None,
     shortDesc = u"""""",

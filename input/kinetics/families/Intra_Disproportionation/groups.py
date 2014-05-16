@@ -20,8 +20,8 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
-    label = "Rn",
+    index        = 1,
+    label        = "Rn",
     group = "OR{R3, R4, R5, R6, R7}",
     kinetics = None,
     shortDesc = u"""""",
@@ -32,11 +32,11 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "Y_rad",
+    index        = 2,
+    label        = "Y_rad",
     group = 
 """
-1 *1 R!H 1
+1 *1 R!H U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -47,13 +47,13 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "XH_Rrad",
+    index        = 3,
+    label        = "XH_Rrad",
     group = 
 """
-1 *3 R!H 1 {2,S}
-2 *2 R!H 0 {1,S} {3,S}
-3 *4 H   0 {2,S}
+1 *3 R!H U1 {2,S}
+2 *2 R!H U0 {1,S} {3,S}
+3 *4 H   U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -64,8 +64,8 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "R3",
+    index        = 4,
+    label        = "R3",
     group = "OR{R3radEndo, R3radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -76,14 +76,14 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "R3radEndo",
+    index        = 5,
+    label        = "R3radEndo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2 *3 R!H 1 {1,{S,D,B,T}} {3,S}
-3 *2 R!H 0 {2,S} {4,S}
-4 *4 H   0 {3,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2 *3 R!H U1 {1,{S,D,B,T}} {3,S}
+3 *2 R!H U0 {2,S} {4,S}
+4 *4 H   U0 {3,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -94,15 +94,15 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "R3radExo",
+    index        = 6,
+    label        = "R3radExo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B}}
-3 *2 R!H 0 {2,{S,D,B}} {4,S} {5,S}
-4 *3 R!H 1 {3,S}
-5 *4 H   0 {3,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B}}
+3 *2 R!H U0 {2,{S,D,B}} {4,S} {5,S}
+4 *3 R!H U1 {3,S}
+5 *4 H   U0 {3,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -113,8 +113,8 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "R4",
+    index        = 7,
+    label        = "R4",
     group = "OR{R4radEndo, R4radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -125,15 +125,15 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "R4radEndo",
+    index        = 8,
+    label        = "R4radEndo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3 *3 R!H 1 {2,{S,D,B,T}} {4,S}
-4 *2 R!H 0 {3,S} {5,S}
-5 *4 H   0 {4,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3 *3 R!H U1 {2,{S,D,B,T}} {4,S}
+4 *2 R!H U0 {3,S} {5,S}
+5 *4 H   U0 {4,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -144,16 +144,16 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "R4radExo",
+    index        = 9,
+    label        = "R4radExo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3    R!H 0 {2,{S,D,B,T}} {4,{S,D,B}}
-4 *2 R!H 0 {3,{S,D,B}} {5,S} {6,S}
-5 *3 R!H 1 {4,S}
-6 *4 H   0 {4,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3    R!H U0 {2,{S,D,B,T}} {4,{S,D,B}}
+4 *2 R!H U0 {3,{S,D,B}} {5,S} {6,S}
+5 *3 R!H U1 {4,S}
+6 *4 H   U0 {4,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -164,8 +164,8 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "R5",
+    index        = 10,
+    label        = "R5",
     group = "OR{R5radEndo, R5radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -176,16 +176,16 @@ u"""
 )
 
 entry(
-    index = 11,
-    label = "R5radEndo",
+    index        = 11,
+    label        = "R5radEndo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3    R!H 0 {2,{S,D,B,T}} {4,{S,D,B,T}}
-4 *3 R!H 1 {3,{S,D,B,T}} {5,S}
-5 *2 R!H 0 {4,S} {6,S}
-6 *4 H   0 {5,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3    R!H U0 {2,{S,D,B,T}} {4,{S,D,B,T}}
+4 *3 R!H U1 {3,{S,D,B,T}} {5,S}
+5 *2 R!H U0 {4,S} {6,S}
+6 *4 H   U0 {5,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -196,17 +196,17 @@ u"""
 )
 
 entry(
-    index = 12,
-    label = "R5radExo",
+    index        = 12,
+    label        = "R5radExo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3    R!H 0 {2,{S,D,B,T}} {4,{S,D,B,T}}
-4    R!H 0 {3,{S,D,B,T}} {5,{S,D,B}}
-5 *2 R!H 0 {4,{S,D,B}} {6,S} {7,S}
-6 *3 R!H 1 {5,S}
-7 *4 H   0 {5,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3    R!H U0 {2,{S,D,B,T}} {4,{S,D,B,T}}
+4    R!H U0 {3,{S,D,B,T}} {5,{S,D,B}}
+5 *2 R!H U0 {4,{S,D,B}} {6,S} {7,S}
+6 *3 R!H U1 {5,S}
+7 *4 H   U0 {5,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -217,8 +217,8 @@ u"""
 )
 
 entry(
-    index = 13,
-    label = "R6",
+    index        = 13,
+    label        = "R6",
     group = "OR{R6radEndo, R6radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -229,17 +229,17 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "R6radEndo",
+    index        = 14,
+    label        = "R6radEndo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3    R!H 0 {2,{S,D,B,T}} {4,{S,D,B,T}}
-4    R!H 0 {3,{S,D,B,T}} {5,{S,D,B,T}}
-5 *3 R!H 1 {4,{S,D,B,T}} {6,S}
-6 *2 R!H 0 {5,S} {7,S}
-7 *4 H   0 {6,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3    R!H U0 {2,{S,D,B,T}} {4,{S,D,B,T}}
+4    R!H U0 {3,{S,D,B,T}} {5,{S,D,B,T}}
+5 *3 R!H U1 {4,{S,D,B,T}} {6,S}
+6 *2 R!H U0 {5,S} {7,S}
+7 *4 H   U0 {6,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -250,18 +250,18 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "R6radExo",
+    index        = 15,
+    label        = "R6radExo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3    R!H 0 {2,{S,D,B,T}} {4,{S,D,B,T}}
-4    R!H 0 {3,{S,D,B,T}} {5,{S,D,B,T}}
-5    R!H 0 {4,{S,D,B,T}} {6,{S,D,B}}
-6 *2 R!H 0 {5,{S,D,B}} {7,S} {8,S}
-7 *3 R!H 1 {6,S}
-8 *4 H   0 {6,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3    R!H U0 {2,{S,D,B,T}} {4,{S,D,B,T}}
+4    R!H U0 {3,{S,D,B,T}} {5,{S,D,B,T}}
+5    R!H U0 {4,{S,D,B,T}} {6,{S,D,B}}
+6 *2 R!H U0 {5,{S,D,B}} {7,S} {8,S}
+7 *3 R!H U1 {6,S}
+8 *4 H   U0 {6,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -272,8 +272,8 @@ u"""
 )
 
 entry(
-    index = 16,
-    label = "R7",
+    index        = 16,
+    label        = "R7",
     group = "OR{R7radEndo, R7radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -284,18 +284,18 @@ u"""
 )
 
 entry(
-    index = 17,
-    label = "R7radEndo",
+    index        = 17,
+    label        = "R7radEndo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3    R!H 0 {2,{S,D,B,T}} {4,{S,D,B,T}}
-4    R!H 0 {3,{S,D,B,T}} {5,{S,D,B,T}}
-5    R!H 0 {4,{S,D,B,T}} {6,{S,D,B,T}}
-6 *3 R!H 1 {5,{S,D,B,T}} {7,S}
-7 *2 R!H 0 {6,S} {8,S}
-8 *4 H   0 {7,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3    R!H U0 {2,{S,D,B,T}} {4,{S,D,B,T}}
+4    R!H U0 {3,{S,D,B,T}} {5,{S,D,B,T}}
+5    R!H U0 {4,{S,D,B,T}} {6,{S,D,B,T}}
+6 *3 R!H U1 {5,{S,D,B,T}} {7,S}
+7 *2 R!H U0 {6,S} {8,S}
+8 *4 H   U0 {7,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -306,19 +306,19 @@ u"""
 )
 
 entry(
-    index = 18,
-    label = "R7radExo",
+    index        = 18,
+    label        = "R7radExo",
     group = 
 """
-1 *1 R!H 1 {2,{S,D,B,T}}
-2    R!H 0 {1,{S,D,B,T}} {3,{S,D,B,T}}
-3    R!H 0 {2,{S,D,B,T}} {4,{S,D,B,T}}
-4    R!H 0 {3,{S,D,B,T}} {5,{S,D,B,T}}
-5    R!H 0 {4,{S,D,B,T}} {6,{S,D,B,T}}
-6    R!H 0 {5,{S,D,B,T}} {7,{S,D,B}}
-7 *2 R!H 0 {6,{S,D,B}} {8,S} {9,S}
-8 *3 R!H 1 {7,S}
-9 *4 H   0 {7,S}
+1 *1 R!H U1 {2,{S,D,B,T}}
+2    R!H U0 {1,{S,D,B,T}} {3,{S,D,B,T}}
+3    R!H U0 {2,{S,D,B,T}} {4,{S,D,B,T}}
+4    R!H U0 {3,{S,D,B,T}} {5,{S,D,B,T}}
+5    R!H U0 {4,{S,D,B,T}} {6,{S,D,B,T}}
+6    R!H U0 {5,{S,D,B,T}} {7,{S,D,B}}
+7 *2 R!H U0 {6,{S,D,B}} {8,S} {9,S}
+8 *3 R!H U1 {7,S}
+9 *4 H   U0 {7,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -353,16 +353,17 @@ L1: XH_Rrad
 
 forbidden(
     label = "fused5rings_1",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 C 1 {2,S} {5,S}
-2 C 0 {1,S} {3,S}
-3 C 0 {2,S} {4,S}
-4 C 0 {3,S} {5,S} {8,S}
-5 C 0 {1,S} {4,S} {6,S}
-6 C 1 {5,S} {7,S}
-7 C 0 {6,S} {8,S}
-8 C 0 {4,S} {7,S}
+1 C U1 {2,S} {5,S}
+2 C U0 {1,S} {3,S}
+3 C U0 {2,S} {4,S}
+4 C U0 {3,S} {5,S} {8,S}
+5 C U0 {1,S} {4,S} {6,S}
+6 C U1 {5,S} {7,S}
+7 C U0 {6,S} {8,S}
+8 C U0 {4,S} {7,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -373,16 +374,17 @@ u"""
 
 forbidden(
     label = "fused5rings_2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 C 1 {2,S} {5,S}
-2 C 0 {1,S} {3,S}
-3 C 0 {2,S} {4,S}
-4 C 0 {3,S} {5,S} {8,S}
-5 C 0 {1,S} {4,S} {6,S}
-6 C 0 {5,S} {7,S}
-7 C 1 {6,S} {8,S}
-8 C 0 {4,S} {7,S}
+1 C U1 {2,S} {5,S}
+2 C U0 {1,S} {3,S}
+3 C U0 {2,S} {4,S}
+4 C U0 {3,S} {5,S} {8,S}
+5 C U0 {1,S} {4,S} {6,S}
+6 C U0 {5,S} {7,S}
+7 C U1 {6,S} {8,S}
+8 C U0 {4,S} {7,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -393,16 +395,17 @@ u"""
 
 forbidden(
     label = "fused5rings_3",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 C 1 {2,S} {5,S}
-2 C 0 {1,S} {3,S}
-3 C 0 {2,S} {4,S}
-4 C 0 {3,S} {5,S} {8,S}
-5 C 0 {1,S} {4,S} {6,S}
-6 C 0 {5,S} {7,S}
-7 C 0 {6,S} {8,S}
-8 C 1 {4,S} {7,S}
+1 C U1 {2,S} {5,S}
+2 C U0 {1,S} {3,S}
+3 C U0 {2,S} {4,S}
+4 C U0 {3,S} {5,S} {8,S}
+5 C U0 {1,S} {4,S} {6,S}
+6 C U0 {5,S} {7,S}
+7 C U0 {6,S} {8,S}
+8 C U1 {4,S} {7,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -413,16 +416,17 @@ u"""
 
 forbidden(
     label = "fused5rings_4",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 C 0 {2,S} {5,S}
-2 C 1 {1,S} {3,S}
-3 C 0 {2,S} {4,S}
-4 C 0 {3,S} {5,S} {8,S}
-5 C 0 {1,S} {4,S} {6,S}
-6 C 0 {5,S} {7,S}
-7 C 1 {6,S} {8,S}
-8 C 0 {4,S} {7,S}
+1 C U0 {2,S} {5,S}
+2 C U1 {1,S} {3,S}
+3 C U0 {2,S} {4,S}
+4 C U0 {3,S} {5,S} {8,S}
+5 C U0 {1,S} {4,S} {6,S}
+6 C U0 {5,S} {7,S}
+7 C U1 {6,S} {8,S}
+8 C U0 {4,S} {7,S}
 """,
     shortDesc = u"""""",
     longDesc = 

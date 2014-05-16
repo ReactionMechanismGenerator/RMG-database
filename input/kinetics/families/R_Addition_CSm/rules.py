@@ -7,16 +7,16 @@ longDesc = u"""
 
 """
 entry(
-    index = 416,
-    label = "CSm;Y_rad",
+    index        = 416,
+    label        = "CSm;Y_rad",
     group1 = 
 """
-1 *1 C 2 {2,D}
-2    S 0 {1,D}
+1 *1 C U2 {2,D}
+2    S U0 {1,D}
 """,
     group2 = 
 """
-1 *2 R 1
+1 *2 R U1
 """,
     kinetics = ArrheniusEP(
         A = (100000000000.0, 'cm^3/(mol*s)'),
@@ -35,16 +35,16 @@ u"""
 )
 
 entry(
-    index = 417,
-    label = "CSm;H_rad",
+    index        = 417,
+    label        = "CSm;H_rad",
     group1 = 
 """
-1 *1 C 2 {2,D}
-2    S 0 {1,D}
+1 *1 C U2 {2,D}
+2    S U0 {1,D}
 """,
     group2 = 
 """
-1 *2 H 1
+1 *2 H U1
 """,
     kinetics = ArrheniusEP(
         A = (118000000000.0, 'cm^3/(mol*s)'),
@@ -63,19 +63,19 @@ u"""
 )
 
 entry(
-    index = 418,
-    label = "CSm;C_methyl",
+    index        = 418,
+    label        = "CSm;C_methyl",
     group1 = 
 """
-1 *1 C 2 {2,D}
-2    S 0 {1,D}
+1 *1 C U2 {2,D}
+2    S U0 {1,D}
 """,
     group2 = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *2 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (12000000000000.0, 'cm^3/(mol*s)'),
@@ -94,22 +94,22 @@ u"""
 )
 
 entry(
-    index = 419,
-    label = "CSm;CH2CH3",
+    index        = 419,
+    label        = "CSm;CH2CH3",
     group1 = 
 """
-1 *1 C 2 {2,D}
-2    S 0 {1,D}
+1 *1 C U2 {2,D}
+2    S U0 {1,D}
 """,
     group2 = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    C 0 {1,S} {5,S} {6,S} {7,S}
-5    H 0 {4,S}
-6    H 0 {4,S}
-7    H 0 {4,S}
+1 *2 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    C U0 {1,S} {5,S} {6,S} {7,S}
+5    H U0 {4,S}
+6    H U0 {4,S}
+7    H U0 {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (20100000000.0, 'cm^3/(mol*s)'),

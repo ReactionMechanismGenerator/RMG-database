@@ -19,14 +19,14 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
-    label = "N3sRRR",
+    index        = 1,
+    label        = "N3sRRR",
     group = 
 """
-1 *1 N3s 0 1 {2,S} {3,S} {4,S}
-2    R 0 {1,S}
-3    R 0 {1,S}
-4    R 0 {1,S}
+1 *1 N3s U0 L1 {2,S} {3,S} {4,S}
+2    R   U0 {1,S}
+3    R   U0 {1,S}
+4    R   U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -37,12 +37,11 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "O_(S)",
-    multiplicity = [1],
+    index        = 2,
+    label        = "O_(S)",
     group = 
 """
-1 *2 O 2
+1 *2 O U2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -59,14 +58,13 @@ L1: O_(S)
 """
 )
 
-
 forbidden(
     label = "OJJH",
     multiplicity = [3],
     group = 
 """
-1    O 2 {2,S}
-2    R 0 {1,S}
+1 O U2 {2,S}
+2 R U0 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -74,3 +72,4 @@ u"""
 
 """,
 )
+
