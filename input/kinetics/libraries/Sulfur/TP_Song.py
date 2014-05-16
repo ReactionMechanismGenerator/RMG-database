@@ -11,6 +11,7 @@ entry(
     reactant1 = 
 """
 thiophene
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {6,S}
 2 C 0 0 {1,S} {4,D} {7,S}
 3 C 0 0 {1,D} {5,S} {8,S}
@@ -24,15 +25,16 @@ thiophene
     product1 = 
 """
 IM1
-1 C 0  0 {2,S} {4,S} {6,S} {7,S}
-2 C 0  0 {1,S} {3,D} {8,S}
-3 C 0  0 {2,D} {5,S} {9,S}
-4 C 2S 0 {1,S} {5,S}
-5 S 0  2 {3,S} {4,S}
-6 H 0  0 {1,S}
-7 H 0  0 {1,S}
-8 H 0  0 {2,S}
-9 H 0  0 {3,S}
+multiplicity 1
+1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,D} {8,S}
+3 C 0 0 {2,D} {5,S} {9,S}
+4 C 2 0 {1,S} {5,S}
+5 S 0 2 {3,S} {4,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -54,6 +56,7 @@ entry(
     reactant1 = 
 """
 thiophene
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {6,S}
 2 C 0 0 {1,S} {4,D} {7,S}
 3 C 0 0 {1,D} {5,S} {8,S}
@@ -67,6 +70,7 @@ thiophene
     product1 = 
 """
 IM2
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 C 0 0 {4,D} {8,S} {9,S}
@@ -97,6 +101,7 @@ entry(
     reactant1 = 
 """
 thiophene
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {6,S}
 2 C 0 0 {1,S} {4,D} {7,S}
 3 C 0 0 {1,D} {5,S} {8,S}
@@ -110,6 +115,7 @@ thiophene
     product1 = 
 """
 IM4
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 0 0 {1,S} {7,D} {8,S}
 3 C 0 0 {1,S} {4,T}
@@ -140,19 +146,21 @@ entry(
     reactant1 = 
 """
 IM1
-1 C 0  0 {2,S} {4,S} {6,S} {7,S}
-2 C 0  0 {1,S} {3,D} {8,S}
-3 C 0  0 {2,D} {5,S} {9,S}
-4 C 2S 0 {1,S} {5,S}
-5 S 0  2 {3,S} {4,S}
-6 H 0  0 {1,S}
-7 H 0  0 {1,S}
-8 H 0  0 {2,S}
-9 H 0  0 {3,S}
+multiplicity 1
+1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,D} {8,S}
+3 C 0 0 {2,D} {5,S} {9,S}
+4 C 2 0 {1,S} {5,S}
+5 S 0 2 {3,S} {4,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 C2H2
+multiplicity 1
 1 C 0 0 {2,T} {3,S}
 2 C 0 0 {1,T} {4,S}
 3 H 0 0 {1,S}
@@ -161,6 +169,7 @@ C2H2
     product2 = 
 """
 H2CCS
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -187,19 +196,21 @@ entry(
     reactant1 = 
 """
 IM1
-1 C 0  0 {2,S} {4,S} {6,S} {7,S}
-2 C 0  0 {1,S} {3,D} {8,S}
-3 C 0  0 {2,D} {5,S} {9,S}
-4 C 2S 0 {1,S} {5,S}
-5 S 0  2 {3,S} {4,S}
-6 H 0  0 {1,S}
-7 H 0  0 {1,S}
-8 H 0  0 {2,S}
-9 H 0  0 {3,S}
+multiplicity 1
+1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,D} {8,S}
+3 C 0 0 {2,D} {5,S} {9,S}
+4 C 2 0 {1,S} {5,S}
+5 S 0 2 {3,S} {4,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 IM5
+multiplicity 3
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 C 1 0 {1,S} {4,S} {8,S}
 3 C 0 0 {1,S} {5,D} {9,S}
@@ -230,6 +241,7 @@ entry(
     reactant1 = 
 """
 IM5
+multiplicity 3
 1 C 0 0 {2,S} {3,S} {6,S} {7,S}
 2 C 1 0 {1,S} {4,S} {8,S}
 3 C 0 0 {1,S} {5,D} {9,S}
@@ -243,6 +255,7 @@ IM5
     product1 = 
 """
 IM4
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 0 0 {1,S} {7,D} {8,S}
 3 C 0 0 {1,S} {4,T}
@@ -273,6 +286,7 @@ entry(
     reactant1 = 
 """
 IM2
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 C 0 0 {4,D} {8,S} {9,S}
@@ -286,15 +300,16 @@ IM2
     product1 = 
 """
 IM6
-1 C 0  0 {3,S} {5,S} {6,S} {7,S}
-2 C 0  0 {3,S} {4,D} {8,S}
-3 C 2S 0 {1,S} {2,S}
-4 C 0  0 {2,D} {9,D}
-5 H 0  0 {1,S}
-6 H 0  0 {1,S}
-7 H 0  0 {1,S}
-8 H 0  0 {2,S}
-9 S 0  2 {4,D}
+multiplicity 1
+1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2 C 0 0 {3,S} {4,D} {8,S}
+3 C 2 0 {1,S} {2,S}
+4 C 0 0 {2,D} {9,D}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 S 0 2 {4,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -316,25 +331,28 @@ entry(
     reactant1 = 
 """
 IM6
-1 C 0  0 {3,S} {5,S} {6,S} {7,S}
-2 C 0  0 {3,S} {4,D} {8,S}
-3 C 2S 0 {1,S} {2,S}
-4 C 0  0 {2,D} {9,D}
-5 H 0  0 {1,S}
-6 H 0  0 {1,S}
-7 H 0  0 {1,S}
-8 H 0  0 {2,S}
-9 S 0  2 {4,D}
+multiplicity 1
+1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2 C 0 0 {3,S} {4,D} {8,S}
+3 C 2 0 {1,S} {2,S}
+4 C 0 0 {2,D} {9,D}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 S 0 2 {4,D}
 """,
     product1 = 
 """
 CS
-1 C 2S 0 {2,D}
-2 S 0  2 {1,D}
+multiplicity 1
+1 C 2 0 {2,D}
+2 S 0 2 {1,D}
 """,
     product2 = 
 """
 propyne
+multiplicity 1
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,T}
 3 C 0 0 {2,T} {7,S}
@@ -363,6 +381,7 @@ entry(
     reactant1 = 
 """
 IM2
+multiplicity 1
 1 C 0 0 {2,S} {4,D} {5,S}
 2 C 0 0 {1,S} {6,D} {7,S}
 3 C 0 0 {4,D} {8,S} {9,S}
@@ -376,6 +395,7 @@ IM2
     product1 = 
 """
 IM7
+multiplicity 3
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -406,6 +426,7 @@ entry(
     reactant1 = 
 """
 IM7
+multiplicity 3
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,D} {7,S} {8,S}
 3 C 1 0 {1,S} {2,D}
@@ -419,12 +440,14 @@ IM7
     product1 = 
 """
 CS
-1 C 2S 0 {2,D}
-2 S 0  2 {1,D}
+multiplicity 1
+1 C 2 0 {2,D}
+2 S 0 2 {1,D}
 """,
     product2 = 
 """
 propadiene
+multiplicity 1
 1 C 0 0 {3,D} {4,S} {5,S}
 2 C 0 0 {3,D} {6,S} {7,S}
 3 C 0 0 {1,D} {2,D}
@@ -453,19 +476,21 @@ entry(
     reactant1 = 
 """
 IM10
-1 C 0  0 {2,S} {4,S} {6,S} {7,S}
-2 C 0  0 {1,S} {3,D} {8,S}
-3 C 0  0 {2,D} {5,S} {9,S}
-4 S 0  2 {1,S} {5,S}
-5 C 2S 0 {3,S} {4,S}
-6 H 0  0 {1,S}
-7 H 0  0 {1,S}
-8 H 0  0 {2,S}
-9 H 0  0 {3,S}
+multiplicity 1
+1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 C 0 0 {1,S} {3,D} {8,S}
+3 C 0 0 {2,D} {5,S} {9,S}
+4 S 0 2 {1,S} {5,S}
+5 C 2 0 {3,S} {4,S}
+6 H 0 0 {1,S}
+7 H 0 0 {1,S}
+8 H 0 0 {2,S}
+9 H 0 0 {3,S}
 """,
     product1 = 
 """
 IM11
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {5,S}
 2 C 0 0 {1,S} {4,D} {6,S}
 3 C 0 0 {1,D} {7,S} {8,S}
@@ -501,6 +526,7 @@ entry(
     reactant1 = 
 """
 IM11
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {5,S}
 2 C 0 0 {1,S} {4,D} {6,S}
 3 C 0 0 {1,D} {7,S} {8,S}
@@ -514,14 +540,16 @@ IM11
     product1 = 
 """
 C2H2jj
-1 C 0  0 {2,D} {3,S} {4,S}
-2 C 2S 0 {1,D}
-3 H 0  0 {1,S}
-4 H 0  0 {1,S}
+multiplicity 1
+1 C 0 0 {2,D} {3,S} {4,S}
+2 C 2 0 {1,D}
+3 H 0 0 {1,S}
+4 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2CCS
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,D}
 3 H 0 0 {1,S}
@@ -548,6 +576,7 @@ entry(
     reactant1 = 
 """
 IM4
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2 C 0 0 {1,S} {7,D} {8,S}
 3 C 0 0 {1,S} {4,T}
@@ -561,6 +590,7 @@ IM4
     product1 = 
 """
 IM8
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {7,S}
 2 C 0 0 {1,D} {4,S} {6,S}
 3 C 0 0 {1,S} {5,T}

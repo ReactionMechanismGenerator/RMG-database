@@ -11,6 +11,7 @@ entry(
     reactant1 = 
 """
 C6H12SHOH
+multiplicity 1
 1  C 0 0 {2,S} {9,S} {10,S} {11,S}
 2  C 0 0 {1,S} {3,S} {12,S} {13,S}
 3  C 0 0 {2,S} {4,S} {14,S} {15,S}
@@ -37,6 +38,7 @@ C6H12SHOH
     product1 = 
 """
 C6H12O
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {9,S} {10,S}
 2  C 0 0 {1,S} {4,S} {11,S} {12,S}
 3  C 0 0 {1,S} {5,S} {7,S} {8,S}
@@ -60,6 +62,7 @@ C6H12O
     product2 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -85,6 +88,7 @@ entry(
     reactant1 = 
 """
 C5H11COHS
+multiplicity 1
 1  C 0 0 {2,S} {9,S} {10,S} {11,S}
 2  C 0 0 {1,S} {3,S} {12,S} {13,S}
 3  C 0 0 {2,S} {4,S} {14,S} {15,S}
@@ -109,6 +113,7 @@ C5H11COHS
     product1 = 
 """
 C5H11COSH
+multiplicity 1
 1  C 0 0 {2,S} {9,S} {10,S} {11,S}
 2  C 0 0 {1,S} {3,S} {12,S} {13,S}
 3  C 0 0 {2,S} {4,S} {14,S} {15,S}
@@ -151,6 +156,7 @@ entry(
     reactant1 = 
 """
 C5H11J
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {8,S} {9,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {5,S} {10,S} {11,S}
@@ -171,6 +177,7 @@ C5H11J
     reactant2 = 
 """
 COS
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 S 0 2 {1,D}
@@ -178,6 +185,7 @@ COS
     product1 = 
 """
 C5H11COSJ
+multiplicity 2
 1  C 0 0 {2,S} {9,S} {10,S} {11,S}
 2  C 0 0 {1,S} {3,S} {12,S} {13,S}
 3  C 0 0 {2,S} {4,S} {14,S} {15,S}
@@ -218,6 +226,7 @@ entry(
     reactant1 = 
 """
 CHOHS
+multiplicity 1
 1 C 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 S 0 2 {1,D}
@@ -227,6 +236,7 @@ CHOHS
     reactant2 = 
 """
 C5H11J
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {8,S} {9,S}
 2  C 0 0 {1,S} {4,S} {6,S} {7,S}
 3  C 0 0 {1,S} {5,S} {10,S} {11,S}
@@ -247,6 +257,7 @@ C5H11J
     product1 = 
 """
 C6H12OHSJ
+multiplicity 2
 1  C 0 0 {2,S} {4,S} {10,S} {11,S}
 2  C 0 0 {1,S} {3,S} {12,S} {13,S}
 3  C 0 0 {2,S} {5,S} {14,S} {15,S}
@@ -289,6 +300,7 @@ entry(
     reactant1 = 
 """
 C4H9CHJCHOHSH
+multiplicity 2
 1  C 0 0 {2,S} {3,S} {11,S} {12,S}
 2  C 0 0 {1,S} {5,S} {9,S} {10,S}
 3  C 0 0 {1,S} {6,S} {13,S} {14,S}
@@ -314,12 +326,14 @@ C4H9CHJCHOHSH
     product1 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 hexen-1-ol
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {10,S} {11,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {5,S} {12,S} {13,S}
@@ -360,6 +374,7 @@ entry(
     reactant1 = 
 """
 hexen-1-ol
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {10,S} {11,S}
 2  C 0 0 {1,S} {4,S} {8,S} {9,S}
 3  C 0 0 {1,S} {5,S} {12,S} {13,S}
@@ -383,6 +398,7 @@ hexen-1-ol
     product1 = 
 """
 C6H12O
+multiplicity 1
 1  C 0 0 {2,S} {3,S} {9,S} {10,S}
 2  C 0 0 {1,S} {4,S} {11,S} {12,S}
 3  C 0 0 {1,S} {5,S} {7,S} {8,S}
@@ -423,12 +439,14 @@ entry(
     reactant1 = 
 """
 CO
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     reactant2 = 
 """
 H2O
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -436,6 +454,7 @@ H2O
     product1 = 
 """
 CO2
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -443,6 +462,7 @@ CO2
     product2 = 
 """
 H2
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
