@@ -93699,11 +93699,7 @@ u"""
 
 entry(
     index = 3200,
-<<<<<<< HEAD
-    label = "N3t_N3t;CH2_triplet",
-=======
     label = "N3t_N3t-CH2_(T)",
->>>>>>> origin/spin_conservation
     group1 = 
 """
 1 *1 N3t 0 {2,T}
