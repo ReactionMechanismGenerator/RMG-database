@@ -10,15 +10,15 @@ Table 38. Enthalpy of Formation of Gas - Organic Compounds
 Table 46. Entropy of Gas - Organic Compounds
 """
 entry(
-    index = 1,
-    label = "C2N2",
+    index        = 1,
+    label        = "C2N2",
     multiplicity = 1,
     molecule = 
 """
-1 N 0 1 {2,T}
-2 C 0 0 {1,T} {3,S}
-3 C 0 0 {2,S} {4,T}
-4 N 0 1 {3,T}
+1 N U0 L1 E0  {2,T}
+2 C U0 L0 E0  {1,T} {3,S}
+3 C U0 L0 E0  {2,S} {4,T}
+4 N U0 L1 E0  {3,T}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
