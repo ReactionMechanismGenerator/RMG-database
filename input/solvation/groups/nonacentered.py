@@ -12,7 +12,7 @@ entry(
 	label = "R",
 	group = 
 """
-1 * R 0
+1 * R U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -27,7 +27,7 @@ entry(
 	label = "CO",
 	group = 
 """
-1 * CO 0
+1 * CO U0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -42,11 +42,11 @@ entry(
 	label = "Oss(CdsOd)",
 	group = 
 """
-1 * CO  						0 {2,S} {3,S} {4,D}
-2   Os  						0 {1,S} {5,S}
-3   {Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H}  0 {1,S}
-4   Od							0 {1,D}
-5   R!H 						0 {2,S}
+1 * CO  						U0 {2,S} {3,S} {4,D}
+2   Os  						U0 {1,S} {5,S}
+3   {Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H}  U0 {1,S}
+4   Od							U0 {1,D}
+5   R!H 						U0 {2,S}
 """,
 	solute = SoluteData(
 		S = -0.225,
@@ -67,12 +67,12 @@ entry(
 	label = "Oss(CdsOd)Oss",
 	group = 
 """
-1 * CO  0 {2,S} {3,S} {4,D}
-2   Os  0 {1,S} {5,S}
-3   Os  0 {1,S} {6,S}
-4   Od	0 {1,D}
-5   R!H 0 {2,S}
-6   R!H 0 {3,S}
+1 * CO  U0 {2,S} {3,S} {4,D}
+2   Os  U0 {1,S} {5,S}
+3   Os  U0 {1,S} {6,S}
+4   Od	U0 {1,D}
+5   R!H U0 {2,S}
+6   R!H U0 {3,S}
 """,
 	solute = SoluteData(
 		S = -0.19,
@@ -93,11 +93,11 @@ entry(
 	label = "OssH(CdsOd)",
 	group = 
 """
-1 * CO  						0 {2,S} {3,S} {4,D}
-2   Os  						0 {1,S}, {5,S}
-3   {Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H}  0 {1,S}
-4   Od							0 {1,D}
-5   H   						0 {2,S}
+1 * CO  						U0 {2,S} {3,S} {4,D}
+2   Os  						U0 {1,S}, {5,S}
+3   {Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H}  U0 {1,S}
+4   Od							U0 {1,D}
+5   H   						U0 {2,S}
 """,
 	solute = SoluteData(
 		S = -0.412,
@@ -118,16 +118,16 @@ entry(
 	label = "Cs(OssH)Cs(OssH)",
 	group = 
 """
-1 * Cs 0 {2,S} {3,S} {4,S}, {5,S}
-2   R  0 {1,S}
-3   R  0 {1,S}
-4   Os 0 {1,S} {6,S}
-5   Cs 0 {1,S} {7,S} {8,S} (9,S}
-6   H  0 {4,S}
-7   R  0 {5,S}
-8   R  0 {5,S}
-9   Os 0 {5,S} {10,S}
-10  H  0 {9,S}
+1 * Cs U0 {2,S} {3,S} {4,S}, {5,S}
+2   R  U0 {1,S}
+3   R  U0 {1,S}
+4   Os U0 {1,S} {6,S}
+5   Cs U0 {1,S} {7,S} {8,S} (9,S}
+6   H  U0 {4,S}
+7   R  U0 {5,S}
+8   R  U0 {5,S}
+9   Os U0 {5,S} {10,S}
+10  H  U0 {9,S}
 
 """,
 	solute = SoluteData(
@@ -149,16 +149,16 @@ entry(
 	label = "Cd(Od)Cd=CdCd(Od)",
 	group = 
 """
-1 * CO 0 {2,D} {3,S} {4,S}
-2   Od 0 {1,D}
-3   Cd 0 {1,S} {5,S} {6,D}
-4   R  0 {1,S}
-5   R  0 {3,S}
-6   Cd 0 {3,D} {7,S} {8,S}
-7   R  0 {6,S}
-8   CO 0 {6,S} {9,S} {10,D}
-9   R  0 {8,S}
-10  Od 0 {8,D}
+1 * CO U0 {2,D} {3,S} {4,S}
+2   Od U0 {1,D}
+3   Cd U0 {1,S} {5,S} {6,D}
+4   R  U0 {1,S}
+5   R  U0 {3,S}
+6   Cd U0 {3,D} {7,S} {8,S}
+7   R  U0 {6,S}
+8   CO U0 {6,S} {9,S} {10,D}
+9   R  U0 {8,S}
+10  Od U0 {8,D}
 
 """,
 	solute = SoluteData(
@@ -180,10 +180,10 @@ entry(
 	label = "CbCsOssH",
 	group = 
 """
-1 * Cb 0 {2,S}
-2   Cs 0 {1,S} {3,S}
-3   Os 0 {2,S} {4,S}
-4   H  0 {3,S}
+1 * Cb U0 {2,S}
+2   Cs U0 {1,S} {3,S}
+3   Os U0 {2,S} {4,S}
+4   H  U0 {3,S}
 
 """,
 	solute = SoluteData(
@@ -205,9 +205,9 @@ entry(
 	label = "phenol",
 	group = 
 """
-1 * Os 0 {2,S} {3,S}
-2   H  0 {1,S}
-3   {Cb,Cbf} 0 {1,S}
+1 * Os       U0 {2,S} {3,S}
+2   H        U0 {1,S}
+3   {Cb,Cbf} U0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -229,9 +229,9 @@ entry(
 	label = "OssH",
 	group = 
 """
-1 * Os 0 {2,S} {3,S}
-2   H 0 {1,S}
-3   {Cs,Cd,Ct,CO,Os,H} 0 {1,S}
+1 * Os                 U0 {2,S} {3,S}
+2   H                  U0 {1,S}
+3   {Cs,Cd,Ct,CO,Os,H} U0 {1,S}
 
 """,
 	solute = SoluteData(
@@ -271,9 +271,9 @@ entry(
 	label = "OxR3",
 	group = 
 """
-1 * Os 0 {2,S} {3,S}
-2   R  0 {1,S} {3,{S,D,B}}
-3   R  0 {1,S} {2,{S,D,B}}
+1 * Os U0 {2,S} {3,S}
+2   R  U0 {1,S} {3,{S,D,B}}
+3   R  U0 {1,S} {2,{S,D,B}}
 """,
 	solute = None,
 	shortDesc = u"""O in a 3 membered ring""",
@@ -288,10 +288,10 @@ entry(
 	label = "OxR4",
 	group = 
 """
-1 * Os 0 {2,S} {4,S}
-2   R  0 {1,S} {3,{S,D,B}}
-3   R  0 {2,{S,D,B}} {4,{S,D,B}}
-4   R  0 {1,S} {3,{S,D,B}}
+1 * Os U0 {2,S} {4,S}
+2   R  U0 {1,S} {3,{S,D,B}}
+3   R  U0 {2,{S,D,B}} {4,{S,D,B}}
+4   R  U0 {1,S} {3,{S,D,B}}
 
 """,
 	solute = None,
@@ -307,11 +307,11 @@ entry(
 	label = "OxR5",
 	group = 
 """
-1 * Os 0 {2,S} {5,S}
-2   R  0 {1,S} {3,{S,D,B}}
-3   R  0 {2,{S,D,B}} {4,{S,D,B}}
-4   R  0 {3,{S,D,B}} {5,{S,D,B}}
-5   R  0 {1,S} {4,{S,D,B}}
+1 * Os U0 {2,S} {5,S}
+2   R  U0 {1,S} {3,{S,D,B}}
+3   R  U0 {2,{S,D,B}} {4,{S,D,B}}
+4   R  U0 {3,{S,D,B}} {5,{S,D,B}}
+5   R  U0 {1,S} {4,{S,D,B}}
 """,
 	solute = None,
 	shortDesc = u"""O in a 5 membered ring""",
@@ -326,12 +326,12 @@ entry(
 	label = "OxR6",
 	group = 
 """
-1 * Os 0 {2,S} {6,S}
-2   R  0 {1,S} {3,{S,D,B}}
-3   R  0 {2,{S,D,B}} {4,{S,D,B}}
-4   R  0 {3,{S,D,B}} {5,{S,D,B}}
-5   R  0 {4,{S,D,B}} {6,{S,D,B}}
-6   R  0 {1,S} {5,{S,D,B}}
+1 * Os U0 {2,S} {6,S}
+2   R  U0 {1,S} {3,{S,D,B}}
+3   R  U0 {2,{S,D,B}} {4,{S,D,B}}
+4   R  U0 {3,{S,D,B}} {5,{S,D,B}}
+5   R  U0 {4,{S,D,B}} {6,{S,D,B}}
+6   R  U0 {1,S} {5,{S,D,B}}
 
 """,
 	solute = None,
@@ -347,13 +347,13 @@ entry(
 	label = "OxR7",
 	group = 
 """
-1 * Os 0 {2,S} {7,S}
-2   R  0 {1,S} {3,{S,D,B}}
-3   R  0 {2,{S,D,B}} {4,{S,D,B}}
-4   R  0 {3,{S,D,B}} {5,{S,D,B}}
-5   R  0 {4,{S,D,B}} {6,{S,D,B}}
-6   R  0 {5,{S,D,B}} {7,{S,D,B}}
-7   R  0 {1,S} {6,{S,D,B}}
+1 * Os U0 {2,S} {7,S}
+2   R  U0 {1,S} {3,{S,D,B}}
+3   R  U0 {2,{S,D,B}} {4,{S,D,B}}
+4   R  U0 {3,{S,D,B}} {5,{S,D,B}}
+5   R  U0 {4,{S,D,B}} {6,{S,D,B}}
+6   R  U0 {5,{S,D,B}} {7,{S,D,B}}
+7   R  U0 {1,S} {6,{S,D,B}}
 
 """,
 	solute = None,
@@ -387,10 +387,10 @@ entry(
 	label = "Lac3",
 	group = 
 """
-1   Od 0 {2,D}
-2 * CO 0 {1,D} {3,S} {4,S}
-3   Os 0 {2,S} {4,S}
-4   R!H 0 {2,S} {3,S}
+1   Od  U0 {2,D}
+2 * CO  U0 {1,D} {3,S} {4,S}
+3   Os  U0 {2,S} {4,S}
+4   R!H U0 {2,S} {3,S}
 """,
 	solute = None,
 	shortDesc = u"""lactone, 3 membered ring""",
@@ -405,11 +405,11 @@ entry(
 	label = "Lac4",
 	group = 
 """
-1   Od 0 {2,D}
-2 * CO 0 {1,D} {3,S} {5,S}
-3   Os 0 {2,S} {4,S}
-4   R!H 0 {5,S} {3,S}
-5   R!H 0 {2,S} {4,S}
+1   Od  U0 {2,D}
+2 * CO  U0 {1,D} {3,S} {5,S}
+3   Os  U0 {2,S} {4,S}
+4   R!H U0 {5,S} {3,S}
+5   R!H U0 {2,S} {4,S}
 """,
 	solute = None,
 	shortDesc = u"""lactone, 4 membered ring""",
@@ -424,12 +424,12 @@ entry(
 	label = "Lac5",
 	group = 
 """
-1   Od 0 {2,D}
-2 * CO 0 {1,D} {3,S} {6,S}
-3   Os 0 {2,S} {4,S}
-4   R!H 0 {5,S} {3,S}
-5   R!H 0 {4,S} {6,S}
-6   R!H 0 {5,S} {2,S}
+1   Od  U0 {2,D}
+2 * CO  U0 {1,D} {3,S} {6,S}
+3   Os  U0 {2,S} {4,S}
+4   R!H U0 {5,S} {3,S}
+5   R!H U0 {4,S} {6,S}
+6   R!H U0 {5,S} {2,S}
 """,
 	solute = None,
 	shortDesc = u"""lactone, 5 membered ring""",
@@ -444,13 +444,13 @@ entry(
 	label = "Lac6",
 	group = 
 """
-1   Od 0 {2,D}
-2 * CO 0 {1,D} {3,S} {7,S}
-3   Os 0 {2,S} {4,S}
-4   R!H 0 {5,S} {3,S}
-5   R!H 0 {4,S} {6,S}
-6   R!H 0 {5,S} {7,S}
-7   R!H 0 {6,S} {2,S}
+1   Od  U0 {2,D}
+2 * CO  U0 {1,D} {3,S} {7,S}
+3   Os  U0 {2,S} {4,S}
+4   R!H U0 {5,S} {3,S}
+5   R!H U0 {4,S} {6,S}
+6   R!H U0 {5,S} {7,S}
+7   R!H U0 {6,S} {2,S}
 """,
 	solute = None,
 	shortDesc = u"""lactone, 6 membered ring""",
