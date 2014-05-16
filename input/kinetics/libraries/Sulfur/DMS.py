@@ -11,6 +11,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -20,11 +21,13 @@ CS2H2(2)
     reactant2 = 
 """
 HJ
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 CS2H(2)J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -33,6 +36,7 @@ CS2H(2)J
     product2 = 
 """
 H2
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -56,6 +60,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -65,6 +70,7 @@ CS2H2(2)
     reactant2 = 
 """
 CH3J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -73,6 +79,7 @@ CH3J
     product1 = 
 """
 CS2H(2)J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -81,6 +88,7 @@ CS2H(2)J
     product2 = 
 """
 CH4
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -107,6 +115,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -116,12 +125,14 @@ CS2H2(2)
     reactant2 = 
 """
 HSJ
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 CS2H(2)J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -130,6 +141,7 @@ CS2H(2)J
     product2 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -154,6 +166,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -163,6 +176,7 @@ CS2H2(2)
     reactant2 = 
 """
 CH3SJ
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -172,6 +186,7 @@ CH3SJ
     product1 = 
 """
 CS2H(2)J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -180,6 +195,7 @@ CS2H(2)J
     product2 = 
 """
 CH3SH
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -207,6 +223,7 @@ entry(
     reactant1 = 
 """
 CH3SSCH2J
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 1 0 {4,S} {8,S} {9,S}
 3 S 0 2 {1,S} {4,S}
@@ -220,6 +237,7 @@ CH3SSCH2J
     product1 = 
 """
 CH3SCH2SJ
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,S} {9,S}
 3 S 0 2 {1,S} {2,S}
@@ -250,6 +268,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -258,6 +277,7 @@ CH2S
     reactant2 = 
 """
 CH3SJ
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -267,6 +287,7 @@ CH3SJ
     product1 = 
 """
 CH3SSCH2J
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 1 0 {4,S} {8,S} {9,S}
 3 S 0 2 {1,S} {4,S}
@@ -297,6 +318,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -305,6 +327,7 @@ CH2S
     reactant2 = 
 """
 CH3SJ
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -314,6 +337,7 @@ CH3SJ
     product1 = 
 """
 CH3SCH2SJ
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,S} {9,S}
 3 S 0 2 {1,S} {2,S}
@@ -344,6 +368,7 @@ entry(
     reactant1 = 
 """
 CH3CH2SSCH2J
+multiplicity 2
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
 2  C 0 0 {1,S} {8,S} {9,S} {10,S}
 3  C 1 0 {5,S} {11,S} {12,S}
@@ -360,6 +385,7 @@ CH3CH2SSCH2J
     product1 = 
 """
 CH3CH2SCH2SJ
+multiplicity 2
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {4,S} {10,S} {11,S} {12,S}
@@ -393,6 +419,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -401,6 +428,7 @@ CH2S
     reactant2 = 
 """
 CH3CH2SJ
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 S 1 2 {1,S}
@@ -413,6 +441,7 @@ CH3CH2SJ
     product1 = 
 """
 CH3CH2SSCH2J
+multiplicity 2
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
 2  C 0 0 {1,S} {8,S} {9,S} {10,S}
 3  C 1 0 {5,S} {11,S} {12,S}
@@ -446,6 +475,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -454,6 +484,7 @@ CH2S
     reactant2 = 
 """
 CH3CH2SJ
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 S 1 2 {1,S}
@@ -466,6 +497,7 @@ CH3CH2SJ
     product1 = 
 """
 CH3CH2SCH2SJ
+multiplicity 2
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {4,S} {10,S} {11,S} {12,S}
@@ -499,6 +531,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -508,6 +541,7 @@ CS2H2(2)
     reactant2 = 
 """
 CH3J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -516,6 +550,7 @@ CH3J
     product1 = 
 """
 CH3SSCH2J
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 1 0 {4,S} {8,S} {9,S}
 3 S 0 2 {1,S} {4,S}
@@ -546,6 +581,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -555,6 +591,7 @@ CS2H2(2)
     reactant2 = 
 """
 CH3J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -563,6 +600,7 @@ CH3J
     product1 = 
 """
 CH3SCH2SJ
+multiplicity 2
 1 C 0 0 {3,S} {5,S} {6,S} {7,S}
 2 C 0 0 {3,S} {4,S} {8,S} {9,S}
 3 S 0 2 {1,S} {2,S}
@@ -593,6 +631,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -602,6 +641,7 @@ CS2H2(2)
     reactant2 = 
 """
 C2H5J
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -613,6 +653,7 @@ C2H5J
     product1 = 
 """
 CH3CH2SSCH2J
+multiplicity 2
 1  C 0 0 {2,S} {4,S} {6,S} {7,S}
 2  C 0 0 {1,S} {8,S} {9,S} {10,S}
 3  C 1 0 {5,S} {11,S} {12,S}
@@ -646,6 +687,7 @@ entry(
     reactant1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -655,6 +697,7 @@ CS2H2(2)
     reactant2 = 
 """
 C2H5J
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 H 0 0 {1,S}
@@ -666,6 +709,7 @@ C2H5J
     product1 = 
 """
 CH3CH2SCH2SJ
+multiplicity 2
 1  C 0 0 {2,S} {4,S} {5,S} {6,S}
 2  C 0 0 {1,S} {7,S} {8,S} {9,S}
 3  C 0 0 {4,S} {10,S} {11,S} {12,S}
@@ -699,6 +743,7 @@ entry(
     reactant1 = 
 """
 CS2H2JJ
+multiplicity 3
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 1 2 {1,S}
 3 S 1 2 {1,S}
@@ -708,6 +753,7 @@ CS2H2JJ
     product1 = 
 """
 CS2H2(2)
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -734,6 +780,7 @@ entry(
     reactant1 = 
 """
 CS2H(2)J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 S 0 2 {1,S} {3,S}
 3 S 0 2 {1,S} {2,S}
@@ -742,6 +789,7 @@ CS2H(2)J
     product1 = 
 """
 CS2H(1)J
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 S 1 2 {1,S}
 3 S 0 2 {1,D}
@@ -767,6 +815,7 @@ entry(
     reactant1 = 
 """
 CS2H2JJ
+multiplicity 3
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 1 2 {1,S}
 3 S 1 2 {1,S}
@@ -776,11 +825,13 @@ CS2H2JJ
     product1 = 
 """
 HJ
+multiplicity 2
 1 H 1 0
 """,
     product2 = 
 """
 CS2H(1)J
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 S 1 2 {1,S}
 3 S 0 2 {1,D}
@@ -806,6 +857,7 @@ entry(
     reactant1 = 
 """
 CS2H(1)J
+multiplicity 2
 1 C 0 0 {2,S} {3,D} {4,S}
 2 S 1 2 {1,S}
 3 S 0 2 {1,D}
@@ -814,6 +866,7 @@ CS2H(1)J
     product1 = 
 """
 CS2
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 S 0 2 {1,D}
 3 S 0 2 {1,D}
@@ -821,6 +874,7 @@ CS2
     product2 = 
 """
 HJ
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -843,6 +897,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -851,11 +906,13 @@ CH2S
     reactant2 = 
 """
 HJ
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 HCSJ
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -863,6 +920,7 @@ HCSJ
     product2 = 
 """
 H2
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -886,6 +944,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -894,6 +953,7 @@ CH2S
     reactant2 = 
 """
 CH3J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -902,6 +962,7 @@ CH3J
     product1 = 
 """
 HCSJ
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -909,6 +970,7 @@ HCSJ
     product2 = 
 """
 CH4
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -935,6 +997,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -943,12 +1006,14 @@ CH2S
     reactant2 = 
 """
 HSJ
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 HCSJ
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -956,6 +1021,7 @@ HCSJ
     product2 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -980,6 +1046,7 @@ entry(
     reactant1 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -988,6 +1055,7 @@ CH2S
     reactant2 = 
 """
 CH3SJ
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -997,6 +1065,7 @@ CH3SJ
     product1 = 
 """
 HCSJ
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1004,6 +1073,7 @@ HCSJ
     product2 = 
 """
 CH3SH
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 S 0 2 {1,S} {6,S}
 3 H 0 0 {1,S}
@@ -1031,6 +1101,7 @@ entry(
     reactant1 = 
 """
 C2H3S2(1)J
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 S 0 2 {1,S} {2,S}
@@ -1042,6 +1113,7 @@ C2H3S2(1)J
     product1 = 
 """
 HCSJ
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1049,6 +1121,7 @@ HCSJ
     product2 = 
 """
 CH2S
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 S 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -1074,6 +1147,7 @@ entry(
     reactant1 = 
 """
 C2H3S2(1)J
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 S 0 2 {1,S} {2,S}
@@ -1085,6 +1159,7 @@ C2H3S2(1)J
     product1 = 
 """
 C2H3S2(2)J
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 S 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1113,6 +1188,7 @@ entry(
     reactant1 = 
 """
 C2H3S2(2)J
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 S 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -1124,6 +1200,7 @@ C2H3S2(2)J
     product1 = 
 """
 CS2
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 S 0 2 {1,D}
 3 S 0 2 {1,D}
@@ -1131,6 +1208,7 @@ CS2
     product2 = 
 """
 CH3J
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}

@@ -11,6 +11,7 @@ entry(
     reactant1 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -18,17 +19,20 @@ H2S
     reactant2 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H2
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -53,6 +57,7 @@ entry(
     reactant1 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -60,17 +65,20 @@ H2S
     reactant2 = 
 """
 S
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     product1 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -94,23 +102,27 @@ entry(
     reactant1 = 
 """
 S
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     reactant2 = 
 """
 H2
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -133,23 +145,27 @@ entry(
     reactant1 = 
 """
 S
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     reactant2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 S2
+multiplicity 1
 1 S 0 2 {2,D}
 2 S 0 2 {1,D}
 """,
     product2 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     degeneracy = 1,
@@ -172,11 +188,13 @@ entry(
     reactant1 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -184,12 +202,14 @@ HSS
     product1 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -213,12 +233,14 @@ entry(
     reactant1 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     reactant2 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -226,6 +248,7 @@ HSS
     product1 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -233,6 +256,7 @@ H2S
     product2 = 
 """
 S2
+multiplicity 1
 1 S 0 2 {2,D}
 2 S 0 2 {1,D}
 """,
@@ -256,11 +280,13 @@ entry(
     reactant1 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -268,12 +294,14 @@ HSS
     product1 = 
 """
 H2
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 S2
+multiplicity 1
 1 S 0 2 {2,D}
 2 S 0 2 {1,D}
 """,
@@ -297,11 +325,13 @@ entry(
     reactant1 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -309,6 +339,7 @@ HSS
     product1 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -316,7 +347,8 @@ H2S
     product2 = 
 """
 S
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -338,11 +370,13 @@ entry(
     reactant1 = 
 """
 S
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     reactant2 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -350,12 +384,14 @@ HSS
     product1 = 
 """
 S2
+multiplicity 1
 1 S 0 2 {2,D}
 2 S 0 2 {1,D}
 """,
     product2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -379,6 +415,7 @@ entry(
     reactant1 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -386,6 +423,7 @@ HSS
     reactant2 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -393,6 +431,7 @@ HSS
     product1 = 
 """
 H2S2
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 S 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -401,6 +440,7 @@ H2S2
     product2 = 
 """
 S2
+multiplicity 1
 1 S 0 2 {2,D}
 2 S 0 2 {1,D}
 """,
@@ -424,6 +464,7 @@ entry(
     reactant1 = 
 """
 H2S2
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 S 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -432,11 +473,13 @@ H2S2
     reactant2 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -444,6 +487,7 @@ HSS
     product2 = 
 """
 H2
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -467,6 +511,7 @@ entry(
     reactant1 = 
 """
 H2S2
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 S 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -475,11 +520,13 @@ H2S2
     reactant2 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     product1 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -487,6 +534,7 @@ H2S
     product2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -510,6 +558,7 @@ entry(
     reactant1 = 
 """
 H2S2
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 S 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -518,12 +567,14 @@ H2S2
     reactant2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 H2S
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -531,6 +582,7 @@ H2S
     product2 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -555,6 +607,7 @@ entry(
     reactant1 = 
 """
 H2S2
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 S 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -563,11 +616,13 @@ H2S2
     reactant2 = 
 """
 S
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     product1 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -575,6 +630,7 @@ HSS
     product2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
@@ -598,17 +654,20 @@ entry(
     reactant1 = 
 """
 H
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 S2
+multiplicity 1
 1 S 0 2 {2,D}
 2 S 0 2 {1,D}
 """,
     product1 = 
 """
 HSS
+multiplicity 2
 1 S 0 2 {2,S} {3,S}
 2 S 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -637,6 +696,7 @@ entry(
     reactant1 = 
 """
 H2S2
+multiplicity 1
 1 S 0 2 {2,S} {3,S}
 2 S 0 2 {1,S} {4,S}
 3 H 0 0 {1,S}
@@ -645,12 +705,14 @@ H2S2
     product1 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,

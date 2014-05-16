@@ -11,6 +11,7 @@ entry(
     reactant1 = 
 """
 C2H5SJ1
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 1 0 {1,S} {6,S} {7,S}
 3 S 0 2 {1,S} {8,S}
@@ -23,6 +24,7 @@ C2H5SJ1
     product1 = 
 """
 C2H5SJ2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 S 1 2 {2,S}
@@ -60,6 +62,7 @@ entry(
     reactant1 = 
 """
 C2H4
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -70,12 +73,14 @@ C2H4
     reactant2 = 
 """
 SH
+multiplicity 2
 1 S 1 2 {2,S}
 2 H 0 0 {1,S}
 """,
     product1 = 
 """
 C2H5SJ2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 C 0 0 {1,S} {3,S} {7,S} {8,S}
 3 S 1 2 {2,S}
@@ -105,16 +110,19 @@ entry(
     reactant1 = 
 """
 SJJ
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     reactant2 = 
 """
 SJJ
-1 S 2S 2
+multiplicity 1
+1 S 2 2
 """,
     product1 = 
 """
 S2
+multiplicity 1
 1 S 1 2 {2,S}
 2 S 1 2 {1,S}
 """,
