@@ -21,22 +21,22 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
-    label = "C1(R)(H)(O[OC3(OH)(R')]C2)",
+    index        = 1,
+    label        = "C1(R)(H)(O[OC3(OH)(R')]C2)",
     group = 
 """
-1  *1 C 0 {2,S} {4,S} {7,S} {9,S}
-2  *2 C 0 {1,S} {3,S} {11,S} {12,S}
-3  *3 C 0 {2,S} {5,S} {6,S} {8,S}
-4  *5 O 0 {1,S} {5,S}
-5  *4 O 0 {3,S} {4,S}
-6     O 0 {3,S} {10,S}
-7     R 0 {1,S}
-8     R 0 {3,S}
-9  *6 H 0 {1,S}
-10    H 0 {6,S}
-11    H 0 {2,S}
-12    H 0 {2,S}
+1  *1 C U0 {2,S} {4,S} {7,S} {9,S}
+2  *2 C U0 {1,S} {3,S} {11,S} {12,S}
+3  *3 C U0 {2,S} {5,S} {6,S} {8,S}
+4  *5 O U0 {1,S} {5,S}
+5  *4 O U0 {3,S} {4,S}
+6     O U0 {3,S} {10,S}
+7     R U0 {1,S}
+8     R U0 {3,S}
+9  *6 H U0 {1,S}
+10    H U0 {6,S}
+11    H U0 {2,S}
+12    H U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -54,12 +54,13 @@ L1: C1(R)(H)(O[OC3(OH)(R')]C2)
 
 forbidden(
     label = "O4",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1    O 1 {2,S}
-2 *1 O 0 {1,S} {3,S}
-3 *2 O 0 {2,S} {4,S}
-4    O 1 {3,S}
+1    O U1 {2,S}
+2 *1 O U0 {1,S} {3,S}
+3 *2 O U0 {2,S} {4,S}
+4    O U1 {3,S}
 """,
     shortDesc = u"""""",
     longDesc = 

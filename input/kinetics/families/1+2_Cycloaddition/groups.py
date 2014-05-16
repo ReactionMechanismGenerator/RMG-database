@@ -19,13 +19,11 @@ recipe(actions=[
 ])
 
 entry(
-    index = 1,
-    label = "elec_def",
-#    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom, imidogen}",
-    multiplicity = [1,2,3,4,5],
+    index        = 1,
+    label        = "elec_def",
     group = 
 """
-1 *3 R 2
+1 *3 R U2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -36,8 +34,8 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "multiplebond",
+    index        = 2,
+    label        = "multiplebond",
     group = "OR{mb_carbonyl, mb_db, mb_tb}",
     kinetics = None,
     shortDesc = u"""""",
@@ -48,12 +46,11 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "o_atom",
-    multiplicity = [1],
+    index        = 3,
+    label        = "o_atom",
     group = 
 """
-1 *3 O 2 2
+1 *3 O U2 L2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -64,14 +61,12 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "carbene",
-    multiplicity = [1],
+    index        = 45,
+    label        = "imidogen",
     group = 
 """
-1 *3 C 2 {2,S} {3,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
+1 *3 N3s U2 {2,S}
+2    H   U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -82,17 +77,13 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "me_carbene",
-    multiplicity = [1],
+    index        = 4,
+    label        = "carbene",
     group = 
 """
-1 *3 C  2 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    H  0 {1,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
+1 *3 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -103,19 +94,16 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "ph_carbene",
-    multiplicity = [1],
+    index        = 5,
+    label        = "me_carbene",
     group = 
 """
-1 *3 C  2 {2,S} {3,S}
-2    Cb 0 {1,S} {4,B} {5,B}
-3    H  0 {1,S}
-4    Cb 0 {2,B} {6,B}
-5    Cb 0 {2,B} {7,B}
-6    Cb 0 {4,B} {8,B}
-7    Cb 0 {5,B} {8,B}
-8    Cb 0 {6,B} {7,B}
+1 *3 C  U2 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    H  U0 {1,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -126,20 +114,18 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "dime_carbene",
-    multiplicity = [1],
+    index        = 6,
+    label        = "ph_carbene",
     group = 
 """
-1 *3 C  2 {2,S} {3,S}
-2    Cs 0 {1,S} {4,S} {5,S} {6,S}
-3    Cs 0 {1,S} {7,S} {8,S} {9,S}
-4    H  0 {2,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-7    H  0 {3,S}
-8    H  0 {3,S}
-9    H  0 {3,S}
+1 *3 C  U2 {2,S} {3,S}
+2    Cb U0 {1,S} {4,B} {5,B}
+3    H  U0 {1,S}
+4    Cb U0 {2,B} {6,B}
+5    Cb U0 {2,B} {7,B}
+6    Cb U0 {4,B} {8,B}
+7    Cb U0 {5,B} {8,B}
+8    Cb U0 {6,B} {7,B}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -150,12 +136,19 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "mb_carbonyl",
+    index        = 7,
+    label        = "dime_carbene",
     group = 
 """
-1 *1 {CO,Cdd,N} 0 {2,D}
-2 *2 {O,N}      0 {1,D}
+1 *3 C  U2 {2,S} {3,S}
+2    Cs U0 {1,S} {4,S} {5,S} {6,S}
+3    Cs U0 {1,S} {7,S} {8,S} {9,S}
+4    H  U0 {2,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
+7    H  U0 {3,S}
+8    H  U0 {3,S}
+9    H  U0 {3,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -166,14 +159,12 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "mb_carbonyl_2H",
+    index        = 8,
+    label        = "mb_carbonyl",
     group = 
 """
-1 *1 CO 0 {2,D} {3,S} {4,S}
-2 *2 O  0 {1,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *1 {CO,Cdd,N} U0 {2,D}
+2 *2 {O,N}      U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -184,14 +175,14 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "mb_carbonyl_HNd",
+    index        = 9,
+    label        = "mb_carbonyl_2H",
     group = 
 """
-1 *1 CO     0 {2,D} {3,S} {4,S}
-2 *2 O      0 {1,D}
-3    H      0 {1,S}
-4    {Cs,O} 0 {1,S}
+1 *1 CO U0 {2,D} {3,S} {4,S}
+2 *2 O  U0 {1,D}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -202,14 +193,14 @@ u"""
 )
 
 entry(
-    index = 11,
-    label = "mb_carbonyl_HDe",
+    index        = 10,
+    label        = "mb_carbonyl_HNd",
     group = 
 """
-1 *1 CO            0 {2,D} {3,S} {4,S}
-2 *2 O             0 {1,D}
-3    H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 CO     U0 {2,D} {3,S} {4,S}
+2 *2 O      U0 {1,D}
+3    H      U0 {1,S}
+4    {Cs,O} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -220,14 +211,14 @@ u"""
 )
 
 entry(
-    index = 12,
-    label = "mb_carbonyl_NdNd",
+    index        = 11,
+    label        = "mb_carbonyl_HDe",
     group = 
 """
-1 *1 CO     0 {2,D} {3,S} {4,S}
-2 *2 O      0 {1,D}
-3    {Cs,O} 0 {1,S}
-4    {Cs,O} 0 {1,S}
+1 *1 CO            U0 {2,D} {3,S} {4,S}
+2 *2 O             U0 {1,D}
+3    H             U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -238,14 +229,14 @@ u"""
 )
 
 entry(
-    index = 13,
-    label = "mb_carbonyl_NdDe",
+    index        = 12,
+    label        = "mb_carbonyl_NdNd",
     group = 
 """
-1 *1 CO            0 {2,D} {3,S} {4,S}
-2 *2 O             0 {1,D}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 CO     U0 {2,D} {3,S} {4,S}
+2 *2 O      U0 {1,D}
+3    {Cs,O} U0 {1,S}
+4    {Cs,O} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -256,14 +247,14 @@ u"""
 )
 
 entry(
-    index = 14,
-    label = "mb_carbonyl_DeDe",
+    index        = 13,
+    label        = "mb_carbonyl_NdDe",
     group = 
 """
-1 *1 CO            0 {2,D} {3,S} {4,S}
-2 *2 O             0 {1,D}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 CO            U0 {2,D} {3,S} {4,S}
+2 *2 O             U0 {1,D}
+3    {Cs,O}        U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -274,12 +265,14 @@ u"""
 )
 
 entry(
-    index = 15,
-    label = "mb_db",
+    index        = 14,
+    label        = "mb_carbonyl_DeDe",
     group = 
 """
-1 *1 {Cd,Cdd,N} 0 {2,D}
-2 *2 {Cd,Cdd,N} 0 {1,D}
+1 *1 CO            U0 {2,D} {3,S} {4,S}
+2 *2 O             U0 {1,D}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -290,13 +283,12 @@ u"""
 )
 
 entry(
-    index = 16,
-    label = "mb_db_dbSub",
+    index        = 15,
+    label        = "mb_db",
     group = 
 """
-1 *1 Cdd      0 {2,D} {3,D}
-2 *2 Cd       0 {1,D}
-3    {Cd,Cdd} 0 {1,D}
+1 *1 {Cd,Cdd,N} U0 {2,D}
+2 *2 {Cd,Cdd,N} U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -307,16 +299,13 @@ u"""
 )
 
 entry(
-    index = 17,
-    label = "mb_db_unsub",
+    index        = 16,
+    label        = "mb_db_dbSub",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Cd 0 {1,D} {5,S} {6,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
+1 *1 Cdd      U0 {2,D} {3,D}
+2 *2 Cd       U0 {1,D}
+3    {Cd,Cdd} U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -327,16 +316,16 @@ u"""
 )
 
 entry(
-    index = 18,
-    label = "mb_db_monosub",
+    index        = 17,
+    label        = "mb_db_unsub",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cd  0 {1,D} {5,S} {6,S}
-3    H   0 {1,S}
-4    H   0 {1,S}
-5    H   0 {2,S}
-6    R!H 0 {2,S}
+1 *1 Cd U0 {2,D} {3,S} {4,S}
+2 *2 Cd U0 {1,D} {5,S} {6,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -347,16 +336,16 @@ u"""
 )
 
 entry(
-    index = 19,
-    label = "mb_db_monosub_Nd",
+    index        = 18,
+    label        = "mb_db_monosub",
     group = 
 """
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cd     0 {1,D} {5,S} {6,S}
-3    H      0 {1,S}
-4    H      0 {1,S}
-5    H      0 {2,S}
-6    {Cs,O} 0 {2,S}
+1 *1 Cd  U0 {2,D} {3,S} {4,S}
+2 *2 Cd  U0 {1,D} {5,S} {6,S}
+3    H   U0 {1,S}
+4    H   U0 {1,S}
+5    H   U0 {2,S}
+6    R!H U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -367,16 +356,16 @@ u"""
 )
 
 entry(
-    index = 20,
-    label = "mb_db_monosub_De",
+    index        = 19,
+    label        = "mb_db_monosub_Nd",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    H             0 {1,S}
-5    H             0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd     U0 {2,D} {3,S} {4,S}
+2 *2 Cd     U0 {1,D} {5,S} {6,S}
+3    H      U0 {1,S}
+4    H      U0 {1,S}
+5    H      U0 {2,S}
+6    {Cs,O} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -387,16 +376,16 @@ u"""
 )
 
 entry(
-    index = 21,
-    label = "mb_db_onecdisub",
+    index        = 20,
+    label        = "mb_db_monosub_De",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cd  0 {1,D} {5,S} {6,S}
-3    H   0 {1,S}
-4    H   0 {1,S}
-5    R!H 0 {2,S}
-6    R!H 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    H             U0 {1,S}
+5    H             U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -407,16 +396,16 @@ u"""
 )
 
 entry(
-    index = 22,
-    label = "mb_db_onecdisub_Nd",
+    index        = 21,
+    label        = "mb_db_onecdisub",
     group = 
 """
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cd     0 {1,D} {5,S} {6,S}
-3    H      0 {1,S}
-4    H      0 {1,S}
-5    {Cs,O} 0 {2,S}
-6    {Cs,O} 0 {2,S}
+1 *1 Cd  U0 {2,D} {3,S} {4,S}
+2 *2 Cd  U0 {1,D} {5,S} {6,S}
+3    H   U0 {1,S}
+4    H   U0 {1,S}
+5    R!H U0 {2,S}
+6    R!H U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -427,16 +416,16 @@ u"""
 )
 
 entry(
-    index = 23,
-    label = "mb_db_onecdisub_oneDe",
+    index        = 22,
+    label        = "mb_db_onecdisub_Nd",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    H             0 {1,S}
-5    {Cs,O}        0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd     U0 {2,D} {3,S} {4,S}
+2 *2 Cd     U0 {1,D} {5,S} {6,S}
+3    H      U0 {1,S}
+4    H      U0 {1,S}
+5    {Cs,O} U0 {2,S}
+6    {Cs,O} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -447,16 +436,16 @@ u"""
 )
 
 entry(
-    index = 24,
-    label = "mb_db_onecdisub_twoDe",
+    index        = 23,
+    label        = "mb_db_onecdisub_oneDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    H             0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    H             U0 {1,S}
+5    {Cs,O}        U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -467,16 +456,16 @@ u"""
 )
 
 entry(
-    index = 25,
-    label = "mb_db_twocdisub",
+    index        = 24,
+    label        = "mb_db_onecdisub_twoDe",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cd  0 {1,D} {5,S} {6,S}
-3    H   0 {1,S}
-4    R!H 0 {1,S}
-5    H   0 {2,S}
-6    R!H 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    H             U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -487,16 +476,16 @@ u"""
 )
 
 entry(
-    index = 26,
-    label = "mb_db_twocdisub_Nd",
+    index        = 25,
+    label        = "mb_db_twocdisub",
     group = 
 """
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cd     0 {1,D} {5,S} {6,S}
-3    H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    H      0 {2,S}
-6    {Cs,O} 0 {2,S}
+1 *1 Cd  U0 {2,D} {3,S} {4,S}
+2 *2 Cd  U0 {1,D} {5,S} {6,S}
+3    H   U0 {1,S}
+4    R!H U0 {1,S}
+5    H   U0 {2,S}
+6    R!H U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -507,16 +496,16 @@ u"""
 )
 
 entry(
-    index = 27,
-    label = "mb_db_twocdisub_oneDe",
+    index        = 26,
+    label        = "mb_db_twocdisub_Nd",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    {Cs,O}        0 {1,S}
-5    H             0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd     U0 {2,D} {3,S} {4,S}
+2 *2 Cd     U0 {1,D} {5,S} {6,S}
+3    H      U0 {1,S}
+4    {Cs,O} U0 {1,S}
+5    H      U0 {2,S}
+6    {Cs,O} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -527,16 +516,16 @@ u"""
 )
 
 entry(
-    index = 28,
-    label = "mb_db_twocdisub_twoDe",
+    index        = 27,
+    label        = "mb_db_twocdisub_oneDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    H             0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    {Cs,O}        U0 {1,S}
+5    H             U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -547,16 +536,16 @@ u"""
 )
 
 entry(
-    index = 29,
-    label = "mb_db_trisub",
+    index        = 28,
+    label        = "mb_db_twocdisub_twoDe",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cd  0 {1,D} {5,S} {6,S}
-3    H   0 {1,S}
-4    R!H 0 {1,S}
-5    R!H 0 {2,S}
-6    R!H 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    H             U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -567,16 +556,16 @@ u"""
 )
 
 entry(
-    index = 30,
-    label = "mb_db_trisub_Nd",
+    index        = 29,
+    label        = "mb_db_trisub",
     group = 
 """
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cd     0 {1,D} {5,S} {6,S}
-3    H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {2,S}
-6    {Cs,O} 0 {2,S}
+1 *1 Cd  U0 {2,D} {3,S} {4,S}
+2 *2 Cd  U0 {1,D} {5,S} {6,S}
+3    H   U0 {1,S}
+4    R!H U0 {1,S}
+5    R!H U0 {2,S}
+6    R!H U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -587,16 +576,16 @@ u"""
 )
 
 entry(
-    index = 31,
-    label = "mb_db_trisub_oneMDe",
+    index        = 30,
+    label        = "mb_db_trisub_Nd",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cs,O}        0 {2,S}
-6    {Cs,O}        0 {2,S}
+1 *1 Cd     U0 {2,D} {3,S} {4,S}
+2 *2 Cd     U0 {1,D} {5,S} {6,S}
+3    H      U0 {1,S}
+4    {Cs,O} U0 {1,S}
+5    {Cs,O} U0 {2,S}
+6    {Cs,O} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -607,16 +596,16 @@ u"""
 )
 
 entry(
-    index = 32,
-    label = "mb_db_trisub_oneDDe",
+    index        = 31,
+    label        = "mb_db_trisub_oneMDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    {Cs,O}        0 {1,S}
-5    {Cs,O}        0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cs,O}        U0 {2,S}
+6    {Cs,O}        U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -627,16 +616,16 @@ u"""
 )
 
 entry(
-    index = 33,
-    label = "mb_db_trisub_onectwoDe",
+    index        = 32,
+    label        = "mb_db_trisub_oneDDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    {Cs,O}        0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    {Cs,O}        U0 {1,S}
+5    {Cs,O}        U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -647,16 +636,16 @@ u"""
 )
 
 entry(
-    index = 34,
-    label = "mb_db_trisub_twoctwoDe",
+    index        = 33,
+    label        = "mb_db_trisub_onectwoDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cs,O}        0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    {Cs,O}        U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -667,16 +656,16 @@ u"""
 )
 
 entry(
-    index = 35,
-    label = "mb_db_trisub_threeDe",
+    index        = 34,
+    label        = "mb_db_trisub_twoctwoDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cs,O}        U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -687,16 +676,16 @@ u"""
 )
 
 entry(
-    index = 36,
-    label = "mb_db_tetrasub",
+    index        = 35,
+    label        = "mb_db_trisub_threeDe",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cd  0 {1,D} {5,S} {6,S}
-3    R!H 0 {1,S}
-4    R!H 0 {1,S}
-5    R!H 0 {2,S}
-6    R!H 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    H             U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -707,16 +696,16 @@ u"""
 )
 
 entry(
-    index = 37,
-    label = "mb_db_tetrasub_Nd",
+    index        = 36,
+    label        = "mb_db_tetrasub",
     group = 
 """
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cd     0 {1,D} {5,S} {6,S}
-3    {Cs,O} 0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {2,S}
-6    {Cs,O} 0 {2,S}
+1 *1 Cd  U0 {2,D} {3,S} {4,S}
+2 *2 Cd  U0 {1,D} {5,S} {6,S}
+3    R!H U0 {1,S}
+4    R!H U0 {1,S}
+5    R!H U0 {2,S}
+6    R!H U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -727,16 +716,16 @@ u"""
 )
 
 entry(
-    index = 38,
-    label = "mb_db_tetrasub_oneDe",
+    index        = 37,
+    label        = "mb_db_tetrasub_Nd",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    {Cs,O}        0 {1,S}
-4    {Cs,O}        0 {1,S}
-5    {Cs,O}        0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd     U0 {2,D} {3,S} {4,S}
+2 *2 Cd     U0 {1,D} {5,S} {6,S}
+3    {Cs,O} U0 {1,S}
+4    {Cs,O} U0 {1,S}
+5    {Cs,O} U0 {2,S}
+6    {Cs,O} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -747,16 +736,16 @@ u"""
 )
 
 entry(
-    index = 39,
-    label = "mb_db_tetrasub_onectwoDe",
+    index        = 38,
+    label        = "mb_db_tetrasub_oneDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    {Cs,O}        0 {1,S}
-4    {Cs,O}        0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    {Cs,O}        U0 {1,S}
+4    {Cs,O}        U0 {1,S}
+5    {Cs,O}        U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -767,16 +756,16 @@ u"""
 )
 
 entry(
-    index = 40,
-    label = "mb_db_tetrasub_twoctwoDe",
+    index        = 39,
+    label        = "mb_db_tetrasub_onectwoDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cs,O}        0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    {Cs,O}        U0 {1,S}
+4    {Cs,O}        U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -787,16 +776,16 @@ u"""
 )
 
 entry(
-    index = 41,
-    label = "mb_db_tetrasub_threeDe",
+    index        = 40,
+    label        = "mb_db_tetrasub_twoctwoDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    {Cs,O}        U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cs,O}        U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -807,16 +796,16 @@ u"""
 )
 
 entry(
-    index = 42,
-    label = "mb_db_tetrasub_fourDe",
+    index        = 41,
+    label        = "mb_db_tetrasub_threeDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    {Cs,O}        U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -827,12 +816,16 @@ u"""
 )
 
 entry(
-    index = 43,
-    label = "mb_tb",
+    index        = 42,
+    label        = "mb_db_tetrasub_fourDe",
     group = 
 """
-1 *1 {Ct,N} 0 {2,T}
-2 *2 {Ct,N} 0 {1,T}
+1 *1 Cd            U0 {2,D} {3,S} {4,S}
+2 *2 Cd            U0 {1,D} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -843,14 +836,12 @@ u"""
 )
 
 entry(
-    index = 44,
-    label = "mb_tb_unsub",
+    index        = 43,
+    label        = "mb_tb",
     group = 
 """
-1 *1 Ct 0 {2,T} {3,S}
-2 *2 Ct 0 {1,T} {4,S}
-3    H  0 {1,S}
-4    H  0 {2,S}
+1 *1 {Ct,N} U0 {2,T}
+2 *2 {Ct,N} U0 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -861,14 +852,14 @@ u"""
 )
 
 entry(
-    index = 45,
-    label = "mb_tb_monosub",
+    index        = 44,
+    label        = "mb_tb_unsub",
     group = 
 """
-1 *1 Ct  0 {2,T} {3,S}
-2 *2 Ct  0 {1,T} {4,S}
-3    R!H 0 {1,S}
-4    H   0 {2,S}
+1 *1 Ct U0 {2,T} {3,S}
+2 *2 Ct U0 {1,T} {4,S}
+3    H  U0 {1,S}
+4    H  U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -879,14 +870,14 @@ u"""
 )
 
 entry(
-    index = 46,
-    label = "mb_tb_monosub_Nd",
+    index        = 45,
+    label        = "mb_tb_monosub",
     group = 
 """
-1 *1 Ct      0 {2,T} {3,S}
-2 *2 Ct      0 {1,T} {4,S}
-3    {Cs,Os} 0 {1,S}
-4    H       0 {2,S}
+1 *1 Ct  U0 {2,T} {3,S}
+2 *2 Ct  U0 {1,T} {4,S}
+3    R!H U0 {1,S}
+4    H   U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -897,14 +888,14 @@ u"""
 )
 
 entry(
-    index = 47,
-    label = "mb_tb_disub",
+    index        = 46,
+    label        = "mb_tb_monosub_Nd",
     group = 
 """
-1 *1 Ct  0 {2,T} {3,S}
-2 *2 Ct  0 {1,T} {4,S}
-3    R!H 0 {1,S}
-4    R!H 0 {2,S}
+1 *1 Ct      U0 {2,T} {3,S}
+2 *2 Ct      U0 {1,T} {4,S}
+3    {Cs,Os} U0 {1,S}
+4    H       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -915,14 +906,14 @@ u"""
 )
 
 entry(
-    index = 48,
-    label = "mb_tb_disub_twoNd",
+    index        = 47,
+    label        = "mb_tb_disub",
     group = 
 """
-1 *1 Ct      0 {2,T} {3,S}
-2 *2 Ct      0 {1,T} {4,S}
-3    {Cs,Os} 0 {1,S}
-4    {Cs,Os} 0 {2,S}
+1 *1 Ct  U0 {2,T} {3,S}
+2 *2 Ct  U0 {1,T} {4,S}
+3    R!H U0 {1,S}
+4    R!H U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -933,13 +924,14 @@ u"""
 )
 
 entry(
-    index = 45,
-    label = "imidogen",
-    multiplicity = [1],
+    index        = 48,
+    label        = "mb_tb_disub_twoNd",
     group = 
 """
-1 *3 N3s 2 {2,S}
-2    H   0 {1,S}
+1 *1 Ct      U0 {2,T} {3,S}
+2 *2 Ct      U0 {1,T} {4,S}
+3    {Cs,Os} U0 {1,S}
+4    {Cs,Os} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -953,11 +945,11 @@ tree(
 """
 L1: elec_def
     L2: o_atom
+    L2: imidogen
     L2: carbene
     L2: me_carbene
     L2: ph_carbene
     L2: dime_carbene
-    L2: imidogen
 L1: multiplebond
     L2: mb_carbonyl
         L3: mb_carbonyl_2H
@@ -1008,12 +1000,14 @@ forbidden(
     multiplicity = [3],
     group = 
 """
-1 *1 C 2 {2,S} {3,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
+
