@@ -11,14 +11,14 @@ entry(
     reactant1 = 
 """
 O2_(S)
-1
+multiplicity 1
 1 O 0 2 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -44,14 +44,14 @@ entry(
     reactant1 = 
 """
 O2_(S)
-1
+multiplicity 1
 1 O 0 2 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
@@ -75,14 +75,14 @@ entry(
     reactant1 = 
 """
 O2_(S)
-1
+multiplicity 1
 1 O 0 2 {2,D}
 2 O 0 2 {1,D}
 """,
     product1 = 
 """
 O2_(T)
-3
+multiplicity 3
 1 O 1 2 {2,S}
 2 O 1 2 {1,S}
 """,
