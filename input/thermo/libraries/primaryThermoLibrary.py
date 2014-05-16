@@ -768,29 +768,3 @@ HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @
 """,
 )
 
-entry(
-    index = 18,
-    label = "C_(V)_testestestestest_delete_immediately",
-    multiplicity = 5,
-    molecule = 
-"""
-1 C 4 0
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
-        H298 = (200.397,'kcal/mol'),
-        S298 = (33.393,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-H298: ATcT version 1.110
-level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
-level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
-""",
-    history = [
-        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
-    ],
-)
-
