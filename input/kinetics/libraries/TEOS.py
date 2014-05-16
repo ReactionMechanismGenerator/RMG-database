@@ -11,7 +11,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)4
-1
+multiplicity 1
 1  Si 0 0 {10,S} {11,S} {12,S} {13,S}
 2  C  0 0 {6,S} {10,S} {14,S} {15,S}
 3  C  0 0 {7,S} {11,S} {16,S} {17,S}
@@ -49,7 +49,7 @@ Si(OC2H5)4
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -60,7 +60,7 @@ C2H4
     product2 = 
 """
 Si(OC2H5)3OH
-1
+multiplicity 1
 1  Si 0 0 {8,S} {9,S} {10,S} {11,S}
 2  C  0 0 {5,S} {8,S} {12,S} {13,S}
 3  C  0 0 {6,S} {9,S} {14,S} {15,S}
@@ -109,7 +109,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)4
-1
+multiplicity 1
 1  Si 0 0 {10,S} {11,S} {12,S} {13,S}
 2  C  0 0 {6,S} {10,S} {14,S} {15,S}
 3  C  0 0 {7,S} {11,S} {16,S} {17,S}
@@ -147,7 +147,7 @@ Si(OC2H5)4
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -156,7 +156,7 @@ CH3
     product2 = 
 """
 CH2OSi(OC2H5)3
-2
+multiplicity 2
 1  C  0 0 {5,S} {13,S} {14,S} {15,S}
 2  C  0 0 {6,S} {16,S} {17,S} {18,S}
 3  C  0 0 {7,S} {19,S} {20,S} {21,S}
@@ -207,7 +207,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)3OH
-1
+multiplicity 1
 1  Si 0 0 {8,S} {9,S} {10,S} {11,S}
 2  C  0 0 {5,S} {8,S} {12,S} {13,S}
 3  C  0 0 {6,S} {9,S} {14,S} {15,S}
@@ -239,7 +239,7 @@ Si(OC2H5)3OH
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -250,7 +250,7 @@ C2H4
     product2 = 
 """
 Si(OC2H5)2(OH)2
-1
+multiplicity 1
 1  Si 0 0 {6,S} {7,S} {8,S} {9,S}
 2  C  0 0 {4,S} {6,S} {10,S} {11,S}
 3  C  0 0 {5,S} {7,S} {12,S} {13,S}
@@ -293,7 +293,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)3OH
-1
+multiplicity 1
 1  Si 0 0 {8,S} {9,S} {10,S} {11,S}
 2  C  0 0 {5,S} {8,S} {12,S} {13,S}
 3  C  0 0 {6,S} {9,S} {14,S} {15,S}
@@ -325,7 +325,7 @@ Si(OC2H5)3OH
     product1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -339,7 +339,7 @@ C2H5OH
     product2 = 
 """
 O_Si(OC2H5)2
-1
+multiplicity 1
 1  C  0 0 {3,S} {6,S} {8,S} {9,S}
 2  C  0 0 {4,S} {7,S} {10,S} {11,S}
 3  C  0 0 {1,S} {12,S} {13,S} {14,S}
@@ -379,7 +379,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)3OH
-1
+multiplicity 1
 1  Si 0 0 {8,S} {9,S} {10,S} {11,S}
 2  C  0 0 {5,S} {8,S} {12,S} {13,S}
 3  C  0 0 {6,S} {9,S} {14,S} {15,S}
@@ -411,7 +411,7 @@ Si(OC2H5)3OH
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -420,7 +420,7 @@ CH3
     product2 = 
 """
 CH2OSi(OC2H5)2OH
-2
+multiplicity 2
 1  C  0 0 {4,S} {11,S} {12,S} {13,S}
 2  C  0 0 {5,S} {14,S} {15,S} {16,S}
 3  C  1 0 {7,S} {17,S} {18,S}
@@ -465,7 +465,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1
+multiplicity 1
 1  Si 0 0 {6,S} {7,S} {8,S} {9,S}
 2  C  0 0 {4,S} {6,S} {10,S} {11,S}
 3  C  0 0 {5,S} {7,S} {12,S} {13,S}
@@ -491,7 +491,7 @@ Si(OC2H5)2(OH)2
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -502,7 +502,7 @@ C2H4
     product2 = 
 """
 Si(OC2H5)(OH)3
-1
+multiplicity 1
 1  C  0 0 {3,S} {4,S} {8,S} {9,S}
 2  Si 0 0 {4,S} {5,S} {6,S} {7,S}
 3  C  0 0 {1,S} {10,S} {11,S} {12,S}
@@ -539,7 +539,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1
+multiplicity 1
 1  Si 0 0 {6,S} {7,S} {8,S} {9,S}
 2  C  0 0 {4,S} {6,S} {10,S} {11,S}
 3  C  0 0 {5,S} {7,S} {12,S} {13,S}
@@ -565,7 +565,7 @@ Si(OC2H5)2(OH)2
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -573,7 +573,7 @@ H2O
     product2 = 
 """
 O_Si(OC2H5)2
-1
+multiplicity 1
 1  C  0 0 {3,S} {6,S} {8,S} {9,S}
 2  C  0 0 {4,S} {7,S} {10,S} {11,S}
 3  C  0 0 {1,S} {12,S} {13,S} {14,S}
@@ -613,7 +613,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1
+multiplicity 1
 1  Si 0 0 {6,S} {7,S} {8,S} {9,S}
 2  C  0 0 {4,S} {6,S} {10,S} {11,S}
 3  C  0 0 {5,S} {7,S} {12,S} {13,S}
@@ -639,7 +639,7 @@ Si(OC2H5)2(OH)2
     product1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -653,7 +653,7 @@ C2H5OH
     product2 = 
 """
 O_Si(OC2H5)OH
-1
+multiplicity 1
 1  C  0 0 {2,S} {4,S} {6,S} {7,S}
 2  C  0 0 {1,S} {8,S} {9,S} {10,S}
 3  Si 0 0 {4,S} {5,S} {11,D}
@@ -687,7 +687,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1
+multiplicity 1
 1  Si 0 0 {6,S} {7,S} {8,S} {9,S}
 2  C  0 0 {4,S} {6,S} {10,S} {11,S}
 3  C  0 0 {5,S} {7,S} {12,S} {13,S}
@@ -713,7 +713,7 @@ Si(OC2H5)2(OH)2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -722,7 +722,7 @@ CH3
     product2 = 
 """
 CH2OSi(OC2H5)(OH)2
-2
+multiplicity 2
 1  C  0 0 {3,S} {9,S} {10,S} {11,S}
 2  C  1 0 {6,S} {12,S} {13,S}
 3  C  0 0 {1,S} {7,S} {14,S} {15,S}
@@ -761,7 +761,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1
+multiplicity 1
 1  C  0 0 {3,S} {4,S} {8,S} {9,S}
 2  Si 0 0 {4,S} {5,S} {6,S} {7,S}
 3  C  0 0 {1,S} {10,S} {11,S} {12,S}
@@ -781,7 +781,7 @@ Si(OC2H5)(OH)3
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -792,7 +792,7 @@ C2H4
     product2 = 
 """
 Si(OH)4
-1
+multiplicity 1
 1 O  0 2 {5,S} {6,S}
 2 O  0 2 {5,S} {7,S}
 3 O  0 2 {5,S} {8,S}
@@ -823,7 +823,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1
+multiplicity 1
 1  C  0 0 {3,S} {4,S} {8,S} {9,S}
 2  Si 0 0 {4,S} {5,S} {6,S} {7,S}
 3  C  0 0 {1,S} {10,S} {11,S} {12,S}
@@ -843,7 +843,7 @@ Si(OC2H5)(OH)3
     product1 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -851,7 +851,7 @@ H2O
     product2 = 
 """
 O_Si(OC2H5)OH
-1
+multiplicity 1
 1  C  0 0 {2,S} {4,S} {6,S} {7,S}
 2  C  0 0 {1,S} {8,S} {9,S} {10,S}
 3  Si 0 0 {4,S} {5,S} {11,D}
@@ -885,7 +885,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1
+multiplicity 1
 1  C  0 0 {3,S} {4,S} {8,S} {9,S}
 2  Si 0 0 {4,S} {5,S} {6,S} {7,S}
 3  C  0 0 {1,S} {10,S} {11,S} {12,S}
@@ -905,7 +905,7 @@ Si(OC2H5)(OH)3
     product1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -919,7 +919,7 @@ C2H5OH
     product2 = 
 """
 O_Si(OH)2
-1
+multiplicity 1
 1 Si 0 0 {2,S} {3,S} {4,D}
 2 O  0 2 {1,S} {5,S}
 3 O  0 2 {1,S} {6,S}
@@ -947,7 +947,7 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1
+multiplicity 1
 1  C  0 0 {3,S} {4,S} {8,S} {9,S}
 2  Si 0 0 {4,S} {5,S} {6,S} {7,S}
 3  C  0 0 {1,S} {10,S} {11,S} {12,S}
@@ -967,7 +967,7 @@ Si(OC2H5)(OH)3
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -976,7 +976,7 @@ CH3
     product2 = 
 """
 CH2OSi(OH)3
-2
+multiplicity 2
 1  C  1 0 {5,S} {7,S} {8,S}
 2  O  0 2 {6,S} {9,S}
 3  O  0 2 {6,S} {10,S}
@@ -1009,7 +1009,7 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)2
-1
+multiplicity 1
 1  C  0 0 {3,S} {6,S} {8,S} {9,S}
 2  C  0 0 {4,S} {7,S} {10,S} {11,S}
 3  C  0 0 {1,S} {12,S} {13,S} {14,S}
@@ -1032,7 +1032,7 @@ O_Si(OC2H5)2
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -1043,7 +1043,7 @@ C2H4
     product2 = 
 """
 O_Si(OC2H5)OH
-1
+multiplicity 1
 1  C  0 0 {2,S} {4,S} {6,S} {7,S}
 2  C  0 0 {1,S} {8,S} {9,S} {10,S}
 3  Si 0 0 {4,S} {5,S} {11,D}
@@ -1088,7 +1088,7 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)2
-1
+multiplicity 1
 1  C  0 0 {3,S} {6,S} {8,S} {9,S}
 2  C  0 0 {4,S} {7,S} {10,S} {11,S}
 3  C  0 0 {1,S} {12,S} {13,S} {14,S}
@@ -1111,7 +1111,7 @@ O_Si(OC2H5)2
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1120,7 +1120,7 @@ CH3
     product2 = 
 """
 CH2OSiO(OC2H5)
-2
+multiplicity 2
 1  C  0 0 {3,S} {8,S} {9,S} {10,S}
 2  C  1 0 {5,S} {11,S} {12,S}
 3  C  0 0 {1,S} {6,S} {13,S} {14,S}
@@ -1156,7 +1156,7 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)OH
-1
+multiplicity 1
 1  C  0 0 {2,S} {4,S} {6,S} {7,S}
 2  C  0 0 {1,S} {8,S} {9,S} {10,S}
 3  Si 0 0 {4,S} {5,S} {11,D}
@@ -1173,7 +1173,7 @@ O_Si(OC2H5)OH
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -1184,7 +1184,7 @@ C2H4
     product2 = 
 """
 O_Si(OH)2
-1
+multiplicity 1
 1 Si 0 0 {2,S} {3,S} {4,D}
 2 O  0 2 {1,S} {5,S}
 3 O  0 2 {1,S} {6,S}
@@ -1223,7 +1223,7 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)OH
-1
+multiplicity 1
 1  C  0 0 {2,S} {4,S} {6,S} {7,S}
 2  C  0 0 {1,S} {8,S} {9,S} {10,S}
 3  Si 0 0 {4,S} {5,S} {11,D}
@@ -1240,7 +1240,7 @@ O_Si(OC2H5)OH
     product1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -1254,7 +1254,7 @@ C2H5OH
     product2 = 
 """
 SiO2
-1
+multiplicity 1
 1 O  0 2 {3,D}
 2 O  0 2 {3,D}
 3 Si 0 0 {1,D} {2,D}
@@ -1279,7 +1279,7 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)OH
-1
+multiplicity 1
 1  C  0 0 {2,S} {4,S} {6,S} {7,S}
 2  C  0 0 {1,S} {8,S} {9,S} {10,S}
 3  Si 0 0 {4,S} {5,S} {11,D}
@@ -1296,7 +1296,7 @@ O_Si(OC2H5)OH
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1305,7 +1305,7 @@ CH3
     product2 = 
 """
 CH2OSiO(OH)
-2
+multiplicity 2
 1 C  1 0 {4,S} {6,S} {7,S}
 2 O  0 2 {5,S} {8,S}
 3 O  0 2 {5,D}
@@ -1335,7 +1335,7 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)2(OC2H3)
-1
+multiplicity 1
 1  Si 0 0 {9,S} {10,S} {11,S} {12,S}
 2  C  0 0 {4,S} {9,S} {13,S} {14,S}
 3  C  0 0 {5,S} {10,S} {15,S} {16,S}
@@ -1368,7 +1368,7 @@ CH3OSi(OC2H5)2(OC2H3)
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -1379,7 +1379,7 @@ C2H4
     product2 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1
+multiplicity 1
 1  Si 0 0 {7,S} {8,S} {9,S} {10,S}
 2  C  0 0 {3,S} {7,S} {11,S} {12,S}
 3  C  0 0 {2,S} {13,S} {14,S} {15,S}
@@ -1423,7 +1423,7 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)2(OC2H3)
-1
+multiplicity 1
 1  Si 0 0 {9,S} {10,S} {11,S} {12,S}
 2  C  0 0 {4,S} {9,S} {13,S} {14,S}
 3  C  0 0 {5,S} {10,S} {15,S} {16,S}
@@ -1456,7 +1456,7 @@ CH3OSi(OC2H5)2(OC2H3)
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1465,7 +1465,7 @@ CH3
     product2 = 
 """
 CH2OSi(OC2H5)(OC2H3)(OCH3)
-2
+multiplicity 2
 1  C  0 0 {5,D} {12,S} {13,S}
 2  C  0 0 {6,S} {14,S} {15,S} {16,S}
 3  C  1 0 {7,S} {17,S} {18,S}
@@ -1511,7 +1511,7 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1
+multiplicity 1
 1  Si 0 0 {7,S} {8,S} {9,S} {10,S}
 2  C  0 0 {3,S} {7,S} {11,S} {12,S}
 3  C  0 0 {2,S} {13,S} {14,S} {15,S}
@@ -1538,7 +1538,7 @@ CH3OSi(OC2H5)(OC2H3)OH
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -1549,7 +1549,7 @@ C2H4
     product2 = 
 """
 CH3OSi(OC2H3)(OH)2
-1
+multiplicity 1
 1  C  0 0 {3,D} {9,S} {10,S}
 2  C  0 0 {6,S} {11,S} {12,S} {13,S}
 3  C  0 0 {1,D} {7,S} {14,S}
@@ -1587,7 +1587,7 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1
+multiplicity 1
 1  Si 0 0 {7,S} {8,S} {9,S} {10,S}
 2  C  0 0 {3,S} {7,S} {11,S} {12,S}
 3  C  0 0 {2,S} {13,S} {14,S} {15,S}
@@ -1614,7 +1614,7 @@ CH3OSi(OC2H5)(OC2H3)OH
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1623,7 +1623,7 @@ CH3
     product2 = 
 """
 CH2OSi(OCH3)(OC2H3)OH
-2
+multiplicity 2
 1  C  0 0 {4,D} {10,S} {11,S}
 2  C  1 0 {6,S} {12,S} {13,S}
 3  C  0 0 {7,S} {14,S} {15,S} {16,S}
@@ -1663,7 +1663,7 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1
+multiplicity 1
 1  Si 0 0 {7,S} {8,S} {9,S} {10,S}
 2  C  0 0 {3,S} {7,S} {11,S} {12,S}
 3  C  0 0 {2,S} {13,S} {14,S} {15,S}
@@ -1690,7 +1690,7 @@ CH3OSi(OC2H5)(OC2H3)OH
     product1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -1704,7 +1704,7 @@ C2H5OH
     product2 = 
 """
 CH3OSi(O)OC2H3
-1
+multiplicity 1
 1  C  0 0 {3,D} {8,S} {9,S}
 2  C  0 0 {5,S} {10,S} {11,S} {12,S}
 3  C  0 0 {1,D} {6,S} {13,S}
@@ -1739,7 +1739,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -1753,7 +1753,7 @@ C2H5OH
     product1 = 
 """
 C2H4
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 C 0 0 {1,D} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -1764,7 +1764,7 @@ C2H4
     product2 = 
 """
 H2O
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1789,7 +1789,7 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 C 0 0 {1,S} {6,S} {7,S} {8,S}
 3 O 0 2 {1,S} {9,S}
@@ -1803,7 +1803,7 @@ C2H5OH
     product1 = 
 """
 CH3
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -1812,7 +1812,7 @@ CH3
     product2 = 
 """
 CH2OH
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 H 0 0 {1,S}
