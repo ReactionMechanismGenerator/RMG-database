@@ -11,7 +11,7 @@ entry(
     label = "R",
     group =
 """
-1 * R {0,1,2}
+1 * R U{0,1,2}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -23,7 +23,7 @@ entry(
     label = "C_centered",
     group =
 """
-1 * C {0,1,2}
+1 * C U{0,1,2}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -35,7 +35,7 @@ entry(
     label = "O_centered",
     group =
 """
-1 * O {0,1}
+1 * O U{0,1}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -46,7 +46,7 @@ entry(
     label = "S_centered",
     group =
 """
-1 * S {0,1}
+1 * S U{0,1}
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -58,11 +58,11 @@ entry(
     label = "CsH3R",
     group =
 """
-1 * C 0 {2,S} {3,S} {4,S} {5,S}
-2 R!H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 * C U0 {2,S} {3,S} {4,S} {5,S}
+2 R!H U0 {1,S}
+3 H   U0 {1,S}
+4 H   U0 {1,S}
+5 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0141,
@@ -83,11 +83,11 @@ entry(
     label = "CsH2R2",
     group =
 """
-1 * C 0 {2,S} {3,S} {4,S} {5,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
+1 * C U0 {2,S} {3,S} {4,S} {5,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
+4 H   U0 {1,S}
+5 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0189,
@@ -108,11 +108,11 @@ entry(
     label = "CsHR3",
     group =
 """
-1 * C 0 {2,S} {3,S} {4,S} {5,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
-5 H 0 {1,S}
+1 * C U0 {2,S} {3,S} {4,S} {5,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
+5 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0164,
@@ -133,11 +133,11 @@ entry(
     label = "CsR4",
     group =
 """
-1 * C 0 {2,S} {3,S} {4,S} {5,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
-5 R!H 0 {1,S}
+1 * C U0 {2,S} {3,S} {4,S} {5,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
+5 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0067,
@@ -158,10 +158,10 @@ entry(
     label = "CdH2R",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 R!H 0 {1,D}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 R!H U0 {1,D}
+3 H   U0 {1,S}
+4 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0113,
@@ -182,10 +182,10 @@ entry(
     label = "CdHR2",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 R!H 0 {1,D}
-3 R!H 0 {1,S}
-4 H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 R!H U0 {1,D}
+3 R!H U0 {1,S}
+4 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0129,
@@ -206,10 +206,10 @@ entry(
     label = "CdR3",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 R!H 0 {1,D}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 R!H U0 {1,D}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0117,
@@ -230,9 +230,9 @@ entry(
     label = "CddR2",
     group =
 """
-1 * C 0 {2,D} {3,D}
-2 R!H 0 {1,D}
-3 R!H 0 {1,D}
+1 * C U0 {2,D} {3,D}
+2 R!H U0 {1,D}
+3 R!H U0 {1,D}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0026,
@@ -253,9 +253,9 @@ entry(
     label = "CtHR",
     group =
 """
-1 * C 0 {2,T} {3,S}
-2 R!H 0 {1,T}
-3 H 0 {1,S}
+1 * C U0 {2,T} {3,S}
+2 R!H U0 {1,T}
+3 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0027,
@@ -276,9 +276,9 @@ entry(
     label = "CtR2",
     group =
 """
-1 * C 0 {2,T} {3,S}
-2 R!H 0 {1,T}
-3 R!H 0 {1,S}
+1 * C U0 {2,T} {3,S}
+2 R!H U0 {1,T}
+3 R!H U0 {1,S}
 
 """,
     transportGroup = CriticalPointGroupContribution(
@@ -300,9 +300,9 @@ entry(
     label = "Alcohol",
     group =
 """
-1 * O 0 {2,S} {3,S}
-2 R!H 0 {1,S}
-3 H 0 {1,S}
+1 * O U0 {2,S} {3,S}
+2 R!H U0 {1,S}
+3 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0741,
@@ -323,9 +323,9 @@ entry(
     label = "Phenol",
     group =
 """
-1 * O 0 {2,S} {3,S}
-2 Cb 0 {1,S}
-3 H 0 {1,S}
+1 * O U0 {2,S} {3,S}
+2 Cb  U0 {1,S}
+3 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0240,
@@ -346,9 +346,9 @@ entry(
     label = "Ether",
     group =
 """
-1 * O 0 {2,S} {3,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
+1 * O U0 {2,S} {3,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0168,
@@ -369,10 +369,10 @@ entry(
     label = "Ketone_Ccentered",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 R!H 0 {1,S}
-4 R!H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 O   U0 {1,D}
+3 R!H U0 {1,S}
+4 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0380,
@@ -393,10 +393,10 @@ entry(
     label = "Ketone_Ocentered",
     group =
 """
-1 * O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 R!H 0 {2,S}
-4 R!H 0 {2,S}
+1 * O U0 {2,D}
+2 C   U0 {1,D} {3,S} {4,S}
+3 R!H U0 {2,S}
+4 R!H U0 {2,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -417,10 +417,10 @@ entry(
     label = "Aldehyde_Ccentered",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 R!H 0 {1,S}
-4 H 0 {1,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 O   U0 {1,D}
+3 R!H U0 {1,S}
+4 H   U0 {1,S}
 
 """,
     transportGroup = CriticalPointGroupContribution(
@@ -442,10 +442,10 @@ entry(
     label = "Aldehyde_Ocentered",
     group =
 """
-1 * O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 R!H 0 {2,S}
-4 H 0 {2,S}
+1 * O U0 {2,D}
+2 C   U0 {1,D} {3,S} {4,S}
+3 R!H U0 {2,S}
+4 H   U0 {2,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -466,11 +466,11 @@ entry(
     label = "Acid_Ccentered",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S} {5,S}
-4 R!H 0 {1,S}
-5 H 0 {3,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 O   U0 {1,D}
+3 O   U0 {1,S} {5,S}
+4 R!H U0 {1,S}
+5 H   U0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0791,
@@ -491,11 +491,11 @@ entry(
     label = "Acid_Ocentered1",
     group =
 """
-1 * O 0 {2,S} {3,S}
-2 H 0 {1,S}
-3 C 0 {1,S} {4,D} {5,S}
-4 O 0 {3,D}
-5 R!H 0 {3,S}
+1 * O U0 {2,S} {3,S}
+2 H   U0 {1,S}
+3 C   U0 {1,S} {4,D} {5,S}
+4 O   U0 {3,D}
+5 R!H U0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -516,11 +516,11 @@ entry(
     label = "Acid_Ocentered2",
     group =
 """
-1 * O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 R!H 0 {2,S}
-4 O 0 {2,S} {5,S}
-5 H 0 {4,S}
+1 * O U0 {2,D}
+2 C   U0 {1,D} {3,S} {4,S}
+3 R!H U0 {2,S}
+4 O   U0 {2,S} {5,S}
+5 H   U0 {4,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -541,11 +541,11 @@ entry(
     label = "Ester_Ccentered",
     group =
 """
-1 * C 0 {2,D} {3,S} {4,S}
-2 O 0 {1,D}
-3 O 0 {1,S} {5,S}
-4 R!H 0 {1,S}
-5 R!H 0 {3,S}
+1 * C U0 {2,D} {3,S} {4,S}
+2 O   U0 {1,D}
+3 O   U0 {1,S} {5,S}
+4 R!H U0 {1,S}
+5 R!H U0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0481,
@@ -566,11 +566,11 @@ entry(
     label = "Ester_Ocentered1",
     group =
 """
-1 * O 0 {2,S} {3,S}
-2 R!H 0 {1,S}
-3 C 0 {1,S} {4,D} {5,S}
-4 O 0 {3,D}
-5 R!H 0 {3,S}
+1 * O U0 {2,S} {3,S}
+2 R!H U0 {1,S}
+3 C   U0 {1,S} {4,D} {5,S}
+4 O   U0 {3,D}
+5 R!H U0 {3,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -591,11 +591,11 @@ entry(
     label = "Ester_Ocentered2",
     group =
 """
-1 * O 0 {2,D}
-2 C 0 {1,D} {3,S} {4,S}
-3 R!H 0 {2,S}
-4 O 0 {2,S} {5,S}
-5 R!H 0 {4,S}
+1 * O U0 {2,D}
+2 C   U0 {1,D} {3,S} {4,S}
+3 R!H U0 {2,S}
+4 O   U0 {2,S} {5,S}
+5 R!H U0 {4,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0,
@@ -616,8 +616,8 @@ entry(
     label = "Od",
     group =
 """
-1 * O 0 {2,D}
-2 R!H 0 {1,D}
+1 * O U0 {2,D}
+2 R!H U0 {1,D}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0143,
@@ -638,9 +638,9 @@ entry(
     label = "Thiol",
     group =
 """
-1 * S 0 {2,S} {3,S}
-2 R!H 0 {1,S}
-3 H 0 {1,S}
+1 * S U0 {2,S} {3,S}
+2 R!H U0 {1,S}
+3 H   U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0031,
@@ -661,9 +661,9 @@ entry(
     label = "Thioether",
     group =
 """
-1 * S 0 {2,S} {3,S}
-2 R!H 0 {1,S}
-3 R!H 0 {1,S}
+1 * S U0 {2,S} {3,S}
+2 R!H U0 {1,S}
+3 R!H U0 {1,S}
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0119,
