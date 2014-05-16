@@ -11,7 +11,7 @@ entry(
     reactant1 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -24,14 +24,14 @@ Mfmt
     product1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     product2 = 
 """
 CH3OH
-1
+multiplicity 1
 1 O 0 2 {2,S} {3,S}
 2 C 0 0 {1,S} {4,S} {5,S} {6,S}
 3 H 0 0 {1,S}
@@ -59,7 +59,7 @@ entry(
     reactant1 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -72,7 +72,7 @@ Mfmt
     product1 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -81,7 +81,7 @@ CH2O
     product2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -107,7 +107,7 @@ entry(
     reactant1 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -120,7 +120,7 @@ Mfmt
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -128,7 +128,7 @@ CO2
     product2 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -155,7 +155,7 @@ entry(
     reactant1 = 
 """
 Mofml
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -167,7 +167,7 @@ Mofml
     product1 = 
 """
 CO2
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,D}
 2 O 0 2 {1,D}
 3 O 0 2 {1,D}
@@ -175,7 +175,7 @@ CO2
     product2 = 
 """
 CH3j
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -201,14 +201,14 @@ entry(
     reactant1 = 
 """
 CO
-1
+multiplicity 1
 1 C 0 1 {2,T}
 2 O 0 1 {1,T}
 """,
     reactant2 = 
 """
 CH3Oj
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -218,7 +218,7 @@ CH3Oj
     product1 = 
 """
 Mofml
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -247,7 +247,7 @@ entry(
     reactant1 = 
 """
 HCjO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -255,7 +255,7 @@ HCjO
     reactant2 = 
 """
 CH2O
-1
+multiplicity 1
 1 C 0 0 {2,D} {3,S} {4,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -264,7 +264,7 @@ CH2O
     product1 = 
 """
 Fmoml
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -293,13 +293,13 @@ entry(
     reactant1 = 
 """
 Hj
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -312,14 +312,14 @@ Mfmt
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 Mofml
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -348,13 +348,13 @@ entry(
     reactant1 = 
 """
 Hj
-2
+multiplicity 2
 1 H 1 0
 """,
     reactant2 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -367,14 +367,14 @@ Mfmt
     product1 = 
 """
 H2
-1
+multiplicity 1
 1 H 0 0 {2,S}
 2 H 0 0 {1,S}
 """,
     product2 = 
 """
 Fmoml
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -403,7 +403,7 @@ entry(
     reactant1 = 
 """
 CH3j
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -412,7 +412,7 @@ CH3j
     reactant2 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -425,7 +425,7 @@ Mfmt
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -435,7 +435,7 @@ CH4
     product2 = 
 """
 Mofml
-2
+multiplicity 2
 1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2 O 0 2 {1,S} {3,S}
 3 C 1 0 {2,S} {7,D}
@@ -464,7 +464,7 @@ entry(
     reactant1 = 
 """
 CH3j
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -473,7 +473,7 @@ CH3j
     reactant2 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -486,7 +486,7 @@ Mfmt
     product1 = 
 """
 CH4
-1
+multiplicity 1
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -496,7 +496,7 @@ CH4
     product2 = 
 """
 Fmoml
-2
+multiplicity 2
 1 C 1 0 {3,S} {5,S} {6,S}
 2 C 0 0 {3,S} {4,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -525,7 +525,7 @@ entry(
     reactant1 = 
 """
 CH3Oj
-2
+multiplicity 2
 1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 O 1 2 {1,S}
 3 H 0 0 {1,S}
@@ -535,7 +535,7 @@ CH3Oj
     reactant2 = 
 """
 HCjO
-2
+multiplicity 2
 1 C 1 0 {2,D} {3,S}
 2 O 0 2 {1,D}
 3 H 0 0 {1,S}
@@ -543,7 +543,7 @@ HCjO
     product1 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
@@ -573,7 +573,7 @@ entry(
     reactant1 = 
 """
 CH3j
-2
+multiplicity 2
 1 C 1 0 {2,S} {3,S} {4,S}
 2 H 0 0 {1,S}
 3 H 0 0 {1,S}
@@ -582,7 +582,7 @@ CH3j
     reactant2 = 
 """
 OjCHO
-2
+multiplicity 2
 1 O 1 2 {2,S}
 2 C 0 0 {1,S} {3,D} {4,S}
 3 O 0 2 {2,D}
@@ -591,7 +591,7 @@ OjCHO
     product1 = 
 """
 Mfmt
-1
+multiplicity 1
 1 C 0 0 {3,S} {4,S} {5,S} {6,S}
 2 C 0 0 {3,S} {7,D} {8,S}
 3 O 0 2 {1,S} {2,S}
