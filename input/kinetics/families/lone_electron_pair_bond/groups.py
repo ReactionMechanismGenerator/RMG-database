@@ -60,15 +60,11 @@ L1: O_(S)
 
 forbidden(
     label = "OJJH",
+    multiplicity = [3],
     group = 
 """
-<<<<<<< HEAD
-1    O 2T {2,S}
-2    R 0  {1,S}
-=======
 1 O U2 {2,S}
 2 R U0 {1,S}
->>>>>>> Rewrite adjacency lists with new format in kinetics families
 """,
     shortDesc = u"""""",
     longDesc = 

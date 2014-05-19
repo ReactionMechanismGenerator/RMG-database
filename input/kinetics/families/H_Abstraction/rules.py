@@ -93811,17 +93811,8 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
-    index = 3000,
-<<<<<<< HEAD
-    label = "N_birad_H;O_atom_triplet",
-=======
-    label = "N_birad_H-O_(T)",
->>>>>>> Update kinetic family H_Abstraction with multiplicity label
-=======
     index        = 6217,
     label        = "S/H/Cb;C_rad/CtCtCs",
->>>>>>> Rewrite adjacency lists with new format in kinetics families
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
@@ -93916,6 +93907,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "N3d/H/NonDeN;O_atom_triplet",
@@ -93926,6 +93918,10 @@ entry(
     index        = 6220,
     label        = "S/H/Cb;C_rad/H/CbCs",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6220,
+    label        = "S/H/Cb;C_rad/H/CbCs",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
@@ -94053,6 +94049,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "N3d/H/NonDeN;NH_triplet",
@@ -94063,6 +94060,10 @@ entry(
     index        = 6224,
     label        = "S/H/Cb;C_rad/Cs2S",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6224,
+    label        = "S/H/Cb;C_rad/Cs2S",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
@@ -94224,6 +94225,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "N3s/H2/NonDeN;O_atom_triplet",
@@ -94234,6 +94236,10 @@ entry(
     index        = 6229,
     label        = "S/H/Cb;Cd_rad/CS",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6229,
+    label        = "S/H/Cb;Cd_rad/CS",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
@@ -94429,6 +94435,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "N3d/H/NonDeO;O_atom_triplet",
@@ -94439,6 +94446,10 @@ entry(
     index        = 6235,
     label        = "S/H/Cb;C_rad/CtCsS",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6235,
+    label        = "S/H/Cb;C_rad/CtCsS",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
@@ -94596,6 +94607,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "O/H/OneDeN;O_atom_triplet",
@@ -94606,6 +94618,10 @@ entry(
     index        = 6240,
     label        = "S/H/Cb;CS_rad/S",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6240,
+    label        = "S/H/Cb;CS_rad/S",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
@@ -94761,6 +94777,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "N5d/H/NonDeOO;O_atom_triplet",
@@ -94771,6 +94788,10 @@ entry(
     index        = 6245,
     label        = "S/H/NonDeS;C_rad/Cs3",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6245,
+    label        = "S/H/NonDeS;C_rad/Cs3",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S U0 {2,S} {3,S}
@@ -94927,6 +94948,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "Ct/H/NonDeN;O_atom_triplet",
@@ -94937,6 +94959,10 @@ entry(
     index        = 6250,
     label        = "S/H/NonDeS;C_rad/H2/Cd",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6250,
+    label        = "S/H/NonDeS;C_rad/H2/Cd",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S U0 {2,S} {3,S}
@@ -95135,6 +95161,7 @@ u"""
 
 entry(
 <<<<<<< HEAD
+<<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
     label = "N3d/H/NonDeC;O_atom_triplet",
@@ -95145,6 +95172,10 @@ entry(
     index        = 6256,
     label        = "S/H/NonDeS;C_rad/H/CtCs",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 6256,
+    label        = "S/H/NonDeS;C_rad/H/CtCs",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S U0 {2,S} {3,S}
@@ -95261,6 +95292,14 @@ entry(
         E0 = (4.7, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
+<<<<<<< HEAD
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+=======
     ),
     rank = 4,
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
@@ -95302,17 +95341,8 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
-    index = 3000,
-<<<<<<< HEAD
-    label = "Cd/H2/NonDeN;O_atom_triplet",
-=======
-    label = "Cd/H2/NonDeN-O_(T)",
->>>>>>> Update kinetic family H_Abstraction with multiplicity label
-=======
     index        = 6261,
     label        = "S/H/NonDeS;C_rad/H2/Cb",
->>>>>>> Rewrite adjacency lists with new format in kinetics families
     group1 = 
 """
 1 *1 S U0 {2,S} {3,S}
@@ -95431,6 +95461,1436 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6265,
+    label        = "S/H/NonDeS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    H  U0 {1,S}
+3    S  U0 {1,S}
+4    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (164, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-4.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6266,
+    label        = "S/H/NonDeS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    S  U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (65.5, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-5.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6267,
+    label        = "S/H/NonDeS;C_rad/H2/CS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    C U0 {1,S} {5,D}
+5    S U0 {4,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (89.5, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (3.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6268,
+    label        = "S/H/NonDeS;C_rad/H/CSCs",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    H  U0 {1,S}
+3    C  U0 {1,S} {5,D}
+4    Cs U0 {1,S}
+5    S  U0 {3,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (91.8, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6269,
+    label        = "S/H/NonDeS;C_rad/CSCs2",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    C  U0 {1,S} {5,D}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
+5    S  U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (77.2, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6270,
+    label        = "S/H/NonDeS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,D} {3,S}
+2    C U0 {1,D}
+3    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (366, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6271,
+    label        = "S/H/NonDeS;Cd_rad/CS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,D} {3,S}
+2    C U0 {1,D}
+3    C U0 {1,S} {4,D}
+4    S U0 {3,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (195, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6272,
+    label        = "S/H/NonDeS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    C U0 {1,S} {5,D}
+4    S U0 {1,S}
+5    C U0 {3,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (85.6, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6273,
+    label        = "S/H/NonDeS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    C  U0 {1,S} {5,D}
+3    S  U0 {1,S}
+4    Cs U0 {1,S}
+5    C  U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (25.8, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6274,
+    label        = "S/H/NonDeS;C_rad/H/CSS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    C U0 {1,S} {5,D}
+4    S U0 {1,S}
+5    S U0 {3,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (233, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (9.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6275,
+    label        = "S/H/NonDeS;C_rad/CSCsS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    C  U0 {1,S} {5,D}
+3    S  U0 {1,S}
+4    Cs U0 {1,S}
+5    S  U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (117, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (10, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6276,
+    label        = "S/H/NonDeS;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    H  U0 {1,S}
+3    Ct U0 {1,S}
+4    S  U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (228, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (2.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6277,
+    label        = "S/H/NonDeS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Ct U0 {1,S}
+3    S  U0 {1,S}
+4    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (95.4, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6278,
+    label        = "S/H/NonDeS;C_rad/H/CbS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    H  U0 {1,S}
+3    Cb U0 {1,S}
+4    S  U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (57.8, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-0.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6279,
+    label        = "S/H/NonDeS;C_rad/CbCsS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cb U0 {1,S}
+3    S  U0 {1,S}
+4    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (19.7, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6280,
+    label        = "S/H/NonDeS;CS_pri_rad",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,D} {3,S}
+2    S U0 {1,D}
+3    H U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1100, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6281,
+    label        = "S/H/NonDeS;CS_rad/Cs",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,D} {3,S}
+2    S  U0 {1,D}
+3    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (867, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 6282,
+    label        = "S/H/NonDeS;CS_rad/S",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,D} {3,S}
+2    S U0 {1,D}
+3    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (484, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7000,
+    label        = "S_pri;S_pri_rad",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    H U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    H U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (301, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7001,
+    label        = "S_pri;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    H U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (955, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (10.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7002,
+    label        = "S_pri;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    H U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    C U0 {1,S} {3,D}
+3    C U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (366, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (14.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7003,
+    label        = "S_pri;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    H U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Ct U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1490, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (9.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7004,
+    label        = "S_pri;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    H U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cb U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (467, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (15.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7005,
+    label        = "S_pri;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    H U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1370, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7006,
+    label        = "S/H/NonDeC;S_pri_rad",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    H U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (903, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7007,
+    label        = "S/H/NonDeC;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (668, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7008,
+    label        = "S/H/NonDeC;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    C U0 {1,S} {3,D}
+3    C U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (675, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (6.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7009,
+    label        = "S/H/NonDeC;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Ct U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (716, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (9.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7010,
+    label        = "S/H/NonDeC;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cb U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (537, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (5.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7011,
+    label        = "S/H/NonDeC;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cs U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (557, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7012,
+    label        = "S/H/Cd;S_pri_rad",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    C U0 {1,S} {4,D}
+4    C U0 {3,D}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    H U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (931, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7013,
+    label        = "S/H/Cd;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    C U0 {1,S} {4,D}
+4    C U0 {3,D}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1810, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+""",
+)
+
+entry(
+<<<<<<< HEAD
+    index        = 6260,
+    label        = "S/H/NonDeS;Cb_rad",
+=======
+    index        = 7014,
+    label        = "S/H/Cd;S_rad/Cd",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+<<<<<<< HEAD
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       U1 {2,B} {3,B}
+2    {Cb,Cbf} U0 {1,B}
+3    {Cb,Cbf} U0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (737, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-5.6, 'kcal/mol'),
+=======
+3    C U0 {1,S} {4,D}
+4    C U0 {3,D}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    C U0 {1,S} {3,D}
+3    C U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (789, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+<<<<<<< HEAD
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+=======
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7015,
+    label        = "S/H/Cd;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    C U0 {1,S} {4,D}
+4    C U0 {3,D}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Ct U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2110, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (4.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+""",
+)
+
+entry(
+<<<<<<< HEAD
+<<<<<<< HEAD
+    index = 3000,
+<<<<<<< HEAD
+    label = "Cd/H2/NonDeN;O_atom_triplet",
+=======
+    label = "Cd/H2/NonDeN-O_(T)",
+>>>>>>> Update kinetic family H_Abstraction with multiplicity label
+=======
+    index        = 6261,
+    label        = "S/H/NonDeS;C_rad/H2/Cb",
+>>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 7016,
+    label        = "S/H/Cd;S_rad/Cb",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+<<<<<<< HEAD
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    H  U0 {1,S}
+3    H  U0 {1,S}
+4    Cb U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (99.4, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-1.4, 'kcal/mol'),
+=======
+3    C U0 {1,S} {4,D}
+4    C U0 {3,D}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cb U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (682, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+<<<<<<< HEAD
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+=======
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7017,
+    label        = "S/H/Cd;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    C U0 {1,S} {4,D}
+4    C U0 {3,D}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (459, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+""",
+)
+
+entry(
+<<<<<<< HEAD
+    index        = 6262,
+    label        = "S/H/NonDeS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    H  U0 {1,S}
+3    Cb U0 {1,S}
+4    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (19.6, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-2.1, 'kcal/mol'),
+=======
+    index        = 7018,
+    label        = "S/H/Ct;S_pri_rad",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Ct U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    H U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (493, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+<<<<<<< HEAD
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+=======
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7019,
+    label        = "S/H/Ct;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Ct U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (250, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+""",
+)
+
+entry(
+<<<<<<< HEAD
+    index        = 6263,
+    label        = "S/H/NonDeS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  U1 {2,S} {3,S} {4,S}
+2    Cb U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10.5, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-3.4, 'kcal/mol'),
+=======
+    index        = 7020,
+    label        = "S/H/Ct;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Ct U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    C U0 {1,S} {3,D}
+3    C U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (275, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (0.8, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+<<<<<<< HEAD
+    shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+=======
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7021,
+    label        = "S/H/Ct;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Ct U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Ct U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4210, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+""",
+)
+
+entry(
+<<<<<<< HEAD
+    index        = 6264,
+    label        = "S/H/NonDeS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C U1 {2,S} {3,S} {4,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
+4    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (59.6, 'cm^3/(mol*s)'),
+        n = 3.06,
+        alpha = 0,
+        E0 = (-2.7, 'kcal/mol'),
+=======
+    index        = 7022,
+    label        = "S/H/Ct;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Ct U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Cb U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (964, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 4,
+<<<<<<< HEAD
     shortDesc = u"""Group additivity method for C--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
@@ -96246,10 +97706,23 @@ entry(
     index        = 7006,
     label        = "S/H/NonDeC;S_pri_rad",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index        = 7023,
+    label        = "S/H/Ct;S_rad/NonDeS",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
 2 *2 H  U0 {1,S}
+<<<<<<< HEAD
 3    Cs U0 {1,S}
 """,
     group2 = 
@@ -96320,10 +97793,14 @@ entry(
 1 *1 S  U0 {2,S} {3,S}
 2 *2 H  U0 {1,S}
 3    Cs U0 {1,S}
+=======
+3    Ct U0 {1,S}
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
     group2 = 
 """
 1 *3 S U1 {2,S}
+<<<<<<< HEAD
 2    C U0 {1,S} {3,D}
 3    C U0 {2,D}
 """,
@@ -96362,6 +97839,15 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (9.8, 'kcal/mol'),
+=======
+2    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (351, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (2.3, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96369,6 +97855,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96400,21 +97887,34 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7011,
     label        = "S/H/NonDeC;S_rad/NonDeS",
+=======
+    index        = 7024,
+    label        = "S/H/Cb;S_pri_rad",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
 2 *2 H  U0 {1,S}
+<<<<<<< HEAD
 3    Cs U0 {1,S}
+=======
+3    Cb U0 {1,S}
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
     group2 = 
 """
 1 *3 S U1 {2,S}
+<<<<<<< HEAD
 2    S U0 {1,S}
 """,
     kinetics = ArrheniusEP(
@@ -96422,6 +97922,15 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (11.1, 'kcal/mol'),
+=======
+2    H U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (199, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-1.4, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96429,6 +97938,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96461,10 +97971,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
 <<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
@@ -96482,6 +97996,15 @@ entry(
 2 *2 H U0 {1,S}
 3    C U0 {1,S} {4,D}
 4    C U0 {3,D}
+=======
+    index        = 7025,
+    label        = "S/H/Cb;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cb U0 {1,S}
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
     group2 = 
 """
@@ -96489,10 +98012,17 @@ entry(
 2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
+<<<<<<< HEAD
         A = (1810, 'cm^3/(mol*s)'),
         n = 3.15,
         alpha = 0,
         E0 = (-0.6, 'kcal/mol'),
+=======
+        A = (241, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-0.8, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96500,6 +98030,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96533,10 +98064,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7015,
     label        = "S/H/Cd;S_rad/Ct",
     group1 = 
@@ -96556,6 +98091,27 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (4.5, 'kcal/mol'),
+=======
+    index        = 7026,
+    label        = "S/H/Cb;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cb U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    C U0 {1,S} {3,D}
+3    C U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (114, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96563,6 +98119,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96595,10 +98152,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7017,
     label        = "S/H/Cd;S_rad/NonDeS",
     group1 = 
@@ -96618,6 +98179,26 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (-1.5, 'kcal/mol'),
+=======
+    index        = 7027,
+    label        = "S/H/Cb;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S  U0 {2,S} {3,S}
+2 *2 H  U0 {1,S}
+3    Cb U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Ct U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1240, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (3.9, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96625,6 +98206,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96656,10 +98238,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
 <<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
@@ -96671,15 +98257,24 @@ entry(
     index        = 7019,
     label        = "S/H/Ct;S_rad/NonDeC",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 7028,
+    label        = "S/H/Cb;S_rad/Cb",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
 2 *2 H  U0 {1,S}
+<<<<<<< HEAD
 3    Ct U0 {1,S}
+=======
+3    Cb U0 {1,S}
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
     group2 = 
 """
 1 *3 S  U1 {2,S}
+<<<<<<< HEAD
 2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
@@ -96687,6 +98282,15 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (-0.9, 'kcal/mol'),
+=======
+2    Cb U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (189, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96694,6 +98298,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96726,16 +98331,25 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7021,
     label        = "S/H/Ct;S_rad/Ct",
+=======
+    index        = 7029,
+    label        = "S/H/Cb;S_rad/NonDeS",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S  U0 {2,S} {3,S}
 2 *2 H  U0 {1,S}
+<<<<<<< HEAD
 3    Ct U0 {1,S}
 """,
     group2 = 
@@ -96748,6 +98362,20 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
+=======
+3    Cb U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (384, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (5.3, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96755,6 +98383,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96786,10 +98415,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7023,
     label        = "S/H/Ct;S_rad/NonDeS",
     group1 = 
@@ -96797,10 +98430,20 @@ entry(
 1 *1 S  U0 {2,S} {3,S}
 2 *2 H  U0 {1,S}
 3    Ct U0 {1,S}
+=======
+    index        = 7030,
+    label        = "S/H/NonDeS;S_pri_rad",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
     group2 = 
 """
 1 *3 S U1 {2,S}
+<<<<<<< HEAD
 2    S U0 {1,S}
 """,
     kinetics = ArrheniusEP(
@@ -96808,6 +98451,15 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (2.3, 'kcal/mol'),
+=======
+2    H U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1440, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-2.4, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96815,6 +98467,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96846,10 +98499,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
 <<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
@@ -96866,6 +98523,15 @@ entry(
 1 *1 S  U0 {2,S} {3,S}
 2 *2 H  U0 {1,S}
 3    Cb U0 {1,S}
+=======
+    index        = 7031,
+    label        = "S/H/NonDeS;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
     group2 = 
 """
@@ -96873,10 +98539,17 @@ entry(
 2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
+<<<<<<< HEAD
         A = (241, 'cm^3/(mol*s)'),
         n = 3.15,
         alpha = 0,
         E0 = (-0.8, 'kcal/mol'),
+=======
+        A = (617, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-2.3, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96884,6 +98557,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96916,10 +98590,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7027,
     label        = "S/H/Cb;S_rad/Ct",
     group1 = 
@@ -96938,6 +98616,27 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (3.9, 'kcal/mol'),
+=======
+    index        = 7032,
+    label        = "S/H/NonDeS;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S U1 {2,S}
+2    C U0 {1,S} {3,D}
+3    C U0 {2,D}
+""",
+    kinetics = ArrheniusEP(
+        A = (190, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-0.4, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -96945,6 +98644,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -96976,10 +98676,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7029,
     label        = "S/H/Cb;S_rad/NonDeS",
     group1 = 
@@ -96998,6 +98702,26 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (5.3, 'kcal/mol'),
+=======
+    index        = 7033,
+    label        = "S/H/NonDeS;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S U0 {2,S} {3,S}
+2 *2 H U0 {1,S}
+3    S U0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  U1 {2,S}
+2    Ct U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1110, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-0.3, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -97005,6 +98729,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -97036,10 +98761,14 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
 <<<<<<< HEAD
     index = 3000,
 <<<<<<< HEAD
@@ -97051,6 +98780,10 @@ entry(
     index        = 7031,
     label        = "S/H/NonDeS;S_rad/NonDeC",
 >>>>>>> Rewrite adjacency lists with new format in kinetics families
+=======
+    index        = 7034,
+    label        = "S/H/NonDeS;S_rad/Cb",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S U0 {2,S} {3,S}
@@ -97060,6 +98793,7 @@ entry(
     group2 = 
 """
 1 *3 S  U1 {2,S}
+<<<<<<< HEAD
 2    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
@@ -97067,6 +98801,15 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (-2.3, 'kcal/mol'),
+=======
+2    Cb U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (948, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -97074,6 +98817,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -97106,12 +98850,20 @@ entry(
     longDesc = 
 u"""
 
+=======
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
 """,
 )
 
 entry(
+<<<<<<< HEAD
     index        = 7033,
     label        = "S/H/NonDeS;S_rad/Ct",
+=======
+    index        = 7035,
+    label        = "S/H/NonDeS;S_rad/NonDeS",
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
     group1 = 
 """
 1 *1 S U0 {2,S} {3,S}
@@ -97120,6 +98872,7 @@ entry(
 """,
     group2 = 
 """
+<<<<<<< HEAD
 1 *3 S  U1 {2,S}
 2    Ct U0 {1,S}
 """,
@@ -97128,6 +98881,16 @@ entry(
         n = 3.15,
         alpha = 0,
         E0 = (-0.3, 'kcal/mol'),
+=======
+1 *3 S U1 {2,S}
+2    S U0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (113, 'cm^3/(mol*s)'),
+        n = 3.15,
+        alpha = 0,
+        E0 = (0.4, 'kcal/mol'),
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
@@ -97135,6 +98898,7 @@ entry(
     shortDesc = u"""Group additivity method for S--H--S abstractions, Aaron Vandeputte""",
     longDesc = 
 u"""
+<<<<<<< HEAD
 
 """,
 )
@@ -97199,3 +98963,9 @@ u"""
 """,
 )
 
+=======
+
+""",
+)
+
+>>>>>>> 77d32e123337af1a443a52741d744400d8ff0c1a
