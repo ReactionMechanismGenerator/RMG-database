@@ -19,8 +19,9 @@ recipe(actions=[
 ])
 
 entry(
-    index        = 1,
-    label        = "elec_def",
+    index = 1,
+    label = "elec_def",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R U2
@@ -34,8 +35,8 @@ u"""
 )
 
 entry(
-    index        = 2,
-    label        = "multiplebond",
+    index = 2,
+    label = "multiplebond",
     group = "OR{mb_carbonyl, mb_db, mb_tb}",
     kinetics = None,
     shortDesc = u"""""",
@@ -46,8 +47,9 @@ u"""
 )
 
 entry(
-    index        = 3,
-    label        = "o_atom",
+    index = 3,
+    label = "o_atom",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 O U2 L2
@@ -61,8 +63,9 @@ u"""
 )
 
 entry(
-    index        = 45,
-    label        = "imidogen",
+    index = 45,
+    label = "imidogen",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 N3s U2 {2,S}
@@ -77,8 +80,9 @@ u"""
 )
 
 entry(
-    index        = 4,
-    label        = "carbene",
+    index = 4,
+    label = "carbene",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U2 {2,S} {3,S}
@@ -94,8 +98,9 @@ u"""
 )
 
 entry(
-    index        = 5,
-    label        = "me_carbene",
+    index = 5,
+    label = "me_carbene",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U2 {2,S} {3,S}
@@ -114,8 +119,9 @@ u"""
 )
 
 entry(
-    index        = 6,
-    label        = "ph_carbene",
+    index = 6,
+    label = "ph_carbene",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U2 {2,S} {3,S}
@@ -136,8 +142,9 @@ u"""
 )
 
 entry(
-    index        = 7,
-    label        = "dime_carbene",
+    index = 7,
+    label = "dime_carbene",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U2 {2,S} {3,S}
@@ -159,8 +166,9 @@ u"""
 )
 
 entry(
-    index        = 8,
-    label        = "mb_carbonyl",
+    index = 8,
+    label = "mb_carbonyl",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 {CO,Cdd,N} U0 {2,D}
@@ -175,8 +183,9 @@ u"""
 )
 
 entry(
-    index        = 9,
-    label        = "mb_carbonyl_2H",
+    index = 9,
+    label = "mb_carbonyl_2H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 CO U0 {2,D} {3,S} {4,S}
@@ -193,8 +202,9 @@ u"""
 )
 
 entry(
-    index        = 10,
-    label        = "mb_carbonyl_HNd",
+    index = 10,
+    label = "mb_carbonyl_HNd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 CO     U0 {2,D} {3,S} {4,S}
@@ -211,8 +221,9 @@ u"""
 )
 
 entry(
-    index        = 11,
-    label        = "mb_carbonyl_HDe",
+    index = 11,
+    label = "mb_carbonyl_HDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 CO            U0 {2,D} {3,S} {4,S}
@@ -229,8 +240,9 @@ u"""
 )
 
 entry(
-    index        = 12,
-    label        = "mb_carbonyl_NdNd",
+    index = 12,
+    label = "mb_carbonyl_NdNd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 CO     U0 {2,D} {3,S} {4,S}
@@ -247,8 +259,9 @@ u"""
 )
 
 entry(
-    index        = 13,
-    label        = "mb_carbonyl_NdDe",
+    index = 13,
+    label = "mb_carbonyl_NdDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 CO            U0 {2,D} {3,S} {4,S}
@@ -265,8 +278,9 @@ u"""
 )
 
 entry(
-    index        = 14,
-    label        = "mb_carbonyl_DeDe",
+    index = 14,
+    label = "mb_carbonyl_DeDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 CO            U0 {2,D} {3,S} {4,S}
@@ -283,8 +297,9 @@ u"""
 )
 
 entry(
-    index        = 15,
-    label        = "mb_db",
+    index = 15,
+    label = "mb_db",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 {Cd,Cdd,N} U0 {2,D}
@@ -299,8 +314,9 @@ u"""
 )
 
 entry(
-    index        = 16,
-    label        = "mb_db_dbSub",
+    index = 16,
+    label = "mb_db_dbSub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cdd      U0 {2,D} {3,D}
@@ -316,8 +332,9 @@ u"""
 )
 
 entry(
-    index        = 17,
-    label        = "mb_db_unsub",
+    index = 17,
+    label = "mb_db_unsub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd U0 {2,D} {3,S} {4,S}
@@ -336,8 +353,9 @@ u"""
 )
 
 entry(
-    index        = 18,
-    label        = "mb_db_monosub",
+    index = 18,
+    label = "mb_db_monosub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd  U0 {2,D} {3,S} {4,S}
@@ -356,8 +374,9 @@ u"""
 )
 
 entry(
-    index        = 19,
-    label        = "mb_db_monosub_Nd",
+    index = 19,
+    label = "mb_db_monosub_Nd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd     U0 {2,D} {3,S} {4,S}
@@ -376,8 +395,9 @@ u"""
 )
 
 entry(
-    index        = 20,
-    label        = "mb_db_monosub_De",
+    index = 20,
+    label = "mb_db_monosub_De",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -396,8 +416,9 @@ u"""
 )
 
 entry(
-    index        = 21,
-    label        = "mb_db_onecdisub",
+    index = 21,
+    label = "mb_db_onecdisub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd  U0 {2,D} {3,S} {4,S}
@@ -416,8 +437,9 @@ u"""
 )
 
 entry(
-    index        = 22,
-    label        = "mb_db_onecdisub_Nd",
+    index = 22,
+    label = "mb_db_onecdisub_Nd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd     U0 {2,D} {3,S} {4,S}
@@ -436,8 +458,9 @@ u"""
 )
 
 entry(
-    index        = 23,
-    label        = "mb_db_onecdisub_oneDe",
+    index = 23,
+    label = "mb_db_onecdisub_oneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -456,8 +479,9 @@ u"""
 )
 
 entry(
-    index        = 24,
-    label        = "mb_db_onecdisub_twoDe",
+    index = 24,
+    label = "mb_db_onecdisub_twoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -476,8 +500,9 @@ u"""
 )
 
 entry(
-    index        = 25,
-    label        = "mb_db_twocdisub",
+    index = 25,
+    label = "mb_db_twocdisub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd  U0 {2,D} {3,S} {4,S}
@@ -496,8 +521,9 @@ u"""
 )
 
 entry(
-    index        = 26,
-    label        = "mb_db_twocdisub_Nd",
+    index = 26,
+    label = "mb_db_twocdisub_Nd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd     U0 {2,D} {3,S} {4,S}
@@ -516,8 +542,9 @@ u"""
 )
 
 entry(
-    index        = 27,
-    label        = "mb_db_twocdisub_oneDe",
+    index = 27,
+    label = "mb_db_twocdisub_oneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -536,8 +563,9 @@ u"""
 )
 
 entry(
-    index        = 28,
-    label        = "mb_db_twocdisub_twoDe",
+    index = 28,
+    label = "mb_db_twocdisub_twoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -556,8 +584,9 @@ u"""
 )
 
 entry(
-    index        = 29,
-    label        = "mb_db_trisub",
+    index = 29,
+    label = "mb_db_trisub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd  U0 {2,D} {3,S} {4,S}
@@ -576,8 +605,9 @@ u"""
 )
 
 entry(
-    index        = 30,
-    label        = "mb_db_trisub_Nd",
+    index = 30,
+    label = "mb_db_trisub_Nd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd     U0 {2,D} {3,S} {4,S}
@@ -596,8 +626,9 @@ u"""
 )
 
 entry(
-    index        = 31,
-    label        = "mb_db_trisub_oneMDe",
+    index = 31,
+    label = "mb_db_trisub_oneMDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -616,8 +647,9 @@ u"""
 )
 
 entry(
-    index        = 32,
-    label        = "mb_db_trisub_oneDDe",
+    index = 32,
+    label = "mb_db_trisub_oneDDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -636,8 +668,9 @@ u"""
 )
 
 entry(
-    index        = 33,
-    label        = "mb_db_trisub_onectwoDe",
+    index = 33,
+    label = "mb_db_trisub_onectwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -656,8 +689,9 @@ u"""
 )
 
 entry(
-    index        = 34,
-    label        = "mb_db_trisub_twoctwoDe",
+    index = 34,
+    label = "mb_db_trisub_twoctwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -676,8 +710,9 @@ u"""
 )
 
 entry(
-    index        = 35,
-    label        = "mb_db_trisub_threeDe",
+    index = 35,
+    label = "mb_db_trisub_threeDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -696,8 +731,9 @@ u"""
 )
 
 entry(
-    index        = 36,
-    label        = "mb_db_tetrasub",
+    index = 36,
+    label = "mb_db_tetrasub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd  U0 {2,D} {3,S} {4,S}
@@ -716,8 +752,9 @@ u"""
 )
 
 entry(
-    index        = 37,
-    label        = "mb_db_tetrasub_Nd",
+    index = 37,
+    label = "mb_db_tetrasub_Nd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd     U0 {2,D} {3,S} {4,S}
@@ -736,8 +773,9 @@ u"""
 )
 
 entry(
-    index        = 38,
-    label        = "mb_db_tetrasub_oneDe",
+    index = 38,
+    label = "mb_db_tetrasub_oneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -756,8 +794,9 @@ u"""
 )
 
 entry(
-    index        = 39,
-    label        = "mb_db_tetrasub_onectwoDe",
+    index = 39,
+    label = "mb_db_tetrasub_onectwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -776,8 +815,9 @@ u"""
 )
 
 entry(
-    index        = 40,
-    label        = "mb_db_tetrasub_twoctwoDe",
+    index = 40,
+    label = "mb_db_tetrasub_twoctwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -796,8 +836,9 @@ u"""
 )
 
 entry(
-    index        = 41,
-    label        = "mb_db_tetrasub_threeDe",
+    index = 41,
+    label = "mb_db_tetrasub_threeDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -816,8 +857,9 @@ u"""
 )
 
 entry(
-    index        = 42,
-    label        = "mb_db_tetrasub_fourDe",
+    index = 42,
+    label = "mb_db_tetrasub_fourDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cd            U0 {2,D} {3,S} {4,S}
@@ -836,8 +878,9 @@ u"""
 )
 
 entry(
-    index        = 43,
-    label        = "mb_tb",
+    index = 43,
+    label = "mb_tb",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 {Ct,N} U0 {2,T}
@@ -852,8 +895,9 @@ u"""
 )
 
 entry(
-    index        = 44,
-    label        = "mb_tb_unsub",
+    index = 44,
+    label = "mb_tb_unsub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ct U0 {2,T} {3,S}
@@ -870,8 +914,9 @@ u"""
 )
 
 entry(
-    index        = 45,
-    label        = "mb_tb_monosub",
+    index = 45,
+    label = "mb_tb_monosub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ct  U0 {2,T} {3,S}
@@ -888,8 +933,9 @@ u"""
 )
 
 entry(
-    index        = 46,
-    label        = "mb_tb_monosub_Nd",
+    index = 46,
+    label = "mb_tb_monosub_Nd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ct      U0 {2,T} {3,S}
@@ -906,8 +952,9 @@ u"""
 )
 
 entry(
-    index        = 47,
-    label        = "mb_tb_disub",
+    index = 47,
+    label = "mb_tb_disub",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ct  U0 {2,T} {3,S}
@@ -924,8 +971,9 @@ u"""
 )
 
 entry(
-    index        = 48,
-    label        = "mb_tb_disub_twoNd",
+    index = 48,
+    label = "mb_tb_disub_twoNd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ct      U0 {2,T} {3,S}

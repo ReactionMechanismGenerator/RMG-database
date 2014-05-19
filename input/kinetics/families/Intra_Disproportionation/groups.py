@@ -20,8 +20,8 @@ recipe(actions=[
 ])
 
 entry(
-    index        = 1,
-    label        = "Rn",
+    index = 1,
+    label = "Rn",
     group = "OR{R3, R4, R5, R6, R7}",
     kinetics = None,
     shortDesc = u"""""",
@@ -32,8 +32,9 @@ u"""
 )
 
 entry(
-    index        = 2,
-    label        = "Y_rad",
+    index = 2,
+    label = "Y_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1
@@ -47,8 +48,9 @@ u"""
 )
 
 entry(
-    index        = 3,
-    label        = "XH_Rrad",
+    index = 3,
+    label = "XH_Rrad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -64,8 +66,8 @@ u"""
 )
 
 entry(
-    index        = 4,
-    label        = "R3",
+    index = 4,
+    label = "R3",
     group = "OR{R3radEndo, R3radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -76,8 +78,9 @@ u"""
 )
 
 entry(
-    index        = 5,
-    label        = "R3radEndo",
+    index = 5,
+    label = "R3radEndo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -94,8 +97,9 @@ u"""
 )
 
 entry(
-    index        = 6,
-    label        = "R3radExo",
+    index = 6,
+    label = "R3radExo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -113,8 +117,8 @@ u"""
 )
 
 entry(
-    index        = 7,
-    label        = "R4",
+    index = 7,
+    label = "R4",
     group = "OR{R4radEndo, R4radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -125,8 +129,9 @@ u"""
 )
 
 entry(
-    index        = 8,
-    label        = "R4radEndo",
+    index = 8,
+    label = "R4radEndo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -144,8 +149,9 @@ u"""
 )
 
 entry(
-    index        = 9,
-    label        = "R4radExo",
+    index = 9,
+    label = "R4radExo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -164,8 +170,8 @@ u"""
 )
 
 entry(
-    index        = 10,
-    label        = "R5",
+    index = 10,
+    label = "R5",
     group = "OR{R5radEndo, R5radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -176,8 +182,9 @@ u"""
 )
 
 entry(
-    index        = 11,
-    label        = "R5radEndo",
+    index = 11,
+    label = "R5radEndo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -196,8 +203,9 @@ u"""
 )
 
 entry(
-    index        = 12,
-    label        = "R5radExo",
+    index = 12,
+    label = "R5radExo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -217,8 +225,8 @@ u"""
 )
 
 entry(
-    index        = 13,
-    label        = "R6",
+    index = 13,
+    label = "R6",
     group = "OR{R6radEndo, R6radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -229,8 +237,9 @@ u"""
 )
 
 entry(
-    index        = 14,
-    label        = "R6radEndo",
+    index = 14,
+    label = "R6radEndo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -250,8 +259,9 @@ u"""
 )
 
 entry(
-    index        = 15,
-    label        = "R6radExo",
+    index = 15,
+    label = "R6radExo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -272,8 +282,8 @@ u"""
 )
 
 entry(
-    index        = 16,
-    label        = "R7",
+    index = 16,
+    label = "R7",
     group = "OR{R7radEndo, R7radExo}",
     kinetics = None,
     shortDesc = u"""""",
@@ -284,8 +294,9 @@ u"""
 )
 
 entry(
-    index        = 17,
-    label        = "R7radEndo",
+    index = 17,
+    label = "R7radEndo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}
@@ -306,8 +317,9 @@ u"""
 )
 
 entry(
-    index        = 18,
-    label        = "R7radExo",
+    index = 18,
+    label = "R7radExo",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R!H U1 {2,{S,D,B,T}}

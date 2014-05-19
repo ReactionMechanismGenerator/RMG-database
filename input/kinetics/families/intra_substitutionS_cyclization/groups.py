@@ -19,8 +19,8 @@ recipe(actions=[
 ])
 
 entry(
-    index        = 1,
-    label        = "XSYJ",
+    index = 1,
+    label = "XSYJ",
     group = "OR{XSR3J, XSR4J, XSR5J, XSR6J, XSR7J}",
     kinetics = None,
     shortDesc = u"""""",
@@ -31,8 +31,8 @@ u"""
 )
 
 entry(
-    index        = 2,
-    label        = "YJ",
+    index = 2,
+    label = "YJ",
     group = "OR{CJ, SJ, CJ-3, SJ-3}",
     kinetics = None,
     shortDesc = u"""""",
@@ -43,8 +43,9 @@ u"""
 )
 
 entry(
-    index        = 3,
-    label        = "S-RR",
+    index = 3,
+    label = "S-RR",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -60,8 +61,9 @@ u"""
 )
 
 entry(
-    index        = 4,
-    label        = "XSR3J",
+    index = 4,
+    label = "XSR3J",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,{S,D}}
@@ -78,8 +80,9 @@ u"""
 )
 
 entry(
-    index        = 5,
-    label        = "XSR3J_S",
+    index = 5,
+    label = "XSR3J_S",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -96,8 +99,9 @@ u"""
 )
 
 entry(
-    index        = 6,
-    label        = "XSR3J_D",
+    index = 6,
+    label = "XSR3J_D",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,D}
@@ -114,8 +118,9 @@ u"""
 )
 
 entry(
-    index        = 7,
-    label        = "XSR4J",
+    index = 7,
+    label = "XSR4J",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,{S,D}}
@@ -133,8 +138,9 @@ u"""
 )
 
 entry(
-    index        = 8,
-    label        = "XSR4J_SS",
+    index = 8,
+    label = "XSR4J_SS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -152,8 +158,9 @@ u"""
 )
 
 entry(
-    index        = 9,
-    label        = "XSR4J_SD",
+    index = 9,
+    label = "XSR4J_SD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,D}
@@ -171,8 +178,9 @@ u"""
 )
 
 entry(
-    index        = 10,
-    label        = "XSR4J_DS",
+    index = 10,
+    label = "XSR4J_DS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -190,8 +198,9 @@ u"""
 )
 
 entry(
-    index        = 11,
-    label        = "XSR4J_DD",
+    index = 11,
+    label = "XSR4J_DD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,D}
@@ -209,8 +218,9 @@ u"""
 )
 
 entry(
-    index        = 12,
-    label        = "XSR5J",
+    index = 12,
+    label = "XSR5J",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,{S,D}}
@@ -229,8 +239,9 @@ u"""
 )
 
 entry(
-    index        = 13,
-    label        = "XSR5J_SSS",
+    index = 13,
+    label = "XSR5J_SSS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -249,8 +260,9 @@ u"""
 )
 
 entry(
-    index        = 14,
-    label        = "XSR5J_SSD",
+    index = 14,
+    label = "XSR5J_SSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,D}
@@ -269,8 +281,9 @@ u"""
 )
 
 entry(
-    index        = 15,
-    label        = "XSR5J_SDS",
+    index = 15,
+    label = "XSR5J_SDS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -289,8 +302,9 @@ u"""
 )
 
 entry(
-    index        = 16,
-    label        = "XSR5J_DSS",
+    index = 16,
+    label = "XSR5J_DSS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -309,8 +323,9 @@ u"""
 )
 
 entry(
-    index        = 17,
-    label        = "XSR5J_DDS",
+    index = 17,
+    label = "XSR5J_DDS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -329,8 +344,9 @@ u"""
 )
 
 entry(
-    index        = 18,
-    label        = "XSR5J_DSD",
+    index = 18,
+    label = "XSR5J_DSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,D}
@@ -349,8 +365,9 @@ u"""
 )
 
 entry(
-    index        = 19,
-    label        = "XSR5J_SDD",
+    index = 19,
+    label = "XSR5J_SDD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,D}
@@ -369,8 +386,9 @@ u"""
 )
 
 entry(
-    index        = 20,
-    label        = "XSR5J_DDD",
+    index = 20,
+    label = "XSR5J_DDD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,D}
@@ -389,8 +407,9 @@ u"""
 )
 
 entry(
-    index        = 21,
-    label        = "XSR6J",
+    index = 21,
+    label = "XSR6J",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,{S,D}}
@@ -410,8 +429,9 @@ u"""
 )
 
 entry(
-    index        = 22,
-    label        = "XSR6J_SSSS",
+    index = 22,
+    label = "XSR6J_SSSS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,S}
@@ -431,8 +451,9 @@ u"""
 )
 
 entry(
-    index        = 23,
-    label        = "XSR7J",
+    index = 23,
+    label = "XSR7J",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 R!H U1 {2,{S,D}}
@@ -453,8 +474,8 @@ u"""
 )
 
 entry(
-    index        = 24,
-    label        = "CJ",
+    index = 24,
+    label = "CJ",
     group = "OR{CsJ, CdsJ, CdsJ-2}",
     kinetics = None,
     shortDesc = u"""""",
@@ -465,8 +486,9 @@ u"""
 )
 
 entry(
-    index        = 25,
-    label        = "CdsJ",
+    index = 25,
+    label = "CdsJ",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -482,8 +504,9 @@ u"""
 )
 
 entry(
-    index        = 26,
-    label        = "CdsJ-H",
+    index = 26,
+    label = "CdsJ-H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -499,8 +522,9 @@ u"""
 )
 
 entry(
-    index        = 27,
-    label        = "CdsJ-Cs",
+    index = 27,
+    label = "CdsJ-Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -516,8 +540,9 @@ u"""
 )
 
 entry(
-    index        = 28,
-    label        = "CdsJ-Ss",
+    index = 28,
+    label = "CdsJ-Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -533,8 +558,9 @@ u"""
 )
 
 entry(
-    index        = 29,
-    label        = "CdsJ-Cd",
+    index = 29,
+    label = "CdsJ-Cd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -551,8 +577,9 @@ u"""
 )
 
 entry(
-    index        = 30,
-    label        = "CdsJ-2",
+    index = 30,
+    label = "CdsJ-2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -568,8 +595,9 @@ u"""
 )
 
 entry(
-    index        = 31,
-    label        = "CdsJ_C-2",
+    index = 31,
+    label = "CdsJ_C-2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -585,8 +613,9 @@ u"""
 )
 
 entry(
-    index        = 32,
-    label        = "CdsJ_C-Cs2",
+    index = 32,
+    label = "CdsJ_C-Cs2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -602,8 +631,9 @@ u"""
 )
 
 entry(
-    index        = 33,
-    label        = "CdsJ_C-Ss2",
+    index = 33,
+    label = "CdsJ_C-Ss2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -619,8 +649,9 @@ u"""
 )
 
 entry(
-    index        = 34,
-    label        = "CdsJ_C-Cd2",
+    index = 34,
+    label = "CdsJ_C-Cd2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -637,8 +668,9 @@ u"""
 )
 
 entry(
-    index        = 35,
-    label        = "CdsJ_S-2",
+    index = 35,
+    label = "CdsJ_S-2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -654,8 +686,9 @@ u"""
 )
 
 entry(
-    index        = 36,
-    label        = "CsJ",
+    index = 36,
+    label = "CsJ",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,S} {3,S} {4,S}
@@ -672,8 +705,9 @@ u"""
 )
 
 entry(
-    index        = 37,
-    label        = "CsJ-Cs",
+    index = 37,
+    label = "CsJ-Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -690,8 +724,9 @@ u"""
 )
 
 entry(
-    index        = 38,
-    label        = "CsJ-CsHH",
+    index = 38,
+    label = "CsJ-CsHH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -708,8 +743,9 @@ u"""
 )
 
 entry(
-    index        = 39,
-    label        = "CsJ-CsCsH",
+    index = 39,
+    label = "CsJ-CsCsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -726,8 +762,9 @@ u"""
 )
 
 entry(
-    index        = 40,
-    label        = "CsJ-CsCsCs",
+    index = 40,
+    label = "CsJ-CsCsCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -744,8 +781,9 @@ u"""
 )
 
 entry(
-    index        = 41,
-    label        = "CsJ-CsSsH",
+    index = 41,
+    label = "CsJ-CsSsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -762,8 +800,9 @@ u"""
 )
 
 entry(
-    index        = 42,
-    label        = "CsJ-CsSsSs",
+    index = 42,
+    label = "CsJ-CsSsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -780,8 +819,9 @@ u"""
 )
 
 entry(
-    index        = 43,
-    label        = "CsJ-CsCsSs",
+    index = 43,
+    label = "CsJ-CsCsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -798,8 +838,9 @@ u"""
 )
 
 entry(
-    index        = 44,
-    label        = "CsJ-CsOneDe",
+    index = 44,
+    label = "CsJ-CsOneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -816,8 +857,9 @@ u"""
 )
 
 entry(
-    index        = 45,
-    label        = "CsJ-CsOneDeH",
+    index = 45,
+    label = "CsJ-CsOneDeH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -834,8 +876,9 @@ u"""
 )
 
 entry(
-    index        = 46,
-    label        = "CsJ-CsCdH",
+    index = 46,
+    label = "CsJ-CsCdH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -852,8 +895,9 @@ u"""
 )
 
 entry(
-    index        = 47,
-    label        = "CsJ-CsOneDeCs",
+    index = 47,
+    label = "CsJ-CsOneDeCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -870,8 +914,9 @@ u"""
 )
 
 entry(
-    index        = 48,
-    label        = "CsJ-CsCdCs",
+    index = 48,
+    label = "CsJ-CsCdCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -888,8 +933,9 @@ u"""
 )
 
 entry(
-    index        = 49,
-    label        = "CsJ-CsOneDeSs",
+    index = 49,
+    label = "CsJ-CsOneDeSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -906,8 +952,9 @@ u"""
 )
 
 entry(
-    index        = 50,
-    label        = "CsJ-CsCdSs",
+    index = 50,
+    label = "CsJ-CsCdSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -924,8 +971,9 @@ u"""
 )
 
 entry(
-    index        = 51,
-    label        = "CsJ-CsTwoDe",
+    index = 51,
+    label = "CsJ-CsTwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -942,8 +990,9 @@ u"""
 )
 
 entry(
-    index        = 52,
-    label        = "CsJ-Cd",
+    index = 52,
+    label = "CsJ-Cd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -960,8 +1009,9 @@ u"""
 )
 
 entry(
-    index        = 53,
-    label        = "CsJ-CdHH",
+    index = 53,
+    label = "CsJ-CdHH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -978,8 +1028,9 @@ u"""
 )
 
 entry(
-    index        = 54,
-    label        = "CsJ-CdCsH",
+    index = 54,
+    label = "CsJ-CdCsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -996,8 +1047,9 @@ u"""
 )
 
 entry(
-    index        = 55,
-    label        = "CsJ-CdCsCs",
+    index = 55,
+    label = "CsJ-CdCsCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1014,8 +1066,9 @@ u"""
 )
 
 entry(
-    index        = 56,
-    label        = "CsJ-CdSsH",
+    index = 56,
+    label = "CsJ-CdSsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1032,8 +1085,9 @@ u"""
 )
 
 entry(
-    index        = 57,
-    label        = "CsJ-CdSsSs",
+    index = 57,
+    label = "CsJ-CdSsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1050,8 +1104,9 @@ u"""
 )
 
 entry(
-    index        = 58,
-    label        = "CsJ-CdCsSs",
+    index = 58,
+    label = "CsJ-CdCsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1068,8 +1123,9 @@ u"""
 )
 
 entry(
-    index        = 59,
-    label        = "CsJ-CdOneDe",
+    index = 59,
+    label = "CsJ-CdOneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1086,8 +1142,9 @@ u"""
 )
 
 entry(
-    index        = 60,
-    label        = "CsJ-CdOneDeH",
+    index = 60,
+    label = "CsJ-CdOneDeH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1104,8 +1161,9 @@ u"""
 )
 
 entry(
-    index        = 61,
-    label        = "CsJ-CdCdH",
+    index = 61,
+    label = "CsJ-CdCdH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1122,8 +1180,9 @@ u"""
 )
 
 entry(
-    index        = 62,
-    label        = "CsJ-CdOneDeCs",
+    index = 62,
+    label = "CsJ-CdOneDeCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1140,8 +1199,9 @@ u"""
 )
 
 entry(
-    index        = 63,
-    label        = "CsJ-CdCdCs",
+    index = 63,
+    label = "CsJ-CdCdCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1158,8 +1218,9 @@ u"""
 )
 
 entry(
-    index        = 64,
-    label        = "CsJ-CdOneDeSs",
+    index = 64,
+    label = "CsJ-CdOneDeSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1176,8 +1237,9 @@ u"""
 )
 
 entry(
-    index        = 65,
-    label        = "CsJ-CdCdSs",
+    index = 65,
+    label = "CsJ-CdCdSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1194,8 +1256,9 @@ u"""
 )
 
 entry(
-    index        = 66,
-    label        = "CsJ-CdTwoDe",
+    index = 66,
+    label = "CsJ-CdTwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1212,8 +1275,9 @@ u"""
 )
 
 entry(
-    index        = 67,
-    label        = "CsJ-Ss",
+    index = 67,
+    label = "CsJ-Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1230,8 +1294,9 @@ u"""
 )
 
 entry(
-    index        = 68,
-    label        = "CsJ-SsHH",
+    index = 68,
+    label = "CsJ-SsHH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1248,8 +1313,9 @@ u"""
 )
 
 entry(
-    index        = 69,
-    label        = "CsJ-SsCsH",
+    index = 69,
+    label = "CsJ-SsCsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1266,8 +1332,9 @@ u"""
 )
 
 entry(
-    index        = 70,
-    label        = "CsJ-SsCsCs",
+    index = 70,
+    label = "CsJ-SsCsCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1284,8 +1351,9 @@ u"""
 )
 
 entry(
-    index        = 71,
-    label        = "CsJ-SsSsH",
+    index = 71,
+    label = "CsJ-SsSsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1302,8 +1370,9 @@ u"""
 )
 
 entry(
-    index        = 72,
-    label        = "CsJ-SsSsSs",
+    index = 72,
+    label = "CsJ-SsSsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1320,8 +1389,9 @@ u"""
 )
 
 entry(
-    index        = 73,
-    label        = "CsJ-SsCsSs",
+    index = 73,
+    label = "CsJ-SsCsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1338,8 +1408,9 @@ u"""
 )
 
 entry(
-    index        = 74,
-    label        = "CsJ-SsOneDe",
+    index = 74,
+    label = "CsJ-SsOneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1356,8 +1427,9 @@ u"""
 )
 
 entry(
-    index        = 75,
-    label        = "CsJ-SsOneDeH",
+    index = 75,
+    label = "CsJ-SsOneDeH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1374,8 +1446,9 @@ u"""
 )
 
 entry(
-    index        = 76,
-    label        = "CsJ-SsCdH",
+    index = 76,
+    label = "CsJ-SsCdH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1392,8 +1465,9 @@ u"""
 )
 
 entry(
-    index        = 77,
-    label        = "CsJ-SsOneDeCs",
+    index = 77,
+    label = "CsJ-SsOneDeCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1410,8 +1484,9 @@ u"""
 )
 
 entry(
-    index        = 78,
-    label        = "CsJ-SsCdCs",
+    index = 78,
+    label = "CsJ-SsCdCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1428,8 +1503,9 @@ u"""
 )
 
 entry(
-    index        = 79,
-    label        = "CsJ-SsOneDeSs",
+    index = 79,
+    label = "CsJ-SsOneDeSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1446,8 +1522,9 @@ u"""
 )
 
 entry(
-    index        = 80,
-    label        = "CsJ-SsCdSs",
+    index = 80,
+    label = "CsJ-SsCdSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1464,8 +1541,9 @@ u"""
 )
 
 entry(
-    index        = 81,
-    label        = "SJ",
+    index = 81,
+    label = "SJ",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -1480,8 +1558,9 @@ u"""
 )
 
 entry(
-    index        = 82,
-    label        = "SsJ",
+    index = 82,
+    label = "SsJ",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -1496,8 +1575,9 @@ u"""
 )
 
 entry(
-    index        = 83,
-    label        = "SsJ-Cs",
+    index = 83,
+    label = "SsJ-Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -1512,8 +1592,9 @@ u"""
 )
 
 entry(
-    index        = 84,
-    label        = "SsJ-Ss",
+    index = 84,
+    label = "SsJ-Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -1528,8 +1609,9 @@ u"""
 )
 
 entry(
-    index        = 85,
-    label        = "SsJ-OneDe",
+    index = 85,
+    label = "SsJ-OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss            U1 {2,S}
@@ -1544,8 +1626,9 @@ u"""
 )
 
 entry(
-    index        = 86,
-    label        = "SsJ-Cd",
+    index = 86,
+    label = "SsJ-Cd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -1561,8 +1644,8 @@ u"""
 )
 
 entry(
-    index        = 87,
-    label        = "CJ-3",
+    index = 87,
+    label = "CJ-3",
     group = "OR{CsJ-3, CdsJ-3, CdsJ-3-2}",
     kinetics = None,
     shortDesc = u"""""",
@@ -1573,8 +1656,9 @@ u"""
 )
 
 entry(
-    index        = 88,
-    label        = "CdsJ-3",
+    index = 88,
+    label = "CdsJ-3",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -1590,8 +1674,9 @@ u"""
 )
 
 entry(
-    index        = 89,
-    label        = "CdsJ-3-H",
+    index = 89,
+    label = "CdsJ-3-H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -1607,8 +1692,9 @@ u"""
 )
 
 entry(
-    index        = 90,
-    label        = "CdsJ-3-Cs",
+    index = 90,
+    label = "CdsJ-3-Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -1624,8 +1710,9 @@ u"""
 )
 
 entry(
-    index        = 91,
-    label        = "CdsJ-3-Ss",
+    index = 91,
+    label = "CdsJ-3-Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -1641,8 +1728,9 @@ u"""
 )
 
 entry(
-    index        = 92,
-    label        = "CdsJ-3-Cd",
+    index = 92,
+    label = "CdsJ-3-Cd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -1659,8 +1747,9 @@ u"""
 )
 
 entry(
-    index        = 93,
-    label        = "CdsJ-3-2",
+    index = 93,
+    label = "CdsJ-3-2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -1676,8 +1765,9 @@ u"""
 )
 
 entry(
-    index        = 94,
-    label        = "CdsJ_C-3-2",
+    index = 94,
+    label = "CdsJ_C-3-2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -1693,8 +1783,9 @@ u"""
 )
 
 entry(
-    index        = 95,
-    label        = "CdsJ_C-3-Cs2",
+    index = 95,
+    label = "CdsJ_C-3-Cs2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -1710,8 +1801,9 @@ u"""
 )
 
 entry(
-    index        = 96,
-    label        = "CdsJ_C-3-Ss2",
+    index = 96,
+    label = "CdsJ_C-3-Ss2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -1727,8 +1819,9 @@ u"""
 )
 
 entry(
-    index        = 97,
-    label        = "CdsJ_C-3-Cd2",
+    index = 97,
+    label = "CdsJ_C-3-Cd2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,D} {3,S}
@@ -1745,8 +1838,9 @@ u"""
 )
 
 entry(
-    index        = 98,
-    label        = "CdsJ_S-3-2",
+    index = 98,
+    label = "CdsJ_S-3-2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,D} {3,S}
@@ -1762,8 +1856,9 @@ u"""
 )
 
 entry(
-    index        = 99,
-    label        = "CsJ-3",
+    index = 99,
+    label = "CsJ-3",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C U1 {2,S} {3,S} {4,S}
@@ -1780,8 +1875,9 @@ u"""
 )
 
 entry(
-    index        = 100,
-    label        = "CsJ-3-Cs",
+    index = 100,
+    label = "CsJ-3-Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1798,8 +1894,9 @@ u"""
 )
 
 entry(
-    index        = 101,
-    label        = "CsJ-3-CsHH",
+    index = 101,
+    label = "CsJ-3-CsHH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1816,8 +1913,9 @@ u"""
 )
 
 entry(
-    index        = 102,
-    label        = "CsJ-3-CsCsH",
+    index = 102,
+    label = "CsJ-3-CsCsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1834,8 +1932,9 @@ u"""
 )
 
 entry(
-    index        = 103,
-    label        = "CsJ-3-CsCsCs",
+    index = 103,
+    label = "CsJ-3-CsCsCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1852,8 +1951,9 @@ u"""
 )
 
 entry(
-    index        = 104,
-    label        = "CsJ-3-CsSsH",
+    index = 104,
+    label = "CsJ-3-CsSsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1870,8 +1970,9 @@ u"""
 )
 
 entry(
-    index        = 105,
-    label        = "CsJ-3-CsSsSs",
+    index = 105,
+    label = "CsJ-3-CsSsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1888,8 +1989,9 @@ u"""
 )
 
 entry(
-    index        = 106,
-    label        = "CsJ-3-CsCsSs",
+    index = 106,
+    label = "CsJ-3-CsCsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1906,8 +2008,9 @@ u"""
 )
 
 entry(
-    index        = 107,
-    label        = "CsJ-3-CsOneDe",
+    index = 107,
+    label = "CsJ-3-CsOneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1924,8 +2027,9 @@ u"""
 )
 
 entry(
-    index        = 108,
-    label        = "CsJ-3-CsOneDeH",
+    index = 108,
+    label = "CsJ-3-CsOneDeH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1942,8 +2046,9 @@ u"""
 )
 
 entry(
-    index        = 109,
-    label        = "CsJ-3-CsCdH",
+    index = 109,
+    label = "CsJ-3-CsCdH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1960,8 +2065,9 @@ u"""
 )
 
 entry(
-    index        = 110,
-    label        = "CsJ-3-CsOneDeCs",
+    index = 110,
+    label = "CsJ-3-CsOneDeCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -1978,8 +2084,9 @@ u"""
 )
 
 entry(
-    index        = 111,
-    label        = "CsJ-3-CsCdCs",
+    index = 111,
+    label = "CsJ-3-CsCdCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -1996,8 +2103,9 @@ u"""
 )
 
 entry(
-    index        = 112,
-    label        = "CsJ-3-CsOneDeSs",
+    index = 112,
+    label = "CsJ-3-CsOneDeSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2014,8 +2122,9 @@ u"""
 )
 
 entry(
-    index        = 113,
-    label        = "CsJ-3-CsCdSs",
+    index = 113,
+    label = "CsJ-3-CsCdSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2032,8 +2141,9 @@ u"""
 )
 
 entry(
-    index        = 114,
-    label        = "CsJ-3-CsTwoDe",
+    index = 114,
+    label = "CsJ-3-CsTwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2050,8 +2160,9 @@ u"""
 )
 
 entry(
-    index        = 115,
-    label        = "CsJ-3-Cd",
+    index = 115,
+    label = "CsJ-3-Cd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2068,8 +2179,9 @@ u"""
 )
 
 entry(
-    index        = 116,
-    label        = "CsJ-3-CdHH",
+    index = 116,
+    label = "CsJ-3-CdHH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2086,8 +2198,9 @@ u"""
 )
 
 entry(
-    index        = 117,
-    label        = "CsJ-3-CdCsH",
+    index = 117,
+    label = "CsJ-3-CdCsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2104,8 +2217,9 @@ u"""
 )
 
 entry(
-    index        = 118,
-    label        = "CsJ-3-CdCsCs",
+    index = 118,
+    label = "CsJ-3-CdCsCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2122,8 +2236,9 @@ u"""
 )
 
 entry(
-    index        = 119,
-    label        = "CsJ-3-CdSsH",
+    index = 119,
+    label = "CsJ-3-CdSsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2140,8 +2255,9 @@ u"""
 )
 
 entry(
-    index        = 120,
-    label        = "CsJ-3-CdSsSs",
+    index = 120,
+    label = "CsJ-3-CdSsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2158,8 +2274,9 @@ u"""
 )
 
 entry(
-    index        = 121,
-    label        = "CsJ-3-CdCsSs",
+    index = 121,
+    label = "CsJ-3-CdCsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2176,8 +2293,9 @@ u"""
 )
 
 entry(
-    index        = 122,
-    label        = "CsJ-3-CdOneDe",
+    index = 122,
+    label = "CsJ-3-CdOneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2194,8 +2312,9 @@ u"""
 )
 
 entry(
-    index        = 123,
-    label        = "CsJ-3-CdOneDeH",
+    index = 123,
+    label = "CsJ-3-CdOneDeH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2212,8 +2331,9 @@ u"""
 )
 
 entry(
-    index        = 124,
-    label        = "CsJ-3-CdCdH",
+    index = 124,
+    label = "CsJ-3-CdCdH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2230,8 +2350,9 @@ u"""
 )
 
 entry(
-    index        = 125,
-    label        = "CsJ-3-CdOneDeCs",
+    index = 125,
+    label = "CsJ-3-CdOneDeCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2248,8 +2369,9 @@ u"""
 )
 
 entry(
-    index        = 126,
-    label        = "CsJ-3-CdCdCs",
+    index = 126,
+    label = "CsJ-3-CdCdCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2266,8 +2388,9 @@ u"""
 )
 
 entry(
-    index        = 127,
-    label        = "CsJ-3-CdOneDeSs",
+    index = 127,
+    label = "CsJ-3-CdOneDeSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2284,8 +2407,9 @@ u"""
 )
 
 entry(
-    index        = 128,
-    label        = "CsJ-3-CdCdSs",
+    index = 128,
+    label = "CsJ-3-CdCdSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2302,8 +2426,9 @@ u"""
 )
 
 entry(
-    index        = 129,
-    label        = "CsJ-3-CdTwoDe",
+    index = 129,
+    label = "CsJ-3-CdTwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2320,8 +2445,9 @@ u"""
 )
 
 entry(
-    index        = 130,
-    label        = "CsJ-3-Ss",
+    index = 130,
+    label = "CsJ-3-Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2338,8 +2464,9 @@ u"""
 )
 
 entry(
-    index        = 131,
-    label        = "CsJ-3-SsHH",
+    index = 131,
+    label = "CsJ-3-SsHH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2356,8 +2483,9 @@ u"""
 )
 
 entry(
-    index        = 132,
-    label        = "CsJ-3-SsCsH",
+    index = 132,
+    label = "CsJ-3-SsCsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2374,8 +2502,9 @@ u"""
 )
 
 entry(
-    index        = 133,
-    label        = "CsJ-3-SsCsCs",
+    index = 133,
+    label = "CsJ-3-SsCsCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2392,8 +2521,9 @@ u"""
 )
 
 entry(
-    index        = 134,
-    label        = "CsJ-3-SsSsH",
+    index = 134,
+    label = "CsJ-3-SsSsH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2410,8 +2540,9 @@ u"""
 )
 
 entry(
-    index        = 135,
-    label        = "CsJ-3-SsSsSs",
+    index = 135,
+    label = "CsJ-3-SsSsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2428,8 +2559,9 @@ u"""
 )
 
 entry(
-    index        = 136,
-    label        = "CsJ-3-SsCsSs",
+    index = 136,
+    label = "CsJ-3-SsCsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2446,8 +2578,9 @@ u"""
 )
 
 entry(
-    index        = 137,
-    label        = "CsJ-3-SsOneDe",
+    index = 137,
+    label = "CsJ-3-SsOneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2464,8 +2597,9 @@ u"""
 )
 
 entry(
-    index        = 138,
-    label        = "CsJ-3-SsOneDeH",
+    index = 138,
+    label = "CsJ-3-SsOneDeH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2482,8 +2616,9 @@ u"""
 )
 
 entry(
-    index        = 139,
-    label        = "CsJ-3-SsCdH",
+    index = 139,
+    label = "CsJ-3-SsCdH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2500,8 +2635,9 @@ u"""
 )
 
 entry(
-    index        = 140,
-    label        = "CsJ-3-SsOneDeCs",
+    index = 140,
+    label = "CsJ-3-SsOneDeCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2518,8 +2654,9 @@ u"""
 )
 
 entry(
-    index        = 141,
-    label        = "CsJ-3-SsCdCs",
+    index = 141,
+    label = "CsJ-3-SsCdCs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2536,8 +2673,9 @@ u"""
 )
 
 entry(
-    index        = 142,
-    label        = "CsJ-3-SsOneDeSs",
+    index = 142,
+    label = "CsJ-3-SsOneDeSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C             U1 {2,S} {3,S} {4,S}
@@ -2554,8 +2692,9 @@ u"""
 )
 
 entry(
-    index        = 143,
-    label        = "CsJ-3-SsCdSs",
+    index = 143,
+    label = "CsJ-3-SsCdSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 C  U1 {2,S} {3,S} {4,S}
@@ -2572,8 +2711,9 @@ u"""
 )
 
 entry(
-    index        = 144,
-    label        = "SJ-3",
+    index = 144,
+    label = "SJ-3",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -2588,8 +2728,9 @@ u"""
 )
 
 entry(
-    index        = 145,
-    label        = "SsJ-3",
+    index = 145,
+    label = "SsJ-3",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -2604,8 +2745,9 @@ u"""
 )
 
 entry(
-    index        = 146,
-    label        = "SsJ-3-Cs",
+    index = 146,
+    label = "SsJ-3-Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -2620,8 +2762,9 @@ u"""
 )
 
 entry(
-    index        = 147,
-    label        = "SsJ-3-Ss",
+    index = 147,
+    label = "SsJ-3-Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -2636,8 +2779,9 @@ u"""
 )
 
 entry(
-    index        = 148,
-    label        = "SsJ-3-OneDe",
+    index = 148,
+    label = "SsJ-3-OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss            U1 {2,S}
@@ -2652,8 +2796,9 @@ u"""
 )
 
 entry(
-    index        = 149,
-    label        = "SsJ-3-Cd",
+    index = 149,
+    label = "SsJ-3-Cd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *3 Ss U1 {2,S}
@@ -2669,8 +2814,9 @@ u"""
 )
 
 entry(
-    index        = 150,
-    label        = "S-HC",
+    index = 150,
+    label = "S-HC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2686,8 +2832,9 @@ u"""
 )
 
 entry(
-    index        = 151,
-    label        = "S-CC",
+    index = 151,
+    label = "S-CC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2703,8 +2850,9 @@ u"""
 )
 
 entry(
-    index        = 152,
-    label        = "S-CsC",
+    index = 152,
+    label = "S-CsC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2720,8 +2868,9 @@ u"""
 )
 
 entry(
-    index        = 153,
-    label        = "S-Cs(NonDe)C",
+    index = 153,
+    label = "S-Cs(NonDe)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss     U0 {2,S} {3,S}
@@ -2740,8 +2889,9 @@ u"""
 )
 
 entry(
-    index        = 154,
-    label        = "S-Cs(HHH)C",
+    index = 154,
+    label = "S-Cs(HHH)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2760,8 +2910,9 @@ u"""
 )
 
 entry(
-    index        = 155,
-    label        = "S-Cs(CsHH)C",
+    index = 155,
+    label = "S-Cs(CsHH)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2780,8 +2931,9 @@ u"""
 )
 
 entry(
-    index        = 156,
-    label        = "S-Cs(CsCsH)C",
+    index = 156,
+    label = "S-Cs(CsCsH)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2800,8 +2952,9 @@ u"""
 )
 
 entry(
-    index        = 157,
-    label        = "S-Cs(CsCsCs)C",
+    index = 157,
+    label = "S-Cs(CsCsCs)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2820,8 +2973,9 @@ u"""
 )
 
 entry(
-    index        = 158,
-    label        = "S-Cs(De)C",
+    index = 158,
+    label = "S-Cs(De)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss            U0 {2,S} {3,S}
@@ -2840,8 +2994,9 @@ u"""
 )
 
 entry(
-    index        = 159,
-    label        = "S-Cs(OneDe)C",
+    index = 159,
+    label = "S-Cs(OneDe)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss            U0 {2,S} {3,S}
@@ -2860,8 +3015,9 @@ u"""
 )
 
 entry(
-    index        = 160,
-    label        = "S-Cs(CdHH)C",
+    index = 160,
+    label = "S-Cs(CdHH)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2880,8 +3036,9 @@ u"""
 )
 
 entry(
-    index        = 161,
-    label        = "S-Cs(CdCsH)C",
+    index = 161,
+    label = "S-Cs(CdCsH)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2900,8 +3057,9 @@ u"""
 )
 
 entry(
-    index        = 162,
-    label        = "S-Cs(CdCsCs)C",
+    index = 162,
+    label = "S-Cs(CdCsCs)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2920,8 +3078,9 @@ u"""
 )
 
 entry(
-    index        = 163,
-    label        = "S-Cs(CtHH)C",
+    index = 163,
+    label = "S-Cs(CtHH)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2940,8 +3099,9 @@ u"""
 )
 
 entry(
-    index        = 164,
-    label        = "S-Cs(CtCsH)C",
+    index = 164,
+    label = "S-Cs(CtCsH)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2960,8 +3120,9 @@ u"""
 )
 
 entry(
-    index        = 165,
-    label        = "S-Cs(CtCsCs)C",
+    index = 165,
+    label = "S-Cs(CtCsCs)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -2980,8 +3141,9 @@ u"""
 )
 
 entry(
-    index        = 166,
-    label        = "S-Cs(TwoDe)C",
+    index = 166,
+    label = "S-Cs(TwoDe)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss            U0 {2,S} {3,S}
@@ -3000,8 +3162,9 @@ u"""
 )
 
 entry(
-    index        = 167,
-    label        = "S-Cs(ThreeDe)C",
+    index = 167,
+    label = "S-Cs(ThreeDe)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss            U0 {2,S} {3,S}
@@ -3020,8 +3183,9 @@ u"""
 )
 
 entry(
-    index        = 168,
-    label        = "S-CtC",
+    index = 168,
+    label = "S-CtC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3037,8 +3201,9 @@ u"""
 )
 
 entry(
-    index        = 169,
-    label        = "S-CbC",
+    index = 169,
+    label = "S-CbC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3054,8 +3219,9 @@ u"""
 )
 
 entry(
-    index        = 170,
-    label        = "S-CdC",
+    index = 170,
+    label = "S-CdC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3072,8 +3238,9 @@ u"""
 )
 
 entry(
-    index        = 171,
-    label        = "S-Cds(H)C",
+    index = 171,
+    label = "S-Cds(H)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3091,8 +3258,9 @@ u"""
 )
 
 entry(
-    index        = 172,
-    label        = "S-Cds(Cs)C",
+    index = 172,
+    label = "S-Cds(Cs)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3110,8 +3278,9 @@ u"""
 )
 
 entry(
-    index        = 173,
-    label        = "S-CSs",
+    index = 173,
+    label = "S-CSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3127,8 +3296,9 @@ u"""
 )
 
 entry(
-    index        = 174,
-    label        = "S-CsSs",
+    index = 174,
+    label = "S-CsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3144,8 +3314,9 @@ u"""
 )
 
 entry(
-    index        = 175,
-    label        = "S-Cs(HHH)Ss",
+    index = 175,
+    label = "S-Cs(HHH)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3164,8 +3335,9 @@ u"""
 )
 
 entry(
-    index        = 176,
-    label        = "S-Cs(CsHH)Ss",
+    index = 176,
+    label = "S-Cs(CsHH)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3184,8 +3356,9 @@ u"""
 )
 
 entry(
-    index        = 177,
-    label        = "S-Cs(CsCsH)Ss",
+    index = 177,
+    label = "S-Cs(CsCsH)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3204,8 +3377,9 @@ u"""
 )
 
 entry(
-    index        = 178,
-    label        = "S-Cs(CsCsCs)Ss",
+    index = 178,
+    label = "S-Cs(CsCsCs)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3224,8 +3398,9 @@ u"""
 )
 
 entry(
-    index        = 179,
-    label        = "S-CtSs",
+    index = 179,
+    label = "S-CtSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3241,8 +3416,9 @@ u"""
 )
 
 entry(
-    index        = 180,
-    label        = "S-CbSs",
+    index = 180,
+    label = "S-CbSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3258,8 +3434,9 @@ u"""
 )
 
 entry(
-    index        = 181,
-    label        = "S-CdSs",
+    index = 181,
+    label = "S-CdSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3276,8 +3453,9 @@ u"""
 )
 
 entry(
-    index        = 182,
-    label        = "S-Cds(H)Ss",
+    index = 182,
+    label = "S-Cds(H)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3295,8 +3473,9 @@ u"""
 )
 
 entry(
-    index        = 183,
-    label        = "S-Cds(Cs)Ss",
+    index = 183,
+    label = "S-Cds(Cs)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3314,8 +3493,9 @@ u"""
 )
 
 entry(
-    index        = 184,
-    label        = "S-SC",
+    index = 184,
+    label = "S-SC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3331,8 +3511,9 @@ u"""
 )
 
 entry(
-    index        = 185,
-    label        = "S-SsC",
+    index = 185,
+    label = "S-SsC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3348,8 +3529,9 @@ u"""
 )
 
 entry(
-    index        = 186,
-    label        = "S-Ss(H)C",
+    index = 186,
+    label = "S-Ss(H)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3366,8 +3548,9 @@ u"""
 )
 
 entry(
-    index        = 187,
-    label        = "S-Ss(Cs)C",
+    index = 187,
+    label = "S-Ss(Cs)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3384,8 +3567,9 @@ u"""
 )
 
 entry(
-    index        = 188,
-    label        = "S-Ss(Ss)C",
+    index = 188,
+    label = "S-Ss(Ss)C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3402,8 +3586,9 @@ u"""
 )
 
 entry(
-    index        = 189,
-    label        = "S-HSs",
+    index = 189,
+    label = "S-HSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3419,8 +3604,9 @@ u"""
 )
 
 entry(
-    index        = 190,
-    label        = "S-SsSs",
+    index = 190,
+    label = "S-SsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3436,8 +3622,9 @@ u"""
 )
 
 entry(
-    index        = 191,
-    label        = "S-Ss(H)Ss",
+    index = 191,
+    label = "S-Ss(H)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3454,8 +3641,9 @@ u"""
 )
 
 entry(
-    index        = 192,
-    label        = "S-Ss(Cs)Ss",
+    index = 192,
+    label = "S-Ss(Cs)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}
@@ -3472,8 +3660,9 @@ u"""
 )
 
 entry(
-    index        = 193,
-    label        = "S-Ss(Ss)Ss",
+    index = 193,
+    label = "S-Ss(Ss)Ss",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Ss U0 {2,S} {3,S}

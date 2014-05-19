@@ -18,8 +18,9 @@ recipe(actions=[
 ])
 
 entry(
-    index        = 1,
-    label        = "Y_rad",
+    index = 1,
+    label = "Y_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R U1
@@ -33,8 +34,9 @@ u"""
 )
 
 entry(
-    index        = 2,
-    label        = "Oa",
+    index = 2,
+    label = "Oa",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *2 O U2
@@ -48,8 +50,9 @@ u"""
 )
 
 entry(
-    index        = 3,
-    label        = "H_rad",
+    index = 3,
+    label = "H_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 H U1
@@ -63,8 +66,9 @@ u"""
 )
 
 entry(
-    index        = 4,
-    label        = "Ct_rad",
+    index = 4,
+    label = "Ct_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,T}
@@ -79,8 +83,9 @@ u"""
 )
 
 entry(
-    index        = 5,
-    label        = "O_rad",
+    index = 5,
+    label = "O_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 O U1 {2,S}
@@ -95,8 +100,9 @@ u"""
 )
 
 entry(
-    index        = 6,
-    label        = "O_pri_rad",
+    index = 6,
+    label = "O_pri_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 O U1 {2,S}
@@ -111,8 +117,9 @@ u"""
 )
 
 entry(
-    index        = 7,
-    label        = "O_sec_rad",
+    index = 7,
+    label = "O_sec_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 O   U1 {2,S}
@@ -127,8 +134,9 @@ u"""
 )
 
 entry(
-    index        = 8,
-    label        = "O_rad/NonDe",
+    index = 8,
+    label = "O_rad/NonDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 O      U1 {2,S}
@@ -143,8 +151,9 @@ u"""
 )
 
 entry(
-    index        = 9,
-    label        = "O_rad/OneDe",
+    index = 9,
+    label = "O_rad/OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 O             U1 {2,S}
@@ -159,8 +168,9 @@ u"""
 )
 
 entry(
-    index        = 10,
-    label        = "Cd_rad",
+    index = 10,
+    label = "Cd_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,D} {3,S}
@@ -176,8 +186,9 @@ u"""
 )
 
 entry(
-    index        = 11,
-    label        = "Cd_pri_rad",
+    index = 11,
+    label = "Cd_pri_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,D} {3,S}
@@ -193,8 +204,9 @@ u"""
 )
 
 entry(
-    index        = 12,
-    label        = "Cd_sec_rad",
+    index = 12,
+    label = "Cd_sec_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C   U1 {2,D} {3,S}
@@ -210,8 +222,9 @@ u"""
 )
 
 entry(
-    index        = 13,
-    label        = "Cd_rad/NonDe",
+    index = 13,
+    label = "Cd_rad/NonDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C      U1 {2,D} {3,S}
@@ -227,8 +240,9 @@ u"""
 )
 
 entry(
-    index        = 14,
-    label        = "Cd_rad/OneDe",
+    index = 14,
+    label = "Cd_rad/OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,D} {3,S}
@@ -244,8 +258,9 @@ u"""
 )
 
 entry(
-    index        = 15,
-    label        = "Cb_rad",
+    index = 15,
+    label = "Cb_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 Cb       U1 {2,B} {3,B}
@@ -261,8 +276,9 @@ u"""
 )
 
 entry(
-    index        = 16,
-    label        = "CO_rad",
+    index = 16,
+    label = "CO_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,D} {3,S}
@@ -278,8 +294,9 @@ u"""
 )
 
 entry(
-    index        = 17,
-    label        = "CO_pri_rad",
+    index = 17,
+    label = "CO_pri_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,D} {3,S}
@@ -295,8 +312,9 @@ u"""
 )
 
 entry(
-    index        = 18,
-    label        = "CO_sec_rad",
+    index = 18,
+    label = "CO_sec_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C   U1 {2,D} {3,S}
@@ -312,8 +330,9 @@ u"""
 )
 
 entry(
-    index        = 19,
-    label        = "CO_rad/NonDe",
+    index = 19,
+    label = "CO_rad/NonDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C      U1 {2,D} {3,S}
@@ -329,8 +348,9 @@ u"""
 )
 
 entry(
-    index        = 20,
-    label        = "CO_rad/OneDe",
+    index = 20,
+    label = "CO_rad/OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,D} {3,S}
@@ -346,8 +366,9 @@ u"""
 )
 
 entry(
-    index        = 21,
-    label        = "Cs_rad",
+    index = 21,
+    label = "Cs_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,S} {3,S} {4,S}
@@ -364,8 +385,9 @@ u"""
 )
 
 entry(
-    index        = 22,
-    label        = "C_methyl",
+    index = 22,
+    label = "C_methyl",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,S} {3,S} {4,S}
@@ -382,8 +404,9 @@ u"""
 )
 
 entry(
-    index        = 23,
-    label        = "C_pri_rad",
+    index = 23,
+    label = "C_pri_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C   U1 {2,S} {3,S} {4,S}
@@ -400,8 +423,9 @@ u"""
 )
 
 entry(
-    index        = 24,
-    label        = "C_rad/H2/Cs",
+    index = 24,
+    label = "C_rad/H2/Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -418,8 +442,9 @@ u"""
 )
 
 entry(
-    index        = 25,
-    label        = "C_rad/H2/Cd",
+    index = 25,
+    label = "C_rad/H2/Cd",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -436,8 +461,9 @@ u"""
 )
 
 entry(
-    index        = 26,
-    label        = "C_rad/H2/Ct",
+    index = 26,
+    label = "C_rad/H2/Ct",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -454,8 +480,9 @@ u"""
 )
 
 entry(
-    index        = 27,
-    label        = "C_rad/H2/Cb",
+    index = 27,
+    label = "C_rad/H2/Cb",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -472,8 +499,9 @@ u"""
 )
 
 entry(
-    index        = 28,
-    label        = "C_rad/H2/CO",
+    index = 28,
+    label = "C_rad/H2/CO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -490,8 +518,9 @@ u"""
 )
 
 entry(
-    index        = 29,
-    label        = "C_rad/H2/O",
+    index = 29,
+    label = "C_rad/H2/O",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,S} {3,S} {4,S}
@@ -508,8 +537,9 @@ u"""
 )
 
 entry(
-    index        = 30,
-    label        = "C_sec_rad",
+    index = 30,
+    label = "C_sec_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C   U1 {2,S} {3,S} {4,S}
@@ -526,8 +556,9 @@ u"""
 )
 
 entry(
-    index        = 31,
-    label        = "C_rad/H/NonDeC",
+    index = 31,
+    label = "C_rad/H/NonDeC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -544,8 +575,9 @@ u"""
 )
 
 entry(
-    index        = 32,
-    label        = "C_rad/H/NonDeO",
+    index = 32,
+    label = "C_rad/H/NonDeO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C      U1 {2,S} {3,S} {4,S}
@@ -562,8 +594,9 @@ u"""
 )
 
 entry(
-    index        = 33,
-    label        = "C_rad/H/CsO",
+    index = 33,
+    label = "C_rad/H/CsO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -580,8 +613,9 @@ u"""
 )
 
 entry(
-    index        = 34,
-    label        = "C_rad/H/O2",
+    index = 34,
+    label = "C_rad/H/O2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U1 {2,S} {3,S} {4,S}
@@ -598,8 +632,9 @@ u"""
 )
 
 entry(
-    index        = 35,
-    label        = "C_rad/H/OneDe",
+    index = 35,
+    label = "C_rad/H/OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -616,8 +651,9 @@ u"""
 )
 
 entry(
-    index        = 36,
-    label        = "C_rad/H/OneDeC",
+    index = 36,
+    label = "C_rad/H/OneDeC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -634,8 +670,9 @@ u"""
 )
 
 entry(
-    index        = 37,
-    label        = "C_rad/H/OneDeO",
+    index = 37,
+    label = "C_rad/H/OneDeO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -652,8 +689,9 @@ u"""
 )
 
 entry(
-    index        = 38,
-    label        = "C_rad/H/TwoDe",
+    index = 38,
+    label = "C_rad/H/TwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -670,8 +708,9 @@ u"""
 )
 
 entry(
-    index        = 39,
-    label        = "C_ter_rad",
+    index = 39,
+    label = "C_ter_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C   U1 {2,S} {3,S} {4,S}
@@ -688,8 +727,9 @@ u"""
 )
 
 entry(
-    index        = 40,
-    label        = "C_rad/NonDeC",
+    index = 40,
+    label = "C_rad/NonDeC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C      U1 {2,S} {3,S} {4,S}
@@ -706,8 +746,9 @@ u"""
 )
 
 entry(
-    index        = 41,
-    label        = "C_rad/Cs3",
+    index = 41,
+    label = "C_rad/Cs3",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U1 {2,S} {3,S} {4,S}
@@ -724,8 +765,9 @@ u"""
 )
 
 entry(
-    index        = 42,
-    label        = "C_rad/NDMustO",
+    index = 42,
+    label = "C_rad/NDMustO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C      U1 {2,S} {3,S} {4,S}
@@ -742,8 +784,9 @@ u"""
 )
 
 entry(
-    index        = 43,
-    label        = "C_rad/OneDe",
+    index = 43,
+    label = "C_rad/OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -760,8 +803,9 @@ u"""
 )
 
 entry(
-    index        = 44,
-    label        = "C_rad/Cs2",
+    index = 44,
+    label = "C_rad/Cs2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -778,8 +822,9 @@ u"""
 )
 
 entry(
-    index        = 45,
-    label        = "C_rad/ODMustO",
+    index = 45,
+    label = "C_rad/ODMustO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -796,8 +841,9 @@ u"""
 )
 
 entry(
-    index        = 46,
-    label        = "C_rad/TwoDe",
+    index = 46,
+    label = "C_rad/TwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -814,8 +860,9 @@ u"""
 )
 
 entry(
-    index        = 47,
-    label        = "C_rad/Cs",
+    index = 47,
+    label = "C_rad/Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -832,8 +879,9 @@ u"""
 )
 
 entry(
-    index        = 48,
-    label        = "C_rad/TDMustO",
+    index = 48,
+    label = "C_rad/TDMustO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}
@@ -850,8 +898,9 @@ u"""
 )
 
 entry(
-    index        = 49,
-    label        = "C_rad/ThreeDe",
+    index = 49,
+    label = "C_rad/ThreeDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C             U1 {2,S} {3,S} {4,S}

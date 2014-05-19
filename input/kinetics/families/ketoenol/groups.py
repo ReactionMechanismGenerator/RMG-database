@@ -19,8 +19,9 @@ recipe(actions=[
 ])
 
 entry(
-    index        = 1,
-    label        = "R_ROR",
+    index = 1,
+    label = "R_ROR",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R U0 {2,D}
@@ -37,8 +38,9 @@ u"""
 )
 
 entry(
-    index        = 2,
-    label        = "C_COH",
+    index = 2,
+    label = "C_COH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U0 {2,D}
@@ -55,8 +57,9 @@ u"""
 )
 
 entry(
-    index        = 3,
-    label        = "Cds/H2_Cds/ROH",
+    index = 3,
+    label = "Cds/H2_Cds/ROH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U0 {2,D} {5,S} {6,S}
@@ -76,8 +79,9 @@ u"""
 )
 
 entry(
-    index        = 4,
-    label        = "Cds/H2_Cds/HOH",
+    index = 4,
+    label = "Cds/H2_Cds/HOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U0 {2,D} {5,S} {6,S}
@@ -97,8 +101,9 @@ u"""
 )
 
 entry(
-    index        = 5,
-    label        = "Cds/H2_Cds/CsOH",
+    index = 5,
+    label = "Cds/H2_Cds/CsOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U0 {2,D} {5,S} {6,S}
@@ -118,8 +123,9 @@ u"""
 )
 
 entry(
-    index        = 6,
-    label        = "Cds/CsH_Cds/ROH",
+    index = 6,
+    label = "Cds/CsH_Cds/ROH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U0 {2,D} {5,S} {6,S}
@@ -139,8 +145,9 @@ u"""
 )
 
 entry(
-    index        = 7,
-    label        = "Cds/CsH_Cds/HOH",
+    index = 7,
+    label = "Cds/CsH_Cds/HOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U0 {2,D} {5,S} {6,S}
@@ -160,8 +167,9 @@ u"""
 )
 
 entry(
-    index        = 8,
-    label        = "Cds/CsH_Cds/CsOH",
+    index = 8,
+    label = "Cds/CsH_Cds/CsOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U0 {2,D} {5,S} {6,S}
@@ -181,8 +189,9 @@ u"""
 )
 
 entry(
-    index        = 9,
-    label        = "Cds/CsCs_Cds/ROH",
+    index = 9,
+    label = "Cds/CsCs_Cds/ROH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U0 {2,D} {5,S} {6,S}
@@ -202,8 +211,9 @@ u"""
 )
 
 entry(
-    index        = 10,
-    label        = "Cds/CsCs_Cds/HOH",
+    index = 10,
+    label = "Cds/CsCs_Cds/HOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U0 {2,D} {5,S} {6,S}
@@ -223,8 +233,9 @@ u"""
 )
 
 entry(
-    index        = 11,
-    label        = "Cds/CsCs_Cds/CsOH",
+    index = 11,
+    label = "Cds/CsCs_Cds/CsOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C  U0 {2,D} {5,S} {6,S}
@@ -244,8 +255,9 @@ u"""
 )
 
 entry(
-    index        = 12,
-    label        = "C_COC",
+    index = 12,
+    label = "C_COC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 C U0 {2,D}
@@ -262,8 +274,9 @@ u"""
 )
 
 entry(
-    index        = 13,
-    label        = "S_COH",
+    index = 13,
+    label = "S_COH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 S U0 {2,D}
@@ -280,8 +293,9 @@ u"""
 )
 
 entry(
-    index        = 14,
-    label        = "S_Cds/HOH",
+    index = 14,
+    label = "S_Cds/HOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 S U0 {2,D}
@@ -299,8 +313,9 @@ u"""
 )
 
 entry(
-    index        = 15,
-    label        = "S_Cds/CsOH",
+    index = 15,
+    label = "S_Cds/CsOH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 S  U0 {2,D}
@@ -318,8 +333,9 @@ u"""
 )
 
 entry(
-    index        = 16,
-    label        = "S_Cds/CH3OH",
+    index = 16,
+    label = "S_Cds/CH3OH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 S  U0 {2,D}
@@ -340,8 +356,9 @@ u"""
 )
 
 entry(
-    index        = 17,
-    label        = "S_Cds/CH2CH3OH",
+    index = 17,
+    label = "S_Cds/CH2CH3OH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1  *1 S  U0 {2,D}
@@ -365,8 +382,9 @@ u"""
 )
 
 entry(
-    index        = 18,
-    label        = "S_COC",
+    index = 18,
+    label = "S_COC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 S U0 {2,D}

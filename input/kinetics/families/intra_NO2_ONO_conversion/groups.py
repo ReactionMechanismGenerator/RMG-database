@@ -19,8 +19,9 @@ recipe(actions=[
 ])
 
 entry(
-    index        = 1,
-    label        = "RNO2",
+    index = 1,
+    label = "RNO2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1 *1 R   U0 {2,S}

@@ -19,8 +19,9 @@ recipe(actions=[
 ])
 
 entry(
-    index        = 1,
-    label        = "RCH(OOH)CH2C(O)R'",
+    index = 1,
+    label = "RCH(OOH)CH2C(O)R'",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
 1     C U0 {2,S} {4,S} {7,S} {9,S}
