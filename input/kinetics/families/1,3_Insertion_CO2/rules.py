@@ -12,8 +12,8 @@ around. However, there are only rates for one of these ways. The other is
 presumably matching the top level node.
 """
 entry(
-    index = 571,
-    label = "CO2;RR'",
+    index        = 571,
+    label        = "CO2;RR'",
     group1 = "OR{CO2_Od, CO2_Cdd}",
     group2 = "OR{R_H, R_R'}",
     kinetics = ArrheniusEP(
@@ -33,18 +33,18 @@ u"""
 )
 
 entry(
-    index = 572,
-    label = "CO2_Cdd;H2",
+    index        = 572,
+    label        = "CO2_Cdd;H2",
     group1 = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Od  0 {1,D}
-3    Od  0 {1,D}
+1 *1 Cdd U0 {2,D} {3,D}
+2 *2 Od  U0 {1,D}
+3    Od  U0 {1,D}
 """,
     group2 = 
 """
-1 *3 H 0 {2,S}
-2 *4 H 0 {1,S}
+1 *3 H U0 {2,S}
+2 *4 H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1510000000.0, 'cm^3/(mol*s)'),
@@ -63,21 +63,21 @@ u"""
 )
 
 entry(
-    index = 573,
-    label = "CO2_Cdd;C_methane",
+    index        = 573,
+    label        = "CO2_Cdd;C_methane",
     group1 = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Od  0 {1,D}
-3    Od  0 {1,D}
+1 *1 Cdd U0 {2,D} {3,D}
+2 *2 Od  U0 {1,D}
+3    Od  U0 {1,D}
 """,
     group2 = 
 """
-1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2 *4 H  0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {1,S}
+1 *3 Cs U0 {2,S} {3,S} {4,S} {5,S}
+2 *4 H  U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4530, 'cm^3/(mol*s)'),
@@ -96,21 +96,21 @@ u"""
 )
 
 entry(
-    index = 574,
-    label = "CO2_Cdd;C_pri/NonDeC",
+    index        = 574,
+    label        = "CO2_Cdd;C_pri/NonDeC",
     group1 = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Od  0 {1,D}
-3    Od  0 {1,D}
+1 *1 Cdd U0 {2,D} {3,D}
+2 *2 Od  U0 {1,D}
+3    Od  U0 {1,D}
 """,
     group2 = 
 """
-1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2 *4 H  0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    Cs 0 {1,S}
+1 *3 Cs U0 {2,S} {3,S} {4,S} {5,S}
+2 *4 H  U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (10900, 'cm^3/(mol*s)'),
@@ -129,21 +129,21 @@ u"""
 )
 
 entry(
-    index = 575,
-    label = "CO2_Cdd;C/H2/NonDeC",
+    index        = 575,
+    label        = "CO2_Cdd;C/H2/NonDeC",
     group1 = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Od  0 {1,D}
-3    Od  0 {1,D}
+1 *1 Cdd U0 {2,D} {3,D}
+2 *2 Od  U0 {1,D}
+3    Od  U0 {1,D}
 """,
     group2 = 
 """
-1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2 *4 H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-5    Cs 0 {1,S}
+1 *3 Cs U0 {2,S} {3,S} {4,S} {5,S}
+2 *4 H  U0 {1,S}
+3    H  U0 {1,S}
+4    Cs U0 {1,S}
+5    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (106000, 'cm^3/(mol*s)'),
@@ -162,24 +162,24 @@ u"""
 )
 
 entry(
-    index = 576,
-    label = "CO2_Od;C_methyl_C_pri",
+    index        = 576,
+    label        = "CO2_Od;C_methyl_C_pri",
     group1 = 
 """
-1 *2 Cdd 0 {2,D} {3,D}
-2 *1 Od  0 {1,D}
-3    Od  0 {1,D}
+1 *2 Cdd U0 {2,D} {3,D}
+2 *1 Od  U0 {1,D}
+3    Od  U0 {1,D}
 """,
     group2 = 
 """
-1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2 *4 Cs 0 {1,S} {6,S} {7,S} {8,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {1,S}
-6    H  0 {2,S}
-7    H  0 {2,S}
-8    C  0 {2,S}
+1 *3 Cs U0 {2,S} {3,S} {4,S} {5,S}
+2 *4 Cs U0 {1,S} {6,S} {7,S} {8,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    H  U0 {1,S}
+6    H  U0 {2,S}
+7    H  U0 {2,S}
+8    C  U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (73, 'cm^3/(mol*s)'),

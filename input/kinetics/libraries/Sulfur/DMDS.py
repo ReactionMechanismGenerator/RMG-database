@@ -7,30 +7,32 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index        = 1,
     reactant1 = 
 """
 C2H5SJ1
-1 C 0 0 {2,S} {3,S} {4,S} {5,S}
-2 C 1 0 {1,S} {6,S} {7,S}
-3 S 0 2 {1,S} {8,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {2,S}
-7 H 0 0 {2,S}
-8 H 0 0 {3,S}
+multiplicity 2
+1 C U0 L0 E0  {2,S} {3,S} {4,S} {5,S}
+2 C U1 L0 E0  {1,S} {6,S} {7,S}
+3 S U0 L2 E0  {1,S} {8,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {2,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {3,S}
 """,
     product1 = 
 """
 C2H5SJ2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 S 1 2 {2,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
+multiplicity 2
+1 C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2 C U0 L0 E0  {1,S} {3,S} {7,S} {8,S}
+3 S U1 L2 E0  {2,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -56,34 +58,37 @@ Ontbinding DMDS
 )
 
 entry(
-    index = 2,
+    index        = 2,
     reactant1 = 
 """
 C2H4
-1 C 0 0 {2,D} {3,S} {4,S}
-2 C 0 0 {1,D} {5,S} {6,S}
-3 H 0 0 {1,S}
-4 H 0 0 {1,S}
-5 H 0 0 {2,S}
-6 H 0 0 {2,S}
+multiplicity 1
+1 C U0 L0 E0  {2,D} {3,S} {4,S}
+2 C U0 L0 E0  {1,D} {5,S} {6,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {2,S}
+6 H U0 L0 E0  {2,S}
 """,
     reactant2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 C2H5SJ2
-1 C 0 0 {2,S} {4,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S} {7,S} {8,S}
-3 S 1 2 {2,S}
-4 H 0 0 {1,S}
-5 H 0 0 {1,S}
-6 H 0 0 {1,S}
-7 H 0 0 {2,S}
-8 H 0 0 {2,S}
+multiplicity 2
+1 C U0 L0 E0  {2,S} {4,S} {5,S} {6,S}
+2 C U0 L0 E0  {1,S} {3,S} {7,S} {8,S}
+3 S U1 L2 E0  {2,S}
+4 H U0 L0 E0  {1,S}
+5 H U0 L0 E0  {1,S}
+6 H U0 L0 E0  {1,S}
+7 H U0 L0 E0  {2,S}
+8 H U0 L0 E0  {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -101,22 +106,25 @@ u"""
 )
 
 entry(
-    index = 3,
+    index        = 3,
     reactant1 = 
 """
-SJJ
-1 S 2S 2
+SJJ_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     reactant2 = 
 """
-SJJ
-1 S 2S 2
+SJJ_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     product1 = 
 """
-S2
-1 S 1 2 {2,S}
-2 S 1 2 {1,S}
+S2_(S)
+multiplicity 1
+1 S U1 L2 E0  {2,S}
+2 S U1 L2 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(

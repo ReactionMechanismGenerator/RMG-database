@@ -7,18 +7,19 @@ longDesc = u"""
 
 """
 entry(
-    index = 0,
-    label = "CsOsSs",
+    index        = 0,
+    label        = "CsOsSs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * {Cs,Os,Ss} 0 {2,S} {3,S}
-2   Cs         0 {1,S} {4,S} {5,S} {6,S}
-3   Cs         0 {1,S} {7,S} {8,S}
-4   Cs         0 {2,S}
-5   Cs         0 {2,S}
-6   Cs         0 {2,S}
-7   Cs         0 {3,S}
-8   Cs         0 {3,S}
+1 * {Cs,Os,Ss} U0 {2,S} {3,S}
+2   Cs         U0 {1,S} {4,S} {5,S} {6,S}
+3   Cs         U0 {1,S} {7,S} {8,S}
+4   Cs         U0 {2,S}
+5   Cs         U0 {2,S}
+6   Cs         U0 {2,S}
+7   Cs         U0 {3,S}
+8   Cs         U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -34,18 +35,19 @@ u"""
 )
 
 entry(
-    index = 1,
-    label = "Cs(Cs(CsCsCs)Cs(CsCsR)RR)",
+    index        = 1,
+    label        = "Cs(Cs(CsCsCs)Cs(CsCsR)RR)",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * Cs 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S} {5,S} {6,S}
-3   Cs 0 {1,S} {7,S} {8,S}
-4   Cs 0 {2,S}
-5   Cs 0 {2,S}
-6   Cs 0 {2,S}
-7   Cs 0 {3,S}
-8   Cs 0 {3,S}
+1 * Cs U0 {2,S} {3,S}
+2   Cs U0 {1,S} {4,S} {5,S} {6,S}
+3   Cs U0 {1,S} {7,S} {8,S}
+4   Cs U0 {2,S}
+5   Cs U0 {2,S}
+6   Cs U0 {2,S}
+7   Cs U0 {3,S}
+8   Cs U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -61,19 +63,20 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "Cs(Cs(CsCsCs)Cs(CsCsCs)RR)",
+    index        = 2,
+    label        = "Cs(Cs(CsCsCs)Cs(CsCsCs)RR)",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * Cs 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S} {5,S} {6,S}
-3   Cs 0 {1,S} {7,S} {8,S} {9,S}
-4   Cs 0 {2,S}
-5   Cs 0 {2,S}
-6   Cs 0 {2,S}
-7   Cs 0 {3,S}
-8   Cs 0 {3,S}
-9   Cs 0 {3,S}
+1 * Cs U0 {2,S} {3,S}
+2   Cs U0 {1,S} {4,S} {5,S} {6,S}
+3   Cs U0 {1,S} {7,S} {8,S} {9,S}
+4   Cs U0 {2,S}
+5   Cs U0 {2,S}
+6   Cs U0 {2,S}
+7   Cs U0 {3,S}
+8   Cs U0 {3,S}
+9   Cs U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -89,18 +92,19 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "Os(Cs(CsCsCs)Cs(CsCsR))",
+    index        = 3,
+    label        = "Os(Cs(CsCsCs)Cs(CsCsR))",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * Os 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S} {5,S} {6,S}
-3   Cs 0 {1,S} {7,S} {8,S}
-4   Cs 0 {2,S}
-5   Cs 0 {2,S}
-6   Cs 0 {2,S}
-7   Cs 0 {3,S}
-8   Cs 0 {3,S}
+1 * Os U0 {2,S} {3,S}
+2   Cs U0 {1,S} {4,S} {5,S} {6,S}
+3   Cs U0 {1,S} {7,S} {8,S}
+4   Cs U0 {2,S}
+5   Cs U0 {2,S}
+6   Cs U0 {2,S}
+7   Cs U0 {3,S}
+8   Cs U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -116,19 +120,20 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "Os(Cs(CsCsCs)Cs(CsCsCs))",
+    index        = 4,
+    label        = "Os(Cs(CsCsCs)Cs(CsCsCs))",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * Os 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S} {5,S} {6,S}
-3   Cs 0 {1,S} {7,S} {8,S} {9,S}
-4   Cs 0 {2,S}
-5   Cs 0 {2,S}
-6   Cs 0 {2,S}
-7   Cs 0 {3,S}
-8   Cs 0 {3,S}
-9   Cs 0 {3,S}
+1 * Os U0 {2,S} {3,S}
+2   Cs U0 {1,S} {4,S} {5,S} {6,S}
+3   Cs U0 {1,S} {7,S} {8,S} {9,S}
+4   Cs U0 {2,S}
+5   Cs U0 {2,S}
+6   Cs U0 {2,S}
+7   Cs U0 {3,S}
+8   Cs U0 {3,S}
+9   Cs U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -144,18 +149,19 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "Ss(Cs(CsCsCs)Cs(CsCsR))",
+    index        = 5,
+    label        = "Ss(Cs(CsCsCs)Cs(CsCsR))",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * Ss 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S} {5,S} {6,S}
-3   Cs 0 {1,S} {7,S} {8,S}
-4   Cs 0 {2,S}
-5   Cs 0 {2,S}
-6   Cs 0 {2,S}
-7   Cs 0 {3,S}
-8   Cs 0 {3,S}
+1 * Ss U0 {2,S} {3,S}
+2   Cs U0 {1,S} {4,S} {5,S} {6,S}
+3   Cs U0 {1,S} {7,S} {8,S}
+4   Cs U0 {2,S}
+5   Cs U0 {2,S}
+6   Cs U0 {2,S}
+7   Cs U0 {3,S}
+8   Cs U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -171,19 +177,20 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "Ss(Cs(CsCsCs)Cs(CsCsCs))",
+    index        = 6,
+    label        = "Ss(Cs(CsCsCs)Cs(CsCsCs))",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 * Ss 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S} {5,S} {6,S}
-3   Cs 0 {1,S} {7,S} {8,S} {9,S}
-4   Cs 0 {2,S}
-5   Cs 0 {2,S}
-6   Cs 0 {2,S}
-7   Cs 0 {3,S}
-8   Cs 0 {3,S}
-9   Cs 0 {3,S}
+1 * Ss U0 {2,S} {3,S}
+2   Cs U0 {1,S} {4,S} {5,S} {6,S}
+3   Cs U0 {1,S} {7,S} {8,S} {9,S}
+4   Cs U0 {2,S}
+5   Cs U0 {2,S}
+6   Cs U0 {2,S}
+7   Cs U0 {3,S}
+8   Cs U0 {3,S}
+9   Cs U0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

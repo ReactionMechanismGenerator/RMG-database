@@ -22,18 +22,18 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 .. [Tsang1991] W. Tsang; "Chemical kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
 """
 entry(
-    index = 0,
-    label = "N3sRRR;O_atom_singlet",
+    index        = 0,
+    label        = "N3sRRR;O_(S)",
     group1 = 
 """
-1 *1 N3s 0 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
+1 *1 N3s U0 {2,S} {3,S} {4,S}
+2    H   U0 {1,S}
+3    H   U0 {1,S}
+4    H   U0 {1,S}
 """,
     group2 = 
 """
-1 *2 O {2T,2S}
+1 *2 O U2
 """,
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
@@ -47,8 +47,7 @@ entry(
     shortDesc = u"""Default""",
     longDesc = 
 u"""
+
 """,
 )
-
-
 

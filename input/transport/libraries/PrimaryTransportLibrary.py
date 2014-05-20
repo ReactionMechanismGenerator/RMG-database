@@ -10,10 +10,11 @@ longDesc = u"""
 entry(
     index = 1,
     label = "H2",
+    multiplicity = 1,
     molecule = 
 """
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+1 H U0 L0 {2,S}
+2 H U0 L0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -32,11 +33,12 @@ u"""
 
 entry(
     index = 2,
-    label = "O2",
+    label = "O2_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+1 O U1 L2 {2,S}
+2 O U1 L2 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -56,11 +58,12 @@ u"""
 entry(
     index = 3,
     label = "H2O",
+    multiplicity = 1,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+1 O U0 L2 {2,S} {3,S}
+2 H U0 L0 {1,S}
+3 H U0 L0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -80,12 +83,13 @@ u"""
 entry(
     index = 4,
     label = "H2O2",
+    multiplicity = 1,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 O 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+1 O U0 L2 {2,S} {3,S}
+2 O U0 L2 {1,S} {4,S}
+3 H U0 L0 {1,S}
+4 H U0 L0 {2,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -105,11 +109,12 @@ u"""
 entry(
     index = 5,
     label = "CO2",
+    multiplicity = 1,
     molecule = 
 """
-1 O 0 2 {2,D}
-2 C 0 0 {1,D} {3,D}
-3 O 0 2 {2,D}
+1 O U0 L2 {2,D}
+2 C U0 L0 {1,D} {3,D}
+3 O U0 L2 {2,D}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -129,10 +134,11 @@ u"""
 entry(
     index = 6,
     label = "CO",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C U0 L1 {2,T}
+2 O U0 L1 {1,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -152,11 +158,12 @@ u"""
 entry(
     index = 7,
     label = "H2S",
+    multiplicity = 1,
     molecule = 
 """
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+1 S U0 L2 {2,S} {3,S}
+2 H U0 L0 {1,S}
+3 H U0 L0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
@@ -176,10 +183,11 @@ u"""
 entry(
     index = 8,
     label = "N2",
+    multiplicity = 1,
     molecule = 
 """
-1 N 0 1 {2,T}
-2 N 0 1 {1,T}
+1 N U0 L1 {2,T}
+2 N U0 L1 {1,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -199,9 +207,10 @@ u"""
 entry(
     index = 9,
     label = "C(S)",
+    multiplicity = 1,
     molecule =
 """
-1 C 4S 0
+1 C U4 L0
 """,
     transport = TransportData(
         shapeIndex = 0,
@@ -221,10 +230,11 @@ u"""
 entry(
     index = 10,
     label = "NH(S)",
+    multiplicity = 1,
     molecule =
 """
-1 N 2S 1 {2,S}
-2 H 0  0 {1,S}
+1 N U2 L1 {2,S}
+2 H U0 L0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -244,9 +254,10 @@ u"""
 entry(
     index = 11,
     label = "N(D)",
+    multiplicity = 2,
     molecule =
 """
-1 N 3D 1
+1 N U3 L1
 """,
     transport = TransportData(
         shapeIndex = 0,

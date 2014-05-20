@@ -8,34 +8,34 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 1,
+    index        = 1,
     reactant1 = 
 """
-acetylperoxy
-1 *1 C 0 0 {2,S} {4,S} {7,S} {8,S}
-2 *2 C 0 0 {1,S} {3,S} {5,D}
-3 *3 O 0 2 {2,S} {6,S}
-4 *5 H 0 0 {1,S}
-5    O 0 2 {2,D}
-6 *4 O 1 2 {3,S}
-7    H 0 0 {1,S}
-8    H 0 0 {1,S}
+multiplicity 2
+1 *1 C U0 L0 E0  {2,S} {4,S} {7,S} {8,S}
+2 *2 C U0 L0 E0  {1,S} {3,S} {5,D}
+3 *3 O U0 L2 E0  {2,S} {6,S}
+4 *5 H U0 L0 E0  {1,S}
+5    O U0 L2 E0  {2,D}
+6 *4 O U1 L2 E0  {3,S}
+7    H U0 L0 E0  {1,S}
+8    H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
-ketene
-1 *1 C 0 0 {2,D} {4,S} {5,S}
-2 *2 C 0 0 {1,D} {3,D}
-3    O 0 2 {2,D}
-4    H 0 0 {1,S}
-5    H 0 0 {1,S}
+multiplicity 1
+1 *1 C U0 L0 E0  {2,D} {4,S} {5,S}
+2 *2 C U0 L0 E0  {1,D} {3,D}
+3    O U0 L2 E0  {2,D}
+4    H U0 L0 E0  {1,S}
+5    H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
-HO2
-1 *4 O 0 2 {2,S} {3,S}
-2 *5 H 0 0 {1,S}
-3 *3 O 1 2 {1,S}
+multiplicity 2
+1 *4 O U0 L2 E0  {2,S} {3,S}
+2 *5 H U0 L0 E0  {1,S}
+3 *3 O U1 L2 E0  {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -61,5 +61,4 @@ using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
 using Variflex.
 """,
 )
-
 

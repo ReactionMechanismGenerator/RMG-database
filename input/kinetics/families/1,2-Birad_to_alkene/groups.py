@@ -32,14 +32,15 @@ u"""
 entry(
     index = 2,
     label = "Y_12_00",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs 1 {2,S} {3,S} {4,S}
-2 *2 Cs 1 {1,S} {5,S} {6,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
+1 *1 Cs U1 {2,S} {3,S} {4,S}
+2 *2 Cs U1 {1,S} {5,S} {6,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    H  U0 {2,S}
+6    H  U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -52,14 +53,15 @@ u"""
 entry(
     index = 3,
     label = "Y_12_10",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs      1 {2,S} {3,S} {4,S}
-2 *2 Cs      1 {1,S} {5,S} {6,S}
-3    {Cs,Os} 0 {1,S}
-4    H       0 {1,S}
-5    H       0 {2,S}
-6    H       0 {2,S}
+1 *1 Cs      U1 {2,S} {3,S} {4,S}
+2 *2 Cs      U1 {1,S} {5,S} {6,S}
+3    {Cs,Os} U0 {1,S}
+4    H       U0 {1,S}
+5    H       U0 {2,S}
+6    H       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -84,14 +86,15 @@ u"""
 entry(
     index = 5,
     label = "Y_12_30",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs      1 {2,S} {3,S} {4,S}
-2 *2 Cs      1 {1,S} {5,S} {6,S}
-3    {Cs,Os} 0 {1,S}
-4    {Cs,Os} 0 {1,S}
-5    {Cs,Os} 0 {2,S}
-6    H       0 {2,S}
+1 *1 Cs      U1 {2,S} {3,S} {4,S}
+2 *2 Cs      U1 {1,S} {5,S} {6,S}
+3    {Cs,Os} U0 {1,S}
+4    {Cs,Os} U0 {1,S}
+5    {Cs,Os} U0 {2,S}
+6    H       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -104,14 +107,15 @@ u"""
 entry(
     index = 6,
     label = "Y_12_40",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs      1 {2,S} {3,S} {4,S}
-2 *2 Cs      1 {1,S} {5,S} {6,S}
-3    {Cs,Os} 0 {1,S}
-4    {Cs,Os} 0 {1,S}
-5    {Cs,Os} 0 {2,S}
-6    {Cs,Os} 0 {2,S}
+1 *1 Cs      U1 {2,S} {3,S} {4,S}
+2 *2 Cs      U1 {1,S} {5,S} {6,S}
+3    {Cs,Os} U0 {1,S}
+4    {Cs,Os} U0 {1,S}
+5    {Cs,Os} U0 {2,S}
+6    {Cs,Os} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -124,14 +128,15 @@ u"""
 entry(
     index = 7,
     label = "Y_12_01",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-5    H             0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    H             U0 {1,S}
+5    H             U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -156,14 +161,15 @@ u"""
 entry(
     index = 9,
     label = "Y_12_03",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -176,14 +182,15 @@ u"""
 entry(
     index = 10,
     label = "Y_12_04",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -244,14 +251,15 @@ u"""
 entry(
     index = 15,
     label = "Y_12_13",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cs,Os}       0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cs,Os}       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -264,14 +272,15 @@ u"""
 entry(
     index = 16,
     label = "Y_12_31",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cs,Os}       0 {1,S}
-4    {Cs,Os}       0 {1,S}
-5    {Cs,Os}       0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cs,Os}       U0 {1,S}
+4    {Cs,Os}       U0 {1,S}
+5    {Cs,Os}       U0 {2,S}
+6    {Cd,Ct,Cb,CO} U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -284,14 +293,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_20a",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs      1 {2,S} {3,S} {4,S}
-2 *2 Cs      1 {1,S} {5,S} {6,S}
-3    {Cs,Os} 0 {1,S}
-4    {Cs,Os} 0 {1,S}
-5    H       0 {2,S}
-6    H       0 {2,S}
+1 *1 Cs      U1 {2,S} {3,S} {4,S}
+2 *2 Cs      U1 {1,S} {5,S} {6,S}
+3    {Cs,Os} U0 {1,S}
+4    {Cs,Os} U0 {1,S}
+5    H       U0 {2,S}
+6    H       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -304,14 +314,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_20b",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs      1 {2,S} {3,S} {4,S}
-2 *2 Cs      1 {1,S} {5,S} {6,S}
-3    {Cs,Os} 0 {1,S}
-4    H       0 {1,S}
-5    {Cs,Os} 0 {2,S}
-6    H       0 {2,S}
+1 *1 Cs      U1 {2,S} {3,S} {4,S}
+2 *2 Cs      U1 {1,S} {5,S} {6,S}
+3    {Cs,Os} U0 {1,S}
+4    H       U0 {1,S}
+5    {Cs,Os} U0 {2,S}
+6    H       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -324,14 +335,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_02a",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    H             0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    H             U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -344,14 +356,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_02b",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    H             U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -364,14 +377,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_11a",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cs,Os}       0 {1,S}
-5    H             0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cs,Os}       U0 {1,S}
+5    H             U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -384,14 +398,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_11b",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    H             0 {1,S}
-5    {Cs,Os}       0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    H             U0 {1,S}
+5    {Cs,Os}       U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -404,14 +419,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_12a",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cs,Os}       0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cs,Os}       U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -424,14 +440,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_12b",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cs,Os}       0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cs,Os}       U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -444,14 +461,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_21a",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cs,Os}       0 {1,S}
-4    {Cs,Os}       0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cs,Os}       U0 {1,S}
+4    {Cs,Os}       U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -464,14 +482,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_21b",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cs,Os}       0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cs,Os}       0 {2,S}
-6    H             0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cs,Os}       U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cs,Os}       U0 {2,S}
+6    H             U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -484,14 +503,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_22a",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    {Cs,Os}       0 {2,S}
-6    {Cs,Os}       0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
+5    {Cs,Os}       U0 {2,S}
+6    {Cs,Os}       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -504,14 +524,15 @@ u"""
 entry(
     index = -1,
     label = "Y_12_22b",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cs            1 {2,S} {3,S} {4,S}
-2 *2 Cs            1 {1,S} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cs,Os}       0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {2,S}
-6    {Cs,Os}       0 {2,S}
+1 *1 Cs            U1 {2,S} {3,S} {4,S}
+2 *2 Cs            U1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
+4    {Cs,Os}       U0 {1,S}
+5    {Cd,Ct,Cb,CO} U0 {2,S}
+6    {Cs,Os}       U0 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",

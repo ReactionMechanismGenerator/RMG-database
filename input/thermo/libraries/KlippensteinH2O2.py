@@ -7,11 +7,12 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
-    label = "H",
+    index        = 1,
+    label        = "H",
+    multiplicity = 2,
     molecule = 
 """
-1 H 1 0
+1 H U1 L0 E0 
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27,12 +28,13 @@ u"""
 )
 
 entry(
-    index = 2,
-    label = "H2",
+    index        = 2,
+    label        = "H2",
+    multiplicity = 1,
     molecule = 
 """
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+1 H U0 L0 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -48,11 +50,12 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "O",
+    index        = 3,
+    label        = "O_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 O 2T 2
+1 O U2 L2 E0 
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -68,12 +71,13 @@ u"""
 )
 
 entry(
-    index = 4,
-    label = "OH",
+    index        = 4,
+    label        = "OH",
+    multiplicity = 2,
     molecule = 
 """
-1 O 1 2 {2,S}
-2 H 0 0 {1,S}
+1 O U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -89,13 +93,14 @@ u"""
 )
 
 entry(
-    index = 5,
-    label = "H2O",
+    index        = 5,
+    label        = "H2O",
+    multiplicity = 1,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+1 O U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -111,12 +116,13 @@ u"""
 )
 
 entry(
-    index = 6,
-    label = "O2",
+    index        = 6,
+    label        = "O2_(T)",
+    multiplicity = 3,
     molecule = 
 """
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+1 O U1 L2 E0  {2,S}
+2 O U1 L2 E0  {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -132,13 +138,14 @@ u"""
 )
 
 entry(
-    index = 7,
-    label = "HO2",
+    index        = 7,
+    label        = "HO2",
+    multiplicity = 2,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 O 1 2 {1,S}
-3 H 0 0 {1,S}
+1 O U0 L2 E0  {2,S} {3,S}
+2 O U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -154,14 +161,15 @@ u"""
 )
 
 entry(
-    index = 8,
-    label = "H2O2",
+    index        = 8,
+    label        = "H2O2",
+    multiplicity = 1,
     molecule = 
 """
-1 O 0 2 {2,S} {3,S}
-2 O 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+1 O U0 L2 E0  {2,S} {3,S}
+2 O U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -177,12 +185,13 @@ u"""
 )
 
 entry(
-    index = 9,
-    label = "CO",
+    index        = 9,
+    label        = "CO",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C U0 L1 E-1 {2,T}
+2 O U0 L1 E+1 {1,T}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -198,13 +207,14 @@ u"""
 )
 
 entry(
-    index = 10,
-    label = "CO2",
+    index        = 10,
+    label        = "CO2",
+    multiplicity = 1,
     molecule = 
 """
-1 C 0 0 {2,D} {3,D}
-2 O 0 2 {1,D}
-3 O 0 2 {1,D}
+1 C U0 L0 E0  {2,D} {3,D}
+2 O U0 L2 E0  {1,D}
+3 O U0 L2 E0  {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

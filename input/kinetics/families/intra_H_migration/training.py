@@ -8,30 +8,30 @@ Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
 entry(
-    index = 1,
+    index        = 1,
     reactant1 = 
 """
-acetylperoxy
-1    O 0 2 {5,D}
-2 *2 C 0 0 {3,S} {5,S} {7,S} {8,S}
-3 *3 H 0 0 {2,S}
-4 *4 O 0 2 {5,S} {6,S}
-5 *5 C 0 0 {1,D} {2,S} {4,S}
-6 *1 O 1 2 {4,S}
-7    H 0 0 {2,S}
-8    H 0 0 {2,S}
+multiplicity 2
+1    O U0 L2 E0  {5,D}
+2 *2 C U0 L0 E0  {3,S} {5,S} {7,S} {8,S}
+3 *3 H U0 L0 E0  {2,S}
+4 *4 O U0 L2 E0  {5,S} {6,S}
+5 *5 C U0 L0 E0  {1,D} {2,S} {4,S}
+6 *1 O U1 L2 E0  {4,S}
+7    H U0 L0 E0  {2,S}
+8    H U0 L0 E0  {2,S}
 """,
     product1 = 
 """
-hydroperoxyl-vinoxy
-1 *4 C 0 0 {2,S} {3,S} {5,D}
-2 *1 C 1 0 {1,S} {7,S} {8,S}
-3 *5 O 0 2 {1,S} {4,S}
-4 *2 O 0 2 {3,S} {6,S}
-5    O 0 2 {1,D}
-6 *3 H 0 0 {4,S}
-7    H 0 0 {2,S}
-8    H 0 0 {2,S}
+multiplicity 2
+1 *4 C U0 L0 E0  {2,S} {3,S} {5,D}
+2 *1 C U1 L0 E0  {1,S} {7,S} {8,S}
+3 *5 O U0 L2 E0  {1,S} {4,S}
+4 *2 O U0 L2 E0  {3,S} {6,S}
+5    O U0 L2 E0  {1,D}
+6 *3 H U0 L0 E0  {4,S}
+7    H U0 L0 E0  {2,S}
+8    H U0 L0 E0  {2,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(

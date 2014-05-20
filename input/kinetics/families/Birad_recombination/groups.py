@@ -32,9 +32,10 @@ u"""
 entry(
     index = 2,
     label = "Y_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 R!H 1
+1 *1 R!H U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -47,9 +48,10 @@ u"""
 entry(
     index = 3,
     label = "Ypri_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 R!H 1
+1 *2 R!H U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -62,11 +64,12 @@ u"""
 entry(
     index = 4,
     label = "R3",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss,N3s} 1 {2,{S,D}}
-2 *3 {Cs,Cd,CO,Os,Ss,N3s} 0 {1,{S,D}} {3,{S,D}}
-3 *2 {Cs,Cd,CO,Os,Ss,N3s} 1 {2,{S,D}}
+1 *1 {Cs,Cd,CO,Os,Ss,N3s} U1 {2,{S,D}}
+2 *3 {Cs,Cd,CO,Os,Ss,N3s} U0 {1,{S,D}} {3,{S,D}}
+3 *2 {Cs,Cd,CO,Os,Ss,N3s} U1 {2,{S,D}}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -79,11 +82,12 @@ u"""
 entry(
     index = 5,
     label = "R3_SS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3 *2 {Cs,Cd,CO,Os,Ss} 1 {2,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3 *2 {Cs,Cd,CO,Os,Ss} U1 {2,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -96,11 +100,12 @@ u"""
 entry(
     index = 6,
     label = "R3_SD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 Cd               0 {1,S} {3,D}
-3 *2 Cd               1 {2,D}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 Cd               U0 {1,S} {3,D}
+3 *2 Cd               U1 {2,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -113,12 +118,13 @@ u"""
 entry(
     index = 7,
     label = "R4",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss,N3s} 1 {2,{S,D}}
-2 *3 {Cs,Cd,CO,Os,Ss,N3s} 0 {1,{S,D}} {3,{S,D}}
-3 *4 {Cs,Cd,CO,Os,Ss,N3s} 0 {2,{S,D}} {4,{S,D}}
-4 *2 {Cs,Cd,CO,Os,Ss,N3s} 1 {3,{S,D}}
+1 *1 {Cs,Cd,CO,Os,Ss,N3s} U1 {2,{S,D}}
+2 *3 {Cs,Cd,CO,Os,Ss,N3s} U0 {1,{S,D}} {3,{S,D}}
+3 *4 {Cs,Cd,CO,Os,Ss,N3s} U0 {2,{S,D}} {4,{S,D}}
+4 *2 {Cs,Cd,CO,Os,Ss,N3s} U1 {3,{S,D}}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -131,12 +137,13 @@ u"""
 entry(
     index = 8,
     label = "R4_SSS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3 *4 {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4 *2 {Cs,Cd,CO,Os,Ss} 1 {3,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3 *4 {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4 *2 {Cs,Cd,CO,Os,Ss} U1 {3,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -149,12 +156,13 @@ u"""
 entry(
     index = 9,
     label = "R4_SSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3 *4 Cd               0 {2,S} {4,D}
-4 *2 Cd               1 {3,D}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3 *4 Cd               U0 {2,S} {4,D}
+4 *2 Cd               U1 {3,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -167,12 +175,13 @@ u"""
 entry(
     index = 10,
     label = "R4_SDS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 Cd               0 {1,S} {3,D}
-3 *4 Cd               0 {2,D} {4,S}
-4 *2 {Cs,Cd,CO,Os,Ss} 1 {3,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 Cd               U0 {1,S} {3,D}
+3 *4 Cd               U0 {2,D} {4,S}
+4 *2 {Cs,Cd,CO,Os,Ss} U1 {3,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -185,12 +194,13 @@ u"""
 entry(
     index = 11,
     label = "R4_DSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd 1 {2,D}
-2 *3 Cd 0 {1,D} {3,S}
-3 *4 Cd 0 {2,S} {4,D}
-4 *2 Cd 1 {3,D}
+1 *1 Cd U1 {2,D}
+2 *3 Cd U0 {1,D} {3,S}
+3 *4 Cd U0 {2,S} {4,D}
+4 *2 Cd U1 {3,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -203,13 +213,14 @@ u"""
 entry(
     index = 12,
     label = "R5",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss,N3s} 1 {2,{S,D}}
-2 *3 {Cs,Cd,CO,Os,Ss,N3s} 0 {1,{S,D}} {3,{S,D}}
-3    {Cs,Cd,CO,Os,Ss,N3s} 0 {2,{S,D}} {4,{S,D}}
-4 *4 {Cs,Cd,CO,Os,Ss,N3s} 0 {3,{S,D}} {5,{S,D}}
-5 *2 {Cs,Cd,CO,Os,Ss,N3s} 1 {4,{S,D}}
+1 *1 {Cs,Cd,CO,Os,Ss,N3s} U1 {2,{S,D}}
+2 *3 {Cs,Cd,CO,Os,Ss,N3s} U0 {1,{S,D}} {3,{S,D}}
+3    {Cs,Cd,CO,Os,Ss,N3s} U0 {2,{S,D}} {4,{S,D}}
+4 *4 {Cs,Cd,CO,Os,Ss,N3s} U0 {3,{S,D}} {5,{S,D}}
+5 *2 {Cs,Cd,CO,Os,Ss,N3s} U1 {4,{S,D}}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -222,13 +233,14 @@ u"""
 entry(
     index = 13,
     label = "R5_SSSS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4 *4 {Cs,Cd,CO,Os,Ss} 0 {3,S} {5,S}
-5 *2 {Cs,Cd,CO,Os,Ss} 1 {4,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4 *4 {Cs,Cd,CO,Os,Ss} U0 {3,S} {5,S}
+5 *2 {Cs,Cd,CO,Os,Ss} U1 {4,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -241,13 +253,14 @@ u"""
 entry(
     index = 14,
     label = "R5_SSSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4 *4 Cd               0 {3,S} {5,D}
-5 *2 Cd               1 {4,D}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4 *4 Cd               U0 {3,S} {5,D}
+5 *2 Cd               U1 {4,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -260,13 +273,14 @@ u"""
 entry(
     index = 15,
     label = "R5_SSDS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    Cd               0 {2,S} {4,D}
-4 *4 Cd               0 {3,D} {5,S}
-5 *2 {Cs,Cd,CO,Os,Ss} 1 {4,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    Cd               U0 {2,S} {4,D}
+4 *4 Cd               U0 {3,D} {5,S}
+5 *2 {Cs,Cd,CO,Os,Ss} U1 {4,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -279,13 +293,14 @@ u"""
 entry(
     index = 16,
     label = "R5_SDSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 Cd               0 {1,S} {3,D}
-3    Cd               0 {2,D} {4,S}
-4 *4 Cd               0 {3,S} {5,D}
-5 *2 Cd               1 {4,D}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 Cd               U0 {1,S} {3,D}
+3    Cd               U0 {2,D} {4,S}
+4 *4 Cd               U0 {3,S} {5,D}
+5 *2 Cd               U1 {4,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -298,13 +313,14 @@ u"""
 entry(
     index = 17,
     label = "R5_DSSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd               1 {2,D}
-2 *3 Cd               0 {1,D} {3,S}
-3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4 *4 Cd               0 {3,S} {5,D}
-5 *2 Cd               1 {4,D}
+1 *1 Cd               U1 {2,D}
+2 *3 Cd               U0 {1,D} {3,S}
+3    {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4 *4 Cd               U0 {3,S} {5,D}
+5 *2 Cd               U1 {4,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -317,14 +333,15 @@ u"""
 entry(
     index = 18,
     label = "R6",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss,N3s} 1 {2,{S,D}}
-2 *3 {Cs,Cd,CO,Os,Ss,N3s} 0 {1,{S,D}} {3,{S,D}}
-3    {Cs,Cd,CO,Os,Ss,N3s} 0 {2,{S,D}} {4,{S,D}}
-4    {Cs,Cd,CO,Os,Ss,N3s} 0 {3,{S,D}} {5,{S,D}}
-5 *4 {Cs,Cd,CO,Os,Ss,N3s} 0 {4,{S,D}} {6,{S,D}}
-6 *2 {Cs,Cd,CO,Os,Ss,N3s} 1 {5,{S,D}}
+1 *1 {Cs,Cd,CO,Os,Ss,N3s} U1 {2,{S,D}}
+2 *3 {Cs,Cd,CO,Os,Ss,N3s} U0 {1,{S,D}} {3,{S,D}}
+3    {Cs,Cd,CO,Os,Ss,N3s} U0 {2,{S,D}} {4,{S,D}}
+4    {Cs,Cd,CO,Os,Ss,N3s} U0 {3,{S,D}} {5,{S,D}}
+5 *4 {Cs,Cd,CO,Os,Ss,N3s} U0 {4,{S,D}} {6,{S,D}}
+6 *2 {Cs,Cd,CO,Os,Ss,N3s} U1 {5,{S,D}}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -337,14 +354,15 @@ u"""
 entry(
     index = 19,
     label = "R6_SSSSS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4    {Cs,Cd,CO,Os,Ss} 0 {3,S} {5,S}
-5 *4 {Cs,Cd,CO,Os,Ss} 0 {4,S} {6,S}
-6 *2 {Cs,Cd,CO,Os,Ss} 1 {5,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4    {Cs,Cd,CO,Os,Ss} U0 {3,S} {5,S}
+5 *4 {Cs,Cd,CO,Os,Ss} U0 {4,S} {6,S}
+6 *2 {Cs,Cd,CO,Os,Ss} U1 {5,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -357,14 +375,15 @@ u"""
 entry(
     index = 20,
     label = "R6_SSSSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4    {Cs,Cd,CO,Os,Ss} 0 {3,S} {5,S}
-5 *4 Cd               0 {4,S} {6,D}
-6 *2 Cd               1 {5,D}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4    {Cs,Cd,CO,Os,Ss} U0 {3,S} {5,S}
+5 *4 Cd               U0 {4,S} {6,D}
+6 *2 Cd               U1 {5,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -377,14 +396,15 @@ u"""
 entry(
     index = 21,
     label = "R6_SSSDS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4    Cd               0 {3,S} {5,D}
-5 *4 Cd               0 {4,D} {6,S}
-6 *2 {Cs,Cd,CO,Os,Ss} 1 {5,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4    Cd               U0 {3,S} {5,D}
+5 *4 Cd               U0 {4,D} {6,S}
+6 *2 {Cs,Cd,CO,Os,Ss} U1 {5,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -397,14 +417,15 @@ u"""
 entry(
     index = 22,
     label = "R6_SSDSS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    Cd               0 {2,S} {4,D}
-4    Cd               0 {3,D} {5,S}
-5 *4 {Cs,Cd,CO,Os,Ss} 0 {4,S} {6,S}
-6 *2 {Cs,Cd,CO,Os,Ss} 1 {5,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    Cd               U0 {2,S} {4,D}
+4    Cd               U0 {3,D} {5,S}
+5 *4 {Cs,Cd,CO,Os,Ss} U0 {4,S} {6,S}
+6 *2 {Cs,Cd,CO,Os,Ss} U1 {5,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -417,14 +438,15 @@ u"""
 entry(
     index = 23,
     label = "R6_SSDSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
-3    Cd               0 {2,S} {4,D}
-4    Cd               0 {3,D} {5,S}
-5 *4 Cd               0 {4,S} {6,D}
-6 *2 Cd               1 {5,D}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} U0 {1,S} {3,S}
+3    Cd               U0 {2,S} {4,D}
+4    Cd               U0 {3,D} {5,S}
+5 *4 Cd               U0 {4,S} {6,D}
+6 *2 Cd               U1 {5,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -437,14 +459,15 @@ u"""
 entry(
     index = 24,
     label = "R6_SDSDS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 Cd               0 {1,S} {3,D}
-3    Cd               0 {2,D} {4,S}
-4    Cd               0 {3,S} {5,D}
-5 *4 Cd               0 {4,D} {6,S}
-6 *2 {Cs,Cd,CO,Os,Ss} 1 {5,S}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 Cd               U0 {1,S} {3,D}
+3    Cd               U0 {2,D} {4,S}
+4    Cd               U0 {3,S} {5,D}
+5 *4 Cd               U0 {4,D} {6,S}
+6 *2 {Cs,Cd,CO,Os,Ss} U1 {5,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -457,14 +480,15 @@ u"""
 entry(
     index = 25,
     label = "R6_SDSSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
-2 *3 Cd               0 {1,S} {3,D}
-3    Cd               0 {2,D} {4,S}
-4    {Cs,Cd,CO,Os,Ss} 0 {3,S} {5,S}
-5 *4 Cd               0 {4,S} {6,D}
-6 *2 Cd               1 {5,D}
+1 *1 {Cs,Cd,CO,Os,Ss} U1 {2,S}
+2 *3 Cd               U0 {1,S} {3,D}
+3    Cd               U0 {2,D} {4,S}
+4    {Cs,Cd,CO,Os,Ss} U0 {3,S} {5,S}
+5 *4 Cd               U0 {4,S} {6,D}
+6 *2 Cd               U1 {5,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -477,14 +501,15 @@ u"""
 entry(
     index = 26,
     label = "R6_DSSSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd               1 {2,D}
-2 *3 Cd               0 {1,D} {3,S}
-3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
-4    {Cs,Cd,CO,Os,Ss} 0 {3,S} {5,S}
-5 *4 Cd               0 {4,S} {6,D}
-6 *2 Cd               1 {5,D}
+1 *1 Cd               U1 {2,D}
+2 *3 Cd               U0 {1,D} {3,S}
+3    {Cs,Cd,CO,Os,Ss} U0 {2,S} {4,S}
+4    {Cs,Cd,CO,Os,Ss} U0 {3,S} {5,S}
+5 *4 Cd               U0 {4,S} {6,D}
+6 *2 Cd               U1 {5,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -497,14 +522,15 @@ u"""
 entry(
     index = 27,
     label = "R6_DSDSD",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd 1 {2,D}
-2 *3 Cd 0 {1,D} {3,S}
-3    Cd 0 {2,S} {4,D}
-4    Cd 0 {3,D} {5,S}
-5 *4 Cd 0 {4,S} {6,D}
-6 *2 Cd 1 {5,D}
+1 *1 Cd U1 {2,D}
+2 *3 Cd U0 {1,D} {3,S}
+3    Cd U0 {2,S} {4,D}
+4    Cd U0 {3,D} {5,S}
+5 *4 Cd U0 {4,S} {6,D}
+6 *2 Cd U1 {5,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -517,9 +543,10 @@ u"""
 entry(
     index = 28,
     label = "O_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Os 1
+1 *1 Os U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -532,9 +559,10 @@ u"""
 entry(
     index = 29,
     label = "S_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Ss 1
+1 *1 Ss U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -547,10 +575,11 @@ u"""
 entry(
     index = 30,
     label = "Cd_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C       1 {2,D}
-2    {C,O,S} 0 {1,D}
+1 *1 C       U1 {2,D}
+2    {C,O,S} U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -563,10 +592,11 @@ u"""
 entry(
     index = 31,
     label = "Cd_rad_out_C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C 1 {2,D}
-2    C 0 {1,D}
+1 *1 C U1 {2,D}
+2    C U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -579,10 +609,11 @@ u"""
 entry(
     index = 32,
     label = "Cd_rad_out_O",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C 1 {2,D}
-2    O 0 {1,D}
+1 *1 C U1 {2,D}
+2    O U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -595,10 +626,11 @@ u"""
 entry(
     index = 33,
     label = "Cd_rad_out_S",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C 1 {2,D}
-2    S 0 {1,D}
+1 *1 C U1 {2,D}
+2    S U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -611,10 +643,11 @@ u"""
 entry(
     index = 34,
     label = "Cdsingle_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd 1 {2,S}
-2    R  0 {1,S}
+1 *1 Cd U1 {2,S}
+2    R  U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -627,10 +660,11 @@ u"""
 entry(
     index = 35,
     label = "CdsingleH_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd 1 {2,S}
-2    H  0 {1,S}
+1 *1 Cd U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -643,10 +677,11 @@ u"""
 entry(
     index = 36,
     label = "CdsingleND_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd         1 {2,S}
-2    {Cs,Os,Ss} 0 {1,S}
+1 *1 Cd         U1 {2,S}
+2    {Cs,Os,Ss} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -659,10 +694,11 @@ u"""
 entry(
     index = 37,
     label = "CdsingleDe_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 Cd            1 {2,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 Cd            U1 {2,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -675,11 +711,12 @@ u"""
 entry(
     index = 38,
     label = "C_rad_out_single",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C 1 {2,S} {3,S}
-2    R 0 {1,S}
-3    R 0 {1,S}
+1 *1 C U1 {2,S} {3,S}
+2    R U0 {1,S}
+3    R U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -692,11 +729,12 @@ u"""
 entry(
     index = 39,
     label = "C_rad_out_2H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C 1 {2,S} {3,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
+1 *1 C U1 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -709,11 +747,12 @@ u"""
 entry(
     index = 40,
     label = "C_rad_out_1H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C   1 {2,S} {3,S}
-2    H   0 {1,S}
-3    R!H 0 {1,S}
+1 *1 C   U1 {2,S} {3,S}
+2    H   U0 {1,S}
+3    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -726,11 +765,12 @@ u"""
 entry(
     index = 41,
     label = "C_rad_out_H/NonDeC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C  1 {2,S} {3,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
+1 *1 C  U1 {2,S} {3,S}
+2    H  U0 {1,S}
+3    Cs U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -743,11 +783,12 @@ u"""
 entry(
     index = 42,
     label = "C_rad_out_H/NonDeO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C 1 {2,S} {3,S}
-2    H 0 {1,S}
-3    O 0 {1,S}
+1 *1 C U1 {2,S} {3,S}
+2    H U0 {1,S}
+3    O U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -760,11 +801,12 @@ u"""
 entry(
     index = 43,
     label = "C_rad_out_H/NonDeS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C 1 {2,S} {3,S}
-2    H 0 {1,S}
-3    S 0 {1,S}
+1 *1 C U1 {2,S} {3,S}
+2    H U0 {1,S}
+3    S U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -777,11 +819,12 @@ u"""
 entry(
     index = 44,
     label = "C_rad_out_H/OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C             1 {2,S} {3,S}
-2    H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C             U1 {2,S} {3,S}
+2    H             U0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -794,11 +837,12 @@ u"""
 entry(
     index = 45,
     label = "C_rad_out_noH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C   1 {2,S} {3,S}
-2    R!H 0 {1,S}
-3    R!H 0 {1,S}
+1 *1 C   U1 {2,S} {3,S}
+2    R!H U0 {1,S}
+3    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -811,11 +855,12 @@ u"""
 entry(
     index = 46,
     label = "C_rad_out_NonDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C          1 {2,S} {3,S}
-2    {Cs,Os,Ss} 0 {1,S}
-3    {Cs,Os,Ss} 0 {1,S}
+1 *1 C          U1 {2,S} {3,S}
+2    {Cs,Os,Ss} U0 {1,S}
+3    {Cs,Os,Ss} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -828,11 +873,12 @@ u"""
 entry(
     index = 47,
     label = "C_rad_out_Cs2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C  1 {2,S} {3,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
+1 *1 C  U1 {2,S} {3,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -845,11 +891,12 @@ u"""
 entry(
     index = 48,
     label = "C_rad_out_NDMustO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C       1 {2,S} {3,S}
-2    Os      0 {1,S}
-3    {Cs,Os} 0 {1,S}
+1 *1 C       U1 {2,S} {3,S}
+2    Os      U0 {1,S}
+3    {Cs,Os} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -862,11 +909,12 @@ u"""
 entry(
     index = 49,
     label = "C_rad_out_NDMustS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C       1 {2,S} {3,S}
-2    Ss      0 {1,S}
-3    {Cs,Ss} 0 {1,S}
+1 *1 C       U1 {2,S} {3,S}
+2    Ss      U0 {1,S}
+3    {Cs,Ss} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -879,11 +927,12 @@ u"""
 entry(
     index = 50,
     label = "C_rad_out_OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cs,Os,Ss}    0 {1,S}
+1 *1 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    {Cs,Os,Ss}    U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -896,11 +945,12 @@ u"""
 entry(
     index = 51,
     label = "C_rad_out_OneDe/Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Cs            0 {1,S}
+1 *1 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    Cs            U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -913,11 +963,12 @@ u"""
 entry(
     index = 52,
     label = "C_rad_out_OneDe/O",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    O             0 {1,S}
+1 *1 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    O             U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -930,11 +981,12 @@ u"""
 entry(
     index = 53,
     label = "C_rad_out_OneDe/S",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    S             0 {1,S}
+1 *1 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    S             U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -947,11 +999,12 @@ u"""
 entry(
     index = 54,
     label = "C_rad_out_TwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -964,9 +1017,10 @@ u"""
 entry(
     index = 55,
     label = "Opri_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 Os 1
+1 *2 Os U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -979,9 +1033,10 @@ u"""
 entry(
     index = 56,
     label = "Spri_rad",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 Ss 1
+1 *2 Ss U1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -994,10 +1049,11 @@ u"""
 entry(
     index = 57,
     label = "Cdpri_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C       1 {2,D}
-2    {C,O,S} 0 {1,D}
+1 *2 C       U1 {2,D}
+2    {C,O,S} U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1010,10 +1066,11 @@ u"""
 entry(
     index = 58,
     label = "Cdpri_rad_out_C",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C 1 {2,D}
-2    C 0 {1,D}
+1 *2 C U1 {2,D}
+2    C U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1026,10 +1083,11 @@ u"""
 entry(
     index = 59,
     label = "Cdpri_rad_out_O",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C 1 {2,D}
-2    O 0 {1,D}
+1 *2 C U1 {2,D}
+2    O U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1042,10 +1100,11 @@ u"""
 entry(
     index = 60,
     label = "Cdpri_rad_out_S",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C 1 {2,D}
-2    S 0 {1,D}
+1 *2 C U1 {2,D}
+2    S U0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1058,10 +1117,11 @@ u"""
 entry(
     index = 61,
     label = "Cdsinglepri_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 Cd 1 {2,S}
-2    R  0 {1,S}
+1 *2 Cd U1 {2,S}
+2    R  U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1074,10 +1134,11 @@ u"""
 entry(
     index = 62,
     label = "CdsinglepriH_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 Cd 1 {2,S}
-2    H  0 {1,S}
+1 *2 Cd U1 {2,S}
+2    H  U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1090,10 +1151,11 @@ u"""
 entry(
     index = 63,
     label = "CdsinglepriND_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 Cd         1 {2,S}
-2    {Cs,Os,Ss} 0 {1,S}
+1 *2 Cd         U1 {2,S}
+2    {Cs,Os,Ss} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1106,10 +1168,11 @@ u"""
 entry(
     index = 64,
     label = "CdsinglepriDe_rad_out",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 Cd            1 {2,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 Cd            U1 {2,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1122,11 +1185,12 @@ u"""
 entry(
     index = 65,
     label = "Cpri_rad_out_single",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C 1 {2,S} {3,S}
-2    R 0 {1,S}
-3    R 0 {1,S}
+1 *2 C U1 {2,S} {3,S}
+2    R U0 {1,S}
+3    R U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1139,11 +1203,12 @@ u"""
 entry(
     index = 66,
     label = "Cpri_rad_out_2H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C 1 {2,S} {3,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
+1 *2 C U1 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1156,11 +1221,12 @@ u"""
 entry(
     index = 67,
     label = "Cpri_rad_out_1H",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C   1 {2,S} {3,S}
-2    H   0 {1,S}
-3    R!H 0 {1,S}
+1 *2 C   U1 {2,S} {3,S}
+2    H   U0 {1,S}
+3    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1173,11 +1239,12 @@ u"""
 entry(
     index = 68,
     label = "Cpri_rad_out_H/NonDeC",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C  1 {2,S} {3,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
+1 *2 C  U1 {2,S} {3,S}
+2    H  U0 {1,S}
+3    Cs U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1190,11 +1257,12 @@ u"""
 entry(
     index = 69,
     label = "Cpri_rad_out_H/NonDeO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C  1 {2,S} {3,S}
-2    H  0 {1,S}
-3    Os 0 {1,S}
+1 *2 C  U1 {2,S} {3,S}
+2    H  U0 {1,S}
+3    Os U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1207,11 +1275,12 @@ u"""
 entry(
     index = 70,
     label = "Cpri_rad_out_H/NonDeS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C  1 {2,S} {3,S}
-2    H  0 {1,S}
-3    Ss 0 {1,S}
+1 *2 C  U1 {2,S} {3,S}
+2    H  U0 {1,S}
+3    Ss U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1224,11 +1293,12 @@ u"""
 entry(
     index = 71,
     label = "Cpri_rad_out_H/OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C             1 {2,S} {3,S}
-2    H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             U1 {2,S} {3,S}
+2    H             U0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1241,11 +1311,12 @@ u"""
 entry(
     index = 72,
     label = "Cpri_rad_out_noH",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C   1 {2,S} {3,S}
-2    R!H 0 {1,S}
-3    R!H 0 {1,S}
+1 *2 C   U1 {2,S} {3,S}
+2    R!H U0 {1,S}
+3    R!H U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1258,11 +1329,12 @@ u"""
 entry(
     index = 73,
     label = "Cpri_rad_out_NonDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C          1 {2,S} {3,S}
-2    {Cs,Os,Ss} 0 {1,S}
-3    {Cs,Os,Ss} 0 {1,S}
+1 *2 C          U1 {2,S} {3,S}
+2    {Cs,Os,Ss} U0 {1,S}
+3    {Cs,Os,Ss} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1275,11 +1347,12 @@ u"""
 entry(
     index = 74,
     label = "Cpri_rad_out_Cs2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C  1 {2,S} {3,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
+1 *2 C  U1 {2,S} {3,S}
+2    Cs U0 {1,S}
+3    Cs U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1292,11 +1365,12 @@ u"""
 entry(
     index = 75,
     label = "Cpri_rad_out_NDMustO",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C       1 {2,S} {3,S}
-2    O       0 {1,S}
-3    {Cs,Os} 0 {1,S}
+1 *2 C       U1 {2,S} {3,S}
+2    O       U0 {1,S}
+3    {Cs,Os} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1309,11 +1383,12 @@ u"""
 entry(
     index = 76,
     label = "Cpri_rad_out_NDMustS",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C       1 {2,S} {3,S}
-2    S       0 {1,S}
-3    {Cs,Ss} 0 {1,S}
+1 *2 C       U1 {2,S} {3,S}
+2    S       U0 {1,S}
+3    {Cs,Ss} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1326,11 +1401,12 @@ u"""
 entry(
     index = 77,
     label = "Cpri_rad_out_OneDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cs,Os,Ss}    0 {1,S}
+1 *2 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    {Cs,Os,Ss}    U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1343,11 +1419,12 @@ u"""
 entry(
     index = 78,
     label = "Cpri_rad_out_OneDe/Cs",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Cs            0 {1,S}
+1 *2 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    Cs            U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1360,11 +1437,12 @@ u"""
 entry(
     index = 79,
     label = "Cpri_rad_out_OneDe/O",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Os            0 {1,S}
+1 *2 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    Os            U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1377,11 +1455,12 @@ u"""
 entry(
     index = 80,
     label = "Cpri_rad_out_OneDe/S",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Ss            0 {1,S}
+1 *2 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    Ss            U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1394,11 +1473,12 @@ u"""
 entry(
     index = 81,
     label = "Cpri_rad_out_TwoDe",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *2 C             1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             U1 {2,S} {3,S}
+2    {Cd,Ct,Cb,CO} U0 {1,S}
+3    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1496,10 +1576,11 @@ L1: Ypri_rad_out
 
 forbidden(
     label = "RR_d",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 R!H 1 {2,D}
-2 *2 R!H 1 {1,D}
+1 *1 R!H U1 {2,D}
+2 *2 R!H U1 {1,D}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -1510,10 +1591,11 @@ u"""
 
 forbidden(
     label = "RR_s",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 R!H 1 {2,S}
-2 *2 R!H 1 {1,S}
+1 *1 R!H U1 {2,S}
+2 *2 R!H U1 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -1524,10 +1606,11 @@ u"""
 
 forbidden(
     label = "RR_t",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 R!H 1 {2,T}
-2 *2 R!H 1 {1,T}
+1 *1 R!H U1 {2,T}
+2 *2 R!H U1 {1,T}
 """,
     shortDesc = u"""""",
     longDesc = 

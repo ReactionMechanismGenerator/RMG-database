@@ -9,12 +9,12 @@ longDesc = u"""
 transition states are treated as free rotations as they are relatively loose TSs.
 """
 entry(
-    index = 553,
-    label = "CO_birad;RR'",
+    index        = 553,
+    label        = "CO_birad;RR'",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = "OR{R_H, R_R'}",
     kinetics = ArrheniusEP(
@@ -34,23 +34,23 @@ u"""
 )
 
 entry(
-    index = 554,
-    label = "CO_birad;C_methyl_C_methyl",
+    index        = 554,
+    label        = "CO_birad;C_methyl_C_methyl",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = 
 """
-1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {1,S}
-6    H  0 {2,S}
-7    H  0 {2,S}
-8    H  0 {2,S}
+1 *2 Cs U0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs U0 {1,S} {6,S} {7,S} {8,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    H  U0 {1,S}
+6    H  U0 {2,S}
+7    H  U0 {2,S}
+8    H  U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (538, 'cm^3/(mol*s)'),
@@ -69,17 +69,17 @@ u"""
 )
 
 entry(
-    index = 555,
-    label = "CO_birad;H2",
+    index        = 555,
+    label        = "CO_birad;H2",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = 
 """
-1 *2 H 0 {2,S}
-2 *3 H 0 {1,S}
+1 *2 H U0 {2,S}
+2 *3 H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2890000000.0, 'cm^3/(mol*s)'),
@@ -98,20 +98,20 @@ u"""
 )
 
 entry(
-    index = 556,
-    label = "CO_birad;C_methane",
+    index        = 556,
+    label        = "CO_birad;C_methane",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
+1 *2 C U0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H U0 {1,S}
+3    H U0 {1,S}
+4    H U0 {1,S}
+5    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (16400, 'cm^3/(mol*s)'),
@@ -130,20 +130,20 @@ u"""
 )
 
 entry(
-    index = 557,
-    label = "CO_birad;C_pri/NonDeC",
+    index        = 557,
+    label        = "CO_birad;C_pri/NonDeC",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H  0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    Cs 0 {1,S}
+1 *2 C  U0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (91400, 'cm^3/(mol*s)'),
@@ -162,20 +162,20 @@ u"""
 )
 
 entry(
-    index = 558,
-    label = "CO_birad;C/H2/NonDeC",
+    index        = 558,
+    label        = "CO_birad;C/H2/NonDeC",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-5    Cs 0 {1,S}
+1 *2 C  U0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  U0 {1,S}
+3    H  U0 {1,S}
+4    Cs U0 {1,S}
+5    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (766000, 'cm^3/(mol*s)'),
@@ -194,20 +194,20 @@ u"""
 )
 
 entry(
-    index = 559,
-    label = "CO_birad;C/H/Cs3",
+    index        = 559,
+    label        = "CO_birad;C/H/Cs3",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H  0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-5    Cs 0 {1,S}
+1 *2 C  U0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  U0 {1,S}
+3    Cs U0 {1,S}
+4    Cs U0 {1,S}
+5    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (88900000.0, 'cm^3/(mol*s)'),
@@ -226,18 +226,18 @@ u"""
 )
 
 entry(
-    index = 560,
-    label = "CO_birad;CsO_H",
+    index        = 560,
+    label        = "CO_birad;CsO_H",
     group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
+1 *1 C U2 {2,D}
+2    O U0 {1,D}
 """,
     group2 = 
 """
-1 *2 O  0 {2,S} {3,S}
-2 *3 H  0 {1,S}
-3    Cs 0 {1,S}
+1 *2 O  U0 {2,S} {3,S}
+2 *3 H  U0 {1,S}
+3    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.127, 'cm^3/(mol*s)'),
@@ -257,22 +257,22 @@ Methyl group was hindered rotor. ester CO bond also a rotor.
 )
 
 entry(
-    index = 561,
-    label = "carbene;ethene",
+    index        = 561,
+    label        = "carbene;ethene",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D} {5,S} {6,S}
-3 *3 H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+1 *2 C U0 {2,D} {3,S} {4,S}
+2    C U0 {1,D} {5,S} {6,S}
+3 *3 H U0 {1,S}
+4    H U0 {1,S}
+5    H U0 {2,S}
+6    H U0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (663000000000.0, 'cm^3/(mol*s)'),
@@ -291,20 +291,20 @@ u"""
 )
 
 entry(
-    index = 562,
-    label = "carbene;Cd_pri",
+    index        = 562,
+    label        = "carbene;Cd_pri",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D}
-3 *3 H 0 {1,S}
-4    H 0 {1,S}
+1 *2 C U0 {2,D} {3,S} {4,S}
+2    C U0 {1,D}
+3 *3 H U0 {1,S}
+4    H U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (35000000000.0, 'cm^3/(mol*s)'),
@@ -323,20 +323,20 @@ u"""
 )
 
 entry(
-    index = 563,
-    label = "carbene;acetylene",
+    index        = 563,
+    label        = "carbene;acetylene",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 Ct 0 {2,S} {3,T}
-2 *3 H  0 {1,S}
-3    Ct 0 {1,T} {4,S}
-4    H  0 {3,S}
+1 *2 Ct U0 {2,S} {3,T}
+2 *3 H  U0 {1,S}
+3    Ct U0 {1,T} {4,S}
+4    H  U0 {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (16500000.0, 'cm^3/(mol*s)'),
@@ -355,18 +355,18 @@ u"""
 )
 
 entry(
-    index = 564,
-    label = "carbene;Ct_H",
+    index        = 564,
+    label        = "carbene;Ct_H",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 Ct 0 {2,S}
-2 *3 H  0 {1,S}
+1 *2 Ct U0 {2,S}
+2 *3 H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (102000000.0, 'cm^3/(mol*s)'),
@@ -385,21 +385,21 @@ u"""
 )
 
 entry(
-    index = 565,
-    label = "carbene;C_pri/Cd",
+    index        = 565,
+    label        = "carbene;C_pri/Cd",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H  0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    Cd 0 {1,S}
+1 *2 C  U0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    Cd U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6620000000000.0, 'cm^3/(mol*s)'),
@@ -418,21 +418,21 @@ u"""
 )
 
 entry(
-    index = 566,
-    label = "carbene;C_pri/Ct",
+    index        = 566,
+    label        = "carbene;C_pri/Ct",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 H  0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    Ct 0 {1,S}
+1 *2 C  U0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  U0 {1,S}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
+5    Ct U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2470000000.0, 'cm^3/(mol*s)'),
@@ -451,20 +451,20 @@ u"""
 )
 
 entry(
-    index = 567,
-    label = "carbene;Cd/H/NonDeC",
+    index        = 567,
+    label        = "carbene;Cd/H/NonDeC",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 C  0 {2,D} {3,S} {4,S}
-2    C  0 {1,D}
-3 *3 H  0 {1,S}
-4    Cs 0 {1,S}
+1 *2 C  U0 {2,D} {3,S} {4,S}
+2    C  U0 {1,D}
+3 *3 H  U0 {1,S}
+4    Cs U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (10700000000000.0, 'cm^3/(mol*s)'),
@@ -483,20 +483,20 @@ u"""
 )
 
 entry(
-    index = 568,
-    label = "carbene;Cd/H/OneDe",
+    index        = 568,
+    label        = "carbene;Cd/H/OneDe",
     group1 = 
 """
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *1 C U2 {2,S} {3,S}
+2    H U0 {1,S}
+3    H U0 {1,S}
 """,
     group2 = 
 """
-1 *2 C             0 {2,D} {3,S} {4,S}
-2    C             0 {1,D}
-3 *3 H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             U0 {2,D} {3,S} {4,S}
+2    C             U0 {1,D}
+3 *3 H             U0 {1,S}
+4    {Cd,Ct,Cb,CO} U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (18400000000.0, 'cm^3/(mol*s)'),

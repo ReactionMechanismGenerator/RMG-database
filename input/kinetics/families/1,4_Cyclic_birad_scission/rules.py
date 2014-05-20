@@ -7,8 +7,8 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
-    label = "RJJ",
+    index        = 1,
+    label        = "RJJ",
     group1 = "OR{R5JJ, R6JJ, R7JJ}",
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 's^-1'),

@@ -7,30 +7,34 @@ longDesc = u"""
 
 """
 entry(
-    index = 1,
+    index        = 1,
     reactant1 = 
 """
 H2S
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     reactant2 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     product1 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+multiplicity 1
+1 H U0 L0 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -49,30 +53,34 @@ Not including reactions 1, 19, 20, 21
 )
 
 entry(
-    index = 2,
+    index        = 2,
     reactant1 = 
 """
 H2S
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     reactant2 = 
 """
-S
-1 S 2S 2
+S_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     product1 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -90,28 +98,32 @@ u"""
 )
 
 entry(
-    index = 3,
+    index        = 3,
     reactant1 = 
 """
-S
-1 S 2S 2
+S_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     reactant2 = 
 """
 H2
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+multiplicity 1
+1 H U0 L0 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -129,28 +141,32 @@ u"""
 )
 
 entry(
-    index = 4,
+    index        = 4,
     reactant1 = 
 """
-S
-1 S 2S 2
+S_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     reactant2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 S2
-1 S 0 2 {2,D}
-2 S 0 2 {1,D}
+multiplicity 1
+1 S U0 L2 E0  {2,D}
+2 S U0 L2 E0  {1,D}
 """,
     product2 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -168,30 +184,34 @@ u"""
 )
 
 entry(
-    index = 5,
+    index        = 5,
     reactant1 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     reactant2 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -209,32 +229,36 @@ Using unadjusted singlet surface calculation for this one (see paper)
 )
 
 entry(
-    index = 6,
+    index        = 6,
     reactant1 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     reactant2 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 S2
-1 S 0 2 {2,D}
-2 S 0 2 {1,D}
+multiplicity 1
+1 S U0 L2 E0  {2,D}
+2 S U0 L2 E0  {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -252,30 +276,34 @@ u"""
 )
 
 entry(
-    index = 7,
+    index        = 7,
     reactant1 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     reactant2 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 H2
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+multiplicity 1
+1 H U0 L0 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 S2
-1 S 0 2 {2,D}
-2 S 0 2 {1,D}
+multiplicity 1
+1 S U0 L2 E0  {2,D}
+2 S U0 L2 E0  {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -293,30 +321,34 @@ u"""
 )
 
 entry(
-    index = 8,
+    index        = 8,
     reactant1 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     reactant2 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
-S
-1 S 2S 2
+S_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -334,30 +366,34 @@ u"""
 )
 
 entry(
-    index = 9,
+    index        = 9,
     reactant1 = 
 """
-S
-1 S 2S 2
+S_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     reactant2 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 S2
-1 S 0 2 {2,D}
-2 S 0 2 {1,D}
+multiplicity 1
+1 S U0 L2 E0  {2,D}
+2 S U0 L2 E0  {1,D}
 """,
     product2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -375,34 +411,38 @@ u"""
 )
 
 entry(
-    index = 10,
+    index        = 10,
     reactant1 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     reactant2 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 H2S2
-1 S 0 2 {2,S} {3,S}
-2 S 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     product2 = 
 """
 S2
-1 S 0 2 {2,D}
-2 S 0 2 {1,D}
+multiplicity 1
+1 S U0 L2 E0  {2,D}
+2 S U0 L2 E0  {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -420,32 +460,36 @@ u"""
 )
 
 entry(
-    index = 11,
+    index        = 11,
     reactant1 = 
 """
 H2S2
-1 S 0 2 {2,S} {3,S}
-2 S 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     product1 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 H2
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+multiplicity 1
+1 H U0 L0 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -463,32 +507,36 @@ u"""
 )
 
 entry(
-    index = 12,
+    index        = 12,
     reactant1 = 
 """
 H2S2
-1 S 0 2 {2,S} {3,S}
-2 S 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     reactant2 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     product1 = 
 """
 H2S
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -506,34 +554,38 @@ u"""
 )
 
 entry(
-    index = 13,
+    index        = 13,
     reactant1 = 
 """
 H2S2
-1 S 0 2 {2,S} {3,S}
-2 S 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     reactant2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product1 = 
 """
 H2S
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 H U0 L0 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -551,32 +603,36 @@ u"""
 )
 
 entry(
-    index = 14,
+    index        = 14,
     reactant1 = 
 """
 H2S2
-1 S 0 2 {2,S} {3,S}
-2 S 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     reactant2 = 
 """
-S
-1 S 2S 2
+S_(S)
+multiplicity 1
+1 S U2 L2 E0 
 """,
     product1 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -594,24 +650,27 @@ u"""
 )
 
 entry(
-    index = 15,
+    index        = 15,
     reactant1 = 
 """
 H
-1 H 1 0
+multiplicity 2
+1 H U1 L0 E0 
 """,
     reactant2 = 
 """
 S2
-1 S 0 2 {2,D}
-2 S 0 2 {1,D}
+multiplicity 1
+1 S U0 L2 E0  {2,D}
+2 S U0 L2 E0  {1,D}
 """,
     product1 = 
 """
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U1 L2 E0  {1,S}
+3 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -633,26 +692,29 @@ Not including reactions 1, 19, 20, 21
 )
 
 entry(
-    index = 16,
+    index        = 16,
     reactant1 = 
 """
 H2S2
-1 S 0 2 {2,S} {3,S}
-2 S 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+multiplicity 1
+1 S U0 L2 E0  {2,S} {3,S}
+2 S U0 L2 E0  {1,S} {4,S}
+3 H U0 L0 E0  {1,S}
+4 H U0 L0 E0  {2,S}
 """,
     product1 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     product2 = 
 """
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S U1 L2 E0  {2,S}
+2 H U0 L0 E0  {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(

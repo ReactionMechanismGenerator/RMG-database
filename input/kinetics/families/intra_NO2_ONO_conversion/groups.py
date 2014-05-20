@@ -21,12 +21,13 @@ recipe(actions=[
 entry(
     index = 1,
     label = "RNO2",
+    multiplicity = [1, 2, 3, 4, 5],
     group = 
 """
-1 *1 R   0 {2,S}
-2 *2 N5d 0 {1,S} {3,S} {4,D}
-3 *3 Os  0 {2,S}
-4    Od  0 {2,D}
+1 *1 R   U0 {2,S}
+2 *2 N5d U0 {1,S} {3,S} {4,D}
+3 *3 Os  U0 {2,S}
+4    Od  U0 {2,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -41,5 +42,4 @@ tree(
 L1: RNO2
 """
 )
-
 

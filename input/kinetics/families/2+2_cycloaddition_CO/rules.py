@@ -11,12 +11,12 @@ or in a section(s) titled 'General'
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 """
 entry(
-    index = 587,
-    label = "CO;doublebond",
+    index        = 587,
+    label        = "CO;doublebond",
     group1 = 
 """
-1 *1 CO 0 {2,D}
-2 *2 Od 0 {1,D}
+1 *1 CO U0 {2,D}
+2 *2 Od U0 {1,D}
 """,
     group2 = "OR{mb_CO, mb_OC, mb_CCO, mb_COC}",
     kinetics = ArrheniusEP(
@@ -36,23 +36,23 @@ u"""
 )
 
 entry(
-    index = 588,
-    label = "CH2CHO;mb_CO_2H",
+    index        = 588,
+    label        = "CH2CHO;mb_CO_2H",
     group1 = 
 """
-1 *1 C 0 {2,D} {3,S} {4,S}
-2 *2 O 0 {1,D}
-3    H 0 {1,S}
-4    C 1 {1,S} {5,S} {6,S}
-5    H 0 {4,S}
-6    H 0 {4,S}
+1 *1 C U0 {2,D} {3,S} {4,S}
+2 *2 O U0 {1,D}
+3    H U0 {1,S}
+4    C U1 {1,S} {5,S} {6,S}
+5    H U0 {4,S}
+6    H U0 {4,S}
 """,
     group2 = 
 """
-1 *3 CO 0 {2,D} {3,S} {4,S}
-2 *4 Od 0 {1,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *3 CO U0 {2,D} {3,S} {4,S}
+2 *4 Od U0 {1,D}
+3    H  U0 {1,S}
+4    H  U0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.2319, 'cm^3/(mol*s)', '*|/', 5),

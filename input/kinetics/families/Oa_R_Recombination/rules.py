@@ -7,15 +7,15 @@ longDesc = u"""
 
 """
 entry(
-    index = 1000,
-    label = "Y_rad;Oa",
+    index        = 1000,
+    label        = "Y_rad;Oa",
     group1 = 
 """
-1 *1 R 1
+1 *1 R U1
 """,
     group2 = 
 """
-1 *2 O 2T
+1 *2 O U2
 """,
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 'cm^3/(mol*s)'),

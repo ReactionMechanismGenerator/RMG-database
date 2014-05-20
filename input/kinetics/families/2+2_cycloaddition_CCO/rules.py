@@ -7,13 +7,13 @@ longDesc = u"""
 
 """
 entry(
-    index = 588,
-    label = "CCO;doublebond",
+    index        = 588,
+    label        = "CCO;doublebond",
     group1 = 
 """
-1 *1 Cd  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    Od  0 {2,D}
+1 *1 Cd  U0 {2,D}
+2 *2 Cdd U0 {1,D} {3,D}
+3    Od  U0 {2,D}
 """,
     group2 = "OR{mb_CCO, mb_COC}",
     kinetics = ArrheniusEP(
