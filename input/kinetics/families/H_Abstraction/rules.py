@@ -1017,7 +1017,7 @@ H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 3.
 
 entry(
     index = 161,
-    label = "H2;Ct_rad",
+    label = "H2;Ct_rad/Ct",
     group1 = 
 """
 1 *1 H 0 {2,S}
@@ -1025,8 +1025,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (5400000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
@@ -1380,7 +1380,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 170,
-    label = "C_methane;Ct_rad",
+    label = "C_methane;Ct_rad/Ct",
     group1 = 
 """
 1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
@@ -1391,8 +1391,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (453000000000.0, 'cm^3/(mol*s)', '*|/', 10),
@@ -1795,7 +1795,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 180,
-    label = "C/H3/Cs;Ct_rad",
+    label = "C/H3/Cs;Ct_rad/Ct",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -1806,8 +1806,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (602000000000.0, 'cm^3/(mol*s)', '*|/', 3),
@@ -2365,7 +2365,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 193,
-    label = "C/H2/NonDeC;Ct_rad",
+    label = "C/H2/NonDeC;Ct_rad/Ct",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -2376,8 +2376,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (605000000000.0, 'cm^3/(mol*s)', '*|/', 3),
@@ -2780,7 +2780,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 202,
-    label = "C/H/Cs3;Ct_rad",
+    label = "C/H/Cs3;Ct_rad/Ct",
     group1 = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
@@ -2791,8 +2791,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (662000000000.0, 'cm^3/(mol*s)', '*|/', 3),
@@ -3013,7 +3013,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 207,
-    label = "Cd_pri;O2b",
+    label = "Cd/H2/NonDeC;O2b",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -3067,7 +3067,7 @@ JDM 15-Jun-2010.
 
 entry(
     index = 209,
-    label = "Cd_pri;O_atom_triplet",
+    label = "Cd/H2/NonDeC;O_atom_triplet",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -3098,7 +3098,7 @@ C2H4 + O --> C2H3 + OH C.D.W divided original rate expression by 4(from A= 1.51E
 
 entry(
     index = 210,
-    label = "Cd_pri;C_rad/H2/Cs",
+    label = "Cd/H2/NonDeC;C_rad/H2/Cs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -3144,7 +3144,7 @@ MRH 28-Aug-2009
 
 entry(
     index = 211,
-    label = "Cd_pri;O_pri_rad",
+    label = "Cd/H2/NonDeC;O_pri_rad",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -3377,7 +3377,7 @@ MRH 31-Aug-2009
 
 entry(
     index = 216,
-    label = "Cd/H/NonDeC;Ct_rad",
+    label = "Cd/H/NonDeC;Ct_rad/Ct",
     group1 = 
 """
 1 *1 C  0 {2,D} {3,S} {4,S}
@@ -3387,8 +3387,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (1210000000000.0, 'cm^3/(mol*s)', '*|/', 5),
@@ -5368,7 +5368,7 @@ MRH 30-Aug-2009
 
 entry(
     index = 266,
-    label = "O/H/NonDeC;Ct_rad",
+    label = "O/H/NonDeC;Ct_rad/Ct",
     group1 = 
 """
 1 *1 O  0 {2,S} {3,S}
@@ -5377,8 +5377,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (1210000000000.0, 'cm^3/(mol*s)', '*|/', 5),
@@ -7182,12 +7182,12 @@ entry(
 """,
     group2 = 
 """
-1 *3 O  1 {2,S}
-2    C  0 {1,S} {3,D} {4,S}
-3    C  0 {2,D} {5,S} {6,S}
-4    H  0 {2,S}
-5    Cs 0 {3,S}
-6    H  0 {3,S}
+1 *3 O   1 {2,S}
+2    Cd  0 {1,S} {3,D} {4,S}
+3    Cd  0 {2,D} {5,S} {6,S}
+4    H   0 {2,S}
+5    Cs  0 {3,S}
+6    H   0 {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (7.52e-08, 'cm^3/(mol*s)'),
@@ -7648,7 +7648,7 @@ than calculations of MHS.
 
 entry(
     index = 535,
-    label = "H2O2;O_rad/OneDe",
+    label = "H2O2;O_rad/OneDeC",
     group1 = 
 """
 1 *1 O 0 {2,S} {3,S}
@@ -7673,7 +7673,7 @@ entry(
     shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 534.""",
     longDesc = 
 u"""
-Rxn family nodes: H2O2 + O_rad/OneDe
+Rxn family nodes: H2O2 + O_rad/OneDeC
 
 The rate coefficient for this node was taken from node 534 (H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3)
 by analogy: HOOH + *O-C=R.  Discussed with MRH.
@@ -8958,7 +8958,7 @@ u"""
 
 entry(
     index = 1195,
-    label = "S_pri;O_rad/OneDe",
+    label = "S_pri;O_rad/OneDeC",
     group1 = 
 """
 1 *1 S 0 {2,S} {3,S}
@@ -44117,7 +44117,7 @@ u"""
 
 entry(
     index = 4793,
-    label = "Cd_pri;C_methyl",
+    label = "Cd/H2/NonDeC;C_methyl",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44150,7 +44150,7 @@ u"""
 
 entry(
     index = 4794,
-    label = "Cd_pri;C_rad/H2/Cs",
+    label = "Cd/H2/NonDeC;C_rad/H2/Cs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44183,7 +44183,7 @@ u"""
 
 entry(
     index = 4795,
-    label = "Cd_pri;C_rad/H/NonDeC",
+    label = "Cd/H2/NonDeC;C_rad/H/NonDeC",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44216,7 +44216,7 @@ u"""
 
 entry(
     index = 4796,
-    label = "Cd_pri;C_rad/Cs3",
+    label = "Cd/H2/NonDeC;C_rad/Cs3",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44249,7 +44249,7 @@ u"""
 
 entry(
     index = 4797,
-    label = "Cd_pri;C_rad/H2/Cd",
+    label = "Cd/H2/NonDeC;C_rad/H2/Cd",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44283,7 +44283,7 @@ u"""
 
 entry(
     index = 4798,
-    label = "Cd_pri;C_rad/H/CdCs",
+    label = "Cd/H2/NonDeC;C_rad/H/CdCs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44317,7 +44317,7 @@ u"""
 
 entry(
     index = 4799,
-    label = "Cd_pri;C_rad/CdCs2",
+    label = "Cd/H2/NonDeC;C_rad/CdCs2",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44351,7 +44351,7 @@ u"""
 
 entry(
     index = 4800,
-    label = "Cd_pri;C_rad/H/CdCd",
+    label = "Cd/H2/NonDeC;C_rad/H/CdCd",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44386,7 +44386,7 @@ u"""
 
 entry(
     index = 4801,
-    label = "Cd_pri;C_rad/CdCdCs",
+    label = "Cd/H2/NonDeC;C_rad/CdCdCs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44421,7 +44421,7 @@ u"""
 
 entry(
     index = 4802,
-    label = "Cd_pri;C_rad/H2/Ct",
+    label = "Cd/H2/NonDeC;C_rad/H2/Ct",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44454,7 +44454,7 @@ u"""
 
 entry(
     index = 4803,
-    label = "Cd_pri;C_rad/H/CtCs",
+    label = "Cd/H2/NonDeC;C_rad/H/CtCs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44487,7 +44487,7 @@ u"""
 
 entry(
     index = 4804,
-    label = "Cd_pri;C_rad/CtCs2",
+    label = "Cd/H2/NonDeC;C_rad/CtCs2",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44520,7 +44520,7 @@ u"""
 
 entry(
     index = 4805,
-    label = "Cd_pri;C_rad/H/CtCt",
+    label = "Cd/H2/NonDeC;C_rad/H/CtCt",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44553,7 +44553,7 @@ u"""
 
 entry(
     index = 4806,
-    label = "Cd_pri;C_rad/CtCtCs",
+    label = "Cd/H2/NonDeC;C_rad/CtCtCs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44586,7 +44586,7 @@ u"""
 
 entry(
     index = 4807,
-    label = "Cd_pri;C_rad/H2/Cb",
+    label = "Cd/H2/NonDeC;C_rad/H2/Cb",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44619,7 +44619,7 @@ u"""
 
 entry(
     index = 4808,
-    label = "Cd_pri;C_rad/H/CbCs",
+    label = "Cd/H2/NonDeC;C_rad/H/CbCs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44652,7 +44652,7 @@ u"""
 
 entry(
     index = 4809,
-    label = "Cd_pri;C_rad/CbCs2",
+    label = "Cd/H2/NonDeC;C_rad/CbCs2",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44685,7 +44685,7 @@ u"""
 
 entry(
     index = 4810,
-    label = "Cd_pri;Cd_pri_rad",
+    label = "Cd/H2/NonDeC;Cd_pri_rad",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44717,7 +44717,7 @@ u"""
 
 entry(
     index = 4811,
-    label = "Cd_pri;Cd_rad/NonDeC",
+    label = "Cd/H2/NonDeC;Cd_rad/NonDeC",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44749,7 +44749,7 @@ u"""
 
 entry(
     index = 4812,
-    label = "Cd_pri;Cd_rad/Cd",
+    label = "Cd/H2/NonDeC;Cd_rad/Cd",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44782,7 +44782,7 @@ u"""
 
 entry(
     index = 4813,
-    label = "Cd_pri;Cb_rad",
+    label = "Cd/H2/NonDeC;Cb_rad",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44814,7 +44814,7 @@ u"""
 
 entry(
     index = 4814,
-    label = "Cd_pri;Cd_rad/Ct",
+    label = "Cd/H2/NonDeC;Cd_rad/Ct",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44846,7 +44846,7 @@ u"""
 
 entry(
     index = 4815,
-    label = "Cd_pri;C_rad/H2/S",
+    label = "Cd/H2/NonDeC;C_rad/H2/S",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44879,7 +44879,7 @@ u"""
 
 entry(
     index = 4816,
-    label = "Cd_pri;C_rad/H/CsS",
+    label = "Cd/H2/NonDeC;C_rad/H/CsS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44912,7 +44912,7 @@ u"""
 
 entry(
     index = 4817,
-    label = "Cd_pri;C_rad/Cs2S",
+    label = "Cd/H2/NonDeC;C_rad/Cs2S",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44945,7 +44945,7 @@ u"""
 
 entry(
     index = 4818,
-    label = "Cd_pri;C_rad/H2/CS",
+    label = "Cd/H2/NonDeC;C_rad/H2/CS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -44979,7 +44979,7 @@ u"""
 
 entry(
     index = 4819,
-    label = "Cd_pri;C_rad/H/CSCs",
+    label = "Cd/H2/NonDeC;C_rad/H/CSCs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45013,7 +45013,7 @@ u"""
 
 entry(
     index = 4820,
-    label = "Cd_pri;C_rad/CSCs2",
+    label = "Cd/H2/NonDeC;C_rad/CSCs2",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45047,7 +45047,7 @@ u"""
 
 entry(
     index = 4821,
-    label = "Cd_pri;Cd_rad/NonDeS",
+    label = "Cd/H2/NonDeC;Cd_rad/NonDeS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45079,7 +45079,7 @@ u"""
 
 entry(
     index = 4822,
-    label = "Cd_pri;Cd_rad/CS",
+    label = "Cd/H2/NonDeC;Cd_rad/CS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45112,7 +45112,7 @@ u"""
 
 entry(
     index = 4823,
-    label = "Cd_pri;C_rad/H/CdS",
+    label = "Cd/H2/NonDeC;C_rad/H/CdS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45146,7 +45146,7 @@ u"""
 
 entry(
     index = 4824,
-    label = "Cd_pri;C_rad/CdCsS",
+    label = "Cd/H2/NonDeC;C_rad/CdCsS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45180,7 +45180,7 @@ u"""
 
 entry(
     index = 4825,
-    label = "Cd_pri;C_rad/H/CSS",
+    label = "Cd/H2/NonDeC;C_rad/H/CSS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45214,7 +45214,7 @@ u"""
 
 entry(
     index = 4826,
-    label = "Cd_pri;C_rad/CSCsS",
+    label = "Cd/H2/NonDeC;C_rad/CSCsS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45248,7 +45248,7 @@ u"""
 
 entry(
     index = 4827,
-    label = "Cd_pri;C_rad/H/CtS",
+    label = "Cd/H2/NonDeC;C_rad/H/CtS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45281,7 +45281,7 @@ u"""
 
 entry(
     index = 4828,
-    label = "Cd_pri;C_rad/CtCsS",
+    label = "Cd/H2/NonDeC;C_rad/CtCsS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45314,7 +45314,7 @@ u"""
 
 entry(
     index = 4829,
-    label = "Cd_pri;C_rad/H/CbS",
+    label = "Cd/H2/NonDeC;C_rad/H/CbS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45347,7 +45347,7 @@ u"""
 
 entry(
     index = 4830,
-    label = "Cd_pri;C_rad/CbCsS",
+    label = "Cd/H2/NonDeC;C_rad/CbCsS",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45380,7 +45380,7 @@ u"""
 
 entry(
     index = 4831,
-    label = "Cd_pri;CS_pri_rad",
+    label = "Cd/H2/NonDeC;CS_pri_rad",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45412,7 +45412,7 @@ u"""
 
 entry(
     index = 4832,
-    label = "Cd_pri;CS_rad/Cs",
+    label = "Cd/H2/NonDeC;CS_rad/Cs",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45444,7 +45444,7 @@ u"""
 
 entry(
     index = 4833,
-    label = "Cd_pri;CS_rad/S",
+    label = "Cd/H2/NonDeC;CS_rad/S",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45476,7 +45476,7 @@ u"""
 
 entry(
     index = 4834,
-    label = "Cd_pri;CS_rad/Cd",
+    label = "Cd/H2/NonDeC;CS_rad/Cd",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -45509,7 +45509,7 @@ u"""
 
 entry(
     index = 4835,
-    label = "Cd_pri;CS_rad/Ct",
+    label = "Cd/H2/NonDeC;CS_rad/Ct",
     group1 = 
 """
 1 *1 C 0 {2,D} {3,S} {4,S}
@@ -95042,7 +95042,9 @@ entry(
 """
 1 *1 N3d 0 {2,S} {3,D}
 2 *2 H   0 {1,S}
-3    Cs  0 {1,D}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
 """,
     group2 = 
 """
@@ -95071,7 +95073,9 @@ entry(
 """
 1 *1 N3d 0 {2,S} {3,D}
 2 *2 H   0 {1,S}
-3    Cs  0 {1,D}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
 """,
     group2 = 
 """
@@ -95100,7 +95104,9 @@ entry(
 """
 1 *1 N3d 0 {2,S} {3,D}
 2 *2 H   0 {1,S}
-3    Cs  0 {1,D}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
 """,
     group2 = 
 """
@@ -95130,7 +95136,9 @@ entry(
 """
 1 *1 N3d 0 {2,S} {3,D}
 2 *2 H   0 {1,S}
-3    Cs  0 {1,D}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
 """,
     group2 = 
 """
@@ -95162,7 +95170,9 @@ entry(
 """
 1 *1 N3d 0 {2,S} {3,D}
 2 *2 H   0 {1,S}
-3    Cs  0 {1,D}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
 """,
     group2 = 
 """

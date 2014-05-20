@@ -327,9 +327,9 @@ entry(
     label = "R3H_SS_S",
     group = 
 """
-1 *1 R  1 {2,S}
+1 *1 R!H  1 {2,S}
 2 *4 Ss 0 {1,S} {3,S}
-3 *2 R  0 {2,S} {4,S}
+3 *2 R!H  0 {2,S} {4,S}
 4 *3 H  0 {3,S}
 """,
     kinetics = None,
@@ -4702,7 +4702,13 @@ u"""
 entry(
     index = 243,
     label = "Cs_H_out_H/OneDe",
-    group = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group = 
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 

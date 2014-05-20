@@ -107,10 +107,10 @@ def getKineticsLeaveOneOut(family, missingGroups):
 
 #returns the average temperature for the range given by the kinetic model
 def getAverageTemp(kineticModel):
-    try:
-        return (kineticModel.Tmin.value + kineticModel.Tmax.value)/2
-    except AttributeError:
-        return 1000
+#     try:
+#         return (kineticModel.Tmin.value + kineticModel.Tmax.value)/2
+#     except AttributeError:
+    return 1000
         
 #calculates the parity values for each
 def calculateParity(exactKineticModel, approxKineticModel, T):
@@ -130,7 +130,7 @@ def analyzeForParity(exactKinetics, approxKinetics, T=None, cutoff=0):
         exact=exactKinetics[key].getRateCoefficient(T)
         approx=approxKinetics[key].getRateCoefficient(T)
         dataPoint=[exact, approx]
-        if cutoff!=0 and math.log((float(exact)/float(approx)))**2 > cutoff**2:
+        if cutoff!=0 and math.log10((float(exact)/float(approx)))**2 > cutoff**2:
             continue
         parityData[key]=dataPoint
     
@@ -143,7 +143,7 @@ def analyzeForParity(exactKinetics, approxKinetics, T=None, cutoff=0):
 def calculateQ(parityData):
     Q=0
     for key, value in parityData.iteritems():
-        Q+=(math.log(value[0]/value[1]))**2
+        Q+=(math.log10(value[0]/value[1]))**2
     return (Q/len(parityData))**0.5
 
 def createParityPlot(parityData):
@@ -435,9 +435,16 @@ def checkFamilies(FullDatabase):
             if True in problemsExist:
                 outputFile.write(family + '\n')
                 if problemsExist[0]:
-                    outputFile.write('\n' + 'These groups exist in rules.py but not groups.py:' + '\n')
-                    for group in problems[0]:
-                        outputFile.write(group + '\n')
+                    outputFile.write('\n' + 'These groups exist in rules.py but not groups.py:' + '\n' + "A suggested match could be incorrect, but if 'No match' is written, it is true (and most unfortunate)" + '\n')
+                    for group, matchedGroups in problems[0].iteritems():
+                        outputFile.write(group + ', Suggested match from groups.py: ')
+                        for matchedGroup in matchedGroups:
+                            if matchedGroup==matchedGroups[-1]:
+                                if len(matchedGroups)>1:
+                                    outputFile.write('and ')
+                                outputFile.write(matchedGroup + '\n')
+                            else:
+                                outputFile.write(matchedGroup +', ' )
                 if problemsExist[1]:
                     outputFile.write('\n' + 'These groups do not match the definition in the rule' + '\n')
                     for rule, groups in problems[1].iteritems():
@@ -475,7 +482,7 @@ def checkFamilies(FullDatabase):
                 outputFile.write('\n\n')
 if __name__ == '__main__':
 
-    
+    databaseProjectRootPath = os.path.dirname( os.path.abspath( __file__ ))
     #Thermo stuff
 #     ThermoDatabase=ThermoDatabase()
 #     ThermoDatabase.load(path)
@@ -483,9 +490,9 @@ if __name__ == '__main__':
 #     ThermoDatabase.save(path)
     FullDatabase=RMGDatabase()
 #     path=r'C:\RMG-database\input\thermo'
-    path='C:\RMG-database\input'
+    path = os.path.join(databaseProjectRootPath, 'input')
 #     FullDatabase.load(thermoLibraries=)
-    FullDatabase.load(path)
+    FullDatabase.load(path, kineticsFamilies='all')
     checkFamilies(FullDatabase)
 #     trialDir=r'C:\Users\User1\Dropbox\Research\RMG\kinetics\LeaveOneOut\test'
 #     trialDir=r'C:\RMG-database\input_test'

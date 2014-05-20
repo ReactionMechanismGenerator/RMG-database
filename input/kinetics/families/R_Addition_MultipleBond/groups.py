@@ -3202,15 +3202,15 @@ entry(
     label = "Cds-HH_Cds-Cs\H3/H",
     group = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D} {5,S} {6,S}
+3    H 0 {1,S}
 4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+5    Cs 0 {2,S} {7,S} {8,S} {9,S}
+6    H 0 {2,S}
+7    H 0 {5,S}
+8    H 0 {5,S}
+9    H 0 {5,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -17500,9 +17500,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    H  0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -17592,9 +17592,9 @@ entry(
 """
 1 *1 Ct 0 {2,T} {3,S}
 2 *2 Ct 0 {1,T} {4,S}
-3    Cd 0 {1,S} {5,D}
+3    Ct 0 {1,S} {5,T}
 4    Cs 0 {2,S}
-5    C  0 {3,D}
+5    Ct  0 {3,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -17742,7 +17742,7 @@ entry(
     group = 
 """
 1 *1 Od    0 {2,D}
-2 *2 {C,S} 0 {1,D}
+2 *2 R!H 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -18551,7 +18551,7 @@ entry(
     group = 
 """
 1 *3 Ct 1 {2,T}
-2    C  0 {1,T}
+2    R  0 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -19147,8 +19147,8 @@ entry(
 """
 1 *3 C             1 {2,S} {3,S} {4,S}
 2    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
-3    {H,Cs,Os,Ss}  0 {1,S}
-4    {H,Cs,Os,Ss}  0 {1,S}
+3    {H,Cs,Os,Ss,N3s,N5s}  0 {1,S}
+4    {H,Cs,Os,Ss,N3s,N5s}  0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -20578,23 +20578,7 @@ entry(
     group = 
 """
 1 *3 O 1 {2,S}
-2    O 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1031,
-    label = "OJ-OneDe",
-    group = 
-"""
-1 *3 O             1 {2,S}
-2    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
+2    Os 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -20621,26 +20605,11 @@ u"""
 )
 
 entry(
-    index = 1033,
-    label = "Y_1centerbirad",
-    group = 
-"""
-1 *3 {Cs,Cd,O,S} {2S,2T}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 1034,
     label = "O_atom_triplet",
     group = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -20670,9 +20639,9 @@ entry(
     label = "CH2_triplet",
     group = 
 """
-1 *3 C {2S,2T} {2,S} {3,S}
-2    H 0       {1,S}
-3    H 0       {1,S}
+1 *3 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -20687,7 +20656,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 *3 Ss 1 {2,S}
+1 *3 S 1 {2,S}
 2    R  0 {1,S}
 """,
     kinetics = None,
@@ -21646,42 +21615,11 @@ u"""
 )
 
 entry(
-    index = 345,
-    label = "N3_atom_quartet",
-    group = 
-"""
-1 *3 N3s 3
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 346,
-    label = "CH_quartet",
-    group = 
-"""
-1 *3 Cs 3 {2,S}
-2    H  0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 350,
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 R!H 2
+1 *3 R!H 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -21696,7 +21634,7 @@ entry(
     label = "CO_birad",
     group = 
 """
-1 *3 C  2 {2,D}
+1 *3 C  2T {2,D}
 2    Od 0 {1,D}
 """,
     kinetics = None,
@@ -21880,8 +21818,8 @@ entry(
     group =
 """
 1 *3 C                        1 {2,S} {3,S} {4,S}
-2    Cs                        0 {1,S}
-3    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
+2    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
+3    Cs                        0 {1,S}
 4    {N3s,N5s}                0 {1,S}
 """,
     kinetics = None,
@@ -22247,7 +22185,7 @@ entry(
     label = "CH_quartet",
     group = 
 """
-1 *3 C 3Q {2,S}
+1 *3 Cs 3Q {2,S}
 2    H 0  {1,S}
 """,
     kinetics = None,
@@ -22264,54 +22202,6 @@ entry(
     group = 
 """
 1 *3 C 3D {2,S}
-2    H 0  {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 390,
-    label = "O_atom_singlet",
-    group = 
-"""
-1 *3 O 2S
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 391,
-    label = "CH2_singlet",
-    group = 
-"""
-1 *3 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 392,
-    label = "NH_singlet",
-    group = 
-"""
-1 *3 N 2S {2,S}
 2    H 0  {1,S}
 """,
     kinetics = None,
@@ -22350,6 +22240,37 @@ u"""
 """,
 )
 
+entry(
+    index = 3950,
+    label = "O_rad/OneDe",
+    group = 
+"""
+1 *3 O             1 {2,S}
+2    {Cd,Ct,Cb,CO} 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3960,
+    label = "O_rad/NonDe",
+    group = 
+"""
+1 *3 O          1 {2,S}
+2    {Cs,Os,Ss} 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
 tree(
 """
 L1: R_R
@@ -22518,7 +22439,7 @@ L1: R_R
 	    L4: Cds_N3d
                 L5: Cds-HH_N3d
                 L5: Cds-NonDeH_N3d
-                L6: Cds-NonDe2_N3d
+                L5: Cds-NonDe2_N3d
         L3: Cds_Cds
             L4: Cds-HH_Cds
                 L5: Cds-HH_Cds-HH
@@ -23317,8 +23238,8 @@ L1: YJ
     L2: CJ
         L3: CbJ
         L3: CtJ
-	    L4: CtJ_Ct
-	    L4: CtJ_N3t
+			L4: CtJ_Ct
+			L4: CtJ_N3t
         L3: C2b
         L3: C=SJ
             L4: C=SJ-H
@@ -23433,10 +23354,12 @@ L1: YJ
         L3: OJ_pri
         L3: OJ_sec
             L4: OJ-NonDe
-                L5: OJ-Cs
-                L5: OJ-Os
+				L5: O_rad/NonDe
+					L6: OJ-Cs
+					L6: OJ-Os
                 L5: OJ-Ns
             L4: OJ-OneDe
+				L5: O_rad/OneDe
                 L5: OJ-OneDeN
                     L6: OJ-NO
         L3: O2b
