@@ -487,3 +487,474 @@ u"""
     ],
 )
 
+entry(
+    index = 13,
+    reactant1 = 
+"""
+1    H 0 0 {3,S}
+2    H 0 0 {3,S}
+3 *2 C 0 0 {1,S} {2,S} {4,S} {5,S}
+4 *3 H 0 0 {3,S}
+5 *1 O 1 2 {3,S}
+""",
+    product1 = 
+"""
+1 *1 C 1 0 {2,S} {4,S} {5,S}
+2 *2 O 0 2 {1,S} {3,S}
+3 *3 H 0 0 {2,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.38927, 'd13': 1.203442, 'd23': 1.276283},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Apr 30 12:54:09 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 14,
+    reactant1 = 
+"""
+1     C 0 0 {3,S} {4,S} {5,S} {8,S}
+2     H 0 0 {8,S}
+3     H 0 0 {1,S}
+4     H 0 0 {1,S}
+5     H 0 0 {1,S}
+6     H 0 0 {10,S}
+7     H 0 0 {10,S}
+8  *2 C 0 0 {1,S} {2,S} {9,S} {10,S}
+9  *3 H 0 0 {8,S}
+10 *1 C 1 0 {6,S} {7,S} {8,S}
+""",
+    product1 = 
+"""
+1  *1 C 1 0 {2,S} {3,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  *2 C 0 0 {1,S} {4,S} {9,S} {10,S}
+4  *3 H 0 0 {3,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.492365, 'd13': 1.30311, 'd23': 1.30064},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Apr 30 13:29:29 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 15,
+    reactant1 = 
+"""
+1     C 0 0 {2,S} {3,S} {4,S} {11,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     H 0 0 {1,S}
+4     H 0 0 {1,S}
+5     H 0 0 {11,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {13,S}
+10    H 0 0 {13,S}
+11 *2 C 0 0 {1,S} {5,S} {12,S} {13,S}
+12 *3 H 0 0 {11,S}
+13 *1 C 1 0 {9,S} {10,S} {11,S}
+""",
+    product1 = 
+"""
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  *1 C 1 0 {1,S} {4,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 C 0 0 {2,S} {5,S} {12,S} {13,S}
+5  *3 H 0 0 {4,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.492204, 'd13': 1.302794, 'd23': 1.301687},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Apr 30 14:06:14 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 16,
+    reactant1 = 
+"""
+1     C 0 0 {2,D} {6,S} {9,S}
+2     C 0 0 {1,D} {7,S} {8,S}
+3     H 0 0 {11,S}
+4     H 0 0 {11,S}
+5     H 0 0 {9,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9  *2 C 0 0 {1,S} {5,S} {10,S} {11,S}
+10 *3 H 0 0 {9,S}
+11 *1 C 1 0 {3,S} {4,S} {9,S}
+""",
+    product1 = 
+"""
+1  *2 C 0 0 {2,S} {3,S} {6,S} {7,S}
+2  *1 C 1 0 {1,S} {4,S} {8,S}
+3  *3 H 0 0 {1,S}
+4     C 0 0 {2,S} {5,D} {9,S}
+5     C 0 0 {4,D} {10,S} {11,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {4,S}
+10    H 0 0 {5,S}
+11    H 0 0 {5,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.489543, 'd13': 1.365329, 'd23': 1.256171},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Apr 30 13:49:37 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 17,
+    reactant1 = 
+"""
+1     C 0 0 {3,S} {4,S} {5,S} {11,S}
+2     C 0 0 {6,S} {7,S} {8,S} {11,S}
+3     H 0 0 {1,S}
+4     H 0 0 {1,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {13,S}
+10    H 0 0 {13,S}
+11 *2 C 0 0 {1,S} {2,S} {12,S} {13,S}
+12 *3 H 0 0 {11,S}
+13 *1 C 1 0 {9,S} {10,S} {11,S}
+""",
+    product1 = 
+"""
+1  *1 C 1 0 {2,S} {3,S} {4,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 C 0 0 {1,S} {5,S} {12,S} {13,S}
+5  *3 H 0 0 {4,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.493897, 'd13': 1.308689, 'd23': 1.302738},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Apr 30 14:04:11 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 18,
+    reactant1 = 
+"""
+1     C 0 0 {2,S} {4,S} {5,S} {14,S}
+2     C 0 0 {1,S} {3,S} {6,S} {7,S}
+3     C 0 0 {2,S} {9,S} {10,S} {11,S}
+4     H 0 0 {1,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {14,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {16,S}
+13    H 0 0 {16,S}
+14 *2 C 0 0 {1,S} {8,S} {15,S} {16,S}
+15 *3 H 0 0 {14,S}
+16 *1 C 1 0 {12,S} {13,S} {14,S}
+""",
+    product1 = 
+"""
+1     C 0 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 0 {1,S} {4,S} {9,S} {10,S}
+3  *1 C 1 0 {1,S} {5,S} {11,S}
+4     C 0 0 {2,S} {12,S} {13,S} {14,S}
+5  *2 C 0 0 {3,S} {6,S} {15,S} {16,S}
+6  *3 H 0 0 {5,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
+16    H 0 0 {5,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.49488, 'd13': 1.303078, 'd23': 1.297544},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Apr 30 15:54:55 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 19,
+    reactant1 = 
+"""
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {13,S}
+3     C 0 0 {1,S} {4,S} {9,S} {10,S}
+4     O 0 2 {3,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {13,S}
+12    H 0 0 {4,S}
+13 *2 C 0 0 {2,S} {11,S} {14,S} {15,S}
+14 *3 H 0 0 {13,S}
+15 *1 O 1 2 {13,S}
+""",
+    product1 = 
+"""
+1     C 0 0 {2,S} {3,S} {8,S} {9,S}
+2     C 0 0 {1,S} {4,S} {10,S} {11,S}
+3     C 0 0 {1,S} {5,S} {12,S} {13,S}
+4  *1 C 1 0 {2,S} {6,S} {14,S}
+5     O 0 2 {3,S} {15,S}
+6  *2 O 0 2 {4,S} {7,S}
+7  *3 H 0 0 {6,S}
+8     H 0 0 {1,S}
+9     H 0 0 {1,S}
+10    H 0 0 {2,S}
+11    H 0 0 {2,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.39608, 'd13': 1.208513, 'd23': 1.27819},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Apr 30 17:18:48 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 20,
+    reactant1 = 
+"""
+1     C 0 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 0 {2,S} {13,S} {14,S} {25,S}
+5     C 0 0 {3,S} {16,S} {17,S} {18,S}
+6     C 0 0 {19,S} {20,S} {21,S} {23,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {23,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {6,S}
+22    H 0 0 {25,S}
+23 *2 C 0 0 {6,S} {15,S} {24,S} {25,S}
+24 *3 H 0 0 {23,S}
+25 *1 C 1 0 {4,S} {22,S} {23,S}
+""",
+    product1 = 
+"""
+1     C 0 0 {2,S} {3,S} {10,S} {11,S}
+2     C 0 0 {1,S} {4,S} {12,S} {13,S}
+3     C 0 0 {1,S} {6,S} {14,S} {15,S}
+4     C 0 0 {2,S} {8,S} {16,S} {17,S}
+5  *1 C 1 0 {7,S} {8,S} {18,S}
+6     C 0 0 {3,S} {19,S} {20,S} {21,S}
+7     C 0 0 {5,S} {22,S} {23,S} {24,S}
+8  *2 C 0 0 {4,S} {5,S} {9,S} {25,S}
+9  *3 H 0 0 {8,S}
+10    H 0 0 {1,S}
+11    H 0 0 {1,S}
+12    H 0 0 {2,S}
+13    H 0 0 {2,S}
+14    H 0 0 {3,S}
+15    H 0 0 {3,S}
+16    H 0 0 {4,S}
+17    H 0 0 {4,S}
+18    H 0 0 {5,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {6,S}
+22    H 0 0 {7,S}
+23    H 0 0 {7,S}
+24    H 0 0 {7,S}
+25    H 0 0 {8,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.495163, 'd13': 1.305369, 'd23': 1.305005},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu May  1 04:38:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 21,
+    reactant1 = 
+"""
+1     C 0 0 {2,B} {5,S} {13,B}
+2     C 0 0 {1,B} {3,B} {6,S}
+3     C 0 0 {2,B} {4,B} {8,S}
+4     C 0 0 {3,B} {9,S} {15,B}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {14,S}
+8     H 0 0 {3,S}
+9     H 0 0 {4,S}
+10    H 0 0 {11,S}
+11 *2 C 0 0 {10,S} {12,S} {14,D}
+12 *3 H 0 0 {11,S}
+13 *4 C 0 0 {1,B} {14,S} {15,B}
+14 *5 C 0 0 {7,S} {11,D} {13,S}
+15 *1 C 1 0 {4,B} {13,B}
+""",
+    product1 = 
+"""
+1  *4 C 0 0 {2,B} {4,S} {8,B}
+2     C 0 0 {1,B} {3,B} {10,S}
+3     C 0 0 {2,B} {5,B} {11,S}
+4  *5 C 0 0 {1,S} {7,D} {12,S}
+5     C 0 0 {3,B} {6,B} {13,S}
+6     C 0 0 {5,B} {8,B} {14,S}
+7  *1 C 1 0 {4,D} {15,S}
+8  *2 C 0 0 {1,B} {6,B} {9,S}
+9  *3 H 0 0 {8,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {5,S}
+14    H 0 0 {6,S}
+15    H 0 0 {7,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 2.451028, 'd13': 1.385279, 'd23': 1.387024},
+        method = 'B3LYP/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu May  1 01:17:26 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
+    ],
+)
+
