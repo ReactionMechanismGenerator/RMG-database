@@ -1468,7 +1468,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 *3 Ss 1 {2,S}
+1 *3 S 1 {2,S}
 2 *5 R  0 {1,S}
 """,
     kinetics = None,
@@ -2576,7 +2576,7 @@ entry(
     label = "SJ-3",
     group = 
 """
-1 *3 Ss 1 {2,S}
+1 *3 S 1 {2,S}
 2 *4 R  0 {1,S}
 """,
     kinetics = None,
