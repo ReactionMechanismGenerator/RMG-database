@@ -1464,7 +1464,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 *3 Ss 1 {2,S}
+1 *3 S 1 {2,S}
 2 *5 R  0 {1,S}
 """,
     kinetics = None,
@@ -2572,7 +2572,7 @@ entry(
     label = "SJ-3",
     group = 
 """
-1 *3 Ss 1 {2,S}
+1 *3 S 1 {2,S}
 2 *4 R  0 {1,S}
 """,
     kinetics = None,
@@ -3057,11 +3057,11 @@ L1: YJ
             L4: CdsJ-3-Ss
             L4: CdsJ-3-Cd
         L3: CdsJ-3-2
-        L3: CdsJ_C-3-2
-            L4: CdsJ_C-3-Cs2
-            L4: CdsJ_C-3-Ss2
-            L4: CdsJ_C-3-Cd2
-        L3: CdsJ_S-3-2
+            L4: CdsJ_C-3-2
+                L5: CdsJ_C-3-Cs2
+                L5: CdsJ_C-3-Ss2
+                L5: CdsJ_C-3-Cd2
+            L4: CdsJ_S-3-2
         L3: CsJ-3
             L4: CsJ-3-Cs
                 L5: CsJ-3-CsHH
