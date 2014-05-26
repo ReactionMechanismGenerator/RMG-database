@@ -917,7 +917,7 @@ entry(
 """
 1 *1 C             1 {2,S} {3,S}
 2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    O             0 {1,S}
+3    Os            0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -934,7 +934,7 @@ entry(
 """
 1 *1 C             1 {2,S} {3,S}
 2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    S             0 {1,S}
+3    Ss            0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1295,7 +1295,7 @@ entry(
     group = 
 """
 1 *2 C       1 {2,S} {3,S}
-2    O       0 {1,S}
+2    Os      0 {1,S}
 3    {Cs,Os} 0 {1,S}
 """,
     kinetics = None,
@@ -1312,7 +1312,7 @@ entry(
     group = 
 """
 1 *2 C       1 {2,S} {3,S}
-2    S       0 {1,S}
+2    Ss      0 {1,S}
 3    {Cs,Ss} 0 {1,S}
 """,
     kinetics = None,
