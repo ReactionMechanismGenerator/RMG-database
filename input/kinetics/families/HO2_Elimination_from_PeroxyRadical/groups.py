@@ -222,8 +222,8 @@ entry(
 6     H 0 {1,S}
 7     H 0 {1,S}
 8     H 0 {2,S}
-9     C 0 {2,S} {10,D}
-10    C 0 {9,D}
+9     Cd 0 {2,S} {10,D}
+10    Cd 0 {9,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
