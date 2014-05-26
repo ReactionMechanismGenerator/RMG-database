@@ -24,8 +24,8 @@ entry(
     group = 
 """
 1 *1 N3s 0 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
+2    R 0 {1,S}
+3    R 0 {1,S}
 4    R 0 {1,S}
 """,
     kinetics = None,
@@ -41,7 +41,7 @@ entry(
     label = "O_atom_singlet",
     group = 
 """
-1 *2 O  {2T,2S}
+1 *2 O 2S
 """,
     kinetics = None,
     shortDesc = u"""""",
