@@ -9,94 +9,127 @@ longDesc = u"""
 
 entry(
     index = 1,
-    label = "X_H_or_Xrad_H",
-    group = "OR{X_H, Xrad_H}",
+    label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
+    group = "OR{X_H, Xrad_H, Xbirad_H, Xtrirad_H}",
     distances = DistanceData(
-        distances = {'d12': 1.199551, 'd13': 2.396753, 'd23': 1.201265},
-        uncertainties = {'d12': 0.127042, 'd13': 0.142775, 'd23': 0.118363},
+        distances = {'d12': 1.285312, 'd13': 2.539792, 'd23': 1.257506},
+        uncertainties = {'d12': 0.090137, 'd13': 0.099372, 'd23': 0.090191},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 88 distances.
-[<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
+Fitted to 148 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=15 label="O/H/OneDe">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
-[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
-[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
 entry(
     index = 2,
-    label = "Y_rad_birad",
-    group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
+    label = "Y_rad_birad_trirad_quadrad",
+    group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad, Y_1centerquadrad}",
     distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
@@ -106,7 +139,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -119,84 +152,117 @@ entry(
 2 *2 H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.0, 'd13': -0.0, 'd23': 0.0},
-        uncertainties = {'d12': 0.127042, 'd13': 0.142775, 'd23': 0.118363},
+        distances = {'d12': -0.0, 'd13': -0.0, 'd23': -0.0},
+        uncertainties = {'d12': 0.090137, 'd13': 0.099372, 'd23': 0.090191},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 88 distances.
-[<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
+Fitted to 148 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=15 label="O/H/OneDe">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
-[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
-[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -209,48 +275,40 @@ entry(
 2 *2 H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.196267, 'd13': -0.14102, 'd23': 0.052908},
-        uncertainties = {'d12': 0.18917, 'd13': 0.165938, 'd23': 0.089276},
+        distances = {'d12': -0.261511, 'd13': -0.284788, 'd23': -0.024797},
+        uncertainties = {'d12': 0.266649, 'd13': 0.224218, 'd23': 0.146583},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 28 distances.
-[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
+Fitted to 12 distances.
+[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
+[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
 entry(
-    index = 5,
-    label = "Ct_H",
+    index = 409,
+    label = "N3_H",
     group = 
 """
-1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
-3 *2 H 0 {1,S}
+1 *1 {N3s,N3d} 0 {2,S}
+2 *2 H         0 {1,S}
 """,
     distances = DistanceData(distances={}),
     reference = None,
@@ -261,7 +319,546 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 413,
+    label = "N3d_H",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    R!H 0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 465,
+    label = "N3d/H/NonDe",
+    group = 
+"""
+1 *1 N3d      0 {2,S} {3,D}
+2 *2 H        0 {1,S}
+3    {N3d,Od} 0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 447,
+    label = "N3d/H/NonDeO",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    O   0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 448,
+    label = "N3d/H/NonDeN",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    N3d 0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 446,
+    label = "N3d/H/NonDeC",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 466,
+    label = "N3d/H/OneDe",
+    group = 
+"""
+1 *1 N3d                0 {2,S} {3,D}
+2 *2 H                  0 {1,S}
+3    {Cd,Ct,Cb,N5d,N5t} 0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 467,
+    label = "N3d/H/OneDeC",
+    group = 
+"""
+1 *1 N3d        0 {2,S} {3,D}
+2 *2 H          0 {1,S}
+3    {Cd,Ct,Cb} 0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 468,
+    label = "N3d/H/OneDeN",
+    group = 
+"""
+1 *1 N3d       0 {2,S} {3,D}
+2 *2 H         0 {1,S}
+3    {N5d,N5t} 0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 402,
+    label = "N3s_H",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R   0 {1,S}
+4    R   0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 410,
+    label = "NH3",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    H   0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 411,
+    label = "N3s_pri_H",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    R!H 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 450,
+    label = "N3s/H2/NonDe",
+    group = 
+"""
+1 *1 N3s         0 {2,S} {3,S} {4,S}
+2 *2 H           0 {1,S}
+3    H           0 {1,S}
+4    {N3s,Cs,Os} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 451,
+    label = "N3s/H2/NonDeC",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    Cs  0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 452,
+    label = "N3s/H2/NonDeO",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    Os  0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 453,
+    label = "N3s/H2/NonDeN",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    N3s 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 472,
+    label = "N3s/H2/OneDe",
+    group = 
+"""
+1 *1 N3s       0 {2,S} {3,S} {4,S}
+2 *2 H         0 {1,S}
+3    H         0 {1,S}
+4    {N3d,N5d} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 473,
+    label = "N3s/H2/OneDeN",
+    group = 
+"""
+1 *1 N3s       0 {2,S} {3,S} {4,S}
+2 *2 H         0 {1,S}
+3    H         0 {1,S}
+4    {N3d,N5d} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 412,
+    label = "N3s_sec_H",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R!H 0 {1,S}
+4    R!H 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 414,
+    label = "N5_H",
+    group = 
+"""
+1 *1 {N5s,N5d,N5dd,N5t,N5b} 0 {2,S}
+2 *2 H                      0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 415,
+    label = "N5d_H",
+    group = 
+"""
+1 *1 N5d 0 {2,S}
+2 *2 H   0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 456,
+    label = "N5d/H/NonDeOO",
+    group = 
+"""
+1 *1 N5d 0 {2,S} {3,S} {4,D}
+2 *2 H   0 {1,S}
+3    Os  0 {1,S}
+4    Od  0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 5,
+    label = "Ct_H",
+    group = 
+"""
+1 *1 Ct    0 {2,T} {3,S}
+2    {C,N} 0 {1,T}
+3 *2 H     0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 457,
+    label = "Ct/H/NonDeC",
+    group = 
+"""
+1 *1 Ct 0 {2,S} {3,T}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 458,
+    label = "Ct/H/NonDeN",
+    group = 
+"""
+1 *1 Ct  0 {2,S} {3,T}
+2 *2 H   0 {1,S}
+3    N3t 0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -275,31 +872,32 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.009666, 'd13': -0.025176, 'd23': 0.001104},
-        uncertainties = {'d12': 0.141933, 'd13': 0.1348, 'd23': 0.133145},
+        distances = {'d12': -0.01493, 'd13': -0.109798, 'd23': -0.077525},
+        uncertainties = {'d12': 0.119557, 'd13': 0.155324, 'd23': 0.130484},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 13 distances.
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=15 label="O/H/OneDe">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
+Fitted to 14 distances.
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -313,20 +911,23 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.176593, 'd13': 0.023996, 'd23': -0.110937},
-        uncertainties = {'d12': 0.897568, 'd13': 1.191392, 'd23': 0.509759},
+        distances = {'d12': 0.148105, 'd13': -0.062868, 'd23': -0.187144},
+        uncertainties = {'d12': 0.255221, 'd13': 0.179977, 'd23': 0.0427},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+Fitted to 5 distances.
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -340,29 +941,27 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.049296, 'd13': -0.035638, 'd23': 0.024942},
-        uncertainties = {'d12': 0.151009, 'd13': 0.13579, 'd23': 0.146452},
+        distances = {'d12': -0.116277, 'd13': -0.13897, 'd23': -0.009383},
+        uncertainties = {'d12': 0.063228, 'd13': 0.183018, 'd23': 0.175768},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 11 distances.
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+Fitted to 9 distances.
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=15 label="O/H/OneDe">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -376,8 +975,8 @@ entry(
 3    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.010302, 'd13': -0.075463, 'd23': -0.037431},
-        uncertainties = {'d12': 0.093805, 'd13': 0.172878, 'd23': 0.123928},
+        distances = {'d12': -0.08494, 'd13': -0.19439, 'd23': -0.078751},
+        uncertainties = {'d12': 0.103074, 'd13': 0.126506, 'd23': 0.090314},
     ),
     reference = None,
     referenceType = "",
@@ -391,7 +990,7 @@ Fitted to 4 distances.
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -405,24 +1004,22 @@ entry(
 3    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.062244, 'd13': 0.003444, 'd23': 0.068338},
-        uncertainties = {'d12': 0.235693, 'd13': 0.157995, 'd23': 0.164828},
+        distances = {'d12': -0.12837, 'd13': -0.06425, 'd23': 0.063377},
+        uncertainties = {'d12': 0.095314, 'd13': 0.223643, 'd23': 0.164401},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
+Fitted to 4 distances.
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -437,23 +1034,21 @@ entry(
 4    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.049405, 'd13': 0.018836, 'd23': 0.071105},
-        uncertainties = {'d12': 0.204041, 'd13': 0.18577, 'd23': 0.125204},
+        distances = {'d12': -0.117191, 'd13': -0.072065, 'd23': 0.044543},
+        uncertainties = {'d12': 0.155894, 'd13': 0.309364, 'd23': 0.152868},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+Fitted to 3 distances.
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -479,7 +1074,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -505,7 +1100,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -522,6 +1117,32 @@ entry(
 6    Cs 0 {3,S}
 7 *2 H  0 {1,S}
 """,
+    distances = DistanceData(
+        distances = {'d12': -0.167496, 'd13': -0.0369, 'd23': 0.129294},
+        uncertainties = {},
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 471,
+    label = "O/H/NonDeN",
+    group = 
+"""
+1 *1 O   0 {2,S} {3,S}
+2 *2 H   0 {1,S}
+3    N3s 0 {1,S}
+""",
     distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
@@ -531,7 +1152,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -540,12 +1161,12 @@ entry(
     label = "O/H/OneDe",
     group = 
 """
-1 *1 O                0 {2,S} {3,S}
-2 *2 H                0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 O                        0 {2,S} {3,S}
+2 *2 H                        0 {1,S}
+3    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.136416, 'd13': -0.188007, 'd23': -0.047427},
+        distances = {'d12': -0.210844, 'd13': -0.291721, 'd23': -0.075986},
         uncertainties = {},
     ),
     reference = None,
@@ -554,10 +1175,58 @@ entry(
     longDesc = 
 u"""
 Fitted to 1 distances.
-[<Entry index=15 label="O/H/OneDe">, <Entry index=170 label="H_rad">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 454,
+    label = "O/H/OneDeC",
+    group = 
+"""
+1 *1 O                0 {2,S} {3,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.210844, 'd13': -0.291721, 'd23': -0.075986},
+        uncertainties = {},
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 455,
+    label = "O/H/OneDeN",
+    group = 
+"""
+1 *1 O         0 {2,S} {3,S}
+2 *2 H         0 {1,S}
+3    {N3d,N5d} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -570,16 +1239,21 @@ entry(
 2 *2 H 0 {1,S}
 3    O 1 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.196281, 'd13': -0.042765, 'd23': 0.155534},
+        uncertainties = {'d12': 0.080415, 'd13': 0.052741, 'd23': 0.110397},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 5 distances.
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -601,7 +1275,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -623,7 +1297,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -645,7 +1319,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -667,7 +1341,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -689,7 +1363,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -711,7 +1385,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -733,7 +1407,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -756,7 +1430,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -778,7 +1452,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -800,7 +1474,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -822,7 +1496,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -837,21 +1511,21 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.219716, 'd13': 0.020827, 'd23': -0.201477},
-        uncertainties = {'d12': 0.100931, 'd13': 0.173922, 'd23': 0.266221},
+        distances = {'d12': 0.131996, 'd13': -0.030599, 'd23': -0.164477},
+        uncertainties = {'d12': 0.095311, 'd13': 0.274325, 'd23': 0.285472},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
-[<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
+Fitted to 5 distances.
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -860,14 +1534,14 @@ entry(
     label = "Cd_pri",
     group = 
 """
-1 *1 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D}
-3 *2 H 0 {1,S}
-4    H 0 {1,S}
+1 *1 C     0 {2,D} {3,S} {4,S}
+2    {C,N} 0 {1,D}
+3 *2 H     0 {1,S}
+4    H     0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.229961, 'd13': 0.050938, 'd23': -0.181388},
-        uncertainties = {'d12': 0.131466, 'd13': 0.117498, 'd23': 0.242596},
+        distances = {'d12': 0.134237, 'd13': -0.005384, 'd23': -0.141397},
+        uncertainties = {'d12': 0.123767, 'd13': 0.166518, 'd23': 0.145036},
     ),
     reference = None,
     referenceType = "",
@@ -875,11 +1549,62 @@ entry(
     longDesc = 
 u"""
 Fitted to 4 distances.
-[<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 459,
+    label = "Cd/H2/NonDeC",
+    group = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.134237, 'd13': -0.005384, 'd23': -0.141397},
+        uncertainties = {'d12': 0.123767, 'd13': 0.166518, 'd23': 0.145036},
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 4 distances.
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 460,
+    label = "Cd/H2/NonDeN",
+    group = 
+"""
+1 *1 C   0 {2,D} {3,S} {4,S}
+2    N3d 0 {1,D}
+3 *2 H   0 {1,S}
+4    H   0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -894,19 +1619,19 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.197519, 'd13': -0.044414, 'd23': -0.245001},
-        uncertainties = {'d12': 0.646496, 'd13': 1.74214, 'd23': 2.417364},
+        distances = {'d12': 0.121536, 'd13': -0.148267, 'd23': -0.272183},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
+Fitted to 1 distances.
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -921,19 +1646,19 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.197519, 'd13': -0.044414, 'd23': -0.245001},
-        uncertainties = {'d12': 0.646496, 'd13': 1.74214, 'd23': 2.417364},
+        distances = {'d12': 0.121536, 'd13': -0.148267, 'd23': -0.272183},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
+Fitted to 1 distances.
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -956,7 +1681,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -979,7 +1704,30 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 404,
+    label = "Cd/H/NonDeN",
+    group = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1002,7 +1750,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1025,7 +1773,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1049,7 +1797,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1072,7 +1820,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1095,7 +1843,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1118,7 +1866,30 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 405,
+    label = "Cd/H/N",
+    group = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1133,19 +1904,20 @@ entry(
 4 *2 H        0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.275559, 'd13': -0.005162, 'd23': -0.28397},
-        uncertainties = {},
+        distances = {'d12': 0.084483, 'd13': -0.058984, 'd23': -0.145094},
+        uncertainties = {'d12': 1.319465, 'd13': 1.847925, 'd23': 0.577716},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 2 distances.
 [<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1160,20 +1932,19 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.010397, 'd13': 0.052002, 'd23': 0.05954},
-        uncertainties = {'d12': 0.645892, 'd13': 1.742139, 'd23': 2.417238},
+        distances = {'d12': -0.063492, 'd13': 0.090629, 'd23': 0.156515},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+Fitted to 1 distances.
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1187,20 +1958,16 @@ entry(
 3 *2 H 0 {1,S}
 4    H 0 {1,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.002362, 'd13': 0.024632, 'd23': 0.019094},
-        uncertainties = {},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1215,7 +1982,7 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.023156, 'd13': 0.079372, 'd23': 0.099985},
+        distances = {'d12': -0.063492, 'd13': 0.090629, 'd23': 0.156515},
         uncertainties = {},
     ),
     reference = None,
@@ -1224,10 +1991,10 @@ entry(
     longDesc = 
 u"""
 Fitted to 1 distances.
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1242,7 +2009,7 @@ entry(
 4    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.023156, 'd13': 0.079372, 'd23': 0.099985},
+        distances = {'d12': -0.063492, 'd13': 0.090629, 'd23': 0.156515},
         uncertainties = {},
     ),
     reference = None,
@@ -1251,10 +2018,10 @@ entry(
     longDesc = 
 u"""
 Fitted to 1 distances.
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1286,7 +2053,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1309,7 +2076,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1332,7 +2099,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1355,7 +2122,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1378,7 +2145,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1401,7 +2168,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1424,7 +2191,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1447,7 +2214,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1470,7 +2237,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1493,7 +2260,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1517,7 +2284,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1540,7 +2307,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1563,7 +2330,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1586,7 +2353,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1602,46 +2369,83 @@ entry(
 5    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.145536, 'd13': 0.128916, 'd23': -0.020001},
-        uncertainties = {'d12': 0.083885, 'd13': 0.139467, 'd23': 0.107773},
+        distances = {'d12': 0.04186, 'd13': 0.053256, 'd23': 0.009373},
+        uncertainties = {'d12': 0.055368, 'd13': 0.06837, 'd23': 0.075996},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 38 distances.
+Fitted to 109 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1657,26 +2461,21 @@ entry(
 5    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.182437, 'd13': 0.194935, 'd23': 0.009219},
-        uncertainties = {'d12': 0.115979, 'd13': 0.189784, 'd23': 0.125937},
+        distances = {'d12': 0.109953, 'd13': 0.056714, 'd23': -0.057059},
+        uncertainties = {'d12': 0.093808, 'd13': 0.172587, 'd23': 0.100382},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+Fitted to 3 distances.
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1692,30 +2491,49 @@ entry(
 5    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.128267, 'd13': 0.074021, 'd23': -0.058331},
-        uncertainties = {'d12': 0.062134, 'd13': 0.137022, 'd23': 0.123157},
+        distances = {'d12': 0.047963, 'd13': 0.046821, 'd23': -0.003425},
+        uncertainties = {'d12': 0.048443, 'd13': 0.056338, 'd23': 0.05324},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 20 distances.
-[<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
+Fitted to 61 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1731,28 +2549,35 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.1339, 'd13': 0.084852, 'd23': -0.053301},
-        uncertainties = {'d12': 0.060891, 'd13': 0.128061, 'd23': 0.088026},
+        distances = {'d12': 0.068094, 'd13': 0.034548, 'd23': -0.036051},
+        uncertainties = {'d12': 0.0428, 'd13': 0.051268, 'd23': 0.046293},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 18 distances.
+Fitted to 40 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1771,8 +2596,8 @@ entry(
 8    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.127007, 'd13': 0.167871, 'd23': 0.037958},
-        uncertainties = {'d12': 0.107258, 'd13': 0.214329, 'd23': 0.139775},
+        distances = {'d12': 0.072805, 'd13': 0.062654, 'd23': -0.013616},
+        uncertainties = {'d12': 0.093676, 'd13': 0.074667, 'd23': 0.066584},
     ),
     reference = None,
     referenceType = "",
@@ -1780,15 +2605,15 @@ entry(
     longDesc = 
 u"""
 Fitted to 6 distances.
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1822,7 +2647,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1838,19 +2663,25 @@ entry(
 5    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.015377, 'd13': -0.036608, 'd23': -0.053398},
-        uncertainties = {},
+        distances = {'d12': -0.015283, 'd13': 0.099133, 'd23': 0.112705},
+        uncertainties = {'d12': 0.080549, 'd13': 0.103126, 'd23': 0.089527},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 7 distances.
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1875,7 +2706,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1895,19 +2726,23 @@ entry(
 9    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.015377, 'd13': -0.036608, 'd23': -0.053398},
-        uncertainties = {},
+        distances = {'d12': -0.008578, 'd13': 0.095194, 'd23': 0.102486},
+        uncertainties = {'d12': 0.11135, 'd13': 0.108846, 'd23': 0.070012},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 5 distances.
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1929,16 +2764,20 @@ entry(
 11    H 0 {4,S}
 12    H 0 {4,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.008752, 'd13': 0.131796, 'd23': 0.139357},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1969,7 +2808,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1993,7 +2832,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2017,7 +2856,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2032,16 +2871,23 @@ entry(
 4    H  0 {1,S}
 5    CO 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.009953, 'd13': 0.044855, 'd23': 0.033027},
+        uncertainties = {'d12': 0.100421, 'd13': 0.071325, 'd23': 0.086177},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 6 distances.
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2057,19 +2903,21 @@ entry(
 5    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.111592, 'd13': -0.064442, 'd23': -0.178955},
-        uncertainties = {},
+        distances = {'d12': 0.032132, 'd13': 0.063363, 'd23': 0.029259},
+        uncertainties = {'d12': 0.053588, 'd13': 0.080101, 'd23': 0.082033},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 8 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2093,7 +2941,55 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 461,
+    label = "Cs/H3/NonDeN",
+    group = 
+"""
+1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
+2    N3s 0 {1,S}
+3 *2 H   0 {1,S}
+4    H   0 {1,S}
+5    H   0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 471,
+    label = "Cs/H3/OneDeN",
+    group = 
+"""
+1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
+2    {N3d,N5d} 0 {1,S}
+3 *2 H         0 {1,S}
+4    H         0 {1,S}
+5    H         0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2109,26 +3005,40 @@ entry(
 5    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.140588, 'd13': 0.160968, 'd23': 0.018105},
-        uncertainties = {'d12': 0.130244, 'd13': 0.166538, 'd23': 0.104049},
+        distances = {'d12': 0.035618, 'd13': 0.060468, 'd23': 0.023082},
+        uncertainties = {'d12': 0.064797, 'd13': 0.070171, 'd23': 0.089812},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 10 distances.
+Fitted to 35 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2144,21 +3054,27 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.130202, 'd13': 0.08508, 'd23': -0.047543},
-        uncertainties = {'d12': 0.187028, 'd13': 0.148148, 'd23': 0.101609},
+        distances = {'d12': 0.045865, 'd13': 0.029296, 'd23': -0.019043},
+        uncertainties = {'d12': 0.073346, 'd13': 0.043196, 'd23': 0.069602},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+Fitted to 18 distances.
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2179,16 +3095,23 @@ entry(
 10    H 0 {3,S}
 11    H 0 {3,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.055866, 'd13': 0.078909, 'd23': 0.020234},
+        uncertainties = {'d12': 0.075645, 'd13': 0.088714, 'd23': 0.033138},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2204,23 +3127,24 @@ entry(
 5    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.148481, 'd13': 0.218643, 'd23': 0.067997},
-        uncertainties = {'d12': 0.150052, 'd13': 0.26843, 'd23': 0.162386},
+        distances = {'d12': 0.043583, 'd13': 0.062318, 'd23': 0.017241},
+        uncertainties = {'d12': 0.082127, 'd13': 0.075572, 'd23': 0.113192},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
+Fitted to 10 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2236,21 +3160,22 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.132454, 'd13': 0.213852, 'd23': 0.077005},
-        uncertainties = {'d12': 0.285807, 'd13': 0.376315, 'd23': 0.21115},
+        distances = {'d12': 0.034246, 'd13': 0.055321, 'd23': 0.018852},
+        uncertainties = {'d12': 0.096862, 'd13': 0.054978, 'd23': 0.11967},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 3 distances.
+Fitted to 8 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2284,7 +3209,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2300,8 +3225,8 @@ entry(
 5    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.172522, 'd13': 0.22583, 'd23': 0.054485},
-        uncertainties = {'d12': 0.679331, 'd13': 1.888494, 'd23': 1.196436},
+        distances = {'d12': 0.076261, 'd13': 0.086809, 'd23': 0.011604},
+        uncertainties = {'d12': 0.137261, 'd13': 1.005354, 'd23': 0.862226},
     ),
     reference = None,
     referenceType = "",
@@ -2313,7 +3238,7 @@ Fitted to 2 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2337,7 +3262,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2361,7 +3286,31 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 407,
+    label = "C/H2/NonDeN",
+    group = 
+"""
+1 *1 C          0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H          0 {1,S}
+3    H          0 {1,S}
+4    N          0 {1,S}
+5    {Cs,O,S,N} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2376,16 +3325,23 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    {Cs,O,S}         0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.012582, 'd13': 0.127256, 'd23': 0.139982},
+        uncertainties = {'d12': 0.051755, 'd13': 0.193282, 'd23': 0.172266},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2400,16 +3356,22 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    Cs               0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.010334, 'd13': 0.126074, 'd23': 0.135698},
+        uncertainties = {'d12': 0.0687, 'd13': 0.287791, 'd23': 0.271516},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2424,16 +3386,20 @@ entry(
 4    Cd 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.025436, 'd13': 0.144987, 'd23': 0.169469},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2458,7 +3424,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2482,7 +3448,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2506,7 +3472,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2521,16 +3487,21 @@ entry(
 4    CO 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.004843, 'd13': 0.119197, 'd23': 0.123417},
+        uncertainties = {'d12': 0.267867, 'd13': 0.849688, 'd23': 0.633153},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2559,7 +3530,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2590,7 +3561,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2605,16 +3576,20 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    O                0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.018202, 'd13': 0.13021, 'd23': 0.150692},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2638,7 +3613,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2662,7 +3637,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2686,7 +3661,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2701,16 +3676,22 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.02449, 'd13': 0.130235, 'd23': 0.10421},
+        uncertainties = {'d12': 0.112354, 'd13': 0.337416, 'd23': 0.391745},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2725,16 +3706,22 @@ entry(
 4    Cd 0 {1,S}
 5    Cd 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.02449, 'd13': 0.130235, 'd23': 0.10421},
+        uncertainties = {'d12': 0.112354, 'd13': 0.337416, 'd23': 0.391745},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2759,7 +3746,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2785,7 +3772,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2809,7 +3796,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2834,7 +3821,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2858,7 +3845,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2883,7 +3870,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2907,7 +3894,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2932,7 +3919,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2956,7 +3943,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2980,7 +3967,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3004,7 +3991,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3028,7 +4015,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3052,7 +4039,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3076,7 +4063,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3100,7 +4087,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3115,16 +4102,28 @@ entry(
 4    R!H 0 {1,S}
 5    R!H 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.008551, 'd13': 0.063838, 'd23': 0.054399},
+        uncertainties = {'d12': 0.087815, 'd13': 0.145326, 'd23': 0.166496},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 10 distances.
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3139,16 +4138,27 @@ entry(
 4    {Cs,O,S} 0 {1,S}
 5    {Cs,O,S} 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.015876, 'd13': 0.047971, 'd23': 0.031255},
+        uncertainties = {'d12': 0.094718, 'd13': 0.147358, 'd23': 0.169597},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 9 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3163,16 +4173,26 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.024419, 'd13': 0.057691, 'd23': 0.032546},
+        uncertainties = {'d12': 0.103151, 'd13': 0.038252, 'd23': 0.075919},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 8 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3206,7 +4226,31 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 408,
+    label = "C/H/Cs2N",
+    group = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    N  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3221,16 +4265,20 @@ entry(
 4    {Cs,O} 0 {1,S}
 5    {Cs,O} 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.098022, 'd13': -0.081628, 'd23': 0.014044},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3245,16 +4293,20 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.098022, 'd13': -0.081628, 'd23': 0.014044},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3278,7 +4330,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3302,7 +4354,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3326,7 +4378,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3350,7 +4402,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3374,7 +4426,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3398,7 +4450,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3422,7 +4474,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3446,7 +4498,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3470,7 +4522,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3494,7 +4546,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3518,7 +4570,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3543,7 +4595,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3567,7 +4619,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3591,7 +4643,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3615,7 +4667,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3647,7 +4699,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3671,7 +4723,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3695,7 +4747,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3719,7 +4771,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3743,7 +4795,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3767,7 +4819,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3791,7 +4843,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3815,7 +4867,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3830,16 +4882,20 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.070191, 'd13': 0.234408, 'd23': 0.303198},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3854,16 +4910,20 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    Cs               0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.070191, 'd13': 0.234408, 'd23': 0.303198},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3878,16 +4938,20 @@ entry(
 4    Cd 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': -0.070191, 'd13': 0.234408, 'd23': 0.303198},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3912,7 +4976,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3938,7 +5002,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3962,7 +5026,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3987,7 +5051,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4011,7 +5075,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4036,7 +5100,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4060,7 +5124,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4085,7 +5149,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4109,7 +5173,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4133,7 +5197,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4157,7 +5221,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4181,7 +5245,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4205,7 +5269,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4229,7 +5293,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4253,7 +5317,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4277,7 +5341,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4301,7 +5365,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4325,7 +5389,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4346,7 +5410,95 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 469,
+    label = "C_rad_H",
+    group = 
+"""
+1 *1 C 1 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 442,
+    label = "CH3_rad_H",
+    group = 
+"""
+1 *1 Cs 1 {2,S} {3,S} {4,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 470,
+    label = "Cs/H2/OneDeN",
+    group = 
+"""
+1 *1 C         1 {2,S} {3,S} {4,S}
+2 *2 H         0 {1,S}
+3    H         0 {1,S}
+4    {N3d,N5d} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 443,
+    label = "OH_rad_H",
+    group = 
+"""
+1 *1 O 1 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4367,16 +5519,17 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
 entry(
-    index = 166,
-    label = "Y_1centerbirad",
+    index = 416,
+    label = "N3s_rad_H",
     group = 
 """
-1 *3 {Cs,Cd,CO,O,S} 2T
+1 *1 N3s 1 {2,S}
+2 *2 H   0 {1,S}
 """,
     distances = DistanceData(distances={}),
     reference = None,
@@ -4387,7 +5540,431 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 417,
+    label = "NH2_rad_H",
+    group = 
+"""
+1 *1 N3s 1 {2,S} {3,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 418,
+    label = "N3s_rad_H_pri",
+    group = 
+"""
+1 *1 N3s     1 {2,S} {3,S}
+2 *2 H       0 {1,S}
+3    {C,N,O} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 449,
+    label = "N3s_rad_H/H/NonDeN",
+    group = 
+"""
+1 *1 N3s 1 {2,S} {3,S}
+2 *2 H   0 {1,S}
+3    N3s 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 444,
+    label = "Xbirad_H",
+    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 478,
+    label = "NH_triplet_H",
+    group = 
+"""
+1 *1 N 2T {2,S}
+2 *2 H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 479,
+    label = "NH_singlet_H",
+    group = 
+"""
+1 *1 N 2S {2,S}
+2 *2 H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 476,
+    label = "CH2_triplet_H",
+    group = 
+"""
+1 *1 C 2T {2,S} {3,S}
+2 *2 H 0  {1,S}
+3    H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 477,
+    label = "CH2_singlet_H",
+    group = 
+"""
+1 *1 C 2S {2,S} {3,S}
+2 *2 H 0  {1,S}
+3    H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 474,
+    label = "Xtrirad_H",
+    group = "OR{C_quartet_H, C_doublet_H}",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 480,
+    label = "C_quartet_H",
+    group = 
+"""
+1 *1 C 3Q {2,S}
+2 *2 H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 481,
+    label = "C_doublet_H",
+    group = 
+"""
+1 *1 C 3D {2,S}
+2 *2 H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 475,
+    label = "Y_1centerquadrad",
+    group = "OR{C_quintet, C_triplet, C_singlet}",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 482,
+    label = "C_quintet",
+    group = 
+"""
+1 *3 C 4V
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 483,
+    label = "C_triplet",
+    group = 
+"""
+1 *3 C 4T
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 484,
+    label = "C_singlet",
+    group = 
+"""
+1 *3 C 4S
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 419,
+    label = "Y_1centertrirad",
+    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 485,
+    label = "N_atom_quartet",
+    group = 
+"""
+1 *3 N 3Q
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 486,
+    label = "N_atom_doublet",
+    group = 
+"""
+1 *3 N 3D
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 487,
+    label = "CH_quartet",
+    group = 
+"""
+1 *3 C 3Q {2,S}
+2    H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 487,
+    label = "CH_doublet",
+    group = 
+"""
+1 *3 C 3D {2,S}
+2    H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 166,
+    label = "Y_1centerbirad",
+    group = 
+"""
+1 *3 R!H {2S,2T}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4407,7 +5984,69 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 488,
+    label = "O_atom_singlet",
+    group = 
+"""
+1 *3 O 2S
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 422,
+    label = "NH_triplet",
+    group = 
+"""
+1 *3 N3s 2T {2,s}
+2    H   0  {1,s}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 490,
+    label = "NH_singlet",
+    group = 
+"""
+1 *3 N 2S {2,S}
+2    H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4429,7 +6068,29 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 489,
+    label = "CH2_singlet",
+    group = 
+"""
+1 *3 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4441,84 +6102,117 @@ entry(
 1 *3 R 1
 """,
     distances = DistanceData(
-        distances = {'d12': -0.0, 'd13': 0.0, 'd23': 0.0},
-        uncertainties = {'d12': 0.127042, 'd13': 0.142775, 'd23': 0.118363},
+        distances = {'d12': -0.0, 'd13': -0.0, 'd23': -0.0},
+        uncertainties = {'d12': 0.090137, 'd13': 0.099372, 'd23': 0.090191},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 88 distances.
-[<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
+Fitted to 148 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=15 label="O/H/OneDe">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
-[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
-[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4530,33 +6224,263 @@ entry(
 1 *3 H 1
 """,
     distances = DistanceData(
-        distances = {'d12': 0.053916, 'd13': -0.145426, 'd23': -0.201781},
-        uncertainties = {'d12': 0.107306, 'd13': 0.15555, 'd23': 0.175088},
+        distances = {'d12': 0.019917, 'd13': -0.263402, 'd23': -0.284827},
+        uncertainties = {'d12': 0.089801, 'd13': 0.137149, 'd23': 0.13716},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 28 distances.
-[<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+Fitted to 31 distances.
+[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
 [<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
-[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=15 label="O/H/OneDe">, <Entry index=170 label="H_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 434,
+    label = "N3_rad",
+    group = 
+"""
+1 *3 {N3s,N3d} 1
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 435,
+    label = "N3s_rad",
+    group = 
+"""
+1 *3 N3s 1
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 436,
+    label = "NH2_rad",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    H   0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 437,
+    label = "N3s_rad_pri",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    R!H 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 438,
+    label = "N3s_rad_sec",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    R!H 0 {1,S}
+3    R!H 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 439,
+    label = "N3d_rad",
+    group = 
+"""
+1 *3 N3d 1 {2,D}
+2    R!H 0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 462,
+    label = "N3d_rad/OneDe",
+    group = 
+"""
+1 *3 N3d 1 {2,D}
+2    Cd  0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 463,
+    label = "N3d_rad/OneDeC",
+    group = 
+"""
+1 *3 N3d 1 {2,D}
+2    Cd  0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 464,
+    label = "N3d_rad/OneDeCdd-O",
+    group = 
+"""
+1 *3 N3d 1 {2,D}
+2    Cd  0 {1,D} {3,D}
+3    Od  0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 440,
+    label = "N5_rad",
+    group = 
+"""
+1 *3 {N5s,N5d,N5t} 1
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 441,
+    label = "N5d_rad",
+    group = 
+"""
+1 *3 N5d 1
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4577,7 +6501,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4598,7 +6522,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4619,7 +6543,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4628,8 +6552,8 @@ entry(
     label = "Ct_rad",
     group = 
 """
-1 *3 C 1 {2,T}
-2    C 0 {1,T}
+1 *3 C     1 {2,T}
+2    {C,N} 0 {1,T}
 """,
     distances = DistanceData(distances={}),
     reference = None,
@@ -4640,7 +6564,49 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 423,
+    label = "Ct_rad/Ct",
+    group = 
+"""
+1 *3 Ct 1 {2,T}
+2    Ct 0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 424,
+    label = "Ct_rad/N",
+    group = 
+"""
+1 *3 Ct        1 {2,T}
+2    {N3t,N5t} 0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4653,31 +6619,46 @@ entry(
 2    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.000752, 'd13': -0.026769, 'd23': -0.010727},
-        uncertainties = {'d12': 0.139863, 'd13': 0.142507, 'd23': 0.10746},
+        distances = {'d12': -0.018971, 'd13': -0.047141, 'd23': -0.022917},
+        uncertainties = {'d12': 0.09691, 'd13': 0.07106, 'd23': 0.083121},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 13 distances.
-[<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
-[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+Fitted to 37 distances.
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4690,20 +6671,21 @@ entry(
 2    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.10996, 'd13': 0.023561, 'd23': 0.175202},
-        uncertainties = {'d12': 0.517736, 'd13': 1.195754, 'd23': 0.914752},
+        distances = {'d12': -0.136184, 'd13': -0.063331, 'd23': 0.107078},
+        uncertainties = {'d12': 0.093981, 'd13': 0.309541, 'd23': 0.269618},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
+Fitted to 3 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4716,29 +6698,43 @@ entry(
 2    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.023817, 'd13': -0.037255, 'd23': -0.049463},
-        uncertainties = {'d12': 0.154028, 'd13': 0.14522, 'd23': 0.109172},
+        distances = {'d12': -0.009623, 'd13': -0.045849, 'd23': -0.033285},
+        uncertainties = {'d12': 0.100949, 'd13': 0.065155, 'd23': 0.08124},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 11 distances.
-[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
-[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+Fitted to 34 distances.
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4751,22 +6747,28 @@ entry(
 2    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.037215, 'd13': -0.075717, 'd23': -0.010755},
-        uncertainties = {'d12': 0.131249, 'd13': 0.17387, 'd23': 0.091706},
+        distances = {'d12': -0.054279, 'd13': -0.040541, 'd23': 0.014703},
+        uncertainties = {'d12': 0.066078, 'd13': 0.077813, 'd23': 0.058061},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 4 distances.
+Fitted to 15 distances.
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4799,7 +6801,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4812,24 +6814,33 @@ entry(
 2    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.068519, 'd13': 0.002407, 'd23': -0.063499},
-        uncertainties = {'d12': 0.183808, 'd13': 0.180621, 'd23': 0.16368},
+        distances = {'d12': 0.029387, 'd13': -0.050486, 'd23': -0.075206},
+        uncertainties = {'d12': 0.129088, 'd13': 0.061486, 'd23': 0.101916},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
+Fitted to 19 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4843,19 +6854,44 @@ entry(
 3    C 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.045152, 'd13': -0.126295, 'd23': -0.170614},
-        uncertainties = {},
+        distances = {'d12': -0.018943, 'd13': -0.058905, 'd23': -0.038636},
+        uncertainties = {'d12': 0.186111, 'd13': 0.056977, 'd23': 0.159044},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 8 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 425,
+    label = "O_rad/NonDeN",
+    group = 
+"""
+1 *3 O   1 {2,S}
+2    N3s 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4864,23 +6900,63 @@ entry(
     label = "O_rad/OneDe",
     group = 
 """
-1 *3 O                1 {2,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *3 O                        1 {2,S}
+2    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.047552, 'd13': -0.189476, 'd23': -0.137794},
-        uncertainties = {},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 426,
+    label = "O_rad/OneDeN",
+    group = 
+"""
+1 *3 O         1 {2,S}
+2    {N3d,N5d} 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 403,
+    label = "InChI=1S/NO3/c2-1(3)4",
+    group = 
+"""
+1 *3 Os  1 {2,S}
+2    N5d 0 {1,S} {3,D} {4,S}
+3    Od  0 {2,D}
+4    Os  0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4904,7 +6980,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4932,7 +7008,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4953,7 +7029,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4974,7 +7050,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4995,7 +7071,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5016,7 +7092,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5037,7 +7113,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5058,7 +7134,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5079,7 +7155,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5101,7 +7177,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5122,7 +7198,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5143,7 +7219,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5164,7 +7240,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5178,8 +7254,8 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.201452, 'd13': 0.01957, 'd23': 0.218397},
-        uncertainties = {'d12': 0.22763, 'd13': 0.165574, 'd23': 0.076267},
+        distances = {'d12': -0.114541, 'd13': 0.064979, 'd23': 0.178218},
+        uncertainties = {'d12': 0.247947, 'd13': 0.243892, 'd23': 0.07111},
     ),
     reference = None,
     referenceType = "",
@@ -5188,13 +7264,14 @@ entry(
 u"""
 Fitted to 6 distances.
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5208,21 +7285,23 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.181294, 'd13': 0.049779, 'd23': 0.22867},
-        uncertainties = {'d12': 0.129489, 'd13': 0.101755, 'd23': 0.080366},
+        distances = {'d12': -0.088979, 'd13': 0.091827, 'd23': 0.179634},
+        uncertainties = {'d12': 0.176275, 'd13': 0.131426, 'd23': 0.082747},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 4 distances.
+Fitted to 5 distances.
 [<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5238,20 +7317,23 @@ entry(
 5    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.098899, 'd13': 0.107464, 'd23': 0.203974},
-        uncertainties = {'d12': 0.642307, 'd13': 0.513985, 'd23': 0.542584},
+        distances = {'d12': -0.088979, 'd13': 0.091827, 'd23': 0.179634},
+        uncertainties = {'d12': 0.176275, 'd13': 0.131426, 'd23': 0.082747},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
+Fitted to 5 distances.
 [<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5281,7 +7363,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5295,20 +7377,19 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.245126, 'd13': -0.045883, 'd23': 0.196141},
-        uncertainties = {'d12': 2.351187, 'd13': 1.689347, 'd23': 0.633811},
+        distances = {'d12': -0.310516, 'd13': -0.14086, 'd23': 0.167356},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
+Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5322,20 +7403,19 @@ entry(
 3    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.245126, 'd13': -0.045883, 'd23': 0.196141},
-        uncertainties = {'d12': 2.351187, 'd13': 1.689347, 'd23': 0.633811},
+        distances = {'d12': -0.310516, 'd13': -0.14086, 'd23': 0.167356},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
+Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5353,20 +7433,16 @@ entry(
 7    H 0 {3,S}
 8    H 0 {3,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.243748, 'd13': -0.046022, 'd23': 0.194587},
-        uncertainties = {},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5388,7 +7464,7 @@ entry(
 11    H 0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.246503, 'd13': -0.045744, 'd23': 0.197696},
+        distances = {'d12': -0.310516, 'd13': -0.14086, 'd23': 0.167356},
         uncertainties = {},
     ),
     reference = None,
@@ -5400,7 +7476,7 @@ Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5422,7 +7498,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5444,7 +7520,29 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 427,
+    label = "Cd_rad/NonDeN",
+    group = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5466,7 +7564,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5488,7 +7586,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5511,7 +7609,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5533,7 +7631,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5555,7 +7653,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5577,7 +7675,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5591,7 +7689,7 @@ entry(
 3    {Cb,Cbf} 0 {1,B}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.284094, 'd13': -0.006631, 'd23': 0.274181},
+        distances = {'d12': -0.098683, 'd13': 0.19151, 'd23': 0.288312},
         uncertainties = {},
     ),
     reference = None,
@@ -5600,10 +7698,10 @@ entry(
     longDesc = 
 u"""
 Fitted to 1 distances.
-[<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5617,20 +7715,28 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.059415, 'd13': 0.050533, 'd23': -0.011774},
-        uncertainties = {'d12': 2.351187, 'd13': 1.689347, 'd23': 0.633811},
+        distances = {'d12': 0.089407, 'd13': 0.139704, 'd23': 0.049018},
+        uncertainties = {'d12': 0.091409, 'd13': 0.092521, 'd23': 0.092982},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 2 distances.
+Fitted to 12 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5644,19 +7750,23 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.01897, 'd13': 0.023163, 'd23': 0.000985},
-        uncertainties = {},
+        distances = {'d12': 0.086493, 'd13': 0.132379, 'd23': 0.044767},
+        uncertainties = {'d12': 0.064261, 'd13': 0.114988, 'd23': 0.103634},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 6 distances.
 [<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5670,19 +7780,23 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.099861, 'd13': 0.077904, 'd23': -0.024533},
-        uncertainties = {},
+        distances = {'d12': 0.092133, 'd13': 0.146555, 'd23': 0.052995},
+        uncertainties = {'d12': 0.144724, 'd13': 0.11165, 'd23': 0.123307},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 6 distances.
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5696,19 +7810,23 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.099861, 'd13': 0.077904, 'd23': -0.024533},
-        uncertainties = {},
+        distances = {'d12': 0.092133, 'd13': 0.146555, 'd23': 0.052995},
+        uncertainties = {'d12': 0.144724, 'd13': 0.11165, 'd23': 0.123307},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 6 distances.
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5730,7 +7848,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5752,7 +7870,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5774,7 +7892,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5796,7 +7914,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5818,7 +7936,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5840,7 +7958,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5862,7 +7980,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5884,7 +8002,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5906,7 +8024,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5928,7 +8046,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5951,7 +8069,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5973,7 +8091,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5995,7 +8113,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6017,7 +8135,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6032,48 +8150,58 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.018845, 'd13': 0.127626, 'd23': 0.142981},
-        uncertainties = {'d12': 0.12533, 'd13': 0.147148, 'd23': 0.090977},
+        distances = {'d12': -0.005069, 'd13': 0.12174, 'd23': 0.125051},
+        uncertainties = {'d12': 0.081703, 'd13': 0.090619, 'd23': 0.074318},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 38 distances.
+Fitted to 61 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6088,26 +8216,34 @@ entry(
 4    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.010519, 'd13': 0.194372, 'd23': 0.180481},
-        uncertainties = {'d12': 0.140279, 'd13': 0.197183, 'd23': 0.150891},
+        distances = {'d12': -0.012477, 'd13': 0.129782, 'd23': 0.140398},
+        uncertainties = {'d12': 0.063384, 'd13': 0.074499, 'd23': 0.080481},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
-[<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+Fitted to 32 distances.
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6122,32 +8258,38 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.056667, 'd13': 0.074301, 'd23': 0.126788},
-        uncertainties = {'d12': 0.150485, 'd13': 0.148771, 'd23': 0.063485},
+        distances = {'d12': 0.001316, 'd13': 0.114097, 'd23': 0.111088},
+        uncertainties = {'d12': 0.106395, 'd13': 0.114647, 'd23': 0.077601},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 20 distances.
+Fitted to 25 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6162,30 +8304,34 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.051628, 'd13': 0.084973, 'd23': 0.132254},
-        uncertainties = {'d12': 0.12943, 'd13': 0.143201, 'd23': 0.062654},
+        distances = {'d12': 0.006978, 'd13': 0.12033, 'd23': 0.111621},
+        uncertainties = {'d12': 0.080046, 'd13': 0.081193, 'd23': 0.063947},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 18 distances.
+Fitted to 21 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6203,24 +8349,27 @@ entry(
 7    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.037001, 'd13': 0.165427, 'd23': 0.125356},
-        uncertainties = {'d12': 0.144598, 'd13': 0.218684, 'd23': 0.106611},
+        distances = {'d12': 0.020851, 'd13': 0.126461, 'd23': 0.104038},
+        uncertainties = {'d12': 0.081002, 'd13': 0.083833, 'd23': 0.072369},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
+Fitted to 14 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6244,20 +8393,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.204566, 'd13': -0.062728, 'd23': 0.138872},
-        uncertainties = {},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6290,7 +8435,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6323,7 +8468,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6347,20 +8492,16 @@ entry(
 13    H 0 {3,S}
 14    H 0 {5,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.210651, 'd13': -0.057039, 'd23': 0.150333},
-        uncertainties = {},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6393,7 +8534,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6408,19 +8549,20 @@ entry(
 4    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.053523, 'd13': -0.038077, 'd23': 0.013999},
-        uncertainties = {},
+        distances = {'d12': -0.008799, 'd13': 0.113186, 'd23': 0.120954},
+        uncertainties = {'d12': 0.795676, 'd13': 0.707693, 'd23': 1.317744},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+Fitted to 2 distances.
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6437,19 +8579,20 @@ entry(
 6    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.053523, 'd13': -0.038077, 'd23': 0.013999},
-        uncertainties = {},
+        distances = {'d12': -0.008799, 'd13': 0.113186, 'd23': 0.120954},
+        uncertainties = {'d12': 0.795676, 'd13': 0.707693, 'd23': 1.317744},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+Fitted to 2 distances.
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6479,7 +8622,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6493,16 +8636,20 @@ entry(
 3    H  0 {1,S}
 4    Ct 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.008173, 'd13': 0.128057, 'd23': 0.118327},
+        uncertainties = {},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6525,7 +8672,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6548,7 +8695,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6563,7 +8710,7 @@ entry(
 4    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.179079, 'd13': -0.065911, 'd23': 0.110215},
+        distances = {'d12': -0.195308, 'd13': -0.145883, 'd23': 0.046936},
         uncertainties = {},
     ),
     reference = None,
@@ -6575,7 +8722,7 @@ Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6598,7 +8745,30 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 428,
+    label = "C_rad/H2/N",
+    group = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6613,26 +8783,22 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.019772, 'd13': 0.159543, 'd23': 0.137355},
-        uncertainties = {'d12': 0.103143, 'd13': 0.169406, 'd23': 0.127546},
+        distances = {'d12': 0.0157, 'd13': 0.103852, 'd23': 0.086834},
+        uncertainties = {'d12': 0.146784, 'd13': 0.161445, 'd23': 0.045843},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 10 distances.
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
+Fitted to 4 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6647,21 +8813,22 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.047323, 'd13': 0.084112, 'd23': 0.128963},
-        uncertainties = {'d12': 0.096371, 'd13': 0.154797, 'd23': 0.185284},
+        distances = {'d12': 0.0157, 'd13': 0.103852, 'd23': 0.086834},
+        uncertainties = {'d12': 0.146784, 'd13': 0.161445, 'd23': 0.045843},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+Fitted to 4 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6681,16 +8848,22 @@ entry(
 9     H 0 {3,S}
 10    H 0 {3,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.057957, 'd13': 0.151021, 'd23': 0.091927},
+        uncertainties = {'d12': 0.140805, 'd13': 0.126351, 'd23': 0.065988},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6723,7 +8896,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6756,7 +8929,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6789,7 +8962,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6803,24 +8976,16 @@ entry(
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.068803, 'd13': 0.214666, 'd23': 0.143488},
-        uncertainties = {'d12': 0.163616, 'd13': 0.270752, 'd23': 0.14425},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 5 distances.
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6834,22 +8999,16 @@ entry(
 3    Cs 0 {1,S}
 4    O  0 {1,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.077421, 'd13': 0.208012, 'd23': 0.126038},
-        uncertainties = {'d12': 0.21197, 'd13': 0.38011, 'd23': 0.270371},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 3 distances.
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6882,7 +9041,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6915,7 +9074,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6929,21 +9088,16 @@ entry(
 3    O 0 {1,S}
 4    O 0 {1,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.055015, 'd13': 0.225312, 'd23': 0.171407},
-        uncertainties = {'d12': 1.207893, 'd13': 1.902951, 'd23': 0.684242},
-    ),
+    distances = DistanceData(distances={}),
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive distances.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 2 distances.
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6966,7 +9120,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6989,7 +9143,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7012,7 +9166,76 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 430,
+    label = "C_rad/H/NonDeCN",
+    group = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    C 0 {1,S}
+4    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 431,
+    label = "C_rad/H/NonDeON",
+    group = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    O 0 {1,S}
+4    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 432,
+    label = "C_rad/H/NonDeNN",
+    group = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    N 0 {1,S}
+4    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7035,7 +9258,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7058,7 +9281,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7081,7 +9304,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7105,7 +9328,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7128,7 +9351,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7151,7 +9374,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7174,7 +9397,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7202,7 +9425,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7225,7 +9448,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7248,7 +9471,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7271,7 +9494,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7294,7 +9517,30 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+    ],
+)
+
+entry(
+    index = 433,
+    label = "C_rad/H/OneDeN",
+    group = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    C 0 {1,S}
+4    N 0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7317,7 +9563,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7340,7 +9586,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7364,7 +9610,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7389,7 +9635,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7412,7 +9658,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7436,7 +9682,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7459,7 +9705,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7483,7 +9729,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7506,7 +9752,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7530,7 +9776,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7553,7 +9799,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7576,7 +9822,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7599,7 +9845,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7622,7 +9868,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7645,7 +9891,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7668,7 +9914,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7691,7 +9937,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7714,7 +9960,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7737,7 +9983,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7770,7 +10016,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7793,7 +10039,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7816,7 +10062,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7840,7 +10086,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7873,7 +10119,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7896,7 +10142,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7919,7 +10165,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7942,7 +10188,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7965,7 +10211,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7988,7 +10234,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8011,7 +10257,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8034,7 +10280,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8057,7 +10303,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8080,7 +10326,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8104,7 +10350,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8127,7 +10373,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8150,7 +10396,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8173,7 +10419,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8196,7 +10442,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8219,7 +10465,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8242,7 +10488,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8265,7 +10511,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8288,7 +10534,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8311,7 +10557,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8334,7 +10580,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8357,7 +10603,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8380,7 +10626,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8403,7 +10649,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8427,7 +10673,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8452,7 +10698,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8475,7 +10721,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8499,7 +10745,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8522,7 +10768,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8546,7 +10792,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8569,7 +10815,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8593,7 +10839,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8616,7 +10862,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8639,7 +10885,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8662,7 +10908,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8685,7 +10931,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8708,7 +10954,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8731,7 +10977,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8754,7 +11000,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8777,7 +11023,7 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -8800,16 +11046,40 @@ u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
+        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
 tree(
 """
-L1: X_H_or_Xrad_H
+L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
     L2: X_H
         L3: H2
+        L3: N3_H
+            L4: N3d_H
+                L5: N3d/H/NonDe
+                    L6: N3d/H/NonDeO
+                    L6: N3d/H/NonDeN
+                    L6: N3d/H/NonDeC
+                L5: N3d/H/OneDe
+                    L6: N3d/H/OneDeC
+                    L6: N3d/H/OneDeN
+            L4: N3s_H
+                L5: NH3
+                L5: N3s_pri_H
+                    L6: N3s/H2/NonDe
+                        L7: N3s/H2/NonDeC
+                        L7: N3s/H2/NonDeO
+                        L7: N3s/H2/NonDeN
+                    L6: N3s/H2/OneDe
+                        L7: N3s/H2/OneDeN
+                L5: N3s_sec_H
+        L3: N5_H
+            L4: N5d_H
+                L5: N5d/H/NonDeOO
         L3: Ct_H
+            L4: Ct/H/NonDeC
+            L4: Ct/H/NonDeN
         L3: O_H
             L4: O_pri
             L4: O_sec
@@ -8819,7 +11089,10 @@ L1: X_H_or_Xrad_H
                     L6: ROOH_pri
                     L6: ROOH_sec
                     L6: ROOH_ter
+                L5: O/H/NonDeN
                 L5: O/H/OneDe
+                    L6: O/H/OneDeC
+                    L6: O/H/OneDeN
         L3: Orad_O_H
         L3: S_H
             L4: S_pri
@@ -8834,16 +11107,20 @@ L1: X_H_or_Xrad_H
                     L6: S/H/CO
         L3: Cd_H
             L4: Cd_pri
+                L5: Cd/H2/NonDeC
+                L5: Cd/H2/NonDeN
             L4: Cd_sec
                 L5: Cd/H/NonDeC
                 L5: Cd/H/NonDeO
                 L5: Cd/H/NonDeS
+                L5: Cd/H/NonDeN
                 L5: Cd/H/OneDe
                     L6: Cd/H/Cd
                         L7: Cd/H/CS
                     L6: Cd/H/Ct
                     L6: Cd/H/Cb
                     L6: Cd/H/CO
+                    L6: Cd/H/N
         L3: Cb_H
         L3: CO_H
             L4: CO_pri
@@ -8879,6 +11156,8 @@ L1: X_H_or_Xrad_H
                 L5: C/H3/CO
                 L5: C/H3/O
                 L5: C/H3/S
+                L5: Cs/H3/NonDeN
+                L5: Cs/H3/OneDeN
             L4: C_sec
                 L5: C/H2/NonDeC
                     L6: InChI=1/C3H8/c1-3-2/h3H2,1-2H3
@@ -8888,6 +11167,7 @@ L1: X_H_or_Xrad_H
                     L6: C/H2/O2
                 L5: C/H2/NonDeS
                     L6: C/H2/CsS
+                L5: C/H2/NonDeN
                 L5: C/H2/OneDe
                     L6: C/H2/OneDeC
                         L7: C/H2/CdCs
@@ -8922,6 +11202,7 @@ L1: X_H_or_Xrad_H
                 L5: C/H/NonDeC
                     L6: C/H/Cs3
                         L7: InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta
+                    L6: C/H/Cs2N
                     L6: C/H/NDMustO
                         L7: C/H/Cs2O
                         L7: C/H/CsO2
@@ -8969,17 +11250,59 @@ L1: X_H_or_Xrad_H
                 L5: C/H/ThreeDe
                 L5: C/H/Cb
     L2: Xrad_H
+        L3: C_rad_H
+            L4: CH3_rad_H
+            L4: Cs/H2/OneDeN
+        L3: OH_rad_H
         L3: Srad_H
-L1: Y_rad_birad
+        L3: N3s_rad_H
+            L4: NH2_rad_H
+            L4: N3s_rad_H_pri
+                L5: N3s_rad_H/H/NonDeN
+    L2: Xbirad_H
+        L3: NH_triplet_H
+        L3: NH_singlet_H
+        L3: CH2_triplet_H
+        L3: CH2_singlet_H
+    L2: Xtrirad_H
+        L3: C_quartet_H
+        L3: C_doublet_H
+L1: Y_rad_birad_trirad_quadrad
+    L2: Y_1centerquadrad
+        L3: C_quintet
+        L3: C_triplet
+        L3: C_singlet
+    L2: Y_1centertrirad
+        L3: N_atom_quartet
+        L3: N_atom_doublet
+        L3: CH_quartet
+        L3: CH_doublet
     L2: Y_1centerbirad
         L3: O_atom_triplet
+        L3: O_atom_singlet
+        L3: NH_triplet
+        L3: NH_singlet
         L3: CH2_triplet
+        L3: CH2_singlet
     L2: Y_rad
         L3: H_rad
+        L3: N3_rad
+            L4: N3s_rad
+                L5: NH2_rad
+                L5: N3s_rad_pri
+                L5: N3s_rad_sec
+            L4: N3d_rad
+                L5: N3d_rad/OneDe
+                    L6: N3d_rad/OneDeC
+                        L7: N3d_rad/OneDeCdd-O
+        L3: N5_rad
+            L4: N5d_rad
         L3: Y_2centeradjbirad
             L4: O2b
             L4: C2b
         L3: Ct_rad
+            L4: Ct_rad/Ct
+            L4: Ct_rad/N
         L3: O_rad
             L4: O_pri_rad
             L4: O_sec_rad
@@ -8987,7 +11310,10 @@ L1: Y_rad_birad
                     L6: InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3
                 L5: O_rad/NonDeO
                     L6: OOCH3
+                L5: O_rad/NonDeN
                 L5: O_rad/OneDe
+                    L6: O_rad/OneDeN
+                    L6: InChI=1S/NO3/c2-1(3)4
                     L6: InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
                     L6: InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o
         L3: S_rad
@@ -9011,6 +11337,7 @@ L1: Y_rad_birad
                     L6: InChI=1/C4H7/c1-3-4-2/h3H,1-2H3
                 L5: Cd_rad/NonDeO
                 L5: Cd_rad/NonDeS
+                L5: Cd_rad/NonDeN
                 L5: Cd_rad/OneDe
                     L6: Cd_rad/Cd
                         L7: Cd_rad/CS
@@ -9054,6 +11381,7 @@ L1: Y_rad_birad
                 L5: C_rad/H2/CO
                 L5: C_rad/H2/O
                 L5: C_rad/H2/S
+                L5: C_rad/H2/N
             L4: C_sec_rad
                 L5: C_rad/H/NonDeC
                     L6: InChI=1/C3H7/c1-3-2/h3H,1-2H3
@@ -9068,6 +11396,9 @@ L1: Y_rad_birad
                 L5: C_rad/H/NonDeS
                     L6: C_rad/H/CsS
                     L6: C_rad/H/S2
+                L5: C_rad/H/NonDeCN
+                L5: C_rad/H/NonDeON
+                L5: C_rad/H/NonDeNN
                 L5: C_rad/H/OneDe
                     L6: C_rad/H/OneDeC
                         L7: C_rad/H/CdCs
@@ -9080,6 +11411,7 @@ L1: Y_rad_birad
                     L6: C_rad/H/OneDeS
                         L7: C_rad/H/CdS
                         L7: C_rad/H/CtS
+                    L6: C_rad/H/OneDeN
                 L5: C_rad/H/TwoDe
                     L6: C_rad/H/CdCd
                         L7: C_rad/H/CdCS
