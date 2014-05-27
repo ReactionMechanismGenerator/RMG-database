@@ -37,11 +37,11 @@ entry(
 3    H 0 0 {1,S}
 4    H 0 0 {1,S}
 """,
-    kinetics = ArrheniusEP(
+    kinetics = Arrhenius(
         A = (36100000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
-        alpha = 0,
-        E0 = (0, 'kcal/mol'),
+        T0 = (1.0,'K'),
+        Ea = (0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2500, 'K'),
     ),
