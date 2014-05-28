@@ -1334,7 +1334,13 @@ entry(
 1 *1 Cd 1 {2,D}
 2    Cd 0 {1,D}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (7240000000.0, 's^-1'),
         n = 0.82,
@@ -1509,7 +1515,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (141000000.0, 's^-1'),
         n = 1.28,
@@ -1579,7 +1591,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (8410000000.0, 's^-1'),
         n = 0.35,
@@ -1649,7 +1667,13 @@ entry(
 2    Cs 0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (147000000.0, 's^-1'),
         n = 1.27,
@@ -4483,7 +4507,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (166000000.0, 's^-1'),
         n = 1.1,
@@ -4555,7 +4585,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (3410000000.0, 's^-1'),
         n = 0.73,
@@ -4627,7 +4663,13 @@ entry(
 2    Cs 0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (6400000.0, 's^-1'),
         n = 1.56,
@@ -9957,9 +9999,9 @@ entry(
     label = "R3H_SS_S;C_rad_out_2H;S_H_out",
     group1 = 
 """
-1 *1 R  1 {2,S}
+1 *1 R!H  1 {2,S}
 2 *4 Ss 0 {1,S} {3,S}
-3 *2 R  0 {2,S} {4,S}
+3 *2 R!H  0 {2,S} {4,S}
 4 *3 H  0 {3,S}
 """,
     group2 = 
@@ -10930,7 +10972,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (9.46e-19, 's^-1'),
         n = 8.97,
@@ -11063,7 +11111,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (0.000113, 's^-1'),
         n = 4.37,
@@ -11132,7 +11186,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (46.1, 's^-1'),
         n = 3.21,
@@ -11201,7 +11261,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (0.251, 's^-1'),
         n = 3.86,
@@ -11237,7 +11303,13 @@ entry(
 2    H 0 {1,S}
 3    H 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (46.1, 's^-1'),
         n = 3.21,
@@ -11353,7 +11425,13 @@ entry(
 2    H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    group3 = "OR{Cs_H_out_H/Cd, Cs_H_out_H/Ct, Cs_H_out_H/CO, Cs_H_out_H/CS}",
+    group3 =
+"""
+1 *2 Cs 0 {2,S} {3,S} {4,S}
+2 *3 H  0 {1,S}
+3    {Cd,Ct,CS,CO}  0 {1,S}
+4    H  0 {1,S}
+""",
     kinetics = ArrheniusEP(
         A = (10500, 's^-1'),
         n = 2.14,
