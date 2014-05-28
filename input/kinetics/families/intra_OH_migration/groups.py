@@ -35,7 +35,7 @@ entry(
     label = "Y_rad_out",
     group = 
 """
-1 *1 {Cd,Cs,Sid,Sis,N} 1
+1 *1 {C,Sid,Sis,N} 1
 """,
     kinetics = None,
     shortDesc = u"""""",
