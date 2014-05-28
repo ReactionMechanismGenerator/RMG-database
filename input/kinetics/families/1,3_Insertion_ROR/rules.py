@@ -11,7 +11,7 @@ transition states are treated as free rotations as they are relatively loose TSs
 entry(
     index = 560,
     label = "doublebond;R_OR",
-    group1 = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, Sd_Cd}",
+    group1 = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, Sd_Cd, N3d_N3d, N3d_Cd}",
     group2 = "OR{H_OR, R_OH}",
     kinetics = ArrheniusEP(
         A = (100, 'cm^3/(mol*s)'),
@@ -680,8 +680,8 @@ entry(
     label = "Cd/H/De_Cd/H2;H_OH",
     group1 = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}

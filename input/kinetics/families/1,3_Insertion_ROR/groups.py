@@ -369,8 +369,8 @@ entry(
     label = "Cd/H2_Cd/H/Nd",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    H        0 {1,S}
 4    H        0 {1,S}
 5    H        0 {2,S}
@@ -389,8 +389,8 @@ entry(
     label = "Cd/H2_Cd/H/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    H                0 {1,S}
 5    H                0 {2,S}
@@ -429,8 +429,8 @@ entry(
     label = "Cd/H/Nd_Cd/H2",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    H        0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 5    H        0 {2,S}
@@ -449,8 +449,8 @@ entry(
     label = "Cd/H/De_Cd/H2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -489,8 +489,8 @@ entry(
     label = "Cd/H2_Cd/Nd2",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    H        0 {1,S}
 4    H        0 {1,S}
 5    {Cs,O,S} 0 {2,S}
@@ -509,8 +509,8 @@ entry(
     label = "Cd/H2_Cd/Nd/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    H                0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -529,8 +529,8 @@ entry(
     label = "Cd/H2_Cd/De2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    H                0 {1,S}
 5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
@@ -569,8 +569,8 @@ entry(
     label = "Cd/Nd2_Cd/H2",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    {Cs,O,S} 0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 5    H        0 {2,S}
@@ -589,8 +589,8 @@ entry(
     label = "Cd/NdDe_Cd/H2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -609,8 +609,8 @@ entry(
     label = "Cd/De2_Cd/H2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -649,8 +649,8 @@ entry(
     label = "Cd/H/Nd_Cd/H/Nd",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    H        0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 5    H        0 {2,S}
@@ -669,8 +669,8 @@ entry(
     label = "Cd/H/Nd_Cd/H/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 5    H                0 {2,S}
@@ -730,8 +730,8 @@ entry(
     label = "Cd/H/De_Cd/H/Nd",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -791,8 +791,8 @@ entry(
     label = "Cd/H/De_Cd/H/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -831,8 +831,8 @@ entry(
     label = "Cd/H/Nd_Cd/Nd2",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    H        0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 5    {Cs,O,S} 0 {2,S}
@@ -851,8 +851,8 @@ entry(
     label = "Cd/H/Nd_Cd/Nd/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -871,8 +871,8 @@ entry(
     label = "Cd/H/Nd_Cd/De2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
@@ -891,8 +891,8 @@ entry(
     label = "Cd/H/De_Cd/Nd2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -911,8 +911,8 @@ entry(
     label = "Cd/H/De_Cd/Nd/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -931,8 +931,8 @@ entry(
     label = "Cd/H/De_Cd/De2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
@@ -971,8 +971,8 @@ entry(
     label = "Cd/Nd2_Cd/H/Nd",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    {Cs,O,S} 0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 5    H        0 {2,S}
@@ -991,8 +991,8 @@ entry(
     label = "Cd/Nd2_Cd/H/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 5    H                0 {2,S}
@@ -1011,8 +1011,8 @@ entry(
     label = "Cd/De2_Cd/H/Nd",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -1031,8 +1031,8 @@ entry(
     label = "Cd/De2_Cd/H/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -1051,8 +1051,8 @@ entry(
     label = "Cd/Nd/De_Cd/H/Nd",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -1071,8 +1071,8 @@ entry(
     label = "Cd/Nd/De_Cd/H/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    H                0 {2,S}
@@ -1111,8 +1111,8 @@ entry(
     label = "Cd/Nd2_Cd/Nd2",
     group = 
 """
-1 *1 C        0 {2,D} {3,S} {4,S}
-2 *2 C        0 {1,D} {5,S} {6,S}
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
 3    {Cs,O,S} 0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 5    {Cs,O,S} 0 {2,S}
@@ -1131,8 +1131,8 @@ entry(
     label = "Cd/Nd2_Cd/Nd/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -1151,8 +1151,8 @@ entry(
     label = "Cd/Nd2_Cd/De2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
@@ -1171,8 +1171,8 @@ entry(
     label = "Cd/Nd/De_Cd/Nd2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -1191,8 +1191,8 @@ entry(
     label = "Cd/Nd/De_Cd/Nd/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -1211,8 +1211,8 @@ entry(
     label = "Cd/Nd/De_Cd/De2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cs,O,S}         0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
@@ -1231,8 +1231,8 @@ entry(
     label = "Cd/De2_Cd/Nd2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -1251,8 +1251,8 @@ entry(
     label = "Cd/De2_Cd/Nd/De",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {2,S}
@@ -1271,8 +1271,8 @@ entry(
     label = "Cd/De2_Cd/De2",
     group = 
 """
-1 *1 C                0 {2,D} {3,S} {4,S}
-2 *2 C                0 {1,D} {5,S} {6,S}
+1 *1 Cd               0 {2,D} {3,S} {4,S}
+2 *2 Cd               0 {1,D} {5,S} {6,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
