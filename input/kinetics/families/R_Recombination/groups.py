@@ -228,8 +228,8 @@ entry(
     label = "Ct_rad/Ct",
     group = 
 """
-1 * C 1 {2,T}
-2   C 0 {1,T}
+1 * Ct 1 {2,T}
+2   Ct 0 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",

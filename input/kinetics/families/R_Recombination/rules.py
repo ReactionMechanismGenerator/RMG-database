@@ -338,8 +338,8 @@ entry(
 """,
     group2 = 
 """
-1 * C 1 {2,T}
-2   C 0 {1,T}
+1 * Ct 1 {2,T}
+2   Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (181000000000000.0, 'cm^3/(mol*s)', '*|/', 3),
@@ -1779,8 +1779,8 @@ entry(
 """,
     group2 = 
 """
-1 * C 1 {2,T}
-2   C 0 {1,T}
+1 * Ct 1 {2,T}
+2   Ct 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (100000000000000.0, 'cm^3/(mol*s)'),
