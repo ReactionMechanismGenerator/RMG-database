@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 576,
     label = "elec_def;multiplebond",
-    group1 = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom}",
+    group1 = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom, imidogen}",
     group2 = "OR{mb_carbonyl, mb_db, mb_tb}",
     kinetics = ArrheniusEP(
         A = (1000000000000.0, 'cm^3/(mol*s)'),
