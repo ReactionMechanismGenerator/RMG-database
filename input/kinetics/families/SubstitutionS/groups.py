@@ -6447,7 +6447,7 @@ entry(
     label = "CH2_triplet",
     group = 
 """
-1 *3 C {2S,2T} {2,S} {3,S}
+1 *3 Cs {2S,2T} {2,S} {3,S}
 2    H 0       {1,S}
 3    H 0       {1,S}
 """,
@@ -6480,8 +6480,8 @@ entry(
     label = "O2b",
     group = 
 """
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
+1 *3 Os 1 {2,S}
+2    Os 1 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6496,8 +6496,8 @@ entry(
     label = "C2b",
     group = 
 """
-1 *3 C 1 {2,T}
-2    C 1 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 1 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6608,7 +6608,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 *3 Ss 1 {2,S}
+1 *3 S 1 {2,S}
 2    R  0 {1,S}
 """,
     kinetics = None,
