@@ -1142,7 +1142,7 @@ entry(
     group = 
 """
 1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S} {6,S} {7,S} {8,S}
+2    Cs 0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H 0 {1,S}
 4    H 0 {1,S}
 5    H 0 {1,S}
@@ -1361,7 +1361,7 @@ entry(
 2 *2 H             0 {1,S}
 3    H             0 {1,S}
 4    H             0 {1,S}
-5    {Cd,Ct,Cb,CO} 0 {1,S}
+5    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1437,7 +1437,7 @@ entry(
 2 *2 H 0 {1,S}
 3    H 0 {1,S}
 4    H 0 {1,S}
-5    C 0 {1,S} {6,D}
+5    Cd 0 {1,S} {6,D}
 6    C 0 {5,D}
 """,
     kinetics = None,
@@ -1457,8 +1457,8 @@ entry(
 2 *2 H 0 {1,S}
 3    H 0 {1,S}
 4    H 0 {1,S}
-5    C 0 {1,S} {6,D} {7,S}
-6    C 0 {5,D} {8,S} {9,S}
+5    Cd 0 {1,S} {6,D} {7,S}
+6    Cd 0 {5,D} {8,S} {9,S}
 7    H 0 {5,S}
 8    H 0 {6,S}
 9    H 0 {6,S}
@@ -1480,8 +1480,8 @@ entry(
 2 *2 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
-5    C  0 {1,S} {6,D} {7,S}
-6    C  0 {5,D} {8,S} {9,S}
+5    Cd  0 {1,S} {6,D} {7,S}
+6    Cd  0 {5,D} {8,S} {9,S}
 7    H  0 {5,S}
 8    Cs 0 {6,S}
 9    H  0 {6,S}
@@ -1503,8 +1503,8 @@ entry(
 2 *2 H  0 {1,S}
 3    H  0 {1,S}
 4    H  0 {1,S}
-5    C  0 {1,S} {6,D} {7,S}
-6    C  0 {5,D} {8,S} {9,S}
+5    Cd  0 {1,S} {6,D} {7,S}
+6    Cd  0 {5,D} {8,S} {9,S}
 7    Cs 0 {5,S}
 8    H  0 {6,S}
 9    H  0 {6,S}
@@ -1526,7 +1526,7 @@ entry(
 2 *2 H 0 {1,S}
 3    H 0 {1,S}
 4    H 0 {1,S}
-5    C 0 {1,S} {6,D}
+5    CS 0 {1,S} {6,D}
 6    S 0 {5,D}
 """,
     kinetics = None,
@@ -2026,7 +2026,7 @@ entry(
     label = "C/H2/Cd\H_Cd\H2/Cs\H3",
     group = 
 """
-1     C 0 {2,S} {5,S} {6,S} {7,S}
+1     Cs 0 {2,S} {5,S} {6,S} {7,S}
 2  *1 C 0 {1,S} {3,S} {8,S} {9,S}
 3     C 0 {2,S} {4,D} {10,S}
 4     C 0 {3,D} {11,S} {12,S}
@@ -3612,22 +3612,6 @@ u"""
 )
 
 entry(
-    index = 187,
-    label = "Orad_H",
-    group = 
-"""
-1 *1 O 1 {2,S}
-2 *2 H 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 188,
     label = "Y_1centerbirad",
     group = 
@@ -3725,8 +3709,8 @@ entry(
     label = "O2b",
     group = 
 """
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
+1 *3 Os 1 {2,S}
+2    Os 1 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -8272,7 +8256,7 @@ entry(
     group = 
 """
 1 *3 N3d  1 {2,D}
-2    {Cd} 0 {1,D}
+2    {Cd,Cdd} 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -8288,7 +8272,7 @@ entry(
     group = 
 """
 1 *3 N3d 1 {2,D}
-2    Cd  0 {1,D}
+2    Cdd  0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -8304,7 +8288,7 @@ entry(
     group = 
 """
 1 *3 N3d 1 {2,D}
-2    Cd  0 {1,D} {3,D}
+2    Cdd  0 {1,D} {3,D}
 3    Od  0 {2,D}
 """,
     kinetics = None,
