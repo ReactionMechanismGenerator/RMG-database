@@ -12,103 +12,133 @@ entry(
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
     group = "OR{X_H, Xrad_H, Xbirad_H, Xtrirad_H}",
     distances = DistanceData(
-        distances = {'d12': 1.269924, 'd13': 2.537285, 'd23': 1.27046},
-        uncertainties = {'d12': 0.090909, 'd13': 0.096682, 'd23': 0.087499},
+        distances = {'d12': 1.293748, 'd13': 2.584604, 'd23': 1.294331},
+        uncertainties = {'d12': 0.083421, 'd13': 0.087377, 'd23': 0.079875},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 296 distances.
+Fitted to 434 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
 [<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=4 label="H2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
-[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 [<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
 [<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
@@ -116,97 +146,154 @@ Fitted to 296 distances.
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=7 label="O_pri">, <Entry index=212 label="Cb_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=60 label="C_methane">, <Entry index=212 label="Cb_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=60 label="C_methane">, <Entry index=197 label="Cd_pri_rad">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=212 label="Cb_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
-[<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
 [<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=40 label="Cb_H">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
-[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
-[<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=4 label="H2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -240,102 +327,132 @@ entry(
 """,
     distances = DistanceData(
         distances = {'d12': 0.0, 'd13': 0.0, 'd23': 0.0},
-        uncertainties = {'d12': 0.090909, 'd13': 0.096682, 'd23': 0.087499},
+        uncertainties = {'d12': 0.083421, 'd13': 0.087377, 'd23': 0.079875},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 296 distances.
+Fitted to 434 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
 [<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=4 label="H2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
-[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 [<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
 [<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
@@ -343,97 +460,154 @@ Fitted to 296 distances.
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=7 label="O_pri">, <Entry index=212 label="Cb_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=60 label="C_methane">, <Entry index=212 label="Cb_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=60 label="C_methane">, <Entry index=197 label="Cd_pri_rad">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=212 label="Cb_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
-[<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
 [<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=40 label="Cb_H">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
-[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
-[<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=4 label="H2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -449,15 +623,15 @@ entry(
 2 *2 H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.283879, 'd13': -0.27572, 'd23': 0.00683},
-        uncertainties = {'d12': 0.181615, 'd13': 0.159884, 'd23': 0.103772},
+        distances = {'d12': -0.306587, 'd13': -0.312745, 'd23': -0.008039},
+        uncertainties = {'d12': 0.189489, 'd13': 0.171105, 'd23': 0.099821},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 43 distances.
+Fitted to 45 distances.
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=4 label="H2">, <Entry index=246 label="C_rad/H2/CO">]
@@ -465,13 +639,14 @@ Fitted to 43 distances.
 [<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
 [<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
 [<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
@@ -1058,56 +1233,64 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.027477, 'd13': -0.070413, 'd23': -0.034327},
-        uncertainties = {'d12': 0.097833, 'd13': 0.103736, 'd23': 0.107928},
+        distances = {'d12': -0.047477, 'd13': -0.102297, 'd23': -0.045687},
+        uncertainties = {'d12': 0.090885, 'd13': 0.100314, 'd23': 0.102494},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 51 distances.
+Fitted to 65 distances.
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
 [<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=7 label="O_pri">, <Entry index=212 label="Cb_rad">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -1124,15 +1307,15 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.138029, 'd13': -0.062523, 'd23': -0.171971},
-        uncertainties = {'d12': 0.163095, 'd13': 0.157954, 'd23': 0.052296},
+        distances = {'d12': 0.11876, 'd13': -0.100536, 'd23': -0.187001},
+        uncertainties = {'d12': 0.155545, 'd13': 0.166905, 'd23': 0.042767},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
+Fitted to 10 distances.
 [<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=7 label="O_pri">, <Entry index=212 label="Cb_rad">]
@@ -1157,48 +1340,56 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.056684, 'd13': -0.071806, 'd23': -0.010037},
-        uncertainties = {'d12': 0.09096, 'd13': 0.099518, 'd23': 0.116906},
+        distances = {'d12': -0.076333, 'd13': -0.102602, 'd23': -0.021157},
+        uncertainties = {'d12': 0.081809, 'd13': 0.09146, 'd23': 0.110907},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 43 distances.
+Fitted to 55 distances.
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
 [<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -1215,27 +1406,30 @@ entry(
 3    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.009256, 'd13': -0.077576, 'd23': -0.062124},
-        uncertainties = {'d12': 0.076199, 'd13': 0.098708, 'd23': 0.048409},
+        distances = {'d12': -0.024893, 'd13': -0.108282, 'd23': -0.076016},
+        uncertainties = {'d12': 0.066474, 'd13': 0.080892, 'd23': 0.044089},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 19 distances.
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
+Fitted to 24 distances.
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -1252,35 +1446,40 @@ entry(
 3    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.093008, 'd13': -0.061089, 'd23': 0.036074},
-        uncertainties = {'d12': 0.109756, 'd13': 0.073921, 'd23': 0.136042},
+        distances = {'d12': -0.11507, 'd13': -0.09354, 'd23': 0.02483},
+        uncertainties = {'d12': 0.097673, 'd13': 0.068916, 'd23': 0.127104},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 23 distances.
-[<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
-[<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
+Fitted to 30 distances.
 [<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
 [<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
-[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
+[<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -1298,26 +1497,29 @@ entry(
 4    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.111574, 'd13': -0.06039, 'd23': 0.056929},
-        uncertainties = {'d12': 0.083042, 'd13': 0.087805, 'd23': 0.114275},
+        distances = {'d12': -0.124828, 'd13': -0.091112, 'd23': 0.0388},
+        uncertainties = {'d12': 0.070845, 'd13': 0.079744, 'd23': 0.109211},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 14 distances.
+Fitted to 18 distances.
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
-[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
@@ -1339,8 +1541,8 @@ entry(
 7 *2 H  0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.038433, 'd13': -0.072098, 'd23': -0.104069},
-        uncertainties = {'d12': 1.505344, 'd13': 0.369241, 'd23': 1.625538},
+        distances = {'d12': 0.001592, 'd13': -0.123949, 'd23': -0.11889},
+        uncertainties = {'d12': 1.717434, 'd13': 0.317263, 'd23': 1.785406},
     ),
     reference = None,
     referenceType = "",
@@ -1369,7 +1571,7 @@ entry(
 7 *2 H  0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.060343, 'd13': -0.06169, 'd23': -0.115327},
+        distances = {'d12': 0.023502, 'd13': -0.11354, 'd23': -0.130149},
         uncertainties = {},
     ),
     reference = None,
@@ -1399,7 +1601,7 @@ entry(
 7 *2 H  0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.153416, 'd13': -0.020503, 'd23': 0.131641},
+        distances = {'d12': -0.172453, 'd13': -0.056427, 'd23': 0.114465},
         uncertainties = {},
     ),
     reference = None,
@@ -1447,7 +1649,7 @@ entry(
 3    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.191366, 'd13': -0.28421, 'd23': -0.088074},
+        distances = {'d12': -0.210221, 'd13': -0.319117, 'd23': -0.10432},
         uncertainties = {},
     ),
     reference = None,
@@ -1473,7 +1675,7 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.191366, 'd13': -0.28421, 'd23': -0.088074},
+        distances = {'d12': -0.210221, 'd13': -0.319117, 'd23': -0.10432},
         uncertainties = {},
     ),
     reference = None,
@@ -1521,17 +1723,21 @@ entry(
 3    O 1 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.189206, 'd13': -0.029066, 'd23': 0.161443},
-        uncertainties = {'d12': 0.056656, 'd13': 0.040285, 'd23': 0.100804},
+        distances = {'d12': -0.202884, 'd13': -0.021558, 'd23': 0.181476},
+        uncertainties = {'d12': 0.069908, 'd13': 0.092608, 'd23': 0.139907},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
-[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+Fitted to 9 distances.
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -1792,21 +1998,26 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.15817, 'd13': 0.026649, 'd23': -0.133046},
-        uncertainties = {'d12': 0.061062, 'd13': 0.203864, 'd23': 0.204412},
+        distances = {'d12': 0.135921, 'd13': 0.027656, 'd23': -0.110615},
+        uncertainties = {'d12': 0.072207, 'd13': 0.169201, 'd23': 0.171562},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 11 distances.
+Fitted to 17 distances.
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=212 label="Cb_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
 """,
     history = [
@@ -1825,20 +2036,25 @@ entry(
 4    H     0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.1607, 'd13': 0.053773, 'd23': -0.108299},
-        uncertainties = {'d12': 0.070387, 'd13': 0.099229, 'd23': 0.084436},
+        distances = {'d12': 0.137048, 'd13': 0.046411, 'd23': -0.092959},
+        uncertainties = {'d12': 0.07799, 'd13': 0.066265, 'd23': 0.079427},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
+Fitted to 15 distances.
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=212 label="Cb_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
 """,
     history = [
@@ -1857,20 +2073,25 @@ entry(
 4    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.1607, 'd13': 0.053773, 'd23': -0.108299},
-        uncertainties = {'d12': 0.070387, 'd13': 0.099229, 'd23': 0.084436},
+        distances = {'d12': 0.137048, 'd13': 0.046411, 'd23': -0.092959},
+        uncertainties = {'d12': 0.07799, 'd13': 0.066265, 'd23': 0.079427},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
+Fitted to 15 distances.
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=212 label="Cb_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
 """,
     history = [
@@ -1912,8 +2133,8 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.142569, 'd13': -0.140617, 'd23': -0.285648},
-        uncertainties = {'d12': 0.095757, 'd13': 3.335242, 'd23': 3.443331},
+        distances = {'d12': 0.123714, 'd13': -0.175524, 'd23': -0.301893},
+        uncertainties = {'d12': 0.091346, 'd13': 3.781333, 'd23': 3.717361},
     ),
     reference = None,
     referenceType = "",
@@ -1939,8 +2160,8 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.142569, 'd13': -0.140617, 'd23': -0.285648},
-        uncertainties = {'d12': 0.095757, 'd13': 3.335242, 'd23': 3.443331},
+        distances = {'d12': 0.123714, 'd13': -0.175524, 'd23': -0.301893},
+        uncertainties = {'d12': 0.091346, 'd13': 3.781333, 'd23': 3.717361},
     ),
     reference = None,
     referenceType = "",
@@ -2197,18 +2418,21 @@ entry(
 4 *2 H        0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.183058, 'd13': 0.054203, 'd23': -0.130654},
-        uncertainties = {'d12': 0.153896, 'd13': 0.213348, 'd23': 0.140765},
+        distances = {'d12': 0.156531, 'd13': 0.052632, 'd23': -0.106064},
+        uncertainties = {'d12': 0.152295, 'd13': 0.09143, 'd23': 0.121302},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 3 distances.
+Fitted to 6 distances.
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=40 label="Cb_H">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=40 label="Cb_H">, <Entry index=232 label="C_methyl">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -2226,26 +2450,43 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.027552, 'd13': 0.125716, 'd23': 0.097279},
-        uncertainties = {'d12': 0.098741, 'd13': 0.069537, 'd23': 0.117972},
+        distances = {'d12': 0.020314, 'd13': 0.111787, 'd23': 0.092088},
+        uncertainties = {'d12': 0.056855, 'd13': 0.061044, 'd23': 0.093532},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 13 distances.
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
+Fitted to 41 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
-[<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
 [<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -2263,20 +2504,28 @@ entry(
 4    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.028659, 'd13': 0.11906, 'd23': 0.089442},
-        uncertainties = {'d12': 0.110833, 'd13': 0.082994, 'd23': 0.104281},
+        distances = {'d12': 0.023193, 'd13': 0.097253, 'd23': 0.073195},
+        uncertainties = {'d12': 0.065979, 'd13': 0.050606, 'd23': 0.082887},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
+Fitted to 14 distances.
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
-[<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -2294,20 +2543,29 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.026666, 'd13': 0.131041, 'd23': 0.103548},
-        uncertainties = {'d12': 0.123767, 'd13': 0.083643, 'd23': 0.163998},
+        distances = {'d12': 0.01872, 'd13': 0.119836, 'd23': 0.102552},
+        uncertainties = {'d12': 0.056334, 'd13': 0.069071, 'd23': 0.10398},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
+Fitted to 27 distances.
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
@@ -2326,20 +2584,27 @@ entry(
 4    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.026666, 'd13': 0.131041, 'd23': 0.103548},
-        uncertainties = {'d12': 0.123767, 'd13': 0.083643, 'd23': 0.163998},
+        distances = {'d12': 0.017942, 'd13': 0.118502, 'd23': 0.101737},
+        uncertainties = {'d12': 0.058182, 'd13': 0.067981, 'd23': 0.104944},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
+Fitted to 25 distances.
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
@@ -2366,13 +2631,18 @@ entry(
 12    H 0 {5,S}
 13    H 0 {5,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.005815, 'd13': 0.150733, 'd23': 0.143788},
+        uncertainties = {'d12': 0.430248, 'd13': 0.622077, 'd23': 0.914989},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -2389,13 +2659,18 @@ entry(
 3 *2 H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.028056, 'd13': 0.135843, 'd23': 0.112327},
+        uncertainties = {'d12': 0.271295, 'd13': 0.732032, 'd23': 0.850393},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -2691,110 +2966,159 @@ entry(
 5    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.079461, 'd13': 0.085503, 'd23': 0.003965},
-        uncertainties = {'d12': 0.055652, 'd13': 0.070125, 'd23': 0.068071},
+        distances = {'d12': 0.065095, 'd13': 0.065519, 'd23': -0.001488},
+        uncertainties = {'d12': 0.053355, 'd13': 0.05837, 'd23': 0.056766},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 170 distances.
+Fitted to 251 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
-[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=212 label="Cb_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=60 label="C_methane">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
@@ -2816,34 +3140,38 @@ entry(
 5    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.126511, 'd13': 0.111416, 'd23': -0.016955},
-        uncertainties = {'d12': 0.065643, 'd13': 0.071284, 'd23': 0.059259},
+        distances = {'d12': 0.114336, 'd13': 0.085947, 'd23': -0.030804},
+        uncertainties = {'d12': 0.056909, 'd13': 0.056229, 'd23': 0.044845},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 35 distances.
-[<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
-[<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+Fitted to 48 distances.
+[<Entry index=60 label="C_methane">, <Entry index=212 label="Cb_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=60 label="C_methane">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
+[<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -2862,45 +3190,65 @@ entry(
 5    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.07569, 'd13': 0.076206, 'd23': -0.001808},
-        uncertainties = {'d12': 0.048904, 'd13': 0.061891, 'd23': 0.053909},
+        distances = {'d12': 0.057792, 'd13': 0.061316, 'd23': 0.001747},
+        uncertainties = {'d12': 0.039405, 'd13': 0.050354, 'd23': 0.043773},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 86 distances.
-[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+Fitted to 133 distances.
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
 [<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
@@ -2908,14 +3256,25 @@ Fitted to 86 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -2934,20 +3293,20 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.090221, 'd13': 0.072989, 'd23': -0.019645},
-        uncertainties = {'d12': 0.040119, 'd13': 0.059519, 'd23': 0.054072},
+        distances = {'d12': 0.077331, 'd13': 0.05527, 'd23': -0.024808},
+        uncertainties = {'d12': 0.03496, 'd13': 0.050917, 'd23': 0.046087},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 61 distances.
+Fitted to 82 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
@@ -2958,17 +3317,25 @@ Fitted to 61 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
 """,
@@ -2992,26 +3359,31 @@ entry(
 8    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.089668, 'd13': 0.103717, 'd23': 0.011756},
-        uncertainties = {'d12': 0.06109, 'd13': 0.07524, 'd23': 0.067074},
+        distances = {'d12': 0.074875, 'd13': 0.078569, 'd23': 0.001177},
+        uncertainties = {'d12': 0.048551, 'd13': 0.059007, 'd23': 0.056445},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 20 distances.
+Fitted to 26 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
@@ -3067,24 +3439,38 @@ entry(
 5    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.026435, 'd13': 0.115546, 'd23': 0.087352},
-        uncertainties = {'d12': 0.087084, 'd13': 0.101213, 'd23': 0.083968},
+        distances = {'d12': 0.009819, 'd13': 0.085947, 'd23': 0.074351},
+        uncertainties = {'d12': 0.043655, 'd13': 0.054009, 'd23': 0.04082},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
-[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+Fitted to 24 distances.
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3132,22 +3518,30 @@ entry(
 9    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.03772, 'd13': 0.112233, 'd23': 0.073394},
-        uncertainties = {'d12': 0.104478, 'd13': 0.103322, 'd23': 0.058874},
+        distances = {'d12': 0.011261, 'd13': 0.083295, 'd23': 0.07071},
+        uncertainties = {'d12': 0.053629, 'd13': 0.055145, 'd23': 0.035936},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+Fitted to 16 distances.
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3173,16 +3567,18 @@ entry(
 12    H 0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.005328, 'd13': 0.148193, 'd23': 0.141704},
-        uncertainties = {},
+        distances = {'d12': 0.019789, 'd13': 0.068968, 'd23': 0.04547},
+        uncertainties = {'d12': 0.03778, 'd13': 0.104699, 'd23': 0.099822},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 3 distances.
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3207,13 +3603,18 @@ entry(
 11    H 0 {4,S}
 12    H 0 {4,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.020158, 'd13': 0.098505, 'd23': 0.077448},
+        uncertainties = {'d12': 0.248308, 'd13': 0.628665, 'd23': 0.478378},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3232,7 +3633,7 @@ entry(
 5    Ct 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.099521, 'd13': 0.114056, 'd23': 0.012929},
+        distances = {'d12': 0.083597, 'd13': 0.086408, 'd23': 0.000955},
         uncertainties = {},
     ),
     reference = None,
@@ -3284,19 +3685,20 @@ entry(
 5    CO 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.028131, 'd13': 0.062249, 'd23': 0.031324},
-        uncertainties = {'d12': 0.091343, 'd13': 0.066003, 'd23': 0.06428},
+        distances = {'d12': 0.022853, 'd13': 0.037905, 'd23': 0.013061},
+        uncertainties = {'d12': 0.073409, 'd13': 0.051135, 'd23': 0.046116},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
+Fitted to 7 distances.
 [<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3315,18 +3717,26 @@ entry(
 5    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.04604, 'd13': 0.058751, 'd23': 0.010679},
-        uncertainties = {'d12': 0.047682, 'd13': 0.056975, 'd23': 0.057051},
+        distances = {'d12': 0.045302, 'd13': 0.062179, 'd23': 0.019631},
+        uncertainties = {'d12': 0.039544, 'd13': 0.051318, 'd23': 0.049194},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
+Fitted to 19 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3417,38 +3827,48 @@ entry(
 5    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.054067, 'd13': 0.080718, 'd23': 0.024764},
-        uncertainties = {'d12': 0.063606, 'd13': 0.070685, 'd23': 0.080804},
+        distances = {'d12': 0.043976, 'd13': 0.054789, 'd23': 0.008772},
+        uncertainties = {'d12': 0.072994, 'd13': 0.058414, 'd23': 0.068133},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 39 distances.
+Fitted to 54 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
@@ -3469,27 +3889,34 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.064722, 'd13': 0.054872, 'd23': -0.012475},
-        uncertainties = {'d12': 0.067332, 'd13': 0.05161, 'd23': 0.063455},
+        distances = {'d12': 0.057261, 'd13': 0.039991, 'd23': -0.019889},
+        uncertainties = {'d12': 0.079632, 'd13': 0.051569, 'd23': 0.056401},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 22 distances.
+Fitted to 34 distances.
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3514,22 +3941,29 @@ entry(
 11    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.07359, 'd13': 0.112977, 'd23': 0.036841},
-        uncertainties = {'d12': 0.05237, 'd13': 0.074911, 'd23': 0.03167},
+        distances = {'d12': 0.0755, 'd13': 0.077341, 'd23': -0.00037},
+        uncertainties = {'d12': 0.091016, 'd13': 0.065237, 'd23': 0.039174},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
+Fitted to 17 distances.
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3548,16 +3982,17 @@ entry(
 5    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.061099, 'd13': 0.081477, 'd23': 0.01889},
-        uncertainties = {'d12': 0.081135, 'd13': 0.075889, 'd23': 0.116065},
+        distances = {'d12': 0.039224, 'd13': 0.054655, 'd23': 0.013951},
+        uncertainties = {'d12': 0.073853, 'd13': 0.068145, 'd23': 0.112382},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 10 distances.
+Fitted to 11 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
@@ -3581,15 +4016,16 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.05171, 'd13': 0.073503, 'd23': 0.019514},
-        uncertainties = {'d12': 0.095915, 'd13': 0.056339, 'd23': 0.121442},
+        distances = {'d12': 0.030586, 'd13': 0.049729, 'd23': 0.017063},
+        uncertainties = {'d12': 0.085177, 'd13': 0.06172, 'd23': 0.118489},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
+Fitted to 9 distances.
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
@@ -3646,8 +4082,8 @@ entry(
 5    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.093963, 'd13': 0.109386, 'd23': 0.016706},
-        uncertainties = {'d12': 0.098703, 'd13': 0.996854, 'd23': 0.918765},
+        distances = {'d12': 0.073775, 'd13': 0.07436, 'd23': 0.001504},
+        uncertainties = {'d12': 0.107335, 'd13': 0.764773, 'd23': 0.834933},
     ),
     reference = None,
     referenceType = "",
@@ -3747,19 +4183,21 @@ entry(
 5    {Cs,O,S}         0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.006208, 'd13': 0.152065, 'd23': 0.14628},
-        uncertainties = {'d12': 0.060126, 'd13': 0.178268, 'd23': 0.178142},
+        distances = {'d12': 0.002066, 'd13': 0.101477, 'd23': 0.099293},
+        uncertainties = {'d12': 0.096149, 'd13': 0.088503, 'd23': 0.072218},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 4 distances.
+Fitted to 6 distances.
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
-[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3778,17 +4216,19 @@ entry(
 5    Cs               0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.007925, 'd13': 0.150129, 'd23': 0.141739},
-        uncertainties = {'d12': 0.091194, 'd13': 0.257249, 'd23': 0.276641},
+        distances = {'d12': 0.007131, 'd13': 0.096436, 'd23': 0.088625},
+        uncertainties = {'d12': 0.115872, 'd13': 0.094904, 'd23': 0.07733},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 3 distances.
+Fitted to 5 distances.
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
     history = [
@@ -3808,16 +4248,18 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.011356, 'd13': 0.161384, 'd23': 0.171816},
-        uncertainties = {},
+        distances = {'d12': 0.018023, 'd13': 0.085385, 'd23': 0.066725},
+        uncertainties = {'d12': 0.242312, 'd13': 0.160942, 'd23': 0.094395},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 3 distances.
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -3909,8 +4351,8 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.014936, 'd13': 0.146036, 'd23': 0.130802},
-        uncertainties = {'d12': 0.339793, 'd13': 0.732489, 'd23': 0.662175},
+        distances = {'d12': -0.00673, 'd13': 0.110501, 'd23': 0.116497},
+        uncertainties = {'d12': 0.317336, 'd13': 0.550232, 'd23': 0.587838},
     ),
     reference = None,
     referenceType = "",
@@ -3998,7 +4440,7 @@ entry(
 5    O                0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.001914, 'd13': 0.156908, 'd23': 0.157631},
+        distances = {'d12': -0.019041, 'd13': 0.12248, 'd23': 0.143745},
         uncertainties = {},
     ),
     reference = None,
@@ -4098,8 +4540,8 @@ entry(
 5    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.027908, 'd13': 0.154026, 'd23': 0.124709},
-        uncertainties = {'d12': 0.162467, 'd13': 0.358092, 'd23': 0.270404},
+        distances = {'d12': 0.004767, 'd13': 0.117833, 'd23': 0.111241},
+        uncertainties = {'d12': 0.123807, 'd13': 0.28002, 'd23': 0.243562},
     ),
     reference = None,
     referenceType = "",
@@ -4128,8 +4570,8 @@ entry(
 5    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.027908, 'd13': 0.154026, 'd23': 0.124709},
-        uncertainties = {'d12': 0.162467, 'd13': 0.358092, 'd23': 0.270404},
+        distances = {'d12': 0.004767, 'd13': 0.117833, 'd23': 0.111241},
+        uncertainties = {'d12': 0.123807, 'd13': 0.28002, 'd23': 0.243562},
     ),
     reference = None,
     referenceType = "",
@@ -4524,24 +4966,28 @@ entry(
 5    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.025674, 'd13': 0.08152, 'd23': 0.054275},
-        uncertainties = {'d12': 0.075026, 'd13': 0.155869, 'd23': 0.16692},
+        distances = {'d12': 0.036851, 'd13': 0.070158, 'd23': 0.032318},
+        uncertainties = {'d12': 0.083991, 'd13': 0.12595, 'd23': 0.133152},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 10 distances.
+Fitted to 16 distances.
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -4560,23 +5006,27 @@ entry(
 5    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.033281, 'd13': 0.065772, 'd23': 0.030901},
-        uncertainties = {'d12': 0.080366, 'd13': 0.160806, 'd23': 0.169946},
+        distances = {'d12': 0.043073, 'd13': 0.062117, 'd23': 0.018093},
+        uncertainties = {'d12': 0.086525, 'd13': 0.128312, 'd23': 0.132956},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
-[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+Fitted to 15 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -4595,22 +5045,26 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.041668, 'd13': 0.076264, 'd23': 0.033071},
-        uncertainties = {'d12': 0.087981, 'd13': 0.059635, 'd23': 0.073334},
+        distances = {'d12': 0.049181, 'd13': 0.069558, 'd23': 0.019501},
+        uncertainties = {'d12': 0.090397, 'd13': 0.045729, 'd23': 0.062856},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
+Fitted to 14 distances.
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -4687,7 +5141,7 @@ entry(
 5    {Cs,O} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.078544, 'd13': -0.074118, 'd23': 0.001956},
+        distances = {'d12': -0.097399, 'd13': -0.109025, 'd23': -0.014289},
         uncertainties = {},
     ),
     reference = None,
@@ -4715,7 +5169,7 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.078544, 'd13': -0.074118, 'd23': 0.001956},
+        distances = {'d12': -0.097399, 'd13': -0.109025, 'd23': -0.014289},
         uncertainties = {},
     ),
     reference = None,
@@ -5304,7 +5758,7 @@ entry(
 5    {Cs,O,S}         0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.056111, 'd13': 0.250805, 'd23': 0.305545},
+        distances = {'d12': -0.075148, 'd13': 0.214881, 'd23': 0.288369},
         uncertainties = {},
     ),
     reference = None,
@@ -5332,7 +5786,7 @@ entry(
 5    Cs               0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.056111, 'd13': 0.250805, 'd23': 0.305545},
+        distances = {'d12': -0.075148, 'd13': 0.214881, 'd23': 0.288369},
         uncertainties = {},
     ),
     reference = None,
@@ -5360,7 +5814,7 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.056111, 'd13': 0.250805, 'd23': 0.305545},
+        distances = {'d12': -0.075148, 'd13': 0.214881, 'd23': 0.288369},
         uncertainties = {},
     ),
     reference = None,
@@ -6523,103 +6977,133 @@ entry(
 1 *3 R 1
 """,
     distances = DistanceData(
-        distances = {'d12': 0.0, 'd13': 0.0, 'd23': 0.0},
-        uncertainties = {'d12': 0.090909, 'd13': 0.096682, 'd23': 0.087499},
+        distances = {'d12': -0.0, 'd13': -0.0, 'd23': -0.0},
+        uncertainties = {'d12': 0.083421, 'd13': 0.087377, 'd23': 0.079875},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 296 distances.
+Fitted to 434 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
 [<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=4 label="H2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
-[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 [<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
-[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
 [<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
@@ -6627,97 +7111,154 @@ Fitted to 296 distances.
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=7 label="O_pri">, <Entry index=212 label="Cb_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=170 label="H_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=60 label="C_methane">, <Entry index=212 label="Cb_rad">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=60 label="C_methane">, <Entry index=197 label="Cd_pri_rad">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=212 label="Cb_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
-[<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
 [<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=4 label="H2">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=40 label="Cb_H">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
-[<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
-[<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=4 label="H2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -6732,26 +7273,27 @@ entry(
 1 *3 H 1
 """,
     distances = DistanceData(
-        distances = {'d12': 0.007646, 'd13': -0.278412, 'd23': -0.287427},
-        uncertainties = {'d12': 0.099092, 'd13': 0.13814, 'd23': 0.157627},
+        distances = {'d12': -0.00726, 'd13': -0.31565, 'd23': -0.310303},
+        uncertainties = {'d12': 0.098572, 'd13': 0.146058, 'd23': 0.16637},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 43 distances.
-[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+Fitted to 45 distances.
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=170 label="H_rad">]
-[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
-[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=170 label="H_rad">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=170 label="H_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=170 label="H_rad">]
+[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=170 label="H_rad">]
-[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=170 label="H_rad">]
-[<Entry index=42 label="CO_pri">, <Entry index=170 label="H_rad">]
+[<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=170 label="H_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=170 label="H_rad">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=170 label="H_rad">]
@@ -6760,7 +7302,7 @@ Fitted to 43 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=170 label="H_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=170 label="H_rad">]
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=170 label="H_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=170 label="H_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7007,19 +7549,23 @@ entry(
 2    {Ct,Os,Ss} 1 {1,{S,T}}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.149602, 'd13': -0.02892, 'd23': -0.17757},
-        uncertainties = {'d12': 0.209421, 'd13': 0.046178, 'd23': 0.233132},
+        distances = {'d12': 0.175636, 'd13': -0.019858, 'd23': -0.195669},
+        uncertainties = {'d12': 0.185837, 'd13': 0.089612, 'd23': 0.157806},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
+Fitted to 9 distances.
 [<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7035,19 +7581,23 @@ entry(
 2    O 1 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.149602, 'd13': -0.02892, 'd23': -0.17757},
-        uncertainties = {'d12': 0.209421, 'd13': 0.046178, 'd23': 0.233132},
+        distances = {'d12': 0.175636, 'd13': -0.019858, 'd23': -0.195669},
+        uncertainties = {'d12': 0.185837, 'd13': 0.089612, 'd23': 0.157806},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
+Fitted to 9 distances.
 [<Entry index=12 label="ROOH_pri">, <Entry index=172 label="O2b">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=172 label="O2b">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=172 label="O2b">]
 [<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=172 label="O2b">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=172 label="O2b">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7147,27 +7697,30 @@ entry(
 2    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.034992, 'd13': -0.07071, 'd23': -0.026645},
-        uncertainties = {'d12': 0.101702, 'd13': 0.101254, 'd23': 0.096952},
+        distances = {'d12': -0.046183, 'd13': -0.102008, 'd23': -0.046331},
+        uncertainties = {'d12': 0.094226, 'd13': 0.098789, 'd23': 0.084731},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 51 distances.
+Fitted to 65 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 [<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
@@ -7176,25 +7729,30 @@ Fitted to 51 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
 [<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=40 label="Cb_H">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=176 label="O_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7210,15 +7768,15 @@ entry(
 2    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.171511, 'd13': -0.059679, 'd23': 0.142013},
-        uncertainties = {'d12': 0.056171, 'd13': 0.151314, 'd23': 0.141148},
+        distances = {'d12': -0.186037, 'd13': -0.097987, 'd23': 0.121525},
+        uncertainties = {'d12': 0.043181, 'd13': 0.162954, 'd23': 0.145489},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
+Fitted to 10 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=11 label="H2O2">, <Entry index=176 label="O_pri_rad">]
@@ -7242,46 +7800,54 @@ entry(
 2    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.009862, 'd13': -0.072741, 'd23': -0.057691},
-        uncertainties = {'d12': 0.109761, 'd13': 0.097682, 'd23': 0.094223},
+        distances = {'d12': -0.021095, 'd13': -0.102729, 'd23': -0.076443},
+        uncertainties = {'d12': 0.101755, 'd13': 0.090406, 'd23': 0.07615},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 43 distances.
+Fitted to 55 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
-[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 [<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
 [<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7297,26 +7863,29 @@ entry(
 2    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.062028, 'd13': -0.078412, 'd23': -0.009991},
-        uncertainties = {'d12': 0.049672, 'd13': 0.098598, 'd23': 0.077719},
+        distances = {'d12': -0.075857, 'd13': -0.108751, 'd23': -0.025358},
+        uncertainties = {'d12': 0.045671, 'd13': 0.080764, 'd23': 0.067626},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 19 distances.
+Fitted to 24 distances.
 [<Entry index=4 label="H2">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=11 label="H2O2">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
-[<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=42 label="CO_pri">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=178 label="O_rad/NonDeC">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=60 label="C_methane">, <Entry index=178 label="O_rad/NonDeC">]
 """,
     history = [
@@ -7366,33 +7935,38 @@ entry(
 2    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.038597, 'd13': -0.06165, 'd23': -0.096114},
-        uncertainties = {'d12': 0.123773, 'd13': 0.069866, 'd23': 0.114364},
+        distances = {'d12': 0.026519, 'd13': -0.093065, 'd23': -0.116342},
+        uncertainties = {'d12': 0.111449, 'd13': 0.067164, 'd23': 0.087678},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 23 distances.
-[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+Fitted to 30 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
+[<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
 [<Entry index=60 label="C_methane">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
-[<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=4 label="H2">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7409,20 +7983,22 @@ entry(
 3    C 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.003504, 'd13': -0.063307, 'd23': -0.065737},
-        uncertainties = {'d12': 0.171371, 'd13': 0.041807, 'd23': 0.171033},
+        distances = {'d12': 0.004589, 'd13': -0.096538, 'd23': -0.101126},
+        uncertainties = {'d12': 0.13732, 'd13': 0.052102, 'd23': 0.121946},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
+Fitted to 12 distances.
 [<Entry index=60 label="C_methane">, <Entry index=181 label="OOCH3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=181 label="OOCH3">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=181 label="OOCH3">]
 [<Entry index=4 label="H2">, <Entry index=181 label="OOCH3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
+[<Entry index=42 label="CO_pri">, <Entry index=181 label="OOCH3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=181 label="OOCH3">]
 """,
     history = [
@@ -7460,7 +8036,7 @@ entry(
 2    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.088721, 'd13': -0.285108, 'd23': -0.191629},
+        distances = {'d12': -0.104975, 'd13': -0.320086, 'd23': -0.210544},
         uncertainties = {},
     ),
     reference = None,
@@ -7814,25 +8390,30 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.132973, 'd13': 0.026378, 'd23': 0.157858},
-        uncertainties = {'d12': 0.199694, 'd13': 0.197998, 'd23': 0.061504},
+        distances = {'d12': -0.110054, 'd13': 0.028131, 'd23': 0.135775},
+        uncertainties = {'d12': 0.171316, 'd13': 0.165943, 'd23': 0.071272},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 11 distances.
+Fitted to 17 distances.
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=197 label="Cd_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7849,23 +8430,28 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.108109, 'd13': 0.053604, 'd23': 0.16038},
-        uncertainties = {'d12': 0.076007, 'd13': 0.087015, 'd23': 0.070973},
+        distances = {'d12': -0.092555, 'd13': 0.046733, 'd23': 0.136901},
+        uncertainties = {'d12': 0.08295, 'd13': 0.060389, 'd23': 0.076965},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
-[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+Fitted to 15 distances.
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=197 label="Cd_pri_rad">]
+[<Entry index=40 label="Cb_H">, <Entry index=197 label="Cd_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7884,21 +8470,25 @@ entry(
 5    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.074136, 'd13': 0.084395, 'd23': 0.15738},
-        uncertainties = {'d12': 0.100612, 'd13': 0.117292, 'd23': 0.069143},
+        distances = {'d12': -0.081207, 'd13': 0.064603, 'd23': 0.143344},
+        uncertainties = {'d12': 0.055064, 'd13': 0.067038, 'd23': 0.048849},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
-[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+Fitted to 11 distances.
+[<Entry index=42 label="CO_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=4 label="H2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=73 label="C/H3/O">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
-[<Entry index=72 label="C/H3/CO">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -7945,8 +8535,8 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.286295, 'd13': -0.141515, 'd23': 0.142305},
-        uncertainties = {'d12': 3.40073, 'd13': 3.302996, 'd23': 0.081822},
+        distances = {'d12': -0.302549, 'd13': -0.176492, 'd23': 0.123391},
+        uncertainties = {'d12': 3.672762, 'd13': 3.746539, 'd23': 0.096299},
     ),
     reference = None,
     referenceType = "",
@@ -7972,8 +8562,8 @@ entry(
 3    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.286295, 'd13': -0.141515, 'd23': 0.142305},
-        uncertainties = {'d12': 3.40073, 'd13': 3.302996, 'd23': 0.081822},
+        distances = {'d12': -0.302549, 'd13': -0.176492, 'd23': 0.123391},
+        uncertainties = {'d12': 3.672762, 'd13': 3.746539, 'd23': 0.096299},
     ),
     reference = None,
     referenceType = "",
@@ -8004,7 +8594,7 @@ entry(
 8    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.284918, 'd13': -0.141654, 'd23': 0.140751},
+        distances = {'d12': -0.301172, 'd13': -0.176631, 'd23': 0.121836},
         uncertainties = {},
     ),
     reference = None,
@@ -8038,7 +8628,7 @@ entry(
 11    H 0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.287672, 'd13': -0.141375, 'd23': 0.14386},
+        distances = {'d12': -0.303927, 'd13': -0.176353, 'd23': 0.124945},
         uncertainties = {},
     ),
     reference = None,
@@ -8263,16 +8853,19 @@ entry(
 3    {Cb,Cbf} 0 {1,B}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.130199, 'd13': 0.054113, 'd23': 0.18265},
-        uncertainties = {'d12': 0.135728, 'd13': 0.205103, 'd23': 0.154535},
+        distances = {'d12': -0.108798, 'd13': 0.053346, 'd23': 0.160075},
+        uncertainties = {'d12': 0.116463, 'd13': 0.089558, 'd23': 0.149629},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 3 distances.
+Fitted to 6 distances.
+[<Entry index=60 label="C_methane">, <Entry index=212 label="Cb_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=212 label="Cb_rad">]
 [<Entry index=7 label="O_pri">, <Entry index=212 label="Cb_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=212 label="Cb_rad">]
 [<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
@@ -8291,26 +8884,41 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.096156, 'd13': 0.123475, 'd23': 0.026263},
-        uncertainties = {'d12': 0.112033, 'd13': 0.069926, 'd23': 0.101244},
+        distances = {'d12': 0.09223, 'd13': 0.111295, 'd23': 0.019627},
+        uncertainties = {'d12': 0.088915, 'd13': 0.060999, 'd23': 0.056647},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 13 distances.
-[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
+Fitted to 41 distances.
 [<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
-[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -8327,20 +8935,28 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.088523, 'd13': 0.116622, 'd23': 0.027033},
-        uncertainties = {'d12': 0.095091, 'd13': 0.083326, 'd23': 0.115371},
+        distances = {'d12': 0.074202, 'd13': 0.097133, 'd23': 0.022067},
+        uncertainties = {'d12': 0.077288, 'd13': 0.05686, 'd23': 0.065351},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
-[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
-[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+Fitted to 14 distances.
+[<Entry index=116 label="C/H/Cs3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=4 label="H2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=73 label="C/H3/O">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -8357,21 +8973,28 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.102305, 'd13': 0.128996, 'd23': 0.025642},
-        uncertainties = {'d12': 0.157585, 'd13': 0.08421, 'd23': 0.125722},
+        distances = {'d12': 0.102139, 'd13': 0.119079, 'd23': 0.018286},
+        uncertainties = {'d12': 0.099385, 'd13': 0.066767, 'd23': 0.056332},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+Fitted to 27 distances.
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -8388,21 +9011,26 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.102305, 'd13': 0.128996, 'd23': 0.025642},
-        uncertainties = {'d12': 0.157585, 'd13': 0.08421, 'd23': 0.125722},
+        distances = {'d12': 0.101319, 'd13': 0.117728, 'd23': 0.017494},
+        uncertainties = {'d12': 0.099783, 'd13': 0.065299, 'd23': 0.058134},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
-[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
+Fitted to 25 distances.
+[<Entry index=73 label="C/H3/O">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=11 label="H2O2">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=4 label="H2">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=60 label="C_methane">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=216 label="CO_rad/NonDe">]
+[<Entry index=42 label="CO_pri">, <Entry index=216 label="CO_rad/NonDe">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -8418,13 +9046,18 @@ entry(
 2    O                0 {1,D}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = DistanceData(distances={}),
+    distances = DistanceData(
+        distances = {'d12': 0.112064, 'd13': 0.135428, 'd23': 0.027868},
+        uncertainties = {'d12': 0.869555, 'd13': 0.741686, 'd23': 0.279961},
+    ),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=60 label="C_methane">, <Entry index=217 label="CO_rad/OneDe">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -8729,57 +9362,80 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.004301, 'd13': 0.085119, 'd23': 0.078674},
-        uncertainties = {'d12': 0.077908, 'd13': 0.081932, 'd23': 0.058039},
+        distances = {'d12': -0.001068, 'd13': 0.06514, 'd23': 0.064259},
+        uncertainties = {'d12': 0.066877, 'd13': 0.069969, 'd23': 0.055181},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 170 distances.
+Fitted to 251 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=4 label="H2">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
@@ -8792,48 +9448,76 @@ Fitted to 170 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=4 label="H2">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
+[<Entry index=40 label="Cb_H">, <Entry index=232 label="C_methyl">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
 [<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=40 label="Cb_H">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
@@ -8854,33 +9538,39 @@ entry(
 4    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.016617, 'd13': 0.110846, 'd23': 0.125573},
-        uncertainties = {'d12': 0.053456, 'd13': 0.072232, 'd23': 0.068956},
+        distances = {'d12': -0.030397, 'd13': 0.085242, 'd23': 0.113205},
+        uncertainties = {'d12': 0.042381, 'd13': 0.057913, 'd23': 0.060528},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 35 distances.
-[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
-[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
-[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
-[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
-[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+Fitted to 48 distances.
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=232 label="C_methyl">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=232 label="C_methyl">]
+[<Entry index=42 label="CO_pri">, <Entry index=232 label="C_methyl">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=232 label="C_methyl">]
+[<Entry index=40 label="Cb_H">, <Entry index=232 label="C_methyl">]
+[<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
+[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=232 label="C_methyl">]
+[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
+[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
+[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
+[<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=232 label="C_methyl">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=232 label="C_methyl">]
-[<Entry index=73 label="C/H3/O">, <Entry index=232 label="C_methyl">]
-[<Entry index=7 label="O_pri">, <Entry index=232 label="C_methyl">]
 [<Entry index=11 label="H2O2">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=232 label="C_methyl">]
-[<Entry index=4 label="H2">, <Entry index=232 label="C_methyl">]
-[<Entry index=9 label="O/H/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=232 label="C_methyl">]
-[<Entry index=76 label="C/H2/NonDeC">, <Entry index=232 label="C_methyl">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -8898,62 +9588,93 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.001663, 'd13': 0.075971, 'd23': 0.075268},
-        uncertainties = {'d12': 0.077625, 'd13': 0.086158, 'd23': 0.051008},
+        distances = {'d12': 0.002198, 'd13': 0.061168, 'd23': 0.057181},
+        uncertainties = {'d12': 0.06636, 'd13': 0.072588, 'd23': 0.041465},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 86 distances.
+Fitted to 133 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
+[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
-[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=244 label="C_rad/H2/Ct">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
-[<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -8971,44 +9692,53 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.019348, 'd13': 0.072567, 'd23': 0.089442},
-        uncertainties = {'d12': 0.086365, 'd13': 0.089755, 'd23': 0.039073},
+        distances = {'d12': -0.024358, 'd13': 0.055068, 'd23': 0.076626},
+        uncertainties = {'d12': 0.078879, 'd13': 0.083228, 'd23': 0.036783},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 61 distances.
+Fitted to 82 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=42 label="CO_pri">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=44 label="CO/H/NonDe">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=79 label="C/H2/CsO">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
+[<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=7 label="O_pri">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
-[<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=60 label="C_methane">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
-[<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
+[<Entry index=11 label="H2O2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=4 label="H2">, <Entry index=234 label="C_rad/H2/Cs">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 """,
     history = [
@@ -9030,27 +9760,32 @@ entry(
 7    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.012415, 'd13': 0.103829, 'd23': 0.089056},
-        uncertainties = {'d12': 0.063101, 'd13': 0.078342, 'd23': 0.060276},
+        distances = {'d12': 0.00172, 'd13': 0.078757, 'd23': 0.074462},
+        uncertainties = {'d12': 0.055281, 'd13': 0.060391, 'd23': 0.048363},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 20 distances.
+Fitted to 26 distances.
+[<Entry index=40 label="Cb_H">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=60 label="C_methane">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=7 label="O_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=76 label="C/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=4 label="H2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
@@ -9080,7 +9815,7 @@ entry(
 14    H 0 {5,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.245735, 'd13': -0.15836, 'd23': 0.085036},
+        distances = {'d12': -0.26199, 'd13': -0.193337, 'd23': 0.066121},
         uncertainties = {},
     ),
     reference = None,
@@ -9183,7 +9918,7 @@ entry(
 14    H 0 {5,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.25182, 'd13': -0.152671, 'd23': 0.096497},
+        distances = {'d12': -0.268074, 'd13': -0.187649, 'd23': 0.077582},
         uncertainties = {},
     ),
     reference = None,
@@ -9243,24 +9978,37 @@ entry(
 4    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.088914, 'd13': 0.116289, 'd23': 0.025617},
-        uncertainties = {'d12': 0.079976, 'd13': 0.10855, 'd23': 0.089148},
+        distances = {'d12': 0.075519, 'd13': 0.086312, 'd23': 0.008947},
+        uncertainties = {'d12': 0.037423, 'd13': 0.0547, 'd23': 0.045915},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
-[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+Fitted to 24 distances.
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
-[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=60 label="C_methane">, <Entry index=241 label="C_rad/H2/Cd">]
+[<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -9280,21 +10028,30 @@ entry(
 6    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.07489, 'd13': 0.113176, 'd23': 0.037166},
-        uncertainties = {'d12': 0.050443, 'd13': 0.114177, 'd23': 0.107097},
+        distances = {'d12': 0.072377, 'd13': 0.085325, 'd23': 0.011583},
+        uncertainties = {'d12': 0.034618, 'd13': 0.058345, 'd23': 0.053732},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
+Fitted to 18 distances.
+[<Entry index=11 label="H2O2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=73 label="C/H3/O">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=72 label="C/H3/CO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=42 label="CO_pri">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=60 label="C_methane">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
+[<Entry index=86 label="C/H2/CdCs">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
     history = [
@@ -9320,16 +10077,18 @@ entry(
 11    H 0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.141808, 'd13': 0.147955, 'd23': 0.004961},
-        uncertainties = {},
+        distances = {'d12': 0.048054, 'd13': 0.070199, 'd23': 0.018286},
+        uncertainties = {'d12': 0.082814, 'd13': 0.10041, 'd23': 0.029449},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 3 distances.
+[<Entry index=16 label="Orad_O_H">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
+[<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -9347,7 +10106,7 @@ entry(
 4    Ct 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.01308, 'd13': 0.113885, 'd23': 0.09916},
+        distances = {'d12': 0.001046, 'd13': 0.086282, 'd23': 0.083353},
         uncertainties = {},
     ),
     reference = None,
@@ -9397,19 +10156,20 @@ entry(
 4    CO 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.031369, 'd13': 0.063074, 'd23': 0.028972},
-        uncertainties = {'d12': 0.064834, 'd13': 0.092375, 'd23': 0.110108},
+        distances = {'d12': 0.013566, 'd13': 0.038379, 'd23': 0.022842},
+        uncertainties = {'d12': 0.048001, 'd13': 0.064588, 'd23': 0.076773},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 6 distances.
+Fitted to 7 distances.
 [<Entry index=60 label="C_methane">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=4 label="H2">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=246 label="C_rad/H2/CO">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -9427,17 +10187,25 @@ entry(
 4    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.010531, 'd13': 0.059261, 'd23': 0.046688},
-        uncertainties = {'d12': 0.057034, 'd13': 0.077345, 'd23': 0.06199},
+        distances = {'d12': 0.020062, 'd13': 0.061697, 'd23': 0.044588},
+        uncertainties = {'d12': 0.052389, 'd13': 0.055009, 'd23': 0.043628},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
+Fitted to 19 distances.
+[<Entry index=44 label="CO/H/NonDe">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=60 label="C_methane">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=42 label="CO_pri">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=11 label="H2O2">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=116 label="C/H/Cs3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=247 label="C_rad/H2/O">]
+[<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=247 label="C_rad/H2/O">]
 """,
     history = [
@@ -9502,34 +10270,44 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.025057, 'd13': 0.080049, 'd23': 0.052952},
-        uncertainties = {'d12': 0.082851, 'd13': 0.070671, 'd23': 0.06699},
+        distances = {'d12': 0.009242, 'd13': 0.054135, 'd23': 0.042749},
+        uncertainties = {'d12': 0.068966, 'd13': 0.059555, 'd23': 0.074361},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 39 distances.
+Fitted to 54 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=70 label="C/H3/Ct">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=40 label="Cb_H">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
-[<Entry index=40 label="Cb_H">, <Entry index=276 label="C_rad/H/CdCd">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
@@ -9553,27 +10331,34 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.011282, 'd13': 0.054722, 'd23': 0.063207},
-        uncertainties = {'d12': 0.066509, 'd13': 0.052727, 'd23': 0.071552},
+        distances = {'d12': -0.01882, 'd13': 0.039114, 'd23': 0.055214},
+        uncertainties = {'d12': 0.056639, 'd13': 0.052852, 'd23': 0.079239},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 22 distances.
+Fitted to 34 distances.
 [<Entry index=11 label="H2O2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=250 label="C_rad/H/NonDeC">]
-[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=4 label="H2">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=60 label="C_methane">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -9597,22 +10382,29 @@ entry(
 10    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.036519, 'd13': 0.111123, 'd23': 0.071887},
-        uncertainties = {'d12': 0.021196, 'd13': 0.073421, 'd23': 0.06231},
+        distances = {'d12': 0.000793, 'd13': 0.076178, 'd23': 0.073113},
+        uncertainties = {'d12': 0.035845, 'd13': 0.066244, 'd23': 0.089379},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 7 distances.
+Fitted to 17 distances.
+[<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
-[<Entry index=42 label="CO_pri">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=65 label="C/H3/Cd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=46 label="CO/H/OneDe">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
+[<Entry index=10 label="O/H/NonDeO">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -9729,17 +10521,18 @@ entry(
 4    {Cs,O} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.019851, 'd13': 0.080896, 'd23': 0.059388},
-        uncertainties = {'d12': 0.119168, 'd13': 0.077081, 'd23': 0.086075},
+        distances = {'d12': 0.0148, 'd13': 0.05437, 'd23': 0.037944},
+        uncertainties = {'d12': 0.113887, 'd13': 0.068921, 'd23': 0.076838},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 10 distances.
+Fitted to 11 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=4 label="H2">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
@@ -9761,18 +10554,19 @@ entry(
 4    O  0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.020696, 'd13': 0.073035, 'd23': 0.049874},
-        uncertainties = {'d12': 0.12536, 'd13': 0.058431, 'd23': 0.101788},
+        distances = {'d12': 0.018012, 'd13': 0.049534, 'd23': 0.029282},
+        uncertainties = {'d12': 0.120211, 'd13': 0.062703, 'd23': 0.088623},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
+Fitted to 9 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=11 label="H2O2">, <Entry index=256 label="C_rad/H/CsO">]
+[<Entry index=62 label="C/H3/Cs">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=4 label="H2">, <Entry index=256 label="C_rad/H/CsO">]
 """,
     history = [
@@ -9857,8 +10651,8 @@ entry(
 4    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.016809, 'd13': 0.109198, 'd23': 0.093639},
-        uncertainties = {'d12': 0.925165, 'd13': 0.998479, 'd23': 0.098033},
+        distances = {'d12': 0.001634, 'd13': 0.074198, 'd23': 0.073462},
+        uncertainties = {'d12': 0.84143, 'd13': 0.767965, 'd23': 0.111183},
     ),
     reference = None,
     referenceType = "",
@@ -10023,19 +10817,21 @@ entry(
 4    {Cs,O,S}         0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.146391, 'd13': 0.151882, 'd23': 0.005878},
-        uncertainties = {'d12': 0.176924, 'd13': 0.170716, 'd23': 0.056372},
+        distances = {'d12': 0.099719, 'd13': 0.103059, 'd23': 0.003196},
+        uncertainties = {'d12': 0.076063, 'd13': 0.09316, 'd23': 0.111682},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 4 distances.
-[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
+Fitted to 6 distances.
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -10053,18 +10849,20 @@ entry(
 4    Cs               0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.141854, 'd13': 0.149934, 'd23': 0.007582},
-        uncertainties = {'d12': 0.274286, 'd13': 0.243282, 'd23': 0.084954},
+        distances = {'d12': 0.088674, 'd13': 0.098227, 'd23': 0.008824},
+        uncertainties = {'d12': 0.082541, 'd13': 0.101382, 'd23': 0.13468},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 3 distances.
+Fitted to 5 distances.
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -10082,16 +10880,18 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.17192, 'd13': 0.161146, 'd23': -0.011723},
-        uncertainties = {},
+        distances = {'d12': 0.065001, 'd13': 0.087938, 'd23': 0.022233},
+        uncertainties = {'d12': 0.120612, 'd13': 0.191851, 'd23': 0.285837},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
+Fitted to 3 distances.
+[<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=60 label="C_methane">, <Entry index=265 label="C_rad/H/CdCs">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
     history = [
         ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
@@ -10179,8 +10979,8 @@ entry(
 4    CO 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.130921, 'd13': 0.145857, 'd23': 0.014602},
-        uncertainties = {'d12': 0.635304, 'd13': 0.638719, 'd23': 0.309102},
+        distances = {'d12': 0.116651, 'd13': 0.110386, 'd23': -0.007023},
+        uncertainties = {'d12': 0.563053, 'd13': 0.468065, 'd23': 0.307447},
     ),
     reference = None,
     referenceType = "",
@@ -10212,7 +11012,7 @@ entry(
 9    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.127314, 'd13': 0.138297, 'd23': 0.010774},
+        distances = {'d12': 0.113481, 'd13': 0.103934, 'd23': -0.010157},
         uncertainties = {},
     ),
     reference = None,
@@ -10239,7 +11039,7 @@ entry(
 4    O                0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.157733, 'd13': 0.156753, 'd23': 0.001618},
+        distances = {'d12': 0.1439, 'd13': 0.12239, 'd23': -0.019313},
         uncertainties = {},
     ),
     reference = None,
@@ -10358,8 +11158,8 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.124919, 'd13': 0.15404, 'd23': 0.027703},
-        uncertainties = {'d12': 0.270798, 'd13': 0.356482, 'd23': 0.160409},
+        distances = {'d12': 0.111813, 'd13': 0.11797, 'd23': 0.004322},
+        uncertainties = {'d12': 0.246847, 'd13': 0.277548, 'd23': 0.116252},
     ),
     reference = None,
     referenceType = "",
@@ -10387,8 +11187,8 @@ entry(
 4    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.124919, 'd13': 0.15404, 'd23': 0.027703},
-        uncertainties = {'d12': 0.270798, 'd13': 0.356482, 'd23': 0.160409},
+        distances = {'d12': 0.111813, 'd13': 0.11797, 'd23': 0.004322},
+        uncertainties = {'d12': 0.246847, 'd13': 0.277548, 'd23': 0.116252},
     ),
     reference = None,
     referenceType = "",
@@ -10744,21 +11544,25 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.055382, 'd13': 0.080829, 'd23': 0.023764},
-        uncertainties = {'d12': 0.162567, 'd13': 0.154965, 'd23': 0.073024},
+        distances = {'d12': 0.033787, 'd13': 0.069261, 'd23': 0.034426},
+        uncertainties = {'d12': 0.13045, 'd13': 0.125619, 'd23': 0.083187},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 10 distances.
+Fitted to 16 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
@@ -10779,20 +11583,24 @@ entry(
 4    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.032101, 'd13': 0.065039, 'd23': 0.031228},
-        uncertainties = {'d12': 0.164786, 'd13': 0.159696, 'd23': 0.07816},
+        distances = {'d12': 0.019439, 'd13': 0.061073, 'd23': 0.04062},
+        uncertainties = {'d12': 0.129906, 'd13': 0.127906, 'd23': 0.085661},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 9 distances.
+Fitted to 15 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
@@ -10813,19 +11621,23 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.03441, 'd13': 0.075543, 'd23': 0.039481},
-        uncertainties = {'d12': 0.06342, 'd13': 0.060483, 'd23': 0.085583},
+        distances = {'d12': 0.020956, 'd13': 0.06862, 'd23': 0.046724},
+        uncertainties = {'d12': 0.058657, 'd13': 0.047631, 'd23': 0.089482},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 8 distances.
+Fitted to 14 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=11 label="H2O2">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=16 label="Orad_O_H">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=42 label="CO_pri">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=73 label="C/H3/O">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=293 label="C_rad/Cs3">]
+[<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
@@ -10879,7 +11691,7 @@ entry(
 4    {Cs,O} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.001309, 'd13': -0.075015, 'd23': -0.078807},
+        distances = {'d12': -0.014945, 'd13': -0.109993, 'd23': -0.097722},
         uncertainties = {},
     ),
     reference = None,
@@ -10906,7 +11718,7 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.001309, 'd13': -0.075015, 'd23': -0.078807},
+        distances = {'d12': -0.014945, 'd13': -0.109993, 'd23': -0.097722},
         uncertainties = {},
     ),
     reference = None,
@@ -11451,7 +12263,7 @@ entry(
 4    {Cs,O,S}         0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.305649, 'd13': 0.250567, 'd23': -0.056478},
+        distances = {'d12': 0.28846, 'd13': 0.21461, 'd23': -0.075524},
         uncertainties = {},
     ),
     reference = None,
@@ -11478,7 +12290,7 @@ entry(
 4    Cs               0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.305649, 'd13': 0.250567, 'd23': -0.056478},
+        distances = {'d12': 0.28846, 'd13': 0.21461, 'd23': -0.075524},
         uncertainties = {},
     ),
     reference = None,
@@ -11505,7 +12317,7 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.305649, 'd13': 0.250567, 'd23': -0.056478},
+        distances = {'d12': 0.28846, 'd13': 0.21461, 'd23': -0.075524},
         uncertainties = {},
     ),
     reference = None,
