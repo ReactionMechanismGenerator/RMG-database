@@ -444,8 +444,8 @@ entry(
     label = "Thiophene2;H_OH",
     group1 = 
 """
-1 *1 C  0 {2,D} {3,S} {4,S}
-2 *2 C  0 {1,D} {5,S} {6,S}
+1 *1 Cd  0 {2,D} {3,S} {4,S}
+2 *2 Cd  0 {1,D} {5,S} {6,S}
 3    H  0 {1,S}
 4    Cd 0 {1,S} {7,D}
 5    H  0 {2,S}
@@ -479,8 +479,8 @@ entry(
     label = "Thiophene3;H_OH",
     group1 = 
 """
-1 *1 C  0 {2,D} {3,S} {4,S}
-2 *2 C  0 {1,D} {5,S} {6,S}
+1 *1 Cd  0 {2,D} {3,S} {4,S}
+2 *2 Cd  0 {1,D} {5,S} {6,S}
 3    H  0 {1,S}
 4    S  0 {1,S} {7,S}
 5    H  0 {2,S}
