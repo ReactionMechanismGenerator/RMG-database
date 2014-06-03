@@ -958,7 +958,7 @@ entry(
 1 *1 C             0 {2,D} {3,S} {4,S}
 2    S             0 {1,D}
 3 *2 H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1030,7 +1030,7 @@ entry(
 1 *1 C 0 {2,D} {3,S} {4,S}
 2    S 0 {1,D}
 3 *2 H 0 {1,S}
-4    C 0 {1,S} {5,D}
+4    Cd 0 {1,S} {5,D}
 5    C 0 {4,D}
 """,
     kinetics = None,
@@ -1049,7 +1049,7 @@ entry(
 1 *1 C 0 {2,D} {3,S} {4,S}
 2    S 0 {1,D}
 3 *2 H 0 {1,S}
-4    C 0 {1,S} {5,D}
+4    CS 0 {1,S} {5,D}
 5    S 0 {4,D}
 """,
     kinetics = None,
@@ -1231,7 +1231,7 @@ entry(
     group = 
 """
 1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S} {6,S} {7,S} {8,S}
+2    Cs 0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H 0 {1,S}
 4    H 0 {1,S}
 5    H 0 {1,S}
@@ -1249,11 +1249,11 @@ u"""
 
 entry(
     index = 69,
-    label = "C/H3/Cs\2NonDe",
+    label = "C/H3/Cs\TwoNonDe",
     group = 
 """
 1 *1 C        0 {2,S} {3,S} {4,S} {5,S}
-2    C        0 {1,S} {6,S} {7,S} {8,S}
+2    Cs        0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H        0 {1,S}
 4    H        0 {1,S}
 5    H        0 {1,S}
@@ -1275,7 +1275,7 @@ entry(
     group = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
-2    C  0 {1,S} {6,S} {7,S} {8,S}
+2    Cs  0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H  0 {1,S}
 4    H  0 {1,S}
 5    H  0 {1,S}
@@ -1297,7 +1297,7 @@ entry(
     group = 
 """
 1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
-2    C  0 {1,S} {6,S} {7,S} {8,S}
+2    Cs  0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H  0 {1,S}
 4    H  0 {1,S}
 5    H  0 {1,S}
@@ -3175,8 +3175,8 @@ entry(
 """
 1 *1 C             0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}      0 {1,S}
 """,
     kinetics = None,
@@ -4286,7 +4286,7 @@ entry(
     group = 
 """
 1    C 0 {2,S}
-2    C 0 {1,S} {3,S} {5,S} {6,S}
+2    Cs 0 {1,S} {3,S} {5,S} {6,S}
 3    C 0 {2,S} {4,D} {7,S}
 4 *3 C 1 {3,D} {8,S}
 5    H 0 {2,S}
@@ -4830,7 +4830,7 @@ entry(
 """
 1 *3 C 1 {2,D} {3,S}
 2    S 0 {1,D}
-3    C 0 {1,S} {4,D}
+3    Cd 0 {1,S} {4,D}
 4    C 0 {3,D}
 """,
     kinetics = None,
@@ -5001,7 +5001,7 @@ entry(
     group = 
 """
 1 *3 C 1 {2,S} {6,S} {7,S}
-2    C 0 {1,S} {3,S} {4,S} {8,S}
+2    Cs 0 {1,S} {3,S} {4,S} {8,S}
 3    C 0 {2,S} {5,S}
 4    O 0 {2,S}
 5    C 0 {3,S}
@@ -5563,7 +5563,7 @@ entry(
     group = 
 """
 1    C 0 {2,S}
-2    C 0 {1,S} {3,S} {5,S} {6,S}
+2    Cs 0 {1,S} {3,S} {5,S} {6,S}
 3 *3 C 1 {2,S} {4,S} {7,S}
 4    O 0 {3,S} {8,S}
 5    C 0 {2,S}
@@ -8703,7 +8703,7 @@ entry(
     label = "CH2_singlet",
     group = 
 """
-1 *3 C 2S {2,S} {3,S}
+1 *3 Cs 2S {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
@@ -8825,7 +8825,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                         L7: C/H3/Cs\H2\Cs
                             L8: C/H3/Cs\H2\Cs|O
                         L7: C/H3/Cs\H2\O
-                    L6: C/H3/Cs\2NonDe
+                    L6: C/H3/Cs\TwoNonDe
                         L7: C/H3/Cs\H\Cs\O
                         L7: C/H3/Cs\H\Cs\Cs|O
                 L5: C/H3/O
