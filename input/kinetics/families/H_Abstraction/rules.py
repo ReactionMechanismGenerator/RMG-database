@@ -93202,7 +93202,7 @@ u"""
 
 entry(
     index = 2000,
-    label = "C_pri;N3s_rad/H2",
+    label = "C_pri;NH2_rad",
     group1 = 
 """
 1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
@@ -93235,7 +93235,7 @@ u"""
 
 entry(
     index = 2001,
-    label = "C_sec;N3s_rad/H2",
+    label = "C_sec;NH2_rad",
     group1 = 
 """
 1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
@@ -93259,7 +93259,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"Dean and Bozzelli chapter 2, estimation same as C_pri;N3s_rad/H2",
+    shortDesc = u"Dean and Bozzelli chapter 2, estimation same as C_pri;NH2_rad",
     longDesc = 
 u"""
 
@@ -93268,7 +93268,7 @@ u"""
 
 entry(
     index = 2002,
-    label = "C_ter;N3s_rad/H2",
+    label = "C_ter;NH2_rad",
     group1 = 
 """
 1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
@@ -93292,7 +93292,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 3,
-    shortDesc = u"Dean and Bozzelli chapter 2, estimation same as C_pri;N3s_rad/H2",
+    shortDesc = u"Dean and Bozzelli chapter 2, estimation same as C_pri;NH2_rad",
     longDesc = 
 u"""
 
@@ -93767,7 +93767,7 @@ Added by Beat Buesser, value for reaction: CH3 + NH2 = CH2 + NH3 (B&D #21f) in '
 
 entry(
     index = 3000,
-    label = "OH_rad_H;N3_atom_quartet",
+    label = "OH_rad_H;N_atom_quartet",
     group1 = 
 """
 1 *1 O  1 {2,S}
@@ -93775,7 +93775,7 @@ entry(
 """,
     group2 = 
 """
-1 *3 N3s 3
+1 *3 N 3Q
 """,
     kinetics = ArrheniusEP(
         A = (6.40e+12, 'cm^3/(mol*s)'),
@@ -93795,11 +93795,11 @@ Added by Beat Buesser, value for reaction: N + OH = NH + O (B&D #26b) in 'Gas-Ph
 
 entry(
     index = 3000,
-    label = "N_birad_H;NH2_rad",
+    label = "NH_triplet_H;NH2_rad",
     group1 = 
 """
-1 *1 N 2 {2,S}
-2 *2 H 0 {1,S}
+1 *1 N 2T {2,S}
+2 *2 H 0  {1,S}
 """,
     group2 = 
 """
@@ -93825,11 +93825,11 @@ Added by Beat Buesser, value for reaction: NH + NH2 = NH3 + N (B&D #27b2) in 'Ga
 
 entry(
     index = 3000,
-    label = "N_birad_H;O_pri_rad",
+    label = "NH_triplet_H;O_pri_rad",
     group1 = 
 """
-1 *1 N 2 {2,S}
-2 *2 H 0 {1,S}
+1 *1 N 2T {2,S}
+2 *2 H 0  {1,S}
 """,
     group2 = 
 """
@@ -93854,11 +93854,11 @@ Added by Beat Buesser, value for reaction: NH + OH = N + H2O (B&D #27c2) in 'Gas
 
 entry(
     index = 3000,
-    label = "N_birad_H;H_rad",
+    label = "NH_triplet_H;H_rad",
     group1 = 
 """
-1 *1 N 2 {2,S}
-2 *2 H 0 {1,S}
+1 *1 N 2T {2,S}
+2 *2 H 0  {1,S}
 """,
     group2 = 
 """
@@ -93882,11 +93882,11 @@ Added by Beat Buesser, value for reaction: NH + H = N + H2 (B&D #27d) in 'Gas-Ph
 
 entry(
     index = 3000,
-    label = "N_birad_H;O_atom_triplet",
+    label = "NH_triplet_H;O_atom_triplet",
     group1 = 
 """
-1 *1 N 2 {2,S}
-2 *2 H 0 {1,S}
+1 *1 N 2T {2,S}
+2 *2 H 0  {1,S}
 """,
     group2 = 
 """
@@ -93910,11 +93910,11 @@ Added by Beat Buesser, value for reaction: NH + O = N + OH (B&D #27e2) in 'Gas-P
 
 entry(
     index = 3000,
-    label = "N_birad_H;C_methyl",
+    label = "NH_triplet_H;C_methyl",
     group1 = 
 """
-1 *1 N 2 {2,S}
-2 *2 H 0 {1,S}
+1 *1 N 2T {2,S}
+2 *2 H 0  {1,S}
 """,
     group2 = 
 """
@@ -95920,12 +95920,12 @@ Added by Beat Buesser, value for reaction: HOCN + NH2 = NH3 + NCO (B&D #55h) in 
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeC;O_pri_rad",
+    label = "N3d/H/OneDeCO;O_pri_rad",
     group1 = 
 """
 1 *1 N3d            0 {2,S} {3,D}
 2 *2 H              0 {1,S}
-3    {Cd,Ct,Cb} 0 {1,D}
+3    CO 0 {1,D}
 """,
     group2 = 
 """
@@ -95950,12 +95950,12 @@ Added by Beat Buesser, value for reaction: HNCO + OH = NCO + H2O (B&D #56d2) in 
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeC;H_rad",
+    label = "N3d/H/OneDeCO;H_rad",
     group1 = 
 """
 1 *1 N3d            0 {2,S} {3,D}
 2 *2 H              0 {1,S}
-3    {Cd,Ct,Cb} 0 {1,D}
+3    CO 0 {1,D}
 """,
     group2 = 
 """
@@ -95979,12 +95979,12 @@ Added by Beat Buesser, value for reaction: HNCO + H = NCO + H2 (B&D #56e) in 'Ga
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeC;O_atom_triplet",
+    label = "N3d/H/OneDeCO;O_atom_triplet",
     group1 = 
 """
 1 *1 N3d            0 {2,S} {3,D}
 2 *2 H              0 {1,S}
-3    {Cd,Ct,Cb} 0 {1,D}
+3    CO 0 {1,D}
 """,
     group2 = 
 """
@@ -96008,12 +96008,12 @@ Added by Beat Buesser, value for reaction: HNCO + O = NCO + OH (B&D #56f) in 'Ga
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeC;O_pri_rad",
+    label = "N3d/H/OneDeCO;O_pri_rad",
     group1 = 
 """
 1 *1 N3d            0 {2,S} {3,D}
 2 *2 H              0 {1,S}
-3    {Cd,Ct,Cb} 0 {1,D}
+3    CO 0 {1,D}
 """,
     group2 = 
 """
@@ -96038,12 +96038,12 @@ Added by Beat Buesser, value for reaction: HNCO + OH = NCO + H2O (B&D #56g) in '
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeC;C_methyl",
+    label = "N3d/H/OneDeCO;C_methyl",
     group1 = 
 """
 1 *1 N3d            0 {2,S} {3,D}
 2 *2 H              0 {1,S}
-3    {Cd,Ct,Cb} 0 {1,D}
+3    CO 0 {1,D}
 """,
     group2 = 
 """
@@ -96070,12 +96070,12 @@ Added by Beat Buesser, value for reaction: HNCO + CH3 = NCO + CH4 (B&D #56h) in 
 
 entry(
     index = 3000,
-    label = "N3d/H/OneDeC;NH2_rad",
+    label = "N3d/H/OneDeCO;NH2_rad",
     group1 = 
 """
 1 *1 N3d            0 {2,S} {3,D}
 2 *2 H              0 {1,S}
-3    {Cd,Ct,Cb} 0 {1,D}
+3    CO 0 {1,D}
 """,
     group2 = 
 """

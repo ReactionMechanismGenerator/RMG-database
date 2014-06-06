@@ -2539,14 +2539,14 @@ u"""
 
 entry(
     index = 132,
-    label = "C/H/NonDeC",
+    label = "C/H/NonDe",
     group = 
 """
 1 *1 C        0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H        0 {1,S}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    {Cs,O,S} 0 {1,S}
+3    {Cs,O,S,N} 0 {1,S}
+4    {Cs,O,S,N} 0 {1,S}
+5    {Cs,O,S,N} 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -7200,23 +7200,6 @@ u"""
 )
 
 entry(
-    index = 401,
-    label = "N3s_rad/H2",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    H   0 {1,S}
-3    H   0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 402,
     label = "N3s_H",
     group = 
@@ -7260,7 +7243,7 @@ entry(
 1 *1 C 0 {2,D} {3,S} {4,S}
 2    C 0 {1,D}
 3 *2 H 0 {1,S}
-4    N 0 {1,S}
+4    {N3s,N5s} 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -7272,13 +7255,13 @@ u"""
 
 entry(
     index = 405,
-    label = "Cd/H/N",
+    label = "Cd/H/DeN",
     group = 
 """
 1 *1 C  0 {2,D} {3,S} {4,S}
 2    C  0 {1,D}
 3 *2 H  0 {1,S}
-4    N  0 {1,S}
+4    {N3d,N3t,N3b,N5d,N5dd,N5t,N5b}  0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -7527,21 +7510,6 @@ u"""
 )
 
 entry(
-    index = 420,
-    label = "N3_atom_quartet",
-    group = 
-"""
-1 *3 N3s 3
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 421,
     label = "CH_quartet",
     group = 
@@ -7596,22 +7564,6 @@ entry(
 """
 1 *3 Ct        1 {2,T}
 2    {N3t,N5t} 0 {1,T}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 425,
-    label = "CX_H_or_Xrad_H_Xbirad_Hrad",
-    group = 
-"""
-1 *3 Ct    1 {2,T}
-2    N3t   0 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -7943,22 +7895,6 @@ entry(
     index = 444,
     label = "Xbirad_H",
     group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 445,
-    label = "N_birad_H",
-    group = 
-"""
-1 *1 N 2 {2,S}
-2 *2 H 0 {1,S}
-""",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -8306,7 +8242,7 @@ entry(
 """
 1 *1 N3d         0 {2,S} {3,D}
 2 *2 H           0 {1,S}
-3    {N3d,Od} 0 {1,D}
+3    {N3d,Od,Cd} 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -8323,7 +8259,7 @@ entry(
 """
 1 *1 N3d                0 {2,S} {3,D}
 2 *2 H                  0 {1,S}
-3    {Cd,Ct,Cb,N5d,N5t} 0 {1,D}
+3    {Cd,Ct,Cb,CO,N5d,N5t} 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -8335,12 +8271,12 @@ u"""
 
 entry(
     index = 467,
-    label = "N3d/H/OneDeC",
+    label = "N3d/H/OneDeCO",
     group = 
 """
 1 *1 N3d        0 {2,S} {3,D}
 2 *2 H          0 {1,S}
-3    {Cd,Ct,Cb} 0 {1,D}
+3    CO 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -8426,7 +8362,7 @@ entry(
 1 *1 N3s       0 {2,S} {3,S} {4,S}
 2 *2 H         0 {1,S}
 3    H         0 {1,S}
-4    {N3d,N5d} 0 {1,S}
+4    {Cd,Cdd,Ct,CO,CS,N3d,N5d} 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -8795,7 +8731,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: Cd/H/CO
                     L6: Cd/H/Cd
                     L6: Cd/H/CS
-                    L6: Cd/H/N
+                    L6: Cd/H/DeN
         L3: Cb_H
         L3: CO_H
             L4: CO_pri
@@ -8891,7 +8827,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H2/CSCS
                 L5: C/H2/Cb
             L4: C_ter
-                L5: C/H/NonDeC
+                L5: C/H/NonDe
                     L6: C/H/Cs3
                         L7: C/H/Cs3_5ring
                             L8: C/H/Cs3_5ring_fused6
@@ -8962,7 +8898,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: N3d/H/NonDeO
                     L6: N3d/H/NonDeN
                 L5: N3d/H/OneDe
-                    L6: N3d/H/OneDeC
+                    L6: N3d/H/OneDeCO
                     L6: N3d/H/OneDeN
         L3: N5_H
             L4: N5d_H
@@ -8980,8 +8916,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
     L2: Xbirad_H
         L3: CH2_triplet_H
         L3: CH2_singlet_H
-        L3: NH_triplet_H
-        L3: NH_singlet_H
+		L3: NH_triplet_H
+		L3: NH_singlet_H
     L2: Xtrirad_H
         L3: C_quartet_H
         L3: C_doublet_H
