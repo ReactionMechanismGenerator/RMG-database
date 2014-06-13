@@ -12,7 +12,7 @@ entry(
     group1 = "OR{ROOH, R2OOH, R3OOH, R4OOH}",
     group2 = 
 """
-1 *1 {Cd,Cs,Sid,Sis} 1
+1 *1 {C,Sid,Sis,N} 1
 """,
     kinetics = ArrheniusEP(
         A = (10000000000.0, 's^-1'),

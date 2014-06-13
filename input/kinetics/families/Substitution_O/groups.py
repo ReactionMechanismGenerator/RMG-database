@@ -31,7 +31,7 @@ u"""
 entry(
     index = 2,
     label = "YJ",
-    group = "OR{Y_2centeradjbirad, HJ, CJ, O_rad, OJ, Y_1centerbirad, NJ}",
+    group = "OR{Y_2centeradjbirad, HJ, CJ, OJ, Y_1centerbirad, NJ}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -5194,8 +5194,8 @@ entry(
 """
 1 *3 C             1 {2,S} {3,S} {4,S}
 2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {H,Cs,Os,Os}  0 {1,S}
-4    {H,Cs,Os,Os}  0 {1,S}
+3    {H,Cs,Os}  0 {1,S}
+4    {H,Cs,Os}  0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -5589,23 +5589,7 @@ u"""
 """,
 )
 
-entry(
-    index = 290,
-    label = "CsJ-OneDeOsCs",
-    group = 
-"""
-1 *3 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Os            0 {1,S}
-4    Cs            0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
 
-""",
-)
 
 entry(
     index = 293,
@@ -5625,41 +5609,6 @@ u"""
 """,
 )
 
-entry(
-    index = 292,
-    label = "CsJ-OneDeOOss",
-    group = 
-"""
-1 *3 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Os            0 {1,S}
-4    Os            0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 293,
-    label = "CsJ-OneDeOsOs",
-    group = 
-"""
-1 *3 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Os            0 {1,S}
-4    Os            0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 294,
@@ -6354,8 +6303,8 @@ entry(
     label = "O2b",
     group = 
 """
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
+1 *3 Os 1 {2,S}
+2    Os 1 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6370,8 +6319,8 @@ entry(
     label = "C2b",
     group = 
 """
-1 *3 C 1 {2,T}
-2    C 1 {1,T}
+1 *3 Ct 1 {2,T}
+2    Ct 1 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6558,21 +6507,6 @@ u"""
 """,
 )
 
-entry(
-    index = -1,
-    label = "O_rad",
-    group = 
-"""
-1 *3 O 1 {2,S}
-2    R 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 350,
@@ -6880,9 +6814,6 @@ L1: YJ
                     L6: CsJ-CdCsCs
                     L6: CsJ-C=OCsCs
                 L5: CsJ-OneDeOsCs
-                L5: CsJ-OneDeOsCs
-                L5: CsJ-OneDeOsOs
-                L5: CsJ-OneDeOOss
                 L5: CsJ-OneDeOsOs
             L4: CsJ-TwoDe
                 L5: CsJ-TwoDeH
