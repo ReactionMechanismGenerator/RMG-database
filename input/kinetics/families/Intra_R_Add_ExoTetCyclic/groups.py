@@ -4661,19 +4661,3 @@ u"""
 """,
     
 )
-
-#forbidden(
-#    label = "cdd2",
-#    group =
-#"""
-#1 *2 {C,O}dd 0
-#""",
-#    shortDesc = u"""""",
-#    longDesc =
-#u"""
-#
-#""",
-#    history = [
-#    ],
-#)
-#
