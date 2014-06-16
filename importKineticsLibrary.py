@@ -27,12 +27,6 @@ if __name__ == '__main__':
     library = KineticsLibrary()
     library.loadOld(inputPath)
     
-    # Assign history to entries
-    user = getUsername()    # Pulls username from current git repository
-    #user = '{0} <{1}>'.format(name, email)   # If not in git repository, then enter user information manually
-    event = [time.asctime(),user,'action','{0} imported this entry from the old RMG database.'.format(user)]
-    for label, entry in library.entries.iteritems():
-        entry.history.append(event)
         
     # Save in Py format
     library.save(outputPath)
