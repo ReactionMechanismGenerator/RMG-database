@@ -10425,15 +10425,15 @@ entry(
 3 *2 H 0 0 {1,S}
 """,
     product2 = """
-1  *3 C 1 0 {3,S} {5,S} {6,S}
-2     C 0 0 {3,S} {7,S} {8,S} {9,S}
-3     C 0 0 {1,S} {2,S} {4,D}
-4     C 0 0 {3,D} {10,S} {11,S}
+1     C 0 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 0 {1,S} {3,S} {4,D}
+3  *3 C 1 0 {2,S} {8,S} {9,S}
+4     C 0 0 {2,D} {10,S} {11,S}
 5     H 0 0 {1,S}
 6     H 0 0 {1,S}
-7     H 0 0 {2,S}
-8     H 0 0 {2,S}
-9     H 0 0 {2,S}
+7     H 0 0 {1,S}
+8     H 0 0 {3,S}
+9     H 0 0 {3,S}
 10    H 0 0 {4,S}
 11    H 0 0 {4,S}
 """,
@@ -10968,12 +10968,12 @@ entry(
 10    H 0 0 {3,S}
 """,
     reactant2 = """
-1    C 0 0 {2,D} {3,S} {6,S}
+1    C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {7,S} {8,S}
-3 *1 C 0 0 {1,S} {4,D} {5,S}
-4    O 0 2 {3,D}
-5 *2 H 0 0 {3,S}
-6    H 0 0 {1,S}
+3 *1 C 0 0 {1,S} {5,D} {6,S}
+4    H 0 0 {1,S}
+5    O 0 2 {3,D}
+6 *2 H 0 0 {3,S}
 7    H 0 0 {2,S}
 8    H 0 0 {2,S}
 """,
@@ -10991,13 +10991,13 @@ entry(
 11    H 0 0 {3,S}
 """,
     product2 = """
-1    C 0 0 {2,D} {3,S} {5,S}
-2    C 0 0 {1,D} {6,S} {7,S}
-3 *3 C 1 0 {1,S} {4,D}
-4    O 0 2 {3,D}
-5    H 0 0 {1,S}
+1    C 0 0 {2,D} {3,S} {4,S}
+2    C 0 0 {1,D} {5,S} {6,S}
+3 *3 C 1 0 {1,S} {7,D}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
 6    H 0 0 {2,S}
-7    H 0 0 {2,S}
+7    O 0 2 {3,D}
 """,
     distances = DistanceData(
         distances = {'d23': 1.419813, 'd12': 1.341631, 'd13': 2.752365},
@@ -11158,15 +11158,15 @@ u"""
 entry(
     index = 197,
     reactant1 = """
-1    H 0 0 {2,S}
-2 *3 C 1 0 {1,S} {3,S} {4,S}
-3    C 0 0 {2,S} {5,D} {6,S}
-4    H 0 0 {2,S}
-5    O 0 2 {3,D}
-6    C 0 0 {3,S} {7,S} {8,S} {9,S}
-7    H 0 0 {6,S}
-8    H 0 0 {6,S}
-9    H 0 0 {6,S}
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 0 {1,S} {3,S} {7,D}
+3 *3 C 1 0 {2,S} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    O 0 2 {2,D}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     reactant2 = """
 1 *1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -11180,16 +11180,16 @@ entry(
 9    H 0 0 {3,S}
 """,
     product1 = """
-1     H 0 0 {2,S}
-2  *1 C 0 0 {1,S} {3,S} {4,S} {5,S}
-3     C 0 0 {2,S} {6,S} {7,D}
-4  *2 H 0 0 {2,S}
-5     H 0 0 {2,S}
-6     C 0 0 {3,S} {8,S} {9,S} {10,S}
-7     O 0 2 {3,D}
-8     H 0 0 {6,S}
-9     H 0 0 {6,S}
-10    H 0 0 {6,S}
+1  *1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2     C 0 0 {3,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {2,S} {10,D}
+4     H 0 0 {1,S}
+5  *2 H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    O 0 2 {3,D}
 """,
     product2 = """
 1    C 0 0 {2,S} {3,D} {4,S}
@@ -11362,20 +11362,20 @@ entry(
 4    H 0 0 {1,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {5,S} {8,S}
-2     C 0 0 {1,S} {9,S} {10,S} {11,S}
-3     C 0 0 {1,S} {12,S} {13,S} {14,S}
-4  *1 C 0 0 {5,S} {6,D} {7,S}
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  *1 C 0 0 {5,S} {13,D} {14,S}
 5     O 0 2 {1,S} {4,S}
-6     O 0 2 {4,D}
-7  *2 H 0 0 {4,S}
-8     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
 9     H 0 0 {2,S}
-10    H 0 0 {2,S}
-11    H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
 12    H 0 0 {3,S}
-13    H 0 0 {3,S}
-14    H 0 0 {3,S}
+13    O 0 2 {4,D}
+14 *2 H 0 0 {4,S}
 """,
     product1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -11385,19 +11385,19 @@ entry(
 5    H 0 0 {1,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {5,S} {7,S}
-2     C 0 0 {1,S} {8,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4  *3 C 1 0 {5,S} {6,D}
-5     O 0 2 {1,S} {4,S}
-6     O 0 2 {4,D}
-7     H 0 0 {1,S}
+1     C 0 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     O 0 2 {1,S} {5,S}
+5  *3 C 1 0 {4,S} {13,D}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
 8     H 0 0 {2,S}
 9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
 12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+13    O 0 2 {5,D}
 """,
     distances = DistanceData(
         distances = {'d23': 1.411288, 'd12': 1.31096, 'd13': 2.722246},
@@ -11560,19 +11560,19 @@ entry(
 10    H 0 0 {3,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {4,S} {7,S}
-2     C 0 0 {1,S} {8,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4  *1 C 0 0 {1,S} {5,D} {6,S}
-5     O 0 2 {4,D}
-6  *2 H 0 0 {4,S}
-7     H 0 0 {1,S}
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *1 C 0 0 {1,S} {12,D} {13,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
 8     H 0 0 {2,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+12    O 0 2 {4,D}
+13 *2 H 0 0 {4,S}
 """,
     product1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -11717,19 +11717,19 @@ entry(
 3 *2 H 0 0 {1,S}
 """,
     product2 = """
-1  *3 C 1 0 {2,S} {3,S} {7,S}
-2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+1     C 0 0 {2,S} {3,S} {7,S} {8,S}
+2  *3 C 1 0 {1,S} {4,S} {9,S}
 3     C 0 0 {1,S} {5,D} {10,S}
 4     C 0 0 {2,S} {6,D} {11,S}
-5     C 0 0 {3,D} {6,S} {12,S}
-6     C 0 0 {4,D} {5,S} {13,S}
+5     C 0 0 {3,D} {6,S} {13,S}
+6     C 0 0 {4,D} {5,S} {12,S}
 7     H 0 0 {1,S}
-8     H 0 0 {2,S}
+8     H 0 0 {1,S}
 9     H 0 0 {2,S}
 10    H 0 0 {3,S}
 11    H 0 0 {4,S}
-12    H 0 0 {5,S}
-13    H 0 0 {6,S}
+12    H 0 0 {6,S}
+13    H 0 0 {5,S}
 """,
     distances = DistanceData(
         distances = {'d23': 1.189731, 'd12': 1.417057, 'd13': 2.604216},
@@ -11863,16 +11863,16 @@ entry(
 12    H 0 0 {4,S}
 """,
     product2 = """
-1  *3 C 1 0 {3,S} {5,S} {6,S}
-2     C 0 0 {4,S} {7,S} {8,S} {9,S}
-3     C 0 0 {1,S} {4,D} {10,S}
-4     C 0 0 {2,S} {3,D} {11,S}
+1     C 0 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 0 {1,S} {3,D} {8,S}
+3     C 0 0 {2,D} {4,S} {9,S}
+4  *3 C 1 0 {3,S} {10,S} {11,S}
 5     H 0 0 {1,S}
 6     H 0 0 {1,S}
-7     H 0 0 {2,S}
+7     H 0 0 {1,S}
 8     H 0 0 {2,S}
-9     H 0 0 {2,S}
-10    H 0 0 {3,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
 11    H 0 0 {4,S}
 """,
     distances = DistanceData(
@@ -12079,23 +12079,23 @@ entry(
 11    H 0 0 {3,S}
 """,
     product2 = """
-1  *3 C 1 0 {5,S} {7,S} {8,S}
-2     C 0 0 {5,S} {9,S} {10,S} {11,S}
-3     C 0 0 {6,S} {12,S} {13,S} {14,S}
-4     C 0 0 {6,S} {15,S} {16,S} {17,S}
-5     C 0 0 {1,S} {2,S} {6,D}
-6     C 0 0 {3,S} {4,S} {5,D}
-7     H 0 0 {1,S}
-8     H 0 0 {1,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
-11    H 0 0 {2,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
-14    H 0 0 {3,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
-17    H 0 0 {4,S}
+1     C 0 0 {4,S} {10,S} {11,S} {12,S}
+2     C 0 0 {4,S} {13,S} {14,S} {15,S}
+3     C 0 0 {5,S} {7,S} {8,S} {9,S}
+4     C 0 0 {1,S} {2,S} {5,D}
+5     C 0 0 {3,S} {4,D} {6,S}
+6  *3 C 1 0 {5,S} {16,S} {17,S}
+7     H 0 0 {3,S}
+8     H 0 0 {3,S}
+9     H 0 0 {3,S}
+10    H 0 0 {1,S}
+11    H 0 0 {1,S}
+12    H 0 0 {1,S}
+13    H 0 0 {2,S}
+14    H 0 0 {2,S}
+15    H 0 0 {2,S}
+16    H 0 0 {6,S}
+17    H 0 0 {6,S}
 """,
     distances = DistanceData(
         distances = {'d23': 1.426374, 'd12': 1.310685, 'd13': 2.73602},
@@ -12121,17 +12121,17 @@ entry(
 """,
     reactant2 = """
 1     C 0 0 {3,S} {4,S} {5,S} {6,S}
-2     C 0 0 {3,S} {7,S} {8,S} {10,S}
-3     C 0 0 {1,S} {2,S} {11,S} {12,S}
+2     C 0 0 {3,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {2,S} {10,S} {11,S}
 4     C 0 0 {1,S} {13,S} {14,S} {15,S}
 5     C 0 0 {1,S} {16,S} {17,S} {18,S}
 6     C 0 0 {1,S} {19,S} {20,S} {21,S}
-7  *1 C 0 0 {2,S} {9,S} {22,S} {23,S}
+7  *1 C 0 0 {2,S} {12,S} {22,S} {23,S}
 8     C 0 0 {2,S} {24,S} {25,S} {26,S}
-9  *2 H 0 0 {7,S}
-10    H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
+12 *2 H 0 0 {7,S}
 13    H 0 0 {4,S}
 14    H 0 0 {4,S}
 15    H 0 0 {4,S}
@@ -12159,8 +12159,8 @@ entry(
 4     C 0 0 {1,S} {12,S} {13,S} {14,S}
 5     C 0 0 {1,S} {15,S} {16,S} {17,S}
 6     C 0 0 {1,S} {18,S} {19,S} {20,S}
-7  *3 C 1 0 {2,S} {21,S} {22,S}
-8     C 0 0 {2,S} {23,S} {24,S} {25,S}
+7     C 0 0 {2,S} {21,S} {22,S} {23,S}
+8  *3 C 1 0 {2,S} {24,S} {25,S}
 9     H 0 0 {2,S}
 10    H 0 0 {3,S}
 11    H 0 0 {3,S}
@@ -12175,7 +12175,7 @@ entry(
 20    H 0 0 {6,S}
 21    H 0 0 {7,S}
 22    H 0 0 {7,S}
-23    H 0 0 {8,S}
+23    H 0 0 {7,S}
 24    H 0 0 {8,S}
 25    H 0 0 {8,S}
 """,
@@ -12287,17 +12287,17 @@ entry(
 3 *3 O 1 2 {1,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {10,S} {11,S}
-2  *1 C 0 0 {1,S} {9,S} {12,S} {13,S}
+1     C 0 0 {2,S} {3,S} {9,S} {10,S}
+2  *1 C 0 0 {1,S} {11,S} {12,S} {13,S}
 3     C 0 0 {1,S} {4,B} {5,B}
 4     C 0 0 {3,B} {7,B} {14,S}
 5     C 0 0 {3,B} {8,B} {15,S}
 6     C 0 0 {7,B} {8,B} {16,S}
 7     C 0 0 {4,B} {6,B} {17,S}
 8     C 0 0 {5,B} {6,B} {18,S}
-9  *2 H 0 0 {2,S}
+9     H 0 0 {1,S}
 10    H 0 0 {1,S}
-11    H 0 0 {1,S}
+11 *2 H 0 0 {2,S}
 12    H 0 0 {2,S}
 13    H 0 0 {2,S}
 14    H 0 0 {4,S}
@@ -12313,22 +12313,22 @@ entry(
 4 *2 H 0 0 {2,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {9,S} {10,S}
-2  *3 C 1 0 {1,S} {11,S} {12,S}
-3     C 0 0 {1,S} {4,B} {5,B}
-4     C 0 0 {3,B} {7,B} {13,S}
-5     C 0 0 {3,B} {8,B} {14,S}
-6     C 0 0 {7,B} {8,B} {15,S}
-7     C 0 0 {4,B} {6,B} {16,S}
-8     C 0 0 {5,B} {6,B} {17,S}
+1     C 0 0 {2,S} {8,S} {9,S} {10,S}
+2     C 0 0 {1,S} {3,B} {4,B}
+3     C 0 0 {2,B} {6,B} {11,S}
+4     C 0 0 {2,B} {7,B} {12,S}
+5     C 0 0 {6,B} {7,B} {13,S}
+6     C 0 0 {3,B} {5,B} {14,S}
+7     C 0 0 {4,B} {5,B} {15,S}
+8  *3 C 1 0 {1,S} {16,S} {17,S}
 9     H 0 0 {1,S}
 10    H 0 0 {1,S}
-11    H 0 0 {2,S}
-12    H 0 0 {2,S}
-13    H 0 0 {4,S}
-14    H 0 0 {5,S}
-15    H 0 0 {6,S}
-16    H 0 0 {7,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {5,S}
+14    H 0 0 {6,S}
+15    H 0 0 {7,S}
+16    H 0 0 {8,S}
 17    H 0 0 {8,S}
 """,
     distances = DistanceData(
@@ -12365,22 +12365,22 @@ entry(
 13    H 0 0 {4,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {8,S} {9,S}
-2     C 0 0 {1,S} {4,S} {10,S} {11,S}
-3     C 0 0 {1,S} {5,S} {12,S} {13,S}
-4     C 0 0 {2,S} {14,S} {15,S} {16,S}
-5  *1 C 0 0 {3,S} {6,D} {7,S}
-6     O 0 2 {5,D}
-7  *2 H 0 0 {5,S}
-8     H 0 0 {1,S}
-9     H 0 0 {1,S}
-10    H 0 0 {2,S}
-11    H 0 0 {2,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {12,S} {13,S} {14,S}
+5  *1 C 0 0 {3,S} {15,D} {16,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
+15    O 0 2 {5,D}
+16 *2 H 0 0 {5,S}
 """,
     product1 = """
 1     C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -12399,21 +12399,21 @@ entry(
 14    H 0 0 {4,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {7,S} {8,S}
-2     C 0 0 {1,S} {4,S} {9,S} {10,S}
-3     C 0 0 {1,S} {5,S} {11,S} {12,S}
-4     C 0 0 {2,S} {13,S} {14,S} {15,S}
-5  *3 C 1 0 {3,S} {6,D}
-6     O 0 2 {5,D}
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {12,S} {13,S} {14,S}
+5  *3 C 1 0 {3,S} {15,D}
+6     H 0 0 {1,S}
 7     H 0 0 {1,S}
-8     H 0 0 {1,S}
+8     H 0 0 {2,S}
 9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
+12    H 0 0 {4,S}
 13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
+15    O 0 2 {5,D}
 """,
     distances = DistanceData(
         distances = {'d23': 1.463798, 'd12': 1.308541, 'd13': 2.77175},
@@ -12449,22 +12449,22 @@ entry(
 13    H 0 0 {4,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {4,S} {8,S}
-2     C 0 0 {1,S} {5,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4     C 0 0 {1,S} {14,S} {15,S} {16,S}
-5  *1 C 0 0 {2,S} {6,D} {7,S}
-6     O 0 2 {5,D}
-7  *2 H 0 0 {5,S}
-8     H 0 0 {1,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+1     C 0 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 0 {1,S} {5,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 C 0 0 {2,S} {15,D} {16,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
+15    O 0 2 {5,D}
+16 *2 H 0 0 {5,S}
 """,
     product1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -12534,21 +12534,21 @@ entry(
 """,
     reactant2 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 0 {1,S} {8,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4     C 0 0 {1,S} {14,S} {15,S} {16,S}
-5  *1 C 0 0 {1,S} {6,D} {7,S}
-6     O 0 2 {5,D}
-7  *2 H 0 0 {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 C 0 0 {1,S} {15,D} {16,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
 8     H 0 0 {2,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
+15    O 0 2 {5,D}
+16 *2 H 0 0 {5,S}
 """,
     product1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
@@ -12692,6 +12692,862 @@ u"""
 entry(
     index = 218,
     reactant1 = """
+1    O 1 2 {2,S}
+2 *3 O 1 2 {1,S}
+""",
+    reactant2 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 2 {1,S} {6,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+""",
+    product1 = """
+1 *1 O 0 2 {2,S} {3,S}
+2    O 1 2 {1,S}
+3 *2 H 0 0 {1,S}
+""",
+    product2 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    O 0 2 {1,S} {5,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.084727, 'd12': 1.599845, 'd13': 2.632605},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 02:05:18 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 219,
+    reactant1 = """
+1    C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 2 {1,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6 *3 O 1 2 {2,S}
+""",
+    reactant2 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 2 {1,S} {6,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+""",
+    product1 = """
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2    O 0 2 {1,S} {3,S}
+3 *1 O 0 2 {2,S} {7,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7 *2 H 0 0 {3,S}
+""",
+    product2 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    O 0 2 {1,S} {5,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.207728, 'd12': 1.343942, 'd13': 2.52238},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 02:53:10 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 220,
+    reactant1 = """
+1    C 0 0 {2,D} {3,S} {4,S}
+2 *3 C 1 0 {1,D} {5,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+""",
+    reactant2 = """
+1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 H 0 0 {1,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+""",
+    product1 = """
+1 *1 C 0 0 {2,D} {3,S} {4,S}
+2    C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4 *2 H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
+""",
+    product2 = """
+1     C 0 0 {3,S} {4,S} {5,S} {6,S}
+2     C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  *3 C 1 0 {1,S} {2,S} {10,S}
+4     H 0 0 {1,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.447046, 'd12': 1.268698, 'd13': 2.715651},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 03:26:38 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 221,
+    reactant1 = """
+1    O 0 2 {2,S} {3,S}
+2    H 0 0 {1,S}
+3 *3 O 1 2 {1,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  *1 C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9  *2 H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    product1 = """
+1    O 0 2 {2,S} {3,S}
+2 *1 O 0 2 {1,S} {4,S}
+3    H 0 0 {1,S}
+4 *2 H 0 0 {2,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *3 C 1 0 {2,S} {12,S} {13,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.157061, 'd12': 1.387852, 'd13': 2.544644},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 06:05:21 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 222,
+    reactant1 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {4,S} {5,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  *1 C 0 0 {4,S} {10,D} {11,S}
+4     O 0 2 {1,S} {3,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    O 0 2 {3,D}
+11 *2 H 0 0 {3,S}
+""",
+    product1 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    H 0 0 {1,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     O 0 2 {1,S} {4,S}
+4  *3 C 1 0 {3,S} {10,D}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    O 0 2 {4,D}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.400219, 'd12': 1.317411, 'd13': 2.717538},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 06:20:01 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 223,
+    reactant1 = """
+1    C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 C 1 0 {1,S} {6,S} {7,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {4,S} {7,S} {8,S}
+2     C 0 0 {1,S} {9,S} {10,S} {11,S}
+3  *1 C 0 0 {4,S} {5,D} {6,S}
+4     O 0 2 {1,S} {3,S}
+5     O 0 2 {3,D}
+6  *2 H 0 0 {3,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {2,S}
+""",
+    product1 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5 *2 H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {4,S} {6,S} {7,S}
+2     C 0 0 {1,S} {8,S} {9,S} {10,S}
+3  *3 C 1 0 {4,S} {5,D}
+4     O 0 2 {1,S} {3,S}
+5     O 0 2 {3,D}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.369407, 'd12': 1.350874, 'd13': 2.720067},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 08:05:34 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 224,
+    reactant1 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {5,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  *1 C 0 0 {5,S} {13,D} {14,S}
+5     O 0 2 {2,S} {4,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    O 0 2 {4,D}
+14 *2 H 0 0 {4,S}
+""",
+    product1 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    H 0 0 {1,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     O 0 2 {2,S} {5,S}
+5  *3 C 1 0 {4,S} {13,D}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    O 0 2 {5,D}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.401544, 'd12': 1.316801, 'd13': 2.718293},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 08:38:14 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 225,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    reactant2 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 0 {1,S} {3,S} {6,S} {7,S}
+3    C 0 0 {1,S} {2,S} {8,S} {9,S}
+4 *2 H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2     C 0 0 {1,B} {4,B} {8,S}
+3  *1 C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9  *2 H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    product2 = """
+1    C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 *3 C 1 0 {1,S} {2,S} {8,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.368342, 'd12': 1.301866, 'd13': 2.670175},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 13:02:58 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 226,
+    reactant1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *3 O 1 2 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    reactant2 = """
+1  *1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 0 {1,S} {4,D} {11,S}
+4     C 0 0 {2,S} {3,D} {12,S}
+5  *2 H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+""",
+    product1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 O 0 2 {1,S} {15,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15 *2 H 0 0 {5,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 0 {1,S} {3,D} {8,S}
+3     C 0 0 {2,D} {4,S} {9,S}
+4  *3 C 1 0 {3,S} {10,S} {11,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.366807, 'd12': 1.223685, 'd13': 2.589608},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 17:48:26 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 227,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    reactant2 = """
+1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2  *1 C 0 0 {1,B} {4,B} {8,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8  *2 H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    product2 = """
+1     C 0 0 {4,S} {5,S} {6,S} {7,S}
+2     C 0 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 0 {4,S} {11,S} {12,S} {13,S}
+4  *3 C 1 0 {1,S} {2,S} {3,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.49714, 'd12': 1.244105, 'd13': 2.741235},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 19:37:43 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 228,
+    reactant1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *3 O 1 2 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    reactant2 = """
+1  *1 C 0 0 {4,S} {6,S} {7,S} {8,S}
+2     C 0 0 {4,S} {9,S} {10,S} {11,S}
+3     C 0 0 {5,S} {12,S} {13,S} {14,S}
+4     C 0 0 {1,S} {2,S} {5,D}
+5     C 0 0 {3,S} {4,D} {15,S}
+6  *2 H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {2,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {3,S}
+15    H 0 0 {5,S}
+""",
+    product1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 O 0 2 {1,S} {15,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15 *2 H 0 0 {5,S}
+""",
+    product2 = """
+1  *3 C 1 0 {4,S} {6,S} {7,S}
+2     C 0 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 0 {5,S} {11,S} {12,S} {13,S}
+4     C 0 0 {1,S} {2,S} {5,D}
+5     C 0 0 {3,S} {4,D} {14,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {5,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.365815, 'd12': 1.22576, 'd13': 2.590913},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 22:47:27 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 229,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    reactant2 = """
+1  *1 C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {5,S} {12,S} {13,S}
+5     C 0 0 {3,S} {4,S} {14,S} {15,S}
+6  *2 H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {5,S}
+15    H 0 0 {5,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2     C 0 0 {1,B} {4,B} {8,S}
+3  *1 C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9  *2 H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    product2 = """
+1  *3 C 1 0 {2,S} {3,S} {6,S}
+2     C 0 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 0 {1,S} {5,S} {9,S} {10,S}
+4     C 0 0 {2,S} {5,S} {11,S} {12,S}
+5     C 0 0 {3,S} {4,S} {13,S} {14,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
+13    H 0 0 {5,S}
+14    H 0 0 {5,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.475176, 'd12': 1.2474, 'd13': 2.722152},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 21:12:38 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 230,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    reactant2 = """
+1  *1 C 0 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 0 {2,S} {6,S} {13,S} {14,S}
+5     C 0 0 {3,S} {6,S} {15,S} {16,S}
+6     C 0 0 {4,S} {5,S} {17,S} {18,S}
+7  *2 H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
+16    H 0 0 {5,S}
+17    H 0 0 {6,S}
+18    H 0 0 {6,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2  *1 C 0 0 {1,B} {4,B} {8,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8  *2 H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    product2 = """
+1  *3 C 1 0 {2,S} {3,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {6,S} {12,S} {13,S}
+5     C 0 0 {3,S} {6,S} {14,S} {15,S}
+6     C 0 0 {4,S} {5,S} {16,S} {17,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {5,S}
+15    H 0 0 {5,S}
+16    H 0 0 {6,S}
+17    H 0 0 {6,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.460601, 'd12': 1.257363, 'd13': 2.717863},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Fri May 30 01:16:21 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 231,
+    reactant1 = """
 1 *3 H 1 0
 """,
     reactant2 = """
@@ -12728,7 +13584,7 @@ u"""
 )
 
 entry(
-    index = 219,
+    index = 232,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -12772,7 +13628,7 @@ u"""
 )
 
 entry(
-    index = 220,
+    index = 233,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -12812,7 +13668,7 @@ u"""
 )
 
 entry(
-    index = 221,
+    index = 234,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -12848,7 +13704,7 @@ u"""
 )
 
 entry(
-    index = 222,
+    index = 235,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -12888,7 +13744,7 @@ u"""
 )
 
 entry(
-    index = 223,
+    index = 236,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -12924,7 +13780,7 @@ u"""
 )
 
 entry(
-    index = 224,
+    index = 237,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -12974,7 +13830,7 @@ u"""
 )
 
 entry(
-    index = 225,
+    index = 238,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13020,7 +13876,7 @@ u"""
 )
 
 entry(
-    index = 226,
+    index = 239,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -13062,7 +13918,7 @@ u"""
 )
 
 entry(
-    index = 227,
+    index = 240,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -13104,7 +13960,7 @@ u"""
 )
 
 entry(
-    index = 228,
+    index = 241,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13150,7 +14006,7 @@ u"""
 )
 
 entry(
-    index = 229,
+    index = 242,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13196,7 +14052,7 @@ u"""
 )
 
 entry(
-    index = 230,
+    index = 243,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13252,7 +14108,7 @@ u"""
 )
 
 entry(
-    index = 231,
+    index = 244,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13300,7 +14156,7 @@ u"""
 )
 
 entry(
-    index = 232,
+    index = 245,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -13356,7 +14212,7 @@ u"""
 )
 
 entry(
-    index = 233,
+    index = 246,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13408,7 +14264,7 @@ u"""
 )
 
 entry(
-    index = 234,
+    index = 247,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13452,7 +14308,7 @@ u"""
 )
 
 entry(
-    index = 235,
+    index = 248,
     reactant1 = """
 1 *3 H 1 0
 """,
@@ -13504,7 +14360,7 @@ u"""
 )
 
 entry(
-    index = 236,
+    index = 249,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13562,7 +14418,7 @@ u"""
 )
 
 entry(
-    index = 237,
+    index = 250,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13620,7 +14476,7 @@ u"""
 )
 
 entry(
-    index = 238,
+    index = 251,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13682,7 +14538,7 @@ u"""
 )
 
 entry(
-    index = 239,
+    index = 252,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13744,7 +14600,7 @@ u"""
 )
 
 entry(
-    index = 240,
+    index = 253,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13806,7 +14662,7 @@ u"""
 )
 
 entry(
-    index = 241,
+    index = 254,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13868,7 +14724,7 @@ u"""
 )
 
 entry(
-    index = 242,
+    index = 255,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13930,7 +14786,7 @@ u"""
 )
 
 entry(
-    index = 243,
+    index = 256,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -13982,7 +14838,7 @@ u"""
 )
 
 entry(
-    index = 244,
+    index = 257,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -14036,7 +14892,7 @@ u"""
 )
 
 entry(
-    index = 245,
+    index = 258,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -14100,7 +14956,7 @@ u"""
 )
 
 entry(
-    index = 246,
+    index = 259,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 0 {1,S}
@@ -14152,7 +15008,7 @@ u"""
 )
 
 entry(
-    index = 247,
+    index = 260,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 0 {1,S}
@@ -14204,7 +15060,7 @@ u"""
 )
 
 entry(
-    index = 248,
+    index = 261,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 0 {1,S}
@@ -14256,7 +15112,7 @@ u"""
 )
 
 entry(
-    index = 249,
+    index = 262,
     reactant1 = """
 1    O 0 2 {2,S} {4,S}
 2 *1 O 0 2 {1,S} {3,S}
@@ -14306,7 +15162,7 @@ u"""
 )
 
 entry(
-    index = 250,
+    index = 263,
     reactant1 = """
 1    O 0 2 {2,S} {4,S}
 2 *1 O 0 2 {1,S} {3,S}
@@ -14356,7 +15212,7 @@ u"""
 )
 
 entry(
-    index = 251,
+    index = 264,
     reactant1 = """
 1    O 0 2 {2,S} {4,S}
 2 *1 O 0 2 {1,S} {3,S}
@@ -14406,7 +15262,7 @@ u"""
 )
 
 entry(
-    index = 252,
+    index = 265,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 0 {1,S}
@@ -14456,7 +15312,7 @@ u"""
 )
 
 entry(
-    index = 253,
+    index = 266,
     reactant1 = """
 1    O 0 2 {2,S} {4,S}
 2 *3 O 0 2 {1,S} {3,S}
@@ -14504,7 +15360,7 @@ u"""
 )
 
 entry(
-    index = 254,
+    index = 267,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 0 {1,S}
@@ -14550,7 +15406,7 @@ u"""
 )
 
 entry(
-    index = 255,
+    index = 268,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 0 {1,S}
@@ -14608,7 +15464,7 @@ u"""
 )
 
 entry(
-    index = 256,
+    index = 269,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 0 {1,S}
@@ -14652,7 +15508,7 @@ u"""
 )
 
 entry(
-    index = 257,
+    index = 270,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -14702,7 +15558,7 @@ u"""
 )
 
 entry(
-    index = 258,
+    index = 271,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -14756,7 +15612,7 @@ u"""
 )
 
 entry(
-    index = 259,
+    index = 272,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -14814,7 +15670,7 @@ u"""
 )
 
 entry(
-    index = 260,
+    index = 273,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2 *2 H 0 0 {1,S}
@@ -14862,7 +15718,7 @@ u"""
 )
 
 entry(
-    index = 261,
+    index = 274,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2 *2 H 0 0 {1,S}
@@ -14910,7 +15766,7 @@ u"""
 )
 
 entry(
-    index = 262,
+    index = 275,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -14944,7 +15800,7 @@ u"""
 )
 
 entry(
-    index = 263,
+    index = 276,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -14984,7 +15840,7 @@ u"""
 )
 
 entry(
-    index = 264,
+    index = 277,
     reactant1 = """
 1    H 0 0 {2,S}
 2 *3 O 1 2 {1,S}
@@ -15024,7 +15880,7 @@ u"""
 )
 
 entry(
-    index = 265,
+    index = 278,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15070,7 +15926,7 @@ u"""
 )
 
 entry(
-    index = 266,
+    index = 279,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15116,7 +15972,7 @@ u"""
 )
 
 entry(
-    index = 267,
+    index = 280,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15162,7 +16018,7 @@ u"""
 )
 
 entry(
-    index = 268,
+    index = 281,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O 0 2 {1,S} {6,S}
@@ -15208,7 +16064,7 @@ u"""
 )
 
 entry(
-    index = 269,
+    index = 282,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,D} {4,S}
 2    H 0 0 {1,S}
@@ -15250,7 +16106,7 @@ u"""
 )
 
 entry(
-    index = 270,
+    index = 283,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2 *1 O 0 2 {1,S} {4,S}
@@ -15292,7 +16148,7 @@ u"""
 )
 
 entry(
-    index = 271,
+    index = 284,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15338,7 +16194,7 @@ u"""
 )
 
 entry(
-    index = 272,
+    index = 285,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15380,7 +16236,7 @@ u"""
 )
 
 entry(
-    index = 273,
+    index = 286,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15426,7 +16282,7 @@ u"""
 )
 
 entry(
-    index = 274,
+    index = 287,
     reactant1 = """
 1    H 0 0 {2,S}
 2 *3 O 1 2 {1,S}
@@ -15468,7 +16324,7 @@ u"""
 )
 
 entry(
-    index = 275,
+    index = 288,
     reactant1 = """
 1    H 0 0 {2,S}
 2 *3 O 1 2 {1,S}
@@ -15506,7 +16362,7 @@ u"""
 )
 
 entry(
-    index = 276,
+    index = 289,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -15552,7 +16408,7 @@ u"""
 )
 
 entry(
-    index = 277,
+    index = 290,
     reactant1 = """
 1 *1 C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {5,S} {6,S}
@@ -15600,7 +16456,7 @@ u"""
 )
 
 entry(
-    index = 278,
+    index = 291,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15652,7 +16508,7 @@ u"""
 )
 
 entry(
-    index = 279,
+    index = 292,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -15700,7 +16556,7 @@ u"""
 )
 
 entry(
-    index = 280,
+    index = 293,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O 0 2 {1,S} {6,S}
@@ -15752,7 +16608,7 @@ u"""
 )
 
 entry(
-    index = 281,
+    index = 294,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -15808,7 +16664,7 @@ u"""
 )
 
 entry(
-    index = 282,
+    index = 295,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -15856,7 +16712,7 @@ u"""
 )
 
 entry(
-    index = 283,
+    index = 296,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -15908,7 +16764,7 @@ u"""
 )
 
 entry(
-    index = 284,
+    index = 297,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -15960,7 +16816,7 @@ u"""
 )
 
 entry(
-    index = 285,
+    index = 298,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -16016,7 +16872,7 @@ u"""
 )
 
 entry(
-    index = 286,
+    index = 299,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -16056,7 +16912,7 @@ u"""
 )
 
 entry(
-    index = 287,
+    index = 300,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -16110,7 +16966,7 @@ u"""
 )
 
 entry(
-    index = 288,
+    index = 301,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -16172,7 +17028,7 @@ u"""
 )
 
 entry(
-    index = 289,
+    index = 302,
     reactant1 = """
 1    C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    O 0 2 {1,S} {3,S}
@@ -16226,7 +17082,7 @@ u"""
 )
 
 entry(
-    index = 290,
+    index = 303,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -16288,7 +17144,7 @@ u"""
 )
 
 entry(
-    index = 291,
+    index = 304,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O 0 2 {1,S} {6,S}
@@ -16346,7 +17202,7 @@ u"""
 )
 
 entry(
-    index = 292,
+    index = 305,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O 0 2 {1,S} {6,S}
@@ -16404,7 +17260,7 @@ u"""
 )
 
 entry(
-    index = 293,
+    index = 306,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,D} {4,S}
 2    H 0 0 {1,S}
@@ -16458,7 +17314,7 @@ u"""
 )
 
 entry(
-    index = 294,
+    index = 307,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,D}
 2    H 0 0 {1,S}
@@ -16512,7 +17368,7 @@ u"""
 )
 
 entry(
-    index = 295,
+    index = 308,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2 *1 O 0 2 {1,S} {4,S}
@@ -16566,7 +17422,7 @@ u"""
 )
 
 entry(
-    index = 296,
+    index = 309,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -16628,7 +17484,7 @@ u"""
 )
 
 entry(
-    index = 297,
+    index = 310,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -16690,7 +17546,7 @@ u"""
 )
 
 entry(
-    index = 298,
+    index = 311,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -16752,7 +17608,7 @@ u"""
 )
 
 entry(
-    index = 299,
+    index = 312,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -16814,7 +17670,7 @@ u"""
 )
 
 entry(
-    index = 300,
+    index = 313,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -16868,7 +17724,7 @@ u"""
 )
 
 entry(
-    index = 301,
+    index = 314,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -16930,7 +17786,7 @@ u"""
 )
 
 entry(
-    index = 302,
+    index = 315,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -16992,7 +17848,7 @@ u"""
 )
 
 entry(
-    index = 303,
+    index = 316,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -17050,7 +17906,7 @@ u"""
 )
 
 entry(
-    index = 304,
+    index = 317,
     reactant1 = """
 1 *1 C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {5,S} {6,S}
@@ -17104,7 +17960,7 @@ u"""
 )
 
 entry(
-    index = 305,
+    index = 318,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -17162,7 +18018,7 @@ u"""
 )
 
 entry(
-    index = 306,
+    index = 319,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -17220,7 +18076,7 @@ u"""
 )
 
 entry(
-    index = 307,
+    index = 320,
     reactant1 = """
 1 *1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    C 0 0 {1,S} {3,D} {7,S}
@@ -17268,7 +18124,7 @@ u"""
 )
 
 entry(
-    index = 308,
+    index = 321,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -17322,7 +18178,7 @@ u"""
 )
 
 entry(
-    index = 309,
+    index = 322,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -17368,7 +18224,7 @@ u"""
 )
 
 entry(
-    index = 310,
+    index = 323,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -17426,7 +18282,7 @@ u"""
 )
 
 entry(
-    index = 311,
+    index = 324,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -17476,7 +18332,7 @@ u"""
 )
 
 entry(
-    index = 312,
+    index = 325,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -17540,7 +18396,7 @@ u"""
 )
 
 entry(
-    index = 313,
+    index = 326,
     reactant1 = """
 1 *1 C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {5,S} {6,S}
@@ -17596,7 +18452,7 @@ u"""
 )
 
 entry(
-    index = 314,
+    index = 327,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {5,S} {6,S}
 2     C 0 0 {1,S} {4,S} {7,S} {8,S}
@@ -17664,7 +18520,7 @@ u"""
 )
 
 entry(
-    index = 315,
+    index = 328,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C 0 0 {1,S} {6,S} {7,D}
@@ -17724,7 +18580,7 @@ u"""
 )
 
 entry(
-    index = 316,
+    index = 329,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C 0 0 {1,S} {6,D} {7,S}
@@ -17784,7 +18640,7 @@ u"""
 )
 
 entry(
-    index = 317,
+    index = 330,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -17852,7 +18708,7 @@ u"""
 )
 
 entry(
-    index = 318,
+    index = 331,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O 0 2 {1,S} {6,S}
@@ -17916,7 +18772,7 @@ u"""
 )
 
 entry(
-    index = 319,
+    index = 332,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O 0 2 {1,S} {6,S}
@@ -17980,7 +18836,7 @@ u"""
 )
 
 entry(
-    index = 320,
+    index = 333,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,D} {4,S}
 2    H 0 0 {1,S}
@@ -18040,7 +18896,7 @@ u"""
 )
 
 entry(
-    index = 321,
+    index = 334,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2 *1 O 0 2 {1,S} {4,S}
@@ -18100,7 +18956,7 @@ u"""
 )
 
 entry(
-    index = 322,
+    index = 335,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2 *1 O 0 2 {1,S} {4,S}
@@ -18160,7 +19016,7 @@ u"""
 )
 
 entry(
-    index = 323,
+    index = 336,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -18220,7 +19076,7 @@ u"""
 )
 
 entry(
-    index = 324,
+    index = 337,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -18284,7 +19140,7 @@ u"""
 )
 
 entry(
-    index = 325,
+    index = 338,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -18352,7 +19208,7 @@ u"""
 )
 
 entry(
-    index = 326,
+    index = 339,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -18408,7 +19264,7 @@ u"""
 )
 
 entry(
-    index = 327,
+    index = 340,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -18464,7 +19320,7 @@ u"""
 )
 
 entry(
-    index = 328,
+    index = 341,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -18524,7 +19380,7 @@ u"""
 )
 
 entry(
-    index = 329,
+    index = 342,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -18584,7 +19440,7 @@ u"""
 )
 
 entry(
-    index = 330,
+    index = 343,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -18654,7 +19510,7 @@ u"""
 )
 
 entry(
-    index = 331,
+    index = 344,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -18728,7 +19584,7 @@ u"""
 )
 
 entry(
-    index = 332,
+    index = 345,
     reactant1 = """
 1    C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    O 0 2 {1,S} {3,S}
@@ -18794,7 +19650,7 @@ u"""
 )
 
 entry(
-    index = 333,
+    index = 346,
     reactant1 = """
 1    C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    O 0 2 {1,S} {3,S}
@@ -18860,7 +19716,7 @@ u"""
 )
 
 entry(
-    index = 334,
+    index = 347,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -18934,7 +19790,7 @@ u"""
 )
 
 entry(
-    index = 335,
+    index = 348,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C 0 0 {1,S} {6,D} {7,S}
@@ -19000,7 +19856,7 @@ u"""
 )
 
 entry(
-    index = 336,
+    index = 349,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C 0 0 {1,S} {6,D} {7,S}
@@ -19066,7 +19922,7 @@ u"""
 )
 
 entry(
-    index = 337,
+    index = 350,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -19132,7 +19988,7 @@ u"""
 )
 
 entry(
-    index = 338,
+    index = 351,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -19202,7 +20058,7 @@ u"""
 )
 
 entry(
-    index = 339,
+    index = 352,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -19272,7 +20128,7 @@ u"""
 )
 
 entry(
-    index = 340,
+    index = 353,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2 *1 O 0 2 {1,S} {4,S}
@@ -19334,7 +20190,7 @@ u"""
 )
 
 entry(
-    index = 341,
+    index = 354,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -19392,7 +20248,7 @@ u"""
 )
 
 entry(
-    index = 342,
+    index = 355,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -19446,7 +20302,7 @@ u"""
 )
 
 entry(
-    index = 343,
+    index = 356,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -19514,7 +20370,7 @@ u"""
 )
 
 entry(
-    index = 344,
+    index = 357,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -19582,7 +20438,7 @@ u"""
 )
 
 entry(
-    index = 345,
+    index = 358,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -19662,7 +20518,7 @@ u"""
 )
 
 entry(
-    index = 346,
+    index = 359,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -19734,7 +20590,7 @@ u"""
 )
 
 entry(
-    index = 347,
+    index = 360,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -19814,7 +20670,7 @@ u"""
 )
 
 entry(
-    index = 348,
+    index = 361,
     reactant1 = """
 1 *1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    C 0 0 {1,S} {3,D} {7,S}
@@ -19878,7 +20734,7 @@ u"""
 )
 
 entry(
-    index = 349,
+    index = 362,
     reactant1 = """
 1 *1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    C 0 0 {1,S} {3,T}
@@ -19938,7 +20794,7 @@ u"""
 )
 
 entry(
-    index = 350,
+    index = 363,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -20010,7 +20866,7 @@ u"""
 )
 
 entry(
-    index = 351,
+    index = 364,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -20076,7 +20932,7 @@ u"""
 )
 
 entry(
-    index = 352,
+    index = 365,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -20150,7 +21006,7 @@ u"""
 )
 
 entry(
-    index = 353,
+    index = 366,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -20232,7 +21088,7 @@ u"""
 )
 
 entry(
-    index = 354,
+    index = 367,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -20314,7 +21170,7 @@ u"""
 )
 
 entry(
-    index = 355,
+    index = 368,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -20380,7 +21236,7 @@ u"""
 )
 
 entry(
-    index = 356,
+    index = 369,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -20462,7 +21318,7 @@ u"""
 )
 
 entry(
-    index = 357,
+    index = 370,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -20544,7 +21400,7 @@ u"""
 )
 
 entry(
-    index = 358,
+    index = 371,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -20630,7 +21486,7 @@ u"""
 )
 
 entry(
-    index = 359,
+    index = 372,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {8,S} {9,S}
@@ -20698,7 +21554,7 @@ u"""
 )
 
 entry(
-    index = 360,
+    index = 373,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {6,S}
 2     C 0 0 {1,S} {5,S} {8,S} {9,S}
@@ -20762,7 +21618,7 @@ u"""
 )
 
 entry(
-    index = 361,
+    index = 374,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {7,S} {9,S}
 2     C 0 0 {1,S} {4,S} {10,S} {11,S}
@@ -20832,7 +21688,7 @@ u"""
 )
 
 entry(
-    index = 362,
+    index = 375,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -20922,7 +21778,7 @@ u"""
 )
 
 entry(
-    index = 363,
+    index = 376,
     reactant1 = """
 1     C 0 0 {2,B} {3,B} {7,S}
 2     C 0 0 {1,B} {4,B} {8,S}
@@ -20992,7 +21848,7 @@ u"""
 )
 
 entry(
-    index = 364,
+    index = 377,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -21082,7 +21938,7 @@ u"""
 )
 
 entry(
-    index = 365,
+    index = 378,
     reactant1 = """
 1     C 0 0 {2,S} {8,S} {10,S} {11,S}
 2     C 0 0 {1,S} {3,B} {4,B}
@@ -21146,7 +22002,7 @@ u"""
 )
 
 entry(
-    index = 366,
+    index = 379,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -21192,7 +22048,7 @@ u"""
 )
 
 entry(
-    index = 367,
+    index = 380,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -21242,7 +22098,7 @@ u"""
 )
 
 entry(
-    index = 368,
+    index = 381,
     reactant1 = """
 1    H 0 0 {2,S}
 2 *3 O 1 2 {1,S}
@@ -21284,7 +22140,7 @@ u"""
 )
 
 entry(
-    index = 369,
+    index = 382,
     reactant1 = """
 1 *1 C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {5,S} {6,S}
@@ -21328,7 +22184,7 @@ u"""
 )
 
 entry(
-    index = 370,
+    index = 383,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,D}
 2    H 0 0 {1,S}
@@ -21372,7 +22228,7 @@ u"""
 )
 
 entry(
-    index = 371,
+    index = 384,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -21424,7 +22280,7 @@ u"""
 )
 
 entry(
-    index = 372,
+    index = 385,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,D}
 2    H 0 0 {1,S}
@@ -21472,7 +22328,7 @@ u"""
 )
 
 entry(
-    index = 373,
+    index = 386,
     reactant1 = """
 1 *1 C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {5,S} {6,S}
@@ -21524,7 +22380,7 @@ u"""
 )
 
 entry(
-    index = 374,
+    index = 387,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -21572,7 +22428,7 @@ u"""
 )
 
 entry(
-    index = 375,
+    index = 388,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -21616,7 +22472,7 @@ u"""
 )
 
 entry(
-    index = 376,
+    index = 389,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -21660,7 +22516,7 @@ u"""
 )
 
 entry(
-    index = 377,
+    index = 390,
     reactant1 = """
 1 *1 H 0 0 {2,S}
 2 *2 H 0 0 {1,S}
@@ -21704,7 +22560,7 @@ u"""
 )
 
 entry(
-    index = 378,
+    index = 391,
     reactant1 = """
 1    C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    O 0 2 {1,S} {3,S}
@@ -21750,7 +22606,7 @@ u"""
 )
 
 entry(
-    index = 379,
+    index = 392,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C 0 0 {1,S} {6,D} {7,S}
@@ -21796,7 +22652,7 @@ u"""
 )
 
 entry(
-    index = 380,
+    index = 393,
     reactant1 = """
 1    C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C 0 0 {1,S} {6,D} {7,S}
@@ -21846,7 +22702,7 @@ u"""
 )
 
 entry(
-    index = 381,
+    index = 394,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -21904,7 +22760,7 @@ u"""
 )
 
 entry(
-    index = 382,
+    index = 395,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -21962,7 +22818,7 @@ u"""
 )
 
 entry(
-    index = 383,
+    index = 396,
     reactant1 = """
 1 *1 C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {5,S} {6,S}
@@ -22020,7 +22876,7 @@ u"""
 )
 
 entry(
-    index = 384,
+    index = 397,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2    O 1 2 {1,S}
@@ -22072,7 +22928,7 @@ u"""
 )
 
 entry(
-    index = 385,
+    index = 398,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -22126,7 +22982,7 @@ u"""
 )
 
 entry(
-    index = 386,
+    index = 399,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -22180,7 +23036,7 @@ u"""
 )
 
 entry(
-    index = 387,
+    index = 400,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,D}
 2    H 0 0 {1,S}
@@ -22230,7 +23086,7 @@ u"""
 )
 
 entry(
-    index = 388,
+    index = 401,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -22280,7 +23136,7 @@ u"""
 )
 
 entry(
-    index = 389,
+    index = 402,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -22338,7 +23194,7 @@ u"""
 )
 
 entry(
-    index = 390,
+    index = 403,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -22406,7 +23262,7 @@ u"""
 )
 
 entry(
-    index = 391,
+    index = 404,
     reactant1 = """
 1    C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    O 0 2 {1,S} {3,S}
@@ -22466,7 +23322,7 @@ u"""
 )
 
 entry(
-    index = 392,
+    index = 405,
     reactant1 = """
 1    C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    O 0 2 {1,S} {3,S}
@@ -22526,7 +23382,7 @@ u"""
 )
 
 entry(
-    index = 393,
+    index = 406,
     reactant1 = """
 1 *1 C 0 0 {2,S} {4,S} {5,S} {6,S}
 2    C 0 0 {1,S} {3,D} {7,S}
@@ -22582,7 +23438,7 @@ u"""
 )
 
 entry(
-    index = 394,
+    index = 407,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -22646,7 +23502,7 @@ u"""
 )
 
 entry(
-    index = 395,
+    index = 408,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    O 0 2 {1,S} {6,S}
@@ -22710,7 +23566,7 @@ u"""
 )
 
 entry(
-    index = 396,
+    index = 409,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,D}
 2    H 0 0 {1,S}
@@ -22770,7 +23626,7 @@ u"""
 )
 
 entry(
-    index = 397,
+    index = 410,
     reactant1 = """
 1 *1 C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {5,S} {6,S}
@@ -22834,7 +23690,7 @@ u"""
 )
 
 entry(
-    index = 398,
+    index = 411,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2    O 1 2 {1,S}
@@ -22892,7 +23748,7 @@ u"""
 )
 
 entry(
-    index = 399,
+    index = 412,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -22952,7 +23808,7 @@ u"""
 )
 
 entry(
-    index = 400,
+    index = 413,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23016,7 +23872,7 @@ u"""
 )
 
 entry(
-    index = 401,
+    index = 414,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23080,22 +23936,22 @@ u"""
 )
 
 entry(
-    index = 402,
+    index = 415,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2    O 1 2 {1,S}
 3 *2 H 0 0 {1,S}
 """,
     reactant2 = """
-1  *3 C 1 0 {3,S} {5,S} {6,S}
-2     C 0 0 {3,S} {7,S} {8,S} {9,S}
-3     C 0 0 {1,S} {2,S} {4,D}
-4     C 0 0 {3,D} {10,S} {11,S}
+1     C 0 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 0 {1,S} {3,S} {4,D}
+3  *3 C 1 0 {2,S} {8,S} {9,S}
+4     C 0 0 {2,D} {10,S} {11,S}
 5     H 0 0 {1,S}
 6     H 0 0 {1,S}
-7     H 0 0 {2,S}
-8     H 0 0 {2,S}
-9     H 0 0 {2,S}
+7     H 0 0 {1,S}
+8     H 0 0 {3,S}
+9     H 0 0 {3,S}
 10    H 0 0 {4,S}
 11    H 0 0 {4,S}
 """,
@@ -23134,7 +23990,7 @@ u"""
 )
 
 entry(
-    index = 403,
+    index = 416,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23194,7 +24050,7 @@ u"""
 )
 
 entry(
-    index = 404,
+    index = 417,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -23254,7 +24110,7 @@ u"""
 )
 
 entry(
-    index = 405,
+    index = 418,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -23310,7 +24166,7 @@ u"""
 )
 
 entry(
-    index = 406,
+    index = 419,
     reactant1 = """
 1     C 0 0 {2,S} {5,S} {6,S} {7,S}
 2     C 0 0 {1,S} {3,D} {8,S}
@@ -23366,7 +24222,7 @@ u"""
 )
 
 entry(
-    index = 407,
+    index = 420,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23428,7 +24284,7 @@ u"""
 )
 
 entry(
-    index = 408,
+    index = 421,
     reactant1 = """
 1     C 0 0 {2,B} {3,B} {7,S}
 2  *1 C 0 0 {1,B} {4,B} {8,S}
@@ -23486,7 +24342,7 @@ u"""
 )
 
 entry(
-    index = 409,
+    index = 422,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23560,7 +24416,7 @@ u"""
 )
 
 entry(
-    index = 410,
+    index = 423,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23634,7 +24490,7 @@ u"""
 )
 
 entry(
-    index = 411,
+    index = 424,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23649,13 +24505,13 @@ entry(
 11    H 0 0 {3,S}
 """,
     reactant2 = """
-1    C 0 0 {2,D} {3,S} {5,S}
-2    C 0 0 {1,D} {6,S} {7,S}
-3 *3 C 1 0 {1,S} {4,D}
-4    O 0 2 {3,D}
-5    H 0 0 {1,S}
+1    C 0 0 {2,D} {3,S} {4,S}
+2    C 0 0 {1,D} {5,S} {6,S}
+3 *3 C 1 0 {1,S} {7,D}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
 6    H 0 0 {2,S}
-7    H 0 0 {2,S}
+7    O 0 2 {3,D}
 """,
     product1 = """
 1     C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -23670,12 +24526,12 @@ entry(
 10    H 0 0 {3,S}
 """,
     product2 = """
-1    C 0 0 {2,D} {3,S} {6,S}
+1    C 0 0 {2,D} {3,S} {4,S}
 2    C 0 0 {1,D} {7,S} {8,S}
-3 *1 C 0 0 {1,S} {4,D} {5,S}
-4    O 0 2 {3,D}
-5 *2 H 0 0 {3,S}
-6    H 0 0 {1,S}
+3 *1 C 0 0 {1,S} {5,D} {6,S}
+4    H 0 0 {1,S}
+5    O 0 2 {3,D}
+6 *2 H 0 0 {3,S}
 7    H 0 0 {2,S}
 8    H 0 0 {2,S}
 """,
@@ -23696,7 +24552,7 @@ u"""
 )
 
 entry(
-    index = 412,
+    index = 425,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -23766,7 +24622,7 @@ u"""
 )
 
 entry(
-    index = 413,
+    index = 426,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -23836,18 +24692,18 @@ u"""
 )
 
 entry(
-    index = 414,
+    index = 427,
     reactant1 = """
-1     H 0 0 {2,S}
-2  *1 C 0 0 {1,S} {3,S} {4,S} {5,S}
-3     C 0 0 {2,S} {6,S} {7,D}
-4  *2 H 0 0 {2,S}
-5     H 0 0 {2,S}
-6     C 0 0 {3,S} {8,S} {9,S} {10,S}
-7     O 0 2 {3,D}
-8     H 0 0 {6,S}
-9     H 0 0 {6,S}
-10    H 0 0 {6,S}
+1  *1 C 0 0 {3,S} {4,S} {5,S} {6,S}
+2     C 0 0 {3,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {2,S} {10,D}
+4     H 0 0 {1,S}
+5  *2 H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    O 0 2 {3,D}
 """,
     reactant2 = """
 1    C 0 0 {2,S} {3,D} {4,S}
@@ -23860,15 +24716,15 @@ entry(
 8    H 0 0 {3,S}
 """,
     product1 = """
-1    H 0 0 {2,S}
-2 *3 C 1 0 {1,S} {3,S} {4,S}
-3    C 0 0 {2,S} {5,D} {6,S}
-4    H 0 0 {2,S}
-5    O 0 2 {3,D}
-6    C 0 0 {3,S} {7,S} {8,S} {9,S}
-7    H 0 0 {6,S}
-8    H 0 0 {6,S}
-9    H 0 0 {6,S}
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 0 {1,S} {3,S} {7,D}
+3 *3 C 1 0 {2,S} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    O 0 2 {2,D}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = """
 1 *1 C 0 0 {2,S} {4,S} {5,S} {6,S}
@@ -23898,7 +24754,7 @@ u"""
 )
 
 entry(
-    index = 415,
+    index = 428,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -23968,7 +24824,7 @@ u"""
 )
 
 entry(
-    index = 416,
+    index = 429,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -24034,7 +24890,7 @@ u"""
 )
 
 entry(
-    index = 417,
+    index = 430,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -24043,19 +24899,19 @@ entry(
 5    H 0 0 {1,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {5,S} {7,S}
-2     C 0 0 {1,S} {8,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4  *3 C 1 0 {5,S} {6,D}
-5     O 0 2 {1,S} {4,S}
-6     O 0 2 {4,D}
-7     H 0 0 {1,S}
+1     C 0 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     O 0 2 {1,S} {5,S}
+5  *3 C 1 0 {4,S} {13,D}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
 8     H 0 0 {2,S}
 9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
 12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+13    O 0 2 {5,D}
 """,
     product1 = """
 1 *3 C 1 0 {2,S} {3,S} {4,S}
@@ -24064,20 +24920,20 @@ entry(
 4    H 0 0 {1,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {5,S} {8,S}
-2     C 0 0 {1,S} {9,S} {10,S} {11,S}
-3     C 0 0 {1,S} {12,S} {13,S} {14,S}
-4  *1 C 0 0 {5,S} {6,D} {7,S}
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  *1 C 0 0 {5,S} {13,D} {14,S}
 5     O 0 2 {1,S} {4,S}
-6     O 0 2 {4,D}
-7  *2 H 0 0 {4,S}
-8     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
 9     H 0 0 {2,S}
-10    H 0 0 {2,S}
-11    H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
 12    H 0 0 {3,S}
-13    H 0 0 {3,S}
-14    H 0 0 {3,S}
+13    O 0 2 {4,D}
+14 *2 H 0 0 {4,S}
 """,
     distances = DistanceData(
         distances = {'d23': 1.31096, 'd12': 1.411288, 'd13': 2.722246},
@@ -24096,7 +24952,7 @@ u"""
 )
 
 entry(
-    index = 418,
+    index = 431,
     reactant1 = """
 1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2    H 0 0 {1,S}
@@ -24162,7 +25018,7 @@ u"""
 )
 
 entry(
-    index = 419,
+    index = 432,
     reactant1 = """
 1     C 0 0 {2,B} {3,B} {7,S}
 2     C 0 0 {1,B} {4,B} {8,S}
@@ -24226,7 +25082,7 @@ u"""
 )
 
 entry(
-    index = 420,
+    index = 433,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -24267,19 +25123,19 @@ entry(
 10    H 0 0 {3,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {4,S} {7,S}
-2     C 0 0 {1,S} {8,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4  *1 C 0 0 {1,S} {5,D} {6,S}
-5     O 0 2 {4,D}
-6  *2 H 0 0 {4,S}
-7     H 0 0 {1,S}
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *1 C 0 0 {1,S} {12,D} {13,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
 8     H 0 0 {2,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+12    O 0 2 {4,D}
+13 *2 H 0 0 {4,S}
 """,
     distances = DistanceData(
         distances = {'d23': 1.331086, 'd12': 1.433791, 'd13': 2.759466},
@@ -24298,7 +25154,7 @@ u"""
 )
 
 entry(
-    index = 421,
+    index = 434,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -24370,26 +25226,26 @@ u"""
 )
 
 entry(
-    index = 422,
+    index = 435,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2    O 1 2 {1,S}
 3 *2 H 0 0 {1,S}
 """,
     reactant2 = """
-1  *3 C 1 0 {2,S} {3,S} {7,S}
-2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+1     C 0 0 {2,S} {3,S} {7,S} {8,S}
+2  *3 C 1 0 {1,S} {4,S} {9,S}
 3     C 0 0 {1,S} {5,D} {10,S}
 4     C 0 0 {2,S} {6,D} {11,S}
-5     C 0 0 {3,D} {6,S} {12,S}
-6     C 0 0 {4,D} {5,S} {13,S}
+5     C 0 0 {3,D} {6,S} {13,S}
+6     C 0 0 {4,D} {5,S} {12,S}
 7     H 0 0 {1,S}
-8     H 0 0 {2,S}
+8     H 0 0 {1,S}
 9     H 0 0 {2,S}
 10    H 0 0 {3,S}
 11    H 0 0 {4,S}
-12    H 0 0 {5,S}
-13    H 0 0 {6,S}
+12    H 0 0 {6,S}
+13    H 0 0 {5,S}
 """,
     product1 = """
 1    O 1 2 {2,S}
@@ -24428,7 +25284,7 @@ u"""
 )
 
 entry(
-    index = 423,
+    index = 436,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -24500,7 +25356,7 @@ u"""
 )
 
 entry(
-    index = 424,
+    index = 437,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {5,S} {6,S}
 2     C 0 0 {1,S} {7,S} {8,S} {9,S}
@@ -24516,16 +25372,16 @@ entry(
 12    H 0 0 {4,S}
 """,
     reactant2 = """
-1  *3 C 1 0 {3,S} {5,S} {6,S}
-2     C 0 0 {4,S} {7,S} {8,S} {9,S}
-3     C 0 0 {1,S} {4,D} {10,S}
-4     C 0 0 {2,S} {3,D} {11,S}
+1     C 0 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 0 {1,S} {3,D} {8,S}
+3     C 0 0 {2,D} {4,S} {9,S}
+4  *3 C 1 0 {3,S} {10,S} {11,S}
 5     H 0 0 {1,S}
 6     H 0 0 {1,S}
-7     H 0 0 {2,S}
+7     H 0 0 {1,S}
 8     H 0 0 {2,S}
-9     H 0 0 {2,S}
-10    H 0 0 {3,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
 11    H 0 0 {4,S}
 """,
     product1 = """
@@ -24572,7 +25428,7 @@ u"""
 )
 
 entry(
-    index = 425,
+    index = 438,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -24650,7 +25506,7 @@ u"""
 )
 
 entry(
-    index = 426,
+    index = 439,
     reactant1 = """
 1     C 0 0 {2,B} {3,B} {7,S}
 2     C 0 0 {1,B} {4,B} {8,S}
@@ -24712,7 +25568,7 @@ u"""
 )
 
 entry(
-    index = 427,
+    index = 440,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -24727,23 +25583,23 @@ entry(
 11    H 0 0 {3,S}
 """,
     reactant2 = """
-1  *3 C 1 0 {5,S} {7,S} {8,S}
-2     C 0 0 {5,S} {9,S} {10,S} {11,S}
-3     C 0 0 {6,S} {12,S} {13,S} {14,S}
-4     C 0 0 {6,S} {15,S} {16,S} {17,S}
-5     C 0 0 {1,S} {2,S} {6,D}
-6     C 0 0 {3,S} {4,S} {5,D}
-7     H 0 0 {1,S}
-8     H 0 0 {1,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
-11    H 0 0 {2,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
-14    H 0 0 {3,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
-17    H 0 0 {4,S}
+1     C 0 0 {4,S} {10,S} {11,S} {12,S}
+2     C 0 0 {4,S} {13,S} {14,S} {15,S}
+3     C 0 0 {5,S} {7,S} {8,S} {9,S}
+4     C 0 0 {1,S} {2,S} {5,D}
+5     C 0 0 {3,S} {4,D} {6,S}
+6  *3 C 1 0 {5,S} {16,S} {17,S}
+7     H 0 0 {3,S}
+8     H 0 0 {3,S}
+9     H 0 0 {3,S}
+10    H 0 0 {1,S}
+11    H 0 0 {1,S}
+12    H 0 0 {1,S}
+13    H 0 0 {2,S}
+14    H 0 0 {2,S}
+15    H 0 0 {2,S}
+16    H 0 0 {6,S}
+17    H 0 0 {6,S}
 """,
     product1 = """
 1     C 0 0 {3,S} {4,S} {5,S} {6,S}
@@ -24794,7 +25650,7 @@ u"""
 )
 
 entry(
-    index = 428,
+    index = 441,
     reactant1 = """
 1 *1 O 0 2 {2,S} {3,S}
 2    H 0 0 {1,S}
@@ -24807,8 +25663,8 @@ entry(
 4     C 0 0 {1,S} {12,S} {13,S} {14,S}
 5     C 0 0 {1,S} {15,S} {16,S} {17,S}
 6     C 0 0 {1,S} {18,S} {19,S} {20,S}
-7  *3 C 1 0 {2,S} {21,S} {22,S}
-8     C 0 0 {2,S} {23,S} {24,S} {25,S}
+7     C 0 0 {2,S} {21,S} {22,S} {23,S}
+8  *3 C 1 0 {2,S} {24,S} {25,S}
 9     H 0 0 {2,S}
 10    H 0 0 {3,S}
 11    H 0 0 {3,S}
@@ -24823,7 +25679,7 @@ entry(
 20    H 0 0 {6,S}
 21    H 0 0 {7,S}
 22    H 0 0 {7,S}
-23    H 0 0 {8,S}
+23    H 0 0 {7,S}
 24    H 0 0 {8,S}
 25    H 0 0 {8,S}
 """,
@@ -24833,17 +25689,17 @@ entry(
 """,
     product2 = """
 1     C 0 0 {3,S} {4,S} {5,S} {6,S}
-2     C 0 0 {3,S} {7,S} {8,S} {10,S}
-3     C 0 0 {1,S} {2,S} {11,S} {12,S}
+2     C 0 0 {3,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {2,S} {10,S} {11,S}
 4     C 0 0 {1,S} {13,S} {14,S} {15,S}
 5     C 0 0 {1,S} {16,S} {17,S} {18,S}
 6     C 0 0 {1,S} {19,S} {20,S} {21,S}
-7  *1 C 0 0 {2,S} {9,S} {22,S} {23,S}
+7  *1 C 0 0 {2,S} {12,S} {22,S} {23,S}
 8     C 0 0 {2,S} {24,S} {25,S} {26,S}
-9  *2 H 0 0 {7,S}
-10    H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
+12 *2 H 0 0 {7,S}
 13    H 0 0 {4,S}
 14    H 0 0 {4,S}
 15    H 0 0 {4,S}
@@ -24876,7 +25732,7 @@ u"""
 )
 
 entry(
-    index = 429,
+    index = 442,
     reactant1 = """
 1     C 0 0 {3,S} {5,S} {6,S} {7,S}
 2     C 0 0 {4,S} {5,S} {8,S} {9,S}
@@ -24960,7 +25816,7 @@ u"""
 )
 
 entry(
-    index = 430,
+    index = 443,
     reactant1 = """
 1    O 0 2 {2,S} {3,S}
 2 *1 O 0 2 {1,S} {4,S}
@@ -24968,22 +25824,22 @@ entry(
 4 *2 H 0 0 {2,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {9,S} {10,S}
-2  *3 C 1 0 {1,S} {11,S} {12,S}
-3     C 0 0 {1,S} {4,B} {5,B}
-4     C 0 0 {3,B} {7,B} {13,S}
-5     C 0 0 {3,B} {8,B} {14,S}
-6     C 0 0 {7,B} {8,B} {15,S}
-7     C 0 0 {4,B} {6,B} {16,S}
-8     C 0 0 {5,B} {6,B} {17,S}
+1     C 0 0 {2,S} {8,S} {9,S} {10,S}
+2     C 0 0 {1,S} {3,B} {4,B}
+3     C 0 0 {2,B} {6,B} {11,S}
+4     C 0 0 {2,B} {7,B} {12,S}
+5     C 0 0 {6,B} {7,B} {13,S}
+6     C 0 0 {3,B} {5,B} {14,S}
+7     C 0 0 {4,B} {5,B} {15,S}
+8  *3 C 1 0 {1,S} {16,S} {17,S}
 9     H 0 0 {1,S}
 10    H 0 0 {1,S}
-11    H 0 0 {2,S}
-12    H 0 0 {2,S}
-13    H 0 0 {4,S}
-14    H 0 0 {5,S}
-15    H 0 0 {6,S}
-16    H 0 0 {7,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {5,S}
+14    H 0 0 {6,S}
+15    H 0 0 {7,S}
+16    H 0 0 {8,S}
 17    H 0 0 {8,S}
 """,
     product1 = """
@@ -24992,17 +25848,17 @@ entry(
 3 *3 O 1 2 {1,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {10,S} {11,S}
-2  *1 C 0 0 {1,S} {9,S} {12,S} {13,S}
+1     C 0 0 {2,S} {3,S} {9,S} {10,S}
+2  *1 C 0 0 {1,S} {11,S} {12,S} {13,S}
 3     C 0 0 {1,S} {4,B} {5,B}
 4     C 0 0 {3,B} {7,B} {14,S}
 5     C 0 0 {3,B} {8,B} {15,S}
 6     C 0 0 {7,B} {8,B} {16,S}
 7     C 0 0 {4,B} {6,B} {17,S}
 8     C 0 0 {5,B} {6,B} {18,S}
-9  *2 H 0 0 {2,S}
+9     H 0 0 {1,S}
 10    H 0 0 {1,S}
-11    H 0 0 {1,S}
+11 *2 H 0 0 {2,S}
 12    H 0 0 {2,S}
 13    H 0 0 {2,S}
 14    H 0 0 {4,S}
@@ -25028,7 +25884,7 @@ u"""
 )
 
 entry(
-    index = 431,
+    index = 444,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {5,S} {6,S}
 2     C 0 0 {1,S} {4,S} {7,S} {8,S}
@@ -25046,21 +25902,21 @@ entry(
 14    H 0 0 {4,S}
 """,
     reactant2 = """
-1     C 0 0 {2,S} {3,S} {7,S} {8,S}
-2     C 0 0 {1,S} {4,S} {9,S} {10,S}
-3     C 0 0 {1,S} {5,S} {11,S} {12,S}
-4     C 0 0 {2,S} {13,S} {14,S} {15,S}
-5  *3 C 1 0 {3,S} {6,D}
-6     O 0 2 {5,D}
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {12,S} {13,S} {14,S}
+5  *3 C 1 0 {3,S} {15,D}
+6     H 0 0 {1,S}
 7     H 0 0 {1,S}
-8     H 0 0 {1,S}
+8     H 0 0 {2,S}
 9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
+12    H 0 0 {4,S}
 13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
+15    O 0 2 {5,D}
 """,
     product1 = """
 1     C 0 0 {2,S} {3,S} {5,S} {6,S}
@@ -25078,22 +25934,22 @@ entry(
 13    H 0 0 {4,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {8,S} {9,S}
-2     C 0 0 {1,S} {4,S} {10,S} {11,S}
-3     C 0 0 {1,S} {5,S} {12,S} {13,S}
-4     C 0 0 {2,S} {14,S} {15,S} {16,S}
-5  *1 C 0 0 {3,S} {6,D} {7,S}
-6     O 0 2 {5,D}
-7  *2 H 0 0 {5,S}
-8     H 0 0 {1,S}
-9     H 0 0 {1,S}
-10    H 0 0 {2,S}
-11    H 0 0 {2,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {12,S} {13,S} {14,S}
+5  *1 C 0 0 {3,S} {15,D} {16,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
+15    O 0 2 {5,D}
+16 *2 H 0 0 {5,S}
 """,
     distances = DistanceData(
         distances = {'d23': 1.308541, 'd12': 1.463798, 'd13': 2.77175},
@@ -25112,7 +25968,7 @@ u"""
 )
 
 entry(
-    index = 432,
+    index = 445,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -25162,22 +26018,22 @@ entry(
 13    H 0 0 {4,S}
 """,
     product2 = """
-1     C 0 0 {2,S} {3,S} {4,S} {8,S}
-2     C 0 0 {1,S} {5,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4     C 0 0 {1,S} {14,S} {15,S} {16,S}
-5  *1 C 0 0 {2,S} {6,D} {7,S}
-6     O 0 2 {5,D}
-7  *2 H 0 0 {5,S}
-8     H 0 0 {1,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+1     C 0 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 0 {1,S} {5,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 C 0 0 {2,S} {15,D} {16,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
+15    O 0 2 {5,D}
+16 *2 H 0 0 {5,S}
 """,
     distances = DistanceData(
         distances = {'d23': 1.299677, 'd12': 1.470008, 'd13': 2.765791},
@@ -25196,7 +26052,7 @@ u"""
 )
 
 entry(
-    index = 433,
+    index = 446,
     reactant1 = """
 1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -25247,21 +26103,21 @@ entry(
 """,
     product2 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 0 {1,S} {8,S} {9,S} {10,S}
-3     C 0 0 {1,S} {11,S} {12,S} {13,S}
-4     C 0 0 {1,S} {14,S} {15,S} {16,S}
-5  *1 C 0 0 {1,S} {6,D} {7,S}
-6     O 0 2 {5,D}
-7  *2 H 0 0 {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 C 0 0 {1,S} {15,D} {16,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
 8     H 0 0 {2,S}
-9     H 0 0 {2,S}
-10    H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
 11    H 0 0 {3,S}
-12    H 0 0 {3,S}
-13    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
 14    H 0 0 {4,S}
-15    H 0 0 {4,S}
-16    H 0 0 {4,S}
+15    O 0 2 {5,D}
+16 *2 H 0 0 {5,S}
 """,
     distances = DistanceData(
         distances = {'d23': 1.355331, 'd12': 1.419633, 'd13': 2.757765},
@@ -25280,7 +26136,7 @@ u"""
 )
 
 entry(
-    index = 434,
+    index = 447,
     reactant1 = """
 1     C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {6,S} {7,S} {8,S}
@@ -25366,6 +26222,862 @@ u"""
 """,
     history = [
         ('Tue May 27 21:45:41 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 448,
+    reactant1 = """
+1 *1 O 0 2 {2,S} {3,S}
+2    O 1 2 {1,S}
+3 *2 H 0 0 {1,S}
+""",
+    reactant2 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    O 0 2 {1,S} {5,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+""",
+    product1 = """
+1    O 1 2 {2,S}
+2 *3 O 1 2 {1,S}
+""",
+    product2 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 2 {1,S} {6,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.599845, 'd12': 1.084727, 'd13': 2.632605},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 218""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 02:05:18 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 449,
+    reactant1 = """
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2    O 0 2 {1,S} {3,S}
+3 *1 O 0 2 {2,S} {7,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7 *2 H 0 0 {3,S}
+""",
+    reactant2 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    O 0 2 {1,S} {5,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+""",
+    product1 = """
+1    C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 2 {1,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6 *3 O 1 2 {2,S}
+""",
+    product2 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 2 {1,S} {6,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.343942, 'd12': 1.207728, 'd13': 2.52238},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 219""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 02:53:10 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 450,
+    reactant1 = """
+1 *1 C 0 0 {2,D} {3,S} {4,S}
+2    C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4 *2 H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
+""",
+    reactant2 = """
+1     C 0 0 {3,S} {4,S} {5,S} {6,S}
+2     C 0 0 {3,S} {7,S} {8,S} {9,S}
+3  *3 C 1 0 {1,S} {2,S} {10,S}
+4     H 0 0 {1,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+""",
+    product1 = """
+1    C 0 0 {2,D} {3,S} {4,S}
+2 *3 C 1 0 {1,D} {5,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+""",
+    product2 = """
+1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 H 0 0 {1,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.268698, 'd12': 1.447046, 'd13': 2.715651},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 220""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 03:26:38 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 451,
+    reactant1 = """
+1    O 0 2 {2,S} {3,S}
+2 *1 O 0 2 {1,S} {4,S}
+3    H 0 0 {1,S}
+4 *2 H 0 0 {2,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *3 C 1 0 {2,S} {12,S} {13,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+""",
+    product1 = """
+1    O 0 2 {2,S} {3,S}
+2    H 0 0 {1,S}
+3 *3 O 1 2 {1,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {4,S} {7,S} {8,S}
+3  *1 C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9  *2 H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.387852, 'd12': 1.157061, 'd13': 2.544644},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 221""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 06:05:21 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 452,
+    reactant1 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    H 0 0 {1,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     O 0 2 {1,S} {4,S}
+4  *3 C 1 0 {3,S} {10,D}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    O 0 2 {4,D}
+""",
+    product1 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {4,S} {5,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3  *1 C 0 0 {4,S} {10,D} {11,S}
+4     O 0 2 {1,S} {3,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    O 0 2 {3,D}
+11 *2 H 0 0 {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.317411, 'd12': 1.400219, 'd13': 2.717538},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 222""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 06:20:01 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 453,
+    reactant1 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5 *2 H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {4,S} {6,S} {7,S}
+2     C 0 0 {1,S} {8,S} {9,S} {10,S}
+3  *3 C 1 0 {4,S} {5,D}
+4     O 0 2 {1,S} {3,S}
+5     O 0 2 {3,D}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+""",
+    product1 = """
+1    C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 C 1 0 {1,S} {6,S} {7,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {4,S} {7,S} {8,S}
+2     C 0 0 {1,S} {9,S} {10,S} {11,S}
+3  *1 C 0 0 {4,S} {5,D} {6,S}
+4     O 0 2 {1,S} {3,S}
+5     O 0 2 {3,D}
+6  *2 H 0 0 {3,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.350874, 'd12': 1.369407, 'd13': 2.720067},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 223""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 08:05:34 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 454,
+    reactant1 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    H 0 0 {1,S}
+3 *2 H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     O 0 2 {2,S} {5,S}
+5  *3 C 1 0 {4,S} {13,D}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    O 0 2 {5,D}
+""",
+    product1 = """
+1 *3 C 1 0 {2,S} {3,S} {4,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+""",
+    product2 = """
+1     C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {5,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  *1 C 0 0 {5,S} {13,D} {14,S}
+5     O 0 2 {2,S} {4,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    O 0 2 {4,D}
+14 *2 H 0 0 {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.316801, 'd12': 1.401544, 'd13': 2.718293},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 224""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 08:38:14 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 455,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2     C 0 0 {1,B} {4,B} {8,S}
+3  *1 C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9  *2 H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    reactant2 = """
+1    C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 0 {1,S} {3,S} {6,S} {7,S}
+3 *3 C 1 0 {1,S} {2,S} {8,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    product2 = """
+1 *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 0 {1,S} {3,S} {6,S} {7,S}
+3    C 0 0 {1,S} {2,S} {8,S} {9,S}
+4 *2 H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.301866, 'd12': 1.368342, 'd13': 2.670175},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 225""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 13:02:58 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 456,
+    reactant1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 O 0 2 {1,S} {15,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15 *2 H 0 0 {5,S}
+""",
+    reactant2 = """
+1     C 0 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 0 {1,S} {3,D} {8,S}
+3     C 0 0 {2,D} {4,S} {9,S}
+4  *3 C 1 0 {3,S} {10,S} {11,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {4,S}
+""",
+    product1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *3 O 1 2 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    product2 = """
+1  *1 C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 0 {1,S} {4,D} {11,S}
+4     C 0 0 {2,S} {3,D} {12,S}
+5  *2 H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.223685, 'd12': 1.366807, 'd13': 2.589608},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 226""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 17:48:26 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 457,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2  *1 C 0 0 {1,B} {4,B} {8,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8  *2 H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    reactant2 = """
+1     C 0 0 {4,S} {5,S} {6,S} {7,S}
+2     C 0 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 0 {4,S} {11,S} {12,S} {13,S}
+4  *3 C 1 0 {1,S} {2,S} {3,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    product2 = """
+1  *1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.244105, 'd12': 1.49714, 'd13': 2.741235},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 227""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 19:37:43 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 458,
+    reactant1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *1 O 0 2 {1,S} {15,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15 *2 H 0 0 {5,S}
+""",
+    reactant2 = """
+1  *3 C 1 0 {4,S} {6,S} {7,S}
+2     C 0 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 0 {5,S} {11,S} {12,S} {13,S}
+4     C 0 0 {1,S} {2,S} {5,D}
+5     C 0 0 {3,S} {4,D} {14,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {5,S}
+""",
+    product1 = """
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *3 O 1 2 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+""",
+    product2 = """
+1  *1 C 0 0 {4,S} {6,S} {7,S} {8,S}
+2     C 0 0 {4,S} {9,S} {10,S} {11,S}
+3     C 0 0 {5,S} {12,S} {13,S} {14,S}
+4     C 0 0 {1,S} {2,S} {5,D}
+5     C 0 0 {3,S} {4,D} {15,S}
+6  *2 H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {2,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {3,S}
+15    H 0 0 {5,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.22576, 'd12': 1.365815, 'd13': 2.590913},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 228""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 22:47:27 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 459,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2     C 0 0 {1,B} {4,B} {8,S}
+3  *1 C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9  *2 H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    reactant2 = """
+1  *3 C 1 0 {2,S} {3,S} {6,S}
+2     C 0 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 0 {1,S} {5,S} {9,S} {10,S}
+4     C 0 0 {2,S} {5,S} {11,S} {12,S}
+5     C 0 0 {3,S} {4,S} {13,S} {14,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
+13    H 0 0 {5,S}
+14    H 0 0 {5,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    product2 = """
+1  *1 C 0 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {5,S} {12,S} {13,S}
+5     C 0 0 {3,S} {4,S} {14,S} {15,S}
+6  *2 H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {5,S}
+15    H 0 0 {5,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.2474, 'd12': 1.475176, 'd13': 2.722152},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 229""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Thu May 29 21:12:38 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
+    ],
+)
+
+entry(
+    index = 460,
+    reactant1 = """
+1     C 0 0 {2,B} {3,B} {7,S}
+2  *1 C 0 0 {1,B} {4,B} {8,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6     C 0 0 {4,B} {5,B} {12,S}
+7     H 0 0 {1,S}
+8  *2 H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+12    H 0 0 {6,S}
+""",
+    reactant2 = """
+1  *3 C 1 0 {2,S} {3,S} {7,S}
+2     C 0 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 0 {2,S} {6,S} {12,S} {13,S}
+5     C 0 0 {3,S} {6,S} {14,S} {15,S}
+6     C 0 0 {4,S} {5,S} {16,S} {17,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {5,S}
+15    H 0 0 {5,S}
+16    H 0 0 {6,S}
+17    H 0 0 {6,S}
+""",
+    product1 = """
+1     C 0 0 {2,B} {3,B} {8,S}
+2     C 0 0 {1,B} {4,B} {7,S}
+3     C 0 0 {1,B} {5,B} {9,S}
+4     C 0 0 {2,B} {6,B} {10,S}
+5     C 0 0 {3,B} {6,B} {11,S}
+6  *3 C 1 0 {4,B} {5,B}
+7     H 0 0 {2,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {5,S}
+""",
+    product2 = """
+1  *1 C 0 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 0 {2,S} {6,S} {13,S} {14,S}
+5     C 0 0 {3,S} {6,S} {15,S} {16,S}
+6     C 0 0 {4,S} {5,S} {17,S} {18,S}
+7  *2 H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
+16    H 0 0 {5,S}
+17    H 0 0 {6,S}
+18    H 0 0 {6,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 1.257363, 'd12': 1.460601, 'd13': 2.717863},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Reverse reaction for reaction index 230""",
+    longDesc = 
+u"""
+""",
+    history = [
+        ('Fri May 30 01:16:21 2014', 'Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>', 'action', 'Found via group additive estimation by the automatic transition state generator'),
     ],
 )
 
