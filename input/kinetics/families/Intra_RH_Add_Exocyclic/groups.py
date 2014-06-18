@@ -54,24 +54,24 @@ u"""
     
 )
 
-entry(
-    index = 3,
-    label = "RHadd_intra",
-    group =
-"""
-1 *1 R!H 0 {2,S}
-2 *4 H 0 {1,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    
-)
+#entry(
+#    index = 3,
+#    label = "RHadd_intra",
+#    group =
+#"""
+#1 *1 R!H 0 {2,S}
+#2 *4 H 0 {1,S}
+#""",
+#    kinetics = None,
+#    reference = None,
+#    referenceType = "",
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    
+#)
 
 entry(
     index = 4,
