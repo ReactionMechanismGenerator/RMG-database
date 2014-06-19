@@ -329,13 +329,16 @@ u"""
 )
 '''
 
-'''
+
 entry(
     index = 14,
     label = "C2N2",
     molecule =
 """
-
+1 N 0 1 {2,T}
+2 C 0 0 {1,T} {3,S}
+3 C 0 0 {2,S} {4,T}
+4 N 0 1 {3,T}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -351,7 +354,7 @@ u"""
 
 """,
 )
-'''
+
 
 entry(
     index = 15,
@@ -379,13 +382,19 @@ u"""
 """,
 )
 
-'''
+
 entry(
     index = 16,
     label = "C3H4",
     molecule =
 """
-
+1 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 0 {1,S} {3,D} {6,S}
+3 C 0 0 {1,S} {2,D} {7,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {2,S}
+7 H 0 0 {3,S}
 """,
     transport = TransportData(
         shapeIndex = 1,
@@ -395,13 +404,13 @@ entry(
         polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 1.000,
     ),
-    shortDesc = u"""GRI-Mech3.0 value for C3H4""",
+    shortDesc = u"""GRI-Mech3.0 value for 'C3H4'; cyclic structure guessed""",
     longDesc = 
 u"""
 
 """,
 )
-'''
+
 
 entry(
     index = 17,
@@ -439,6 +448,16 @@ entry(
     label = "C3H7",
     molecule =
 """
+1  C 0 0 {2,S} {4,S} {5,S} {6,S}
+2  C 1 0 {1,S} {3,S} {7,S}
+3  C 0 0 {2,S} {8,S} {9,S} {10,S}
+4  H 0 0 {1,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
+9  H 0 0 {3,S}
+10 H 0 0 {3,S}
 
 """,
     transport = TransportData(
@@ -449,7 +468,7 @@ entry(
         polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 1.000,
     ),
-    shortDesc = u"""GRI-Mech3.0 value for C3H7""",
+    shortDesc = u"""GRI-Mech3.0 value for BOTH C3H7""",
     longDesc = 
 u"""
 
@@ -457,12 +476,22 @@ u"""
 )
 '''
 
-'''
+
 entry(
     index = 19,
     label = "C4H6",
     molecule =
 """
+1  C 0 0 {2,D} {5,S} {6,S}
+2  C 0 0 {1,D} {3,S} {7,S}
+3  C 0 0 {2,S} {4,D} {8,S}
+4  C 0 0 {3,D} {9,S} {10,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
+9  H 0 0 {4,S}
+10 H 0 0 {4,S}
 
 """,
     transport = TransportData(
@@ -479,7 +508,7 @@ u"""
 
 """,
 )
-'''
+
 
 entry(
     index = 20,
@@ -652,12 +681,24 @@ u"""
 )
 '''
 
-'''
+
 entry(
     index = 26,
     label = "C4H8",
     molecule =
 """
+1  C 0 0 {2,D} {5,S} {6,S}
+2  C 0 0 {1,D} {3,S} {7,S}
+3  C 0 0 {2,S} {4,S} {8,S} {9,S}
+4  C 0 0 {3,S} {10,S} {11,S} {12,S}
+5  H 0 0 {1,S}
+6  H 0 0 {1,S}
+7  H 0 0 {2,S}
+8  H 0 0 {3,S}
+9  H 0 0 {3,S}
+10 H 0 0 {4,S}
+11 H 0 0 {4,S}
+12 H 0 0 {4,S}
 
 """,
     transport = TransportData(
@@ -668,13 +709,13 @@ entry(
         polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 1.000,
     ),
-    shortDesc = u"""GRI-Mech3.0 value for C4H8""",
+    shortDesc = u"""GRI-Mech3.0 value for 'C4H8'. 1-butune structure guessed""",
     longDesc = 
 u"""
 
 """,
 )
-'''
+
 
 entry(
     index = 27,
