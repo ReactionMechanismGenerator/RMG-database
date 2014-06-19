@@ -521,7 +521,7 @@ u"""
 entry(
     index = 29,
     label = "cyclopentane",
-    molecule = '',
+    molecule = 'C1CCCC1',
     solute = SoluteData(
         S = 0.10,
         B = 0,
