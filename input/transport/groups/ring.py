@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-"""
+name = u"Joback rings"
+shortDesc = u"Groups for atoms in a ring to estimate critical point properties according to Joback 1984"
+longDesc = u"""
+Group definitions to estimate critical point properties via group additivity, from:
+
+Joback, K. G. A unified approach to physical property estimation using multivariate statistical techniques,
+PhD Thesis, Massachusetts Institute of Technology: Cambridge, MA, 1984.
+
 Note the Pc contributions are all the negative of what is in Table 3 of Joback's thesis.
 The Tb contributions are from table 13.
 """
