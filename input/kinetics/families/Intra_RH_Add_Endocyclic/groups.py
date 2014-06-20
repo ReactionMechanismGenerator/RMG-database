@@ -1943,8 +1943,9 @@ entry(
     label = "radadd_intra_cdsingleH",
     group =
 """
-1 *1 Cd 0 {2,S}
+1 *1 Cd 0 {2,S} {3,S}
 2 *2   H  0 {1,S}
+3     H  0 {1,S}
 """,
     kinetics = None,
     reference = None,
