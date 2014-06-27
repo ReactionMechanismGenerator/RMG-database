@@ -4147,7 +4147,7 @@ u"""
     )
 
 entry(
-    index = 235,
+    index = 231,
     label = "radadd_intra_csHCd",
     group = 
 """
@@ -4166,7 +4166,7 @@ u"""
     )
 
 entry(
-    index = 236,
+    index = 232,
     label = "radadd_intra_csHCt",
     group = 
 """
@@ -4185,7 +4185,7 @@ u"""
     )
 
 entry(
-    index = 237,
+    index = 233,
     label = "radadd_intra_csNdNd",
     group = 
 """
@@ -4204,7 +4204,7 @@ u"""
     )
 
 entry(
-    index = 232,
+    index = 243,
     label = "radadd_intra_csNdDe",
     group =
 """
@@ -4223,7 +4223,7 @@ u"""
     )
 
 entry(
-    index = 239,
+    index = 244,
     label = "radadd_intra_csNdCd",
     group = 
 """
@@ -4242,7 +4242,7 @@ u"""
     )
 
 entry(
-    index = 240,
+    index = 245,
     label = "radadd_intra_csNdCt",
     group = 
 """
@@ -4261,7 +4261,7 @@ u"""
     )
 
 entry(
-    index = 241,
+    index = 246,
     label = "radadd_intra_csDeDe",
     group = 
 """
