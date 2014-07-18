@@ -23422,3 +23422,16 @@ u"""
 """,
 )
 
+forbidden(
+    label = "Ycentersinglet_birad",
+    group =
+"""
+1 *3 R!H 2S
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+
+)
