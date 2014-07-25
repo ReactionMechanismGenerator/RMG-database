@@ -3822,8 +3822,15 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(3480, 3540, 1), # asymmetric N-H stretch, (free) primary amides
+(3380, 3420, 1), # symmetric N-H stretch, (free) primary amides
+(1670, 1690, 1), # C=O stretch, known as amide I band, primary amides (dilute solution)
+(1590, 1620, 1), # , primary amides (dilute solution)
+(1400, 1420, 1), # C-N stretch, known as amide III band, primary amides
+(1140, 1160, 1), # NH2 in-plane rocking vibration, primary amides
+(600, 750, 1),   # br. NH2 deformation vibration, primary amides
+(550, 600, 1),   # N-C=O deformation vibration, primary amides
+(450, 500, 1),   # C-C=O deformation vibration, primary amides
 """,
 )
 
@@ -3865,8 +3872,11 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(3420, 3460, 1), # N-H stretch, trans form (in dilute solution)
+(1510, 1550, 1), # amide II band, trans form (in dilute solution)
+(1665, 1700, 1), # C=O stretch, secondary amides (dilute solution)
+(1200, 1305, 1), # amide III band, secondary amides (trans form)
+(620, 770, 1),   # br. out-of-plane N-H, secondary amides (trans form)
 """,
 )
 
@@ -3908,8 +3918,11 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(1630, 1670, 1), # C=O stretch, tertiary amides (dilute solution or solid phase)
+(700, 870, 1), # asymmetric CNC stretch, tertiary amides
+(570, 620, 1), # , tertiary amides
+(440, 480, 1), # , tertiary amides
+(320, 390, 1), # , tertiary amides
 """,
 )
 
@@ -3951,8 +3964,11 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(3200, 3280, 1), # N-H stretch, Imides (solid phase)
+(1670, 1740, 1), # C=O stretch, amide I band, Imides (solid phase)
+(1500, 1510, 1), # br., amide II band, Imides (solid phase)
+(1165, 1235, 1), # amide III band, Imides (solid phase)
+(730, 740, 1),   # br. N-H wagging, amide II band, Imides (solid phase)
 """,
 )
 
@@ -3996,8 +4012,11 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(3330, 3550, 1), # asymmetric NH2 stretch, primary amines
+(3250, 3450, 1), # symmetric NH2 stretch, primary amines
+(1580, 1650, 1), # br. scissor vibration, saturated primary amines
+(1145, 1295, 1), # NH2 rocking/twisting vibration, saturated primary amines
+(650, 895, 1), # N-H bending out of plane, saturated primary amines
 """,
 )
 
@@ -4035,8 +4054,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(3400, 3450, 1), # , secondary amines
+(1490, 1580, 1), # , secondary amines
+(700, 750, 1), # br. N-H wagging vibration, secondary amines
 """,
 )
 
@@ -4111,8 +4131,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(2230, 2260, 1), # C#N stretching, saturated aliphatic nitriles
+(340, 390, 1),   # C#N deformation, aliphatic nitriles
+(200, 160, 1),   # C#N deformation, aliphatic nitriles
 """,
 )
 
@@ -4184,8 +4205,8 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(1330, 1425, 1), # aliphatic compounds
+(1320, 1345, 1), # aliphatic compounds
 """,
 )
 
@@ -4259,8 +4280,10 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(3220, 3360, 1), # Overtones of N=O stretch, nitrite compounds
+(1650, 1680, 1), # N=O stretch, nitrites, trans form
+(750, 815, 1),   # N-O stretch trans form, saturated primary and secondary aliphatic nitro compounds
+(565, 625, 1),   # O-N=O deformation vibration, saturated primary and secondary aliphatic nitro compounds
 """,
 )
 
@@ -4299,9 +4322,13 @@ entry(
     ),
     shortDesc = u"""""",
     longDesc = 
-u"""
-
-
+u"""  
+(1545, 1555, 1), # asymmetric NO2 stretch, saturated primary and secondary aliphatic nitro compounds
+(1360, 1385, 1), # symmetric NO2 stretch, saturated primary and secondary aliphatic nitro compounds
+(915, 1000, 1),  # C-N stretch trans form, saturated primary and secondary aliphatic nitro compounds
+(850, 920, 1),  # br. C-N stretch gauche form, saturated primary and secondary aliphatic nitro compounds
+(605, 655, 1),  # NO2 deformation vibration, saturated primary and secondary aliphatic nitro compounds
+(470, 560, 1),  # NO2 rocking vibration, saturated primary and secondary aliphatic nitro compounds
 """,
 )
 
@@ -4380,8 +4407,12 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-
+(1615, 1660, 1), # asymmetric NO2 stretch, Nitrates, -ONO2
+(1250, 1300, 1), # symmetric NO2 stretch, Nitrates, -ONO2
+(840, 870, 1),   # br.N-O stretch, Nitrates, -ONO2
+(745, 765, 1),   # NO2 out-of-plane deformation vibration, Nitrates, -ONO2
+(680, 720, 1),   # NO2 deformation vibration, Nitrates, -ONO2
+(560, 610, 1),   # NO2 in-plane deformation vibration, Nitrates, -ONO2
 """,
 )
 
