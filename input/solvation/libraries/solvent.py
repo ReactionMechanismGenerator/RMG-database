@@ -71,7 +71,8 @@ entry(
     shortDesc = u""" """,
     longDesc = 
 u"""
-
+alpha = 0.328, #primary alcohols
+beta = 0.45, #primary alcohols,
 """
 )
 
@@ -263,7 +264,7 @@ entry(
     shortDesc = u""" """,
     longDesc = 
 u"""
-
+beta = 0.05, # Note 24 in Snelgrove et al. 2001
 """
 )
 entry(
@@ -697,7 +698,7 @@ entry(
     shortDesc = u""" """,
     longDesc = 
 u"""
-
+eps = 2.2 # aerage of range 2.0-2.4
 """
 )
 entry(
