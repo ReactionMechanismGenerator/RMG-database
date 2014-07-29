@@ -4,11 +4,6 @@
 name = "Intra_RH_Add_Endocyclic/rules"
 shortDesc = u""
 longDesc = u"""
-General comments go at the top of the file,
-
-or in a section(s) titled 'General'
-
-.. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 """
 
 entry(
@@ -38,7 +33,9 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+To make this family possible, rate parameters of head node groups are estimated from typical threshold amounts of 
+A (10^9 - 10^13 s^-1) and E0 (5-50 kcal/mol) in unimolecular gas-phase reactions. 
+Definitely better kinetic parameters are needed to fill this database.
 """,
     
 )
