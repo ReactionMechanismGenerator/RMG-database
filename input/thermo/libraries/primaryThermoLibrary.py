@@ -305,24 +305,17 @@ entry(
 1 Ar 0 4
 """,
     thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.366], Tmin=(1000,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
+        polynomials=[
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.37967], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,4.37967], Tmin=(1000,'K'), Tmax=(6000,'K'))
+            ],
+        Tmin=(200,'K'),
+        Tmax=(6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
-    referenceType = "review",
-    shortDesc = u"""Copied from GRI-Mech 3.0""",
+    shortDesc = u"""Burcat Thermo Data""",
     longDesc = 
 u"""
-This was copied from the GRI-Mech3.0 library.
-The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
-This prevents it from being used to evaluate the standard properties at 298K as required
-by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
-introduces less error than not using the thermo at all, so the range has been extended
-to 298K.
+Ar HF298=0.  REF=C.E. Moore 'Atomic Energy Levels' NSRDS-NBS 35 (1971) p.211
 """,
 )
 
@@ -335,24 +328,17 @@ entry(
 2 N 0 1 {1,T}
 """,
     thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053], Tmin=(1000,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
+        polynomials=[
+            NASAPolynomial(coeffs=[3.53101,-0.000123661,-5.02999e-07,2.43531e-09,-1.40881e-12,-1046.98,2.96747], Tmin=(200,'K'), Tmax=(1000,'K')), 
+            NASAPolynomial(coeffs=[2.95258,0.0013969,-4.92632e-07,7.8601e-11,-4.60755e-15,-923.949,5.87189], Tmin=(1000,'K'), Tmax=(6000,'K'))
+            ],
+        Tmin=(200,'K'), 
+        Tmax=(6000,'K'),
     ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
-    referenceType = "review",
-    shortDesc = u"""Copied from GRI-Mech 3.0""",
+    shortDesc = u"""Burcat Thermo Data""",
     longDesc = 
 u"""
-This was copied from the GRI-Mech3.0 library.
-The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
-This prevents it from being used to evaluate the standard properties at 298K as required
-by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
-introduces less error than not using the thermo at all, so the range has been extended
-to 298K.
+N2  HF298= 0.0 KJ  REF=TSIV  Max Lst Sq Error Cp @ 6000 K 0.29%
 """,
 )
 
@@ -365,16 +351,16 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,0.9287], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,0.9287], Tmin=(1000,'K'), Tmax=(6000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,0.928724], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,0.928724], Tmin=(1000,'K'), Tmax=(6000,'K')),
         ],
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Burcat Thermo Data""",
     longDesc = 
 u"""
-
+McBride, Heimel, Ehlers & Gordon "Thermodynamic Properties to 6000 K", 1963.
 """,
 )
 
@@ -737,3 +723,24 @@ HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @
 """,
 )
 
+entry(
+    index = 33,
+    label = "Ne",
+    molecule = 
+"""
+1 Ne 0 4 
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,3.35532], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.5,0,0,0,0,-745.375,3.35532], Tmin=(1000,'K'), Tmax=(6000,'K'))
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+    ),
+    shortDesc = u"""Burcat Thermo Data""",
+    longDesc = 
+u"""
+McBride, Heimel, Ehlers & Gordon, "Thermodynamic Properties to 6000 K", 1963.
+""",
+)
