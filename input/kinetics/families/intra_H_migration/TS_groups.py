@@ -39,9 +39,6 @@ Fitted to 21 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -59,9 +56,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -80,9 +74,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -112,9 +103,6 @@ Fitted to 10 distances.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -144,9 +132,6 @@ Fitted to 10 distances.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -167,9 +152,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -191,9 +173,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -216,9 +195,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -243,9 +219,6 @@ Fitted to 10 distances.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -265,9 +238,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -287,9 +257,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -309,9 +276,6 @@ Fitted to 2 distances.
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -337,9 +301,6 @@ Fitted to 2 distances.
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -365,9 +326,6 @@ Fitted to 2 distances.
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -389,9 +347,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -413,9 +368,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -438,9 +390,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -463,9 +412,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -487,9 +433,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -513,9 +456,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -539,9 +479,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -564,9 +501,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -587,9 +521,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -610,9 +541,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -633,9 +561,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -655,9 +580,6 @@ Fitted to 2 distances.
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=199 label="O_H_out">]
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -678,9 +600,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -701,9 +620,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -724,9 +640,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -747,9 +660,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -770,9 +680,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -793,9 +700,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -816,9 +720,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -839,9 +740,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -862,9 +760,6 @@ Fitted to 3 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=51 label="R4H_BSD">, <Entry index=175 label="Cb_rad_out">, <Entry index=207 label="Cd_H_out_singleH">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -892,9 +787,6 @@ Fitted to 3 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=51 label="R4H_BSD">, <Entry index=175 label="Cb_rad_out">, <Entry index=207 label="Cd_H_out_singleH">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -921,9 +813,6 @@ Fitted to 2 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -950,9 +839,6 @@ Fitted to 2 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -974,9 +860,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -998,9 +881,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1022,9 +902,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1047,9 +924,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1073,9 +947,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1097,9 +968,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1121,9 +989,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1145,9 +1010,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1173,9 +1035,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=51 label="R4H_BSD">, <Entry index=175 label="Cb_rad_out">, <Entry index=207 label="Cd_H_out_singleH">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1197,9 +1056,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1221,9 +1077,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1245,9 +1098,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1273,9 +1123,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=51 label="R4H_BSD">, <Entry index=175 label="Cb_rad_out">, <Entry index=207 label="Cd_H_out_singleH">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1297,9 +1144,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1321,9 +1165,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1345,9 +1186,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1369,9 +1207,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1393,9 +1228,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1417,9 +1249,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1441,9 +1270,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1465,9 +1291,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1489,9 +1312,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1513,9 +1333,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1537,9 +1354,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1561,9 +1375,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1585,9 +1396,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1609,9 +1417,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1633,9 +1438,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1657,9 +1459,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1691,9 +1490,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1713,9 +1509,6 @@ Fitted to 2 distances.
 [<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 [<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1743,9 +1536,6 @@ Fitted to 2 distances.
 [<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 [<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1773,9 +1563,6 @@ Fitted to 2 distances.
 [<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 [<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1803,9 +1590,6 @@ Fitted to 2 distances.
 [<Entry index=72 label="R5H_SSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 [<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1832,9 +1616,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1857,9 +1638,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1882,9 +1660,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1908,9 +1683,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1935,9 +1707,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1961,9 +1730,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -1988,9 +1754,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2013,9 +1776,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2038,9 +1798,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2063,9 +1820,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2088,9 +1842,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2113,9 +1864,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2138,9 +1886,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2163,9 +1908,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2188,9 +1930,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2213,9 +1952,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2238,9 +1974,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2263,9 +1996,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2288,9 +2018,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2313,9 +2040,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2338,9 +2062,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2363,9 +2084,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2388,9 +2106,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2413,9 +2128,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2438,9 +2150,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2463,9 +2172,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2488,9 +2194,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2513,9 +2216,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2538,9 +2238,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2563,9 +2260,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2588,9 +2282,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2613,9 +2304,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2638,9 +2326,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2663,9 +2348,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2688,9 +2370,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2713,9 +2392,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2738,9 +2414,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2763,9 +2436,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2788,9 +2458,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2813,9 +2480,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2838,9 +2502,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2863,9 +2524,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2888,9 +2546,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2913,9 +2568,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2938,9 +2590,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2963,9 +2612,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -2998,9 +2644,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3033,9 +2676,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3071,9 +2711,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3093,9 +2730,6 @@ Fitted to 2 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3124,9 +2758,6 @@ Fitted to 2 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3155,9 +2786,6 @@ Fitted to 2 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3186,9 +2814,6 @@ Fitted to 2 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3212,9 +2837,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3239,9 +2861,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3267,9 +2886,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3294,9 +2910,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3322,9 +2935,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3348,9 +2958,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3374,9 +2981,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3400,9 +3004,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3426,9 +3027,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3452,9 +3050,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3478,9 +3073,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3504,9 +3096,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3530,9 +3119,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3556,9 +3142,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3582,9 +3165,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3608,9 +3188,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3634,9 +3211,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3660,9 +3234,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3686,9 +3257,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3712,9 +3280,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3738,9 +3303,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3764,9 +3326,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3790,9 +3349,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3816,9 +3372,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3842,9 +3395,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3868,9 +3418,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3894,9 +3441,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3920,9 +3464,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3946,9 +3487,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3972,9 +3510,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -3998,9 +3533,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4024,9 +3556,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4050,9 +3579,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4076,9 +3602,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4102,9 +3625,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4128,9 +3648,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4154,9 +3671,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4180,9 +3694,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4211,9 +3722,6 @@ u"""
 Fitted to 2 distances.
 [<Entry index=164 label="R7H">, <Entry index=179 label="C_rad_out_2H">, <Entry index=199 label="O_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4238,9 +3746,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4266,9 +3771,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4293,9 +3795,6 @@ Fitted to 4 distances.
 [<Entry index=73 label="R5H_CCCC_O">, <Entry index=167 label="O_rad_out">, <Entry index=210 label="Cs_H_out">]
 [<Entry index=38 label="R4H_SSS">, <Entry index=167 label="O_rad_out">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4313,9 +3812,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4334,9 +3830,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4355,9 +3848,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4376,9 +3866,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4397,9 +3884,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4418,9 +3902,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4439,9 +3920,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4464,9 +3942,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=51 label="R4H_BSD">, <Entry index=175 label="Cb_rad_out">, <Entry index=207 label="Cd_H_out_singleH">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4485,9 +3960,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4506,9 +3978,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4543,9 +4012,6 @@ Fitted to 16 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4575,9 +4041,6 @@ Fitted to 11 distances.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4604,9 +4067,6 @@ Fitted to 4 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4633,9 +4093,6 @@ Fitted to 4 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4655,9 +4112,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4677,9 +4131,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4699,9 +4150,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4725,9 +4173,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4751,9 +4196,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4777,9 +4219,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4799,9 +4238,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4822,9 +4258,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4846,9 +4279,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4867,9 +4297,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4889,9 +4316,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4911,9 +4335,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4933,9 +4354,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4955,9 +4373,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4977,9 +4392,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -4999,9 +4411,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5020,9 +4429,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5047,9 +4453,6 @@ Fitted to 4 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=191 label="Others-C_rad_out_Cs2">, <Entry index=199 label="O_H_out">]
 [<Entry index=164 label="R7H">, <Entry index=179 label="C_rad_out_2H">, <Entry index=199 label="O_H_out">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5068,9 +4471,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5089,9 +4489,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5110,9 +4507,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5132,9 +4526,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5154,9 +4545,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5176,9 +4564,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5202,9 +4587,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=51 label="R4H_BSD">, <Entry index=175 label="Cb_rad_out">, <Entry index=207 label="Cd_H_out_singleH">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5228,9 +4610,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=51 label="R4H_BSD">, <Entry index=175 label="Cb_rad_out">, <Entry index=207 label="Cd_H_out_singleH">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5250,9 +4629,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5272,9 +4648,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5311,9 +4684,6 @@ Fitted to 16 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5340,9 +4710,6 @@ Fitted to 3 distances.
 [<Entry index=125 label="R6H_SSSSS">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=211 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="O_rad_out">, <Entry index=211 label="Cs_H_out_2H">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5374,9 +4741,6 @@ Fitted to 10 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5407,9 +4771,6 @@ Fitted to 9 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_H/NonDeC">, <Entry index=213 label="Cs_H_out_H/NonDeC">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5438,9 +4799,6 @@ Fitted to 6 distances.
 [<Entry index=38 label="R4H_SSS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=26 label="Others-R3H_SS">, <Entry index=179 label="C_rad_out_2H">, <Entry index=214 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5463,9 +4821,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5489,9 +4844,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5512,9 +4864,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5536,9 +4885,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5559,9 +4905,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5586,9 +4929,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=179 label="C_rad_out_2H">, <Entry index=220 label="Cs_H_out_H/OneDe">]
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5610,9 +4950,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5634,9 +4971,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5658,9 +4992,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5682,9 +5013,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5706,9 +5034,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5730,9 +5055,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5755,9 +5077,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5781,9 +5100,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5798,9 +5114,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5822,9 +5135,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5846,9 +5156,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 entry(
@@ -5870,9 +5177,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 14 10:45:30 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Created from kinetics groups."""),
-    ],
 )
 
 tree(

@@ -45,9 +45,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -79,9 +76,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -115,9 +109,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -153,9 +144,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -191,9 +179,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -225,9 +210,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -259,9 +241,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -293,9 +272,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -329,9 +305,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -365,9 +338,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -403,9 +373,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -441,9 +408,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )
 
 entry(
@@ -479,7 +443,4 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Jan 15 11:01:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Estimated and optimized in G09"""),
-    ],
 )

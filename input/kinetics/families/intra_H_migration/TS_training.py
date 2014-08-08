@@ -39,9 +39,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -78,9 +75,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -115,9 +109,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -152,9 +143,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -193,9 +181,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -230,9 +215,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -271,9 +253,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -314,9 +293,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -357,9 +333,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -400,9 +373,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -441,9 +411,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -482,9 +449,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Tue Apr 29 23:10:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""B3LYP/6-31+G(d,p) calculation in G09"""),
-    ],
 )
 
 entry(
@@ -517,9 +481,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Wed Apr 30 12:54:09 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -562,9 +523,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Wed Apr 30 13:29:29 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -613,9 +571,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Wed Apr 30 14:06:14 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -660,9 +615,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Wed Apr 30 13:49:37 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -711,9 +663,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Wed Apr 30 14:04:11 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -768,9 +717,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Wed Apr 30 15:54:55 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -823,9 +769,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Wed Apr 30 17:18:48 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -898,9 +841,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu May  1 04:38:59 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 
 entry(
@@ -953,8 +893,5 @@ entry(
 u"""
 
 """,
-    history = [
-        ("Thu May  1 01:17:26 2014","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via group additive estimation by the automatic transition state generator"""),
-    ],
 )
 

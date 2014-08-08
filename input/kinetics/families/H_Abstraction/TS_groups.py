@@ -700,9 +700,6 @@ Fitted to 1648 distances.
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -717,9 +714,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1393,9 +1387,6 @@ Fitted to 1601 distances.
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1450,9 +1441,6 @@ Fitted to 64 distances.
 [<Entry index=4 label="H2">, <Entry index=212 label="Cb_rad">]
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1471,9 +1459,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1493,9 +1478,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1515,9 +1497,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1537,9 +1516,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1559,9 +1535,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1583,9 +1556,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1605,9 +1575,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1627,9 +1594,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1649,9 +1613,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1672,9 +1633,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1695,9 +1653,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1718,9 +1673,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1741,9 +1693,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1764,9 +1713,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1787,9 +1733,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1810,9 +1753,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1833,9 +1773,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1856,9 +1793,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1879,9 +1813,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1900,9 +1831,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1921,9 +1849,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1944,9 +1869,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -1975,9 +1897,6 @@ Fitted to 6 distances.
 [<Entry index=457 label="Ct/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=457 label="Ct/H/NonDeC">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2006,9 +1925,6 @@ Fitted to 6 distances.
 [<Entry index=457 label="Ct/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=457 label="Ct/H/NonDeC">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2028,9 +1944,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2155,9 +2068,6 @@ Fitted to 171 distances.
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2191,9 +2101,6 @@ Fitted to 13 distances.
 [<Entry index=7 label="O_pri">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=7 label="O_pri">, <Entry index=180 label="O_rad/NonDeO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2307,9 +2214,6 @@ Fitted to 158 distances.
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2355,9 +2259,6 @@ Fitted to 44 distances.
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2447,9 +2348,6 @@ Fitted to 113 distances.
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2498,9 +2396,6 @@ Fitted to 31 distances.
 [<Entry index=11 label="H2O2">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2545,9 +2440,6 @@ Fitted to 24 distances.
 [<Entry index=12 label="ROOH_pri">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=12 label="ROOH_pri">, <Entry index=181 label="OOCH3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2575,9 +2467,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=13 label="ROOH_sec">, <Entry index=172 label="O2b">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2605,9 +2494,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=14 label="ROOH_ter">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2627,9 +2513,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2653,9 +2536,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2679,9 +2559,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2701,9 +2578,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2736,9 +2610,6 @@ Fitted to 18 distances.
 [<Entry index=16 label="Orad_O_H">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=16 label="Orad_O_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2758,9 +2629,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2780,9 +2648,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2802,9 +2667,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2824,9 +2686,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2846,9 +2705,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2868,9 +2724,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2890,9 +2743,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2913,9 +2763,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2935,9 +2782,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2957,9 +2801,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -2979,9 +2820,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3051,9 +2889,6 @@ Fitted to 148 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=269 label="C_rad/H/CO/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3107,9 +2942,6 @@ Fitted to 125 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=207 label="Cd_rad/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3163,9 +2995,6 @@ Fitted to 125 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=207 label="Cd_rad/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3186,9 +3015,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3228,9 +3054,6 @@ Fitted to 23 distances.
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=197 label="Cd_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3257,9 +3080,6 @@ Fitted to 4 distances.
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=31 label="Cd/H/NonDeC">, <Entry index=170 label="H_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3280,9 +3100,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3303,9 +3120,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3326,9 +3140,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3365,9 +3176,6 @@ Fitted to 19 distances.
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=197 label="Cd_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3402,9 +3210,6 @@ Fitted to 16 distances.
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=197 label="Cd_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3426,9 +3231,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3454,9 +3256,6 @@ Fitted to 3 distances.
 [<Entry index=37 label="Cd/H/Ct">, <Entry index=170 label="H_rad">]
 [<Entry index=37 label="Cd/H/Ct">, <Entry index=197 label="Cd_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3477,9 +3276,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3500,9 +3296,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3523,9 +3316,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3567,9 +3357,6 @@ Fitted to 29 distances.
 [<Entry index=40 label="Cb_H">, <Entry index=207 label="Cd_rad/Cd">]
 [<Entry index=40 label="Cb_H">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3660,9 +3447,6 @@ Fitted to 129 distances.
 [<Entry index=42 label="CO_pri">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=42 label="CO_pri">, <Entry index=276 label="C_rad/H/CdCd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3710,9 +3494,6 @@ Fitted to 41 distances.
 [<Entry index=42 label="CO_pri">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=42 label="CO_pri">, <Entry index=276 label="C_rad/H/CdCd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3779,9 +3560,6 @@ Fitted to 88 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=46 label="CO/H/OneDe">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3830,9 +3608,6 @@ Fitted to 54 distances.
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=241 label="C_rad/H2/Cd">]
 [<Entry index=44 label="CO/H/NonDe">, <Entry index=276 label="C_rad/H/CdCd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3867,9 +3642,6 @@ Fitted to 2 distances.
 [<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=45 label="InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3911,9 +3683,6 @@ Fitted to 34 distances.
 [<Entry index=46 label="CO/H/OneDe">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=46 label="CO/H/OneDe">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3934,9 +3703,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3957,9 +3723,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -3980,9 +3743,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4003,9 +3763,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4026,9 +3783,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4049,9 +3803,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4072,9 +3823,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4095,9 +3843,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4119,9 +3864,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4142,9 +3884,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4165,9 +3904,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4188,9 +3924,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4585,9 +4318,6 @@ Fitted to 1036 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=167 label="O_atom_triplet">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4640,9 +4370,6 @@ Fitted to 69 distances.
 [<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=256 label="C_rad/H/CsO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4851,9 +4578,6 @@ Fitted to 543 distances.
 [<Entry index=70 label="C/H3/Ct">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=217 label="CO_rad/OneDe">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4937,9 +4661,6 @@ Fitted to 277 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -4997,9 +4718,6 @@ Fitted to 57 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5031,9 +4749,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5114,9 +4829,6 @@ Fitted to 128 distances.
 [<Entry index=65 label="C/H3/Cd">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5139,9 +4851,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5193,9 +4902,6 @@ Fitted to 39 distances.
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=232 label="C_methyl">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5230,9 +4936,6 @@ Fitted to 3 distances.
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=178 label="O_rad/NonDeC">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5267,9 +4970,6 @@ Fitted to 3 distances.
 [<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=69 label="InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5311,9 +5011,6 @@ Fitted to 27 distances.
 [<Entry index=70 label="C/H3/Ct">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=70 label="C/H3/Ct">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5335,9 +5032,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5388,9 +5082,6 @@ Fitted to 63 distances.
 [<Entry index=72 label="C/H3/CO">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5441,9 +5132,6 @@ Fitted to 48 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=73 label="C/H3/O">, <Entry index=241 label="C_rad/H2/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5465,9 +5153,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5489,9 +5174,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5513,9 +5195,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5657,9 +5336,6 @@ Fitted to 333 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5713,9 +5389,6 @@ Fitted to 62 distances.
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=168 label="CH2_triplet">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5769,9 +5442,6 @@ Fitted to 42 distances.
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=168 label="CH2_triplet">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5817,9 +5487,6 @@ Fitted to 43 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5863,9 +5530,6 @@ Fitted to 41 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5897,9 +5561,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5926,9 +5587,6 @@ Fitted to 2 distances.
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5950,9 +5608,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5974,9 +5629,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -5998,9 +5650,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6067,9 +5716,6 @@ Fitted to 143 distances.
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6135,9 +5781,6 @@ Fitted to 142 distances.
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6187,9 +5830,6 @@ Fitted to 117 distances.
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=86 label="C/H2/CdCs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6212,9 +5852,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6236,9 +5873,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6260,9 +5894,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6303,9 +5934,6 @@ Fitted to 25 distances.
 [<Entry index=90 label="C/H2/COCs">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=256 label="C_rad/H/CsO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6332,9 +5960,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6363,9 +5988,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6391,9 +6013,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=93 label="C/H2/OneDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6415,9 +6034,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6439,9 +6055,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6463,9 +6076,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6515,9 +6125,6 @@ Fitted to 85 distances.
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6567,9 +6174,6 @@ Fitted to 85 distances.
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6592,9 +6196,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6618,9 +6219,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6642,9 +6240,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6667,9 +6262,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6691,9 +6283,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6716,9 +6305,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6740,9 +6326,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6765,9 +6348,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6789,9 +6369,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6813,9 +6390,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6837,9 +6411,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6861,9 +6432,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6885,9 +6453,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6909,9 +6474,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -6933,9 +6495,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7001,9 +6560,6 @@ Fitted to 91 distances.
 [<Entry index=116 label="C/H/Cs3">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7041,9 +6597,6 @@ Fitted to 16 distances.
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7080,9 +6633,6 @@ Fitted to 15 distances.
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7114,9 +6664,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7138,9 +6685,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7166,9 +6710,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7194,9 +6735,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=119 label="C/H/Cs2O">, <Entry index=170 label="H_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7218,9 +6756,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7242,9 +6777,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7266,9 +6798,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7290,9 +6819,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7314,9 +6840,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7338,9 +6861,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7362,9 +6882,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7386,9 +6903,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7440,9 +6954,6 @@ Fitted to 74 distances.
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=181 label="OOCH3">]
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=269 label="C_rad/H/CO/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7494,9 +7005,6 @@ Fitted to 74 distances.
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=181 label="OOCH3">]
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=269 label="C_rad/H/CO/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7518,9 +7026,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7543,9 +7048,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7567,9 +7069,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7591,9 +7090,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7645,9 +7141,6 @@ Fitted to 74 distances.
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=181 label="OOCH3">]
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=269 label="C_rad/H/CO/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7677,9 +7170,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7701,9 +7191,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7725,9 +7212,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7749,9 +7233,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7773,9 +7254,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7797,9 +7275,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7821,9 +7296,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7845,9 +7317,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7873,9 +7342,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7901,9 +7367,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7929,9 +7392,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=145 label="C/H/CdCd">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7954,9 +7414,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -7980,9 +7437,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8004,9 +7458,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8029,9 +7480,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8053,9 +7501,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8078,9 +7523,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8102,9 +7544,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8127,9 +7566,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8151,9 +7587,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8175,9 +7608,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8199,9 +7629,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8223,9 +7650,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8247,9 +7671,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8271,9 +7692,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8295,9 +7713,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8319,9 +7734,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8343,9 +7755,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8367,9 +7776,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8417,9 +7823,6 @@ Fitted to 47 distances.
 [<Entry index=443 label="OH_rad_H">, <Entry index=232 label="C_methyl">]
 [<Entry index=442 label="CH3_rad_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8458,9 +7861,6 @@ Fitted to 31 distances.
 [<Entry index=442 label="CH3_rad_H">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=442 label="CH3_rad_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8501,9 +7901,6 @@ Fitted to 31 distances.
 [<Entry index=442 label="CH3_rad_H">, <Entry index=197 label="Cd_pri_rad">]
 [<Entry index=442 label="CH3_rad_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8524,9 +7921,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8557,9 +7951,6 @@ Fitted to 16 distances.
 [<Entry index=443 label="OH_rad_H">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=443 label="OH_rad_H">, <Entry index=207 label="Cd_rad/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8578,9 +7969,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8599,9 +7987,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8621,9 +8006,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8643,9 +8025,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8665,9 +8044,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8682,9 +8058,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8703,9 +8076,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8724,9 +8094,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8746,9 +8113,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8768,9 +8132,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8785,9 +8146,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8806,9 +8164,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8827,9 +8182,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8844,9 +8196,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8864,9 +8213,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8884,9 +8230,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8904,9 +8247,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8921,9 +8261,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8941,9 +8278,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8961,9 +8295,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -8982,9 +8313,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9003,9 +8331,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9052,9 +8377,6 @@ Fitted to 47 distances.
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=168 label="CH2_triplet">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=168 label="CH2_triplet">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9084,9 +8406,6 @@ Fitted to 16 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=167 label="O_atom_triplet">]
 [<Entry index=62 label="C/H3/Cs">, <Entry index=167 label="O_atom_triplet">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9104,9 +8423,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9125,9 +8441,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9146,9 +8459,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9188,9 +8498,6 @@ Fitted to 31 distances.
 [<Entry index=72 label="C/H3/CO">, <Entry index=168 label="CH2_triplet">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=168 label="CH2_triplet">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9210,9 +8517,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9885,9 +9189,6 @@ Fitted to 1601 distances.
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9937,9 +9238,6 @@ Fitted to 64 distances.
 [<Entry index=7 label="O_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=454 label="O/H/OneDeC">, <Entry index=170 label="H_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9957,9 +9255,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9977,9 +9272,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -9999,9 +9291,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10021,9 +9310,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10043,9 +9329,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10064,9 +9347,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10085,9 +9365,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10106,9 +9383,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10128,9 +9402,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10148,9 +9419,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10168,9 +9436,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10205,9 +9470,6 @@ Fitted to 18 distances.
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10242,9 +9504,6 @@ Fitted to 18 distances.
 [<Entry index=68 label="InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3">, <Entry index=172 label="O2b">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=172 label="O2b">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10263,9 +9522,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10293,9 +9549,6 @@ Fitted to 6 distances.
 [<Entry index=40 label="Cb_H">, <Entry index=423 label="Ct_rad/Ct">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=423 label="Ct_rad/Ct">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10323,9 +9576,6 @@ Fitted to 6 distances.
 [<Entry index=40 label="Cb_H">, <Entry index=423 label="Ct_rad/Ct">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=423 label="Ct_rad/Ct">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10344,9 +9594,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10452,9 +9699,6 @@ Fitted to 171 distances.
 [<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=181 label="OOCH3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10486,9 +9730,6 @@ Fitted to 13 distances.
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=176 label="O_pri_rad">]
 [<Entry index=60 label="C_methane">, <Entry index=176 label="O_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10584,9 +9825,6 @@ Fitted to 158 distances.
 [<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=181 label="OOCH3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10632,9 +9870,6 @@ Fitted to 44 distances.
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=178 label="O_rad/NonDeC">]
 [<Entry index=7 label="O_pri">, <Entry index=178 label="O_rad/NonDeC">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10665,9 +9900,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10738,9 +9970,6 @@ Fitted to 113 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=180 label="O_rad/NonDeO">]
 [<Entry index=116 label="C/H/Cs3">, <Entry index=180 label="O_rad/NonDeO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10788,9 +10017,6 @@ Fitted to 82 distances.
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=181 label="OOCH3">]
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=181 label="OOCH3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10809,9 +10035,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10834,9 +10057,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=182 label="O_rad/OneDe">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10855,9 +10075,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10878,9 +10095,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10902,9 +10116,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10930,9 +10141,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10951,9 +10159,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10972,9 +10177,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -10993,9 +10195,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11014,9 +10213,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11035,9 +10231,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11056,9 +10249,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11077,9 +10267,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11099,9 +10286,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11120,9 +10304,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11141,9 +10322,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11162,9 +10340,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11253,9 +10428,6 @@ Fitted to 148 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=207 label="Cd_rad/Cd">]
 [<Entry index=40 label="Cb_H">, <Entry index=207 label="Cd_rad/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11328,9 +10500,6 @@ Fitted to 125 distances.
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=197 label="Cd_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11376,9 +10545,6 @@ Fitted to 27 distances.
 [<Entry index=60 label="C_methane">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 [<Entry index=11 label="H2O2">, <Entry index=198 label="InChI=1/C2H3/c1-2/h1H,2H2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11406,9 +10572,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11447,9 +10610,6 @@ Fitted to 23 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=207 label="Cd_rad/Cd">]
 [<Entry index=443 label="OH_rad_H">, <Entry index=207 label="Cd_rad/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11476,9 +10636,6 @@ Fitted to 4 distances.
 [<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11509,9 +10666,6 @@ Fitted to 3 distances.
 [<Entry index=4 label="H2">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=202 label="InChI=1/C3H5/c1-3-2/h1H2,2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11543,9 +10697,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=203 label="InChI=1/C4H7/c1-3-4-2/h3H,1-2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11565,9 +10716,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11587,9 +10735,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11609,9 +10754,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11646,9 +10788,6 @@ Fitted to 19 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=207 label="Cd_rad/Cd">]
 [<Entry index=443 label="OH_rad_H">, <Entry index=207 label="Cd_rad/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11681,9 +10820,6 @@ Fitted to 16 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=207 label="Cd_rad/Cd">]
 [<Entry index=443 label="OH_rad_H">, <Entry index=207 label="Cd_rad/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11704,9 +10840,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11731,9 +10864,6 @@ Fitted to 3 distances.
 [<Entry index=4 label="H2">, <Entry index=209 label="Cd_rad/Ct">]
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=209 label="Cd_rad/Ct">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11753,9 +10883,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11775,9 +10902,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11817,9 +10941,6 @@ Fitted to 29 distances.
 [<Entry index=12 label="ROOH_pri">, <Entry index=212 label="Cb_rad">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=212 label="Cb_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11909,9 +11030,6 @@ Fitted to 129 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -11959,9 +11077,6 @@ Fitted to 41 distances.
 [<Entry index=11 label="H2O2">, <Entry index=214 label="CO_pri_rad">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=214 label="CO_pri_rad">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12026,9 +11141,6 @@ Fitted to 88 distances.
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=217 label="CO_rad/OneDe">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12074,9 +11186,6 @@ Fitted to 54 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=216 label="CO_rad/NonDe">]
 [<Entry index=134 label="C/H/Cs2CO">, <Entry index=216 label="CO_rad/NonDe">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12118,9 +11227,6 @@ Fitted to 34 distances.
 [<Entry index=77 label="InChI=1/C3H8/c1-3-2/h3H2,1-2H3">, <Entry index=217 label="CO_rad/OneDe">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=217 label="CO_rad/OneDe">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12140,9 +11246,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12162,9 +11265,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12184,9 +11284,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12206,9 +11303,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12228,9 +11322,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12250,9 +11341,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12272,9 +11360,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12294,9 +11379,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12316,9 +11398,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12339,9 +11418,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12361,9 +11437,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12383,9 +11456,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12405,9 +11475,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12801,9 +11868,6 @@ Fitted to 1036 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=35 label="Cd/H/Cd">, <Entry index=276 label="C_rad/H/CdCd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -12857,9 +11921,6 @@ Fitted to 69 distances.
 [<Entry index=90 label="C/H2/COCs">, <Entry index=232 label="C_methyl">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=232 label="C_methyl">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13061,9 +12122,6 @@ Fitted to 543 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=70 label="C/H3/Ct">, <Entry index=247 label="C_rad/H2/O">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13148,9 +12206,6 @@ Fitted to 277 distances.
 [<Entry index=459 label="Cd/H2/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=234 label="C_rad/H2/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13206,9 +12261,6 @@ Fitted to 57 distances.
 [<Entry index=12 label="ROOH_pri">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13243,9 +12295,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=236 label="InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13276,9 +12325,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13309,9 +12355,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13346,9 +12389,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=239 label="InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13379,9 +12419,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13454,9 +12491,6 @@ Fitted to 128 distances.
 [<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=11 label="H2O2">, <Entry index=241 label="C_rad/H2/Cd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13511,9 +12545,6 @@ Fitted to 100 distances.
 [<Entry index=116 label="C/H/Cs3">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 [<Entry index=4 label="H2">, <Entry index=242 label="InChI=1/C3H5/c1-3-2/h3H,1-2H2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13547,9 +12578,6 @@ Fitted to 3 distances.
 [<Entry index=60 label="C_methane">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 [<Entry index=9 label="O/H/NonDeC">, <Entry index=243 label="InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13590,9 +12618,6 @@ Fitted to 27 distances.
 [<Entry index=72 label="C/H3/CO">, <Entry index=244 label="C_rad/H2/Ct">]
 [<Entry index=12 label="ROOH_pri">, <Entry index=244 label="C_rad/H2/Ct">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13613,9 +12638,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13665,9 +12687,6 @@ Fitted to 63 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=246 label="C_rad/H2/CO">]
 [<Entry index=67 label="InChI=1/C3H6/c1-3-2/h3H,1H2,2H3">, <Entry index=246 label="C_rad/H2/CO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13716,9 +12735,6 @@ Fitted to 48 distances.
 [<Entry index=4 label="H2">, <Entry index=247 label="C_rad/H2/O">]
 [<Entry index=70 label="C/H3/Ct">, <Entry index=247 label="C_rad/H2/O">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13739,9 +12755,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13762,9 +12775,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13909,9 +12919,6 @@ Fitted to 333 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=79 label="C/H2/CsO">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -13964,9 +12971,6 @@ Fitted to 62 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=250 label="C_rad/H/NonDeC">]
 [<Entry index=4 label="H2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14019,9 +13023,6 @@ Fitted to 42 distances.
 [<Entry index=11 label="H2O2">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 [<Entry index=98 label="C/H2/CdCd">, <Entry index=251 label="InChI=1/C3H7/c1-3-2/h3H,1-2H3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14052,9 +13053,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14085,9 +13083,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14118,9 +13113,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14166,9 +13158,6 @@ Fitted to 43 distances.
 [<Entry index=42 label="CO_pri">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=73 label="C/H3/O">, <Entry index=256 label="C_rad/H/CsO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14212,9 +13201,6 @@ Fitted to 41 distances.
 [<Entry index=12 label="ROOH_pri">, <Entry index=256 label="C_rad/H/CsO">]
 [<Entry index=90 label="C/H2/COCs">, <Entry index=256 label="C_rad/H/CsO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14245,9 +13231,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14278,9 +13261,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14306,9 +13286,6 @@ Fitted to 2 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=259 label="C_rad/H/O2">]
 [<Entry index=60 label="C_methane">, <Entry index=259 label="C_rad/H/O2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14329,9 +13306,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14352,9 +13326,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14375,9 +13346,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14398,9 +13366,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14421,9 +13386,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14444,9 +13406,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14515,9 +13474,6 @@ Fitted to 143 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=442 label="CH3_rad_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14585,9 +13541,6 @@ Fitted to 142 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=442 label="CH3_rad_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14637,9 +13590,6 @@ Fitted to 117 distances.
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=265 label="C_rad/H/CdCs">]
 [<Entry index=442 label="CH3_rad_H">, <Entry index=265 label="C_rad/H/CdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14661,9 +13611,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14684,9 +13631,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14707,9 +13651,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14751,9 +13692,6 @@ Fitted to 25 distances.
 [<Entry index=4 label="H2">, <Entry index=269 label="C_rad/H/CO/Cs">]
 [<Entry index=65 label="C/H3/Cd">, <Entry index=269 label="C_rad/H/CO/Cs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14783,9 +13721,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=270 label="InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14810,9 +13745,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=63 label="InChI=1/C2H6/c1-2/h1-2H3">, <Entry index=271 label="C_rad/H/OneDeO">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14833,9 +13765,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14856,9 +13785,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14879,9 +13805,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14902,9 +13825,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -14953,9 +13873,6 @@ Fitted to 85 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=42 label="CO_pri">, <Entry index=276 label="C_rad/H/CdCd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15004,9 +13921,6 @@ Fitted to 85 distances.
 [<Entry index=79 label="C/H2/CsO">, <Entry index=276 label="C_rad/H/CdCd">]
 [<Entry index=42 label="CO_pri">, <Entry index=276 label="C_rad/H/CdCd">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15028,9 +13942,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15053,9 +13964,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15076,9 +13984,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15100,9 +14005,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15123,9 +14025,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15147,9 +14046,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15170,9 +14066,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15194,9 +14087,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15217,9 +14107,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15240,9 +14127,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15263,9 +14147,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15286,9 +14167,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15309,9 +14187,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15332,9 +14207,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15399,9 +14271,6 @@ Fitted to 91 distances.
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15438,9 +14307,6 @@ Fitted to 16 distances.
 [<Entry index=10 label="O/H/NonDeO">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15476,9 +14342,6 @@ Fitted to 15 distances.
 [<Entry index=62 label="C/H3/Cs">, <Entry index=293 label="C_rad/Cs3">]
 [<Entry index=4 label="H2">, <Entry index=293 label="C_rad/Cs3">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15509,9 +14372,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15536,9 +14396,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15563,9 +14420,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=4 label="H2">, <Entry index=296 label="C_rad/Cs2O">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15587,9 +14441,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15620,9 +14471,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15643,9 +14491,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15666,9 +14511,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15689,9 +14531,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15712,9 +14551,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15735,9 +14571,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15758,9 +14591,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15811,9 +14641,6 @@ Fitted to 74 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=311 label="C_rad/COCs2">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15864,9 +14691,6 @@ Fitted to 74 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=311 label="C_rad/COCs2">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15887,9 +14711,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15911,9 +14732,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15934,9 +14752,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -15957,9 +14772,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16010,9 +14822,6 @@ Fitted to 74 distances.
 [<Entry index=73 label="C/H3/O">, <Entry index=311 label="C_rad/COCs2">]
 [<Entry index=72 label="C/H3/CO">, <Entry index=311 label="C_rad/COCs2">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16033,9 +14842,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16056,9 +14862,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16079,9 +14882,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16102,9 +14902,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16125,9 +14922,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16148,9 +14942,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16171,9 +14962,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16198,9 +14986,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16225,9 +15010,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16252,9 +15034,6 @@ u"""
 Fitted to 1 distances.
 [<Entry index=60 label="C_methane">, <Entry index=321 label="C_rad/CdCdCs">]
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16276,9 +15055,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16301,9 +15077,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16324,9 +15097,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16348,9 +15118,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16371,9 +15138,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16395,9 +15159,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16418,9 +15179,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16442,9 +15200,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16465,9 +15220,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16488,9 +15240,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16511,9 +15260,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16534,9 +15280,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16557,9 +15300,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16580,9 +15320,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16603,9 +15340,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16626,9 +15360,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 entry(
@@ -16649,9 +15380,6 @@ entry(
 u"""
 
 """,
-    history = [
-        ("2014-05-26","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
-    ],
 )
 
 tree(
