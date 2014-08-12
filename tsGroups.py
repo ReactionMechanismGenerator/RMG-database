@@ -41,7 +41,7 @@ def loadDatabase(args):
     print 'Loading RMG database...'
     from rmgpy.data.rmg import RMGDatabase
     rmgDatabase = RMGDatabase()
-    rmgDatabase.load('input')
+    rmgDatabase.load('input', kineticsFamilies='default')
     
     return database, rmgDatabase
 
@@ -100,7 +100,7 @@ def generate(args):
     # Load the database
     database, rmgDatabase = loadDatabase(args)
     
-    rmgDatabase.kinetics.loadFamilies('input/kinetics/families')
+    rmgDatabase.kinetics.loadFamilies('input/kinetics/families', families=args.family)
     rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
     
     # Removed above. Haven't put families yet for transition states, so specify H_Abstraction
