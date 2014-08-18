@@ -42,7 +42,6 @@ CH3OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87,7 +86,6 @@ CH3OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -138,7 +136,6 @@ H2
         n = 2.5,
         Ea = (6494, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -191,7 +188,6 @@ H2O
         n = 0.1,
         Ea = (3340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -248,7 +244,6 @@ CH4
         n = 3.7,
         Ea = (6823, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -303,7 +298,6 @@ H2O2
         n = 2.4,
         Ea = (16594, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -364,7 +358,6 @@ CH3O2H
         n = 2.4,
         Ea = (16594, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -423,7 +416,6 @@ CH3OH
         n = 0.5,
         Ea = (4823, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -474,7 +466,6 @@ OH
         n = 2.4,
         Ea = (4593, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -527,7 +518,6 @@ HO2
         n = 0.1,
         Ea = (51749, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -582,7 +572,6 @@ CH2O
         n = 2.5,
         Ea = (18430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -639,7 +628,6 @@ HCOOH
         n = 2.4,
         Ea = (16594, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -702,7 +690,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -761,7 +748,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -812,7 +798,6 @@ H2
         n = 2.5,
         Ea = (5736, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -865,7 +850,6 @@ H2O
         n = -1,
         Ea = (4946, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -922,7 +906,6 @@ CH4
         n = 3.7,
         Ea = (6052, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -977,7 +960,6 @@ H2O2
         n = 2.2,
         Ea = (16544, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1038,7 +1020,6 @@ CH3O2H
         n = 2.2,
         Ea = (16544, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1097,7 +1078,6 @@ CH3OH
         n = 0.8,
         Ea = (2912, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1148,7 +1128,6 @@ OH
         n = 2.5,
         Ea = (4047, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1201,7 +1180,6 @@ HO2
         n = 0.1,
         Ea = (50759, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1258,7 +1236,6 @@ HCOOH
         n = 2.2,
         Ea = (16544, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1313,7 +1290,6 @@ CH2O
         n = 1.9,
         Ea = (17010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1376,7 +1352,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1435,7 +1410,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1478,7 +1452,6 @@ CH3OCO
         n = 1.5,
         Ea = (34700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1521,7 +1494,6 @@ CH3OCO
         n = 2,
         Ea = (5730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1560,7 +1532,6 @@ CH3OCO
         n = 0,
         Ea = (38178, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1603,7 +1574,6 @@ CH2OCHO
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1666,7 +1636,6 @@ CH2OCHO
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1717,7 +1686,6 @@ CH3CH2OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1768,7 +1736,6 @@ CH3CO2CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1817,7 +1784,6 @@ HO2CH2OCHO
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1866,7 +1832,6 @@ CH3OCOO2H
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1915,7 +1880,6 @@ HO2CH2OCHO
         n = 2.41,
         Ea = (-4132, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1964,7 +1928,6 @@ CH3OCOO2H
         n = 2.41,
         Ea = (-4132, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2009,7 +1972,6 @@ CH3OCOO
         n = 0,
         Ea = (9200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2054,7 +2016,6 @@ OCH2OCHO
         n = 0,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2101,7 +2062,6 @@ CH3OCOOO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2148,7 +2108,6 @@ OOCH2OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2191,7 +2150,6 @@ HOOCH2OCO
         n = 0,
         Ea = (28900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2234,7 +2192,6 @@ CH2OCOOOH
         n = 0,
         Ea = (28900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2281,7 +2238,6 @@ HOOCH2OCO
         n = 1.6,
         Ea = (36591, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2328,7 +2284,6 @@ HOOCH2OCO
         n = 1.6,
         Ea = (5588, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2369,7 +2324,6 @@ CH2O2H
         n = 0,
         Ea = (12900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2412,7 +2366,6 @@ HO2
         n = -1.8,
         Ea = (10460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2463,7 +2416,6 @@ OH
         n = -1.5,
         Ea = (37360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2514,7 +2466,6 @@ HO2
         n = -1.5,
         Ea = (37360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2561,7 +2512,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2608,7 +2558,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2659,7 +2608,6 @@ OOCH2OCOOOH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2710,7 +2658,6 @@ HOOCH2OCOOO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2761,7 +2708,6 @@ OH
         n = 0,
         Ea = (21863, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2812,7 +2758,6 @@ OH
         n = 0,
         Ea = (20900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2863,7 +2808,6 @@ OH
         n = 0,
         Ea = (41600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2912,7 +2856,6 @@ H2
         n = 1.5,
         Ea = (2005, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2963,7 +2906,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3016,7 +2958,6 @@ H2O2
         n = 0,
         Ea = (12976, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3057,7 +2998,6 @@ CHOOCO
         n = 1.6,
         Ea = (5588, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3098,7 +3038,6 @@ CHOOCO
         n = 1.6,
         Ea = (36591, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3151,7 +3090,6 @@ CO
         T1 = (8430000000.0, 'K'),
         T2 = (8210000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3204,7 +3142,6 @@ CO2
         T1 = (9918000000.0, 'K'),
         T2 = (3280000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3257,7 +3194,6 @@ CH2O
         T1 = (618, 'K'),
         T2 = (6710000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3310,7 +3246,6 @@ OCHO
         T1 = (9330000000.0, 'K'),
         T2 = (1780000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3363,7 +3298,6 @@ HCO
         T1 = (647, 'K'),
         T2 = (669000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_2.',
     ),
     shortDesc = u"""""",
     longDesc = 

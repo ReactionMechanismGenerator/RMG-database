@@ -36,7 +36,6 @@ OH
         n = 2.7,
         Ea = (6260, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77,7 +76,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -120,7 +118,6 @@ HO2
         n = 2,
         Ea = (4000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -159,7 +156,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -200,7 +196,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -241,7 +236,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -282,7 +276,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -325,7 +318,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -370,7 +362,6 @@ CH3
         n = 1.5,
         Ea = (8600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -411,7 +402,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -452,7 +442,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -495,7 +484,6 @@ HCO
         n = 0,
         Ea = (3540, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -540,7 +528,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -585,7 +572,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -632,7 +618,6 @@ CH2OH
         n = 2.5,
         Ea = (3100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -679,7 +664,6 @@ CH3O
         n = 2.5,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -720,7 +704,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -763,7 +746,6 @@ HCCO
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -806,7 +788,6 @@ C2H
         n = -1.41,
         Ea = (28950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -849,7 +830,6 @@ CH2
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -894,7 +874,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -941,7 +920,6 @@ HCO
         n = 1.83,
         Ea = (220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -990,7 +968,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1041,7 +1018,6 @@ C2H5
         n = 1.92,
         Ea = (5690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1088,7 +1064,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1133,7 +1108,6 @@ HCCO
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1178,7 +1152,6 @@ CO2
         n = 0,
         Ea = (1350, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1219,7 +1192,6 @@ CO2
         n = 0,
         Ea = (47800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1264,7 +1236,6 @@ HCO
         n = 0,
         Ea = (40000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1311,7 +1282,6 @@ O2
         n = -1.24,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1360,7 +1330,6 @@ H2O
         n = -0.76,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1399,7 +1368,6 @@ OH
         n = -0.6707,
         Ea = (17041, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1444,7 +1412,6 @@ H2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1491,7 +1458,6 @@ H2O
         n = -1.25,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1538,7 +1504,6 @@ CO2
         n = -2,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1579,7 +1544,6 @@ H2O
         n = 0,
         Ea = (671, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1620,7 +1584,6 @@ H2
         n = 0,
         Ea = (1068, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1661,7 +1624,6 @@ OH
         n = 0,
         Ea = (635, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1704,7 +1666,6 @@ H2
         n = 2,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1747,7 +1708,6 @@ H2O
         n = 0,
         Ea = (3600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1786,7 +1746,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1827,7 +1786,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1872,7 +1830,6 @@ H2
         n = 1.62,
         Ea = (10840, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1913,7 +1870,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1956,7 +1912,6 @@ H2
         n = 1.9,
         Ea = (2742, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2001,7 +1956,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2046,7 +2000,6 @@ CH3
         n = 0.65,
         Ea = (-284, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2091,7 +2044,6 @@ H2O
         n = -0.09,
         Ea = (610, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2136,7 +2088,6 @@ CH2OH
         n = 1.63,
         Ea = (1924, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2181,7 +2132,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2226,7 +2176,6 @@ CH3
         n = 0.5,
         Ea = (-110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2271,7 +2220,6 @@ H2O
         n = -0.23,
         Ea = (1070, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2318,7 +2266,6 @@ H2
         n = 2.1,
         Ea = (4870, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2365,7 +2312,6 @@ H2
         n = 2.1,
         Ea = (4870, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2410,7 +2356,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2457,7 +2402,6 @@ H2
         n = 2.53,
         Ea = (12240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2506,7 +2450,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2557,7 +2500,6 @@ H2
         n = 1.9,
         Ea = (7530, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2600,7 +2542,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2645,7 +2586,6 @@ H2
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2690,7 +2630,6 @@ CO
         n = 0,
         Ea = (3428, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2735,7 +2674,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2776,7 +2714,6 @@ H2O
         n = 1.51,
         Ea = (3430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2817,7 +2754,6 @@ H2O
         n = 2.4,
         Ea = (-2110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2871,7 +2807,6 @@ H2O
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2922,7 +2857,6 @@ H2O
             ),
             Arrhenius(A=(1.7e+18, 'cm^3/(mol*s)'), n=0, Ea=(29410, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2961,7 +2895,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3002,7 +2935,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3045,7 +2977,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3088,7 +3019,6 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3131,7 +3061,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3176,7 +3105,6 @@ H2O
         n = 1.6,
         Ea = (5420, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3221,7 +3149,6 @@ H2O
         n = -1.34,
         Ea = (1417, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3268,7 +3195,6 @@ H2O
         n = 1.6,
         Ea = (3120, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3309,7 +3235,6 @@ CO2
         n = 1.228,
         Ea = (70, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3352,7 +3277,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3397,7 +3321,6 @@ H2O
         n = 1.18,
         Ea = (-447, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3444,7 +3367,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3491,7 +3413,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3540,7 +3461,6 @@ H2O
         n = 2,
         Ea = (-840, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3589,7 +3509,6 @@ H2O
         n = 2,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3632,7 +3551,6 @@ HCCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3677,7 +3595,6 @@ CH2CO
         n = 4.5,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3722,7 +3639,6 @@ HCCOH
         n = 2.3,
         Ea = (13500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3767,7 +3683,6 @@ H2O
         n = 2,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3812,7 +3727,6 @@ CO
         n = 4,
         Ea = (-2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3859,7 +3773,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3908,7 +3821,6 @@ H2O
         n = 2,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3961,7 +3873,6 @@ H2O
         n = 2.12,
         Ea = (870, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4008,7 +3919,6 @@ H2O
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4064,7 +3974,6 @@ H2O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4109,7 +4018,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4156,7 +4064,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4203,7 +4110,6 @@ CH3O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4246,7 +4152,6 @@ CO2
         n = 0,
         Ea = (23600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4293,7 +4198,6 @@ H2O2
         n = 2,
         Ea = (12000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4332,7 +4236,6 @@ CO
         n = 0,
         Ea = (576, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4373,7 +4276,6 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4416,7 +4318,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4457,7 +4358,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4498,7 +4398,6 @@ CH2
         n = 0,
         Ea = (3110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4541,7 +4440,6 @@ CH2O
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4584,7 +4482,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4629,7 +4526,6 @@ C2H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4676,7 +4572,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4719,7 +4614,6 @@ CO
         n = 0,
         Ea = (15792, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4764,7 +4658,6 @@ CH2CO
         n = 0,
         Ea = (-515, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4809,7 +4702,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4857,7 +4749,6 @@ CO
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4900,7 +4791,6 @@ CH3
         n = 2,
         Ea = (7230, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4945,7 +4835,6 @@ C2H2
         n = 0,
         Ea = (11944, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4992,7 +4881,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5041,7 +4929,6 @@ CH3
         n = 2,
         Ea = (8270, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5088,7 +4975,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5135,7 +5021,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5178,7 +5063,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5221,7 +5105,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5266,7 +5149,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5313,7 +5195,6 @@ C2H4
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5362,7 +5243,6 @@ CH3
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5405,7 +5285,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5450,7 +5329,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5495,7 +5373,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5550,7 +5427,6 @@ C2H5
         n = 0,
         Ea = (-550, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5595,7 +5471,6 @@ CH3O
         n = 0,
         Ea = (30480, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5640,7 +5515,6 @@ CH2O
         n = 0,
         Ea = (20315, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5689,7 +5563,6 @@ CH4
         n = 2.47,
         Ea = (5180, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5738,7 +5611,6 @@ C2H5
         n = 0.1,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5785,7 +5657,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5834,7 +5705,6 @@ CH4
         n = 2.81,
         Ea = (5860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5887,7 +5757,6 @@ CH4
         n = 1.5,
         Ea = (9940, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5940,7 +5809,6 @@ CH4
         n = 1.5,
         Ea = (9940, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5993,7 +5861,6 @@ CH4
         n = 2,
         Ea = (9200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6050,7 +5917,6 @@ CH4
         n = 1.74,
         Ea = (10450, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6099,7 +5965,6 @@ H2O
         n = -1,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6142,7 +6007,6 @@ CO
         n = 0,
         Ea = (400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6189,7 +6053,6 @@ CH2O
         n = 0,
         Ea = (900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6236,7 +6099,6 @@ CH2O
         n = 7.6,
         Ea = (-3530, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6279,7 +6141,6 @@ CO
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6322,7 +6183,6 @@ C2H2
         n = 0.9,
         Ea = (1993, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6369,7 +6229,6 @@ CH2O
         n = -1.39,
         Ea = (1015, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6420,7 +6279,6 @@ C2H4
         n = 0,
         Ea = (3875, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6469,7 +6327,6 @@ CO
         n = 0,
         Ea = (854, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6522,7 +6379,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6570,7 +6426,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6617,7 +6472,6 @@ CH2CHO
         n = 1.83,
         Ea = (220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6666,7 +6520,6 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6712,7 +6565,6 @@ CH2O
         n = 0.5,
         Ea = (-1755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6760,7 +6612,6 @@ CO2
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6803,7 +6654,6 @@ CH2O
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6853,7 +6703,6 @@ C2H2
         n = 0,
         Ea = (10989, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6899,7 +6748,6 @@ CH2O
         n = 0.25,
         Ea = (-935, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6946,7 +6794,6 @@ CH2CHO
         n = 0.29,
         Ea = (11, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6993,7 +6840,6 @@ C2H2
         n = 1.61,
         Ea = (-384, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7042,7 +6888,6 @@ CH2CHO
         n = 0,
         Ea = (1808, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7096,7 +6941,6 @@ CO
         n = 0,
         Ea = (1808, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7152,7 +6996,6 @@ CO
         n = 0,
         Ea = (39150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7201,7 +7044,6 @@ H2
         n = 1.16,
         Ea = (2405, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7255,7 +7097,6 @@ CO
         n = 1.16,
         Ea = (2405, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7311,7 +7152,6 @@ CO
         n = 0.73,
         Ea = (-1113, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7369,7 +7209,6 @@ CO
         n = 0,
         Ea = (11923, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7429,7 +7268,6 @@ CO
         n = 1.77,
         Ea = (5920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7481,7 +7319,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7535,7 +7372,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7589,7 +7425,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7636,7 +7471,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7683,7 +7517,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7732,7 +7565,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7781,7 +7613,6 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7812,7 +7643,6 @@ O2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.2e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'C': 2.0, 'O=C=O': 3.6, 'CC': 3.0, 'O': 15.4, '[H][H]': 2.4, '[C]=O': 1.75, '[Ar]': 0.83},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7843,7 +7673,6 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(5e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7881,7 +7710,6 @@ HO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 1.5, 'CC': 1.5, 'O': 0.0, '[O][O]': 0.0, 'N#N': 0.0, '[C]=O': 0.75, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7912,7 +7740,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'C': 2.0, 'O=C=O': 0.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 0.0, '[Ar]': 0.63},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7945,7 +7772,6 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.2e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'CC': 3.0, 'C': 2.0, '[H][H]': 0.73, 'O': 3.65, '[Ar]': 0.38},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7983,7 +7809,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8027,7 +7852,6 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'O=C=O': 3.5, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[O][O]': 6.0, '[C]=O': 1.5, '[Ar]': 0.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8077,7 +7901,6 @@ CH3
         T1 = (5836, 'K'),
         T2 = (8552, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8129,7 +7952,6 @@ CH4
         T1 = (2941, 'K'),
         T2 = (6964, 'K'),
         efficiencies = {'C': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8179,7 +8001,6 @@ CH2O
         T1 = (2755, 'K'),
         T2 = (6570, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8231,7 +8052,6 @@ CH2OH
         T1 = (1291, 'K'),
         T2 = (4160, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8283,7 +8103,6 @@ CH3O
         T1 = (1555, 'K'),
         T2 = (4200, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8337,7 +8156,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8391,7 +8209,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8436,7 +8253,6 @@ C2H2
         T1 = (1315, 'K'),
         T2 = (5566, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8488,7 +8304,6 @@ C2H3
         T1 = (1302, 'K'),
         T2 = (4167, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8542,7 +8357,6 @@ C2H4
         T1 = (2663, 'K'),
         T2 = (6095, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8598,7 +8412,6 @@ C2H5
         T1 = (984, 'K'),
         T2 = (4374, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8656,7 +8469,6 @@ C2H6
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8706,7 +8518,6 @@ CH2O
         T1 = (1540, 'K'),
         T2 = (10300, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8756,7 +8567,6 @@ H2O2
         T1 = (1756, 'K'),
         T2 = (5182, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8810,7 +8620,6 @@ CH3OH
         T1 = (5900, 'K'),
         T2 = (6394, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8860,7 +8669,6 @@ HCCO
         T1 = (1652, 'K'),
         T2 = (5069, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8912,7 +8720,6 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8966,7 +8773,6 @@ CH3OH
         T1 = (3922, 'K'),
         T2 = (10180, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9024,7 +8830,6 @@ C2H6
         T1 = (1180, 'K'),
         T2 = (9999, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9078,7 +8883,6 @@ C2H2
         T1 = (1035, 'K'),
         T2 = (5417, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9128,7 +8932,6 @@ CH3
         T1 = (2535, 'K'),
         T2 = (9365, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9182,7 +8985,6 @@ CH2CHO
         T1 = (1773, 'K'),
         T2 = (5333, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9246,7 +9048,6 @@ C3H8
         T1 = (2742, 'K'),
         T2 = (7748, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from GRI-Mech3.0.',
     ),
     shortDesc = u"""""",
     longDesc = 

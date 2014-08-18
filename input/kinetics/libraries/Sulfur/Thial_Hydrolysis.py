@@ -40,7 +40,6 @@ CH2OHSH
         n = 2.43,
         Ea = (28.13, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89,7 +88,6 @@ CHCH3OHSH
         n = 2.78,
         Ea = (27.8, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -130,7 +128,6 @@ HJ
         n = 1.64,
         Ea = (34.58, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -177,7 +174,6 @@ CH3J
         n = 1.02,
         Ea = (29.9, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -212,7 +208,6 @@ CHOSH
         n = 0.13,
         Ea = (28.48, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -249,7 +244,6 @@ HJ
         n = 1.13,
         Ea = (17.98, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -290,7 +284,6 @@ CSOHOH
         n = 3.67,
         Ea = (27.56, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.\n1st pathway, 1st step 53.85 w/o catalysis',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -327,7 +320,6 @@ COSHOH
         n = -0.65,
         Ea = (28.98, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -368,7 +360,6 @@ H2S
         n = -0.09,
         Ea = (37.78, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -409,7 +400,6 @@ COSHOH
         n = 3.35,
         Ea = (25.79, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.\n2nd pathway, 1st step 43.86 w/o catalysis',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -452,7 +442,6 @@ CH2OHSH
         n = 3.01,
         Ea = (38.7, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.\n3rd pathway, form aldehyde from first product (reverse)',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -501,7 +490,6 @@ CHCH3OHSH
         n = 2.9,
         Ea = (37.1, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Thial_Hydrolysis.',
     ),
     shortDesc = u"""""",
     longDesc = 

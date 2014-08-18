@@ -42,7 +42,6 @@ H2
         n = 2.9,
         Ea = (5.87, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93,7 +92,6 @@ CH4
         n = 5.06,
         Ea = (4.73, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -140,7 +138,6 @@ H2S
         n = 3.53,
         Ea = (8.32, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -193,7 +190,6 @@ CH3SH
         n = 3.69,
         Ea = (11.61, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -236,7 +232,6 @@ CH3SCH2SJ
         n = 0.22,
         Ea = (31.93, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -283,7 +278,6 @@ CH3SSCH2J
         n = 2.77,
         Ea = (-2.31, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -330,7 +324,6 @@ CH3SCH2SJ
         n = 2.79,
         Ea = (-2.27, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -379,7 +372,6 @@ CH3CH2SCH2SJ
         n = 0.22,
         Ea = (31.93, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -432,7 +424,6 @@ CH3CH2SSCH2J
         n = 2.77,
         Ea = (-2.31, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -485,7 +476,6 @@ CH3CH2SCH2SJ
         n = 2.79,
         Ea = (-2.27, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -532,7 +522,6 @@ CH3SSCH2J
         n = 2.72,
         Ea = (7.28, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -579,7 +568,6 @@ CH3SCH2SJ
         n = 2.57,
         Ea = (-1.16, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -632,7 +620,6 @@ CH3CH2SSCH2J
         n = 2.72,
         Ea = (7.28, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -685,7 +672,6 @@ CH3CH2SCH2SJ
         n = 2.57,
         Ea = (-1.16, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -720,7 +706,6 @@ CS2H2(2)
         n = 1,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -753,7 +738,6 @@ CS2H(1)J
         n = 1,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -792,7 +776,6 @@ CS2H(1)J
         n = 1.55,
         Ea = (36.55, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -829,7 +812,6 @@ HJ
         n = 1.74,
         Ea = (30.56, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -872,7 +854,6 @@ H2
         n = 2.72,
         Ea = (3.68, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -921,7 +902,6 @@ CH4
         n = 4.85,
         Ea = (3.8, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -966,7 +946,6 @@ H2S
         n = 3.7,
         Ea = (1.93, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1017,7 +996,6 @@ CH3SH
         n = 3.96,
         Ea = (5.36, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1060,7 +1038,6 @@ CH2S
         n = -0.05,
         Ea = (36.87, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1099,7 +1076,6 @@ C2H3S2(2)J
         n = 9.96,
         Ea = (19.14, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1142,7 +1118,6 @@ CH3J
         n = 0.67,
         Ea = (10.64, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\DMS.',
     ),
     shortDesc = u"""""",
     longDesc = 

@@ -38,7 +38,6 @@ H2
         n = 1.94,
         Ea = (0.9, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nReactions from Sendt et al. Proc. Comb. Inst. 2002\nNot including reactions 1, 19, 20, 21',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80,7 +79,6 @@ SH
         n = 0,
         Ea = (7.38, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -119,7 +117,6 @@ H
         n = 0,
         Ea = (19.29, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -158,7 +155,6 @@ H
         n = 0,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -199,7 +195,6 @@ SH
         n = 0.353,
         Ea = (0.21, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nUsing unadjusted singlet surface calculation for this one (see paper)',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -242,7 +237,6 @@ S2
         n = 3.05,
         Ea = (-1.1, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -283,7 +277,6 @@ S2
         n = 1.653,
         Ea = (-1.1, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -324,7 +317,6 @@ S
         n = 0,
         Ea = (6.33, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -365,7 +357,6 @@ SH
         n = 2.2,
         Ea = (-0.6, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -410,7 +401,6 @@ S2
         n = 3.37,
         Ea = (-1.67, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -453,7 +443,6 @@ H2
         n = 1.933,
         Ea = (-1.41, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -496,7 +485,6 @@ SH
         n = 1.724,
         Ea = (0.47, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -541,7 +529,6 @@ HSS
         n = 2.98,
         Ea = (-1.48, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -584,7 +571,6 @@ SH
         n = 2.31,
         Ea = (1.2, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -622,7 +608,6 @@ HSS
             T0 = (1, 'K'),
         ),
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1.0, '[Ar]': 0.88},
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nPressure dependent reactions from Sendt et al. Proc. Comb. Inst. 2002\nNot including reactions 1, 19, 20, 21',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -663,7 +648,6 @@ SH
             T0 = (1, 'K'),
         ),
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1.0, '[Ar]': 0.88},
-        comment = 'Reaction and kinetics from Sulfur\\Sendt.\nA-factor could also be 2.31E14',
     ),
     shortDesc = u"""""",
     longDesc = 

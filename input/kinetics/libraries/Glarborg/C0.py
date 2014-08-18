@@ -36,7 +36,6 @@ OH
         n = -0.41,
         Ea = (16600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81,7 +80,6 @@ H2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -128,7 +126,6 @@ H2O
         n = -1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -178,7 +175,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -219,7 +215,6 @@ H2O
         n = 2.7,
         Ea = (-1822, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -260,7 +255,6 @@ H2O
         n = 1.52,
         Ea = (3449, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -301,7 +295,6 @@ H
         n = 2.433,
         Ea = (53502, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -342,7 +335,6 @@ OH
         n = 0,
         Ea = (400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -383,7 +375,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -424,7 +415,6 @@ O2
         n = 0,
         Ea = (-445, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -467,7 +457,6 @@ O2
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -523,7 +512,6 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -566,7 +554,6 @@ OH
         n = 0,
         Ea = (3580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -609,7 +596,6 @@ H2
         n = 0,
         Ea = (3760, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -652,7 +638,6 @@ OH
         n = 2,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -703,7 +688,6 @@ HO2
             ),
             Arrhenius(A=(1.6e+18, 'cm^3/(mol*s)'), n=0, Ea=(29410, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -750,7 +734,6 @@ HO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.0, '[O][O]': 0.78, 'O': 11.0, 'N#N': 0.0, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -795,7 +778,6 @@ OH
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.5, 'O': 12.0, '[Ar]': 0.64},
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -826,7 +808,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(7e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0.0, 'O': 0.0, 'N#N': 0.0},
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -857,7 +838,6 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(6.2e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O': 5.0},
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -893,7 +873,6 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[O][O]': 1.5, 'O': 10.0, 'N#N': 1.5},
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -926,7 +905,6 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.5e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0.73, 'O': 12.0, '[Ar]': 0.38},
-        comment = 'Reaction and kinetics from Glarborg\\C0.',
     ),
     shortDesc = u"""""",
     longDesc = 

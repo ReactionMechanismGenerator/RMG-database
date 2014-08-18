@@ -36,7 +36,6 @@ OH
         n = -0.406,
         Ea = (16599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75,7 +74,6 @@ OH
         n = 2.67,
         Ea = (6290, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -116,7 +114,6 @@ H
         n = 1.51,
         Ea = (3430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -157,7 +154,6 @@ OH
         n = 2.02,
         Ea = (13400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -198,7 +194,6 @@ O2
         n = 0,
         Ea = (823, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -239,7 +234,6 @@ OH
         n = 0,
         Ea = (295, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -280,7 +274,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -323,7 +316,6 @@ O2
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -379,7 +371,6 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -422,7 +413,6 @@ OH
         n = 0,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -465,7 +455,6 @@ H2
         n = 0,
         Ea = (7950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -508,7 +497,6 @@ HO2
         n = 2,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -564,7 +552,6 @@ H2O
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -605,7 +592,6 @@ O
         n = 0,
         Ea = (47700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -648,7 +634,6 @@ OH
         n = 0,
         Ea = (23000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -689,7 +674,6 @@ H
         n = 1.89,
         Ea = (-1158.7, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -732,7 +716,6 @@ HO2
         n = 0,
         Ea = (410, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -773,7 +756,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -814,7 +796,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -857,7 +838,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -898,7 +878,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -947,7 +926,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -994,7 +972,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1043,7 +1020,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1088,7 +1064,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1127,7 +1102,6 @@ O2CHO
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1178,7 +1152,6 @@ HO2CHO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1219,7 +1192,6 @@ OH
         n = 0,
         Ea = (40150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1262,7 +1234,6 @@ H2
         n = 1.9,
         Ea = (2748.6, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1305,7 +1276,6 @@ OH
         n = 0,
         Ea = (3080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1350,7 +1320,6 @@ H2O
         n = 1.18,
         Ea = (-447, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1395,7 +1364,6 @@ HO2
         n = 3,
         Ea = (52000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1442,7 +1410,6 @@ H2O2
         n = 2.5,
         Ea = (10210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1491,7 +1458,6 @@ CH4
         n = 5.42,
         Ea = (998, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1534,7 +1500,6 @@ OCH2O2H
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1573,7 +1538,6 @@ HOCH2O2
         n = 0,
         Ea = (8600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1626,7 +1590,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1671,7 +1634,6 @@ HOCH2O2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1714,7 +1676,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1759,7 +1720,6 @@ O
         n = -1.57,
         Ea = (29230, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1804,7 +1764,6 @@ OH
         n = 3.524,
         Ea = (7380, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1851,7 +1810,6 @@ OH
         n = 0.76,
         Ea = (-2325, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1896,7 +1854,6 @@ H2
         n = 1.97,
         Ea = (11210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1941,7 +1898,6 @@ OH
         n = 0.5,
         Ea = (10290, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1988,7 +1944,6 @@ H2O
         n = 1.96,
         Ea = (2639, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2035,7 +1990,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2084,7 +2038,6 @@ H2O2
         n = 0,
         Ea = (18580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2137,7 +2090,6 @@ CH3O
         n = 3.1,
         Ea = (6935, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2188,7 +2140,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2233,7 +2184,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2286,7 +2236,6 @@ HCO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2341,7 +2290,6 @@ CH3O2H
         n = 0,
         Ea = (18480, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2398,7 +2346,6 @@ CH3O2H
         n = 0,
         Ea = (13710, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2451,7 +2398,6 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2502,7 +2448,6 @@ O2
         n = 0,
         Ea = (-1570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2563,7 +2508,6 @@ O2
         n = -1.61,
         Ea = (-1051, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2624,7 +2568,6 @@ CH3O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2671,7 +2614,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2718,7 +2660,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2767,7 +2708,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2810,7 +2750,6 @@ OH
         n = 0,
         Ea = (42300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2855,7 +2794,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2900,7 +2838,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2945,7 +2882,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2992,7 +2928,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3050,7 +2985,6 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3099,7 +3033,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3148,7 +3081,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3197,7 +3129,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3250,7 +3181,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3303,7 +3233,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3352,7 +3281,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3397,7 +3325,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3442,7 +3369,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3489,7 +3415,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3547,7 +3472,6 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3596,7 +3520,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3643,7 +3566,6 @@ CO2
         n = 0,
         Ea = (11800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3692,7 +3614,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3745,7 +3666,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3792,7 +3712,6 @@ H2
         n = 0,
         Ea = (6095, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3839,7 +3758,6 @@ H2
         n = 0,
         Ea = (6095, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3886,7 +3804,6 @@ OH
         n = 2.5,
         Ea = (3080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3935,7 +3852,6 @@ H2O
         n = 2.1,
         Ea = (496.7, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3984,7 +3900,6 @@ H2O
         n = 1.8,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4033,7 +3948,6 @@ HO2
         n = 0,
         Ea = (44900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4084,7 +3998,6 @@ CH2O
         n = 2.9,
         Ea = (13110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4135,7 +4048,6 @@ H2O2
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4188,7 +4100,6 @@ CH4
         n = 3.17,
         Ea = (7172, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4243,7 +4154,6 @@ CH2OH
         n = 0,
         Ea = (4060, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4292,7 +4202,6 @@ C2H5
         n = 0.1,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4341,7 +4250,6 @@ CH3
         n = 2,
         Ea = (8270, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4390,7 +4298,6 @@ CH3
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4435,7 +4342,6 @@ H2O
         n = 1.6,
         Ea = (5420, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4480,7 +4386,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4527,7 +4432,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4574,7 +4478,6 @@ H
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4619,7 +4522,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4660,7 +4562,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4703,7 +4604,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4746,7 +4646,6 @@ CH3
         n = 2,
         Ea = (7230, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4789,7 +4688,6 @@ OH
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4834,7 +4732,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4879,7 +4776,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4924,7 +4820,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4967,7 +4862,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5012,7 +4906,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5053,7 +4946,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5094,7 +4986,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5137,7 +5028,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5180,7 +5070,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5227,7 +5116,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5270,7 +5158,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5315,7 +5202,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5356,7 +5242,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5403,7 +5288,6 @@ H2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5446,7 +5330,6 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5487,7 +5370,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5526,7 +5408,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5565,7 +5446,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5606,7 +5486,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5649,7 +5528,6 @@ CH2O
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5692,7 +5570,6 @@ CO
         n = 0,
         Ea = (685, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5733,7 +5610,6 @@ H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5774,7 +5650,6 @@ HOCH2O
         n = -1.11,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5813,7 +5688,6 @@ OH
         n = -0.46,
         Ea = (108300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5864,7 +5738,6 @@ H
         n = 2.06,
         Ea = (916, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5915,7 +5788,6 @@ OH
         n = 1.51,
         Ea = (-962, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5964,7 +5836,6 @@ H
         n = 2.1,
         Ea = (4868, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6013,7 +5884,6 @@ OH
         n = -0.35,
         Ea = (2988, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6068,7 +5938,6 @@ OH
         n = 5.8,
         Ea = (2200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6121,7 +5990,6 @@ OH
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6170,7 +6038,6 @@ OH
         n = -1.9,
         Ea = (2975, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6206,7 +6073,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6242,7 +6108,6 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6273,7 +6138,6 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.714e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, '[C]=O': 1.9, '[Ar]': 0.75},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6306,7 +6170,6 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.8e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.38, '[C]=O': 1.9, '[Ar]': 0.38},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6353,7 +6216,6 @@ HO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 1.9, '[O][O]': 0.78, 'O=C=O': 3.8, 'O': 11.0},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6402,7 +6264,6 @@ OH
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.64, '[C]=O': 1.9, '[Ar]': 0.64},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6446,7 +6307,6 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.87},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6484,7 +6344,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 6.0},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6524,7 +6383,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6559,7 +6417,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.1e+45, 'cm^3/(mol*s)'), n=-8, Ea=(97510, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6616,7 +6473,6 @@ C2H6
         T1 = (1e-10, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6668,7 +6524,6 @@ CH4
         T1 = (2941, 'K'),
         T2 = (6964, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6722,7 +6577,6 @@ CH3OH
         T1 = (5900, 'K'),
         T2 = (6394, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6776,7 +6630,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6830,7 +6683,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6884,7 +6736,6 @@ CH3OH
         T1 = (3922, 'K'),
         T2 = (10180, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6929,7 +6780,6 @@ CH3
         T1 = (1995, 'K'),
         T2 = (5590, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6981,7 +6831,6 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7015,7 +6864,6 @@ CH2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[C]=O': 0.0, 'O=C=O': 0.0, 'O': 0.0, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7055,7 +6903,6 @@ OCHO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7097,7 +6944,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7139,7 +6985,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7181,7 +7026,6 @@ H2O
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7218,7 +7062,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.5e+16, 'cm^3/(mol*s)'), n=0, Ea=(57000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\C1.',
     ),
     shortDesc = u"""""",
     longDesc = 

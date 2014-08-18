@@ -36,7 +36,6 @@ OH
         n = 0,
         Ea = (15310, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86,7 +85,6 @@ OH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -127,7 +125,6 @@ H2O
         n = 1.51,
         Ea = (3437, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -168,7 +165,6 @@ H2O
         n = 2.42,
         Ea = (-1928, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -217,7 +213,6 @@ H2O
         n = -2.44,
         Ea = (120200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -258,7 +253,6 @@ O2
         n = 2.087,
         Ea = (-1455, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -299,7 +293,6 @@ OH
         n = 0,
         Ea = (300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -340,7 +333,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -381,7 +373,6 @@ O2
         n = 0,
         Ea = (-445, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -435,7 +426,6 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -491,7 +481,6 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -534,7 +523,6 @@ H2O
         n = 0,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -577,7 +565,6 @@ H2
         n = 0,
         Ea = (7950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -620,7 +607,6 @@ HO2
         n = 2,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -676,7 +662,6 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -717,7 +702,6 @@ CO2
         n = 0,
         Ea = (47700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -764,7 +748,6 @@ CO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -807,7 +790,6 @@ CO2
         n = 2.18,
         Ea = (17944, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -848,7 +830,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -889,7 +870,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -930,7 +910,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -973,7 +952,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1016,7 +994,6 @@ CO
         n = 0.521,
         Ea = (-521, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1055,7 +1032,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1094,7 +1070,6 @@ CO
         n = 0,
         Ea = (636, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1133,7 +1108,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1172,7 +1146,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1213,7 +1186,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1254,7 +1226,6 @@ CH2
         n = 0,
         Ea = (3320, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1297,7 +1268,6 @@ CH2O
         n = 0,
         Ea = (-884, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1338,7 +1308,6 @@ HCO
         n = 1.43,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1379,7 +1348,6 @@ H
         n = 1.43,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1420,7 +1388,6 @@ OH
         n = 1.43,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1466,7 +1433,6 @@ CO
         n = 1.43,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1509,7 +1475,6 @@ CO
         n = 1.51,
         Ea = (-715, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1555,7 +1520,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1598,7 +1562,6 @@ CH2O
         n = 0.12,
         Ea = (-162, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1641,7 +1604,6 @@ H2O
         n = 2.02,
         Ea = (6776, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1686,7 +1648,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1729,7 +1690,6 @@ CH3
         n = 2,
         Ea = (7230, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1777,7 +1737,6 @@ CO
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1825,7 +1784,6 @@ CO2
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1869,7 +1827,6 @@ CH2O
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1910,7 +1867,6 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1953,7 +1909,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2003,7 +1958,6 @@ C2H2
         n = 0,
         Ea = (10989, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2048,7 +2002,6 @@ H2CC
         n = 0,
         Ea = (11944, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2089,7 +2042,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2135,7 +2087,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2178,7 +2129,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2221,7 +2171,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2264,7 +2213,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2309,7 +2257,6 @@ H2O
         n = 0,
         Ea = (-431, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2354,7 +2301,6 @@ CH2O
         n = 0.25,
         Ea = (-935, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2401,7 +2347,6 @@ CH3O
         n = -0.138,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2444,7 +2389,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2489,7 +2433,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2534,7 +2477,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2577,7 +2519,6 @@ H2
         n = 1.9,
         Ea = (2742, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2620,7 +2561,6 @@ HCO
         n = 0.57,
         Ea = (2762, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2665,7 +2605,6 @@ H2O
         n = 1.63,
         Ea = (-1055, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2710,7 +2649,6 @@ HCO
         n = 2.5,
         Ea = (36460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2757,7 +2695,6 @@ H2O2
         n = 2.5,
         Ea = (10210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2802,7 +2739,6 @@ CH2CO
         n = 0,
         Ea = (-517, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2849,7 +2785,6 @@ HCO
         n = 4.21,
         Ea = (1120, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2896,7 +2831,6 @@ HCO
         n = 0,
         Ea = (-550, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2943,7 +2877,6 @@ HCO
         n = 2.81,
         Ea = (5862, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2994,7 +2927,6 @@ HCO
         n = 2.81,
         Ea = (5862, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3037,7 +2969,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3085,7 +3016,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3130,7 +3060,6 @@ H2O
         n = 2.57,
         Ea = (3998, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3175,7 +3104,6 @@ H2O
         n = -1.34,
         Ea = (1417, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3220,7 +3148,6 @@ CH2O
         n = 0.5,
         Ea = (-1755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3267,7 +3194,6 @@ CH4
         n = 1.49,
         Ea = (-1673, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3314,7 +3240,6 @@ CH3O
         n = 0,
         Ea = (-590, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3359,7 +3284,6 @@ CH3O
         n = 0,
         Ea = (28297, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3404,7 +3328,6 @@ CH2O
         n = 2.86,
         Ea = (9768, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3447,7 +3370,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3492,7 +3414,6 @@ C2H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3539,7 +3460,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3586,7 +3506,6 @@ C2H4
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3635,7 +3554,6 @@ C2H5
         n = 0.1,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3682,7 +3600,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3731,7 +3648,6 @@ CH4
         n = 3.36,
         Ea = (4310, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3776,7 +3692,6 @@ CH2OH
         n = 1.63,
         Ea = (1924, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3821,7 +3736,6 @@ CH2O
         n = 0,
         Ea = (596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3866,7 +3780,6 @@ CH3
         n = 0.5,
         Ea = (-110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3911,7 +3824,6 @@ H2O
         n = -0.23,
         Ea = (1070, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3956,7 +3868,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4003,7 +3914,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4050,7 +3960,6 @@ CH2O
         n = 0,
         Ea = (1750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4101,7 +4010,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4148,7 +4056,6 @@ CO2
         n = 0,
         Ea = (11000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4193,7 +4100,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4238,7 +4144,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4283,7 +4188,6 @@ H2O
         n = -0.09,
         Ea = (610, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4328,7 +4232,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4375,7 +4278,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4422,7 +4324,6 @@ CH2O
         n = 0,
         Ea = (3736, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4473,7 +4374,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4518,7 +4418,6 @@ H2
         n = 2.5,
         Ea = (9588, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4563,7 +4462,6 @@ CH3
         n = 1.56,
         Ea = (8485, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4610,7 +4508,6 @@ H2O
         n = 2.182,
         Ea = (2446, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4659,7 +4556,6 @@ H2O2
         n = 2.5,
         Ea = (21000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4706,7 +4602,6 @@ C2H4
         n = 0,
         Ea = (-397, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4755,7 +4650,6 @@ CH3
         n = 2,
         Ea = (8270, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4804,7 +4698,6 @@ CH3
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4853,7 +4746,6 @@ C2H2
         n = 0,
         Ea = (600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4900,7 +4792,6 @@ H2
         n = 1.24,
         Ea = (4491, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4947,7 +4838,6 @@ H2
         n = 1.24,
         Ea = (5860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4994,7 +4884,6 @@ CH2OH
         n = 0,
         Ea = (5306, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5041,7 +4930,6 @@ CH3O
         n = 0,
         Ea = (9040, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5090,7 +4978,6 @@ H2O
         n = 1.8,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5139,7 +5026,6 @@ H2O
         n = 2.1,
         Ea = (497, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5188,7 +5074,6 @@ HO2
         n = 2.27,
         Ea = (42760, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5239,7 +5124,6 @@ H2O2
         n = 5.06,
         Ea = (10213, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5290,7 +5174,6 @@ H2O2
         n = 4.12,
         Ea = (16233, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5339,7 +5222,6 @@ CH2O
         n = -1.93,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5390,7 +5272,6 @@ CH2OH
         n = 3.2,
         Ea = (7175, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5441,7 +5322,6 @@ CH3O
         n = 3.1,
         Ea = (6940, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5492,7 +5372,6 @@ CH3O
         n = 0,
         Ea = (-550, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5543,7 +5422,6 @@ CH2OH
         n = 0,
         Ea = (-550, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5596,7 +5474,6 @@ CH4
         n = 3.03,
         Ea = (8720, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5649,7 +5526,6 @@ CH4
         n = 2.27,
         Ea = (8710, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5700,7 +5576,6 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5751,7 +5626,6 @@ CH3O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5806,7 +5680,6 @@ CH2OH
         n = 3.2,
         Ea = (7175, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5861,7 +5734,6 @@ CH3O
         n = 3.1,
         Ea = (6940, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5902,7 +5774,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5945,7 +5816,6 @@ HCCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5988,7 +5858,6 @@ C2H2
         n = 2.32,
         Ea = (882, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6031,7 +5900,6 @@ CO
         n = -0.35,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6074,7 +5942,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6121,7 +5988,6 @@ CO
         n = -0.112,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6164,7 +6030,6 @@ CO2
         n = 0,
         Ea = (1113, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6213,7 +6078,6 @@ CO
         n = 0,
         Ea = (854, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6258,7 +6122,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6305,7 +6168,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6358,7 +6220,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6401,7 +6262,6 @@ HCCO
         n = 1.4,
         Ea = (2206, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6444,7 +6304,6 @@ CH2
         n = 1.4,
         Ea = (2206, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6489,7 +6348,6 @@ CH2CO
         n = 3.566,
         Ea = (-2370, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6534,7 +6392,6 @@ H2O
         n = 2.14,
         Ea = (17060, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6579,7 +6436,6 @@ CO
         n = 1.62,
         Ea = (-731, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6622,7 +6478,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6667,7 +6522,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6712,7 +6566,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6757,7 +6610,6 @@ H2
         n = 1.9,
         Ea = (11850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6802,7 +6654,6 @@ CO
         n = 1.45,
         Ea = (2780, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6847,7 +6698,6 @@ HCCO
         n = 0,
         Ea = (10300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6892,7 +6742,6 @@ CO2
         n = 0,
         Ea = (1351, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6937,7 +6786,6 @@ HCO
         n = 0,
         Ea = (1351, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6982,7 +6830,6 @@ CH2O
         n = 0,
         Ea = (1351, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7029,7 +6876,6 @@ H2O
         n = 2.74,
         Ea = (2220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7076,7 +6922,6 @@ CO2
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7123,7 +6968,6 @@ CO
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7170,7 +7014,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7215,7 +7058,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7260,7 +7102,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7305,7 +7146,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7352,7 +7192,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7399,7 +7238,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7446,7 +7284,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7493,7 +7330,6 @@ CH2O
         n = -1.04,
         Ea = (827, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7540,7 +7376,6 @@ O
         n = 0.656,
         Ea = (848, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7587,7 +7422,6 @@ HO2
         n = 2.4,
         Ea = (1778, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7638,7 +7472,6 @@ C2H2
         n = 0,
         Ea = (-765, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7685,7 +7518,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7732,7 +7564,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7779,7 +7610,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7831,7 +7661,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7880,7 +7709,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7929,7 +7757,6 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7983,7 +7810,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8030,7 +7856,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8077,7 +7902,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8124,7 +7948,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8173,7 +7996,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8226,7 +8048,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8281,7 +8102,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8330,7 +8150,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8383,7 +8202,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8432,7 +8250,6 @@ H2
         n = 1.16,
         Ea = (2405, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8481,7 +8298,6 @@ H2
         n = 1.16,
         Ea = (2405, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8530,7 +8346,6 @@ CH2CHO
         n = 0,
         Ea = (1808, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8579,7 +8394,6 @@ CH3CO
         n = 0,
         Ea = (1808, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8630,7 +8444,6 @@ H2O
         n = 1.35,
         Ea = (-1574, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8681,7 +8494,6 @@ CH3CO
         n = 2.5,
         Ea = (37560, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8734,7 +8546,6 @@ H2O2
         n = 2.5,
         Ea = (10200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8789,7 +8600,6 @@ CH4
         n = 1.77,
         Ea = (5920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8836,7 +8646,6 @@ H2
         n = 3.62,
         Ea = (11270, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8883,7 +8692,6 @@ HCO
         n = 1.88,
         Ea = (183, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8930,7 +8738,6 @@ CH2CHO
         n = 0.907,
         Ea = (839, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8977,7 +8784,6 @@ CH2O
         n = 2.62,
         Ea = (459, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9026,7 +8832,6 @@ H2O
         n = 2.745,
         Ea = (2216, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9079,7 +8884,6 @@ CH4
         n = 1.56,
         Ea = (16630, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9128,7 +8932,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9177,7 +8980,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9226,7 +9028,6 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9275,7 +9076,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9326,7 +9126,6 @@ C2H4
         n = 1.09,
         Ea = (-1975, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9381,7 +9180,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9436,7 +9234,6 @@ HCO
         n = 2.81,
         Ea = (5860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9495,7 +9292,6 @@ CH2OH
         n = 3.2,
         Ea = (7175, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9546,7 +9342,6 @@ H2
         n = 1.9,
         Ea = (7530, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9597,7 +9392,6 @@ C2H5
         n = 2.8,
         Ea = (5803, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9650,7 +9444,6 @@ H2O
         n = 2,
         Ea = (994, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9703,7 +9496,6 @@ C2H4
         n = 0,
         Ea = (-262, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9758,7 +9550,6 @@ C2H5
         n = 0,
         Ea = (-660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9826,7 +9617,6 @@ CH4
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9862,7 +9652,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9898,7 +9687,6 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9934,7 +9722,6 @@ OH
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, '[C]=O': 1.9, '[Ar]': 0.75},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9972,7 +9759,6 @@ OH
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 0.0, '[H][H]': 3.0, '[He]': 0.22, '[O][O]': 1.5, 'N#N': 2.0, '[C]=O': 1.9, '[Ar]': 0.36},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10020,7 +9806,6 @@ HO2
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
         efficiencies = {'O=C=O': 2.02, 'O': 12.36, '[H][H]': 1.08, '[He]': 0.57, '[O][O]': 0.54, '[C]=O': 1.08, '[Ar]': 0.39},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10070,7 +9855,6 @@ OH
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
         efficiencies = {'OO': 7.7, 'O=C=O': 1.6, 'O': 7.5, '[H][H]': 3.7, '[He]': 0.65, '[O][O]': 1.2, 'N#N': 1.5, '[C]=O': 2.8},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10114,7 +9898,6 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.87},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10152,7 +9935,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 9.55, 'C=O': 2.5, '[He]': 0.95, '[C]=O': 1.5, '[Ar]': 1.02},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10202,7 +9984,6 @@ CH3
         T1 = (22850, 'K'),
         T2 = (10350, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10252,7 +10033,6 @@ HCCO
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10302,7 +10082,6 @@ CH3
         T1 = (2811, 'K'),
         T2 = (9908, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10356,7 +10135,6 @@ CH3OH
         T1 = (3922, 'K'),
         T2 = (10180, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10406,7 +10184,6 @@ CH2O
         T1 = (2755, 'K'),
         T2 = (6570, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10451,7 +10228,6 @@ CO
         T1 = (1540, 'K'),
         T2 = (10300, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10503,7 +10279,6 @@ CH4
         T1 = (33.1, 'K'),
         T2 = (90000, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10557,7 +10332,6 @@ CH3OH
         T1 = (5900, 'K'),
         T2 = (6394, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10615,7 +10389,6 @@ C2H6
         T1 = (1038, 'K'),
         T2 = (4970, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10662,7 +10435,6 @@ CH2O
         T1 = (1413, 'K'),
         T2 = (90000, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10716,7 +10488,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10768,7 +10539,6 @@ CH2O
         T1 = (1855, 'K'),
         T2 = (7543, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10822,7 +10592,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (90000, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10872,7 +10641,6 @@ C2H2
         T1 = (1315, 'K'),
         T2 = (5566, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10914,7 +10682,6 @@ H2CC
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10966,7 +10733,6 @@ C2H3
         T1 = (1043, 'K'),
         T2 = (2341, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11018,7 +10784,6 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11072,7 +10837,6 @@ C2H4
         T1 = (2663, 'K'),
         T2 = (6095, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11126,7 +10890,6 @@ H
         T1 = (50000, 'K'),
         T2 = (34200, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11180,7 +10943,6 @@ CO
         T1 = (2032, 'K'),
         T2 = (111700, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11234,7 +10996,6 @@ CO
         T1 = (50000, 'K'),
         T2 = (16940, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11290,7 +11051,6 @@ CH3CHO
         T1 = (2900, 'K'),
         T2 = (5132, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11341,7 +11101,6 @@ CO
         T1 = (10, 'K'),
         T2 = (8200, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11392,7 +11151,6 @@ HCO
         T1 = (10, 'K'),
         T2 = (8200, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11441,7 +11199,6 @@ H2CC
         T1 = (1035, 'K'),
         T2 = (5417, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11497,7 +11254,6 @@ C2H5
         T1 = (299, 'K'),
         T2 = (152.4, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11555,7 +11311,6 @@ C2H6
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {'C': 2.0, 'CO': 3.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, 'C=O': 2.5, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from ERC-FoundationFuelv0.9.',
     ),
     shortDesc = u"""""",
     longDesc = 

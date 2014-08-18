@@ -92,7 +92,6 @@ Si(OC2H5)3OH
         n = 0,
         Ea = (68.552, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -187,7 +186,6 @@ CH2OSi(OC2H5)3
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -270,7 +268,6 @@ Si(OC2H5)2(OH)2
         n = 0,
         Ea = (68.552, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -353,7 +350,6 @@ O_Si(OC2H5)2
         n = 0,
         Ea = (45.105, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -436,7 +432,6 @@ CH2OSi(OC2H5)2OH
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -507,7 +502,6 @@ Si(OC2H5)(OH)3
         n = 0,
         Ea = (68.552, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -578,7 +572,6 @@ O_Si(OC2H5)2
         n = 0,
         Ea = (39.74, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -649,7 +642,6 @@ O_Si(OC2H5)OH
         n = 0,
         Ea = (45.105, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -720,7 +712,6 @@ CH2OSi(OC2H5)(OH)2
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -779,7 +770,6 @@ Si(OH)4
         n = 0,
         Ea = (68.552, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -838,7 +828,6 @@ O_Si(OC2H5)OH
         n = 0,
         Ea = (39.74, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -897,7 +886,6 @@ O_Si(OH)2
         n = 0,
         Ea = (45.105, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -956,7 +944,6 @@ CH2OSi(OH)3
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1032,7 +1019,6 @@ O_Si(OC2H5)OH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1097,7 +1083,6 @@ CH2OSiO(OC2H5)
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1161,7 +1146,6 @@ O_Si(OH)2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1214,7 +1198,6 @@ SiO2
         n = 0,
         Ea = (47.092, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1267,7 +1250,6 @@ CH2OSiO(OH)
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1352,7 +1334,6 @@ CH3OSi(OC2H5)(OC2H3)OH
         n = 0,
         Ea = (68.552, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1437,7 +1418,6 @@ CH2OSi(OC2H5)(OC2H3)(OCH3)
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1510,7 +1490,6 @@ CH3OSi(OC2H3)(OH)2
         n = 0,
         Ea = (68.552, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1583,7 +1562,6 @@ CH2OSi(OCH3)(OC2H3)OH
         n = 0,
         Ea = (86.037, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1656,7 +1634,6 @@ CH3OSi(O)OC2H3
         n = 0,
         Ea = (45.105, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1703,7 +1680,6 @@ H2O
         n = 0,
         Ea = (66.167, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1750,7 +1726,6 @@ CH2OH
         n = 0,
         Ea = (83.057, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from TEOS.',
     ),
     shortDesc = u"""""",
     longDesc = 

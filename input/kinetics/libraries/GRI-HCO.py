@@ -46,7 +46,6 @@ H2O
         n = -1,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from GRI-HCO.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84,7 +83,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 0.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from GRI-HCO.',
     ),
     shortDesc = u"""""",
     longDesc = 

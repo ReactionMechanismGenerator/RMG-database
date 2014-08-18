@@ -48,7 +48,6 @@ NO2
         n = -15.5,
         Ea = (73513, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -97,7 +96,6 @@ C2H4
         n = -19.6,
         Ea = (73632, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -146,7 +144,6 @@ H2O
         n = -20,
         Ea = (92377, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -195,7 +192,6 @@ H2O
         n = -18.4,
         Ea = (85601, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -240,7 +236,6 @@ CH3CH2ONO
         n = 1,
         Ea = (60660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -295,7 +290,6 @@ H2
         n = 0,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -350,7 +344,6 @@ H2
         n = 1.6,
         Ea = (2827, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -405,7 +398,6 @@ OH
         n = 0,
         Ea = (3730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -460,7 +452,6 @@ OH
         n = 6.5,
         Ea = (274, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -515,7 +506,6 @@ OH
         n = 1.9,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -572,7 +562,6 @@ H2O
         n = 2,
         Ea = (990, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -629,7 +618,6 @@ H2O
         n = 0.1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -686,7 +674,6 @@ NO2
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -745,7 +732,6 @@ H2O2
         n = 2.5,
         Ea = (16850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -804,7 +790,6 @@ H2O2
         n = 2.5,
         Ea = (10750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -861,7 +846,6 @@ HO2
         n = 2.5,
         Ea = (49160, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -922,7 +906,6 @@ CH4
         n = 3.2,
         Ea = (9622, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -983,7 +966,6 @@ CH4
         n = 3,
         Ea = (7948, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1030,7 +1012,6 @@ CH2CH2NO2
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1077,7 +1058,6 @@ NO2
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1124,7 +1104,6 @@ C2H5NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1182,7 +1161,6 @@ H2
         n = 0,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1235,7 +1213,6 @@ H2
         n = 1.5,
         Ea = (378, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1293,7 +1270,6 @@ OH
         n = 6.5,
         Ea = (274, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1346,7 +1322,6 @@ OH
         n = 1.5,
         Ea = (3616, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1406,7 +1381,6 @@ H2O
         n = 2,
         Ea = (990, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1461,7 +1435,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1523,7 +1496,6 @@ H2O2
         n = 2.5,
         Ea = (16850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1583,7 +1555,6 @@ HO2
         n = 2.5,
         Ea = (49160, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1628,7 +1599,6 @@ NO
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1677,7 +1647,6 @@ H2
         n = 1.5,
         Ea = (378, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1726,7 +1695,6 @@ HNO
         n = 0,
         Ea = (2782, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1775,7 +1743,6 @@ OH
         n = 1.5,
         Ea = (3616, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1824,7 +1791,6 @@ NO2
         n = 2.1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1875,7 +1841,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1926,7 +1891,6 @@ HONO
         n = 0,
         Ea = (994, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1967,7 +1931,6 @@ NO
         n = 0,
         Ea = (890, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2037,7 +2000,6 @@ HONO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2094,7 +2056,6 @@ NO2
         n = 0,
         Ea = (3505, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2143,7 +2104,6 @@ H2
         n = 1.5,
         Ea = (378, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2192,7 +2152,6 @@ HNO
         n = 0,
         Ea = (2782, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2241,7 +2200,6 @@ OH
         n = 1.5,
         Ea = (3616, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2290,7 +2248,6 @@ NO2
         n = 2.1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2341,7 +2298,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2392,7 +2348,6 @@ HONO
         n = 0,
         Ea = (994, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2435,7 +2390,6 @@ NO
         n = 0,
         Ea = (59200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2484,7 +2438,6 @@ CH3
         n = 0,
         Ea = (3730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2533,7 +2486,6 @@ OH
         n = 0,
         Ea = (3730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2582,7 +2534,6 @@ H2
         n = 0,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2631,7 +2582,6 @@ OH
         n = 0,
         Ea = (5350, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2682,7 +2632,6 @@ NO2
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2733,7 +2682,6 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2786,7 +2734,6 @@ H2O2
         n = 0,
         Ea = (23000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2837,7 +2784,6 @@ HO2
         n = 0,
         Ea = (57000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2892,7 +2838,6 @@ CH4
         n = 4,
         Ea = (8300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2949,7 +2894,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3002,7 +2946,6 @@ HONO
         n = 0,
         Ea = (32000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3043,7 +2986,6 @@ NO
         n = 0,
         Ea = (36000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3090,7 +3032,6 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3137,7 +3078,6 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3186,7 +3126,6 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3235,7 +3174,6 @@ HONO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3288,7 +3226,6 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3337,7 +3274,6 @@ NO
         n = 0,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3390,7 +3326,6 @@ NO
         n = 0,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3439,7 +3374,6 @@ NO2
         n = 0,
         Ea = (5210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3490,7 +3424,6 @@ NO2
         n = 0,
         Ea = (3505, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3541,7 +3474,6 @@ HONO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3592,7 +3524,6 @@ NO3
         n = 0,
         Ea = (5260, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3645,7 +3576,6 @@ HONO2
         n = 0,
         Ea = (2027, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3692,7 +3622,6 @@ H2
         n = 1.5,
         Ea = (378, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3739,7 +3668,6 @@ OH
         n = 1.5,
         Ea = (3616, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3788,7 +3716,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3841,7 +3768,6 @@ CH4
         n = 1.9,
         Ea = (5415, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3892,7 +3818,6 @@ NH3
         n = 1.9,
         Ea = (1073, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3939,7 +3864,6 @@ HNO
         n = 0,
         Ea = (2782, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3986,7 +3910,6 @@ NO2
         n = 2.1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4035,7 +3958,6 @@ HONO
         n = 0,
         Ea = (994, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4074,7 +3996,6 @@ H
         n = -9.1,
         Ea = (53838, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4119,7 +4040,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4164,7 +4084,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4209,7 +4128,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4254,7 +4172,6 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4301,7 +4218,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4348,7 +4264,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4395,7 +4310,6 @@ NO2
         n = -3.3,
         Ea = (3895, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4446,7 +4360,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4497,7 +4410,6 @@ CH4
         n = 1.9,
         Ea = (-1113, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4536,7 +4448,6 @@ OH
         n = -0.4,
         Ea = (16600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4581,7 +4492,6 @@ N2
         n = -1.3,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4626,7 +4536,6 @@ H2
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4673,7 +4582,6 @@ H2O
         n = -1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4723,7 +4631,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4764,7 +4671,6 @@ H2O
         n = 2.7,
         Ea = (-1822, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4805,7 +4711,6 @@ H2O
         n = 1.5,
         Ea = (3449, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4846,7 +4751,6 @@ H
         n = 2.4,
         Ea = (53502, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4887,7 +4791,6 @@ OH
         n = 0,
         Ea = (400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4928,7 +4831,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4969,7 +4871,6 @@ O2
         n = 0,
         Ea = (-445, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5023,7 +4924,6 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5079,7 +4979,6 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5122,7 +5021,6 @@ OH
         n = 0,
         Ea = (3580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5165,7 +5063,6 @@ H2
         n = 0,
         Ea = (3760, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5208,7 +5105,6 @@ OH
         n = 2,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5259,7 +5155,6 @@ HO2
             ),
             Arrhenius(A=(1.6e+18, 'cm^3/(mol*s)'), n=0, Ea=(29410, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5300,7 +5195,6 @@ O
         n = 0,
         Ea = (60500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5343,7 +5237,6 @@ OH
         n = 2.2,
         Ea = (17943, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5388,7 +5281,6 @@ OH
         n = 2.5,
         Ea = (28660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5435,7 +5327,6 @@ H
             ),
             Arrhenius(A=(710000, 'cm^3/(mol*s)'), n=1.8, Ea=(1133, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5472,7 +5363,6 @@ HOCO
         n = -6,
         Ea = (2981, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5510,7 +5400,6 @@ H
             Arrhenius(A=(3.5e+56, 's^-1'), n=-15, Ea=(46500, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(2.5e+69, 's^-1'), n=-18, Ea=(60000, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5561,7 +5450,6 @@ H2O
             ),
             Arrhenius(A=(9500000.0, 'cm^3/(mol*s)'), n=2, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5606,7 +5494,6 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5649,7 +5536,6 @@ H2
         n = 1.5,
         Ea = (2444, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5692,7 +5578,6 @@ OH
         n = 0.6,
         Ea = (2760, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5737,7 +5622,6 @@ HO2
         n = 2.5,
         Ea = (36461, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5782,7 +5666,6 @@ H2O
         n = 1.6,
         Ea = (-1055, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5829,7 +5712,6 @@ H2O2
         n = 2.5,
         Ea = (10206, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5878,7 +5760,6 @@ CH4
         n = 3.4,
         Ea = (4310, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5913,7 +5794,6 @@ CO
         n = -0.9,
         Ea = (16755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5954,7 +5834,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5995,7 +5874,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6036,7 +5914,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6079,7 +5956,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6122,7 +5998,6 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6171,7 +6046,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6216,7 +6090,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6261,7 +6134,6 @@ H2
         n = 3.2,
         Ea = (8755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6306,7 +6178,6 @@ OH
         n = 2.5,
         Ea = (6577, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6353,7 +6224,6 @@ H2O
         n = 2.2,
         Ea = (2506, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6402,7 +6272,6 @@ H2O2
         n = 2.5,
         Ea = (21000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6451,7 +6320,6 @@ CH3
         n = 0,
         Ea = (10030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6500,7 +6368,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6543,7 +6410,6 @@ H2
         n = 0,
         Ea = (15100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6586,7 +6452,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6629,7 +6494,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6676,7 +6540,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6721,7 +6584,6 @@ H2O
         n = 3,
         Ea = (2780, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6766,7 +6628,6 @@ H2O
         n = 0.3,
         Ea = (727, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6813,7 +6674,6 @@ O2
         n = 2.8,
         Ea = (-3730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6860,7 +6720,6 @@ OH
         n = 0,
         Ea = (1075, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6905,7 +6764,6 @@ O
         n = 0,
         Ea = (28297, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6950,7 +6808,6 @@ OH
         n = 0,
         Ea = (9842, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6997,7 +6854,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7035,7 +6891,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7073,7 +6928,6 @@ H2
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7114,7 +6968,6 @@ H2
         n = -1.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7159,7 +7012,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7200,7 +7052,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7243,7 +7094,6 @@ H
         n = 0.1,
         Ea = (161, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7286,7 +7136,6 @@ H2O
         n = 2,
         Ea = (6776, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7329,7 +7178,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7376,7 +7224,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7419,7 +7266,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7466,7 +7312,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7511,7 +7356,6 @@ CH2O
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7554,7 +7398,6 @@ O2
         n = 0,
         Ea = (430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7597,7 +7440,6 @@ N2
         n = 0,
         Ea = (430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7638,7 +7480,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7679,7 +7520,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7724,7 +7564,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7767,7 +7606,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7812,7 +7650,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7857,7 +7694,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7896,7 +7732,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7935,7 +7770,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7976,7 +7810,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8017,7 +7850,6 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8058,7 +7890,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8101,7 +7932,6 @@ H
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8144,7 +7974,6 @@ CO
         n = 1.8,
         Ea = (-1040, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8183,7 +8012,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8222,7 +8050,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8269,7 +8096,6 @@ H2
         n = 1.2,
         Ea = (4491, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8316,7 +8142,6 @@ H2
         n = 1.2,
         Ea = (4491, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8363,7 +8188,6 @@ OH
         n = 0,
         Ea = (5305, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8410,7 +8234,6 @@ OH
         n = 0,
         Ea = (5305, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8459,7 +8282,6 @@ H2O
         n = 1.4,
         Ea = (113, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8508,7 +8330,6 @@ H2O
         n = 1.4,
         Ea = (113, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8559,7 +8380,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8608,7 +8428,6 @@ HO2
         n = 0,
         Ea = (46600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8657,7 +8476,6 @@ HO2
         n = 0,
         Ea = (54800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8702,7 +8520,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8747,7 +8564,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8792,7 +8608,6 @@ OH
         n = 0,
         Ea = (-693, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8839,7 +8654,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8888,7 +8702,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8941,7 +8754,6 @@ HO2
             ),
             Arrhenius(A=(2.9e+16, 'cm^3/(mol*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8990,7 +8802,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9039,7 +8850,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9090,7 +8900,6 @@ HCO
         n = 2.8,
         Ea = (5862, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9143,7 +8952,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9196,7 +9004,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9249,7 +9056,6 @@ CH3
         n = 3.1,
         Ea = (16227, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9294,7 +9100,6 @@ H2
         n = 0,
         Ea = (745, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9339,7 +9144,6 @@ OH
         n = 0,
         Ea = (745, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9384,7 +9188,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9431,7 +9234,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9480,7 +9282,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9527,7 +9328,6 @@ HO2
         n = 0,
         Ea = (1749, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9574,7 +9374,6 @@ CO2
         n = -4.9,
         Ea = (9080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9625,7 +9424,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9678,7 +9476,6 @@ CH3
         n = 0,
         Ea = (15073, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9729,7 +9526,6 @@ HCO
         n = 0,
         Ea = (2981, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9782,7 +9578,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9833,7 +9628,6 @@ H2
         n = 0,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9884,7 +9678,6 @@ OH
         n = 6.5,
         Ea = (274, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9937,7 +9730,6 @@ H2O
         n = 2,
         Ea = (990, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9992,7 +9784,6 @@ H2O2
         n = 2.5,
         Ea = (16850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10045,7 +9836,6 @@ HO2
         n = 2.5,
         Ea = (49160, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10113,7 +9903,6 @@ CH4
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10168,7 +9957,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10217,7 +10005,6 @@ H
         n = 0,
         Ea = (16055, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10266,7 +10053,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10315,7 +10101,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10364,7 +10149,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10415,7 +10199,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10468,7 +10251,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10519,7 +10301,6 @@ HO2
         n = 1.1,
         Ea = (-1975, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10574,7 +10355,6 @@ HCO
         n = 2.8,
         Ea = (5860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10627,7 +10407,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10682,7 +10461,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10743,7 +10521,6 @@ C2H4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10790,7 +10567,6 @@ H
         n = 0,
         Ea = (-400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10837,7 +10613,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10884,7 +10659,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10931,7 +10705,6 @@ H2
         n = 3.6,
         Ea = (11266, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10989,7 +10762,6 @@ HCO
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11047,7 +10819,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11096,7 +10867,6 @@ H2O
         n = 4.2,
         Ea = (-860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11145,7 +10915,6 @@ CH2O
         n = 1.7,
         Ea = (2061, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11194,7 +10963,6 @@ H
         n = 3.9,
         Ea = (1723, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11243,7 +11011,6 @@ H
         n = 2.2,
         Ea = (5256, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11292,7 +11059,6 @@ HO2
         n = 0,
         Ea = (60010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11345,7 +11111,6 @@ CH4
         n = 1.6,
         Ea = (16630, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11390,7 +11155,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11435,7 +11199,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11480,7 +11243,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11527,7 +11289,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11576,7 +11337,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11623,7 +11383,6 @@ HCO
         n = -0.8,
         Ea = (179, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11670,7 +11429,6 @@ O
         n = 1,
         Ea = (-197, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11717,7 +11475,6 @@ HO2
         n = 3.1,
         Ea = (-272, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11764,7 +11521,6 @@ CO
         n = -0.8,
         Ea = (179, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11811,7 +11567,6 @@ CO2
         n = -0.8,
         Ea = (179, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11862,7 +11617,6 @@ HCO
         n = 2.8,
         Ea = (5860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11911,7 +11665,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11962,7 +11715,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12009,7 +11761,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12062,7 +11813,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12111,7 +11861,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12154,7 +11903,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12197,7 +11945,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12246,7 +11993,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12289,7 +12035,6 @@ H
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12332,7 +12077,6 @@ CO
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12375,7 +12119,6 @@ OH
         n = -0.6,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12420,7 +12163,6 @@ CO
         n = 0.7,
         Ea = (2579, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12465,7 +12207,6 @@ H
         n = 2,
         Ea = (12713, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12510,7 +12251,6 @@ H
         n = 1.6,
         Ea = (2106, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12562,7 +12302,6 @@ CHCHOH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12609,7 +12348,6 @@ HCO
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12656,7 +12394,6 @@ O
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12701,7 +12438,6 @@ HCO
         n = 1.8,
         Ea = (30600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12748,7 +12484,6 @@ CH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12781,7 +12516,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12824,7 +12558,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12869,7 +12602,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12914,7 +12646,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12955,7 +12686,6 @@ H
         n = 2.4,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12996,7 +12726,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13037,7 +12766,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13080,7 +12808,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13123,7 +12850,6 @@ H2O
         n = 2,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13166,7 +12892,6 @@ H
         n = 2.4,
         Ea = (864, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13213,7 +12938,6 @@ H
         n = -0.2,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13262,7 +12986,6 @@ C2H2
         n = 0,
         Ea = (976, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13293,7 +13016,6 @@ C(T)
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.5e+16, 'cm^3/(mol*s)'), n=0, Ea=(142300, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13332,7 +13054,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13373,7 +13094,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13414,7 +13134,6 @@ CO
         n = 0,
         Ea = (980, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13467,7 +13186,6 @@ H2
         n = 1.6,
         Ea = (2827, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13520,7 +13238,6 @@ H2
         n = 1.8,
         Ea = (5098, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13573,7 +13290,6 @@ H2
         n = 1.6,
         Ea = (3038, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13626,7 +13342,6 @@ OH
         n = 1.9,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13679,7 +13394,6 @@ OH
         n = 1.7,
         Ea = (5459, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13732,7 +13446,6 @@ OH
         n = 2,
         Ea = (4448, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13787,7 +13500,6 @@ H2O
         n = 0.1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13842,7 +13554,6 @@ H2O
         n = 0.3,
         Ea = (600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13897,7 +13608,6 @@ H2O
         n = 0.3,
         Ea = (1634, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13954,7 +13664,6 @@ H2O2
         n = 2.5,
         Ea = (10750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14011,7 +13720,6 @@ H2O2
         n = 2.5,
         Ea = (15750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14068,7 +13776,6 @@ H2O2
         n = 0,
         Ea = (24000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14127,7 +13834,6 @@ CH4
         n = 3,
         Ea = (7948, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14186,7 +13892,6 @@ CH4
         n = 3.2,
         Ea = (9622, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14245,7 +13950,6 @@ CH4
         n = 3,
         Ea = (7649, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14293,7 +13997,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14344,7 +14047,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14395,7 +14097,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14446,7 +14147,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14499,7 +14199,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14558,7 +14257,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14622,7 +14320,6 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14673,7 +14370,6 @@ CH2CH2OH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14724,7 +14420,6 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14775,7 +14470,6 @@ CH2OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14828,7 +14522,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14883,7 +14576,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14943,7 +14635,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14996,7 +14687,6 @@ HO2
         n = 1.1,
         Ea = (-1975, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15041,7 +14731,6 @@ H
         n = 0,
         Ea = (20060, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15092,7 +14781,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15145,7 +14833,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15198,7 +14885,6 @@ HO2
         n = 0,
         Ea = (645, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15251,7 +14937,6 @@ CO2
         n = -4.9,
         Ea = (9080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15300,7 +14985,6 @@ H2
         n = -0.3,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15349,7 +15033,6 @@ H2
         n = 0.4,
         Ea = (5359, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15398,7 +15081,6 @@ OH
         n = -1.9,
         Ea = (2975, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15447,7 +15129,6 @@ OH
         n = -0.2,
         Ea = (3556, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15498,7 +15179,6 @@ H2O
         n = 0.3,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15549,7 +15229,6 @@ H2O
         n = -0.6,
         Ea = (800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15602,7 +15281,6 @@ H2O2
         n = -2.2,
         Ea = (14030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15655,7 +15333,6 @@ H2O2
         n = 0.4,
         Ea = (14864, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15706,7 +15383,6 @@ HO2
         n = 2.5,
         Ea = (37554, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15761,7 +15437,6 @@ CH4
         n = 5.8,
         Ea = (2200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15816,7 +15491,6 @@ CH4
         n = 3.1,
         Ea = (5727, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15865,7 +15539,6 @@ H2
         n = 3.6,
         Ea = (11266, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15914,7 +15587,6 @@ H2
         n = 1.7,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15974,7 +15646,6 @@ HCO
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16023,7 +15694,6 @@ OH
         n = 2,
         Ea = (4400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16074,7 +15744,6 @@ H2O
         n = 4.2,
         Ea = (-860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16125,7 +15794,6 @@ H2O
         n = 0.3,
         Ea = (1600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16181,7 +15849,6 @@ OH
         n = 1.8,
         Ea = (39000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16222,7 +15889,6 @@ H
         n = -4.8,
         Ea = (43424, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16263,7 +15929,6 @@ CO
         n = -6.1,
         Ea = (41332, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16310,7 +15975,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16357,7 +16021,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16404,7 +16067,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16451,7 +16113,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16500,7 +16161,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16549,7 +16209,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16602,7 +16261,6 @@ OH
         n = -1.8,
         Ea = (11067, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16657,7 +16315,6 @@ OH
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16708,7 +16365,6 @@ O2
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16765,7 +16421,6 @@ H
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16816,7 +16471,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16865,7 +16519,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16906,7 +16559,6 @@ CO
         n = -2,
         Ea = (14584, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16953,7 +16605,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17000,7 +16651,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17047,7 +16697,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17094,7 +16743,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17143,7 +16791,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17196,7 +16843,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17249,7 +16895,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17302,7 +16947,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17347,7 +16991,6 @@ CO
         n = 0.9,
         Ea = (2840, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17392,7 +17035,6 @@ H2
         n = 2,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17437,7 +17079,6 @@ H
         n = 0,
         Ea = (-517, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17482,7 +17123,6 @@ CH2
         n = 0,
         Ea = (1350, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17527,7 +17167,6 @@ OH
         n = 2,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17574,7 +17213,6 @@ CO
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17621,7 +17259,6 @@ CO2
         n = 0,
         Ea = (-1013, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17668,7 +17305,6 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17717,7 +17353,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17762,7 +17397,6 @@ H2
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17807,7 +17441,6 @@ OH
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17854,7 +17487,6 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17897,7 +17529,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17944,7 +17575,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17989,7 +17619,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18034,7 +17663,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18083,7 +17711,6 @@ H
         n = -0.1,
         Ea = (1150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18132,7 +17759,6 @@ OH
         n = 0,
         Ea = (1020, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18181,7 +17807,6 @@ O
         n = 2.7,
         Ea = (3540, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18228,7 +17853,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18273,7 +17897,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18326,7 +17949,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18364,7 +17986,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18405,7 +18026,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18446,7 +18066,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18493,7 +18112,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18540,7 +18158,6 @@ O
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18583,7 +18200,6 @@ CO2
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18624,7 +18240,6 @@ C2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18671,7 +18286,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18724,7 +18338,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18759,7 +18372,6 @@ H
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.2e+16, 'cm^3/(mol*s)'), n=0, Ea=(93470, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18802,7 +18414,6 @@ H2
         n = 2.4,
         Ea = (10171, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18845,7 +18456,6 @@ OH
         n = 1.9,
         Ea = (6460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18890,7 +18500,6 @@ H2O
         n = 2,
         Ea = (566, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18937,7 +18546,6 @@ H2O2
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18978,7 +18586,6 @@ H2
         n = 2.3,
         Ea = (799, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19019,7 +18626,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19066,7 +18672,6 @@ OH
             ),
             Arrhenius(A=(0.86, 'cm^3/(mol*s)'), n=4, Ea=(1673, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19109,7 +18714,6 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19154,7 +18758,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19199,7 +18802,6 @@ O2
         n = 1.9,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19242,7 +18844,6 @@ O
         n = 0.5,
         Ea = (29586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19285,7 +18886,6 @@ OH
         n = 1.2,
         Ea = (35100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19330,7 +18930,6 @@ NH
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19373,7 +18972,6 @@ N
         n = 1.9,
         Ea = (2444, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19418,7 +19016,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19463,7 +19060,6 @@ NO
         n = 1.6,
         Ea = (-1250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19506,7 +19102,6 @@ H2O
         n = -2.7,
         Ea = (1258, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19549,7 +19144,6 @@ OH
         n = 0.4,
         Ea = (-814, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19596,7 +19190,6 @@ NO2
         n = 3,
         Ea = (-4940, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19641,7 +19234,6 @@ H2O
         n = -1.4,
         Ea = (268, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19686,7 +19278,6 @@ NO
         n = -1.4,
         Ea = (268, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19725,7 +19316,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19764,7 +19354,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19805,7 +19394,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19846,7 +19434,6 @@ H2O
         n = 0.5,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19887,7 +19474,6 @@ O
         n = 2,
         Ea = (6500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19928,7 +19514,6 @@ OH
         n = 1.5,
         Ea = (100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19973,7 +19558,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20012,7 +19596,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20053,7 +19636,6 @@ H
         n = -0.4,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20094,7 +19676,6 @@ OH
         n = -0.2,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20139,7 +19720,6 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20182,7 +19762,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20221,7 +19800,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20260,7 +19838,6 @@ O
         n = 1,
         Ea = (6280, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20299,7 +19876,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20334,7 +19910,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20375,7 +19950,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20416,7 +19990,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20457,7 +20030,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20498,7 +20070,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20541,7 +20112,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20584,7 +20154,6 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20631,7 +20200,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20674,7 +20242,6 @@ NH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20719,7 +20286,6 @@ NH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20762,7 +20328,6 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20805,7 +20370,6 @@ H2
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20848,7 +20412,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20891,7 +20454,6 @@ OH
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20936,7 +20498,6 @@ H2O
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20983,7 +20544,6 @@ H2O2
         n = 2.7,
         Ea = (-1600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21028,7 +20588,6 @@ HO2
         n = 0,
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21075,7 +20634,6 @@ NH3
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21120,7 +20678,6 @@ HNO
         n = 2,
         Ea = (13000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21167,7 +20724,6 @@ HNO
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21210,7 +20766,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21253,7 +20808,6 @@ H2
         n = 1.5,
         Ea = (378, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21307,7 +20861,6 @@ OH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21352,7 +20905,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21399,7 +20951,6 @@ H2O2
         n = 2.7,
         Ea = (-1600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21444,7 +20995,6 @@ HO2
         n = 0,
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21491,7 +21041,6 @@ OH
         n = 3.5,
         Ea = (-467, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21538,7 +21087,6 @@ H2O
         n = -1.1,
         Ea = (1113, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21585,7 +21133,6 @@ HNO
         n = 1.9,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21632,7 +21179,6 @@ HNO
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21673,7 +21219,6 @@ H2
         n = 0.7,
         Ea = (650, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21714,7 +21259,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21757,7 +21301,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21800,7 +21343,6 @@ NO
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21845,7 +21387,6 @@ H2O
         n = 0,
         Ea = (3100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21890,7 +21431,6 @@ NO
         n = 2.6,
         Ea = (4040, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21933,7 +21473,6 @@ OH
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21974,7 +21513,6 @@ OH
         n = 0,
         Ea = (362, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22015,7 +21553,6 @@ O2
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22060,7 +21597,6 @@ O2
         n = 3.3,
         Ea = (3044, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22105,7 +21641,6 @@ O2
         n = 3.3,
         Ea = (4983, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22148,7 +21683,6 @@ H
         n = 2.8,
         Ea = (29770, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22191,7 +21725,6 @@ H
         n = 3.7,
         Ea = (32400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22240,7 +21773,6 @@ O2
         n = 0,
         Ea = (27599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22285,7 +21817,6 @@ NO
         n = 0.7,
         Ea = (20900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22328,7 +21859,6 @@ OH
         n = 0.9,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22371,7 +21901,6 @@ H2O
         n = 1.9,
         Ea = (3850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22414,7 +21943,6 @@ OH
         n = 0,
         Ea = (5960, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22459,7 +21987,6 @@ H2O
         n = 0,
         Ea = (-520, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22506,7 +22033,6 @@ NO
         n = 0,
         Ea = (32700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22559,7 +22085,6 @@ H2O
         n = 3.6,
         Ea = (12140, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22602,7 +22127,6 @@ OH
         n = 1.5,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22647,7 +22171,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22690,7 +22213,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22733,7 +22255,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22778,7 +22299,6 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22829,7 +22349,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22880,7 +22399,6 @@ O2
         n = 0,
         Ea = (2940, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22925,7 +22443,6 @@ NO3
         n = 1.5,
         Ea = (16400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22970,7 +22487,6 @@ NO2
         n = 3.3,
         Ea = (6285, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23015,7 +22531,6 @@ HONO
         n = 2.3,
         Ea = (6976, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23062,7 +22577,6 @@ NO3
         n = 0,
         Ea = (-1240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23114,7 +22628,6 @@ OH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23155,7 +22668,6 @@ NO
         n = 0,
         Ea = (27679, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23196,7 +22708,6 @@ O2
         n = 0,
         Ea = (15936, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23239,7 +22750,6 @@ HO2
         n = 4.7,
         Ea = (36560, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23282,7 +22792,6 @@ NO
         n = 4.3,
         Ea = (25080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23325,7 +22834,6 @@ N2
         n = 2.2,
         Ea = (46280, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23372,7 +22880,6 @@ N2
         n = -2.6,
         Ea = (124890, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23413,7 +22920,6 @@ H
         n = 2.6,
         Ea = (1908, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23454,7 +22960,6 @@ H
         n = 2.6,
         Ea = (4980, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23495,7 +23000,6 @@ OH
         n = 0.4,
         Ea = (20665, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23536,7 +23040,6 @@ CO
         n = 2.6,
         Ea = (4980, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23579,7 +23082,6 @@ H2O
         n = 1.8,
         Ea = (10300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23622,7 +23124,6 @@ H
         n = 2.4,
         Ea = (12500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23665,7 +23166,6 @@ H
         n = 4,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23708,7 +23208,6 @@ CO
         n = 4,
         Ea = (4000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23751,7 +23250,6 @@ HO2
         n = 0,
         Ea = (75100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23792,7 +23290,6 @@ H
         n = 0,
         Ea = (3600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23833,7 +23330,6 @@ CO
         n = 0,
         Ea = (2200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23876,7 +23372,6 @@ H
         n = 0,
         Ea = (3700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23919,7 +23414,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23958,7 +23452,6 @@ N
         n = 0.5,
         Ea = (723, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23999,7 +23492,6 @@ H
         n = -0.4,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24040,7 +23532,6 @@ O
         n = 0,
         Ea = (-417, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24081,7 +23572,6 @@ CO
         n = -2,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24124,7 +23614,6 @@ NO
         n = -0.8,
         Ea = (344, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24167,7 +23656,6 @@ N2O
         n = -0.8,
         Ea = (344, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24210,7 +23698,6 @@ CO2
         n = -0.8,
         Ea = (344, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24253,7 +23740,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24298,7 +23784,6 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24341,7 +23826,6 @@ NO
         n = 2.6,
         Ea = (3700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24386,7 +23870,6 @@ NCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24429,7 +23912,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24472,7 +23954,6 @@ CO
         n = 2.5,
         Ea = (2345, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24515,7 +23996,6 @@ H2
         n = 1.7,
         Ea = (13900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24558,7 +24038,6 @@ OH
         n = 2.1,
         Ea = (11430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24601,7 +24080,6 @@ CO2
         n = 1.4,
         Ea = (8520, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24644,7 +24122,6 @@ CO
         n = 1.6,
         Ea = (44012, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24689,7 +24166,6 @@ H2O
         n = 1.5,
         Ea = (3600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24736,7 +24212,6 @@ H2O2
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24781,7 +24256,6 @@ CO2
         n = 0,
         Ea = (35000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24826,7 +24300,6 @@ NCO
         n = 0,
         Ea = (23700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24869,7 +24342,6 @@ H
         n = 0.8,
         Ea = (1917, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24912,7 +24384,6 @@ CO
         n = 0.6,
         Ea = (2076, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24955,7 +24426,6 @@ NCO
         n = 1.5,
         Ea = (6617, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24998,7 +24468,6 @@ NCO
         n = 1.5,
         Ea = (4133, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25043,7 +24512,6 @@ NCO
         n = 2,
         Ea = (-248, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25090,7 +24558,6 @@ NH3
         n = 1.9,
         Ea = (3646, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25127,7 +24594,6 @@ O
         n = -6.1,
         Ea = (61210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25170,7 +24636,6 @@ OH
         n = 0.8,
         Ea = (8612, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25213,7 +24678,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25258,7 +24722,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25301,7 +24764,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25350,7 +24812,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25399,7 +24860,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25444,7 +24904,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25489,7 +24948,6 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25530,7 +24988,6 @@ NH
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25571,7 +25028,6 @@ CO
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25614,7 +25070,6 @@ CO
         n = -0.1,
         Ea = (5126, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25661,7 +25116,6 @@ NO
         n = -0.1,
         Ea = (8042, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25706,7 +25160,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25749,7 +25202,6 @@ CO2
         n = 0,
         Ea = (20000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25792,7 +25244,6 @@ CO
         n = -2.2,
         Ea = (1743, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25835,7 +25286,6 @@ CO2
         n = -2.7,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25884,7 +25334,6 @@ NO
         n = 0,
         Ea = (-707, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25929,7 +25378,6 @@ N2O
         n = 0,
         Ea = (-707, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25974,7 +25422,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26021,7 +25468,6 @@ NO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26062,7 +25508,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26109,7 +25554,6 @@ NH2
         n = 2.5,
         Ea = (980, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26158,7 +25602,6 @@ N2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26201,7 +25644,6 @@ CO2
         n = 0,
         Ea = (33800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26244,7 +25686,6 @@ CO2
         n = 0,
         Ea = (20237, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26285,7 +25726,6 @@ CO
         n = 0,
         Ea = (20000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26328,7 +25768,6 @@ CO
         n = 2.2,
         Ea = (26900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26375,7 +25814,6 @@ HCO
         n = 5.6,
         Ea = (9220, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26422,7 +25860,6 @@ HCO
         n = 4.2,
         Ea = (19850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26467,7 +25904,6 @@ HCN
         n = 2.7,
         Ea = (-1427, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26514,7 +25950,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26557,7 +25992,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26606,7 +26040,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26651,7 +26084,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26700,7 +26132,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26745,7 +26176,6 @@ CH2O
         n = 3.8,
         Ea = (115, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26790,7 +26220,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26839,7 +26268,6 @@ NH3
         n = 3,
         Ea = (9940, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26886,7 +26314,6 @@ HCN
         n = 2.3,
         Ea = (-32, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26935,7 +26362,6 @@ HNCO
         n = 0,
         Ea = (8120, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26984,7 +26410,6 @@ NH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27033,7 +26458,6 @@ HNO
         n = 1.9,
         Ea = (2961, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27080,7 +26504,6 @@ CH4
         n = 0,
         Ea = (8400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27125,7 +26548,6 @@ H2O
         n = 3.5,
         Ea = (3950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27170,7 +26592,6 @@ OH
         n = 3.5,
         Ea = (3950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27217,7 +26638,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27266,7 +26686,6 @@ NO2
         n = 1.9,
         Ea = (5504, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27315,7 +26734,6 @@ NO2
         n = 1.9,
         Ea = (4838, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27360,7 +26778,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27407,7 +26824,6 @@ CH3
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27454,7 +26870,6 @@ H2
         n = 2,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27501,7 +26916,6 @@ CH3
         n = 2.6,
         Ea = (4980, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27550,7 +26964,6 @@ H2O
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27595,7 +27008,6 @@ CN
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27642,7 +27054,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27691,7 +27102,6 @@ OH
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27732,7 +27142,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27775,7 +27184,6 @@ H
         n = 0,
         Ea = (-378, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27818,7 +27226,6 @@ OH
         n = 0,
         Ea = (-378, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27863,7 +27270,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27906,7 +27312,6 @@ NH
         n = 0,
         Ea = (74000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27949,7 +27354,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27992,7 +27396,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28037,7 +27440,6 @@ N2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28082,7 +27484,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28123,7 +27524,6 @@ NH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28164,7 +27564,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28205,7 +27604,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28246,7 +27644,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28287,7 +27684,6 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28330,7 +27726,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28373,7 +27768,6 @@ NO
         n = 0,
         Ea = (-511, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28414,7 +27808,6 @@ H
         n = 1.4,
         Ea = (20723, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28455,7 +27848,6 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28496,7 +27888,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28539,7 +27930,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28582,7 +27972,6 @@ NCO
         n = 0.5,
         Ea = (24580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28621,7 +28010,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28660,7 +28048,6 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28701,7 +28088,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28740,7 +28126,6 @@ N2
         n = -0.4,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28791,7 +28176,6 @@ CH2OH
         n = 3.3,
         Ea = (20035, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28842,7 +28226,6 @@ CH2OH
         n = 2.9,
         Ea = (27470, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28895,7 +28278,6 @@ CH2O
             ),
             Arrhenius(A=(2.5e+18, 'cm^3/(mol*s)'), n=-2.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28944,7 +28326,6 @@ CH2O
         n = 0,
         Ea = (2285, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28993,7 +28374,6 @@ CH3OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29040,7 +28420,6 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29089,7 +28468,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29138,7 +28516,6 @@ CH3OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29191,7 +28568,6 @@ HCN
         n = 1.8,
         Ea = (-994, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29246,7 +28622,6 @@ HNCO
         n = 6.9,
         Ea = (-2910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29301,7 +28676,6 @@ NO2
         n = 1.9,
         Ea = (5504, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29356,7 +28730,6 @@ NO2
         n = 1.9,
         Ea = (4838, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29409,7 +28782,6 @@ CH3CH2O
         n = -0.2,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29456,7 +28828,6 @@ CH2O
         n = -3.4,
         Ea = (1025, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29507,7 +28878,6 @@ NO2
         n = 1.9,
         Ea = (5504, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29558,7 +28928,6 @@ NO2
         n = 1.9,
         Ea = (4838, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29605,7 +28974,6 @@ HNO
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29654,7 +29022,6 @@ CH2CHO
         n = -0.6,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29701,7 +29068,6 @@ HCN
         n = 0,
         Ea = (1815, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29744,7 +29110,6 @@ CO
         n = 0,
         Ea = (570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29785,7 +29150,6 @@ N
         n = 0,
         Ea = (8640, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29826,7 +29190,6 @@ CN
         n = 0,
         Ea = (41730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29879,7 +29242,6 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29934,7 +29296,6 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29994,7 +29355,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30045,7 +29405,6 @@ HONO
         n = -0.7,
         Ea = (1430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30101,7 +29460,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30144,7 +29502,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30189,7 +29546,6 @@ CO
         n = 0.1,
         Ea = (-457, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30234,7 +29590,6 @@ CO2
         n = -0.8,
         Ea = (-90, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30281,7 +29636,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30324,7 +29678,6 @@ NCO
         n = 0,
         Ea = (670, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30369,7 +29722,6 @@ NCO
         n = 0,
         Ea = (125, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30426,7 +29778,6 @@ CH3CH2ONO
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30485,7 +29836,6 @@ CH3CH2ONO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30535,7 +29885,6 @@ NO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30591,7 +29940,6 @@ CH3ONO
         T1 = (900, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30649,7 +29997,6 @@ CH3ONO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30703,7 +30050,6 @@ CH3NO
         T1 = (120, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30734,7 +30080,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(7e+17, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0.0, 'O': 0.0, 'N#N': 0.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30765,7 +30110,6 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(6.2e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30812,7 +30156,6 @@ HO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.0, '[O][O]': 0.78, 'O': 11.0, 'N#N': 0.0, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30848,7 +30191,6 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[O][O]': 1.5, 'O': 10.0, 'N#N': 1.5},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30881,7 +30223,6 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.5e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 0.73, 'O': 12.0, '[Ar]': 0.38},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30926,7 +30267,6 @@ OH
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.5, 'O': 12.0, '[Ar]': 0.64},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30974,7 +30314,6 @@ CO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31020,7 +30359,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31061,7 +30399,6 @@ H2
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31113,7 +30450,6 @@ CH4
         T1 = (3230, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'CC': 4.8, 'C': 1.9},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31158,7 +30494,6 @@ CH3
         T1 = (1995, 'K'),
         T2 = (5590, 'K'),
         efficiencies = {'O': 6.0, 'N#N': 1.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31192,7 +30527,6 @@ CH2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H]': 0.0, '[O][O]': 0.0, 'O': 0.0, 'N#N': 0.0, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31241,7 +30575,6 @@ OH
         T1 = (59.51, 'K'),
         T2 = (9374, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31293,7 +30626,6 @@ H
         T1 = (1855, 'K'),
         T2 = (7543, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31347,7 +30679,6 @@ CH3OH
         T1 = (1434, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31393,7 +30724,6 @@ H
         T3 = (1000, 'K'),
         T1 = (2000, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31447,7 +30777,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31505,7 +30834,6 @@ C2H6
         T1 = (1180, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31561,7 +30889,6 @@ C2H5
         T1 = (9147, 'K'),
         T2 = (152.4, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31614,7 +30941,6 @@ C2H6
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31663,7 +30989,6 @@ C2H4
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31717,7 +31042,6 @@ H2
         T1 = (1035, 'K'),
         T2 = (5417, 'K'),
         efficiencies = {'O': 6.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31768,7 +31092,6 @@ C2H3
         T3 = (-10212, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31808,7 +31131,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31863,7 +31185,6 @@ CH3
         T1 = (890, 'K'),
         T2 = (4600, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31918,7 +31239,6 @@ OH
         T1 = (900, 'K'),
         T2 = (5000, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31978,7 +31298,6 @@ H2O
         T1 = (800, 'K'),
         T2 = (3800, 'K'),
         efficiencies = {'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32033,7 +31352,6 @@ H2
         T1 = (1100, 'K'),
         T2 = (3500, 'K'),
         efficiencies = {'O': 5.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32088,7 +31406,6 @@ CH3CH2OH
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32136,7 +31453,6 @@ CH2O
         T1 = (1235, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32187,7 +31503,6 @@ HCO
         T1 = (7000, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32239,7 +31554,6 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'O': 6.0, 'N#N': 1.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32289,7 +31603,6 @@ HCCO
         T1 = (1652, 'K'),
         T2 = (5069, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, 'N#N': 1.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32324,7 +31637,6 @@ H
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2e+24, 'cm^3/(mol*s)'), n=-2.8, Ea=(58934, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O': 10.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32372,7 +31684,6 @@ HNO
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'N#N': 1.6},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32420,7 +31731,6 @@ NO2
         T1 = (10000, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32470,7 +31780,6 @@ HONO
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32515,7 +31824,6 @@ NO3
         T1 = (1700, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32562,7 +31870,6 @@ HONO2
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32603,7 +31910,6 @@ HONO
         T1 = (3125, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32642,7 +31948,6 @@ O
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.0, '[O][O]': 1.4, 'O': 12.0, 'N#N': 1.7},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32680,7 +31985,6 @@ CN
             T0 = (1, 'K'),
         ),
         efficiencies = {'[O][O]': 1.5, 'O': 10.0, 'N#N': 0.0},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32714,7 +32018,6 @@ HNC
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 2.0, 'O': 7.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32749,7 +32052,6 @@ NH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.1e+16, 'cm^3/(mol*s)'), n=0, Ea=(86000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'N#N': 1.5},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32787,7 +32089,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'N#N': 1.5},
-        comment = 'Reaction and kinetics from Nitrogen_Glarborg_Zhang_et_al.',
     ),
     shortDesc = u"""""",
     longDesc = 

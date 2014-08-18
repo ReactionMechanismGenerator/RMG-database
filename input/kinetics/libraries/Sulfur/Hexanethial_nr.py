@@ -70,7 +70,6 @@ H2S
         n = -0.41,
         Ea = (44.42, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nFirst one should be 36.30 kcal/mol, second 44.42 kcal/mol\nC6H12O + H2S = C6H12SHOH    6.13E+01    2.77    36.30    0.0    0.0    0.0',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -136,7 +135,6 @@ C5H11COSH
         n = 0.13,
         Ea = (28.48, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nCorrect value of next reaction is in R_Addition_MultipleBond\nC5H11COHS + HJ = C5H11CJOHSH    1.18E+09    1.15    -0.06    0.0    0.0    0.0',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -204,7 +202,6 @@ C5H11COSJ
         n = 1.83,
         Ea = (11.84, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -275,7 +272,6 @@ C6H12OHSJ
         n = 2.56,
         Ea = (3.56, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -346,7 +342,6 @@ hexen-1-ol
         n = 0.13,
         Ea = (4.99, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nreverse of next reaction is in R_Addition_MultipleBond library:',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -409,7 +404,6 @@ C6H12O
         n = 12.94,
         Ea = (31.33, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -452,7 +446,6 @@ H2
         n = 0,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Sulfur\\Hexanethial_nr.\nApprox water gas shift reaction',
     ),
     shortDesc = u"""""",
     longDesc = 

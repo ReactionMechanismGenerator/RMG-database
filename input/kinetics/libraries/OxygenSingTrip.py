@@ -28,7 +28,6 @@ O2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from OxygenSingTrip.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57,7 +56,6 @@ O2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.05, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'[O][O]': 5.43, 'O=C=O': 4.29},
-        comment = 'Reaction and kinetics from OxygenSingTrip.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85,7 +83,6 @@ O2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3000000.0, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'c1ccccc1': 1.067, 'O': 1.783, '[H][H]': 1.0, '[O][O]': 0.34, 'N#N': 0.028, '[C]=O': 14.0, '[Ar]': 0.00166},
-        comment = 'Reaction and kinetics from OxygenSingTrip.',
     ),
     shortDesc = u"""""",
     longDesc = 

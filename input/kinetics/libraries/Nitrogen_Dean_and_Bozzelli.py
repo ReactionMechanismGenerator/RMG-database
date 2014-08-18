@@ -38,7 +38,6 @@ NO
         n = 0,
         Ea = (76774, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74,7 +73,6 @@ O
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -112,7 +110,6 @@ O
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -153,7 +150,6 @@ O2
         n = 0,
         Ea = (10803, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -194,7 +190,6 @@ NO
         n = 0,
         Ea = (23135, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -229,7 +224,6 @@ H
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(93733, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -272,7 +266,6 @@ H2
         n = 2.4,
         Ea = (9910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -317,7 +310,6 @@ H2O
         n = 1.6,
         Ea = (953, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -360,7 +352,6 @@ OH
         n = 1.94,
         Ea = (6454, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -401,7 +392,6 @@ H2
         n = 1.5,
         Ea = (7934, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -444,7 +434,6 @@ OH
         n = 0,
         Ea = (-477, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -498,7 +487,6 @@ HNNO
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -539,7 +527,6 @@ OH
         n = 0,
         Ea = (16741, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -580,7 +567,6 @@ NO
         n = -1.26,
         Ea = (35349, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -621,7 +607,6 @@ O
         n = -1.26,
         Ea = (47065, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -662,7 +647,6 @@ OH
         n = -1.49,
         Ea = (1311, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -703,7 +687,6 @@ O
         n = -0.2,
         Ea = (12193, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -747,7 +730,6 @@ HNOO
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -788,7 +770,6 @@ OH
         n = 0,
         Ea = (1529, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -829,7 +810,6 @@ NO2
         n = 0,
         Ea = (2482, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -870,7 +850,6 @@ O
         n = 2,
         Ea = (6494, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -913,7 +892,6 @@ O
         n = 0.48,
         Ea = (29570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -956,7 +934,6 @@ OH
         n = 1.23,
         Ea = (35081, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1001,7 +978,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1046,7 +1022,6 @@ O2
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1087,7 +1062,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1128,7 +1102,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1179,7 +1152,6 @@ NH2OH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1222,7 +1194,6 @@ H2O
         n = 2,
         Ea = (50, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1280,7 +1251,6 @@ N2H4
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1342,7 +1312,6 @@ H2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1404,7 +1373,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1449,7 +1417,6 @@ NH(T)
         n = 0,
         Ea = (9929, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1492,7 +1459,6 @@ H2O
         n = -0.25,
         Ea = (-1201, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1535,7 +1501,6 @@ OH
         n = 0.34,
         Ea = (-765, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1591,7 +1556,6 @@ NH2NO
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1644,7 +1608,6 @@ N2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1697,7 +1660,6 @@ CH3NO
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1742,7 +1704,6 @@ OH
         n = 0.75,
         Ea = (11717, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1787,7 +1748,6 @@ H2O
         n = 0.46,
         Ea = (12392, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1830,7 +1790,6 @@ H
         n = -0.31,
         Ea = (288, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1873,7 +1832,6 @@ H2
         n = 0.15,
         Ea = (-89, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1916,7 +1874,6 @@ H
         n = 0.52,
         Ea = (-367, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1976,7 +1933,6 @@ CH3NH2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2040,7 +1996,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2104,7 +2059,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2168,7 +2122,6 @@ H2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2215,7 +2168,6 @@ NH(S)
         n = 1.94,
         Ea = (9205, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2262,7 +2214,6 @@ NH3
         n = 1.87,
         Ea = (7566, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2318,7 +2269,6 @@ CH2NN
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2361,7 +2311,6 @@ NH(T)
         n = 0,
         Ea = (73954, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2404,7 +2353,6 @@ H
         n = -0.36,
         Ea = (576, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2447,7 +2395,6 @@ OH
         n = -0.69,
         Ea = (755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2490,7 +2437,6 @@ H
         n = -1.38,
         Ea = (1271, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2533,7 +2479,6 @@ CO
         n = -1.43,
         Ea = (1331, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2576,7 +2521,6 @@ O
         n = 1.42,
         Ea = (4111, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2630,7 +2574,6 @@ HCNN
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2671,7 +2614,6 @@ N
         n = 0,
         Ea = (21964, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2712,7 +2654,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2753,7 +2694,6 @@ NCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2794,7 +2734,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2835,7 +2774,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2876,7 +2814,6 @@ CN
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2915,7 +2852,6 @@ O
         n = 1,
         Ea = (6494, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2954,7 +2890,6 @@ O
         n = 0.1,
         Ea = (21249, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2993,7 +2928,6 @@ H
         n = 0,
         Ea = (1122, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3032,7 +2966,6 @@ H
         n = -0.09,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3073,7 +3006,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3112,7 +3044,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3157,7 +3088,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3196,7 +3126,6 @@ N2
         n = 0,
         Ea = (-556, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3241,7 +3170,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3284,7 +3212,6 @@ H
         n = -0.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3327,7 +3254,6 @@ N
         n = 1.94,
         Ea = (2443, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3368,7 +3294,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3409,7 +3334,6 @@ H2O
         n = 2,
         Ea = (-487, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3448,7 +3372,6 @@ H2
         n = 0,
         Ea = (1728, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3487,7 +3410,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3532,7 +3454,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3577,7 +3498,6 @@ N
         n = 1.87,
         Ea = (5848, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3620,7 +3540,6 @@ HO2
         n = -0.34,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3663,7 +3582,6 @@ OH
         n = -0.34,
         Ea = (2453, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3704,7 +3622,6 @@ H2
         n = 1.5,
         Ea = (496, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3747,7 +3664,6 @@ H2O
         n = -2.88,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3788,7 +3704,6 @@ OH
         n = -1.23,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3833,7 +3748,6 @@ NH3
         n = 1.94,
         Ea = (1698, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3878,7 +3792,6 @@ H2O2
         n = 2.69,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3923,7 +3836,6 @@ OH
         n = 0,
         Ea = (70211, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3966,7 +3878,6 @@ HNO
         n = 2,
         Ea = (70717, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4018,7 +3929,6 @@ H
                 ],
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4053,7 +3963,6 @@ H2NN
             Arrhenius(A=(2e+41, '1/s'), n=-9.38, Ea=(68452, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(1.3e+45, '1/s'), n=-10.13, Ea=(70757, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4096,7 +4005,6 @@ H2
         n = 1.5,
         Ea = (496, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4139,7 +4047,6 @@ OH
         n = 1.5,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4184,7 +4091,6 @@ H2O
         n = 2,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4231,7 +4137,6 @@ NNH
         n = 1.94,
         Ea = (1969, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4280,7 +4185,6 @@ CH4
         n = 1.87,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4325,7 +4229,6 @@ NH2
         n = 2,
         Ea = (11915, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4370,7 +4273,6 @@ NH2
         n = 0,
         Ea = (51762, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4432,7 +4334,6 @@ H
                 ],
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4477,7 +4378,6 @@ NO2
         n = 0,
         Ea = (5958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4520,7 +4420,6 @@ H
         n = 0.97,
         Ea = (4468, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4563,7 +4462,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4606,7 +4504,6 @@ NO
         n = 1.03,
         Ea = (2701, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4649,7 +4546,6 @@ NNH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4694,7 +4590,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4739,7 +4634,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4788,7 +4682,6 @@ H
         n = 1.93,
         Ea = (6494, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4837,7 +4730,6 @@ H
         n = 1.93,
         Ea = (6494, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4886,7 +4778,6 @@ NNH
         n = 1.87,
         Ea = (129, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4933,7 +4824,6 @@ H
         n = 1.9,
         Ea = (-1331, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4980,7 +4870,6 @@ NNH
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5027,7 +4916,6 @@ OH
         n = 1.94,
         Ea = (7050, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5074,7 +4962,6 @@ H2O2
         n = 2.69,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5115,7 +5002,6 @@ H
             Arrhenius(A=(3.6e+47, 's^-1'), n=-10.38, Ea=(69012, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(1.8e+45, 's^-1'), n=-9.39, Ea=(70144, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5160,7 +5046,6 @@ H2
         n = 1.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5205,7 +5090,6 @@ HNO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5250,7 +5134,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5295,7 +5178,6 @@ OH
         n = 1.5,
         Ea = (-645, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5342,7 +5224,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5389,7 +5270,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5440,7 +5320,6 @@ CH4
         n = 1.87,
         Ea = (1817, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5491,7 +5370,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5540,7 +5418,6 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5589,7 +5466,6 @@ NH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5638,7 +5514,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5687,7 +5562,6 @@ H2O2
         n = 2.69,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5736,7 +5610,6 @@ O2
         n = 1.94,
         Ea = (2125, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5779,7 +5652,6 @@ H2
             Arrhenius(A=(5.3e+39, 's^-1'), n=-8.35, Ea=(69310, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(2.5e+39, 's^-1'), n=-8.19, Ea=(69668, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5826,7 +5698,6 @@ H2
         n = 1.5,
         Ea = (4836, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5873,7 +5744,6 @@ OH
         n = 1.5,
         Ea = (2850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5922,7 +5792,6 @@ H2O
         n = 2,
         Ea = (-645, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5975,7 +5844,6 @@ CH4
         n = 1.87,
         Ea = (5322, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6026,7 +5894,6 @@ NH3
         n = 1.94,
         Ea = (1628, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6065,7 +5932,6 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6104,7 +5970,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6149,7 +6014,6 @@ CO
         n = 0,
         Ea = (695, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6194,7 +6058,6 @@ CO2
         n = 0,
         Ea = (695, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6235,7 +6098,6 @@ OH
         n = 0,
         Ea = (357, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6276,7 +6138,6 @@ O2
         n = 0,
         Ea = (-238, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6314,7 +6175,6 @@ O
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6359,7 +6219,6 @@ H2O
         n = -1.44,
         Ea = (258, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6404,7 +6263,6 @@ NO
         n = -1.44,
         Ea = (258, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6451,7 +6309,6 @@ CH3O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6494,7 +6351,6 @@ HO2
         n = 4.72,
         Ea = (36540, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6527,7 +6383,6 @@ NO
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(48654, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6572,7 +6427,6 @@ H2O
         n = 0,
         Ea = (3078, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6615,7 +6469,6 @@ H2O
         n = 1.88,
         Ea = (-953, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6656,7 +6509,6 @@ NO
         n = 0.72,
         Ea = (655, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6697,7 +6549,6 @@ NO
         n = 0.72,
         Ea = (655, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6742,7 +6593,6 @@ NO
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6785,7 +6635,6 @@ OH
         n = 0,
         Ea = (29570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6828,7 +6677,6 @@ HO2
         n = 0,
         Ea = (15887, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6875,7 +6723,6 @@ CH4
         n = 1.87,
         Ea = (29252, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6915,7 +6762,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6950,7 +6796,6 @@ HNOH
             Arrhenius(A=(1.3e+27, 's^-1'), n=-4.99, Ea=(43984, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(2.6e+28, 's^-1'), n=-5.06, Ea=(44769, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6993,7 +6838,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7036,7 +6880,6 @@ H2
         n = 1.5,
         Ea = (1559, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7079,7 +6922,6 @@ OH
         n = 1.5,
         Ea = (487, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7124,7 +6966,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7173,7 +7014,6 @@ NH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7222,7 +7062,6 @@ HNO
         n = 1.87,
         Ea = (2959, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7269,7 +7108,6 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7316,7 +7154,6 @@ H2O2
         n = 2.69,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7363,7 +7200,6 @@ NH2OH
         n = 2.69,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7403,7 +7239,6 @@ HNO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7446,7 +7281,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7489,7 +7323,6 @@ H2
         n = 1.5,
         Ea = (377, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7532,7 +7365,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7577,7 +7409,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7626,7 +7457,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7675,7 +7505,6 @@ HNO
         n = 1.87,
         Ea = (2095, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7722,7 +7551,6 @@ OH
         n = 1.82,
         Ea = (715, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7769,7 +7597,6 @@ H2O
         n = -1.94,
         Ea = (1926, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7816,7 +7643,6 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7863,7 +7689,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7910,7 +7735,6 @@ H2O2
         n = 2.69,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7957,7 +7781,6 @@ O2
         n = 2.69,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7997,7 +7820,6 @@ NO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8037,7 +7859,6 @@ NO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8080,7 +7901,6 @@ NO2
         n = 1.55,
         Ea = (6613, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8123,7 +7943,6 @@ NO
         n = 1.89,
         Ea = (3843, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8166,7 +7985,6 @@ HNO
         n = 0.86,
         Ea = (4965, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8209,7 +8027,6 @@ NO2
         n = 1.5,
         Ea = (3028, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8254,7 +8071,6 @@ NO2
         n = 2,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8303,7 +8119,6 @@ CH4
         n = 1.87,
         Ea = (5501, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8350,7 +8165,6 @@ NH3
         n = 1.94,
         Ea = (1916, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8385,7 +8199,6 @@ HONO
             Arrhenius(A=(1.3e+29, 's^-1'), n=-5.47, Ea=(52817, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(2e+30, 's^-1'), n=-5.5, Ea=(53691, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8428,7 +8241,6 @@ NO2
         n = 1.5,
         Ea = (4160, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8471,7 +8283,6 @@ NO2
         n = 1.5,
         Ea = (2363, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8516,7 +8327,6 @@ NO2
         n = 2,
         Ea = (-794, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8565,7 +8375,6 @@ CH4
         n = 1.87,
         Ea = (4836, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8612,7 +8421,6 @@ NH3
         n = 1.94,
         Ea = (874, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8645,7 +8453,6 @@ HNC
             Arrhenius(A=(1.9e+24, 's^-1'), n=-4.23, Ea=(49578, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(5.3e+25, 's^-1'), n=-4.34, Ea=(50194, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8688,7 +8495,6 @@ H
         n = 2.26,
         Ea = (6395, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8731,7 +8537,6 @@ H
         n = 2.03,
         Ea = (13365, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8774,7 +8579,6 @@ CO
         n = 2.56,
         Ea = (8996, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8830,7 +8634,6 @@ NCHOH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8871,7 +8674,6 @@ CO
         n = 1.21,
         Ea = (7487, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8912,7 +8714,6 @@ H
         n = 1.47,
         Ea = (7586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8953,7 +8754,6 @@ OH
         n = 0.4,
         Ea = (20663, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8994,7 +8794,6 @@ CO
         n = 0,
         Ea = (2184, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9037,7 +8836,6 @@ H
         n = 0,
         Ea = (3694, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9080,7 +8878,6 @@ O
         n = 0.01,
         Ea = (4111, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9123,7 +8920,6 @@ CO2
         n = -2.25,
         Ea = (1777, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9164,7 +8960,6 @@ H
         n = 1.55,
         Ea = (2999, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9207,7 +9002,6 @@ OH
         n = 0,
         Ea = (7447, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9246,7 +9040,6 @@ N
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9287,7 +9080,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9328,7 +9120,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9371,7 +9162,6 @@ H
         n = 1.71,
         Ea = (1529, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9414,7 +9204,6 @@ NO
         n = 0,
         Ea = (7169, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9457,7 +9246,6 @@ NO
         n = -0.75,
         Ea = (348, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9504,7 +9292,6 @@ CH3
         n = 2.64,
         Ea = (-159, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9549,7 +9336,6 @@ NH2
         n = 0,
         Ea = (-357, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9588,7 +9374,6 @@ H
             Arrhenius(A=(6e+31, 's^-1'), n=-6.46, Ea=(32111, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(3.5e+29, 's^-1'), n=-5.46, Ea=(32549, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9635,7 +9420,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9682,7 +9466,6 @@ H2O2
         n = 2.69,
         Ea = (-1609, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9729,7 +9512,6 @@ O2
         n = 2.69,
         Ea = (-1609, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9774,7 +9556,6 @@ NO
         n = 0,
         Ea = (5958, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9823,7 +9604,6 @@ CH4
         n = 1.87,
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9885,7 +9665,6 @@ H2O
                 T0 = (1, 'K'),
             ),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9928,7 +9707,6 @@ CH2(T)
         n = 0,
         Ea = (397, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9971,7 +9749,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10018,7 +9795,6 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10061,7 +9837,6 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10104,7 +9879,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10147,7 +9921,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10186,7 +9959,6 @@ H
             Arrhenius(A=(6.1e+28, 's^-1'), n=-5.69, Ea=(24272, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(6.2e+26, 's^-1'), n=-4.77, Ea=(24819, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10229,7 +10001,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10272,7 +10043,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10315,7 +10085,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10358,7 +10127,6 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10403,7 +10171,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10452,7 +10219,6 @@ CH4
         n = 1.87,
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10501,7 +10267,6 @@ N2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10546,7 +10311,6 @@ N2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10591,7 +10355,6 @@ H2
         n = 1.5,
         Ea = (7318, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10636,7 +10399,6 @@ OH
         n = 1.5,
         Ea = (4627, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10683,7 +10445,6 @@ H2O
         n = 2,
         Ea = (-89, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10734,7 +10495,6 @@ CH4
         n = 1.87,
         Ea = (7119, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10783,7 +10543,6 @@ NH3
         n = 1.94,
         Ea = (4438, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10828,7 +10587,6 @@ H2
         n = 1.5,
         Ea = (6126, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10873,7 +10631,6 @@ OH
         n = 1.5,
         Ea = (5402, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10920,7 +10677,6 @@ H2O
         n = 2,
         Ea = (457, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10971,7 +10727,6 @@ CH4
         n = 1.87,
         Ea = (9681, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11020,7 +10775,6 @@ NH3
         n = 1.94,
         Ea = (6087, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11065,7 +10819,6 @@ NH(T)
         n = 2.08,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11108,7 +10861,6 @@ H
             Arrhenius(A=(1.3e+42, 's^-1'), n=-9.24, Ea=(41341, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(2.3e+44, 's^-1'), n=-9.51, Ea=(45246, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11155,7 +10907,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11202,7 +10953,6 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11251,7 +11001,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11304,7 +11053,6 @@ CH4
         n = 1.87,
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11347,7 +11095,6 @@ H
             Arrhenius(A=(2.4e+48, 's^-1'), n=-10.82, Ea=(52042, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(3.2e+46, 's^-1'), n=-9.95, Ea=(53532, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11396,7 +11143,6 @@ HO2
         n = -3.09,
         Ea = (6752, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11449,7 +11195,6 @@ O
         n = -1.59,
         Ea = (30175, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11496,7 +11241,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11543,7 +11287,6 @@ NH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11590,7 +11333,6 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11639,7 +11381,6 @@ NH2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11688,7 +11429,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11741,7 +11481,6 @@ NH2
         n = 0,
         Ea = (2701, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11794,7 +11533,6 @@ CH4
         n = 1.87,
         Ea = (-626, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11843,7 +11581,6 @@ H2
         n = 1.5,
         Ea = (5461, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11892,7 +11629,6 @@ OH
         n = 1.5,
         Ea = (5193, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11943,7 +11679,6 @@ H2O
         n = 2,
         Ea = (238, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11998,7 +11733,6 @@ CH4
         n = 1.87,
         Ea = (9165, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12051,7 +11785,6 @@ NH3
         n = 1.94,
         Ea = (5491, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12100,7 +11833,6 @@ H2
         n = 1.5,
         Ea = (9701, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12149,7 +11881,6 @@ OH
         n = 1.5,
         Ea = (6345, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12200,7 +11931,6 @@ H2O
         n = 2,
         Ea = (447, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12255,7 +11985,6 @@ CH4
         n = 1.87,
         Ea = (8837, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12308,7 +12037,6 @@ NH3
         n = 1.94,
         Ea = (7139, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12348,7 +12076,6 @@ CN
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12391,7 +12118,6 @@ CN
         n = 0,
         Ea = (8877, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12436,7 +12162,6 @@ CN
         n = 0,
         Ea = (18985, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12479,7 +12204,6 @@ N2
         n = -1.73,
         Ea = (765, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12522,7 +12246,6 @@ CO
         n = -1.73,
         Ea = (765, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12560,7 +12283,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12603,7 +12325,6 @@ H
         n = 3,
         Ea = (3972, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12644,7 +12365,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12685,7 +12405,6 @@ CO2
         n = 0,
         Ea = (2502, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12726,7 +12445,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12767,7 +12485,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12810,7 +12527,6 @@ O
         n = 2.27,
         Ea = (-993, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12853,7 +12569,6 @@ CO
         n = -0.07,
         Ea = (5124, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12900,7 +12615,6 @@ NO
         n = -0.05,
         Ea = (18032, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12945,7 +12659,6 @@ N2O
         n = 0,
         Ea = (-874, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12994,7 +12707,6 @@ NO
         n = 0,
         Ea = (-874, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13043,7 +12755,6 @@ CH3
         n = 0,
         Ea = (8122, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13082,7 +12793,6 @@ O
             Arrhenius(A=(4.2e+31, 's^-1'), n=-6.12, Ea=(61212, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(5.9e+31, 's^-1'), n=-5.85, Ea=(61938, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13125,7 +12835,6 @@ H
         n = -0.69,
         Ea = (2850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13168,7 +12877,6 @@ OH
         n = 0.18,
         Ea = (2115, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13211,7 +12919,6 @@ CO
         n = -0.75,
         Ea = (2889, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13254,7 +12961,6 @@ H
         n = -0.19,
         Ea = (2482, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13297,7 +13003,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13342,7 +13047,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13385,7 +13089,6 @@ H
         n = 0.84,
         Ea = (1916, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13428,7 +13131,6 @@ CO
         n = 0.61,
         Ea = (2075, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13471,7 +13173,6 @@ NCO
         n = 1.5,
         Ea = (6613, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13514,7 +13215,6 @@ NCO
         n = 1.5,
         Ea = (4131, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13559,7 +13259,6 @@ NCO
         n = 2,
         Ea = (-248, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13608,7 +13307,6 @@ NCO
         n = 1.87,
         Ea = (6613, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13655,7 +13353,6 @@ NH3
         n = 1.94,
         Ea = (36443, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13690,7 +13387,6 @@ CO
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.3e+16, 'cm^3/(mol*s)'), n=0, Ea=(84320, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13733,7 +13429,6 @@ CO
         n = 2.49,
         Ea = (2343, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13776,7 +13471,6 @@ CO
         n = 2.08,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13819,7 +13513,6 @@ CO2
         n = 2.08,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13864,7 +13557,6 @@ CO2
         n = -0.06,
         Ea = (11637, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13909,7 +13601,6 @@ H2O
         n = -0.03,
         Ea = (17555, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13956,7 +13647,6 @@ NH3
         n = 0,
         Ea = (8936, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13997,7 +13687,6 @@ H
             Arrhenius(A=(2.3e+42, 's^-1'), n=-9.11, Ea=(53840, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(1.7e+38, 's^-1'), n=-7.64, Ea=(53582, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14044,7 +13733,6 @@ NO2
         n = -1.01,
         Ea = (20117, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14089,7 +13777,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14134,7 +13821,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14179,7 +13865,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14224,7 +13909,6 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14271,7 +13955,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14318,7 +14001,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14369,7 +14051,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14420,7 +14101,6 @@ CH4
         n = 1.87,
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14469,7 +14149,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14518,7 +14197,6 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14565,7 +14243,6 @@ H2
         n = 1.5,
         Ea = (377, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14612,7 +14289,6 @@ OH
         n = 1.5,
         Ea = (3614, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14661,7 +14337,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14714,7 +14389,6 @@ CH4
         n = 1.87,
         Ea = (5412, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14765,7 +14439,6 @@ NH3
         n = 1.94,
         Ea = (1072, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14812,7 +14485,6 @@ HNO
         n = 0,
         Ea = (2780, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14859,7 +14531,6 @@ NO2
         n = 2.08,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14908,7 +14579,6 @@ HONO
         n = 0,
         Ea = (993, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14946,7 +14616,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14987,7 +14656,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15028,7 +14696,6 @@ NH(S)
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15069,7 +14736,6 @@ NO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15112,7 +14778,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15155,7 +14820,6 @@ O
         n = 0,
         Ea = (4965, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15190,7 +14854,6 @@ CH2O
             Arrhenius(A=(2.1e+19, 's^-1'), n=-3.07, Ea=(9538, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(1.8e+21, 's^-1'), n=-3.32, Ea=(10859, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15235,7 +14898,6 @@ H2
         n = 1.5,
         Ea = (6246, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15280,7 +14942,6 @@ H2
         n = 1.5,
         Ea = (5064, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15325,7 +14986,6 @@ OH
         n = 1.5,
         Ea = (3863, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15370,7 +15030,6 @@ OH
         n = 1.5,
         Ea = (3009, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15417,7 +15076,6 @@ H2O
         n = 2,
         Ea = (-328, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15464,7 +15122,6 @@ H2O
         n = 2,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15515,7 +15172,6 @@ CH4
         n = 1.87,
         Ea = (6345, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15566,7 +15222,6 @@ CH4
         n = 1.87,
         Ea = (5491, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15615,7 +15270,6 @@ NH3
         n = 1.94,
         Ea = (3227, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15664,7 +15318,6 @@ NH3
         n = 1.94,
         Ea = (1887, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15713,7 +15366,6 @@ H2O2
         n = 2.69,
         Ea = (9552, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15762,7 +15414,6 @@ H2O2
         n = 2.69,
         Ea = (6414, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15803,7 +15454,6 @@ H2O
             Arrhenius(A=(3.1e+34, 's^-1'), n=-7.11, Ea=(36284, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(2.9e+31, 's^-1'), n=-5.91, Ea=(36175, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15848,7 +15498,6 @@ H2
         n = 1.5,
         Ea = (7407, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15893,7 +15542,6 @@ OH
         n = 1.5,
         Ea = (4697, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15940,7 +15588,6 @@ H2O
         n = 2,
         Ea = (-70, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15991,7 +15638,6 @@ CH4
         n = 1.87,
         Ea = (7179, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16040,7 +15686,6 @@ NH3
         n = 1.94,
         Ea = (4538, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16089,7 +15734,6 @@ H2O2
         n = 2.69,
         Ea = (12620, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16132,7 +15776,6 @@ HNO
             Arrhenius(A=(2.4e+40, 's^-1'), n=-8.73, Ea=(41610, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(1.2e+41, 's^-1'), n=-8.64, Ea=(41580, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16179,7 +15822,6 @@ H2
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16226,7 +15868,6 @@ OH
         n = 1.5,
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16275,7 +15916,6 @@ H2O
         n = 2,
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16328,7 +15968,6 @@ CH4
         n = 1.87,
         Ea = (377, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16379,7 +16018,6 @@ NH3
         n = 1.94,
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16430,7 +16068,6 @@ H2O2
         n = 2.69,
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = "Reaction and kinetics from Nitrogen_Dean_and_Bozzelli.\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,",
     ),
     shortDesc = u"""""",
     longDesc = 

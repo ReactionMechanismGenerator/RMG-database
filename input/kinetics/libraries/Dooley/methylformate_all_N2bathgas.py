@@ -36,7 +36,6 @@ OH
         n = -0.406,
         Ea = (16599, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75,7 +74,6 @@ OH
         n = 2.67,
         Ea = (6290, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -116,7 +114,6 @@ H
         n = 1.51,
         Ea = (3430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -157,7 +154,6 @@ OH
         n = 2.02,
         Ea = (13400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -198,7 +194,6 @@ O2
         n = 0,
         Ea = (823, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -239,7 +234,6 @@ OH
         n = 0,
         Ea = (295, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -280,7 +274,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -323,7 +316,6 @@ O2
         n = 0,
         Ea = (-497, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -379,7 +371,6 @@ O2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -422,7 +413,6 @@ OH
         n = 0,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -465,7 +455,6 @@ H2
         n = 0,
         Ea = (7950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -508,7 +497,6 @@ HO2
         n = 2,
         Ea = (3970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -564,7 +552,6 @@ H2O
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -605,7 +592,6 @@ O
         n = 0,
         Ea = (47700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -648,7 +634,6 @@ OH
         n = 0,
         Ea = (23000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -689,7 +674,6 @@ H
         n = 1.89,
         Ea = (-1158.7, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -732,7 +716,6 @@ HO2
         n = 0,
         Ea = (410, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -773,7 +756,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -814,7 +796,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -857,7 +838,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -898,7 +878,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -947,7 +926,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -994,7 +972,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1043,7 +1020,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1088,7 +1064,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1127,7 +1102,6 @@ O2CHO
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1178,7 +1152,6 @@ HO2CHO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1219,7 +1192,6 @@ OH
         n = 0,
         Ea = (40150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1262,7 +1234,6 @@ H2
         n = 1.9,
         Ea = (2748.6, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1305,7 +1276,6 @@ OH
         n = 0,
         Ea = (3080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1350,7 +1320,6 @@ H2O
         n = 1.18,
         Ea = (-447, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1395,7 +1364,6 @@ HO2
         n = 3,
         Ea = (52000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1442,7 +1410,6 @@ H2O2
         n = 2.5,
         Ea = (10210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1491,7 +1458,6 @@ CH4
         n = 5.42,
         Ea = (998, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1534,7 +1500,6 @@ OCH2O2H
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1573,7 +1538,6 @@ HOCH2O2
         n = 0,
         Ea = (8600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1626,7 +1590,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1671,7 +1634,6 @@ HOCH2O2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1714,7 +1676,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1759,7 +1720,6 @@ O
         n = -1.57,
         Ea = (29230, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1804,7 +1764,6 @@ OH
         n = 3.524,
         Ea = (7380, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1851,7 +1810,6 @@ OH
         n = 0.76,
         Ea = (-2325, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1896,7 +1854,6 @@ H2
         n = 1.97,
         Ea = (11210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1941,7 +1898,6 @@ OH
         n = 0.5,
         Ea = (10290, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1988,7 +1944,6 @@ H2O
         n = 1.96,
         Ea = (2639, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2035,7 +1990,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2084,7 +2038,6 @@ H2O2
         n = 0,
         Ea = (18580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2137,7 +2090,6 @@ CH3O
         n = 3.1,
         Ea = (6935, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2188,7 +2140,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2233,7 +2184,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2286,7 +2236,6 @@ HCO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2341,7 +2290,6 @@ CH3O2H
         n = 0,
         Ea = (18480, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2398,7 +2346,6 @@ CH3O2H
         n = 0,
         Ea = (13710, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2451,7 +2398,6 @@ CH3O
         n = 0,
         Ea = (-1411, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2502,7 +2448,6 @@ O2
         n = 0,
         Ea = (-1570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2563,7 +2508,6 @@ O2
         n = -1.61,
         Ea = (-1051, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2624,7 +2568,6 @@ CH3O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2671,7 +2614,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2718,7 +2660,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2767,7 +2708,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2810,7 +2750,6 @@ OH
         n = 0,
         Ea = (42300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2855,7 +2794,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2900,7 +2838,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2945,7 +2882,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2992,7 +2928,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3050,7 +2985,6 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3099,7 +3033,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3148,7 +3081,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3197,7 +3129,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3250,7 +3181,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3303,7 +3233,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3352,7 +3281,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3397,7 +3325,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3442,7 +3369,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3489,7 +3415,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3547,7 +3472,6 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3596,7 +3520,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3643,7 +3566,6 @@ CO2
         n = 0,
         Ea = (11800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3692,7 +3614,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3745,7 +3666,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3792,7 +3712,6 @@ H2
         n = 0,
         Ea = (6095, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3839,7 +3758,6 @@ H2
         n = 0,
         Ea = (6095, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3886,7 +3804,6 @@ OH
         n = 2.5,
         Ea = (3080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3935,7 +3852,6 @@ H2O
         n = 2.1,
         Ea = (496.7, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3984,7 +3900,6 @@ H2O
         n = 1.8,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4033,7 +3948,6 @@ HO2
         n = 0,
         Ea = (44900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4084,7 +3998,6 @@ CH2O
         n = 2.9,
         Ea = (13110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4135,7 +4048,6 @@ H2O2
         n = 0,
         Ea = (19400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4188,7 +4100,6 @@ CH4
         n = 3.17,
         Ea = (7172, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4243,7 +4154,6 @@ CH2OH
         n = 0,
         Ea = (4060, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4292,7 +4202,6 @@ C2H5
         n = 0.1,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4341,7 +4250,6 @@ CH3
         n = 2,
         Ea = (8270, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4390,7 +4298,6 @@ CH3
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4435,7 +4342,6 @@ H2O
         n = 1.6,
         Ea = (5420, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4480,7 +4386,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4527,7 +4432,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4574,7 +4478,6 @@ H
         n = 0,
         Ea = (-570, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4619,7 +4522,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4660,7 +4562,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4703,7 +4604,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4746,7 +4646,6 @@ CH3
         n = 2,
         Ea = (7230, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4789,7 +4688,6 @@ OH
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4834,7 +4732,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4879,7 +4776,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4924,7 +4820,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4967,7 +4862,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5012,7 +4906,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5053,7 +4946,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5094,7 +4986,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5137,7 +5028,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5180,7 +5070,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5227,7 +5116,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5270,7 +5158,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5315,7 +5202,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5356,7 +5242,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5403,7 +5288,6 @@ H2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5446,7 +5330,6 @@ H2O
         n = 2,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5487,7 +5370,6 @@ O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5526,7 +5408,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5565,7 +5446,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5606,7 +5486,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5649,7 +5528,6 @@ CH2O
         n = 0,
         Ea = (-755, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5692,7 +5570,6 @@ CO
         n = 0,
         Ea = (685, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5733,7 +5610,6 @@ H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5774,7 +5650,6 @@ HOCH2O
         n = -1.11,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5816,7 +5691,6 @@ H2O
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5853,7 +5727,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.5e+16, 'cm^3/(mol*s)'), n=0, Ea=(57000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5892,7 +5765,6 @@ OH
         n = -0.46,
         Ea = (108300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5943,7 +5815,6 @@ H
         n = 2.06,
         Ea = (916, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5994,7 +5865,6 @@ OH
         n = 1.51,
         Ea = (-962, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6043,7 +5913,6 @@ H
         n = 2.1,
         Ea = (4868, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6092,7 +5961,6 @@ OH
         n = -0.35,
         Ea = (2988, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6147,7 +6015,6 @@ OH
         n = 5.8,
         Ea = (2200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6200,7 +6067,6 @@ OH
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6249,7 +6115,6 @@ OH
         n = -1.9,
         Ea = (2975, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6300,7 +6165,6 @@ H2
         n = 1.9,
         Ea = (7530, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6351,7 +6215,6 @@ OH
         n = 2.4,
         Ea = (5830, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6404,7 +6267,6 @@ H2O
         n = 1.9,
         Ea = (950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6457,7 +6319,6 @@ HO2
         n = 0,
         Ea = (51870, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6514,7 +6375,6 @@ CH4
         n = 6,
         Ea = (6047, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6569,7 +6429,6 @@ H2O2
         n = 3.61,
         Ea = (16920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6630,7 +6489,6 @@ CH3O2H
         n = 3.64,
         Ea = (17100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6689,7 +6547,6 @@ CH3OH
         n = 0,
         Ea = (7090, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6742,7 +6599,6 @@ CH2
         n = 0,
         Ea = (-260, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6797,7 +6653,6 @@ C2H5
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6846,7 +6701,6 @@ CH3O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6901,7 +6755,6 @@ C2H5O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6958,7 +6811,6 @@ C2H3
         n = 0,
         Ea = (71530, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7013,7 +6865,6 @@ C2H4
         n = 2.45,
         Ea = (-2921, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7062,7 +6913,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7111,7 +6961,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7164,7 +7013,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7223,7 +7071,6 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7276,7 +7123,6 @@ HO2
         n = 0,
         Ea = (1097, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7321,7 +7167,6 @@ C2H5O
         n = 0,
         Ea = (6336, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7366,7 +7211,6 @@ C2H5O
         n = 0,
         Ea = (6400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7413,7 +7257,6 @@ C2H5O2
         n = -13.82,
         Ea = (14620, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7472,7 +7315,6 @@ HCO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7533,7 +7375,6 @@ C2H5O2H
         n = 0,
         Ea = (18480, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7596,7 +7437,6 @@ C2H5O2H
         n = 0,
         Ea = (13710, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7653,7 +7493,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7720,7 +7559,6 @@ C2H5O2H
         n = 3.76,
         Ea = (17200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7769,7 +7607,6 @@ OH
         n = 0,
         Ea = (42300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7816,7 +7653,6 @@ C2H4O2H
         n = -11.5,
         Ea = (14600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7873,7 +7709,6 @@ HO2
             ),
             Arrhenius(A=(0.4, 'cm^3/(mol*s)'), n=3.88, Ea=(13620, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7924,7 +7759,6 @@ OH
         n = -0.31,
         Ea = (6150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -7975,7 +7809,6 @@ OH
         n = 2.41,
         Ea = (5285, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8018,7 +7851,6 @@ C2H5O2
         n = -8.13,
         Ea = (27020, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8065,7 +7897,6 @@ OH
         n = -10.2,
         Ea = (43710, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8112,7 +7943,6 @@ HO2
         n = -8.45,
         Ea = (37890, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8159,7 +7989,6 @@ OH
         n = -10.46,
         Ea = (45580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8206,7 +8035,6 @@ OH
         n = -6.08,
         Ea = (20660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8253,7 +8081,6 @@ HO2
         n = -7.25,
         Ea = (23250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8300,7 +8127,6 @@ OH
         n = -9.02,
         Ea = (29210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8343,7 +8169,6 @@ HCO
         n = 0,
         Ea = (57200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8382,7 +8207,6 @@ CH3CHO
         n = 0,
         Ea = (53800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8433,7 +8257,6 @@ H2O
         n = 0,
         Ea = (3610, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8482,7 +8305,6 @@ H2
         n = 0,
         Ea = (9680, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8535,7 +8357,6 @@ H2O2
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8594,7 +8415,6 @@ CH3O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8659,7 +8479,6 @@ C2H5O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8714,7 +8533,6 @@ CH4
         n = 0,
         Ea = (11830, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8771,7 +8589,6 @@ CH3OH
         n = 0,
         Ea = (6750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8808,7 +8625,6 @@ CH3CO
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8845,7 +8661,6 @@ CH2CHO
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8888,7 +8703,6 @@ CH3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8937,7 +8751,6 @@ H2
         n = 0,
         Ea = (3110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -8986,7 +8799,6 @@ OH
         n = 0,
         Ea = (1868, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9037,7 +8849,6 @@ H2O
         n = 1.8,
         Ea = (1300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9088,7 +8899,6 @@ HO2
         n = 0,
         Ea = (39150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9143,7 +8953,6 @@ CH4
         n = 2.79,
         Ea = (4950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9196,7 +9005,6 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9255,7 +9063,6 @@ CH3CO
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9318,7 +9125,6 @@ CH3CO3H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9369,7 +9175,6 @@ HCOOH
         n = -1.08,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9420,7 +9225,6 @@ H2O
         n = 2.4,
         Ea = (815, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9467,7 +9271,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9514,7 +9317,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9567,7 +9369,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9612,7 +9413,6 @@ CH3CO3
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9667,7 +9467,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9724,7 +9523,6 @@ CH3CO3H
         n = 0,
         Ea = (9936, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9783,7 +9581,6 @@ CH3CO3H
         n = 0,
         Ea = (18480, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9840,7 +9637,6 @@ CH3CO3H
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9905,7 +9701,6 @@ CH3CO3H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9952,7 +9747,6 @@ OH
         n = 0,
         Ea = (40150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -9993,7 +9787,6 @@ CH2CHO
         n = 0,
         Ea = (12300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10046,7 +9839,6 @@ OH
         n = 0,
         Ea = (4200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10091,7 +9883,6 @@ CO
         n = 0,
         Ea = (3400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10136,7 +9927,6 @@ H2
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10181,7 +9971,6 @@ CO2
         n = 0,
         Ea = (1350, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10226,7 +10015,6 @@ OH
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10273,7 +10061,6 @@ H2O
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10320,7 +10107,6 @@ CO
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10369,7 +10155,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10418,7 +10203,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10461,7 +10245,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10508,7 +10291,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10557,7 +10339,6 @@ CO
         n = 0,
         Ea = (850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10602,7 +10383,6 @@ CH2CO
         n = 0,
         Ea = (-515, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10647,7 +10427,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10694,7 +10473,6 @@ H2
         n = 1.93,
         Ea = (12950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10741,7 +10519,6 @@ HCO
         n = 1.88,
         Ea = (183, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10788,7 +10565,6 @@ H
         n = 1.88,
         Ea = (183, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10837,7 +10613,6 @@ H2O
         n = 2,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10890,7 +10665,6 @@ CH4
         n = 3.7,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10939,7 +10713,6 @@ HO2
         n = 0,
         Ea = (58200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -10994,7 +10767,6 @@ CH3OH
         n = 0,
         Ea = (6750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11051,7 +10823,6 @@ CH3O2H
         n = 0,
         Ea = (17190, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11114,7 +10885,6 @@ C2H5O2H
         n = 0,
         Ea = (17190, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11175,7 +10945,6 @@ CH3CO3H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11232,7 +11001,6 @@ CH3O
         n = 0,
         Ea = (17110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11295,7 +11063,6 @@ C2H5O
         n = 0,
         Ea = (17110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11346,7 +11113,6 @@ OH
         n = 0,
         Ea = (17190, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11393,7 +11159,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11440,7 +11205,6 @@ CH2O
         n = -1.39,
         Ea = (1015, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11487,7 +11251,6 @@ C2H2
         n = 1.61,
         Ea = (-384, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11534,7 +11297,6 @@ CH2CHO
         n = 0.29,
         Ea = (11, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11585,7 +11347,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11630,7 +11391,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11677,7 +11437,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11722,7 +11481,6 @@ OH
         n = 1.5,
         Ea = (30100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11765,7 +11523,6 @@ OH
         n = -1.4,
         Ea = (28950, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11808,7 +11565,6 @@ CO
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11851,7 +11607,6 @@ H
         n = 2,
         Ea = (1900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11896,7 +11651,6 @@ H2O
         n = 2,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11941,7 +11695,6 @@ H
         n = 0,
         Ea = (12000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -11986,7 +11739,6 @@ CO
         n = 4,
         Ea = (-2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12031,7 +11783,6 @@ HCCOH
         n = 2.3,
         Ea = (13500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12076,7 +11827,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12131,7 +11881,6 @@ HO2
         n = 0,
         Ea = (52800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12186,7 +11935,6 @@ HO2
         n = 0,
         Ea = (50150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12241,7 +11989,6 @@ H2O
         n = 0.27,
         Ea = (600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12296,7 +12043,6 @@ H2O
         n = 0.15,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12351,7 +12097,6 @@ H2O
         n = 0.3,
         Ea = (1634, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12404,7 +12149,6 @@ H2
         n = 1.8,
         Ea = (5098, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12457,7 +12201,6 @@ H2
         n = 1.65,
         Ea = (2827, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12510,7 +12253,6 @@ H2
         n = 1.6,
         Ea = (3038, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12567,7 +12309,6 @@ H2O2
         n = 2.55,
         Ea = (15750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12624,7 +12365,6 @@ H2O2
         n = 2.55,
         Ea = (10750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12681,7 +12421,6 @@ H2O2
         n = 0,
         Ea = (24000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12744,7 +12483,6 @@ CH3O2H
         n = 2.55,
         Ea = (15750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12807,7 +12545,6 @@ CH3O2H
         n = 2.55,
         Ea = (10750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12870,7 +12607,6 @@ CH3O2H
         n = 0,
         Ea = (24000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12923,7 +12659,6 @@ OH
         n = 1.7,
         Ea = (5459, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -12976,7 +12711,6 @@ OH
         n = 1.85,
         Ea = (1824, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13029,7 +12763,6 @@ OH
         n = 2,
         Ea = (4448, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13088,7 +12821,6 @@ CH4
         n = 3.18,
         Ea = (9362, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13147,7 +12879,6 @@ CH4
         n = 2.9,
         Ea = (7690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13206,7 +12937,6 @@ CH4
         n = 2.92,
         Ea = (7452, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13271,7 +13001,6 @@ C2H6
         n = 0,
         Ea = (13400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13336,7 +13065,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13381,7 +13109,6 @@ PC2H4OH
         n = -2.84,
         Ea = (1240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13429,7 +13156,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13478,7 +13204,6 @@ O2
         n = -1,
         Ea = (30000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13531,7 +13256,6 @@ CH2O
         n = 0,
         Ea = (18900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13584,7 +13308,6 @@ HO2
         n = 2,
         Ea = (1641, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13641,7 +13364,6 @@ H2O
         n = 2.48,
         Ea = (445, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13696,7 +13418,6 @@ H2
         n = 2.43,
         Ea = (5160, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13751,7 +13472,6 @@ OH
         n = 0.21,
         Ea = (4890, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13812,7 +13532,6 @@ CH4
         n = 0,
         Ea = (9784, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13875,7 +13594,6 @@ CH3OH
         n = 0,
         Ea = (6460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13932,7 +13650,6 @@ HO2
         n = 0,
         Ea = (48500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13991,7 +13708,6 @@ H2O2
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14056,7 +13772,6 @@ CH3O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14103,7 +13818,6 @@ CH3
         n = 0,
         Ea = (31000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14154,7 +13868,6 @@ CH3COCH2O2
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14229,7 +13942,6 @@ CH3COCH2O2H
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14292,7 +14004,6 @@ CH3COCH2O2H
         n = 0,
         Ea = (9000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14353,7 +14064,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14406,7 +14116,6 @@ OH
         n = 0,
         Ea = (43000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14455,7 +14164,6 @@ CH3COCH2O
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14500,7 +14208,6 @@ C2H3CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14551,7 +14258,6 @@ H2
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14602,7 +14308,6 @@ OH
         n = 0,
         Ea = (1868, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14653,7 +14358,6 @@ HCO
         n = 0,
         Ea = (3500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14708,7 +14412,6 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14761,7 +14464,6 @@ H2O
         n = 1.5,
         Ea = (-962, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14814,7 +14516,6 @@ HO2
         n = 0,
         Ea = (40700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14869,7 +14570,6 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14926,7 +14626,6 @@ CH4
         n = 1.78,
         Ea = (5911, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -14985,7 +14684,6 @@ C2H4
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15044,7 +14742,6 @@ CH3OH
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15105,7 +14802,6 @@ CH3O2H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15148,7 +14844,6 @@ C2H3CO
         n = 0,
         Ea = (4810, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15199,7 +14894,6 @@ CO2
         n = -2.72,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15248,7 +14942,6 @@ CO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15297,7 +14990,6 @@ C2H5CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15352,7 +15044,6 @@ H2
         n = 0,
         Ea = (4200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15407,7 +15098,6 @@ OH
         n = 0,
         Ea = (1790, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15464,7 +15154,6 @@ H2O
         n = 0.76,
         Ea = (-340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15525,7 +15214,6 @@ CH4
         n = 1.78,
         Ea = (5911, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15584,7 +15272,6 @@ H2O2
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15647,7 +15334,6 @@ CH3OH
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15712,7 +15398,6 @@ CH3O2H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15779,7 +15464,6 @@ C2H6
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15848,7 +15532,6 @@ C2H5OH
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15919,7 +15602,6 @@ C2H5O2H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -15976,7 +15658,6 @@ HO2
         n = 0,
         Ea = (40700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16045,7 +15726,6 @@ CH3CO3H
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16108,7 +15788,6 @@ C2H4
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16155,7 +15834,6 @@ C2H5CO
         n = 0,
         Ea = (4810, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16210,7 +15888,6 @@ H2O
         n = 2.29,
         Ea = (-781, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16263,7 +15940,6 @@ H2
         n = 2.88,
         Ea = (2996, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16316,7 +15992,6 @@ OH
         n = 1.36,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16373,7 +16048,6 @@ H2O2
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16436,7 +16110,6 @@ CH3O2H
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16495,7 +16168,6 @@ CH4
         n = 5.73,
         Ea = (5699, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16550,7 +16222,6 @@ HO2
         n = 0,
         Ea = (44910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16611,7 +16282,6 @@ CH3OH
         n = 0,
         Ea = (4074, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16682,7 +16352,6 @@ CH3OCH2O2H
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16743,7 +16412,6 @@ HO2CHO
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16802,7 +16470,6 @@ HCOOH
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16847,7 +16514,6 @@ CH3
         n = 0,
         Ea = (25500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16906,7 +16572,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -16963,7 +16628,6 @@ HCO
         n = 2.8,
         Ea = (5862, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17026,7 +16690,6 @@ CH3CO
         n = 0,
         Ea = (8499, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17075,7 +16738,6 @@ CH3OCH2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17136,7 +16798,6 @@ HCO
         n = 0,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17203,7 +16864,6 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17280,7 +16940,6 @@ CH3OCH2O
         n = -4.5,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17331,7 +16990,6 @@ CH3OCH2O2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17378,7 +17036,6 @@ CH3OCH2O
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17423,7 +17080,6 @@ CH2OCH2O2H
         n = 0,
         Ea = (21580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17476,7 +17132,6 @@ CH2O
         n = 0,
         Ea = (20760, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17529,7 +17184,6 @@ O2CH2OCH2O2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17582,7 +17236,6 @@ OH
         n = 0,
         Ea = (18580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17633,7 +17286,6 @@ C3H8
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17684,7 +17336,6 @@ C3H8
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17743,7 +17394,6 @@ HO2
         n = 0,
         Ea = (49640, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17802,7 +17452,6 @@ HO2
         n = 0,
         Ea = (52290, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17859,7 +17508,6 @@ IC3H7
         n = 2.4,
         Ea = (4471, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17916,7 +17564,6 @@ NC3H7
         n = 2.54,
         Ea = (6756, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -17973,7 +17620,6 @@ OH
         n = 2.5,
         Ea = (3140, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18030,7 +17676,6 @@ OH
         n = 2.4,
         Ea = (5505, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18089,7 +17734,6 @@ H2O
         n = 0.97,
         Ea = (1586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18148,7 +17792,6 @@ H2O
         n = 1.61,
         Ea = (-35, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18209,7 +17852,6 @@ H2O2
         n = 2.5,
         Ea = (14860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18270,7 +17912,6 @@ H2O2
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18333,7 +17974,6 @@ IC3H7
         n = 2.17,
         Ea = (7520, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18396,7 +18036,6 @@ NC3H7
         n = 3.65,
         Ea = (7154, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18471,7 +18110,6 @@ C3H8
         n = 0,
         Ea = (12900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18536,7 +18174,6 @@ IC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18601,7 +18238,6 @@ NC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18670,7 +18306,6 @@ IC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18739,7 +18374,6 @@ NC3H7
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18810,7 +18444,6 @@ C3H6
         n = 0,
         Ea = (20500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18881,7 +18514,6 @@ C3H6
         n = 0,
         Ea = (16200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -18946,7 +18578,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19011,7 +18642,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19078,7 +18708,6 @@ NC3H7
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19145,7 +18774,6 @@ IC3H7
         n = 2.5,
         Ea = (14860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19218,7 +18846,6 @@ NC3H7
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19291,7 +18918,6 @@ IC3H7
         n = 2.5,
         Ea = (14860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19370,7 +18996,6 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19449,7 +19074,6 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19528,7 +19152,6 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19607,7 +19230,6 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19678,7 +19300,6 @@ CH3CO3H
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19749,7 +19370,6 @@ CH3CO3H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19814,7 +19434,6 @@ HO2CHO
         n = 2.55,
         Ea = (16480, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19879,7 +19498,6 @@ HO2CHO
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19928,7 +19546,6 @@ IC3H7
         n = 0,
         Ea = (2160, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -19983,7 +19600,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20040,7 +19656,6 @@ HO2
         n = 0,
         Ea = (5020, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20097,7 +19712,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20152,7 +19766,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20207,7 +19820,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20256,7 +19868,6 @@ C2H4
         n = -8.6,
         Ea = (41430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20305,7 +19916,6 @@ C3H6
         n = -8.1,
         Ea = (46580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20362,7 +19972,6 @@ HO2
         n = 0,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20435,7 +20044,6 @@ C3H8
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20508,7 +20116,6 @@ C3H8
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20577,7 +20184,6 @@ C3H6
         n = 0,
         Ea = (8440, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20624,7 +20230,6 @@ H
         n = -16.09,
         Ea = (140000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20671,7 +20276,6 @@ H
         n = -16.58,
         Ea = (139300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20724,7 +20328,6 @@ HCO
         n = 1.76,
         Ea = (-1216, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20781,7 +20384,6 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20838,7 +20440,6 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20891,7 +20492,6 @@ OH
         n = 0.7,
         Ea = (5884, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20944,7 +20544,6 @@ OH
         n = 0.7,
         Ea = (8959, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -20997,7 +20596,6 @@ OH
         n = 0.7,
         Ea = (7632, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21052,7 +20650,6 @@ H2O
         n = 2,
         Ea = (-298, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21107,7 +20704,6 @@ H2O
         n = 2,
         Ea = (2778, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21162,7 +20758,6 @@ H2O
         n = 2,
         Ea = (1451, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21219,7 +20814,6 @@ H2O2
         n = 2.5,
         Ea = (12340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21276,7 +20870,6 @@ H2O2
         n = 2.5,
         Ea = (27620, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21333,7 +20926,6 @@ H2O2
         n = 2.5,
         Ea = (23590, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21386,7 +20978,6 @@ H2
         n = 2.5,
         Ea = (2490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21439,7 +21030,6 @@ H2
         n = 2.5,
         Ea = (9790, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21492,7 +21082,6 @@ H2
         n = 2.5,
         Ea = (12283, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21547,7 +21136,6 @@ HO2
         n = 0,
         Ea = (39900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21602,7 +21190,6 @@ HO2
         n = 0,
         Ea = (62900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21657,7 +21244,6 @@ HO2
         n = 0,
         Ea = (60700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21716,7 +21302,6 @@ CH4
         n = 3.5,
         Ea = (5675, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21775,7 +21360,6 @@ CH4
         n = 3.5,
         Ea = (12850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21834,7 +21418,6 @@ CH4
         n = 3.5,
         Ea = (11660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21899,7 +21482,6 @@ C2H6
         n = 0,
         Ea = (9800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -21966,7 +21548,6 @@ CH3CO3H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22029,7 +21610,6 @@ CH3O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22086,7 +21666,6 @@ OH
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22155,7 +21734,6 @@ C2H5O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22230,7 +21808,6 @@ NC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22305,7 +21882,6 @@ IC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22356,7 +21932,6 @@ C3H6OH
         n = 0,
         Ea = (-960, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22411,7 +21986,6 @@ HOC3H6O2
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22470,7 +22044,6 @@ OH
         n = 0,
         Ea = (18900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22521,7 +22094,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22572,7 +22144,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22625,7 +22196,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22680,7 +22250,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22737,7 +22306,6 @@ CH4
         n = -0.32,
         Ea = (-131, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22798,7 +22366,6 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22861,7 +22428,6 @@ C3H4-A
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22924,7 +22490,6 @@ C3H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -22983,7 +22548,6 @@ C3H4-A
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23048,7 +22612,6 @@ C3H6
         n = 0,
         Ea = (-262, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23103,7 +22666,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23154,7 +22716,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23205,7 +22766,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23262,7 +22822,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23315,7 +22874,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23374,7 +22932,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23429,7 +22986,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23486,7 +23042,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23537,7 +23092,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23588,7 +23142,6 @@ CH2CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23645,7 +23198,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23698,7 +23250,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23757,7 +23308,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23812,7 +23362,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23869,7 +23418,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23918,7 +23466,6 @@ H2
         n = 2,
         Ea = (5500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -23967,7 +23514,6 @@ CO
         n = 1.8,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24018,7 +23564,6 @@ H2O
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24073,7 +23618,6 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24126,7 +23670,6 @@ C3H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24187,7 +23730,6 @@ C3H3
         n = 0,
         Ea = (64746.7, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24250,7 +23792,6 @@ C3H6
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24299,7 +23840,6 @@ H2
         n = 2,
         Ea = (5500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24358,7 +23898,6 @@ C3H3
         n = 1.74,
         Ea = (10450, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24407,7 +23946,6 @@ CH3
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24456,7 +23994,6 @@ CO
         n = 0,
         Ea = (2250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24507,7 +24044,6 @@ H2O
         n = 2,
         Ea = (100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24560,7 +24096,6 @@ C3H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24615,7 +24150,6 @@ CH4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24672,7 +24206,6 @@ C2H4
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24735,7 +24268,6 @@ C3H6
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24778,7 +24310,6 @@ C3H4-P
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24821,7 +24352,6 @@ C3H4-A
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24868,7 +24398,6 @@ H2
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24915,7 +24444,6 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -24964,7 +24492,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25013,7 +24540,6 @@ HCO
         n = 0,
         Ea = (2868, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25068,7 +24594,6 @@ C2H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25119,7 +24644,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25170,7 +24694,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25221,7 +24744,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25272,7 +24794,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25325,7 +24846,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25374,7 +24894,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25425,7 +24944,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25478,7 +24996,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25519,7 +25036,6 @@ C3H3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25564,7 +25080,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25611,7 +25126,6 @@ C2H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25662,7 +25176,6 @@ CO
         n = 0,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25709,7 +25222,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25758,7 +25270,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25809,7 +25320,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25860,7 +25370,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25907,7 +25416,6 @@ HCCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -25960,7 +25468,6 @@ CO2
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26013,7 +25520,6 @@ CO
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26064,7 +25570,6 @@ CO
         n = 0,
         Ea = (1459, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26115,7 +25620,6 @@ CO
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26174,7 +25678,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26233,7 +25736,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26298,7 +25800,6 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26363,7 +25864,6 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26416,7 +25916,6 @@ NC3H7O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26469,7 +25968,6 @@ IC3H7O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26534,7 +26032,6 @@ HCO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26605,7 +26102,6 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26670,7 +26166,6 @@ HCO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26741,7 +26236,6 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26804,7 +26298,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26867,7 +26360,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -26936,7 +26428,6 @@ NC3H7O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27005,7 +26496,6 @@ IC3H7O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27074,7 +26564,6 @@ NC3H7O2H
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27143,7 +26632,6 @@ IC3H7O2H
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27216,7 +26704,6 @@ NC3H7O2H
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27289,7 +26776,6 @@ IC3H7O2H
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27356,7 +26842,6 @@ NC3H7O2H
         n = 0,
         Ea = (24640, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27423,7 +26908,6 @@ IC3H7O2H
         n = 0,
         Ea = (24640, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27496,7 +26980,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27569,7 +27052,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27630,7 +27112,6 @@ NC3H7O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27691,7 +27172,6 @@ IC3H7O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27764,7 +27244,6 @@ C2H5
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27837,7 +27316,6 @@ C2H5
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27914,7 +27392,6 @@ C2H5CO
         n = 0,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27991,7 +27468,6 @@ C2H5CO
         n = 0,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28068,7 +27544,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28145,7 +27620,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28224,7 +27698,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28303,7 +27776,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28388,7 +27860,6 @@ IC3H7O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28473,7 +27944,6 @@ NC3H7O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28558,7 +28028,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28623,7 +28092,6 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28694,7 +28162,6 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28771,7 +28238,6 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28848,7 +28314,6 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28921,7 +28386,6 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -28986,7 +28450,6 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29057,7 +28520,6 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29134,7 +28596,6 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29211,7 +28672,6 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29284,7 +28744,6 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29339,7 +28798,6 @@ OH
         n = 0,
         Ea = (42500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29394,7 +28852,6 @@ OH
         n = 0,
         Ea = (42600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29445,7 +28902,6 @@ NC3H7O
         n = 0,
         Ea = (3496, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29496,7 +28952,6 @@ NC3H7O
         n = 0,
         Ea = (6260, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29547,7 +29002,6 @@ IC3H7O
         n = 0,
         Ea = (9256, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29598,7 +29052,6 @@ IC3H7O
         n = 0,
         Ea = (7270, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29657,7 +29110,6 @@ HO2
         n = 0,
         Ea = (390, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29706,7 +29158,6 @@ C3H6OOH1-2
         n = 0,
         Ea = (26850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29755,7 +29206,6 @@ C3H6OOH1-3
         n = 0,
         Ea = (24400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29804,7 +29254,6 @@ C3H6OOH2-1
         n = 0,
         Ea = (29400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29853,7 +29302,6 @@ C3H6OOH2-2
         n = -6.96,
         Ea = (48880, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29906,7 +29354,6 @@ OH
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -29959,7 +29406,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30012,7 +29458,6 @@ OH
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30065,7 +29510,6 @@ C3H6OOH1-2
         n = 0,
         Ea = (11000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30118,7 +29562,6 @@ C3H6OOH2-1
         n = 0,
         Ea = (11750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30175,7 +29618,6 @@ C2H4
         n = -0.79,
         Ea = (27400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30228,7 +29670,6 @@ CH3
         n = -5.14,
         Ea = (38320, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30285,7 +29726,6 @@ OH
         n = -7.01,
         Ea = (48120, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30338,7 +29778,6 @@ OH
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30395,7 +29834,6 @@ C3H6OOH1-2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30452,7 +29890,6 @@ C3H6OOH1-3O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30509,7 +29946,6 @@ C3H6OOH2-1O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30566,7 +30002,6 @@ OH
         n = 0,
         Ea = (26400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30623,7 +30058,6 @@ OH
         n = 0,
         Ea = (21400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30680,7 +30114,6 @@ OH
         n = 0,
         Ea = (23850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30733,7 +30166,6 @@ C3H51-2,3OOH
         n = 0,
         Ea = (24400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30786,7 +30218,6 @@ C3H51-2,3OOH
         n = 0,
         Ea = (29400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30843,7 +30274,6 @@ HO2
         n = -0.49,
         Ea = (17770, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30896,7 +30326,6 @@ C3H52-1,3OOH
         n = 0,
         Ea = (26850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -30953,7 +30382,6 @@ HO2
         n = -0.63,
         Ea = (17250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31010,7 +30438,6 @@ OH
         n = 0,
         Ea = (43000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31067,7 +30494,6 @@ OH
         n = 0,
         Ea = (43000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31124,7 +30550,6 @@ OH
         n = 0,
         Ea = (43000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31175,7 +30600,6 @@ AC3H5OOH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31222,7 +30646,6 @@ H
         n = 0,
         Ea = (29100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31269,7 +30692,6 @@ C3H5O
         n = 0,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31324,7 +30746,6 @@ HO2
         n = 0,
         Ea = (6000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31369,7 +30790,6 @@ OH
         n = 0,
         Ea = (43000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31418,7 +30838,6 @@ CH2O
         n = 0,
         Ea = (60000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31479,7 +30898,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31538,7 +30956,6 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31597,7 +31014,6 @@ OH
         n = 0,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31660,7 +31076,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31729,7 +31144,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31794,7 +31208,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31843,7 +31256,6 @@ CH2O
         n = 0,
         Ea = (60000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31904,7 +31316,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -31963,7 +31374,6 @@ OH
         n = 0,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32022,7 +31432,6 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32091,7 +31500,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32154,7 +31562,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32219,7 +31626,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32272,7 +31678,6 @@ HO2
         n = -9.41,
         Ea = (41490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32325,7 +31730,6 @@ HO2
         n = -8.11,
         Ea = (40490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32382,7 +31786,6 @@ C4H10
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32439,7 +31842,6 @@ C4H10
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32504,7 +31906,6 @@ HO2
         n = 0,
         Ea = (52340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32569,7 +31970,6 @@ HO2
         n = 0,
         Ea = (49800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32646,7 +32046,6 @@ C3H6
         n = 0,
         Ea = (20500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32723,7 +32122,6 @@ C3H6
         n = 0,
         Ea = (16400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32798,7 +32196,6 @@ C2H6
         n = 0,
         Ea = (12300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32873,7 +32270,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -32944,7 +32340,6 @@ C2H4
         n = 0,
         Ea = (18000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33015,7 +32410,6 @@ C2H4
         n = 0,
         Ea = (16800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33084,7 +32478,6 @@ CH4
         n = 3.65,
         Ea = (7154, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33153,7 +32546,6 @@ CH4
         n = 3.46,
         Ea = (5481, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33216,7 +32608,6 @@ H2
         n = 2.75,
         Ea = (6280, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33279,7 +32670,6 @@ H2
         n = 2.4,
         Ea = (4471, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33344,7 +32734,6 @@ H2O
         n = 0.97,
         Ea = (1586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33409,7 +32798,6 @@ H2O
         n = 1.61,
         Ea = (-35, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33472,7 +32860,6 @@ OH
         n = 0,
         Ea = (7850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33535,7 +32922,6 @@ OH
         n = 0,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33602,7 +32988,6 @@ H2O2
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33669,7 +33054,6 @@ H2O2
         n = 2.5,
         Ea = (14860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33740,7 +33124,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33811,7 +33194,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33888,7 +33270,6 @@ C2H5OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -33965,7 +33346,6 @@ C2H5OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34052,7 +33432,6 @@ C4H10
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34129,7 +33508,6 @@ CH3CO3H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34206,7 +33584,6 @@ CH3CO3H
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34277,7 +33654,6 @@ HO2CHO
         n = 0,
         Ea = (20440, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34348,7 +33724,6 @@ HO2CHO
         n = 0,
         Ea = (17690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34421,7 +33796,6 @@ PC4H9
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34494,7 +33868,6 @@ SC4H9
         n = 2.5,
         Ea = (14860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34573,7 +33946,6 @@ PC4H9
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34652,7 +34024,6 @@ SC4H9
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34737,7 +34108,6 @@ PC4H9
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34822,7 +34192,6 @@ SC4H9
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34907,7 +34276,6 @@ PC4H9
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -34992,7 +34360,6 @@ SC4H9
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35077,7 +34444,6 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35162,7 +34528,6 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35253,7 +34618,6 @@ PC4H9
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35344,7 +34708,6 @@ SC4H9
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35429,7 +34792,6 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35514,7 +34876,6 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35605,7 +34966,6 @@ PC4H9
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35696,7 +35056,6 @@ SC4H9
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35751,7 +35110,6 @@ PC4H9
         n = 2.48,
         Ea = (6130, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35806,7 +35164,6 @@ SC4H9
         n = 2.48,
         Ea = (6130, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35861,7 +35218,6 @@ PC4H9
         n = 0.51,
         Ea = (2620, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35916,7 +35272,6 @@ SC4H9
         n = 0.51,
         Ea = (2620, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -35971,7 +35326,6 @@ SC4H9
         n = 0.51,
         Ea = (1230, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36034,7 +35388,6 @@ HO2
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36097,7 +35450,6 @@ HO2
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36160,7 +35512,6 @@ HO2
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36213,7 +35564,6 @@ C4H8-1
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36266,7 +35616,6 @@ C4H8-1
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36327,7 +35676,6 @@ HO2
         n = 0,
         Ea = (37190, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36386,7 +35734,6 @@ H2
         n = 2.5,
         Ea = (12290, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36445,7 +35792,6 @@ H2
         n = 2.5,
         Ea = (5821, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36504,7 +35850,6 @@ H2
         n = 2.36,
         Ea = (207, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36563,7 +35908,6 @@ H2
         n = 2.54,
         Ea = (6756, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36624,7 +35968,6 @@ H2O
         n = 2,
         Ea = (2778, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36685,7 +36028,6 @@ H2O
         n = 2,
         Ea = (1451, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36746,7 +36088,6 @@ H2O
         n = 2.64,
         Ea = (-1919, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36807,7 +36148,6 @@ H2O
         n = 0.97,
         Ea = (1586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36872,7 +36212,6 @@ CH4
         n = 3.31,
         Ea = (4002, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -36937,7 +36276,6 @@ CH4
         n = 3.65,
         Ea = (7154, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37000,7 +36338,6 @@ H2O2
         n = 2.55,
         Ea = (10530, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37063,7 +36400,6 @@ H2O2
         n = 2.55,
         Ea = (16490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37132,7 +36468,6 @@ CH3O2H
         n = 2.55,
         Ea = (10530, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37201,7 +36536,6 @@ CH3O2H
         n = 2.55,
         Ea = (16490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37268,7 +36602,6 @@ CH3OH
         n = 2.9,
         Ea = (8609, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37335,7 +36668,6 @@ CH3OH
         n = 0,
         Ea = (6458, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37408,7 +36740,6 @@ CH3CO3H
         n = 0,
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37481,7 +36812,6 @@ C3H6
         n = 0,
         Ea = (12400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37558,7 +36888,6 @@ C4H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37633,7 +36962,6 @@ C2H5O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37714,7 +37042,6 @@ NC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37795,7 +37122,6 @@ IC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37882,7 +37208,6 @@ PC4H9O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -37969,7 +37294,6 @@ SC4H9O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38038,7 +37362,6 @@ CH3O
         n = 0,
         Ea = (14340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38091,7 +37414,6 @@ C4H8-2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38152,7 +37474,6 @@ HO2
         n = 0,
         Ea = (39390, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38211,7 +37532,6 @@ H2
         n = 2.5,
         Ea = (2492, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38272,7 +37592,6 @@ H2O
         n = 2,
         Ea = (-298, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38337,7 +37656,6 @@ CH4
         n = 3.5,
         Ea = (5675, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38400,7 +37718,6 @@ H2O2
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38469,7 +37786,6 @@ CH3O2H
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38536,7 +37852,6 @@ CH3OH
         n = 2.95,
         Ea = (11990, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38611,7 +37926,6 @@ C2H5O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38692,7 +38006,6 @@ NC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38773,7 +38086,6 @@ IC3H7O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38860,7 +38172,6 @@ PC4H9O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -38947,7 +38258,6 @@ SC4H9O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39010,7 +38320,6 @@ OH
         n = 0,
         Ea = (14340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39073,7 +38382,6 @@ OH
         n = 0,
         Ea = (12310, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39142,7 +38450,6 @@ CH3O
         n = 0,
         Ea = (12310, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39199,7 +38506,6 @@ C4H8OH-1
         n = 0,
         Ea = (-782, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39256,7 +38562,6 @@ C4H8OH-2
         n = 0,
         Ea = (-782, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39317,7 +38622,6 @@ C4H8OH-1O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39378,7 +38682,6 @@ C4H8OH-2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39443,7 +38746,6 @@ OH
         n = 0,
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39508,7 +38810,6 @@ CH3CHO
         n = 0,
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39559,7 +38860,6 @@ C4H71-1
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39610,7 +38910,6 @@ C4H71-2
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39661,7 +38960,6 @@ C4H71-4
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39712,7 +39010,6 @@ C4H72-2
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39763,7 +39060,6 @@ C4H71-3
         n = 0,
         Ea = (1300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39832,7 +39128,6 @@ C2H4
         n = 0,
         Ea = (-131, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39897,7 +39192,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -39954,7 +39248,6 @@ CH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40015,7 +39308,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40082,7 +39374,6 @@ CH3O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40153,7 +39444,6 @@ C4H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40212,7 +39502,6 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40269,7 +39558,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40338,7 +39626,6 @@ C2H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40403,7 +39690,6 @@ C4H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40476,7 +39762,6 @@ C2H5O
         n = 0,
         Ea = (-1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40555,7 +39840,6 @@ C4H7O
         n = 0,
         Ea = (-1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40634,7 +39918,6 @@ C4H7O
         n = 0,
         Ea = (-1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40687,7 +39970,6 @@ C2H3
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40740,7 +40022,6 @@ CH3
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40789,7 +40070,6 @@ H
         n = -6.27,
         Ea = (112353, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40838,7 +40118,6 @@ H
         n = -8.62,
         Ea = (123608, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40887,7 +40166,6 @@ H2
         n = 0,
         Ea = (94700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40942,7 +40220,6 @@ H2
         n = 2.53,
         Ea = (12240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -40997,7 +40274,6 @@ H2
         n = 2.53,
         Ea = (9240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41052,7 +40328,6 @@ CH3
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41107,7 +40382,6 @@ CH3
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41162,7 +40436,6 @@ OH
         n = 1.9,
         Ea = (3740, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41217,7 +40490,6 @@ OH
         n = 1.9,
         Ea = (3740, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41272,7 +40544,6 @@ H
         n = 1.45,
         Ea = (-860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41327,7 +40598,6 @@ H
         n = 1.45,
         Ea = (-860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41384,7 +40654,6 @@ H2O
         n = 2,
         Ea = (3430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41441,7 +40710,6 @@ H2O
         n = 2,
         Ea = (430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41500,7 +40768,6 @@ OH
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41559,7 +40826,6 @@ OH
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41620,7 +40886,6 @@ CH4
         n = 0,
         Ea = (22800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41681,7 +40946,6 @@ CH4
         n = 0,
         Ea = (19800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41744,7 +41008,6 @@ C2H4
         n = 0,
         Ea = (22800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41807,7 +41070,6 @@ C2H4
         n = 0,
         Ea = (19800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41872,7 +41134,6 @@ C3H4-A
         n = 0,
         Ea = (22500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -41937,7 +41198,6 @@ C3H4-A
         n = 0,
         Ea = (19500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42006,7 +41266,6 @@ C3H6
         n = 0,
         Ea = (22500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42075,7 +41334,6 @@ C3H6
         n = 0,
         Ea = (19500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42118,7 +41376,6 @@ C4H5-I
         n = -16.89,
         Ea = (59100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42171,7 +41428,6 @@ H
         n = -3.35,
         Ea = (17423, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42224,7 +41480,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42279,7 +41534,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42336,7 +41590,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42397,7 +41650,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42456,7 +41708,6 @@ HO2
         n = 0,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42513,7 +41764,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42568,7 +41818,6 @@ O
         n = 0.29,
         Ea = (11, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42623,7 +41872,6 @@ C2H3CHO
         n = -1.39,
         Ea = (1010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42676,7 +41924,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42729,7 +41976,6 @@ CH3
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42784,7 +42030,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42841,7 +42086,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42898,7 +42142,6 @@ O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -42959,7 +42202,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43018,7 +42260,6 @@ HO2
         n = 0,
         Ea = (-596, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43073,7 +42314,6 @@ CH2CHO
         n = 0,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43116,7 +42356,6 @@ C4H5-I
         n = -16.89,
         Ea = (59100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43169,7 +42408,6 @@ H
         n = -3.35,
         Ea = (17423, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43230,7 +42468,6 @@ CH3CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43285,7 +42522,6 @@ CH2CO
         n = 0,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43334,7 +42570,6 @@ H
         n = 0,
         Ea = (92600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43389,7 +42624,6 @@ H
         n = 0,
         Ea = (4000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43444,7 +42678,6 @@ H2
         n = 2.5,
         Ea = (2490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43499,7 +42732,6 @@ CH3
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43554,7 +42786,6 @@ CH3
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43615,7 +42846,6 @@ CH4
         n = 0,
         Ea = (18500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43670,7 +42900,6 @@ C2H4
         n = 1.65,
         Ea = (327, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43725,7 +42954,6 @@ OH
         n = 0.7,
         Ea = (5880, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43782,7 +43010,6 @@ H2O
         n = 2,
         Ea = (-298, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43827,7 +43054,6 @@ C4H6
         n = 0,
         Ea = (65000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43872,7 +43098,6 @@ C4H6
         n = 0,
         Ea = (65000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43917,7 +43142,6 @@ C4H612
         n = 0,
         Ea = (67000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -43972,7 +43196,6 @@ H
         n = 0,
         Ea = (4000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44027,7 +43250,6 @@ H2
         n = 2.5,
         Ea = (2490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44082,7 +43304,6 @@ C3H4-P
         n = 2.5,
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44131,7 +43352,6 @@ C4H5-2
         n = 0,
         Ea = (87300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44192,7 +43412,6 @@ CH4
         n = 0,
         Ea = (18500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44239,7 +43458,6 @@ C4H6O23
         n = 0,
         Ea = (50600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44286,7 +43504,6 @@ CH3CHCHCHO
         n = 0,
         Ea = (49400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44337,7 +43554,6 @@ CH2CO
         n = 0,
         Ea = (69300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44388,7 +43604,6 @@ C2H4O1-2
         n = 0,
         Ea = (75800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44439,7 +43654,6 @@ H2
         n = 0,
         Ea = (48500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44486,7 +43700,6 @@ C3H4-P
         n = 0,
         Ea = (77500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44533,7 +43746,6 @@ CH2CO
         n = 0,
         Ea = (77500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44584,7 +43796,6 @@ CO
         n = 0,
         Ea = (69000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44641,7 +43852,6 @@ H2
         n = 2.5,
         Ea = (2490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44698,7 +43908,6 @@ H2
         n = 2.5,
         Ea = (2490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44755,7 +43964,6 @@ C2H3CHO
         n = -2.39,
         Ea = (11180, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44812,7 +44020,6 @@ HCO
         n = -2.39,
         Ea = (11180, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44875,7 +44082,6 @@ CH4
         n = 3.5,
         Ea = (5675, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -44938,7 +44144,6 @@ CH4
         n = 3.5,
         Ea = (5675, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45003,7 +44208,6 @@ C2H4
         n = 3.5,
         Ea = (4682, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45068,7 +44272,6 @@ C2H4
         n = 3.5,
         Ea = (4682, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45117,7 +44320,6 @@ CO
         n = 0,
         Ea = (30000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45168,7 +44370,6 @@ CH3CHCHCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45217,7 +44418,6 @@ CO
         n = 0,
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45268,7 +44468,6 @@ CH3CHCHCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45315,7 +44514,6 @@ C6H3
         n = -4.92,
         Ea = (10800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45368,7 +44566,6 @@ C2H2
         n = -2.55,
         Ea = (10780, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45417,7 +44614,6 @@ L-C6H4
         n = -9.01,
         Ea = (12120, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45470,7 +44666,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45525,7 +44720,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45585,7 +44779,6 @@ HCCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45640,7 +44833,6 @@ H
         n = -11.7,
         Ea = (34500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45695,7 +44887,6 @@ H2
         n = 2.53,
         Ea = (9240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45752,7 +44943,6 @@ H2O
         n = 2,
         Ea = (430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45799,7 +44989,6 @@ C4H5-N
         n = -11.92,
         Ea = (16500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45846,7 +45035,6 @@ C4H5-I
         n = -11.92,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45897,7 +45085,6 @@ H2
         n = 2.53,
         Ea = (12240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -45948,7 +45135,6 @@ H2
         n = 2.53,
         Ea = (9240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46001,7 +45187,6 @@ H2O
         n = 2,
         Ea = (3430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46054,7 +45239,6 @@ H2O
         n = 2,
         Ea = (430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46105,7 +45289,6 @@ HCO
         n = 1.45,
         Ea = (-860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46160,7 +45343,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46199,7 +45381,6 @@ C4H3-I
         n = -9.49,
         Ea = (53000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46248,7 +45429,6 @@ H
         n = -1.67,
         Ea = (10800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46297,7 +45477,6 @@ H2CC
         n = -3.34,
         Ea = (10014, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46342,7 +45521,6 @@ C4H4
         n = -10.26,
         Ea = (13070, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46391,7 +45569,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46442,7 +45619,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46497,7 +45673,6 @@ H
         n = -0.56,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46552,7 +45727,6 @@ H
         n = -10.01,
         Ea = (30100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46601,7 +45775,6 @@ H2CC
         n = -2.55,
         Ea = (10780, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46646,7 +45819,6 @@ C4H4
         n = -9.01,
         Ea = (12120, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46695,7 +45867,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46746,7 +45917,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46797,7 +45967,6 @@ CH2CO
         n = -1.8,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46850,7 +46019,6 @@ C2H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46893,7 +46061,6 @@ C4H3-N
         n = -8.72,
         Ea = (15300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46936,7 +46103,6 @@ C4H3-I
         n = -4.92,
         Ea = (10800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -46983,7 +46149,6 @@ CO
         n = 0,
         Ea = (1720, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47032,7 +46197,6 @@ H
         n = 0,
         Ea = (-410, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47083,7 +46247,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47130,7 +46293,6 @@ C6H3
         n = -7.68,
         Ea = (7100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47179,7 +46341,6 @@ HCCO
         n = 0,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47230,7 +46391,6 @@ HCCO
         n = 2,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47273,7 +46433,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47318,7 +46477,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47363,7 +46521,6 @@ HCO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47412,7 +46569,6 @@ C4H6
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47479,7 +46635,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47544,7 +46699,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47609,7 +46763,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47678,7 +46831,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47753,7 +46905,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47824,7 +46975,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47891,7 +47041,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -47956,7 +47105,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48021,7 +47169,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48090,7 +47237,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48165,7 +47311,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48236,7 +47381,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48303,7 +47447,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48368,7 +47511,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48433,7 +47575,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48502,7 +47643,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48577,7 +47717,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48648,7 +47787,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48715,7 +47853,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48780,7 +47917,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48845,7 +47981,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48914,7 +48049,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -48989,7 +48123,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49060,7 +48193,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49119,7 +48251,6 @@ PC4H9O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49178,7 +48309,6 @@ SC4H9O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49249,7 +48379,6 @@ HCO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49326,7 +48455,6 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49395,7 +48523,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49478,7 +48605,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49561,7 +48687,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49644,7 +48769,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49727,7 +48851,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49824,7 +48947,6 @@ SC4H9O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -49915,7 +49037,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50006,7 +49127,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50091,7 +49211,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50170,7 +49289,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50253,7 +49371,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50326,7 +49443,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50399,7 +49515,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50466,7 +49581,6 @@ PC4H9O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50533,7 +49647,6 @@ SC4H9O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50612,7 +49725,6 @@ PC4H9O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50691,7 +49803,6 @@ SC4H9O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50774,7 +49885,6 @@ C2H5CO
         n = 0,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50857,7 +49967,6 @@ C2H5CO
         n = 0,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50928,7 +50037,6 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51005,7 +50113,6 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51088,7 +50195,6 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51171,7 +50277,6 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51260,7 +50365,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51349,7 +50453,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51428,7 +50531,6 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51499,7 +50601,6 @@ HCO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51576,7 +50677,6 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51645,7 +50745,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51726,7 +50825,6 @@ PC4H9O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51807,7 +50905,6 @@ SC4H9O2H
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51882,7 +50979,6 @@ PC4H9O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -51957,7 +51053,6 @@ SC4H9O2H
         n = 0,
         Ea = (30430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52032,7 +51127,6 @@ PC4H9O2H
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52107,7 +51201,6 @@ SC4H9O2H
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52186,7 +51279,6 @@ PC4H9O2H
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52265,7 +51357,6 @@ SC4H9O2H
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52338,7 +51429,6 @@ PC4H9O2H
         n = 0,
         Ea = (24640, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52411,7 +51501,6 @@ SC4H9O2H
         n = 0,
         Ea = (24640, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52496,7 +51585,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52581,7 +51669,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52652,7 +51739,6 @@ PC4H9O2H
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52723,7 +51809,6 @@ SC4H9O2H
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52820,7 +51905,6 @@ PC4H9O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -52917,7 +52001,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53008,7 +52091,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53099,7 +52181,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53184,7 +52265,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53263,7 +52343,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53346,7 +52425,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53417,7 +52495,6 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53494,7 +52571,6 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53577,7 +52653,6 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53660,7 +52735,6 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53749,7 +52823,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53838,7 +52911,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53917,7 +52989,6 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -53982,7 +53053,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54047,7 +53117,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54118,7 +53187,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54189,7 +53257,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54250,7 +53317,6 @@ OH
         n = 0,
         Ea = (42500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54311,7 +53377,6 @@ OH
         n = 0,
         Ea = (41600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54368,7 +53433,6 @@ PC4H9O
         n = 0,
         Ea = (3457, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54425,7 +53489,6 @@ SC4H9O
         n = 0,
         Ea = (9043, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54482,7 +53545,6 @@ SC4H9O
         n = 0,
         Ea = (6397, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54537,7 +53599,6 @@ C4H8OOH1-2
         n = 0,
         Ea = (26850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54592,7 +53653,6 @@ C4H8OOH1-3
         n = 0,
         Ea = (20850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54647,7 +53707,6 @@ C4H8OOH1-4
         n = 0,
         Ea = (22350, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54702,7 +53761,6 @@ C4H8OOH2-1
         n = 0,
         Ea = (29400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54757,7 +53815,6 @@ C4H8OOH2-3
         n = 0,
         Ea = (26850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54812,7 +53869,6 @@ C4H8OOH2-4
         n = 0,
         Ea = (24400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54871,7 +53927,6 @@ HO2
         n = -8.11,
         Ea = (40490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54930,7 +53985,6 @@ HO2
         n = -9.41,
         Ea = (41490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -54989,7 +54043,6 @@ HO2
         n = -8.11,
         Ea = (40490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55048,7 +54101,6 @@ C4H8OOH1-2
         n = 0,
         Ea = (11000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55107,7 +54159,6 @@ C4H8OOH2-1
         n = 0,
         Ea = (11750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55166,7 +54217,6 @@ C4H8OOH2-3
         n = 0,
         Ea = (11750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55225,7 +54275,6 @@ OH
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55284,7 +54333,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55343,7 +54391,6 @@ OH
         n = 0,
         Ea = (6000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55402,7 +54449,6 @@ OH
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55461,7 +54507,6 @@ OH
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55520,7 +54565,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55579,7 +54623,6 @@ OH
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55638,7 +54681,6 @@ OH
         n = 0,
         Ea = (1500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55701,7 +54743,6 @@ C3H6
         n = -0.16,
         Ea = (29900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55764,7 +54805,6 @@ C2H4
         n = -1.63,
         Ea = (26790, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55827,7 +54867,6 @@ C4H8OOH1-2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55890,7 +54929,6 @@ C4H8OOH1-3O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -55953,7 +54991,6 @@ C4H8OOH1-4O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56016,7 +55053,6 @@ C4H8OOH2-1O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56079,7 +55115,6 @@ C4H8OOH2-3O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56142,7 +55177,6 @@ C4H8OOH2-4O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56205,7 +55239,6 @@ OH
         n = 0,
         Ea = (26400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56268,7 +55301,6 @@ OH
         n = 0,
         Ea = (21400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56331,7 +55363,6 @@ OH
         n = 0,
         Ea = (19350, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56394,7 +55425,6 @@ OH
         n = 0,
         Ea = (23850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56457,7 +55487,6 @@ OH
         n = 0,
         Ea = (23850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56520,7 +55549,6 @@ OH
         n = 0,
         Ea = (17850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56583,7 +55611,6 @@ OH
         n = 0,
         Ea = (41600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56646,7 +55673,6 @@ OH
         n = 0,
         Ea = (41600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56709,7 +55735,6 @@ OH
         n = 0,
         Ea = (42000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56772,7 +55797,6 @@ OH
         n = 0,
         Ea = (42000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56835,7 +55859,6 @@ OH
         n = 0,
         Ea = (41600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56898,7 +55921,6 @@ OH
         n = 0,
         Ea = (42000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -56961,7 +55983,6 @@ H2O
         n = 0.97,
         Ea = (1586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57024,7 +56045,6 @@ H2O
         n = 0,
         Ea = (-228, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57087,7 +56107,6 @@ H2O
         n = 0,
         Ea = (1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57152,7 +56171,6 @@ H2O2
         n = 2.55,
         Ea = (16490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57217,7 +56235,6 @@ H2O2
         n = 0,
         Ea = (8698, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57282,7 +56299,6 @@ H2O2
         n = 2.55,
         Ea = (14690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57343,7 +56359,6 @@ OH
         n = 0,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57404,7 +56419,6 @@ OH
         n = 0,
         Ea = (3400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57465,7 +56479,6 @@ OH
         n = 0,
         Ea = (5962, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57526,7 +56539,6 @@ H2
         n = 2,
         Ea = (7700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57587,7 +56599,6 @@ H2
         n = 2,
         Ea = (3200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57648,7 +56659,6 @@ H2
         n = 0,
         Ea = (6357, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57711,7 +56721,6 @@ HO2
         n = 0,
         Ea = (51310, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57774,7 +56783,6 @@ HO2
         n = 0,
         Ea = (41970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57837,7 +56845,6 @@ HO2
         n = 0,
         Ea = (49150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57904,7 +56911,6 @@ CH4
         n = 3.17,
         Ea = (7172, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -57971,7 +56977,6 @@ CH4
         n = 3.46,
         Ea = (3680, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58038,7 +57043,6 @@ CH4
         n = 0,
         Ea = (9630, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58107,7 +57111,6 @@ CH3OH
         n = 0,
         Ea = (6460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58176,7 +57179,6 @@ CH3OH
         n = 0,
         Ea = (2771, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58245,7 +57247,6 @@ CH3OH
         n = 0,
         Ea = (4660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58316,7 +57317,6 @@ CH3O2H
         n = 0,
         Ea = (19380, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58387,7 +57387,6 @@ CH3O2H
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58458,7 +57457,6 @@ CH3O2H
         n = 0,
         Ea = (17580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58527,7 +57525,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58596,7 +57593,6 @@ C2H4
         n = 0,
         Ea = (3400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58665,7 +57661,6 @@ C2H4
         n = 0,
         Ea = (4278, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58738,7 +57733,6 @@ C2H6
         n = 0,
         Ea = (13400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58811,7 +57805,6 @@ C2H6
         n = 0,
         Ea = (8600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58884,7 +57877,6 @@ C2H6
         n = 0,
         Ea = (11600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58941,7 +57933,6 @@ CH3CHOOCOCH3
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -58994,7 +57985,6 @@ CH2CHOOHCOCH3
         n = 0,
         Ea = (29700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59051,7 +58041,6 @@ CH2CHOOHCOCH3
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59098,7 +58087,6 @@ HCO
         n = -0.52,
         Ea = (24590, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59151,7 +58139,6 @@ CH3CO
         n = 0,
         Ea = (18000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59204,7 +58191,6 @@ C2H5
         n = 0,
         Ea = (35000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59257,7 +58243,6 @@ CH3CHCOCH3
         n = 0,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59310,7 +58295,6 @@ CH3CHCOCH3
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59373,7 +58357,6 @@ HO2
         n = 2.5,
         Ea = (37560, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59436,7 +58419,6 @@ H2O
         n = 1.8,
         Ea = (-1300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59497,7 +58479,6 @@ H2
         n = 1.12,
         Ea = (2320, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59558,7 +58539,6 @@ OH
         n = 0,
         Ea = (1868, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59623,7 +58603,6 @@ H2O2
         n = 2.5,
         Ea = (10200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59690,7 +58669,6 @@ CH4
         n = 4.62,
         Ea = (3210, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59759,7 +58737,6 @@ CH3OH
         n = 0,
         Ea = (3300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59830,7 +58807,6 @@ CH3O2H
         n = 2.5,
         Ea = (10200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59893,7 +58869,6 @@ H2O
         n = 0.97,
         Ea = (1586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -59956,7 +58931,6 @@ H2O
         n = 1.61,
         Ea = (-35, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60019,7 +58993,6 @@ H2O
         n = 3.12,
         Ea = (-1176, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60084,7 +59057,6 @@ H2O2
         n = 2.55,
         Ea = (16490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60149,7 +59121,6 @@ H2O2
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60214,7 +59185,6 @@ H2O2
         n = 0.05,
         Ea = (17880, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60285,7 +59255,6 @@ CH3O2H
         n = 2.55,
         Ea = (16490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60356,7 +59325,6 @@ CH3O2H
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60427,7 +59395,6 @@ CH3O2H
         n = 0.05,
         Ea = (17880, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60480,7 +59447,6 @@ CO
         n = 0,
         Ea = (9600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60533,7 +59499,6 @@ CH2CHO
         n = 0,
         Ea = (21970, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60586,7 +59551,6 @@ C3H6CHO-3
         n = 0,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60639,7 +59603,6 @@ C3H6CHO-3
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60692,7 +59655,6 @@ C3H6CHO-2
         n = 0,
         Ea = (2900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60745,7 +59707,6 @@ C3H6CHO-2
         n = 0,
         Ea = (6000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60804,7 +59765,6 @@ CO2
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60861,7 +59821,6 @@ CO
         n = 0,
         Ea = (1459, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60918,7 +59877,6 @@ CO2
         n = 0,
         Ea = (-437, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -60977,7 +59935,6 @@ H2O
         n = 0.76,
         Ea = (-340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61026,7 +59983,6 @@ CO
         n = 0,
         Ea = (23000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61087,7 +60043,6 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61150,7 +60105,6 @@ CH4
         n = 0,
         Ea = (8700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61207,7 +60161,6 @@ OH
         n = 0,
         Ea = (1389, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61266,7 +60219,6 @@ HO2
         n = 0,
         Ea = (37600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61323,7 +60275,6 @@ H2
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61382,7 +60333,6 @@ CH3CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61445,7 +60395,6 @@ H2O
         n = 0,
         Ea = (1192, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61510,7 +60459,6 @@ OH
         n = 0,
         Ea = (7949, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61575,7 +60523,6 @@ H2O2
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61646,7 +60593,6 @@ CH3O
         n = 0,
         Ea = (17050, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61717,7 +60663,6 @@ CH3O2H
         n = 0,
         Ea = (17580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61774,7 +60719,6 @@ H
         n = -23.81,
         Ea = (145300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61831,7 +60775,6 @@ H
         n = -23.11,
         Ea = (147600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61894,7 +60837,6 @@ H2
         n = 2.54,
         Ea = (6756, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -61957,7 +60899,6 @@ H2
         n = 2.4,
         Ea = (2583, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62026,7 +60967,6 @@ CH4
         n = 3.65,
         Ea = (7154, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62095,7 +61035,6 @@ CH4
         n = 3.46,
         Ea = (4598, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62160,7 +61099,6 @@ H2O
         n = 0.51,
         Ea = (63, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62225,7 +61163,6 @@ H2O
         n = 1.53,
         Ea = (776, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62300,7 +61237,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62375,7 +61311,6 @@ C2H6
         n = 0,
         Ea = (7900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62442,7 +61377,6 @@ H2O2
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62509,7 +61443,6 @@ H2O2
         n = 2.5,
         Ea = (12260, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62572,7 +61505,6 @@ OH
         n = 2.4,
         Ea = (1150, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62635,7 +61567,6 @@ OH
         n = 2.03,
         Ea = (5136, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62706,7 +61637,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62777,7 +61707,6 @@ CH3OH
         n = 0,
         Ea = (2800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62842,7 +61771,6 @@ HO2
         n = 0,
         Ea = (46000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62907,7 +61835,6 @@ HO2
         n = 0,
         Ea = (41350, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -62980,7 +61907,6 @@ CH3O2H
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63059,7 +61985,6 @@ C2H5O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63136,7 +62061,6 @@ CH3CO3H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63221,7 +62145,6 @@ NC3H7O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63306,7 +62229,6 @@ IC3H7O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63397,7 +62319,6 @@ IC4H9O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63488,7 +62409,6 @@ TC4H9O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63559,7 +62479,6 @@ HO2CHO
         n = 0,
         Ea = (20440, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63630,7 +62549,6 @@ HO2CHO
         n = 0,
         Ea = (16010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63721,7 +62639,6 @@ SC4H9O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63812,7 +62729,6 @@ SC4H9O2H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63903,7 +62819,6 @@ PC4H9O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -63994,7 +62909,6 @@ PC4H9O2H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64067,7 +62981,6 @@ CH3O2H
         n = 2.5,
         Ea = (12260, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64146,7 +63059,6 @@ C2H5O2H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64223,7 +63135,6 @@ CH3CO3H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64308,7 +63219,6 @@ NC3H7O2H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64393,7 +63303,6 @@ IC3H7O2H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64484,7 +63393,6 @@ IC4H9O2H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64575,7 +63483,6 @@ TC4H9O2H
         n = 0,
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64662,7 +63569,6 @@ IC4H10
         n = 0,
         Ea = (7900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64727,7 +63633,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64792,7 +63697,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64863,7 +63767,6 @@ IC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64934,7 +63837,6 @@ TC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -64989,7 +63891,6 @@ H
         n = -6.23,
         Ea = (40070, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65044,7 +63945,6 @@ CH3
         n = -7.4,
         Ea = (38670, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65099,7 +63999,6 @@ IC4H8
         n = -9.83,
         Ea = (55080, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65162,7 +64061,6 @@ HO2
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65225,7 +64123,6 @@ HO2
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65308,7 +64205,6 @@ IC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65391,7 +64287,6 @@ TC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65470,7 +64365,6 @@ IC4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65559,7 +64453,6 @@ IC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65648,7 +64541,6 @@ TC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65737,7 +64629,6 @@ IC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65826,7 +64717,6 @@ TC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65911,7 +64801,6 @@ IC4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -65996,7 +64885,6 @@ IC4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66055,7 +64943,6 @@ IC4H9O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66114,7 +65001,6 @@ TC4H9O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66205,7 +65091,6 @@ SC4H9
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66296,7 +65181,6 @@ SC4H9
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66387,7 +65271,6 @@ PC4H9
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66478,7 +65361,6 @@ PC4H9
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66561,7 +65443,6 @@ IC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66644,7 +65525,6 @@ TC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66723,7 +65603,6 @@ IC4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66804,7 +65683,6 @@ C3H5-A
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66885,7 +65763,6 @@ C3H5-A
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -66972,7 +65849,6 @@ IC4H7
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67059,7 +65935,6 @@ IC4H7
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67146,7 +66021,6 @@ IC4H7
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67233,7 +66107,6 @@ IC4H7
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67314,7 +66187,6 @@ IC4H7
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67395,7 +66267,6 @@ IC4H7
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67482,7 +66353,6 @@ C4H71-3
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67569,7 +66439,6 @@ C4H71-3
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67656,7 +66525,6 @@ C4H71-3
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67743,7 +66611,6 @@ C4H71-3
         n = 0,
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67810,7 +66677,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67875,7 +66741,6 @@ H2
         n = 2,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -67940,7 +66805,6 @@ OH
         n = 0,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68009,7 +66873,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68084,7 +66947,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68155,7 +67017,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68230,7 +67091,6 @@ TC4H9O2H
         n = 0,
         Ea = (17110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68303,7 +67163,6 @@ CH3
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68370,7 +67229,6 @@ TC4H9O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68449,7 +67307,6 @@ C2H5
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68534,7 +67391,6 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68619,7 +67475,6 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68694,7 +67549,6 @@ CH2OH
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68775,7 +67629,6 @@ PC2H4OH
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68856,7 +67709,6 @@ SC2H4OH
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -68933,7 +67785,6 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69010,7 +67861,6 @@ CH3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69089,7 +67939,6 @@ C2H3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69168,7 +68017,6 @@ C2H3CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69251,7 +68099,6 @@ C2H5CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69334,7 +68181,6 @@ C2H5CO
         n = 0,
         Ea = (13600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69403,7 +68249,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69472,7 +68317,6 @@ O2
         n = 0,
         Ea = (-3275, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69543,7 +68387,6 @@ HO2
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69614,7 +68457,6 @@ HO2
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69685,7 +68527,6 @@ HCO
         n = 0,
         Ea = (9000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69756,7 +68597,6 @@ HCO
         n = 0,
         Ea = (9000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69835,7 +68675,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69914,7 +68753,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -69999,7 +68837,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70084,7 +68921,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70167,7 +69003,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70250,7 +69085,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70347,7 +69181,6 @@ IC4H9O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70444,7 +69277,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70541,7 +69373,6 @@ TC4H9O
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70638,7 +69469,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70735,7 +69565,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70832,7 +69661,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -70929,7 +69757,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71020,7 +69847,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71111,7 +69937,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71202,7 +70027,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71293,7 +70117,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71366,7 +70189,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71439,7 +70261,6 @@ O2
         n = -1.61,
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71510,7 +70331,6 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71587,7 +70407,6 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71670,7 +70489,6 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71753,7 +70571,6 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71842,7 +70659,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -71931,7 +70747,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72020,7 +70835,6 @@ IC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72109,7 +70923,6 @@ TC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72188,7 +71001,6 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72273,7 +71085,6 @@ C4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72358,7 +71169,6 @@ IC4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72429,7 +71239,6 @@ CH3O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72506,7 +71315,6 @@ C2H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72589,7 +71397,6 @@ IC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72672,7 +71479,6 @@ NC3H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72761,7 +71567,6 @@ PC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72850,7 +71655,6 @@ SC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -72939,7 +71743,6 @@ IC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73028,7 +71831,6 @@ TC4H9O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73107,7 +71909,6 @@ C3H5O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73192,7 +71993,6 @@ C4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73277,7 +72077,6 @@ IC4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73352,7 +72151,6 @@ C2H3
         n = 0,
         Ea = (6000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73425,7 +72223,6 @@ CH3
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73492,7 +72289,6 @@ IC4H9O2H
         n = 0,
         Ea = (26030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73571,7 +72367,6 @@ C2H5
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73656,7 +72451,6 @@ IC3H7
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73741,7 +72535,6 @@ NC3H7
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73816,7 +72609,6 @@ CH2OH
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73897,7 +72689,6 @@ PC2H4OH
         n = 0,
         Ea = (19360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -73978,7 +72769,6 @@ SC2H4OH
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74039,7 +72829,6 @@ OH
         n = 0,
         Ea = (42500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74100,7 +72889,6 @@ OH
         n = 0,
         Ea = (42540, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74167,7 +72955,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74232,7 +73019,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74301,7 +73087,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74364,7 +73149,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74427,7 +73211,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74484,7 +73267,6 @@ H
         n = 0,
         Ea = (21500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74541,7 +73323,6 @@ IC3H7
         n = 0,
         Ea = (17500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74598,7 +73379,6 @@ TC4H9O
         n = 0,
         Ea = (11900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74663,7 +73443,6 @@ HO2
         n = 0,
         Ea = (1660, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74728,7 +73507,6 @@ HO2
         n = 0,
         Ea = (4700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74779,7 +73557,6 @@ IC3H7CHO
         n = 0,
         Ea = (52720, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74842,7 +73619,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74903,7 +73679,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -74968,7 +73743,6 @@ H2O2
         n = 0,
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75039,7 +73813,6 @@ CH3O2H
         n = 0,
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75106,7 +73879,6 @@ CH4
         n = 0,
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75167,7 +73939,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75222,7 +73993,6 @@ IC3H7CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75277,7 +74047,6 @@ IC3H7CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75342,7 +74111,6 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75407,7 +74175,6 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75474,7 +74241,6 @@ CH4
         n = 0,
         Ea = (8700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75535,7 +74301,6 @@ OH
         n = 0,
         Ea = (1389, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75598,7 +74363,6 @@ HO2
         n = 0,
         Ea = (37600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75661,7 +74425,6 @@ H2O
         n = 0.76,
         Ea = (-340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75724,7 +74487,6 @@ H2O
         n = 0,
         Ea = (-781, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75785,7 +74547,6 @@ H2
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75848,7 +74609,6 @@ H2O
         n = 2,
         Ea = (-298, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75913,7 +74673,6 @@ H2O2
         n = 2.55,
         Ea = (15500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -75984,7 +74743,6 @@ CH3O2H
         n = 2.55,
         Ea = (16490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76037,7 +74795,6 @@ IC3H7CO
         n = 0,
         Ea = (4810, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76090,7 +74847,6 @@ IC3H6CHO
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76143,7 +74899,6 @@ IC3H6CHO
         n = 0,
         Ea = (7800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76200,7 +74955,6 @@ IC4H8OH
         n = 0,
         Ea = (-960, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76261,7 +75015,6 @@ IO2C4H8OH
         n = 0,
         Ea = (-1100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76326,7 +75079,6 @@ OH
         n = 0,
         Ea = (18900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76381,7 +75133,6 @@ IC4H8O2H-I
         n = 0,
         Ea = (24400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76436,7 +75187,6 @@ TC4H8O2H-I
         n = 0,
         Ea = (29400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76491,7 +75241,6 @@ IC4H8O2H-T
         n = 0,
         Ea = (24100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76550,7 +75299,6 @@ HO2
         n = -7.22,
         Ea = (39490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76609,7 +75357,6 @@ HO2
         n = -9.41,
         Ea = (41490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76672,7 +75419,6 @@ IC4H8OOH-IO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76735,7 +75481,6 @@ TC4H8OOH-IO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76798,7 +75543,6 @@ IC4H8OOH-TO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76861,7 +75605,6 @@ OH
         n = 0,
         Ea = (21400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76924,7 +75667,6 @@ OH
         n = 0,
         Ea = (26400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -76987,7 +75729,6 @@ OH
         n = 0,
         Ea = (42000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77050,7 +75791,6 @@ OH
         n = 0,
         Ea = (42540, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77109,7 +75849,6 @@ TC4H8O2H-I
         n = 0,
         Ea = (12620, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77168,7 +75907,6 @@ IC4H8O2H-T
         n = 0,
         Ea = (12620, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77227,7 +75965,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77286,7 +76023,6 @@ OH
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77345,7 +76081,6 @@ OH
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77408,7 +76143,6 @@ C3H6
         n = -0.68,
         Ea = (29170, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77461,7 +76195,6 @@ CH3
         n = -14.22,
         Ea = (128100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77514,7 +76247,6 @@ H
         n = -11.49,
         Ea = (114300, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77573,7 +76305,6 @@ CH3
         n = -5.72,
         Ea = (20000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77632,7 +76363,6 @@ H2
         n = 2.5,
         Ea = (2492, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77695,7 +76425,6 @@ CH3
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77758,7 +76487,6 @@ H
         n = 1.76,
         Ea = (76, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77817,7 +76545,6 @@ OH
         n = 0.7,
         Ea = (7633, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77882,7 +76609,6 @@ CH4
         n = 3.5,
         Ea = (5675, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77945,7 +76671,6 @@ H2O2
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78012,7 +76737,6 @@ HO2CHO
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78073,7 +76797,6 @@ HO2
         n = 0,
         Ea = (39900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78146,7 +76869,6 @@ C3H6
         n = 0,
         Ea = (20500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78219,7 +76941,6 @@ C3H6
         n = 0,
         Ea = (20500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78292,7 +77013,6 @@ C3H6
         n = 0,
         Ea = (20500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78353,7 +77073,6 @@ H2O
         n = 2,
         Ea = (-298, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78412,7 +77131,6 @@ HCO
         n = 1.76,
         Ea = (-1216, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78481,7 +77199,6 @@ CH3O2H
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78544,7 +77261,6 @@ OH
         n = 0,
         Ea = (13340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78603,7 +77319,6 @@ OH
         n = -0.45,
         Ea = (23020, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78662,7 +77377,6 @@ CH2O
         n = -1.21,
         Ea = (21050, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78725,7 +77439,6 @@ OH
         n = -5.71,
         Ea = (21450, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78782,7 +77495,6 @@ H
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78833,7 +77545,6 @@ CH3
         n = -9.74,
         Ea = (74260, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78900,7 +77611,6 @@ IC4H7O
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -78961,7 +77671,6 @@ OH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79014,7 +77723,6 @@ IC4H7O
         n = 0,
         Ea = (12600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79063,7 +77771,6 @@ IC4H6OH
         n = 0,
         Ea = (15600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79116,7 +77823,6 @@ H
         n = 0,
         Ea = (29100, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79177,7 +77883,6 @@ H
         n = 2.38,
         Ea = (18990, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79240,7 +77945,6 @@ HO2
         n = 0,
         Ea = (39900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79305,7 +78009,6 @@ HCO
         n = 1.9,
         Ea = (18190, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79386,7 +78089,6 @@ IC4H7
         n = 3.3,
         Ea = (19840, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79441,7 +78143,6 @@ IC4H7OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79506,7 +78207,6 @@ HO2
         n = 2.05,
         Ea = (13580, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79559,7 +78259,6 @@ IC4H6OH
         n = 0,
         Ea = (9200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79620,7 +78319,6 @@ HO2
         n = 0,
         Ea = (1649, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79683,7 +78381,6 @@ H2O2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79748,7 +78445,6 @@ CH4
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79807,7 +78503,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79868,7 +78563,6 @@ H2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79927,7 +78621,6 @@ H2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -79986,7 +78679,6 @@ H2O
         n = 0.76,
         Ea = (-340, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80047,7 +78739,6 @@ H2O2
         n = 0,
         Ea = (11920, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80110,7 +78801,6 @@ CH4
         n = 0,
         Ea = (8700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80167,7 +78857,6 @@ OH
         n = 0,
         Ea = (1389, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80226,7 +78915,6 @@ HO2
         n = 0,
         Ea = (40700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80283,7 +78971,6 @@ H2
         n = 0,
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80332,7 +79019,6 @@ IC3H5CO
         n = 0,
         Ea = (4809, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80395,7 +79081,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80450,7 +79135,6 @@ HCO
         n = 0,
         Ea = (9700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80503,7 +79187,6 @@ TC3H6CHO
         n = 0,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80556,7 +79239,6 @@ TC3H6CHO
         n = 0,
         Ea = (4800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80617,7 +79299,6 @@ H
         n = 2.38,
         Ea = (18990, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80674,7 +79355,6 @@ IC4H7OOH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80729,7 +79409,6 @@ IC4H7OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80786,7 +79465,6 @@ IC4H8OH
         n = 0,
         Ea = (1200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80847,7 +79525,6 @@ H
         n = 2,
         Ea = (17830, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80902,7 +79579,6 @@ IC4H7OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -80967,7 +79643,6 @@ CH2O
         n = 0,
         Ea = (18160, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81032,7 +79707,6 @@ HCO
         n = 1.9,
         Ea = (18190, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81113,7 +79787,6 @@ IC4H7
         n = 3.3,
         Ea = (19840, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81172,7 +79845,6 @@ CO2
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81229,7 +79901,6 @@ TC3H6OHCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81286,7 +79957,6 @@ TC3H6OHCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81337,7 +80007,6 @@ TC3H6OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81388,7 +80057,6 @@ TC3H6OH
         n = 0,
         Ea = (1560, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81437,7 +80105,6 @@ IC3H5OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81494,7 +80161,6 @@ TC3H6O2CHO
         n = -2.1,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81547,7 +80213,6 @@ IC3H5O2HCHO
         n = 0,
         Ea = (29880, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81600,7 +80265,6 @@ TC3H6O2HCO
         n = 0,
         Ea = (25750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81657,7 +80321,6 @@ IC3H5O2HCHO
         n = 0,
         Ea = (10600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81718,7 +80381,6 @@ OH
         n = -1.43,
         Ea = (4800, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81777,7 +80439,6 @@ HO2
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81836,7 +80497,6 @@ CO
         n = 0,
         Ea = (-1010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81897,7 +80557,6 @@ HO2
         n = 0,
         Ea = (7240, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -81962,7 +80621,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82025,7 +80683,6 @@ O2
         n = 0,
         Ea = (1310, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82090,7 +80747,6 @@ CH4
         n = -0.32,
         Ea = (-131, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82149,7 +80805,6 @@ CH3
         n = 0,
         Ea = (26290, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82208,7 +80863,6 @@ HCO
         n = 0,
         Ea = (20090, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82271,7 +80925,6 @@ O2C4H8CHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82330,7 +80983,6 @@ O2HC4H8CO
         n = 0,
         Ea = (15360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82393,7 +81045,6 @@ O2HC4H8CO
         n = 0,
         Ea = (4809, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82474,7 +81125,6 @@ IC4H7
         n = 0,
         Ea = (4000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82541,7 +81191,6 @@ OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82616,7 +81265,6 @@ C3H5OH
         n = 0,
         Ea = (20500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82675,7 +81323,6 @@ HO2
         n = 0,
         Ea = (2583, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82732,7 +81379,6 @@ H2O
         n = 0,
         Ea = (5960, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82787,7 +81433,6 @@ H2
         n = 2.5,
         Ea = (5821, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82844,7 +81489,6 @@ HO2
         n = 0,
         Ea = (60690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82905,7 +81549,6 @@ CH4
         n = 0,
         Ea = (8030, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -82960,7 +81603,6 @@ IC4H7OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83009,7 +81651,6 @@ C3H5OH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83068,7 +81709,6 @@ CH2O
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83115,7 +81755,6 @@ CH2OH
         n = -8.31,
         Ea = (45110, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83162,7 +81801,6 @@ CH2CCH2OH
         n = 0,
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83207,7 +81845,6 @@ CH3OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83252,7 +81889,6 @@ CH3OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83303,7 +81939,6 @@ H2
         n = 2.537,
         Ea = (6494.2, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83356,7 +81991,6 @@ H2O
         n = 0.054,
         Ea = (3340.5, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83413,7 +82047,6 @@ CH4
         n = 3.7,
         Ea = (6823.8, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83468,7 +82101,6 @@ H2O2
         n = 2.44,
         Ea = (16594.3, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83529,7 +82161,6 @@ CH3O2H
         n = 2.44,
         Ea = (16594.3, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83588,7 +82219,6 @@ CH3OH
         n = 0.45,
         Ea = (4823.6, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83639,7 +82269,6 @@ OH
         n = 2.44,
         Ea = (4593.2, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83692,7 +82321,6 @@ HO2
         n = 0.0796,
         Ea = (51749.8, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83747,7 +82375,6 @@ CH2O
         n = 2.5,
         Ea = (18430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83810,7 +82437,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83869,7 +82495,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83926,7 +82551,6 @@ HCOOH
         n = 2.44,
         Ea = (16594.3, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83977,7 +82601,6 @@ H2
         n = 2.52,
         Ea = (5736.8, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84030,7 +82653,6 @@ H2O
         n = -0.981,
         Ea = (4946.1, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84087,7 +82709,6 @@ CH4
         n = 3.69,
         Ea = (6052.6, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84148,7 +82769,6 @@ CH3O2H
         n = 2.18,
         Ea = (16544.4, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84203,7 +82823,6 @@ H2O2
         n = 2.18,
         Ea = (16544.4, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84262,7 +82881,6 @@ CH3OH
         n = 0.83,
         Ea = (2912.4, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84313,7 +82931,6 @@ OH
         n = 2.47,
         Ea = (4047.8, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84366,7 +82983,6 @@ HO2
         n = 0.113,
         Ea = (50759.6, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84421,7 +83037,6 @@ CH2O
         n = 1.9,
         Ea = (17010, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84484,7 +83099,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84543,7 +83157,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84600,7 +83213,6 @@ HCOOH
         n = 2.18,
         Ea = (16544.4, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84663,7 +83275,6 @@ CH2OCHO
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84706,7 +83317,6 @@ CH3OCO
         n = 1.54,
         Ea = (34700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84749,7 +83359,6 @@ CH3OCO
         n = 2.02,
         Ea = (5730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84788,7 +83397,6 @@ CH3OCO
         n = -0.03,
         Ea = (38178, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84831,7 +83439,6 @@ CH2OCHO
         n = 0,
         Ea = (22000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84872,7 +83479,6 @@ HOCH2OCO
         n = 0,
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84917,7 +83523,6 @@ CO
         n = -2.02,
         Ea = (19690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -84962,7 +83567,6 @@ CO2
         n = -1.57,
         Ea = (22120, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85007,7 +83611,6 @@ OCH2OCHO
         n = 0,
         Ea = (2500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85060,7 +83663,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85113,7 +83715,6 @@ CO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85162,7 +83763,6 @@ CH3OC*OOOH
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85211,7 +83811,6 @@ HO2CH2OCHO
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85260,7 +83859,6 @@ CH3OC*OOOH
         n = 2.41,
         Ea = (-4132, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85309,7 +83907,6 @@ HO2CH2OCHO
         n = 2.41,
         Ea = (-4132, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85366,7 +83963,6 @@ CH3
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85423,7 +84019,6 @@ CH3
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85468,7 +84063,6 @@ CH3OC*OO
         n = 0,
         Ea = (9200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85515,7 +84109,6 @@ CH3OC*OOO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85562,7 +84155,6 @@ OOCH2OCHO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85605,7 +84197,6 @@ HOOCH2OC*O
         n = 0,
         Ea = (28900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85648,7 +84239,6 @@ CH2OC*OOOH
         n = 0,
         Ea = (28900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85695,7 +84285,6 @@ HOOCH2OC*O
         n = 1.65,
         Ea = (36591, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85742,7 +84331,6 @@ HOOCH2OC*O
         n = 1.633,
         Ea = (5588, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85783,7 +84371,6 @@ CH2O2H
         n = 0,
         Ea = (12900, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85835,7 +84422,6 @@ OH
         n = -1.47,
         Ea = (37360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85887,7 +84473,6 @@ HO2
         n = -1.47,
         Ea = (37360, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85935,7 +84520,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -85983,7 +84567,6 @@ OH
         n = 0,
         Ea = (15250, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86034,7 +84617,6 @@ OOCH2OC*OOOH
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86085,7 +84667,6 @@ HOOCH2OC*OOO
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86136,7 +84717,6 @@ OH
         n = 0,
         Ea = (21863, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86188,7 +84768,6 @@ OH
         n = 0,
         Ea = (41600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86237,7 +84816,6 @@ H2
         n = 1.5,
         Ea = (2005, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86288,7 +84866,6 @@ H2O
         n = 2,
         Ea = (-1192.2, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86341,7 +84918,6 @@ H2O2
         n = 0,
         Ea = (12976.7, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86382,7 +84958,6 @@ CHOOCO
         n = 0,
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86423,7 +84998,6 @@ CHOOCO
         n = 0,
         Ea = (36730, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86474,7 +85048,6 @@ EF
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86531,7 +85104,6 @@ H2
         n = 2.8,
         Ea = (6280, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86590,7 +85162,6 @@ HO2
         n = 0,
         Ea = (47500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86647,7 +85218,6 @@ OH
         n = 0,
         Ea = (7850, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86706,7 +85276,6 @@ H2O
         n = 1,
         Ea = (1586, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86767,7 +85336,6 @@ H2O2
         n = 0,
         Ea = (20430, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86830,7 +85398,6 @@ CH4
         n = 0,
         Ea = (11600, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86895,7 +85462,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -86964,7 +85530,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87029,7 +85594,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87096,7 +85660,6 @@ CH3O2H
         n = 0,
         Ea = (20460, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87145,7 +85708,6 @@ OCHO
         n = -0.4,
         Ea = (24610, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87204,7 +85766,6 @@ HO2
         n = 0,
         Ea = (47500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87261,7 +85822,6 @@ H2
         n = 2.4,
         Ea = (4471, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87318,7 +85878,6 @@ OH
         n = 0,
         Ea = (5200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87377,7 +85936,6 @@ H2O
         n = 1.6,
         Ea = (-35, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87438,7 +85996,6 @@ H2O2
         n = 0,
         Ea = (17700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87501,7 +86058,6 @@ CH4
         n = 0,
         Ea = (9500, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87566,7 +86122,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87635,7 +86190,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87700,7 +86254,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87767,7 +86320,6 @@ CH3O2H
         n = 0,
         Ea = (17000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87816,7 +86368,6 @@ HCO
         n = -0.9,
         Ea = (14040, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87873,7 +86424,6 @@ H2
         n = 2.4,
         Ea = (4471, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87930,7 +86480,6 @@ OH
         n = 2.5,
         Ea = (2830, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87989,7 +86538,6 @@ H2O
         n = 1.6,
         Ea = (-35, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88052,7 +86600,6 @@ CH4
         n = 3.5,
         Ea = (5481, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88113,7 +86660,6 @@ H2O2
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88172,7 +86718,6 @@ HO2
         n = 0,
         Ea = (49700, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88237,7 +86782,6 @@ CH3OH
         n = 0,
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88304,7 +86848,6 @@ CH3O2H
         n = 2.6,
         Ea = (13910, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88353,7 +86896,6 @@ EFF
         n = 1.5,
         Ea = (37410, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88402,7 +86944,6 @@ EFF
         n = 2,
         Ea = (5734, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88453,7 +86994,6 @@ EF
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88504,7 +87044,6 @@ EF
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88555,7 +87094,6 @@ EF
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88606,7 +87144,6 @@ EF
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88657,7 +87194,6 @@ EF
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88708,7 +87244,6 @@ C2H4
         n = 0,
         Ea = (50000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88765,7 +87300,6 @@ H2
         n = 2.4,
         Ea = (2583, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88822,7 +87356,6 @@ OH
         n = 2.4,
         Ea = (1140, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88881,7 +87414,6 @@ H2O
         n = 0.5,
         Ea = (63, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -88944,7 +87476,6 @@ CH4
         n = 6.4,
         Ea = (893, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89005,7 +87536,6 @@ H2O2
         n = 2.5,
         Ea = (10532, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89064,7 +87594,6 @@ HO2
         n = 0,
         Ea = (48200, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89129,7 +87658,6 @@ CH3OH
         n = 0,
         Ea = (2873, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89196,7 +87724,6 @@ CH3O2H
         n = 2.5,
         Ea = (10532, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89245,7 +87772,6 @@ ME2J
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89302,7 +87828,6 @@ H2
         n = 2.8,
         Ea = (6280, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89359,7 +87884,6 @@ OH
         n = 2.4,
         Ea = (4750, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89418,7 +87942,6 @@ H2O
         n = 1,
         Ea = (1590, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89481,7 +88004,6 @@ CH4
         n = 3.6,
         Ea = (7154, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89542,7 +88064,6 @@ H2O2
         n = 2.5,
         Ea = (16690, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89601,7 +88122,6 @@ HO2
         n = 0,
         Ea = (52000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89666,7 +88186,6 @@ CH3OH
         n = 0,
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89733,7 +88252,6 @@ CH3O2H
         n = 2.5,
         Ea = (16490, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89798,7 +88316,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89867,7 +88384,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -89932,7 +88448,6 @@ C2H4
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90001,7 +88516,6 @@ C2H6
         n = 0,
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90050,7 +88564,6 @@ MEMJ
         n = 0,
         Ea = (-1000, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90101,7 +88614,6 @@ ME
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90152,7 +88664,6 @@ ME
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90203,7 +88714,6 @@ ME
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90254,7 +88764,6 @@ ME
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90305,7 +88814,6 @@ ME
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90354,7 +88862,6 @@ EFP
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90403,7 +88910,6 @@ ME2J
         n = 0,
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90439,7 +88945,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90475,7 +88980,6 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.0, '[C]=O': 1.9, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90506,7 +89010,6 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(4.714e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.75, '[C]=O': 1.9, '[Ar]': 0.75},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90539,7 +89042,6 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.8e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.38, '[C]=O': 1.9, '[Ar]': 0.38},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90586,7 +89088,6 @@ HO2
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 1.9, '[O][O]': 0.78, 'O=C=O': 3.8, 'O': 11.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90635,7 +89136,6 @@ OH
         T3 = (1e-30, 'K'),
         T1 = (1e+30, 'K'),
         efficiencies = {'O=C=O': 3.8, 'O': 12.0, '[H][H]': 2.5, '[He]': 0.64, '[C]=O': 1.9, '[Ar]': 0.64},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90679,7 +89179,6 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.87},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90717,7 +89216,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 6.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90757,7 +89255,6 @@ OCHO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90797,7 +89294,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90832,7 +89328,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.1e+45, 'cm^3/(mol*s)'), n=-8, Ea=(97510, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'[H][H]': 2.5, '[C]=O': 1.9, 'O=C=O': 3.8, 'O': 12.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90889,7 +89384,6 @@ C2H6
         T1 = (0, 'K'),
         T2 = (1e+30, 'K'),
         efficiencies = {'[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90941,7 +89435,6 @@ CH4
         T1 = (2941, 'K'),
         T2 = (6964, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -90995,7 +89488,6 @@ CH3O2
         T1 = (2500000000.0, 'K'),
         T2 = (1786000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91037,7 +89529,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91079,7 +89570,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91133,7 +89623,6 @@ CH3OH
         T1 = (5900, 'K'),
         T2 = (6394, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91187,7 +89676,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91241,7 +89729,6 @@ CH3OH
         T1 = (90000, 'K'),
         T2 = (10000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91295,7 +89782,6 @@ CH3OH
         T1 = (3922, 'K'),
         T2 = (10180, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91340,7 +89826,6 @@ CH3
         T1 = (1995, 'K'),
         T2 = (5590, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91392,7 +89877,6 @@ CH2CO
         T1 = (1226, 'K'),
         T2 = (5185, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91426,7 +89910,6 @@ CH2
             T0 = (1, 'K'),
         ),
         efficiencies = {'[C]=O': 0.0, 'O=C=O': 0.0, 'O': 0.0, '[Ar]': 0.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91484,7 +89967,6 @@ C2H6
         T1 = (2219, 'K'),
         T2 = (6882, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91540,7 +90022,6 @@ C2H5
         T1 = (984, 'K'),
         T2 = (4374, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91585,7 +90066,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91631,7 +90111,6 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91671,7 +90150,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91725,7 +90203,6 @@ C2H4
         T1 = (2663, 'K'),
         T2 = (6095, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91779,7 +90256,6 @@ H2
         T1 = (1035, 'K'),
         T2 = (5417, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91831,7 +90307,6 @@ C2H3
         T1 = (1302, 'K'),
         T2 = (4167, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91876,7 +90351,6 @@ C2H2
         T1 = (1315, 'K'),
         T2 = (5566, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91931,7 +90405,6 @@ CH3
         T1 = (825, 'K'),
         T2 = (6100, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -91986,7 +90459,6 @@ OH
         T1 = (800, 'K'),
         T2 = (1000000000000000.0, 'K'),
         efficiencies = {'[H][H]': 2.0, '[C]=O': 2.0, 'O=C=O': 3.0, 'O': 5.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92046,7 +90518,6 @@ H2O
         T1 = (800, 'K'),
         T2 = (3800, 'K'),
         efficiencies = {'O': 5.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92101,7 +90572,6 @@ H2
         T1 = (1100, 'K'),
         T2 = (3500, 'K'),
         efficiencies = {'O': 5.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92158,7 +90628,6 @@ CH3
         T1 = (416.4, 'K'),
         T2 = (3290000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92213,7 +90682,6 @@ CH3O
         T1 = (556.36, 'K'),
         T2 = (6710000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92272,7 +90740,6 @@ C2H5
         T1 = (3000, 'K'),
         T2 = (9000, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[He]': 0.7, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92332,7 +90799,6 @@ C3H6
         T1 = (1096.6, 'K'),
         T2 = (6859.5, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92392,7 +90858,6 @@ C3H6
         T1 = (60000, 'K'),
         T2 = (10139.8, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92462,7 +90927,6 @@ CH3
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92536,7 +91000,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92600,7 +91063,6 @@ HO2
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92664,7 +91126,6 @@ CH2O
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92728,7 +91189,6 @@ OH
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92771,7 +91231,6 @@ C3H5-T
             Arrhenius(A=(4.8e+55, 's^-1'), n=-13.59, Ea=(75949, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(4.86e+53, 's^-1'), n=-12.81, Ea=(75883, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92814,7 +91273,6 @@ C3H5-S
             Arrhenius(A=(9.7e+48, 's^-1'), n=-11.73, Ea=(73700, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(4.86e+44, 's^-1'), n=-9.84, Ea=(73400, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92876,7 +91334,6 @@ C3H5-A
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92938,7 +91395,6 @@ C3H5-S
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -92995,7 +91451,6 @@ C3H5-T
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93038,7 +91493,6 @@ C3H5-S
             Arrhenius(A=(5.1e+52, 's^-1'), n=-13.37, Ea=(57200, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(5.8e+51, 's^-1'), n=-12.43, Ea=(59200, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93104,7 +91558,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93166,7 +91619,6 @@ C3H5-S
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93228,7 +91680,6 @@ C3H5-T
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93290,7 +91741,6 @@ C3H5-A
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93338,7 +91788,6 @@ CC3H4
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93380,7 +91829,6 @@ C3H4-A
             Arrhenius(A=(7.64e+59, 's^-1'), n=-13.59, Ea=(91817, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(3.12e+58, 's^-1'), n=-13.07, Ea=(92680, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93441,7 +91889,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93503,7 +91950,6 @@ C3H5-T
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93560,7 +92006,6 @@ C3H5-S
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93622,7 +92067,6 @@ C3H5-A
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93688,7 +92132,6 @@ H
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93736,7 +92179,6 @@ C3H4-A
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93798,7 +92240,6 @@ C4H612
         T1 = (60000, 'K'),
         T2 = (9769.8, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93863,7 +92304,6 @@ C2H5
         T1 = (1e-10, 'K'),
         T2 = (10000000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93928,7 +92368,6 @@ CH3
         T1 = (1e-10, 'K'),
         T2 = (10000000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -93994,7 +92433,6 @@ C2H3
                 T0 = (1, 'K'),
             ),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94046,7 +92484,6 @@ H
             Arrhenius(A=(2.48e+53, 's^-1'), n=-12.3, Ea=(52000, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(1.85e+48, 's^-1'), n=-10.5, Ea=(51770, 'cal/mol'), T0=(1, 'K')),
         ],
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94104,7 +92541,6 @@ C4H4
         T1 = (580, 'K'),
         T2 = (4164, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, 'C=C': 3.0, 'C#C': 3.0},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94164,7 +92600,6 @@ IC3H7
         T1 = (1e-10, 'K'),
         T2 = (10000000000.0, 'K'),
         efficiencies = {},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94217,7 +92652,6 @@ CO
         T1 = (8336780000.0, 'K'),
         T2 = (8213940000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94270,7 +92704,6 @@ CO2
         T1 = (9918710000.0, 'K'),
         T2 = (3289900000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94323,7 +92756,6 @@ CH2O
         T1 = (618.799, 'K'),
         T2 = (6710100000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94376,7 +92808,6 @@ OCHO
         T1 = (9330200000.0, 'K'),
         T2 = (1786000000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94429,7 +92860,6 @@ HCO
         T1 = (647.04, 'K'),
         T2 = (669800000.0, 'K'),
         efficiencies = {'O=C=O': 5.4, 'O': 6.0, '[H][H]': 3.0, '[He]': 1.2, '[O][O]': 1.1, '[C]=O': 2.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -94495,7 +92925,6 @@ C4H8-1
         T1 = (60000, 'K'),
         T2 = (6118.4, 'K'),
         efficiencies = {'C': 2.0, 'O=C=O': 2.0, 'CC': 3.0, 'O': 6.0, '[H][H]': 2.0, '[C]=O': 1.5, '[Ar]': 0.7},
-        comment = 'Reaction and kinetics from Dooley\\methylformate_all_N2bathgas.',
     ),
     shortDesc = u"""""",
     longDesc = 

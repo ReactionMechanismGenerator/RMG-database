@@ -42,7 +42,6 @@ CH3OH
         n = 0.735,
         Ea = (68.628, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -87,7 +86,6 @@ CH2O
         n = 1.28,
         Ea = (75.979, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -132,7 +130,6 @@ CH4
         n = 0.832,
         Ea = (83.612, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -175,7 +172,6 @@ CH3j
         n = 1.09,
         Ea = (14.9, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -218,7 +214,6 @@ Mofml
         n = 1.27,
         Ea = (5.81, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -261,7 +256,6 @@ Fmoml
         n = 2.48,
         Ea = (9.32, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -312,7 +306,6 @@ Mofml
         n = 2.5,
         Ea = (6.56, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -363,7 +356,6 @@ Fmoml
         n = 2.55,
         Ea = (7.62, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -420,7 +412,6 @@ Mofml
         n = 2.82,
         Ea = (6.81, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -477,7 +468,6 @@ Fmoml
         n = 3.96,
         Ea = (8.02, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -522,7 +512,6 @@ Mfmt
         n = 0,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -567,7 +556,6 @@ Mfmt
         n = 0,
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from Methylformate.',
     ),
     shortDesc = u"""""",
     longDesc = 

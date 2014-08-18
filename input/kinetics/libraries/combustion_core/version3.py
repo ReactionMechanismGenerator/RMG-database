@@ -40,7 +40,6 @@ CO
         n = 2.1,
         Ea = (6.57, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -83,7 +82,6 @@ H
         n = 2.1,
         Ea = (6.57, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -130,7 +128,6 @@ CO
         n = 0,
         Ea = (5.64, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -171,7 +168,6 @@ O
         n = 0,
         Ea = (196.9, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -212,7 +208,6 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -253,7 +248,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -296,7 +290,6 @@ H2
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -343,7 +336,6 @@ H
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -390,7 +382,6 @@ H
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -433,7 +424,6 @@ H2O
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -476,7 +466,6 @@ O
         n = 0,
         Ea = (6.24, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -523,7 +512,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -566,7 +554,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -615,7 +602,6 @@ OH
         n = 0,
         Ea = (3.58, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -656,7 +642,6 @@ H
         n = 1.3,
         Ea = (-3.2, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -699,7 +684,6 @@ OH
         n = 0,
         Ea = (99.02, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -736,7 +720,6 @@ HCCO
         n = 0,
         Ea = (-7.15, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -779,7 +762,6 @@ CO
         n = 0,
         Ea = (2.87, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -824,7 +806,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -869,7 +850,6 @@ CO
         n = 0,
         Ea = (14.13, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -914,7 +894,6 @@ CO2
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -959,7 +938,6 @@ CO
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1008,7 +986,6 @@ CO
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1053,7 +1030,6 @@ HCO
         n = 0,
         Ea = (5.65, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1100,7 +1076,6 @@ CO2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1147,7 +1122,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1188,7 +1162,6 @@ H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1231,7 +1204,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1270,7 +1242,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1317,7 +1288,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1358,7 +1328,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1401,7 +1370,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1446,7 +1414,6 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1497,7 +1464,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1538,7 +1504,6 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1585,7 +1550,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1628,7 +1592,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1673,7 +1636,6 @@ HCO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1718,7 +1680,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1763,7 +1724,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1816,7 +1776,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1861,7 +1820,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1906,7 +1864,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1947,7 +1904,6 @@ H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1992,7 +1948,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2039,7 +1994,6 @@ CO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2082,7 +2036,6 @@ CH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2123,7 +2076,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2170,7 +2122,6 @@ H
         n = 0,
         Ea = (-1.66, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2215,7 +2166,6 @@ CH2
         n = 0,
         Ea = (-0.51, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2264,7 +2214,6 @@ H
         n = 0,
         Ea = (-1.44, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2317,7 +2266,6 @@ CH3
         n = 0,
         Ea = (-1.1, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2362,7 +2310,6 @@ HCO
         n = 0,
         Ea = (-2.16, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2403,7 +2350,6 @@ H2
         n = 0,
         Ea = (-7.48, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2446,7 +2392,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2491,7 +2436,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2538,7 +2482,6 @@ C2H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2579,7 +2522,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2624,7 +2566,6 @@ H2
         n = 0,
         Ea = (3.33, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2673,7 +2614,6 @@ H
         n = 0,
         Ea = (3.33, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2720,7 +2660,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2769,7 +2708,6 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2812,7 +2750,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2859,7 +2796,6 @@ CH2O
         n = 0,
         Ea = (8.37, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2908,7 +2844,6 @@ CH3
         n = 0,
         Ea = (42, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2957,7 +2892,6 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3000,7 +2934,6 @@ C3H4
         n = 0,
         Ea = (27.69, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3047,7 +2980,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3088,7 +3020,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3131,7 +3062,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3178,7 +3108,6 @@ C3H6
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3233,7 +3162,6 @@ C2H5
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3278,7 +3206,6 @@ H2O
         n = 0,
         Ea = (11.64, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3327,7 +3254,6 @@ H
         n = 0,
         Ea = (242, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3374,7 +3300,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3421,7 +3346,6 @@ CH2HCO
         n = 1.88,
         Ea = (0.75, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3468,7 +3392,6 @@ HCO
         n = 1.88,
         Ea = (0.75, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3515,7 +3438,6 @@ H2
         n = 1.88,
         Ea = (0.75, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3564,7 +3486,6 @@ HCO
         n = 0,
         Ea = (-1.71, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3613,7 +3534,6 @@ H2O
         n = 0,
         Ea = (-8.73, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3652,7 +3572,6 @@ O
         n = 0,
         Ea = (62.11, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3697,7 +3616,6 @@ OH
         n = 0,
         Ea = (37.42, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3740,7 +3658,6 @@ O
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3787,7 +3704,6 @@ HCCO
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3836,7 +3752,6 @@ HCO
         n = 0,
         Ea = (12, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3879,7 +3794,6 @@ H2O
         n = 0,
         Ea = (14.97, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3928,7 +3842,6 @@ H
         n = 0,
         Ea = (56.54, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3969,7 +3882,6 @@ OH
         n = 0,
         Ea = (3.66, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4010,7 +3922,6 @@ O
         n = 0,
         Ea = (7.2, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4055,7 +3966,6 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4098,7 +4008,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4145,7 +4054,6 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4188,7 +4096,6 @@ H
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4237,7 +4144,6 @@ CH3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4282,7 +4188,6 @@ O
         n = 0,
         Ea = (131.37, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4323,7 +4228,6 @@ H2O
         n = 1.14,
         Ea = (0.42, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4362,7 +4266,6 @@ H
         n = 2.67,
         Ea = (26.27, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4403,7 +4306,6 @@ OH
         n = 1.6,
         Ea = (77.08, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4448,7 +4350,6 @@ OH
         n = 1.56,
         Ea = (35.5, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4495,7 +4396,6 @@ H2O
         n = 1.83,
         Ea = (11.64, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4540,7 +4440,6 @@ H2O
         n = 0,
         Ea = (54.04, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4587,7 +4486,6 @@ H2
         n = 0,
         Ea = (62.36, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4636,7 +4534,6 @@ H2O
         n = 0,
         Ea = (24.86, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4687,7 +4584,6 @@ H2
         n = 1.5,
         Ea = (31.01, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4744,7 +4640,6 @@ CH4
         n = 6,
         Ea = (25.3, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4795,7 +4690,6 @@ OH
         n = 1.5,
         Ea = (24.28, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4848,7 +4742,6 @@ H2O
         n = 2,
         Ea = (3.62, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4903,7 +4796,6 @@ C2H5
         n = 0,
         Ea = (85.63, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4948,7 +4840,6 @@ HO2
         n = 0,
         Ea = (170.11, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -4995,7 +4886,6 @@ HO2
         n = 0,
         Ea = (7.32, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5038,7 +4928,6 @@ H2
         n = 0,
         Ea = (15.71, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5081,7 +4970,6 @@ HO2
         n = 0,
         Ea = (16.63, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5126,7 +5014,6 @@ HO2
         n = 0,
         Ea = (5.57, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5169,7 +5056,6 @@ H2
         n = 1.62,
         Ea = (9.06, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5218,7 +5104,6 @@ HCO
         n = 6.1,
         Ea = (8.23, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5261,7 +5146,6 @@ OH
         n = 0.57,
         Ea = (11.56, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5306,7 +5190,6 @@ H2O
         n = 1.18,
         Ea = (-1.87, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5347,7 +5230,6 @@ O2
         n = 0,
         Ea = (5.9, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5392,7 +5274,6 @@ H2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5433,7 +5314,6 @@ OH
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5476,7 +5356,6 @@ O2
         n = 0,
         Ea = (-2.08, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5517,7 +5396,6 @@ CH3O2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5566,7 +5444,6 @@ C3H5O2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5613,7 +5490,6 @@ C2H5O2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5656,7 +5532,6 @@ CH3O3_2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5709,7 +5584,6 @@ C3H7O2
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5752,7 +5626,6 @@ C2H5
         n = 1.28,
         Ea = (1.29, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5797,7 +5670,6 @@ C2H3O3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5846,7 +5718,6 @@ C3H7
         n = 0,
         Ea = (1.56, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5885,7 +5756,6 @@ CHO3
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5928,7 +5798,6 @@ CH3O3_1
         n = 0,
         Ea = (3.6089, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5983,7 +5852,6 @@ C4H9
         n = 2.44,
         Ea = (5.37, 'kJ/mol'),
         T0 = (1, 'K'),
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6021,7 +5889,6 @@ CO2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6061,7 +5928,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6101,7 +5967,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6143,7 +6008,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6181,7 +6045,6 @@ CO
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6215,7 +6078,6 @@ CH2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 0.48, 'O=C=O': 1.5, 'CC': 1.44, 'O': 6.5, '[O][O]': 0.4, '[C]=O': 0.75, 'N#N': 0.4, 'C=C': 1.6, 'C#C': 3.2, '[Ar]': 0.24},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6250,7 +6112,6 @@ H
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.91e+16, 'cm^3/(mol*s)'), n=0, Ea=(379.14, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6289,7 +6150,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(9.97e+16, 'cm^3/(mol*s)'), n=0, Ea=(299.32, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6325,7 +6185,6 @@ O2
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6358,7 +6217,6 @@ HO2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.1e+18, 'cm^6/(mol^2*s)'), n=-0.8, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 0.0, '[O][O]': 0.4, 'N#N': 0.67, '[C]=O': 0.75, '[Ar]': 0.29},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6397,7 +6255,6 @@ H
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(7.4e+17, 'cm^3/(mol*s)'), n=0, Ea=(404.09, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6428,7 +6285,6 @@ H2
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.87e+18, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[H][H]': 0.0, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6459,7 +6315,6 @@ OH
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.18e+19, 'cm^6/(mol^2*s)'), n=-1, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6492,7 +6347,6 @@ H2O
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(5.53e+22, 'cm^6/(mol^2*s)'), n=-2, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 2.55, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.15},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6534,7 +6388,6 @@ H
             T0 = (1, 'K'),
         ),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -6571,7 +6424,6 @@ H
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.26e+16, 'cm^3/(mol*s)'), n=0, Ea=(125.6, 'kJ/mol'), T0=(1, 'K')),
         efficiencies = {'C': 3.0, 'O=C=O': 1.5, 'CC': 3.0, 'O': 6.5, '[O][O]': 0.4, 'N#N': 0.4, '[C]=O': 0.75, '[Ar]': 0.35},
-        comment = 'Reaction and kinetics from combustion_core\x0bersion3.',
     ),
     shortDesc = u"""""",
     longDesc = 
