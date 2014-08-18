@@ -9,8 +9,6 @@ longDesc = u"""
 entry(
     index = 586,
     label = "db;doublebond",
-    group1 = "OR{db_2H, db_HNd, db_HDe, db_Nd2, db_NdDe, db_De2}",
-    group2 = "OR{mb_db, mb_CO, mb_OC, mb_CCO, mb_COC}",
     kinetics = ArrheniusEP(
         A = (69200000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -33,18 +31,6 @@ and mass spectrometry. Pressure  0.40 - 1.73 bar.
 entry(
     index = 6000,
     label = "db_2H;mb_OC",
-    group1 = 
-"""
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Cd 0 {1,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
-""",
-    group2 = 
-"""
-1 *3 Od 0 {2,D}
-2 *4 CO 0 {1,D}
-""",
     kinetics = ArrheniusEP(
         A = (2330000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 1.65,

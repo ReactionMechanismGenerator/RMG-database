@@ -13,15 +13,6 @@ temperatures used were from 600 K to 2000 K (in 200 K increments).
 entry(
     index = 416,
     label = "COm;Y_rad",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 R 1
-""",
     kinetics = ArrheniusEP(
         A = (100000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -41,15 +32,6 @@ u"""
 entry(
     index = 417,
     label = "COm;H_rad",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 H 1
-""",
     kinetics = ArrheniusEP(
         A = (118000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -118,15 +100,6 @@ MRH 1-Sept-2009
 entry(
     index = 418,
     label = "COm;H_rad",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 H 1
-""",
     kinetics = ArrheniusEP(
         A = (187000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -165,18 +138,6 @@ H-atom and O2 is 10^4 times faster than the H+CO-->HCO rxn. ***
 entry(
     index = 419,
     label = "COm;C_methyl",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
     kinetics = ArrheniusEP(
         A = (506000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
@@ -213,18 +174,6 @@ MRH 31-Aug-2009
 entry(
     index = 420,
     label = "COm;C_rad/H2/Cs",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-""",
     kinetics = ArrheniusEP(
         A = (151000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
@@ -259,17 +208,6 @@ MRH 28-Aug-2009
 entry(
     index = 421,
     label = "COm;Cd_pri_rad",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 C 1 {2,D} {3,S}
-2    C 0 {1,D}
-3    H 0 {1,S}
-""",
     kinetics = ArrheniusEP(
         A = (151000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
@@ -306,17 +244,6 @@ MRH 28-Aug-2009
 entry(
     index = 422,
     label = "COm;Cb_rad",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 Cb       1 {2,B} {3,B}
-2    {Cb,Cbf} 0 {1,B}
-3    {Cb,Cbf} 0 {1,B}
-""",
     kinetics = ArrheniusEP(
         A = (1480000000000.0, 'cm^3/(mol*s)', '*|/', 1.5),
         n = 0,
@@ -399,16 +326,6 @@ MRH 1-Sept-2009
 entry(
     index = 423,
     label = "COm;O_rad/NonDe",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 O      1 {2,S}
-2    {Cs,O} 0 {1,S}
-""",
     kinetics = ArrheniusEP(
         A = (34100000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -440,18 +357,6 @@ MRH 1-Sept-2009
 entry(
     index = 424,
     label = "COm;C_methyl",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
     kinetics = ArrheniusEP(
         A = (3060000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.89,
@@ -477,21 +382,6 @@ CH3CO (doublet): EXTSYM = 1, one hindered rotor (methyl group, symmetry = 3)
 entry(
     index = 425,
     label = "COm;CH2CH3",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    Cs 0 {1,S} {5,S} {6,S} {7,S}
-5    H 0 {4,S}
-6    H 0 {4,S}
-7    H 0 {4,S}
-""",
     kinetics = ArrheniusEP(
         A = (77000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.37,
@@ -517,24 +407,6 @@ CH3CH2CO (doublet): EXTSYM = 1, two hindered rotors (methyl group, symmetry = 3;
 entry(
     index = 426,
     label = "COm;CH2CH2CH3",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S} {5,S} {6,S} {7,S}
-5     H 0 {4,S}
-6     H 0 {4,S}
-7     C 0 {4,S} {8,S} {9,S} {10,S}
-8     H 0 {7,S}
-9     H 0 {7,S}
-10    H 0 {7,S}
-""",
     kinetics = ArrheniusEP(
         A = (65100000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0.45,
@@ -560,24 +432,6 @@ CH3CH2CH2CO (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry
 entry(
     index = 427,
     label = "COm;CH[CH3]2",
-    group1 = 
-"""
-1 *1 Ct 0 1 {2,T}
-2 *3 Ot 0 1 {1,T}
-""",
-    group2 = 
-"""
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     H 0 {3,S}
-6     H 0 {3,S}
-7     H 0 {3,S}
-8     H 0 {4,S}
-9     H 0 {4,S}
-10    H 0 {4,S}
-""",
     kinetics = ArrheniusEP(
         A = (86100000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.36,

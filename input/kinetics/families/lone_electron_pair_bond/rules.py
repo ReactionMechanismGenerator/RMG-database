@@ -24,17 +24,6 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 entry(
     index = 0,
     label = "N3sRRR;O_atom_singlet",
-    group1 = 
-"""
-1 *1 N3s 0 {2,S} {3,S} {4,S}
-2    R 0 {1,S}
-3    R 0 {1,S}
-4    R 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 O 2S
-""",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 0,

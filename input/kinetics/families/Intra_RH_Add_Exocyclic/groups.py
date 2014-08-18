@@ -23,7 +23,6 @@ entry(
     label = "Rn",
     group = "OR{R4, R5, R6, R7}",
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -44,7 +43,6 @@ entry(
 2 *3 {C,O} 0 {1,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -63,7 +61,6 @@ u"""
 #2 *4 H 0 {1,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc = 
@@ -85,7 +82,6 @@ entry(
 5 *3 {C,O} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -107,7 +103,6 @@ entry(
 5 *3 {C,O} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -129,7 +124,6 @@ entry(
 5 *3 {Cd,Od} 0 {4,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -151,7 +145,6 @@ entry(
 5 *3 Ct 0 {4,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -173,7 +166,6 @@ entry(
 5 *3 {C,O} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -195,7 +187,6 @@ entry(
 5 *3 {Cd,Od} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -217,7 +208,6 @@ entry(
 5 *3 Ct 0 {4,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -239,7 +229,6 @@ entry(
 5 *3 {C,O} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -261,7 +250,6 @@ entry(
 5 *3 {Cd,Od} 0 {4,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -284,7 +272,6 @@ entry(
 5 *3 Ct 0 {4,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -306,7 +293,6 @@ entry(
 5 *3 {C,O} 0 {4,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =  
@@ -328,7 +314,6 @@ entry(
 5 *3 {Cd,Od} 0 {4,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -350,7 +335,6 @@ entry(
 5 *3 Ct 0 {4,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -365,7 +349,6 @@ entry(
     label = "R5",
     group = "OR{R5_SS, R5_SD, R5_DS, R5_ST, R5_TS, R5_SB, R5_BS}",
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -390,7 +373,6 @@ entry(
 6 *3 {C,O} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -413,7 +395,6 @@ entry(
 6 *3 {Cd,Od} 0 {5,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -436,7 +417,6 @@ entry(
 6 *3 Ct 0 {5,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -459,7 +439,6 @@ entry(
 6 *3 {C,O} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -482,7 +461,6 @@ entry(
 6 *3 {Cd,Od} 0 {5,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -505,7 +483,6 @@ entry(
 6 *3 Ct 0 {5,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -528,7 +505,6 @@ entry(
 6 *3 {C,O} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -551,7 +527,6 @@ entry(
 6 *3 {Cd,Od} 0 {5,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -574,7 +549,6 @@ entry(
 6 *3 Ct 0 {5,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -597,7 +571,6 @@ entry(
 6 *3 {C,O} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -620,7 +593,6 @@ entry(
 6 *3 {Cd,Od} 0 {5,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -643,7 +615,6 @@ entry(
 6 *3 Ct 0 {5,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -666,7 +637,6 @@ entry(
 6 *3 {C,O} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -689,7 +659,6 @@ entry(
 6 *3 {Cd,Od} 0 {5,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -712,7 +681,6 @@ entry(
 6 *3 Ct 0 {5,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -735,7 +703,6 @@ entry(
 6 *3 {C,O} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -758,7 +725,6 @@ entry(
 6 *3 {Cd,Od} 0 {5,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -781,7 +747,6 @@ entry(
 6 *3 Ct 0 {5,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -804,7 +769,6 @@ entry(
 6 *3 {C,O} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -827,7 +791,6 @@ entry(
 6 *3 {Cd,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -850,7 +813,6 @@ entry(
 6 *3 Ct 0 {5,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -865,7 +827,6 @@ entry(
     label = "R6",
     group = "OR{R6_RSR, R6_SMS, R6_SBB, R6_BBS}",
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -889,7 +850,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -913,7 +873,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -937,7 +896,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -961,7 +919,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -985,7 +942,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1009,7 +965,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1033,7 +988,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1057,7 +1011,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1081,7 +1034,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1105,7 +1057,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1129,7 +1080,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1153,7 +1103,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1177,7 +1126,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1201,7 +1149,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1225,7 +1172,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1249,7 +1195,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1273,7 +1218,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1297,7 +1241,6 @@ entry(
 7 *3 {Cd,Cd} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1321,7 +1264,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1345,7 +1287,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1369,7 +1310,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1393,7 +1333,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1417,7 +1356,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1441,7 +1379,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1465,7 +1402,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1489,7 +1425,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1513,7 +1448,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1537,7 +1471,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1561,7 +1494,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1585,7 +1517,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1609,7 +1540,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1633,7 +1563,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1657,7 +1586,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1681,7 +1609,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1705,7 +1632,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1730,7 +1656,6 @@ entry(
 7 *3 {C,O} 0 {6,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1753,7 +1678,6 @@ entry(
 7 *3 {Cd,Od} 0 {6,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1778,7 +1702,6 @@ entry(
 7 *3 Ct 0 {6,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1794,7 +1717,6 @@ entry(
     label = "R7",
     group = "OR{R7_RSSR, R7_RSMS, R7_SMSR, R7_BBSR, R7_RSBB, R7_SBBS}",
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1820,7 +1742,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1845,7 +1766,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1871,7 +1791,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1896,7 +1815,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1922,7 +1840,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1946,7 +1863,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1970,7 +1886,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -1994,7 +1909,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2018,7 +1932,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2042,7 +1955,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2066,7 +1978,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2090,7 +2001,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2114,7 +2024,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2138,7 +2047,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2162,7 +2070,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2186,7 +2093,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2210,7 +2116,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2234,7 +2139,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2258,7 +2162,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2282,7 +2185,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2306,7 +2208,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2330,7 +2231,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2356,7 +2256,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2381,7 +2280,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2407,7 +2305,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2431,7 +2328,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2455,7 +2351,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2479,7 +2374,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2503,7 +2397,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2529,7 +2422,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2553,7 +2445,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2577,7 +2468,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2601,7 +2491,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2625,7 +2514,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2650,7 +2538,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2674,7 +2561,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2698,7 +2584,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2722,7 +2607,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2746,7 +2630,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2770,7 +2653,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2794,7 +2676,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2818,7 +2699,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2842,7 +2722,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2866,7 +2745,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2890,7 +2768,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2914,7 +2791,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2938,7 +2814,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2962,7 +2837,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -2986,7 +2860,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3010,7 +2883,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3035,7 +2907,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3059,7 +2930,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3083,7 +2953,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3108,7 +2977,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3132,7 +3000,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3157,7 +3024,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3182,7 +3048,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3207,7 +3072,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3231,7 +3095,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3255,7 +3118,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3279,7 +3141,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3303,7 +3164,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3327,7 +3187,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3351,7 +3210,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3375,7 +3233,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3399,7 +3256,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3423,7 +3279,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3447,7 +3302,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3471,7 +3325,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3495,7 +3348,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3519,7 +3371,6 @@ entry(
 8 *3 {C,O}   0 {7,{D,T}}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3543,7 +3394,6 @@ entry(
 8 *3 {Cd,Od}   0 {7,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3567,7 +3417,6 @@ entry(
 8 *3 Ct   0 {7,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3587,7 +3436,6 @@ entry(
 2 *3 Cd 0 {1,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -3617,7 +3465,6 @@ entry(
 4    H  0 {2,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3638,7 +3485,6 @@ entry(
 5    H  0 {2,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3659,7 +3505,6 @@ entry(
 5    H      0 {2,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -3681,7 +3526,6 @@ entry(
 5    H             0 {2,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -3702,15 +3546,12 @@ u"""
 #4    {Cs,O} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3726,15 +3567,12 @@ u"""
 #5    {Cs,O} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3750,15 +3588,12 @@ u"""
 #5    {Cs,O} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3774,15 +3609,12 @@ u"""
 #5    {Cs,O}        0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3797,15 +3629,12 @@ u"""
 #4    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3821,15 +3650,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3845,15 +3671,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3869,15 +3692,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3892,15 +3712,12 @@ u"""
 #4    {Cs,O} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3916,15 +3733,12 @@ u"""
 #5    {Cs,O} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3940,15 +3754,12 @@ u"""
 #5    {Cs,O} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3964,15 +3775,12 @@ u"""
 #5    {Cs,O}        0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -3987,15 +3795,12 @@ u"""
 #4    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4011,15 +3816,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4035,15 +3837,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4059,15 +3858,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4082,15 +3878,12 @@ u"""
 #4    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4106,15 +3899,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4130,15 +3920,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4154,15 +3941,12 @@ u"""
 #5    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4175,7 +3959,6 @@ entry(
 2 *3 Ct 0 {1,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4195,7 +3978,6 @@ entry(
 3    H  0 {2,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4215,15 +3997,12 @@ u"""
 #3    {Cs,O} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 #
@@ -4237,15 +4016,12 @@ u"""
 #3    {Cd,Ct,Cb,CO} 0 {2,S}
 #""",
 #    kinetics = None,
-#    reference = None,
 #    referenceType = "",
 #    shortDesc = u"""""",
 #    longDesc =
 #u"""
 #
 #""",
-#    history = [
-#        ("Thu March 19 13:51:43 2014","Fariba Seyedzadeh khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu> created this entry."""),
 #    ],
 #)
 
@@ -4258,7 +4034,6 @@ entry(
 2 *3 Od 0 {1,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4278,7 +4053,6 @@ entry(
 3    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4298,7 +4072,6 @@ entry(
 3    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4318,7 +4091,6 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4336,7 +4108,6 @@ entry(
 1 *1 R!H 0
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4356,7 +4127,6 @@ entry(
 1 *1 Cs 0       
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4376,7 +4146,6 @@ entry(
 3    H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4396,7 +4165,6 @@ entry(
 3    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4416,7 +4184,6 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4437,7 +4204,6 @@ entry(
 4    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4458,7 +4224,6 @@ entry(
 4    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4479,7 +4244,6 @@ entry(
 4    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4497,7 +4261,6 @@ entry(
 1 *1 O 0
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4515,7 +4278,6 @@ entry(
 1 *1 Cb 0
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4535,7 +4297,6 @@ entry(
 3    R  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4555,7 +4316,6 @@ entry(
 3      H  0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4575,7 +4335,6 @@ entry(
 3    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4595,7 +4354,6 @@ entry(
 3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4615,7 +4373,6 @@ entry(
 3    Cd 0 {1,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4635,7 +4392,6 @@ entry(
 3    O  0 {1,D}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4655,7 +4411,6 @@ entry(
 3    Ct 0 {1,T}
 """,
     kinetics = None,
-    reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc =
@@ -4865,7 +4620,6 @@ L1: radadd_intra
 #u"""
 #
 #""",
-#    history = [
 #    ],
 #)
 #
@@ -4881,7 +4635,6 @@ L1: radadd_intra
 #u"""
 #
 #""",
-#    history = [
 #    ],
 #)
 #
@@ -4896,7 +4649,6 @@ L1: radadd_intra
 #u"""
 #
 #""",
-#    history = [
 #    ],
 #)
 #

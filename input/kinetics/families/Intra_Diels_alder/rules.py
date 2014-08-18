@@ -9,7 +9,6 @@ longDesc = u"""
 entry(
     index = 1,
     label = "cyclohexene",
-    group1 = "OR{cyclohexene_1inring, cyclohexene_2inring, cyclohexene_3inring, cyclohexene_4inring}",
     kinetics = ArrheniusEP(
         A = (12400000000.0, 's^-1'),
         n = 1.27,
