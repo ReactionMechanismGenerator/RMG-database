@@ -9,8 +9,10 @@ group additivity values in this file.
 """
 entry(
     index = 1,
+    label = "C2H2 + C4H9 <=> C6H11",
     reactant1 = 
 """
+C2H2
 1 *1 C 0 0 {2,T} {3,S}
 2 *2 C 0 0 {1,T} {4,S}
 3    H 0 0 {1,S}
@@ -18,6 +20,7 @@ entry(
 """,
     reactant2 = 
 """
+C4H9
 1     C 0 0 {4,S} {5,S} {6,S} {7,S}
 2     C 0 0 {4,S} {8,S} {9,S} {10,S}
 3     C 0 0 {4,S} {11,S} {12,S} {13,S}
@@ -34,6 +37,7 @@ entry(
 """,
     product1 = 
 """
+C6H11
 1  *3 C 0 0 {2,S} {3,S} {4,S} {5,S}
 2     C 0 0 {1,S} {7,S} {8,S} {9,S}
 3     C 0 0 {1,S} {10,S} {11,S} {12,S}
@@ -54,14 +58,21 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (5.01e+10,"cm^3/(mol*s)"),
+        A = (5.01e+10, 'cm^3/(mol*s)'),
         n = 0,
-        Ea = (5.31,"kcal/mol"),
-        T0 = (1,"K"),
-        Tmin = (373,"K"),
-        Tmax = (493,"K"),
+        Ea = (5.31, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (373, 'K'),
+        Tmax = (493, 'K'),
     ),
-    reference = Article(authors=["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals', journal="J. Chem. Soc.", pages="""940-944""", year="1962", url="http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:1"),
+    reference = Article(
+        authors = ["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals',
+        journal = "J. Chem. Soc.",
+        pages = """940-944""",
+        year = "1962",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:1",
+    ),
     longDesc = 
 u"""
 Dominguez et al. Data derived from fitting to a complex mechanism.
@@ -75,9 +86,10 @@ A=5.01e+10 cm^3/(mol*s) is the full rate; NB the degeneracy=2 so the per-site ra
 
 entry(
     index = 2,
+    label = "C2H3O3 <=> C2H2O + HO2",
     reactant1 = 
 """
-hydroperoxyl-vinoxy
+C2H3O3
 1 *1 C 0 0 {2,S} {3,S} {5,D}
 2 *2 C 1 0 {1,S} {6,S} {7,S}
 3 *3 O 0 2 {1,S} {4,S}
@@ -89,7 +101,7 @@ hydroperoxyl-vinoxy
 """,
     product1 = 
 """
-ketene
+C2H2O
 1 *2 C 0 0 {2,D} {4,S} {5,S}
 2 *1 C 0 0 {1,D} {3,D}
 3    O 0 2 {2,D}
@@ -105,18 +117,18 @@ HO2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (5.3e16,"s^-1","*|/",10**0.4),
-        n = -1.0,
-        Ea = (29.5,"kcal/mol"),
-        T0 = (1,"K"),
+        A = (5.3e+16, 's^-1', '*|/', 2.51189),
+        n = -1,
+        Ea = (29.5, 'kcal/mol'),
+        T0 = (1, 'K'),
     ),
     reference = Article(
         authors = ["J. W. Allen", "C. F. Goldsmith", "W. H. Green"],
-        title = u"""Automatic Estimation of Pressure-Dependent Rate Coefficients""",
+        title = u'Automatic Estimation of Pressure-Dependent Rate Coefficients',
         journal = "Phys. Chem. Chem. Phys.",
         volume = "???",
+        pages = """???-???""",
         year = "2011 (accepted)",
-        pages = "???-???",
     ),
     referenceType = "theory",
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
@@ -127,3 +139,4 @@ using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
 using Variflex.
 """,
 )
+

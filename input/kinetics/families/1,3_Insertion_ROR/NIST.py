@@ -8,44 +8,47 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "2004LI/KAZ7671-7680:4",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (8.8e+25,"s^-1"),
+        A = (8.8e+25, 's^-1'),
         n = -3.68,
-        Ea = (296.22,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Ea = (296.22, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1045, 'K'),
+        Tmax = (1080, 'K'),
+        Pmin = (172252, 'Pa'),
+        Pmax = (303975, 'Pa'),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -71,44 +74,47 @@ The authors used their data together with that from the literature to perform a 
 
 entry(
     index = 2,
-    label = "2004LI/KAZ7671-7680:6",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (2.66e+09,"s^-1"),
+        A = (2.66e+09, 's^-1'),
         n = 1.25,
-        Ea = (263.111,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Ea = (263.111, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1045, 'K'),
+        Tmax = (1080, 'K'),
+        Pmin = (172252, 'Pa'),
+        Pmax = (303975, 'Pa'),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -134,44 +140,47 @@ The authors used their data together with that from the literature to perform a 
 
 entry(
     index = 3,
-    label = "2004LI/KAZ7671-7680:7",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (132000,"s^-1"),
+        A = (132000, 's^-1'),
         n = 2.52,
-        Ea = (253.841,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Ea = (253.841, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1045, 'K'),
+        Tmax = (1080, 'K'),
+        Pmin = (172252, 'Pa'),
+        Pmax = (303975, 'Pa'),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -197,44 +206,47 @@ The authors used their data together with that from the literature to perform a 
 
 entry(
     index = 4,
-    label = "2004LI/KAZ7671-7680:5",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (1.41e+16,"s^-1"),
+        A = (1.41e+16, 's^-1'),
         n = -0.74,
-        Ea = (277.055,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Ea = (277.055, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1045, 'K'),
+        Tmax = (1080, 'K'),
+        Pmin = (172252, 'Pa'),
+        Pmax = (303975, 'Pa'),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -260,44 +272,47 @@ The authors used their data together with that from the literature to perform a 
 
 entry(
     index = 5,
-    label = "2004LI/KAZ7671-7680:1",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (3.77e+43,"s^-1"),
+        A = (3.77e+43, 's^-1'),
         n = -11.92,
-        Ea = (262.13,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Ea = (262.13, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1045, 'K'),
+        Tmax = (1080, 'K'),
+        Pmin = (172252, 'Pa'),
+        Pmax = (303975, 'Pa'),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -323,44 +338,47 @@ The authors used their data together with that from the literature to perform a 
 
 entry(
     index = 6,
-    label = "2004LI/KAZ7671-7680:2",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (1.61e+45,"s^-1"),
+        A = (1.61e+45, 's^-1'),
         n = -9.69,
-        Ea = (325.919,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Ea = (325.919, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1045, 'K'),
+        Tmax = (1080, 'K'),
+        Pmin = (172252, 'Pa'),
+        Pmax = (303975, 'Pa'),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -386,44 +404,47 @@ The authors used their data together with that from the literature to perform a 
 
 entry(
     index = 7,
-    label = "2004LI/KAZ7671-7680:3",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (4.27e+36,"s^-1"),
+        A = (4.27e+36, 's^-1'),
         n = -6.95,
-        Ea = (314.744,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Ea = (314.744, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1045, 'K'),
+        Tmax = (1080, 'K'),
+        Pmin = (172252, 'Pa'),
+        Pmax = (303975, 'Pa'),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -449,42 +470,45 @@ The authors used their data together with that from the literature to perform a 
 
 entry(
     index = 8,
-    label = "2004TSA456-465:1",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (4.9e+09,"s^-1"),
+        A = (4.9e+09, 's^-1'),
         n = 1.36,
-        Ea = (275.159,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (800,"K"),
-        Tmax = (1800,"K"),
+        Ea = (275.159, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (800, 'K'),
+        Tmax = (1800, 'K'),
     ),
     reference = Article(
         authors = ["Tsang, W."],
@@ -510,42 +534,45 @@ Some analytical formats for intermediate pressures are also given in the paper b
 
 entry(
     index = 9,
-    label = "1999MAR183-220:3",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (2.79e+13,"s^-1"),
+        A = (2.79e+13, 's^-1'),
         n = 0.09,
-        Ea = (276.872,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (293,"K"),
-        Tmax = (750,"K"),
+        Ea = (276.872, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (293, 'K'),
+        Tmax = (750, 'K'),
     ),
     reference = Article(
         authors = ["Marinov, N.M."],
@@ -567,42 +594,45 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 10,
-    label = "2003RAJ/RED9782-9793:7",
+    label = "C2H6O <=> C2H4 + H2O",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *1 C 0 {1,S} {4,S} {7,S} {8,S}
-3 *4 O 0 {1,S} {9,S}
-4 *3 H 0 {2,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {3,S}
+C2H6O
+1 *2 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 *1 C 0 0 {1,S} {4,S} {7,S} {8,S}
+3 *4 O 0 2 {1,S} {9,S}
+4 *3 H 0 0 {2,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (7.67e+14,"s^-1"),
+        A = (7.67e+14, 's^-1'),
         n = 0,
-        Ea = (270.328,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1000,"K"),
-        Tmax = (1200,"K"),
+        Ea = (270.328, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1000, 'K'),
+        Tmax = (1200, 'K'),
     ),
     reference = Article(
         authors = ["Rajakumar, B.", "Reddy, K.P.J.", "Arunan, E."],
@@ -633,42 +663,45 @@ Note that initial CH2=CH2(OH) product from HF elimination channel quickly isomer
 
 entry(
     index = 11,
-    label = "1984MAC/DOO525:4",
+    label = "C2H4O2 <=> C2H2O + H2O",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {5,D}
-3 *4 O 0 {2,S} {8,S}
-4 *3 H 0 {1,S}
-5    O 0 {2,D}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {3,S}
+C2H4O2
+1 *1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 *2 C 0 0 {1,S} {3,S} {5,D}
+3 *4 O 0 2 {2,S} {8,S}
+4 *3 H 0 0 {1,S}
+5    O 0 2 {2,D}
+6    H 0 0 {1,S}
+7    H 0 0 {1,S}
+8    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,D} {4,S} {5,S}
-2 *2 C 0 {1,D} {3,D}
-3    O 0 {2,D}
-4    H 0 {1,S}
-5    H 0 {1,S}
+C2H2O
+1 *1 C 0 0 {2,D} {4,S} {5,S}
+2 *2 C 0 0 {1,D} {3,D}
+3    O 0 2 {2,D}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (5.25e+12,"s^-1"),
+        A = (5.25e+12, 's^-1'),
         n = 0,
-        Ea = (295.164,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1300,"K"),
-        Tmax = (1950,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
+        Ea = (295.164, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1300, 'K'),
+        Tmax = (1950, 'K'),
+        Pmin = (101000, 'Pa'),
+        Pmax = (101000, 'Pa'),
     ),
     reference = Article(
         authors = ["Mackie, J.C.", "Doolan, K.R."],
@@ -692,42 +725,45 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 12,
-    label = "1984MAC/DOO525:3",
+    label = "C2H4O2 <=> C2H2O + H2O",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {5,D}
-3 *4 O 0 {2,S} {8,S}
-4 *3 H 0 {1,S}
-5    O 0 {2,D}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {3,S}
+C2H4O2
+1 *1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 *2 C 0 0 {1,S} {3,S} {5,D}
+3 *4 O 0 2 {2,S} {8,S}
+4 *3 H 0 0 {1,S}
+5    O 0 2 {2,D}
+6    H 0 0 {1,S}
+7    H 0 0 {1,S}
+8    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,D} {4,S} {5,S}
-2 *2 C 0 {1,D} {3,D}
-3    O 0 {2,D}
-4    H 0 {1,S}
-5    H 0 {1,S}
+C2H2O
+1 *1 C 0 0 {2,D} {4,S} {5,S}
+2 *2 C 0 0 {1,D} {3,D}
+3    O 0 2 {2,D}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.26e+13,"s^-1","*|/",2),
+        A = (1.26e+13, 's^-1', '*|/', 2),
         n = 0,
-        Ea = (304.31,"kJ/mol","+|-",15.215),
-        T0 = (1,"K"),
-        Tmin = (1300,"K"),
-        Tmax = (1950,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
+        Ea = (304.31, 'kJ/mol', '+|-', 15.215),
+        T0 = (1, 'K'),
+        Tmin = (1300, 'K'),
+        Tmax = (1950, 'K'),
+        Pmin = (101000, 'Pa'),
+        Pmax = (101000, 'Pa'),
     ),
     reference = Article(
         authors = ["Mackie, J.C.", "Doolan, K.R."],
@@ -752,42 +788,45 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 13,
-    label = "1969BLA/JAC94-96:2",
+    label = "C2H4O2 <=> C2H2O + H2O",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {5,D}
-3 *4 O 0 {2,S} {8,S}
-4 *3 H 0 {1,S}
-5    O 0 {2,D}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {3,S}
+C2H4O2
+1 *1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 *2 C 0 0 {1,S} {3,S} {5,D}
+3 *4 O 0 2 {2,S} {8,S}
+4 *3 H 0 0 {1,S}
+5    O 0 2 {2,D}
+6    H 0 0 {1,S}
+7    H 0 0 {1,S}
+8    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,D} {4,S} {5,S}
-2 *2 C 0 {1,D} {3,D}
-3    O 0 {2,D}
-4    H 0 {1,S}
-5    H 0 {1,S}
+C2H2O
+1 *1 C 0 0 {2,D} {4,S} {5,S}
+2 *2 C 0 0 {1,D} {3,D}
+3    O 0 2 {2,D}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (2.82e+12,"s^-1","*|/",1.91),
+        A = (2.82e+12, 's^-1', '*|/', 1.91),
         n = 0,
-        Ea = (271.883,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (873,"K"),
-        Tmax = (1040,"K"),
-        Pmin = (933,"Pa"),
-        Pmax = (21300,"Pa"),
+        Ea = (271.883, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (873, 'K'),
+        Tmax = (1040, 'K'),
+        Pmin = (933, 'Pa'),
+        Pmax = (21300, 'Pa'),
     ),
     reference = Article(
         authors = ["Blake, P.G.", "Jackson, G.E."],
@@ -812,42 +851,45 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 14,
-    label = "1949BAM/DEW2877-2882:2",
+    label = "C2H4O2 <=> C2H2O + H2O",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {5,D}
-3 *4 O 0 {2,S} {8,S}
-4 *3 H 0 {1,S}
-5    O 0 {2,D}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {3,S}
+C2H4O2
+1 *1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 *2 C 0 0 {1,S} {3,S} {5,D}
+3 *4 O 0 2 {2,S} {8,S}
+4 *3 H 0 0 {1,S}
+5    O 0 2 {2,D}
+6    H 0 0 {1,S}
+7    H 0 0 {1,S}
+8    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,D} {4,S} {5,S}
-2 *2 C 0 {1,D} {3,D}
-3    O 0 {2,D}
-4    H 0 {1,S}
-5    H 0 {1,S}
+C2H2O
+1 *1 C 0 0 {2,D} {4,S} {5,S}
+2 *2 C 0 0 {1,D} {3,D}
+3    O 0 2 {2,D}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (8.99e+12,"s^-1"),
+        A = (8.99e+12, 's^-1'),
         n = 0,
-        Ea = (282.692,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (773,"K"),
-        Tmax = (1170,"K"),
-        Pmin = (1200,"Pa"),
-        Pmax = (21100,"Pa"),
+        Ea = (282.692, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (773, 'K'),
+        Tmax = (1170, 'K'),
+        Pmin = (1200, 'Pa'),
+        Pmax = (21100, 'Pa'),
     ),
     reference = Article(
         authors = ["Bamford, C.H.", "Dewar, M.J.S."],
@@ -871,40 +913,43 @@ Analytical technique: Other (direct)
 
 entry(
     index = 15,
-    label = "1995DUA/PAG5114-5119:2",
+    label = "C2H4O2 <=> C2H2O + H2O",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S} {6,S} {7,S}
-2 *2 C 0 {1,S} {3,S} {5,D}
-3 *4 O 0 {2,S} {8,S}
-4 *3 H 0 {1,S}
-5    O 0 {2,D}
-6    H 0 {1,S}
-7    H 0 {1,S}
-8    H 0 {3,S}
+C2H4O2
+1 *1 C 0 0 {2,S} {4,S} {6,S} {7,S}
+2 *2 C 0 0 {1,S} {3,S} {5,D}
+3 *4 O 0 2 {2,S} {8,S}
+4 *3 H 0 0 {1,S}
+5    O 0 2 {2,D}
+6    H 0 0 {1,S}
+7    H 0 0 {1,S}
+8    H 0 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,D} {4,S} {5,S}
-2 *2 C 0 {1,D} {3,D}
-3    O 0 {2,D}
-4    H 0 {1,S}
-5    H 0 {1,S}
+C2H2O
+1 *1 C 0 0 {2,D} {4,S} {5,S}
+2 *2 C 0 0 {1,D} {3,D}
+3    O 0 2 {2,D}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (4.47e+14,"s^-1"),
+        A = (4.47e+14, 's^-1'),
         n = 0,
-        Ea = (334.242,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (990,"K"),
-        Tmax = (1010,"K"),
+        Ea = (334.242, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (990, 'K'),
+        Tmax = (1010, 'K'),
     ),
     reference = Article(
         authors = ["Duan, X.", "Page, M."],
@@ -925,50 +970,53 @@ PrIMe Reaction: r00001646
 
 entry(
     index = 16,
-    label = "1975TRE2405:2",
+    label = "C3H8O <=> C3H6 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {5,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4  *4 O 0 {1,S} {12,S}
-5  *3 H 0 {2,S}
-6     H 0 {1,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
+C3H8O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {5,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *4 O 0 2 {1,S} {12,S}
+5  *3 H 0 0 {2,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+C3H6
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 0 {1,S} {3,D} {7,S}
+3 *1 C 0 0 {2,D} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (1.26e+13,"s^-1","*|/",5),
+        A = (1.26e+13, 's^-1', '*|/', 5),
         n = 0,
-        Ea = (243.614,"kJ/mol","+|-",14.633),
-        T0 = (1,"K"),
-        Tmin = (721,"K"),
-        Tmax = (801,"K"),
-        Pmin = (1333,"Pa"),
-        Pmax = (13300,"Pa"),
+        Ea = (243.614, 'kJ/mol', '+|-', 14.633),
+        T0 = (1, 'K'),
+        Tmin = (721, 'K'),
+        Tmax = (801, 'K'),
+        Pmin = (1333, 'Pa'),
+        Pmax = (13300, 'Pa'),
     ),
     reference = Article(
         authors = ["Trenwith, A.B."],
@@ -994,50 +1042,53 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 17,
-    label = "2002BUI/ZHU11188-11195:6",
+    label = "C3H8O <=> C3H6 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {5,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4  *4 O 0 {1,S} {12,S}
-5  *3 H 0 {2,S}
-6     H 0 {1,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
+C3H8O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {5,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *4 O 0 2 {1,S} {12,S}
+5  *3 H 0 0 {2,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+C3H6
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 0 {1,S} {3,D} {7,S}
+3 *1 C 0 0 {2,D} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (1.6e+51,"s^-1"),
+        A = (1.6e+51, 's^-1'),
         n = -11.46,
-        Ea = (336.096,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (500,"K"),
-        Tmax = (2500,"K"),
-        Pmin = (6666,"Pa"),
-        Pmax = (6666,"Pa"),
+        Ea = (336.096, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
+        Pmin = (6666, 'Pa'),
+        Pmax = (6666, 'Pa'),
     ),
     reference = Article(
         authors = ["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."],
@@ -1064,50 +1115,53 @@ Calculated structures, energetics, and molecular properties of reactant, product
 
 entry(
     index = 18,
-    label = "2002BUI/ZHU11188-11195:7",
+    label = "C3H8O <=> C3H6 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {5,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4  *4 O 0 {1,S} {12,S}
-5  *3 H 0 {2,S}
-6     H 0 {1,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
+C3H8O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {5,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *4 O 0 2 {1,S} {12,S}
+5  *3 H 0 0 {2,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+C3H6
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 0 {1,S} {3,D} {7,S}
+3 *1 C 0 0 {2,D} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (6.1e+43,"s^-1"),
+        A = (6.1e+43, 's^-1'),
         n = -9.13,
-        Ea = (325.811,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (500,"K"),
-        Tmax = (2500,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
+        Ea = (325.811, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
+        Pmin = (101000, 'Pa'),
+        Pmax = (101000, 'Pa'),
     ),
     reference = Article(
         authors = ["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."],
@@ -1134,48 +1188,51 @@ Calculated structures, energetics, and molecular properties of reactant, product
 
 entry(
     index = 19,
-    label = "2002BUI/ZHU11188-11195:8",
+    label = "C3H8O <=> C3H6 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {5,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4  *4 O 0 {1,S} {12,S}
-5  *3 H 0 {2,S}
-6     H 0 {1,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
+C3H8O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {5,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4  *4 O 0 2 {1,S} {12,S}
+5  *3 H 0 0 {2,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+C3H6
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 0 {1,S} {3,D} {7,S}
+3 *1 C 0 0 {2,D} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (2e+06,"s^-1"),
+        A = (2e+06, 's^-1'),
         n = 2.12,
-        Ea = (254.98,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (500,"K"),
-        Tmax = (2500,"K"),
+        Ea = (254.98, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = Article(
         authors = ["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."],
@@ -1202,56 +1259,59 @@ Calculated structures, energetics, and molecular properties of reactant, product
 
 entry(
     index = 20,
-    label = "1978FOU/MAR132:1",
+    label = "C4H10O <=> C2H4 + C2H6O",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {5,S} {7,S} {8,S}
-2     C 0 {4,S} {5,S} {9,S} {10,S}
-3  *1 C 0 {1,S} {6,S} {11,S} {12,S}
-4     C 0 {2,S} {13,S} {14,S} {15,S}
-5  *4 O 0 {1,S} {2,S}
-6  *3 H 0 {3,S}
-7     H 0 {1,S}
-8     H 0 {1,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
+C4H10O
+1  *2 C 0 0 {3,S} {5,S} {7,S} {8,S}
+2     C 0 0 {4,S} {5,S} {9,S} {10,S}
+3  *1 C 0 0 {1,S} {6,S} {11,S} {12,S}
+4     C 0 0 {2,S} {13,S} {14,S} {15,S}
+5  *4 O 0 2 {1,S} {2,S}
+6  *3 H 0 0 {3,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {3,S} {5,S} {6,S}
-2    C 0 {1,S} {7,S} {8,S} {9,S}
-3 *4 O 0 {1,S} {4,S}
-4 *3 H 0 {3,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+C2H6O
+1    C 0 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 0 {1,S} {7,S} {8,S} {9,S}
+3 *4 O 0 2 {1,S} {4,S}
+4 *3 H 0 0 {3,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {2,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (1e+13,"s^-1"),
+        A = (1e+13, 's^-1'),
         n = 0,
-        Ea = (260.243,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (763,"K"),
-        Tmax = (798,"K"),
-        Pmin = (6666,"Pa"),
-        Pmax = (13300,"Pa"),
+        Ea = (260.243, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (763, 'K'),
+        Tmax = (798, 'K'),
+        Pmin = (6666, 'Pa'),
+        Pmax = (13300, 'Pa'),
     ),
     reference = Article(
         authors = ["Foucaut, J.-F.", "Martin, R."],
@@ -1275,56 +1335,59 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 21,
-    label = "1975SER/HUH120-123:1",
+    label = "C4H10O <=> C2H4 + C2H6O",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {5,S} {7,S} {8,S}
-2     C 0 {4,S} {5,S} {9,S} {10,S}
-3  *1 C 0 {1,S} {6,S} {11,S} {12,S}
-4     C 0 {2,S} {13,S} {14,S} {15,S}
-5  *4 O 0 {1,S} {2,S}
-6  *3 H 0 {3,S}
-7     H 0 {1,S}
-8     H 0 {1,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
+C4H10O
+1  *2 C 0 0 {3,S} {5,S} {7,S} {8,S}
+2     C 0 0 {4,S} {5,S} {9,S} {10,S}
+3  *1 C 0 0 {1,S} {6,S} {11,S} {12,S}
+4     C 0 0 {2,S} {13,S} {14,S} {15,S}
+5  *4 O 0 2 {1,S} {2,S}
+6  *3 H 0 0 {3,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {3,S} {5,S} {6,S}
-2    C 0 {1,S} {7,S} {8,S} {9,S}
-3 *4 O 0 {1,S} {4,S}
-4 *3 H 0 {3,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+C2H6O
+1    C 0 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 0 {1,S} {7,S} {8,S} {9,S}
+3 *4 O 0 2 {1,S} {4,S}
+4 *3 H 0 0 {3,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {2,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (7.94e+13,"s^-1"),
+        A = (7.94e+13, 's^-1'),
         n = 0,
-        Ea = (276.04,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (783,"K"),
-        Tmax = (823,"K"),
-        Pmin = (13300,"Pa"),
-        Pmax = (40000,"Pa"),
+        Ea = (276.04, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (783, 'K'),
+        Tmax = (823, 'K'),
+        Pmin = (13300, 'Pa'),
+        Pmax = (40000, 'Pa'),
     ),
     reference = Article(
         authors = ["Seres, I.", "Huhn, P."],
@@ -1348,56 +1411,59 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 22,
-    label = "1964LAI/MCK517-526:1",
+    label = "C4H10O <=> C2H4 + C2H6O",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {5,S} {7,S} {8,S}
-2     C 0 {4,S} {5,S} {9,S} {10,S}
-3  *1 C 0 {1,S} {6,S} {11,S} {12,S}
-4     C 0 {2,S} {13,S} {14,S} {15,S}
-5  *4 O 0 {1,S} {2,S}
-6  *3 H 0 {3,S}
-7     H 0 {1,S}
-8     H 0 {1,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
+C4H10O
+1  *2 C 0 0 {3,S} {5,S} {7,S} {8,S}
+2     C 0 0 {4,S} {5,S} {9,S} {10,S}
+3  *1 C 0 0 {1,S} {6,S} {11,S} {12,S}
+4     C 0 0 {2,S} {13,S} {14,S} {15,S}
+5  *4 O 0 2 {1,S} {2,S}
+6  *3 H 0 0 {3,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {3,S} {5,S} {6,S}
-2    C 0 {1,S} {7,S} {8,S} {9,S}
-3 *4 O 0 {1,S} {4,S}
-4 *3 H 0 {3,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+C2H6O
+1    C 0 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 0 {1,S} {7,S} {8,S} {9,S}
+3 *4 O 0 2 {1,S} {4,S}
+4 *3 H 0 0 {3,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {2,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (2.75e+18,"s^-1"),
+        A = (2.75e+18, 's^-1'),
         n = 0,
-        Ea = (350.871,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (833,"K"),
-        Tmax = (913,"K"),
-        Pmin = (1333,"Pa"),
-        Pmax = (48000,"Pa"),
+        Ea = (350.871, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (833, 'K'),
+        Tmax = (913, 'K'),
+        Pmin = (1333, 'Pa'),
+        Pmax = (48000, 'Pa'),
     ),
     reference = Article(
         authors = ["Laidler, K.J.", "McKenney, D.J."],
@@ -1422,56 +1488,59 @@ Analytical technique: Pressure measurement
 
 entry(
     index = 23,
-    label = "1979NEW/ONE1167:1",
+    label = "C4H10O <=> C4H8 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5  *4 O 0 {1,S} {15,S}
-6  *3 H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
+C4H10O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *4 O 0 2 {1,S} {15,S}
+6  *3 H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (7.76e+14,"s^-1"),
+        A = (7.76e+14, 's^-1'),
         n = 0,
-        Ea = (275.209,"kJ/mol","+|-",13.802),
-        T0 = (1,"K"),
-        Tmin = (1020,"K"),
-        Tmax = (1200,"K"),
-        Pmin = (520000,"Pa"),
-        Pmax = (533000,"Pa"),
+        Ea = (275.209, 'kJ/mol', '+|-', 13.802),
+        T0 = (1, 'K'),
+        Tmin = (1020, 'K'),
+        Tmax = (1200, 'K'),
+        Pmin = (520000, 'Pa'),
+        Pmax = (533000, 'Pa'),
     ),
     reference = Article(
         authors = ["Newman, C.G.", "O'Neal, H.E.", "Ring, M.A.", "Leska, F.", "Shipley, N."],
@@ -1495,56 +1564,59 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 24,
-    label = "1974LEW/KEI4398:1",
+    label = "C4H10O <=> C4H8 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5  *4 O 0 {1,S} {15,S}
-6  *3 H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
+C4H10O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *4 O 0 2 {1,S} {15,S}
+6  *3 H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (3.98e+14,"s^-1"),
+        A = (3.98e+14, 's^-1'),
         n = 0,
-        Ea = (276.872,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (920,"K"),
-        Tmax = (1180,"K"),
-        Pmin = (49300,"Pa"),
-        Pmax = (208000,"Pa"),
+        Ea = (276.872, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (920, 'K'),
+        Tmax = (1180, 'K'),
+        Pmin = (49300, 'Pa'),
+        Pmax = (208000, 'Pa'),
     ),
     reference = Article(
         authors = ["Lewis, D.", "Keil, M.", "Sarr, M."],
@@ -1568,54 +1640,57 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 25,
-    label = "1971GON/LEW103-123:3",
+    label = "C4H10O <=> C4H8 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5  *4 O 0 {1,S} {15,S}
-6  *3 H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
+C4H10O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *4 O 0 2 {1,S} {15,S}
+6  *3 H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (250000,"s^-1"),
+        A = (250000, 's^-1'),
         n = 0,
-        Ea = (125.549,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (753,"K"),
-        Tmax = (833,"K"),
+        Ea = (125.549, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (753, 'K'),
+        Tmax = (833, 'K'),
     ),
     reference = Article(
         authors = ["Gonzalez, M.G.", "Lew, L.", "Cunningham, R.E."],
@@ -1638,56 +1713,59 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 26,
-    label = "1971DOR/MCG2526:2",
+    label = "C4H10O <=> C4H8 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5  *4 O 0 {1,S} {15,S}
-6  *3 H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
+C4H10O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *4 O 0 2 {1,S} {15,S}
+6  *3 H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (2.24e+13,"s^-1","*|/",1.58),
+        A = (2.24e+13, 's^-1', '*|/', 1.58),
         n = 0,
-        Ea = (252.76,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (935,"K"),
-        Tmax = (1400,"K"),
-        Pmin = (13700,"Pa"),
-        Pmax = (34500,"Pa"),
+        Ea = (252.76, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (935, 'K'),
+        Tmax = (1400, 'K'),
+        Pmin = (13700, 'Pa'),
+        Pmax = (34500, 'Pa'),
     ),
     reference = Article(
         authors = ["Dorko, E.A.", "McGhee, D.B.", "Painter, C.E.", "Caponecchi, A.J.", "Crossley, R.W."],
@@ -1712,56 +1790,59 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 27,
-    label = "1964TSA1498-1505:1",
+    label = "C4H10O <=> C4H8 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5  *4 O 0 {1,S} {15,S}
-6  *3 H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
+C4H10O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *4 O 0 2 {1,S} {15,S}
+6  *3 H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (2.51e+13,"s^-1"),
+        A = (2.51e+13, 's^-1'),
         n = 0,
-        Ea = (257.749,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1050,"K"),
-        Tmax = (1300,"K"),
-        Pmin = (10700,"Pa"),
-        Pmax = (46700,"Pa"),
+        Ea = (257.749, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1050, 'K'),
+        Tmax = (1300, 'K'),
+        Pmin = (10700, 'Pa'),
+        Pmax = (46700, 'Pa'),
     ),
     reference = Article(
         authors = ["Tsang, W."],
@@ -1785,56 +1866,59 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 28,
-    label = "1959BAR947-951:1",
+    label = "C4H10O <=> C4H8 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S} {7,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5  *4 O 0 {1,S} {15,S}
-6  *3 H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
+C4H10O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5  *4 O 0 2 {1,S} {15,S}
+6  *3 H 0 0 {2,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (3.24e+11,"s^-1","*|/",2.82),
+        A = (3.24e+11, 's^-1', '*|/', 2.82),
         n = 0,
-        Ea = (227.817,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (760,"K"),
-        Tmax = (893,"K"),
-        Pmin = (5866,"Pa"),
-        Pmax = (41100,"Pa"),
+        Ea = (227.817, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (760, 'K'),
+        Tmax = (893, 'K'),
+        Pmin = (5866, 'Pa'),
+        Pmax = (41100, 'Pa'),
     ),
     reference = Article(
         authors = ["Barnard, J.A."],
@@ -1861,52 +1945,55 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 29,
-    label = "1973TRE1737:1",
+    label = "C4H8O <=> C4H6 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {5,S} {7,S}
-2  *1 C 0 {1,S} {6,S} {8,S} {9,S}
-3     C 0 {1,S} {4,D} {10,S}
-4     C 0 {3,D} {11,S} {12,S}
-5  *4 O 0 {1,S} {13,S}
-6  *3 H 0 {2,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
-13    H 0 {5,S}
+C4H8O
+1  *2 C 0 0 {2,S} {3,S} {5,S} {7,S}
+2  *1 C 0 0 {1,S} {6,S} {8,S} {9,S}
+3     C 0 0 {1,S} {4,D} {10,S}
+4     C 0 0 {3,D} {11,S} {12,S}
+5  *4 O 0 2 {1,S} {13,S}
+6  *3 H 0 0 {2,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
+13    H 0 0 {5,S}
 """,
     product1 = 
 """
-1  *2 C 0 {2,S} {3,D} {5,S}
-2     C 0 {1,S} {4,D} {6,S}
-3  *1 C 0 {1,D} {7,S} {8,S}
-4     C 0 {2,D} {9,S} {10,S}
-5     H 0 {1,S}
-6     H 0 {2,S}
-7     H 0 {3,S}
-8     H 0 {3,S}
-9     H 0 {4,S}
-10    H 0 {4,S}
+C4H6
+1  *2 C 0 0 {2,S} {3,D} {5,S}
+2     C 0 0 {1,S} {4,D} {6,S}
+3  *1 C 0 0 {1,D} {7,S} {8,S}
+4     C 0 0 {2,D} {9,S} {10,S}
+5     H 0 0 {1,S}
+6     H 0 0 {2,S}
+7     H 0 0 {3,S}
+8     H 0 0 {3,S}
+9     H 0 0 {4,S}
+10    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (7.94e+12,"s^-1","*|/",3.16),
+        A = (7.94e+12, 's^-1', '*|/', 3.16),
         n = 0,
-        Ea = (232.805,"kJ/mol","+|-",6.992),
-        T0 = (1,"K"),
-        Tmin = (773,"K"),
-        Tmax = (834,"K"),
-        Pmin = (667,"Pa"),
-        Pmax = (13300,"Pa"),
+        Ea = (232.805, 'kJ/mol', '+|-', 6.992),
+        T0 = (1, 'K'),
+        Tmin = (773, 'K'),
+        Tmax = (834, 'K'),
+        Pmin = (667, 'Pa'),
+        Pmax = (13300, 'Pa'),
     ),
     reference = Article(
         authors = ["Trenwith, A.B."],
@@ -1931,54 +2018,57 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 30,
-    label = "1992ROT/CHU909-915:4",
+    label = "C4H8O2 <=> C4H6O + H2O",
     reactant1 = 
 """
-1  *1 C 0 {2,S} {4,S} {6,S} {8,S}
-2  *2 C 0 {1,S} {5,S} {9,S} {10,S}
-3     C 0 {4,S} {11,S} {12,S} {13,S}
-4     C 0 {1,S} {3,S} {7,D}
-5  *4 O 0 {2,S} {14,S}
-6  *3 H 0 {1,S}
-7     O 0 {4,D}
-8     H 0 {1,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {3,S}
-14    H 0 {5,S}
+C4H8O2
+1  *1 C 0 0 {2,S} {4,S} {6,S} {8,S}
+2  *2 C 0 0 {1,S} {5,S} {9,S} {10,S}
+3     C 0 0 {4,S} {11,S} {12,S} {13,S}
+4     C 0 0 {1,S} {3,S} {7,D}
+5  *4 O 0 2 {2,S} {14,S}
+6  *3 H 0 0 {1,S}
+7     O 0 2 {4,D}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {2,S} {6,S} {7,S} {8,S}
-2     C 0 {1,S} {3,S} {5,D}
-3  *1 C 0 {2,S} {4,D} {9,S}
-4  *2 C 0 {3,D} {10,S} {11,S}
-5     O 0 {2,D}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {1,S}
-9     H 0 {3,S}
-10    H 0 {4,S}
-11    H 0 {4,S}
+C4H6O
+1     C 0 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 0 {1,S} {3,S} {5,D}
+3  *1 C 0 0 {2,S} {4,D} {9,S}
+4  *2 C 0 0 {3,D} {10,S} {11,S}
+5     O 0 2 {2,D}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {3,S}
+10    H 0 0 {4,S}
+11    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
-        A = (2.24e+12,"s^-1","*|/",3.39),
+        A = (2.24e+12, 's^-1', '*|/', 3.39),
         n = 0,
-        Ea = (155.481,"kJ/mol","+|-",4.673),
-        T0 = (1,"K"),
-        Tmin = (493,"K"),
-        Tmax = (530,"K"),
-        Pmin = (2800,"Pa"),
-        Pmax = (20300,"Pa"),
+        Ea = (155.481, 'kJ/mol', '+|-', 4.673),
+        T0 = (1, 'K'),
+        Tmin = (493, 'K'),
+        Tmax = (530, 'K'),
+        Pmin = (2800, 'Pa'),
+        Pmax = (20300, 'Pa'),
     ),
     reference = Article(
         authors = ["Rotinov, A.", "Chuchani, G.", "Machado, R.A.", "Rivas, C."],
@@ -2004,62 +2094,65 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 31,
-    label = "1987BRO/BAR19:1",
+    label = "C5H12O <=> C4H8 + CH4O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {6,S} {16,S} {17,S} {18,S}
-6  *4 O 0 {1,S} {5,S}
-7  *3 H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
+C5H12O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {6,S} {16,S} {17,S} {18,S}
+6  *4 O 0 2 {1,S} {5,S}
+7  *3 H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *4 O 0 {1,S} {3,S}
-3 *3 H 0 {2,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
+CH4O
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *4 O 0 2 {1,S} {3,S}
+3 *3 H 0 0 {2,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (7.94e+13,"s^-1"),
+        A = (7.94e+13, 's^-1'),
         n = 0,
-        Ea = (246.94,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (700,"K"),
-        Tmax = (761,"K"),
-        Pmin = (6666,"Pa"),
-        Pmax = (20000,"Pa"),
+        Ea = (246.94, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (761, 'K'),
+        Pmin = (6666, 'Pa'),
+        Pmax = (20000, 'Pa'),
     ),
     reference = Article(
         authors = ["Brocard, J.C.", "Baronnet, F."],
@@ -2083,62 +2176,65 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 32,
-    label = "1980BRO/BAR321:1",
+    label = "C5H12O <=> C4H8 + CH4O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {6,S} {16,S} {17,S} {18,S}
-6  *4 O 0 {1,S} {5,S}
-7  *3 H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
+C5H12O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {6,S} {16,S} {17,S} {18,S}
+6  *4 O 0 2 {1,S} {5,S}
+7  *3 H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *4 O 0 {1,S} {3,S}
-3 *3 H 0 {2,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
+CH4O
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *4 O 0 2 {1,S} {3,S}
+3 *3 H 0 0 {2,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (1e+14,"s^-1"),
+        A = (1e+14, 's^-1'),
         n = 0,
-        Ea = (249.434,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (623,"K"),
-        Tmax = (763,"K"),
-        Pmin = (6666,"Pa"),
-        Pmax = (26700,"Pa"),
+        Ea = (249.434, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (623, 'K'),
+        Tmax = (763, 'K'),
+        Pmin = (6666, 'Pa'),
+        Pmax = (26700, 'Pa'),
     ),
     reference = Article(
         authors = ["Brocard, J.C.", "Baronnet, F."],
@@ -2162,60 +2258,63 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 33,
-    label = "1974CHO/GOL631:1",
+    label = "C5H12O <=> C4H8 + CH4O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {6,S} {16,S} {17,S} {18,S}
-6  *4 O 0 {1,S} {5,S}
-7  *3 H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
+C5H12O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {6,S} {16,S} {17,S} {18,S}
+6  *4 O 0 2 {1,S} {5,S}
+7  *3 H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *4 O 0 {1,S} {3,S}
-3 *3 H 0 {2,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
+CH4O
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *4 O 0 2 {1,S} {3,S}
+3 *3 H 0 0 {2,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (7.94e+13,"s^-1"),
+        A = (7.94e+13, 's^-1'),
         n = 0,
-        Ea = (246.94,"kJ/mol","+|-",4.939),
-        T0 = (1,"K"),
-        Tmin = (888,"K"),
-        Tmax = (1160,"K"),
+        Ea = (246.94, 'kJ/mol', '+|-', 4.939),
+        T0 = (1, 'K'),
+        Tmin = (888, 'K'),
+        Tmax = (1160, 'K'),
     ),
     reference = Article(
         authors = ["Choo, K-Y.", "Golden, D.M.", "Benson, S.W."],
@@ -2238,60 +2337,63 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 34,
-    label = "1968DAL/WEN2711-2716:1",
+    label = "C5H12O <=> C4H8 + CH4O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {6,S}
-2  *1 C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {6,S} {16,S} {17,S} {18,S}
-6  *4 O 0 {1,S} {5,S}
-7  *3 H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
+C5H12O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {6,S}
+2  *1 C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {6,S} {16,S} {17,S} {18,S}
+6  *4 O 0 2 {1,S} {5,S}
+7  *3 H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *4 O 0 {1,S} {3,S}
-3 *3 H 0 {2,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
+CH4O
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *4 O 0 2 {1,S} {3,S}
+3 *3 H 0 0 {2,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (2.23e+14,"s^-1"),
+        A = (2.23e+14, 's^-1'),
         n = 0,
-        Ea = (255.254,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (706,"K"),
-        Tmax = (768,"K"),
+        Ea = (255.254, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (706, 'K'),
+        Tmax = (768, 'K'),
     ),
     reference = Article(
         authors = ["Daly, N.J.", "Wentrup, C."],
@@ -2316,68 +2418,71 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 35,
-    label = "1966DAL/STI239-250:1",
+    label = "C6H14O <=> C3H6 + C3H8O",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {4,S} {7,S} {9,S}
-2     C 0 {5,S} {6,S} {7,S} {10,S}
-3  *1 C 0 {1,S} {8,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {2,S} {16,S} {17,S} {18,S}
-6     C 0 {2,S} {19,S} {20,S} {21,S}
-7  *4 O 0 {1,S} {2,S}
-8  *3 H 0 {3,S}
-9     H 0 {1,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
-19    H 0 {6,S}
-20    H 0 {6,S}
-21    H 0 {6,S}
+C6H14O
+1  *2 C 0 0 {3,S} {4,S} {7,S} {9,S}
+2     C 0 0 {5,S} {6,S} {7,S} {10,S}
+3  *1 C 0 0 {1,S} {8,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {2,S} {16,S} {17,S} {18,S}
+6     C 0 0 {2,S} {19,S} {20,S} {21,S}
+7  *4 O 0 2 {1,S} {2,S}
+8  *3 H 0 0 {3,S}
+9     H 0 0 {1,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {6,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+C3H6
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 0 {1,S} {3,D} {7,S}
+3 *1 C 0 0 {2,D} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = 
 """
-1     C 0 {2,S} {3,S} {4,S} {6,S}
-2     C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4  *4 O 0 {1,S} {5,S}
-5  *3 H 0 {4,S}
-6     H 0 {1,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
+C3H8O
+1     C 0 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  *4 O 0 2 {1,S} {5,S}
+5  *3 H 0 0 {4,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
 """,
     degeneracy = 48,
     kinetics = Arrhenius(
-        A = (4.17e+14,"s^-1"),
+        A = (4.17e+14, 's^-1'),
         n = 0,
-        Ea = (266.063,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (696,"K"),
-        Tmax = (760,"K"),
-        Pmin = (30800,"Pa"),
-        Pmax = (52300,"Pa"),
+        Ea = (266.063, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (696, 'K'),
+        Tmax = (760, 'K'),
+        Pmin = (30800, 'Pa'),
+        Pmax = (52300, 'Pa'),
     ),
     reference = Article(
         authors = ["Daly, N.J.", "Stimson, V.R."],
@@ -2402,64 +2507,67 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 36,
-    label = "1997HER/MAN5494-5499:5",
+    label = "C5H12O2 <=> C2H4 + C3H8O2",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {6,S} {9,S} {10,S}
-2     C 0 {4,S} {7,S} {11,S} {12,S}
-3  *1 C 0 {1,S} {8,S} {13,S} {14,S}
-4     C 0 {2,S} {15,S} {16,S} {17,S}
-5     C 0 {6,S} {7,S} {18,S} {19,S}
-6  *4 O 0 {1,S} {5,S}
-7     O 0 {2,S} {5,S}
-8  *3 H 0 {3,S}
-9     H 0 {1,S}
-10    H 0 {1,S}
-11    H 0 {2,S}
-12    H 0 {2,S}
-13    H 0 {3,S}
-14    H 0 {3,S}
-15    H 0 {4,S}
-16    H 0 {4,S}
-17    H 0 {4,S}
-18    H 0 {5,S}
-19    H 0 {5,S}
+C5H12O2
+1  *2 C 0 0 {3,S} {6,S} {9,S} {10,S}
+2     C 0 0 {4,S} {7,S} {11,S} {12,S}
+3  *1 C 0 0 {1,S} {8,S} {13,S} {14,S}
+4     C 0 0 {2,S} {15,S} {16,S} {17,S}
+5     C 0 0 {6,S} {7,S} {18,S} {19,S}
+6  *4 O 0 2 {1,S} {5,S}
+7     O 0 2 {2,S} {5,S}
+8  *3 H 0 0 {3,S}
+9     H 0 0 {1,S}
+10    H 0 0 {1,S}
+11    H 0 0 {2,S}
+12    H 0 0 {2,S}
+13    H 0 0 {3,S}
+14    H 0 0 {3,S}
+15    H 0 0 {4,S}
+16    H 0 0 {4,S}
+17    H 0 0 {4,S}
+18    H 0 0 {5,S}
+19    H 0 0 {5,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,D} {3,S} {4,S}
-2 *1 C 0 {1,D} {5,S} {6,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
+C2H4
+1 *2 C 0 0 {2,D} {3,S} {4,S}
+2 *1 C 0 0 {1,D} {5,S} {6,S}
+3    H 0 0 {1,S}
+4    H 0 0 {1,S}
+5    H 0 0 {2,S}
+6    H 0 0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S} {4,S} {7,S} {8,S}
-2     C 0 {1,S} {9,S} {10,S} {11,S}
-3     C 0 {4,S} {5,S} {12,S} {13,S}
-4     O 0 {1,S} {3,S}
-5  *4 O 0 {3,S} {6,S}
-6  *3 H 0 {5,S}
-7     H 0 {1,S}
-8     H 0 {1,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {2,S}
-12    H 0 {3,S}
-13    H 0 {3,S}
+C3H8O2
+1     C 0 0 {2,S} {4,S} {7,S} {8,S}
+2     C 0 0 {1,S} {9,S} {10,S} {11,S}
+3     C 0 0 {4,S} {5,S} {12,S} {13,S}
+4     O 0 2 {1,S} {3,S}
+5  *4 O 0 2 {3,S} {6,S}
+6  *3 H 0 0 {5,S}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {2,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (1.17e+15,"s^-1","*|/",2.82),
+        A = (1.17e+15, 's^-1', '*|/', 2.82),
         n = 0,
-        Ea = (286.849,"kJ/mol","+|-",8.647),
-        T0 = (1,"K"),
-        Tmin = (1150,"K"),
-        Tmax = (1260,"K"),
-        Pmin = (200000,"Pa"),
-        Pmax = (400000,"Pa"),
+        Ea = (286.849, 'kJ/mol', '+|-', 8.647),
+        T0 = (1, 'K'),
+        Tmin = (1150, 'K'),
+        Tmax = (1260, 'K'),
+        Pmin = (200000, 'Pa'),
+        Pmax = (400000, 'Pa'),
     ),
     reference = Article(
         authors = ["Herzler, J.", "Manion, J.A.", "Tsang, W."],
@@ -2485,68 +2593,71 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 37,
-    label = "1976TSA173:9",
+    label = "C6H14O <=> C6H12 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {7,S}
-2     C 0 {1,S} {5,S} {6,S} {9,S}
-3  *1 C 0 {1,S} {8,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5     C 0 {2,S} {15,S} {16,S} {17,S}
-6     C 0 {2,S} {18,S} {19,S} {20,S}
-7  *4 O 0 {1,S} {21,S}
-8  *3 H 0 {3,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {6,S}
-19    H 0 {6,S}
-20    H 0 {6,S}
-21    H 0 {7,S}
+C6H14O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {7,S}
+2     C 0 0 {1,S} {5,S} {6,S} {9,S}
+3  *1 C 0 0 {1,S} {8,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 0 {2,S} {18,S} {19,S} {20,S}
+7  *4 O 0 2 {1,S} {21,S}
+8  *3 H 0 0 {3,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {6,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {7,S}
 """,
     product1 = 
 """
-1     C 0 {2,S} {3,S} {5,S} {7,S}
-2     C 0 {1,S} {8,S} {9,S} {10,S}
-3     C 0 {1,S} {11,S} {12,S} {13,S}
-4     C 0 {5,S} {14,S} {15,S} {16,S}
-5  *2 C 0 {1,S} {4,S} {6,D}
-6  *1 C 0 {5,D} {17,S} {18,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {3,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {4,S}
-17    H 0 {6,S}
-18    H 0 {6,S}
+C6H12
+1     C 0 0 {2,S} {3,S} {5,S} {7,S}
+2     C 0 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 0 {5,S} {14,S} {15,S} {16,S}
+5  *2 C 0 0 {1,S} {4,S} {6,D}
+6  *1 C 0 0 {5,D} {17,S} {18,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {4,S}
+17    H 0 0 {6,S}
+18    H 0 0 {6,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (1.48e+14,"s^-1"),
+        A = (1.48e+14, 's^-1'),
         n = 0,
-        Ea = (268.557,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1080,"K"),
-        Tmax = (1160,"K"),
-        Pmin = (53300,"Pa"),
-        Pmax = (66700,"Pa"),
+        Ea = (268.557, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1080, 'K'),
+        Tmax = (1160, 'K'),
+        Pmin = (53300, 'Pa'),
+        Pmax = (66700, 'Pa'),
     ),
     reference = Article(
         authors = ["Tsang, W."],
@@ -2571,68 +2682,71 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 38,
-    label = "1976TSA173:10",
+    label = "C6H14O <=> C6H12 + H2O",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {7,S}
-2  *1 C 0 {1,S} {5,S} {6,S} {8,S}
-3     C 0 {1,S} {9,S} {10,S} {11,S}
-4     C 0 {1,S} {12,S} {13,S} {14,S}
-5     C 0 {2,S} {15,S} {16,S} {17,S}
-6     C 0 {2,S} {18,S} {19,S} {20,S}
-7  *4 O 0 {1,S} {21,S}
-8  *3 H 0 {2,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {4,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {6,S}
-19    H 0 {6,S}
-20    H 0 {6,S}
-21    H 0 {7,S}
+C6H14O
+1  *2 C 0 0 {2,S} {3,S} {4,S} {7,S}
+2  *1 C 0 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 0 {2,S} {18,S} {19,S} {20,S}
+7  *4 O 0 2 {1,S} {21,S}
+8  *3 H 0 0 {2,S}
+9     H 0 0 {3,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {4,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {6,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {7,S}
 """,
     product1 = 
 """
-1     C 0 {5,S} {7,S} {8,S} {9,S}
-2     C 0 {5,S} {10,S} {11,S} {12,S}
-3     C 0 {6,S} {13,S} {14,S} {15,S}
-4     C 0 {6,S} {16,S} {17,S} {18,S}
-5  *2 C 0 {1,S} {2,S} {6,D}
-6  *1 C 0 {3,S} {4,S} {5,D}
-7     H 0 {1,S}
-8     H 0 {1,S}
-9     H 0 {1,S}
-10    H 0 {2,S}
-11    H 0 {2,S}
-12    H 0 {2,S}
-13    H 0 {3,S}
-14    H 0 {3,S}
-15    H 0 {3,S}
-16    H 0 {4,S}
-17    H 0 {4,S}
-18    H 0 {4,S}
+C6H12
+1     C 0 0 {5,S} {7,S} {8,S} {9,S}
+2     C 0 0 {5,S} {10,S} {11,S} {12,S}
+3     C 0 0 {6,S} {13,S} {14,S} {15,S}
+4     C 0 0 {6,S} {16,S} {17,S} {18,S}
+5  *2 C 0 0 {1,S} {2,S} {6,D}
+6  *1 C 0 0 {3,S} {4,S} {5,D}
+7     H 0 0 {1,S}
+8     H 0 0 {1,S}
+9     H 0 0 {1,S}
+10    H 0 0 {2,S}
+11    H 0 0 {2,S}
+12    H 0 0 {2,S}
+13    H 0 0 {3,S}
+14    H 0 0 {3,S}
+15    H 0 0 {3,S}
+16    H 0 0 {4,S}
+17    H 0 0 {4,S}
+18    H 0 0 {4,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (4.57e+13,"s^-1"),
+        A = (4.57e+13, 's^-1'),
         n = 0,
-        Ea = (271.883,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1080,"K"),
-        Tmax = (1160,"K"),
-        Pmin = (53300,"Pa"),
-        Pmax = (66700,"Pa"),
+        Ea = (271.883, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1080, 'K'),
+        Tmax = (1160, 'K'),
+        Pmin = (53300, 'Pa'),
+        Pmax = (66700, 'Pa'),
     ),
     reference = Article(
         authors = ["Tsang, W."],
@@ -2657,68 +2771,71 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 39,
-    label = "2008YAS/KUR192-197:1",
+    label = "C6H14O <=> C4H8 + C2H6O",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {4,S} {5,S} {7,S}
-2     C 0 {6,S} {7,S} {9,S} {10,S}
-3  *1 C 0 {1,S} {8,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {1,S} {16,S} {17,S} {18,S}
-6     C 0 {2,S} {19,S} {20,S} {21,S}
-7  *4 O 0 {1,S} {2,S}
-8  *3 H 0 {3,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
-19    H 0 {6,S}
-20    H 0 {6,S}
-21    H 0 {6,S}
+C6H14O
+1  *2 C 0 0 {3,S} {4,S} {5,S} {7,S}
+2     C 0 0 {6,S} {7,S} {9,S} {10,S}
+3  *1 C 0 0 {1,S} {8,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {1,S} {16,S} {17,S} {18,S}
+6     C 0 0 {2,S} {19,S} {20,S} {21,S}
+7  *4 O 0 2 {1,S} {2,S}
+8  *3 H 0 0 {3,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {6,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {3,S} {5,S} {6,S}
-2    C 0 {1,S} {7,S} {8,S} {9,S}
-3 *4 O 0 {1,S} {4,S}
-4 *3 H 0 {3,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+C2H6O
+1    C 0 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 0 {1,S} {7,S} {8,S} {9,S}
+3 *4 O 0 2 {1,S} {4,S}
+4 *3 H 0 0 {3,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {2,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (1.7e+14,"s^-1"),
+        A = (1.7e+14, 's^-1'),
         n = 0,
-        Ea = (254,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1000,"K"),
-        Tmax = (1500,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (912000,"Pa"),
+        Ea = (254, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1000, 'K'),
+        Tmax = (1500, 'K'),
+        Pmin = (101000, 'Pa'),
+        Pmax = (912000, 'Pa'),
     ),
     reference = Article(
         authors = ["Yasunaga, K.", "Kuraguchi, Y.", "Hidaka, Y.", "Takahashi, O.", "Yamada, H.", "Koike, T."],
@@ -2743,66 +2860,69 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 40,
-    label = "1968DAL/WEN1535:1",
+    label = "C6H14O <=> C4H8 + C2H6O",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {4,S} {5,S} {7,S}
-2     C 0 {6,S} {7,S} {9,S} {10,S}
-3  *1 C 0 {1,S} {8,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {1,S} {16,S} {17,S} {18,S}
-6     C 0 {2,S} {19,S} {20,S} {21,S}
-7  *4 O 0 {1,S} {2,S}
-8  *3 H 0 {3,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
-19    H 0 {6,S}
-20    H 0 {6,S}
-21    H 0 {6,S}
+C6H14O
+1  *2 C 0 0 {3,S} {4,S} {5,S} {7,S}
+2     C 0 0 {6,S} {7,S} {9,S} {10,S}
+3  *1 C 0 0 {1,S} {8,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {1,S} {16,S} {17,S} {18,S}
+6     C 0 0 {2,S} {19,S} {20,S} {21,S}
+7  *4 O 0 2 {1,S} {2,S}
+8  *3 H 0 0 {3,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {6,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {3,S} {5,S} {6,S}
-2    C 0 {1,S} {7,S} {8,S} {9,S}
-3 *4 O 0 {1,S} {4,S}
-4 *3 H 0 {3,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {2,S}
-9    H 0 {2,S}
+C2H6O
+1    C 0 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 0 {1,S} {7,S} {8,S} {9,S}
+3 *4 O 0 2 {1,S} {4,S}
+4 *3 H 0 0 {3,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {2,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (1.15e+14,"s^-1","*|/",1.4),
+        A = (1.15e+14, 's^-1', '*|/', 1.4),
         n = 0,
-        Ea = (248.603,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (706,"K"),
-        Tmax = (757,"K"),
+        Ea = (248.603, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (706, 'K'),
+        Tmax = (757, 'K'),
     ),
     reference = Article(
         authors = ["Daly, N.J.", "Wentrup, C."],
@@ -2829,68 +2949,71 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 41,
-    label = "1976TSA173:5",
+    label = "C6H14O <=> C6H12 + H2O",
     reactant1 = 
 """
-1     C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 C 0 {1,S} {6,S} {7,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {1,S} {16,S} {17,S} {18,S}
-6  *1 C 0 {2,S} {8,S} {19,S} {20,S}
-7  *4 O 0 {2,S} {21,S}
-8  *3 H 0 {6,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
-19    H 0 {6,S}
-20    H 0 {6,S}
-21    H 0 {7,S}
+C6H14O
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 0 {1,S} {6,S} {7,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {1,S} {16,S} {17,S} {18,S}
+6  *1 C 0 0 {2,S} {8,S} {19,S} {20,S}
+7  *4 O 0 2 {2,S} {21,S}
+8  *3 H 0 0 {6,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {7,S}
 """,
     product1 = 
 """
-1     C 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5  *2 C 0 {1,S} {6,D} {16,S}
-6  *1 C 0 {5,D} {17,S} {18,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {6,S}
-18    H 0 {6,S}
+C6H12
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5  *2 C 0 0 {1,S} {6,D} {16,S}
+6  *1 C 0 0 {5,D} {17,S} {18,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {6,S}
+18    H 0 0 {6,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (1e+14,"s^-1"),
+        A = (1e+14, 's^-1'),
         n = 0,
-        Ea = (284.355,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1080,"K"),
-        Tmax = (1160,"K"),
-        Pmin = (53300,"Pa"),
-        Pmax = (66700,"Pa"),
+        Ea = (284.355, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1080, 'K'),
+        Tmax = (1160, 'K'),
+        Pmin = (53300, 'Pa'),
+        Pmax = (66700, 'Pa'),
     ),
     reference = Article(
         authors = ["Tsang, W."],
@@ -2916,74 +3039,77 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 42,
-    label = "1970DAL/ZIO541:1",
+    label = "C7H16O <=> C4H8 + C3H8O",
     reactant1 = 
 """
-1  *2 C 0 {3,S} {4,S} {5,S} {8,S}
-2     C 0 {6,S} {7,S} {8,S} {10,S}
-3  *1 C 0 {1,S} {9,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5     C 0 {1,S} {16,S} {17,S} {18,S}
-6     C 0 {2,S} {19,S} {20,S} {21,S}
-7     C 0 {2,S} {22,S} {23,S} {24,S}
-8  *4 O 0 {1,S} {2,S}
-9  *3 H 0 {3,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {5,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
-19    H 0 {6,S}
-20    H 0 {6,S}
-21    H 0 {6,S}
-22    H 0 {7,S}
-23    H 0 {7,S}
-24    H 0 {7,S}
+C7H16O
+1  *2 C 0 0 {3,S} {4,S} {5,S} {8,S}
+2     C 0 0 {6,S} {7,S} {8,S} {10,S}
+3  *1 C 0 0 {1,S} {9,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 0 {1,S} {16,S} {17,S} {18,S}
+6     C 0 0 {2,S} {19,S} {20,S} {21,S}
+7     C 0 0 {2,S} {22,S} {23,S} {24,S}
+8  *4 O 0 2 {1,S} {2,S}
+9  *3 H 0 0 {3,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {5,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
+19    H 0 0 {6,S}
+20    H 0 0 {6,S}
+21    H 0 0 {6,S}
+22    H 0 0 {7,S}
+23    H 0 0 {7,S}
+24    H 0 0 {7,S}
 """,
     product1 = 
 """
-1     C 0 {3,S} {5,S} {6,S} {7,S}
-2     C 0 {3,S} {8,S} {9,S} {10,S}
-3  *2 C 0 {1,S} {2,S} {4,D}
-4  *1 C 0 {3,D} {11,S} {12,S}
-5     H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {2,S}
-11    H 0 {4,S}
-12    H 0 {4,S}
+C4H8
+1     C 0 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 0 {1,S} {2,S} {4,D}
+4  *1 C 0 0 {3,D} {11,S} {12,S}
+5     H 0 0 {1,S}
+6     H 0 0 {1,S}
+7     H 0 0 {1,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {2,S}
+11    H 0 0 {4,S}
+12    H 0 0 {4,S}
 """,
     product2 = 
 """
-1     C 0 {2,S} {3,S} {4,S} {6,S}
-2     C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4  *4 O 0 {1,S} {5,S}
-5  *3 H 0 {4,S}
-6     H 0 {1,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
+C3H8O
+1     C 0 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4  *4 O 0 2 {1,S} {5,S}
+5  *3 H 0 0 {4,S}
+6     H 0 0 {1,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
 """,
     degeneracy = 36,
     kinetics = Arrhenius(
-        A = (2.34e+13,"s^-1"),
+        A = (2.34e+13, 's^-1'),
         n = 0,
-        Ea = (231.974,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (683,"K"),
-        Tmax = (748,"K"),
-        Pmin = (2440,"Pa"),
-        Pmax = (3133,"Pa"),
+        Ea = (231.974, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (683, 'K'),
+        Tmax = (748, 'K'),
+        Pmin = (2440, 'Pa'),
+        Pmax = (3133, 'Pa'),
     ),
     reference = Article(
         authors = ["Daly, N.J.", "Ziolkowski, F.J."],
@@ -3009,74 +3135,77 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 43,
-    label = "1970DAL/ZIO541:2",
+    label = "C7H16O <=> C3H6 + C4H10O",
     reactant1 = 
 """
-1     C 0 {3,S} {4,S} {5,S} {8,S}
-2  *2 C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S} {11,S} {12,S} {13,S}
-4     C 0 {1,S} {14,S} {15,S} {16,S}
-5     C 0 {1,S} {17,S} {18,S} {19,S}
-6  *1 C 0 {2,S} {9,S} {20,S} {21,S}
-7     C 0 {2,S} {22,S} {23,S} {24,S}
-8  *4 O 0 {1,S} {2,S}
-9  *3 H 0 {6,S}
-10    H 0 {2,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {3,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
-16    H 0 {4,S}
-17    H 0 {5,S}
-18    H 0 {5,S}
-19    H 0 {5,S}
-20    H 0 {6,S}
-21    H 0 {6,S}
-22    H 0 {7,S}
-23    H 0 {7,S}
-24    H 0 {7,S}
+C7H16O
+1     C 0 0 {3,S} {4,S} {5,S} {8,S}
+2  *2 C 0 0 {6,S} {7,S} {8,S} {10,S}
+3     C 0 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 0 {1,S} {17,S} {18,S} {19,S}
+6  *1 C 0 0 {2,S} {9,S} {20,S} {21,S}
+7     C 0 0 {2,S} {22,S} {23,S} {24,S}
+8  *4 O 0 2 {1,S} {2,S}
+9  *3 H 0 0 {6,S}
+10    H 0 0 {2,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {3,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
+16    H 0 0 {4,S}
+17    H 0 0 {5,S}
+18    H 0 0 {5,S}
+19    H 0 0 {5,S}
+20    H 0 0 {6,S}
+21    H 0 0 {6,S}
+22    H 0 0 {7,S}
+23    H 0 0 {7,S}
+24    H 0 0 {7,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+C3H6
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 0 {1,S} {3,D} {7,S}
+3 *1 C 0 0 {2,D} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = 
 """
-1     C 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S} {7,S} {8,S} {9,S}
-3     C 0 {1,S} {10,S} {11,S} {12,S}
-4     C 0 {1,S} {13,S} {14,S} {15,S}
-5  *4 O 0 {1,S} {6,S}
-6  *3 H 0 {5,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {3,S}
-12    H 0 {3,S}
-13    H 0 {4,S}
-14    H 0 {4,S}
-15    H 0 {4,S}
+C4H10O
+1     C 0 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 0 {1,S} {13,S} {14,S} {15,S}
+5  *4 O 0 2 {1,S} {6,S}
+6  *3 H 0 0 {5,S}
+7     H 0 0 {2,S}
+8     H 0 0 {2,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {3,S}
+12    H 0 0 {3,S}
+13    H 0 0 {4,S}
+14    H 0 0 {4,S}
+15    H 0 0 {4,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (9.12e+12,"s^-1"),
+        A = (9.12e+12, 's^-1'),
         n = 0,
-        Ea = (236.131,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (683,"K"),
-        Tmax = (748,"K"),
-        Pmin = (2440,"Pa"),
-        Pmax = (3133,"Pa"),
+        Ea = (236.131, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (683, 'K'),
+        Tmax = (748, 'K'),
+        Pmin = (2440, 'Pa'),
+        Pmax = (3133, 'Pa'),
     ),
     reference = Article(
         authors = ["Daly, N.J.", "Ziolkowski, F.J."],
@@ -3102,62 +3231,65 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 44,
-    label = "1996CHU/ROT787-794:5",
+    label = "C5H10O3 <=> C3H6 + C2H4O3",
     reactant1 = 
 """
-1  *2 C 0 {2,S} {3,S} {6,S} {10,S}
-2  *1 C 0 {1,S} {8,S} {11,S} {12,S}
-3     C 0 {1,S} {13,S} {14,S} {15,S}
-4     C 0 {5,S} {6,S} {16,S} {17,S}
-5     C 0 {4,S} {7,S} {9,D}
-6  *4 O 0 {1,S} {4,S}
-7     O 0 {5,S} {18,S}
-8  *3 H 0 {2,S}
-9     O 0 {5,D}
-10    H 0 {1,S}
-11    H 0 {2,S}
-12    H 0 {2,S}
-13    H 0 {3,S}
-14    H 0 {3,S}
-15    H 0 {3,S}
-16    H 0 {4,S}
-17    H 0 {4,S}
-18    H 0 {7,S}
+C5H10O3
+1  *2 C 0 0 {2,S} {3,S} {6,S} {10,S}
+2  *1 C 0 0 {1,S} {8,S} {11,S} {12,S}
+3     C 0 0 {1,S} {13,S} {14,S} {15,S}
+4     C 0 0 {5,S} {6,S} {16,S} {17,S}
+5     C 0 0 {4,S} {7,S} {9,D}
+6  *4 O 0 2 {1,S} {4,S}
+7     O 0 2 {5,S} {18,S}
+8  *3 H 0 0 {2,S}
+9     O 0 2 {5,D}
+10    H 0 0 {1,S}
+11    H 0 0 {2,S}
+12    H 0 0 {2,S}
+13    H 0 0 {3,S}
+14    H 0 0 {3,S}
+15    H 0 0 {3,S}
+16    H 0 0 {4,S}
+17    H 0 0 {4,S}
+18    H 0 0 {7,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,D} {7,S}
-3 *1 C 0 {2,D} {8,S} {9,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-6    H 0 {1,S}
-7    H 0 {2,S}
-8    H 0 {3,S}
-9    H 0 {3,S}
+C3H6
+1    C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 0 {1,S} {3,D} {7,S}
+3 *1 C 0 0 {2,D} {8,S} {9,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {1,S}
+7    H 0 0 {2,S}
+8    H 0 0 {3,S}
+9    H 0 0 {3,S}
 """,
     product2 = 
 """
-1    C 0 {2,S} {3,S} {7,S} {8,S}
-2    C 0 {1,S} {4,S} {5,D}
-3 *4 O 0 {1,S} {6,S}
-4    O 0 {2,S} {9,S}
-5    O 0 {2,D}
-6 *3 H 0 {3,S}
-7    H 0 {1,S}
-8    H 0 {1,S}
-9    H 0 {4,S}
+C2H4O3
+1    C 0 0 {2,S} {3,S} {7,S} {8,S}
+2    C 0 0 {1,S} {4,S} {5,D}
+3 *4 O 0 2 {1,S} {6,S}
+4    O 0 2 {2,S} {9,S}
+5    O 0 2 {2,D}
+6 *3 H 0 0 {3,S}
+7    H 0 0 {1,S}
+8    H 0 0 {1,S}
+9    H 0 0 {4,S}
 """,
     degeneracy = 24,
     kinetics = Arrhenius(
-        A = (1.12e+12,"s^-1","*|/",2.29),
+        A = (1.12e+12, 's^-1', '*|/', 2.29),
         n = 0,
-        Ea = (195.39,"kJ/mol","+|-",3.908),
-        T0 = (1,"K"),
-        Tmin = (350,"K"),
-        Tmax = (400,"K"),
-        Pmin = (7599,"Pa"),
-        Pmax = (34900,"Pa"),
+        Ea = (195.39, 'kJ/mol', '+|-', 3.908),
+        T0 = (1, 'K'),
+        Tmin = (350, 'K'),
+        Tmax = (400, 'K'),
+        Pmin = (7599, 'Pa'),
+        Pmax = (34900, 'Pa'),
     ),
     reference = Article(
         authors = ["Chuchani, G.", "Rotinov, A.", "Dominguez, R.M."],
@@ -3183,62 +3315,65 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 45,
-    label = "1999CHU/ROT401-407:3",
+    label = "C8H10O <=> C8H8 + H2O",
     reactant1 = 
 """
-1  *1 C 0 {2,S} {3,S} {10,S} {11,S}
-2  *2 C 0 {1,S} {9,S} {12,S} {13,S}
-3     C 0 {1,S} {4,B} {5,B}
-4     C 0 {3,B} {7,B} {14,S}
-5     C 0 {3,B} {8,B} {15,S}
-6     C 0 {7,B} {8,B} {16,S}
-7     C 0 {4,B} {6,B} {17,S}
-8     C 0 {5,B} {6,B} {18,S}
-9  *4 O 0 {2,S} {19,S}
-10 *3 H 0 {1,S}
-11    H 0 {1,S}
-12    H 0 {2,S}
-13    H 0 {2,S}
-14    H 0 {4,S}
-15    H 0 {5,S}
-16    H 0 {6,S}
-17    H 0 {7,S}
-18    H 0 {8,S}
-19    H 0 {9,S}
+C8H10O
+1  *1 C 0 0 {2,S} {3,S} {10,S} {11,S}
+2  *2 C 0 0 {1,S} {9,S} {12,S} {13,S}
+3     C 0 0 {1,S} {4,B} {5,B}
+4     C 0 0 {3,B} {7,B} {14,S}
+5     C 0 0 {3,B} {8,B} {15,S}
+6     C 0 0 {7,B} {8,B} {16,S}
+7     C 0 0 {4,B} {6,B} {17,S}
+8     C 0 0 {5,B} {6,B} {18,S}
+9  *4 O 0 2 {2,S} {19,S}
+10 *3 H 0 0 {1,S}
+11    H 0 0 {1,S}
+12    H 0 0 {2,S}
+13    H 0 0 {2,S}
+14    H 0 0 {4,S}
+15    H 0 0 {5,S}
+16    H 0 0 {6,S}
+17    H 0 0 {7,S}
+18    H 0 0 {8,S}
+19    H 0 0 {9,S}
 """,
     product1 = 
 """
-1     C 0 {2,B} {3,B} {4,S}
-2     C 0 {1,B} {6,B} {9,S}
-3     C 0 {1,B} {7,B} {10,S}
-4  *1 C 0 {1,S} {8,D} {11,S}
-5     C 0 {6,B} {7,B} {12,S}
-6     C 0 {2,B} {5,B} {13,S}
-7     C 0 {3,B} {5,B} {14,S}
-8  *2 C 0 {4,D} {15,S} {16,S}
-9     H 0 {2,S}
-10    H 0 {3,S}
-11    H 0 {4,S}
-12    H 0 {5,S}
-13    H 0 {6,S}
-14    H 0 {7,S}
-15    H 0 {8,S}
-16    H 0 {8,S}
+C8H8
+1     C 0 0 {2,B} {3,B} {4,S}
+2     C 0 0 {1,B} {6,B} {9,S}
+3     C 0 0 {1,B} {7,B} {10,S}
+4  *1 C 0 0 {1,S} {8,D} {11,S}
+5     C 0 0 {6,B} {7,B} {12,S}
+6     C 0 0 {2,B} {5,B} {13,S}
+7     C 0 0 {3,B} {5,B} {14,S}
+8  *2 C 0 0 {4,D} {15,S} {16,S}
+9     H 0 0 {2,S}
+10    H 0 0 {3,S}
+11    H 0 0 {4,S}
+12    H 0 0 {5,S}
+13    H 0 0 {6,S}
+14    H 0 0 {7,S}
+15    H 0 0 {8,S}
+16    H 0 0 {8,S}
 """,
     product2 = 
 """
-1 *4 O 0 {2,S} {3,S}
-2 *3 H 0 {1,S}
-3    H 0 {1,S}
+H2O
+1 *4 O 0 2 {2,S} {3,S}
+2 *3 H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
-        A = (2.5e+12,"s^-1"),
+        A = (2.5e+12, 's^-1'),
         n = 0,
-        Ea = (229.2,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (722,"K"),
-        Tmax = (764,"K"),
+        Ea = (229.2, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (722, 'K'),
+        Tmax = (764, 'K'),
     ),
     reference = Article(
         authors = ["Chuchani, G.", "Rotinov, A.", "Dominguez, R.M."],

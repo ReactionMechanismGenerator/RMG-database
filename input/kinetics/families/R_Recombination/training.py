@@ -9,34 +9,33 @@ group additivity values in this file.
 """
 entry(
     index = 1,
+    label = "CH3O2 <=> O2 + CH3",
     reactant1 = 
 """
-1   C 0 0 {2,S} {4,S} {5,S} {6,S}
-2   O 0 2 {1,S} {3,S}
-3   O 1 2 {2,S}
-4   H 0 0 {1,S}
-5   H 0 0 {1,S}
-6   H 0 0 {1,S}
+CH3O2
+1 C 0 0 {2,S} {4,S} {5,S} {6,S}
+2 O 0 2 {1,S} {3,S}
+3 O 1 2 {2,S}
+4 H 0 0 {1,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
 """,
     product1 = 
 """
+O2
 1 * O 1 2 {2,S}
 2   O 1 2 {1,S}
 """,
     product2 = 
 """
+CH3
 1 * C 1 0 {2,S} {3,S} {4,S}
 2   H 0 0 {1,S}
 3   H 0 0 {1,S}
 4   H 0 0 {1,S}
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (109000000000000.0, 's^-1'),
-        n = 0.25,
-        Ea = (33.3, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
+    kinetics = Arrhenius(A=(1.09e+14, 's^-1'), n=0.25, Ea=(33.3, 'kcal/mol'), T0=(1, 'K')),
     shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
     longDesc = 
 u"""
@@ -51,25 +50,29 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 
 entry(
     index = 2,
+    label = "C2H5O2 <=> O2 + C2H5",
     reactant1 = 
 """
-1   C 0 0 {2,S} {3,S} {5,S} {6,S}
-2   C 0 0 {1,S} {7,S} {8,S} {9,S}
-3   O 0 2 {1,S} {4,S}
-4   O 1 2 {3,S}
-5   H 0 0 {1,S}
-6   H 0 0 {1,S}
-7   H 0 0 {2,S}
-8   H 0 0 {2,S}
-9   H 0 0 {2,S}
+C2H5O2
+1 C 0 0 {2,S} {3,S} {5,S} {6,S}
+2 C 0 0 {1,S} {7,S} {8,S} {9,S}
+3 O 0 2 {1,S} {4,S}
+4 O 1 2 {3,S}
+5 H 0 0 {1,S}
+6 H 0 0 {1,S}
+7 H 0 0 {2,S}
+8 H 0 0 {2,S}
+9 H 0 0 {2,S}
 """,
     product1 = 
 """
+O2
 1 * O 1 2 {2,S}
 2   O 1 2 {1,S}
 """,
     product2 = 
 """
+C2H5
 1   C 0 0 {2,S} {3,S} {4,S} {5,S}
 2 * C 1 0 {1,S} {6,S} {7,S}
 3   H 0 0 {1,S}
@@ -94,38 +97,42 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 
 entry(
     index = 3,
+    label = "C3H7O2 <=> O2 + C3H7",
     reactant1 = 
 """
-1   C 0 0 {3,S} {4,S} {6,S} {7,S}
-2   C 0 0 {4,S} {8,S} {9,S} {10,S}
-3   O 0 2 {1,S} {5,S}
-4   C 0 0 {1,S} {2,S} {11,S} {12,S}
-5   O 1 2 {3,S}
-6   H 0 0 {1,S}
-7   H 0 0 {1,S}
-8   H 0 0 {2,S}
-9   H 0 0 {2,S}
-10  H 0 0 {2,S}
-11  H 0 0 {4,S}
-12  H 0 0 {4,S}
+C3H7O2
+1  C 0 0 {3,S} {4,S} {6,S} {7,S}
+2  C 0 0 {4,S} {8,S} {9,S} {10,S}
+3  O 0 2 {1,S} {5,S}
+4  C 0 0 {1,S} {2,S} {11,S} {12,S}
+5  O 1 2 {3,S}
+6  H 0 0 {1,S}
+7  H 0 0 {1,S}
+8  H 0 0 {2,S}
+9  H 0 0 {2,S}
+10 H 0 0 {2,S}
+11 H 0 0 {4,S}
+12 H 0 0 {4,S}
 """,
     product1 = 
 """
+O2
 1 * O 1 2 {2,S}
 2   O 1 2 {1,S}
 """,
     product2 = 
 """
-1   C 0 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 0 {1,S} {6,S} {7,S} {8,S}
-3 * C 1 0 {1,S} {9,S} {10,S}
-4   H 0 0 {1,S}
-5   H 0 0 {1,S}
-6   H 0 0 {2,S}
-7   H 0 0 {2,S}
-8   H 0 0 {2,S}
-9   H 0 0 {3,S}
-10  H 0 0 {3,S}
+C3H7
+1    C 0 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 0 {1,S} {9,S} {10,S}
+4    H 0 0 {1,S}
+5    H 0 0 {1,S}
+6    H 0 0 {2,S}
+7    H 0 0 {2,S}
+8    H 0 0 {2,S}
+9    H 0 0 {3,S}
+10   H 0 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.52e+23, 's^-1'), n=-2.71, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
@@ -143,8 +150,10 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 
 entry(
     index = 4,
+    label = "C4O + O2 <=> C4O3",
     reactant1 = 
 """
+C4O
 1   C 0 0 {2,S} {3,S}
 2   C 0 0 {1,S} {4,S}
 3   C 0 0 {1,S}
@@ -153,11 +162,13 @@ entry(
 """,
     reactant2 = 
 """
+O2
 1 * O 1 2 {2,S}
 2   O 1 2 {1,S}
 """,
     product1 = 
 """
+C4O3
 1 C 0 0 {2,S} {3,S}
 2 C 0 0 {1,S} {4,S}
 3 C 0 0 {1,S} {5,S} {6,S}
@@ -168,7 +179,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (8360000000000.0, 'cm^3/(mol*s)'),
+        A = (8.36e+12, 'cm^3/(mol*s)'),
         n = -0.085,
         Ea = (-567.2, 'cal/mol'),
         T0 = (1, 'K'),
@@ -183,9 +194,10 @@ DOI: 10.1021/jp403792t
 
 entry(
     index = 5,
-    label = "1988BOR/COB4377-4384:1",
+    label = "NO2 + NO2 <=> N2O4",
     reactant1 = 
 """
+NO2
 1 * N 1 0 {2,S} {3,D}
 2   O 0 3 {1,S}
 3   O 0 2 {1,D}
@@ -199,7 +211,7 @@ NO2
 """,
     product1 = 
 """
-NO2NO2
+N2O4
 1 N 0 0 {2,S} {3,S} {4,D}
 2 N 0 0 {1,S} {5,D} {6,S}
 3 O 0 3 {1,S}
@@ -209,14 +221,14 @@ NO2NO2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (263000000.0, 'm^3/(mol*s)', '+|-', 31600000.0),
+        A = (2.63e+08, 'm^3/(mol*s)', '+|-', 3.16e+07),
         n = -1.1,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (600, 'K'),
         Pmin = (101000, 'Pa'),
-        Pmax = (20900000.0, 'Pa'),
+        Pmax = (2.09e+07, 'Pa'),
     ),
     reference = Article(
         authors = ["Borrell, P.", "Cobos, C.J.", "Luther, K."],
@@ -239,19 +251,22 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 6,
-    label = "1962ASH/BUR253:5",
+    label = "NO + O2 <=> NO3",
     reactant1 = 
 """
+NO
 1 * N 1 1 {2,D}
 2   O 0 2 {1,D}
 """,
     reactant2 = 
 """
+O2
 1 * O 1 2 {2,S}
 2   O 1 2 {1,S}
 """,
     product1 = 
 """
+NO3
 1 N 0 1 {2,S} {3,D}
 2 O 0 2 {1,S} {4,S}
 3 O 0 2 {1,D}
@@ -290,15 +305,17 @@ Analytical technique: Pressure measurement
 
 entry(
     index = 7,
-    label = "2000HAH/LUT5098-5104:4",
+    label = "NO2 + NO3 <=> N2O5",
     reactant1 = 
 """
+NO2
 1 * N 1 0 {2,D} {3,S}
 2   O 0 2 {1,D}
 3   O 0 3 {1,S}
 """,
     reactant2 = 
 """
+NO3
 1   N 0 0 {2,D} {3,S} {4,S}
 2   O 0 2 {1,D}
 3 * O 1 2 {1,S}
@@ -306,6 +323,7 @@ entry(
 """,
     product1 = 
 """
+N2O5
 1 N 0 0 {3,S} {4,D} {5,S}
 2 N 0 0 {3,S} {6,D} {7,S}
 3 O 0 2 {1,S} {2,S}
@@ -323,7 +341,7 @@ entry(
         Tmin = (300, 'K'),
         Tmax = (400, 'K'),
         Pmin = (100000, 'Pa'),
-        Pmax = (90000000.0, 'Pa'),
+        Pmax = (9e+07, 'Pa'),
     ),
     reference = Article(
         authors = ["Hahn, J.", "Luther, K.", "Troe, J."],
@@ -343,26 +361,29 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 
-Theoretical modeling of k0, k∞ and Fc=0.38 exp(-T/4900K) led to consistency with the experimental data.
+Theoretical modeling of k0, k and Fc=0.38 exp(-T/4900K) led to consistency with the experimental data.
 """,
 )
 
 entry(
     index = 8,
-    label = "2007WIL/POG154321:2",
+    label = "NO2 + HO <=> HNO3",
     reactant1 = 
 """
+NO2
 1 * N 1 0 {2,D} {3,S}
 2   O 0 2 {1,D}
 3   O 0 3 {1,S}
 """,
     reactant2 = 
 """
+HO
 1 * O 1 2 {2,S}
 2   H 0 0 {1,S}
 """,
     product1 = 
 """
+HNO3
 1 N 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -371,7 +392,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (24100000.0, 'm^3/(mol*s)'),
+        A = (2.41e+07, 'm^3/(mol*s)'),
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),
@@ -399,20 +420,23 @@ Quantum dynamics calculations. Reaction potential energy suraface was studied us
 
 entry(
     index = 9,
-    label = "2007WIL/POG154321:4",
+    label = "NO2 + HO <=> HNO3",
     reactant1 = 
 """
+NO2
 1   N 0 1 {2,D} {3,S}
 2   O 0 2 {1,D}
 3 * O 1 2 {1,S}
 """,
     reactant2 = 
 """
+HO
 1 * O 1 2 {2,S}
 2   H 0 0 {1,S}
 """,
     product1 = 
 """
+HNO3
 1 N 0 0 {2,S} {3,D} {4,S}
 2 O 0 2 {1,S} {5,S}
 3 O 0 2 {1,D}
@@ -421,7 +445,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1205000.0, 'm^3/(mol*s)'),
+        A = (1.205e+06, 'm^3/(mol*s)'),
         n = 0,
         Ea = (0, 'kJ/mol'),
         T0 = (1, 'K'),

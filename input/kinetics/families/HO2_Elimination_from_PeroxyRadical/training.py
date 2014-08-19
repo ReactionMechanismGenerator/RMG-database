@@ -9,9 +9,10 @@ group additivity values in this file.
 """
 entry(
     index = 1,
+    label = "C2H3O3 <=> C2H2O + HO2",
     reactant1 = 
 """
-acetylperoxy
+C2H3O3
 1 *1 C 0 0 {2,S} {4,S} {7,S} {8,S}
 2 *2 C 0 0 {1,S} {3,S} {5,D}
 3 *3 O 0 2 {2,S} {6,S}
@@ -23,7 +24,7 @@ acetylperoxy
 """,
     product1 = 
 """
-ketene
+C2H2O
 1 *1 C 0 0 {2,D} {4,S} {5,S}
 2 *2 C 0 0 {1,D} {3,D}
 3    O 0 2 {2,D}
@@ -39,7 +40,7 @@ HO2
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (2600000000.0, 's^-1', '*|/', 2.51189),
+        A = (2.6e+09, 's^-1', '*|/', 2.51189),
         n = 1.2,
         Ea = (34.1, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -61,5 +62,4 @@ using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
 using Variflex.
 """,
 )
-
 

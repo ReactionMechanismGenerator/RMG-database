@@ -9,9 +9,10 @@ group additivity values in this file.
 """
 entry(
     index = 1,
+    label = "C2H3O3 <=> C2H3O3",
     reactant1 = 
 """
-acetylperoxy
+C2H3O3
 1    O 0 2 {5,D}
 2 *2 C 0 0 {3,S} {5,S} {7,S} {8,S}
 3 *3 H 0 0 {2,S}
@@ -23,7 +24,7 @@ acetylperoxy
 """,
     product1 = 
 """
-hydroperoxyl-vinoxy
+C2H3O3
 1 *4 C 0 0 {2,S} {3,S} {5,D}
 2 *1 C 1 0 {1,S} {7,S} {8,S}
 3 *5 O 0 2 {1,S} {4,S}
@@ -35,7 +36,7 @@ hydroperoxyl-vinoxy
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (2300000000.0, 's^-1', '*|/', 2.51189),
+        A = (2.3e+09, 's^-1', '*|/', 2.51189),
         n = 0.75,
         Ea = (23.2, 'kcal/mol'),
         T0 = (1, 'K'),
