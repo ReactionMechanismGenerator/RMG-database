@@ -9,16 +9,6 @@ longDesc = u"""
 entry(
     index = 800,
     label = "R1_rad_R2_R3;multiplebond_intra;radadd_intra",
-    group1 = "OR{R4, R5, R6, R7}",
-    group2 = 
-"""
-1 *2 {C,O} 0 {2,S}
-2 *3 {C,O} 0 {1,S}
-""",
-    group3 = 
-"""
-1 *1 R!H 1
-""",
     kinetics = ArrheniusEP(
         A = (100000000000.0, 's^-1'),
         n = 0,
