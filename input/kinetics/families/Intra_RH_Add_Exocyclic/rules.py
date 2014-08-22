@@ -5,7 +5,6 @@ name = "Intra_RH_Add_Exocyclic/rules"
 shortDesc = u""
 longDesc = u"""
 """
-recommended = True
 
 entry(
     index = 807,
