@@ -8,9 +8,14 @@ longDesc = u"""
 """
 entry(
     index = 800,
-    label = "R1_rad_R2_R3;radadd_intra",
-    group1 = "OR{R2OO, R3OO, R4OO, R5OO}",
+    label = "R1_rad_R2_R3;multiplebond_intra;radadd_intra",
+    group1 = "OR{R4, R5, R6, R7}",
     group2 = 
+"""
+1 *2 {C,O} 0 {2,S}
+2 *3 {C,O} 0 {1,S}
+""",
+    group3 = 
 """
 1 *1 R!H 1
 """,
