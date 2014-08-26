@@ -4,7 +4,7 @@
 name = "R_Addition_CSm/groups"
 shortDesc = u""
 longDesc = u"""
-
+The CSm group needs a singlet in order to react in this family.
 """
 
 template(reactants=["CSm", "Y_rad"], products=["YC.=S"], ownReverse=False)
@@ -22,7 +22,7 @@ entry(
     label = "CSm",
     group = 
 """
-1 *1 C {2S,2T} {2,D}
+1 *1 C 2S {2,D}
 2    S 0       {1,D}
 """,
     kinetics = None,
@@ -962,6 +962,20 @@ forbidden(
 """
 1 *2 O 1 {2,S}
 2    O 1 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "CSm_triplet",
+    group = 
+"""
+1 *1 C 2T {2,D}
+2    S 0       {1,D}
 """,
     shortDesc = u"""""",
     longDesc = 
