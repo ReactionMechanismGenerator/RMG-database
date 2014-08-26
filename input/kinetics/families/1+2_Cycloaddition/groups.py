@@ -4,7 +4,7 @@
 name = "1+2_Cycloaddition/groups"
 shortDesc = u""
 longDesc = u"""
-
+Reaction site *3 should always be a singlet in this family.
 """
 
 template(reactants=["multiplebond", "elec_def"], products=["cycle"], ownReverse=False)
@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "elec_def",
-    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom, imidogen}",
+    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom_singlet, imidogen_singlet}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -44,10 +44,10 @@ u"""
 
 entry(
     index = 3,
-    label = "o_atom",
+    label = "o_atom_singlet",
     group = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2S
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -924,10 +924,10 @@ u"""
 
 entry(
     index = 45,
-    label = "imidogen",
+    label = "imidogen_singlet",
     group = 
 """
-1 *3 N3s {2S,2T} {2,S}
+1 *3 N3s 2S {2,S}
 2    H   0       {1,S}
 """,
     kinetics = None,
@@ -941,12 +941,12 @@ u"""
 tree(
 """
 L1: elec_def
-    L2: o_atom
+    L2: o_atom_singlet
     L2: carbene
     L2: me_carbene
     L2: ph_carbene
     L2: dime_carbene
-    L2: imidogen
+    L2: imidogen_singlet
 L1: multiplebond
     L2: mb_carbonyl
         L3: mb_carbonyl_2H
@@ -993,12 +993,10 @@ L1: multiplebond
 )
 
 forbidden(
-    label = "carbene_triplet",
+    label = "birad_triplet",
     group = 
 """
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+1 *3 R!H 2T
 """,
     shortDesc = u"""""",
     longDesc = 
