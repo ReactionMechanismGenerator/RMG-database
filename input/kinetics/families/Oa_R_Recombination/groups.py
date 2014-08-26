@@ -4,7 +4,8 @@
 name = "Oa_R_Recombination/groups"
 shortDesc = u""
 longDesc = u"""
-
+This reaction family is reserved for O_atom (triplet only). The forbidden groups
+at the bottom prevent it from reacting with other forms of O.
 """
 
 template(reactants=["Y_rad", "Oa"], products=["YO."], ownReverse=False)
