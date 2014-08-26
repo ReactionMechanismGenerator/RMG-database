@@ -4,7 +4,7 @@
 name = "Substitution_O/groups"
 shortDesc = u""
 longDesc = u"""
-
+The reacting site *3 must be a triplet for this reaction family.
 """
 
 template(reactants=["O-RR_or_RRrad", "YJ"], products=["O-RR_or_RRrad", "YJ"], ownReverse=True)
@@ -4466,7 +4466,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,CO,O,N} {2T,2S}
+1 *3 {Cs,Cd,CO,O,N} 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6869,4 +6869,27 @@ L1: YJ
 """
 )
 
+forbidden(
+    label = "birad_singlet",
+    group = 
+"""
+1 *3 R!H 2S
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "quadrad_singlet",
+    group = 
+"""
+1 *3 R!H 4S
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
 
