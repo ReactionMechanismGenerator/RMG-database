@@ -4472,3 +4472,27 @@ u"""
 #""",
 #)
 #
+
+forbidden(
+    label = "birad_singlet",
+    group = 
+"""
+1 *1 R!H 2S
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "quadrad_singlet",
+    group = 
+"""
+1 *1 R!H 4S
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
