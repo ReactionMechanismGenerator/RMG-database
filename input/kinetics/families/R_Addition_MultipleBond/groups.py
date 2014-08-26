@@ -4,7 +4,7 @@
 name = "R_Addition_MultipleBond/groups"
 shortDesc = u""
 longDesc = u"""
-
+The reaction site *3 should be a triplet, otherwise it will react via the 1+2_Cycloaddition family instead.
 """
 
 template(reactants=["R_R", "YJ"], products=["RJ_R_Y"], ownReverse=False)
@@ -22135,20 +22135,6 @@ u"""
 """,
 )
 
-entry(
-    index = 385,
-    label = "C_singlet",
-    group = 
-"""
-1 *3 C 4S
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 386,
@@ -22215,7 +22201,7 @@ u"""
 entry(
     index = 393,
     label = "Y_1centerquadrad",
-    group = "OR{C_quintet, C_triplet, C_singlet}",
+    group = "OR{C_quintet, C_triplet}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -23404,7 +23390,6 @@ L1: YJ
     L2: Y_1centerquadrad
         L3: C_quintet
         L3: C_triplet
-        L3: C_singlet
 """
 )
 
@@ -23433,5 +23418,17 @@ forbidden(
 u"""
 
 """,
+)
 
+forbidden(
+    label = "Ycentersinglet_quadrad",
+    group =
+"""
+1 *3 R!H 4S
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
 )
