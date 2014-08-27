@@ -2790,29 +2790,6 @@ u"""
 )
 
 entry(
-    index = 144,
-    label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)",
-    group = 
-"""
-1 *1 Os 1 {2,S}
-2 *4 Os 0 {1,S} {3,S}
-3 *6 Cs 0 {2,S} {4,S} {8,S}
-4 *7 Cs 0 {3,S} {5,S}
-5 *5 Cs 0 {4,S} {6,S}
-6 *2 Cs 0 {5,S} {7,S} {9,S}
-7 *3 H  0 {6,S}
-8    Cs 0 {3,S}
-9    Cs 0 {6,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 143,
     label = "R6H_SSSSS_OOCCC(Cs/Cs)",
     group = 
@@ -5287,7 +5264,6 @@ L1: RnH
                             L8: R6H_SSSSS_OO(Cs/Cs)Cs
                                 L9: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)
                             L8: R6H_SSSSS_OOCCC(Cs/Cs)
-                                L9: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)
                         L7: R6H_SSSSS_bicyclopentane
                     L6: R6H_SSSSD
                     L6: R6H_SSSST
