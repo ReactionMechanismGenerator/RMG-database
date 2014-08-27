@@ -3323,23 +3323,6 @@ u"""
 
 """,
 )
-  
-entry(
-    index = 276,
-    label = "XH_Rbirad",
-    group = 
-"""
-1 *2 R!H 0 {2,{S,D}} {3,S}
-2 *3 R!H 2T {1,{S,D}}
-3 *4 H   0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 277,
