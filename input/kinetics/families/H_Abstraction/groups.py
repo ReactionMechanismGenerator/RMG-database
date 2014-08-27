@@ -7182,22 +7182,6 @@ u"""
 
 """,
 )
-entry(
-    index = 400,
-    label = "N3s_rad",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    R   0 {1,S}
-3    R   0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 402,
@@ -7643,24 +7627,6 @@ u"""
 )
 
 entry(
-    index = 430,
-    label = "C_rad/H/NonDeCN",
-    group = 
-"""
-1 *3 C      1 {2,S} {3,S} {4,S}
-2    H      0 {1,S}
-3    C      0 {1,S}
-4    N      0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 431,
     label = "C_rad/H/NonDeON",
     group = 
@@ -7734,7 +7700,9 @@ entry(
     label = "N3s_rad",
     group = 
 """
-1 *3 N3s 1
+1 *3 N3s 1 {2,S} {3,S}
+2    R   0 {1,S}
+3    R   0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
