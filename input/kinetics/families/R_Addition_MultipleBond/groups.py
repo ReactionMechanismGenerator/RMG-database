@@ -21992,23 +21992,6 @@ u"""
 )
 
 entry(
-    index = 374,
-    label = "N3sJ-OneDeH",
-    group = 
-"""
-1 *3 N3s                      1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
-3    H 		              0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 375,
     label = "N3sJ-OneDeCs",
     group =
