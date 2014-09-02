@@ -22199,7 +22199,7 @@ entry(
     group = 
 """
 1 *1 N1d 0 2 {2,D}
-2 *2 R!H 0 0 {1,D}
+2 *2 R!H 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
