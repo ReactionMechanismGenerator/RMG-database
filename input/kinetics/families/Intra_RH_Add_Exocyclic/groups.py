@@ -2242,30 +2242,6 @@ u"""
 
 
 entry(
-    index = 99,
-    label = "R7_TSSM_T",
-    group = 
-"""
-1 *1 Ct      0 {2,S} {3,T}
-2 *4 H        0 {1,S}
-3 *5 Ct      0 {1,T} {4,S}
-4 *6 R!H      0 {3,S} {5,S}
-5 *8 {Cd,Ct,Cb}      0 {4,S} {6,{D,T,B}}
-6 *7 {Cd,Ct,Cb}      0 {5,{D,T,B}} {7,S}
-7 *2 Cd        0 {6,S} {8,T}
-8 *3 {Cd,Od}   0 {7,T}
-""",
-    kinetics = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    
-)
-
-entry(
     index = 197,
     label = "R7_BSSR",
     group = 
