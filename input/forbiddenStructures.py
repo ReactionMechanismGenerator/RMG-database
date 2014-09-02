@@ -11,9 +11,9 @@ entry(
     label = "Ods",
     group = 
 """
-1 O {0,1,2,3,4} {2,D} {3,S}
-2 R {0,1,2,3,4} {1,D}
-3 R {0,1,2,3,4} {1,S}
+1 O X {2,D} {3,S}
+2 R X {1,D}
+3 R X {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -27,7 +27,7 @@ entry(
     group = 
 """
 1 O 1           {2,D}
-2 R {0,1,2,3,4} {1,D}
+2 R X {1,D}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -41,9 +41,9 @@ entry(
     group = 
 """
 1 N 1         {2,S} {3,S} {4,S}
-2 R {0,1,2,3} {1,S}
-3 R {0,1,2,3} {1,S}
-4 R {0,1,2,3} {1,S}
+2 R X {1,S}
+3 R X {1,S}
+4 R X {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -57,8 +57,8 @@ entry(
     group = 
 """
 1 N 2         {2,S} {3,S}
-2 R {0,1,2,3} {1,S}
-3 R {0,1,2,3} {1,S}
+2 R X {1,S}
+3 R X {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
