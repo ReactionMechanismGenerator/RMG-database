@@ -373,8 +373,8 @@ entry(
     group = 
 """
 1 *1 R!H           1           {2,{S,D,T,B}}
-2 *4 R!H           {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *5 R!H           {0,1,2S,2T} {2,{S,D,T,B}} {4,S}
+2 *4 R!H           X {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *5 R!H           X {2,{S,D,T,B}} {4,S}
 4 *2 {Cd,Ct,CO,N}    0           {3,S} {5,{D,T}}
 5 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {4,{D,T}}
 """,
@@ -925,9 +925,9 @@ entry(
     group = 
 """
 1 *1 R!H           1           {2,{S,D,T,B}}
-2 *4 R!H           {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H           {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *5 R!H           {0,1,2S,2T} {3,{S,D,T,B}} {5,S}
+2 *4 R!H           X {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H           X {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *5 R!H           X {3,{S,D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO,N}    0           {4,S} {6,{D,T}}
 6 *3 {Cd,Ct,Od,Sd,Cdd,N} 0           {5,{D,T}}
 """,
@@ -1925,10 +1925,10 @@ entry(
     group = 
 """
 1 *1 R!H        1           {2,{S,D,T,B}}
-2 *4 R!H        {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H        {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *7 R!H        {0,1,2S,2T} {3,{S,D,T,B}} {5,{S,D,T,B}}
-5 *5 R!H        {0,1,2S,2T} {4,{S,D,T,B}} {6,S}
+2 *4 R!H        X {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H        X {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H        X {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *5 R!H        X {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO,N} 0           {5,S} {7,{D,T}}
 7 *3 {Cd,Ct,Od,Cdd,N} 0           {6,{D,T}}
 """,
