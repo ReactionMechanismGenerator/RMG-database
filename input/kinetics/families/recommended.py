@@ -43,7 +43,7 @@ recommendedFamilies = {
 'lone_electron_pair_bond': True,
 'Oa_R_Recombination': True,
 'R_Addition_COm': True,
-'R_Addition_CSm': True,
+'R_Addition_CSm': False,
 'R_Addition_MultipleBond': True,
 'R_Recombination': True,
 'Substitution_O': True,
