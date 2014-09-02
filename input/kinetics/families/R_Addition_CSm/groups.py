@@ -12,8 +12,11 @@ template(reactants=["CSm", "Y_rad"], products=["YC.=S"], ownReverse=False)
 reverse = "CSM_Elimination_From_Thiocarbonyl"
 
 recipe(actions=[
+    ['LOSE_PAIR', '*1', '1'],
+    ['CHANGE_BOND', '*1', '-1', '*3'],
+    ['GAIN_RADICAL', '*1', '1'],
+    ['GAIN_PAIR', '*3', '1'],
     ['FORM_BOND', '*1', 'S', '*2'],
-    ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*2', '1'],
 ])
 
@@ -22,8 +25,8 @@ entry(
     label = "CSm",
     group = 
 """
-1 *1 C 2S {2,D}
-2    S 0       {1,D}
+1 *1 C 2S {2,T}
+2 *3 S 0 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
