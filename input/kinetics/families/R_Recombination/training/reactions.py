@@ -60,7 +60,7 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
 
 entry(
     index = 4,
-    label = "C4O + O2 <=> C4O3",
+    label = "1-hydroxybutyl + O2 <=> 1-hydroxybutylO2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (8.36e+12, 'cm^3/(mol*s)'),
