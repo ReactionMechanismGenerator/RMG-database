@@ -926,8 +926,8 @@ forbidden(
     label = "O2_birad",
     group = 
 """
-1 *1 O 1 {2,S}
-2    O 1 {1,S}
+1 *1 O 1 2 {2,S}
+2    O 1 2 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -940,7 +940,7 @@ forbidden(
     label = "O2_1centeredBirad",
     group = 
 """
-1 *1 O 2T {2,S}
+1 *1 O 2T 1 {2,S}
 2    R 0  {1,S}
 """,
     shortDesc = u"""""",
@@ -954,7 +954,7 @@ forbidden(
     label = "O_atom_singlet",
     group = 
 """
-1 *1 O 2S
+1 *1 O 2S 2
 """,
     shortDesc = u"""""",
     longDesc = 
