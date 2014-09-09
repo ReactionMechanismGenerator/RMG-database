@@ -47,7 +47,7 @@ entry(
     label = "o_atom_singlet",
     group = 
 """
-1 *3 O 2S
+1 *3 O 2S 2
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -62,7 +62,7 @@ entry(
     label = "carbene",
     group = 
 """
-1 *3 C 2S {2,S} {3,S}
+1 *3 C 2S 0 {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
@@ -79,7 +79,7 @@ entry(
     label = "me_carbene",
     group = 
 """
-1 *3 C  2S {2,S} {3,S}
+1 *3 C  2S 0 {2,S} {3,S}
 2    Cs 0  {1,S} {4,S} {5,S} {6,S}
 3    H  0  {1,S}
 4    H  0  {2,S}
@@ -99,7 +99,7 @@ entry(
     label = "ph_carbene",
     group = 
 """
-1 *3 C  2S {2,S} {3,S}
+1 *3 C  2S 0 {2,S} {3,S}
 2    Cb 0  {1,S} {4,B} {5,B}
 3    H  0  {1,S}
 4    Cb 0  {2,B} {6,B}
@@ -121,7 +121,7 @@ entry(
     label = "dime_carbene",
     group = 
 """
-1 *3 C  2S {2,S} {3,S}
+1 *3 C  2S 0 {2,S} {3,S}
 2    Cs 0  {1,S} {4,S} {5,S} {6,S}
 3    Cs 0  {1,S} {7,S} {8,S} {9,S}
 4    H  0  {2,S}
@@ -927,7 +927,7 @@ entry(
     label = "imidogen_singlet",
     group = 
 """
-1 *3 N3s 2S {2,S}
+1 *3 N3s 2S 1 {2,S}
 2    H   0       {1,S}
 """,
     kinetics = None,
