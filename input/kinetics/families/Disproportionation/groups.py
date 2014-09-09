@@ -3850,7 +3850,19 @@ forbidden(
     label = "birad_singlet",
     group = 
 """
-1 *1 R!H 2S
+1 *1 {C,N,Si} 2S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "OS_birad_singlet",
+    group = 
+"""
+1 *1 {O,S} 2S 2
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -3862,7 +3874,7 @@ forbidden(
     label = "quadrad_singlet",
     group = 
 """
-1 *1 R!H 4S
+1 *1 {C,N,Si} 4S 0
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -3874,7 +3886,21 @@ forbidden(
     label = "XH_birad_singlet",
     group = 
 """
-1 *3 R!H 2S {2,{S,D,T}}
+1 *3 {C,N,Si} 2S 0 {2,{S,D,T}}
+2 *2 R!H X {1,{S,D,T}} {3,S}
+3 *4 H 0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "OS_XH_birad_singlet",
+    group = 
+"""
+1 *3 {O,S} 2S 2 {2,{S,D,T}}
 2 *2 R!H X {1,{S,D,T}} {3,S}
 3 *4 H 0 {2,S}
 """,
@@ -3888,7 +3914,7 @@ forbidden(
     label = "XH_quadrad_singlet",
     group = 
 """
-1 *3 R!H 4S {2,{S,D,T}}
+1 *3 {C,N,Si} 4S 0 {2,{S,D,T}}
 2 *2 R!H X {1,{S,D,T}} {3,S}
 3 *4 H 0 {2,S}
 """,
