@@ -25,8 +25,8 @@ entry(
     label = "CSm",
     group = 
 """
-1 *1 C 2S {2,T}
-2 *3 S 0 {1,T}
+1 *1 C 2S 0 {2,T}
+2 *3 S 0 2 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -963,8 +963,8 @@ forbidden(
     label = "O2_birad",
     group = 
 """
-1 *2 O 1 {2,S}
-2    O 1 {1,S}
+1 *2 O 1 2 {2,S}
+2    O 1 2 {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -977,8 +977,8 @@ forbidden(
     label = "CSm_triplet",
     group = 
 """
-1 *1 C 2T {2,D}
-2    S 0       {1,D}
+1 *1 C 2T 0 {2,D}
+2    S 0  2 {1,D}
 """,
     shortDesc = u"""""",
     longDesc = 
