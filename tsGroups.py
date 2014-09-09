@@ -31,17 +31,14 @@ user = getUsername()
 ################################################################################
 
 def loadDatabase(args):
-    print 'Loading RMG transition states database...'
-    database = TransitionStates()
-    local_context = None
-    global_context = None
-    path = os.path.join('input/kinetics/families', args.family[0])
-    database.load(path, local_context, global_context)
     
     print 'Loading RMG database...'
     from rmgpy.data.rmg import RMGDatabase
     rmgDatabase = RMGDatabase()
     rmgDatabase.load('input', kineticsFamilies='default')
+    
+    rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
+    database = rxnFamily.transitionStates
     
     return database, rmgDatabase
 
