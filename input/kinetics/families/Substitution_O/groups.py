@@ -6689,7 +6689,19 @@ forbidden(
     label = "birad_singlet",
     group = 
 """
-1 *3 R!H 2S
+1 *3 {C,N,Si} 2S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "OS_birad_singlet",
+    group = 
+"""
+1 *3 {O,S} 2S 2
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -6701,11 +6713,10 @@ forbidden(
     label = "quadrad_singlet",
     group = 
 """
-1 *3 R!H 4S
+1 *3 {C,N,Si} 4S 0
 """,
     shortDesc = u"""""",
     longDesc = 
 u"""
 """,
 )
-
