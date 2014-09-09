@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "H_Abstraction/TS_groups"
+name = "intra_H_migration/TS_groups"
 shortDesc = u""
 longDesc = u"""
 
