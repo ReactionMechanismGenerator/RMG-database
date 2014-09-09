@@ -8388,7 +8388,7 @@ entry(
     label = "CH2_singlet_H",
     group = 
 """
-1 *1 C 2S {2,S} {3,S}
+1 *1 C 2S 0 {2,S} {3,S}
 2 *2 H 0  {1,S}
 3    H 0  {1,S}
 """,
@@ -8405,7 +8405,7 @@ entry(
     label = "NH_triplet_H",
     group = 
 """
-1 *1 N 2T {2,S}
+1 *1 N 2T 1 {2,S}
 2 *2 H 0  {1,S}
 """,
     kinetics = None,
@@ -8421,7 +8421,7 @@ entry(
     label = "NH_singlet_H",
     group = 
 """
-1 *1 N 2S {2,S}
+1 *1 N 2S 1{2,S}
 2 *2 H 0  {1,S}
 """,
     kinetics = None,
