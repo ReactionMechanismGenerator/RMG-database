@@ -63,7 +63,7 @@ entry(
     label = "carbene",
     group = 
 """
-1 *1 Cs 2S {2,S} {3,S}
+1 *1 Cs 2S 0 {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
