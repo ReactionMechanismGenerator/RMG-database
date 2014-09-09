@@ -39,7 +39,7 @@ entry(
     label = "O_atom_singlet",
     group = 
 """
-1 *2 O 2S
+1 *2 O 2S 2
 """,
     kinetics = None,
     shortDesc = u"""""",
