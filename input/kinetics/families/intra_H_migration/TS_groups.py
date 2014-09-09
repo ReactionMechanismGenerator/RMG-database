@@ -11,120 +11,152 @@ entry(
     index = 1,
     label = "RnH",
     group = "OR{R2Hall, R3Hall, R4Hall, R5Hall, R6Hall, R7Hall}",
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 1.92444, 'd13': 1.31733, 'd23': 1.29172},
+        uncertainties = {'d12': 0.190471, 'd13': 0.052898, 'd23': 0.049569},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 21 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=185 label="R7H">, <Entry index=200 label="C_rad_out_2H">, <Entry index=219 label="O_H_out">]
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 2,
     label = "Y_rad_out",
-    group =
+    group = 
 """
 1 *1 R!H u1
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 3,
     label = "XH_out",
-    group =
+    group = 
 """
 1 *2 R!H u0 {2,S}
 2 *3 H   u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 4,
     label = "R2Hall",
     group = "OR{R2H}",
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.408743, 'd13': -0.027862, 'd23': -0.012622},
+        uncertainties = {'d12': 0.1955, 'd13': 0.030656, 'd23': 0.026451},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 10 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 5,
     label = "R2H",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,B]}
 2 *2 R!H u0 {1,[S,D,B]} {3,S}
 3 *3 H   u0 {2,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.408743, 'd13': -0.027862, 'd23': -0.012622},
+        uncertainties = {'d12': 0.1955, 'd13': 0.030656, 'd23': 0.026451},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 10 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 6,
     label = "R2H_S",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *2 R!H u0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.408743, 'd13': -0.027862, 'd23': -0.012622},
+        uncertainties = {'d12': 0.1955, 'd13': 0.030656, 'd23': 0.026451},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 10 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 7,
     label = "R2H_S_cy3",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {4,[S,D,B]}
 2 *2 R!H u0 {1,S} {3,S} {4,[S,D,B]}
 3 *3 H   u0 {2,S}
 4    R!H u0 {1,[S,D,B]} {2,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 8,
     label = "R2H_S_cy4",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {5,[S,D,B]}
 2 *2 R!H u0 {1,S} {3,S} {4,[S,D,B]}
@@ -132,19 +164,13 @@ entry(
 4    R!H u0 {2,[S,D,B]} {5,[S,D,B]}
 5    R!H u0 {1,[S,D,B]} {4,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 9,
     label = "R2H_S_cy5",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {6,[S,D,B]}
 2 *2 R!H u0 {1,S} {3,S} {4,[S,D,B]}
@@ -153,207 +179,181 @@ entry(
 5    R!H u0 {4,[S,D,B]} {6,[S,D,B]}
 6    R!H u0 {1,[S,D,B]} {5,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 10,
     label = "R2H_D",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,D}
 2 *2 Cd u0 {1,D} {3,S}
 3 *3 H  u0 {2,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 11,
     label = "R2H_B",
-    group =
+    group = 
 """
 1 *1 Cb u1 {2,B}
 2 *2 Cb u0 {1,B} {3,S}
 3 *3 H  u0 {2,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 12,
     label = "R3Hall",
-    group =
+    group = 
 """
 1 *1 R!H u1       {2,[S,D,T,B]}
 2 *4 R!H u[0,1,2] {1,[S,D,T,B]} {3,[S,D,T,B]}
 3 *2 R!H u0       {2,[S,D,T,B]} {4,S}
 4 *3 H   u0       {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.233073, 'd13': 0.056335, 'd23': 0.061697},
+        uncertainties = {'d12': 3.14385, 'd13': 0.520728, 'd23': 0.36572},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 13,
     label = "R3HJ",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
 3 *2 R!H u0 {2,[S,D,T,B]} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 14,
     label = "R3H",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
 3 *2 R!H u0 {2,[S,D,T,B]} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.233073, 'd13': 0.056335, 'd23': 0.061697},
+        uncertainties = {'d12': 3.14385, 'd13': 0.520728, 'd23': 0.36572},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 15,
     label = "R3H_SR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[S,D,T,B]}
 3 *2 R!H u0 {2,[S,D,T,B]} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.233073, 'd13': 0.056335, 'd23': 0.061697},
+        uncertainties = {'d12': 3.14385, 'd13': 0.520728, 'd23': 0.36572},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 16,
     label = "R3H_SS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.233073, 'd13': 0.056335, 'd23': 0.061697},
+        uncertainties = {'d12': 3.14385, 'd13': 0.520728, 'd23': 0.36572},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 17,
     label = "R3H_SS_2Cd",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cd  u0 {1,S} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 18,
     label = "R3H_SS_OOCs",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
 3 *2 Cs u0 {2,S} {4,S}
 4 *3 H  u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 19,
     label = "R3H_SS_S",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Ss  u0 {1,S} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 20,
     label = "R3H_SS_12cy3",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {5,[S,D,B]}
 2 *4 R!H u0 {1,S} {3,S} {5,[S,D,B]}
@@ -361,19 +361,13 @@ entry(
 4 *3 H   u0 {3,S}
 5    R!H u0 {1,[S,D,B]} {2,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 21,
     label = "R3H_SS_23cy3",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S} {5,[S,D,B]}
@@ -381,19 +375,13 @@ entry(
 4 *3 H   u0 {3,S}
 5    R!H u0 {2,[S,D,B]} {3,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 22,
     label = "R3H_SS_13cy4",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {5,[S,D,B]}
 2 *4 R!H u0 {1,S} {3,S}
@@ -401,19 +389,13 @@ entry(
 4 *3 H   u0 {3,S}
 5    R!H u0 {1,[S,D,B]} {3,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 23,
     label = "R3H_SS_12cy4",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {6,[S,D,B]}
 2 *4 R!H u0 {1,S} {3,S} {5,[S,D,B]}
@@ -422,19 +404,13 @@ entry(
 5    R!H u0 {2,[S,D,B]} {6,[S,D,B]}
 6    R!H u0 {1,[S,D,B]} {5,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 24,
     label = "R3H_SS_23cy4",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S} {6,[S,D,B]}
@@ -443,19 +419,13 @@ entry(
 5    R!H u0 {3,[S,D,B]} {6,[S,D,B]}
 6    R!H u0 {2,[S,D,B]} {5,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 25,
     label = "R3H_SS_13cy5",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {6,[S,D,B]}
 2 *4 R!H u0 {1,S} {3,S}
@@ -464,19 +434,13 @@ entry(
 5    R!H u0 {3,[S,D,B]} {6,[S,D,B]}
 6    R!H u0 {1,[S,D,B]} {5,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 26,
     label = "R3H_SS_12cy5",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S} {7,[S,D,B]}
 2 *4 R!H u0 {1,S} {3,S} {5,[S,D,B]}
@@ -486,19 +450,13 @@ entry(
 6    R!H u0 {5,[S,D,B]} {7,[S,D,B]}
 7    R!H u0 {1,[S,D,B]} {6,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 27,
     label = "R3H_SS_23cy5",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S} {7,[S,D,B]}
@@ -508,171 +466,117 @@ entry(
 6    R!H u0 {5,[S,D,B]} {7,[S,D,B]}
 7    R!H u0 {2,[S,D,B]} {6,[S,D,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 28,
     label = "R3H_SD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cd  u0 {1,S} {3,D}
 3 *2 Cd  u0 {2,D} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 29,
     label = "R3H_ST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Ct  u0 {1,S} {3,T}
 3 *2 Ct  u0 {2,T} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 30,
     label = "R3H_SB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
 3 *2 Cb  u0 {2,B} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 31,
     label = "R3H_MS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[D,T,B]}
 2 *4 R!H u0 {1,[D,T,B]} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 32,
     label = "R3H_DS",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 33,
     label = "R3H_TS",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 34,
     label = "R3H_BS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
 3 *2 R!H u0 {2,S} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 35,
     label = "R3H_BB",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
 3 *2 Cb  u0 {2,B} {4,S}
 4 *3 H   u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 36,
     label = "R4Hall",
-    group =
+    group = 
 """
 1 *1 R!H u1       {2,[S,D,T,B]}
 2 *4 R!H u[0,1,2] {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -680,19 +584,24 @@ entry(
 4 *2 R!H u0       {3,[S,D,T,B]} {5,S}
 5 *3 H   u0       {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.561336, 'd13': 0.042229, 'd23': 0.032928},
+        uncertainties = {'d12': 0.235434, 'd13': 0.053942, 'd23': 0.121146},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 3 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 37,
     label = "R4HJ_1",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -700,19 +609,13 @@ entry(
 4 *2 R!H u0 {3,[S,D,T,B]} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 38,
     label = "R4HJ_2",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -720,19 +623,13 @@ entry(
 4 *2 R!H u0 {3,[S,D,T,B]} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 39,
     label = "R4H",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -740,19 +637,24 @@ entry(
 4 *2 R!H u0 {3,[S,D,T,B]} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.561336, 'd13': 0.042229, 'd23': 0.032928},
+        uncertainties = {'d12': 0.235434, 'd13': 0.053942, 'd23': 0.121146},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 3 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 40,
     label = "R4H_RSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -760,19 +662,24 @@ entry(
 4 *2 R!H u0 {3,[S,D,T,B]} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.561336, 'd13': 0.042229, 'd23': 0.032928},
+        uncertainties = {'d12': 0.235434, 'd13': 0.053942, 'd23': 0.121146},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 3 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 41,
     label = "R4H_RSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -780,19 +687,23 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.588763, 'd13': 0.041829, 'd23': 0.028935},
+        uncertainties = {'d12': 0.78183, 'd13': 0.093741, 'd23': 0.311438},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 42,
     label = "R4H_SSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -800,19 +711,23 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.588763, 'd13': 0.041829, 'd23': 0.028935},
+        uncertainties = {'d12': 0.78183, 'd13': 0.093741, 'd23': 0.311438},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 43,
     label = "R4H_SSS_CsSCsCs",
-    group =
+    group = 
 """
 1 *1 Cs u1 {2,S}
 2 *4 Ss u0 {1,S} {3,S}
@@ -820,19 +735,13 @@ entry(
 4 *2 Cs u0 {3,S} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 44,
     label = "R4H_SSS_CsCsSCs",
-    group =
+    group = 
 """
 1 *1 Cs u1 {2,S}
 2 *4 Cs u0 {1,S} {3,S}
@@ -840,19 +749,13 @@ entry(
 4 *2 Cs u0 {3,S} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 45,
     label = "R4H_SSS_OOCsCs",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -860,19 +763,13 @@ entry(
 4 *2 Cs u0 {3,S} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 46,
     label = "R4H_SSS_OO(Cs/Cs)Cs",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -881,19 +778,13 @@ entry(
 5 *3 H  u0 {4,S}
 6    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 47,
     label = "R4H_SSS_OO(Cs/Cs/Cs)Cs",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -903,19 +794,13 @@ entry(
 6    Cs u0 {3,S}
 7    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 48,
     label = "R4H_SSS_OOCsCd",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -923,19 +808,13 @@ entry(
 4 *2 Cd u0 {3,S} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 49,
     label = "R4H_DSS",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -943,19 +822,13 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 50,
     label = "R4H_TSS",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -963,19 +836,13 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 51,
     label = "R4H_BSS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -983,19 +850,13 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 52,
     label = "R4H_RSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -1003,19 +864,22 @@ entry(
 4 *2 Cd  u0 {3,D} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.456197, 'd13': 0.043763, 'd23': 0.048232},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 53,
     label = "R4H_SSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1023,19 +887,13 @@ entry(
 4 *2 Cd  u0 {3,D} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 54,
     label = "R4H_DSD",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,D}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1043,19 +901,13 @@ entry(
 4 *2 Cd u0 {3,D} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 55,
     label = "R4H_TSD",
-    group =
+    group = 
 """
 1 *1 Ct u1 {2,T}
 2 *4 Ct u0 {1,T} {3,S}
@@ -1063,19 +915,13 @@ entry(
 4 *2 Cd u0 {3,D} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 56,
     label = "R4H_BSD",
-    group =
+    group = 
 """
 1 *1 Cb u1 {2,B}
 2 *4 Cb u0 {1,B} {3,S}
@@ -1083,19 +929,22 @@ entry(
 4 *2 Cd u0 {3,D} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.456197, 'd13': 0.043763, 'd23': 0.048232},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 57,
     label = "R4H_RST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -1103,19 +952,13 @@ entry(
 4 *2 Ct  u0 {3,T} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 58,
     label = "R4H_SST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1123,19 +966,13 @@ entry(
 4 *2 Ct  u0 {3,T} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 59,
     label = "R4H_DST",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,D}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1143,19 +980,13 @@ entry(
 4 *2 Ct u0 {3,T} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 60,
     label = "R4H_TST",
-    group =
+    group = 
 """
 1 *1 Ct u1 {2,T}
 2 *4 Ct u0 {1,T} {3,S}
@@ -1163,19 +994,13 @@ entry(
 4 *2 Ct u0 {3,T} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 61,
     label = "R4H_BST",
-    group =
+    group = 
 """
 1 *1 Cb u1 {2,B}
 2 *4 Cb u0 {1,B} {3,S}
@@ -1183,19 +1008,13 @@ entry(
 4 *2 Ct u0 {3,T} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 62,
     label = "R4H_RSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -1203,19 +1022,13 @@ entry(
 4 *2 Cb  u0 {3,B} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 63,
     label = "R4H_SSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1223,19 +1036,13 @@ entry(
 4 *2 Cb  u0 {3,B} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 64,
     label = "R4H_DSB",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,D}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1243,19 +1050,13 @@ entry(
 4 *2 Cb u0 {3,B} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 65,
     label = "R4H_TSB",
-    group =
+    group = 
 """
 1 *1 Ct u1 {2,T}
 2 *4 Ct u0 {1,T} {3,S}
@@ -1263,19 +1064,13 @@ entry(
 4 *2 Cb u0 {3,B} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 66,
     label = "R4H_BSB",
-    group =
+    group = 
 """
 1 *1 Cb u1 {2,B}
 2 *4 Cb u0 {1,B} {3,S}
@@ -1283,19 +1078,13 @@ entry(
 4 *2 Cb u0 {3,B} {5,S}
 5 *3 H  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 67,
     label = "R4H_SMS",
-    group =
+    group = 
 """
 1 *1 R!H        u1 {2,S}
 2 *4 [Cd,Ct,Cb] u0 {1,S} {3,[D,T,B]}
@@ -1303,19 +1092,13 @@ entry(
 4 *2 R!H        u0 {3,S} {5,S}
 5 *3 H          u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 68,
     label = "R4H_SDS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cd  u0 {1,S} {3,D}
@@ -1323,19 +1106,13 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 69,
     label = "R4H_STS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Ct  u0 {1,S} {3,T}
@@ -1343,19 +1120,13 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 70,
     label = "R4H_SBS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -1363,19 +1134,13 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 71,
     label = "R4H_SBB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -1383,19 +1148,13 @@ entry(
 4 *2 Cb  u0 {3,B} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 72,
     label = "R4H_BBS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -1403,19 +1162,13 @@ entry(
 4 *2 R!H u0 {3,S} {5,S}
 5 *3 H   u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 73,
     label = "R4H_BBB",
-    group =
+    group = 
 """
 1  *1 Cb       u1 {2,B} {15,B}
 2  *4 Cbf      u0 {1,B} {3,B} {12,B}
@@ -1433,19 +1186,13 @@ entry(
 14    [Cb,Cbf] u0 {13,B} {15,B}
 15    [Cb,Cbf] u0 {1,B} {14,B}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 74,
     label = "R5Hall",
-    group =
+    group = 
 """
 1 *1 R!H u1       {2,[S,D,T,B]}
 2 *4 R!H u[0,1,2] {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1454,19 +1201,23 @@ entry(
 5 *2 R!H u0       {4,[S,D,T,B]} {6,S}
 6 *3 H   u0       {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.652208, 'd13': 0.047659, 'd23': -0.009719},
+        uncertainties = {'d12': 1.49107, 'd13': 0.46283, 'd23': 0.298937},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 75,
     label = "R5HJ_1",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1475,19 +1226,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 76,
     label = "R5HJ_2",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1496,19 +1241,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 77,
     label = "R5HJ_3",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1517,19 +1256,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 78,
     label = "R5H",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1538,19 +1271,23 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.652208, 'd13': 0.047659, 'd23': -0.009719},
+        uncertainties = {'d12': 1.49107, 'd13': 0.46283, 'd23': 0.298937},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 79,
     label = "R5H_RSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -1559,19 +1296,23 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.652208, 'd13': 0.047659, 'd23': -0.009719},
+        uncertainties = {'d12': 1.49107, 'd13': 0.46283, 'd23': 0.298937},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 80,
     label = "R5H_SSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1580,19 +1321,23 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.652208, 'd13': 0.047659, 'd23': -0.009719},
+        uncertainties = {'d12': 1.49107, 'd13': 0.46283, 'd23': 0.298937},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 81,
     label = "R5H_SSSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1601,19 +1346,23 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.652208, 'd13': 0.047659, 'd23': -0.009719},
+        uncertainties = {'d12': 1.49107, 'd13': 0.46283, 'd23': 0.298937},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 82,
     label = "R5H_CCCC_O",
-    group =
+    group = 
 """
 1 *1 O u1 {2,S}
 2 *4 C u0 {1,S} {3,S}
@@ -1622,19 +1371,22 @@ entry(
 5 *2 C u0 {4,S} {6,S}
 6 *3 H u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.647088, 'd13': 0.030304, 'd23': -0.031534},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
 """,
 )
 
 entry(
     index = 83,
     label = "R5H_SSSS_CsCsCsSCs",
-    group =
+    group = 
 """
 1 *1 Cs u1 {2,S}
 2 *4 Cs u0 {1,S} {3,S}
@@ -1643,19 +1395,13 @@ entry(
 5 *2 Cs u0 {4,S} {6,S}
 6 *3 H  u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 84,
     label = "R5H_SSSS_OOCCC",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -1664,19 +1410,13 @@ entry(
 5 *2 Cs u0 {4,S} {6,S}
 6 *3 H  u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 85,
     label = "R5H_SSSS_OO(Cs/Cs)Cs",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -1686,19 +1426,13 @@ entry(
 6 *3 H  u0 {5,S}
 7    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 86,
     label = "R5H_SSSS_OO(Cs/Cs/Cs)Cs",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -1709,19 +1443,13 @@ entry(
 7    Cs u0 {3,S}
 8    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 87,
     label = "R5H_SSSS_OOCs(Cs/Cs)",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -1731,19 +1459,13 @@ entry(
 6 *3 H  u0 {5,S}
 7    Cs u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 88,
     label = "R5H_SSSS_OOCs(Cs/Cs/Cs)",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -1754,19 +1476,13 @@ entry(
 7    Cs u0 {4,S}
 8    Cs u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 89,
     label = "R5H_SSSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1775,19 +1491,13 @@ entry(
 5 *2 Cd  u0 {4,D} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 90,
     label = "R5H_SSST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1796,19 +1506,13 @@ entry(
 5 *2 Ct  u0 {4,T} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 91,
     label = "R5H_SSSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1817,19 +1521,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 92,
     label = "R5H_DSSR",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1838,19 +1536,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 93,
     label = "R5H_DSSS",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1859,19 +1551,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 94,
     label = "R5H_DSSD",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1880,19 +1566,13 @@ entry(
 5 *2 Cd  u0 {4,D} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 95,
     label = "R5H_DSST",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1901,19 +1581,13 @@ entry(
 5 *2 Ct  u0 {4,T} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 96,
     label = "R5H_DSSB",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1922,19 +1596,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 97,
     label = "R5H_TSSR",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1943,19 +1611,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 98,
     label = "R5H_TSSS",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1964,19 +1626,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 99,
     label = "R5H_TSSD",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1985,19 +1641,13 @@ entry(
 5 *2 Cd  u0 {4,D} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 100,
     label = "R5H_TSST",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -2006,19 +1656,13 @@ entry(
 5 *2 Ct  u0 {4,T} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 101,
     label = "R5H_TSSB",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -2027,19 +1671,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 102,
     label = "R5H_BSSR",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2048,19 +1686,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 103,
     label = "R5H_BSSS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2069,19 +1701,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 104,
     label = "R5H_BSSD",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2090,19 +1716,13 @@ entry(
 5 *2 Cd  u0 {4,D} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 105,
     label = "R5H_BSST",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2111,19 +1731,13 @@ entry(
 5 *2 Ct  u0 {4,T} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 106,
     label = "R5H_BSSB",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2132,19 +1746,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 107,
     label = "R5H_RSMS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2153,19 +1761,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 108,
     label = "R5H_SSMS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2174,19 +1776,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 109,
     label = "R5H_DSMS",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -2195,19 +1791,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 110,
     label = "R5H_TSMS",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -2216,19 +1806,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 111,
     label = "R5H_BSMS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2237,19 +1821,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 112,
     label = "R5H_SMSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2258,19 +1836,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 113,
     label = "R5H_SMSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2279,19 +1851,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 114,
     label = "R5H_SMSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2300,19 +1866,13 @@ entry(
 5 *2 Cd  u0 {4,D} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 115,
     label = "R5H_SMST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2321,19 +1881,13 @@ entry(
 5 *2 Ct  u0 {4,T} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 116,
     label = "R5H_SMSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2342,19 +1896,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 117,
     label = "R5H_BBSR",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2363,19 +1911,13 @@ entry(
 5 *2 R!H u0 {4,[S,D,T,B]} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 118,
     label = "R5H_BBSS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2384,19 +1926,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 119,
     label = "R5H_BBSD",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2405,19 +1941,13 @@ entry(
 5 *2 Cd  u0 {4,D} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 120,
     label = "R5H_BBST",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2426,19 +1956,13 @@ entry(
 5 *2 Ct  u0 {4,T} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 121,
     label = "R5H_BBSB",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2447,19 +1971,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 122,
     label = "R5H_RSBB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2468,19 +1986,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 123,
     label = "R5H_SSBB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2489,19 +2001,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 124,
     label = "R5H_DSBB",
-    group =
+    group = 
 """
 1 *1 Cd  u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -2510,19 +2016,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 125,
     label = "R5H_TSBB",
-    group =
+    group = 
 """
 1 *1 Ct  u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -2531,19 +2031,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 126,
     label = "R5H_BSBB",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2552,19 +2046,13 @@ entry(
 5 *2 Cb  u0 {4,B} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 127,
     label = "R5H_SBBS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -2573,19 +2061,13 @@ entry(
 5 *2 R!H u0 {4,S} {6,S}
 6 *3 H   u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 128,
     label = "R5H_SBBB",
-    group =
+    group = 
 """
 1  *1 R!H      u1 {2,S}
 2  *4 Cb       u0 {1,S} {3,B} {16,B}
@@ -2604,19 +2086,13 @@ entry(
 15    [Cb,Cbf] u0 {14,B} {16,B}
 16    [Cb,Cbf] u0 {2,B} {15,B}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 129,
     label = "R5H_BBBS",
-    group =
+    group = 
 """
 1  *1 Cb       u1 {2,B} {16,B}
 2  *4 Cbf      u0 {1,B} {3,B} {13,B}
@@ -2635,19 +2111,13 @@ entry(
 15    [Cb,Cbf] u0 {14,B} {16,B}
 16    [Cb,Cbf] u0 {1,B} {15,B}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 130,
     label = "R5H_BBBB",
-    group =
+    group = 
 """
 1  *1 Cb       u1 {2,B} {19,B}
 2  *4 Cbf      u0 {1,B} {3,B} {16,B}
@@ -2669,19 +2139,13 @@ entry(
 18    [Cb,Cbf] u0 {17,B} {19,B}
 19    [Cb,Cbf] u0 {1,B} {18,B}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 131,
     label = "R6Hall",
-    group =
+    group = 
 """
 1 *1 R!H u1       {2,[S,D,T,B]}
 2 *4 R!H u[0,1,2] {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2691,19 +2155,23 @@ entry(
 6 *2 R!H u0       {5,[S,D,T,B]} {7,S}
 7 *3 H   u0       {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.598515, 'd13': 0.004658, 'd23': 0.018291},
+        uncertainties = {'d12': 1.68294, 'd13': 0.075653, 'd23': 0.372031},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 132,
     label = "R6HJ_1",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2713,19 +2181,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 133,
     label = "R6HJ_2",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2735,19 +2197,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 134,
     label = "R6HJ_3",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2757,19 +2213,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 135,
     label = "R6HJ_4",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2779,19 +2229,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 136,
     label = "R6H",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2801,19 +2245,23 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.598515, 'd13': 0.004658, 'd23': 0.018291},
+        uncertainties = {'d12': 1.68294, 'd13': 0.075653, 'd23': 0.372031},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 137,
     label = "R6H_RSSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2823,19 +2271,23 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.598515, 'd13': 0.004658, 'd23': 0.018291},
+        uncertainties = {'d12': 1.68294, 'd13': 0.075653, 'd23': 0.372031},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 138,
     label = "R6H_SSSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2845,19 +2297,23 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.598515, 'd13': 0.004658, 'd23': 0.018291},
+        uncertainties = {'d12': 1.68294, 'd13': 0.075653, 'd23': 0.372031},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 139,
     label = "R6H_SSSSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2867,19 +2323,23 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.598515, 'd13': 0.004658, 'd23': 0.018291},
+        uncertainties = {'d12': 1.68294, 'd13': 0.075653, 'd23': 0.372031},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 140,
     label = "R6H_SSSSS_OO",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -2889,19 +2349,13 @@ entry(
 6 *2 Cs u0 {5,S} {7,S}
 7 *3 H  u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 141,
     label = "R6H_SSSSS_OO(Cs/Cs)Cs",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -2912,19 +2366,13 @@ entry(
 7 *3 H  u0 {6,S}
 8    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 144,
     label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -2936,19 +2384,13 @@ entry(
 8    Cs u0 {3,S}
 9    Cs u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 143,
     label = "R6H_SSSSS_OOCCC(Cs/Cs)",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -2959,19 +2401,13 @@ entry(
 7 *3 H  u0 {6,S}
 8    Cs u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 144,
     label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)",
-    group =
+    group = 
 """
 1 *1 Os u1 {2,S}
 2 *4 Os u0 {1,S} {3,S}
@@ -2983,19 +2419,13 @@ entry(
 8    Cs u0 {3,S}
 9    Cs u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 145,
     label = "R6H_SSSSS_bicyclopentane",
-    group =
+    group = 
 """
 1  *1 R!H u1 {2,S} {8,S}
 2  *4 R!H u0 {1,S} {3,S}
@@ -3009,19 +2439,13 @@ entry(
 10    C   u0 {6,S} {11,D}
 11    C   u0 {4,S} {10,D}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 146,
     label = "R6H_SSSSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -3031,19 +2455,13 @@ entry(
 6 *2 R!H u0 {5,D} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 147,
     label = "R6H_SSSST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -3053,19 +2471,13 @@ entry(
 6 *2 R!H u0 {5,T} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 148,
     label = "R6H_SSSSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -3075,19 +2487,13 @@ entry(
 6 *2 R!H u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 149,
     label = "R6H_DSSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -3097,19 +2503,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 150,
     label = "R6H_DSSSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -3119,19 +2519,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 151,
     label = "R6H_DSSSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -3141,19 +2535,13 @@ entry(
 6 *2 R!H u0 {5,D} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 152,
     label = "R6H_DSSST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -3163,19 +2551,13 @@ entry(
 6 *2 R!H u0 {5,T} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 153,
     label = "R6H_DSSSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -3185,19 +2567,13 @@ entry(
 6 *2 R!H u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 154,
     label = "R6H_TSSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -3207,19 +2583,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 155,
     label = "R6H_TSSSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -3229,19 +2599,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 156,
     label = "R6H_TSSSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -3251,19 +2615,13 @@ entry(
 6 *2 R!H u0 {5,D} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 157,
     label = "R6H_TSSST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -3273,19 +2631,13 @@ entry(
 6 *2 R!H u0 {5,T} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 158,
     label = "R6H_TSSSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -3295,19 +2647,13 @@ entry(
 6 *2 R!H u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 159,
     label = "R6H_BSSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -3317,19 +2663,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 160,
     label = "R6H_BSSSS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -3339,19 +2679,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 161,
     label = "R6H_BSSSD",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -3361,19 +2695,13 @@ entry(
 6 *2 R!H u0 {5,D} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 162,
     label = "R6H_BSSST",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -3383,19 +2711,13 @@ entry(
 6 *2 R!H u0 {5,T} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 163,
     label = "R6H_BSSSB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -3405,19 +2727,13 @@ entry(
 6 *2 R!H u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 164,
     label = "R6H_RSSMS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -3427,19 +2743,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 165,
     label = "R6H_RSMSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -3449,19 +2759,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 166,
     label = "R6H_SMSSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -3471,19 +2775,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 167,
     label = "R6H_SMSMS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -3493,19 +2791,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 168,
     label = "R6H_BBSRS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -3515,19 +2807,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 169,
     label = "R6H_BBSSM",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -3537,19 +2823,13 @@ entry(
 6 *2 R!H u0 {5,[D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 170,
     label = "R6H_BBSBB",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -3559,19 +2839,13 @@ entry(
 6 *2 Cb  u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 171,
     label = "R6H_SBBSR",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -3581,19 +2855,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 172,
     label = "R6H_RSBBS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -3603,19 +2871,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 173,
     label = "R6H_BBBSR",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -3625,19 +2887,13 @@ entry(
 6 *2 R!H u0 {5,[S,D,T,B]} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 174,
     label = "R6H_SBBBS",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -3647,19 +2903,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 175,
     label = "R6H_RSBBB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -3669,19 +2919,13 @@ entry(
 6 *2 Cb  u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 176,
     label = "R6H_SBBBB",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -3691,19 +2935,13 @@ entry(
 6 *2 Cb  u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 177,
     label = "R6H_BBBBS",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -3713,19 +2951,13 @@ entry(
 6 *2 R!H u0 {5,S} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 178,
     label = "R6H_BBBBB",
-    group =
+    group = 
 """
 1 *1 Cb  u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -3735,19 +2967,13 @@ entry(
 6 *2 Cb  u0 {5,B} {7,S}
 7 *3 H   u0 {6,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 179,
     label = "R7Hall",
-    group =
+    group = 
 """
 1 *1 R!H u1       {2,[S,D,T,B]}
 2 *4 R!H u[0,1,2] {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3758,19 +2984,22 @@ entry(
 7 *2 R!H u0       {6,[S,D,T,B]} {8,S}
 8 *3 H   u0       {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.570201, 'd13': 0.012145, 'd23': -0.069444},
+        uncertainties = {'d12': 0.404351, 'd13': 1.12597, 'd23': 1.00358},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=185 label="R7H">, <Entry index=200 label="C_rad_out_2H">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 180,
     label = "R7HJ_1",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3781,19 +3010,13 @@ entry(
 7 *2 R!H u0 {6,[S,D,T,B]} {8,S}
 8 *3 H   u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 181,
     label = "R7HJ_2",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3804,19 +3027,13 @@ entry(
 7 *2 R!H u0 {6,[S,D,T,B]} {8,S}
 8 *3 H   u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 182,
     label = "R7HJ_3",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3827,19 +3044,13 @@ entry(
 7 *2 R!H u0 {6,[S,D,T,B]} {8,S}
 8 *3 H   u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 183,
     label = "R7HJ_4",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3850,19 +3061,13 @@ entry(
 7 *2 R!H u0 {6,[S,D,T,B]} {8,S}
 8 *3 H   u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 184,
     label = "R7HJ_5",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3873,19 +3078,13 @@ entry(
 7 *2 R!H u0 {6,[S,D,T,B]} {8,S}
 8 *3 H   u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 185,
     label = "R7H",
-    group =
+    group = 
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3896,19 +3095,22 @@ entry(
 7 *2 R!H u0 {6,[S,D,T,B]} {8,S}
 8 *3 H   u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.570201, 'd13': 0.012145, 'd23': -0.069444},
+        uncertainties = {'d12': 0.404351, 'd13': 1.12597, 'd23': 1.00358},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 2 distances.
+[<Entry index=185 label="R7H">, <Entry index=200 label="C_rad_out_2H">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 186,
     label = "R7H_OOCs4",
-    group =
+    group = 
 """
 1 *1 Os  u1 {2,S}
 2 *4 Os  u0 {1,S} {3,S}
@@ -3919,19 +3121,13 @@ entry(
 7 *2 R!H u0 {6,[S,D,T,B]} {8,S}
 8 *3 H   u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 187,
     label = "R7H_OOCCCC(Cs/Cs)",
-    group =
+    group = 
 """
 1 *1 Os  u1 {2,S}
 2 *4 Os  u0 {1,S} {3,S}
@@ -3943,421 +3139,386 @@ entry(
 8 *3 H   u0 {7,S}
 9    Cs  u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 188,
     label = "O_rad_out",
-    group =
+    group = 
 """
 1 *1 O u1
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.050945, 'd13': -0.062432, 'd23': -0.035422},
+        uncertainties = {'d12': 0.377658, 'd13': 0.084014, 'd23': 0.062469},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 4 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 189,
     label = "S_rad_out",
-    group =
+    group = 
 """
 1 *1 S u1
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 190,
     label = "Cd_rad_out_double",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,D}
 2    Cd u0 {1,D}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 191,
     label = "Cd_rad_out_single",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,S}
 2    R  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 192,
     label = "Cd_rad_out_singleH",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,S}
 2    H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 193,
     label = "Cd_rad_out_singleNd",
-    group =
+    group = 
 """
 1 *1 Cd       u1 {2,S}
 2    [Cs,O,S] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 194,
     label = "Cd_rad_out_singleDe",
-    group =
+    group = 
 """
 1 *1 Cd            u1 {2,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 195,
     label = "Ct_rad_out",
-    group =
+    group = 
 """
 1 *1 Ct u1 {2,T}
 2 *4 Ct u0 {1,T}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 196,
     label = "Cb_rad_out",
-    group =
+    group = 
 """
 1 *1 Cb       u1 {2,B}
 2 *4 [Cb,Cbf] u0 {1,B}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.046926, 'd13': 0.016122, 'd23': 0.031381},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 197,
     label = "CO_rad_out",
-    group =
+    group = 
 """
 1 *1 C u1 {2,D}
 2    O u0 {1,D}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 198,
     label = "C=S_rad_out",
-    group =
+    group = 
 """
 1 *1 Cd u1 {2,D}
 2    Sd u0 {1,D}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 199,
     label = "C_rad_out_single",
-    group =
+    group = 
 """
 1 *1 C u1 {2,S} {3,S}
 2    R u0 {1,S}
 3    R u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.013492, 'd13': 0.019185, 'd23': 0.009461},
+        uncertainties = {'d12': 0.192464, 'd13': 0.056422, 'd23': 0.052652},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 16 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=185 label="R7H">, <Entry index=200 label="C_rad_out_2H">, <Entry index=219 label="O_H_out">]
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 200,
     label = "C_rad_out_2H",
-    group =
+    group = 
 """
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
 3    H u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.004022, 'd13': 0.021964, 'd23': 0.011264},
+        uncertainties = {'d12': 0.142907, 'd13': 0.065511, 'd23': 0.060408},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 11 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=185 label="R7H">, <Entry index=200 label="C_rad_out_2H">, <Entry index=219 label="O_H_out">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
 """,
 )
 
 entry(
     index = 201,
     label = "C_rad_out_1H",
-    group =
+    group = 
 """
 1 *1 C   u1 {2,S} {3,S}
 2    H   u0 {1,S}
 3    R!H u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.061032, 'd13': 0.008225, 'd23': 0.020636},
+        uncertainties = {'d12': 0.472167, 'd13': 0.078882, 'd23': 0.056635},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 4 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 202,
     label = "C_rad_out_H/NonDeC",
-    group =
+    group = 
 """
 1 *1 C  u1 {2,S} {3,S}
 2    H  u0 {1,S}
 3    Cs u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.061032, 'd13': 0.008225, 'd23': 0.020636},
+        uncertainties = {'d12': 0.472167, 'd13': 0.078882, 'd23': 0.056635},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 4 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 203,
     label = "C_rad_out_H/NonDeO",
-    group =
+    group = 
 """
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
 3    O u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 204,
     label = "C_rad_out_H/NonDeS",
-    group =
+    group = 
 """
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
 3    S u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 205,
     label = "C_rad_out_H/OneDe",
-    group =
+    group = 
 """
 1 *1 C             u1 {2,S} {3,S}
 2    H             u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 206,
     label = "C_rad_out_noH",
-    group =
+    group = 
 """
 1 *1 C   u1 {2,S} {3,S}
 2    R!H u0 {1,S}
 3    R!H u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.069981, 'd13': 0.027874, 'd23': -0.079383},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 207,
     label = "C_rad_out_NonDe",
-    group =
+    group = 
 """
 1 *1 C        u1 {2,S} {3,S}
 2    [Cs,O,S] u0 {1,S}
 3    [Cs,O,S] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.069981, 'd13': 0.027874, 'd23': -0.079383},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 208,
     label = "C_rad_out_Cs2",
-    group =
+    group = 
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cs u0 {1,S}
 3    Cs u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.069981, 'd13': 0.027874, 'd23': -0.079383},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 209,
     label = "C_rad_out_Cs2_cy3",
-    group =
+    group = 
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cs u0 {1,S} {3,S}
 3    Cs u0 {1,S} {2,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 210,
     label = "C_rad_out_Cs2_cy4",
-    group =
+    group = 
 """
 1 *1 C       u1 {2,S} {3,S}
 2    Cs      u0 {1,S} {4,S}
 3    Cs      u0 {1,S} {4,S}
 4    [Cs,Cd] u0 {2,S} {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 211,
     label = "C_rad_out_Cs2_cy5",
-    group =
+    group = 
 """
 1 *1 C             u1 {2,S} {3,S}
 2    Cs            u0 {1,S} {4,S}
@@ -4365,376 +3526,312 @@ entry(
 4    [Cs,Cd,Cb,Ct] u0 {2,S} {5,[S,D,T,B]}
 5    [Cs,Cd,Cb,Ct] u0 {3,S} {4,[S,D,T,B]}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 212,
     label = "C_rad_out_NDMustO",
-    group =
+    group = 
 """
 1 *1 C        u1 {2,S} {3,S}
 2    O        u0 {1,S}
 3    [Cs,O,S] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 213,
     label = "C_rad_out_OneDe",
-    group =
+    group = 
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 3    [Cs,O,S]      u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 214,
     label = "C_rad_out_OneDe/Cs",
-    group =
+    group = 
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 3    Cs            u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 215,
     label = "C_rad_out_OneDe/O",
-    group =
+    group = 
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 3    O             u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 216,
     label = "C_rad_out_OneDe/S",
-    group =
+    group = 
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 3    S             u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 217,
     label = "C_rad_out_TwoDe",
-    group =
+    group = 
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 218,
     label = "CO_H_out",
-    group =
+    group = 
 """
 1 *2 CO u0 {2,S}
 2 *3 H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 219,
     label = "O_H_out",
-    group =
+    group = 
 """
 1 *2 O u0 {2,S}
 2 *3 H u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.04651, 'd13': -0.011217, 'd23': -0.064501},
+        uncertainties = {'d12': 0.477892, 'd13': 0.17786, 'd23': 0.162146},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 4 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=219 label="O_H_out">]
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=208 label="C_rad_out_Cs2">, <Entry index=219 label="O_H_out">]
+[<Entry index=185 label="R7H">, <Entry index=200 label="C_rad_out_2H">, <Entry index=219 label="O_H_out">]
 """,
 )
 
 entry(
     index = 220,
     label = "Ct_H_out",
-    group =
+    group = 
 """
 1 *2 Ct u0 {2,S}
 2 *3 H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 221,
     label = "Cb_H_out",
-    group =
+    group = 
 """
 1 *2 Cb u0 {2,S}
 2 *3 H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 222,
     label = "S_H_out",
-    group =
+    group = 
 """
 1 *2 S u0 {2,S}
 2 *3 H u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 223,
     label = "Cd_H_out_double",
-    group =
+    group = 
 """
 1 *2 Cd     u0 {2,S} {3,D}
 2 *3 H      u0 {1,S}
 3    [Cd,O] u0 {1,D}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 224,
     label = "Cd_H_out_doubleC",
-    group =
+    group = 
 """
 1 *2 Cd u0 {2,S} {3,D}
 2 *3 H  u0 {1,S}
 3    Cd u0 {1,D}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 225,
     label = "Cd_H_out_doubleO",
-    group =
+    group = 
 """
 1 *2 Cd u0 {2,S} {3,D}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,D}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 226,
     label = "Cd_H_out_single",
-    group =
+    group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
 3    R  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.070389, 'd13': 0.024183, 'd23': 0.047072},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 227,
     label = "Cd_H_out_singleH",
-    group =
+    group = 
 """
 1 *2 Cd u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
 3    H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.070389, 'd13': 0.024183, 'd23': 0.047072},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=56 label="R4H_BSD">, <Entry index=196 label="Cb_rad_out">, <Entry index=227 label="Cd_H_out_singleH">]
 """,
 )
 
 entry(
     index = 228,
     label = "Cd_H_out_singleNd",
-    group =
+    group = 
 """
 1 *2 Cd     u0 {2,S} {3,S}
 2 *3 H      u0 {1,S}
 3    [Cs,O] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 229,
     label = "Cd_H_out_singleDe",
-    group =
+    group = 
 """
 1 *2 Cd            u0 {2,S} {3,S}
 2 *3 H             u0 {1,S}
 3    [Cd,Ct,Cb,CO] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 230,
     label = "Cs_H_out",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    R  u0 {1,S}
 4    R  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.01797, 'd13': 0.002119, 'd23': 0.017136},
+        uncertainties = {'d12': 0.171316, 'd13': 0.031284, 'd23': 0.027634},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 16 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 231,
     label = "Cs_H_out_2H",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.117045, 'd13': -0.000867, 'd23': 0.039314},
+        uncertainties = {'d12': 0.686449, 'd13': 0.085984, 'd23': 0.03788},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 3 distances.
+[<Entry index=139 label="R6H_SSSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=231 label="Cs_H_out_2H">]
+[<Entry index=81 label="R5H_SSSS">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=231 label="Cs_H_out_2H">]
 """,
 )
 
 entry(
     index = 232,
     label = "Cs_H_out_2H/NonDeC",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 H  u0 {1,S}
@@ -4742,57 +3839,70 @@ entry(
 4    H  u0 {1,S}
 5    H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 233,
     label = "Cs_H_out_1H",
-    group =
+    group = 
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S}
 2 *3 H   u0 {1,S}
 3    R!H u0 {1,S}
 4    H   u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.062333, 'd13': 0.00468, 'd23': 0.012576},
+        uncertainties = {'d12': 0.129148, 'd13': 0.02795, 'd23': 0.031651},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 10 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 234,
     label = "Cs_H_out_H/NonDeC",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs u0 {1,S}
 4    H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.055239, 'd13': -0.000499, 'd23': 0.01725},
+        uncertainties = {'d12': 0.107463, 'd13': 0.030202, 'd23': 0.034208},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 9 distances.
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=188 label="O_rad_out">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=202 label="C_rad_out_H/NonDeC">, <Entry index=234 label="Cs_H_out_H/NonDeC">]
 """,
 )
 
 entry(
     index = 235,
     label = "Cs_H_out_H/(NonDeC/Cs)",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4800,19 +3910,25 @@ entry(
 4    H  u0 {1,S}
 5    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.030417, 'd13': 0.004217, 'd23': 0.025734},
+        uncertainties = {'d12': 0.136107, 'd13': 0.040551, 'd23': 0.036033},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 6 distances.
+[<Entry index=16 label="R3H_SS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=42 label="R4H_SSS">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
+[<Entry index=6 label="R2H_S">, <Entry index=188 label="O_rad_out">, <Entry index=235 label="Cs_H_out_H/(NonDeC/Cs)">]
 """,
 )
 
 entry(
     index = 237,
     label = "Cs_H_out_H/(NonDeC/Cs/Cs)",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4821,19 +3937,13 @@ entry(
 5    Cs u0 {3,S}
 6    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 238,
     label = "Cs_H_out_H/(NonDeC/Cs/Cs/Cs)",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4843,19 +3953,13 @@ entry(
 6    Cs u0 {3,S}
 7    Cs u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 239,
     label = "Cs_H_out_H/(NonDeC/O)",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4864,38 +3968,26 @@ entry(
 5    O  u0 {3,S} {6,S}
 6    H  u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 240,
     label = "Cs_H_out_H/NonDeO",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    O  u0 {1,S}
 4    H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 241,
     label = "Cs_H_out_OOH/H",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4903,57 +3995,48 @@ entry(
 4    O  u0 {1,S} {5,S}
 5    O  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 242,
     label = "Cs_H_out_H/NonDeS",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    S  u0 {1,S}
 4    H  u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 243,
     label = "Cs_H_out_H/OneDe",
-    group =
+    group = 
 """
 1 *2 Cs            u0 {2,S} {3,S} {4,S}
 2 *3 H             u0 {1,S}
 3    [Cd,Ct,CS,CO] u0 {1,S}
 4    H             u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.131499, 'd13': 0.055176, 'd23': -0.032992},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
 """,
 )
 
 entry(
     index = 244,
     label = "Cs_H_out_H/Ct",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4962,19 +4045,13 @@ entry(
 5    C  u0 {3,T} {6,S}
 6    R  u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 245,
     label = "Cs_H_out_H/CO",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4983,19 +4060,13 @@ entry(
 5    O  u0 {3,D}
 6    R  u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 246,
     label = "Cs_H_out_H/CS",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -5004,19 +4075,13 @@ entry(
 5    S  u0 {3,D}
 6    R  u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 247,
     label = "Cs_H_out_H/Cd",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -5027,95 +4092,107 @@ entry(
 7    R  u0 {5,S}
 8    R  u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.131499, 'd13': 0.055176, 'd23': -0.032992},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=247 label="Cs_H_out_H/Cd">]
 """,
 )
 
 entry(
     index = 248,
     label = "Cs_H_out_noH",
-    group =
+    group = 
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S}
 2 *3 H   u0 {1,S}
 3    R!H u0 {1,S}
 4    R!H u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.06634, 'd13': -0.002174, 'd23': -7.1e-05},
+        uncertainties = {'d12': 0.392727, 'd13': 0.099, 'd23': 0.074794},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 3 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
 """,
 )
 
 entry(
     index = 249,
     label = "Cs_H_out_NonDe",
-    group =
+    group = 
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
 3    [Cs,O] u0 {1,S}
 4    [Cs,O] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.06634, 'd13': -0.002174, 'd23': -7.1e-05},
+        uncertainties = {'d12': 0.392727, 'd13': 0.099, 'd23': 0.074794},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 3 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
 """,
 )
 
 entry(
     index = 250,
     label = "Cs_H_out_Cs2",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs u0 {1,S}
 4    Cs u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.06634, 'd13': -0.002174, 'd23': -7.1e-05},
+        uncertainties = {'d12': 0.392727, 'd13': 0.099, 'd23': 0.074794},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 3 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=250 label="Cs_H_out_Cs2">]
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
+[<Entry index=82 label="R5H_CCCC_O">, <Entry index=188 label="O_rad_out">, <Entry index=250 label="Cs_H_out_Cs2">]
 """,
 )
 
 entry(
     index = 251,
     label = "Cs_H_out_Cs2_cy3",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
 3    Cs u0 {1,S} {4,S}
 4    Cs u0 {1,S} {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 252,
     label = "Cs_H_out_Cs2_cy4",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -5123,19 +4200,13 @@ entry(
 4    Cs u0 {1,S} {5,S}
 5    Cs u0 {3,S} {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 253,
     label = "Cs_H_out_Cs2_cy5",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -5144,51 +4215,42 @@ entry(
 5    Cs u0 {3,S} {6,S}
 6    Cs u0 {4,S} {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.135882, 'd13': 0.005017, 'd23': 0.005687},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
+Fitted to 1 distances.
+[<Entry index=6 label="R2H_S">, <Entry index=200 label="C_rad_out_2H">, <Entry index=253 label="Cs_H_out_Cs2_cy5">]
 """,
 )
 
 entry(
     index = 254,
     label = "Cs_H_out_NDMustO",
-    group =
+    group = 
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
 3    O      u0 {1,S}
 4    [Cs,O] u0 {1,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 255,
     label = "Cs_H_out_OneDe",
     group = "OR{Cs_H_out_Cd, Cs_H_out_Ct, Cs_H_out_CO, Cs_H_out_CS}",
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 256,
     label = "Cs_H_out_Ct",
-    group =
+    group = 
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -5197,19 +4259,13 @@ entry(
 5    C      u0 {3,T} {6,S}
 6    R      u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 257,
     label = "Cs_H_out_CO",
-    group =
+    group = 
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -5218,19 +4274,13 @@ entry(
 5    O      u0 {3,D}
 6    R      u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 258,
     label = "Cs_H_out_CS",
-    group =
+    group = 
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -5239,19 +4289,13 @@ entry(
 5    S      u0 {3,D}
 6    R      u0 {3,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 259,
     label = "Cs_H_out_Cd",
-    group =
+    group = 
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -5262,32 +4306,20 @@ entry(
 7    R      u0 {5,S}
 8    R      u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 260,
     label = "Cs_H_out_TwoDe",
     group = "OR{Cs_H_out_CdCd, Cs_H_out_CdCt, Cs_H_out_CtCt}",
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 261,
     label = "Cs_H_out_CtCt",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -5298,19 +4330,13 @@ entry(
 7    C  u0 {4,T} {8,S}
 8    R  u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 262,
     label = "Cs_H_out_CdCt",
-    group =
+    group = 
 """
 1  *2 Cs u0 {2,S} {3,S} {4,S}
 2  *3 H  u0 {1,S}
@@ -5323,19 +4349,13 @@ entry(
 9     R  u0 {3,S}
 10    R  u0 {5,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 263,
     label = "Cs_H_out_CdCd",
-    group =
+    group = 
 """
 1  *2 Cs u0 {2,S} {3,S} {4,S}
 2  *3 H  u0 {1,S}
@@ -5350,19 +4370,13 @@ entry(
 11    R  u0 {5,S}
 12    R  u0 {7,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 264,
     label = "Cs_H_out_OOH",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -5370,19 +4384,13 @@ entry(
 4    O  u0 {1,S} {5,S}
 5    O  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 265,
     label = "Cs_H_out_OOH/Cs",
-    group =
+    group = 
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -5390,13 +4398,7 @@ entry(
 4    O  u0 {1,S} {5,S}
 5    O  u0 {4,S}
 """,
-    distances = DistanceData(distances = {}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-""",
+    distances = DistanceData(distances={}),
 )
 
 tree(
@@ -5667,3 +4669,4 @@ L1: XH_out
             L4: Cs_H_out_OOH/Cs
 """
 )
+
