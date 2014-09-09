@@ -2082,8 +2082,8 @@ entry(
     label = "CH_quartet",
     group = 
 """
-1 *1 C 3Q {2,S}
-2    H 0 {1,S}
+1 *1 C 3Q 0 {2,S}
+2    H 0 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3522,7 +3522,7 @@ entry(
     label = "C_quintet",
     group = 
 """
-1 *1 C 4V
+1 *1 C 4V 0
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3537,7 +3537,7 @@ entry(
     label = "C_triplet",
     group = 
 """
-1 *1 C 4T
+1 *1 C 4T 0
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3552,7 +3552,7 @@ entry(
     label = "N_atom_quartet",
     group = 
 """
-1 *1 N 3Q
+1 *1 N 3Q 1 
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3567,7 +3567,7 @@ entry(
     label = "N_atom_doublet",
     group = 
 """
-1 *1 N 3D
+1 *1 N 3D 1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3582,7 +3582,7 @@ entry(
     label = "CH_doublet",
     group = 
 """
-1 *1 C 3D {2,S}
+1 *1 C 3D 0 {2,S}
 2    H 0  {1,S}
 """,
     kinetics = None,
