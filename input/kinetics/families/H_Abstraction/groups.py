@@ -8421,7 +8421,7 @@ entry(
     label = "NH_singlet_H",
     group = 
 """
-1 *1 N 2S 1{2,S}
+1 *1 N 2S 1 {2,S}
 2 *2 H 0  {1,S}
 """,
     kinetics = None,
