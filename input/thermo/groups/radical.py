@@ -5522,10 +5522,10 @@ u"""
 entry(
     index = 106,
     label = "RJ2_triplet",
-    group = "
+    group =
 """
 1 * R 2T
-"""	
+""",
     thermo = u'CJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
@@ -5540,7 +5540,7 @@ entry(
     group =
 """
 1 * C 2T
-"""	
+""",
     thermo = u'CsJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
@@ -5569,7 +5569,7 @@ entry(
     label = "CH2_triplet",
     group = 
 """
-1 * C 2T {2,S} {3,S}
+1 * Cs 2T {2,S} {3,S}
 2   H 0  {1,S}
 3   H 0  {1,S}
 """,
@@ -5591,7 +5591,7 @@ entry(
     label = "CsJ2_P_triplet",
     group = 
 """
-1 * C 2T {2,S} {3,S}
+1 * Cs 2T {2,S} {3,S}
 2   C 0       {1,S}
 3   H 0       {1,S}
 """,
@@ -5608,7 +5608,7 @@ entry(
     label = "CsCsJ2_triplet",
     group = 
 """
-1 * C  2T {2,S} {3,S}
+1 * Cs  2T {2,S} {3,S}
 2   Cs 0       {1,S}
 3   H  0       {1,S}
 """,
@@ -5739,7 +5739,7 @@ Is this pointing toward the singlet a good idea? -nyee
 
 entry(
     index = 262,
-    label = "CdJ2-Sd_tiplet",
+    label = "CdJ2-Sd_triplet",
     group = 
 """
 1 * Cd 2T {2,D}
@@ -5837,7 +5837,7 @@ u"""
 entry(
     index = 3000,
     label = "RJ2_singlet",
-    group = OR{CJ2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet},
+    group = "OR{CJ2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet}",
     thermo = u'CJ2_singlet',
     shortDesc = u"""""",
     longDesc = 
@@ -5862,11 +5862,26 @@ u"""
 )
 
 entry(
+    index = 3006,
+    label = "CsJ2_singlet",
+    group =
+"""
+1 * Cs 2S 0 
+""",
+    thermo = u'CH2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 111,
     label = "CH2_singlet",
     group = 
 """
-1 * C 2S {2,S} {3,S}
+1 * Cs 2S 0 {2,S} {3,S}
 2   H 0  {1,S}
 3   H 0  {1,S}
 """,
@@ -5883,12 +5898,14 @@ u"""
 """,
 )
 
+
+
 entry(
     index = 3006,
     label = "CsJ2_P_singlet",
     group =
 """
-1 * C 2S {2,S} {3,S}
+1 * Cs 2S 0 {2,S} {3,S}
 2   C 0       {1,S}
 3   H 0       {1,S}
 """,
@@ -5905,7 +5922,7 @@ entry(
     label = "CsCsJ2_singlet",
     group =
 """
-1 * C  2S {2,S} {3,S}
+1 * Cs  2S 0 {2,S} {3,S}
 2   Cs 0       {1,S}
 3   H  0       {1,S}
 """,
@@ -5982,11 +5999,28 @@ entry(
     label = "CsJ2_S_singlet",
     group =
 """
-1 * C 2S {2,S} {3,S}
+1 * Cs 2S 0 {2,S} {3,S}
 2   C 0       {1,S}
 3   C 0       {1,S}
 """,
     thermo = u'CH2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+
+entry(
+    index = 3008,
+    label = "CdJ2_singlet",
+    group =
+"""
+1 * {Cd,CO} 2S
+""",
+    thermo = u'CCdJ2_singlet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -6009,21 +6043,6 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""BDE from ERWIN et al.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 3008,
-    label = "CdJ2_singlet",
-    group =
-"""
-1 * {Cd,CO} 2S
-""",
-    thermo = u'CCdJ2_singlet',
-    shortDesc = u"""""",
     longDesc = 
 u"""
 
@@ -6101,27 +6120,13 @@ This probably should be run as I doubt it's that close to the triplet. -nyee
 """,
 )
 
-entry(
-    index = 3004,
-    label = "NJ2L1_singlet",
-    group =
-"""
-1 * N 2S 1
-""",
-    thermo = u'CH2_singlet',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-This probably should be run as I doubt it's that close to the carbon -nyee
-""",
-)
 
 entry(
     index = 3004,
-    label = "NJ2L0_singlet",
+    label = "NJ2_singlet",
     group =
 """
-1 * N 2S 0
+1 * N 2S 
 """,
     thermo = u'CH2_singlet',
     shortDesc = u"""""",
@@ -6437,25 +6442,24 @@ L1: Radical
         L3: Oa_triplet
         L3: SiJ2_triplet
         L3: SJ2_triplet
-	L2: CO
-	L2: RJ2_singlet
-		L3: CJ2_singlet
-			L4: CsJ2_singlet
-				L5: CH2_singlet
-				L5: CsJ2_P_singlet
-					L6: CsCsJ2_singlet
-						L7: CCJ2_singlet
-					L6: PhCH_singlet
-					L6: AllylJ2_singlet
-			L4: CsJ2_S_singlet
-				L5: CCdJ2_singlet
+    L2: CO
+    L2: RJ2_singlet
+        L3: CJ2_singlet
+            L4: CsJ2_singlet
+                L5: CH2_singlet
+                L5: CsJ2_P_singlet
+                    L6: CsCsJ2_singlet
+                        L7: CCJ2_singlet
+                    L6: PhCH_singlet
+                    L6: AllylJ2_singlet
+                L5: CsJ2_S_singlet
+            L4:CdJ2_singlet
+                L4: CCdJ2_singlet
                 L5: CdJ2-Sd_singlet
-			L4: CdJ2_S_singlet
-		L3: Oa_singlet
-		L3: SiJ2_singlet
-		L3: SJ2_singlet
-		L3: NJ2L1_singlet
-		L3: NJ2L0_singlet
+        L3: Oa_singlet
+        L3: SiJ2_singlet
+        L3: SJ2_singlet
+        L3: NJ2_singlet
     L2: RJ3
         L3: CJ3
         L3: SiJ3
