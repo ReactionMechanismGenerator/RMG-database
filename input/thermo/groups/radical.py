@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 0,
     label = "Radical",
-    group = "OR{RJ, RJ2, RJ3}",
+    group = "OR{RJ, RJ2_singlet, RJ2_triplet, RJ3}",
     thermo = u'RJ',
     shortDesc = u"""""",
     longDesc = 
