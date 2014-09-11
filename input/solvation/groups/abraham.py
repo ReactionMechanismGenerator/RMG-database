@@ -411,8 +411,9 @@ entry(
         label = "N3sH2",
         group =
 """
-1 * Cb 0
-
+1 * N3s 0 {2,S} {3,S} 
+2   H   0 {1,S}
+3   H   0 {1,S}
 """,
 	solute = None,
 	shortDesc = u"""""",
