@@ -5521,12 +5521,12 @@ u"""
 
 entry(
     index = 106,
-    label = "RJ2",
-    group = 
+    label = "RJ2_triplet",
+    group = "
 """
-1 * R {2S,2T}
-""",
-    thermo = u'CJ2',
+1 * R 2T
+"""	
+    thermo = u'CJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -5536,12 +5536,12 @@ u"""
 
 entry(
     index = 107,
-    label = "CJ2",
-    group = 
+    label = "CJ2_triplet",
+    group =
 """
-1 * C {2S,2T}
-""",
-    thermo = u'CsJ2',
+1 * C 2T
+"""	
+    thermo = u'CsJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -5551,29 +5551,12 @@ u"""
 
 entry(
     index = 108,
-    label = "CsJ2",
+    label = "CsJ2_triplet",
     group = 
 """
-1 * Cs {2S,2T}
+1 * Cs 2T
 """,
-    thermo = u'CH2',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 109,
-    label = "CH2",
-    group = 
-"""
-1 * C {2S,2T} {2,S} {3,S}
-2   H 0       {1,S}
-3   H 0       {1,S}
-""",
-    thermo = u'CH2_t',
+    thermo = u'CH2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -5583,7 +5566,7 @@ u"""
 
 entry(
     index = 110,
-    label = "CH2_t",
+    label = "CH2_triplet",
     group = 
 """
 1 * C 2T {2,S} {3,S}
@@ -5604,37 +5587,15 @@ u"""
 )
 
 entry(
-    index = 111,
-    label = "CH2_s",
-    group = 
-"""
-1 * C 2S {2,S} {3,S}
-2   H 0  {1,S}
-3   H 0  {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.27,-1.08,-2.14,-3.23,-5.18,-6.74,-9.47],'cal/(mol*K)'),
-        H298 = (223.7,'kcal/mol'),
-        S298 = (-1.73,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""BDE JANOSCHEK & ROSSI. S and Cp from CH2_t.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 112,
-    label = "CsJ2_P",
+    label = "CsJ2_P_triplet",
     group = 
 """
-1 * C {2S,2T} {2,S} {3,S}
+1 * C 2T {2,S} {3,S}
 2   C 0       {1,S}
 3   H 0       {1,S}
 """,
-    thermo = u'CsCsJ2',
+    thermo = u'CsCsJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -5644,34 +5605,14 @@ u"""
 
 entry(
     index = 113,
-    label = "CsCsJ2",
+    label = "CsCsJ2_triplet",
     group = 
 """
-1 * C  {2S,2T} {2,S} {3,S}
+1 * C  2T {2,S} {3,S}
 2   Cs 0       {1,S}
 3   H  0       {1,S}
 """,
-    thermo = u'CCJ2',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 114,
-    label = "CCJ2",
-    group = 
-"""
-1 * C  {2S,2T} {2,S} {3,S}
-2   Cs 0       {1,S} {4,S} {5,S} {6,S}
-3   H  0       {1,S}
-4   H  0       {2,S}
-5   H  0       {2,S}
-6   H  0       {2,S}
-""",
-    thermo = u'CCJ2_t',
+    thermo = u'CCJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -5681,7 +5622,7 @@ u"""
 
 entry(
     index = 115,
-    label = "CCJ2_t",
+    label = "CCJ2_triplet",
     group = 
 """
 1 * C  2T {2,S} {3,S}
@@ -5705,45 +5646,8 @@ u"""
 )
 
 entry(
-    index = 116,
-    label = "CCJ2_s",
-    group = 
-"""
-1 * C  2S {2,S} {3,S}
-2   Cs 0  {1,S} {4,S} {5,S} {6,S}
-3   H  0  {1,S}
-4   H  0  {2,S}
-5   H  0  {2,S}
-6   H  0  {2,S}
-""",
-    thermo = u'CCJ2_t',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 117,
-    label = "PhCH",
-    group = 
-"""
-1 * C  {2S,2T} {2,S} {3,S}
-2   Cb 0       {1,S}
-3   H  0       {1,S}
-""",
-    thermo = u'PhCH_t',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 118,
-    label = "PhCH_t",
+    label = "PhCH_triplet",
     group = 
 """
 1 * C  2T {2,S} {3,S}
@@ -5764,47 +5668,8 @@ u"""
 )
 
 entry(
-    index = 119,
-    label = "PhCH_s",
-    group = 
-"""
-1 * C  2S {2,S} {3,S}
-2   Cb 0  {1,S}
-3   H  0  {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (205.8,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""BDE from NGUYEN et al.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 120,
-    label = "AllylJ2",
-    group = 
-"""
-1 * C  {2S,2T} {2,S} {3,S}
-2   Cd 0       {1,S}
-3   H  0       {1,S}
-""",
-    thermo = u'AllylJ2_t',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 121,
-    label = "AllylJ2_t",
+    label = "AllylJ2_triplet",
     group = 
 """
 1 * C  2T {2,S} {3,S}
@@ -5825,32 +5690,15 @@ u"""
 )
 
 entry(
-    index = 122,
-    label = "AllylJ2_s",
-    group = 
-"""
-1 * C  2S {2,S} {3,S}
-2   Cd 0  {1,S}
-3   H  0  {1,S}
-""",
-    thermo = u'AllylJ2_t',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 123,
-    label = "CsJ2_S",
+    label = "CsJ2_S_triplet",
     group = 
 """
-1 * C {2S,2T} {2,S} {3,S}
+1 * C 2T {2,S} {3,S}
 2   C 0       {1,S}
 3   C 0       {1,S}
 """,
-    thermo = u'CsJ2_P',
+    thermo = u'CsJ2_P_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -5860,28 +5708,12 @@ u"""
 
 entry(
     index = 124,
-    label = "CdJ2",
+    label = "CdJ2_triplet",
     group = 
 """
-1 * {Cd,CO} {2S,2T}
+1 * {Cd,CO} 2T
 """,
-    thermo = u'CCdJ2',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 125,
-    label = "CCdJ2",
-    group = 
-"""
-1 * C {2S,2T} {2,D}
-2   C 0       {1,D}
-""",
-    thermo = u'CCdJ2_s',
+    thermo = u'CCdJ2_triplet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -5891,102 +5723,23 @@ u"""
 
 entry(
     index = 126,
-    label = "CCdJ2_t",
+    label = "CCdJ2_triplet",
     group = 
 """
 1 * C 2T {2,D}
 2   C 0  {1,D}
 """,
-    thermo = u'CCdJ2_s',
+    thermo = u'CCdJ2_singlet',
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-""",
-)
-
-entry(
-    index = 127,
-    label = "CCdJ2_s",
-    group = 
-"""
-1 * C 2S {2,D}
-2   C 0  {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (190.7,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""BDE from ERWIN et al.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 128,
-    label = "CO",
-    group = 
-"""
-1 * C {2S,2T} {2,D}
-2   O 0       {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
-        H298 = (103.73,'kcal/mol'),
-        S298 = (-6.47,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "CdJ2-Sd",
-    group = 
-"""
-1 * Cd {2S,2T} {2,D}
-2   Sd 0       {1,D}
-""",
-    thermo = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 261,
-    label = "CdJ2-Sd_s",
-    group = 
-"""
-1 * Cd 2S {2,D}
-2   Sd 0  {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.97,-2.97,-3.85,-4.6,-5.82,-6.79,-8.44],'cal/(mol*K)'),
-        H298 = (143.53,'kcal/mol'),
-        S298 = (-6.23,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
-    longDesc = 
-u"""
-
+Is this pointing toward the singlet a good idea? -nyee
 """,
 )
 
 entry(
     index = 262,
-    label = "CdJ2-Sd_t",
+    label = "CdJ2-Sd_tiplet",
     group = 
 """
 1 * Cd 2T {2,D}
@@ -6006,23 +5759,8 @@ u"""
 )
 
 entry(
-    index = 129,
-    label = "Oa",
-    group = 
-"""
-1 * O {2S,2T}
-""",
-    thermo = u'Oa_t',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 130,
-    label = "Oa_t",
+    label = "Oa_triplet",
     group = 
 """
 1 * O 2T
@@ -6041,8 +5779,281 @@ u"""
 )
 
 entry(
+    index = 135,
+    label = "SiJ2_triplet",
+    group = 
+"""
+1 * Si 2T
+""",
+    thermo = u'CJ2_triplet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 263,
+    label = "SJ2_triplet",
+    group = 
+"""
+1 * S 2T 2
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.19,-3.52,-3.89,-4.3,-5.12,-5.86,-7.14],'cal/(mol*K)'),
+        H298 = (176.42,'kcal/mol'),
+        S298 = (-12.02,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 128,
+    label = "CO",
+    group = 
+"""
+1 * C 2S 0 {2,T}
+2   O 2S 0     {1,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.5,-2.38,-3.32,-4.24,-5.75,-6.88,-8.59],'cal/(mol*K)'),
+        H298 = (103.73,'kcal/mol'),
+        S298 = (-6.47,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3000,
+    label = "RJ2_singlet",
+    group = OR{CJ2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet},
+    thermo = u'CJ2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3001,
+    label = "CJ2_singlet",
+    group =
+"""
+1 * C 2S 0
+""",
+    thermo = u'CH2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 111,
+    label = "CH2_singlet",
+    group = 
+"""
+1 * C 2S {2,S} {3,S}
+2   H 0  {1,S}
+3   H 0  {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.27,-1.08,-2.14,-3.23,-5.18,-6.74,-9.47],'cal/(mol*K)'),
+        H298 = (223.7,'kcal/mol'),
+        S298 = (-1.73,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""BDE JANOSCHEK & ROSSI. S and Cp from CH2_t.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3006,
+    label = "CsJ2_P_singlet",
+    group =
+"""
+1 * C 2S {2,S} {3,S}
+2   C 0       {1,S}
+3   H 0       {1,S}
+""",
+    thermo = u'CsCsJ2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3007,
+    label = "CsCsJ2_singlet",
+    group =
+"""
+1 * C  2S {2,S} {3,S}
+2   Cs 0       {1,S}
+3   H  0       {1,S}
+""",
+    thermo = u'CCJ2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 116,
+    label = "CCJ2_singlet",
+    group = 
+"""
+1 * C  2S {2,S} {3,S}
+2   Cs 0  {1,S} {4,S} {5,S} {6,S}
+3   H  0  {1,S}
+4   H  0  {2,S}
+5   H  0  {2,S}
+6   H  0  {2,S}
+""",
+    thermo = u'CCJ2_t',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 119,
+    label = "PhCH_singlet",
+    group = 
+"""
+1 * C  2S {2,S} {3,S}
+2   Cb 0  {1,S}
+3   H  0  {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (205.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""BDE from NGUYEN et al.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+
+entry(
+    index = 122,
+    label = "AllylJ2_singlet",
+    group = 
+"""
+1 * C  2S {2,S} {3,S}
+2   Cd 0  {1,S}
+3   H  0  {1,S}
+""",
+    thermo = u'AllylJ2_triplet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This is pointing towards the triplet, which is probably not that similar -nyee
+""",
+)
+
+entry(
+    index = 3005,
+    label = "CsJ2_S_singlet",
+    group =
+"""
+1 * C 2S {2,S} {3,S}
+2   C 0       {1,S}
+3   C 0       {1,S}
+""",
+    thermo = u'CH2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 127,
+    label = "CCdJ2_singlet",
+    group = 
+"""
+1 * C 2S {2,D}
+2   C 0  {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (190.7,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""BDE from ERWIN et al.""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3008,
+    label = "CdJ2_singlet",
+    group =
+"""
+1 * {Cd,CO} 2S
+""",
+    thermo = u'CCdJ2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 261,
+    label = "CdJ2-Sd_singlet",
+    group = 
+"""
+1 * Cd 2S {2,D}
+2   Sd 0  {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.97,-2.97,-3.85,-4.6,-5.82,-6.79,-8.44],'cal/(mol*K)'),
+        H298 = (143.53,'kcal/mol'),
+        S298 = (-6.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 131,
-    label = "Oa_s",
+    label = "Oa_singlet",
     group = 
 """
 1 * O 2S
@@ -6061,13 +6072,13 @@ u"""
 )
 
 entry(
-    index = 135,
-    label = "SiJ2",
-    group = 
+    index = 3002,
+    label = "SiJ2_singlet",
+    group =
 """
-1 * Si {2S,2T}
+1 * Si 2S 0
 """,
-    thermo = u'CJ2',
+    thermo = u'CJ2_singlet',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -6076,22 +6087,47 @@ u"""
 )
 
 entry(
-    index = 263,
-    label = "SJ2",
-    group = 
+    index = 3003,
+    label = "SJ2_singlet",
+    group =
 """
-1 * S {2S,2T}
+1 * S 2S 2
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-3.19,-3.52,-3.89,-4.3,-5.12,-5.86,-7.14],'cal/(mol*K)'),
-        H298 = (176.42,'kcal/mol'),
-        S298 = (-12.02,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3 GA 1D-HR Aaron Vandeputte 2009""",
+    thermo = u'SJ2_triplet',
+    shortDesc = u"""""",
     longDesc = 
 u"""
+This probably should be run as I doubt it's that close to the triplet. -nyee
+""",
+)
 
+entry(
+    index = 3004,
+    label = "NJ2L1_singlet",
+    group =
+"""
+1 * N 2S 1
+""",
+    thermo = u'CH2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This probably should be run as I doubt it's that close to the carbon -nyee
+""",
+)
+
+entry(
+    index = 3004,
+    label = "NJ2L0_singlet",
+    group =
+"""
+1 * N 2S 0
+""",
+    thermo = u'CH2_singlet',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+This probably should be run as I doubt it's that close to the carbon -nyee
 """,
 )
 
@@ -6385,37 +6421,41 @@ L1: Radical
                 L5: SJ-Ss-H
                 L5: SJ-Ss-Cs
                 L5: SJ-Ss-Ss
-    L2: RJ2
-        L3: CJ2
-            L4: CsJ2
-                L5: CH2
-                    L6: CH2_t
-                    L6: CH2_s
-                L5: CsJ2_P
-                    L6: CsCsJ2
-                        L7: CCJ2
-                            L8: CCJ2_t
-                            L8: CCJ2_s
-                    L6: PhCH
-                        L7: PhCH_t
-                        L7: PhCH_s
-                    L6: AllylJ2
-                        L7: AllylJ2_t
-                        L7: AllylJ2_s
-                L5: CsJ2_S
-            L4: CdJ2
-                L5: CCdJ2
-                    L6: CCdJ2_t
-                    L6: CCdJ2_s
-                L5: CO
-                L5: CdJ2-Sd
-                    L6: CdJ2-Sd_s
-                    L6: CdJ2-Sd_t
-        L3: Oa
-            L4: Oa_t
-            L4: Oa_s
-        L3: SiJ2
-        L3: SJ2
+    L2: RJ2_triplet
+        L3: CJ2_triplet
+            L4: CsJ2_triplet
+                L5: CH2_triplet
+                L5: CsJ2_P_triplet
+                    L6: CsCsJ2_triplet
+                        L7: CCJ2_triplet
+                    L6: PhCH_triplet
+                    L6: AllylJ2_triplet
+                L5: CsJ2_S_triplet
+            L4: CdJ2_triplet
+                L5: CCdJ2_triplet
+                L5: CdJ2-Sd_triplet
+        L3: Oa_triplet
+        L3: SiJ2_triplet
+        L3: SJ2_triplet
+	L2: CO
+	L2: RJ2_singlet
+		L3: CJ2_singlet
+			L4: CsJ2_singlet
+				L5: CH2_singlet
+				L5: CsJ2_P_singlet
+					L6: CsCsJ2_singlet
+						L7: CCJ2_singlet
+					L6: PhCH_singlet
+					L6: AllylJ2_singlet
+			L4: CsJ2_S_singlet
+				L5: CCdJ2_singlet
+                L5: CdJ2-Sd_singlet
+			L4: CdJ2_S_singlet
+		L3: Oa_singlet
+		L3: SiJ2_singlet
+		L3: SJ2_singlet
+		L3: NJ2L1_singlet
+		L3: NJ2L0_singlet
     L2: RJ3
         L3: CJ3
         L3: SiJ3
