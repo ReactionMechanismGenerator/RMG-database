@@ -297,8 +297,8 @@ entry(
     label = "C(T)",
     molecule = 
 """
-multiplicity 5
-1 C u4 p0 c0 
+multiplicity 3
+1 C u2 p1 c0 
 """,
     thermo = NASA(
         polynomials = [
@@ -599,9 +599,8 @@ entry(
     label = "CO",
     molecule = 
 """
-multiplicity 3
-1 C u2 p0 c0  {2,D}
-2 O u0 p2 c0  {1,D}
+1 C u0 p1 c-1  {2,T}
+2 O u0 p1 c+1  {1,T}
 """,
     thermo = NASA(
         polynomials = [
