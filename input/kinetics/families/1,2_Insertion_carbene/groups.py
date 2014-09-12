@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "1,2_Insertion/groups"
+name = "1,2_Insertion_carbene/groups"
 shortDesc = u""
 longDesc = u"""
 Reaction site *1 should always be a singlet in this family.
 """
 
-template(reactants=["Y_birad", "RR'"], products=["R_CO_R'"], ownReverse=False)
+template(reactants=["carbene", "RR'"], products=["R_CO_R'"], ownReverse=False)
 
 reverse = "1,1_Elimination"
 
@@ -17,18 +17,6 @@ recipe(actions=[
     ['FORM_BOND', '*1', 'S', '*3'],
     ['LOSE_PAIR', '*1', '1'],
 ])
-
-entry(
-    index = 1,
-    label = "Y_birad",
-    group = "OR{carbene, CO_birad}",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 2,
@@ -43,29 +31,13 @@ u"""
 )
 
 entry(
-    index = 3,
-    label = "CO_birad",
-    group = 
-"""
-1 *1 C 2S {2,D}
-2    O 0       {1,D}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 4,
     label = "carbene",
     group = 
 """
 1 *1 Cs 2S 0 {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
+2    H 0 0 {1,S}
+3    H 0 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -1061,9 +1033,7 @@ u"""
 
 tree(
 """
-L1: Y_birad
-    L2: CO_birad
-    L2: carbene
+L1: carbene
 L1: RR'
     L2: R_H
         L3: H2

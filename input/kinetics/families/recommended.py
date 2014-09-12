@@ -6,7 +6,8 @@
 
 recommendedFamilies = {
 '1,2-Birad_to_alkene': True,
-'1,2_Insertion': True,
+'1,2_Insertion_carbene': True,
+'1,2_Insertion_CO':True,
 '1,2_shiftS': True,
 '1,3_Insertion_CO2': True, 
 '1,3_Insertion_ROR': True,
