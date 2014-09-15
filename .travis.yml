@@ -16,8 +16,10 @@ before_install:
   - git clone https://github.com/GreenGroup/PyDQED.git
 install:
   - cd $TRAVIS_BUILD_DIR
+  - git checkout new-style-adjacency-list
   - cd ..
   - cd RMG-Py
+  - git checkout new-style-adjacency-list
   - pip install numpy
   - pip install -r requirements.txt
   - cd ..
