@@ -2660,3 +2660,76 @@ u"""
 
 """
 )
+#Added by chatelak 09/16/14 to make RMGP-Py liquid reactor run
+entry(
+    index = 148,
+    label = "Ar",
+    molecule = '[Ar]',
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.00,
+        E = 0.00,
+        L = 0.000,
+        A = 0.00,
+        V = 0.00
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 149,
+    label = "Ne",
+    molecule = '[Ne]',
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.00,
+        E = 0.00,
+        L = 0.000,
+        A = 0.00,
+        V = 0.00
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 150,
+    label = "He",
+    molecule = '[He]',
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.00,
+        E = 0.00,
+        L = 0.000,
+        A = 0.00,
+        V = 0.00
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 151,
+    label = "N2",
+    molecule = 'N#N',
+    solute = SoluteData(
+        S = 0.0,
+        B = 0.00,
+        E = 0.00,
+        L = 0.000,
+        A = 0.00,
+        V = 0.00
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+"""
+)
