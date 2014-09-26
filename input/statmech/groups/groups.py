@@ -85,6 +85,70 @@ u"""
 
 entry(
     index = -1,
+    label = "R!Hx0",
+    group = 
+"""
+1 * R!H 0
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "R!Hx1",
+    group = 
+"""
+1 * R!H 1
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "R!Hx2",
+    group = 
+"""
+1 * R!H {2S,2T}
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "R!Hx3",
+    group = 
+"""
+1 * R!H {3D,3Q}
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
     label = "C_R0",
     group = 
 """
