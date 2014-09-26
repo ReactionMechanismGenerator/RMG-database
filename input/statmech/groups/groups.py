@@ -9,7 +9,71 @@ longDesc = u"""
 entry(
     index = -1,
     label = "R!H",
-    group = "OR{R!Hx0, R!Hx1, R!Hx2, R!Hx3}",
+    group = "OR{R!Hx0', 'R!Hx1', 'R!Hx2', 'R!Hx3'}",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "R!Hx0",
+    group = 
+"""
+1 * R!H 0
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "R!Hx1",
+    group = 
+"""
+1 * R!H 1
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "R!Hx2",
+    group = 
+"""
+1 * R!H {2S,2T}
+""",
+    statmech = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+
+""",
+)
+
+entry(
+    index = -1,
+    label = "R!Hx3",
+    group = 
+"""
+1 * R!H {3D,3Q}
+""",
     statmech = None,
     shortDesc = u"""""",
     longDesc = 
@@ -250,7 +314,7 @@ u"""
 entry(
     index = 11,
     label = "RdCsR2",
-    group = "OR{RdCsR2x000, RdCsR2x001, RdCsR2x011, RdCsR2x002, RdCsR2x012, RdCsR2x022, RdCsR2x100, RdCsR2x101, RdCsR2x111, RdCsR2x102, RdCsR2x112, RdCsR2x122, RdCsR2x200, RdCsR2x201, RdCsR2x211, RdCsR2x202, RdCsR2x212, RdCsR2x222}",
+    group = "OR{RdCsR2x000, RdCsR2x001, RdCsR2x011, RdCsR2x002, RdCsR2x012, RdCsR2x022, RdCsR2x100, RdCsR2x101, RdCsR2x111, RdCsR2x102, RdCsR2x112, RdCsR2x122, RdCsR2x200, RdCsR2x201, RdCsR2x211, RdCsR2x202, RdCsR2x212, RdCsR2x222, Ketone}",
     statmech = GroupFrequencies(
         frequencies = [
             (325, 375, 1),
@@ -650,70 +714,6 @@ entry(
     index = -1,
     label = "Oxy",
     group = "OR{Oxyx0, Oxyx1, Oxyx2}",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "R!Hx0",
-    group = 
-"""
-1 * R!H 0
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "R!Hx1",
-    group = 
-"""
-1 * R!H 1
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "R!Hx2",
-    group = 
-"""
-1 * R!H {2S,2T}
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "R!Hx3",
-    group = 
-"""
-1 * R!H {3D,3Q}
-""",
     statmech = None,
     shortDesc = u"""""",
     longDesc = 
@@ -4194,7 +4194,7 @@ u"""
 entry(
     index = 33,
     label = "Nitroso",
-    group = "OR{Nitrosox0, Nitrosox1, Nitrosox2}",
+    group = "OR{Nitrosox0, Nitrosox1, Nitrosox2, Nitrites}",
     statmech = GroupFrequencies(
         frequencies = [
             (1330, 1425, 1), # aliphatic compounds
@@ -4308,7 +4308,7 @@ u"""
 entry(
     index = 35,
     label = "Nitro",
-    group = "OR{Nitrox0, Nitrox1, Nitrox2}",
+    group = "OR{Nitrox0, Nitrox1, Nitrox2, Nitrates}",
     statmech = GroupFrequencies(
         frequencies = [
             (1545, 1555, 1), # asymmetric NO2 stretch, saturated primary and secondary aliphatic nitro compounds
@@ -4438,53 +4438,238 @@ u"""
 tree(
 """
 L1: R!H
-    L2: C_R0
-        L3: RsCH3
-        L3: RdCH2
-        L3: CtCH
-        L3: RsCH2sR
-        L3: Aldehyde
-        L3: Ketene
-        L3: Cumulene
-        L3: CdCHsR
-        L3: CtCsR
-        L3: RsCHsR2
-        L3: RdCsR2
-            L4: Ketone
-        L3: RsCsR3
-    L2: C_R1
-        L3: RsCH2r
-        L3: RdCHr
-        L3: CtCr
-        L3: RsCHrsR
-        L3: OdCrsR
-        L3: CdCrsR
-        L3: RsCrsR2
-    L2: C_R2
-        L3: RsCHrr
-        L3: RdCrr
-        L3: RsCrrsR
-    L2: O_R0
-        L3: Alcohol
-        L3: Ether
-        L3: ROOH
-        L3: ROOR
-        L3: Peroxy
-    L2: O_R1
-        L3: Oxy
-    L2: N_R0
-        L3: Amide_pri
-        L3: Amide_sec
-        L3: Amide_ter
-        L3: Imide
-        L3: Amine_pri
-        L3: Amine_sec
-        L3: Amine_ter
-        L3: Nitrile
-        L3: Nitroso
-            L4: Nitrites
-        L3: Nitro
-            L4: Nitrates
+	L2: R!Hx0
+		L3: C_R0
+			L4: RsCH3
+				L5: RsCH3x0
+				L5: RsCH3x1
+				L5: RsCH3x2
+			L4: RdCH2
+				L5: RdCH2x0
+				L5: RdCH2x1
+				L5: RdCH2x2
+				L4: CtCH
+				L5: CtCHx0
+				L5: CtCHx1
+			L4: RsCH2sR
+				L5: RsCH2sRx00
+				L5: RsCH2sRx11
+				L5: RsCH2sRx01
+				L5: RsCH2sRx02
+				L5: RsCH2sRx12
+				L5: RsCH2sRx22
+			L4: Aldehyde
+				L5: Aldehydex0
+				L5: Aldehydex1
+				L5: Aldehydex2
+			L4: Ketene
+				L5: Ketenex0
+				L5: Ketenex1
+				L5: Ketenex2
+			L4: Cumulene
+				L5: Cumulenex00
+				L5: Cumulenex01
+				L5: Cumulenex11
+				L5: Cumulenex02
+				L5: Cumulenex12
+				L5: Cumulenex22
+			L4: CdCHsR
+				L5: CdCHsRx00
+				L5: CdCHsRx01
+				L5: CdCHsRx10
+				L5: CdCHsRx11
+				L5: CdCHsRx02
+				L5: CdCHsRx20
+				L5: CdCHsRx12
+				L5: CdCHsRx21
+				L5: CdCHsRx22
+			L4: CtCsR
+				L5: CtCsRx00
+				L5: CtCsRx01
+				L5: CtCsRx10
+				L5: CtCsRx11
+				L5: CtCsRx02
+				L5: CtCsRx12
+			L4: RsCHsR2
+				L5: RsCHsR2x000
+				L5: RsCHsR2x111
+				L5: RsCHsR2x222
+				L5: RsCHsR2x001
+				L5: RsCHsR2x002
+				L5: RsCHsR2x110
+				L5: RsCHsR2x112
+				L5: RsCHsR2x220
+				L5: RsCHsR2x221
+				L5: RsCHsR2x012
+			L4: RdCsR2
+				L5: RdCsR2x000
+				L5: RdCsR2x001
+				L5: RdCsR2x011
+				L5: RdCsR2x002
+				L5: RdCsR2x012
+				L5: RdCsR2x022
+				L5: RdCsR2x100
+				L5: RdCsR2x101
+				L5: RdCsR2x111
+				L5: RdCsR2x102
+				L5: RdCsR2x112
+				L5: RdCsR2x122
+				L5: RdCsR2x200
+				L5: RdCsR2x201
+				L5: RdCsR2x211
+				L5: RdCsR2x202
+				L5: RdCsR2x212
+				L5: RdCsR2x222
+				L5: Ketone
+					L6: Ketonex00
+					L6: Ketonex01
+					L6: Ketonex11
+					L6: Ketonex02
+					L6: Ketonex12
+					L6: Ketonex22
+			L4: RsCsR3
+				L5: RsCsR3x0000
+				L5: RsCsR3x1111
+				L5: RsCsR3x2222
+				L5: RsCsR3x0001
+				L5: RsCsR3x0002
+				L5: RsCsR3x1110
+				L5: RsCsR3x1112
+				L5: RsCsR3x2220
+				L5: RsCsR3x2221
+				L5: RsCsR3x0011
+				L5: RsCsR3x0022
+				L5: RsCsR3x1122
+				L5: RsCsR3x0012
+				L5: RsCsR3x0112
+				L5: RsCsR3x0122
+		L3: O_R0
+			L4: Alcohol
+				L5: Alcoholx0
+				L5: Alcoholx1
+				L5: Alcoholx2
+			L4: Ether
+				L5: Etherx00
+				L5: Etherx01
+				L5: Etherx11
+				L5: Etherx02
+				L5: Etherx12
+				L5: Etherx22
+			L4: ROOH
+				L5: ROOHx0
+				L5: ROOHx1
+				L5: ROOHx2
+			L4: ROOR
+				L5: ROORx00
+				L5: ROORx01
+				L5: ROORx11
+				L5: ROORx02
+				L5: ROORx12
+				L5: ROORx22
+			L4: Peroxy
+				L5: Peroxyx0
+				L5: Peroxyx1
+				L5: Peroxyx2
+		L3: N_R0
+			L4: Amide_pri
+				L5: Amide_prix0
+			L4: Amide_sec
+				L5: Amide_secx0
+			L4: Amide_ter
+				L5: Amide_terx0
+			L4: Imide
+				L5: Imidex0
+			L4: Amine_pri
+				L5: Amine_prix0
+			L4: Amine_sec
+				L5: Amine_secx0
+			L4: Amine_ter
+				L5: Amine_terx0
+			L4: Nitrile
+				L5: Nitrilex0
+				L5: Nitrilex1
+				L5: Nitrilex2
+		L4: Nitroso
+				L5: Nitrosox0
+				L5: Nitrosox1
+				L5: Nitrosox2
+				L5: Nitrox0
+				L5: Nitrox1
+				L5: Nitrox2
+				L5: Nitrites
+					L6: Nitritesx0
+			L4: Nitro
+				L5: Nitrates
+					L6: Nitratesx0
+	L2: R!Hx1
+		L3: C_R1
+			L4: RsCH2r
+				L5: RsCH2rx0
+				L5: RsCH2rx1
+				L5: RsCH2rx2
+			L4: RdCHr
+				L5: RdCHrx0
+				L5: RdCHrx1
+				L5: RdCHrx2
+			L4: CtCr
+				L5: CtCrx0
+				L5: CtCrx1
+			L4: RsCHrsR
+				L5: RsCHrsRx00
+				L5: RsCHrsRx01
+				L5: RsCHrsRx11
+				L5: RsCHrsRx02
+				L5: RsCHrsRx12
+				L5: RsCHrsRx22
+			L4: OdCrsR
+				L5: OdCrsRx0
+				L5: OdCrsRx1
+				L5: OdCrsRx2
+			L4: CdCrsR
+				L5: CdCrsRx00
+				L5: CdCrsRx01
+				L5: CdCrsRx10
+				L5: CdCrsRx11
+				L5: CdCrsRx02
+				L5: CdCrsRx20
+				L5: CdCrsRx12
+				L5: CdCrsRx21
+				L5: CdCrsRx22
+			L4: RsCrsR2
+				L5: RsCrsR2x000
+				L5: RsCrsR2x111
+				L5: RsCrsR2x222
+				L5: RsCrsR2x001
+				L5: RsCrsR2x002
+				L5: RsCrsR2x110
+				L5: RsCrsR2x112
+				L5: RsCrsR2x220
+				L5: RsCrsR2x221
+				L5: RsCrsR2x012
+		L3: O_R1
+			L4: Oxy
+				L5: Oxyx0
+				L5: Oxyx1
+				L5: Oxyx2
+	L2: R!Hx2
+		L3: C_R2
+			L4: RsCHrr
+				L5: RsCHrrx0
+				L5: RsCHrrx1
+				L5: RsCHrrx2
+			L4: RdCrr
+				L5: RdCrrx0
+				L5: RdCrrx1
+				L5: RdCrrx2
+			L4: RsCrrsR
+				L5: RsCrrsRx00
+				L5: RsCrrsRx01
+				L5: RsCrrsRx11
+				L5: RsCrrsRx02
+				L5: RsCrrsRx12
+				L5: RsCrrsRx22
+	L2: R!Hx3
+
 """
 )
 
