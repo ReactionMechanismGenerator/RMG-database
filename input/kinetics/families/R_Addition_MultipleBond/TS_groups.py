@@ -9,2591 +9,2484 @@ longDesc = u"""
 
 entry(
     index = 1,
-    label = "XZ",
-    group = "OR{CZ, SZ, OCO, OCddO, OSi, OSiddO, Od_N, N_R}",
+    label = "R_R",
+    group = "OR{Cd_R, Ct_R, Od_R, Sd_R, Nd_R, Nt_R}",
     distances = DistanceData(
-        distances = {'d12': 1.357076, 'd13': 2.240507, 'd23': 2.933188},
-        uncertainties = {'d12': 0.010297, 'd13': 0.033216, 'd23': 0.049111},
+        distances = {'d12': 1.32193, 'd13': 2.22095, 'd23': 2.90173},
+        uncertainties = {'d12': 0.026508, 'd13': 0.092474, 'd23': 0.113971},
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 13 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=94 label="CS/H2_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=87 label="CO/H2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=90 label="CO/NonDe2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=160 label="H_rad">]
-[<Entry index=119 label="OCO">, <Entry index=192 label="C_methyl">]
-[<Entry index=88 label="CO/H/NonDe_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
+Fitted to 53 distances.
+[<Entry index=129 label="Cds-HH_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=12 label="CO/H/De_O">, <Entry index=915 label="HJ">]
+[<Entry index=131 label="Cds-CsCs_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=5 label="CO2">, <Entry index=915 label="HJ">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=841 label="Ct-H_Ct-Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=876 label="Od_Cd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=915 label="HJ">]
 """,
 )
 
 entry(
     index = 2,
-    label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Y_rad, Y_birad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_1centerquadrad}",
+    label = "YJ",
+    group = "OR{HJ, CJ, OJ, SJ, NJ, Y_1centerbirad, Y_1centertrirad, Y_1centerquadrad}",
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3,
-    label = "CZ",
+    label = "Cd_R",
     group = 
 """
-1 *1 {Cd,Cdd,Ct,CO,CS}                0 {2,{D,T}}
-2 *2 {Cd,Cdd,Ct,Od,Sd,Sid,Sidd,Sit,N} 0 {1,{D,T}}
+1 *1 C u0 {2,D}
+2 *2 R u0 {1,D}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.02771, 'd13': 0.098786, 'd23': 0.047819},
-        uncertainties = {'d12': 0.008175, 'd13': 0.01813, 'd23': 0.050169},
+        distances = {'d12': 0.011495, 'd13': 0.021282, 'd23': 0.000956},
+        uncertainties = {'d12': 0.027937, 'd13': 0.097595, 'd23': 0.121706},
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 10 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=94 label="CS/H2_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=87 label="CO/H2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=90 label="CO/NonDe2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=160 label="H_rad">]
-[<Entry index=88 label="CO/H/NonDe_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
+Fitted to 46 distances.
+[<Entry index=129 label="Cds-HH_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=12 label="CO/H/De_O">, <Entry index=915 label="HJ">]
+[<Entry index=131 label="Cds-CsCs_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=5 label="CO2">, <Entry index=915 label="HJ">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=915 label="HJ">]
 """,
 )
 
 entry(
     index = 4,
-    label = "Cd_Cd",
+    label = "Cdd_Od",
     group = 
 """
-1 *1 Cd 0 {2,D}
-2 *2 Cd 0 {1,D}
+1 *1 Cdd u0 {2,D}
+2 *2 Od  u0 {1,D}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.00571, 'd13': 0.081955, 'd23': 0.046828},
-        uncertainties = {'d12': 0.014532, 'd13': 0.033233, 'd23': 0.09233},
+        distances = {'d12': -0.109223, 'd13': -0.513421, 'd23': -0.627354},
+        uncertainties = {},
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 5 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=160 label="H_rad">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
+Fitted to 1 distances.
+[<Entry index=5 label="CO2">, <Entry index=915 label="HJ">]
 """,
 )
 
 entry(
     index = 5,
-    label = "Cd/H2",
+    label = "CO2",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Cd 0 {1,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Od  u0 {1,D}
+3    Od  u0 {1,D}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.003461, 'd13': 0.085379, 'd23': 0.073709},
-        uncertainties = {'d12': 0.019094, 'd13': 0.043947, 'd23': 0.122196},
+        distances = {'d12': -0.109223, 'd13': -0.513421, 'd23': -0.627354},
+        uncertainties = {},
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 4 distances.
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=160 label="H_rad">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
+Fitted to 1 distances.
+[<Entry index=5 label="CO2">, <Entry index=915 label="HJ">]
 """,
 )
 
 entry(
     index = 6,
-    label = "Cd/H2_Cd/H2",
+    label = "Ck_O",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Cd 0 {1,D} {5,S} {6,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Od  u0 {1,D}
+3    C   u0 {1,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.002877, 'd13': 0.084394, 'd23': 0.104414},
-        uncertainties = {'d12': 0.130082, 'd13': 0.303377, 'd23': 0.844909},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 2 distances.
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=160 label="H_rad">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 7,
-    label = "Cd/H2_Cd/H/NonDe",
+    label = "C=S_O",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    H        0 {1,S}
-4    H        0 {1,S}
-5    H        0 {2,S}
-6    {Cs,O,S} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Od  u0 {1,D}
+3    S   u0 {1,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.003872, 'd13': 0.103372, 'd23': 0.147656},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 8,
-    label = "Cd/H2_Cd/H/OneDe",
+    label = "CO_O",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    H                0 {1,S}
-5    H                0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 CO u0 {2,D}
+2 *2 Od u0 {1,D}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.074902, 'd13': -0.078079, 'd23': -0.220775},
+        uncertainties = {'d12': 0.038581, 'd13': 0.092538, 'd23': 0.130333},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 17 distances.
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=12 label="CO/H/De_O">, <Entry index=915 label="HJ">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
     index = 9,
-    label = "Cd/H2_Cd/NonDe2",
+    label = "CO/H2_O",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    H        0 {1,S}
-4    H        0 {1,S}
-5    {Cs,O,S} 0 {2,S}
-6    {Cs,O,S} 0 {2,S}
+1 *1 CO u0 {2,D} {3,S} {4,S}
+2 *2 Od u0 {1,D}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.014142, 'd13': 0.069112, 'd23': -0.053974},
-        uncertainties = {},
+        distances = {'d12': -0.083278, 'd13': -0.005745, 'd23': -0.10516},
+        uncertainties = {'d12': 0.056396, 'd13': 0.07875, 'd23': 0.16158},
     ),
-    reference = None,
-    referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to 1 distances.
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
+Fitted to 5 distances.
+[<Entry index=9 label="CO/H2_O">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=1016 label="CdsJ-H">]
 """,
 )
 
 entry(
     index = 10,
-    label = "Cd/H2_Cd/NonDe/OneDe",
+    label = "CO/H/Nd_O",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    H                0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 CO     u0 {2,D} {3,S} {4,S}
+2 *2 Od     u0 {1,D}
+3    H      u0 {1,S}
+4    [Cs,O] u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.074305, 'd13': -0.080582, 'd23': -0.237703},
+        uncertainties = {'d12': 0.045015, 'd13': 0.041221, 'd23': 0.078693},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 7 distances.
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
     index = 11,
-    label = "Cd/H2_Cd/TwoDe",
+    label = "CO/H/Cs",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    H                0 {1,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 CO u0 {2,D} {3,S} {4,S}
+2 *2 Od u0 {1,D}
+3    H  u0 {1,S}
+4    Cs u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.074305, 'd13': -0.080582, 'd23': -0.237703},
+        uncertainties = {'d12': 0.045015, 'd13': 0.041221, 'd23': 0.078693},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 7 distances.
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
     index = 12,
-    label = "Cd/H/NonDe",
+    label = "CO/H/De_O",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
+1 *1 CO                    u0 {2,D} {3,S} {4,S}
+2 *2 Od                    u0 {1,D}
+3    H                     u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.06487, 'd13': -0.28074, 'd23': -0.377939},
+        uncertainties = {'d12': 0.437142, 'd13': 2.02373, 'd23': 2.54547},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=12 label="CO/H/De_O">, <Entry index=915 label="HJ">]
 """,
 )
 
 entry(
     index = 13,
-    label = "Cd/H/NonDe_Cd/H2",
+    label = "CO/Nd2_O",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    H        0 {2,S}
-6    H        0 {2,S}
+1 *1 CO     u0 {2,D} {3,S} {4,S}
+2 *2 Od     u0 {1,D}
+3    [Cs,O] u0 {1,S}
+4    [Cs,O] u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.065679, 'd13': -0.125239, 'd23': -0.321579},
+        uncertainties = {'d12': 0.063436, 'd13': 0.043057, 'd23': 0.073966},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
     index = 14,
-    label = "Cd/H/NonDe_Cd/H/NonDe",
+    label = "CO/Nd/De_O",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    H        0 {2,S}
-6    {Cs,O,S} 0 {2,S}
+1 *1 CO                    u0 {2,D} {3,S} {4,S}
+2 *2 Od                    u0 {1,D}
+3    [Cs,O]                u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 15,
-    label = "Cd/H/Os_Cd/H/Cs",
+    label = "CO/De2_O",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Cd 0 {1,D} {5,S} {6,S}
-3    H  0 {1,S}
-4    O  0 {1,S}
-5    H  0 {2,S}
-6    Cs 0 {2,S}
+1 *1 CO                    u0 {2,D} {3,S} {4,S}
+2 *2 Od                    u0 {1,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 16,
-    label = "Cd/H/NonDe_Cd/H/OneDe",
+    label = "Cdd_Sd",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-5    H                0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Sd  u0 {1,D}
+3    R   u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 17,
-    label = "Cd/H/NonDe_Cd/NonDe2",
+    label = "Cdd-Sd_Sd",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    {Cs,O,S} 0 {2,S}
-6    {Cs,O,S} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Sd  u0 {1,D}
+3    Sd  u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 18,
-    label = "Cd/H/NonDe_Cd/NonDe/OneDe",
+    label = "Cds_Cdd",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0       {2,D} {3,S} {4,S}
+2 *2 Cdd u0       {1,D}
+3    R   u[0,1,2] {1,S}
+4    R   u[0,1,2] {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 19,
-    label = "Cd/H/NonDe_Cd/TwoDe",
+    label = "Cds_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0       {2,D} {3,S} {4,S}
+2 *2 Cdd u0       {1,D} {5,D}
+3    R   u[0,1,2] {1,S}
+4    R   u[0,1,2] {1,S}
+5    C   u0       {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 20,
-    label = "Cd/H/OneDe",
+    label = "Cds-HH_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 21,
-    label = "Cd/H/OneDe_Cd/H2",
+    label = "Cds-CsH_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    H                0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    Cs  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 22,
-    label = "Cd/H/OneDe_Cd/H/NonDe",
+    label = "Cds-CsCs_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    {Cs,O,S}         0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cs  u0 {1,S}
+4    Cs  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 23,
-    label = "Cd/H/OneDe_Cd/H/OneDe",
+    label = "Cds-OneDeH_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cdd                   u0 {1,D} {5,D}
+3    H                     u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    C                     u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 24,
-    label = "Cd/H/OneDe_Cd/NonDe2",
+    label = "Cds-CtH_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cs,O,S}         0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    Ct  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 25,
-    label = "Cd/H/OneDe_Cd/NonDe/OneDe",
+    label = "Cds-CbH_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    Cb  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 26,
-    label = "Cd/H/OneDe_Cd/TwoDe",
+    label = "Cds-COH_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    CO  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 27,
-    label = "Cd/NonDe2",
+    label = "Cds-CdH_Ca",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    C   u0 {4,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.014142, 'd13': 0.069112, 'd23': -0.053974},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 28,
-    label = "Cd/NonDe2_Cd/H2",
+    label = "Cds-C=SH_Ca",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    H        0 {2,S}
-6    H        0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    Sd  u0 {4,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.014142, 'd13': 0.069112, 'd23': -0.053974},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 29,
-    label = "Cd/NonDe2_Cd/H/NonDe",
+    label = "Cds-OneDeCs_Ca",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    H        0 {2,S}
-6    {Cs,O,S} 0 {2,S}
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cdd                   u0 {1,D} {5,D}
+3    Cs                    u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    C                     u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 30,
-    label = "Cd/NonDe2_Cd/H/OneDe",
+    label = "Cds-CtCs_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-5    H                0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cs  u0 {1,S}
+4    Ct  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 31,
-    label = "Cd/NonDe2_Cd/NonDe2",
+    label = "Cds-CbCs_Ca",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cd       0 {1,D} {5,S} {6,S}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    {Cs,O,S} 0 {2,S}
-6    {Cs,O,S} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cs  u0 {1,S}
+4    Cb  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 32,
-    label = "Cd/NonDe2_Cd/NonDe/OneDe",
+    label = "Cds-COCs_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cs  u0 {1,S}
+4    CO  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 33,
-    label = "Cd/NonDe2_Cd/TwoDe",
+    label = "Cds-CdCs_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cs  u0 {1,S}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 34,
-    label = "Cd/NonDe/OneDe",
+    label = "Cds-C=SCs_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cs  u0 {1,S}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 35,
-    label = "Cd/NonDe/OneDe_Cd/H2",
+    label = "Cds-TwoDe_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    H                0 {2,S}
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cdd                   u0 {1,D} {5,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    C                     u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 36,
-    label = "Cd/NonDe/OneDe_Cd/H/NonDe",
+    label = "Cds-CtCt_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    {Cs,O,S}         0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Ct  u0 {1,S}
+4    Ct  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 37,
-    label = "Cd/NonDe/OneDe_Cd/H/OneDe",
+    label = "Cds-CtCb_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Ct  u0 {1,S}
+4    Cb  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 38,
-    label = "Cd/NonDe/OneDe_Cd/NonDe2",
+    label = "Cds-CtCO_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cs,O,S}         0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Ct  u0 {1,S}
+4    CO  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 39,
-    label = "Cd/NonDe/OneDe_Cd/NonDe/OneDe",
+    label = "Cds-CbCb_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cb  u0 {1,S}
+4    Cb  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 40,
-    label = "Cd/NonDe/OneDe_Cd/TwoDe",
+    label = "Cds-CbCO_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cb  u0 {1,S}
+4    CO  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 41,
-    label = "Cd/TwoDe",
+    label = "Cds-COCO_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    CO  u0 {1,S}
+4    CO  u0 {1,S}
+5    C   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 42,
-    label = "Cd/TwoDe_Cd/H2",
+    label = "Cds-CdCt_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    H                0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cd  u0 {1,S} {6,D}
+4    Ct  u0 {1,S}
+5    C   u0 {2,D}
+6    C   u0 {3,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 43,
-    label = "Cd/TwoDe_Cd/H/NonDe",
+    label = "Cds-CdCb_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    {Cs,O,S}         0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cd  u0 {1,S} {6,D}
+4    Cb  u0 {1,S}
+5    C   u0 {2,D}
+6    C   u0 {3,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 44,
-    label = "Cd/TwoDe_Cd/H/OneDe",
+    label = "Cds-CdCO_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    H                0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cd  u0 {1,S} {6,D}
+4    CO  u0 {1,S}
+5    C   u0 {2,D}
+6    C   u0 {3,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 45,
-    label = "Cd/TwoDe_Cd/NonDe2",
+    label = "Cds-CtC=S_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cs,O,S}         0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Ct  u0 {1,S}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 46,
-    label = "Cd/TwoDe_Cd/NonDe/OneDe",
+    label = "Cds-CbC=S_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cs,O,S}         0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cb  u0 {1,S}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 47,
-    label = "Cd/TwoDe_Cd/TwoDe",
+    label = "Cds-COC=S_Ca",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cd               0 {1,D} {5,S} {6,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-6    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    CO  u0 {1,S}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 48,
-    label = "Cd_Cdd",
+    label = "Cds-CdCd_Ca",
     group = 
 """
-1 *1 Cd  0 {2,D}
-2 *2 Cdd 0 {1,D}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cd  u0 {1,S} {6,D}
+4    Cd  u0 {1,S} {7,D}
+5    C   u0 {2,D}
+6    C   u0 {3,D}
+7    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 49,
-    label = "Cd_Ca",
+    label = "Cds-CdC=S_Ca",
     group = 
 """
-1 *1 Cd  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    C   0 {2,D}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cd  u0 {1,S} {7,D}
+4    Cd  u0 {1,S} {6,D}
+5    C   u0 {2,D}
+6    Sd  u0 {4,D}
+7    C   u0 {3,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 50,
-    label = "Cd/H2_Ca",
+    label = "Cds-C=SC=S_Ca",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cdd 0 {1,D} {5,D}
-3    H   0 {1,S}
-4    H   0 {1,S}
-5    C   0 {2,D}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cd  u0 {1,S} {6,D}
+4    Cd  u0 {1,S} {7,D}
+5    C   u0 {2,D}
+6    Sd  u0 {3,D}
+7    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 51,
-    label = "Cd/H/NonDe_Ca",
+    label = "Cds_Ck",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cdd      0 {1,D} {5,D}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    C        0 {2,D}
+1 *1 Cd  u0       {2,D} {3,S} {4,S}
+2 *2 Cdd u0       {1,D} {5,D}
+3    R   u[0,1,2] {1,S}
+4    R   u[0,1,2] {1,S}
+5    Od  u0       {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 52,
-    label = "Cd/H/OneDe_Ca",
+    label = "Cds-HH_Ck",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cdd              0 {1,D} {5,D}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    C                0 {2,D}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
+5    Od  u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 53,
-    label = "Cd/NonDe2_Ca",
+    label = "Cds-CsH_Ck",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cdd      0 {1,D} {5,D}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    C        0 {2,D}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    Cs  u0 {1,S}
+5    Od  u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 54,
-    label = "Cd/NonDe/OneDe_Ca",
+    label = "Cds-CsCs_Ck",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cdd              0 {1,D} {5,D}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    C                0 {2,D}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    Cs  u0 {1,S}
+4    Cs  u0 {1,S}
+5    Od  u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 55,
-    label = "Cd/TwoDe_Ca",
+    label = "Cds-OneDeH_Ck",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cdd              0 {1,D} {5,D}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    C                0 {2,D}
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cdd                   u0 {1,D} {5,D}
+3    H                     u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    Od                    u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 56,
-    label = "Cd_Ck",
+    label = "Cds-OneDeCs_Ck",
     group = 
 """
-1 *1 Cd  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    Od  0 {2,D}
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cdd                   u0 {1,D} {5,D}
+3    Cs                    u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    Od                    u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 57,
-    label = "Cd/H2_Ck",
+    label = "Cds-TwoDe_Ck",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cdd 0 {1,D} {5,D}
-3    H   0 {1,S}
-4    H   0 {1,S}
-5    Od  0 {2,D}
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cdd                   u0 {1,D} {5,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    Od                    u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 58,
-    label = "Cd/H/NonDe_Ck",
+    label = "Cdd_Cds",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cdd      0 {1,D} {5,D}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    Od       0 {2,D}
+1 *1 Cdd u0 {2,D}
+2 *2 Cd  u0 {1,D} {3,S} {4,S}
+3    R   u0 {2,S}
+4    R   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 59,
-    label = "Cd/H/OneDe_Ck",
+    label = "Ca_Cds",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cdd              0 {1,D} {5,D}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    Od               0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    R   u0 {2,S}
+5    R   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 60,
-    label = "Cd/NonDe2_Ck",
+    label = "Ca_Cds-HH",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Cdd      0 {1,D} {5,D}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-5    Od       0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    H   u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 61,
-    label = "Cd/NonDe/OneDe_Ck",
+    label = "Ca_Cds-CsH",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cdd              0 {1,D} {5,D}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    Od               0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cs  u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 62,
-    label = "Cd/TwoDe_Ck",
+    label = "Ca_Cds-CsCs",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Cdd              0 {1,D} {5,D}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-5    Od               0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cs  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 63,
-    label = "Cdd_Cd",
+    label = "Ca_Cds-OneDeH",
     group = 
 """
-1 *1 Cdd 0 {2,D}
-2 *2 Cd  0 {1,D}
+1 *1 Cdd                   u0 {2,D} {3,D}
+2 *2 Cd                    u0 {1,D} {4,S} {5,S}
+3    C                     u0 {1,D}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+5    H                     u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 64,
-    label = "Ca_Cd",
+    label = "Ca_Cds-CtH",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cd  0 {1,D}
-3    C   0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Ct  u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 65,
-    label = "Ca_Cd/H2",
+    label = "Ca_Cds-CbH",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cd  0 {1,D} {4,S} {5,S}
-3    C   0 {1,D}
-4    H   0 {2,S}
-5    H   0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cb  u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 66,
-    label = "Ca_Cd/H/NonDe",
+    label = "Ca_Cds-COH",
     group = 
 """
-1 *1 Cdd      0 {2,D} {3,D}
-2 *2 Cd       0 {1,D} {4,S} {5,S}
-3    C        0 {1,D}
-4    H        0 {2,S}
-5    {Cs,O,S} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    CO  u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 67,
-    label = "Ca_Cd/H/OneDe",
+    label = "Ca_Cds-CdH",
     group = 
 """
-1 *1 Cdd              0 {2,D} {3,D}
-2 *2 Cd               0 {1,D} {4,S} {5,S}
-3    C                0 {1,D}
-4    H                0 {2,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    H   u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 68,
-    label = "Ca_Cd/NonDe2",
+    label = "Ca_Cds-C=SH",
     group = 
 """
-1 *1 Cdd      0 {2,D} {3,D}
-2 *2 Cd       0 {1,D} {4,S} {5,S}
-3    C        0 {1,D}
-4    {Cs,O,S} 0 {2,S}
-5    {Cs,O,S} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    H   u0 {2,S}
+6    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 69,
-    label = "Ca_Cd/NonDe/OneDe",
+    label = "Ca_Cds-OneDeCs",
     group = 
 """
-1 *1 Cdd              0 {2,D} {3,D}
-2 *2 Cd               0 {1,D} {4,S} {5,S}
-3    C                0 {1,D}
-4    {Cs,O,S}         0 {2,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd                   u0 {2,D} {3,D}
+2 *2 Cd                    u0 {1,D} {4,S} {5,S}
+3    C                     u0 {1,D}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+5    Cs                    u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 70,
-    label = "Ca_Cd/TwoDe",
+    label = "Ca_Cds-CtCs",
     group = 
 """
-1 *1 Cdd              0 {2,D} {3,D}
-2 *2 Cd               0 {1,D} {4,S} {5,S}
-3    C                0 {1,D}
-4    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Ct  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 71,
-    label = "Ck_Cd",
+    label = "Ca_Cds-CbCs",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cd  0 {1,D}
-3    Od  0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cb  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 72,
-    label = "Ck_Cd/H2",
+    label = "Ca_Cds-COCs",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cd  0 {1,D} {4,S} {5,S}
-3    Od  0 {1,D}
-4    H   0 {2,S}
-5    H   0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    CO  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 73,
-    label = "Ck_Cd/H/NonDe",
+    label = "Ca_Cds-CdCs",
     group = 
 """
-1 *1 Cdd      0 {2,D} {3,D}
-2 *2 Cd       0 {1,D} {4,S} {5,S}
-3    Od       0 {1,D}
-4    H        0 {2,S}
-5    {Cs,O,S} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cs  u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 74,
-    label = "Ck_Cd/H/OneDe",
+    label = "Ca_Cds-C=SCs",
     group = 
 """
-1 *1 Cdd              0 {2,D} {3,D}
-2 *2 Cd               0 {1,D} {4,S} {5,S}
-3    Od               0 {1,D}
-4    H                0 {2,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cs  u0 {2,S}
+6    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 75,
-    label = "Ck_Cd/NonDe2",
+    label = "Ca_Cds-TwoDe",
     group = 
 """
-1 *1 Cdd      0 {2,D} {3,D}
-2 *2 Cd       0 {1,D} {4,S} {5,S}
-3    Od       0 {1,D}
-4    {Cs,O,S} 0 {2,S}
-5    {Cs,O,S} 0 {2,S}
+1 *1 Cdd                   u0 {2,D} {3,D}
+2 *2 Cd                    u0 {1,D} {4,S} {5,S}
+3    C                     u0 {1,D}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 76,
-    label = "Ck_Cd/NonDe/OneDe",
+    label = "Ca_Cds-CtCt",
     group = 
 """
-1 *1 Cdd              0 {2,D} {3,D}
-2 *2 Cd               0 {1,D} {4,S} {5,S}
-3    Od               0 {1,D}
-4    {Cs,O,S}         0 {2,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Ct  u0 {2,S}
+5    Ct  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 77,
-    label = "Ck_Cd/TwoDe",
+    label = "Ca_Cds-CtCb",
     group = 
 """
-1 *1 Cdd              0 {2,D} {3,D}
-2 *2 Cd               0 {1,D} {4,S} {5,S}
-3    Od               0 {1,D}
-4    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-5    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Ct  u0 {2,S}
+5    Cb  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 78,
-    label = "Cdd_Cdd",
+    label = "Ca_Cds-CtCO",
     group = 
 """
-1 *1 Cdd 0 {2,D}
-2 *2 Cdd 0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Ct  u0 {2,S}
+5    CO  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 79,
-    label = "Ca_Ca",
+    label = "Ca_Cds-CbCb",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cdd 0 {1,D} {4,D}
-3    C   0 {1,D}
-4    C   0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cb  u0 {2,S}
+5    Cb  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 80,
-    label = "Ck_Ck",
+    label = "Ca_Cds-CbCO",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cdd 0 {1,D} {4,D}
-3    Od  0 {1,D}
-4    Od  0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cb  u0 {2,S}
+5    CO  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 81,
-    label = "Ca_Ck",
+    label = "Ca_Cds-COCO",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cdd 0 {1,D} {4,D}
-3    C   0 {1,D}
-4    Od  0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    CO  u0 {2,S}
+5    CO  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 82,
-    label = "Ck_Ca",
+    label = "Ca_Cds-CdCt",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Cdd 0 {1,D} {4,D}
-3    Od  0 {1,D}
-4    C   0 {2,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Ct  u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 83,
-    label = "Cdd_Sd",
+    label = "Ca_Cds-CdCb",
     group = 
 """
-1 *1 Cdd 0 {2,D}
-2 *2 Sd  0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cb  u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 84,
-    label = "CS2",
+    label = "Ca_Cds-CdCO",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Sd  0 {1,D}
-3    Sd  0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    CO  u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 85,
-    label = "CS_O",
+    label = "Ca_Cds-CtC=S",
     group = 
 """
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Sd  0 {1,D}
-3    Od  0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Ct  u0 {2,S}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 86,
-    label = "CO_O",
+    label = "Ca_Cds-CbC=S",
     group = 
 """
-1 *1 CO 0 {2,D}
-2 *2 Od 0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cb  u0 {2,S}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.113808, 'd13': -0.058601, 'd23': -0.236747},
-        uncertainties = {'d12': 0.006648, 'd13': 0.005275, 'd23': 0.004141},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 3 distances.
-[<Entry index=90 label="CO/NonDe2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=87 label="CO/H2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=88 label="CO/H/NonDe_O">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 87,
-    label = "CO/H2_O",
+    label = "Ca_Cds-COC=S",
     group = 
 """
-1 *1 CO 0 {2,D} {3,S} {4,S}
-2 *2 Od 0 {1,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    CO  u0 {2,S}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.123668, 'd13': -0.000378, 'd23': -0.124864},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=87 label="CO/H2_O">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 88,
-    label = "CO/H/NonDe_O",
+    label = "Ca_Cds-CdCd",
     group = 
 """
-1 *1 CO       0 {2,D} {3,S} {4,S}
-2 *2 Od       0 {1,D}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cd  u0 {2,S} {7,D}
+6    C   u0 {4,D}
+7    C   u0 {5,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.113908, 'd13': -0.071068, 'd23': -0.250414},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=88 label="CO/H/NonDe_O">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 89,
-    label = "CO/H/OneDe_O",
+    label = "Ca_Cds-CdC=S",
     group = 
 """
-1 *1 CO               0 {2,D} {3,S} {4,S}
-2 *2 Od               0 {1,D}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {7,D}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
+7    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 90,
-    label = "CO/NonDe2_O",
+    label = "Ca_Cds-C=SC=S",
     group = 
 """
-1 *1 CO       0 {2,D} {3,S} {4,S}
-2 *2 Od       0 {1,D}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    C   u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cd  u0 {2,S} {7,D}
+6    Sd  u0 {4,D}
+7    Sd  u0 {5,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': -0.103848, 'd13': -0.104358, 'd23': -0.334964},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=90 label="CO/NonDe2_O">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 91,
-    label = "CO/NonDe/OneDe_O",
+    label = "Ck_Cds",
     group = 
 """
-1 *1 CO               0 {2,D} {3,S} {4,S}
-2 *2 Od               0 {1,D}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    R   u0 {2,S}
+5    R   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 92,
-    label = "CO/TwoDe_O",
+    label = "Ck_Cds-HH",
     group = 
 """
-1 *1 CO               0 {2,D} {3,S} {4,S}
-2 *2 Od               0 {1,D}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    H   u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 93,
-    label = "CS_S",
+    label = "Ck_Cds-CsH",
     group = 
 """
-1 *1 Cd 0 {2,D}
-2 *2 Sd 0 {1,D}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cs  u0 {2,S}
+5    H   u0 {2,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.292237, 'd13': 0.374842, 'd23': 0.477021},
-        uncertainties = {'d12': 0.022669, 'd13': 0.017988, 'd23': 0.01412},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 2 distances.
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=94 label="CS/H2_S">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 94,
-    label = "CS/H2_S",
+    label = "Ck_Cds-CsCs",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Sd 0 {1,D}
-3    H  0 {1,S}
-4    H  0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cs  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.273902, 'd13': 0.497202, 'd23': 0.716126},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=94 label="CS/H2_S">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 95,
-    label = "CS/H/NonDe_S",
+    label = "Ck_Cds-OneDeH",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Sd       0 {1,D}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
+1 *1 Cdd                   u0 {2,D} {3,D}
+2 *2 Cd                    u0 {1,D} {4,S} {5,S}
+3    Od                    u0 {1,D}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+5    H                     u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 96,
-    label = "CS/H/Cs_S",
+    label = "Ck_Cds-CtH",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Sd 0 {1,D}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Ct  u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 97,
-    label = "CS/H/Os_S",
+    label = "Ck_Cds-CbH",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Sd 0 {1,D}
-3    H  0 {1,S}
-4    O  0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cb  u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 98,
-    label = "CS/H/Ss_S",
+    label = "Ck_Cds-COH",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Sd 0 {1,D}
-3    H  0 {1,S}
-4    S  0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    CO  u0 {2,S}
+5    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 99,
-    label = "CS/H/OneDe_S",
+    label = "Ck_Cds-CdH",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Sd               0 {1,D}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    H   u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 100,
-    label = "CS/NonDe2_S",
+    label = "Ck_Cds-C=SH",
     group = 
 """
-1 *1 Cd       0 {2,D} {3,S} {4,S}
-2 *2 Sd       0 {1,D}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    H   u0 {2,S}
+6    Sd  u0 {4,D}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.310572, 'd13': 0.252482, 'd23': 0.237916},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 101,
-    label = "CS/CsCs_S",
+    label = "Ck_Cds-OneDeCs",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Sd 0 {1,D}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
+1 *1 Cdd                   u0 {2,D} {3,D}
+2 *2 Cd                    u0 {1,D} {4,S} {5,S}
+3    Od                    u0 {1,D}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+5    Cs                    u0 {2,S}
 """,
-    distances = DistanceData(
-        distances = {'d12': 0.310572, 'd13': 0.252482, 'd23': 0.237916},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 102,
-    label = "CS/CsOs_S",
+    label = "Ck_Cds-CtCs",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Sd 0 {1,D}
-3    Cs 0 {1,S}
-4    O  0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Ct  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 103,
-    label = "CS/CsSs_S",
+    label = "Ck_Cds-CbCs",
     group = 
 """
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Sd 0 {1,D}
-3    Cs 0 {1,S}
-4    S  0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cb  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 104,
-    label = "CS/NonDe/OneDe_S",
+    label = "Ck_Cds-COCs",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Sd               0 {1,D}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    CO  u0 {2,S}
+5    Cs  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 105,
-    label = "CS/TwoDe_S",
+    label = "Ck_Cds-CdCs",
     group = 
 """
-1 *1 Cd               0 {2,D} {3,S} {4,S}
-2 *2 Sd               0 {1,D}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cs  u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 106,
-    label = "Ct_Ct",
+    label = "Ck_Cds-C=SCs",
     group = 
 """
-1 *1 Ct 0 {2,T}
-2 *2 Ct 0 {1,T}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cs  u0 {2,S}
+6    Sd  u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 107,
-    label = "Ct/H_Ct/H",
+    label = "Ck_Cds-TwoDe",
     group = 
 """
-1 *1 Ct 0 {2,T} {3,S}
-2 *2 Ct 0 {1,T} {4,S}
-3    H  0 {1,S}
-4    H  0 {2,S}
+1 *1 Cdd                   u0 {2,D} {3,D}
+2 *2 Cd                    u0 {1,D} {4,S} {5,S}
+3    Od                    u0 {1,D}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 108,
-    label = "Ct/H_Ct/NonDe",
+    label = "Ck_Cds-CtCt",
     group = 
 """
-1 *1 Ct       0 {2,T} {3,S}
-2 *2 Ct       0 {1,T} {4,S}
-3    H        0 {1,S}
-4    {Cs,O,S} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Ct  u0 {2,S}
+5    Ct  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 109,
-    label = "Ct/H_Ct/OneDe",
+    label = "Ck_Cds-CtCb",
     group = 
 """
-1 *1 Ct               0 {2,T} {3,S}
-2 *2 Ct               0 {1,T} {4,S}
-3    H                0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Ct  u0 {2,S}
+5    Cb  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 110,
-    label = "Ct/NonDe_Ct/H",
+    label = "Ck_Cds-CtCO",
     group = 
 """
-1 *1 Ct       0 {2,T} {3,S}
-2 *2 Ct       0 {1,T} {4,S}
-3    {Cs,O,S} 0 {1,S}
-4    H        0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Ct  u0 {2,S}
+5    CO  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 111,
-    label = "Ct/NonDe_Ct/NonDe",
+    label = "Ck_Cds-CbCb",
     group = 
 """
-1 *1 Ct       0 {2,T} {3,S}
-2 *2 Ct       0 {1,T} {4,S}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cb  u0 {2,S}
+5    Cb  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 112,
-    label = "Ct/NonDe_Ct/OneDe",
+    label = "Ck_Cds-CbCO",
     group = 
 """
-1 *1 Ct               0 {2,T} {3,S}
-2 *2 Ct               0 {1,T} {4,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cb  u0 {2,S}
+5    CO  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 113,
-    label = "Ct/OneDe_Ct/H",
+    label = "Ck_Cds-COCO",
     group = 
 """
-1 *1 Ct               0 {2,T} {3,S}
-2 *2 Ct               0 {1,T} {4,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    H                0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    CO  u0 {2,S}
+5    CO  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 114,
-    label = "Ct/OneDe_Ct/NonDe",
+    label = "Ck_Cds-CdCt",
     group = 
 """
-1 *1 Ct               0 {2,T} {3,S}
-2 *2 Ct               0 {1,T} {4,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cs,O,S}         0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Ct  u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 115,
-    label = "Ct/OneDe_Ct/OneDe",
+    label = "Ck_Cds-CdCb",
     group = 
 """
-1 *1 Ct               0 {2,T} {3,S}
-2 *2 Ct               0 {1,T} {4,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {2,S}
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cb  u0 {2,S}
+6    C   u0 {4,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+)
+
+entry(
+    index = 116,
+    label = "Ck_Cds-CdCO",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    CO  u0 {2,S}
+6    C   u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 117,
+    label = "Ck_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Ct  u0 {2,S}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 118,
+    label = "Ck_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cb  u0 {2,S}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 119,
+    label = "Ck_Cds-COC=S",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    CO  u0 {2,S}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 120,
+    label = "Ck_Cds-CdCd",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cd  u0 {2,S} {7,D}
+6    C   u0 {4,D}
+7    C   u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 121,
+    label = "Ck_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {7,D}
+5    Cd  u0 {2,S} {6,D}
+6    Sd  u0 {5,D}
+7    C   u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 122,
+    label = "Ck_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cd  u0 {1,D} {4,S} {5,S}
+3    Od  u0 {1,D}
+4    Cd  u0 {2,S} {6,D}
+5    Cd  u0 {2,S} {7,D}
+6    Sd  u0 {4,D}
+7    Sd  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 123,
+    label = "Cdd_Cdd",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cdd u0 {1,D} {4,D}
+3    R   u0 {1,D}
+4    R   u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 124,
+    label = "Ca_Ca",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cdd u0 {1,D} {4,D}
+3    C   u0 {1,D}
+4    C   u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 125,
+    label = "Ck_Ck",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cdd u0 {1,D} {4,D}
+3    Od  u0 {1,D}
+4    Od  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 126,
+    label = "Ca_Ck",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cdd u0 {1,D} {4,D}
+3    C   u0 {1,D}
+4    Od  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 127,
+    label = "Ck_Ca",
+    group = 
+"""
+1 *1 Cdd u0 {2,D} {3,D}
+2 *2 Cdd u0 {1,D} {4,D}
+3    Od  u0 {1,D}
+4    C   u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 128,
+    label = "Cds_Sd",
+    group = 
+"""
+1 *1 Cd u0       {2,D} {3,S} {4,S}
+2 *2 Sd u0       {1,D}
+3    R  u[0,1,2] {1,S}
+4    R  u[0,1,2] {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.324243, 'd13': 0.379175, 'd23': 0.497396},
+        uncertainties = {'d12': 0.073284, 'd13': 0.317415, 'd23': 0.122037},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=129 label="Cds-HH_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=131 label="Cds-CsCs_Sd">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 300,
-    label = "Ct_N",
+    index = 129,
+    label = "Cds-HH_Sd",
     group = 
 """
-1 *1 Ct        0 {2,T}
-2 *2 {N3t,N5t} 0 {1,T}
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': 0.305908, 'd13': 0.501535, 'd23': 0.736501},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=129 label="Cds-HH_Sd">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 301,
-    label = "Ct_N3t",
+    index = 130,
+    label = "Cds-CsH_Sd",
     group = 
 """
-1 *1 Ct  0 {2,T}
-2 *2 N3t 0 {1,T}
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+)
+
+entry(
+    index = 131,
+    label = "Cds-CsCs_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.342578, 'd13': 0.256815, 'd23': 0.258291},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=131 label="Cds-CsCs_Sd">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 302,
-    label = "Ct_N5t",
+    index = 132,
+    label = "Cds-OsH_Sd",
     group = 
 """
-1 *1 Ct  0 {2,T}
-2 *2 N5t 0 {1,T}
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Os u0 {1,S}
+4    H  u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 303,
-    label = "Ct/H_N3t",
+    index = 133,
+    label = "Cds-OsCs_Sd",
     group = 
 """
-1 *1 Ct  0 {2,T} {3,S}
-2 *2 N3t 0 {1,T}
-3    H   0 {1,S}
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Os u0 {1,S}
+4    Cs u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 304,
-    label = "Ct/NonDe_N3t",
+    index = 134,
+    label = "Cds-SsH_Sd",
     group = 
 """
-1 *1 Ct          0 {2,T} {3,S}
-2 *2 N3t         0 {1,T}
-3    {Cs,N3s,Os} 0 {1,S}
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ss u0 {1,S}
+4    H  u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 305,
-    label = "Ct/OneDe_N3t",
+    index = 135,
+    label = "Cds-SsCs_Sd",
     group = 
 """
-1 *1 Ct                    0 {2,T} {3,S}
-2 *2 N3t                   0 {1,T}
-3    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ss u0 {1,S}
+4    Cs u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+)
 
+entry(
+    index = 136,
+    label = "Cds-OneDeH_Sd",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Sd                    u0 {1,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    H                     u0 {1,S}
 """,
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 137,
+    label = "Cds-CtH_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 138,
+    label = "Cds-CbH_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 139,
+    label = "Cds-COH_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    CO u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 140,
+    label = "Cds-CdH_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {1,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 141,
+    label = "Cds-C=SH_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 142,
+    label = "Cds-OneDeCs_Sd",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Sd                    u0 {1,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Cs                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 143,
+    label = "Cds-CtCs_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 144,
+    label = "Cds-CbCs_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 145,
+    label = "Cds-COCs_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    CO u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 146,
+    label = "Cds-CdCs_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {1,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 147,
+    label = "Cds-C=SCs_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 148,
+    label = "Cds-TwoDe_Sd",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Sd                    u0 {1,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 149,
+    label = "Cds-CtCt_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 150,
+    label = "Cds-CtCb_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ct u0 {1,S}
+4    Cb u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 151,
+    label = "Cds-CtCO_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ct u0 {1,S}
+4    CO u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 152,
+    label = "Cds-CbCb_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cb u0 {1,S}
+4    Cb u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 153,
+    label = "Cds-CbCO_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cb u0 {1,S}
+4    CO u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 154,
+    label = "Cds-COCO_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    CO u0 {1,S}
+4    CO u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 155,
+    label = "Cds-CdCt_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    Ct u0 {1,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 156,
+    label = "Cds-CdCb_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    Cb u0 {1,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 157,
+    label = "Cds-CdCO_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    CO u0 {1,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 158,
+    label = "Cds-CtC=S_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Ct u0 {1,S}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 159,
+    label = "Cds-CbC=S_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cb u0 {1,S}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 160,
+    label = "Cds-COC=S_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    CO u0 {1,S}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 161,
+    label = "Cds-CdCd_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {1,S} {6,D}
+5    C  u0 {3,D}
+6    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 162,
+    label = "Cds-CdC=S_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {6,D}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+6    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 163,
+    label = "Cds-C=SC=S_Sd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Sd u0 {1,D}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {1,S} {6,D}
+5    Sd u0 {3,D}
+6    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
     index = 306,
-    label = "Cds_N",
+    label = "Cds_Nd",
     group = 
 """
-1 *1 Cd 0 {2,D}
-2 *2 N  0 {1,D}
+1 *1 Cd u0 {2,D}
+2 *2 N  u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2601,981 +2494,11564 @@ entry(
     label = "Cds_N3d",
     group = 
 """
-1 *1 Cd  0 {2,D}
-2 *2 N3d 0 {1,D}
+1 *1 Cd  u0 {2,D}
+2 *2 N3d u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 308,
-    label = "Cds/H2_N3d",
+    label = "Cds-HH_N3d",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 N3d 0 {1,D}
-3    H   0 {1,S}
-4    H   0 {1,S}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 N3d u0 {1,D}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 309,
-    label = "Cds_sec_N3d",
+    label = "Cds-NonDeH_N3d",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 N3d 0 {1,D}
-3    H   0 {1,S}
-4    R!H 0 {1,S}
+1 *1 Cd                 u0 {2,D} {3,S} {4,S}
+2 *2 N3d                u0 {1,D}
+3    H                  u0 {1,S}
+4    [Cs,Os,N3s,N5s,Ss] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 310,
-    label = "Cds_ter_N3d",
+    label = "Cds-NonDe2_N3d",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 N3d 0 {1,D}
-3    R!H 0 {1,S}
-4    R!H 0 {1,S}
+1 *1 Cd                 u0 {2,D} {3,S} {4,S}
+2 *2 N3d                u0 {1,D}
+3    [Cs,Os,N3s,N5s,Ss] u0 {1,S}
+4    [Cs,Os,N3s,N5s,Ss] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 116,
-    label = "Cdd_Od",
+    index = 164,
+    label = "Cds_Cds",
     group = 
 """
-1 *1 Cdd    0 {2,D} {3,D}
-2 *2 Od     0 {1,D}
-3    {C,Od} 0 {1,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 117,
-    label = "CO2",
-    group = 
-"""
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Od  0 {1,D}
-3    Od  0 {1,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 118,
-    label = "Ck_O",
-    group = 
-"""
-1 *1 Cdd 0 {2,D} {3,D}
-2 *2 Od  0 {1,D}
-3    C   0 {1,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 119,
-    label = "OCO",
-    group = 
-"""
-1 *1 Od 0 {2,D}
-2 *2 CO 0 {1,D}
+1 *1 Cd u0       {2,D} {3,S} {4,S}
+2 *2 Cd u0       {1,D} {5,S} {6,S}
+3    R  u[0,1,2] {1,S}
+4    R  u[0,1,2] {1,S}
+5    R  u0       {2,S}
+6    R  u0       {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.090058, 'd13': -0.321055, 'd23': -0.155411},
-        uncertainties = {'d12': 0.03732, 'd13': 0.143054, 'd23': 0.12434},
+        distances = {'d12': 0.042333, 'd13': 0.064352, 'd23': 0.109219},
+        uncertainties = {'d12': 0.021535, 'd13': 0.102454, 'd23': 0.119198},
     ),
-    reference = None,
-    referenceType = "",
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 26 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=915 label="HJ">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+""",
+)
+
+entry(
+    index = 165,
+    label = "Cds-HH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.040718, 'd13': 0.060766, 'd23': 0.132094},
+        uncertainties = {'d12': 0.024286, 'd13': 0.121425, 'd23': 0.141},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 19 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=915 label="HJ">]
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+""",
+)
+
+entry(
+    index = 166,
+    label = "Cds-HH_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.039419, 'd13': 0.065964, 'd23': 0.141864},
+        uncertainties = {'d12': 0.028601, 'd13': 0.167825, 'd23': 0.179947},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 11 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=915 label="HJ">]
+""",
+)
+
+entry(
+    index = 167,
+    label = "Cds-HH_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.041228, 'd13': 0.055736, 'd23': 0.136829},
+        uncertainties = {'d12': 0.027037, 'd13': 0.063779, 'd23': 0.096217},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 6 distances.
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+""",
+)
+
+entry(
+    index = 168,
+    label = "Cds-HH_Cds-Cs\Os/H",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S} {7,S}
+6    H  u0 {2,S}
+7    Os u0 {5,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.040287, 'd13': 0.097704, 'd23': 0.159634},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+""",
+)
+
+entry(
+    index = 169,
+    label = "Cds-HH_Cds-Cs\H3/H",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S} {7,S} {8,S} {9,S}
+6    H  u0 {2,S}
+7    H  u0 {5,S}
+8    H  u0 {5,S}
+9    H  u0 {5,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.041103, 'd13': 0.041413, 'd23': 0.125694},
+        uncertainties = {'d12': 0.039882, 'd13': 0.097529, 'd23': 0.146842},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 4 distances.
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+""",
+)
+
+entry(
+    index = 170,
+    label = "Cds-HH_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.046202, 'd13': 0.048527, 'd23': 0.062974},
+        uncertainties = {'d12': 0.181727, 'd13': 0.226041, 'd23': 1.19512},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 171,
+    label = "Cds-HH_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 172,
+    label = "Cds-HH_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 173,
+    label = "Cds-HH_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 174,
+    label = "Cds-HH_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 175,
+    label = "Cds-HH_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 176,
+    label = "Cds-HH_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 177,
+    label = "Cds-HH_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 178,
+    label = "Cds-HH_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    H                     u0 {1,S}
+4    H                     u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 179,
+    label = "Cds-HH_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    H                     u0 {1,S}
+4    H                     u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 180,
+    label = "Cds-HH_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 181,
+    label = "Cds-HH_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 182,
+    label = "Cds-HH_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 183,
+    label = "Cds-HH_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 184,
+    label = "Cds-HH_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 185,
+    label = "Cds-HH_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    H                     u0 {1,S}
+4    H                     u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 186,
+    label = "Cds-HH_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 187,
+    label = "Cds-HH_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 188,
+    label = "Cds-HH_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 189,
+    label = "Cds-HH_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 190,
+    label = "Cds-HH_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 191,
+    label = "Cds-HH_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    H                     u0 {1,S}
+4    H                     u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 192,
+    label = "Cds-HH_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 193,
+    label = "Cds-HH_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 194,
+    label = "Cds-HH_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 195,
+    label = "Cds-HH_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 196,
+    label = "Cds-HH_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 197,
+    label = "Cds-HH_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    H                     u0 {1,S}
+4    H                     u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 198,
+    label = "Cds-HH_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 199,
+    label = "Cds-HH_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 200,
+    label = "Cds-HH_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 201,
+    label = "Cds-HH_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 202,
+    label = "Cds-HH_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 203,
+    label = "Cds-HH_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    H                     u0 {1,S}
+4    H                     u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 204,
+    label = "Cds-HH_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 205,
+    label = "Cds-HH_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 206,
+    label = "Cds-HH_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 207,
+    label = "Cds-HH_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 208,
+    label = "Cds-HH_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 209,
+    label = "Cds-HH_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 210,
+    label = "Cds-HH_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 211,
+    label = "Cds-HH_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 212,
+    label = "Cds-HH_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 213,
+    label = "Cds-HH_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 214,
+    label = "Cds-HH_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 215,
+    label = "Cds-HH_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 216,
+    label = "Cds-HH_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 217,
+    label = "Cds-HH_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 218,
+    label = "Cds-HH_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 219,
+    label = "Cds-CsH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.045677, 'd13': 0.078333, 'd23': 0.068603},
+        uncertainties = {'d12': 0.030557, 'd13': 0.050892, 'd23': 0.082207},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 4 distances.
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+""",
+)
+
+entry(
+    index = 220,
+    label = "Cds-CsH_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.039548, 'd13': 0.082379, 'd23': 0.05507},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 221,
+    label = "Cds-Cs\Os/H_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S} {7,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+7    Os u0 {3,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 222,
+    label = "Cds-CsH_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.048189, 'd13': 0.065802, 'd23': 0.072416},
+        uncertainties = {'d12': 0.198196, 'd13': 0.152002, 'd23': 0.555239},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+""",
+)
+
+entry(
+    index = 223,
+    label = "Cds-CsH_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.046783, 'd13': 0.099348, 'd23': 0.074511},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 224,
+    label = "Cds-CsH_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 225,
+    label = "Cds-CsH_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 226,
+    label = "Cds-CsH_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 227,
+    label = "Cds-CsH_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 228,
+    label = "Cds-CsH_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 229,
+    label = "Cds-CsH_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 230,
+    label = "Cds-CsH_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 231,
+    label = "Cds-CsH_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    H                     u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 232,
+    label = "Cds-CsH_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    H                     u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 233,
+    label = "Cds-CsH_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 234,
+    label = "Cds-CsH_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 235,
+    label = "Cds-CsH_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 236,
+    label = "Cds-CsH_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 237,
+    label = "Cds-CsH_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 238,
+    label = "Cds-CsH_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 239,
+    label = "Cds-CsH_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 240,
+    label = "Cds-CsH_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 241,
+    label = "Cds-CsH_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 242,
+    label = "Cds-CsH_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 243,
+    label = "Cds-CsH_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 244,
+    label = "Cds-CsH_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 245,
+    label = "Cds-CsH_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 246,
+    label = "Cds-CsH_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 247,
+    label = "Cds-CsH_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 248,
+    label = "Cds-CsH_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 249,
+    label = "Cds-CsH_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 250,
+    label = "Cds-CsH_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 251,
+    label = "Cds-CsH_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 252,
+    label = "Cds-CsH_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 253,
+    label = "Cds-CsH_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 254,
+    label = "Cds-CsH_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 255,
+    label = "Cds-CsH_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 256,
+    label = "Cds-CsH_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    H                     u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 257,
+    label = "Cds-CsH_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 258,
+    label = "Cds-CsH_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 259,
+    label = "Cds-CsH_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 260,
+    label = "Cds-CsH_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 261,
+    label = "Cds-CsH_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 262,
+    label = "Cds-CsH_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 263,
+    label = "Cds-CsH_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 264,
+    label = "Cds-CsH_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 265,
+    label = "Cds-CsH_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 266,
+    label = "Cds-CsH_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 267,
+    label = "Cds-CsH_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 268,
+    label = "Cds-CsH_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 269,
+    label = "Cds-CsH_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 270,
+    label = "Cds-CsH_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 271,
+    label = "Cds-CsH_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 272,
+    label = "Cds-CsCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.045273, 'd13': 0.077766, 'd23': -0.017394},
+        uncertainties = {'d12': 0.074951, 'd13': 0.326774, 'd23': 0.315731},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 273,
+    label = "Cds-CsCs_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.045273, 'd13': 0.077766, 'd23': -0.017394},
+        uncertainties = {'d12': 0.074951, 'd13': 0.326774, 'd23': 0.315731},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 274,
+    label = "Cds-CsCs_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 275,
+    label = "Cds-CsCs_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 276,
+    label = "Cds-CsCs_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 277,
+    label = "Cds-CsCs_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 278,
+    label = "Cds-CsCs_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 279,
+    label = "Cds-CsCs_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 280,
+    label = "Cds-CsCs_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 281,
+    label = "Cds-CsCs_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 282,
+    label = "Cds-CsCs_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 283,
+    label = "Cds-CsCs_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 284,
+    label = "Cds-CsCs_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 285,
+    label = "Cds-CsCs_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 286,
+    label = "Cds-CsCs_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 287,
+    label = "Cds-CsCs_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 288,
+    label = "Cds-CsCs_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 289,
+    label = "Cds-CsCs_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 290,
+    label = "Cds-CsCs_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 291,
+    label = "Cds-CsCs_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 292,
+    label = "Cds-CsCs_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 293,
+    label = "Cds-CsCs_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 294,
+    label = "Cds-CsCs_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 295,
+    label = "Cds-CsCs_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 296,
+    label = "Cds-CsCs_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 297,
+    label = "Cds-CsCs_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 298,
+    label = "Cds-CsCs_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 299,
+    label = "Cds-CsCs_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 300,
+    label = "Cds-CsCs_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 301,
+    label = "Cds-CsCs_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 302,
+    label = "Cds-CsCs_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 303,
+    label = "Cds-CsCs_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 304,
+    label = "Cds-CsCs_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 305,
+    label = "Cds-CsCs_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 306,
+    label = "Cds-CsCs_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 307,
+    label = "Cds-CsCs_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 308,
+    label = "Cds-CsCs_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cs                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 309,
+    label = "Cds-CsCs_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 310,
+    label = "Cds-CsCs_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 311,
+    label = "Cds-CsCs_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 312,
+    label = "Cds-CsCs_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 313,
+    label = "Cds-CsCs_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 314,
+    label = "Cds-CsCs_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 315,
+    label = "Cds-CsCs_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 316,
+    label = "Cds-CsCs_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 317,
+    label = "Cds-CsCs_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 318,
+    label = "Cds-CsCs_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 319,
+    label = "Cds-CsCs_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 320,
+    label = "Cds-CsCs_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 321,
+    label = "Cds-CsCs_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 322,
+    label = "Cds-CsCs_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 323,
+    label = "Cds-CsCs_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 324,
+    label = "Cds-SsH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ss u0 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 325,
+    label = "Cds-SsCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ss u0 {1,S}
+4    Cs u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 326,
+    label = "Cds-SsSs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ss u0 {1,S}
+4    Ss u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 327,
+    label = "Cds-OsH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Os u0 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 328,
+    label = "Cds-OsH_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Os u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 329,
+    label = "Cds-OsCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Os u0 {1,S}
+4    Cs u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 330,
+    label = "Cds-OsOs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Os u0 {1,S}
+4    Os u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 331,
+    label = "Cds-OsSs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Os u0 {1,S}
+4    Ss u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 332,
+    label = "Cds-OneDe_Cds",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    R                     u0 {1,S}
+5    R                     u0 {2,S}
+6    R                     u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.054589, 'd13': 0.051524, 'd23': 0.078842},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 333,
+    label = "Cds-OneDeH_Cds",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    H                     u0 {1,S}
+5    R                     u0 {2,S}
+6    R                     u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.054589, 'd13': 0.051524, 'd23': 0.078842},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 334,
+    label = "Cds-CtH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 335,
+    label = "Cds-CtH_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 336,
+    label = "Cds-CtH_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 337,
+    label = "Cds-CtH_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 338,
+    label = "Cds-CtH_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 339,
+    label = "Cds-CtH_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 340,
+    label = "Cds-CtH_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 341,
+    label = "Cds-CtH_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 342,
+    label = "Cds-CtH_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 343,
+    label = "Cds-CtH_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 344,
+    label = "Cds-CtH_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 345,
+    label = "Cds-CtH_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    H                     u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 346,
+    label = "Cds-CtH_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    H                     u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 347,
+    label = "Cds-CtH_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 348,
+    label = "Cds-CtH_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 349,
+    label = "Cds-CtH_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 350,
+    label = "Cds-CtH_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 351,
+    label = "Cds-CtH_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 352,
+    label = "Cds-CtH_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 353,
+    label = "Cds-CtH_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 354,
+    label = "Cds-CtH_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 355,
+    label = "Cds-CtH_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 356,
+    label = "Cds-CtH_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 357,
+    label = "Cds-CtH_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 358,
+    label = "Cds-CtH_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 359,
+    label = "Cds-CtH_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 360,
+    label = "Cds-CtH_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 361,
+    label = "Cds-CtH_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 362,
+    label = "Cds-CtH_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 363,
+    label = "Cds-CtH_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 364,
+    label = "Cds-CtH_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 365,
+    label = "Cds-CtH_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 366,
+    label = "Cds-CtH_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 367,
+    label = "Cds-CtH_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 368,
+    label = "Cds-CtH_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 369,
+    label = "Cds-CtH_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 370,
+    label = "Cds-CtH_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    H                     u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 371,
+    label = "Cds-CtH_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 372,
+    label = "Cds-CtH_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 373,
+    label = "Cds-CtH_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 374,
+    label = "Cds-CtH_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 375,
+    label = "Cds-CtH_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 376,
+    label = "Cds-CtH_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 377,
+    label = "Cds-CtH_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 378,
+    label = "Cds-CtH_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 379,
+    label = "Cds-CtH_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 380,
+    label = "Cds-CtH_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 381,
+    label = "Cds-CtH_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 382,
+    label = "Cds-CtH_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 383,
+    label = "Cds-CtH_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 384,
+    label = "Cds-CtH_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 385,
+    label = "Cds-CtH_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 386,
+    label = "Cds-CbH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.054589, 'd13': 0.051524, 'd23': 0.078842},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 387,
+    label = "Cds-CbH_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 388,
+    label = "Cds-CbH_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.054589, 'd13': 0.051524, 'd23': 0.078842},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 389,
+    label = "Cds-CbH_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 390,
+    label = "Cds-CbH_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 391,
+    label = "Cds-CbH_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 392,
+    label = "Cds-CbH_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 393,
+    label = "Cds-CbH_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 394,
+    label = "Cds-CbH_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 395,
+    label = "Cds-CbH_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 396,
+    label = "Cds-CbH_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 397,
+    label = "Cds-CbH_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    H                     u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 398,
+    label = "Cds-CbH_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    H                     u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 399,
+    label = "Cds-CbH_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 400,
+    label = "Cds-CbH_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 401,
+    label = "Cds-CbH_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 402,
+    label = "Cds-CbH_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 403,
+    label = "Cds-CbH_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 404,
+    label = "Cds-CbH_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 405,
+    label = "Cds-CbH_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 406,
+    label = "Cds-CbH_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 407,
+    label = "Cds-CbH_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 408,
+    label = "Cds-CbH_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 409,
+    label = "Cds-CbH_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 410,
+    label = "Cds-CbH_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 411,
+    label = "Cds-CbH_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 412,
+    label = "Cds-CbH_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 413,
+    label = "Cds-CbH_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 414,
+    label = "Cds-CbH_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 415,
+    label = "Cds-CbH_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 416,
+    label = "Cds-CbH_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    H                     u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 417,
+    label = "Cds-CbH_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 418,
+    label = "Cds-CbH_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 419,
+    label = "Cds-CbH_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 420,
+    label = "Cds-CbH_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 421,
+    label = "Cds-CbH_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 422,
+    label = "Cds-CbH_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    H                     u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 423,
+    label = "Cds-CbH_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 424,
+    label = "Cds-CbH_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 425,
+    label = "Cds-CbH_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 426,
+    label = "Cds-CbH_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 427,
+    label = "Cds-CbH_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 428,
+    label = "Cds-CbH_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 429,
+    label = "Cds-CbH_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 430,
+    label = "Cds-CbH_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 431,
+    label = "Cds-CbH_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 432,
+    label = "Cds-CbH_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 433,
+    label = "Cds-CbH_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 434,
+    label = "Cds-CbH_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 435,
+    label = "Cds-CbH_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 436,
+    label = "Cds-CbH_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 437,
+    label = "Cds-CbH_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 438,
+    label = "Cds-COH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    CO u0 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 439,
+    label = "Cds-CdH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 440,
+    label = "Cds-CdH_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 441,
+    label = "Cds-CdH_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 442,
+    label = "Cds-CdH_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 443,
+    label = "Cds-CdH_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 444,
+    label = "Cds-CdH_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 445,
+    label = "Cds-CdH_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 446,
+    label = "Cds-CdH_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 447,
+    label = "Cds-CdH_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 448,
+    label = "Cds-CdH_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 449,
+    label = "Cds-CdH_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 450,
+    label = "Cds-CdH_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    H                     u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 451,
+    label = "Cds-CdH_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    H                     u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 452,
+    label = "Cds-CdH_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 453,
+    label = "Cds-CdH_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 454,
+    label = "Cds-CdH_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 455,
+    label = "Cds-CdH_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 456,
+    label = "Cds-CdH_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 457,
+    label = "Cds-CdH_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    H                     u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 458,
+    label = "Cds-CdH_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 459,
+    label = "Cds-CdH_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 460,
+    label = "Cds-CdH_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 461,
+    label = "Cds-CdH_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 462,
+    label = "Cds-CdH_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 463,
+    label = "Cds-CdH_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    H                     u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 464,
+    label = "Cds-CdH_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 465,
+    label = "Cds-CdH_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 466,
+    label = "Cds-CdH_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 467,
+    label = "Cds-CdH_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 468,
+    label = "Cds-CdH_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 469,
+    label = "Cds-CdH_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    H                     u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 470,
+    label = "Cds-CdH_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 471,
+    label = "Cds-CdH_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 472,
+    label = "Cds-CdH_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 473,
+    label = "Cds-CdH_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 474,
+    label = "Cds-CdH_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 475,
+    label = "Cds-CdH_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    H                     u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 476,
+    label = "Cds-CdH_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 477,
+    label = "Cds-CdH_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 478,
+    label = "Cds-CdH_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 479,
+    label = "Cds-CdH_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 480,
+    label = "Cds-CdH_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 481,
+    label = "Cds-CdH_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 482,
+    label = "Cds-CdH_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 483,
+    label = "Cds-CdH_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 484,
+    label = "Cds-CdH_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 485,
+    label = "Cds-CdH_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 486,
+    label = "Cds-CdH_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 487,
+    label = "Cds-CdH_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 488,
+    label = "Cds-CdH_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+9    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 489,
+    label = "Cds-CdH_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {9,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 490,
+    label = "Cds-CdH_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {9,D}
+4    H  u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+9    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 491,
+    label = "Cds-C=SH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {1,S}
+5    Sd u0 {3,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 492,
+    label = "Cds-OneDeCs_Cds",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Cs                    u0 {1,S}
+5    R                     u0 {2,S}
+6    R                     u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 493,
+    label = "Cds-CtCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 494,
+    label = "Cds-CtCs_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 495,
+    label = "Cds-CtCs_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 496,
+    label = "Cds-CtCs_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 497,
+    label = "Cds-CtCs_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 498,
+    label = "Cds-CtCs_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 499,
+    label = "Cds-CtCs_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 500,
+    label = "Cds-CtCs_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 501,
+    label = "Cds-CtCs_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 502,
+    label = "Cds-CtCs_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 503,
+    label = "Cds-CtCs_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 504,
+    label = "Cds-CtCs_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 505,
+    label = "Cds-CtCs_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 506,
+    label = "Cds-CtCs_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 507,
+    label = "Cds-CtCs_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 508,
+    label = "Cds-CtCs_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 509,
+    label = "Cds-CtCs_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 510,
+    label = "Cds-CtCs_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 511,
+    label = "Cds-CtCs_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 512,
+    label = "Cds-CtCs_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 513,
+    label = "Cds-CtCs_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 514,
+    label = "Cds-CtCs_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 515,
+    label = "Cds-CtCs_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 516,
+    label = "Cds-CtCs_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 517,
+    label = "Cds-CtCs_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 518,
+    label = "Cds-CtCs_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 519,
+    label = "Cds-CtCs_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 520,
+    label = "Cds-CtCs_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 521,
+    label = "Cds-CtCs_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 522,
+    label = "Cds-CtCs_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 523,
+    label = "Cds-CtCs_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 524,
+    label = "Cds-CtCs_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 525,
+    label = "Cds-CtCs_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 526,
+    label = "Cds-CtCs_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 527,
+    label = "Cds-CtCs_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 528,
+    label = "Cds-CtCs_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 529,
+    label = "Cds-CtCs_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 530,
+    label = "Cds-CtCs_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 531,
+    label = "Cds-CtCs_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 532,
+    label = "Cds-CtCs_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 533,
+    label = "Cds-CtCs_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 534,
+    label = "Cds-CtCs_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 535,
+    label = "Cds-CtCs_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 536,
+    label = "Cds-CtCs_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 537,
+    label = "Cds-CtCs_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 538,
+    label = "Cds-CtCs_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 539,
+    label = "Cds-CtCs_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 540,
+    label = "Cds-CtCs_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 541,
+    label = "Cds-CtCs_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 542,
+    label = "Cds-CtCs_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 543,
+    label = "Cds-CtCs_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 544,
+    label = "Cds-CtCs_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 545,
+    label = "Cds-CbCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 546,
+    label = "Cds-CbCs_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 547,
+    label = "Cds-CbCs_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 548,
+    label = "Cds-CbCs_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 549,
+    label = "Cds-CbCs_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 550,
+    label = "Cds-CbCs_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 551,
+    label = "Cds-CbCs_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 552,
+    label = "Cds-CbCs_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 553,
+    label = "Cds-CbCs_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 554,
+    label = "Cds-CbCs_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 555,
+    label = "Cds-CbCs_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 556,
+    label = "Cds-CbCs_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 557,
+    label = "Cds-CbCs_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 558,
+    label = "Cds-CbCs_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 559,
+    label = "Cds-CbCs_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 560,
+    label = "Cds-CbCs_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 561,
+    label = "Cds-CbCs_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 562,
+    label = "Cds-CbCs_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 563,
+    label = "Cds-CbCs_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 564,
+    label = "Cds-CbCs_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 565,
+    label = "Cds-CbCs_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 566,
+    label = "Cds-CbCs_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 567,
+    label = "Cds-CbCs_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 568,
+    label = "Cds-CbCs_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 569,
+    label = "Cds-CbCs_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 570,
+    label = "Cds-CbCs_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 571,
+    label = "Cds-CbCs_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 572,
+    label = "Cds-CbCs_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 573,
+    label = "Cds-CbCs_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 574,
+    label = "Cds-CbCs_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 575,
+    label = "Cds-CbCs_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 576,
+    label = "Cds-CbCs_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 577,
+    label = "Cds-CbCs_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 578,
+    label = "Cds-CbCs_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 579,
+    label = "Cds-CbCs_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 580,
+    label = "Cds-CbCs_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 581,
+    label = "Cds-CbCs_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cb                    u0 {1,S}
+4    Cs                    u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 582,
+    label = "Cds-CbCs_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 583,
+    label = "Cds-CbCs_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 584,
+    label = "Cds-CbCs_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 585,
+    label = "Cds-CbCs_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 586,
+    label = "Cds-CbCs_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 587,
+    label = "Cds-CbCs_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 588,
+    label = "Cds-CbCs_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 589,
+    label = "Cds-CbCs_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 590,
+    label = "Cds-CbCs_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 591,
+    label = "Cds-CbCs_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 592,
+    label = "Cds-CbCs_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 593,
+    label = "Cds-CbCs_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 594,
+    label = "Cds-CbCs_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 595,
+    label = "Cds-CbCs_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 596,
+    label = "Cds-CbCs_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 597,
+    label = "Cds-COCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    CO u0 {1,S}
+4    Cs u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 598,
+    label = "Cds-CdCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 599,
+    label = "Cds-CdCs_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 600,
+    label = "Cds-CdCs_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 601,
+    label = "Cds-CdCs_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 602,
+    label = "Cds-CdCs_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 603,
+    label = "Cds-CdCs_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 604,
+    label = "Cds-CdCs_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 605,
+    label = "Cds-CdCs_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 606,
+    label = "Cds-CdCs_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 607,
+    label = "Cds-CdCs_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 608,
+    label = "Cds-CdCs_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 609,
+    label = "Cds-CdCs_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cs                    u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 610,
+    label = "Cds-CdCs_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cs                    u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 611,
+    label = "Cds-CdCs_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 612,
+    label = "Cds-CdCs_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 613,
+    label = "Cds-CdCs_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 614,
+    label = "Cds-CdCs_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 615,
+    label = "Cds-CdCs_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 616,
+    label = "Cds-CdCs_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cs                    u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 617,
+    label = "Cds-CdCs_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 618,
+    label = "Cds-CdCs_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 619,
+    label = "Cds-CdCs_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 620,
+    label = "Cds-CdCs_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 621,
+    label = "Cds-CdCs_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 622,
+    label = "Cds-CdCs_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cs                    u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 623,
+    label = "Cds-CdCs_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 624,
+    label = "Cds-CdCs_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 625,
+    label = "Cds-CdCs_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 626,
+    label = "Cds-CdCs_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 627,
+    label = "Cds-CdCs_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 628,
+    label = "Cds-CdCs_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cs                    u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 629,
+    label = "Cds-CdCs_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 630,
+    label = "Cds-CdCs_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 631,
+    label = "Cds-CdCs_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 632,
+    label = "Cds-CdCs_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 633,
+    label = "Cds-CdCs_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 634,
+    label = "Cds-CdCs_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cs                    u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 635,
+    label = "Cds-CdCs_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 636,
+    label = "Cds-CdCs_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 637,
+    label = "Cds-CdCs_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 638,
+    label = "Cds-CdCs_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 639,
+    label = "Cds-CdCs_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 640,
+    label = "Cds-CdCs_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 641,
+    label = "Cds-CdCs_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 642,
+    label = "Cds-CdCs_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 643,
+    label = "Cds-CdCs_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 644,
+    label = "Cds-CdCs_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 645,
+    label = "Cds-CdCs_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 646,
+    label = "Cds-CdCs_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 647,
+    label = "Cds-CdCs_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+9    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 648,
+    label = "Cds-CdCs_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {9,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 649,
+    label = "Cds-CdCs_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {9,D}
+4    Cs u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+9    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 650,
+    label = "Cds-C=SCs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {1,S}
+5    Sd u0 {3,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 651,
+    label = "Cds-OneDeSs_Cds",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Ss                    u0 {1,S}
+5    R                     u0 {2,S}
+6    R                     u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 652,
+    label = "Cds-CtSs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ss u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 653,
+    label = "Cds-CbSs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Ss u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 654,
+    label = "Cds-COSs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    CO u0 {1,S}
+4    Ss u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 655,
+    label = "Cds-CdSs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ss u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 656,
+    label = "Cds-C=SSs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    Cd u0 {1,S} {5,D}
+4    Ss u0 {1,S}
+5    Sd u0 {3,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 657,
+    label = "Cds-OneDeOs_Cds",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Os                    u0 {1,S}
+5    R                     u0 {2,S}
+6    R                     u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 658,
+    label = "Cds-CtOs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Os u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 659,
+    label = "Cds-CbOs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Os u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 660,
+    label = "Cds-COOs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    CO u0 {1,S}
+4    Os u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 661,
+    label = "Cds-CdOs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Os u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 662,
+    label = "Cds-C=SOs_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    Cd u0 {1,S} {5,D}
+4    Os u0 {1,S}
+5    Sd u0 {3,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 663,
+    label = "Cds-TwoDe_Cds",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    R                     u0 {2,S}
+6    R                     u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 664,
+    label = "Cds-CtCt_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 665,
+    label = "Cds-CtCt_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 666,
+    label = "Cds-CtCt_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 667,
+    label = "Cds-CtCt_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 668,
+    label = "Cds-CtCt_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 669,
+    label = "Cds-CtCt_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 670,
+    label = "Cds-CtCt_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 671,
+    label = "Cds-CtCt_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 672,
+    label = "Cds-CtCt_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 673,
+    label = "Cds-CtCt_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 674,
+    label = "Cds-CtCt_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 675,
+    label = "Cds-CtCt_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Ct                    u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 676,
+    label = "Cds-CtCt_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Ct                    u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 677,
+    label = "Cds-CtCt_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 678,
+    label = "Cds-CtCt_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 679,
+    label = "Cds-CtCt_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 680,
+    label = "Cds-CtCt_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 681,
+    label = "Cds-CtCt_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 682,
+    label = "Cds-CtCt_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Ct                    u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 683,
+    label = "Cds-CtCt_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 684,
+    label = "Cds-CtCt_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 685,
+    label = "Cds-CtCt_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 686,
+    label = "Cds-CtCt_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 687,
+    label = "Cds-CtCt_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 688,
+    label = "Cds-CtCt_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Ct                    u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 689,
+    label = "Cds-CtCt_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 690,
+    label = "Cds-CtCt_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 691,
+    label = "Cds-CtCt_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 692,
+    label = "Cds-CtCt_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 693,
+    label = "Cds-CtCt_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 694,
+    label = "Cds-CtCt_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Ct                    u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 695,
+    label = "Cds-CtCt_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 696,
+    label = "Cds-CtCt_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 697,
+    label = "Cds-CtCt_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 698,
+    label = "Cds-CtCt_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 699,
+    label = "Cds-CtCt_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 700,
+    label = "Cds-CtCt_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Ct                    u0 {1,S}
+4    Ct                    u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 701,
+    label = "Cds-CtCt_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 702,
+    label = "Cds-CtCt_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 703,
+    label = "Cds-CtCt_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 704,
+    label = "Cds-CtCt_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 705,
+    label = "Cds-CtCt_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 706,
+    label = "Cds-CtCt_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 707,
+    label = "Cds-CtCt_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Ct u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 708,
+    label = "Cds-CtCt_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cb u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 709,
+    label = "Cds-CtCt_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    CO u0 {2,S}
+7    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 710,
+    label = "Cds-CtCt_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 711,
+    label = "Cds-CtCt_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 712,
+    label = "Cds-CtCt_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 713,
+    label = "Cds-CtCt_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {5,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 714,
+    label = "Cds-CtCt_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 715,
+    label = "Cds-CtCt_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 716,
+    label = "Cds-CtCb_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    Cb u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 717,
+    label = "Cds-CtCO_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Ct u0 {1,S}
+4    CO u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 718,
+    label = "Cds-CbCb_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    Cb u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 719,
+    label = "Cds-CbCO_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cb u0 {1,S}
+4    CO u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 720,
+    label = "Cds-COCO_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    CO u0 {1,S}
+4    CO u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 721,
+    label = "Cds-CdCt_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 722,
+    label = "Cds-CdCt_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 723,
+    label = "Cds-CdCt_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 724,
+    label = "Cds-CdCt_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 725,
+    label = "Cds-CdCt_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 726,
+    label = "Cds-CdCt_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 727,
+    label = "Cds-CdCt_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 728,
+    label = "Cds-CdCt_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 729,
+    label = "Cds-CdCt_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 730,
+    label = "Cds-CdCt_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 731,
+    label = "Cds-CdCt_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 732,
+    label = "Cds-CdCt_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Ct                    u0 {1,S}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 733,
+    label = "Cds-CdCt_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Ct                    u0 {1,S}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 734,
+    label = "Cds-CdCt_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 735,
+    label = "Cds-CdCt_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 736,
+    label = "Cds-CdCt_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 737,
+    label = "Cds-CdCt_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 738,
+    label = "Cds-CdCt_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 739,
+    label = "Cds-CdCt_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Ct                    u0 {1,S}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 740,
+    label = "Cds-CdCt_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 741,
+    label = "Cds-CdCt_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 742,
+    label = "Cds-CdCt_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 743,
+    label = "Cds-CdCt_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 744,
+    label = "Cds-CdCt_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 745,
+    label = "Cds-CdCt_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Ct                    u0 {1,S}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 746,
+    label = "Cds-CdCt_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 747,
+    label = "Cds-CdCt_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 748,
+    label = "Cds-CdCt_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 749,
+    label = "Cds-CdCt_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 750,
+    label = "Cds-CdCt_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 751,
+    label = "Cds-CdCt_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Ct                    u0 {1,S}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 752,
+    label = "Cds-CdCt_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 753,
+    label = "Cds-CdCt_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 754,
+    label = "Cds-CdCt_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 755,
+    label = "Cds-CdCt_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D}
+8    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 756,
+    label = "Cds-CdCt_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 757,
+    label = "Cds-CdCt_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Ct                    u0 {1,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 758,
+    label = "Cds-CdCt_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 759,
+    label = "Cds-CdCt_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 760,
+    label = "Cds-CdCt_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 761,
+    label = "Cds-CdCt_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 762,
+    label = "Cds-CdCt_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 763,
+    label = "Cds-CdCt_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 764,
+    label = "Cds-CdCt_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 765,
+    label = "Cds-CdCt_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 766,
+    label = "Cds-CdCt_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 767,
+    label = "Cds-CdCt_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 768,
+    label = "Cds-CdCt_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 769,
+    label = "Cds-CdCt_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 770,
+    label = "Cds-CdCt_Cds-CdCd",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {8,D}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {3,D}
+8    C  u0 {5,D}
+9    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 771,
+    label = "Cds-CdCt_Cds-CdC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {9,D}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 772,
+    label = "Cds-CdCt_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {9,D}
+4    Ct u0 {1,S}
+5    Cd u0 {2,S} {7,D}
+6    Cd u0 {2,S} {8,D}
+7    Sd u0 {5,D}
+8    Sd u0 {6,D}
+9    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 773,
+    label = "Cds-CdCb_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cb u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 774,
+    label = "Cds-CdCO_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    CO u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 775,
+    label = "Cds-CtC=S_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    Ct u0 {1,S}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 776,
+    label = "Cds-CbC=S_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    Cb u0 {1,S}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 777,
+    label = "Cds-COC=S_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    CO u0 {1,S}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 778,
+    label = "Cds-CdCd_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 779,
+    label = "Cds-CdCd_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 780,
+    label = "Cds-CdCd_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 781,
+    label = "Cds-CdCd_Cds-CsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cs u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 782,
+    label = "Cds-CdCd_Cds-OsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Os u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 783,
+    label = "Cds-CdCd_Cds-OsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Os u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 784,
+    label = "Cds-CdCd_Cds-OsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Os u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 785,
+    label = "Cds-CdCd_Cds-SsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    H  u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 786,
+    label = "Cds-CdCd_Cds-SsCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    Cs u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 787,
+    label = "Cds-CdCd_Cds-SsOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    Os u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 788,
+    label = "Cds-CdCd_Cds-SsSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    Ss u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 789,
+    label = "Cds-CdCd_Cds-OneDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cd                    u0 {1,S} {8,D}
+5    R                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+8    C                     u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 790,
+    label = "Cds-CdCd_Cds-OneDeH",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cd                    u0 {1,S} {8,D}
+5    H                     u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+8    C                     u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 791,
+    label = "Cds-CdCd_Cds-CtH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    H  u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 792,
+    label = "Cds-CdCd_Cds-CbH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    H  u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 793,
+    label = "Cds-CdCd_Cds-COH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    H  u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 794,
+    label = "Cds-CdCd_Cds-CdH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+9    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 795,
+    label = "Cds-CdCd_Cds-C=SH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {9,D}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 796,
+    label = "Cds-CdCd_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cd                    u0 {1,S} {8,D}
+5    Cs                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+8    C                     u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 797,
+    label = "Cds-CdCd_Cds-CtCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cs u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 798,
+    label = "Cds-CdCd_Cds-CbCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cs u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 799,
+    label = "Cds-CdCd_Cds-COCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cs u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 800,
+    label = "Cds-CdCd_Cds-CdCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+9    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 801,
+    label = "Cds-CdCd_Cds-C=SCs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {9,D}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 802,
+    label = "Cds-CdCd_Cds-OneDeOs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cd                    u0 {1,S} {8,D}
+5    Os                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+8    C                     u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 803,
+    label = "Cds-CdCd_Cds-CtOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Os u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 804,
+    label = "Cds-CdCd_Cds-CbOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Os u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 805,
+    label = "Cds-CdCd_Cds-COOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Os u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 806,
+    label = "Cds-CdCd_Cds-CdOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+9    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 807,
+    label = "Cds-CdCd_Cds-C=SOs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {9,D}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 808,
+    label = "Cds-CdCd_Cds-OneDeSs",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cd                    u0 {1,S} {8,D}
+5    Ss                    u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+8    C                     u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 809,
+    label = "Cds-CdCd_Cds-CtSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 810,
+    label = "Cds-CdCd_Cds-CbSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 811,
+    label = "Cds-CdCd_Cds-COSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 812,
+    label = "Cds-CdCd_Cds-CdSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {9,D}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+9    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 813,
+    label = "Cds-CdCd_Cds-C=SSs",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {9,D}
+5    Ss u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 814,
+    label = "Cds-CdCd_Cds-TwoDe",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    Cd                    u0 {1,S} {7,D}
+4    Cd                    u0 {1,S} {8,D}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+6    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+7    C                     u0 {3,D}
+8    C                     u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 815,
+    label = "Cds-CdCd_Cds-CtCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ct u0 {2,S}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 816,
+    label = "Cds-CdCd_Cds-CtCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ct u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 817,
+    label = "Cds-CdCd_Cds-CtCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Ct u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 818,
+    label = "Cds-CdCd_Cds-CbCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cb u0 {2,S}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 819,
+    label = "Cds-CdCd_Cds-CbCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cb u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 820,
+    label = "Cds-CdCd_Cds-COCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    CO u0 {2,S}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 821,
+    label = "Cds-CdCd_Cds-CdCt",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cd u0 {2,S} {9,D}
+6    Ct u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+9    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 822,
+    label = "Cds-CdCd_Cds-CdCb",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cd u0 {2,S} {9,D}
+6    Cb u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+9    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 823,
+    label = "Cds-CdCd_Cds-CdCO",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cd u0 {1,S} {8,D}
+5    Cd u0 {2,S} {9,D}
+6    CO u0 {2,S}
+7    C  u0 {3,D}
+8    C  u0 {4,D}
+9    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 824,
+    label = "Cds-CdCd_Cds-CtC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {9,D}
+5    Ct u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 825,
+    label = "Cds-CdCd_Cds-CbC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {9,D}
+5    Cb u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 826,
+    label = "Cds-CdCd_Cds-COC=S",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {9,D}
+5    CO u0 {2,S}
+6    Cd u0 {2,S} {7,D}
+7    Sd u0 {6,D}
+8    C  u0 {3,D}
+9    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 827,
+    label = "Cds-CdCd_Cds-CdCd",
+    group = 
+"""
+1  *1 Cd u0 {2,D} {3,S} {4,S}
+2  *2 Cd u0 {1,D} {5,S} {6,S}
+3     Cd u0 {1,S} {7,D}
+4     Cd u0 {1,S} {8,D}
+5     Cd u0 {2,S} {9,D}
+6     Cd u0 {2,S} {10,D}
+7     C  u0 {3,D}
+8     C  u0 {4,D}
+9     C  u0 {5,D}
+10    C  u0 {6,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 828,
+    label = "Cds-CdCd_Cds-CdC=S",
+    group = 
+"""
+1  *1 Cd u0 {2,D} {3,S} {4,S}
+2  *2 Cd u0 {1,D} {5,S} {6,S}
+3     Cd u0 {1,S} {8,D}
+4     Cd u0 {1,S} {9,D}
+5     Cd u0 {2,S} {10,D}
+6     Cd u0 {2,S} {7,D}
+7     Sd u0 {6,D}
+8     C  u0 {3,D}
+9     C  u0 {4,D}
+10    C  u0 {5,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 829,
+    label = "Cds-CdCd_Cds-C=SC=S",
+    group = 
+"""
+1  *1 Cd u0 {2,D} {3,S} {4,S}
+2  *2 Cd u0 {1,D} {5,S} {6,S}
+3     Cd u0 {1,S} {9,D}
+4     Cd u0 {1,S} {10,D}
+5     Cd u0 {2,S} {7,D}
+6     Cd u0 {2,S} {8,D}
+7     Sd u0 {5,D}
+8     Sd u0 {6,D}
+9     C  u0 {3,D}
+10    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 830,
+    label = "Cds-CdC=S_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {6,S} {7,S}
+3    Cd u0 {1,S} {8,D}
+4    Cd u0 {1,S} {5,D}
+5    Sd u0 {4,D}
+6    R  u0 {2,S}
+7    R  u0 {2,S}
+8    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 831,
+    label = "Cds-C=SC=S_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {7,S} {8,S}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {1,S} {6,D}
+5    Sd u0 {3,D}
+6    Sd u0 {4,D}
+7    R  u0 {2,S}
+8    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 832,
+    label = "Cds-OJH_Cds",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    O  u1 {1,S}
+4    H  u0 {1,S}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 833,
+    label = "Cds-OJH_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    O  u1 {1,S}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 834,
+    label = "Cds-OJH_Cds-CsH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    O  u1 {1,S}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 835,
+    label = "Cds-OJNonDe_Cds",
+    group = 
+"""
+1 *1 Cd                 u0 {2,D} {3,S} {4,S}
+2 *2 Cd                 u0 {1,D} {5,S} {6,S}
+3    O                  u1 {1,S}
+4    [Cs,Os,Ss,N3s,N5s] u0 {1,S}
+5    R                  u0 {2,S}
+6    R                  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 836,
+    label = "Cds-OJCs_Cds-HH",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    O  u1 {1,S}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 837,
+    label = "Cds-OJDe_Cds",
+    group = 
+"""
+1 *1 Cd                    u0 {2,D} {3,S} {4,S}
+2 *2 Cd                    u0 {1,D} {5,S} {6,S}
+3    O                     u1 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+5    R                     u0 {2,S}
+6    R                     u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 838,
+    label = "Ct_R",
+    group = 
+"""
+1 *1 Ct u0 {2,T}
+2 *2 R  u0 {1,T}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.096419, 'd13': 0.097646, 'd23': 0.16142},
+        uncertainties = {'d12': 0.033457, 'd13': 0.100011, 'd23': 0.117449},
+    ),
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
 Fitted to 3 distances.
-[<Entry index=119 label="OCO">, <Entry index=192 label="C_methyl">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=841 label="Ct-H_Ct-Cs">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 120,
-    label = "OSi",
+    index = 839,
+    label = "Ct_Ct",
     group = 
 """
-1 *1 Od 0 {2,D}
-2 *2 Si 0 {1,D}
+1 *1 Ct u0 {2,T}
+2 *2 Ct u0 {1,T}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.096419, 'd13': 0.097646, 'd23': 0.16142},
+        uncertainties = {'d12': 0.033457, 'd13': 0.100011, 'd23': 0.117449},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 3 distances.
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=841 label="Ct-H_Ct-Cs">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 121,
-    label = "SZ",
+    index = 840,
+    label = "Ct-H_Ct-H",
     group = 
 """
-1 *1 Sd 0 {2,D}
-2 *2 R  0 {1,D}
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    H  u0 {2,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.095925, 'd13': 0.097191, 'd23': 0.168306},
+        uncertainties = {'d12': 0.129762, 'd13': 0.352249, 'd23': 0.482854},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 2 distances.
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=938 label="CsJ-CsCsH">]
 """,
 )
 
 entry(
-    index = 122,
-    label = "Sd_Cdd",
+    index = 841,
+    label = "Ct-H_Ct-Cs",
     group = 
 """
-1 *1 Sd  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    R   0 {2,D}
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    Cs u0 {2,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.097407, 'd13': 0.098555, 'd23': 0.147648},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 1 distances.
+[<Entry index=841 label="Ct-H_Ct-Cs">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 123,
-    label = "Sd_Cdd/Sd",
+    index = 842,
+    label = "Ct-Cs_Ct-H",
     group = 
 """
-1 *1 Sd  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    Sd  0 {2,D}
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cs u0 {1,S}
+4    H  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+)
+
+entry(
+    index = 843,
+    label = "Ct-Cs_Ct-Cs",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cs u0 {1,S}
+4    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 844,
+    label = "Ct-H_Ct-De",
+    group = 
+"""
+1 *1 Ct                    u0 {2,T} {3,S}
+2 *2 Ct                    u0 {1,T} {4,S}
+3    H                     u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 845,
+    label = "Ct-H_Ct-Ct",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 846,
+    label = "Ct-H_Ct-Cb",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 847,
+    label = "Ct-H_Ct-CO",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 848,
+    label = "Ct-H_Ct-Cd",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    Cd u0 {2,S} {5,D}
+5    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 849,
+    label = "Ct-H_Ct-C=S",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    H  u0 {1,S}
+4    Cd u0 {2,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 850,
+    label = "Ct-Cs_Ct-De",
+    group = 
+"""
+1 *1 Ct                    u0 {2,T} {3,S}
+2 *2 Ct                    u0 {1,T} {4,S}
+3    Cs                    u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 851,
+    label = "Ct-Cs_Ct-Ct",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cs u0 {1,S}
+4    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 852,
+    label = "Ct-Cs_Ct-Cb",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cs u0 {1,S}
+4    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 853,
+    label = "Ct-Cs_Ct-CO",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cs u0 {1,S}
+4    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 854,
+    label = "Ct-Cs_Ct-Cd",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cs u0 {1,S}
+4    Cd u0 {2,S} {5,D}
+5    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 855,
+    label = "Ct-Cs_Ct-C=S",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cs u0 {1,S}
+4    Cd u0 {2,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 856,
+    label = "Ct-De_Ct-H",
+    group = 
+"""
+1 *1 Ct                    u0 {2,T} {3,S}
+2 *2 Ct                    u0 {1,T} {4,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    H                     u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 857,
+    label = "Ct-Cb_Ct-H",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cb u0 {1,S}
+4    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 858,
+    label = "Ct-CO_Ct-H",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    CO u0 {1,S}
+4    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 859,
+    label = "Ct-Cd_Ct-H",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 860,
+    label = "Ct-Ct_Ct-H",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Ct u0 {1,S} {5,T}
+4    H  u0 {2,S}
+5    Ct u0 {3,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 861,
+    label = "Ct-C=S_Ct-H",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {2,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 862,
+    label = "Ct-De_Ct-Cs",
+    group = 
+"""
+1 *1 Ct                    u0 {2,T} {3,S}
+2 *2 Ct                    u0 {1,T} {4,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Cs                    u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 863,
+    label = "Ct-Cb_Ct-Cs",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cb u0 {1,S}
+4    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 864,
+    label = "Ct-CO_Ct-Cs",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    CO u0 {1,S}
+4    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 865,
+    label = "Ct-Cd_Ct-Cs",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Ct u0 {1,S} {5,T}
+4    Cs u0 {2,S}
+5    Ct u0 {3,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 866,
+    label = "Ct-Ct_Ct-Cs",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 867,
+    label = "Ct-C=S_Ct-Cs",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {2,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 868,
+    label = "Ct-De_Ct-De",
+    group = 
+"""
+1 *1 Ct                    u0 {2,T} {3,S}
+2 *2 Ct                    u0 {1,T} {4,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 869,
+    label = "Ct-Ct_Ct-Ct",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Ct u0 {1,S}
+4    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 870,
+    label = "Ct-Cd_Ct-Ct",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    Ct u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 871,
+    label = "Ct-Ct_Ct-Cd",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Ct u0 {1,S}
+4    Cd u0 {2,S} {5,D}
+5    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 872,
+    label = "Ct-Cd_Ct-Cd",
+    group = 
+"""
+1 *1 Ct u0 {2,T} {3,S}
+2 *2 Ct u0 {1,T} {4,S}
+3    Cd u0 {1,S} {5,D}
+4    Cd u0 {2,S} {6,D}
+5    C  u0 {3,D}
+6    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 300,
+    label = "Ct_Nt",
+    group = 
+"""
+1 *1 Ct        u0 {2,T}
+2 *2 [N3t,N5t] u0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 301,
+    label = "Ct_N3t",
+    group = 
+"""
+1 *1 Ct  u0 {2,T}
+2 *2 N3t u0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 303,
+    label = "Ct-H_N3t",
+    group = 
+"""
+1 *1 Ct  u0 {2,T} {3,S}
+2 *2 N3t u0 {1,T}
+3    H   u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 304,
+    label = "Ct-NonDe_N3t",
+    group = 
+"""
+1 *1 Ct                 u0 {2,T} {3,S}
+2 *2 N3t                u0 {1,T}
+3    [Cs,N3s,N5s,Os,Ss] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 305,
+    label = "Ct-OneDe_N3t",
+    group = 
+"""
+1 *1 Ct                    u0 {2,T} {3,S}
+2 *2 N3t                   u0 {1,T}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 302,
+    label = "Ct_N5t",
+    group = 
+"""
+1 *1 Ct  u0 {2,T}
+2 *2 N5t u0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 873,
+    label = "Od_R",
+    group = 
+"""
+1 *1 Od  u0 {2,D}
+2 *2 R!H u0 {1,D}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.057006, 'd13': -0.31266, 'd23': -0.131821},
+        uncertainties = {'d12': 0.031587, 'd13': 0.111693, 'd23': 0.080907},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=876 label="Od_Cd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 124,
-    label = "Sd_Cdd/Od",
+    index = 874,
+    label = "Od_Cdd",
     group = 
 """
-1 *1 Sd  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    Od  0 {2,D}
+1 *1 Od u0 {2,D}
+2 *2 C  u0 {1,D} {3,D}
+3    R  u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+)
+
+entry(
+    index = 875,
+    label = "Od_Cdd-Od",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 C  u0 {1,D} {3,D}
+3    O  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 876,
+    label = "Od_Cd",
+    group = 
+"""
+1 *1 Od u0 {2,D}
+2 *2 C  u0 {1,D} {3,S} {4,S}
+3    R  u0 {2,S}
+4    R  u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.057006, 'd13': -0.31266, 'd23': -0.131821},
+        uncertainties = {'d12': 0.031587, 'd13': 0.111693, 'd23': 0.080907},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=876 label="Od_Cd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
-    index = 125,
-    label = "Sd_Cds",
+    index = 877,
+    label = "Od_Cd-CsH",
     group = 
 """
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    R  0 {2,S}
-4    R  0 {2,S}
+1 *1 Od u0 {2,D}
+2 *2 CO u0 {1,D} {3,S} {4,S}
+3    Cs u0 {2,S}
+4    H  u0 {2,S}
 """,
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+    distances = DistanceData(
+        distances = {'d12': -0.055954, 'd13': -0.311435, 'd23': -0.131689},
+        uncertainties = {'d12': 0.125284, 'd13': 0.364322, 'd23': 0.196373},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
-""",
-)
-
-entry(
-    index = 126,
-    label = "Sd_Cds/H2",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    H  0 {2,S}
-4    H  0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 127,
-    label = "Sd_Cds/H/NonDe",
-    group = 
-"""
-1 *1 Sd       0 {2,D}
-2 *2 Cd       0 {1,D} {3,S} {4,S}
-3    {Cs,O,S} 0 {2,S}
-4    H        0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 128,
-    label = "Sd_Cds/NonDe2",
-    group = 
-"""
-1 *1 Sd       0 {2,D}
-2 *2 Cd       0 {1,D} {3,S} {4,S}
-3    {Cs,O,S} 0 {2,S}
-4    {Cs,O,S} 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 129,
-    label = "Sd_Cds/CsO",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cs 0 {2,S}
-4    O  0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 130,
-    label = "Sd_Cds/H/OneDe",
-    group = 
-"""
-1 *1 Sd               0 {2,D}
-2 *2 Cd               0 {1,D} {3,S} {4,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-4    H                0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 131,
-    label = "Sd_Cds/H/Ct",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Ct 0 {2,S}
-4    H  0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 132,
-    label = "Sd_Cds/H/Cb",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cb 0 {2,S}
-4    H  0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 133,
-    label = "Sd_Cds/H/CO",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    CO 0 {2,S}
-4    H  0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 134,
-    label = "Sd_Cds/H/Cd",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {5,D}
-4    H  0 {2,S}
-5    C  0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 135,
-    label = "Sd_Cds/H/CS",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {5,D}
-4    H  0 {2,S}
-5    Sd 0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 136,
-    label = "Sd_Cds/NonDe/OneDe",
-    group = 
-"""
-1 *1 Sd               0 {2,D}
-2 *2 Cd               0 {1,D} {3,S} {4,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-4    {Cs,O,S}         0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 137,
-    label = "Sd_Cds/NonDe/Ct",
-    group = 
-"""
-1 *1 Sd       0 {2,D}
-2 *2 Cd       0 {1,D} {3,S} {4,S}
-3    Ct       0 {2,S}
-4    {Cs,O,S} 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 138,
-    label = "Sd_Cds/NonDe/Cb",
-    group = 
-"""
-1 *1 Sd       0 {2,D}
-2 *2 Cd       0 {1,D} {3,S} {4,S}
-3    Cb       0 {2,S}
-4    {Cs,O,S} 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 139,
-    label = "Sd_Cds/NonDe/CO",
-    group = 
-"""
-1 *1 Sd       0 {2,D}
-2 *2 Cd       0 {1,D} {3,S} {4,S}
-3    CO       0 {2,S}
-4    {Cs,O,S} 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 140,
-    label = "Sd_Cds/NonDe/Cd",
-    group = 
-"""
-1 *1 Sd       0 {2,D}
-2 *2 Cd       0 {1,D} {3,S} {4,S}
-3    Cd       0 {2,S} {5,D}
-4    {Cs,O,S} 0 {2,S}
-5    C        0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 141,
-    label = "Sd_Cds/NonDe/CS",
-    group = 
-"""
-1 *1 Sd       0 {2,D}
-2 *2 Cd       0 {1,D} {3,S} {4,S}
-3    Cd       0 {2,S} {5,D}
-4    {Cs,O,S} 0 {2,S}
-5    Sd       0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 142,
-    label = "Sd_Cds/TwoDe",
-    group = 
-"""
-1 *1 Sd               0 {2,D}
-2 *2 Cd               0 {1,D} {3,S} {4,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 143,
-    label = "Sd_Cds/CtCt",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Ct 0 {2,S}
-4    Ct 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 144,
-    label = "Sd_Cds/CtCb",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Ct 0 {2,S}
-4    Cb 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 145,
-    label = "Sd_Cds/CtCO",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Ct 0 {2,S}
-4    CO 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 146,
-    label = "Sd_Cds/CbCb",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cb 0 {2,S}
-4    Cb 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 147,
-    label = "Sd_Cds/CbCO",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cb 0 {2,S}
-4    CO 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 148,
-    label = "Sd_Cds/COCO",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    CO 0 {2,S}
-4    CO 0 {2,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 149,
-    label = "Sd_Cds/CdCt",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {5,D}
-4    Ct 0 {2,S}
-5    C  0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 150,
-    label = "Sd_Cds/CtCS",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Ct 0 {2,S}
-4    Cd 0 {2,S} {5,D}
-5    Sd 0 {4,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 151,
-    label = "Sd_Cds/CdCb",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {5,D}
-4    Cb 0 {2,S}
-5    C  0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 152,
-    label = "Sd_Cds/CbCS",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cb 0 {2,S}
-4    Cd 0 {2,S} {5,D}
-5    Sd 0 {4,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 153,
-    label = "Sd_Cds/CdCO",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {5,D}
-4    CO 0 {2,S}
-5    C  0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 154,
-    label = "Sd_Cds/COCS",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    CO 0 {2,S}
-4    Cd 0 {2,S} {5,D}
-5    Sd 0 {4,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 155,
-    label = "Sd_Cds/CdCd",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {5,D}
-4    Cd 0 {2,S} {6,D}
-5    C  0 {3,D}
-6    C  0 {4,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 156,
-    label = "Sd_Cds/CdCS",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {6,D}
-4    Cd 0 {2,S} {5,D}
-5    Sd 0 {4,D}
-6    C  0 {3,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 157,
-    label = "Sd_Cds/CSCS",
-    group = 
-"""
-1 *1 Sd 0 {2,D}
-2 *2 Cd 0 {1,D} {3,S} {4,S}
-3    Cd 0 {2,S} {5,D}
-4    Cd 0 {2,S} {6,D}
-5    Sd 0 {3,D}
-6    Sd 0 {4,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 158,
-    label = "OCddO",
-    group = 
-"""
-1 *1 Od  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    Od  0 {2,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 159,
-    label = "OSiddO",
-    group = 
-"""
-1 *1 Od   0 {2,D}
-2 *2 Sidd 0 {1,D} {3,D}
-3    Od   0 {2,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+Fitted to 2 distances.
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=936 label="CsJ-HHH">]
 """,
 )
 
 entry(
     index = 311,
-    label = "Od_N",
+    label = "Od_Nd",
     group = 
 """
-1 *1 Od 0 {2,D}
-2 *2 N  0 {1,D}
+1 *1 Od u0 {2,D}
+2 *2 N  u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3583,17 +14059,10 @@ entry(
     label = "Od_N3d",
     group = 
 """
-1 *1 Od  0 {2,D}
-2 *2 N3d 0 {1,D}
+1 *1 Od  u0 {2,D}
+2 *2 N3d u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3601,45 +14070,28 @@ entry(
     label = "Od_N5d",
     group = 
 """
-1 *1 Od  0 {2,D}
-2 *2 N5d 0 {1,D}
+1 *1 Od  u0 {2,D}
+2 *2 N5d u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 314,
-    label = "N_R",
-    group = "OR{N3_R, N5t_R}",
+    label = "Nd_R",
+    group = "OR{N1d_R, N3d_R}",
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 315,
-    label = "N3_R",
-    group = "OR{N3d_R, N3t_R}",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+    index = 394,
+    label = "N1d_R",
+    group = 
+"""
+1 *1 N1d u0 p2 {2,D}
+2 *2 R!H u0 p0 {1,D}
 """,
+    distances = DistanceData(distances={}),
 )
 
 entry(
@@ -3647,53 +14099,21 @@ entry(
     label = "N3d_R",
     group = 
 """
-1 *1 N3d 0 {2,D}
-2 *2 R!H 0 {1,D}
+1 *1 N3d u0 {2,D}
+2 *2 R!H u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 317,
-    label = "N3d_C",
+    label = "N3d_Cd",
     group = 
 """
-1 *1 N3d      0 {2,D}
-2 *2 {Cd,Cdd} 0 {1,D}
+1 *1 N3d      u0 {2,D}
+2 *2 [Cd,Cdd] u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 325,
-    label = "N3d_Cdd",
-    group = 
-"""
-1 *1 N3d 0 {2,D}
-2 *2 Cdd 0 {1,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3701,145 +14121,107 @@ entry(
     label = "N3d_Cds",
     group = 
 """
-1 *1 N3d 0 {2,D}
-2 *2 Cd  0 {1,D} {3,S} {4,S}
-3    R   0 {2,S}
-4    R   0 {2,S}
+1 *1 N3d u0 {2,D}
+2 *2 Cd  u0 {1,D} {3,S} {4,S}
+3    R   u0 {2,S}
+4    R   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 319,
-    label = "N3d/H_Cds",
+    label = "N3d-H_Cds",
     group = 
 """
-1 *1 N3d 0 {2,D} {5,S}
-2 *2 Cd  0 {1,D} {3,S} {4,S}
-3    R   0 {2,S}
-4    R   0 {2,S}
-5    H   0 {1,S}
+1 *1 N3d u0 {2,D} {5,S}
+2 *2 Cd  u0 {1,D} {3,S} {4,S}
+3    R   u0 {2,S}
+4    R   u0 {2,S}
+5    H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 320,
-    label = "N3d/H_Cds/H2",
+    label = "N3d-H_Cds-HH",
     group = 
 """
-1 *1 N3d 0 {2,D} {5,S}
-2 *2 Cd  0 {1,D} {3,S} {4,S}
-3    H   0 {2,S}
-4    H   0 {2,S}
-5    H   0 {1,S}
+1 *1 N3d u0 {2,D} {5,S}
+2 *2 Cd  u0 {1,D} {3,S} {4,S}
+3    H   u0 {2,S}
+4    H   u0 {2,S}
+5    H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 321,
-    label = "N3d/H_Cds_sec",
+    label = "N3d-H_Cds-NonDeH",
     group = 
 """
-1 *1 N3d 0 {2,D} {5,S}
-2 *2 Cd  0 {1,D} {3,S} {4,S}
-3    R!H 0 {2,S}
-4    H   0 {2,S}
-5    H   0 {1,S}
+1 *1 N3d                u0 {2,D} {5,S}
+2 *2 Cd                 u0 {1,D} {3,S} {4,S}
+3    [Cs,Os,Ss,N3s,N5s] u0 {2,S}
+4    H                  u0 {2,S}
+5    H                  u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 322,
-    label = "N3d/H_Cds_ter",
+    label = "N3d-H_Cds-NonDe2",
     group = 
 """
-1 *1 N3d 0 {2,D} {5,S}
-2 *2 Cd  0 {1,D} {3,S} {4,S}
-3    R!H 0 {2,S}
-4    R!H 0 {2,S}
-5    H   0 {1,S}
+1 *1 N3d                u0 {2,D} {5,S}
+2 *2 Cd                 u0 {1,D} {3,S} {4,S}
+3    [Cs,Os,Ss,N3s,N5s] u0 {2,S}
+4    [Cs,Os,Ss,N3s,N5s] u0 {2,S}
+5    H                  u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 323,
-    label = "N3d/NonDe_Cds",
+    label = "N3d-NonDe_Cds",
     group = 
 """
-1 *1 N3d         0 {2,D} {5,S}
-2 *2 Cd          0 {1,D} {3,S} {4,S}
-3    R!H         0 {2,S}
-4    R!H         0 {2,S}
-5    {Cs,N3s,Os} 0 {1,S}
+1 *1 N3d                u0 {2,D} {5,S}
+2 *2 Cd                 u0 {1,D} {3,S} {4,S}
+3    R!H                u0 {2,S}
+4    R!H                u0 {2,S}
+5    [Cs,N3s,N5s,Os,Ss] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 324,
-    label = "N3d/OneDe_Cds",
+    label = "N3d-OneDe_Cds",
     group = 
 """
-1 *1 N3d                   0 {2,D} {5,S}
-2 *2 Cd                    0 {1,D} {3,S} {4,S}
-3    R!H                   0 {2,S}
-4    R!H                   0 {2,S}
-5    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
+1 *1 N3d                   u0 {2,D} {5,S}
+2 *2 Cd                    u0 {1,D} {3,S} {4,S}
+3    R!H                   u0 {2,S}
+4    R!H                   u0 {2,S}
+5    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+)
 
+entry(
+    index = 325,
+    label = "N3d_Cdd",
+    group = 
+"""
+1 *1 N3d u0 {2,D}
+2 *2 Cdd u0 {1,D}
 """,
+    distances = DistanceData(distances={}),
 )
 
 entry(
@@ -3847,92 +14229,57 @@ entry(
     label = "N3d_Od",
     group = 
 """
-1 *1 N3d 0 {2,D}
-2 *2 Od  0 {1,D}
+1 *1 N3d u0 {2,D}
+2 *2 Od  u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 327,
-    label = "N3d/H_Od",
+    label = "N3d-H_Od",
     group = 
 """
-1 *1 N3d 0 {2,D} {3,S}
-2 *2 Od  0 {1,D}
-3    H   0 {1,S}
+1 *1 N3d u0 {2,D} {3,S}
+2 *2 Od  u0 {1,D}
+3    H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 328,
-    label = "N3d/NonDe_Od",
+    label = "N3d-NonDe_Od",
     group = 
 """
-1 *1 N3d         0 {2,D} {3,S}
-2 *2 Od          0 {1,D}
-3    {Cs,N3s,Os} 0 {1,S}
+1 *1 N3d            u0 {2,D} {3,S}
+2 *2 Od             u0 {1,D}
+3    [Cs,N3s,Os,Ss] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 329,
-    label = "N3d/OneDe_Od",
+    label = "N3d-OneDe_Od",
     group = 
 """
-1 *1 N3d                   0 {2,D} {3,S}
-2 *2 Od                    0 {1,D}
-3    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
+1 *1 N3d                   u0 {2,D} {3,S}
+2 *2 Od                    u0 {1,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 330,
-    label = "N3d_N",
+    label = "N3d_Nd",
     group = 
 """
-1 *1 N3d 0 {2,D}
-2 *2 N   0 {1,D}
+1 *1 N3d u0 {2,D}
+2 *2 N   u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3940,152 +14287,103 @@ entry(
     label = "N3d_N3d",
     group = 
 """
-1 *1 N3d 0 {2,D}
-2 *2 N3d 0 {1,D}
+1 *1 N3d u0 {2,D}
+2 *2 N3d u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 331,
-    label = "N3d/H_N3d",
+    label = "N3d-H_N3d",
     group = 
 """
-1 *1 N3d 0 {2,D} {3,S}
-2 *2 N3d 0 {1,D}
-3    H   0 {1,S}
+1 *1 N3d u0 {2,D} {3,S}
+2 *2 N3d u0 {1,D}
+3    H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 332,
-    label = "N3d/H_N3d/H",
+    label = "N3d-H_N3d-H",
     group = 
 """
-1 *1 N3d 0 {2,D} {3,S}
-2 *2 N3d 0 {1,D} {4,S}
-3    H   0 {1,S}
-4    H   0 {2,S}
+1 *1 N3d u0 {2,D} {3,S}
+2 *2 N3d u0 {1,D} {4,S}
+3    H   u0 {1,S}
+4    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 333,
-    label = "N3d/H_N3d/NonDe",
+    label = "N3d-H_N3d-NonDe",
     group = 
 """
-1 *1 N3d         0 {2,D} {3,S}
-2 *2 N3d         0 {1,D} {4,S}
-3    H           0 {1,S}
-4    {Cs,N3s,Os} 0 {2,S}
+1 *1 N3d            u0 {2,D} {3,S}
+2 *2 N3d            u0 {1,D} {4,S}
+3    H              u0 {1,S}
+4    [Cs,N3s,Os,Ss] u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 334,
-    label = "N3d/H_N3d/OneDe",
+    label = "N3d-H_N3d-OneDe",
     group = 
 """
-1 *1 N3d                   0 {2,D} {3,S}
-2 *2 N3d                   0 {1,D} {4,S}
-3    H                     0 {1,S}
-4    {Cd,Ct,Cb,CO,N3d,N5d} 0 {2,S}
+1 *1 N3d                   u0 {2,D} {3,S}
+2 *2 N3d                   u0 {1,D} {4,S}
+3    H                     u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 335,
-    label = "N3d/NonDe_N3d",
+    label = "N3d-NonDe_N3d",
     group = 
 """
-1 *1 N3d         0 {2,D} {3,S}
-2 *2 N3d         0 {1,D}
-3    {Cs,N3s,Os} 0 {1,S}
+1 *1 N3d            u0 {2,D} {3,S}
+2 *2 N3d            u0 {1,D}
+3    [Cs,N3s,Os,Ss] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 336,
-    label = "N3d/OneDe_N3d",
+    label = "N3d-OneDe_N3d",
     group = 
 """
-1 *1 N3d                   0 {2,D} {3,S}
-2 *2 N3d                   0 {1,D}
-3    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
+1 *1 N3d                   u0 {2,D} {3,S}
+2 *2 N3d                   u0 {1,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 337,
-    label = "N3d_N5",
+    label = "N3d_N5d",
     group = 
 """
-1 *1 N3d       0 {2,D}
-2 *2 {N5d,N5t} 0 {1,D}
+1 *1 N3d       u0 {2,D}
+2 *2 [N5d,N5t] u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 314,
+    label = "Nt_R",
+    group = "OR{N3t_R, N5t_R}",
+    distances = DistanceData(distances={}),
 )
 
 entry(
@@ -4093,17 +14391,10 @@ entry(
     label = "N3t_R",
     group = 
 """
-1 *1 N3t 0 {2,T}
-2 *2 R!H 0 {1,T}
+1 *1 N3t u0 {2,T}
+2 *2 R!H u0 {1,T}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4111,74 +14402,46 @@ entry(
     label = "N3t_Ct",
     group = 
 """
-1 *1 N3t 0 {2,T}
-2 *2 Ct  0 {1,T}
+1 *1 N3t u0 {2,T}
+2 *2 Ct  u0 {1,T}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 339,
-    label = "N3t_Ct/H",
+    label = "N3t_Ct-H",
     group = 
 """
-1 *1 N3t 0 {2,T}
-2 *2 Ct  0 {1,T} {3,S}
-3    H   0 {2,S}
+1 *1 N3t u0 {2,T}
+2 *2 Ct  u0 {1,T} {3,S}
+3    H   u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 340,
-    label = "N3t_Ct/NonDe",
+    label = "N3t_Ct-NonDe",
     group = 
 """
-1 *1 N3t         0 {2,T}
-2 *2 Ct          0 {1,T} {3,S}
-3    {Cs,N3s,Os} 0 {2,S}
+1 *1 N3t                u0 {2,T}
+2 *2 Ct                 u0 {1,T} {3,S}
+3    [Cs,N3s,N5s,Os,Ss] u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 341,
-    label = "N3t_Ct/OneDe",
+    label = "N3t_Ct-OneDe",
     group = 
 """
-1 *1 N3t                   0 {2,T}
-2 *2 Ct                    0 {1,T} {3,S}
-3    {Cd,Ct,Cb,CO,N3d,N5d} 0 {2,S}
+1 *1 N3t                   u0 {2,T}
+2 *2 Ct                    u0 {1,T} {3,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4186,17 +14449,10 @@ entry(
     label = "N3t_N3t",
     group = 
 """
-1 *1 N3t 0 {2,T}
-2 *2 N3t 0 {1,T}
+1 *1 N3t u0 {2,T}
+2 *2 N3t u0 {1,T}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4204,216 +14460,2686 @@ entry(
     label = "N5t_R",
     group = 
 """
-1 *1 N5t 0 {2,T}
-2 *2 R   0 {1,T}
+1 *1 N5t u0 {2,T}
+2 *2 R   u0 {1,T}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 393,
-    label = "Y_1centerquadrad",
-    group = "OR{C_quintet, C_triplet, C_singlet}",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 383,
-    label = "C_quintet",
+    index = 878,
+    label = "Sd_R",
     group = 
 """
-1 *3 C 4V
+1 *1 Sd u0 {2,D}
+2 *2 R  u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 384,
-    label = "C_triplet",
+    index = 879,
+    label = "Sd_Cdd",
     group = 
 """
-1 *3 C 4T
+1 *1 Sd  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    R   u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 385,
-    label = "C_singlet",
+    index = 880,
+    label = "Sd_Cdd-Sd",
     group = 
 """
-1 *3 C 4S
+1 *1 Sd  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    Sd  u0 {2,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 344,
-    label = "Y_1centertrirad",
-    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 386,
-    label = "N_atom_quartet",
+    index = 881,
+    label = "Sd_Cd",
     group = 
 """
-1 *3 N 3Q
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    R  u0 {2,S}
+4    R  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 387,
-    label = "N_atom_doublet",
+    index = 882,
+    label = "Sd_Cds-HH",
     group = 
 """
-1 *3 N 3D
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    H  u0 {2,S}
+4    H  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 388,
-    label = "CH_quartet",
+    index = 883,
+    label = "Sd_Cds-CsH",
     group = 
 """
-1 *3 C 3Q {2,S}
-2    H 0  {1,S}
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cs u0 {2,S}
+4    H  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 389,
-    label = "CH_doublet",
+    index = 884,
+    label = "Sd_Cds-OsH",
     group = 
 """
-1 *3 C 3D {2,S}
-2    H 0  {1,S}
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Os u0 {2,S}
+4    H  u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 347,
-    label = "Y_2centerbirad",
-    group = "OR{O2b, C2b}",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 348,
-    label = "O2b",
+    index = 885,
+    label = "Sd_Cds-OsCs",
     group = 
 """
-1 *3 Os 1 {2,S}
-2    Os 1 {1,S}
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Os u0 {2,S}
+4    Cs u0 {2,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+)
+
+entry(
+    index = 886,
+    label = "Sd_Cds-CsCs",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cs u0 {2,S}
+4    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 887,
+    label = "Sd_Cds-OneDeH",
+    group = 
+"""
+1 *1 Sd                    u0 {2,D}
+2 *2 Cd                    u0 {1,D} {3,S} {4,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+4    H                     u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 888,
+    label = "Sd_Cds-CtH",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 889,
+    label = "Sd_Cds-CbH",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cb u0 {2,S}
+4    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 890,
+    label = "Sd_Cds-COH",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    CO u0 {2,S}
+4    H  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 891,
+    label = "Sd_Cds-CdH",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    H  u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 892,
+    label = "Sd_Cds-C=SH",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    H  u0 {2,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 893,
+    label = "Sd_Cds-OneDeCs",
+    group = 
+"""
+1 *1 Sd                    u0 {2,D}
+2 *2 Cd                    u0 {1,D} {3,S} {4,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+4    Cs                    u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 894,
+    label = "Sd_Cds-CtCs",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 895,
+    label = "Sd_Cds-CbCs",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cb u0 {2,S}
+4    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 896,
+    label = "Sd_Cds-COCs",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    CO u0 {2,S}
+4    Cs u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 897,
+    label = "Sd_Cds-CdCs",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    Cs u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 898,
+    label = "Sd_Cds-C=SCs",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    Cs u0 {2,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 899,
+    label = "Sd_Cds-TwoDe",
+    group = 
+"""
+1 *1 Sd                    u0 {2,D}
+2 *2 Cd                    u0 {1,D} {3,S} {4,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 900,
+    label = "Sd_Cds-CtCt",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    Ct u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 901,
+    label = "Sd_Cds-CtCb",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 902,
+    label = "Sd_Cds-CtCO",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 903,
+    label = "Sd_Cds-CbCb",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cb u0 {2,S}
+4    Cb u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 904,
+    label = "Sd_Cds-CbCO",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cb u0 {2,S}
+4    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 905,
+    label = "Sd_Cds-COCO",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    CO u0 {2,S}
+4    CO u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 906,
+    label = "Sd_Cds-CdCt",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    Ct u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 907,
+    label = "Sd_Cds-CdCb",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    Cb u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 908,
+    label = "Sd_Cds-CdCO",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    CO u0 {2,S}
+5    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 909,
+    label = "Sd_Cds-CtC=S",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Ct u0 {2,S}
+4    Cd u0 {2,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 910,
+    label = "Sd_Cds-CbC=S",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cb u0 {2,S}
+4    Cd u0 {2,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 911,
+    label = "Sd_Cds-COC=S",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    CO u0 {2,S}
+4    Cd u0 {2,S} {5,D}
+5    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 912,
+    label = "Sd_Cds-CdCd",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    Cd u0 {2,S} {6,D}
+5    C  u0 {3,D}
+6    C  u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 913,
+    label = "Sd_Cds-CdC=S",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {6,D}
+4    Cd u0 {2,S} {5,D}
+5    Sd u0 {4,D}
+6    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 914,
+    label = "Sd_Cds-C=SC=S",
+    group = 
+"""
+1 *1 Sd u0 {2,D}
+2 *2 Cd u0 {1,D} {3,S} {4,S}
+3    Cd u0 {2,S} {5,D}
+4    Cd u0 {2,S} {6,D}
+5    Sd u0 {3,D}
+6    Sd u0 {4,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 915,
+    label = "HJ",
+    group = 
+"""
+1 *3 H u1
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.048651, 'd13': -0.225192, 'd23': -0.282871},
+        uncertainties = {'d12': 0.092411, 'd13': 0.554204, 'd23': 0.595912},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 4 distances.
+[<Entry index=5 label="CO2">, <Entry index=915 label="HJ">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=915 label="HJ">]
+[<Entry index=12 label="CO/H/De_O">, <Entry index=915 label="HJ">]
 """,
 )
 
 entry(
-    index = 349,
+    index = 916,
+    label = "CJ",
+    group = 
+"""
+1 *3 C u1
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.00355, 'd13': 0.01643, 'd23': 0.020639},
+        uncertainties = {'d12': 0.023478, 'd13': 0.040479, 'd23': 0.072585},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 49 distances.
+[<Entry index=129 label="Cds-HH_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=131 label="Cds-CsCs_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=841 label="Ct-H_Ct-Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=876 label="Od_Cd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 917,
+    label = "CbJ",
+    group = 
+"""
+1 *3 Cb u1
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 918,
+    label = "CtJ",
+    group = 
+"""
+1 *3 Ct u1 {2,T}
+2    R  u0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 355,
+    label = "CtJ_Ct",
+    group = 
+"""
+1 *3 Ct u1 {2,T}
+2    Ct u0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 356,
+    label = "CtJ_N3t",
+    group = 
+"""
+1 *3 Ct  u1 {2,T}
+2    N3t u0 {1,T}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 919,
     label = "C2b",
     group = 
 """
-1 *3 Ct 1 {2,S}
-2    Ct 1 {1,S}
+1 *3 C u1 {2,T}
+2    C u1 {1,T}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
+)
+
+entry(
+    index = 920,
+    label = "C=SJ",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    R  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 921,
+    label = "C=SJ-H",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 922,
+    label = "C=SJ-Cs",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 923,
+    label = "C=SJ-Ct",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    Ct u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 924,
+    label = "C=SJ-Cb",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    Cb u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 925,
+    label = "C=SJ-CO",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    CO u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 926,
+    label = "C=SJ-Os",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    Os u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 927,
+    label = "C=SJ-Ss",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    Ss u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 928,
+    label = "C=SJ-Cd",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    Cd u0 {1,S} {4,D}
+4    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 929,
+    label = "C=SJ-C=S",
+    group = 
+"""
+1 *3 Cd u1 {2,D} {3,S}
+2    Sd u0 {1,D}
+3    Cd u0 {1,S} {4,D}
+4    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 930,
+    label = "CO_rad",
+    group = 
+"""
+1 *3 C u1 {2,D} {3,S}
+2    O u0 {1,D}
+3    R u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 931,
+    label = "CO_pri_rad",
+    group = 
+"""
+1 *3 C u1 {2,D} {3,S}
+2    O u0 {1,D}
+3    H u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 932,
+    label = "CO_sec_rad",
+    group = 
+"""
+1 *3 C   u1 {2,D} {3,S}
+2    O   u0 {1,D}
+3    R!H u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 933,
+    label = "CO_rad/NonDe",
+    group = 
+"""
+1 *3 C                  u1 {2,D} {3,S}
+2    O                  u0 {1,D}
+3    [Cs,Ss,N3s,N5s,Os] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 934,
+    label = "CO_rad/OneDe",
+    group = 
+"""
+1 *3 C                     u1 {2,D} {3,S}
+2    O                     u0 {1,D}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 935,
+    label = "CsJ",
+    group = 
+"""
+1 *3 C u1 {2,S} {3,S} {4,S}
+2    R u0 {1,S}
+3    R u0 {1,S}
+4    R u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.005583, 'd13': 0.014593, 'd23': 0.021769},
+        uncertainties = {'d12': 0.017795, 'd13': 0.040764, 'd23': 0.06855},
+    ),
+    shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-
+Fitted to 47 distances.
+[<Entry index=129 label="Cds-HH_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=131 label="Cds-CsCs_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=841 label="Ct-H_Ct-Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=876 label="Od_Cd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
 """,
+)
+
+entry(
+    index = 936,
+    label = "CsJ-HHH",
+    group = 
+"""
+1 *3 C u1 {2,S} {3,S} {4,S}
+2    H u0 {1,S}
+3    H u0 {1,S}
+4    H u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.008482, 'd13': 0.033894, 'd23': 0.005081},
+        uncertainties = {'d12': 0.01729, 'd13': 0.045066, 'd23': 0.055793},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 22 distances.
+[<Entry index=388 label="Cds-CbH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=129 label="Cds-HH_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=131 label="Cds-CsCs_Sd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=223 label="Cds-CsH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=841 label="Ct-H_Ct-Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=876 label="Od_Cd">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=220 label="Cds-CsH_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=273 label="Cds-CsCs_Cds-HH">, <Entry index=936 label="CsJ-HHH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=936 label="CsJ-HHH">]
+""",
+)
+
+entry(
+    index = 937,
+    label = "CsJ-CsHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cs u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.004431, 'd13': 0.022733, 'd23': 0.047101},
+        uncertainties = {'d12': 0.013807, 'd13': 0.042362, 'd23': 0.064684},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 14 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=168 label="Cds-HH_Cds-Cs\Os/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=167 label="Cds-HH_Cds-CsH">, <Entry index=937 label="CsJ-CsHH">]
+[<Entry index=877 label="Od_Cd-CsH">, <Entry index=937 label="CsJ-CsHH">]
+""",
+)
+
+entry(
+    index = 938,
+    label = "CsJ-CsCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cs u0 {1,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.002234, 'd13': -0.030093, 'd23': -0.021802},
+        uncertainties = {'d12': 0.033205, 'd13': 0.065991, 'd23': 0.103589},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 5 distances.
+[<Entry index=840 label="Ct-H_Ct-H">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=13 label="CO/Nd2_O">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=11 label="CO/H/Cs">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=938 label="CsJ-CsCsH">]
+[<Entry index=222 label="Cds-CsH_Cds-CsH">, <Entry index=938 label="CsJ-CsCsH">]
+""",
+)
+
+entry(
+    index = 939,
+    label = "CsJ-CsCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cs u0 {1,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.021373, 'd13': -0.001223, 'd23': 0.105517},
+        uncertainties = {'d12': 0.073659, 'd13': 0.077935, 'd23': 0.308535},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 3 distances.
+[<Entry index=170 label="Cds-HH_Cds-CsCs">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=939 label="CsJ-CsCsCs">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=939 label="CsJ-CsCsCs">]
+""",
+)
+
+entry(
+    index = 940,
+    label = "CsJ-OsHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Os u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.015987, 'd13': 0.037982, 'd23': 0.060299},
+        uncertainties = {},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 1 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=940 label="CsJ-OsHH">]
+""",
+)
+
+entry(
+    index = 941,
+    label = "CsJ-OsCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Os u0 {1,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 942,
+    label = "CsJ-OsCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Os u0 {1,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 943,
+    label = "CsJ-OsOsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Os u0 {1,S}
+3    Os u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 944,
+    label = "CsJ-OsOsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Os u0 {1,S}
+3    Os u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 945,
+    label = "CsJ-OsOsOs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Os u0 {1,S}
+3    Os u0 {1,S}
+4    Os u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 946,
+    label = "CsJ-SsHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ss u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 947,
+    label = "CsJ-SsCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ss u0 {1,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 948,
+    label = "CsJ-SsCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ss u0 {1,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 949,
+    label = "CsJ-SsSsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ss u0 {1,S}
+3    Ss u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 950,
+    label = "CsJ-SsSsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ss u0 {1,S}
+3    Ss u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 951,
+    label = "CsJ-SsSsSs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ss u0 {1,S}
+3    Ss u0 {1,S}
+4    Ss u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 361,
+    label = "CsJ-NsHH",
+    group = 
+"""
+1 *3 C         u1 {2,S} {3,S} {4,S}
+2    H         u0 {1,S}
+3    H         u0 {1,S}
+4    [N3s,N5s] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 362,
+    label = "CsJ-NsCsH",
+    group = 
+"""
+1 *3 C         u1 {2,S} {3,S} {4,S}
+2    H         u0 {1,S}
+3    [N3s,N5s] u0 {1,S}
+4    Cs        u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 952,
+    label = "CsJ-OneDe",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [H,Cs,Os,Ss,N3s,N5s]  u0 {1,S}
+4    [H,Cs,Os,Ss,N3s,N5s]  u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.029508, 'd13': -0.107129, 'd23': -0.02983},
+        uncertainties = {'d12': 0.218231, 'd13': 0.294683, 'd23': 1.02429},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+""",
+)
+
+entry(
+    index = 953,
+    label = "CsJ-OneDeHH",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    H                     u0 {1,S}
+4    H                     u0 {1,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.029508, 'd13': -0.107129, 'd23': -0.02983},
+        uncertainties = {'d12': 0.218231, 'd13': 0.294683, 'd23': 1.02429},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+""",
+)
+
+entry(
+    index = 954,
+    label = "CsJ-CtHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 955,
+    label = "CsJ-CbHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 956,
+    label = "CsJ-COHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    CO u0 {1,S}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 957,
+    label = "CsJ-CdHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(
+        distances = {'d12': 0.029508, 'd13': -0.107129, 'd23': -0.02983},
+        uncertainties = {'d12': 0.218231, 'd13': 0.294683, 'd23': 1.02429},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=166 label="Cds-HH_Cds-HH">, <Entry index=957 label="CsJ-CdHH">]
+[<Entry index=169 label="Cds-HH_Cds-Cs\H3/H">, <Entry index=957 label="CsJ-CdHH">]
+""",
+)
+
+entry(
+    index = 958,
+    label = "CsJ-C=SHH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    H  u0 {1,S}
+4    H  u0 {1,S}
+5    Sd u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 959,
+    label = "CsJ-OneDeCsH",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Cs                    u0 {1,S}
+4    H                     u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 960,
+    label = "CsJ-CtCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 961,
+    label = "CsJ-CbCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 962,
+    label = "CsJ-COCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    CO u0 {1,S}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 963,
+    label = "CsJ-CdCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 964,
+    label = "CsJ-C=SCsH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cs u0 {1,S}
+4    H  u0 {1,S}
+5    Sd u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 965,
+    label = "CsJ-OneDeOsH",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Os                    u0 {1,S}
+4    H                     u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 966,
+    label = "CsJ-OneDeSsH",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Ss                    u0 {1,S}
+4    H                     u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 967,
+    label = "CsJ-OneDeCsCs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Cs                    u0 {1,S}
+4    Cs                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 968,
+    label = "CsJ-CtCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 969,
+    label = "CsJ-CbCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 970,
+    label = "CsJ-COCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    CO u0 {1,S}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 971,
+    label = "CsJ-CdCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 972,
+    label = "CsJ-C=SCsCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cs u0 {1,S}
+4    Cs u0 {1,S}
+5    Sd u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 973,
+    label = "CsJ-OneDeOsCs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Os                    u0 {1,S}
+4    Cs                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 974,
+    label = "CsJ-OneDeSsCs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Ss                    u0 {1,S}
+4    Cs                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 975,
+    label = "CsJ-OneDeOsOs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Os                    u0 {1,S}
+4    Os                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 976,
+    label = "CsJ-OneDeOsSs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Os                    u0 {1,S}
+4    Ss                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 977,
+    label = "CsJ-OneDeSsSs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Ss                    u0 {1,S}
+4    Ss                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 363,
+    label = "CsJ-OneDeNsH",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    H                     u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [N3s,N5s]             u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 394,
+    label = "CsJ-OneDeNsCs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Cs                    u0 {1,S}
+4    [N3s,N5s]             u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 978,
+    label = "CsJ-TwoDe",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [H,Cs,Os,Ss]          u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 979,
+    label = "CsJ-TwoDeH",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    H                     u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 980,
+    label = "CsJ-CtCtH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 981,
+    label = "CsJ-CtCbH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 982,
+    label = "CsJ-CtCOH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    CO u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 983,
+    label = "CsJ-CbCbH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 984,
+    label = "CsJ-CbCOH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    CO u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 985,
+    label = "CsJ-COCOH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    CO u0 {1,S}
+3    CO u0 {1,S}
+4    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 986,
+    label = "CsJ-CdCtH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Ct u0 {1,S}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 987,
+    label = "CsJ-CdCbH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cb u0 {1,S}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 988,
+    label = "CsJ-CdCOH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 989,
+    label = "CsJ-CtC=SH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 990,
+    label = "CsJ-CbC=SH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 991,
+    label = "CsJ-COC=SH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    CO u0 {1,S}
+3    Cd u0 {1,S} {5,D}
+4    H  u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 992,
+    label = "CsJ-CdCdH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cd u0 {1,S} {6,D}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+6    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 993,
+    label = "CsJ-CdC=SH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cd u0 {1,S} {6,D}
+4    H  u0 {1,S}
+5    C  u0 {2,D}
+6    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 994,
+    label = "CsJ-C=SC=SH",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cd u0 {1,S} {6,D}
+4    H  u0 {1,S}
+5    Sd u0 {2,D}
+6    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 995,
+    label = "CsJ-TwoDeCs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Cs                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 996,
+    label = "CsJ-CtCtCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 997,
+    label = "CsJ-CtCbCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 998,
+    label = "CsJ-CtCOCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    CO u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 999,
+    label = "CsJ-CbCbCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1000,
+    label = "CsJ-CbCOCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    CO u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1001,
+    label = "CsJ-COCOCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    CO u0 {1,S}
+3    CO u0 {1,S}
+4    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1002,
+    label = "CsJ-CdCtCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Ct u0 {1,S}
+4    Cs u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1003,
+    label = "CsJ-CdCbCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cb u0 {1,S}
+4    Cs u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1004,
+    label = "CsJ-CdCOCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    CO u0 {1,S}
+4    Cs u0 {1,S}
+5    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1005,
+    label = "CsJ-CtC=SCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Ct u0 {1,S}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1006,
+    label = "CsJ-CbC=SCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cb u0 {1,S}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1007,
+    label = "CsJ-COC=SCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    CO u0 {1,S}
+3    Cd u0 {1,S} {5,D}
+4    Cs u0 {1,S}
+5    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1008,
+    label = "CsJ-CdCdCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cd u0 {1,S} {6,D}
+4    Cs u0 {1,S}
+5    C  u0 {2,D}
+6    C  u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1009,
+    label = "CsJ-CdC=SCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cd u0 {1,S} {6,D}
+4    Cs u0 {1,S}
+5    C  u0 {2,D}
+6    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1010,
+    label = "CsJ-C=SC=SCs",
+    group = 
+"""
+1 *3 C  u1 {2,S} {3,S} {4,S}
+2    Cd u0 {1,S} {5,D}
+3    Cd u0 {1,S} {6,D}
+4    Cs u0 {1,S}
+5    Sd u0 {2,D}
+6    Sd u0 {3,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1011,
+    label = "CsJ-TwoDeOs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Os                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1012,
+    label = "CsJ-TwoDeSs",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    Ss                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1013,
+    label = "CsJ-ThreeDe",
+    group = 
+"""
+1 *3 C                     u1 {2,S} {3,S} {4,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+4    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1014,
+    label = "CdsJ=Cdd",
+    group = 
+"""
+1 *3 C u1 {2,D} {3,S}
+2    C u0 {1,D} {4,D}
+3    R u0 {1,S}
+4    R u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1015,
+    label = "CdsJ",
+    group = 
+"""
+1 *3 C u1 {2,D} {3,S}
+2    C u0 {1,D} {4,S} {5,S}
+3    R u0 {1,S}
+4    R u0 {2,S}
+5    R u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.047046, 'd13': 0.06215, 'd23': -0.007493},
+        uncertainties = {'d12': 0.690059, 'd13': 0.308371, 'd23': 1.21921},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=1016 label="CdsJ-H">]
+""",
+)
+
+entry(
+    index = 1016,
+    label = "CdsJ-H",
+    group = 
+"""
+1 *3 C u1 {2,D} {3,S}
+2    C u0 {1,D} {4,S} {5,S}
+3    H u0 {1,S}
+4    R u0 {2,S}
+5    R u0 {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d12': -0.047046, 'd13': 0.06215, 'd23': -0.007493},
+        uncertainties = {'d12': 0.690059, 'd13': 0.308371, 'd23': 1.21921},
+    ),
+    shortDesc = u"""Group additive distances.""",
+    longDesc = 
+u"""
+Fitted to 2 distances.
+[<Entry index=11 label="CO/H/Cs">, <Entry index=1016 label="CdsJ-H">]
+[<Entry index=9 label="CO/H2_O">, <Entry index=1016 label="CdsJ-H">]
+""",
+)
+
+entry(
+    index = 1017,
+    label = "CdsJ-Cs",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {4,S} {5,S}
+3    Cs u0 {1,S}
+4    R  u0 {2,S}
+5    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1018,
+    label = "CdsJ-Ct",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {4,S} {5,S}
+3    Ct u0 {1,S}
+4    R  u0 {2,S}
+5    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1019,
+    label = "CdsJ-Cb",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {4,S} {5,S}
+3    Cb u0 {1,S}
+4    R  u0 {2,S}
+5    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1020,
+    label = "CdsJ-CO",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {4,S} {5,S}
+3    CO u0 {1,S}
+4    R  u0 {2,S}
+5    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1021,
+    label = "CdsJ-Os",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {4,S} {5,S}
+3    Os u0 {1,S}
+4    R  u0 {2,S}
+5    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1022,
+    label = "CdsJ-Ss",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {4,S} {5,S}
+3    Ss u0 {1,S}
+4    R  u0 {2,S}
+5    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1023,
+    label = "CdsJ-Cd",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {4,D}
+4    C  u0 {3,D}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1024,
+    label = "CdsJ-C=S",
+    group = 
+"""
+1 *3 C  u1 {2,D} {3,S}
+2    C  u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {4,D}
+4    Sd u0 {3,D}
+5    R  u0 {2,S}
+6    R  u0 {2,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1025,
+    label = "OJ",
+    group = "OR{OJ_pri, OJ_sec, O2b}",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1026,
+    label = "OJ_pri",
+    group = 
+"""
+1 *3 O u1 {2,S}
+2    H u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1027,
+    label = "OJ_sec",
+    group = 
+"""
+1 *3 O   u1 {2,S}
+2    R!H u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1028,
+    label = "OJ-NonDe",
+    group = 
+"""
+1 *3 O                  u1 {2,S}
+2    [Cs,Os,Ss,N3s,N5s] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 3960,
+    label = "O_rad/NonDe",
+    group = 
+"""
+1 *3 O          u1 {2,S}
+2    [Cs,Os,Ss] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1029,
+    label = "OJ-Cs",
+    group = 
+"""
+1 *3 O  u1 {2,S}
+2    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1030,
+    label = "OJ-Os",
+    group = 
+"""
+1 *3 O  u1 {2,S}
+2    Os u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 357,
+    label = "OJ-Ns",
+    group = 
+"""
+1 *3 O         u1 {2,S}
+2    [N3s,N5s] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 358,
+    label = "OJ-OneDe",
+    group = 
+"""
+1 *3 O                     u1 {2,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 3950,
+    label = "O_rad/OneDe",
+    group = 
+"""
+1 *3 O             u1 {2,S}
+2    [Cd,Ct,Cb,CO] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 359,
+    label = "OJ-OneDeN",
+    group = 
+"""
+1 *3 O         u1 {2,S}
+2    [N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 360,
+    label = "OJ-NO",
+    group = 
+"""
+1 *3 O         u1 {2,S}
+2    [N3d,N5d] u0 {1,S} {3,D}
+3    Od        u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1032,
+    label = "O2b",
+    group = 
+"""
+1 *3 O u1 {2,S}
+2    O u1 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1037,
+    label = "SJ",
+    group = 
+"""
+1 *3 S u1 {2,S}
+2    R u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1038,
+    label = "SsJ",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    R  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1039,
+    label = "SsJ-H",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    H  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1040,
+    label = "SsJ-Cs",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    Cs u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1041,
+    label = "SsJ-Ss",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    Ss u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1042,
+    label = "SsJ-OneDe",
+    group = 
+"""
+1 *3 Ss                    u1 {2,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1043,
+    label = "SsJ-Ct",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    Ct u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1044,
+    label = "SsJ-Cb",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    Cb u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1045,
+    label = "SsJ-CO",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    CO u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1046,
+    label = "SsJ-Cd",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    Cd u0 {1,S} {3,D}
+3    C  u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1047,
+    label = "SsJ-C=S",
+    group = 
+"""
+1 *3 Ss u1 {2,S}
+2    Cd u0 {1,S} {3,D}
+3    Sd u0 {2,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 395,
+    label = "NJ",
+    group = "OR{N3J}",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 364,
+    label = "N3J",
+    group = 
+"""
+1 *3 [N3s,N3d] u1
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 365,
+    label = "N3sJ",
+    group = 
+"""
+1 *3 N3s u1
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 366,
+    label = "NH2J",
+    group = 
+"""
+1 *3 N3s u1 {2,S} {3,S}
+2    H   u0 {1,S}
+3    H   u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 367,
+    label = "N3sJ-NonDeH",
+    group = 
+"""
+1 *3 N3s                u1 {2,S} {3,S}
+2    [Os,Ss,N3s,N5s,Cs] u0 {1,S}
+3    H                  u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 369,
+    label = "N3sJ-CsH",
+    group = 
+"""
+1 *3 N3s u1 {2,S} {3,S}
+2    Cs  u0 {1,S}
+3    H   u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 370,
+    label = "N3sJ-OsH",
+    group = 
+"""
+1 *3 N3s u1 {2,S} {3,S}
+2    Os  u0 {1,S}
+3    H   u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 371,
+    label = "N3sJ-NsH",
+    group = 
+"""
+1 *3 N3s       u1 {2,S} {3,S}
+2    [N3s,N5s] u0 {1,S}
+3    H         u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 373,
+    label = "N3sJ-NonDe2",
+    group = 
+"""
+1 *3 N3s                u1 {2,S} {3,S}
+2    [Os,Cs,N3s,N5s,Ss] u0 {1,S}
+3    [Os,Cs,N3s,N5s,Ss] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 374,
+    label = "N3sJ-OneDeH",
+    group = 
+"""
+1 *3 N3s                   u1 {2,S} {3,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    H                     u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 375,
+    label = "N3sJ-OneDeCs",
+    group = 
+"""
+1 *3 N3s                   u1 {2,S} {3,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    Cs                    u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 376,
+    label = "N3sJ-TwoDe",
+    group = 
+"""
+1 *3 N3s                   u1 {2,S} {3,S}
+2    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+3    [Cd,Ct,Cb,CO,N3d,N5d] u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 377,
+    label = "N3dJ",
+    group = 
+"""
+1 *3 N3d u1
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 378,
+    label = "N3dJ_C",
+    group = 
+"""
+1 *3 N3d u1 {2,D}
+2    C   u0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 379,
+    label = "N3dJ_O",
+    group = 
+"""
+1 *3 N3d u1 {2,D}
+2    Od  u0 {1,D}
+""",
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 380,
+    label = "N3dJ_N",
+    group = 
+"""
+1 *3 N3d u1 {2,D}
+2    N   u0 {1,D}
+""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
@@ -4421,33 +17147,41 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 R!H {2S,2T}
+1 *3 R!H u2
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 352,
+    index = 1034,
     label = "O_atom_triplet",
     group = 
 """
-1 *3 O 2T
+1 *3 O u2
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+)
 
+entry(
+    index = 1035,
+    label = "SJJ",
+    group = 
+"""
+1 *3 S u2
 """,
+    distances = DistanceData(distances={}),
+)
+
+entry(
+    index = 1036,
+    label = "CH2_triplet",
+    group = 
+"""
+1 *3 C u2 {2,S} {3,S}
+2    H u0 {1,S}
+3    H u0 {1,S}
+""",
+    distances = DistanceData(distances={}),
 )
 
 entry(
@@ -4455,17 +17189,10 @@ entry(
     label = "CO_birad",
     group = 
 """
-1 *3 C  {2S,2T} {2,D}
-2    Od 0       {1,D}
+1 *3 C  u2 {2,D}
+2    Od u0 {1,D}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -4473,2161 +17200,1232 @@ entry(
     label = "NH_triplet",
     group = 
 """
-1 *3 N3s 2T {2,S}
-2    H   0  {1,S}
+1 *3 N3s u2 {2,S}
+2    H   u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 353,
-    label = "CH2_triplet",
-    group = 
-"""
-1 *3 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "Y_rad",
-    group = 
-"""
-1 *3 R 1
-""",
-    distances = DistanceData(
-        distances = {'d12': 0.0, 'd13': -0.0, 'd23': 0.0},
-        uncertainties = {'d12': 0.010297, 'd13': 0.033216, 'd23': 0.049111},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 13 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=94 label="CS/H2_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=87 label="CO/H2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=90 label="CO/NonDe2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=160 label="H_rad">]
-[<Entry index=119 label="OCO">, <Entry index=192 label="C_methyl">]
-[<Entry index=88 label="CO/H/NonDe_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
-""",
-)
-
-entry(
-    index = 160,
-    label = "H_rad",
-    group = 
-"""
-1 *3 H 1
-""",
-    distances = DistanceData(
-        distances = {'d12': -0.023717, 'd13': -0.01882, 'd23': -0.014772},
-        uncertainties = {},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 1 distances.
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=160 label="H_rad">]
-""",
-)
-
-entry(
-    index = 364,
-    label = "N3_rad",
-    group = 
-"""
-1 *3 {N3s,N3d} 1
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 365,
-    label = "N3s_rad",
-    group = 
-"""
-1 *3 N3s 1
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 366,
-    label = "NH2_rad",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    H   0 {1,S}
-3    H   0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 367,
-    label = "N3s_rad_pri",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    R!H 0 {1,S}
-3    H   0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 368,
-    label = "N3s_rad/H/NonDe",
-    group = 
-"""
-1 *3 N3s         1 {2,S} {3,S}
-2    {Cs,N3s,Os} 0 {1,S}
-3    H           0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 369,
-    label = "N3s_rad/H/NonDeC",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    Cs  0 {1,S}
-3    H   0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 370,
-    label = "N3s_rad/H/NonDeO",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    Os  0 {1,S}
-3    H   0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 371,
-    label = "N3s_rad/H/NonDeN",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    N3s 0 {1,S}
-3    H   0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 372,
-    label = "N3s_rad/H/OneDe",
-    group = 
-"""
-1 *3 N3s                      1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
-3    H                        0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 373,
-    label = "N3s_rad_sec",
-    group = 
-"""
-1 *3 N3s 1 {2,S} {3,S}
-2    R!H 0 {1,S}
-3    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 374,
-    label = "N3s_rad/NonDe2",
-    group = 
-"""
-1 *3 N3s         1 {2,S} {3,S}
-2    {Cs,N3s,Os} 0 {1,S}
-3    {Cs,N3s,Os} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 375,
-    label = "N3s_rad/OneDe",
-    group = 
-"""
-1 *3 N3s                      1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
-3    {Cs,N3s,Os}              0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 376,
-    label = "N3s_rad/TwoDe",
-    group = 
-"""
-1 *3 N3s                      1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
-3    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 377,
-    label = "N3d_rad",
-    group = 
-"""
-1 *3 N3d 1
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 378,
-    label = "N3d_rad/C",
-    group = 
-"""
-1 *3 N3d 1 {2,D}
-2    C   0 {1,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 379,
-    label = "N3d_rad/O",
-    group = 
-"""
-1 *3 N3d 1 {2,D}
-2    Od  0 {1,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 380,
-    label = "N3d_rad/N",
-    group = 
-"""
-1 *3 N3d 1 {2,D}
-2    N   0 {1,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 381,
-    label = "N5_rad",
-    group = 
-"""
-1 *3 {N5d,N5dd,N5t} 1
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 382,
-    label = "N5d_rad",
-    group = 
-"""
-1 *3 N5d 1
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 161,
-    label = "Ct_rad",
-    group = 
-"""
-1 *3 Ct       1 {2,T}
-2    {Ct,N3t} 0 {1,T}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 355,
-    label = "Ct_rad/Ct",
-    group = 
-"""
-1 *3 Ct 1 {2,T}
-2    Ct 0 {1,T}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 356,
-    label = "Ct_rad/N3t",
-    group = 
-"""
-1 *3 Ct  1 {2,T}
-2    N3t 0 {1,T}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 162,
-    label = "O_rad",
-    group = 
-"""
-1 *3 O 1 {2,S}
-2    R 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 163,
-    label = "O_pri_rad",
-    group = 
-"""
-1 *3 O 1 {2,S}
-2    H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 164,
-    label = "O_sec_rad",
-    group = 
-"""
-1 *3 O   1 {2,S}
-2    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 165,
-    label = "O_rad/NonDe",
-    group = 
-"""
-1 *3 O        1 {2,S}
-2    {Cs,O,S} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 166,
-    label = "O_rad/NonDeO",
-    group = 
-"""
-1 *3 O 1 {2,S}
-2    O 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 167,
-    label = "O_rad/NonDeC",
-    group = 
-"""
-1 *3 O  1 {2,S}
-2    Cs 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 357,
-    label = "O_rad/NonDeN",
-    group = 
-"""
-1 *3 O   1 {2,S}
-2    N3s 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 358,
-    label = "O_rad/OneDe",
-    group = 
-"""
-1 *3 O                     1 {2,S}
-2    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 359,
-    label = "O_rad/OneDeN",
-    group = 
-"""
-1 *3 O         1 {2,S}
-2    {N3d,N5d} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 360,
-    label = "O_rad/NO",
-    group = 
-"""
-1 *3 O         1 {2,S}
-2    {N3d,N5d} 0 {1,S} {3,D}
-3    Od        0 {2,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 169,
-    label = "S_rad",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    R  0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 170,
-    label = "S_pri_rad",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    H  0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 171,
-    label = "S_sec_rad",
-    group = 
-"""
-1 *3 Ss  1 {2,S}
-2    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 172,
-    label = "S_rad/NonDeC",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    Cs 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 173,
-    label = "S_rad/NonDeS",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    Ss 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 174,
-    label = "S_rad/OneDe",
-    group = 
-"""
-1 *3 Ss               1 {2,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 175,
-    label = "S_rad/Ct",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    Ct 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 176,
-    label = "S_rad/Cb",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    Cb 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 177,
-    label = "S_rad/CO",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    CO 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 178,
-    label = "S_rad/Cd",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    Cd 0 {1,S} {3,D}
-3    C  0 {2,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 179,
-    label = "S_rad/CS",
-    group = 
-"""
-1 *3 Ss 1 {2,S}
-2    Cd 0 {1,S} {3,D}
-3    S  0 {2,D}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 180,
-    label = "Cd_rad",
-    group = 
-"""
-1 *3 Cd 1 {2,D} {3,S}
-2    Cd 0 {1,D}
-3    R  0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 181,
-    label = "Cd_pri_rad",
-    group = 
-"""
-1 *3 Cd 1 {2,D} {3,S}
-2    Cd 0 {1,D}
-3    H  0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 182,
-    label = "Cd_sec_rad",
-    group = 
-"""
-1 *3 Cd  1 {2,D} {3,S}
-2    Cd  0 {1,D}
-3    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 183,
-    label = "Cd_rad/NonDe",
-    group = 
-"""
-1 *3 Cd       1 {2,D} {3,S}
-2    Cd       0 {1,D}
-3    {Cs,O,S} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 184,
-    label = "Cd_rad/OneDe",
-    group = 
-"""
-1 *3 Cd               1 {2,D} {3,S}
-2    Cd               0 {1,D}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 185,
-    label = "Cb_rad",
-    group = 
-"""
-1 *3 Cb       1 {2,B} {3,B}
-2    {Cb,Cbf} 0 {1,B}
-3    {Cb,Cbf} 0 {1,B}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 186,
-    label = "CO_rad",
-    group = 
-"""
-1 *3 C 1 {2,D} {3,S}
-2    O 0 {1,D}
-3    R 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 187,
-    label = "CO_pri_rad",
-    group = 
-"""
-1 *3 C 1 {2,D} {3,S}
-2    O 0 {1,D}
-3    H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 188,
-    label = "CO_sec_rad",
-    group = 
-"""
-1 *3 C   1 {2,D} {3,S}
-2    O   0 {1,D}
-3    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 189,
-    label = "CO_rad/NonDe",
-    group = 
-"""
-1 *3 C            1 {2,D} {3,S}
-2    O            0 {1,D}
-3    {Cs,O,S,N3s} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 190,
-    label = "CO_rad/OneDe",
-    group = 
-"""
-1 *3 C                1 {2,D} {3,S}
-2    O                0 {1,D}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 191,
-    label = "Cs_rad",
-    group = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    R 0 {1,S}
-3    R 0 {1,S}
-4    R 0 {1,S}
-""",
-    distances = DistanceData(
-        distances = {'d12': 0.002523, 'd13': 0.002002, 'd23': 0.001572},
-        uncertainties = {'d12': 0.008762, 'd13': 0.033739, 'd23': 0.039877},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 12 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=94 label="CS/H2_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=87 label="CO/H2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=90 label="CO/NonDe2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=119 label="OCO">, <Entry index=192 label="C_methyl">]
-[<Entry index=88 label="CO/H/NonDe_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
-""",
-)
-
-entry(
-    index = 192,
-    label = "C_methyl",
-    group = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    distances = DistanceData(
-        distances = {'d12': 0.002523, 'd13': 0.002002, 'd23': 0.001572},
-        uncertainties = {'d12': 0.008762, 'd13': 0.033739, 'd23': 0.039877},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Group additive distances.""",
-    longDesc = 
-u"""
-Fitted to 12 distances.
-[<Entry index=28 label="Cd/NonDe2_Cd/H2">, <Entry index=192 label="C_methyl">]
-[<Entry index=9 label="Cd/H2_Cd/NonDe2">, <Entry index=192 label="C_methyl">]
-[<Entry index=7 label="Cd/H2_Cd/H/NonDe">, <Entry index=192 label="C_methyl">]
-[<Entry index=101 label="CS/CsCs_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=94 label="CS/H2_S">, <Entry index=192 label="C_methyl">]
-[<Entry index=87 label="CO/H2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=90 label="CO/NonDe2_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=119 label="OCO">, <Entry index=192 label="C_methyl">]
-[<Entry index=88 label="CO/H/NonDe_O">, <Entry index=192 label="C_methyl">]
-[<Entry index=6 label="Cd/H2_Cd/H2">, <Entry index=192 label="C_methyl">]
-""",
-)
-
-entry(
-    index = 193,
-    label = "C_pri_rad",
-    group = 
-"""
-1 *3 C   1 {2,S} {3,S} {4,S}
-2    H   0 {1,S}
-3    H   0 {1,S}
-4    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 194,
-    label = "C_rad/H2/Cs",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 195,
-    label = "C_rad/H2/Cd",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cd 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 196,
-    label = "C_rad/H2/Ct",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Ct 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 197,
-    label = "C_rad/H2/Cb",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cb 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 198,
-    label = "C_rad/H2/CO",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    CO 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 199,
-    label = "C_rad/H2/O",
-    group = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    O 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 361,
-    label = "C_rad/H2/N",
-    group = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    N 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 200,
-    label = "C_sec_rad",
-    group = 
-"""
-1 *3 C   1 {2,S} {3,S} {4,S}
-2    H   0 {1,S}
-3    R!H 0 {1,S}
-4    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 201,
-    label = "C_rad/H/NonDeC",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 202,
-    label = "C_rad/H/NonDeO",
-    group = 
-"""
-1 *3 C        1 {2,S} {3,S} {4,S}
-2    H        0 {1,S}
-3    O        0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 203,
-    label = "C_rad/H/CsO",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
-4    O  0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 204,
-    label = "C_rad/H/O2",
-    group = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    O 0 {1,S}
-4    O 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 205,
-    label = "C_rad/H/NonDeS",
-    group = 
-"""
-1 *3 C      1 {2,S} {3,S} {4,S}
-2    H      0 {1,S}
-3    S      0 {1,S}
-4    {Cs,S} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 206,
-    label = "C_rad/H/CsS",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    S  0 {1,S}
-4    Cs 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 207,
-    label = "C_rad/H/S2",
-    group = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    S 0 {1,S}
-4    S 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 362,
-    label = "C_rad/H/NonDeN",
-    group = 
-"""
-1 *3 C   1 {2,S} {3,S} {4,S}
-2    H   0 {1,S}
-3    N3s 0 {1,S}
-4    R   0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 208,
-    label = "C_rad/H/OneDe",
-    group = 
-"""
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    H                0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 209,
-    label = "C_rad/H/OneDeC",
-    group = 
-"""
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    H                0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    Cs               0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 210,
-    label = "C_rad/H/OneDeO",
-    group = 
-"""
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    H                0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    O                0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 363,
-    label = "C_rad/H/OneDeN",
-    group = 
-"""
-1 *3 C                        1 {2,S} {3,S} {4,S}
-2    H                        0 {1,S}
-3    {Cd,Ct,Cb,CO,CS,N3d,N5d} 0 {1,S}
-4    N                        0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 211,
-    label = "C_rad/H/TwoDe",
-    group = 
-"""
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    H                0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 212,
-    label = "C_ter_rad",
-    group = 
-"""
-1 *3 C   1 {2,S} {3,S} {4,S}
-2    R!H 0 {1,S}
-3    R!H 0 {1,S}
-4    R!H 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 213,
-    label = "C_rad/NonDeC",
-    group = 
-"""
-1 *3 C        1 {2,S} {3,S} {4,S}
-2    {Cs,O,S} 0 {1,S}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 214,
-    label = "C_rad/Cs3",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 215,
-    label = "C_rad/NDMustO",
-    group = 
-"""
-1 *3 C        1 {2,S} {3,S} {4,S}
-2    O        0 {1,S}
-3    {Cs,O,S} 0 {1,S}
-4    {Cs,O,S} 0 {1,S}
-""",
-    distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 216,
-    label = "C_rad/OneDe",
-    group = 
-"""
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-3    {Cs,O,S}         0 {1,S}
-4    {Cs,O,S}         0 {1,S}
-""",
+    index = 344,
+    label = "Y_1centertrirad",
+    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 217,
-    label = "C_rad/Cs2",
+    index = 386,
+    label = "N_atom_quartet",
     group = 
 """
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-3    Cs               0 {1,S}
-4    Cs               0 {1,S}
+1 *3 N u3
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 218,
-    label = "C_rad/ODMustO",
+    index = 387,
+    label = "N_atom_doublet",
     group = 
 """
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-3    O                0 {1,S}
-4    {Cs,O,S}         0 {1,S}
+1 *3 N u3
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 219,
-    label = "C_rad/TwoDe",
+    index = 388,
+    label = "CH_quartet",
     group = 
 """
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cs,O,S}         0 {1,S}
+1 *3 Cs u3 {2,S}
+2    H  u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 220,
-    label = "C_rad/Cs",
+    index = 389,
+    label = "CH_doublet",
     group = 
 """
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    Cs               0 {1,S}
+1 *3 C u3 {2,S}
+2    H u0 {1,S}
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 221,
-    label = "C_rad/TDMustO",
-    group = 
-"""
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    O                0 {1,S}
-""",
+    index = 393,
+    label = "Y_1centerquadrad",
+    group = "OR{C_quintet, C_triplet, C_singlet}",
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 222,
-    label = "C_rad/ThreeDe",
+    index = 383,
+    label = "C_quintet",
     group = 
 """
-1 *3 C                1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
-4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *3 C u4
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = 223,
-    label = "Cd_pri_rad-Cdd/Cd",
+    index = 384,
+    label = "C_triplet",
     group = 
 """
-1 *3 Cd  1 {2,D} {3,S}
-2    Cdd 0 {1,D} {4,D}
-3    H   0 {1,S}
-4    Cd  0 {2,D}
+1 *3 C u4
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
-    index = -1,
-    label = "Y_birad",
+    index = 385,
+    label = "C_singlet",
     group = 
 """
-1 *3 R {2S,2T}
+1 *3 C u4
 """,
     distances = DistanceData(distances={}),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 tree(
 """
-L1: XZ
-    L2: CZ
-        L3: Cd_Cd
-            L4: Cd/H2
-                L5: Cd/H2_Cd/H2
-                L5: Cd/H2_Cd/H/NonDe
-                L5: Cd/H2_Cd/H/OneDe
-                L5: Cd/H2_Cd/NonDe2
-                L5: Cd/H2_Cd/NonDe/OneDe
-                L5: Cd/H2_Cd/TwoDe
-            L4: Cd/H/NonDe
-                L5: Cd/H/NonDe_Cd/H2
-                L5: Cd/H/NonDe_Cd/H/NonDe
-                    L6: Cd/H/Os_Cd/H/Cs
-                L5: Cd/H/NonDe_Cd/H/OneDe
-                L5: Cd/H/NonDe_Cd/NonDe2
-                L5: Cd/H/NonDe_Cd/NonDe/OneDe
-                L5: Cd/H/NonDe_Cd/TwoDe
-            L4: Cd/H/OneDe
-                L5: Cd/H/OneDe_Cd/H2
-                L5: Cd/H/OneDe_Cd/H/NonDe
-                L5: Cd/H/OneDe_Cd/H/OneDe
-                L5: Cd/H/OneDe_Cd/NonDe2
-                L5: Cd/H/OneDe_Cd/NonDe/OneDe
-                L5: Cd/H/OneDe_Cd/TwoDe
-            L4: Cd/NonDe2
-                L5: Cd/NonDe2_Cd/H2
-                L5: Cd/NonDe2_Cd/H/NonDe
-                L5: Cd/NonDe2_Cd/H/OneDe
-                L5: Cd/NonDe2_Cd/NonDe2
-                L5: Cd/NonDe2_Cd/NonDe/OneDe
-                L5: Cd/NonDe2_Cd/TwoDe
-            L4: Cd/NonDe/OneDe
-                L5: Cd/NonDe/OneDe_Cd/H2
-                L5: Cd/NonDe/OneDe_Cd/H/NonDe
-                L5: Cd/NonDe/OneDe_Cd/H/OneDe
-                L5: Cd/NonDe/OneDe_Cd/NonDe2
-                L5: Cd/NonDe/OneDe_Cd/NonDe/OneDe
-                L5: Cd/NonDe/OneDe_Cd/TwoDe
-            L4: Cd/TwoDe
-                L5: Cd/TwoDe_Cd/H2
-                L5: Cd/TwoDe_Cd/H/NonDe
-                L5: Cd/TwoDe_Cd/H/OneDe
-                L5: Cd/TwoDe_Cd/NonDe2
-                L5: Cd/TwoDe_Cd/NonDe/OneDe
-                L5: Cd/TwoDe_Cd/TwoDe
-        L3: Cd_Cdd
-            L4: Cd_Ca
-                L5: Cd/H2_Ca
-                L5: Cd/H/NonDe_Ca
-                L5: Cd/H/OneDe_Ca
-                L5: Cd/NonDe2_Ca
-                L5: Cd/NonDe/OneDe_Ca
-                L5: Cd/TwoDe_Ca
-            L4: Cd_Ck
-                L5: Cd/H2_Ck
-                L5: Cd/H/NonDe_Ck
-                L5: Cd/H/OneDe_Ck
-                L5: Cd/NonDe2_Ck
-                L5: Cd/NonDe/OneDe_Ck
-                L5: Cd/TwoDe_Ck
-        L3: Cdd_Cd
-            L4: Ca_Cd
-                L5: Ca_Cd/H2
-                L5: Ca_Cd/H/NonDe
-                L5: Ca_Cd/H/OneDe
-                L5: Ca_Cd/NonDe2
-                L5: Ca_Cd/NonDe/OneDe
-                L5: Ca_Cd/TwoDe
-            L4: Ck_Cd
-                L5: Ck_Cd/H2
-                L5: Ck_Cd/H/NonDe
-                L5: Ck_Cd/H/OneDe
-                L5: Ck_Cd/NonDe2
-                L5: Ck_Cd/NonDe/OneDe
-                L5: Ck_Cd/TwoDe
+L1: R_R
+    L2: Cd_R
+        L3: Cdd_Od
+            L4: CO2
+            L4: Ck_O
+            L4: C=S_O
+        L3: CO_O
+            L4: CO/H2_O
+            L4: CO/H/Nd_O
+                L5: CO/H/Cs
+            L4: CO/H/De_O
+            L4: CO/Nd2_O
+            L4: CO/Nd/De_O
+            L4: CO/De2_O
+        L3: Cdd_Sd
+            L4: Cdd-Sd_Sd
+        L3: Cds_Cdd
+            L4: Cds_Ca
+                L5: Cds-HH_Ca
+                L5: Cds-CsH_Ca
+                L5: Cds-CsCs_Ca
+                L5: Cds-OneDeH_Ca
+                    L6: Cds-CtH_Ca
+                    L6: Cds-CbH_Ca
+                    L6: Cds-COH_Ca
+                    L6: Cds-CdH_Ca
+                    L6: Cds-C=SH_Ca
+                L5: Cds-OneDeCs_Ca
+                    L6: Cds-CtCs_Ca
+                    L6: Cds-CbCs_Ca
+                    L6: Cds-COCs_Ca
+                    L6: Cds-CdCs_Ca
+                    L6: Cds-C=SCs_Ca
+                L5: Cds-TwoDe_Ca
+                    L6: Cds-CtCt_Ca
+                    L6: Cds-CtCb_Ca
+                    L6: Cds-CtCO_Ca
+                    L6: Cds-CbCb_Ca
+                    L6: Cds-CbCO_Ca
+                    L6: Cds-COCO_Ca
+                    L6: Cds-CdCt_Ca
+                    L6: Cds-CdCb_Ca
+                    L6: Cds-CdCO_Ca
+                    L6: Cds-CtC=S_Ca
+                    L6: Cds-CbC=S_Ca
+                    L6: Cds-COC=S_Ca
+                    L6: Cds-CdCd_Ca
+                    L6: Cds-CdC=S_Ca
+                    L6: Cds-C=SC=S_Ca
+            L4: Cds_Ck
+                L5: Cds-HH_Ck
+                L5: Cds-CsH_Ck
+                L5: Cds-CsCs_Ck
+                L5: Cds-OneDeH_Ck
+                L5: Cds-OneDeCs_Ck
+                L5: Cds-TwoDe_Ck
+        L3: Cdd_Cds
+            L4: Ca_Cds
+                L5: Ca_Cds-HH
+                L5: Ca_Cds-CsH
+                L5: Ca_Cds-CsCs
+                L5: Ca_Cds-OneDeH
+                    L6: Ca_Cds-CtH
+                    L6: Ca_Cds-CbH
+                    L6: Ca_Cds-COH
+                    L6: Ca_Cds-CdH
+                    L6: Ca_Cds-C=SH
+                L5: Ca_Cds-OneDeCs
+                    L6: Ca_Cds-CtCs
+                    L6: Ca_Cds-CbCs
+                    L6: Ca_Cds-COCs
+                    L6: Ca_Cds-CdCs
+                    L6: Ca_Cds-C=SCs
+                L5: Ca_Cds-TwoDe
+                    L6: Ca_Cds-CtCt
+                    L6: Ca_Cds-CtCb
+                    L6: Ca_Cds-CtCO
+                    L6: Ca_Cds-CbCb
+                    L6: Ca_Cds-CbCO
+                    L6: Ca_Cds-COCO
+                    L6: Ca_Cds-CdCt
+                    L6: Ca_Cds-CdCb
+                    L6: Ca_Cds-CdCO
+                    L6: Ca_Cds-CtC=S
+                    L6: Ca_Cds-CbC=S
+                    L6: Ca_Cds-COC=S
+                    L6: Ca_Cds-CdCd
+                    L6: Ca_Cds-CdC=S
+                    L6: Ca_Cds-C=SC=S
+            L4: Ck_Cds
+                L5: Ck_Cds-HH
+                L5: Ck_Cds-CsH
+                L5: Ck_Cds-CsCs
+                L5: Ck_Cds-OneDeH
+                    L6: Ck_Cds-CtH
+                    L6: Ck_Cds-CbH
+                    L6: Ck_Cds-COH
+                    L6: Ck_Cds-CdH
+                    L6: Ck_Cds-C=SH
+                L5: Ck_Cds-OneDeCs
+                    L6: Ck_Cds-CtCs
+                    L6: Ck_Cds-CbCs
+                    L6: Ck_Cds-COCs
+                    L6: Ck_Cds-CdCs
+                    L6: Ck_Cds-C=SCs
+                L5: Ck_Cds-TwoDe
+                    L6: Ck_Cds-CtCt
+                    L6: Ck_Cds-CtCb
+                    L6: Ck_Cds-CtCO
+                    L6: Ck_Cds-CbCb
+                    L6: Ck_Cds-CbCO
+                    L6: Ck_Cds-COCO
+                    L6: Ck_Cds-CdCt
+                    L6: Ck_Cds-CdCb
+                    L6: Ck_Cds-CdCO
+                    L6: Ck_Cds-CtC=S
+                    L6: Ck_Cds-CbC=S
+                    L6: Ck_Cds-COC=S
+                    L6: Ck_Cds-CdCd
+                    L6: Ck_Cds-CdC=S
+                    L6: Ck_Cds-C=SC=S
         L3: Cdd_Cdd
             L4: Ca_Ca
             L4: Ck_Ck
             L4: Ca_Ck
             L4: Ck_Ca
-        L3: Cdd_Sd
-            L4: CS2
-            L4: CS_O
-        L3: CO_O
-            L4: CO/H2_O
-            L4: CO/H/NonDe_O
-            L4: CO/H/OneDe_O
-            L4: CO/NonDe2_O
-            L4: CO/NonDe/OneDe_O
-            L4: CO/TwoDe_O
-        L3: CS_S
-            L4: CS/H2_S
-            L4: CS/H/NonDe_S
-                L5: CS/H/Cs_S
-                L5: CS/H/Os_S
-                L5: CS/H/Ss_S
-            L4: CS/H/OneDe_S
-            L4: CS/NonDe2_S
-                L5: CS/CsCs_S
-                L5: CS/CsOs_S
-                L5: CS/CsSs_S
-            L4: CS/NonDe/OneDe_S
-            L4: CS/TwoDe_S
-        L3: Ct_Ct
-            L4: Ct/H_Ct/H
-            L4: Ct/H_Ct/NonDe
-            L4: Ct/H_Ct/OneDe
-            L4: Ct/NonDe_Ct/H
-            L4: Ct/NonDe_Ct/NonDe
-            L4: Ct/NonDe_Ct/OneDe
-            L4: Ct/OneDe_Ct/H
-            L4: Ct/OneDe_Ct/NonDe
-            L4: Ct/OneDe_Ct/OneDe
-        L3: Ct_N
-            L4: Ct_N3t
-                L5: Ct_N5t
-                L5: Ct/H_N3t
-                L5: Ct/NonDe_N3t
-                L5: Ct/OneDe_N3t
-        L3: Cds_N
+        L3: Cds_Sd
+            L4: Cds-HH_Sd
+            L4: Cds-CsH_Sd
+            L4: Cds-CsCs_Sd
+            L4: Cds-OsH_Sd
+            L4: Cds-OsCs_Sd
+            L4: Cds-SsH_Sd
+            L4: Cds-SsCs_Sd
+            L4: Cds-OneDeH_Sd
+                L5: Cds-CtH_Sd
+                L5: Cds-CbH_Sd
+                L5: Cds-COH_Sd
+                L5: Cds-CdH_Sd
+                L5: Cds-C=SH_Sd
+            L4: Cds-OneDeCs_Sd
+                L5: Cds-CtCs_Sd
+                L5: Cds-CbCs_Sd
+                L5: Cds-COCs_Sd
+                L5: Cds-CdCs_Sd
+                L5: Cds-C=SCs_Sd
+            L4: Cds-TwoDe_Sd
+                L5: Cds-CtCt_Sd
+                L5: Cds-CtCb_Sd
+                L5: Cds-CtCO_Sd
+                L5: Cds-CbCb_Sd
+                L5: Cds-CbCO_Sd
+                L5: Cds-COCO_Sd
+                L5: Cds-CdCt_Sd
+                L5: Cds-CdCb_Sd
+                L5: Cds-CdCO_Sd
+                L5: Cds-CtC=S_Sd
+                L5: Cds-CbC=S_Sd
+                L5: Cds-COC=S_Sd
+                L5: Cds-CdCd_Sd
+                L5: Cds-CdC=S_Sd
+                L5: Cds-C=SC=S_Sd
+        L3: Cds_Nd
             L4: Cds_N3d
-                L5: Cds/H2_N3d
-                L5: Cds_sec_N3d
-                L5: Cds_ter_N3d
-        L3: Cdd_Od
-            L4: CO2
-            L4: Ck_O
-    L2: OCO
-    L2: OSi
-    L2: SZ
-        L3: Sd_Cdd
-            L4: Sd_Cdd/Sd
-            L4: Sd_Cdd/Od
-        L3: Sd_Cds
-            L4: Sd_Cds/H2
-            L4: Sd_Cds/H/NonDe
-            L4: Sd_Cds/NonDe2
-                L5: Sd_Cds/CsO
-            L4: Sd_Cds/H/OneDe
-                L5: Sd_Cds/H/Ct
-                L5: Sd_Cds/H/Cb
-                L5: Sd_Cds/H/CO
-                L5: Sd_Cds/H/Cd
-                L5: Sd_Cds/H/CS
-            L4: Sd_Cds/NonDe/OneDe
-                L5: Sd_Cds/NonDe/Ct
-                L5: Sd_Cds/NonDe/Cb
-                L5: Sd_Cds/NonDe/CO
-                L5: Sd_Cds/NonDe/Cd
-                L5: Sd_Cds/NonDe/CS
-            L4: Sd_Cds/TwoDe
-                L5: Sd_Cds/CtCt
-                L5: Sd_Cds/CtCb
-                L5: Sd_Cds/CtCO
-                L5: Sd_Cds/CbCb
-                L5: Sd_Cds/CbCO
-                L5: Sd_Cds/COCO
-                L5: Sd_Cds/CdCt
-                L5: Sd_Cds/CtCS
-                L5: Sd_Cds/CdCb
-                L5: Sd_Cds/CbCS
-                L5: Sd_Cds/CdCO
-                L5: Sd_Cds/COCS
-                L5: Sd_Cds/CdCd
-                L5: Sd_Cds/CdCS
-                L5: Sd_Cds/CSCS
-    L2: OCddO
-    L2: OSiddO
-    L2: Od_N
-        L3: Od_N3d
-        L3: Od_N5d
-    L2: N_R
-        L3: N3_R
-            L4: N3d_R
-                L5: N3d_C
-                    L6: N3d_Cdd
-                    L6: N3d_Cds
-                        L7: N3d/H_Cds
-                            L8: N3d/H_Cds/H2
-                            L8: N3d/H_Cds_sec
-                            L8: N3d/H_Cds_ter
-                        L7: N3d/NonDe_Cds
-                        L7: N3d/OneDe_Cds
-                L5: N3d_Od
-                    L6: N3d/H_Od
-                    L6: N3d/NonDe_Od
-                    L6: N3d/OneDe_Od
-                L5: N3d_N
-                    L6: N3d_N3d
-                        L7: N3d/H_N3d
-                            L8: N3d/H_N3d/H
-                            L8: N3d/H_N3d/NonDe
-                            L8: N3d/H_N3d/OneDe
-                        L7: N3d/NonDe_N3d
-                        L7: N3d/OneDe_N3d
-                    L6: N3d_N5
-            L4: N3t_R
-                L5: N3t_Ct
-                    L6: N3t_Ct/H
-                    L6: N3t_Ct/NonDe
-                    L6: N3t_Ct/OneDe
-                L5: N3t_N3t
+                L5: Cds-HH_N3d
+                L5: Cds-NonDeH_N3d
+                L5: Cds-NonDe2_N3d
+        L3: Cds_Cds
+            L4: Cds-HH_Cds
+                L5: Cds-HH_Cds-HH
+                L5: Cds-HH_Cds-CsH
+                    L6: Cds-HH_Cds-Cs\Os/H
+                    L6: Cds-HH_Cds-Cs\H3/H
+                L5: Cds-HH_Cds-CsCs
+                L5: Cds-HH_Cds-OsH
+                L5: Cds-HH_Cds-OsCs
+                L5: Cds-HH_Cds-OsOs
+                L5: Cds-HH_Cds-SsH
+                L5: Cds-HH_Cds-SsCs
+                L5: Cds-HH_Cds-SsOs
+                L5: Cds-HH_Cds-SsSs
+                L5: Cds-HH_Cds-OneDe
+                    L6: Cds-HH_Cds-OneDeH
+                        L7: Cds-HH_Cds-CtH
+                        L7: Cds-HH_Cds-CbH
+                        L7: Cds-HH_Cds-COH
+                        L7: Cds-HH_Cds-CdH
+                        L7: Cds-HH_Cds-C=SH
+                    L6: Cds-HH_Cds-OneDeCs
+                        L7: Cds-HH_Cds-CtCs
+                        L7: Cds-HH_Cds-CbCs
+                        L7: Cds-HH_Cds-COCs
+                        L7: Cds-HH_Cds-CdCs
+                        L7: Cds-HH_Cds-C=SCs
+                    L6: Cds-HH_Cds-OneDeOs
+                        L7: Cds-HH_Cds-CtOs
+                        L7: Cds-HH_Cds-CbOs
+                        L7: Cds-HH_Cds-COOs
+                        L7: Cds-HH_Cds-CdOs
+                        L7: Cds-HH_Cds-C=SOs
+                    L6: Cds-HH_Cds-OneDeSs
+                        L7: Cds-HH_Cds-CtSs
+                        L7: Cds-HH_Cds-CbSs
+                        L7: Cds-HH_Cds-COSs
+                        L7: Cds-HH_Cds-CdSs
+                        L7: Cds-HH_Cds-C=SSs
+                L5: Cds-HH_Cds-TwoDe
+                    L6: Cds-HH_Cds-CtCt
+                    L6: Cds-HH_Cds-CtCb
+                    L6: Cds-HH_Cds-CtCO
+                    L6: Cds-HH_Cds-CbCb
+                    L6: Cds-HH_Cds-CbCO
+                    L6: Cds-HH_Cds-COCO
+                    L6: Cds-HH_Cds-CdCt
+                    L6: Cds-HH_Cds-CdCb
+                    L6: Cds-HH_Cds-CdCO
+                    L6: Cds-HH_Cds-CtC=S
+                    L6: Cds-HH_Cds-CbC=S
+                    L6: Cds-HH_Cds-COC=S
+                    L6: Cds-HH_Cds-CdCd
+                    L6: Cds-HH_Cds-CdC=S
+                    L6: Cds-HH_Cds-C=SC=S
+            L4: Cds-CsH_Cds
+                L5: Cds-CsH_Cds-HH
+                    L6: Cds-Cs\Os/H_Cds-HH
+                L5: Cds-CsH_Cds-CsH
+                L5: Cds-CsH_Cds-CsCs
+                L5: Cds-CsH_Cds-OsH
+                L5: Cds-CsH_Cds-OsCs
+                L5: Cds-CsH_Cds-OsOs
+                L5: Cds-CsH_Cds-SsH
+                L5: Cds-CsH_Cds-SsCs
+                L5: Cds-CsH_Cds-SsOs
+                L5: Cds-CsH_Cds-SsSs
+                L5: Cds-CsH_Cds-OneDe
+                    L6: Cds-CsH_Cds-OneDeH
+                        L7: Cds-CsH_Cds-CtH
+                        L7: Cds-CsH_Cds-CbH
+                        L7: Cds-CsH_Cds-COH
+                        L7: Cds-CsH_Cds-CdH
+                        L7: Cds-CsH_Cds-C=SH
+                    L6: Cds-CsH_Cds-OneDeCs
+                        L7: Cds-CsH_Cds-CtCs
+                        L7: Cds-CsH_Cds-CbCs
+                        L7: Cds-CsH_Cds-COCs
+                        L7: Cds-CsH_Cds-CdCs
+                        L7: Cds-CsH_Cds-C=SCs
+                    L6: Cds-CsH_Cds-OneDeOs
+                        L7: Cds-CsH_Cds-CtOs
+                        L7: Cds-CsH_Cds-CbOs
+                        L7: Cds-CsH_Cds-COOs
+                        L7: Cds-CsH_Cds-CdOs
+                        L7: Cds-CsH_Cds-C=SOs
+                    L6: Cds-CsH_Cds-OneDeSs
+                        L7: Cds-CsH_Cds-CtSs
+                        L7: Cds-CsH_Cds-CbSs
+                        L7: Cds-CsH_Cds-COSs
+                        L7: Cds-CsH_Cds-CdSs
+                        L7: Cds-CsH_Cds-C=SSs
+                L5: Cds-CsH_Cds-TwoDe
+                    L6: Cds-CsH_Cds-CtCt
+                    L6: Cds-CsH_Cds-CtCb
+                    L6: Cds-CsH_Cds-CtCO
+                    L6: Cds-CsH_Cds-CbCb
+                    L6: Cds-CsH_Cds-CbCO
+                    L6: Cds-CsH_Cds-COCO
+                    L6: Cds-CsH_Cds-CdCt
+                    L6: Cds-CsH_Cds-CdCb
+                    L6: Cds-CsH_Cds-CdCO
+                    L6: Cds-CsH_Cds-CtC=S
+                    L6: Cds-CsH_Cds-CbC=S
+                    L6: Cds-CsH_Cds-COC=S
+                    L6: Cds-CsH_Cds-CdCd
+                    L6: Cds-CsH_Cds-CdC=S
+                    L6: Cds-CsH_Cds-C=SC=S
+            L4: Cds-CsCs_Cds
+                L5: Cds-CsCs_Cds-HH
+                L5: Cds-CsCs_Cds-CsH
+                L5: Cds-CsCs_Cds-CsCs
+                L5: Cds-CsCs_Cds-OsH
+                L5: Cds-CsCs_Cds-OsCs
+                L5: Cds-CsCs_Cds-OsOs
+                L5: Cds-CsCs_Cds-SsH
+                L5: Cds-CsCs_Cds-SsCs
+                L5: Cds-CsCs_Cds-SsOs
+                L5: Cds-CsCs_Cds-SsSs
+                L5: Cds-CsCs_Cds-OneDe
+                    L6: Cds-CsCs_Cds-OneDeH
+                        L7: Cds-CsCs_Cds-CtH
+                        L7: Cds-CsCs_Cds-CbH
+                        L7: Cds-CsCs_Cds-COH
+                        L7: Cds-CsCs_Cds-CdH
+                        L7: Cds-CsCs_Cds-C=SH
+                    L6: Cds-CsCs_Cds-OneDeCs
+                        L7: Cds-CsCs_Cds-CtCs
+                        L7: Cds-CsCs_Cds-CbCs
+                        L7: Cds-CsCs_Cds-COCs
+                        L7: Cds-CsCs_Cds-CdCs
+                        L7: Cds-CsCs_Cds-C=SCs
+                    L6: Cds-CsCs_Cds-OneDeOs
+                        L7: Cds-CsCs_Cds-CtOs
+                        L7: Cds-CsCs_Cds-CbOs
+                        L7: Cds-CsCs_Cds-COOs
+                        L7: Cds-CsCs_Cds-CdOs
+                        L7: Cds-CsCs_Cds-C=SOs
+                    L6: Cds-CsCs_Cds-OneDeSs
+                        L7: Cds-CsCs_Cds-CtSs
+                        L7: Cds-CsCs_Cds-CbSs
+                        L7: Cds-CsCs_Cds-COSs
+                        L7: Cds-CsCs_Cds-CdSs
+                        L7: Cds-CsCs_Cds-C=SSs
+                L5: Cds-CsCs_Cds-TwoDe
+                    L6: Cds-CsCs_Cds-CtCt
+                    L6: Cds-CsCs_Cds-CtCb
+                    L6: Cds-CsCs_Cds-CtCO
+                    L6: Cds-CsCs_Cds-CbCb
+                    L6: Cds-CsCs_Cds-CbCO
+                    L6: Cds-CsCs_Cds-COCO
+                    L6: Cds-CsCs_Cds-CdCt
+                    L6: Cds-CsCs_Cds-CdCb
+                    L6: Cds-CsCs_Cds-CdCO
+                    L6: Cds-CsCs_Cds-CtC=S
+                    L6: Cds-CsCs_Cds-CbC=S
+                    L6: Cds-CsCs_Cds-COC=S
+                    L6: Cds-CsCs_Cds-CdCd
+                    L6: Cds-CsCs_Cds-CdC=S
+                    L6: Cds-CsCs_Cds-C=SC=S
+            L4: Cds-SsH_Cds
+            L4: Cds-SsCs_Cds
+            L4: Cds-SsSs_Cds
+            L4: Cds-OsH_Cds
+                L5: Cds-OsH_Cds-CsH
+            L4: Cds-OsCs_Cds
+            L4: Cds-OsOs_Cds
+            L4: Cds-OsSs_Cds
+            L4: Cds-OneDe_Cds
+                L5: Cds-OneDeH_Cds
+                    L6: Cds-CtH_Cds
+                        L7: Cds-CtH_Cds-HH
+                        L7: Cds-CtH_Cds-CsH
+                        L7: Cds-CtH_Cds-CsCs
+                        L7: Cds-CtH_Cds-OsH
+                        L7: Cds-CtH_Cds-OsCs
+                        L7: Cds-CtH_Cds-OsOs
+                        L7: Cds-CtH_Cds-SsH
+                        L7: Cds-CtH_Cds-SsCs
+                        L7: Cds-CtH_Cds-SsOs
+                        L7: Cds-CtH_Cds-SsSs
+                        L7: Cds-CtH_Cds-OneDe
+                            L8: Cds-CtH_Cds-OneDeH
+                                L9: Cds-CtH_Cds-CtH
+                                L9: Cds-CtH_Cds-CbH
+                                L9: Cds-CtH_Cds-COH
+                                L9: Cds-CtH_Cds-CdH
+                                L9: Cds-CtH_Cds-C=SH
+                            L8: Cds-CtH_Cds-OneDeCs
+                                L9: Cds-CtH_Cds-CtCs
+                                L9: Cds-CtH_Cds-CbCs
+                                L9: Cds-CtH_Cds-COCs
+                                L9: Cds-CtH_Cds-CdCs
+                                L9: Cds-CtH_Cds-C=SCs
+                            L8: Cds-CtH_Cds-OneDeOs
+                                L9: Cds-CtH_Cds-CtOs
+                                L9: Cds-CtH_Cds-CbOs
+                                L9: Cds-CtH_Cds-COOs
+                                L9: Cds-CtH_Cds-CdOs
+                                L9: Cds-CtH_Cds-C=SOs
+                            L8: Cds-CtH_Cds-OneDeSs
+                                L9: Cds-CtH_Cds-CtSs
+                                L9: Cds-CtH_Cds-CbSs
+                                L9: Cds-CtH_Cds-COSs
+                                L9: Cds-CtH_Cds-CdSs
+                                L9: Cds-CtH_Cds-C=SSs
+                        L7: Cds-CtH_Cds-TwoDe
+                            L8: Cds-CtH_Cds-CtCt
+                            L8: Cds-CtH_Cds-CtCb
+                            L8: Cds-CtH_Cds-CtCO
+                            L8: Cds-CtH_Cds-CbCb
+                            L8: Cds-CtH_Cds-CbCO
+                            L8: Cds-CtH_Cds-COCO
+                            L8: Cds-CtH_Cds-CdCt
+                            L8: Cds-CtH_Cds-CdCb
+                            L8: Cds-CtH_Cds-CdCO
+                            L8: Cds-CtH_Cds-CtC=S
+                            L8: Cds-CtH_Cds-CbC=S
+                            L8: Cds-CtH_Cds-COC=S
+                            L8: Cds-CtH_Cds-CdCd
+                            L8: Cds-CtH_Cds-CdC=S
+                            L8: Cds-CtH_Cds-C=SC=S
+                    L6: Cds-CbH_Cds
+                        L7: Cds-CbH_Cds-HH
+                        L7: Cds-CbH_Cds-CsH
+                        L7: Cds-CbH_Cds-CsCs
+                        L7: Cds-CbH_Cds-OsH
+                        L7: Cds-CbH_Cds-OsCs
+                        L7: Cds-CbH_Cds-OsOs
+                        L7: Cds-CbH_Cds-SsH
+                        L7: Cds-CbH_Cds-SsCs
+                        L7: Cds-CbH_Cds-SsOs
+                        L7: Cds-CbH_Cds-SsSs
+                        L7: Cds-CbH_Cds-OneDe
+                            L8: Cds-CbH_Cds-OneDeH
+                                L9: Cds-CbH_Cds-CtH
+                                L9: Cds-CbH_Cds-CbH
+                                L9: Cds-CbH_Cds-COH
+                                L9: Cds-CbH_Cds-CdH
+                                L9: Cds-CbH_Cds-C=SH
+                            L8: Cds-CbH_Cds-OneDeCs
+                                L9: Cds-CbH_Cds-CtCs
+                                L9: Cds-CbH_Cds-CbCs
+                                L9: Cds-CbH_Cds-COCs
+                                L9: Cds-CbH_Cds-CdCs
+                                L9: Cds-CbH_Cds-C=SCs
+                            L8: Cds-CbH_Cds-OneDeOs
+                                L9: Cds-CbH_Cds-CtOs
+                                L9: Cds-CbH_Cds-CbOs
+                                L9: Cds-CbH_Cds-COOs
+                                L9: Cds-CbH_Cds-CdOs
+                                L9: Cds-CbH_Cds-C=SOs
+                            L8: Cds-CbH_Cds-OneDeSs
+                                L9: Cds-CbH_Cds-CtSs
+                                L9: Cds-CbH_Cds-CbSs
+                                L9: Cds-CbH_Cds-COSs
+                                L9: Cds-CbH_Cds-CdSs
+                                L9: Cds-CbH_Cds-C=SSs
+                        L7: Cds-CbH_Cds-TwoDe
+                            L8: Cds-CbH_Cds-CtCt
+                            L8: Cds-CbH_Cds-CtCb
+                            L8: Cds-CbH_Cds-CtCO
+                            L8: Cds-CbH_Cds-CbCb
+                            L8: Cds-CbH_Cds-CbCO
+                            L8: Cds-CbH_Cds-COCO
+                            L8: Cds-CbH_Cds-CdCt
+                            L8: Cds-CbH_Cds-CdCb
+                            L8: Cds-CbH_Cds-CdCO
+                            L8: Cds-CbH_Cds-CtC=S
+                            L8: Cds-CbH_Cds-CbC=S
+                            L8: Cds-CbH_Cds-COC=S
+                            L8: Cds-CbH_Cds-CdCd
+                            L8: Cds-CbH_Cds-CdC=S
+                            L8: Cds-CbH_Cds-C=SC=S
+                    L6: Cds-COH_Cds
+                    L6: Cds-CdH_Cds
+                        L7: Cds-CdH_Cds-HH
+                        L7: Cds-CdH_Cds-CsH
+                        L7: Cds-CdH_Cds-CsCs
+                        L7: Cds-CdH_Cds-OsH
+                        L7: Cds-CdH_Cds-OsCs
+                        L7: Cds-CdH_Cds-OsOs
+                        L7: Cds-CdH_Cds-SsH
+                        L7: Cds-CdH_Cds-SsCs
+                        L7: Cds-CdH_Cds-SsOs
+                        L7: Cds-CdH_Cds-SsSs
+                        L7: Cds-CdH_Cds-OneDe
+                            L8: Cds-CdH_Cds-OneDeH
+                                L9: Cds-CdH_Cds-CtH
+                                L9: Cds-CdH_Cds-CbH
+                                L9: Cds-CdH_Cds-COH
+                                L9: Cds-CdH_Cds-CdH
+                                L9: Cds-CdH_Cds-C=SH
+                            L8: Cds-CdH_Cds-OneDeCs
+                                L9: Cds-CdH_Cds-CtCs
+                                L9: Cds-CdH_Cds-CbCs
+                                L9: Cds-CdH_Cds-COCs
+                                L9: Cds-CdH_Cds-CdCs
+                                L9: Cds-CdH_Cds-C=SCs
+                            L8: Cds-CdH_Cds-OneDeOs
+                                L9: Cds-CdH_Cds-CtOs
+                                L9: Cds-CdH_Cds-CbOs
+                                L9: Cds-CdH_Cds-COOs
+                                L9: Cds-CdH_Cds-CdOs
+                                L9: Cds-CdH_Cds-C=SOs
+                            L8: Cds-CdH_Cds-OneDeSs
+                                L9: Cds-CdH_Cds-CtSs
+                                L9: Cds-CdH_Cds-CbSs
+                                L9: Cds-CdH_Cds-COSs
+                                L9: Cds-CdH_Cds-CdSs
+                                L9: Cds-CdH_Cds-C=SSs
+                        L7: Cds-CdH_Cds-TwoDe
+                            L8: Cds-CdH_Cds-CtCt
+                            L8: Cds-CdH_Cds-CtCb
+                            L8: Cds-CdH_Cds-CtCO
+                            L8: Cds-CdH_Cds-CbCb
+                            L8: Cds-CdH_Cds-CbCO
+                            L8: Cds-CdH_Cds-COCO
+                            L8: Cds-CdH_Cds-CdCt
+                            L8: Cds-CdH_Cds-CdCb
+                            L8: Cds-CdH_Cds-CdCO
+                            L8: Cds-CdH_Cds-CtC=S
+                            L8: Cds-CdH_Cds-CbC=S
+                            L8: Cds-CdH_Cds-COC=S
+                            L8: Cds-CdH_Cds-CdCd
+                            L8: Cds-CdH_Cds-CdC=S
+                            L8: Cds-CdH_Cds-C=SC=S
+                    L6: Cds-C=SH_Cds
+                L5: Cds-OneDeCs_Cds
+                    L6: Cds-CtCs_Cds
+                        L7: Cds-CtCs_Cds-HH
+                        L7: Cds-CtCs_Cds-CsH
+                        L7: Cds-CtCs_Cds-CsCs
+                        L7: Cds-CtCs_Cds-OsH
+                        L7: Cds-CtCs_Cds-OsCs
+                        L7: Cds-CtCs_Cds-OsOs
+                        L7: Cds-CtCs_Cds-SsH
+                        L7: Cds-CtCs_Cds-SsCs
+                        L7: Cds-CtCs_Cds-SsOs
+                        L7: Cds-CtCs_Cds-SsSs
+                        L7: Cds-CtCs_Cds-OneDe
+                            L8: Cds-CtCs_Cds-OneDeH
+                                L9: Cds-CtCs_Cds-CtH
+                                L9: Cds-CtCs_Cds-CbH
+                                L9: Cds-CtCs_Cds-COH
+                                L9: Cds-CtCs_Cds-CdH
+                                L9: Cds-CtCs_Cds-C=SH
+                            L8: Cds-CtCs_Cds-OneDeCs
+                                L9: Cds-CtCs_Cds-CtCs
+                                L9: Cds-CtCs_Cds-CbCs
+                                L9: Cds-CtCs_Cds-COCs
+                                L9: Cds-CtCs_Cds-CdCs
+                                L9: Cds-CtCs_Cds-C=SCs
+                            L8: Cds-CtCs_Cds-OneDeOs
+                                L9: Cds-CtCs_Cds-CtOs
+                                L9: Cds-CtCs_Cds-CbOs
+                                L9: Cds-CtCs_Cds-COOs
+                                L9: Cds-CtCs_Cds-CdOs
+                                L9: Cds-CtCs_Cds-C=SOs
+                            L8: Cds-CtCs_Cds-OneDeSs
+                                L9: Cds-CtCs_Cds-CtSs
+                                L9: Cds-CtCs_Cds-CbSs
+                                L9: Cds-CtCs_Cds-COSs
+                                L9: Cds-CtCs_Cds-CdSs
+                                L9: Cds-CtCs_Cds-C=SSs
+                        L7: Cds-CtCs_Cds-TwoDe
+                            L8: Cds-CtCs_Cds-CtCt
+                            L8: Cds-CtCs_Cds-CtCb
+                            L8: Cds-CtCs_Cds-CtCO
+                            L8: Cds-CtCs_Cds-CbCb
+                            L8: Cds-CtCs_Cds-CbCO
+                            L8: Cds-CtCs_Cds-COCO
+                            L8: Cds-CtCs_Cds-CdCt
+                            L8: Cds-CtCs_Cds-CdCb
+                            L8: Cds-CtCs_Cds-CdCO
+                            L8: Cds-CtCs_Cds-CtC=S
+                            L8: Cds-CtCs_Cds-CbC=S
+                            L8: Cds-CtCs_Cds-COC=S
+                            L8: Cds-CtCs_Cds-CdCd
+                            L8: Cds-CtCs_Cds-CdC=S
+                            L8: Cds-CtCs_Cds-C=SC=S
+                    L6: Cds-CbCs_Cds
+                        L7: Cds-CbCs_Cds-HH
+                        L7: Cds-CbCs_Cds-CsH
+                        L7: Cds-CbCs_Cds-CsCs
+                        L7: Cds-CbCs_Cds-OsH
+                        L7: Cds-CbCs_Cds-OsCs
+                        L7: Cds-CbCs_Cds-OsOs
+                        L7: Cds-CbCs_Cds-SsH
+                        L7: Cds-CbCs_Cds-SsCs
+                        L7: Cds-CbCs_Cds-SsOs
+                        L7: Cds-CbCs_Cds-SsSs
+                        L7: Cds-CbCs_Cds-OneDe
+                            L8: Cds-CbCs_Cds-OneDeH
+                                L9: Cds-CbCs_Cds-CtH
+                                L9: Cds-CbCs_Cds-CbH
+                                L9: Cds-CbCs_Cds-COH
+                                L9: Cds-CbCs_Cds-CdH
+                                L9: Cds-CbCs_Cds-C=SH
+                            L8: Cds-CbCs_Cds-OneDeCs
+                                L9: Cds-CbCs_Cds-CtCs
+                                L9: Cds-CbCs_Cds-CbCs
+                                L9: Cds-CbCs_Cds-COCs
+                                L9: Cds-CbCs_Cds-CdCs
+                                L9: Cds-CbCs_Cds-C=SCs
+                            L8: Cds-CbCs_Cds-OneDeOs
+                                L9: Cds-CbCs_Cds-CtOs
+                                L9: Cds-CbCs_Cds-CbOs
+                                L9: Cds-CbCs_Cds-COOs
+                                L9: Cds-CbCs_Cds-CdOs
+                                L9: Cds-CbCs_Cds-C=SOs
+                            L8: Cds-CbCs_Cds-OneDeSs
+                                L9: Cds-CbCs_Cds-CtSs
+                                L9: Cds-CbCs_Cds-CbSs
+                                L9: Cds-CbCs_Cds-COSs
+                                L9: Cds-CbCs_Cds-CdSs
+                                L9: Cds-CbCs_Cds-C=SSs
+                        L7: Cds-CbCs_Cds-TwoDe
+                            L8: Cds-CbCs_Cds-CtCt
+                            L8: Cds-CbCs_Cds-CtCb
+                            L8: Cds-CbCs_Cds-CtCO
+                            L8: Cds-CbCs_Cds-CbCb
+                            L8: Cds-CbCs_Cds-CbCO
+                            L8: Cds-CbCs_Cds-COCO
+                            L8: Cds-CbCs_Cds-CdCt
+                            L8: Cds-CbCs_Cds-CdCb
+                            L8: Cds-CbCs_Cds-CdCO
+                            L8: Cds-CbCs_Cds-CtC=S
+                            L8: Cds-CbCs_Cds-CbC=S
+                            L8: Cds-CbCs_Cds-COC=S
+                            L8: Cds-CbCs_Cds-CdCd
+                            L8: Cds-CbCs_Cds-CdC=S
+                            L8: Cds-CbCs_Cds-C=SC=S
+                    L6: Cds-COCs_Cds
+                    L6: Cds-CdCs_Cds
+                        L7: Cds-CdCs_Cds-HH
+                        L7: Cds-CdCs_Cds-CsH
+                        L7: Cds-CdCs_Cds-CsCs
+                        L7: Cds-CdCs_Cds-OsH
+                        L7: Cds-CdCs_Cds-OsCs
+                        L7: Cds-CdCs_Cds-OsOs
+                        L7: Cds-CdCs_Cds-SsH
+                        L7: Cds-CdCs_Cds-SsCs
+                        L7: Cds-CdCs_Cds-SsOs
+                        L7: Cds-CdCs_Cds-SsSs
+                        L7: Cds-CdCs_Cds-OneDe
+                            L8: Cds-CdCs_Cds-OneDeH
+                                L9: Cds-CdCs_Cds-CtH
+                                L9: Cds-CdCs_Cds-CbH
+                                L9: Cds-CdCs_Cds-COH
+                                L9: Cds-CdCs_Cds-CdH
+                                L9: Cds-CdCs_Cds-C=SH
+                            L8: Cds-CdCs_Cds-OneDeCs
+                                L9: Cds-CdCs_Cds-CtCs
+                                L9: Cds-CdCs_Cds-CbCs
+                                L9: Cds-CdCs_Cds-COCs
+                                L9: Cds-CdCs_Cds-CdCs
+                                L9: Cds-CdCs_Cds-C=SCs
+                            L8: Cds-CdCs_Cds-OneDeOs
+                                L9: Cds-CdCs_Cds-CtOs
+                                L9: Cds-CdCs_Cds-CbOs
+                                L9: Cds-CdCs_Cds-COOs
+                                L9: Cds-CdCs_Cds-CdOs
+                                L9: Cds-CdCs_Cds-C=SOs
+                            L8: Cds-CdCs_Cds-OneDeSs
+                                L9: Cds-CdCs_Cds-CtSs
+                                L9: Cds-CdCs_Cds-CbSs
+                                L9: Cds-CdCs_Cds-COSs
+                                L9: Cds-CdCs_Cds-CdSs
+                                L9: Cds-CdCs_Cds-C=SSs
+                        L7: Cds-CdCs_Cds-TwoDe
+                            L8: Cds-CdCs_Cds-CtCt
+                            L8: Cds-CdCs_Cds-CtCb
+                            L8: Cds-CdCs_Cds-CtCO
+                            L8: Cds-CdCs_Cds-CbCb
+                            L8: Cds-CdCs_Cds-CbCO
+                            L8: Cds-CdCs_Cds-COCO
+                            L8: Cds-CdCs_Cds-CdCt
+                            L8: Cds-CdCs_Cds-CdCb
+                            L8: Cds-CdCs_Cds-CdCO
+                            L8: Cds-CdCs_Cds-CtC=S
+                            L8: Cds-CdCs_Cds-CbC=S
+                            L8: Cds-CdCs_Cds-COC=S
+                            L8: Cds-CdCs_Cds-CdCd
+                            L8: Cds-CdCs_Cds-CdC=S
+                            L8: Cds-CdCs_Cds-C=SC=S
+                    L6: Cds-C=SCs_Cds
+                L5: Cds-OneDeSs_Cds
+                    L6: Cds-CtSs_Cds
+                    L6: Cds-CbSs_Cds
+                    L6: Cds-COSs_Cds
+                    L6: Cds-CdSs_Cds
+                    L6: Cds-C=SSs_Cds
+                L5: Cds-OneDeOs_Cds
+                    L6: Cds-CtOs_Cds
+                    L6: Cds-CbOs_Cds
+                    L6: Cds-COOs_Cds
+                    L6: Cds-CdOs_Cds
+                    L6: Cds-C=SOs_Cds
+            L4: Cds-TwoDe_Cds
+                L5: Cds-CtCt_Cds
+                    L6: Cds-CtCt_Cds-HH
+                    L6: Cds-CtCt_Cds-CsH
+                    L6: Cds-CtCt_Cds-CsCs
+                    L6: Cds-CtCt_Cds-OsH
+                    L6: Cds-CtCt_Cds-OsCs
+                    L6: Cds-CtCt_Cds-OsOs
+                    L6: Cds-CtCt_Cds-SsH
+                    L6: Cds-CtCt_Cds-SsCs
+                    L6: Cds-CtCt_Cds-SsOs
+                    L6: Cds-CtCt_Cds-SsSs
+                    L6: Cds-CtCt_Cds-OneDe
+                        L7: Cds-CtCt_Cds-OneDeH
+                            L8: Cds-CtCt_Cds-CtH
+                            L8: Cds-CtCt_Cds-CbH
+                            L8: Cds-CtCt_Cds-COH
+                            L8: Cds-CtCt_Cds-CdH
+                            L8: Cds-CtCt_Cds-C=SH
+                        L7: Cds-CtCt_Cds-OneDeCs
+                            L8: Cds-CtCt_Cds-CtCs
+                            L8: Cds-CtCt_Cds-CbCs
+                            L8: Cds-CtCt_Cds-COCs
+                            L8: Cds-CtCt_Cds-CdCs
+                            L8: Cds-CtCt_Cds-C=SCs
+                        L7: Cds-CtCt_Cds-OneDeOs
+                            L8: Cds-CtCt_Cds-CtOs
+                            L8: Cds-CtCt_Cds-CbOs
+                            L8: Cds-CtCt_Cds-COOs
+                            L8: Cds-CtCt_Cds-CdOs
+                            L8: Cds-CtCt_Cds-C=SOs
+                        L7: Cds-CtCt_Cds-OneDeSs
+                            L8: Cds-CtCt_Cds-CtSs
+                            L8: Cds-CtCt_Cds-CbSs
+                            L8: Cds-CtCt_Cds-COSs
+                            L8: Cds-CtCt_Cds-CdSs
+                            L8: Cds-CtCt_Cds-C=SSs
+                    L6: Cds-CtCt_Cds-TwoDe
+                        L7: Cds-CtCt_Cds-CtCt
+                        L7: Cds-CtCt_Cds-CtCb
+                        L7: Cds-CtCt_Cds-CtCO
+                        L7: Cds-CtCt_Cds-CbCb
+                        L7: Cds-CtCt_Cds-CbCO
+                        L7: Cds-CtCt_Cds-COCO
+                        L7: Cds-CtCt_Cds-CdCt
+                        L7: Cds-CtCt_Cds-CdCb
+                        L7: Cds-CtCt_Cds-CdCO
+                        L7: Cds-CtCt_Cds-CtC=S
+                        L7: Cds-CtCt_Cds-CbC=S
+                        L7: Cds-CtCt_Cds-COC=S
+                        L7: Cds-CtCt_Cds-CdCd
+                        L7: Cds-CtCt_Cds-CdC=S
+                        L7: Cds-CtCt_Cds-C=SC=S
+                L5: Cds-CtCb_Cds
+                L5: Cds-CtCO_Cds
+                L5: Cds-CbCb_Cds
+                L5: Cds-CbCO_Cds
+                L5: Cds-COCO_Cds
+                L5: Cds-CdCt_Cds
+                    L6: Cds-CdCt_Cds-HH
+                    L6: Cds-CdCt_Cds-CsH
+                    L6: Cds-CdCt_Cds-CsCs
+                    L6: Cds-CdCt_Cds-OsH
+                    L6: Cds-CdCt_Cds-OsCs
+                    L6: Cds-CdCt_Cds-OsOs
+                    L6: Cds-CdCt_Cds-SsH
+                    L6: Cds-CdCt_Cds-SsCs
+                    L6: Cds-CdCt_Cds-SsOs
+                    L6: Cds-CdCt_Cds-SsSs
+                    L6: Cds-CdCt_Cds-OneDe
+                        L7: Cds-CdCt_Cds-OneDeH
+                            L8: Cds-CdCt_Cds-CtH
+                            L8: Cds-CdCt_Cds-CbH
+                            L8: Cds-CdCt_Cds-COH
+                            L8: Cds-CdCt_Cds-CdH
+                            L8: Cds-CdCt_Cds-C=SH
+                        L7: Cds-CdCt_Cds-OneDeCs
+                            L8: Cds-CdCt_Cds-CtCs
+                            L8: Cds-CdCt_Cds-CbCs
+                            L8: Cds-CdCt_Cds-COCs
+                            L8: Cds-CdCt_Cds-CdCs
+                            L8: Cds-CdCt_Cds-C=SCs
+                        L7: Cds-CdCt_Cds-OneDeOs
+                            L8: Cds-CdCt_Cds-CtOs
+                            L8: Cds-CdCt_Cds-CbOs
+                            L8: Cds-CdCt_Cds-COOs
+                            L8: Cds-CdCt_Cds-CdOs
+                            L8: Cds-CdCt_Cds-C=SOs
+                        L7: Cds-CdCt_Cds-OneDeSs
+                            L8: Cds-CdCt_Cds-CtSs
+                            L8: Cds-CdCt_Cds-CbSs
+                            L8: Cds-CdCt_Cds-COSs
+                            L8: Cds-CdCt_Cds-CdSs
+                            L8: Cds-CdCt_Cds-C=SSs
+                    L6: Cds-CdCt_Cds-TwoDe
+                        L7: Cds-CdCt_Cds-CtCt
+                        L7: Cds-CdCt_Cds-CtCb
+                        L7: Cds-CdCt_Cds-CtCO
+                        L7: Cds-CdCt_Cds-CbCb
+                        L7: Cds-CdCt_Cds-CbCO
+                        L7: Cds-CdCt_Cds-COCO
+                        L7: Cds-CdCt_Cds-CdCt
+                        L7: Cds-CdCt_Cds-CdCb
+                        L7: Cds-CdCt_Cds-CdCO
+                        L7: Cds-CdCt_Cds-CtC=S
+                        L7: Cds-CdCt_Cds-CbC=S
+                        L7: Cds-CdCt_Cds-COC=S
+                        L7: Cds-CdCt_Cds-CdCd
+                        L7: Cds-CdCt_Cds-CdC=S
+                        L7: Cds-CdCt_Cds-C=SC=S
+                L5: Cds-CdCb_Cds
+                L5: Cds-CdCO_Cds
+                L5: Cds-CtC=S_Cds
+                L5: Cds-CbC=S_Cds
+                L5: Cds-COC=S_Cds
+                L5: Cds-CdCd_Cds
+                    L6: Cds-CdCd_Cds-HH
+                    L6: Cds-CdCd_Cds-CsH
+                    L6: Cds-CdCd_Cds-CsCs
+                    L6: Cds-CdCd_Cds-OsH
+                    L6: Cds-CdCd_Cds-OsCs
+                    L6: Cds-CdCd_Cds-OsOs
+                    L6: Cds-CdCd_Cds-SsH
+                    L6: Cds-CdCd_Cds-SsCs
+                    L6: Cds-CdCd_Cds-SsOs
+                    L6: Cds-CdCd_Cds-SsSs
+                    L6: Cds-CdCd_Cds-OneDe
+                        L7: Cds-CdCd_Cds-OneDeH
+                            L8: Cds-CdCd_Cds-CtH
+                            L8: Cds-CdCd_Cds-CbH
+                            L8: Cds-CdCd_Cds-COH
+                            L8: Cds-CdCd_Cds-CdH
+                            L8: Cds-CdCd_Cds-C=SH
+                        L7: Cds-CdCd_Cds-OneDeCs
+                            L8: Cds-CdCd_Cds-CtCs
+                            L8: Cds-CdCd_Cds-CbCs
+                            L8: Cds-CdCd_Cds-COCs
+                            L8: Cds-CdCd_Cds-CdCs
+                            L8: Cds-CdCd_Cds-C=SCs
+                        L7: Cds-CdCd_Cds-OneDeOs
+                            L8: Cds-CdCd_Cds-CtOs
+                            L8: Cds-CdCd_Cds-CbOs
+                            L8: Cds-CdCd_Cds-COOs
+                            L8: Cds-CdCd_Cds-CdOs
+                            L8: Cds-CdCd_Cds-C=SOs
+                        L7: Cds-CdCd_Cds-OneDeSs
+                            L8: Cds-CdCd_Cds-CtSs
+                            L8: Cds-CdCd_Cds-CbSs
+                            L8: Cds-CdCd_Cds-COSs
+                            L8: Cds-CdCd_Cds-CdSs
+                            L8: Cds-CdCd_Cds-C=SSs
+                    L6: Cds-CdCd_Cds-TwoDe
+                        L7: Cds-CdCd_Cds-CtCt
+                        L7: Cds-CdCd_Cds-CtCb
+                        L7: Cds-CdCd_Cds-CtCO
+                        L7: Cds-CdCd_Cds-CbCb
+                        L7: Cds-CdCd_Cds-CbCO
+                        L7: Cds-CdCd_Cds-COCO
+                        L7: Cds-CdCd_Cds-CdCt
+                        L7: Cds-CdCd_Cds-CdCb
+                        L7: Cds-CdCd_Cds-CdCO
+                        L7: Cds-CdCd_Cds-CtC=S
+                        L7: Cds-CdCd_Cds-CbC=S
+                        L7: Cds-CdCd_Cds-COC=S
+                        L7: Cds-CdCd_Cds-CdCd
+                        L7: Cds-CdCd_Cds-CdC=S
+                        L7: Cds-CdCd_Cds-C=SC=S
+                L5: Cds-CdC=S_Cds
+                L5: Cds-C=SC=S_Cds
+            L4: Cds-OJH_Cds
+                L5: Cds-OJH_Cds-HH
+                L5: Cds-OJH_Cds-CsH
+            L4: Cds-OJNonDe_Cds
+                L5: Cds-OJCs_Cds-HH
+            L4: Cds-OJDe_Cds
+    L2: Ct_R
+        L3: Ct_Ct
+            L4: Ct-H_Ct-H
+            L4: Ct-H_Ct-Cs
+            L4: Ct-Cs_Ct-H
+            L4: Ct-Cs_Ct-Cs
+            L4: Ct-H_Ct-De
+                L5: Ct-H_Ct-Ct
+                L5: Ct-H_Ct-Cb
+                L5: Ct-H_Ct-CO
+                L5: Ct-H_Ct-Cd
+                L5: Ct-H_Ct-C=S
+            L4: Ct-Cs_Ct-De
+                L5: Ct-Cs_Ct-Ct
+                L5: Ct-Cs_Ct-Cb
+                L5: Ct-Cs_Ct-CO
+                L5: Ct-Cs_Ct-Cd
+                L5: Ct-Cs_Ct-C=S
+            L4: Ct-De_Ct-H
+                L5: Ct-Cb_Ct-H
+                L5: Ct-CO_Ct-H
+                L5: Ct-Cd_Ct-H
+                L5: Ct-Ct_Ct-H
+                L5: Ct-C=S_Ct-H
+            L4: Ct-De_Ct-Cs
+                L5: Ct-Cb_Ct-Cs
+                L5: Ct-CO_Ct-Cs
+                L5: Ct-Cd_Ct-Cs
+                L5: Ct-Ct_Ct-Cs
+                L5: Ct-C=S_Ct-Cs
+            L4: Ct-De_Ct-De
+                L5: Ct-Ct_Ct-Ct
+                L5: Ct-Cd_Ct-Ct
+                L5: Ct-Ct_Ct-Cd
+                L5: Ct-Cd_Ct-Cd
+        L3: Ct_Nt
+            L4: Ct_N3t
+                L5: Ct-H_N3t
+                L5: Ct-NonDe_N3t
+                L5: Ct-OneDe_N3t
+            L4: Ct_N5t
+    L2: Od_R
+        L3: Od_Cdd
+            L4: Od_Cdd-Od
+        L3: Od_Cd
+            L4: Od_Cd-CsH
+        L3: Od_Nd
+            L4: Od_N3d
+            L4: Od_N5d
+    L2: Nd_R
+        L3: N1d_R
+        L3: N3d_R
+            L4: N3d_Cd
+                L5: N3d_Cds
+                    L6: N3d-H_Cds
+                        L7: N3d-H_Cds-HH
+                        L7: N3d-H_Cds-NonDeH
+                        L7: N3d-H_Cds-NonDe2
+                    L6: N3d-NonDe_Cds
+                    L6: N3d-OneDe_Cds
+                L5: N3d_Cdd
+            L4: N3d_Od
+                L5: N3d-H_Od
+                L5: N3d-NonDe_Od
+                L5: N3d-OneDe_Od
+            L4: N3d_Nd
+                L5: N3d_N3d
+                    L6: N3d-H_N3d
+                        L7: N3d-H_N3d-H
+                        L7: N3d-H_N3d-NonDe
+                        L7: N3d-H_N3d-OneDe
+                    L6: N3d-NonDe_N3d
+                    L6: N3d-OneDe_N3d
+                L5: N3d_N5d
+    L2: Nt_R
+        L3: N3t_R
+            L4: N3t_Ct
+                L5: N3t_Ct-H
+                L5: N3t_Ct-NonDe
+                L5: N3t_Ct-OneDe
+            L4: N3t_N3t
         L3: N5t_R
-L1: Y_rad_birad_trirad_quadrad
-    L2: Y_1centerquadrad
-        L3: C_quintet
-        L3: C_triplet
-        L3: C_singlet
-    L2: Y_1centertrirad
-        L3: N_atom_quartet
-        L3: N_atom_doublet
-        L3: CH_quartet
-        L3: CH_doublet
-    L2: Y_2centerbirad
-        L3: O2b
+    L2: Sd_R
+        L3: Sd_Cdd
+            L4: Sd_Cdd-Sd
+        L3: Sd_Cd
+            L4: Sd_Cds-HH
+            L4: Sd_Cds-CsH
+            L4: Sd_Cds-OsH
+            L4: Sd_Cds-OsCs
+            L4: Sd_Cds-CsCs
+            L4: Sd_Cds-OneDeH
+                L5: Sd_Cds-CtH
+                L5: Sd_Cds-CbH
+                L5: Sd_Cds-COH
+                L5: Sd_Cds-CdH
+                L5: Sd_Cds-C=SH
+            L4: Sd_Cds-OneDeCs
+                L5: Sd_Cds-CtCs
+                L5: Sd_Cds-CbCs
+                L5: Sd_Cds-COCs
+                L5: Sd_Cds-CdCs
+                L5: Sd_Cds-C=SCs
+            L4: Sd_Cds-TwoDe
+                L5: Sd_Cds-CtCt
+                L5: Sd_Cds-CtCb
+                L5: Sd_Cds-CtCO
+                L5: Sd_Cds-CbCb
+                L5: Sd_Cds-CbCO
+                L5: Sd_Cds-COCO
+                L5: Sd_Cds-CdCt
+                L5: Sd_Cds-CdCb
+                L5: Sd_Cds-CdCO
+                L5: Sd_Cds-CtC=S
+                L5: Sd_Cds-CbC=S
+                L5: Sd_Cds-COC=S
+                L5: Sd_Cds-CdCd
+                L5: Sd_Cds-CdC=S
+                L5: Sd_Cds-C=SC=S
+L1: YJ
+    L2: HJ
+    L2: CJ
+        L3: CbJ
+        L3: CtJ
+            L4: CtJ_Ct
+            L4: CtJ_N3t
         L3: C2b
-    L2: Y_1centerbirad
-        L3: O_atom_triplet
-        L3: CO_birad
-        L3: NH_triplet
-        L3: CH2_triplet
-    L2: Y_rad
-        L3: H_rad
-        L3: N3_rad
-            L4: N3s_rad
-                L5: NH2_rad
-                L5: N3s_rad_pri
-                    L6: N3s_rad/H/NonDe
-                        L7: N3s_rad/H/NonDeC
-                        L7: N3s_rad/H/NonDeO
-                        L7: N3s_rad/H/NonDeN
-                    L6: N3s_rad/H/OneDe
-                L5: N3s_rad_sec
-                    L6: N3s_rad/NonDe2
-                    L6: N3s_rad/OneDe
-                    L6: N3s_rad/TwoDe
-            L4: N3d_rad
-                L5: N3d_rad/C
-                L5: N3d_rad/O
-                L5: N3d_rad/N
-        L3: N5_rad
-            L4: N5d_rad
-        L3: Ct_rad
-            L4: Ct_rad/Ct
-            L4: Ct_rad/N3t
-        L3: O_rad
-            L4: O_pri_rad
-            L4: O_sec_rad
-                L5: O_rad/NonDe
-                    L6: O_rad/NonDeO
-                    L6: O_rad/NonDeC
-                    L6: O_rad/NonDeN
-                L5: O_rad/OneDe
-                    L6: O_rad/OneDeN
-                        L7: O_rad/NO
-        L3: S_rad
-            L4: S_pri_rad
-            L4: S_sec_rad
-                L5: S_rad/NonDeC
-                L5: S_rad/NonDeS
-                L5: S_rad/OneDe
-                    L6: S_rad/Ct
-                    L6: S_rad/Cb
-                    L6: S_rad/CO
-                    L6: S_rad/Cd
-                    L6: S_rad/CS
-        L3: Cd_rad
-            L4: Cd_pri_rad
-            L4: Cd_sec_rad
-                L5: Cd_rad/NonDe
-                L5: Cd_rad/OneDe
-        L3: Cb_rad
+        L3: C=SJ
+            L4: C=SJ-H
+            L4: C=SJ-Cs
+            L4: C=SJ-Ct
+            L4: C=SJ-Cb
+            L4: C=SJ-CO
+            L4: C=SJ-Os
+            L4: C=SJ-Ss
+            L4: C=SJ-Cd
+            L4: C=SJ-C=S
         L3: CO_rad
             L4: CO_pri_rad
             L4: CO_sec_rad
                 L5: CO_rad/NonDe
                 L5: CO_rad/OneDe
-        L3: Cs_rad
-            L4: C_methyl
-            L4: C_pri_rad
-                L5: C_rad/H2/Cs
-                L5: C_rad/H2/Cd
-                L5: C_rad/H2/Ct
-                L5: C_rad/H2/Cb
-                L5: C_rad/H2/CO
-                L5: C_rad/H2/O
-                L5: C_rad/H2/N
-            L4: C_sec_rad
-                L5: C_rad/H/NonDeC
-                L5: C_rad/H/NonDeO
-                    L6: C_rad/H/CsO
-                    L6: C_rad/H/O2
-                L5: C_rad/H/NonDeS
-                    L6: C_rad/H/CsS
-                    L6: C_rad/H/S2
-                L5: C_rad/H/NonDeN
-                L5: C_rad/H/OneDe
-                    L6: C_rad/H/OneDeC
-                    L6: C_rad/H/OneDeO
-                    L6: C_rad/H/OneDeN
-                L5: C_rad/H/TwoDe
-            L4: C_ter_rad
-                L5: C_rad/NonDeC
-                    L6: C_rad/Cs3
-                    L6: C_rad/NDMustO
-                L5: C_rad/OneDe
-                    L6: C_rad/Cs2
-                    L6: C_rad/ODMustO
-                L5: C_rad/TwoDe
-                    L6: C_rad/Cs
-                    L6: C_rad/TDMustO
-                L5: C_rad/ThreeDe
-        L3: Cd_pri_rad-Cdd/Cd
+        L3: CsJ
+            L4: CsJ-HHH
+            L4: CsJ-CsHH
+            L4: CsJ-CsCsH
+            L4: CsJ-CsCsCs
+            L4: CsJ-OsHH
+            L4: CsJ-OsCsH
+            L4: CsJ-OsCsCs
+            L4: CsJ-OsOsH
+            L4: CsJ-OsOsCs
+            L4: CsJ-OsOsOs
+            L4: CsJ-SsHH
+            L4: CsJ-SsCsH
+            L4: CsJ-SsCsCs
+            L4: CsJ-SsSsH
+            L4: CsJ-SsSsCs
+            L4: CsJ-SsSsSs
+            L4: CsJ-NsHH
+            L4: CsJ-NsCsH
+            L4: CsJ-OneDe
+                L5: CsJ-OneDeHH
+                    L6: CsJ-CtHH
+                    L6: CsJ-CbHH
+                    L6: CsJ-COHH
+                    L6: CsJ-CdHH
+                    L6: CsJ-C=SHH
+                L5: CsJ-OneDeCsH
+                    L6: CsJ-CtCsH
+                    L6: CsJ-CbCsH
+                    L6: CsJ-COCsH
+                    L6: CsJ-CdCsH
+                    L6: CsJ-C=SCsH
+                L5: CsJ-OneDeOsH
+                L5: CsJ-OneDeSsH
+                L5: CsJ-OneDeCsCs
+                    L6: CsJ-CtCsCs
+                    L6: CsJ-CbCsCs
+                    L6: CsJ-COCsCs
+                    L6: CsJ-CdCsCs
+                    L6: CsJ-C=SCsCs
+                L5: CsJ-OneDeOsCs
+                L5: CsJ-OneDeSsCs
+                L5: CsJ-OneDeOsOs
+                L5: CsJ-OneDeOsSs
+                L5: CsJ-OneDeSsSs
+                L5: CsJ-OneDeNsH
+                L5: CsJ-OneDeNsCs
+            L4: CsJ-TwoDe
+                L5: CsJ-TwoDeH
+                    L6: CsJ-CtCtH
+                    L6: CsJ-CtCbH
+                    L6: CsJ-CtCOH
+                    L6: CsJ-CbCbH
+                    L6: CsJ-CbCOH
+                    L6: CsJ-COCOH
+                    L6: CsJ-CdCtH
+                    L6: CsJ-CdCbH
+                    L6: CsJ-CdCOH
+                    L6: CsJ-CtC=SH
+                    L6: CsJ-CbC=SH
+                    L6: CsJ-COC=SH
+                    L6: CsJ-CdCdH
+                    L6: CsJ-CdC=SH
+                    L6: CsJ-C=SC=SH
+                L5: CsJ-TwoDeCs
+                    L6: CsJ-CtCtCs
+                    L6: CsJ-CtCbCs
+                    L6: CsJ-CtCOCs
+                    L6: CsJ-CbCbCs
+                    L6: CsJ-CbCOCs
+                    L6: CsJ-COCOCs
+                    L6: CsJ-CdCtCs
+                    L6: CsJ-CdCbCs
+                    L6: CsJ-CdCOCs
+                    L6: CsJ-CtC=SCs
+                    L6: CsJ-CbC=SCs
+                    L6: CsJ-COC=SCs
+                    L6: CsJ-CdCdCs
+                    L6: CsJ-CdC=SCs
+                    L6: CsJ-C=SC=SCs
+                L5: CsJ-TwoDeOs
+                L5: CsJ-TwoDeSs
+            L4: CsJ-ThreeDe
+        L3: CdsJ=Cdd
+        L3: CdsJ
+            L4: CdsJ-H
+            L4: CdsJ-Cs
+            L4: CdsJ-Ct
+            L4: CdsJ-Cb
+            L4: CdsJ-CO
+            L4: CdsJ-Os
+            L4: CdsJ-Ss
+            L4: CdsJ-Cd
+            L4: CdsJ-C=S
+    L2: OJ
+        L3: OJ_pri
+        L3: OJ_sec
+            L4: OJ-NonDe
+                L5: O_rad/NonDe
+                    L6: OJ-Cs
+                    L6: OJ-Os
+                L5: OJ-Ns
+            L4: OJ-OneDe
+                L5: O_rad/OneDe
+                L5: OJ-OneDeN
+                    L6: OJ-NO
+        L3: O2b
+    L2: SJ
+        L3: SsJ
+            L4: SsJ-H
+            L4: SsJ-Cs
+            L4: SsJ-Ss
+            L4: SsJ-OneDe
+                L5: SsJ-Ct
+                L5: SsJ-Cb
+                L5: SsJ-CO
+                L5: SsJ-Cd
+                L5: SsJ-C=S
+    L2: NJ
+        L3: N3J
+            L4: N3sJ
+                L5: NH2J
+                L5: N3sJ-NonDeH
+                    L6: N3sJ-CsH
+                    L6: N3sJ-OsH
+                    L6: N3sJ-NsH
+                L5: N3sJ-NonDe2
+                L5: N3sJ-OneDeH
+                L5: N3sJ-OneDeCs
+                L5: N3sJ-TwoDe
+            L4: N3dJ
+                L5: N3dJ_C
+                L5: N3dJ_O
+                L5: N3dJ_N
+    L2: Y_1centerbirad
+        L3: O_atom_triplet
+        L3: SJJ
+        L3: CH2_triplet
+        L3: CO_birad
+        L3: NH_triplet
+    L2: Y_1centertrirad
+        L3: N_atom_quartet
+        L3: N_atom_doublet
+        L3: CH_quartet
+        L3: CH_doublet
+    L2: Y_1centerquadrad
+        L3: C_quintet
+        L3: C_triplet
+        L3: C_singlet
 """
 )
 
