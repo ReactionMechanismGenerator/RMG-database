@@ -3442,16 +3442,6 @@ entry(
 )
 
 entry(
-    index = 188,
-    label = "Y_1centerbirad",
-    group = 
-"""
-1 *3 [Cs,Cd,CO,CS,O,S,N] u2
-""",
-    kinetics = None,
-)
-
-entry(
     index = 189,
     label = "O_atom_triplet",
     group = 
@@ -6346,6 +6336,44 @@ entry(
 )
 
 entry(
+    index = 492,
+    label = "Si_H",
+    group = 
+"""
+1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    R 0 {1,S}
+4    R 0 {1,S}
+5    R 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 493,
+    label = "Si_silane",
+    group = 
+"""
+1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 462,
     label = "N3d_rad/OneDe",
     group = 
@@ -6399,6 +6427,73 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 497,
+    label = "SiH2_triplet_H",
+    group = 
+"""
+1 *1 Si 2T {2,S} {3,S}
+2 *2 H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 498,
+    label = "SiH_quartet",
+    group = 
+"""
+1 *3 Si u3 p0 c0 {2,S}
+2    H u0 p0 c0  {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 499,
+    label = "SiH_doublet",
+    group = 
+"""
+1 *3 Si u1 p1 c0 {2,S}
+2    H u0 p0 c0  {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 500,
+    label = "SiH2_triplet",
+    group = 
+"""
+1 *3 Si u2 p0 c0 {2,S} {3,S}
+2    H u0 p0 c0  {1,S}
+3    H u0 p0 c0  {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+
+)
+                                      
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -6622,6 +6717,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: N5_H
             L4: N5d_H
                 L5: N5d/H/NonDeOO
+	L3: Si_H
+	    L4: Si_silane 
     L2: Xrad_H
         L3: C_rad_H
             L4: CH3_rad_H
