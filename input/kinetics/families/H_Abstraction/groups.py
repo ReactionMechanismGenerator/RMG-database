@@ -6355,15 +6355,307 @@ u"""
 )
 
 entry(
-    index = 493,
-    label = "Si_silane",
+    index = 443,
+    label = "OH_rad_H",
     group = 
 """
-1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H 0 {1,S}
-3    H 0 {1,S}
+1 *1 O  1 {2,S}
+2 *2 H  0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 444,
+    label = "Xbirad_H",
+    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H, Si_singlet_H}",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 446,
+    label = "N3d/H/NonDeC",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    Cd  0 {1,D} {4,S} {5,S}
+4    R   0 {3,S}
+5    R   0 {3,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 447,
+    label = "N3d/H/NonDeO",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    Od   0 {1,D}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 448,
+    label = "N3d/H/NonDeN",
+    group = 
+"""
+1 *1 N3d 0 {2,S} {3,D}
+2 *2 H   0 {1,S}
+3    N3d 0 {1,D}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 449,
+    label = "N3s_rad_H/H/NonDeN",
+    group = 
+"""
+1 *1 N3s 1 {2,S} {3,S}
+2 *2 H   0 {1,S}
+3    N3s 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 450,
+    label = "N3s/H2/NonDe",
+    group = 
+"""
+1 *1 N3s         0 {2,S} {3,S} {4,S}
+2 *2 H           0 {1,S}
+3    H           0 {1,S}
+4    {N3s,Cs,Os} 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 451,
+    label = "N3s/H2/NonDeC",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    Cs  0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 452,
+    label = "N3s/H2/NonDeO",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    Os  0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 453,
+    label = "N3s/H2/NonDeN",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    N3s 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 454,
+    label = "O/H/OneDeC",
+    group = 
+"""
+1 *1 O                0 {2,S} {3,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 455,
+    label = "O/H/OneDeN",
+    group = 
+"""
+1 *1 O         0 {2,S} {3,S}
+2 *2 H         0 {1,S}
+3    {N3d,N5d} 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 456,
+    label = "N5d/H/NonDeOO",
+    group = 
+"""
+1 *1 N5d 0 {2,S} {3,S} {4,D}
+2 *2 H   0 {1,S}
+3    Os  0 {1,S}
+4    Od  0 {1,D}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 457,
+    label = "Ct/H/NonDeC",
+    group = 
+"""
+1 *1 Ct 0 {2,S} {3,T}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,T}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 458,
+    label = "Ct/H/NonDeN",
+    group = 
+"""
+1 *1 Ct  0 {2,S} {3,T}
+2 *2 H   0 {1,S}
+3    N3t 0 {1,T}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 459,
+    label = "Cd/H2/NonDeC",
+    group = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
 4    H 0 {1,S}
-5    H 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 460,
+    label = "Cd/H2/NonDeN",
+    group = 
+"""
+1 *1 C   0 {2,D} {3,S} {4,S}
+2    N3d 0 {1,D}
+3 *2 H   0 {1,S}
+4    H   0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 461,
+    label = "Cs/H3/NonDeN",
+    group = 
+"""
+1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
+2    N3s 0 {1,S}
+3 *2 H   0 {1,S}
+4    H   0 {1,S}
+5    H   0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6425,6 +6717,25 @@ entry(
 1 *3 N5d u1
 """,
     kinetics = None,
+)
+
+entry(
+    index = 493,
+    label = "Si_silane",
+    group = 
+"""
+1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
 )
 
 entry(
@@ -6493,7 +6804,60 @@ u"""
 """,
 
 )
-                                      
+
+entry(
+    index = 494,
+    label = "SiH2_singlet_H",
+    group = 
+"""
+1 *1 Si 2S {2,S} {3,S}
+2 *2 H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 495,
+    label = "Si_rad",
+    group = 
+"""
+1 *3 Si 1 {2,S} {3,S} {4,S}
+2    R 0 {1,S}
+3    R 0 {1,S}
+4    R 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 496,
+    label = "Si_silyl",
+    group = 
+"""
+1 *3 Si 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -6732,8 +7096,9 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
     L2: Xbirad_H
         L3: CH2_triplet_H
         L3: CH2_singlet_H
-        L3: NH_triplet_H
-        L3: NH_singlet_H
+		L3: NH_triplet_H
+		L3: NH_singlet_H
+	L3: SiH2_singlet_H
     L2: Xtrirad_H
         L3: C_quartet_H
         L3: C_doublet_H
@@ -6966,6 +7331,8 @@ L1: Y_rad_birad_trirad_quadrad
                         L7: N3d_rad/OneDeCdd_O
         L3: N5_rad
             L4: N5d_rad
+	L3: Si_rad
+	    L4: Si_silyl
 """
 )
 

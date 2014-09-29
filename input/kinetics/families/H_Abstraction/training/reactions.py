@@ -1511,3 +1511,26 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 """,
 )
 
+entry(
+    index = 1011,
+    label = "SiH4 + H <=> H2 + SiH3",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.09E-17, 'cm^3/(mol*s)'),
+        n = 2.32,
+        Ea = (9.51, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (290, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    shortDesc = u"""Wu ab initio calc 2010""",
+    longDesc = 
+u"""
+Rate was calculated using TST with Eckart tunneling, by using calculations at the CCSD(T)/6-311++G(3df,2p)//CCSD(T)/6-311*G(d,p) level.
+
+S.Y. Wu, P.Raghunath, J.S. Wu, and M.C. Lin
+J. Phys. Chem. A 2010, 114, 633-639
+DOI: 10.1021/jp908222g
+""",
+)
+
