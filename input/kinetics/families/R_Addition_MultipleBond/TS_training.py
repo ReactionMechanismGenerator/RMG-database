@@ -611,10 +611,10 @@ u"""
 entry(
     index = 14,
     reactant1 = """
-1    H u0 p0 c0  {2,S}
-2 *2 C u0 p0 c0  {1,S} {3,T}
-3 *1 C u0 p0 c0  {2,T} {4,S}
-4    H u0 p0 c0  {3,S}
+1 *2 C u0 p0 c0  {2,T} {3,S}
+2 *1 C u0 p0 c0  {1,T} {4,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {2,S}
 """,
     reactant2 = """
 multiplicity 2
@@ -870,11 +870,11 @@ entry(
     index = 20,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2    C u0 p0 c0  {1,S} {3,D} {4,S}
-3 *3 C u1 p0 c0  {2,D} {5,S}
-4    H u0 p0 c0  {2,S}
-5    H u0 p0 c0  {3,S}
+1    C u0 p0 c0  {2,D} {3,S} {4,S}
+2 *3 C u1 p0 c0  {1,D} {5,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {2,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -910,14 +910,14 @@ u"""
 entry(
     index = 21,
     reactant1 = """
-1    H u0 p0 c0  {2,S}
-2    C u0 p0 c0  {1,S} {3,D} {4,S}
-3    C u0 p0 c0  {2,D} {5,S} {6,S}
-4    H u0 p0 c0  {2,S}
-5 *1 C u0 p0 c0  {3,S} {7,D} {8,S}
-6    H u0 p0 c0  {3,S}
-7 *2 O u0 p2 c0  {5,D}
-8    H u0 p0 c0  {5,S}
+1    C u0 p0 c0  {2,D} {3,S} {4,S}
+2    C u0 p0 c0  {1,D} {5,S} {6,S}
+3 *1 C u0 p0 c0  {1,S} {7,D} {8,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {2,S}
+6    H u0 p0 c0  {2,S}
+7 *2 O u0 p2 c0  {3,D}
+8    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 multiplicity 2
@@ -997,16 +997,16 @@ entry(
     index = 23,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-4     H u0 p0 c0  {2,S}
-5     H u0 p0 c0  {3,S}
-6     H u0 p0 c0  {3,S}
-7     C u0 p0 c0  {3,S} {8,S} {9,S} {10,S}
-8     H u0 p0 c0  {7,S}
-9     H u0 p0 c0  {7,S}
-10    H u0 p0 c0  {7,S}
+1     C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2     C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3  *3 C u1 p0 c0  {1,S} {9,S} {10,S}
+4     H u0 p0 c0  {1,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {2,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
+10    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -1048,16 +1048,16 @@ entry(
     index = 24,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-4     C u0 p0 c0  {2,S} {8,S} {9,S} {10,S}
-5     H u0 p0 c0  {3,S}
-6     H u0 p0 c0  {3,S}
-7     H u0 p0 c0  {3,S}
-8     H u0 p0 c0  {4,S}
-9     H u0 p0 c0  {4,S}
-10    H u0 p0 c0  {4,S}
+1     C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u1 p0 c0  {1,S} {2,S} {10,S}
+4     H u0 p0 c0  {1,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -1103,16 +1103,16 @@ entry(
     index = 25,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-4     H u0 p0 c0  {2,S}
-5     H u0 p0 c0  {3,S}
-6     H u0 p0 c0  {3,S}
-7     C u0 p0 c0  {3,S} {8,S} {9,S} {10,S}
-8     H u0 p0 c0  {7,S}
-9     H u0 p0 c0  {7,S}
-10    H u0 p0 c0  {7,S}
+1     C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2     C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3  *3 C u1 p0 c0  {1,S} {9,S} {10,S}
+4     H u0 p0 c0  {1,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {2,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
+10    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -1158,16 +1158,16 @@ entry(
     index = 26,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-4     C u0 p0 c0  {2,S} {8,S} {9,S} {10,S}
-5     H u0 p0 c0  {3,S}
-6     H u0 p0 c0  {3,S}
-7     H u0 p0 c0  {3,S}
-8     H u0 p0 c0  {4,S}
-9     H u0 p0 c0  {4,S}
-10    H u0 p0 c0  {4,S}
+1     C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u1 p0 c0  {1,S} {2,S} {10,S}
+4     H u0 p0 c0  {1,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,T} {3,S}
@@ -1177,20 +1177,20 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1  *1 C u0 p0 c0  {2,D} {3,S} {7,S}
-2  *2 C u1 p0 c0  {1,D} {4,S}
-3     H u0 p0 c0  {1,S}
-4     H u0 p0 c0  {2,S}
-5     C u0 p0 c0  {7,S} {8,S} {9,S} {10,S}
-6     C u0 p0 c0  {7,S} {11,S} {12,S} {13,S}
-7  *3 C u0 p0 c0  {1,S} {5,S} {6,S} {14,S}
-8     H u0 p0 c0  {5,S}
-9     H u0 p0 c0  {5,S}
-10    H u0 p0 c0  {5,S}
-11    H u0 p0 c0  {6,S}
-12    H u0 p0 c0  {6,S}
-13    H u0 p0 c0  {6,S}
-14    H u0 p0 c0  {7,S}
+1  *3 C u0 p0 c0  {2,S} {3,S} {4,S} {6,S}
+2     C u0 p0 c0  {1,S} {7,S} {8,S} {9,S}
+3     C u0 p0 c0  {1,S} {10,S} {11,S} {12,S}
+4  *1 C u0 p0 c0  {1,S} {5,D} {13,S}
+5  *2 C u1 p0 c0  {4,D} {14,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {5,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.086017, 'd12': 1.230931, 'd13': 2.312927},
@@ -1209,13 +1209,13 @@ entry(
     index = 27,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2 *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3    H u0 p0 c0  {2,S}
-4    C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-5    H u0 p0 c0  {4,S}
-6    H u0 p0 c0  {4,S}
-7    H u0 p0 c0  {4,S}
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *3 C u1 p0 c0  {1,S} {6,S} {7,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {2,S}
+7    H u0 p0 c0  {2,S}
 """,
     reactant2 = """
 1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
@@ -1260,11 +1260,11 @@ entry(
     index = 28,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2    C u0 p0 c0  {1,S} {3,D} {4,S}
-3 *3 C u1 p0 c0  {2,D} {5,S}
-4    H u0 p0 c0  {2,S}
-5    H u0 p0 c0  {3,S}
+1    C u0 p0 c0  {2,D} {3,S} {4,S}
+2 *3 C u1 p0 c0  {1,D} {5,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {2,S}
 """,
     reactant2 = """
 1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
@@ -1307,14 +1307,14 @@ entry(
     index = 29,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2    C u0 p0 c0  {1,S} {3,S} {4,D}
-3    H u0 p0 c0  {2,S}
-4    C u0 p0 c0  {2,D} {5,S} {6,S}
-5    H u0 p0 c0  {4,S}
-6 *3 C u1 p0 c0  {4,S} {7,S} {8,S}
-7    H u0 p0 c0  {6,S}
-8    H u0 p0 c0  {6,S}
+1    C u0 p0 c0  {2,D} {3,S} {4,S}
+2    C u0 p0 c0  {1,D} {5,S} {6,S}
+3 *3 C u1 p0 c0  {1,S} {7,S} {8,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {2,S}
+6    H u0 p0 c0  {2,S}
+7    H u0 p0 c0  {3,S}
+8    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -1358,10 +1358,10 @@ entry(
     index = 30,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2 *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3    H u0 p0 c0  {2,S}
-4    H u0 p0 c0  {2,S}
+1 *3 C u1 p0 c0  {2,S} {3,S} {4,S}
+2    H u0 p0 c0  {1,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
 """,
     reactant2 = """
 1     C u0 p0 c0  {3,S} {5,S} {6,S} {7,S}
@@ -1422,11 +1422,11 @@ entry(
 """,
     reactant2 = """
 multiplicity 2
-1 *3 C u1 p0 c0  {2,S} {3,S} {4,S}
-2    C u0 p0 c0  {1,S} {5,S} {6,S} {7,S}
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *3 C u1 p0 c0  {1,S} {6,S} {7,S}
 3    H u0 p0 c0  {1,S}
 4    H u0 p0 c0  {1,S}
-5    H u0 p0 c0  {2,S}
+5    H u0 p0 c0  {1,S}
 6    H u0 p0 c0  {2,S}
 7    H u0 p0 c0  {2,S}
 """,
@@ -1464,10 +1464,10 @@ entry(
     index = 32,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2 *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3    H u0 p0 c0  {2,S}
-4    H u0 p0 c0  {2,S}
+1 *3 C u1 p0 c0  {2,S} {3,S} {4,S}
+2    H u0 p0 c0  {1,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
 """,
     reactant2 = """
 1     C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
@@ -1515,19 +1515,19 @@ entry(
     index = 33,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3     H u0 p0 c0  {2,S}
-4     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-5     C u0 p0 c0  {4,S} {8,S} {9,S} {10,S}
-6     H u0 p0 c0  {4,S}
-7     H u0 p0 c0  {4,S}
-8     C u0 p0 c0  {5,S} {11,S} {12,S} {13,S}
-9     H u0 p0 c0  {5,S}
-10    H u0 p0 c0  {5,S}
-11    H u0 p0 c0  {8,S}
-12    H u0 p0 c0  {8,S}
-13    H u0 p0 c0  {8,S}
+1     C u0 p0 c0  {2,S} {3,S} {5,S} {6,S}
+2     C u0 p0 c0  {1,S} {4,S} {7,S} {8,S}
+3     C u0 p0 c0  {1,S} {9,S} {10,S} {11,S}
+4  *3 C u1 p0 c0  {2,S} {12,S} {13,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {4,S}
+13    H u0 p0 c0  {4,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -1539,25 +1539,25 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1  *1 C u0 p0 c0  {2,S} {3,S} {4,S} {10,S}
-2  *2 C u1 p0 c0  {1,S} {5,S} {6,S}
-3     H u0 p0 c0  {1,S}
-4     H u0 p0 c0  {1,S}
-5     H u0 p0 c0  {2,S}
-6     H u0 p0 c0  {2,S}
-7     C u0 p0 c0  {8,S} {9,S} {11,S} {12,S}
-8     C u0 p0 c0  {7,S} {10,S} {13,S} {14,S}
-9     C u0 p0 c0  {7,S} {15,S} {16,S} {17,S}
-10 *3 C u0 p0 c0  {1,S} {8,S} {18,S} {19,S}
-11    H u0 p0 c0  {7,S}
-12    H u0 p0 c0  {7,S}
-13    H u0 p0 c0  {8,S}
-14    H u0 p0 c0  {8,S}
-15    H u0 p0 c0  {9,S}
-16    H u0 p0 c0  {9,S}
-17    H u0 p0 c0  {9,S}
-18    H u0 p0 c0  {10,S}
-19    H u0 p0 c0  {10,S}
+1     C u0 p0 c0  {2,S} {3,S} {9,S} {10,S}
+2  *3 C u0 p0 c0  {1,S} {4,S} {11,S} {12,S}
+3     C u0 p0 c0  {1,S} {5,S} {7,S} {8,S}
+4  *1 C u0 p0 c0  {2,S} {6,S} {13,S} {14,S}
+5     C u0 p0 c0  {3,S} {15,S} {16,S} {17,S}
+6  *2 C u1 p0 c0  {4,S} {18,S} {19,S}
+7     H u0 p0 c0  {3,S}
+8     H u0 p0 c0  {3,S}
+9     H u0 p0 c0  {1,S}
+10    H u0 p0 c0  {1,S}
+11    H u0 p0 c0  {2,S}
+12    H u0 p0 c0  {2,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {5,S}
+16    H u0 p0 c0  {5,S}
+17    H u0 p0 c0  {5,S}
+18    H u0 p0 c0  {6,S}
+19    H u0 p0 c0  {6,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.071189, 'd12': 1.363694, 'd13': 2.313189},
@@ -1576,13 +1576,13 @@ entry(
     index = 34,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2 *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3    H u0 p0 c0  {2,S}
-4    C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-5    H u0 p0 c0  {4,S}
-6    H u0 p0 c0  {4,S}
-7    H u0 p0 c0  {4,S}
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *3 C u1 p0 c0  {1,S} {6,S} {7,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {2,S}
+7    H u0 p0 c0  {2,S}
 """,
     reactant2 = """
 1     C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
@@ -1598,23 +1598,23 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1     C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
-2  *2 C u1 p0 c0  {1,S} {3,S} {7,S}
-3  *1 C u0 p0 c0  {2,S} {8,S} {9,S} {12,S}
-4     O u0 p2 c0  {1,S} {10,S}
-5     H u0 p0 c0  {1,S}
-6     H u0 p0 c0  {1,S}
-7     H u0 p0 c0  {2,S}
-8     H u0 p0 c0  {3,S}
-9     H u0 p0 c0  {3,S}
-10    H u0 p0 c0  {4,S}
-11    C u0 p0 c0  {12,S} {13,S} {14,S} {15,S}
-12 *3 C u0 p0 c0  {3,S} {11,S} {16,S} {17,S}
-13    H u0 p0 c0  {11,S}
-14    H u0 p0 c0  {11,S}
-15    H u0 p0 c0  {11,S}
-16    H u0 p0 c0  {12,S}
-17    H u0 p0 c0  {12,S}
+1  *3 C u0 p0 c0  {2,S} {4,S} {7,S} {8,S}
+2  *1 C u0 p0 c0  {1,S} {5,S} {9,S} {10,S}
+3     C u0 p0 c0  {5,S} {6,S} {11,S} {12,S}
+4     C u0 p0 c0  {1,S} {13,S} {14,S} {15,S}
+5  *2 C u1 p0 c0  {2,S} {3,S} {16,S}
+6     O u0 p2 c0  {3,S} {17,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {1,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {5,S}
+17    H u0 p0 c0  {6,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.083738, 'd12': 1.363391, 'd13': 2.332089},
@@ -1633,14 +1633,14 @@ entry(
     index = 35,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2 *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3    C u0 p0 c0  {2,S} {5,D} {6,S}
-4    H u0 p0 c0  {2,S}
-5    C u0 p0 c0  {3,D} {7,S} {8,S}
-6    H u0 p0 c0  {3,S}
-7    H u0 p0 c0  {5,S}
-8    H u0 p0 c0  {5,S}
+1    C u0 p0 c0  {2,S} {3,D} {4,S}
+2 *3 C u1 p0 c0  {1,S} {5,S} {6,S}
+3    C u0 p0 c0  {1,D} {7,S} {8,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {2,S}
+6    H u0 p0 c0  {2,S}
+7    H u0 p0 c0  {3,S}
+8    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1    C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
@@ -1655,23 +1655,23 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1     C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
-2  *2 C u1 p0 c0  {1,S} {3,S} {7,S}
-3  *1 C u0 p0 c0  {2,S} {8,S} {9,S} {12,S}
-4     H u0 p0 c0  {1,S}
-5     H u0 p0 c0  {1,S}
-6     H u0 p0 c0  {1,S}
-7     H u0 p0 c0  {2,S}
-8     H u0 p0 c0  {3,S}
-9     H u0 p0 c0  {3,S}
-10    C u0 p0 c0  {11,D} {12,S} {13,S}
-11    C u0 p0 c0  {10,D} {14,S} {15,S}
-12 *3 C u0 p0 c0  {3,S} {10,S} {16,S} {17,S}
-13    H u0 p0 c0  {10,S}
-14    H u0 p0 c0  {11,S}
-15    H u0 p0 c0  {11,S}
-16    H u0 p0 c0  {12,S}
-17    H u0 p0 c0  {12,S}
+1  *1 C u0 p0 c0  {2,S} {4,S} {7,S} {8,S}
+2  *3 C u0 p0 c0  {1,S} {5,S} {9,S} {10,S}
+3     C u0 p0 c0  {4,S} {11,S} {12,S} {13,S}
+4  *2 C u1 p0 c0  {1,S} {3,S} {14,S}
+5     C u0 p0 c0  {2,S} {6,D} {15,S}
+6     C u0 p0 c0  {5,D} {16,S} {17,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {1,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {5,S}
+16    H u0 p0 c0  {6,S}
+17    H u0 p0 c0  {6,S}
 """,
     distances = DistanceData(
         distances = {'d23': 2.962181, 'd12': 1.380982, 'd13': 2.154138},
@@ -1701,14 +1701,14 @@ entry(
 """,
     reactant2 = """
 multiplicity 2
-1  *3 C u1 p0 c0  {2,S} {4,S} {5,S}
-2     C u0 p0 c0  {1,S} {3,S} {6,S} {7,S}
-3     C u0 p0 c0  {2,S} {8,S} {9,S} {10,S}
+1     C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2     C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3  *3 C u1 p0 c0  {1,S} {9,S} {10,S}
 4     H u0 p0 c0  {1,S}
 5     H u0 p0 c0  {1,S}
 6     H u0 p0 c0  {2,S}
 7     H u0 p0 c0  {2,S}
-8     H u0 p0 c0  {3,S}
+8     H u0 p0 c0  {2,S}
 9     H u0 p0 c0  {3,S}
 10    H u0 p0 c0  {3,S}
 """,
@@ -1750,19 +1750,19 @@ u"""
 entry(
     index = 37,
     reactant1 = """
-1     H u0 p0 c0  {2,S}
-2     C u0 p0 c0  {1,S} {3,S} {4,S} {5,S}
-3     H u0 p0 c0  {2,S}
-4     H u0 p0 c0  {2,S}
-5     C u0 p0 c0  {2,S} {6,S} {7,S} {8,S}
-6     H u0 p0 c0  {5,S}
-7  *1 C u0 p0 c0  {5,S} {9,D} {10,S}
-8     H u0 p0 c0  {5,S}
-9  *2 O u0 p2 c0  {7,D}
-10    C u0 p0 c0  {7,S} {11,S} {12,S} {13,S}
-11    H u0 p0 c0  {10,S}
-12    H u0 p0 c0  {10,S}
-13    H u0 p0 c0  {10,S}
+1     C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {1,S} {7,S} {8,S} {9,S}
+3     C u0 p0 c0  {4,S} {10,S} {11,S} {12,S}
+4  *1 C u0 p0 c0  {1,S} {3,S} {13,D}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13 *2 O u0 p2 c0  {4,D}
 """,
     reactant2 = """
 multiplicity 2
@@ -1935,26 +1935,26 @@ entry(
 """,
     reactant2 = """
 multiplicity 2
-1  *3 C u1 p0 c0  {2,S} {3,S} {4,S}
-2     C u0 p0 c0  {1,S} {5,S} {6,S} {7,S}
-3     C u0 p0 c0  {1,S} {8,S} {9,S} {10,S}
+1     C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u1 p0 c0  {1,S} {2,S} {10,S}
 4     H u0 p0 c0  {1,S}
-5     H u0 p0 c0  {2,S}
-6     H u0 p0 c0  {2,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
 7     H u0 p0 c0  {2,S}
-8     H u0 p0 c0  {3,S}
-9     H u0 p0 c0  {3,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
 10    H u0 p0 c0  {3,S}
 """,
     product1 = """
 multiplicity 2
-1  *3 C u0 p0 c0  {2,S} {3,S} {4,S} {7,S}
-2  *1 C u0 p0 c0  {1,S} {5,S} {6,S} {8,S}
+1  *3 C u0 p0 c0  {2,S} {3,S} {4,S} {6,S}
+2  *1 C u0 p0 c0  {1,S} {5,S} {7,S} {8,S}
 3     C u0 p0 c0  {1,S} {9,S} {10,S} {11,S}
 4     C u0 p0 c0  {1,S} {12,S} {13,S} {14,S}
 5     C u0 p0 c0  {2,S} {15,S} {16,S} {17,S}
-6  *2 O u1 p2 c0  {2,S}
-7     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7  *2 O u1 p2 c0  {2,S}
 8     H u0 p0 c0  {2,S}
 9     H u0 p0 c0  {3,S}
 10    H u0 p0 c0  {3,S}
@@ -1983,19 +1983,19 @@ entry(
     index = 41,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2     C u0 p0 c0  {1,S} {3,S} {4,S} {5,S}
-3  *3 C u1 p0 c0  {2,S} {6,S} {7,S}
-4     H u0 p0 c0  {2,S}
-5     H u0 p0 c0  {2,S}
-6     C u0 p0 c0  {3,S} {8,S} {9,S} {10,S}
-7     C u0 p0 c0  {3,S} {11,S} {12,S} {13,S}
-8     H u0 p0 c0  {6,S}
-9     H u0 p0 c0  {6,S}
-10    H u0 p0 c0  {6,S}
-11    H u0 p0 c0  {7,S}
-12    H u0 p0 c0  {7,S}
-13    H u0 p0 c0  {7,S}
+1     C u0 p0 c0  {4,S} {5,S} {6,S} {7,S}
+2     C u0 p0 c0  {4,S} {8,S} {9,S} {10,S}
+3     C u0 p0 c0  {4,S} {11,S} {12,S} {13,S}
+4  *3 C u1 p0 c0  {1,S} {2,S} {3,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -2007,25 +2007,25 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1  *1 C u0 p0 c0  {2,S} {3,S} {4,S} {10,S}
-2  *2 C u1 p0 c0  {1,S} {5,S} {6,S}
-3     H u0 p0 c0  {1,S}
-4     H u0 p0 c0  {1,S}
-5     H u0 p0 c0  {2,S}
-6     H u0 p0 c0  {2,S}
-7     C u0 p0 c0  {10,S} {11,S} {12,S} {13,S}
-8     C u0 p0 c0  {10,S} {14,S} {15,S} {16,S}
-9     C u0 p0 c0  {10,S} {17,S} {18,S} {19,S}
-10 *3 C u0 p0 c0  {1,S} {7,S} {8,S} {9,S}
-11    H u0 p0 c0  {7,S}
-12    H u0 p0 c0  {7,S}
-13    H u0 p0 c0  {7,S}
-14    H u0 p0 c0  {8,S}
-15    H u0 p0 c0  {8,S}
-16    H u0 p0 c0  {8,S}
-17    H u0 p0 c0  {9,S}
-18    H u0 p0 c0  {9,S}
-19    H u0 p0 c0  {9,S}
+1  *3 C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2  *1 C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3     C u0 p0 c0  {1,S} {9,S} {10,S} {11,S}
+4     C u0 p0 c0  {1,S} {12,S} {13,S} {14,S}
+5     C u0 p0 c0  {1,S} {15,S} {16,S} {17,S}
+6  *2 C u1 p0 c0  {2,S} {18,S} {19,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {4,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {5,S}
+16    H u0 p0 c0  {5,S}
+17    H u0 p0 c0  {5,S}
+18    H u0 p0 c0  {6,S}
+19    H u0 p0 c0  {6,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.066737, 'd12': 1.368086, 'd13': 2.265947},
@@ -2053,14 +2053,14 @@ entry(
 """,
     reactant2 = """
 multiplicity 2
-1  *3 C u1 p0 c0  {2,S} {4,S} {5,S}
-2     C u0 p0 c0  {1,S} {3,S} {6,S} {7,S}
-3     C u0 p0 c0  {2,S} {8,S} {9,S} {10,S}
+1     C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2     C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3  *3 C u1 p0 c0  {1,S} {9,S} {10,S}
 4     H u0 p0 c0  {1,S}
 5     H u0 p0 c0  {1,S}
 6     H u0 p0 c0  {2,S}
 7     H u0 p0 c0  {2,S}
-8     H u0 p0 c0  {3,S}
+8     H u0 p0 c0  {2,S}
 9     H u0 p0 c0  {3,S}
 10    H u0 p0 c0  {3,S}
 """,
@@ -2101,24 +2101,24 @@ entry(
     index = 43,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2 *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3    H u0 p0 c0  {2,S}
-4    H u0 p0 c0  {2,S}
+1 *3 C u1 p0 c0  {2,S} {3,S} {4,S}
+2    H u0 p0 c0  {1,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
 """,
     reactant2 = """
-1     C u0 p0 c0  {2,S} {3,S} {6,S} {7,S}
-2     C u0 p0 c0  {1,S} {4,S} {8,S} {9,S}
-3  *1 C u0 p0 c0  {1,S} {5,D} {10,S}
-4     C u0 p0 c0  {2,S} {11,S} {12,S} {13,S}
-5  *2 O u0 p2 c0  {3,D}
+1     C u0 p0 c0  {2,S} {3,S} {5,S} {6,S}
+2     C u0 p0 c0  {1,S} {4,S} {7,S} {8,S}
+3     C u0 p0 c0  {1,S} {9,S} {10,S} {11,S}
+4  *1 C u0 p0 c0  {2,S} {12,D} {13,S}
+5     H u0 p0 c0  {1,S}
 6     H u0 p0 c0  {1,S}
-7     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
 8     H u0 p0 c0  {2,S}
-9     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
 10    H u0 p0 c0  {3,S}
-11    H u0 p0 c0  {4,S}
-12    H u0 p0 c0  {4,S}
+11    H u0 p0 c0  {3,S}
+12 *2 O u0 p2 c0  {4,D}
 13    H u0 p0 c0  {4,S}
 """,
     product1 = """
@@ -2211,22 +2211,22 @@ entry(
     index = 45,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3     H u0 p0 c0  {2,S}
-4     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-5     H u0 p0 c0  {4,S}
-6     H u0 p0 c0  {4,S}
-7     C u0 p0 c0  {4,S} {8,S} {9,S} {10,S}
-8     C u0 p0 c0  {7,S} {11,S} {12,S} {13,S}
-9     C u0 p0 c0  {7,S} {14,S} {15,S} {16,S}
-10    H u0 p0 c0  {7,S}
-11    H u0 p0 c0  {8,S}
-12    H u0 p0 c0  {8,S}
-13    H u0 p0 c0  {8,S}
-14    H u0 p0 c0  {9,S}
-15    H u0 p0 c0  {9,S}
-16    H u0 p0 c0  {9,S}
+1     C u0 p0 c0  {2,S} {3,S} {4,S} {6,S}
+2     C u0 p0 c0  {1,S} {5,S} {7,S} {8,S}
+3     C u0 p0 c0  {1,S} {9,S} {10,S} {11,S}
+4     C u0 p0 c0  {1,S} {12,S} {13,S} {14,S}
+5  *3 C u1 p0 c0  {2,S} {15,S} {16,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {4,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {5,S}
+16    H u0 p0 c0  {5,S}
 """,
     reactant2 = """
 1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
@@ -2238,28 +2238,28 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1  *1 C u0 p0 c0  {2,S} {3,S} {4,S} {11,S}
-2  *2 C u1 p0 c0  {1,S} {5,S} {6,S}
-3     H u0 p0 c0  {1,S}
-4     H u0 p0 c0  {1,S}
-5     H u0 p0 c0  {2,S}
-6     H u0 p0 c0  {2,S}
-7     C u0 p0 c0  {8,S} {9,S} {10,S} {12,S}
-8     C u0 p0 c0  {7,S} {11,S} {13,S} {14,S}
-9     C u0 p0 c0  {7,S} {15,S} {16,S} {17,S}
-10    C u0 p0 c0  {7,S} {18,S} {19,S} {20,S}
-11 *3 C u0 p0 c0  {1,S} {8,S} {21,S} {22,S}
-12    H u0 p0 c0  {7,S}
-13    H u0 p0 c0  {8,S}
-14    H u0 p0 c0  {8,S}
-15    H u0 p0 c0  {9,S}
-16    H u0 p0 c0  {9,S}
-17    H u0 p0 c0  {9,S}
-18    H u0 p0 c0  {10,S}
-19    H u0 p0 c0  {10,S}
-20    H u0 p0 c0  {10,S}
-21    H u0 p0 c0  {11,S}
-22    H u0 p0 c0  {11,S}
+1     C u0 p0 c0  {2,S} {5,S} {6,S} {8,S}
+2     C u0 p0 c0  {1,S} {3,S} {9,S} {10,S}
+3  *3 C u0 p0 c0  {2,S} {4,S} {11,S} {12,S}
+4  *1 C u0 p0 c0  {3,S} {7,S} {13,S} {14,S}
+5     C u0 p0 c0  {1,S} {15,S} {16,S} {17,S}
+6     C u0 p0 c0  {1,S} {18,S} {19,S} {20,S}
+7  *2 C u1 p0 c0  {4,S} {21,S} {22,S}
+8     H u0 p0 c0  {1,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {5,S}
+16    H u0 p0 c0  {5,S}
+17    H u0 p0 c0  {5,S}
+18    H u0 p0 c0  {6,S}
+19    H u0 p0 c0  {6,S}
+20    H u0 p0 c0  {6,S}
+21    H u0 p0 c0  {7,S}
+22    H u0 p0 c0  {7,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.096972, 'd12': 1.364974, 'd13': 2.296433},
@@ -2278,19 +2278,19 @@ entry(
     index = 46,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2     C u0 p0 c0  {1,S} {3,S} {4,S} {5,S}
-3  *3 C u1 p0 c0  {2,S} {6,S} {7,S}
-4     H u0 p0 c0  {2,S}
-5     H u0 p0 c0  {2,S}
-6     C u0 p0 c0  {3,S} {8,S} {9,S} {10,S}
-7     C u0 p0 c0  {3,S} {11,S} {12,S} {13,S}
-8     H u0 p0 c0  {6,S}
-9     H u0 p0 c0  {6,S}
-10    H u0 p0 c0  {6,S}
-11    H u0 p0 c0  {7,S}
-12    H u0 p0 c0  {7,S}
-13    H u0 p0 c0  {7,S}
+1     C u0 p0 c0  {4,S} {5,S} {6,S} {7,S}
+2     C u0 p0 c0  {4,S} {8,S} {9,S} {10,S}
+3     C u0 p0 c0  {4,S} {11,S} {12,S} {13,S}
+4  *3 C u1 p0 c0  {1,S} {2,S} {3,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1    C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
@@ -2305,28 +2305,28 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1     C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
-2  *2 C u1 p0 c0  {1,S} {3,S} {7,S}
-3  *1 C u0 p0 c0  {2,S} {8,S} {9,S} {13,S}
-4     H u0 p0 c0  {1,S}
-5     H u0 p0 c0  {1,S}
-6     H u0 p0 c0  {1,S}
-7     H u0 p0 c0  {2,S}
-8     H u0 p0 c0  {3,S}
-9     H u0 p0 c0  {3,S}
-10    C u0 p0 c0  {13,S} {14,S} {15,S} {16,S}
-11    C u0 p0 c0  {13,S} {17,S} {18,S} {19,S}
-12    C u0 p0 c0  {13,S} {20,S} {21,S} {22,S}
-13 *3 C u0 p0 c0  {3,S} {10,S} {11,S} {12,S}
-14    H u0 p0 c0  {10,S}
-15    H u0 p0 c0  {10,S}
-16    H u0 p0 c0  {10,S}
-17    H u0 p0 c0  {11,S}
-18    H u0 p0 c0  {11,S}
-19    H u0 p0 c0  {11,S}
-20    H u0 p0 c0  {12,S}
-21    H u0 p0 c0  {12,S}
-22    H u0 p0 c0  {12,S}
+1  *3 C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2  *1 C u0 p0 c0  {1,S} {7,S} {8,S} {9,S}
+3     C u0 p0 c0  {1,S} {10,S} {11,S} {12,S}
+4     C u0 p0 c0  {1,S} {13,S} {14,S} {15,S}
+5     C u0 p0 c0  {1,S} {16,S} {17,S} {18,S}
+6     C u0 p0 c0  {7,S} {19,S} {20,S} {21,S}
+7  *2 C u1 p0 c0  {2,S} {6,S} {22,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {5,S}
+17    H u0 p0 c0  {5,S}
+18    H u0 p0 c0  {5,S}
+19    H u0 p0 c0  {6,S}
+20    H u0 p0 c0  {6,S}
+21    H u0 p0 c0  {6,S}
+22    H u0 p0 c0  {7,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.080852, 'd12': 1.370822, 'd13': 2.262773},
@@ -2357,15 +2357,15 @@ entry(
 """,
     reactant2 = """
 multiplicity 2
-1  *3 C u1 p0 c0  {2,S} {3,S} {4,S}
-2     C u0 p0 c0  {1,S} {5,S} {6,S} {7,S}
-3     C u0 p0 c0  {1,S} {8,S} {9,S} {10,S}
+1     C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u1 p0 c0  {1,S} {2,S} {10,S}
 4     H u0 p0 c0  {1,S}
-5     H u0 p0 c0  {2,S}
-6     H u0 p0 c0  {2,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
 7     H u0 p0 c0  {2,S}
-8     H u0 p0 c0  {3,S}
-9     H u0 p0 c0  {3,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
 10    H u0 p0 c0  {3,S}
 """,
     product1 = """
@@ -2467,16 +2467,16 @@ entry(
     index = 49,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-4     C u0 p0 c0  {2,S} {8,S} {9,S} {10,S}
-5     H u0 p0 c0  {3,S}
-6     H u0 p0 c0  {3,S}
-7     H u0 p0 c0  {3,S}
-8     H u0 p0 c0  {4,S}
-9     H u0 p0 c0  {4,S}
-10    H u0 p0 c0  {4,S}
+1     C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u1 p0 c0  {1,S} {2,S} {10,S}
+4     H u0 p0 c0  {1,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
 """,
     reactant2 = """
 1     C u0 p0 c0  {3,S} {5,S} {6,S} {7,S}
@@ -2494,28 +2494,28 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1     C u0 p0 c0  {3,S} {5,S} {6,S} {7,S}
-2     C u0 p0 c0  {4,S} {8,S} {9,S} {10,S}
-3  *1 C u0 p0 c0  {1,S} {4,S} {11,S} {15,S}
-4  *2 C u1 p0 c0  {2,S} {3,S} {12,S}
-5     H u0 p0 c0  {1,S}
-6     H u0 p0 c0  {1,S}
-7     H u0 p0 c0  {1,S}
-8     H u0 p0 c0  {2,S}
+1  *3 C u0 p0 c0  {2,S} {3,S} {4,S} {8,S}
+2  *1 C u0 p0 c0  {1,S} {5,S} {7,S} {9,S}
+3     C u0 p0 c0  {1,S} {13,S} {14,S} {15,S}
+4     C u0 p0 c0  {1,S} {16,S} {17,S} {18,S}
+5     C u0 p0 c0  {2,S} {10,S} {11,S} {12,S}
+6     C u0 p0 c0  {7,S} {19,S} {20,S} {21,S}
+7  *2 C u1 p0 c0  {2,S} {6,S} {22,S}
+8     H u0 p0 c0  {1,S}
 9     H u0 p0 c0  {2,S}
-10    H u0 p0 c0  {2,S}
-11    H u0 p0 c0  {3,S}
-12    H u0 p0 c0  {4,S}
-13    C u0 p0 c0  {15,S} {16,S} {17,S} {18,S}
-14    C u0 p0 c0  {15,S} {19,S} {20,S} {21,S}
-15 *3 C u0 p0 c0  {3,S} {13,S} {14,S} {22,S}
-16    H u0 p0 c0  {13,S}
-17    H u0 p0 c0  {13,S}
-18    H u0 p0 c0  {13,S}
-19    H u0 p0 c0  {14,S}
-20    H u0 p0 c0  {14,S}
-21    H u0 p0 c0  {14,S}
-22    H u0 p0 c0  {15,S}
+10    H u0 p0 c0  {5,S}
+11    H u0 p0 c0  {5,S}
+12    H u0 p0 c0  {5,S}
+13    H u0 p0 c0  {3,S}
+14    H u0 p0 c0  {3,S}
+15    H u0 p0 c0  {3,S}
+16    H u0 p0 c0  {4,S}
+17    H u0 p0 c0  {4,S}
+18    H u0 p0 c0  {4,S}
+19    H u0 p0 c0  {6,S}
+20    H u0 p0 c0  {6,S}
+21    H u0 p0 c0  {6,S}
+22    H u0 p0 c0  {7,S}
 """,
     distances = DistanceData(
         distances = {'d23': 2.9951, 'd12': 1.378853, 'd13': 2.268596},
@@ -2587,22 +2587,22 @@ entry(
     index = 51,
     reactant1 = """
 multiplicity 2
-1     H u0 p0 c0  {2,S}
-2     C u0 p0 c0  {1,S} {3,S} {4,S} {5,S}
-3     H u0 p0 c0  {2,S}
-4     H u0 p0 c0  {2,S}
-5  *3 C u1 p0 c0  {2,S} {6,S} {7,S}
-6     C u0 p0 c0  {5,S} {8,S} {9,S} {10,S}
-7     C u0 p0 c0  {5,S} {11,S} {12,S} {13,S}
-8     H u0 p0 c0  {6,S}
-9     H u0 p0 c0  {6,S}
-10    H u0 p0 c0  {6,S}
-11    H u0 p0 c0  {7,S}
-12    C u0 p0 c0  {7,S} {14,S} {15,S} {16,S}
-13    H u0 p0 c0  {7,S}
-14    H u0 p0 c0  {12,S}
-15    H u0 p0 c0  {12,S}
-16    H u0 p0 c0  {12,S}
+1     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
+2     C u0 p0 c0  {1,S} {8,S} {9,S} {10,S}
+3     C u0 p0 c0  {5,S} {11,S} {12,S} {13,S}
+4     C u0 p0 c0  {5,S} {14,S} {15,S} {16,S}
+5  *3 C u1 p0 c0  {1,S} {3,S} {4,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {4,S}
 """,
     reactant2 = """
 1     C u0 p0 c0  {3,S} {5,S} {6,S} {7,S}
@@ -2620,34 +2620,34 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1     C u0 p0 c0  {3,S} {5,S} {6,S} {7,S}
-2     C u0 p0 c0  {3,S} {8,S} {9,S} {10,S}
-3  *2 C u1 p0 c0  {1,S} {2,S} {4,S}
-4  *1 C u0 p0 c0  {3,S} {11,S} {12,S} {17,S}
-5     H u0 p0 c0  {1,S}
-6     H u0 p0 c0  {1,S}
-7     H u0 p0 c0  {1,S}
-8     H u0 p0 c0  {2,S}
-9     H u0 p0 c0  {2,S}
+1  *3 C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2     C u0 p0 c0  {1,S} {6,S} {10,S} {11,S}
+3  *1 C u0 p0 c0  {1,S} {9,S} {12,S} {13,S}
+4     C u0 p0 c0  {1,S} {17,S} {18,S} {19,S}
+5     C u0 p0 c0  {1,S} {20,S} {21,S} {22,S}
+6     C u0 p0 c0  {2,S} {14,S} {15,S} {16,S}
+7     C u0 p0 c0  {9,S} {23,S} {24,S} {25,S}
+8     C u0 p0 c0  {9,S} {26,S} {27,S} {28,S}
+9  *2 C u1 p0 c0  {3,S} {7,S} {8,S}
 10    H u0 p0 c0  {2,S}
-11    H u0 p0 c0  {4,S}
-12    H u0 p0 c0  {4,S}
-13    C u0 p0 c0  {14,S} {17,S} {18,S} {19,S}
-14    C u0 p0 c0  {13,S} {20,S} {21,S} {22,S}
-15    C u0 p0 c0  {17,S} {23,S} {24,S} {25,S}
-16    C u0 p0 c0  {17,S} {26,S} {27,S} {28,S}
-17 *3 C u0 p0 c0  {4,S} {13,S} {15,S} {16,S}
-18    H u0 p0 c0  {13,S}
-19    H u0 p0 c0  {13,S}
-20    H u0 p0 c0  {14,S}
-21    H u0 p0 c0  {14,S}
-22    H u0 p0 c0  {14,S}
-23    H u0 p0 c0  {15,S}
-24    H u0 p0 c0  {15,S}
-25    H u0 p0 c0  {15,S}
-26    H u0 p0 c0  {16,S}
-27    H u0 p0 c0  {16,S}
-28    H u0 p0 c0  {16,S}
+11    H u0 p0 c0  {2,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
+14    H u0 p0 c0  {6,S}
+15    H u0 p0 c0  {6,S}
+16    H u0 p0 c0  {6,S}
+17    H u0 p0 c0  {4,S}
+18    H u0 p0 c0  {4,S}
+19    H u0 p0 c0  {4,S}
+20    H u0 p0 c0  {5,S}
+21    H u0 p0 c0  {5,S}
+22    H u0 p0 c0  {5,S}
+23    H u0 p0 c0  {7,S}
+24    H u0 p0 c0  {7,S}
+25    H u0 p0 c0  {7,S}
+26    H u0 p0 c0  {8,S}
+27    H u0 p0 c0  {8,S}
+28    H u0 p0 c0  {8,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.098256, 'd12': 1.375812, 'd13': 2.252006},
@@ -2666,13 +2666,13 @@ entry(
     index = 52,
     reactant1 = """
 multiplicity 2
-1    H u0 p0 c0  {2,S}
-2 *3 C u1 p0 c0  {1,S} {3,S} {4,S}
-3    C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
-4    H u0 p0 c0  {2,S}
-5    H u0 p0 c0  {3,S}
-6    H u0 p0 c0  {3,S}
-7    H u0 p0 c0  {3,S}
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *3 C u1 p0 c0  {1,S} {6,S} {7,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {2,S}
+7    H u0 p0 c0  {2,S}
 """,
     reactant2 = """
 1     C u0 p0 c0  {2,S} {3,S} {8,S} {9,S}
@@ -2699,34 +2699,34 @@ multiplicity 2
 """,
     product1 = """
 multiplicity 2
-1     C u0 p0 c0  {2,S} {3,S} {8,S} {9,S}
-2     C u0 p0 c0  {1,S} {4,S} {10,S} {11,S}
-3     C u0 p0 c0  {1,S} {5,S} {12,S} {13,S}
-4     C u0 p0 c0  {2,S} {6,S} {14,S} {15,S}
-5     C u0 p0 c0  {3,S} {16,S} {17,S} {18,S}
-6  *2 C u1 p0 c0  {4,S} {7,S} {19,S}
-7  *1 C u0 p0 c0  {6,S} {20,S} {21,S} {23,S}
-8     H u0 p0 c0  {1,S}
-9     H u0 p0 c0  {1,S}
-10    H u0 p0 c0  {2,S}
-11    H u0 p0 c0  {2,S}
-12    H u0 p0 c0  {3,S}
-13    H u0 p0 c0  {3,S}
-14    H u0 p0 c0  {4,S}
-15    H u0 p0 c0  {4,S}
-16    H u0 p0 c0  {5,S}
-17    H u0 p0 c0  {5,S}
+1     C u0 p0 c0  {2,S} {3,S} {10,S} {11,S}
+2     C u0 p0 c0  {1,S} {5,S} {12,S} {13,S}
+3     C u0 p0 c0  {1,S} {7,S} {14,S} {15,S}
+4  *3 C u0 p0 c0  {6,S} {8,S} {16,S} {17,S}
+5     C u0 p0 c0  {2,S} {9,S} {18,S} {19,S}
+6  *1 C u0 p0 c0  {4,S} {9,S} {20,S} {21,S}
+7     C u0 p0 c0  {3,S} {22,S} {23,S} {24,S}
+8     C u0 p0 c0  {4,S} {25,S} {26,S} {27,S}
+9  *2 C u1 p0 c0  {5,S} {6,S} {28,S}
+10    H u0 p0 c0  {1,S}
+11    H u0 p0 c0  {1,S}
+12    H u0 p0 c0  {2,S}
+13    H u0 p0 c0  {2,S}
+14    H u0 p0 c0  {3,S}
+15    H u0 p0 c0  {3,S}
+16    H u0 p0 c0  {4,S}
+17    H u0 p0 c0  {4,S}
 18    H u0 p0 c0  {5,S}
-19    H u0 p0 c0  {6,S}
-20    H u0 p0 c0  {7,S}
-21    H u0 p0 c0  {7,S}
-22    C u0 p0 c0  {23,S} {24,S} {25,S} {26,S}
-23 *3 C u0 p0 c0  {7,S} {22,S} {27,S} {28,S}
-24    H u0 p0 c0  {22,S}
-25    H u0 p0 c0  {22,S}
-26    H u0 p0 c0  {22,S}
-27    H u0 p0 c0  {23,S}
-28    H u0 p0 c0  {23,S}
+19    H u0 p0 c0  {5,S}
+20    H u0 p0 c0  {6,S}
+21    H u0 p0 c0  {6,S}
+22    H u0 p0 c0  {7,S}
+23    H u0 p0 c0  {7,S}
+24    H u0 p0 c0  {7,S}
+25    H u0 p0 c0  {8,S}
+26    H u0 p0 c0  {8,S}
+27    H u0 p0 c0  {8,S}
+28    H u0 p0 c0  {9,S}
 """,
     distances = DistanceData(
         distances = {'d23': 3.088237, 'd12': 1.365838, 'd13': 2.312608},
@@ -2795,6 +2795,559 @@ multiplicity 2
 """,
     distances = DistanceData(
         distances = {'d23': 2.992441, 'd12': 1.380921, 'd13': 2.288699},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 54,
+    reactant1 = """
+1 *1 C u0 p0 c0  {2,D} {3,D}
+2 *2 O u0 p2 c0  {1,D}
+3    O u0 p2 c0  {1,D}
+""",
+    reactant2 = """
+multiplicity 2
+1    C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2    C u0 p0 c0  {3,D} {7,S} {8,S}
+3 *3 C u1 p0 c0  {1,S} {2,D}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {1,S}
+7    H u0 p0 c0  {2,S}
+8    H u0 p0 c0  {2,S}
+""",
+    product1 = """
+multiplicity 2
+1     C u0 p0 c0  {2,S} {5,S} {6,S} {7,S}
+2  *3 C u0 p0 c0  {1,S} {3,S} {4,D}
+3  *1 C u0 p0 c0  {2,S} {8,S} {9,D}
+4     C u0 p0 c0  {2,D} {10,S} {11,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {1,S}
+8  *2 O u1 p2 c0  {3,S}
+9     O u0 p2 c0  {3,D}
+10    H u0 p0 c0  {4,S}
+11    H u0 p0 c0  {4,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.53821, 'd12': 1.2026, 'd13': 1.91836},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 55,
+    reactant1 = """
+1    C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
+2 *1 C u0 p0 c0  {1,S} {3,D} {7,S}
+3 *2 C u0 p0 c0  {2,D} {8,D}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {1,S}
+7    H u0 p0 c0  {2,S}
+8    O u0 p2 c0  {3,D}
+""",
+    reactant2 = """
+multiplicity 2
+1 *3 C u1 p0 c0  {2,S} {3,S} {4,S}
+2    H u0 p0 c0  {1,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+""",
+    product1 = """
+multiplicity 2
+1  *1 C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2     C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3  *3 C u0 p0 c0  {1,S} {9,S} {10,S} {11,S}
+4  *2 C u1 p0 c0  {1,S} {12,D}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {2,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    O u0 p2 c0  {4,D}
+""",
+    distances = DistanceData(
+        distances = {'d23': 3.04755, 'd12': 1.35006, 'd13': 2.31921},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 56,
+    reactant1 = """
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *2 C u0 p0 c0  {1,S} {6,D} {7,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6 *1 O u0 p2 c0  {2,D}
+7    H u0 p0 c0  {2,S}
+""",
+    reactant2 = """
+multiplicity 2
+1 *3 H u1 p0 c0 
+""",
+    product1 = """
+multiplicity 2
+1    C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
+2 *2 C u1 p0 c0  {1,S} {3,S} {7,S}
+3 *1 O u0 p2 c0  {2,S} {8,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {1,S}
+7    H u0 p0 c0  {2,S}
+8 *3 H u0 p0 c0  {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.43994, 'd12': 1.2402, 'd13': 1.56652},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 57,
+    reactant1 = """
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *1 C u0 p0 c0  {1,S} {6,D} {7,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6 *2 O u0 p2 c0  {2,D}
+7    H u0 p0 c0  {2,S}
+""",
+    reactant2 = """
+multiplicity 2
+1 *3 H u1 p0 c0 
+""",
+    product1 = """
+multiplicity 2
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *1 C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6 *2 O u1 p2 c0  {2,S}
+7    H u0 p0 c0  {2,S}
+8 *3 H u0 p0 c0  {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.38755, 'd12': 1.22869, 'd13': 1.87202},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 58,
+    reactant1 = """
+1 *2 C u0 p0 c0  {2,D} {3,S} {4,S}
+2 *1 O u0 p2 c0  {1,D}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+""",
+    reactant2 = """
+multiplicity 2
+1 *3 H u1 p0 c0 
+""",
+    product1 = """
+multiplicity 2
+1 *2 C u1 p0 c0  {2,S} {3,S} {4,S}
+2 *1 O u0 p2 c0  {1,S} {5,S}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5 *3 H u0 p0 c0  {2,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.49332, 'd12': 1.23441, 'd13': 1.60353},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 59,
+    reactant1 = """
+1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
+2 *2 C u0 p0 c0  {1,D} {5,D}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    O u0 p2 c0  {2,D}
+""",
+    reactant2 = """
+multiplicity 2
+1    C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2 *3 C u1 p0 c0  {1,S} {6,D}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    O u0 p2 c0  {2,D}
+""",
+    product1 = """
+multiplicity 2
+1  *1 C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u0 p0 c0  {1,S} {2,S} {10,D}
+4  *2 C u1 p0 c0  {1,S} {11,D}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    O u0 p2 c0  {3,D}
+11    O u0 p2 c0  {4,D}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.91791, 'd12': 1.35838, 'd13': 2.14987},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 60,
+    reactant1 = """
+1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
+2 *2 O u0 p2 c0  {1,D}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+""",
+    reactant2 = """
+multiplicity 2
+1    C u0 p0 c0  {2,S} {3,D} {4,S}
+2 *3 C u1 p0 c0  {1,S} {5,D}
+3    O u0 p2 c0  {1,D}
+4    H u0 p0 c0  {1,S}
+5    O u0 p2 c0  {2,D}
+""",
+    product1 = """
+multiplicity 2
+1 *1 C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
+2 *3 C u0 p0 c0  {1,S} {3,S} {7,D}
+3    C u0 p0 c0  {2,S} {8,D} {9,S}
+4 *2 O u1 p2 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {1,S}
+7    O u0 p2 c0  {2,D}
+8    O u0 p2 c0  {3,D}
+9    H u0 p0 c0  {3,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.50122, 'd12': 1.25705, 'd13': 2.01672},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 61,
+    reactant1 = """
+multiplicity 2
+1     C u0 p0 c0  {2,S} {3,S} {4,S} {5,S}
+2     C u0 p0 c0  {1,S} {6,S} {7,S} {8,S}
+3     C u0 p0 c0  {1,S} {9,S} {10,S} {11,S}
+4  *3 C u1 p0 c0  {1,S} {12,D}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {2,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {3,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    O u0 p2 c0  {4,D}
+""",
+    reactant2 = """
+1    C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
+2 *2 C u0 p0 c0  {1,S} {3,D} {7,S}
+3 *1 C u0 p0 c0  {2,D} {8,S} {9,S}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {1,S}
+7    H u0 p0 c0  {2,S}
+8    H u0 p0 c0  {3,S}
+9    H u0 p0 c0  {3,S}
+""",
+    product1 = """
+multiplicity 2
+1     C u0 p0 c0  {3,S} {4,S} {6,S} {8,S}
+2  *1 C u0 p0 c0  {6,S} {7,S} {9,S} {10,S}
+3     C u0 p0 c0  {1,S} {11,S} {12,S} {13,S}
+4     C u0 p0 c0  {1,S} {14,S} {15,S} {16,S}
+5     C u0 p0 c0  {7,S} {17,S} {18,S} {19,S}
+6  *3 C u0 p0 c0  {1,S} {2,S} {20,D}
+7  *2 C u1 p0 c0  {2,S} {5,S} {21,S}
+8     H u0 p0 c0  {1,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {4,S}
+17    H u0 p0 c0  {5,S}
+18    H u0 p0 c0  {5,S}
+19    H u0 p0 c0  {5,S}
+20    O u0 p2 c0  {6,D}
+21    H u0 p0 c0  {7,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.92592, 'd12': 1.37116, 'd13': 2.22085},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 62,
+    reactant1 = """
+multiplicity 2
+1     C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u1 p0 c0  {1,S} {2,S} {10,S}
+4     H u0 p0 c0  {1,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
+""",
+    reactant2 = """
+1     C u0 p0 c0  {2,S} {3,S} {4,S} {7,S}
+2     C u0 p0 c0  {1,S} {8,S} {9,S} {10,S}
+3     C u0 p0 c0  {1,S} {11,S} {12,S} {13,S}
+4  *1 C u0 p0 c0  {1,S} {5,S} {14,D}
+5     O u0 p2 c0  {4,S} {6,S}
+6     O u0 p2 c0  {5,S} {15,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
+14 *2 O u0 p2 c0  {4,D}
+15    H u0 p0 c0  {6,S}
+""",
+    product1 = """
+multiplicity 2
+1  *3 C u0 p0 c0  {3,S} {4,S} {5,S} {10,S}
+2     C u0 p0 c0  {3,S} {6,S} {7,S} {11,S}
+3  *1 C u0 p0 c0  {1,S} {2,S} {8,S} {12,S}
+4     C u0 p0 c0  {1,S} {13,S} {14,S} {15,S}
+5     C u0 p0 c0  {1,S} {16,S} {17,S} {18,S}
+6     C u0 p0 c0  {2,S} {19,S} {20,S} {21,S}
+7     C u0 p0 c0  {2,S} {22,S} {23,S} {24,S}
+8     O u0 p2 c0  {3,S} {9,S}
+9     O u0 p2 c0  {8,S} {25,S}
+10    H u0 p0 c0  {1,S}
+11    H u0 p0 c0  {2,S}
+12 *2 O u1 p2 c0  {3,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {5,S}
+17    H u0 p0 c0  {5,S}
+18    H u0 p0 c0  {5,S}
+19    H u0 p0 c0  {6,S}
+20    H u0 p0 c0  {6,S}
+21    H u0 p0 c0  {6,S}
+22    H u0 p0 c0  {7,S}
+23    H u0 p0 c0  {7,S}
+24    H u0 p0 c0  {7,S}
+25    H u0 p0 c0  {9,S}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.55429, 'd12': 1.26044, 'd13': 1.95909},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 63,
+    reactant1 = """
+multiplicity 2
+1     C u0 p0 c0  {2,S} {3,S} {5,S} {7,S}
+2     C u0 p0 c0  {1,S} {8,S} {9,S} {10,S}
+3     C u0 p0 c0  {1,S} {11,S} {12,S} {13,S}
+4     C u0 p0 c0  {6,S} {14,S} {15,S} {16,S}
+5     C u0 p0 c0  {1,S} {6,S} {17,D}
+6  *3 C u1 p0 c0  {4,S} {5,S} {18,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {4,S}
+17    O u0 p2 c0  {5,D}
+18    H u0 p0 c0  {6,S}
+""",
+    reactant2 = """
+1 *1 C u0 p0 c0  {2,D} {3,S} {4,S}
+2 *2 O u0 p2 c0  {1,D}
+3    H u0 p0 c0  {1,S}
+4    H u0 p0 c0  {1,S}
+""",
+    product1 = """
+multiplicity 2
+1     C u0 p0 c0  {3,S} {4,S} {7,S} {8,S}
+2  *3 C u0 p0 c0  {5,S} {6,S} {7,S} {9,S}
+3     C u0 p0 c0  {1,S} {10,S} {11,S} {12,S}
+4     C u0 p0 c0  {1,S} {13,S} {14,S} {15,S}
+5     C u0 p0 c0  {2,S} {16,S} {17,S} {18,S}
+6  *1 C u0 p0 c0  {2,S} {19,S} {20,S} {21,S}
+7     C u0 p0 c0  {1,S} {2,S} {22,D}
+8     H u0 p0 c0  {1,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {4,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {5,S}
+17    H u0 p0 c0  {5,S}
+18    H u0 p0 c0  {5,S}
+19 *2 O u1 p2 c0  {6,S}
+20    H u0 p0 c0  {6,S}
+21    H u0 p0 c0  {6,S}
+22    O u0 p2 c0  {7,D}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.61231, 'd12': 1.25737, 'd13': 2.04394},
+        method = "B3LYP/6-31+G(d,p)",
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""B3LYP/6-31+G(d,p) calculation via group additive TS generator.""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
+    index = 64,
+    reactant1 = """
+1    C u0 p0 c0  {2,S} {4,S} {5,S} {6,S}
+2 *2 C u0 p0 c0  {1,S} {3,D} {7,S}
+3 *1 C u0 p0 c0  {2,D} {8,D}
+4    H u0 p0 c0  {1,S}
+5    H u0 p0 c0  {1,S}
+6    H u0 p0 c0  {1,S}
+7    H u0 p0 c0  {2,S}
+8    O u0 p2 c0  {3,D}
+""",
+    reactant2 = """
+multiplicity 2
+1     C u0 p0 c0  {3,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0  {3,S} {7,S} {8,S} {9,S}
+3  *3 C u1 p0 c0  {1,S} {2,S} {10,S}
+4     H u0 p0 c0  {1,S}
+5     H u0 p0 c0  {1,S}
+6     H u0 p0 c0  {1,S}
+7     H u0 p0 c0  {2,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {3,S}
+""",
+    product1 = """
+multiplicity 2
+1  *3 C u0 p0 c0  {2,S} {3,S} {5,S} {7,S}
+2     C u0 p0 c0  {1,S} {8,S} {9,S} {10,S}
+3     C u0 p0 c0  {1,S} {11,S} {12,S} {13,S}
+4     C u0 p0 c0  {6,S} {14,S} {15,S} {16,S}
+5  *1 C u0 p0 c0  {1,S} {6,S} {18,D}
+6  *2 C u1 p0 c0  {4,S} {5,S} {17,S}
+7     H u0 p0 c0  {1,S}
+8     H u0 p0 c0  {2,S}
+9     H u0 p0 c0  {2,S}
+10    H u0 p0 c0  {2,S}
+11    H u0 p0 c0  {3,S}
+12    H u0 p0 c0  {3,S}
+13    H u0 p0 c0  {3,S}
+14    H u0 p0 c0  {4,S}
+15    H u0 p0 c0  {4,S}
+16    H u0 p0 c0  {4,S}
+17    H u0 p0 c0  {6,S}
+18    O u0 p2 c0  {5,D}
+""",
+    distances = DistanceData(
+        distances = {'d23': 2.85131, 'd12': 1.33675, 'd13': 2.18368},
         method = "B3LYP/6-31+G(d,p)",
     ),
     reference = None,
