@@ -1106,3 +1106,15 @@ multiplicity 2
 11    H u0 p0 c0 {4,S}
 12    H u0 p0 c0 {4,S}
 
+SiH4
+1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+
+SiH3
+1 Si u1 p0 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
