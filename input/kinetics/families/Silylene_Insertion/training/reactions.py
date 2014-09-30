@@ -33,4 +33,73 @@ Calculations using CASSCF/cc-pVDZ for geometries and vibrational frequencies. En
 """,
 )
 
+#entry(
+#    index = 2,
+#    label = "SiH2 + SiH4 <=> Si2H6",
+#    degeneracy = 2,
+#    kinetics = Arrhenius(
+#    ),
+#    reference = Article(
+#        authors = ["Matsumoto, K.", "Klippenstein, S.J.", "Tonokura, K.", "Koshi, T."],
+#        title = "Channel specific rate constants relevant to the thermal decomposition of disilane",
+#        journal = "J. Phys. Chem. A",
+#        pages = """4911-4920""",
+#        year = "2005",
+#    ),
+#    longDesc = 
+#u"""
+#Potential energy surface was calculated with G3/B3LYP//6-3111++G(d,p) basis set, VARIFLEX was used to compute rate expressions from TST.
+#""",
+#)
+
+entry(
+    index = 3,
+    label = "SiH2 + Si2H6 <=> Si3H8",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.1E-10, 'cm^3/(mol*s)'),
+        n = 1,
+        Ea = (-1.9, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (295, 'K'),
+        Tmax = (595, 'K'),
+	),
+    reference = Article(
+        authors = ["Becerra, R.", "Frey, H.M.", "Mason, B.P.", "Walsh, R."],
+        title = "Time-resolved gas-phase kinetic studies of the reactions of silylene with disilane and trisilane",
+        journal = "J. Organometal. Chem.",
+        pages = """343-349""",
+        year = "1996",
+    ),
+    longDesc = 
+u"""
+Laser flash photolysis was used to measure rates and fit to Arrhenius form. Error in logA +/- 0.04 and error in Ea +/- 0.3 kJ/mol. Authors note the Arrhenius plot is slightly curved.
+""",
+)
+
+entry(
+    index = 4,
+    label = "SiH2 + Si3H8 <=> Si4H10",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.7E-10, 'cm^3/(mol*s)'),
+        n = 1,
+        Ea = (-2.0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (295, 'K'),
+        Tmax = (595, 'K'),
+	),
+    reference = Article(
+        authors = ["Becerra, R.", "Frey, H.M.", "Mason, B.P.", "Walsh, R."],
+        title = "Time-resolved gas-phase kinetic studies of the reactions of silylene with disilane and trisilane",
+        journal = "J. Organometal. Chem.",
+        pages = """343-349""",
+        year = "1996",
+    ),
+    longDesc = 
+u"""
+Laser flash photolysis was used to measure rates and fit to Arrhenius form. Error in logA +/- 0.06 and error in Ea +/- 0.4 kJ/mol. Authors note the Arrhenius plot is slightly curved.
+""",
+)
+
 
