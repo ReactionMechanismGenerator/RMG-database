@@ -6806,6 +6806,23 @@ u"""
 )
 
 entry(
+    index = 501,
+    label = "SiH2_singlet",
+    group = 
+"""
+1 *3 Si u0 p1 c0 {2,S} {3,S}
+2    H  u0 p0 c0 {1,S}
+3    H  u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 494,
     label = "SiH2_singlet_H",
     group = 
@@ -7099,6 +7116,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
 		L3: NH_triplet_H
 		L3: NH_singlet_H
 	L3: SiH2_singlet_H
+	L3: SiH2_triplet_H
     L2: Xtrirad_H
         L3: C_quartet_H
         L3: C_doublet_H
@@ -7111,10 +7129,15 @@ L1: Y_rad_birad_trirad_quadrad
         L3: N_atom_doublet
         L3: CH_quartet
         L3: CH_doublet
+	L3: SiH_quartet
+	L3: SiH_doublet
     L2: Y_1centerbirad
         L3: O_atom_triplet
         L3: CH2_triplet
         L3: NH_triplet
+        L3: NH_singlet
+	L3: SiH2_triplet
+	L3: SiH2_singlet
     L2: Y_rad
         L3: H_rad
         L3: Y_2centeradjbirad
