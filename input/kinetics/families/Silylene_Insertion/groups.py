@@ -66,13 +66,12 @@ u"""
 entry(
     index = 4,
     label = "Si_H",
-    group = 
-"""
+    group = """
 1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H u0 p0 c0 {1,S}
-3    R u0 p0 c0 {1,S}
-4    R u0 p0 c0 {1,S}
-5    R u0 p0 c0 {1,S}
+2 *2 H  u0 p0 c0 {1,S}
+3    R  u0  {1,S}
+4    R  u0  {1,S}
+5    R  u0  {1,S}
 """,
     kinetics = None,
     shortDesc = u"""A silane""",
@@ -201,7 +200,7 @@ entry(
 11   H u0 p0 c0 {8,S}
 """,
     kinetics = None,
-    shortDesc = u"""Disilane""",
+    shortDesc = u"""Trisilane""",
     longDesc = 
 u"""
 
