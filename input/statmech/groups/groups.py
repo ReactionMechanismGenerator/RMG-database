@@ -56,7 +56,7 @@ entry(
     label = "R!Hx2",
     group = 
 """
-1 * R!H {2S,2T}
+1 * R!H 2T
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -72,7 +72,7 @@ entry(
     label = "R!Hx3",
     group = 
 """
-1 * R!H {3D,3Q}
+1 * R!H 3D
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -571,7 +571,7 @@ entry(
 """
 1 * C   1       {2,D} {3,S}
 2   O   0       {1,D}
-3   R!H {2S,2T} {1,S}
+3   R!H X {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -643,7 +643,7 @@ entry(
     label = "C_R2",
     group = 
 """
-1 * C {2S,2T}
+1 * C 2T
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -659,7 +659,7 @@ entry(
     label = "RsCHrr",
     group =
 """
-1 * C   {2S,2T} {2,S} {3,S}
+1 * C   2T {2,S} {3,S}
 2   R!H X {1,S}
 3   H   0       {1,S}
 """,
@@ -677,8 +677,8 @@ entry(
     label = "RdCrr",
     group = 
 """
-1 * C   {2S,2T} {2,D}
-2   R!H {2S,2T} {1,D}
+1 * C   2T {2,D}
+2   R!H 2T {1,D}
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -694,7 +694,7 @@ entry(
     label = "RsCrrsR",
     group =
 """
-1 * C   {2S,2T} {2,S} {3,S}
+1 * C   2T {2,S} {3,S}
 2   R!H X {1,S}
 3   R!H X {1,S}
 """,
@@ -754,8 +754,8 @@ entry(
     group =
 """
 1 * O 0       {2,S} {3,S}
-2   C {2S,2T} {1,S}
-3   C {2S,2T} {1,S}
+2   C 2T {1,S}
+3   C 2T {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
