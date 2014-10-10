@@ -6417,7 +6417,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,O} {2S,2T}
+1 *3 {Cs,Cd,O} 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6432,7 +6432,7 @@ entry(
     label = "O_atom_triplet",
     group = 
 """
-1 *3 O {2S,2T}
+1 *3 O 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6447,7 +6447,7 @@ entry(
     label = "CH2_triplet",
     group = 
 """
-1 *3 Cs {2S,2T} {2,S} {3,S}
+1 *3 Cs 2T {2,S} {3,S}
 2    H 0       {1,S}
 3    H 0       {1,S}
 """,
@@ -7142,3 +7142,38 @@ L1: YJ
 """
 )
 
+forbidden(
+    label = "birad_singlet",
+    group = 
+"""
+1 *3 {C,N,Si} 2S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "OS_birad_singlet",
+    group = 
+"""
+1 *3 {O,S} 2S 2
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "quadrad_singlet",
+    group = 
+"""
+1 *3 {C,N,Si} 4S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)

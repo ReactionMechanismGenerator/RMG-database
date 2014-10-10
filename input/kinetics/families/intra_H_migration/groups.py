@@ -202,7 +202,7 @@ entry(
     group = 
 """
 1 *1 R!H 1           {2,{S,D,T,B}}
-2 *4 R!H {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
+2 *4 R!H X {1,{S,D,T,B}} {3,{S,D,T,B}}
 3 *2 R!H 0           {2,{S,D,T,B}} {4,S}
 4 *3 H   0           {3,S}
 """,
@@ -649,8 +649,8 @@ entry(
     group = 
 """
 1 *1 R!H 1           {2,{S,D,T,B}}
-2 *4 R!H {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *5 R!H {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
+2 *4 R!H X {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *5 R!H X {2,{S,D,T,B}} {4,{S,D,T,B}}
 4 *2 R!H 0           {3,{S,D,T,B}} {5,S}
 5 *3 H   0           {4,S}
 """,
@@ -1384,9 +1384,9 @@ entry(
     group = 
 """
 1 *1 R!H 1           {2,{S,D,T,B}}
-2 *4 R!H {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *5 R!H {0,1,2S,2T} {3,{S,D,T,B}} {5,{S,D,T,B}}
+2 *4 R!H X {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H X {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *5 R!H X {3,{S,D,T,B}} {5,{S,D,T,B}}
 5 *2 R!H 0           {4,{S,D,T,B}} {6,S}
 6 *3 H   0           {5,S}
 """,
@@ -2563,10 +2563,10 @@ entry(
     group = 
 """
 1 *1 R!H 1           {2,{S,D,T,B}}
-2 *4 R!H {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *7 R!H {0,1,2S,2T} {3,{S,D,T,B}} {5,{S,D,T,B}}
-5 *5 R!H {0,1,2S,2T} {4,{S,D,T,B}} {6,{S,D,T,B}}
+2 *4 R!H X {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H X {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H X {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *5 R!H X {4,{S,D,T,B}} {6,{S,D,T,B}}
 6 *2 R!H 0           {5,{S,D,T,B}} {7,S}
 7 *3 H   0           {6,S}
 """,
@@ -2780,29 +2780,6 @@ entry(
 6 *2 Cs 0 {5,S} {7,S}
 7 *3 H  0 {6,S}
 8    Cs 0 {3,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 144,
-    label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)",
-    group = 
-"""
-1 *1 Os 1 {2,S}
-2 *4 Os 0 {1,S} {3,S}
-3 *6 Cs 0 {2,S} {4,S} {8,S}
-4 *7 Cs 0 {3,S} {5,S}
-5 *5 Cs 0 {4,S} {6,S}
-6 *2 Cs 0 {5,S} {7,S} {9,S}
-7 *3 H  0 {6,S}
-8    Cs 0 {3,S}
-9    Cs 0 {6,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3581,11 +3558,11 @@ entry(
     group = 
 """
 1 *1 R!H 1           {2,{S,D,T,B}}
-2 *4 R!H {0,1,2S,2T} {1,{S,D,T,B}} {3,{S,D,T,B}}
-3 *6 R!H {0,1,2S,2T} {2,{S,D,T,B}} {4,{S,D,T,B}}
-4 *7 R!H {0,1,2S,2T} {3,{S,D,T,B}} {5,{S,D,T,B}}
-5 *8 R!H {0,1,2S,2T} {4,{S,D,T,B}} {6,{S,D,T,B}}
-6 *5 R!H {0,1,2S,2T} {5,{S,D,T,B}} {7,{S,D,T,B}}
+2 *4 R!H X {1,{S,D,T,B}} {3,{S,D,T,B}}
+3 *6 R!H X {2,{S,D,T,B}} {4,{S,D,T,B}}
+4 *7 R!H X {3,{S,D,T,B}} {5,{S,D,T,B}}
+5 *8 R!H X {4,{S,D,T,B}} {6,{S,D,T,B}}
+6 *5 R!H X {5,{S,D,T,B}} {7,{S,D,T,B}}
 7 *2 R!H 0           {6,{S,D,T,B}} {8,S}
 8 *3 H   0           {7,S}
 """,
@@ -5287,7 +5264,6 @@ L1: RnH
                             L8: R6H_SSSSS_OO(Cs/Cs)Cs
                                 L9: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)
                             L8: R6H_SSSSS_OOCCC(Cs/Cs)
-                                L9: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)
                         L7: R6H_SSSSS_bicyclopentane
                     L6: R6H_SSSSD
                     L6: R6H_SSSST
@@ -6509,3 +6485,38 @@ u"""
 """,
 )
 
+forbidden(
+    label = "birad_singlet",
+    group = 
+"""
+1 *1 {C,N,Si} 2S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "OS_birad_singlet",
+    group = 
+"""
+1 *1 {O,S} 2S 2
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "quadrad_singlet",
+    group = 
+"""
+1 *1 {C,N,Si} 4S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)

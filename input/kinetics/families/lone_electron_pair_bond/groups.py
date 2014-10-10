@@ -13,9 +13,7 @@ reverse = "Bond_Dissociation"
 
 recipe(actions=[
     ['FORM_BOND', '*1', 'S', '*2'],
-    ['LOSE_RADICAL', '*2', '2'],
     ['LOSE_PAIR', '*1', '1'],
-    ['GAIN_PAIR', '*2', '1'],
 ])
 
 entry(
@@ -41,7 +39,7 @@ entry(
     label = "O_atom_singlet",
     group = 
 """
-1 *2 O 2S
+1 *2 O 2S 2
 """,
     kinetics = None,
     shortDesc = u"""""",

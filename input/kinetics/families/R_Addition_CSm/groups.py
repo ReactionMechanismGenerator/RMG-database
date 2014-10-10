@@ -4,7 +4,7 @@
 name = "R_Addition_CSm/groups"
 shortDesc = u""
 longDesc = u"""
-
+The CSm group needs a singlet in order to react in this family.
 """
 
 template(reactants=["CSm", "Y_rad"], products=["YC.=S"], ownReverse=False)
@@ -12,8 +12,11 @@ template(reactants=["CSm", "Y_rad"], products=["YC.=S"], ownReverse=False)
 reverse = "CSM_Elimination_From_Thiocarbonyl"
 
 recipe(actions=[
+    ['LOSE_PAIR', '*1', '1'],
+    ['CHANGE_BOND', '*1', '-1', '*3'],
+    ['GAIN_RADICAL', '*1', '1'],
+    ['GAIN_PAIR', '*3', '1'],
     ['FORM_BOND', '*1', 'S', '*2'],
-    ['LOSE_RADICAL', '*1', '1'],
     ['LOSE_RADICAL', '*2', '1'],
 ])
 
@@ -22,8 +25,8 @@ entry(
     label = "CSm",
     group = 
 """
-1 *1 C {2S,2T} {2,D}
-2    S 0       {1,D}
+1 *1 C 2S 0 {2,T}
+2 *3 S 0 2 {1,T}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -960,8 +963,22 @@ forbidden(
     label = "O2_birad",
     group = 
 """
-1 *2 O 1 {2,S}
-2    O 1 {1,S}
+1 *2 O 1 2 {2,S}
+2    O 1 2 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "CSm_triplet",
+    group = 
+"""
+1 *1 C 2T 0 {2,D}
+2    S 0  2 {1,D}
 """,
     shortDesc = u"""""",
     longDesc = 

@@ -4,7 +4,7 @@
 name = "1,2_Insertion/groups"
 shortDesc = u""
 longDesc = u"""
-
+Reaction site *1 should always be a singlet in this family.
 """
 
 template(reactants=["Y_birad", "RR'"], products=["R_CO_R'"], ownReverse=False)
@@ -15,7 +15,7 @@ recipe(actions=[
     ['BREAK_BOND', '*2', 'S', '*3'],
     ['FORM_BOND', '*1', 'S', '*2'],
     ['FORM_BOND', '*1', 'S', '*3'],
-    ['LOSE_RADICAL', '*1', '2'],
+    ['LOSE_PAIR', '*1', '1'],
 ])
 
 entry(
@@ -47,7 +47,7 @@ entry(
     label = "CO_birad",
     group = 
 """
-1 *1 C {2S,2T} {2,D}
+1 *1 C 2S {2,D}
 2    O 0       {1,D}
 """,
     kinetics = None,
@@ -63,7 +63,7 @@ entry(
     label = "carbene",
     group = 
 """
-1 *1 Cs 2S {2,S} {3,S}
+1 *1 Cs 2S 0 {2,S} {3,S}
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
@@ -72,20 +72,6 @@ entry(
     longDesc = 
 u"""
 
-""",
-)
-
-forbidden(
-    label = "carbene_triplet",
-    group = 
-"""
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
 """,
 )
 
@@ -1133,4 +1119,14 @@ L1: RR'
         L3: Cs_Cb
 """
 )
-
+forbidden(
+    label = "birad_triplet",
+    group = 
+"""
+1 *1 R!H 2T
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
