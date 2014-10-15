@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "C2H2O + C2H2O <=> C4H4O2",
+    label = "C2H2O + C2H2O-2 <=> C4H4O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (178, 'm^3/(mol*s)'),
@@ -43,7 +43,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 2,
-    label = "C8H12O2 <=> C4H6O + C4H6O",
+    label = "C8H12O2 <=> C4H6O + C4H6O-2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (6.03e+13, 's^-1'),

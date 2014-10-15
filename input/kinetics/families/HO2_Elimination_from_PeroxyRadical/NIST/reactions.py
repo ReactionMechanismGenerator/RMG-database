@@ -158,7 +158,7 @@ DeSain et al, Farad. Disc. 119, 101 (2001)
 
 entry(
     index = 5,
-    label = "C3H7O2-2 <=> C3H6 + HO2",
+    label = "C3H7O2-2 <=> C3H6-2 + HO2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (2.63e+36, 's^-1'),

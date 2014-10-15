@@ -6081,7 +6081,7 @@ The calculated rate constants are in good agreement with experiment.
 
 entry(
     index = 193,
-    label = "H2 + CH3O-2 <=> CH4O + H",
+    label = "H2 + CH3O-2 <=> CH4O-2 + H",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.676, 'm^3/(mol*s)', '*|/', 5),
@@ -6112,7 +6112,7 @@ Uncertainty: 5.0
 
 entry(
     index = 194,
-    label = "H2 + CH3O-2 <=> CH4O + H",
+    label = "H2 + CH3O-2 <=> CH4O-2 + H",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.133e-05, 'm^3/(mol*s)'),
@@ -6143,7 +6143,7 @@ The calculated rate constants are in good agreement with experiment.
 
 entry(
     index = 195,
-    label = "CH4O + H <=> H2 + CH3O-2",
+    label = "CH4O-2 + H <=> H2 + CH3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (16.4, 'm^3/(mol*s)'),
@@ -6175,7 +6175,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 196,
-    label = "CH4O + H <=> H2 + CH3O-2",
+    label = "CH4O-2 + H <=> H2 + CH3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3e+08, 'm^3/(mol*s)'),
@@ -6209,7 +6209,7 @@ Analytical technique: Laser schlieren
 
 entry(
     index = 197,
-    label = "CH4O + H <=> H2 + CH3O-2",
+    label = "CH4O-2 + H <=> H2 + CH3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.4e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -6244,7 +6244,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 198,
-    label = "CH4O + H <=> H2 + CH3O-2",
+    label = "CH4O-2 + H <=> H2 + CH3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1e+07, 'm^3/(mol*s)'),
@@ -6278,7 +6278,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 199,
-    label = "CH4O + H <=> H2 + CH3O-2",
+    label = "CH4O-2 + H <=> H2 + CH3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.16e+07, 'm^3/(mol*s)'),
@@ -6310,7 +6310,7 @@ Bath gas: N2
 
 entry(
     index = 200,
-    label = "CH4O + H <=> H2 + CH3O-2",
+    label = "CH4O-2 + H <=> H2 + CH3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.001354, 'm^3/(mol*s)'),
@@ -8077,7 +8077,7 @@ PrIMe Reaction: r00009484
 
 entry(
     index = 257,
-    label = "H2 + O2 <=> HO2 + H",
+    label = "H2 + O2 <=> HO2-2 + H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.45e+08, 'm^3/(mol*s)', '*|/', 5),
@@ -8107,7 +8107,7 @@ Uncertainty: 5.0
 
 entry(
     index = 258,
-    label = "H2 + O2 <=> HO2 + H",
+    label = "H2 + O2 <=> HO2-2 + H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (9.03e+06, 'm^3/(mol*s)'),
@@ -8141,7 +8141,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 259,
-    label = "H2 + O2 <=> HO2 + H",
+    label = "H2 + O2 <=> HO2-2 + H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.1e+10, 'm^3/(mol*s)'),
@@ -8175,7 +8175,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 260,
-    label = "H2 + O2 <=> HO2 + H",
+    label = "H2 + O2 <=> HO2-2 + H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (0.74, 'm^3/(mol*s)'),
@@ -8204,7 +8204,7 @@ PrIMe Reaction: r00009509
 
 entry(
     index = 261,
-    label = "H2 + O2 <=> HO2 + H",
+    label = "H2 + O2 <=> HO2-2 + H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.44e+07, 'm^3/(mol*s)'),
@@ -8233,7 +8233,7 @@ PrIMe Reaction: r00009509
 
 entry(
     index = 262,
-    label = "H2 + O2 <=> HO2 + H",
+    label = "H2 + O2 <=> HO2-2 + H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3e+07, 'm^3/(mol*s)'),
@@ -8265,7 +8265,7 @@ Bath gas: CH4
 
 entry(
     index = 263,
-    label = "H2 + O2 <=> HO2 + H",
+    label = "H2 + O2 <=> HO2-2 + H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.91e+07, 'm^3/(mol*s)'),
@@ -8295,7 +8295,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 264,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.28e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -8325,7 +8325,7 @@ Uncertainty: 2.0
 
 entry(
     index = 265,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (6.62e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -8355,7 +8355,7 @@ Uncertainty: 2.0
 
 entry(
     index = 266,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.5e+07, 'm^3/(mol*s)', '*|/', 1.58),
@@ -8383,7 +8383,7 @@ Uncertainty: 1.58
 
 entry(
     index = 267,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.02e+06, 'm^3/(mol*s)', '*|/', 3.39),
@@ -8416,7 +8416,7 @@ Bath gas: Ar
 
 entry(
     index = 268,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.5e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -8446,7 +8446,7 @@ Uncertainty: 2.0
 
 entry(
     index = 269,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (67, 'm^3/(mol*s)'),
@@ -8478,7 +8478,7 @@ Reaction potential energy surface was studied using quantum chemistry and rate c
 
 entry(
     index = 270,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (186, 'm^3/(mol*s)'),
@@ -8510,7 +8510,7 @@ Reaction potential energy surface was studied using quantum chemistry and rate c
 
 entry(
     index = 271,
-    label = "HO2 + H <=> H2 + O2",
+    label = "HO2-2 + H <=> H2 + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (618000, 'm^3/(mol*s)'),
@@ -10877,7 +10877,7 @@ NOTE The rate expression given for the CH3CH2O+H2 channel (k3) in Table II of th
 
 entry(
     index = 346,
-    label = "C2H6O + H <=> H2 + C2H5O-2",
+    label = "C2H6O-2 + H <=> H2 + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.4e+06, 'm^3/(mol*s)'),
@@ -10913,7 +10913,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 347,
-    label = "C2H6O + H <=> H2 + C2H5O-2",
+    label = "C2H6O-2 + H <=> H2 + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.179, 'm^3/(mol*s)'),
@@ -10953,7 +10953,7 @@ There is a disagreement between the calculated value for the total rate with exp
 
 entry(
     index = 348,
-    label = "C2H6O + H <=> H2 + C2H5O-3",
+    label = "C2H6O-3 + H <=> H2 + C2H5O-3",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.00188, 'm^3/(mol*s)'),
@@ -11629,7 +11629,7 @@ The calculated rate constants are in good agreement with experiment.
 
 entry(
     index = 369,
-    label = "CH4 + CH3O-2 <=> CH4O + CH3",
+    label = "CH4 + CH3O-2 <=> CH4O-2 + CH3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.159e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -11660,7 +11660,7 @@ Uncertainty: 3.0
 
 entry(
     index = 370,
-    label = "CH4 + CH3O-2 <=> CH4O + CH3",
+    label = "CH4 + CH3O-2 <=> CH4O-2 + CH3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.29e-09, 'm^3/(mol*s)'),
@@ -11691,7 +11691,7 @@ The calculated rate constants are in good agreement with experiment.
 
 entry(
     index = 371,
-    label = "CH4O + CH3 <=> CH4 + CH3O-2",
+    label = "CH4O-2 + CH3 <=> CH4 + CH3O-2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.192e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -11722,7 +11722,7 @@ Uncertainty: 3.0
 
 entry(
     index = 372,
-    label = "CH4O + CH3 <=> CH4 + CH3O-2",
+    label = "CH4O-2 + CH3 <=> CH4 + CH3O-2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (240000, 'm^3/(mol*s)'),
@@ -11754,7 +11754,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 373,
-    label = "CH4O + CH3 <=> CH4 + CH3O-2",
+    label = "CH4O-2 + CH3 <=> CH4 + CH3O-2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (6.14e-10, 'm^3/(mol*s)'),
@@ -12683,7 +12683,7 @@ Uncertainty: 5.0
 
 entry(
     index = 402,
-    label = "CH4 + O2 <=> HO2 + CH3",
+    label = "CH4 + O2 <=> HO2-2 + CH3",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (3.97e+07, 'm^3/(mol*s)', '*|/', 10),
@@ -12713,7 +12713,7 @@ Uncertainty: 10.0
 
 entry(
     index = 403,
-    label = "CH4 + O2 <=> HO2 + CH3",
+    label = "CH4 + O2 <=> HO2-2 + CH3",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (4.04e+07, 'm^3/(mol*s)', '*|/', 5),
@@ -12743,7 +12743,7 @@ Uncertainty: 5.0
 
 entry(
     index = 404,
-    label = "CH4 + O2 <=> HO2 + CH3",
+    label = "CH4 + O2 <=> HO2-2 + CH3",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (8.52, 'm^3/(mol*s)'),
@@ -12772,7 +12772,7 @@ PrIMe Reaction: r00002003
 
 entry(
     index = 405,
-    label = "CH4 + O2 <=> HO2 + CH3",
+    label = "CH4 + O2 <=> HO2-2 + CH3",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (8e+07, 'm^3/(mol*s)'),
@@ -12804,7 +12804,7 @@ Bath gas: CH4
 
 entry(
     index = 406,
-    label = "CH4 + O2 <=> HO2 + CH3",
+    label = "CH4 + O2 <=> HO2-2 + CH3",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (4.32e+07, 'm^3/(mol*s)'),
@@ -13409,7 +13409,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 425,
-    label = "C2H6O-2 + H <=> H2 + C2H5O-4",
+    label = "C2H6O-4 + H <=> H2 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (4.26e+08, 'm^3/(mol*s)'),
@@ -13447,7 +13447,7 @@ The uncertainty of log(A) is +/- 0.48.
 
 entry(
     index = 426,
-    label = "C2H6O-2 + H <=> H2 + C2H5O-4",
+    label = "C2H6O-4 + H <=> H2 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.096e-05, 'm^3/(mol*s)'),
@@ -13481,7 +13481,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 427,
-    label = "C2H6O-2 + H <=> H2 + C2H5O-4",
+    label = "C2H6O-4 + H <=> H2 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (32, 'm^3/(mol*s)'),
@@ -13517,7 +13517,7 @@ The high-temperature pyrolysis of dimethyl ether (DME) was studied behind reflec
 
 entry(
     index = 428,
-    label = "C2H6O-2 + H <=> H2 + C2H5O-4",
+    label = "C2H6O-4 + H <=> H2 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (2.64e+06, 'm^3/(mol*s)', '+|-', 340000),
@@ -13551,7 +13551,7 @@ Analytical technique: Resonance fluorescence
 
 entry(
     index = 429,
-    label = "C2H6O-2 + H <=> H2 + C2H5O-4",
+    label = "C2H6O-4 + H <=> H2 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.9e+07, 'm^3/(mol*s)', '+|-', 8.9e+06),
@@ -13585,7 +13585,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 430,
-    label = "C2H6O-2 + H <=> H2 + C2H5O-4",
+    label = "C2H6O-4 + H <=> H2 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.3e+07, 'm^3/(mol*s)', '+|-', 4.9e+06),
@@ -13621,7 +13621,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 431,
-    label = "H2 + C3H7-2 <=> C3H8 + H",
+    label = "H2 + C3H7-2 <=> C3H8-2 + H",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.496e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -13652,7 +13652,7 @@ Uncertainty: 3.0
 
 entry(
     index = 432,
-    label = "C3H8 + H <=> H2 + C3H7-2",
+    label = "C3H8-2 + H <=> H2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.3, 'm^3/(mol*s)', '*|/', 3),
@@ -13683,7 +13683,7 @@ Uncertainty: 3.0
 
 entry(
     index = 433,
-    label = "C3H8 + H <=> H2 + C3H7-2",
+    label = "C3H8-2 + H <=> H2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (6.46e+06, 'm^3/(mol*s)', '*|/', 1.91),
@@ -13718,7 +13718,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 434,
-    label = "C3H8 + H <=> H2 + C3H7-2",
+    label = "C3H8-2 + H <=> H2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (6.46e+07, 'm^3/(mol*s)', '*|/', 1.17),
@@ -13753,7 +13753,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 435,
-    label = "C3H8 + H <=> H2 + C3H7-2",
+    label = "C3H8-2 + H <=> H2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (9.79e+07, 'm^3/(mol*s)'),
@@ -13782,7 +13782,7 @@ PrIMe Reaction: r00009459
 
 entry(
     index = 436,
-    label = "C3H8 + H <=> H2 + C3H7-2",
+    label = "C3H8-2 + H <=> H2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.6e+07, 'm^3/(mol*s)'),
@@ -13814,7 +13814,7 @@ Bath gas: N2
 
 entry(
     index = 437,
-    label = "C3H8 + H <=> H2 + C3H7-2",
+    label = "C3H8-2 + H <=> H2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.1e+07, 'm^3/(mol*s)'),
@@ -14419,7 +14419,7 @@ Bath gas: He
 
 entry(
     index = 457,
-    label = "CH3O-2 + H2O <=> CH4O + OH",
+    label = "CH3O-2 + H2O <=> CH4O-2 + OH",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.000937, 'm^3/(mol*s)'),
@@ -14450,7 +14450,7 @@ The calculated rate constants are in good agreement with experiment.
 
 entry(
     index = 458,
-    label = "CH3O-2 + H2O <=> CH4O + OH",
+    label = "CH3O-2 + H2O <=> CH4O-2 + OH",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.55e+08, 'm^3/(mol*s)'),
@@ -14483,7 +14483,7 @@ Bath gas: Ar
 
 entry(
     index = 459,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.87e+06, 'm^3/(mol*s)'),
@@ -14512,7 +14512,7 @@ Pressure dependence: None reported
 
 entry(
     index = 460,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.44, 'm^3/(mol*s)'),
@@ -14544,7 +14544,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 461,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.8e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -14579,7 +14579,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 462,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.98e+06, 'm^3/(mol*s)'),
@@ -14611,7 +14611,7 @@ Bath gas: N2
 
 entry(
     index = 463,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3e+07, 'm^3/(mol*s)'),
@@ -14645,7 +14645,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 464,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.16e+06, 'm^3/(mol*s)', '+|-', 120000),
@@ -14677,7 +14677,7 @@ Reported uncertainties are two sigma and are precision only.
 
 entry(
     index = 465,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.0244, 'm^3/(mol*s)'),
@@ -14708,7 +14708,7 @@ The calculated rate constants are in good agreement with experiment.
 
 entry(
     index = 466,
-    label = "CH4O + OH <=> CH3O-2 + H2O",
+    label = "CH4O-2 + OH <=> CH3O-2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2e+08, 'm^3/(mol*s)'),
@@ -18090,7 +18090,7 @@ PrIMe Reaction: r00013765
 
 entry(
     index = 572,
-    label = "H2O + O2 <=> HO2 + OH",
+    label = "H2O + O2 <=> HO2-2 + OH",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.65e+06, 'm^3/(mol*s)'),
@@ -18120,7 +18120,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 573,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)'),
@@ -18149,7 +18149,7 @@ PrIMe Reaction: r00013767
 
 entry(
     index = 574,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)'),
@@ -18178,7 +18178,7 @@ Pressure dependence: None reported
 
 entry(
     index = 575,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)'),
@@ -18206,7 +18206,7 @@ PrIMe Reaction: r00013767
 
 entry(
     index = 576,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)'),
@@ -18235,7 +18235,7 @@ PrIMe Reaction: r00013767
 
 entry(
     index = 577,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)', '*|/', 1.3),
@@ -18264,7 +18264,7 @@ Uncertainty: 1.3
 
 entry(
     index = 578,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)', '*|/', 1.58),
@@ -18294,7 +18294,7 @@ Uncertainty: 1.58
 
 entry(
     index = 579,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)', '*|/', 3.16),
@@ -18324,7 +18324,7 @@ Uncertainty: 3.1600001
 
 entry(
     index = 580,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)'),
@@ -18353,7 +18353,7 @@ PrIMe Reaction: r00013767
 
 entry(
     index = 581,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)', '*|/', 1.26),
@@ -18383,7 +18383,7 @@ Uncertainty: 1.26
 
 entry(
     index = 582,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -18413,7 +18413,7 @@ Uncertainty: 2.0
 
 entry(
     index = 583,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.89e+07, 'm^3/(mol*s)'),
@@ -18447,7 +18447,7 @@ Analytical technique: Resonance fluorescence
 
 entry(
     index = 584,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.02e+07, 'm^3/(mol*s)', '+|-', 3e+06),
@@ -18481,7 +18481,7 @@ Analytical technique: Resonance fluorescence
 
 entry(
     index = 585,
-    label = "HO2 + OH <=> H2O + O2",
+    label = "HO2-2 + OH <=> H2O + O2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.42e+08, 'm^3/(mol*s)'),
@@ -18510,7 +18510,7 @@ PrIMe Reaction: r00013767
 
 entry(
     index = 586,
-    label = "C3H6-2 + H <=> H2 + C3H5-3",
+    label = "C3H6-3 + H <=> H2 + C3H5-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.783, 'm^3/(mol*s)'),
@@ -18540,7 +18540,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 587,
-    label = "C3H6-2 + H <=> H2 + C3H5-4",
+    label = "C3H6-4 + H <=> H2 + C3H5-4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (0.39, 'm^3/(mol*s)'),
@@ -18724,7 +18724,7 @@ PrIMe Reaction: r00001357
 
 entry(
     index = 593,
-    label = "CH2O + O2 <=> CHO + HO2",
+    label = "CH2O + O2 <=> CHO + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (6.03e+07, 'm^3/(mol*s)', '*|/', 3.16),
@@ -18754,7 +18754,7 @@ Uncertainty: 3.1600001
 
 entry(
     index = 594,
-    label = "CH2O + O2 <=> CHO + HO2",
+    label = "CH2O + O2 <=> CHO + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.05e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -18784,7 +18784,7 @@ Uncertainty: 2.0
 
 entry(
     index = 595,
-    label = "CH2O + O2 <=> CHO + HO2",
+    label = "CH2O + O2 <=> CHO + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (8.07e+09, 'm^3/(mol*s)'),
@@ -18820,7 +18820,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 596,
-    label = "CH2O + O2 <=> CHO + HO2",
+    label = "CH2O + O2 <=> CHO + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.9e+10, 'm^3/(mol*s)', '+|-', 4.34e+09),
@@ -18855,7 +18855,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 597,
-    label = "CH2O + O2 <=> CHO + HO2",
+    label = "CH2O + O2 <=> CHO + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.04e+07, 'm^3/(mol*s)'),
@@ -18890,7 +18890,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 598,
-    label = "CH2O + O2 <=> CHO + HO2",
+    label = "CH2O + O2 <=> CHO + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (46.9, 'm^3/(mol*s)'),
@@ -19018,7 +19018,7 @@ Significant minor channel at all temperatures, modified G2/B3LYP 6-311G(d,p) geo
 
 entry(
     index = 602,
-    label = "C2H6O + CH3 <=> CH4 + C2H5O-2",
+    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (398000, 'm^3/(mol*s)', '*|/', 1.41),
@@ -19052,7 +19052,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 603,
-    label = "C2H6O + CH3 <=> CH4 + C2H5O-2",
+    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.31e-29, 'm^3/(mol*s)'),
@@ -19084,7 +19084,7 @@ Dominant below 800 K, significant minor channel above 1000 K, modified G2/B3LYP 
 
 entry(
     index = 604,
-    label = "C2H6O + CH3 <=> CH4 + C2H5O-2",
+    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.69e-77, 'm^3/(mol*s)'),
@@ -19116,7 +19116,7 @@ Dominant below 800 K, significant minor channel above 1000 K, modified G2/B3LYP 
 
 entry(
     index = 605,
-    label = "C2H6O + OH <=> H2O + C2H5O-2",
+    label = "C2H6O-2 + OH <=> H2O + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.47e+06, 'm^3/(mol*s)'),
@@ -19146,7 +19146,7 @@ Note: Invalid activation energy uncertainty (1.663) found and ignored
 
 entry(
     index = 606,
-    label = "C2H6O + OH <=> H2O + C2H5O-2",
+    label = "C2H6O-2 + OH <=> H2O + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (24200, 'm^3/(mol*s)', '+|-', 5180),
@@ -19178,7 +19178,7 @@ Reported uncertainties are two sigma and are precision only.
 
 entry(
     index = 607,
-    label = "C2H6O + OH <=> H2O + C2H5O-2",
+    label = "C2H6O-2 + OH <=> H2O + C2H5O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3e+07, 'm^3/(mol*s)'),
@@ -19211,7 +19211,7 @@ Bath gas: Ar
 
 entry(
     index = 608,
-    label = "CH4O + CH3O-2 <=> CH4O + CH3O",
+    label = "CH4O + CH3O-2 <=> CH4O-2 + CH3O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (7830, 'm^3/(mol*s)', '*|/', 5),
@@ -19242,7 +19242,7 @@ Uncertainty: 5.0
 
 entry(
     index = 609,
-    label = "CH4O + CH3O <=> CH4O + CH3O-2",
+    label = "CH4O-2 + CH3O <=> CH4O + CH3O-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (301000, 'm^3/(mol*s)', '*|/', 5),
@@ -19273,7 +19273,7 @@ Uncertainty: 5.0
 
 entry(
     index = 610,
-    label = "CH4O + CHO <=> CH2O + CH3O-2",
+    label = "CH4O-2 + CHO <=> CH2O + CH3O-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.009686, 'm^3/(mol*s)', '*|/', 5),
@@ -19304,7 +19304,7 @@ Uncertainty: 5.0
 
 entry(
     index = 611,
-    label = "CH2O + CH3O-2 <=> CH4O + CHO",
+    label = "CH2O + CH3O-2 <=> CH4O-2 + CHO",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.005491, 'm^3/(mol*s)', '*|/', 3),
@@ -19366,7 +19366,7 @@ Uncertainty: 5.0
 
 entry(
     index = 613,
-    label = "CH4O + C2H3 <=> C2H4 + CH3O-2",
+    label = "CH4O-2 + C2H3 <=> C2H4 + CH3O-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (3.192e-05, 'm^3/(mol*s)', '*|/', 5),
@@ -19397,7 +19397,7 @@ Uncertainty: 5.0
 
 entry(
     index = 614,
-    label = "CH4O + O2 <=> HO2 + CH3O-2",
+    label = "CH4O-2 + O2 <=> HO2-2 + CH3O-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (2.05e+07, 'm^3/(mol*s)', '*|/', 5),
@@ -19658,7 +19658,7 @@ Uncertainty: 3.0
 
 entry(
     index = 622,
-    label = "C2H6 + CH3O-2 <=> CH4O + C2H5",
+    label = "C2H6 + CH3O-2 <=> CH4O-2 + C2H5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.000199, 'm^3/(mol*s)', '*|/', 5),
@@ -19689,7 +19689,7 @@ Uncertainty: 5.0
 
 entry(
     index = 623,
-    label = "CH4O + C2H5 <=> C2H6 + CH3O-2",
+    label = "CH4O-2 + C2H5 <=> C2H6 + CH3O-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.192e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -20074,7 +20074,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 635,
-    label = "C2H6 + O2 <=> HO2 + C2H5",
+    label = "C2H6 + O2 <=> HO2-2 + C2H5",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (6.03e+07, 'm^3/(mol*s)', '*|/', 10),
@@ -20104,7 +20104,7 @@ Uncertainty: 10.0
 
 entry(
     index = 636,
-    label = "C2H6 + O2 <=> HO2 + C2H5",
+    label = "C2H6 + O2 <=> HO2-2 + C2H5",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (4.04e+07, 'm^3/(mol*s)', '*|/', 5),
@@ -20134,7 +20134,7 @@ Uncertainty: 5.0
 
 entry(
     index = 637,
-    label = "C2H6 + O2 <=> HO2 + C2H5",
+    label = "C2H6 + O2 <=> HO2-2 + C2H5",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1e+07, 'm^3/(mol*s)'),
@@ -20165,7 +20165,7 @@ Bath gas: N2
 
 entry(
     index = 638,
-    label = "C2H4 + O2 <=> HO2 + C2H3",
+    label = "C2H4 + O2 <=> HO2-2 + C2H3",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (4.22e+07, 'm^3/(mol*s)', '*|/', 5),
@@ -20391,7 +20391,7 @@ Uncertainty: 2.0
 
 entry(
     index = 645,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.58e+06, 'm^3/(mol*s)'),
@@ -20420,7 +20420,7 @@ Pressure dependence: None reported
 
 entry(
     index = 646,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2900, 'm^3/(mol*s)'),
@@ -20449,7 +20449,7 @@ PrIMe Reaction: r00002745
 
 entry(
     index = 647,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.92e+06, 'm^3/(mol*s)'),
@@ -20483,7 +20483,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 648,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.4e+07, 'm^3/(mol*s)'),
@@ -20516,7 +20516,7 @@ Bath gas: N2
 
 entry(
     index = 649,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.4e+06, 'm^3/(mol*s)'),
@@ -20545,7 +20545,7 @@ PrIMe Reaction: r00002745
 
 entry(
     index = 650,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (5.28e+06, 'm^3/(mol*s)'),
@@ -20574,7 +20574,7 @@ PrIMe Reaction: r00002745
 
 entry(
     index = 651,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (7.09, 'm^3/(mol*s)'),
@@ -20603,7 +20603,7 @@ PrIMe Reaction: r00002745
 
 entry(
     index = 652,
-    label = "C3H8 + OH <=> H2O + C3H7-2",
+    label = "C3H8-2 + OH <=> H2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.6, 'm^3/(mol*s)'),
@@ -21356,7 +21356,7 @@ Pressure dependence: Rate constant is high pressure limit
 
 entry(
     index = 676,
-    label = "C2H4O-2 + OH <=> H2O + C2H3O-3",
+    label = "C2H4O-3 + OH <=> H2O + C2H3O-3",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.55, 'm^3/(mol*s)'),
@@ -22213,7 +22213,7 @@ Uncertainty: 1.2
 
 entry(
     index = 703,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.55e+06, 'm^3/(mol*s)', '*|/', 1.26),
@@ -22246,7 +22246,7 @@ Bath gas: (CH3)2O
 
 entry(
     index = 704,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (2.68e-05, 'm^3/(mol*s)'),
@@ -22278,7 +22278,7 @@ Analytical technique: Fourier transform (FTIR)
 
 entry(
     index = 705,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (8e+06, 'm^3/(mol*s)'),
@@ -22314,7 +22314,7 @@ The high-temperature pyrolysis of dimethyl ether (DME) was studied behind reflec
 
 entry(
     index = 706,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (200000, 'm^3/(mol*s)', '*|/', 1.26),
@@ -22349,7 +22349,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 707,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.16e+07, 'm^3/(mol*s)', '*|/', 2.51),
@@ -22384,7 +22384,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 708,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (417000, 'm^3/(mol*s)', '*|/', 1.2),
@@ -22418,7 +22418,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 709,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (417000, 'm^3/(mol*s)', '*|/', 1.2),
@@ -22451,7 +22451,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 710,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (110000, 'm^3/(mol*s)'),
@@ -22485,7 +22485,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 711,
-    label = "C2H6O-2 + CH3 <=> CH4 + C2H5O-4",
+    label = "C2H6O-4 + CH3 <=> CH4 + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1400, 'm^3/(mol*s)'),
@@ -22515,7 +22515,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 712,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.276, 'm^3/(mol*s)', '+|-', 0.0126),
@@ -22544,7 +22544,7 @@ PrIMe Reaction: r00005795
 
 entry(
     index = 713,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.43e+06, 'm^3/(mol*s)'),
@@ -22573,7 +22573,7 @@ Pressure dependence: None reported
 
 entry(
     index = 714,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (6.03e+06, 'm^3/(mol*s)'),
@@ -22602,7 +22602,7 @@ PrIMe Reaction: r00005795
 
 entry(
     index = 715,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (6.27e+06, 'm^3/(mol*s)', '*|/', 1.2),
@@ -22632,7 +22632,7 @@ Uncertainty: 1.2
 
 entry(
     index = 716,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.0182, 'm^3/(mol*s)', '+|-', 0.000602),
@@ -22668,7 +22668,7 @@ Analytical technique: Laser induced fluorescence
 
 entry(
     index = 717,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (9.1e+06, 'm^3/(mol*s)'),
@@ -22703,7 +22703,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 718,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (6.32, 'm^3/(mol*s)', '+|-', 0.631),
@@ -22737,7 +22737,7 @@ Analytical technique: Laser induced fluorescence
 
 entry(
     index = 719,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.79e+06, 'm^3/(mol*s)', '+|-', 76000),
@@ -22771,7 +22771,7 @@ Analytical technique: Laser induced fluorescence
 
 entry(
     index = 720,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (4.04e+06, 'm^3/(mol*s)', '+|-', 890000),
@@ -22805,7 +22805,7 @@ Analytical technique: Resonance fluorescence
 
 entry(
     index = 721,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (7.76e+06, 'm^3/(mol*s)'),
@@ -22840,7 +22840,7 @@ Analytical technique: Resonance fluorescence
 
 entry(
     index = 722,
-    label = "C2H6O-2 + OH <=> H2O + C2H5O-4",
+    label = "C2H6O-4 + OH <=> H2O + C2H5O-4",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.0201, 'm^3/(mol*s)'),
@@ -23055,7 +23055,7 @@ Bath gas: N2
 
 entry(
     index = 729,
-    label = "H2 + C4H9-3 <=> C4H10 + H",
+    label = "H2 + C4H9-3 <=> C4H10-3 + H",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.98e+07, 'm^3/(mol*s)'),
@@ -23090,7 +23090,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 730,
-    label = "C4H10 + H <=> H2 + C4H9-3",
+    label = "C4H10-3 + H <=> H2 + C4H9-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.96e+08, 'm^3/(mol*s)'),
@@ -23119,7 +23119,7 @@ PrIMe Reaction: r00009474
 
 entry(
     index = 731,
-    label = "C4H10 + H <=> H2 + C4H9-3",
+    label = "C4H10-3 + H <=> H2 + C4H9-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.2e+08, 'm^3/(mol*s)', '*|/', 1.38),
@@ -23149,7 +23149,7 @@ Uncertainty: 1.38
 
 entry(
     index = 732,
-    label = "C4H10 + H <=> H2 + C4H9-3",
+    label = "C4H10-3 + H <=> H2 + C4H9-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.12e+08, 'm^3/(mol*s)'),
@@ -23181,7 +23181,7 @@ Bath gas: N2
 
 entry(
     index = 733,
-    label = "C4H10 + H <=> H2 + C4H9-3",
+    label = "C4H10-3 + H <=> H2 + C4H9-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.1e+07, 'm^3/(mol*s)', '+|-', 6.3e+06),
@@ -23210,7 +23210,7 @@ PrIMe Reaction: r00009474
 
 entry(
     index = 734,
-    label = "H2 + C4H9-4 <=> C4H10-2 + H",
+    label = "H2 + C4H9-4 <=> C4H10-4 + H",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.002831, 'm^3/(mol*s)', '*|/', 3),
@@ -23241,7 +23241,7 @@ Uncertainty: 3.0
 
 entry(
     index = 735,
-    label = "H2 + C4H9-4 <=> C4H10-2 + H",
+    label = "H2 + C4H9-4 <=> C4H10-4 + H",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (501000, 'm^3/(mol*s)'),
@@ -23275,7 +23275,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 736,
-    label = "C4H10-2 + H <=> H2 + C4H9-4",
+    label = "C4H10-4 + H <=> H2 + C4H9-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.81, 'm^3/(mol*s)', '*|/', 3),
@@ -23306,7 +23306,7 @@ Uncertainty: 3.0
 
 entry(
     index = 737,
-    label = "C4H10-2 + H <=> H2 + C4H9-4",
+    label = "C4H10-4 + H <=> H2 + C4H9-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.98e+08, 'm^3/(mol*s)'),
@@ -23404,7 +23404,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 740,
-    label = "C2H2 + O2 <=> HO2 + C2H",
+    label = "C2H2 + O2 <=> HO2-2 + C2H",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.21e+07, 'm^3/(mol*s)', '*|/', 5),
@@ -23435,7 +23435,7 @@ Uncertainty: 5.0
 
 entry(
     index = 743,
-    label = "CH3O-2 + H2O2 <=> CH4O + HO2",
+    label = "CH3O-2 + H2O2 <=> CH4O-2 + HO2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3010, 'm^3/(mol*s)', '*|/', 5),
@@ -23465,7 +23465,7 @@ Uncertainty: 5.0
 
 entry(
     index = 744,
-    label = "CH3O-2 + H2O2 <=> CH4O + HO2",
+    label = "CH3O-2 + H2O2 <=> CH4O-2 + HO2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (269000, 'm^3/(mol*s)'),
@@ -23498,7 +23498,7 @@ Bath gas: Ar
 
 entry(
     index = 745,
-    label = "CH4O + HO2 <=> CH3O-2 + H2O2",
+    label = "CH4O-2 + HO2 <=> CH3O-2 + H2O2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (96400, 'm^3/(mol*s)', '*|/', 5),
@@ -23528,7 +23528,7 @@ Uncertainty: 5.0
 
 entry(
     index = 746,
-    label = "CH4O + HO2 <=> CH3O-2 + H2O2",
+    label = "CH4O-2 + HO2 <=> CH3O-2 + H2O2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1e+06, 'm^3/(mol*s)'),
@@ -24399,7 +24399,7 @@ Bath gas: N2
 
 entry(
     index = 774,
-    label = "H2O2 + O2 <=> HO2 + HO2",
+    label = "H2O2 + O2 <=> HO2-2 + HO2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.42e+07, 'm^3/(mol*s)', '*|/', 5),
@@ -24535,7 +24535,7 @@ The listed rate expression is a fit derived at NIST to the calculated rate const
 
 entry(
     index = 778,
-    label = "C2H4O2 + H <=> H2 + C2H3O2-2",
+    label = "C2H4O2-2 + H <=> H2 + C2H3O2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (27.2, 'm^3/(mol*s)'),
@@ -24569,7 +24569,7 @@ The listed rate expression is a fit derived at NIST to the calculated rate const
 
 entry(
     index = 779,
-    label = "C3H6-2 + OH <=> H2O + C3H5-3",
+    label = "C3H6-3 + OH <=> H2O + C3H5-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (7.6e+06, 'm^3/(mol*s)'),
@@ -24604,7 +24604,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 780,
-    label = "C3H6-2 + OH <=> H2O + C3H5-3",
+    label = "C3H6-3 + OH <=> H2O + C3H5-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.14, 'm^3/(mol*s)', '*|/', 2),
@@ -24635,7 +24635,7 @@ Uncertainty: 2.0
 
 entry(
     index = 781,
-    label = "C3H6-2 + OH <=> H2O + C3H5-4",
+    label = "C3H6-4 + OH <=> H2O + C3H5-4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.11, 'm^3/(mol*s)'),
@@ -24700,7 +24700,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 783,
-    label = "CH4O2 + OH <=> H2O + CH3O2-2",
+    label = "CH4O2-2 + OH <=> H2O + CH3O2-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.08e+06, 'm^3/(mol*s)', '*|/', 2),
@@ -24731,7 +24731,7 @@ Uncertainty: 2.0
 
 entry(
     index = 784,
-    label = "CH4O2 + OH <=> H2O + CH3O2-2",
+    label = "CH4O2-2 + OH <=> H2O + CH3O2-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (603000, 'm^3/(mol*s)'),
@@ -24761,7 +24761,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 785,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (4.22e+08, 'm^3/(mol*s)', '*|/', 2.51),
@@ -24792,7 +24792,7 @@ Uncertainty: 2.51
 
 entry(
     index = 786,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1e+07, 'm^3/(mol*s)', '*|/', 2),
@@ -24823,7 +24823,7 @@ Uncertainty: 2.0
 
 entry(
     index = 787,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (22900, 'm^3/(mol*s)', '+|-', 8500),
@@ -24858,7 +24858,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 788,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (68700, 'm^3/(mol*s)', '+|-', 9600),
@@ -24893,7 +24893,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 789,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (53600, 'm^3/(mol*s)', '+|-', 1600),
@@ -24928,7 +24928,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 790,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (46300, 'm^3/(mol*s)', '+|-', 1400),
@@ -24963,7 +24963,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 791,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (55500, 'm^3/(mol*s)', '+|-', 1100),
@@ -24998,7 +24998,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 792,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (249000, 'm^3/(mol*s)', '+|-', 70000),
@@ -25033,7 +25033,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 793,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (145000, 'm^3/(mol*s)'),
@@ -25069,7 +25069,7 @@ Note: Invalid Ea value uncertainty (8314472.0) found and ignored
 
 entry(
     index = 794,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (3770, 'm^3/(mol*s)'),
@@ -25099,7 +25099,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 795,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1e+07, 'm^3/(mol*s)'),
@@ -25130,7 +25130,7 @@ Bath gas: N2
 
 entry(
     index = 796,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (121000, 'm^3/(mol*s)', '+|-', 36000),
@@ -25165,7 +25165,7 @@ Analytical technique: Laser magnetic resonance (LMR)
 
 entry(
     index = 797,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5550, 'm^3/(mol*s)'),
@@ -25200,7 +25200,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 798,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.87e+06, 'm^3/(mol*s)', '*|/', 2),
@@ -25231,7 +25231,7 @@ Uncertainty: 2.0
 
 entry(
     index = 799,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (271000, 'm^3/(mol*s)', '+|-', 33000),
@@ -25265,7 +25265,7 @@ Note: Invalid Ea value uncertainty (8314472.0) found and ignored
 
 entry(
     index = 800,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (169000, 'm^3/(mol*s)', '+|-', 30000),
@@ -25300,7 +25300,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 801,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (132000, 'm^3/(mol*s)'),
@@ -25330,7 +25330,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 802,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (139000, 'm^3/(mol*s)'),
@@ -25359,7 +25359,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 803,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (132000, 'm^3/(mol*s)'),
@@ -25389,7 +25389,7 @@ Pressure dependence: None reported
 
 entry(
     index = 804,
-    label = "HO2 + HO2 <=> H2O2 + O2",
+    label = "HO2-2 + HO2 <=> H2O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (132000, 'm^3/(mol*s)'),
@@ -25419,7 +25419,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 805,
-    label = "CH4O2 + OH <=> H2O + CH3O2-2",
+    label = "CH4O2-2 + OH <=> H2O + CH3O2-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (602000, 'm^3/(mol*s)'),
@@ -25511,7 +25511,7 @@ Uncertainty: 5.0
 
 entry(
     index = 808,
-    label = "CH4O + CH3O2 <=> CH4O2 + CH3O-2",
+    label = "CH4O-2 + CH3O2 <=> CH4O2 + CH3O-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.81e+06, 'm^3/(mol*s)', '*|/', 2),
@@ -25542,7 +25542,7 @@ Uncertainty: 2.0
 
 entry(
     index = 809,
-    label = "CH4O + C2H3O-2 <=> C2H4O-2 + CH3O-2",
+    label = "CH4O-2 + C2H3O-2 <=> C2H4O-2 + CH3O-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.004837, 'm^3/(mol*s)', '*|/', 3),
@@ -26637,7 +26637,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 842,
-    label = "C2H6 + C3H7-2 <=> C3H8 + C2H5",
+    label = "C2H6 + C3H7-2 <=> C3H8-2 + C2H5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (8.4e-07, 'm^3/(mol*s)', '*|/', 2),
@@ -26667,7 +26667,7 @@ Uncertainty: 2.0
 
 entry(
     index = 843,
-    label = "C2H6 + C3H7-2 <=> C3H8 + C2H5",
+    label = "C2H6 + C3H7-2 <=> C3H8-2 + C2H5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (100000, 'm^3/(mol*s)'),
@@ -26701,7 +26701,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 844,
-    label = "C2H6 + C3H7-2 <=> C3H8 + C2H5",
+    label = "C2H6 + C3H7-2 <=> C3H8-2 + C2H5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (25100, 'm^3/(mol*s)', '*|/', 2.51),
@@ -26737,7 +26737,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 845,
-    label = "C3H8 + C2H5 <=> C2H6 + C3H7-2",
+    label = "C3H8-2 + C2H5 <=> C2H6 + C3H7-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.21e-06, 'm^3/(mol*s)', '*|/', 2.5),
@@ -26922,7 +26922,7 @@ Uncertainty: 3.0
 
 entry(
     index = 851,
-    label = "C3H8 + CH3O <=> CH4O + C3H7-2",
+    label = "C3H8-2 + CH3O <=> CH4O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (145000, 'm^3/(mol*s)', '*|/', 5),
@@ -26953,7 +26953,7 @@ Uncertainty: 5.0
 
 entry(
     index = 852,
-    label = "CH4O + C3H7-2 <=> C3H8 + CH3O",
+    label = "CH4O + C3H7-2 <=> C3H8-2 + CH3O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.445e-05, 'm^3/(mol*s)', '*|/', 5),
@@ -27046,7 +27046,7 @@ Uncertainty: 3.0
 
 entry(
     index = 855,
-    label = "C3H8 + CH3O-2 <=> CH4O + C3H7-2",
+    label = "C3H8-2 + CH3O-2 <=> CH4O-2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (6.029e-05, 'm^3/(mol*s)', '*|/', 5),
@@ -27077,7 +27077,7 @@ Uncertainty: 5.0
 
 entry(
     index = 856,
-    label = "CH4O + C3H7-2 <=> C3H8 + CH3O-2",
+    label = "CH4O-2 + C3H7-2 <=> C3H8-2 + CH3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.194e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -27108,7 +27108,7 @@ Uncertainty: 3.0
 
 entry(
     index = 857,
-    label = "C3H8 + CH3O-2 <=> CH4O + C3H7",
+    label = "C3H8 + CH3O-2 <=> CH4O-2 + C3H7",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.000198, 'm^3/(mol*s)', '*|/', 5),
@@ -27139,7 +27139,7 @@ Uncertainty: 5.0
 
 entry(
     index = 858,
-    label = "CH4O + C3H7 <=> C3H8 + CH3O-2",
+    label = "CH4O-2 + C3H7 <=> C3H8 + CH3O-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.371e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -27170,7 +27170,7 @@ Uncertainty: 3.0
 
 entry(
     index = 859,
-    label = "C3H8 + CHO <=> CH2O + C3H7-2",
+    label = "C3H8-2 + CHO <=> CH2O + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (10.8, 'm^3/(mol*s)', '*|/', 3),
@@ -27201,7 +27201,7 @@ Uncertainty: 3.0
 
 entry(
     index = 860,
-    label = "CH2O + C3H7-2 <=> C3H8 + CHO",
+    label = "CH2O + C3H7-2 <=> C3H8-2 + CHO",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (108000, 'm^3/(mol*s)', '*|/', 2.5),
@@ -27328,7 +27328,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 864,
-    label = "C3H8 + C2H3 <=> C2H4 + C3H7-2",
+    label = "C3H8-2 + C2H3 <=> C2H4 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.001024, 'm^3/(mol*s)', '*|/', 10),
@@ -27358,7 +27358,7 @@ Uncertainty: 10.0
 
 entry(
     index = 865,
-    label = "C3H8 + C2H3 <=> C2H4 + C3H7-2",
+    label = "C3H8-2 + C2H3 <=> C2H4 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (45700, 'm^3/(mol*s)'),
@@ -27448,7 +27448,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 868,
-    label = "C3H8 + HO2 <=> H2O2 + C3H7-2",
+    label = "C3H8-2 + HO2 <=> H2O2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.009631, 'm^3/(mol*s)', '*|/', 10),
@@ -27478,7 +27478,7 @@ Uncertainty: 10.0
 
 entry(
     index = 869,
-    label = "C3H8 + HO2 <=> H2O2 + C3H7-2",
+    label = "C3H8-2 + HO2 <=> H2O2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (200000, 'm^3/(mol*s)', '*|/', 10),
@@ -27509,7 +27509,7 @@ Uncertainty: 10.0
 
 entry(
     index = 870,
-    label = "H2O2 + C3H7-2 <=> C3H8 + HO2",
+    label = "H2O2 + C3H7-2 <=> C3H8-2 + HO2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.000289, 'm^3/(mol*s)', '*|/', 10),
@@ -27539,7 +27539,7 @@ Uncertainty: 10.0
 
 entry(
     index = 871,
-    label = "C3H8 + O2 <=> HO2 + C3H7-2",
+    label = "C3H8-2 + O2 <=> HO2-2 + C3H7-2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.97e+07, 'm^3/(mol*s)', '*|/', 10),
@@ -27570,7 +27570,7 @@ Uncertainty: 10.0
 
 entry(
     index = 872,
-    label = "C3H8 + O2 <=> HO2 + C3H7",
+    label = "C3H8 + O2 <=> HO2-2 + C3H7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.97e+07, 'm^3/(mol*s)', '*|/', 10),
@@ -27697,7 +27697,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 876,
-    label = "C2H4O-2 + O2 <=> HO2 + C2H3O-2",
+    label = "C2H4O-2 + O2 <=> HO2-2 + C2H3O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.01e+07, 'm^3/(mol*s)', '*|/', 1),
@@ -27960,7 +27960,7 @@ Uncertainty: 3.0
 
 entry(
     index = 884,
-    label = "C4H10-2 + CH3 <=> CH4 + C4H9-4",
+    label = "C4H10-4 + CH3 <=> CH4 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (759000, 'm^3/(mol*s)'),
@@ -27989,7 +27989,7 @@ PrIMe Reaction: r00003292
 
 entry(
     index = 885,
-    label = "C4H10-2 + CH3 <=> CH4 + C4H9-4",
+    label = "C4H10-4 + CH3 <=> CH4 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.36e-06, 'm^3/(mol*s)', '*|/', 2),
@@ -28019,7 +28019,7 @@ Uncertainty: 2.0
 
 entry(
     index = 886,
-    label = "C4H10-2 + CH3 <=> CH4 + C4H9-4",
+    label = "C4H10-4 + CH3 <=> CH4 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.45e+07, 'm^3/(mol*s)'),
@@ -28052,7 +28052,7 @@ Bath gas: iso-C4H8
 
 entry(
     index = 887,
-    label = "CH4 + C4H9-4 <=> C4H10-2 + CH3",
+    label = "CH4 + C4H9-4 <=> C4H10-4 + CH3",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (2e-08, 'm^3/(mol*s)', '*|/', 3),
@@ -28332,7 +28332,7 @@ Bath gas: N2
 
 entry(
     index = 896,
-    label = "C4H10-2 + OH <=> H2O + C4H9-4",
+    label = "C4H10-4 + OH <=> H2O + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (229, 'm^3/(mol*s)', '*|/', 1.2),
@@ -28362,7 +28362,7 @@ Uncertainty: 1.2
 
 entry(
     index = 897,
-    label = "C4H10-2 + OH <=> H2O + C4H9-4",
+    label = "C4H10-4 + OH <=> H2O + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (5.55e+06, 'm^3/(mol*s)'),
@@ -28397,7 +28397,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 898,
-    label = "C4H10-2 + OH <=> H2O + C4H9-4",
+    label = "C4H10-4 + OH <=> H2O + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (51.4, 'm^3/(mol*s)'),
@@ -28426,7 +28426,7 @@ PrIMe Reaction: r00003318
 
 entry(
     index = 899,
-    label = "C4H10-2 + OH <=> H2O + C4H9-4",
+    label = "C4H10-4 + OH <=> H2O + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (8.06, 'm^3/(mol*s)'),
@@ -28524,7 +28524,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 902,
-    label = "C5H12 + H <=> H2 + C5H11-2",
+    label = "C5H12-2 + H <=> H2 + C5H11-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (9.79e+07, 'm^3/(mol*s)'),
@@ -28554,7 +28554,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 903,
-    label = "C5H12 + H <=> H2 + C5H11-3",
+    label = "C5H12-3 + H <=> H2 + C5H11-3",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.11e+07, 'm^3/(mol*s)'),
@@ -28584,7 +28584,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 904,
-    label = "C4H10 + CH3 <=> CH4 + C4H9-3",
+    label = "C4H10-3 + CH3 <=> CH4 + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (550000, 'm^3/(mol*s)', '*|/', 1.26),
@@ -28619,7 +28619,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 905,
-    label = "C4H10 + CH3 <=> CH4 + C4H9-3",
+    label = "C4H10-3 + CH3 <=> CH4 + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (427000, 'm^3/(mol*s)'),
@@ -28685,7 +28685,7 @@ Bath gas: n-C4H10
 
 entry(
     index = 907,
-    label = "C4H10 + OH <=> H2O + C4H9-3",
+    label = "C4H10-3 + OH <=> H2O + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2900, 'm^3/(mol*s)'),
@@ -28714,7 +28714,7 @@ PrIMe Reaction: r00004608
 
 entry(
     index = 908,
-    label = "C4H10 + OH <=> H2O + C4H9-3",
+    label = "C4H10-3 + OH <=> H2O + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (72.3, 'm^3/(mol*s)'),
@@ -28748,7 +28748,7 @@ Analytical technique: Laser induced fluorescence
 
 entry(
     index = 909,
-    label = "C4H10 + OH <=> H2O + C4H9-3",
+    label = "C4H10-3 + OH <=> H2O + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.64e+06, 'm^3/(mol*s)'),
@@ -28783,7 +28783,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 910,
-    label = "C4H10 + OH <=> H2O + C4H9-3",
+    label = "C4H10-3 + OH <=> H2O + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.36, 'm^3/(mol*s)'),
@@ -28812,7 +28812,7 @@ PrIMe Reaction: r00004608
 
 entry(
     index = 911,
-    label = "C4H10 + OH <=> H2O + C4H9-3",
+    label = "C4H10-3 + OH <=> H2O + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.2, 'm^3/(mol*s)'),
@@ -29007,7 +29007,7 @@ Bath gas: Ne
 
 entry(
     index = 917,
-    label = "C5H12-2 + H <=> H2 + C5H11-4",
+    label = "C5H12-4 + H <=> H2 + C5H11-4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.96e+08, 'm^3/(mol*s)'),
@@ -29037,7 +29037,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 918,
-    label = "C5H12-2 + H <=> H2 + C5H11-5",
+    label = "C5H12-5 + H <=> H2 + C5H11-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.32e+08, 'm^3/(mol*s)'),
@@ -29067,7 +29067,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 919,
-    label = "C5H12-2 + H <=> H2 + C5H11-6",
+    label = "C5H12-6 + H <=> H2 + C5H11-6",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (9.79e+07, 'm^3/(mol*s)'),
@@ -29249,7 +29249,7 @@ Bath gas: Products
 
 entry(
     index = 925,
-    label = "C3H6-2 + CH3O-2 <=> CH4O + C3H5-2",
+    label = "C3H6-2 + CH3O-2 <=> CH4O-2 + C3H5-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (6.029e-05, 'm^3/(mol*s)', '*|/', 10),
@@ -29280,7 +29280,7 @@ Uncertainty: 10.0
 
 entry(
     index = 926,
-    label = "CH4O + C3H5-2 <=> C3H6-2 + CH3O-2",
+    label = "CH4O-2 + C3H5-2 <=> C3H6-2 + CH3O-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.001743, 'm^3/(mol*s)', '*|/', 10),
@@ -29788,7 +29788,7 @@ Bath gas: O2
 
 entry(
     index = 942,
-    label = "C5H12-3 + H <=> H2 + C5H11-7",
+    label = "C5H12-7 + H <=> H2 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (2.64e+08, 'm^3/(mol*s)'),
@@ -29817,7 +29817,7 @@ PrIMe Reaction: r00007071
 
 entry(
     index = 943,
-    label = "C5H12-3 + H <=> H2 + C5H11-7",
+    label = "C5H12-7 + H <=> H2 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1e+08, 'm^3/(mol*s)'),
@@ -29851,7 +29851,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 944,
-    label = "C3H5-2 + HO2 <=> C3H6-2 + O2",
+    label = "C3H5-2 + HO2-2 <=> C3H6-2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.89e+07, 'm^3/(mol*s)'),
@@ -29886,7 +29886,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 945,
-    label = "C3H6-2 + O2 <=> C3H5-2 + HO2",
+    label = "C3H6-2 + O2 <=> C3H5-2 + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.93e+06, 'm^3/(mol*s)', '*|/', 2),
@@ -29916,7 +29916,7 @@ Uncertainty: 2.0
 
 entry(
     index = 946,
-    label = "C3H6-2 + O2 <=> C3H5-2 + HO2",
+    label = "C3H6-2 + O2 <=> C3H5-2 + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (6.03e+07, 'm^3/(mol*s)', '*|/', 20),
@@ -29946,7 +29946,7 @@ Uncertainty: 20.0
 
 entry(
     index = 947,
-    label = "C3H6-2 + O2 <=> C3H5-2 + HO2",
+    label = "C3H6-2 + O2 <=> C3H5-2 + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.95e+06, 'm^3/(mol*s)'),
@@ -29981,7 +29981,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 948,
-    label = "C3H6-2 + O2 <=> C3H5-2 + HO2",
+    label = "C3H6-2 + O2 <=> C3H5-2 + HO2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.95e+06, 'm^3/(mol*s)', '*|/', 2.51),
@@ -30113,7 +30113,7 @@ Uncertainty: 10.0
 
 entry(
     index = 952,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (229000, 'm^3/(mol*s)'),
@@ -30142,7 +30142,7 @@ Pressure dependence: None reported
 
 entry(
     index = 953,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (229000, 'm^3/(mol*s)'),
@@ -30170,7 +30170,7 @@ PrIMe Reaction: r00010441
 
 entry(
     index = 954,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (229000, 'm^3/(mol*s)'),
@@ -30199,7 +30199,7 @@ PrIMe Reaction: r00010441
 
 entry(
     index = 955,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (229000, 'm^3/(mol*s)', '*|/', 2),
@@ -30228,7 +30228,7 @@ Uncertainty: 2.0
 
 entry(
     index = 956,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (247000, 'm^3/(mol*s)'),
@@ -30257,7 +30257,7 @@ PrIMe Reaction: r00010441
 
 entry(
     index = 957,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (229000, 'm^3/(mol*s)'),
@@ -30286,7 +30286,7 @@ PrIMe Reaction: r00010441
 
 entry(
     index = 958,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (102000, 'm^3/(mol*s)', '*|/', 2),
@@ -30316,7 +30316,7 @@ Uncertainty: 2.0
 
 entry(
     index = 959,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (46300, 'm^3/(mol*s)', '*|/', 5),
@@ -30346,7 +30346,7 @@ Uncertainty: 5.0
 
 entry(
     index = 960,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (175000, 'm^3/(mol*s)', '+|-', 17000),
@@ -30380,7 +30380,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 961,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (181000, 'm^3/(mol*s)', '+|-', 72000),
@@ -30414,7 +30414,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 962,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (46300, 'm^3/(mol*s)', '*|/', 3.4),
@@ -30449,7 +30449,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 963,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (47000, 'm^3/(mol*s)', '+|-', 7000),
@@ -30484,7 +30484,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 964,
-    label = "CH3O2 + HO2 <=> CH4O2 + O2",
+    label = "CH3O2 + HO2-2 <=> CH4O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (21100, 'm^3/(mol*s)'),
@@ -30703,7 +30703,7 @@ Bath gas: N2
 
 entry(
     index = 971,
-    label = "C5H12 + H <=> H2 + C5H11-8",
+    label = "C5H12-8 + H <=> H2 + C5H11-8",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.32e+08, 'm^3/(mol*s)'),
@@ -30762,7 +30762,7 @@ Uncertainty: 2.0
 
 entry(
     index = 973,
-    label = "C2H4O2 + CH3 <=> CH4 + C2H3O2-2",
+    label = "C2H4O2-2 + CH3 <=> CH4 + C2H3O2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (79400, 'm^3/(mol*s)'),
@@ -30797,7 +30797,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 974,
-    label = "C2H4O2 + CH3 <=> CH4 + C2H3O2-2",
+    label = "C2H4O2-2 + CH3 <=> CH4 + C2H3O2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (501000, 'm^3/(mol*s)', '*|/', 1.41),
@@ -30831,7 +30831,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 975,
-    label = "C2H4O2 + CH3 <=> CH4 + C2H3O2-2",
+    label = "C2H4O2-2 + CH3 <=> CH4 + C2H3O2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (6.564e-05, 'm^3/(mol*s)'),
@@ -30899,7 +30899,7 @@ The listed rate expression is a fit derived at NIST to the calculated rate const
 
 entry(
     index = 977,
-    label = "C2H4O2 + OH <=> H2O + C2H3O2-2",
+    label = "C2H4O2-2 + OH <=> H2O + C2H3O2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.61, 'm^3/(mol*s)'),
@@ -30967,7 +30967,7 @@ The listed rate expression is a fit derived at NIST to the calculated rate const
 
 entry(
     index = 979,
-    label = "C4H8-2 + CH3 <=> CH4 + C4H7-5",
+    label = "C4H8-5 + CH3 <=> CH4 + C4H7-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (16000, 'm^3/(mol*s)'),
@@ -31002,7 +31002,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 980,
-    label = "C4H8-2 + CH3 <=> CH4 + C4H7-5",
+    label = "C4H8-5 + CH3 <=> CH4 + C4H7-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (180000, 'm^3/(mol*s)', '*|/', 2),
@@ -31031,7 +31031,7 @@ Uncertainty: 2.0
 
 entry(
     index = 981,
-    label = "C4H8-2 + CH3 <=> CH4 + C4H7-5",
+    label = "C4H8-5 + CH3 <=> CH4 + C4H7-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (309000, 'm^3/(mol*s)', '*|/', 1.58),
@@ -31065,7 +31065,7 @@ Analytical technique: Laser magnetic resonance (LMR)
 
 entry(
     index = 982,
-    label = "C4H8-2 + CH3 <=> CH4 + C4H7-5",
+    label = "C4H8-5 + CH3 <=> CH4 + C4H7-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1e+06, 'm^3/(mol*s)', '*|/', 2),
@@ -31453,7 +31453,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 994,
-    label = "C3H8 + C3H7-2 <=> C3H8 + C3H7",
+    label = "C3H8 + C3H7-2 <=> C3H8-2 + C3H7",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (8.44e-09, 'm^3/(mol*s)', '*|/', 2),
@@ -31483,7 +31483,7 @@ Uncertainty: 2.0
 
 entry(
     index = 995,
-    label = "C3H8 + C3H7-2 <=> C3H8 + C3H7",
+    label = "C3H8 + C3H7-2 <=> C3H8-2 + C3H7",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (31600, 'm^3/(mol*s)'),
@@ -31517,7 +31517,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 996,
-    label = "C3H8 + C3H7-2 <=> C3H8 + C3H7",
+    label = "C3H8 + C3H7-2 <=> C3H8-2 + C3H7",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.26e+06, 'm^3/(mol*s)'),
@@ -31552,7 +31552,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 997,
-    label = "C3H8 + C3H7 <=> C3H8 + C3H7-2",
+    label = "C3H8-2 + C3H7 <=> C3H8 + C3H7-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (8.43e-10, 'm^3/(mol*s)', '*|/', 1.5),
@@ -31582,7 +31582,7 @@ Uncertainty: 1.5
 
 entry(
     index = 998,
-    label = "C3H8 + C3H7 <=> C3H8 + C3H7-2",
+    label = "C3H8-2 + C3H7 <=> C3H8 + C3H7-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (7940, 'm^3/(mol*s)'),
@@ -31616,7 +31616,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 999,
-    label = "C3H8 + CH3O2 <=> CH4O2 + C3H7-2",
+    label = "C3H8-2 + CH3O2 <=> CH4O2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.99e+06, 'm^3/(mol*s)', '*|/', 10),
@@ -31678,7 +31678,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1001,
-    label = "C3H8 + C2H3O-2 <=> C2H4O-2 + C3H7-2",
+    label = "C3H8-2 + C2H3O-2 <=> C2H4O-2 + C3H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (5.3, 'm^3/(mol*s)', '*|/', 3),
@@ -31892,7 +31892,7 @@ Uncertainty: 3.0
 
 entry(
     index = 1008,
-    label = "C4H10-2 + C2H5 <=> C2H6 + C4H9-4",
+    label = "C4H10-4 + C2H5 <=> C2H6 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.39e-06, 'm^3/(mol*s)', '*|/', 2.5),
@@ -31923,7 +31923,7 @@ Uncertainty: 2.5
 
 entry(
     index = 1009,
-    label = "C2H6 + C4H9-4 <=> C4H10-2 + C2H5",
+    label = "C2H6 + C4H9-4 <=> C4H10-4 + C2H5",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (2.9e-07, 'm^3/(mol*s)', '*|/', 3),
@@ -32085,7 +32085,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1014,
-    label = "C4H10-2 + CH3O <=> CH4O + C4H9-4",
+    label = "C4H10-4 + CH3O <=> CH4O + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (482000, 'm^3/(mol*s)', '*|/', 10),
@@ -32116,7 +32116,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1015,
-    label = "CH4O + C4H9-4 <=> C4H10-2 + CH3O",
+    label = "CH4O + C4H9-4 <=> C4H10-4 + CH3O",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.445e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -32147,7 +32147,7 @@ Uncertainty: 3.0
 
 entry(
     index = 1016,
-    label = "C4H10-2 + CH3O-2 <=> CH4O + C4H9-2",
+    label = "C4H10-2 + CH3O-2 <=> CH4O-2 + C4H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (0.000121, 'm^3/(mol*s)', '*|/', 5),
@@ -32178,7 +32178,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1017,
-    label = "CH4O + C4H9-2 <=> C4H10-2 + CH3O-2",
+    label = "CH4O-2 + C4H9-2 <=> C4H10-2 + CH3O-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (7.83e-11, 'm^3/(mol*s)', '*|/', 10),
@@ -32209,7 +32209,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1018,
-    label = "C4H10-2 + CH3O-2 <=> CH4O + C4H9-4",
+    label = "C4H10-4 + CH3O-2 <=> CH4O-2 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (0.000301, 'm^3/(mol*s)', '*|/', 5),
@@ -32240,7 +32240,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1019,
-    label = "CH4O + C4H9-4 <=> C4H10-2 + CH3O-2",
+    label = "CH4O-2 + C4H9-4 <=> C4H10-4 + CH3O-2",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (3.185e-05, 'm^3/(mol*s)', '*|/', 3),
@@ -32333,7 +32333,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1022,
-    label = "C4H10-2 + CHO <=> CH2O + C4H9-4",
+    label = "C4H10-4 + CHO <=> CH2O + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (0.307, 'm^3/(mol*s)', '*|/', 5),
@@ -32364,7 +32364,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1023,
-    label = "CH2O + C4H9-4 <=> C4H10-2 + CHO",
+    label = "CH2O + C4H9-4 <=> C4H10-4 + CHO",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (301000, 'm^3/(mol*s)', '*|/', 3),
@@ -32426,7 +32426,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1025,
-    label = "C4H10-2 + C2H3 <=> C2H4 + C4H9-4",
+    label = "C4H10-4 + C2H3 <=> C2H4 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.36e-06, 'm^3/(mol*s)', '*|/', 5),
@@ -32548,7 +32548,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1029,
-    label = "C4H10-2 + O2 <=> HO2 + C4H9-2",
+    label = "C4H10-2 + O2 <=> HO2-2 + C4H9-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.97e+07, 'm^3/(mol*s)', '*|/', 3),
@@ -32579,7 +32579,7 @@ Uncertainty: 3.0
 
 entry(
     index = 1030,
-    label = "C4H10-2 + O2 <=> HO2 + C4H9-4",
+    label = "C4H10-4 + O2 <=> HO2-2 + C4H9-4",
     degeneracy = 18,
     kinetics = Arrhenius(
         A = (4.04e+07, 'm^3/(mol*s)', '*|/', 10),
@@ -32610,7 +32610,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1031,
-    label = "C5H12 + OH <=> H2O + C5H11-2",
+    label = "C5H12-2 + OH <=> H2O + C5H11-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2900, 'm^3/(mol*s)'),
@@ -32640,7 +32640,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1032,
-    label = "C5H12 + OH <=> H2O + C5H11-3",
+    label = "C5H12-3 + OH <=> H2O + C5H11-3",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2550, 'm^3/(mol*s)'),
@@ -32811,7 +32811,7 @@ Uncertainties represent 2 standard deviations of the analytical expression from 
 
 entry(
     index = 1037,
-    label = "C4H10 + HO2 <=> H2O2 + C4H9-3",
+    label = "C4H10-3 + HO2 <=> H2O2 + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (500000, 'm^3/(mol*s)', '*|/', 10),
@@ -32906,7 +32906,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1040,
-    label = "C2H4O2 + CH3O <=> CH4O + C2H3O2-2",
+    label = "C2H4O2-2 + CH3O <=> CH4O + C2H3O2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.62e+06, 'm^3/(mol*s)', '*|/', 1.74),
@@ -32942,7 +32942,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 1041,
-    label = "C2H4O2 + CH3O <=> CH4O + C2H3O2-2",
+    label = "C2H4O2-2 + CH3O <=> CH4O + C2H3O2-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.02e+07, 'm^3/(mol*s)'),
@@ -32974,7 +32974,7 @@ Analytical technique: Other (direct)
 
 entry(
     index = 1042,
-    label = "C5H12-2 + OH <=> H2O + C5H11-4",
+    label = "C5H12-4 + OH <=> H2O + C5H11-4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.91, 'm^3/(mol*s)'),
@@ -33004,7 +33004,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1043,
-    label = "C5H12-2 + OH <=> H2O + C5H11-5",
+    label = "C5H12-5 + OH <=> H2O + C5H11-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (25.7, 'm^3/(mol*s)'),
@@ -33034,7 +33034,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1044,
-    label = "C5H12-2 + OH <=> H2O + C5H11-6",
+    label = "C5H12-6 + OH <=> H2O + C5H11-6",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2900, 'm^3/(mol*s)'),
@@ -33064,7 +33064,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1045,
-    label = "C5H12-2 + OH <=> H2O + C5H11-6",
+    label = "C5H12-6 + OH <=> H2O + C5H11-6",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.75, 'm^3/(mol*s)'),
@@ -33128,7 +33128,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1047,
-    label = "C3H6-2 + C3H7-2 <=> C3H8 + C3H5-2",
+    label = "C3H6-2 + C3H7-2 <=> C3H8-2 + C3H5-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (7e-08, 'm^3/(mol*s)', '*|/', 3),
@@ -33158,7 +33158,7 @@ Uncertainty: 3.0
 
 entry(
     index = 1048,
-    label = "C3H6-2 + C3H7-2 <=> C3H8 + C3H5-2",
+    label = "C3H6-2 + C3H7-2 <=> C3H8-2 + C3H5-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (5010, 'm^3/(mol*s)', '*|/', 5),
@@ -33194,7 +33194,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1049,
-    label = "C3H8 + C3H5-2 <=> C3H6-2 + C3H7-2",
+    label = "C3H8-2 + C3H5-2 <=> C3H6-2 + C3H7-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (7.867e-05, 'm^3/(mol*s)', '*|/', 5),
@@ -33224,7 +33224,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1050,
-    label = "C3H8 + C3H5-2 <=> C3H6-2 + C3H7-2",
+    label = "C3H8-2 + C3H5-2 <=> C3H6-2 + C3H7-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (347000, 'm^3/(mol*s)'),
@@ -33404,7 +33404,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1056,
-    label = "C4H8 + O2 <=> HO2 + C4H7",
+    label = "C4H8 + O2 <=> HO2-2 + C4H7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (4.79e+06, 'm^3/(mol*s)', '*|/', 2.75),
@@ -33440,7 +33440,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1057,
-    label = "C4H8 + O2 <=> HO2 + C4H7",
+    label = "C4H8 + O2 <=> HO2-2 + C4H7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1860, 'm^3/(mol*s)'),
@@ -33469,7 +33469,7 @@ PrIMe Reaction: r00005864
 
 entry(
     index = 1058,
-    label = "HO2 + C4H7 <=> C4H8 + O2",
+    label = "HO2-2 + C4H7 <=> C4H8 + O2",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (639, 'm^3/(mol*s)'),
@@ -33862,7 +33862,7 @@ PrIMe Reaction: r00006488
 
 entry(
     index = 1070,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (832000, 'm^3/(mol*s)'),
@@ -33891,7 +33891,7 @@ PrIMe Reaction: r00007057
 
 entry(
     index = 1071,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1.02e+06, 'm^3/(mol*s)', '*|/', 1.4),
@@ -33926,7 +33926,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 1072,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.33e+07, 'm^3/(mol*s)', '+|-', 2.3e+06),
@@ -33960,7 +33960,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1073,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1e+07, 'm^3/(mol*s)'),
@@ -33994,7 +33994,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1074,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (501000, 'm^3/(mol*s)'),
@@ -34028,7 +34028,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1075,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (6.61e+08, 'm^3/(mol*s)'),
@@ -34062,7 +34062,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1076,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.16e+07, 'm^3/(mol*s)', '*|/', 5),
@@ -34097,7 +34097,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1077,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (832000, 'm^3/(mol*s)', '*|/', 3.02),
@@ -34130,7 +34130,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1078,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (490000, 'm^3/(mol*s)'),
@@ -34164,7 +34164,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1079,
-    label = "C5H12-3 + CH3 <=> CH4 + C5H11-7",
+    label = "C5H12-7 + CH3 <=> CH4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (6.31e+07, 'm^3/(mol*s)', '*|/', 2.69),
@@ -34200,7 +34200,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1080,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (11.2, 'm^3/(mol*s)'),
@@ -34230,7 +34230,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1081,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (4.79, 'm^3/(mol*s)', '*|/', 2),
@@ -34260,7 +34260,7 @@ Uncertainty: 2.0
 
 entry(
     index = 1082,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (10.5, 'm^3/(mol*s)', '*|/', 1.2),
@@ -34290,7 +34290,7 @@ Uncertainty: 1.2
 
 entry(
     index = 1083,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (14100, 'm^3/(mol*s)', '+|-', 1850),
@@ -34319,7 +34319,7 @@ PrIMe Reaction: r00007065
 
 entry(
     index = 1084,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (6.28, 'm^3/(mol*s)', '*|/', 3.16),
@@ -34349,7 +34349,7 @@ Uncertainty: 3.1600001
 
 entry(
     index = 1085,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (0.006575, 'm^3/(mol*s)'),
@@ -34383,7 +34383,7 @@ Analytical technique: Laser induced fluorescence
 
 entry(
     index = 1086,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (8.51e+06, 'm^3/(mol*s)', '*|/', 1.15),
@@ -34418,7 +34418,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1087,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (31.6, 'm^3/(mol*s)'),
@@ -34447,7 +34447,7 @@ PrIMe Reaction: r00007065
 
 entry(
     index = 1088,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (10.7, 'm^3/(mol*s)'),
@@ -34479,7 +34479,7 @@ Bath gas: N2
 
 entry(
     index = 1089,
-    label = "C5H12-3 + OH <=> H2O + C5H11-7",
+    label = "C5H12-7 + OH <=> H2O + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (6.31, 'm^3/(mol*s)'),
@@ -34613,7 +34613,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1093,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (229000, 'm^3/(mol*s)'),
@@ -34642,7 +34642,7 @@ Pressure dependence: None reported
 
 entry(
     index = 1094,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (229000, 'm^3/(mol*s)'),
@@ -34671,7 +34671,7 @@ Pressure dependence: None reported
 
 entry(
     index = 1095,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (452000, 'm^3/(mol*s)'),
@@ -34699,7 +34699,7 @@ PrIMe Reaction: r00011731
 
 entry(
     index = 1096,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (163000, 'm^3/(mol*s)'),
@@ -34728,7 +34728,7 @@ PrIMe Reaction: r00011731
 
 entry(
     index = 1097,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (452000, 'm^3/(mol*s)', '*|/', 1.5),
@@ -34757,7 +34757,7 @@ Uncertainty: 1.5
 
 entry(
     index = 1098,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (337000, 'm^3/(mol*s)', '+|-', 150000),
@@ -34786,7 +34786,7 @@ PrIMe Reaction: r00011731
 
 entry(
     index = 1099,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (392000, 'm^3/(mol*s)'),
@@ -34816,7 +34816,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1100,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (392000, 'm^3/(mol*s)'),
@@ -34845,7 +34845,7 @@ PrIMe Reaction: r00011731
 
 entry(
     index = 1101,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (392000, 'm^3/(mol*s)', '*|/', 1.58),
@@ -34875,7 +34875,7 @@ Uncertainty: 1.58
 
 entry(
     index = 1102,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (416000, 'm^3/(mol*s)', '+|-', 120000),
@@ -34909,7 +34909,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 1103,
-    label = "C2H5O2 + HO2 <=> C2H6O2 + O2",
+    label = "C2H5O2 + HO2-2 <=> C2H6O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (97100, 'm^3/(mol*s)', '+|-', 24000),
@@ -34943,7 +34943,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 1104,
-    label = "C4H9-4 + H2O2 <=> C4H10-2 + HO2",
+    label = "C4H9-4 + H2O2 <=> C4H10-4 + HO2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.0259, 'm^3/(mol*s)', '*|/', 10),
@@ -34974,7 +34974,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1105,
-    label = "C4H10-2 + HO2 <=> C4H9-4 + H2O2",
+    label = "C4H10-4 + HO2 <=> C4H9-4 + H2O2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.0301, 'm^3/(mol*s)', '*|/', 10),
@@ -35076,7 +35076,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 1108,
-    label = "C3H6O2-2 + CH3 <=> CH4 + C3H5O2-3",
+    label = "C3H6O2-3 + CH3 <=> CH4 + C3H5O2-3",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (200000, 'm^3/(mol*s)'),
@@ -35111,7 +35111,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1109,
-    label = "C3H6O2-2 + CH3 <=> CH4 + C3H5O2-3",
+    label = "C3H6O2-3 + CH3 <=> CH4 + C3H5O2-3",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (148000, 'm^3/(mol*s)', '*|/', 1.66),
@@ -35147,7 +35147,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 1110,
-    label = "C3H6O2-2 + CH3 <=> CH4 + C3H5O2-3",
+    label = "C3H6O2-3 + CH3 <=> CH4 + C3H5O2-3",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (162000, 'm^3/(mol*s)', '*|/', 1.78),
@@ -35181,7 +35181,7 @@ Bath gas: CH3C(O)OCH3
 
 entry(
     index = 1111,
-    label = "C3H6O-3 + C2H5 <=> C2H6 + C3H5O-4",
+    label = "C3H6O-4 + C2H5 <=> C2H6 + C3H5O-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (100000, 'm^3/(mol*s)', '*|/', 1.26),
@@ -35217,7 +35217,7 @@ Analytical technique: Electron spin resonance (ESR or EPR)
 
 entry(
     index = 1112,
-    label = "C3H6O-3 + C2H5 <=> C2H6 + C3H5O-5",
+    label = "C3H6O-5 + C2H5 <=> C2H6 + C3H5O-5",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (126000, 'm^3/(mol*s)', '*|/', 2),
@@ -35253,7 +35253,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1113,
-    label = "CH2O + C4H9O-4 <=> C4H10O-2 + CHO",
+    label = "CH2O + C4H9O-4 <=> C4H10O-4 + CHO",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (7.94e+06, 'm^3/(mol*s)', '*|/', 1.74),
@@ -35600,7 +35600,7 @@ no uncertainties reported.
 
 entry(
     index = 1123,
-    label = "C4H10-2 + C3H7-2 <=> C3H8 + C4H9-2",
+    label = "C4H10-2 + C3H7-2 <=> C3H8-2 + C4H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.51e-09, 'm^3/(mol*s)', '*|/', 5),
@@ -35631,7 +35631,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1124,
-    label = "C3H8 + C4H9-2 <=> C4H10-2 + C3H7-2",
+    label = "C3H8-2 + C4H9-2 <=> C4H10-2 + C3H7-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.08e-12, 'm^3/(mol*s)', '*|/', 10),
@@ -35662,7 +35662,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1125,
-    label = "C4H10-2 + C3H7-2 <=> C3H8 + C4H9-4",
+    label = "C4H10-4 + C3H7-2 <=> C3H8-2 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1e-08, 'm^3/(mol*s)', '*|/', 3),
@@ -35693,7 +35693,7 @@ Uncertainty: 3.0
 
 entry(
     index = 1126,
-    label = "C3H8 + C4H9-4 <=> C4H10-2 + C3H7-2",
+    label = "C3H8-2 + C4H9-4 <=> C4H10-4 + C3H7-2",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.51e-06, 'm^3/(mol*s)', '*|/', 3),
@@ -35755,7 +35755,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1128,
-    label = "C4H10-2 + CH3O2 <=> CH4O2 + C4H9-4",
+    label = "C4H10-4 + CH3O2 <=> CH4O2 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (0.0301, 'm^3/(mol*s)', '*|/', 10),
@@ -35848,7 +35848,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1131,
-    label = "C4H10-2 + C3H7 <=> C3H8 + C4H9-4",
+    label = "C4H10-4 + C3H7 <=> C3H8 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (1.39e-06, 'm^3/(mol*s)', '*|/', 3),
@@ -35879,7 +35879,7 @@ Uncertainty: 3.0
 
 entry(
     index = 1132,
-    label = "C3H8 + C4H9-4 <=> C4H10-2 + C3H7",
+    label = "C3H8 + C4H9-4 <=> C4H10-4 + C3H7",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (9e-07, 'm^3/(mol*s)', '*|/', 3),
@@ -35941,7 +35941,7 @@ Uncertainty: 10.0
 
 entry(
     index = 1134,
-    label = "C4H10-2 + C2H3O-2 <=> C2H4O-2 + C4H9-4",
+    label = "C4H10-4 + C2H3O-2 <=> C2H4O-2 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (0.308, 'm^3/(mol*s)', '*|/', 10),
@@ -36070,7 +36070,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1138,
-    label = "C3H4O + C3H7-2 <=> C3H8 + C3H3O",
+    label = "C3H4O + C3H7-2 <=> C3H8-2 + C3H3O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (10200, 'm^3/(mol*s)', '+|-', 7000),
@@ -36234,7 +36234,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1143,
-    label = "C6H14-2 + OH <=> H2O + C6H13-3",
+    label = "C6H14-3 + OH <=> H2O + C6H13-3",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (19.1, 'm^3/(mol*s)'),
@@ -36849,7 +36849,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1162,
-    label = "C3H6-2 + C4H9-4 <=> C4H10-2 + C3H5-2",
+    label = "C3H6-2 + C4H9-4 <=> C4H10-4 + C3H5-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (2.23e-06, 'm^3/(mol*s)', '*|/', 3),
@@ -36880,7 +36880,7 @@ Uncertainty: 3.0
 
 entry(
     index = 1163,
-    label = "C4H10-2 + C3H5-2 <=> C3H6-2 + C4H9-4",
+    label = "C4H10-4 + C3H5-2 <=> C3H6-2 + C4H9-4",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.000356, 'm^3/(mol*s)', '*|/', 5),
@@ -37032,7 +37032,7 @@ The authors also suggest generic values of the RH + OOH reaction for primary, se
 
 entry(
     index = 1167,
-    label = "C5H12-3 + C2H <=> C2H2 + C5H11-7",
+    label = "C5H12-7 + C2H <=> C2H2 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (4.58e+07, 'm^3/(mol*s)', '+|-', 5.5e+06),
@@ -37614,7 +37614,7 @@ Temperature range was not specified. The temperature range used for this record 
 
 entry(
     index = 1184,
-    label = "HO2 + C2H3O3 <=> C2H4O3 + O2",
+    label = "HO2-2 + C2H3O3 <=> C2H4O3 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (181000, 'm^3/(mol*s)'),
@@ -37643,7 +37643,7 @@ PrIMe Reaction: r00011914
 
 entry(
     index = 1185,
-    label = "HO2 + C2H3O3 <=> C2H4O3 + O2",
+    label = "HO2-2 + C2H3O3 <=> C2H4O3 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (307000, 'm^3/(mol*s)', '+|-', 126000),
@@ -37688,7 +37688,7 @@ Note: Table 2 should be k-2 (k2reverse) = 2.3E13 exp(-6925 K/T). Calculated usin
 
 entry(
     index = 1186,
-    label = "C6H14-3 + OH <=> H2O + C6H13-4",
+    label = "C6H14-4 + OH <=> H2O + C6H13-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.45, 'm^3/(mol*s)'),
@@ -37718,7 +37718,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1187,
-    label = "C6H14-3 + OH <=> H2O + C6H13-5",
+    label = "C6H14-5 + OH <=> H2O + C6H13-5",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (29.5, 'm^3/(mol*s)'),
@@ -37748,7 +37748,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1188,
-    label = "C6H14-3 + OH <=> H2O + C6H13-6",
+    label = "C6H14-6 + OH <=> H2O + C6H13-6",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (9.57, 'm^3/(mol*s)'),
@@ -37778,7 +37778,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1189,
-    label = "C6H14-4 + OH <=> H2O + C6H13-7",
+    label = "C6H14-7 + OH <=> H2O + C6H13-7",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.52e+06, 'm^3/(mol*s)'),
@@ -37813,7 +37813,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1190,
-    label = "C6H14-4 + OH <=> H2O + C6H13-7",
+    label = "C6H14-7 + OH <=> H2O + C6H13-7",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2400, 'm^3/(mol*s)'),
@@ -37843,7 +37843,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1191,
-    label = "C6H14-4 + OH <=> H2O + C6H13-7",
+    label = "C6H14-7 + OH <=> H2O + C6H13-7",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.27, 'm^3/(mol*s)'),
@@ -37876,7 +37876,7 @@ Bath gas: N2
 
 entry(
     index = 1192,
-    label = "C6H14-4 + OH <=> H2O + C6H13-7",
+    label = "C6H14-7 + OH <=> H2O + C6H13-7",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.99, 'm^3/(mol*s)'),
@@ -37939,7 +37939,7 @@ Bath gas: Ne
 
 entry(
     index = 1194,
-    label = "C6H14-2 + OH <=> H2O + C6H13-8",
+    label = "C6H14-8 + OH <=> H2O + C6H13-8",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.88, 'm^3/(mol*s)'),
@@ -37969,7 +37969,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1195,
-    label = "C6H6 + O2 <=> HO2 + C6H5",
+    label = "C6H6 + O2 <=> HO2-2 + C6H5",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (6.31e+07, 'm^3/(mol*s)'),
@@ -38077,7 +38077,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1198,
-    label = "C2H4O-2 + C4H9O-4 <=> C4H10O-2 + C2H3O-2",
+    label = "C2H4O-2 + C4H9O-4 <=> C4H10O-4 + C2H3O-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.53e+06, 'm^3/(mol*s)'),
@@ -38110,7 +38110,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1199,
-    label = "C2H4O-2 + C4H9O-4 <=> C4H10O-2 + C2H3O-3",
+    label = "C2H4O-3 + C4H9O-4 <=> C4H10O-4 + C2H3O-3",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (57900, 'm^3/(mol*s)'),
@@ -38143,7 +38143,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1200,
-    label = "C4H10-2 + C4H9-4 <=> C4H10-2 + C4H9-2",
+    label = "C4H10-2 + C4H9-4 <=> C4H10-4 + C4H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.4e-07, 'm^3/(mol*s)', '*|/', 2.5),
@@ -38174,7 +38174,7 @@ Uncertainty: 2.5
 
 entry(
     index = 1201,
-    label = "C4H10-2 + C4H9-2 <=> C4H10-2 + C4H9-4",
+    label = "C4H10-4 + C4H9-2 <=> C4H10-2 + C4H9-4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.06e-12, 'm^3/(mol*s)', '*|/', 5),
@@ -38205,7 +38205,7 @@ Uncertainty: 5.0
 
 entry(
     index = 1202,
-    label = "C4H8O + C3H7-2 <=> C3H8 + C4H7O",
+    label = "C4H8O + C3H7-2 <=> C3H8-2 + C4H7O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (200000, 'm^3/(mol*s)'),
@@ -38456,7 +38456,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 1209,
-    label = "C3H6-2 + C4H9O-4 <=> C4H10O-2 + C3H5-2",
+    label = "C3H6-2 + C4H9O-4 <=> C4H10O-4 + C3H5-2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (7.94e+06, 'm^3/(mol*s)', '*|/', 1.95),
@@ -38521,7 +38521,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1211,
-    label = "C7H16 + OH <=> H2O + C7H15-2",
+    label = "C7H16-2 + OH <=> H2O + C7H15-2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.79, 'm^3/(mol*s)'),
@@ -38586,7 +38586,7 @@ Analytical technique: Laser induced fluorescence
 
 entry(
     index = 1213,
-    label = "C5H12-3 + C3H7-2 <=> C3H8 + C5H11-7",
+    label = "C5H12-7 + C3H7-2 <=> C3H8-2 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (31600, 'm^3/(mol*s)', '*|/', 5),
@@ -38693,7 +38693,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1216,
-    label = "C6H8 + O2 <=> HO2 + C6H7",
+    label = "C6H8 + O2 <=> HO2-2 + C6H7",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (813000, 'm^3/(mol*s)'),
@@ -38897,7 +38897,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1222,
-    label = "C4H8O-2 + C3H7 <=> C3H8 + C4H7O-3",
+    label = "C4H8O-3 + C3H7 <=> C3H8 + C4H7O-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (200000, 'm^3/(mol*s)'),
@@ -38932,7 +38932,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1223,
-    label = "C4H8O-2 + C3H7 <=> C3H8 + C4H7O-3",
+    label = "C4H8O-3 + C3H7 <=> C3H8 + C4H7O-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (39800, 'm^3/(mol*s)', '*|/', 3.16),
@@ -38969,7 +38969,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1224,
-    label = "C7H16 + OH <=> H2O + C7H15-3",
+    label = "C7H16-3 + OH <=> H2O + C7H15-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.37, 'm^3/(mol*s)'),
@@ -38999,7 +38999,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1225,
-    label = "C7H16 + OH <=> H2O + C7H15-4",
+    label = "C7H16-4 + OH <=> H2O + C7H15-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.37, 'm^3/(mol*s)'),
@@ -39029,7 +39029,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1226,
-    label = "C7H16-2 + OH <=> H2O + C7H15-5",
+    label = "C7H16-5 + OH <=> H2O + C7H15-5",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.26e+06, 'm^3/(mol*s)'),
@@ -39064,7 +39064,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1227,
-    label = "C7H16-2 + OH <=> H2O + C7H15-5",
+    label = "C7H16-5 + OH <=> H2O + C7H15-5",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.09e+06, 'm^3/(mol*s)', '*|/', 1.35),
@@ -39099,7 +39099,7 @@ Note: Invalid Ea value uncertainty (948.0) found and ignored
 
 entry(
     index = 1228,
-    label = "C7H16-2 + OH <=> H2O + C7H15-5",
+    label = "C7H16-5 + OH <=> H2O + C7H15-5",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.7e+06, 'm^3/(mol*s)'),
@@ -39132,7 +39132,7 @@ Bath gas: N2
 
 entry(
     index = 1229,
-    label = "C7H16-2 + OH <=> H2O + C7H15-5",
+    label = "C7H16-5 + OH <=> H2O + C7H15-5",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2200, 'm^3/(mol*s)'),
@@ -39162,7 +39162,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1230,
-    label = "C7H16-2 + OH <=> H2O + C7H15-5",
+    label = "C7H16-5 + OH <=> H2O + C7H15-5",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.14, 'm^3/(mol*s)'),
@@ -39195,7 +39195,7 @@ Bath gas: N2
 
 entry(
     index = 1231,
-    label = "C7H16-2 + OH <=> H2O + C7H15-5",
+    label = "C7H16-5 + OH <=> H2O + C7H15-5",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (0.932, 'm^3/(mol*s)'),
@@ -39225,7 +39225,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1232,
-    label = "C7H16-2 + OH <=> H2O + C7H15-6",
+    label = "C7H16-6 + OH <=> H2O + C7H15-6",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.69e+06, 'm^3/(mol*s)'),
@@ -39260,7 +39260,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1233,
-    label = "C7H16-2 + OH <=> H2O + C7H15-6",
+    label = "C7H16-6 + OH <=> H2O + C7H15-6",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (5.39, 'm^3/(mol*s)'),
@@ -39293,7 +39293,7 @@ Bath gas: N2
 
 entry(
     index = 1234,
-    label = "C7H16-2 + OH <=> H2O + C7H15-6",
+    label = "C7H16-6 + OH <=> H2O + C7H15-6",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (20, 'm^3/(mol*s)'),
@@ -39323,7 +39323,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1235,
-    label = "C4H8-2 + C4H9-3 <=> C4H10 + C4H7-2",
+    label = "C4H8-2 + C4H9-3 <=> C4H10-3 + C4H7-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (251000, 'm^3/(mol*s)'),
@@ -39358,7 +39358,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1236,
-    label = "C4H8-2 + C4H7-4 <=> C4H8-4 + C4H7-5",
+    label = "C4H8-5 + C4H7-4 <=> C4H8-4 + C4H7-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.98e+07, 'm^3/(mol*s)'),
@@ -39424,7 +39424,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1238,
-    label = "C3H6O + C4H9O-4 <=> C4H10O-2 + C3H5O",
+    label = "C3H6O + C4H9O-4 <=> C4H10O-4 + C3H5O",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.26e+07, 'm^3/(mol*s)', '*|/', 1.26),
@@ -39492,7 +39492,7 @@ Analytical technique: Other (direct)
 
 entry(
     index = 1240,
-    label = "C4H10-2 + C4H9O-4 <=> C4H10O-2 + C4H9-2",
+    label = "C4H10-2 + C4H9O-4 <=> C4H10O-4 + C4H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.38e+07, 'm^3/(mol*s)', '*|/', 1.12),
@@ -39526,7 +39526,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1241,
-    label = "C4H10-2 + C4H9O-4 <=> C4H10O-2 + C4H9-2",
+    label = "C4H10-2 + C4H9O-4 <=> C4H10O-4 + C4H9-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (251000, 'm^3/(mol*s)'),
@@ -39561,7 +39561,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1242,
-    label = "C4H10-2 + C4H9O-4 <=> C4H10O-2 + C4H9-4",
+    label = "C4H10-4 + C4H9O-4 <=> C4H10O-4 + C4H9-4",
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (104000, 'm^3/(mol*s)'),
@@ -39665,7 +39665,7 @@ Analytical technique: Resonance fluorescence
 
 entry(
     index = 1245,
-    label = "C4H10 + C4H9O-4 <=> C4H10O-2 + C4H9-3",
+    label = "C4H10-3 + C4H9O-4 <=> C4H10O-4 + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.86e+07, 'm^3/(mol*s)', '*|/', 1.86),
@@ -39699,7 +39699,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1246,
-    label = "C4H10 + C4H9O-4 <=> C4H10O-2 + C4H9-3",
+    label = "C4H10-3 + C4H9O-4 <=> C4H10O-4 + C4H9-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (230000, 'm^3/(mol*s)'),
@@ -39732,7 +39732,7 @@ Bath gas: tert-C4H9OCl
 
 entry(
     index = 1247,
-    label = "C4H10 + C4H9O-4 <=> C4H10O-2 + C4H9",
+    label = "C4H10 + C4H9O-4 <=> C4H10O-4 + C4H9",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (100000, 'm^3/(mol*s)'),
@@ -39896,7 +39896,7 @@ Bath gas: N2
 
 entry(
     index = 1252,
-    label = "C4H8 + C4H9O-4 <=> C4H10O-2 + C4H7",
+    label = "C4H8 + C4H9O-4 <=> C4H10O-4 + C4H7",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.45e+07, 'm^3/(mol*s)', '*|/', 1.48),
@@ -40027,7 +40027,7 @@ Used quantum calculations to compute many, many possible pathways for reactions 
 
 entry(
     index = 1256,
-    label = "C6H12-2 + C3H7-2 <=> C3H8 + C6H11-2",
+    label = "C6H12-2 + C3H7-2 <=> C3H8-2 + C6H11-2",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (6.17e+06, 'm^3/(mol*s)', '*|/', 3.09),
@@ -40402,7 +40402,7 @@ Used quantum calculations to compute many, many possible pathways for reactions 
 
 entry(
     index = 1268,
-    label = "HO2 + C5H9O2 <=> C5H10O2 + O2",
+    label = "HO2-2 + C5H9O2 <=> C5H10O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (126000, 'm^3/(mol*s)'),
@@ -40432,7 +40432,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1269,
-    label = "HO2 + C5H9O2 <=> C5H10O2 + O2",
+    label = "HO2-2 + C5H9O2 <=> C5H10O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (193000, 'm^3/(mol*s)', '+|-', 91000),
@@ -40465,7 +40465,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 1270,
-    label = "HO2 + C5H9O2 <=> C5H10O2 + O2",
+    label = "HO2-2 + C5H9O2 <=> C5H10O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (126000, 'm^3/(mol*s)', '+|-', 78000),
@@ -40499,7 +40499,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 1271,
-    label = "HO2 + C5H11O2 <=> C5H12O2 + O2",
+    label = "HO2-2 + C5H11O2 <=> C5H12O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (86100, 'm^3/(mol*s)', '+|-', 28000),
@@ -40534,7 +40534,7 @@ Analytical technique: Fourier transform (FTIR)
 
 entry(
     index = 1272,
-    label = "C8H18 + OH <=> H2O + C8H17-3",
+    label = "C8H18-3 + OH <=> H2O + C8H17-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.64e+06, 'm^3/(mol*s)'),
@@ -40569,7 +40569,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1273,
-    label = "C8H18 + OH <=> H2O + C8H17-3",
+    label = "C8H18-3 + OH <=> H2O + C8H17-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.2, 'm^3/(mol*s)'),
@@ -40602,7 +40602,7 @@ Bath gas: N2
 
 entry(
     index = 1274,
-    label = "C8H18 + OH <=> H2O + C8H17-3",
+    label = "C8H18-3 + OH <=> H2O + C8H17-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.47, 'm^3/(mol*s)'),
@@ -40632,7 +40632,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1275,
-    label = "C8H18 + OH <=> H2O + C8H17-4",
+    label = "C8H18-4 + OH <=> H2O + C8H17-4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.64e+06, 'm^3/(mol*s)'),
@@ -40667,7 +40667,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1276,
-    label = "C8H18 + OH <=> H2O + C8H17-4",
+    label = "C8H18-4 + OH <=> H2O + C8H17-4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.2, 'm^3/(mol*s)'),
@@ -40700,7 +40700,7 @@ Bath gas: N2
 
 entry(
     index = 1277,
-    label = "C8H18 + OH <=> H2O + C8H17-4",
+    label = "C8H18-4 + OH <=> H2O + C8H17-4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.26, 'm^3/(mol*s)'),
@@ -40730,7 +40730,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1278,
-    label = "C8H18 + OH <=> H2O + C8H17-5",
+    label = "C8H18-5 + OH <=> H2O + C8H17-5",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.64e+06, 'm^3/(mol*s)'),
@@ -40765,7 +40765,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1279,
-    label = "C8H18 + OH <=> H2O + C8H17-5",
+    label = "C8H18-5 + OH <=> H2O + C8H17-5",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.2, 'm^3/(mol*s)'),
@@ -40798,7 +40798,7 @@ Bath gas: N2
 
 entry(
     index = 1280,
-    label = "C8H18 + OH <=> H2O + C8H17-5",
+    label = "C8H18-5 + OH <=> H2O + C8H17-5",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (5.26, 'm^3/(mol*s)'),
@@ -40861,7 +40861,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1282,
-    label = "C8H18-3 + OH <=> H2O + C8H17-6",
+    label = "C8H18-6 + OH <=> H2O + C8H17-6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.14, 'm^3/(mol*s)'),
@@ -40894,7 +40894,7 @@ Bath gas: N2
 
 entry(
     index = 1283,
-    label = "C8H18-3 + OH <=> H2O + C8H17-6",
+    label = "C8H18-6 + OH <=> H2O + C8H17-6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.7, 'm^3/(mol*s)'),
@@ -40924,7 +40924,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1284,
-    label = "C8H18-3 + OH <=> H2O + C8H17-7",
+    label = "C8H18-7 + OH <=> H2O + C8H17-7",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (5.39, 'm^3/(mol*s)'),
@@ -40957,7 +40957,7 @@ Bath gas: N2
 
 entry(
     index = 1285,
-    label = "C8H18-3 + OH <=> H2O + C8H17-7",
+    label = "C8H18-7 + OH <=> H2O + C8H17-7",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (17.8, 'm^3/(mol*s)'),
@@ -40987,7 +40987,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1286,
-    label = "C4H8-2 + C4H9O-4 <=> C4H10O-2 + C4H7-5",
+    label = "C4H8-5 + C4H9O-4 <=> C4H10O-4 + C4H7-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.17e+07, 'm^3/(mol*s)', '*|/', 2.09),
@@ -41022,7 +41022,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1287,
-    label = "C4H8-2 + C4H9O-4 <=> C4H10O-2 + C4H7-5",
+    label = "C4H8-5 + C4H9O-4 <=> C4H10O-4 + C4H7-5",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.95e+07, 'm^3/(mol*s)', '*|/', 1.7),
@@ -41057,7 +41057,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1288,
-    label = "C6H5 + C3H4-3 <=> C6H6 + C3H3-4",
+    label = "C6H5 + C3H4-4 <=> C6H6 + C3H3-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.000594, 'm^3/(mol*s)'),
@@ -41089,7 +41089,7 @@ Used quantum calculations to compute many, many possible pathways for reactions 
 
 entry(
     index = 1289,
-    label = "HO2 + C4H9O3 <=> C4H10O3 + O2",
+    label = "HO2-2 + C4H9O3 <=> C4H10O3 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (33700, 'm^3/(mol*s)', '+|-', 12000),
@@ -41124,7 +41124,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 1290,
-    label = "C4H10O-3 + C4H9O-5 <=> C4H10O-3 + C4H9O-3",
+    label = "C4H10O-3 + C4H9O-5 <=> C4H10O-5 + C4H9O-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.51e+06, 'm^3/(mol*s)'),
@@ -41377,7 +41377,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1297,
-    label = "C5H12-3 + C4H9O-4 <=> C4H10O-2 + C5H11-7",
+    label = "C5H12-7 + C4H9O-4 <=> C4H10O-4 + C5H11-7",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (2.14e+07, 'm^3/(mol*s)', '*|/', 1.51),
@@ -41412,7 +41412,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1298,
-    label = "C5H10-2 + C4H9O-4 <=> C4H10O-2 + C5H9-2",
+    label = "C5H10-2 + C4H9O-4 <=> C4H10O-4 + C5H9-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.35e+07, 'm^3/(mol*s)', '*|/', 1.7),
@@ -41447,7 +41447,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1299,
-    label = "C5H10O-2 + C4H9-4 <=> C4H10-2 + C5H9O-2",
+    label = "C5H10O-2 + C4H9-4 <=> C4H10-4 + C5H9O-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (513000, 'm^3/(mol*s)'),
@@ -41513,7 +41513,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1301,
-    label = "C6H11O2 + HO2 <=> C6H12O2 + O2",
+    label = "C6H11O2 + HO2-2 <=> C6H12O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (157000, 'm^3/(mol*s)'),
@@ -41543,7 +41543,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1302,
-    label = "C6H11O2 + HO2 <=> C6H12O2 + O2",
+    label = "C6H11O2 + HO2-2 <=> C6H12O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (157000, 'm^3/(mol*s)', '+|-', 72000),
@@ -41678,7 +41678,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 1306,
-    label = "C6H12 + C4H9O-4 <=> C4H10O-2 + C6H11",
+    label = "C6H12 + C4H9O-4 <=> C4H10O-4 + C6H11",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (2.69e+07, 'm^3/(mol*s)', '*|/', 1.1),
@@ -41713,7 +41713,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1307,
-    label = "C6H12 + C4H9O-4 <=> C4H10O-2 + C6H11",
+    label = "C6H12 + C4H9O-4 <=> C4H10O-4 + C6H11",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.47e+07, 'm^3/(mol*s)', '*|/', 1.23),
@@ -41820,7 +41820,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1310,
-    label = "C6H12-2 + C4H9O-4 <=> C4H10O-2 + C6H11-2",
+    label = "C6H12-2 + C4H9O-4 <=> C4H10O-4 + C6H11-2",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (2.5e+07, 'm^3/(mol*s)', '*|/', 2.57),
@@ -41855,7 +41855,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 1311,
-    label = "HO2 + C7H7O2 <=> C7H8O2 + O2",
+    label = "HO2-2 + C7H7O2 <=> C7H8O2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (226000, 'm^3/(mol*s)', '+|-', 20000),
@@ -41920,7 +41920,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1313,
-    label = "C10H22 + OH <=> H2O + C10H21-2",
+    label = "C10H22-2 + OH <=> H2O + C10H21-2",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.99, 'm^3/(mol*s)'),
@@ -41950,7 +41950,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1314,
-    label = "C10H22 + OH <=> H2O + C10H21-3",
+    label = "C10H22-3 + OH <=> H2O + C10H21-3",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (6.76, 'm^3/(mol*s)'),
@@ -41980,7 +41980,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 
 entry(
     index = 1315,
-    label = "C10H22 + OH <=> H2O + C10H21-4",
+    label = "C10H22-4 + OH <=> H2O + C10H21-4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (6.79, 'm^3/(mol*s)'),
@@ -42078,7 +42078,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 1318,
-    label = "C8H18-4 + C6H5 <=> C6H6 + C8H17-8",
+    label = "C8H18-8 + C6H5 <=> C6H6 + C8H17-8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (680000, 'm^3/(mol*s)', '+|-', 240000),

@@ -44,7 +44,7 @@ Enthalpy:       14.25       14.66           13.70
 
 entry(
     index = 302,
-    label = "H2O2 + C4H9O-2 <=> HO2 + C4H10O",
+    label = "H2O2 + C4H9O-2 <=> HO2 + C4H10O-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.35, 'cm^3/(mol*s)'),
@@ -79,7 +79,7 @@ Enthalpy:       11.05       12.41           10.11
 
 entry(
     index = 303,
-    label = "H2O2 + C4H9O-3 <=> HO2 + C4H10O",
+    label = "H2O2 + C4H9O-3 <=> HO2 + C4H10O-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.629, 'cm^3/(mol*s)'),
@@ -114,7 +114,7 @@ Enthalpy:       13.53       14.02           11.48
 
 entry(
     index = 304,
-    label = "H2O2 + C4H9O-4 <=> HO2 + C4H10O",
+    label = "H2O2 + C4H9O-4 <=> HO2 + C4H10O-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.97, 'cm^3/(mol*s)'),
@@ -149,7 +149,7 @@ Enthalpy:        8.35        8.63            7.17
 
 entry(
     index = 305,
-    label = "H2O2 + C4H9O-5 <=> HO2 + C4H10O-2",
+    label = "H2O2 + C4H9O-5 <=> HO2 + C4H10O-5",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (11.5, 'cm^3/(mol*s)'),
@@ -176,7 +176,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 
 entry(
     index = 306,
-    label = "H2O2 + C4H9O-6 <=> HO2 + C4H10O-2",
+    label = "H2O2 + C4H9O-6 <=> HO2 + C4H10O-6",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.75, 'cm^3/(mol*s)'),
@@ -203,7 +203,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 
 entry(
     index = 307,
-    label = "H2O2 + C4H9O-7 <=> HO2 + C4H10O-2",
+    label = "H2O2 + C4H9O-7 <=> HO2 + C4H10O-7",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (34.6, 'cm^3/(mol*s)'),
@@ -230,7 +230,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 
 entry(
     index = 308,
-    label = "H2O2 + C4H9O-8 <=> HO2 + C4H10O-2",
+    label = "H2O2 + C4H9O-8 <=> HO2 + C4H10O-8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.611, 'cm^3/(mol*s)'),
@@ -257,7 +257,7 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 
 entry(
     index = 309,
-    label = "H2O2 + C4H9O-9 <=> HO2 + C4H10O-3",
+    label = "H2O2 + C4H9O-9 <=> HO2 + C4H10O-9",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.42, 'cm^3/(mol*s)'),
@@ -320,7 +320,7 @@ There are no rate coefficients for this reaction in the literature (based on MRH
 
 entry(
     index = 501,
-    label = "C3H8 + C4H9O-10 <=> C3H7 + C4H10O-4",
+    label = "C3H8 + C4H9O-10 <=> C3H7 + C4H10O-10",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.822e-06, 'cm^3/(mol*s)'),
@@ -348,7 +348,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 502,
-    label = "C4H10O-4 + C3H7 <=> C4H9O-11 + C3H8",
+    label = "C4H10O-11 + C3H7 <=> C4H9O-11 + C3H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.12e-06, 'cm^3/(mol*s)'),
@@ -376,7 +376,7 @@ InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity 
 
 entry(
     index = 503,
-    label = "C4H8 + C4H9O-12 <=> C4H7 + C4H10O-4",
+    label = "C4H8 + C4H9O-12 <=> C4H7 + C4H10O-12",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (5.034e-05, 'cm^3/(mol*s)'),
@@ -404,7 +404,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 504,
-    label = "C4H8 + C4H9O-10 <=> C4H7 + C4H10O-4",
+    label = "C4H8 + C4H9O-10 <=> C4H7 + C4H10O-10",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (8.64e-05, 'cm^3/(mol*s)'),
@@ -432,7 +432,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 505,
-    label = "C4H8 + C4H9O-11 <=> C4H7 + C4H10O-4",
+    label = "C4H8 + C4H9O-11 <=> C4H7 + C4H10O-11",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (2.946e-05, 'cm^3/(mol*s)'),
@@ -460,7 +460,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 506,
-    label = "C4H8 + C4H9O-13 <=> C4H7 + C4H10O-4",
+    label = "C4H8 + C4H9O-13 <=> C4H7 + C4H10O-13",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (3.498, 'cm^3/(mol*s)'),
@@ -488,7 +488,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 507,
-    label = "C3H6 + C4H9O-12 <=> C3H5 + C4H10O-4",
+    label = "C3H6 + C4H9O-12 <=> C3H5 + C4H10O-12",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.0001008, 'cm^3/(mol*s)'),
@@ -520,7 +520,7 @@ in good agreement with this expression (within 10% over most of the valid temper
 
 entry(
     index = 508,
-    label = "C3H6 + C4H9O-10 <=> C3H5 + C4H10O-4",
+    label = "C3H6 + C4H9O-10 <=> C3H5 + C4H10O-10",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (4.92e-06, 'cm^3/(mol*s)'),
@@ -552,7 +552,7 @@ by as much as 10x over of the valid temperature range.
 
 entry(
     index = 509,
-    label = "C3H6 + C4H9O-11 <=> C3H5 + C4H10O-4",
+    label = "C3H6 + C4H9O-11 <=> C3H5 + C4H10O-11",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (9.33e-06, 'cm^3/(mol*s)'),
@@ -580,7 +580,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 510,
-    label = "C3H6 + C4H9O-13 <=> C3H5 + C4H10O-4",
+    label = "C3H6 + C4H9O-13 <=> C3H5 + C4H10O-13",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (0.357, 'cm^3/(mol*s)'),
@@ -608,7 +608,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 511,
-    label = "C2H6 + C4H9O-12 <=> C2H5 + C4H10O-4",
+    label = "C2H6 + C4H9O-12 <=> C2H5 + C4H10O-12",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (1.926e-05, 'cm^3/(mol*s)'),
@@ -640,7 +640,7 @@ by 10-100x over of the valid temperature range.
 
 entry(
     index = 512,
-    label = "C4H10O-4 + C2H5 <=> C4H9O-10 + C2H6",
+    label = "C4H10O-10 + C2H5 <=> C4H9O-10 + C2H6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.41e-05, 'cm^3/(mol*s)'),
@@ -672,7 +672,7 @@ in good agreement with this expression (within a factor of 1.6 over the valid te
 
 entry(
     index = 513,
-    label = "C4H10O-4 + C2H5 <=> C4H9O-11 + C2H6",
+    label = "C4H10O-11 + C2H5 <=> C4H9O-11 + C2H6",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (8.5e-06, 'cm^3/(mol*s)'),
@@ -700,7 +700,7 @@ InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
 
 entry(
     index = 514,
-    label = "C2H6 + C4H9O-13 <=> C2H5 + C4H10O-4",
+    label = "C2H6 + C4H9O-13 <=> C2H5 + C4H10O-13",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.03042, 'cm^3/(mol*s)'),
@@ -728,7 +728,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 515,
-    label = "C4H10O-4 + C2H3 <=> C4H9O-10 + C2H4",
+    label = "C4H10O-10 + C2H3 <=> C4H9O-10 + C2H4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.49, 'cm^3/(mol*s)'),
@@ -760,7 +760,7 @@ over the valid temperature range.
 
 entry(
     index = 516,
-    label = "C4H10O-4 + C3H5-2 <=> C4H9O-12 + C3H6",
+    label = "C4H10O-12 + C3H5-2 <=> C4H9O-12 + C3H6-2",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (0.0001866, 'cm^3/(mol*s)'),
@@ -788,7 +788,7 @@ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity
 
 entry(
     index = 517,
-    label = "C4H10O-4 + C3H5-2 <=> C4H9O-11 + C3H6",
+    label = "C4H10O-11 + C3H5-2 <=> C4H9O-11 + C3H6-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.0256, 'cm^3/(mol*s)'),
@@ -816,7 +816,7 @@ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity
 
 entry(
     index = 518,
-    label = "C3H6O + C4H9O-12 <=> C3H5O + C4H10O-4",
+    label = "C3H6O + C4H9O-12 <=> C3H5O + C4H10O-12",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.000312, 'cm^3/(mol*s)'),
@@ -844,7 +844,7 @@ InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin mu
 
 entry(
     index = 519,
-    label = "C4H10O-4 + C3H5O <=> C4H9O-10 + C3H6O",
+    label = "C4H10O-10 + C3H5O <=> C4H9O-10 + C3H6O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (0.000485, 'cm^3/(mol*s)'),
@@ -872,7 +872,7 @@ InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplic
 
 entry(
     index = 520,
-    label = "C4H10O-4 + C3H5O <=> C4H9O-11 + C3H6O",
+    label = "C4H10O-11 + C3H5O <=> C4H9O-11 + C3H6O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.00368, 'cm^3/(mol*s)'),
@@ -984,7 +984,7 @@ H2O2 (external symmetry number = 2, spin multiplicity = 1)
 
 entry(
     index = 527,
-    label = "H2O2 + C4H7-3 <=> HO2 + C4H8-2",
+    label = "H2O2 + C4H7-3 <=> HO2 + C4H8-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.875, 'cm^3/(mol*s)'),
@@ -1014,7 +1014,7 @@ HO2 (external symmetry number = 1, spin multiplicity = 2)
 
 entry(
     index = 529,
-    label = "C4H8-3 + HO2 <=> C4H7-4 + H2O2",
+    label = "C4H8-4 + HO2 <=> C4H7-4 + H2O2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.000508, 'cm^3/(mol*s)'),
@@ -1044,7 +1044,7 @@ H2O2 (external symmetry number = 2, spin multiplicity = 1)
 
 entry(
     index = 531,
-    label = "H2O2 + C4H7-5 <=> HO2 + C4H8-3",
+    label = "H2O2 + C4H7-5 <=> HO2 + C4H8-5",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2, 'cm^3/(mol*s)'),
@@ -1144,7 +1144,7 @@ than calculations of MHS.
 
 entry(
     index = 538,
-    label = "C4H8-3 + CH3O2 <=> C4H7-4 + CH4O2",
+    label = "C4H8-4 + CH3O2 <=> C4H7-4 + CH4O2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.01482, 'cm^3/(mol*s)', '*|/', 3),
@@ -1251,7 +1251,7 @@ in the A parameter was MRH guess.
 
 entry(
     index = 1002,
-    label = "C4H10O-4 + C3H7 <=> C4H9O-10 + C3H8",
+    label = "C4H10O-10 + C3H7 <=> C4H9O-10 + C3H8",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.35e-06, 'cm^3/(mol*s)'),
@@ -1343,7 +1343,7 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1005,
-    label = "C4H8O-4 + OH <=> C4H7O-5 + H2O",
+    label = "C4H8O-5 + OH <=> C4H7O-5 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (236, 'cm^3/(mol*s)'),
@@ -1373,7 +1373,7 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1006,
-    label = "C4H8O-4 + OH <=> C4H7O-6 + H2O",
+    label = "C4H8O-6 + OH <=> C4H7O-6 + H2O",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.35, 'cm^3/(mol*s)'),
@@ -1433,7 +1433,7 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1008,
-    label = "C5H10O + OH <=> C5H9O-2 + H2O",
+    label = "C5H10O-2 + OH <=> C5H9O-2 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (4920, 'cm^3/(mol*s)'),
@@ -1463,7 +1463,7 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1009,
-    label = "C5H10O + OH <=> C5H9O-3 + H2O",
+    label = "C5H10O-3 + OH <=> C5H9O-3 + H2O",
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (15.54, 'cm^3/(mol*s)'),
@@ -1493,7 +1493,7 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1010,
-    label = "C4H10O + OH <=> H2O + C4H9O-4",
+    label = "C4H10O-4 + OH <=> H2O + C4H9O-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3610, 'cm^3/(mol*s)'),

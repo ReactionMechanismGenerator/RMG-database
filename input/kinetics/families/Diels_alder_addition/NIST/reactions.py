@@ -766,7 +766,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 23,
-    label = "C4H6 + C4H6 <=> C8H12-2",
+    label = "C4H6-2 + C4H6 <=> C8H12-2",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (8910, 'm^3/(mol*s)'),
@@ -800,7 +800,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 24,
-    label = "C4H6 + C4H6 <=> C8H12-2",
+    label = "C4H6-2 + C4H6 <=> C8H12-2",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (138000, 'm^3/(mol*s)'),
@@ -834,7 +834,7 @@ Analytical technique: Pressure measurement
 
 entry(
     index = 25,
-    label = "C4H6 + C4H6 <=> C8H12-2",
+    label = "C4H6-2 + C4H6 <=> C8H12-2",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (47100, 'm^3/(mol*s)'),
@@ -869,7 +869,7 @@ Analytical technique: Pressure measurement
 
 entry(
     index = 26,
-    label = "C8H12-2 <=> C4H6 + C4H6",
+    label = "C8H12-2 <=> C4H6-2 + C4H6",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (2.51e+14, 's^-1', '*|/', 3.16),
@@ -901,7 +901,7 @@ Uncertainty: 3.1600001
 
 entry(
     index = 27,
-    label = "C8H12-2 <=> C4H6 + C4H6",
+    label = "C8H12-2 <=> C4H6-2 + C4H6",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (6.17e+15, 's^-1', '*|/', 1.55),
@@ -936,7 +936,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 28,
-    label = "C8H12-2 <=> C4H6 + C4H6",
+    label = "C8H12-2 <=> C4H6-2 + C4H6",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (1.58e+15, 's^-1'),
@@ -970,7 +970,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 29,
-    label = "C8H12-2 <=> C4H6 + C4H6",
+    label = "C8H12-2 <=> C4H6-2 + C4H6",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (5.02e+15, 's^-1'),
@@ -1139,7 +1139,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 34,
-    label = "C9H14 <=> C3H6 + C6H8",
+    label = "C9H14-2 <=> C3H6 + C6H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.15e+15, 's^-1', '*|/', 1.05),
@@ -1173,7 +1173,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 35,
-    label = "C9H14 <=> C3H6 + C6H8",
+    label = "C9H14-2 <=> C3H6 + C6H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.74e+14, 's^-1', '*|/', 1.05),
@@ -1208,7 +1208,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 36,
-    label = "C3H6 + C6H8 <=> C9H14",
+    label = "C3H6 + C6H8 <=> C9H14-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1120, 'm^3/(mol*s)'),
@@ -1242,7 +1242,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 37,
-    label = "C3H6 + C6H8 <=> C9H14",
+    label = "C3H6 + C6H8 <=> C9H14-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (550, 'm^3/(mol*s)', '*|/', 1.07),
@@ -1277,7 +1277,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 38,
-    label = "C5H8 + C3H4O <=> C8H12O",
+    label = "C5H8 + C3H4O-2 <=> C8H12O",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (1020, 'm^3/(mol*s)'),
@@ -1454,7 +1454,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 43,
-    label = "C10H14 <=> C4H6 + C6H8",
+    label = "C10H14 <=> C4H6-2 + C6H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.88e+14, 's^-1', '*|/', 1.2),
@@ -1489,7 +1489,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 44,
-    label = "C4H6 + C6H8 <=> C10H14",
+    label = "C4H6-2 + C6H8 <=> C10H14",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3800, 'm^3/(mol*s)', '*|/', 1.05),
@@ -1560,7 +1560,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 46,
-    label = "C10H16-3 <=> C4H8 + C6H8",
+    label = "C10H16-4 <=> C4H8 + C6H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.66e+15, 's^-1', '*|/', 1.1),
@@ -1595,7 +1595,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 47,
-    label = "C4H8 + C6H8 <=> C10H16-3",
+    label = "C4H8 + C6H8 <=> C10H16-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (708, 'm^3/(mol*s)', '*|/', 1.12),
@@ -1630,7 +1630,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 48,
-    label = "C4H6 + C6H8 <=> C10H14-2",
+    label = "C4H6 + C6H8-2 <=> C10H14-2",
     degeneracy = 32,
     kinetics = Arrhenius(
         A = (10500, 'm^3/(mol*s)', '*|/', 1.07),
@@ -1738,7 +1738,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 51,
-    label = "C11H18 <=> C2H4 + C9H14-2",
+    label = "C11H18 <=> C2H4 + C9H14-3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.35e+15, 's^-1', '*|/', 1.1),
@@ -1773,7 +1773,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 52,
-    label = "C11H18 <=> C5H10 + C6H8",
+    label = "C11H18-2 <=> C5H10 + C6H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.1e+15, 's^-1', '*|/', 1.1),
@@ -1808,7 +1808,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 53,
-    label = "C5H10 + C6H8 <=> C11H18",
+    label = "C5H10 + C6H8 <=> C11H18-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (372, 'm^3/(mol*s)', '*|/', 1.07),
@@ -1843,7 +1843,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 54,
-    label = "C6H8 + C6H8 <=> C12H16",
+    label = "C6H8-2 + C6H8 <=> C12H16",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (933, 'm^3/(mol*s)', '*|/', 1.78),
@@ -1879,7 +1879,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 55,
-    label = "C12H16 <=> C6H8 + C6H8",
+    label = "C12H16 <=> C6H8-2 + C6H8",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.51e+14, 's^-1', '*|/', 5),
@@ -1914,7 +1914,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 56,
-    label = "C6H8 + C6H8 <=> C12H16",
+    label = "C6H8-2 + C6H8 <=> C12H16",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (1200, 'm^3/(mol*s)', '*|/', 1.78),

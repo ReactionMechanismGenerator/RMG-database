@@ -189,7 +189,7 @@ Reaction potential energy surface was studied using quantum chemistry and rate c
 
 entry(
     index = 6,
-    label = "C2H4O2 <=> CO2 + CH4",
+    label = "C2H4O2 <=> CO2-2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.75e+12, 's^-1', '*|/', 1.86),
@@ -224,7 +224,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 7,
-    label = "C2H4O2 <=> CO2 + CH4",
+    label = "C2H4O2 <=> CO2-2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.26e+13, 's^-1', '*|/', 2),
@@ -259,7 +259,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 8,
-    label = "C2H4O2 <=> CO2 + CH4",
+    label = "C2H4O2 <=> CO2-2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (3.89e+13, 's^-1', '*|/', 1.41),
@@ -294,7 +294,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 9,
-    label = "C2H4O2 <=> CO2 + CH4",
+    label = "C2H4O2 <=> CO2-2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.32e+11, 's^-1'),
@@ -327,7 +327,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 10,
-    label = "C2H4O2 <=> CO2 + CH4",
+    label = "C2H4O2 <=> CO2-2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (8e+11, 's^-1'),
@@ -361,7 +361,7 @@ Analytical technique: Other (direct)
 
 entry(
     index = 11,
-    label = "C2H4O2 <=> CO2 + CH4",
+    label = "C2H4O2 <=> CO2-2 + CH4",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (7.08e+13, 's^-1'),
@@ -390,7 +390,7 @@ PrIMe Reaction: r00001645
 
 entry(
     index = 12,
-    label = "C3H6O2 <=> CO2 + C2H6",
+    label = "C3H6O2 <=> CO2-2 + C2H6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (6.03e+09, 's^-1'),
@@ -424,7 +424,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 13,
-    label = "C4H6O2 <=> CO2 + C3H6",
+    label = "C4H6O2 <=> CO2-2 + C3H6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.12e+13, 's^-1'),
@@ -456,7 +456,7 @@ Analytical technique: Pressure measurement
 
 entry(
     index = 14,
-    label = "C4H6O2 <=> CO2 + C3H6",
+    label = "C4H6O2 <=> CO2-2 + C3H6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (4.97e+11, 's^-1'),
@@ -488,7 +488,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 15,
-    label = "C4H6O2 <=> CO2 + C3H6",
+    label = "C4H6O2 <=> CO2-2 + C3H6",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.54e+11, 's^-1'),
@@ -521,7 +521,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 16,
-    label = "C3H4O4 <=> CO2 + C2H4O2",
+    label = "C3H4O4 <=> CO2-2 + C2H4O2-2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.86e+13, 's^-1'),
@@ -556,7 +556,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 17,
-    label = "C5H8O2 <=> CO2 + C4H8",
+    label = "C5H8O2 <=> CO2-2 + C4H8",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.34e+11, 's^-1'),
@@ -589,7 +589,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 18,
-    label = "C6H10O2 <=> CO2 + C5H10",
+    label = "C6H10O2 <=> CO2-2 + C5H10",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.03e+11, 's^-1'),
@@ -622,7 +622,7 @@ Analytical technique: Pressure measurement
 
 entry(
     index = 19,
-    label = "C6H10O2 <=> CO2 + C5H10",
+    label = "C6H10O2 <=> CO2-2 + C5H10",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.65e+10, 's^-1'),
@@ -654,7 +654,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 20,
-    label = "C7H12O2 <=> CO2 + C6H12",
+    label = "C7H12O2 <=> CO2-2 + C6H12",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.64e+11, 's^-1'),
@@ -686,7 +686,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 21,
-    label = "C7H12O2-2 <=> CO2 + C6H12-2",
+    label = "C7H12O2-2 <=> CO2-2 + C6H12-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.65e+10, 's^-1'),
@@ -718,7 +718,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 22,
-    label = "C7H12O2-2 <=> CO2 + C6H12-2",
+    label = "C7H12O2-2 <=> CO2-2 + C6H12-2",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.04e+11, 's^-1'),
@@ -752,7 +752,7 @@ Analytical technique: Pressure measurement
 
 entry(
     index = 23,
-    label = "C8H8O2 <=> CO2 + C7H8",
+    label = "C8H8O2 <=> CO2-2 + C7H8",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1e+13, 's^-1', '*|/', 2),
@@ -786,7 +786,7 @@ Analytical technique: Mass spectrometry
 
 entry(
     index = 24,
-    label = "C9H14O2 <=> CO2 + C8H14",
+    label = "C9H14O2 <=> CO2-2 + C8H14",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (3.25e+08, 's^-1'),
@@ -818,7 +818,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 25,
-    label = "C8H8O3 <=> CO2 + C7H8O",
+    label = "C8H8O3 <=> CO2-2 + C7H8O",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.41e+14, 's^-1', '+|-', 1.15e+14),
@@ -861,7 +861,7 @@ Uncertainties are precision only and are at the 90% confidence level.
 
 entry(
     index = 26,
-    label = "C9H16O2 <=> CO2 + C8H16",
+    label = "C9H16O2 <=> CO2-2 + C8H16",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.07e+11, 's^-1'),

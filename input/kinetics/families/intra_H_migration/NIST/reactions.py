@@ -669,7 +669,7 @@ PrIMe Reaction: r00011467
 
 entry(
     index = 21,
-    label = "C5H11 <=> C5H11-3",
+    label = "C5H11-3 <=> C5H11-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.8e+10, 's^-1'),
@@ -1211,7 +1211,7 @@ Bath gas: O2
 
 entry(
     index = 36,
-    label = "C6H11 <=> C6H11-3",
+    label = "C6H11-3 <=> C6H11-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1e+12, 's^-1'),
@@ -1244,7 +1244,7 @@ Bath gas: O2
 
 entry(
     index = 37,
-    label = "C6H11 <=> C6H11-3",
+    label = "C6H11-3 <=> C6H11-4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.67e+12, 's^-1'),
@@ -1872,7 +1872,7 @@ Derived from end product yields in the overall reaction of cyclohexyl + O2.
 
 entry(
     index = 53,
-    label = "C6H11O2 <=> C6H11O2-3",
+    label = "C6H11O2-3 <=> C6H11O2-4",
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (2.57e+12, 's^-1'),
@@ -1909,7 +1909,7 @@ Derived from end product yields in the overall reaction of cyclohexyl + O2.
 
 entry(
     index = 54,
-    label = "C6H11O2 <=> C6H11O2-4",
+    label = "C6H11O2-5 <=> C6H11O2-6",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.47e+12, 's^-1'),
@@ -1982,7 +1982,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 56,
-    label = "C8H17-3 <=> C8H17",
+    label = "C8H17-3 <=> C8H17-4",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.51e+09, 's^-1', '*|/', 5),

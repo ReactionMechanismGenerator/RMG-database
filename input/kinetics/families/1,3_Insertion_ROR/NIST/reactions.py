@@ -675,7 +675,7 @@ Calculated structures, energetics, and molecular properties of reactant, product
 
 entry(
     index = 20,
-    label = "C4H10O <=> C2H4 + C2H6O",
+    label = "C4H10O <=> C2H4 + C2H6O-2",
     degeneracy = 24,
     kinetics = Arrhenius(
         A = (1e+13, 's^-1'),
@@ -709,7 +709,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 21,
-    label = "C4H10O <=> C2H4 + C2H6O",
+    label = "C4H10O <=> C2H4 + C2H6O-2",
     degeneracy = 24,
     kinetics = Arrhenius(
         A = (7.94e+13, 's^-1'),
@@ -743,7 +743,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 22,
-    label = "C4H10O <=> C2H4 + C2H6O",
+    label = "C4H10O <=> C2H4 + C2H6O-2",
     degeneracy = 24,
     kinetics = Arrhenius(
         A = (2.75e+18, 's^-1'),
@@ -1186,7 +1186,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 35,
-    label = "C6H14O <=> C3H6 + C3H8O",
+    label = "C6H14O <=> C3H6 + C3H8O-2",
     degeneracy = 48,
     kinetics = Arrhenius(
         A = (4.17e+14, 's^-1'),
@@ -1292,7 +1292,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 38,
-    label = "C6H14O-2 <=> C6H12-2 + H2O",
+    label = "C6H14O-3 <=> C6H12-2 + H2O",
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.57e+13, 's^-1'),
@@ -1327,7 +1327,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 39,
-    label = "C6H14O-3 <=> C4H8 + C2H6O",
+    label = "C6H14O-4 <=> C4H8 + C2H6O-2",
     degeneracy = 36,
     kinetics = Arrhenius(
         A = (1.7e+14, 's^-1'),
@@ -1362,7 +1362,7 @@ Analytical technique: Vis-UV absorption
 
 entry(
     index = 40,
-    label = "C6H14O-3 <=> C4H8 + C2H6O",
+    label = "C6H14O-4 <=> C4H8 + C2H6O-2",
     degeneracy = 36,
     kinetics = Arrhenius(
         A = (1.15e+14, 's^-1', '*|/', 1.4),
@@ -1397,7 +1397,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 41,
-    label = "C6H14O-4 <=> C6H12-3 + H2O",
+    label = "C6H14O-5 <=> C6H12-3 + H2O",
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1e+14, 's^-1'),
@@ -1433,7 +1433,7 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 42,
-    label = "C7H16O <=> C4H8 + C3H8O",
+    label = "C7H16O <=> C4H8 + C3H8O-2",
     degeneracy = 36,
     kinetics = Arrhenius(
         A = (2.34e+13, 's^-1'),
@@ -1469,7 +1469,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 43,
-    label = "C7H16O <=> C3H6 + C4H10O-2",
+    label = "C7H16O-2 <=> C3H6 + C4H10O-3",
     degeneracy = 24,
     kinetics = Arrhenius(
         A = (9.12e+12, 's^-1'),
