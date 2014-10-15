@@ -4,13 +4,16 @@
 """
 This script imports an individual RMG-Java kinetics library from a local directory and saves the output
 kinetics library py file into a path of the user's choosing.  This py file can be added to the 
-input/kinetics/libraries folder to be used as an RMG-Py kinetics library.  
+input/kinetics/libraries folder to be used as an RMG-Py kinetics library. Use this script like so:
+
+>>python path_to_RMG-database/importKineticsLibrary.py './' reactions.py
+
+This scirpt will use a 'reactions.txt' as input and return 'reactions.py' to your current working directory
 """
 
 import argparse
 import time
 from rmgpy.data.kinetics import KineticsLibrary
-from importOldDatabase import getUsername
           
 if __name__ == '__main__':
     
