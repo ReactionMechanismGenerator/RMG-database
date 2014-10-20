@@ -9,7 +9,7 @@ longDesc = u"""
 
 template(reactants=["Si2S_R_H", "Y_H"], products=["Y_Si2S_R_H2"], ownReverse=False)
 
-reverse = "Silylene_Elimination"
+#reverse = "Silylene_Elimination"
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
@@ -23,9 +23,8 @@ entry(
     label = "Si2S_R_H",
     group = 
 """
-1 *3 Si u0 p1 c0 {2,S} {3,S}
+1 *3 Si u0 p1 c0 {2,S}
 2    H  u0 p0 c0  {1,S}
-3    R  u0 p0 c0  {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -67,11 +66,8 @@ entry(
     index = 4,
     label = "Si_H",
     group = """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *1 Si u0 p0 c0 {2,S}
 2 *2 H  u0 p0 c0 {1,S}
-3    R  u0  {1,S}
-4    R  u0  {1,S}
-5    R  u0  {1,S}
 """,
     kinetics = None,
     shortDesc = u"""A silane""",

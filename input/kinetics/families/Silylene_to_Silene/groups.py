@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Silylene_Insertion/groups"
+name = "Silylene_to_Silene/groups"
 shortDesc = u""
 longDesc = u"""
 

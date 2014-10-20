@@ -10,14 +10,22 @@ or in a section(s) titled 'General'
 
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 
-
-.. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
-The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
-energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the 
-temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (evenly spaced on inverse temperature scale).
-
-.. [Tsang1990] W. Tsang; "Chemical kinetic database for combustion chemistry. Part IV. Isobutane" J. Phys. Chem. Ref. Data 19 (1990) 1-68
-
-.. [Tsang1991] W. Tsang; "Chemical kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
 """
+entry(
+	index = 1,
+	label = "Si2S_R_H;Si_H",
+	kinetics = ArrheniusEP(
+		A = (3.1E-10 , 'cm^3/(mol*s)'),
+		n = 0,
+		alpha = 0,
+		E0 = (-1.9, 'kJ/mol'),
+		Tmin = (295, 'K'),
+		Tmax = (595, 'K'),
+	),
+	rank = 1,
+	shortDesc = u"""Any silylene insertion into an Si-H bond""",
+	longDesc =
+u"""
+Rate is from the reaction SiH2 + Si2H6 <-> Si3H8, from laser flash photolysis studies of Becerra et al., J. Organometal. Chem., 333-349, 1996.
+""",
+)

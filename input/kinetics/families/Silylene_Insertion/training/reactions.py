@@ -58,7 +58,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (3.1E-10, 'cm^3/(mol*s)'),
-        n = 1,
+        n = 0,
         Ea = (-1.9, 'kJ/mol'),
         T0 = (1, 'K'),
         Tmin = (295, 'K'),
@@ -83,7 +83,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (3.7E-10, 'cm^3/(mol*s)'),
-        n = 1,
+        n = 0,
         Ea = (-2.0, 'kJ/mol'),
         T0 = (1, 'K'),
         Tmin = (295, 'K'),
