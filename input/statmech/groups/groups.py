@@ -40,7 +40,7 @@ entry(
     label = "R!Hx1",
     group = 
 """
-1 * R!H 1
+1 * R!H 1 
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -72,7 +72,7 @@ entry(
     label = "R!Hx3",
     group = 
 """
-1 * R!H 3D
+1 * R!H 3D 0
 """,
     statmech = None,
     shortDesc = u"""""",
