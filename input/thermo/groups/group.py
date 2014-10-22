@@ -41523,10 +41523,16 @@ entry(
 1 * Sis u0 p0 c0 {2,S}
 2   Sis u0 p1 c0 {1,S}
 """,
-    thermo = None,
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([8.48, 10.07, 11.30, 12.28, 13.77, 14.81, 16.24],'cal/(mol*K)'),
+        H298 = (10.09,'kcal/mol'),
+        S298 = (16.33,'cal/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
+Right now, this is the data for Sis-H3si. However we don't have information for Sis-Rsi (where R is not Sis(p0) or Sid). We needed data for Sis-si2.
 """,
 )
 
@@ -41704,7 +41710,9 @@ entry(
     label = "si",
     group = 
 """
-1 * Sis u0 p1 c0
+1 * Si u0 p1 c0 {2,S} {3,S}
+2   R u0 px c0 {1,S}
+3   R u0 px c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
@@ -41717,6 +41725,7 @@ entry(
 u"""
 """,
 )
+
 
 entry(
     index = 1400,
@@ -43873,6 +43882,51 @@ u"""
 """,
 )
 
+entry(
+    index = 1999,
+    label = "Sis-RsiSis",
+    group = 
+"""
+1 * Sis u0 p0 c0 {2,S} {3,S}
+2   Sis u0 p0 c0 {1,S}
+3   Si  u0 p1 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([7.88, 9.16, 10.00, 10.62, 11.49, 12.08, 12.92],'cal/(mol*K)'),
+        H298 = (10.09,'kcal/mol'),
+        S298 = (-2.52,'cal/(mol*K)'),
+    ),
+   shortDesc = u"""""",
+   longDesc =
+u"""
+This is a parent node created with a child's data. This is necessary to make generation of Sis-Sis-si2 species possible.
+""",
+)
+
+entry(
+    index = 2000,
+    label = "SiH4",
+    group = 
+"""
+1 * Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   H u0 p0 c0 {1,S}
+5   H u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
+        Cpdata = ([10.27,12.30,14.14,15.75,18.33,20.2,22.83],'cal/(mol*K)'),
+        H298 = (8.2,'kcal/mol'),
+        S298 = (48.913,'cal/(mol*K)'),
+    ),
+   shortDesc = u"""silane""",
+   longDesc =
+u"""
+""",
+)
+
 tree(
 """
 L1: R
@@ -45833,21 +45887,23 @@ L1: R
                 L5: Os-CbCb
     L2: Si
 	L3: Sis
+	    L4: SiH4
 	    L4: Sis-Sis
 		L5: Sis-H3Sis
 		L5: Sis-H2Sis2
 		L5: Sis-HSis3
 		L5: Sis-Sis4
-	    L4: Sis-Sid
-		L5: Sis-H3Sid
+		L5: Sis-RsiSis
+		    L6: Sis-H2siSis
+		    L6: Sis-HsiSis2
+		    L6: Sis-siSi3
 		L5: Sis-H2SidSis
 		L5: Sis-HSidSis2
 		L5: Sis-SidSis3
 	    L4: Sis-si
 		L5: Sis-H3si
-		L5: Sis-H2siSis
-		L5: Sis-HsiSis2
-		L5: Sis-siSi3
+	    L4: Sis-Sid
+		L5: Sis-H3Sid
 	L3: Sid
 	    L4: Sid-H2
 	    L4: Sid-HSis

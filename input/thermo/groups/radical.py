@@ -5811,7 +5811,7 @@ entry(
     label = "SiJ2_triplet",
     group = 
 """
-1 * Si u2
+1 * Si u2 p0 c0
 """,
     thermo = u'CJ2_triplet',
     shortDesc = u"""""",
