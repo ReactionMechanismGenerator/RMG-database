@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = -1,
     label = "R!H",
-    group = "OR{R!Hx0', 'R!Hx1', 'R!Hx2', 'R!Hx3'}",
+    group = "OR{R!Hx0, R!Hx1, R!Hx2, R!Hx3}",
     statmech = None,
     shortDesc = u"""""",
     longDesc = 
@@ -73,22 +73,6 @@ entry(
     group = 
 """
 1 * R!H 3D 0
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "R!Hx0",
-    group = 
-"""
-1 * R!H 0
 """,
     statmech = None,
     shortDesc = u"""""",
@@ -965,7 +949,15 @@ u"""
 entry(
     index = 25,
     label = "Amide_pri",
-    group = "OR{Amide_prix0}",
+    group = 
+"""
+1 * N   0 {2,S} {5,S} {6,S}
+2   C   0 {1,S} {3,S} {4,D}
+3   C   0 {2,S}
+4   O   0 {2,D}
+5   H   0 {1,S}
+6   H   0 {1,S}
+""",
     statmech = GroupFrequencies(
         frequencies = [
             (3480, 3540, 1), # asymmetric N-H stretch, (free) primary amides
@@ -996,30 +988,17 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "Amide_prix0",
+    index = 26,
+    label = "Amide_sec",
     group = 
 """
 1 * N   0 {2,S} {5,S} {6,S}
 2   C   0 {1,S} {3,S} {4,D}
 3   C   0 {2,S}
 4   O   0 {2,D}
-5   H   0 {1,S}
+5   C   0 {1,S}
 6   H   0 {1,S}
 """,
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = 26,
-    label = "Amide_sec",
-    group = "OR{Amide_secx0}",
     statmech = GroupFrequencies(
         frequencies = [
             (3420, 3460, 1), # N-H stretch, trans form (in dilute solution)
@@ -1042,8 +1021,8 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "Amide_secx0",
+    index = 27,
+    label = "Amide_ter",
     group = 
 """
 1 * N   0 {2,S} {5,S} {6,S}
@@ -1051,21 +1030,8 @@ entry(
 3   C   0 {2,S}
 4   O   0 {2,D}
 5   C   0 {1,S}
-6   H   0 {1,S}
+6   C   0 {1,S}
 """,
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = 27,
-    label = "Amide_ter",
-    group = "OR{Amide_terx0}",
     statmech = GroupFrequencies(
         frequencies = [
             (1630, 1670, 1), # C=O stretch, tertiary amides (dilute solution or solid phase)
@@ -1088,30 +1054,19 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "Amide_terx0",
-    group = 
-"""
-1 * N   0 {2,S} {5,S} {6,S}
-2   C   0 {1,S} {3,S} {4,D}
-3   C   0 {2,S}
-4   O   0 {2,D}
-5   C   0 {1,S}
-6   C   0 {1,S}
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
     index = 28,
     label = "Imide",
-    group = "OR{Imidex0}",
+    group = 
+"""
+1 * N   0 {2,S} {3,S} {6,S}
+2   H   0 {1,S}
+3   C   0 {1,S} {4,D} {5,S}
+4   O   0 {3,D}
+5   R   0 {3,S}
+6   C   0 {1,S} {7,D} {8,S}
+7   O   0 {6,D}
+8   R   0 {6,S}
+""",
     statmech = GroupFrequencies(
         frequencies = [
             (3200, 3280, 1), # N-H stretch, Imides (solid phase)
@@ -1134,32 +1089,15 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "Imidex0",
-    group = 
-"""
-1 * N   0 {2,S} {3,S} {6,S}
-2   H   0 {1,S}
-3   C   0 {1,S} {4,D} {5,S}
-4   O   0 {3,D}
-5   R   0 {3,S}
-6   C   0 {1,S} {7,D} {8,S}
-7   O   0 {6,D}
-8   R   0 {6,S}
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
     index = 29,
     label = "Amine_pri",
-    group = "OR{Amine_prix0}",
+    group = 
+"""
+1 * N   0 {2,S} {3,S} {4,S}
+2   C   0 {1,S}
+3   H   0 {1,S}
+4   H   0 {1,S}
+""",
     statmech = GroupFrequencies(
         frequencies = [
             (3330, 3550, 1), # asymmetric NH2 stretch, primary amines
@@ -1182,28 +1120,15 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "Amine_prix0",
+    index = 30,
+    label = "Amine_sec",
     group = 
 """
 1 * N   0 {2,S} {3,S} {4,S}
 2   C   0 {1,S}
-3   H   0 {1,S}
+3   C   0 {1,S}
 4   H   0 {1,S}
 """,
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = 30,
-    label = "Amine_sec",
-    group = "OR{Amine_secx0}",
     statmech = GroupFrequencies(
         frequencies = [
             (3400, 3450, 1), # , secondary amines
@@ -1222,45 +1147,8 @@ u"""
 )
 
 entry(
-    index = -1,
-    label = "Amine_secx0",
-    group = 
-"""
-1 * N   0 {2,S} {3,S} {4,S}
-2   C   0 {1,S}
-3   C   0 {1,S}
-4   H   0 {1,S}
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
     index = 31,
     label = "Amine_ter",
-    group = "OR{Amine_terx0}",
-    statmech = GroupFrequencies(
-        frequencies = [
-            (1020, 1250, 2),
-        ],
-        symmetry = 1,
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
-""",
-)
-
-entry(
-    index = -1,
-    label = "Amine_terx0",
     group = 
 """
 1 * N   0 {2,S} {3,S} {4,S}
@@ -1268,7 +1156,12 @@ entry(
 3   C   0 {1,S}
 4   C   0 {1,S}
 """,
-    statmech = None,
+    statmech = GroupFrequencies(
+        frequencies = [
+            (1020, 1250, 2),
+        ],
+        symmetry = 1,
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -1331,7 +1224,12 @@ u"""
 entry(
     index = 34,
     label = "Nitrites",
-    group = "OR{Nitritesx0}",
+    group = 
+"""
+1 * N 0 {2,D} {3,S}
+2   O 0 {1,D}
+3   O 0 {1,S}
+""",
     statmech = GroupFrequencies(
         frequencies = [
             (3220, 3360, 1), # Overtones of N=O stretch, nitrite compounds
@@ -1348,24 +1246,6 @@ u"""
 (1650, 1680, 1), # N=O stretch, nitrites, trans form
 (750, 815, 1),   # N-O stretch trans form, saturated primary and secondary aliphatic nitro compounds
 (565, 625, 1),   # O-N=O deformation vibration, saturated primary and secondary aliphatic nitro compounds
-""",
-)
-
-entry(
-    index = -1,
-    label = "Nitritesx0",
-    group = 
-"""
-1 * N 0 {2,D} {3,S}
-2   O 0 {1,D}
-3   O 0 {1,S}
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
 """,
 )
 
@@ -1405,7 +1285,13 @@ u"""
 entry(
     index = 36,
     label = "Nitrates",
-    group = "OR{Nitratesx0}",
+    group = 
+"""
+1 * N 0 {2,D} {3,S} {4,S}
+2   O 0 {1,D}
+3   O 0 {1,S}
+4   O 0 {1,S}
+""",
     statmech = GroupFrequencies(
         frequencies = [
             (1615, 1660, 1), # asymmetric NO2 stretch, Nitrates, -ONO2
@@ -1426,25 +1312,6 @@ u"""
 (745, 765, 1),   # NO2 out-of-plane deformation vibration, Nitrates, -ONO2
 (680, 720, 1),   # NO2 deformation vibration, Nitrates, -ONO2
 (560, 610, 1),   # NO2 in-plane deformation vibration, Nitrates, -ONO2
-""",
-)
-
-entry(
-    index = -1,
-    label = "Nitratesx0",
-    group = 
-"""
-1 * N 0 {2,D} {3,S} {4,S}
-2   O 0 {1,D}
-3   O 0 {1,S}
-4   O 0 {1,S}
-""",
-    statmech = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-
 """,
 )
 
@@ -1474,26 +1341,17 @@ L1: R!H
 			L4: Peroxy
 		L3: N_R0
 			L4: Amide_pri
-				L5: Amide_prix0
 			L4: Amide_sec
-				L5: Amide_secx0
 			L4: Amide_ter
-				L5: Amide_terx0
 			L4: Imide
-				L5: Imidex0
 			L4: Amine_pri
-				L5: Amine_prix0
 			L4: Amine_sec
-				L5: Amine_secx0
 			L4: Amine_ter
-				L5: Amine_terx0
 			L4: Nitrile
 			L4: Nitroso
 				L5: Nitrites
-					L6: Nitritesx0
 				L5: Nitro
 					L6: Nitrates
-						L7: Nitratesx0
 	L2: R!Hx1
 		L3: C_R1
 			L4: RsCH2r
