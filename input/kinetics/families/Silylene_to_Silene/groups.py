@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["SiRHSiH"], products=["SiR=SiH2"], ownReverse=False)
+template(reactants=["SiRYSiH"], products=["SiR=SiHY"], ownReverse=False)
 
 recipe(actions=[
     ['LOSE_PAIR', '*1', '1'],
@@ -18,7 +18,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "SiRHSiH",
+    label = "SiRYSiH",
     group = 
 """
 1 *1 Si u0 p1 c0 {2,S} {4,S}
@@ -39,7 +39,7 @@ u"""
 
 tree(
 """
-L1: SiRHSiH
+L1: SiRYSiH
 """
 )
 

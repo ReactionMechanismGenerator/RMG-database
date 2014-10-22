@@ -29,3 +29,22 @@ u"""
 Rate is from the reaction SiH2 + Si2H6 <-> Si3H8, from laser flash photolysis studies of Becerra et al., J. Organometal. Chem., 333-349, 1996.
 """,
 )
+
+entry(
+	index = 2,
+	label = "Si2S_R_H;H_H",
+	kinetics = ArrheniusEP(
+		A = (1.74E-18 , 'cm^3/(mol*s)'),
+		n = 1.97,
+		alpha = 0,
+		E0 = (-1.9, 'kJ/mol'),
+		Tmin = (400, 'K'),
+		Tmax = (2000, 'K'),
+	),
+	rank = 1,
+	shortDesc = u"""Any silylene insertion into an H-H bond""",
+	longDesc =
+u"""
+Rate is from the reaction SiH2 + H2 <-> SiH4, from high level calculations (see training reactions), from Walch and Dateo, J. Phys. Chem. A, 2001, 2015-2022.
+""",
+)

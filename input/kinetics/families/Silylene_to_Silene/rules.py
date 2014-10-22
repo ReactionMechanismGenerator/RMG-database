@@ -21,3 +21,22 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 
 .. [Tsang1991] W. Tsang; "Chemical kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
 """
+entry(
+        index = 1,
+        label = "SiRYSiH",
+        kinetics = ArrheniusEP(
+                A = (7.9E12, 'cm^3/(mol*s)'),
+                n = 0,
+                alpha = 0,
+                E0 = (5.3095, 'kJ/mol'),
+                Tmin = (300, 'K'),
+                Tmax = (1600, 'K'),
+        ),
+        rank = 1,
+        shortDesc = u"""Top level node""",
+        longDesc =
+u"""
+Rate is from the reaction H3Si-SiH <-> H2Si=SiH2, high P limit of QRRK calcs. From Dollet and de Persis, J. Anal. Apply. Pyrolysis, 2007, 460-470.
+""",
+)
+

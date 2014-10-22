@@ -219,3 +219,17 @@ L1: Y_H
 """
 )
 
+forbidden(
+    label = "Si(S)_as_Si_H",
+    group = 
+"""
+1 *1  Si u0 p1 c0 {2,S} {3,S}
+2     H u0 p0 c0 {1,S}
+3     H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""silylene""",
+    longDesc = 
+u"""
+
+""",
+)
