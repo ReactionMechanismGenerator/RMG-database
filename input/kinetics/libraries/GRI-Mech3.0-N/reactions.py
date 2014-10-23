@@ -217,7 +217,7 @@ entry(
 
 entry(
     index = 28,
-    label = "O2 + CO <=> O + CO2",
+    label = "O2 + CO <=> O(T) + CO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(47800, 'cal/mol'), T0=(1, 'K')),
 )
