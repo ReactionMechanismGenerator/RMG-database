@@ -2713,7 +2713,7 @@ entry(
 
 entry(
     index = 349,
-    label = "O2CH2OCH2O2H <=> HO2CH2OCHO + OH",
+    label = "O2CH2OCH2O2H <=> HOOCH2OCHO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+10, 's^-1'), n=0, Ea=(18580, 'cal/mol'), T0=(1, 'K')),
 )
@@ -4576,7 +4576,7 @@ entry(
 
 entry(
     index = 591,
-    label = "C3H6OOH2-1O2 <=> C3KET21 + OH",
+    label = "C3H6OOH2-1O2 <=> CH3COCH2O2H + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+11, 's^-1'), n=0, Ea=(23850, 'cal/mol'), T0=(1, 'K')),
 )
@@ -4632,7 +4632,7 @@ entry(
 
 entry(
     index = 599,
-    label = "C3KET21 <=> CH2O + CH3CO + OH",
+    label = "CH3COCH2O2H <=> CH2O + CH3CO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+16, 's^-1'), n=0, Ea=(43000, 'cal/mol'), T0=(1, 'K')),
 )
