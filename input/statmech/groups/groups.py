@@ -1257,7 +1257,7 @@ entry(
 1 * N   0 {2,D} {3,S} {4,S}
 2   O   0 {1,D}
 3   O   0 {1,S}
-4   R!H 1 {1,S}
+4   R!H X {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
