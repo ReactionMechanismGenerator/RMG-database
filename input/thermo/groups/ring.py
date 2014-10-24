@@ -1769,12 +1769,12 @@ entry(
     label = "sixnosidedouble",
     group = 
 """
-1 * {Cs,Os} 0 {2,S} {6,S}
-2   {Cs,Os} 0 {1,S} {3,S}
-3   {Cs,Os} 0 {2,S} {4,S}
-4   {Cs,Os} 0 {3,S} {5,S}
-5   {Cs,Os} 0 {4,S} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1 * {Cs,Os,N3s} 0 {2,S} {6,S}
+2   {Cs,Os,N3s} 0 {1,S} {3,S}
+3   {Cs,Os,N3s} 0 {2,S} {4,S}
+4   {Cs,Os,N3s} 0 {3,S} {5,S}
+5   {Cs,Os,N3s} 0 {4,S} {6,S}
+6   {Cs,Os,N3s} 0 {1,S} {5,S}
 """,
     thermo = u'Cyclohexane',
     shortDesc = u"""""",
@@ -1839,9 +1839,9 @@ entry(
     label = "1,3-Dioxane",
     group = 
 """
-1   O  0 {2,S} {6,S}
+1   Os  0 {2,S} {6,S}
 2 * Cs 0 {1,S} {3,S}
-3   O  0 {2,S} {4,S}
+3   Os  0 {2,S} {4,S}
 4   Cs 0 {3,S} {5,S}
 5   Cs 0 {4,S} {6,S}
 6   Cs 0 {1,S} {5,S}
@@ -1866,10 +1866,10 @@ entry(
 """
 1   Cs 0 {2,S} {6,S}
 2   Cs 0 {1,S} {3,S}
-3 * O  0 {2,S} {4,S}
+3 * Os  0 {2,S} {4,S}
 4   Cs 0 {3,S} {5,S}
 5   Cs 0 {4,S} {6,S}
-6   O  0 {1,S} {5,S}
+6   Os  0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1890,11 +1890,11 @@ entry(
     group = 
 """
 1   Cs 0 {2,S} {6,S}
-2   O  0 {1,S} {3,S}
+2   Os  0 {1,S} {3,S}
 3   Cs 0 {2,S} {4,S}
-4 * O  0 {3,S} {5,S}
+4 * Os  0 {3,S} {5,S}
 5   Cs 0 {4,S} {6,S}
-6   O  0 {1,S} {5,S}
+6   Os  0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2191,8 +2191,8 @@ entry(
     label = "34dihydro12dioxin",
     group = 
 """
-1   O  0 {2,S} {6,S}
-2   O  0 {1,S} {3,S}
+1   Os  0 {2,S} {6,S}
+2   Os  0 {1,S} {3,S}
 3   Cs 0 {2,S} {4,S}
 4   Cs 0 {3,S} {5,S}
 5 * Cd 0 {4,S} {6,D}
@@ -2266,7 +2266,7 @@ entry(
     label = "3,4-Dihydro-2H-pyran",
     group = 
 """
-1   O  0 {2,S} {6,S}
+1   Os  0 {2,S} {6,S}
 2   Cs 0 {1,S} {3,S}
 3   Cs 0 {2,S} {4,S}
 4   Cs 0 {3,S} {5,S}
@@ -2796,12 +2796,12 @@ entry(
     label = "obenzoquinone",
     group = 
 """
-1 * C  0 {5,S} {6,S} {8,D}
+1 * Cd  0 {5,S} {6,S} {8,D}
 2   Cd 0 {3,D} {6,S}
 3   Cd 0 {2,D} {4,S}
 4   Cd 0 {3,S} {5,D}
 5   Cd 0 {1,S} {4,D}
-6   C  0 {1,S} {2,S} {7,D}
+6   Cd  0 {1,S} {2,S} {7,D}
 7   Od 0 {6,D}
 8   Od 0 {1,D}
 """,
