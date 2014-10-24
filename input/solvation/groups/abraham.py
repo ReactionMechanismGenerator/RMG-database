@@ -342,7 +342,7 @@ entry(
 	label = "Cds-noH",
 	group = 
 """
-1 * {Cd,CO,Cb} 0 {2,S} {3,S} {4,D}
+1 * {Cd,CO} 0 {2,S} {3,S} {4,D}
 2   R!H 0 {1,S}
 3   R!H 0 {1,S}
 4   R!H 0 {1,D}
