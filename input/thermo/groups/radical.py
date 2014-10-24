@@ -68,7 +68,7 @@ entry(
     label = "CH3",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   H 0 {1,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -91,7 +91,7 @@ entry(
     label = "Cs_P",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   C 0 {1,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -114,7 +114,7 @@ entry(
     label = "CsCsJ",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -132,7 +132,7 @@ entry(
     label = "CJCOOH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S} {5,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -157,8 +157,8 @@ entry(
     label = "CCJ",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
-2   C 0 {1,S} {5,S} {6,S} {7,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S} {5,S} {6,S} {7,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
 5   H 0 {2,S}
@@ -183,8 +183,8 @@ entry(
     label = "RCCJ",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
-2   C 0 {1,S} {5,S} {6,S} {7,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S} {5,S} {6,S} {7,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
 5   C 0 {2,S}
@@ -209,8 +209,8 @@ entry(
     label = "Isobutyl",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
-2   C 0 {1,S} {5,S} {6,S} {7,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S} {5,S} {6,S} {7,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
 5   C 0 {2,S}
@@ -235,8 +235,8 @@ entry(
     label = "Neopentyl",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
-2   C 0 {1,S} {5,S} {6,S} {7,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S} {5,S} {6,S} {7,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
 5   C 0 {2,S}
@@ -261,7 +261,7 @@ entry(
     label = "Benzyl_P",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cb 0 {1,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -284,7 +284,7 @@ entry(
     label = "Allyl_P",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -307,7 +307,7 @@ entry(
     label = "C=CC=CCJ",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S} {5,D}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -332,7 +332,7 @@ entry(
     label = "CTCC=CCJ",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S} {5,D}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -357,7 +357,7 @@ entry(
     label = "Propargyl",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ct 0 {1,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -380,7 +380,7 @@ entry(
     label = "C2JC=O",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   CO 0 {1,S} {5,D} {6,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -405,7 +405,7 @@ entry(
     label = "Cs_S",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   C 0 {1,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -428,7 +428,7 @@ entry(
     label = "(Cs)2CsJ",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Cs 0 {1,S}
 4   H  0 {1,S}
@@ -517,7 +517,7 @@ entry(
     label = "CCJCOOH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S} {5,S}
 3   Cs 0 {1,S}
 4   H  0 {1,S}
@@ -644,7 +644,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {5,S}
 2   Cs 0 {1,S} {3,S} {4,S}
-3 * C  1 {1,S} {2,S} {6,S}
+3 * Cs  1 {1,S} {2,S} {6,S}
 4   C  0 {2,S} {5,D}
 5   C  0 {1,S} {4,D}
 6   H  0 {3,S}
@@ -669,7 +669,7 @@ entry(
 """
 1   Cs 0 {3,S} {4,S} {5,S}
 2   Cs 0 {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {6,S}
+3 * Cs  1 {1,S} {2,S} {6,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {1,S} {2,S}
 6   H  0 {3,S}
@@ -694,7 +694,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {4,S} {5,S}
 2   Cs 0 {1,S} {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {6,S}
+3 * Cs  1 {1,S} {2,S} {6,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {1,S} {2,S}
 6   H  0 {3,S}
@@ -748,8 +748,9 @@ entry(
 3   Cs 0 {1,S} {2,S}
 4   Cs 0 {2,S} {6,S}
 5   Cs 0 {1,S} {6,S}
-6 * Cs 1 {4,S} {5,S}
+6 * Cs 1 {4,S} {5,S} {8,S}
 7   H  0 {1,S}
+8   H  0 {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -823,7 +824,7 @@ entry(
 """
 1   Cs 0 {3,S} {4,S} {6,S}
 2   Cs 0 {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {7,S}
+3 * Cs  1 {1,S} {2,S} {7,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {2,S} {6,D}
 6   C  0 {1,S} {5,D}
@@ -849,7 +850,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {4,S} {6,S}
 2   Cs 0 {1,S} {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {7,S}
+3 * Cs  1 {1,S} {2,S} {7,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {2,S} {6,D}
 6   C  0 {1,S} {5,D}
@@ -877,7 +878,7 @@ entry(
 2   Cs 0 {3,S} {4,S} {5,S}
 3   C  0 {1,S} {2,S}
 4   C  0 {1,S} {2,S}
-5 * C  1 {2,S} {6,S} {7,S}
+5 * Cs  1 {2,S} {6,S} {7,S}
 6   Cs 0 {1,S} {5,S}
 7   H  0 {5,S}
 """,
@@ -901,7 +902,7 @@ entry(
 """
 1   Cs 0 {3,S} {4,S} {6,S}
 2   Cs 0 {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {7,S}
+3 * Cs  1 {1,S} {2,S} {7,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {2,S} {6,S}
 6   C  0 {1,S} {5,S}
@@ -929,7 +930,7 @@ entry(
 2   Cs 0 {1,S} {3,S} {4,S} {5,S}
 3   C  0 {1,S} {2,S}
 4   C  0 {1,S} {2,S}
-5 * C  1 {2,S} {6,S} {7,S}
+5 * Cs  1 {2,S} {6,S} {7,S}
 6   Cs 0 {1,S} {5,S}
 7   H  0 {5,S}
 """,
@@ -953,7 +954,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {4,S} {6,S}
 2   Cs 0 {1,S} {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {7,S}
+3 * Cs  1 {1,S} {2,S} {7,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {2,S} {6,S}
 6   C  0 {1,S} {5,S}
@@ -1007,11 +1008,12 @@ entry(
 1   Cs 0 {3,S} {4,S} {7,S} {8,S}
 2   Cs 0 {3,S} {5,S} {6,S}
 3   Cs 0 {1,S} {2,S}
-4 * Cs 1 {1,S} {5,S}
+4 * Cs 1 {1,S} {5,S} {9,S}
 5   Cs 0 {2,S} {4,S}
 6   Cs 0 {2,S} {7,S}
 7   Cs 0 {1,S} {6,S}
 8   H  0 {1,S}
+9   H  0 {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1142,7 +1144,7 @@ entry(
 1   C  0 {2,S} {3,S} {5,S}
 2   Cs 0 {1,S} {3,S} {4,S}
 3   C  0 {1,S} {2,S}
-4 * C  1 {2,S} {6,S} {8,S}
+4 * Cs  1 {2,S} {6,S} {8,S}
 5   C  0 {1,S} {7,S}
 6   Cs 0 {4,S} {7,S}
 7   C  0 {5,S} {6,S}
@@ -1195,7 +1197,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {5,S}
 2   Cs 0 {1,S} {3,S} {4,S}
-3 * C  1 {1,S} {2,S} {8,S}
+3 * Cs  1 {1,S} {2,S} {8,S}
 4   C  0 {2,S} {6,S}
 5   C  0 {1,S} {7,S}
 6   C  0 {4,S} {7,S}
@@ -1223,7 +1225,7 @@ entry(
 1   C  0 {2,S} {3,S} {5,S}
 2   Cs 0 {1,S} {3,S} {4,S}
 3   C  0 {1,S} {2,S}
-4 * C  1 {2,S} {6,S} {8,S}
+4 * Cs  1 {2,S} {6,S} {8,S}
 5   C  0 {1,S} {7,S}
 6   Cs 0 {4,S} {7,S}
 7   C  0 {5,S} {6,S}
@@ -1276,7 +1278,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {5,S}
 2   Cs 0 {1,S} {3,S} {4,S}
-3 * C  1 {1,S} {2,S} {8,S}
+3 * Cs  1 {1,S} {2,S} {8,S}
 4   C  0 {2,S} {6,S}
 5   C  0 {1,S} {7,S}
 6   C  0 {4,S} {7,S}
@@ -1305,7 +1307,7 @@ entry(
 2   Cs 0 {3,S} {4,S} {5,S}
 3   C  0 {1,S} {2,S}
 4   C  0 {1,S} {2,S}
-5 * C  1 {2,S} {7,S} {8,S}
+5 * Cs  1 {2,S} {7,S} {8,S}
 6   C  0 {1,S} {7,S}
 7   Cs 0 {5,S} {6,S}
 8   H  0 {5,S}
@@ -1334,7 +1336,7 @@ entry(
 4   C  0 {1,S} {2,S}
 5   Cs 0 {2,S} {7,S}
 6   Cs 0 {1,S} {7,S}
-7 * C  1 {5,S} {6,S} {8,S}
+7 * Cs  1 {5,S} {6,S} {8,S}
 8   H  0 {7,S}
 """,
     thermo = ThermoData(
@@ -1357,7 +1359,7 @@ entry(
 """
 1   Cs 0 {3,S} {4,S} {6,S}
 2   Cs 0 {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {8,S}
+3 * Cs  1 {1,S} {2,S} {8,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {2,S} {7,S}
 6   C  0 {1,S} {7,S}
@@ -1386,7 +1388,7 @@ entry(
 2   Cs 0 {1,S} {3,S} {4,S} {5,S}
 3   C  0 {1,S} {2,S}
 4   C  0 {1,S} {2,S}
-5 * C  1 {2,S} {7,S} {8,S}
+5 * Cs  1 {2,S} {7,S} {8,S}
 6   C  0 {1,S} {7,S}
 7   Cs 0 {5,S} {6,S}
 8   H  0 {5,S}
@@ -1415,7 +1417,7 @@ entry(
 4   C  0 {1,S} {2,S}
 5   Cs 0 {2,S} {7,S}
 6   Cs 0 {1,S} {7,S}
-7 * C  1 {5,S} {6,S} {8,S}
+7 * Cs  1 {5,S} {6,S} {8,S}
 8   H  0 {7,S}
 """,
     thermo = ThermoData(
@@ -1438,7 +1440,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {4,S} {6,S}
 2   Cs 0 {1,S} {3,S} {4,S} {5,S}
-3 * C  1 {1,S} {2,S} {8,S}
+3 * Cs  1 {1,S} {2,S} {8,S}
 4   C  0 {1,S} {2,S}
 5   C  0 {2,S} {7,S}
 6   C  0 {1,S} {7,S}
@@ -1466,7 +1468,7 @@ entry(
 1   C  0 {2,S} {3,S} {5,S} {7,S}
 2   Cs 0 {1,S} {3,S} {4,S} {6,S}
 3   C  0 {1,S} {2,S}
-4 * C  1 {2,S} {5,S} {8,S}
+4 * Cs  1 {2,S} {5,S} {8,S}
 5   Cs 0 {1,S} {4,S}
 6   C  0 {2,S} {7,S}
 7   C  0 {1,S} {6,S}
@@ -1492,7 +1494,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {5,S} {7,S}
 2   Cs 0 {1,S} {3,S} {4,S} {6,S}
-3 * C  1 {1,S} {2,S} {8,S}
+3 * Cs  1 {1,S} {2,S} {8,S}
 4   C  0 {2,S} {5,S}
 5   C  0 {1,S} {4,S}
 6   C  0 {2,S} {7,S}
@@ -1519,7 +1521,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {4,S}
 2   C  0 {1,S} {5,S} {6,S}
-3 * C  1 {1,S} {8,S} {9,S}
+3 * Cs  1 {1,S} {8,S} {9,S}
 4   C  0 {1,S} {7,S}
 5   C  0 {2,S} {7,S}
 6   C  0 {2,S} {8,S}
@@ -1551,7 +1553,7 @@ entry(
 4   Cs 0 {1,S} {7,S}
 5   Cs 0 {2,S} {7,S}
 6   C  0 {2,S} {8,S}
-7 * C  1 {4,S} {5,S} {9,S}
+7 * Cs  1 {4,S} {5,S} {9,S}
 8   C  0 {3,S} {6,S}
 9   H  0 {7,S}
 """,
@@ -1577,7 +1579,7 @@ entry(
 2   Cs 0 {1,S} {4,S} {5,S}
 3   C  0 {1,S} {4,S}
 4   C  0 {2,S} {3,S}
-5 * C  1 {2,S} {7,S} {9,S}
+5 * Cs  1 {2,S} {7,S} {9,S}
 6   C  0 {1,S} {8,S}
 7   Cs 0 {5,S} {8,S}
 8   C  0 {6,S} {7,S}
@@ -1607,7 +1609,7 @@ entry(
 4   C  0 {2,S} {3,S}
 5   Cs 0 {2,S} {7,S}
 6   C  0 {1,S} {8,S}
-7 * C  1 {5,S} {8,S} {9,S}
+7 * Cs  1 {5,S} {8,S} {9,S}
 8   Cs 0 {6,S} {7,S}
 9   H  0 {7,S}
 """,
@@ -1631,7 +1633,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S} {6,S}
 2   C  0 {1,S} {4,S} {5,S}
-3 * C  1 {1,S} {4,S} {9,S}
+3 * Cs  1 {1,S} {4,S} {9,S}
 4   Cs 0 {2,S} {3,S}
 5   C  0 {2,S} {7,S}
 6   C  0 {1,S} {8,S}
@@ -1659,7 +1661,7 @@ entry(
 """
 1   Cs 0 {3,S} {6,S} {8,S}
 2   C  0 {4,S} {5,S} {7,S}
-3 * C  1 {1,S} {4,S} {9,S}
+3 * Cs  1 {1,S} {4,S} {9,S}
 4   Cs 0 {2,S} {3,S}
 5   C  0 {2,S} {6,S}
 6   C  0 {1,S} {5,S}
@@ -1687,7 +1689,7 @@ entry(
 """
 1   C  0 {2,S} {4,S} {6,S} {8,S}
 2   Cs 0 {1,S} {3,S} {5,S} {7,S}
-3 * C  1 {2,S} {4,S} {9,S}
+3 * Cs  1 {2,S} {4,S} {9,S}
 4   Cs 0 {1,S} {3,S}
 5   C  0 {2,S} {6,S}
 6   C  0 {1,S} {5,S}
@@ -1713,9 +1715,9 @@ entry(
     label = "CCJC",
     group = 
 """
-1  * C 1 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S} {6,S} {7,S}
-3    C 0 {1,S} {8,S} {9,S} {10,S}
+1  * Cs 1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S} {5,S} {6,S} {7,S}
+3    Cs 0 {1,S} {8,S} {9,S} {10,S}
 4    H 0 {1,S}
 5    H 0 {2,S}
 6    H 0 {2,S}
@@ -1742,9 +1744,9 @@ entry(
     label = "RCCJC",
     group = 
 """
-1  * C 1 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S} {6,S} {7,S}
-3    C 0 {1,S} {8,S} {9,S} {10,S}
+1  * Cs 1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S} {5,S} {6,S} {7,S}
+3    Cs 0 {1,S} {8,S} {9,S} {10,S}
 4    H 0 {1,S}
 5    C 0 {2,S}
 6    H 0 {2,S}
@@ -1771,9 +1773,9 @@ entry(
     label = "RCCJCC",
     group = 
 """
-1  * C 1 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S} {6,S} {7,S}
-3    C 0 {1,S} {8,S} {9,S} {10,S}
+1  * Cs 1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S} {5,S} {6,S} {7,S}
+3    Cs 0 {1,S} {8,S} {9,S} {10,S}
 4    H 0 {1,S}
 5    C 0 {2,S}
 6    H 0 {2,S}
@@ -1800,9 +1802,9 @@ entry(
     label = "cyclopentane",
     group = 
 """
-1  * C 1 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S} {6,S} {7,S}
-3    C 0 {1,S} {8,S} {9,S} {10,S}
+1  * Cs 1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S} {5,S} {6,S} {7,S}
+3    Cs 0 {1,S} {8,S} {9,S} {10,S}
 4    H 0 {1,S}
 5    C 0 {2,S} {8,S}
 6    H 0 {2,S}
@@ -1829,9 +1831,9 @@ entry(
     label = "cyclohexane",
     group = 
 """
-1  * C 1 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S} {6,S} {7,S}
-3    C 0 {1,S} {8,S} {9,S} {10,S}
+1  * Cs 1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S} {5,S} {6,S} {7,S}
+3    Cs 0 {1,S} {8,S} {9,S} {10,S}
 4    H 0 {1,S}
 5    C 0 {2,S} {11,S}
 6    H 0 {2,S}
@@ -1859,7 +1861,7 @@ entry(
     label = "Benzyl_S",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cb 0 {1,S}
 3   C  0 {1,S}
 4   H  0 {1,S}
@@ -1882,7 +1884,7 @@ entry(
     label = "Allyl_S",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S}
 3   Cs 0 {1,S}
 4   H  0 {1,S}
@@ -1905,7 +1907,7 @@ entry(
     label = "cyclobutene-allyl",
     group = 
 """
-1 * C  1 {2,S} {4,S} {5,S}
+1 * Cs  1 {2,S} {4,S} {5,S}
 2   Cs 0 {1,S} {3,S}
 3   C  0 {2,S} {4,D}
 4   Cd 0 {1,S} {3,D}
@@ -1931,7 +1933,7 @@ entry(
 """
 1   Cs 0 {2,S} {3,S}
 2   C  0 {1,S} {5,S}
-3 * C  1 {1,S} {4,S} {6,S}
+3 * Cs  1 {1,S} {4,S} {6,S}
 4   Cd 0 {3,S} {5,D}
 5   C  0 {2,S} {4,D}
 6   H  0 {3,S}
@@ -1957,7 +1959,7 @@ entry(
 1   C  0 {2,S} {3,S}
 2   Cs 0 {1,S} {4,S}
 3   C  0 {1,S} {6,S}
-4 * C  1 {2,S} {5,S} {7,S}
+4 * Cs  1 {2,S} {5,S} {7,S}
 5   Cd 0 {4,S} {6,D}
 6   C  0 {3,S} {5,D}
 7   H  0 {4,S}
@@ -1980,7 +1982,7 @@ entry(
     label = "C=CCJC=C",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S}
 3   Cd 0 {1,S}
 4   H  0 {1,S}
@@ -2003,7 +2005,7 @@ entry(
     label = "cyclopropenyl-allyl",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S} {3,D}
 3   Cd 0 {1,S} {2,D}
 4   H  0 {1,S}
@@ -2026,7 +2028,7 @@ entry(
     label = "1,3-cyclopentadiene-allyl",
     group = 
 """
-1 * C  1 {2,S} {3,S} {6,S}
+1 * Cs  1 {2,S} {3,S} {6,S}
 2   Cd 0 {1,S} {4,D}
 3   Cd 0 {1,S} {5,D}
 4   C  0 {2,D} {5,S}
@@ -2051,7 +2053,7 @@ entry(
     label = "Sec_Propargyl",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ct 0 {1,S}
 3   Cs 0 {1,S}
 4   H  0 {1,S}
@@ -2074,7 +2076,7 @@ entry(
     label = "CCJCHO",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   CO 0 {1,S} {5,D} {6,S}
 3   Cs 0 {1,S}
 4   H  0 {1,S}
@@ -2099,7 +2101,7 @@ entry(
     label = "Cs_T",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   C 0 {1,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -2117,7 +2119,7 @@ entry(
     label = "Tertalkyl",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Cs 0 {1,S}
 4   Cs 0 {1,S}
@@ -2187,7 +2189,7 @@ entry(
     label = "bicyclo[1.1.1]pentane-C1",
     group = 
 """
-1 * C  1 {3,S} {4,S} {5,S}
+1 * Cs  1 {3,S} {4,S} {5,S}
 2   C  0 {3,S} {4,S} {5,S}
 3   Cs 0 {1,S} {2,S}
 4   Cs 0 {1,S} {2,S}
@@ -2211,7 +2213,7 @@ entry(
     label = "C2CJCOOH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S} {5,S}
 3   Cs 0 {1,S}
 4   Cs 0 {1,S}
@@ -2286,7 +2288,7 @@ entry(
     label = "bicyclo[2.1.1]hexane-C1",
     group = 
 """
-1 * C  1 {3,S} {4,S} {6,S}
+1 * Cs  1 {3,S} {4,S} {6,S}
 2   C  0 {3,S} {4,S} {5,S}
 3   Cs 0 {1,S} {2,S}
 4   Cs 0 {1,S} {2,S}
@@ -2389,7 +2391,7 @@ entry(
     label = "bicyclo[3.1.1]heptane-C1",
     group = 
 """
-1 * C  1 {3,S} {4,S} {6,S}
+1 * Cs  1 {3,S} {4,S} {6,S}
 2   C  0 {3,S} {4,S} {5,S}
 3   Cs 0 {1,S} {2,S}
 4   Cs 0 {1,S} {2,S}
@@ -2415,7 +2417,7 @@ entry(
     label = "octahydro-pentalene-tertiary",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S} {5,S} {6,S}
 3   Cs 0 {1,S} {8,S}
 4   Cs 0 {1,S} {7,S}
@@ -2442,7 +2444,7 @@ entry(
     label = "bicyclo[4.2.0]octane-tertiary",
     group = 
 """
-1 * C  1 {2,S} {3,S} {6,S}
+1 * Cs  1 {2,S} {3,S} {6,S}
 2   Cs 0 {1,S} {4,S} {5,S}
 3   Cs 0 {1,S} {4,S}
 4   C  0 {2,S} {3,S}
@@ -2469,7 +2471,7 @@ entry(
     label = "bicyclo[2.2.2]octane-C1",
     group = 
 """
-1 * C  1 {3,S} {6,S} {8,S}
+1 * Cs  1 {3,S} {6,S} {8,S}
 2   C  0 {4,S} {5,S} {7,S}
 3   Cs 0 {1,S} {4,S}
 4   C  0 {2,S} {3,S}
@@ -2496,7 +2498,7 @@ entry(
     label = "Benzyl_T",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cb 0 {1,S}
 3   C  0 {1,S}
 4   C  0 {1,S}
@@ -2519,7 +2521,7 @@ entry(
     label = "Allyl_T",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S}
 3   Cs 0 {1,S}
 4   Cs 0 {1,S}
@@ -2542,7 +2544,7 @@ entry(
     label = "bicyclo[2.1.0]pent-2-ene-C1",
     group = 
 """
-1 * C  1 {2,S} {3,S} {5,S}
+1 * Cs  1 {2,S} {3,S} {5,S}
 2   Cs 0 {1,S} {3,S} {4,S}
 3   Cs 0 {1,S} {2,S}
 4   C  0 {2,S} {5,D}
@@ -2566,7 +2568,7 @@ entry(
     label = "bicyclo[2.1.1]hex-2-ene-C1",
     group = 
 """
-1 * C  1 {3,S} {4,S} {6,S}
+1 * Cs  1 {3,S} {4,S} {6,S}
 2   C  0 {3,S} {4,S} {5,S}
 3   Cs 0 {1,S} {2,S}
 4   Cs 0 {1,S} {2,S}
@@ -2591,7 +2593,7 @@ entry(
     label = "Tert_Propargyl",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ct 0 {1,S}
 3   Cs 0 {1,S}
 4   Cs 0 {1,S}
@@ -2614,7 +2616,7 @@ entry(
     label = "C2CJCO",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   CO 0 {1,S} {5,D} {6,S}
 3   Cs 0 {1,S}
 4   Cs 0 {1,S}
@@ -2634,7 +2636,7 @@ entry(
     label = "C2CJCHO",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   CO 0 {1,S} {5,D} {6,S}
 3   Cs 0 {1,S}
 4   Cs 0 {1,S}
@@ -2659,7 +2661,7 @@ entry(
     label = "bicyclo[2.2.0]hexa-2,5-diene-C1",
     group = 
 """
-1 * C  1 {2,S} {3,S} {6,S}
+1 * Cs  1 {2,S} {3,S} {6,S}
 2   Cs 0 {1,S} {4,S} {5,S}
 3   Cd 0 {1,S} {4,D}
 4   C  0 {2,S} {3,D}
@@ -2684,7 +2686,7 @@ entry(
     label = "CsJO",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -2702,7 +2704,7 @@ entry(
     label = "CsJOH",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -2726,7 +2728,7 @@ entry(
     label = "CsJOC",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -2745,7 +2747,7 @@ entry(
     label = "CsJOCs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   O  0 {1,S} {5,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -2764,11 +2766,11 @@ entry(
     label = "CsJOCH3",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,S} {7,S} {8,S}
+5   Cs 0 {2,S} {6,S} {7,S} {8,S}
 6   H 0 {5,S}
 7   H 0 {5,S}
 8   H 0 {5,S}
@@ -2791,11 +2793,11 @@ entry(
     label = "CsJOCC",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,S} {7,S} {8,S}
+5   Cs 0 {2,S} {6,S} {7,S} {8,S}
 6   C 0 {5,S}
 7   H 0 {5,S}
 8   H 0 {5,S}
@@ -2818,11 +2820,11 @@ entry(
     label = "CsJOCC2",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,S} {7,S} {8,S}
+5   Cs 0 {2,S} {6,S} {7,S} {8,S}
 6   C 0 {5,S}
 7   C 0 {5,S}
 8   H 0 {5,S}
@@ -2845,11 +2847,11 @@ entry(
     label = "CsJOCC3",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,S} {7,S} {8,S}
+5   Cs 0 {2,S} {6,S} {7,S} {8,S}
 6   C 0 {5,S}
 7   C 0 {5,S}
 8   C 0 {5,S}
@@ -2872,7 +2874,7 @@ entry(
     label = "CsJOCds",
     group = 
 """
-1 * C       1 {2,S} {3,S} {4,S}
+1 * Cs       1 {2,S} {3,S} {4,S}
 2   O       0 {1,S} {5,S}
 3   H       0 {1,S}
 4   H       0 {1,S}
@@ -2891,11 +2893,11 @@ entry(
     label = "CsJOC(O)",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,D}
+5   CO 0 {2,S} {6,D}
 6   O 0 {5,D}
 """,
     thermo = ThermoData(
@@ -2916,11 +2918,11 @@ entry(
     label = "CsJOC(O)H",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,D} {7,S}
+5   CO 0 {2,S} {6,D} {7,S}
 6   O 0 {5,D}
 7   H 0 {5,S}
 """,
@@ -2942,11 +2944,11 @@ entry(
     label = "CsJOC(O)C",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,D} {7,S}
+5   CO 0 {2,S} {6,D} {7,S}
 6   O 0 {5,D}
 7   C 0 {5,S}
 """,
@@ -2968,7 +2970,7 @@ entry(
     label = "CsJOO",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -2992,7 +2994,7 @@ entry(
     label = "CsJOOH",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -3017,7 +3019,7 @@ entry(
     label = "CsJOOC",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -3042,7 +3044,7 @@ entry(
     label = "CCsJO",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -3060,7 +3062,7 @@ entry(
     label = "CCsJOH",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -3084,7 +3086,7 @@ entry(
     label = "CCsJOC",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -3103,7 +3105,7 @@ entry(
     label = "CCsJOCs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   O  0 {1,S} {5,S}
 3   C  0 {1,S}
 4   H  0 {1,S}
@@ -3127,7 +3129,7 @@ entry(
     label = "CCsJOCds",
     group = 
 """
-1 * C       1 {2,S} {3,S} {4,S}
+1 * Cs       1 {2,S} {3,S} {4,S}
 2   O       0 {1,S} {5,S}
 3   C       0 {1,S}
 4   H       0 {1,S}
@@ -3146,11 +3148,11 @@ entry(
     label = "CCsJOC(O)",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,D}
+5   CO 0 {2,S} {6,D}
 6   O 0 {5,D}
 """,
     thermo = ThermoData(
@@ -3171,11 +3173,11 @@ entry(
     label = "CCsJOC(O)H",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,D} {7,S}
+5   CO 0 {2,S} {6,D} {7,S}
 6   O 0 {5,D}
 7   H 0 {5,S}
 """,
@@ -3197,11 +3199,11 @@ entry(
     label = "CCsJOC(O)C",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
-5   C 0 {2,S} {6,D} {7,S}
+5   CO 0 {2,S} {6,D} {7,S}
 6   O 0 {5,D}
 7   C 0 {5,S}
 """,
@@ -3218,7 +3220,7 @@ entry(
     label = "CCsJOO",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -3242,7 +3244,7 @@ entry(
     label = "CCsJOOH",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -3267,7 +3269,7 @@ entry(
     label = "CCsJOOC",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -3292,7 +3294,7 @@ entry(
     label = "C2CsJO",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -3310,7 +3312,7 @@ entry(
     label = "C2CsJOH",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -3334,7 +3336,7 @@ entry(
     label = "C2CsJOC",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -3353,7 +3355,7 @@ entry(
     label = "C2CsJOCs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   O  0 {1,S} {5,S}
 3   C  0 {1,S}
 4   C  0 {1,S}
@@ -3377,7 +3379,7 @@ entry(
     label = "C2CsJOCds",
     group = 
 """
-1 * C       1 {2,S} {3,S} {4,S}
+1 * Cs       1 {2,S} {3,S} {4,S}
 2   O       0 {1,S} {5,S}
 3   C       0 {1,S}
 4   C       0 {1,S}
@@ -3396,11 +3398,11 @@ entry(
     label = "C2CsJOC(O)",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
-5   C 0 {2,S} {6,D}
+5   CO 0 {2,S} {6,D}
 6   O 0 {5,D}
 """,
     thermo = ThermoData(
@@ -3421,11 +3423,11 @@ entry(
     label = "C2CsJOC(O)H",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
-5   C 0 {2,S} {6,D} {7,S}
+5   CO 0 {2,S} {6,D} {7,S}
 6   O 0 {5,D}
 7   H 0 {5,S}
 """,
@@ -3447,11 +3449,11 @@ entry(
     label = "C2CsJOC(O)C",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
-5   C 0 {2,S} {6,D} {7,S}
+5   CO 0 {2,S} {6,D} {7,S}
 6   O 0 {5,D}
 7   C 0 {5,S}
 """,
@@ -3473,7 +3475,7 @@ entry(
     label = "C2CsJOO",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -3497,7 +3499,7 @@ entry(
     label = "C2CsJOOH",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -3522,7 +3524,7 @@ entry(
     label = "C2CsJOOC",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   O 0 {1,S} {5,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -3547,7 +3549,7 @@ entry(
     label = "CCsJOS",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   C 0 {1,S}
 3   O 0 {1,S}
 4   S 0 {1,S}
@@ -3565,7 +3567,7 @@ entry(
     label = "CCsJOHSH",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   C 0 {1,S}
 3   O 0 {1,S} {5,S}
 4   S 0 {1,S} {6,S}
@@ -3590,7 +3592,7 @@ entry(
     label = "CsJ-S",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ss 0 {1,S}
 3   R  0 {1,S}
 4   R  0 {1,S}
@@ -3608,7 +3610,7 @@ entry(
     label = "CsJ-SsHH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ss 0 {1,S}
 3   H  0 {1,S}
 4   H  0 {1,S}
@@ -3631,7 +3633,7 @@ entry(
     label = "CsJ-CSH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   C  0 {1,S}
 3   Ss 0 {1,S}
 4   H  0 {1,S}
@@ -3649,7 +3651,7 @@ entry(
     label = "CsJ-CsSsH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Ss 0 {1,S}
 4   H  0 {1,S}
@@ -3672,7 +3674,7 @@ entry(
     label = "CsJ-CtSsH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ct 0 {1,S}
 3   Ss 0 {1,S}
 4   H  0 {1,S}
@@ -3695,7 +3697,7 @@ entry(
     label = "CsJ-CbSsH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cb 0 {1,S}
 3   Ss 0 {1,S}
 4   H  0 {1,S}
@@ -3718,7 +3720,7 @@ entry(
     label = "CsJ-CdSsH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S} {5,D}
 3   Ss 0 {1,S}
 4   H  0 {1,S}
@@ -3742,7 +3744,7 @@ entry(
     label = "CsJ-C=SSsH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S} {5,D}
 3   Ss 0 {1,S}
 4   H  0 {1,S}
@@ -3766,7 +3768,7 @@ entry(
     label = "CsJ-CCS",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   C  0 {1,S}
 3   C  0 {1,S}
 4   Ss 0 {1,S}
@@ -3784,7 +3786,7 @@ entry(
     label = "CsJ-CsCsSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Cs 0 {1,S}
 4   Ss 0 {1,S}
@@ -3807,7 +3809,7 @@ entry(
     label = "CsJ-CsCtSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Ct 0 {1,S}
 4   Ss 0 {1,S}
@@ -3830,7 +3832,7 @@ entry(
     label = "CsJ-CsCbSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Cb 0 {1,S}
 4   Ss 0 {1,S}
@@ -3853,7 +3855,7 @@ entry(
     label = "CsJ-CsCdSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Cd 0 {1,S} {5,D}
 4   Ss 0 {1,S}
@@ -3877,7 +3879,7 @@ entry(
     label = "CsJ-CsC=SSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
 3   Cd 0 {1,S} {5,D}
 4   Ss 0 {1,S}
@@ -3901,7 +3903,7 @@ entry(
     label = "CsJ-SS",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ss 0 {1,S}
 3   Ss 0 {1,S}
 4   R  0 {1,S}
@@ -3919,7 +3921,7 @@ entry(
     label = "CsJ-SsSsH",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ss 0 {1,S}
 3   Ss 0 {1,S}
 4   H  0 {1,S}
@@ -3942,7 +3944,7 @@ entry(
     label = "CsJ-CSS",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   C  0 {1,S}
 3   Ss 0 {1,S}
 4   Ss 0 {1,S}
@@ -3960,9 +3962,9 @@ entry(
     label = "CsJ-CsSsSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cs 0 {1,S}
-3   S  0 {1,S}
+3   Ss  0 {1,S}
 4   Ss 0 {1,S}
 """,
     thermo = ThermoData(
@@ -3983,7 +3985,7 @@ entry(
     label = "CsJ-CtSsSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ct 0 {1,S}
 3   Ss 0 {1,S}
 4   Ss 0 {1,S}
@@ -4001,7 +4003,7 @@ entry(
     label = "CsJ-CbSsSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cb 0 {1,S}
 3   Ss 0 {1,S}
 4   Ss 0 {1,S}
@@ -4019,7 +4021,7 @@ entry(
     label = "CsJ-CdSsSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S} {5,D}
 3   Ss 0 {1,S}
 4   Ss 0 {1,S}
@@ -4038,7 +4040,7 @@ entry(
     label = "CsJ-C=SSsSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Cd 0 {1,S} {5,D}
 3   Ss 0 {1,S}
 4   Ss 0 {1,S}
@@ -4057,7 +4059,7 @@ entry(
     label = "CsJ-SsSsSs",
     group = 
 """
-1 * C  1 {2,S} {3,S} {4,S}
+1 * Cs  1 {2,S} {3,S} {4,S}
 2   Ss 0 {1,S}
 3   Ss 0 {1,S}
 4   Ss 0 {1,S}
@@ -4075,7 +4077,7 @@ entry(
     label = "CsJN",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   N 0 {1,S}
 3   H 0 {1,S}
 4   H 0 {1,S}
@@ -4093,7 +4095,7 @@ entry(
     label = "CCsJN",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   N 0 {1,S}
 3   C 0 {1,S}
 4   H 0 {1,S}
@@ -4116,7 +4118,7 @@ entry(
     label = "C2CsJN",
     group = 
 """
-1 * C 1 {2,S} {3,S} {4,S}
+1 * Cs 1 {2,S} {3,S} {4,S}
 2   N 0 {1,S}
 3   C 0 {1,S}
 4   C 0 {1,S}
@@ -4149,7 +4151,7 @@ entry(
     label = "CdsJO",
     group = 
 """
-1 * C 1 {2,D}
+1 * CO 1 {2,D}
 2   O 0 {1,D}
 """,
     thermo = u'CCJ=O',
@@ -4165,7 +4167,7 @@ entry(
     label = "HCdsJO",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   H 0 {1,S}
 """,
@@ -4187,7 +4189,7 @@ entry(
     label = "CCJ=O",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   C 0 {1,S}
 """,
@@ -4204,7 +4206,7 @@ entry(
     label = "CsCJ=O",
     group = 
 """
-1 * C  1 {2,D} {3,S}
+1 * CO  1 {2,D} {3,S}
 2   O  0 {1,D}
 3   Cs 0 {1,S}
 """,
@@ -4226,7 +4228,7 @@ entry(
     label = "C=CCJ=O",
     group = 
 """
-1 * C  1 {2,D} {3,S}
+1 * CO  1 {2,D} {3,S}
 2   O  0 {1,D}
 3   Cd 0 {1,S} {4,D}
 4   Cd 0 {3,D}
@@ -4249,7 +4251,7 @@ entry(
     label = "(O)CJO",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   O 0 {1,S}
 """,
@@ -4266,7 +4268,7 @@ entry(
     label = "(O)CJOH",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   O 0 {1,S} {4,S}
 4   H 0 {3,S}
@@ -4289,7 +4291,7 @@ entry(
     label = "(O)CJOC",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   O 0 {1,S} {4,S}
 4   C 0 {3,S}
@@ -4312,7 +4314,7 @@ entry(
     label = "(O)CJOCH3",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   O 0 {1,S} {4,S}
 4   C 0 {3,S} {5,S} {6,S} {7,S}
@@ -4338,7 +4340,7 @@ entry(
     label = "(O)CJOCC",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   O 0 {1,S} {4,S}
 4   C 0 {3,S} {5,S} {6,S} {7,S}
@@ -4364,7 +4366,7 @@ entry(
     label = "(O)CJOCC2",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   O 0 {1,S} {4,S}
 4   C 0 {3,S} {5,S} {6,S} {7,S}
@@ -4390,7 +4392,7 @@ entry(
     label = "(O)CJOCC3",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * CO 1 {2,D} {3,S}
 2   O 0 {1,D}
 3   O 0 {1,S} {4,S}
 4   C 0 {3,S} {5,S} {6,S} {7,S}
@@ -4532,7 +4534,7 @@ entry(
     label = "Cds_P",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * Cd 1 {2,D} {3,S}
 2   C 0 {1,D}
 3   H 0 {1,S}
 """,
@@ -4554,7 +4556,7 @@ entry(
     label = "C=C=CJ",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * Cd 1 {2,D} {3,S}
 2   C 0 {1,D} {4,D}
 3   H 0 {1,S}
 4   C 0 {2,D}
@@ -4577,7 +4579,7 @@ entry(
     label = "Cds_S",
     group = 
 """
-1 * C 1 {2,D} {3,S}
+1 * Cd 1 {2,D} {3,S}
 2   C 0 {1,D}
 3   C 0 {1,S}
 """,
@@ -4599,7 +4601,7 @@ entry(
     label = "C=CJC=C",
     group = 
 """
-1 * C       1 {2,D} {3,S}
+1 * Cd       1 {2,D} {3,S}
 2   Cd      0 {1,D}
 3   {Cd,CO} 0 {1,S}
 """,
@@ -4621,7 +4623,7 @@ entry(
     label = "cyclobutadiene-C1",
     group = 
 """
-1 * C  1 {2,D} {4,S}
+1 * Cd  1 {2,D} {4,S}
 2   Cd 0 {1,D} {3,S}
 3   C  0 {2,S} {4,D}
 4   Cd 0 {1,S} {3,D}
@@ -4645,10 +4647,10 @@ entry(
     group = 
 """
 1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,D}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,D} {5,S}
-5   C 0 {3,D} {4,S}
+2   Cd 0 {1,S} {4,D}
+3   Cd 0 {1,S} {5,D}
+4 * Cd 1 {2,D} {5,S}
+5   Cd 0 {3,D} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4668,12 +4670,12 @@ entry(
     label = "bicyclo[2.2.0]hexa-1(4),2,5-triene-C2",
     group = 
 """
-1   C 0 {2,D} {3,S} {6,S}
-2   C 0 {1,D} {4,S} {5,S}
-3 * C 1 {1,S} {4,D}
-4   C 0 {2,S} {3,D}
-5   C 0 {2,S} {6,D}
-6   C 0 {1,S} {5,D}
+1   Cd 0 {2,D} {3,S} {6,S}
+2   Cd 0 {1,D} {4,S} {5,S}
+3 * Cd 1 {1,S} {4,D}
+4   Cd 0 {2,S} {3,D}
+5   Cd 0 {2,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4694,7 +4696,7 @@ entry(
     group = 
 """
 1   C 0 {2,S} {3,S}
-2 * C 1 {1,S} {3,D}
+2 * Cd 1 {1,S} {3,D}
 3   C 0 {1,S} {2,D}
 """,
     thermo = ThermoData(
@@ -4717,7 +4719,7 @@ entry(
 """
 1   C 0 {2,S} {4,S}
 2   C 0 {1,S} {3,S}
-3 * C 1 {2,S} {4,D}
+3 * Cd 1 {2,S} {4,D}
 4   C 0 {1,S} {3,D}
 """,
     thermo = ThermoData(
@@ -4741,7 +4743,7 @@ entry(
 1   C 0 {2,S} {3,S}
 2   C 0 {1,S} {5,S}
 3   C 0 {1,S} {4,S}
-4 * C 1 {3,S} {5,D}
+4 * Cd 1 {3,S} {5,D}
 5   C 0 {2,S} {4,D}
 """,
     thermo = ThermoData(
@@ -4763,7 +4765,7 @@ entry(
     group = 
 """
 1   C 0 {2,S} {3,S}
-2 * C 1 {1,S} {4,D}
+2 * Cd 1 {1,S} {4,D}
 3   C 0 {1,S} {5,D}
 4   C 0 {2,D} {5,S}
 5   C 0 {3,D} {4,S}
@@ -4789,7 +4791,7 @@ entry(
 1   C 0 {2,S} {3,S} {5,S}
 2   C 0 {1,S} {3,S} {4,S}
 3   C 0 {1,S} {2,S}
-4 * C 1 {2,S} {5,D}
+4 * Cd 1 {2,S} {5,D}
 5   C 0 {1,S} {4,D}
 """,
     thermo = ThermoData(
@@ -4814,7 +4816,7 @@ entry(
 2   C 0 {3,S} {4,S} {5,S}
 3   C 0 {1,S} {2,S}
 4   C 0 {1,S} {2,S}
-5 * C 1 {2,S} {6,D}
+5 * Cd 1 {2,S} {6,D}
 6   C 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
@@ -4839,7 +4841,7 @@ entry(
 2   C 0 {1,S} {3,S} {4,S} {5,S}
 3   C 0 {1,S} {2,S}
 4   C 0 {1,S} {2,S}
-5 * C 1 {2,S} {6,D}
+5 * Cd 1 {2,S} {6,D}
 6   C 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
@@ -4862,7 +4864,7 @@ entry(
 """
 1   C 0 {2,S} {3,S} {6,S}
 2   C 0 {1,S} {4,S} {5,S}
-3 * C 1 {1,S} {4,D}
+3 * Cd 1 {1,S} {4,D}
 4   C 0 {2,S} {3,D}
 5   C 0 {2,S} {6,D}
 6   C 0 {1,S} {5,D}
@@ -5041,7 +5043,7 @@ entry(
     group = 
 """
 1 * O 1 {2,S}
-2   C 0 {1,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S} {3,S} {4,S} {5,S}
 3   H 0 {2,S}
 4   H 0 {2,S}
 5   H 0 {2,S}
@@ -5625,7 +5627,7 @@ entry(
     label = "CCJ2_triplet",
     group = 
 """
-1 * C  2T {2,S} {3,S}
+1 * Cs  2T {2,S} {3,S}
 2   Cs 0  {1,S} {4,S} {5,S} {6,S}
 3   H  0  {1,S}
 4   H  0  {2,S}
@@ -5650,7 +5652,7 @@ entry(
     label = "PhCH_triplet",
     group = 
 """
-1 * C  2T {2,S} {3,S}
+1 * Cs  2T {2,S} {3,S}
 2   Cb 0  {1,S}
 3   H  0  {1,S}
 """,
@@ -5672,7 +5674,7 @@ entry(
     label = "AllylJ2_triplet",
     group = 
 """
-1 * C  2T {2,S} {3,S}
+1 * Cs  2T {2,S} {3,S}
 2   Cd 0  {1,S}
 3   H  0  {1,S}
 """,
@@ -5694,7 +5696,7 @@ entry(
     label = "CsJ2_S_triplet",
     group = 
 """
-1 * C 2T {2,S} {3,S}
+1 * Cs 2T {2,S} {3,S}
 2   C 0       {1,S}
 3   C 0       {1,S}
 """,
@@ -5726,7 +5728,7 @@ entry(
     label = "CCdJ2_triplet",
     group = 
 """
-1 * C 2T {2,D}
+1 * Cd 2T {2,D}
 2   C 0  {1,D}
 """,
     thermo = u'CCdJ2_singlet',
@@ -5837,7 +5839,7 @@ u"""
 entry(
     index = 3000,
     label = "RJ2_singlet",
-    group = "OR{CJ2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet}",
+    group = "OR{CJ2_singlet, Oa_singlet, SiJ2_singlet, SJ2_singlet, NJ2_singlet, CO}",
     thermo = u'CJ2_singlet',
     shortDesc = u"""""",
     longDesc = 
@@ -5939,7 +5941,7 @@ entry(
     label = "CCJ2_singlet",
     group = 
 """
-1 * C  2S {2,S} {3,S}
+1 * Cs  2S 0 {2,S} {3,S}
 2   Cs 0  {1,S} {4,S} {5,S} {6,S}
 3   H  0  {1,S}
 4   H  0  {2,S}
@@ -5959,7 +5961,7 @@ entry(
     label = "PhCH_singlet",
     group = 
 """
-1 * C  2S {2,S} {3,S}
+1 * Cs  2S  0 {2,S} {3,S}
 2   Cb 0  {1,S}
 3   H  0  {1,S}
 """,
@@ -5982,7 +5984,7 @@ entry(
     label = "AllylJ2_singlet",
     group = 
 """
-1 * C  2S {2,S} {3,S}
+1 * Cs  2S 0 {2,S} {3,S}
 2   Cd 0  {1,S}
 3   H  0  {1,S}
 """,
@@ -6018,7 +6020,7 @@ entry(
     label = "CdJ2_singlet",
     group =
 """
-1 * {Cd,CO} 2S
+1 * {Cd,CO} 2S 0
 """,
     thermo = u'CCdJ2_singlet',
     shortDesc = u"""""",
@@ -6033,7 +6035,7 @@ entry(
     label = "CCdJ2_singlet",
     group = 
 """
-1 * C 2S {2,D}
+1 * Cd 2S 0 {2,D}
 2   C 0  {1,D}
 """,
     thermo = ThermoData(
@@ -6054,7 +6056,7 @@ entry(
     label = "CdJ2-Sd_singlet",
     group = 
 """
-1 * Cd 2S {2,D}
+1 * Cd 2S 0 {2,D}
 2   Sd 0  {1,D}
 """,
     thermo = ThermoData(
@@ -6075,7 +6077,7 @@ entry(
     label = "Oa_singlet",
     group = 
 """
-1 * O 2S
+1 * O 2S 2
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6442,8 +6444,8 @@ L1: Radical
         L3: Oa_triplet
         L3: SiJ2_triplet
         L3: SJ2_triplet
-    L2: CO
     L2: RJ2_singlet
+        L3: CO
         L3: CJ2_singlet
             L4: CsJ2_singlet
                 L5: CH2_singlet
@@ -6455,7 +6457,7 @@ L1: Radical
                 L5: CsJ2_S_singlet
             L4:CdJ2_singlet
                 L4: CCdJ2_singlet
-                L5: CdJ2-Sd_singlet
+                L4: CdJ2-Sd_singlet
         L3: Oa_singlet
         L3: SiJ2_singlet
         L3: SJ2_singlet
