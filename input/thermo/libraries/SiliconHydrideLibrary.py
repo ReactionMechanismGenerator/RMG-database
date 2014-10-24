@@ -30,14 +30,14 @@ entry(
 		1 Si u2 p1 c0
 		""",
 		thermo = ThermoData(
-			Tdata = ([3600, 4800, 6000],'K'),
-			Cpdata = ([23.05, 23.10, 23.15],'J/(mol*K)'),
-			H298 = (450, 'kJ/mol', 8),
-			S298 = (167.981, 'J/(mol*K)', 0.004),
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968,],'cal/(mol*K)'),
+			H298 = (107.731, 'kcal/mol'),
+			S298 = (38.099, 'cal/(mol*K)'),
 			),
 		shortDesc = u"Si atom",
 		longDesc = u"""
-		From NIST Webbook
+		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 10/24/14
 		""",
 		)
 
@@ -92,16 +92,14 @@ entry(
 		4 H u0 p0 c0 {1,S}
 		""",
 		thermo = ThermoData(
-			Tdata = ([298.15],'K'),
-			Cpdata = ([217.3],'J/(mol*K)', [4]),
-			H298 = (200.5, 'kJ/mol', 2.5),
-			S298 = (217.3, 'J/(mol*K)', 4),
-			),
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([9.579,10.781,11.968,13.031,14.702,15.93,17.732],'cal/(mol*K)'),
+			H298 = (45.879, 'kcal/mol'),
+			S298 = (54.005, 'cal/(mol*K)')
+		),
 		shortDesc = u"Silyl radical",
 		longDesc = u"""
-		From NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB).
-		From this references uncertainties are either given or determined from the spread of data 
-		(whichever is greatest).
+		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 10/24/14
 		""",
 		)
 
@@ -120,14 +118,57 @@ entry(
 		8 H u0 p0 c0 {5,S}
 		""",
 		thermo = ThermoData(
-			Tdata = ([298.15],'K'),
-			Cpdata = ([275],'J/(mol*K)', [10]),
-			H298 = (80.3, 'kJ/mol', 1.5),
-			S298 = (270.3, 'J/(mol*K)', 10),
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([19.193,22.953,25.955,28.5,32.496,35.321,39.159],'cal/(mol*K)'),
+			H298 = (15.954, 'kcal/mol'),
+			S298 = (65.546, 'J/(mol*K)'),
 			),
 		shortDesc = u"Disilane",
 		longDesc = u"""
-		From NIST CCCBDB
+		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 10/24/14
 		""",
 		)
+
+entry(
+		index = 7,
+		label = 'SiH2_singlet',
+		molecule = 
+		"""
+		1 Si u0 p1 c0 {2,S} {3,S}
+		2 H u0 p0 c0 {1,S}
+		3 H u0 p0 c0 {1,S}
+		""",
+		thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([8.35,8.821,9.381,9.954,10.921,11.651,12.734],'cal/(mol*K)'),
+			H298 = (62.875, 'kcal/mol'),
+			S298 = (50.932, 'cal/(mol*K)'),
+			),
+		shortDesc = u"Disilane",
+		longDesc = u"""
+		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 10/24/14
+		""",
+		)
+
+entry(
+		index = 8,
+		label = 'SiH2_triplet',
+		molecule = 
+		"""
+		1 Si u2 p0 c0 {2,S} {3,S}
+		2 H u0 p0 c0 {1,S}
+		3 H u0 p0 c0 {1,S}
+		""",
+		thermo = ThermoData(
+			Tdata = ([300,400,500,600,800,1000,1500],'K'),
+			Cpdata = ([8.472,8.926,9.439,9.959,10.855,11.549,12.629],'cal/(mol*K)'),
+			H298 = (84.868, 'kcal/mol'),
+			S298 = (52.781, 'cal/(mol*K)'),
+			),
+		shortDesc = u"Disilane",
+		longDesc = u"""
+		CBS-QB3 calculations using g03 and CanTherm, by Belinda Slakman 10/24/14
+		""",
+		)
+
 
