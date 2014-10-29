@@ -4,7 +4,7 @@
 name = "Substitution_O/groups"
 shortDesc = u""
 longDesc = u"""
-
+The reacting site *3 must be a triplet for this reaction family.
 """
 
 template(reactants=["O-RR_or_RRrad", "YJ"], products=["O-RR_or_RRrad", "YJ"], ownReverse=True)
@@ -4466,7 +4466,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,CO,O,N} {2T,2S}
+1 *3 {Cs,Cd,CO,O,N} 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -4656,22 +4656,6 @@ u"""
 """,
 )
 
-entry(
-    index = 238,
-    label = "CdsJ-Os",
-    group = 
-"""
-1 *3 C  1 {2,D} {3,S}
-2    C  0 {1,D}
-3    Os 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 239,
@@ -4828,22 +4812,7 @@ u"""
 """,
 )
 
-entry(
-    index = 248,
-    label = "C=OJ-Os",
-    group = 
-"""
-1 *3 Cd 1 {2,D} {3,S}
-2    Od 0 {1,D}
-3    Os 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
 
-""",
-)
 
 entry(
     index = 249,
@@ -5008,24 +4977,6 @@ u"""
 )
 
 entry(
-    index = 264,
-    label = "CsJ-OsCsCs",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Os 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 265,
     label = "CsJ-OsOsH",
     group = 
@@ -5043,23 +4994,6 @@ u"""
 """,
 )
 
-entry(
-    index = 266,
-    label = "CsJ-OsOsCs",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Os 0 {1,S}
-3    Os 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 267,
@@ -5070,42 +5004,6 @@ entry(
 2    Os 0 {1,S}
 3    Os 0 {1,S}
 4    Os 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 262,
-    label = "CsJ-OsHH",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Os 0 {1,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 263,
-    label = "CsJ-OsCsH",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Os 0 {1,S}
-3    Cs 0 {1,S}
-4    H  0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -5134,24 +5032,6 @@ u"""
 )
 
 entry(
-    index = 265,
-    label = "CsJ-OsOsH",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Os 0 {1,S}
-3    Os 0 {1,S}
-4    H  0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 266,
     label = "CsJ-OsOsCs",
     group = 
@@ -5160,24 +5040,6 @@ entry(
 2    Os 0 {1,S}
 3    Os 0 {1,S}
 4    Cs 0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 267,
-    label = "CsJ-OsOsOs",
-    group = 
-"""
-1 *3 C  1 {2,S} {3,S} {4,S}
-2    Os 0 {1,S}
-3    Os 0 {1,S}
-4    Os 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -5416,24 +5278,6 @@ entry(
 3    Cs 0 {1,S}
 4    H  0 {1,S}
 5    Od 0 {2,D}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 282,
-    label = "CsJ-OneDeOsH",
-    group = 
-"""
-1 *3 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    Os            0 {1,S}
-4    H             0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -6247,24 +6091,6 @@ u"""
 )
 
 entry(
-    index = 328,
-    label = "CsJ-TwoDeOs",
-    group = 
-"""
-1 *3 C             1 {2,S} {3,S} {4,S}
-2    {Cd,Ct,Cb,CO} 0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    Os            0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 329,
     label = "CsJ-ThreeDe",
     group = 
@@ -6762,7 +6588,6 @@ L1: YJ
             L4: CdsJ-Cb
             L4: CdsJ-CO
             L4: CdsJ-Os
-            L4: CdsJ-Os
             L4: CdsJ-Cd
             L4: CdsJ-C=O
         L3: C=OJ
@@ -6771,7 +6596,6 @@ L1: YJ
             L4: C=OJ-Ct
             L4: C=OJ-Cb
             L4: C=OJ-CO
-            L4: C=OJ-Os
             L4: C=OJ-Os
             L4: C=OJ-Cd
             L4: C=OJ-C=O
@@ -6782,16 +6606,10 @@ L1: YJ
             L4: CsJ-CsCsCs
             L4: CsJ-OsHH
             L4: CsJ-OsCsH
-            L4: CsJ-OsCsCs
-            L4: CsJ-OsOsH
             L4: CsJ-OsOsCs
             L4: CsJ-OsOsOs
-            L4: CsJ-OsHH
-            L4: CsJ-OsCsH
             L4: CsJ-OsCsCs
             L4: CsJ-OsOsH
-            L4: CsJ-OsOsCs
-            L4: CsJ-OsOsOs
             L4: CsJ-OneDe
                 L5: CsJ-OneDeHH
                     L6: CsJ-CtHH
@@ -6805,7 +6623,6 @@ L1: YJ
                     L6: CsJ-COCsH
                     L6: CsJ-CdCsH
                     L6: CsJ-C=OCsH
-                L5: CsJ-OneDeOsH
                 L5: CsJ-OneDeOsH
                 L5: CsJ-OneDeCsCs
                     L6: CsJ-CtCsCs
@@ -6849,7 +6666,6 @@ L1: YJ
                     L6: CsJ-CdC=OCs
                     L6: CsJ-C=OC=OCs
                 L5: CsJ-TwoDeOs
-                L5: CsJ-TwoDeOs
             L4: CsJ-ThreeDe
     L2: Y_2centeradjbirad
         L3: O2b
@@ -6869,4 +6685,38 @@ L1: YJ
 """
 )
 
+forbidden(
+    label = "birad_singlet",
+    group = 
+"""
+1 *3 {C,N,Si} 2S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
 
+forbidden(
+    label = "OS_birad_singlet",
+    group = 
+"""
+1 *3 {O,S} 2S 2
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "quadrad_singlet",
+    group = 
+"""
+1 *3 {C,N,Si} 4S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)

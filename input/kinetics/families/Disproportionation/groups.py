@@ -4,7 +4,9 @@
 name = "Disproportionation/groups"
 shortDesc = u""
 longDesc = u"""
-
+If a birad, reaction site *1 needs to be a triplet.
+If a birad, reaction site *3 needs to be a triplet.
+If a tri-rad or quad-rad, reaction site *1 and *3 can be anything but singlet.
 """
 
 template(reactants=["Y_rad_birad_trirad_quadrad", "XH_Rrad_birad"], products=["Y_H", "X_R"], ownReverse=False)
@@ -53,7 +55,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *1 R!H 2
+1 *1 R!H 2T
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -2080,8 +2082,8 @@ entry(
     label = "CH_quartet",
     group = 
 """
-1 *1 C 3 {2,s}
-2    H 0 {1,s}
+1 *1 C 3Q 0 {2,S}
+2    H 0 0 {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -2137,10 +2139,10 @@ u"""
 
 entry(
     index = 206,
-    label = "CO_birad",
+    label = "CO_birad_triplet",
     group = 
 """
-1 *1 C  2 {2,D}
+1 *1 C  2T {2,D}
 2    Od 0 {1,D}
 """,
     kinetics = None,
@@ -2614,7 +2616,7 @@ entry(
     group = 
 """
 1 *2 R!H 0 {2,{S,D}} {3,S}
-2 *3 R!H 2 {1,{S,D}}
+2 *3 R!H 2T {1,{S,D}}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -3321,23 +3323,6 @@ u"""
 
 """,
 )
-  
-entry(
-    index = 276,
-    label = "XH_Rbirad",
-    group = 
-"""
-1 *2 R!H 0 {2,{S,D}} {3,S}
-2 *3 R!H 2 {1,{S,D}}
-3 *4 H   0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 277,
@@ -3345,7 +3330,7 @@ entry(
     group = 
 """
 1 *2 R!H 0 {2,S} {3,S}
-2 *3 R!H 2 {1,S}
+2 *3 R!H 2T {1,S}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -3362,7 +3347,7 @@ entry(
     group = 
 """
 1 *2 C   0 {2,S} {3,S}
-2 *3 R!H 2 {1,S}
+2 *3 R!H 2T {1,S}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -3379,7 +3364,7 @@ entry(
     group = 
 """
 1 *2 N   0 {2,S} {3,S}
-2 *3 R!H 2 {1,S}
+2 *3 R!H 2T {1,S}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -3396,7 +3381,7 @@ entry(
     group = 
 """
 1 *2 N3s 0 {2,S} {3,S}
-2 *3 R!H 2 {1,S}
+2 *3 R!H 2T {1,S}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -3413,7 +3398,7 @@ entry(
     group = 
 """
 1 *2 N3s 0 {2,S} {3,S} {4,S}
-2 *3 R!H 2 {1,S}
+2 *3 R!H 2T {1,S}
 3 *4 H   0 {1,S}
 4    H   0 {1,S}
 """,
@@ -3431,7 +3416,7 @@ entry(
     group = 
 """
 1 *2 N3s 0 {2,S} {3,S} {4,S}
-2 *3 C   2 {1,S}
+2 *3 C   2T {1,S}
 3 *4 H   0 {1,S}
 4    H   0 {1,S}
 """,
@@ -3449,7 +3434,7 @@ entry(
     group = 
 """
 1 *2 N3s 0 {2,S} {3,S} {4,S}
-2 *3 N   2 {1,S}
+2 *3 N   2T {1,S}
 3 *4 H   0 {1,S}
 4    H   0 {1,S}
 """,
@@ -3467,7 +3452,7 @@ entry(
     group = 
 """
 1 *2 N3s         0 {2,S} {3,S} {4,S}
-2 *3 N           2 {1,S}
+2 *3 N           2T {1,S}
 3 *4 H           0 {1,S}
 4    {Cs,N3s,Os} 0 {1,S}
 """,
@@ -3485,7 +3470,7 @@ entry(
     group = 
 """
 1 *2 N3s           0 {2,S} {3,S} {4,S}
-2 *3 N             2 {1,S}
+2 *3 N             2T {1,S}
 3 *4 H             0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
@@ -3503,7 +3488,7 @@ entry(
     group = 
 """
 1 *2 {N5s,N5d}     0 {2,S} {3,S} {4,S}
-2 *3 N             2 {1,S}
+2 *3 N             2T {1,S}
 3 *4 H             0 {1,S}
 4    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
@@ -3521,7 +3506,7 @@ entry(
     group = 
 """
 1 *2 R!H 0 {2,D} {3,S}
-2 *3 R!H 2 {1,D}
+2 *3 R!H 2T {1,D}
 3 *4 H   0 {1,S}
 """,
     kinetics = None,
@@ -3537,7 +3522,7 @@ entry(
     label = "C_quintet",
     group = 
 """
-1 *1 C 4V
+1 *1 C 4V 0
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3552,22 +3537,7 @@ entry(
     label = "C_triplet",
     group = 
 """
-1 *1 C 4T
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 290,
-    label = "C_singlet",
-    group = 
-"""
-1 *1 C 4S
+1 *1 C 4T 0
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3582,7 +3552,7 @@ entry(
     label = "N_atom_quartet",
     group = 
 """
-1 *1 N 3Q
+1 *1 N 3Q 1 
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3597,23 +3567,7 @@ entry(
     label = "N_atom_doublet",
     group = 
 """
-1 *1 N 3D
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 293,
-    label = "CH_quartet",
-    group = 
-"""
-1 *1 C 3Q {2,S}
-2    H 0  {1,S}
+1 *1 N 3D 1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3628,55 +3582,7 @@ entry(
     label = "CH_doublet",
     group = 
 """
-1 *1 C 3D {2,S}
-2    H 0  {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 295,
-    label = "O_atom_singlet",
-    group = 
-"""
-1 *1 O 2S
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 296,
-    label = "CH2_singlet",
-    group = 
-"""
-1 *1 C 2S {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 297,
-    label = "NH_singlet",
-    group = 
-"""
-1 *1 N 2S {2,S}
+1 *1 C 3D 0 {2,S}
 2    H 0  {1,S}
 """,
     kinetics = None,
@@ -3690,7 +3596,7 @@ u"""
 entry(
     index = 298,
     label = "Y_1centerquadrad",
-    group = "OR{C_quintet, C_triplet, C_singlet}",
+    group = "OR{C_quintet, C_triplet}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -3705,7 +3611,6 @@ L1: Y_rad_birad_trirad_quadrad
     L2: Y_1centerquadrad
         L3: C_quintet
         L3: C_triplet
-        L3: C_singlet
     L2: Y_1centertrirad
         L3: N_atom_quartet
         L3: N_atom_doublet
@@ -3715,13 +3620,10 @@ L1: Y_rad_birad_trirad_quadrad
         L3: O2b
         L3: C2b
     L2: Y_1centerbirad
-        L3: CO_birad
+        L3: CO_birad_triplet
         L3: O_atom_triplet
-        L3: O_atom_singlet
         L3: CH2_triplet
-        L3: CH2_singlet
         L3: NH_triplet
-        L3: NH_singlet
     L2: H_rad
     L2: Y_rad
         L3: Ct_rad
@@ -3944,3 +3846,80 @@ u"""
 """,
 )
 
+forbidden(
+    label = "birad_singlet",
+    group = 
+"""
+1 *1 {C,N,Si} 2S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "OS_birad_singlet",
+    group = 
+"""
+1 *1 {O,S} 2S 2
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "quadrad_singlet",
+    group = 
+"""
+1 *1 {C,N,Si} 4S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "XH_birad_singlet",
+    group = 
+"""
+1 *3 {C,N,Si} 2S 0 {2,{S,D,T}}
+2 *2 R!H X {1,{S,D,T}} {3,S}
+3 *4 H 0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "OS_XH_birad_singlet",
+    group = 
+"""
+1 *3 {O,S} 2S 2 {2,{S,D,T}}
+2 *2 R!H X {1,{S,D,T}} {3,S}
+3 *4 H 0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "XH_quadrad_singlet",
+    group = 
+"""
+1 *3 {C,N,Si} 4S 0 {2,{S,D,T}}
+2 *2 R!H X {1,{S,D,T}} {3,S}
+3 *4 H 0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)

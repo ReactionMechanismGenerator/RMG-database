@@ -46,7 +46,7 @@ u"""
 
 entry(
     index = 579,
-    label = "o_atom;mb_db_unsub",
+    label = "o_atom_singlet;mb_db_unsub",
     kinetics = ArrheniusEP(
         A = (700000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -65,7 +65,7 @@ Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 
 
 entry(
     index = 580,
-    label = "o_atom;mb_db_monosub_Nd",
+    label = "o_atom_singlet;mb_db_monosub_Nd",
     kinetics = ArrheniusEP(
         A = (2900000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -84,7 +84,7 @@ Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 
 
 entry(
     index = 581,
-    label = "o_atom;mb_db_monosub_Nd",
+    label = "o_atom_singlet;mb_db_monosub_Nd",
     kinetics = ArrheniusEP(
         A = (4200000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -104,7 +104,7 @@ Absolute values measured directly. Excitation: discharge, analysis :GC, Pressure
 
 entry(
     index = 582,
-    label = "o_atom;mb_db_monosub_Nd",
+    label = "o_atom_singlet;mb_db_monosub_Nd",
     kinetics = ArrheniusEP(
         A = (1900000000000.0, 'cm^3/(mol*s)', '*|/', 1.2),
         n = 0,
@@ -126,7 +126,7 @@ O + 1-C4H8 --> ethyloxirane. Original uncertainty 3.0E+11
 
 entry(
     index = 583,
-    label = "o_atom;mb_db_onecdisub_Nd",
+    label = "o_atom_singlet;mb_db_onecdisub_Nd",
     kinetics = ArrheniusEP(
         A = (7600000000000.0, 'cm^3/(mol*s)', '*|/', 1.2),
         n = 0,
@@ -148,7 +148,7 @@ O + iso-C4H8 --> 2,2- dimethyloxirane. Original uncertainty 1.2E+12
 
 entry(
     index = 584,
-    label = "o_atom;mb_db_twocdisub_Nd",
+    label = "o_atom_singlet;mb_db_twocdisub_Nd",
     kinetics = ArrheniusEP(
         A = (15400000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -169,7 +169,7 @@ Pressure 0.39 atm. Excitation : sensitized photolysis, analysis :GC.
 
 entry(
     index = 585,
-    label = "o_atom;mb_db_tetrasub_Nd",
+    label = "o_atom_singlet;mb_db_tetrasub_Nd",
     kinetics = ArrheniusEP(
         A = (31800000000000.0, 'cm^3/(mol*s)', '*|/', 1.2),
         n = 0,

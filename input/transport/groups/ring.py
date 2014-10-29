@@ -18,7 +18,7 @@ entry(
     label = "R_ring",
     group =
 """
-1 * R {0,1,2}
+1 * R X
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -33,7 +33,7 @@ entry(
     label = "C_centered_ring",
     group =
 """
-1 * C {0,1,2}
+1 * C X
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -45,7 +45,7 @@ entry(
     label = "O_centered_ring",
     group =
 """
-1 * O {0,1}
+1 * O X
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",
@@ -56,7 +56,7 @@ entry(
     label = "S_centered_ring",
     group =
 """
-1 * S {0,1}
+1 * S X
 """,
     transportGroup = None,
     shortDesc = u"""Dummy node for head of tree""",

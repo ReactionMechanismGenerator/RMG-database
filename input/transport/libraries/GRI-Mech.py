@@ -73,10 +73,10 @@ u"""
 
 entry(
     index = 4,
-    label = "C2O",
+    label = "C2O(T)",
     molecule =
 """
-1 C 2 0 {2,D}
+1 C 2T 0 {2,D}
 2 C 0 0 {1,D} {3,D}
 3 O 0 2 {2,D}
 """,
@@ -91,7 +91,31 @@ entry(
     shortDesc = u"""GRI-Mech3.0 value for C2O""",
     longDesc = 
 u"""
+Same value as C2O(S).
+""",
+)
 
+entry(
+    index = 5,
+    label = "C2O(S)",
+    molecule =
+"""
+1 C 2S 0 {2,D}
+2 C 0 0 {1,D} {3,D}
+3 O 0 2 {2,D}
+""",
+    transport = TransportData(
+        shapeIndex = 1,
+        epsilon = (232.400 * 8.3145, 'J/mol'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'angstroms^3'),
+        rotrelaxcollnum = 1.000,
+    ),
+    shortDesc = u"""GRI-Mech3.0 value for C2O""",
+    longDesc = 
+u"""
+Same Value as C2O(T).
 """,
 )
 
@@ -1685,6 +1709,7 @@ u"""
 )
 '''
 
+'''
 entry(
     index = 63,
     label = "CN",
@@ -1707,6 +1732,7 @@ u"""
 
 """,
 )
+'''
 
 '''
 entry(
@@ -1877,10 +1903,10 @@ entry(
     label = "H2CCCCH",
     molecule =
 """
-1 C 1 0 {2,S} {5,S} {6,S}
-2 C 0 0 {1,S} {3,S}
-3 C 0 0 {2,S} {4,T}
-4 C 0 0 {3,T} {7,S}
+1 C 0 0 {2,D} {5,S} {6,S}
+2 C 0 0 {1,D} {3,D}
+3 C 0 0 {2,D} {4,D}
+4 C 1 0 {3,D} {7,S}
 5 H 0 0 {1,S}
 6 H 0 0 {1,S}
 7 H 0 0 {4,S}
@@ -1905,13 +1931,14 @@ entry(
     label = "H2CCCCH2",
     molecule =
 """
-1 C 0 0 {2,D} {4,S} {5,S}
+1 C 0 0 {2,D} {5,S} {6,S}
 2 C 0 0 {1,D} {3,D}
-3 C 0 0 {2,D} {6,S} {7,S}
-4 H 0 0 {1,S}
+3 C 0 0 {2,D} {4,D}
+4 C 0 0 {3,D} {7,S} {8,S}
 5 H 0 0 {1,S}
-6 H 0 0 {3,S}
-7 H 0 0 {3,S}
+6 H 0 0 {1,S}
+7 H 0 0 {4,S}
+8 H 0 0 {4,S}
 """,
     transport = TransportData(
         shapeIndex = 2,

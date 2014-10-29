@@ -4,7 +4,7 @@
 name = "R_Addition_MultipleBond/groups"
 shortDesc = u""
 longDesc = u"""
-
+The reaction site *3 should be a triplet, otherwise it will react via the 1+2_Cycloaddition family instead.
 """
 
 template(reactants=["R_R", "YJ"], products=["RJ_R_Y"], ownReverse=False)
@@ -308,8 +308,8 @@ entry(
 """
 1 *1 Cd  0           {2,D} {3,S} {4,S}
 2 *2 Cdd 0           {1,D}
-3    R   {0,1,2S,2T} {1,S}
-4    R   {0,1,2S,2T} {1,S}
+3    R   X {1,S}
+4    R   X {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -326,8 +326,8 @@ entry(
 """
 1 *1 Cd  0           {2,D} {3,S} {4,S}
 2 *2 Cdd 0           {1,D} {5,D}
-3    R   {0,1,2S,2T} {1,S}
-4    R   {0,1,2S,2T} {1,S}
+3    R   X {1,S}
+4    R   X {1,S}
 5    C   0           {2,D}
 """,
     kinetics = None,
@@ -950,8 +950,8 @@ entry(
 """
 1 *1 Cd  0           {2,D} {3,S} {4,S}
 2 *2 Cdd 0           {1,D} {5,D}
-3    R   {0,1,2S,2T} {1,S}
-4    R   {0,1,2S,2T} {1,S}
+3    R   X {1,S}
+4    R   X {1,S}
 5    Od  0           {2,D}
 """,
     kinetics = None,
@@ -2439,8 +2439,8 @@ entry(
 """
 1 *1 Cd 0           {2,D} {3,S} {4,S}
 2 *2 Sd 0           {1,D}
-3    R  {0,1,2S,2T} {1,S}
-4    R  {0,1,2S,2T} {1,S}
+3    R  X {1,S}
+4    R  X {1,S}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -3103,8 +3103,8 @@ entry(
 """
 1 *1 Cd 0           {2,D} {3,S} {4,S}
 2 *2 Cd 0           {1,D} {5,S} {6,S}
-3    R  {0,1,2S,2T} {1,S}
-4    R  {0,1,2S,2T} {1,S}
+3    R  X {1,S}
+4    R  X {1,S}
 5    R  0           {2,S}
 6    R  0           {2,S}
 """,
@@ -21992,23 +21992,6 @@ u"""
 )
 
 entry(
-    index = 374,
-    label = "N3sJ-OneDeH",
-    group = 
-"""
-1 *3 N3s                      1 {2,S} {3,S}
-2    {Cd,Ct,Cb,CO,N3d,N5d} 0 {1,S}
-3    H 		              0 {1,S}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 375,
     label = "N3sJ-OneDeCs",
     group =
@@ -22110,7 +22093,7 @@ entry(
     label = "C_quintet",
     group = 
 """
-1 *3 C 4V
+1 *3 C 4V 0
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -22125,7 +22108,7 @@ entry(
     label = "C_triplet",
     group = 
 """
-1 *3 C 4T
+1 *3 C 4T 0
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -22135,27 +22118,13 @@ u"""
 """,
 )
 
-entry(
-    index = 385,
-    label = "C_singlet",
-    group = 
-"""
-1 *3 C 4S
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
 
 entry(
     index = 386,
     label = "N_atom_quartet",
     group = 
 """
-1 *3 N 3Q
+1 *3 N 3Q 1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -22170,7 +22139,7 @@ entry(
     label = "N_atom_doublet",
     group = 
 """
-1 *3 N 3D
+1 *3 N 3D 1
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -22185,7 +22154,7 @@ entry(
     label = "CH_quartet",
     group = 
 """
-1 *3 Cs 3Q {2,S}
+1 *3 Cs 3Q 0 {2,S}
 2    H 0  {1,S}
 """,
     kinetics = None,
@@ -22201,7 +22170,7 @@ entry(
     label = "CH_doublet",
     group = 
 """
-1 *3 C 3D {2,S}
+1 *3 C 3D 0 {2,S}
 2    H 0  {1,S}
 """,
     kinetics = None,
@@ -22215,7 +22184,7 @@ u"""
 entry(
     index = 393,
     label = "Y_1centerquadrad",
-    group = "OR{C_quintet, C_triplet, C_singlet}",
+    group = "OR{C_quintet, C_triplet}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -22230,7 +22199,7 @@ entry(
     group = 
 """
 1 *1 N1d 0 2 {2,D}
-2 *2 R!H 0 0 {1,D}
+2 *2 R!H 0 {1,D}
 """,
     kinetics = None,
     shortDesc = u"""""",
@@ -23404,7 +23373,6 @@ L1: YJ
     L2: Y_1centerquadrad
         L3: C_quintet
         L3: C_triplet
-        L3: C_singlet
 """
 )
 
@@ -23423,15 +23391,37 @@ u"""
 )
 
 forbidden(
-    label = "Ycentersinglet_birad",
-    group =
+    label = "birad_singlet",
+    group = 
 """
-1 *3 R!H 2S
+1 *3 {C,N,Si} 2S 0
 """,
     shortDesc = u"""""",
-    longDesc =
+    longDesc = 
 u"""
-
 """,
+)
 
+forbidden(
+    label = "OS_birad_singlet",
+    group = 
+"""
+1 *3 {O,S} 2S 2
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "quadrad_singlet",
+    group = 
+"""
+1 *3 {C,N,Si} 4S 0
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
 )

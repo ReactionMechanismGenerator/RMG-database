@@ -11,9 +11,9 @@ entry(
     label = "Ods",
     group = 
 """
-1 O {0,1,2,3,4} {2,D} {3,S}
-2 R {0,1,2,3,4} {1,D}
-3 R {0,1,2,3,4} {1,S}
+1 O X {2,D} {3,S}
+2 R X {1,D}
+3 R X {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -27,7 +27,7 @@ entry(
     group = 
 """
 1 O 1           {2,D}
-2 R {0,1,2,3,4} {1,D}
+2 R X {1,D}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -37,13 +37,13 @@ u"""
 )
 
 entry(
-    label = "N_birad_RsRsRs",
+    label = "N_monorad_3singleBonds",
     group = 
 """
-1 N 1         {2,S} {3,S} {4,S}
-2 R {0,1,2,3} {1,S}
-3 R {0,1,2,3} {1,S}
-4 R {0,1,2,3} {1,S}
+1 N 1 0 {2,S} {3,S} {4,S}
+2 R X {1,S}
+3 R X {1,S}
+4 R X {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -53,12 +53,27 @@ u"""
 )
 
 entry(
-    label = "N_birad_RsRs",
+    label = "N_birad_singlet_2singleBonds",
     group = 
 """
-1 N 2         {2,S} {3,S}
-2 R {0,1,2,3} {1,S}
-3 R {0,1,2,3} {1,S}
+1 N 2S 0 {2,S} {3,S}
+2 R X {1,S}
+3 R X {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    label = "N_birad_triplet_2singleBonds",
+    group = 
+"""
+1 N 2T 0 {2,S} {3,S}
+2 R X {1,S}
+3 R X {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -71,7 +86,7 @@ entry(
     label = "C_quintet",
     group = 
 """
-1 C 4V
+1 C 4V 0
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -84,7 +99,7 @@ entry(
     label = "CH_doublet",
     group = 
 """
-1 C 3D {2,S}
+1 C 3D 0 {2,S}
 2 H 0  {1,S}
 """,
     shortDesc = u"""""",
@@ -155,10 +170,10 @@ u"""
 )
 
 entry(
-    label = "Carbene_D",
+    label = "Carbene_D_triplet",
     group = 
 """
-1 C {2T,2S} {2,D}
+1 C 2T 0 {2,D}
 2 C 0       {1,D}
 """,
     shortDesc = u"""""",
@@ -169,10 +184,38 @@ u"""
 )
 
 entry(
-    label = "Carbene_S",
+    label = "Carbene_D_singlet",
     group = 
 """
-1 C   {2T,2S} {2,S}
+1 C 2S 0 {2,D}
+2 C 0       {1,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    label = "Carbene_S_triplet",
+    group = 
+"""
+1 C   2T 0 {2,S}
+2 R!H 0       {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    label = "Carbene_S_singlet",
+    group = 
+"""
+1 C 2S 0 {2,S}
 2 R!H 0       {1,S}
 """,
     shortDesc = u"""""",
