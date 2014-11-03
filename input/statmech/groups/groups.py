@@ -174,6 +174,13 @@ entry(
 u"""
 Goldsmith. (2010). Predicting Combustion Properties of Hydrocarbon Fuel Mixtures. (Doctoral dissertation). 
 pg 125 Retrieved from http://web.mit.edu/cfgold/www/Homepage/Thesis_files/Thesis.pdf
+
+(2750, 2850, 3), 	#C-H stretch
+(1350, 1500, 2), 	#R-C-H bend
+(700, 800, 1),		#R-C-H rock
+(1000, 1100, 1),	#R-C-H rock
+(1350, 1400, 1),	#Umbrella
+(900, 1100, 1),
 """,
 )
 
@@ -200,7 +207,11 @@ entry(
     shortDesc = u"""Alkene end group""",
     longDesc = 
 u"""
-
+(2950, 3100, 2),	#C-H stretch
+(1330, 1430, 1),	#R-C-H scissor
+(900, 1050, 1),		#R-C-H swing
+(1000, 1050, 1),	#R-C-H rock
+(1600, 1700, 1),
 """,
 )
 
@@ -224,8 +235,9 @@ entry(
     shortDesc = u"""Alkyne end group""",
     longDesc = 
 u"""
-
-
+(750, 770, 2),		#R-C-H bend
+(3350, 3450, 1),	#C-H stretch
+(2000, 2200, 1),
 """,
 )
 
@@ -254,8 +266,12 @@ entry(
     shortDesc = u"""separated carbon with two single bonds""",
     longDesc = 
 u"""
-
-
+(2750, 2850, 2),	#C-H stretch
+(1425, 1450, 1),	#H-C-H scissor
+(1225, 1275, 1),	#R-C-H symmetric
+(1270, 1340, 1),	#R-C-H asymmetric
+(700, 800, 1),		#H-C-H side rock
+(300, 400, 1),		#R-C-R scissor
 """,
 )
 
@@ -283,8 +299,11 @@ entry(
     shortDesc = u"""carbon with double bond to oxygen and single bond to R""",
     longDesc = 
 u"""
-
-
+(2695, 2870, 1),	#C-H stretch
+(700, 800, 1),		#R-C-H bend
+(1380, 1410, 1), 	#R-C-H bend
+(450, 500, 1),		#OdC-R scissor
+(1750, 1800, 1),	#OdC stretch
 """,
 )
 
@@ -308,8 +327,9 @@ entry(
     shortDesc = u"""carbon with one carbon double bond and one oxygen double bond""",
     longDesc = 
 u"""
-
-
+(2110, 2130, 1),	#OdC stretch
+(495, 530, 1),		#OdCdC bend
+(650, 925, 1),		#OdCdC bend
 """,
 )
 
@@ -332,8 +352,8 @@ entry(
     shortDesc = u"""Carbon with two double bonds to carbons""",
     longDesc = 
 u"""
-
-
+(540, 610, 2),	#C-C-C scissor
+(1970, 2140, 1),#C-C-C asymmetric
 """,
 )
 
@@ -360,8 +380,11 @@ entry(
     shortDesc = u"""carbon with a double bond to carbon and a single bond to R""",
     longDesc = 
 u"""
-
-
+(2995, 3025, 1),	#C-H stretch
+(975, 1000, 1),		#R-C-H bend
+(1300, 1375, 1),	#R-C-H bend
+(400, 500, 1),		#CdC-R scissor
+(1630, 1680, 1),	#CdC stretch
 """,
 )
 
@@ -384,8 +407,8 @@ entry(
     shortDesc = u"""carbon with one triplet bond and one single bond""",
     longDesc = 
 u"""
-
-
+(2100, 2250, 1),	#CtC stretch
+(500, 550, 1),		#CtC-C bend
 """,
 )
 
@@ -412,8 +435,10 @@ entry(
     shortDesc = u"""carbon with three single bonds""",
     longDesc = 
 u"""
-
-
+(1380, 1390, 2),	#R-C-H bend
+(370, 380, 2),		#C-C-C scissor
+(2800, 3000, 1),	#C-H stretch
+(430, 440, 1),		#Umbrella
 """,
 )
 
@@ -439,8 +464,10 @@ entry(
     shortDesc = u"""carbon with one carbon double bond and two single bonds""",
     longDesc = 
 u"""
-
-
+(325, 375, 1),	#R-C-R scissor
+(415, 465, 1),	#CdC-R scissor
+(420, 450, 1),	#Umbrella
+(1700, 1750, 1),#CdC stretch
 """,
 )
 
@@ -466,8 +493,10 @@ entry(
     shortDesc = u"""carbon with one oxygen double bond and two single bonds""",
     longDesc = 
 u"""
-
-
+(365, 385, 1),	#R-C-R scissor
+(505, 600, 1),	#OdC-R scissor
+(445, 480, 1),	#Umbrella
+(1700, 1720, 1),#OdC stretch
 """,
 )
 
@@ -493,8 +522,9 @@ entry(
     shortDesc = u"""carbon with four single bonds to carbon""",
     longDesc = 
 u"""
-
-
+(350, 400, 2),	#C-C-C scissor
+(1190, 1240, 2),#C-C-C bend
+(400, 500, 1),	#Umbrella
 """,
 )
 
@@ -537,8 +567,11 @@ entry(
     shortDesc = u"""Carbon radical with one single bond""",
     longDesc = 
 u"""
-
-
+(3000, 3100, 2),	#C-H stretch
+(415, 465, 1),		#R-C-H swing
+(780, 850, 1),		#R-C-H rock
+(1435, 1475, 1),	#R-C-H scissor
+(900, 1100, 1),		
 """,
 )
 
@@ -563,8 +596,10 @@ entry(
     shortDesc = u"""carbon radical with one single bond""",
     longDesc = 
 u"""
-
-
+(3115, 3125, 1),	#C-H stretch
+(620, 680, 1),		#CdC-H bend
+(785, 800, 1),		#CdC-H bend
+(1600, 1700, 1),
 """,
 )
 
@@ -607,8 +642,10 @@ entry(
     shortDesc = u"""carbon radical with two single bonds""",
     longDesc = 
 u"""
-
-
+(3000, 3050, 1),	#C-H stretch
+(390, 425, 1),		#R-C-H bend
+(1340, 1360, 1),	#R-C-H bend
+(335, 370, 1),		#R-C-R scissor
 """,
 )
 
@@ -632,8 +669,9 @@ entry(
     shortDesc = u"""carbon radical with one oxygen double bond and one single bond""",
     longDesc = 
 u"""
-
-
+(1850, 1860, 1),	#OdC stretch
+(440, 470, 1),		#OdC-R bend
+(900, 1000, 1),
 """,
 )
 
@@ -656,8 +694,8 @@ entry(
     shortDesc = u"""carbon radical with one carbon double bond and one single bond""",
     longDesc = 
 u"""
-
-
+(1670, 1700, 1),	#CdC stretch
+(300, 440, 1),		#CdC-R bend
 """,
 )
 
@@ -681,8 +719,8 @@ entry(
     shortDesc = u"""carbon radical with three single bonds""",
     longDesc = 
 u"""
-
-
+(360, 370, 2),	#C-C-C scissor
+(300, 400, 1),	#Umbrella
 """,
 )
 
@@ -791,8 +829,9 @@ entry(
     shortDesc = u"""Oxygen with a single bond to hydrogen and another single bond to carbon""",
     longDesc = 
 u"""
-
-
+(3580, 3650, 1),	#O-H stretch
+(1210, 1345, 1),	#R-O-H bend
+(900, 1100, 1),
 """,
 )
 
@@ -814,8 +853,7 @@ entry(
     shortDesc = u"""oxygen with two single carbon bonds""",
     longDesc = 
 u"""
-
-
+(350, 500, 1),	#C-O-C scissor
 """,
 )
 
@@ -842,8 +880,11 @@ entry(
     shortDesc = u"""Peroxide""",
     longDesc = 
 u"""
-
-
+(3580, 3650, 1),	#O-H stretch
+(1300, 1320, 1),	#O-O-H bend
+(350, 425, 1),		#C-O-O scissor
+(825, 875, 1),		#O-O stretch
+(900, 1100, 1),
 """,
 )
 
@@ -867,8 +908,8 @@ entry(
     shortDesc = u"""peroxide""",
     longDesc = 
 u"""
-
-
+(350, 500, 1),	#C-O-O scissor
+(795, 815, 1),	#O-O stretch
 """,
 )
 
@@ -892,8 +933,9 @@ entry(
     shortDesc = u"""Oxygen single bonded to one carbon and one oxygen""",
     longDesc = 
 u"""
-
-
+(470, 515, 1),	#C-O-O scissor
+(1100, 1170, 1),#O-O stretch
+(900, 1100, 1)
 """,
 )
 
