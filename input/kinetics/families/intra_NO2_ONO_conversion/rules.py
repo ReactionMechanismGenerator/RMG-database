@@ -13,14 +13,10 @@ entry(
         A = (2.76e+14, 's^-1'),
         n = 0,
         alpha = 0,
-        E0 = (67.0, 'kcal/mol'),
+        E0 = (67, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    shortDesc = u"",
-    longDesc = 
-u"""
-
-""",
 )
+

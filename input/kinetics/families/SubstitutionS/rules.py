@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "S-HCs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (404000000.0, 'cm^3/(mol*s)'),
+        A = (4.04e+08, 'cm^3/(mol*s)'),
         n = 1.49,
         alpha = 0,
         E0 = (3.9, 'kcal/mol'),
@@ -19,17 +19,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2,
     label = "S-HCs(CsHH);HJ",
     kinetics = ArrheniusEP(
-        A = (30600000.0, 'cm^3/(mol*s)'),
+        A = (3.06e+07, 'cm^3/(mol*s)'),
         n = 2.13,
         alpha = 0,
         E0 = (3.69, 'kcal/mol'),
@@ -38,17 +34,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3,
     label = "S-HCs(CsCsH);HJ",
     kinetics = ArrheniusEP(
-        A = (284000000.0, 'cm^3/(mol*s)'),
+        A = (2.84e+08, 'cm^3/(mol*s)'),
         n = 1.59,
         alpha = 0,
         E0 = (3.1, 'kcal/mol'),
@@ -57,17 +49,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 4,
     label = "S-HCs(CsCsCs);HJ",
     kinetics = ArrheniusEP(
-        A = (279000000.0, 'cm^3/(mol*s)'),
+        A = (2.79e+08, 'cm^3/(mol*s)'),
         n = 1.63,
         alpha = 0,
         E0 = (2.4, 'kcal/mol'),
@@ -76,17 +64,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 5,
     label = "S-HCds(H);HJ",
     kinetics = ArrheniusEP(
-        A = (290000000.0, 'cm^3/(mol*s)'),
+        A = (2.9e+08, 'cm^3/(mol*s)'),
         n = 1.54,
         alpha = 0,
         E0 = (4.5, 'kcal/mol'),
@@ -95,17 +79,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 6,
     label = "S-HCds(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (1190000.0, 'cm^3/(mol*s)'),
+        A = (1.19e+06, 'cm^3/(mol*s)'),
         n = 2.44,
         alpha = 0,
         E0 = (4.7, 'kcal/mol'),
@@ -114,17 +94,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 7,
     label = "S-HCs(CdHH);HJ",
     kinetics = ArrheniusEP(
-        A = (142000000.0, 'cm^3/(mol*s)'),
+        A = (1.42e+08, 'cm^3/(mol*s)'),
         n = 1.66,
         alpha = 0,
         E0 = (2, 'kcal/mol'),
@@ -133,17 +109,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 8,
     label = "S-HCs(CdCsH);HJ",
     kinetics = ArrheniusEP(
-        A = (293000000.0, 'cm^3/(mol*s)'),
+        A = (2.93e+08, 'cm^3/(mol*s)'),
         n = 1.57,
         alpha = 0,
         E0 = (2, 'kcal/mol'),
@@ -152,17 +124,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 9,
     label = "S-HCs(CdCsCs);HJ",
     kinetics = ArrheniusEP(
-        A = (666000000.0, 'cm^3/(mol*s)'),
+        A = (6.66e+08, 'cm^3/(mol*s)'),
         n = 1.56,
         alpha = 0,
         E0 = (1.7, 'kcal/mol'),
@@ -171,17 +139,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 10,
     label = "S-HCs(CtHH);HJ",
     kinetics = ArrheniusEP(
-        A = (281000000.0, 'cm^3/(mol*s)'),
+        A = (2.81e+08, 'cm^3/(mol*s)'),
         n = 1.57,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
@@ -190,17 +154,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 11,
     label = "S-HCs(CtCsH);HJ",
     kinetics = ArrheniusEP(
-        A = (779000000.0, 'cm^3/(mol*s)'),
+        A = (7.79e+08, 'cm^3/(mol*s)'),
         n = 1.49,
         alpha = 0,
         E0 = (2.5, 'kcal/mol'),
@@ -209,17 +169,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 12,
     label = "S-HCs(CtCsCs);HJ",
     kinetics = ArrheniusEP(
-        A = (476000000.0, 'cm^3/(mol*s)'),
+        A = (4.76e+08, 'cm^3/(mol*s)'),
         n = 1.51,
         alpha = 0,
         E0 = (2.1, 'kcal/mol'),
@@ -228,17 +184,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 13,
     label = "S-Cs(HHH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (164000000.0, 'cm^3/(mol*s)'),
+        A = (1.64e+08, 'cm^3/(mol*s)'),
         n = 1.52,
         alpha = 0,
         E0 = (3.4, 'kcal/mol'),
@@ -247,17 +199,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 14,
     label = "S-Cs(HHH)Cs(CsHH);HJ",
     kinetics = ArrheniusEP(
-        A = (198000000.0, 'cm^3/(mol*s)'),
+        A = (1.98e+08, 'cm^3/(mol*s)'),
         n = 1.51,
         alpha = 0,
         E0 = (3, 'kcal/mol'),
@@ -266,17 +214,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 15,
     label = "S-Cs(HHH)Cs(CsCsH);HJ",
     kinetics = ArrheniusEP(
-        A = (368000000.0, 'cm^3/(mol*s)'),
+        A = (3.68e+08, 'cm^3/(mol*s)'),
         n = 1.48,
         alpha = 0,
         E0 = (3.3, 'kcal/mol'),
@@ -285,17 +229,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 16,
     label = "S-Cs(HHH)Cs(CsCsCs);HJ",
     kinetics = ArrheniusEP(
-        A = (314000000.0, 'cm^3/(mol*s)'),
+        A = (3.14e+08, 'cm^3/(mol*s)'),
         n = 1.5,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
@@ -304,17 +244,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 17,
     label = "S-Cs(HHH)Cds(H);HJ",
     kinetics = ArrheniusEP(
-        A = (23800000000.0, 'cm^3/(mol*s)'),
+        A = (2.38e+10, 'cm^3/(mol*s)'),
         n = 0.79,
         alpha = 0,
         E0 = (8.2, 'kcal/mol'),
@@ -323,17 +259,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 18,
     label = "S-Cs(HHH)Cds(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (2810000000.0, 'cm^3/(mol*s)'),
+        A = (2.81e+09, 'cm^3/(mol*s)'),
         n = 1.15,
         alpha = 0,
         E0 = (5.9, 'kcal/mol'),
@@ -342,17 +274,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 19,
     label = "S-Cs(HHH)Cs(CdHH);HJ",
     kinetics = ArrheniusEP(
-        A = (253000000.0, 'cm^3/(mol*s)'),
+        A = (2.53e+08, 'cm^3/(mol*s)'),
         n = 1.54,
         alpha = 0,
         E0 = (2.2, 'kcal/mol'),
@@ -361,17 +289,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 20,
     label = "S-Cs(HHH)Cs(CdCsH);HJ",
     kinetics = ArrheniusEP(
-        A = (405000000.0, 'cm^3/(mol*s)'),
+        A = (4.05e+08, 'cm^3/(mol*s)'),
         n = 1.49,
         alpha = 0,
         E0 = (2, 'kcal/mol'),
@@ -380,17 +304,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 21,
     label = "S-Cs(HHH)Cs(CdCsCs);HJ",
     kinetics = ArrheniusEP(
-        A = (192000000.0, 'cm^3/(mol*s)'),
+        A = (1.92e+08, 'cm^3/(mol*s)'),
         n = 1.57,
         alpha = 0,
         E0 = (1.6, 'kcal/mol'),
@@ -399,17 +319,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 22,
     label = "S-Cs(HHH)Cs(CtHH);HJ",
     kinetics = ArrheniusEP(
-        A = (133000000.0, 'cm^3/(mol*s)'),
+        A = (1.33e+08, 'cm^3/(mol*s)'),
         n = 1.62,
         alpha = 0,
         E0 = (2.5, 'kcal/mol'),
@@ -418,17 +334,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 23,
     label = "S-Cs(HHH)Cs(CtCsH);HJ",
     kinetics = ArrheniusEP(
-        A = (187000000.0, 'cm^3/(mol*s)'),
+        A = (1.87e+08, 'cm^3/(mol*s)'),
         n = 1.62,
         alpha = 0,
         E0 = (2, 'kcal/mol'),
@@ -437,17 +349,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 24,
     label = "S-Cs(HHH)Cs(CtCsCs);HJ",
     kinetics = ArrheniusEP(
-        A = (136000000.0, 'cm^3/(mol*s)'),
+        A = (1.36e+08, 'cm^3/(mol*s)'),
         n = 1.63,
         alpha = 0,
         E0 = (1.9, 'kcal/mol'),
@@ -456,17 +364,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 25,
     label = "S-Cs(HHH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (164000000.0, 'cm^3/(mol*s)'),
+        A = (1.64e+08, 'cm^3/(mol*s)'),
         n = 1.52,
         alpha = 0,
         E0 = (3.4, 'kcal/mol'),
@@ -475,17 +379,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 26,
     label = "S-Cs(CsHH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (68100000.0, 'cm^3/(mol*s)'),
+        A = (6.81e+07, 'cm^3/(mol*s)'),
         n = 1.48,
         alpha = 0,
         E0 = (2.9, 'kcal/mol'),
@@ -494,17 +394,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 27,
     label = "S-Cs(CsCsH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (65700000.0, 'cm^3/(mol*s)'),
+        A = (6.57e+07, 'cm^3/(mol*s)'),
         n = 1.45,
         alpha = 0,
         E0 = (3.8, 'kcal/mol'),
@@ -513,17 +409,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 28,
     label = "S-Cs(CsCsCs)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (86600000.0, 'cm^3/(mol*s)'),
+        A = (8.66e+07, 'cm^3/(mol*s)'),
         n = 1.54,
         alpha = 0,
         E0 = (4.5, 'kcal/mol'),
@@ -532,17 +424,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 29,
     label = "S-Cds(H)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (86200000.0, 'cm^3/(mol*s)'),
+        A = (8.62e+07, 'cm^3/(mol*s)'),
         n = 1.53,
         alpha = 0,
         E0 = (4.6, 'kcal/mol'),
@@ -551,17 +439,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 30,
     label = "S-Cds(Cs)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (78100000.0, 'cm^3/(mol*s)'),
+        A = (7.81e+07, 'cm^3/(mol*s)'),
         n = 1.6,
         alpha = 0,
         E0 = (5.3, 'kcal/mol'),
@@ -570,17 +454,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 31,
     label = "S-Cs(CdHH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (161000000.0, 'cm^3/(mol*s)'),
+        A = (1.61e+08, 'cm^3/(mol*s)'),
         n = 1.54,
         alpha = 0,
         E0 = (3.5, 'kcal/mol'),
@@ -589,17 +469,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 32,
     label = "S-Cs(CdCsH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (134000000.0, 'cm^3/(mol*s)'),
+        A = (1.34e+08, 'cm^3/(mol*s)'),
         n = 1.43,
         alpha = 0,
         E0 = (4.4, 'kcal/mol'),
@@ -608,17 +484,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 33,
     label = "S-Cs(CdCsCs)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (131000000.0, 'cm^3/(mol*s)'),
+        A = (1.31e+08, 'cm^3/(mol*s)'),
         n = 1.52,
         alpha = 0,
         E0 = (5.1, 'kcal/mol'),
@@ -627,17 +499,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 34,
     label = "S-Cs(CtHH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (121000000.0, 'cm^3/(mol*s)'),
+        A = (1.21e+08, 'cm^3/(mol*s)'),
         n = 1.54,
         alpha = 0,
         E0 = (3.6, 'kcal/mol'),
@@ -646,17 +514,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 35,
     label = "S-Cs(CtCsH)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (142000000.0, 'cm^3/(mol*s)'),
+        A = (1.42e+08, 'cm^3/(mol*s)'),
         n = 1.47,
         alpha = 0,
         E0 = (3.8, 'kcal/mol'),
@@ -665,17 +529,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 36,
     label = "S-Cs(CtCsCs)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (76800000.0, 'cm^3/(mol*s)'),
+        A = (7.68e+07, 'cm^3/(mol*s)'),
         n = 1.59,
         alpha = 0,
         E0 = (4.6, 'kcal/mol'),
@@ -684,10 +544,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -703,10 +559,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -722,10 +574,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -741,17 +589,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 40,
     label = "S-HCs(CsCsCs);CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (1380000.0, 'cm^3/(mol*s)'),
+        A = (1.38e+06, 'cm^3/(mol*s)'),
         n = 1.59,
         alpha = 0,
         E0 = (9.2, 'kcal/mol'),
@@ -760,10 +604,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -779,10 +619,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -798,10 +634,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -817,10 +649,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -836,10 +664,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -855,10 +679,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -874,10 +694,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -893,10 +709,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -912,17 +724,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 49,
     label = "S-Ss(H)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (94400000.0, 'cm^3/(mol*s)'),
+        A = (9.44e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.8, 'kcal/mol'),
@@ -931,17 +739,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 50,
     label = "S-Ss(Cs)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (74700000.0, 'cm^3/(mol*s)'),
+        A = (7.47e+07, 'cm^3/(mol*s)'),
         n = 1.66,
         alpha = 0,
         E0 = (5.1, 'kcal/mol'),
@@ -950,17 +754,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 51,
     label = "S-HSs(H);HJ",
     kinetics = ArrheniusEP(
-        A = (543000000.0, 'cm^3/(mol*s)'),
+        A = (5.43e+08, 'cm^3/(mol*s)'),
         n = 1.56,
         alpha = 0,
         E0 = (0.8, 'kcal/mol'),
@@ -969,17 +769,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 52,
     label = "S-Cs(HHH)Ss(H);HJ",
     kinetics = ArrheniusEP(
-        A = (407000000.0, 'cm^3/(mol*s)'),
+        A = (4.07e+08, 'cm^3/(mol*s)'),
         n = 1.6,
         alpha = 0,
         E0 = (0.9, 'kcal/mol'),
@@ -988,17 +784,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 53,
     label = "S-HSs(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (1030000000.0, 'cm^3/(mol*s)'),
+        A = (1.03e+09, 'cm^3/(mol*s)'),
         n = 1.54,
         alpha = 0,
         E0 = (0.9, 'kcal/mol'),
@@ -1007,17 +799,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 54,
     label = "S-Cs(HHH)Ss(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (531000000.0, 'cm^3/(mol*s)'),
+        A = (5.31e+08, 'cm^3/(mol*s)'),
         n = 1.6,
         alpha = 0,
         E0 = (0.9, 'kcal/mol'),
@@ -1026,10 +814,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1045,10 +829,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1064,10 +844,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1083,10 +859,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1102,17 +874,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 59,
     label = "S-Ss(H)Ss(H);HJ",
     kinetics = ArrheniusEP(
-        A = (347000000.0, 'cm^3/(mol*s)'),
+        A = (3.47e+08, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (1.8, 'kcal/mol'),
@@ -1121,17 +889,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 60,
     label = "S-HSs(Ss);HJ",
     kinetics = ArrheniusEP(
-        A = (2340000000.0, 'cm^3/(mol*s)'),
+        A = (2.34e+09, 'cm^3/(mol*s)'),
         n = 1.56,
         alpha = 0,
         E0 = (0.5, 'kcal/mol'),
@@ -1140,17 +904,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 61,
     label = "S-Ss(Cs)Ss(H);HJ",
     kinetics = ArrheniusEP(
-        A = (614000000.0, 'cm^3/(mol*s)'),
+        A = (6.14e+08, 'cm^3/(mol*s)'),
         n = 1.63,
         alpha = 0,
         E0 = (1.5, 'kcal/mol'),
@@ -1159,17 +919,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 62,
     label = "S-Cs(HHH)Ss(Ss);HJ",
     kinetics = ArrheniusEP(
-        A = (507000000.0, 'cm^3/(mol*s)'),
+        A = (5.07e+08, 'cm^3/(mol*s)'),
         n = 1.58,
         alpha = 0,
         E0 = (1, 'kcal/mol'),
@@ -1178,17 +934,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 63,
     label = "S-Ss(Ss)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (82300000.0, 'cm^3/(mol*s)'),
+        A = (8.23e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.1, 'kcal/mol'),
@@ -1197,17 +949,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 64,
     label = "S-Ss(H)Ss(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (180000000.0, 'cm^3/(mol*s)'),
+        A = (1.8e+08, 'cm^3/(mol*s)'),
         n = 1.66,
         alpha = 0,
         E0 = (2, 'kcal/mol'),
@@ -1216,17 +964,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 65,
     label = "S-HSs(Ss);HJ",
     kinetics = ArrheniusEP(
-        A = (2900000000.0, 'cm^3/(mol*s)'),
+        A = (2.9e+09, 'cm^3/(mol*s)'),
         n = 1.58,
         alpha = 0,
         E0 = (0.5, 'kcal/mol'),
@@ -1235,17 +979,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 66,
     label = "S-Ss(Ss)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
-        A = (69500000.0, 'cm^3/(mol*s)'),
+        A = (6.95e+07, 'cm^3/(mol*s)'),
         n = 1.64,
         alpha = 0,
         E0 = (5.1, 'kcal/mol'),
@@ -1254,17 +994,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 67,
     label = "S-Ss(Cs)Ss(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (396000000.0, 'cm^3/(mol*s)'),
+        A = (3.96e+08, 'cm^3/(mol*s)'),
         n = 1.66,
         alpha = 0,
         E0 = (1.6, 'kcal/mol'),
@@ -1273,17 +1009,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 68,
     label = "S-Cs(HHH)Ss(Ss);HJ",
     kinetics = ArrheniusEP(
-        A = (739000000.0, 'cm^3/(mol*s)'),
+        A = (7.39e+08, 'cm^3/(mol*s)'),
         n = 1.61,
         alpha = 0,
         E0 = (0.7, 'kcal/mol'),
@@ -1292,10 +1024,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1311,10 +1039,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1330,10 +1054,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1349,10 +1069,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1368,10 +1084,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1387,10 +1099,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1406,10 +1114,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1425,10 +1129,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1444,10 +1144,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1463,10 +1159,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1482,10 +1174,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1501,10 +1189,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1520,10 +1204,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1539,10 +1219,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1558,10 +1234,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1577,10 +1249,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1596,10 +1264,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1615,10 +1279,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1634,10 +1294,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1653,10 +1309,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1672,10 +1324,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1691,10 +1339,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1710,10 +1354,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1729,10 +1369,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1748,10 +1384,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1767,10 +1399,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1786,10 +1414,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1805,10 +1429,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1824,10 +1444,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1843,10 +1459,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1862,10 +1474,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1881,10 +1489,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1900,10 +1504,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1919,10 +1519,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1938,10 +1534,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1957,10 +1549,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1976,10 +1564,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1995,10 +1579,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2014,10 +1594,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2033,10 +1609,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2052,10 +1624,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2071,10 +1639,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2090,10 +1654,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2109,10 +1669,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2128,10 +1684,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2147,10 +1699,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2166,10 +1714,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2185,10 +1729,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2204,10 +1744,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2223,10 +1759,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2242,10 +1774,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2261,10 +1789,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2280,10 +1804,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2299,10 +1819,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2318,10 +1834,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2337,10 +1849,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2356,10 +1864,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2375,10 +1879,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2394,10 +1894,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2413,10 +1909,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2432,10 +1924,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2451,10 +1939,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2470,10 +1954,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2489,10 +1969,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CAC calc CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2508,10 +1984,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2527,10 +1999,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2546,10 +2014,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2565,10 +2029,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2584,10 +2044,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2603,10 +2059,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2622,10 +2074,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2641,10 +2089,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2660,10 +2104,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2679,10 +2119,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2698,10 +2134,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2717,10 +2149,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2736,10 +2164,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2755,10 +2179,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2774,10 +2194,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2793,10 +2209,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2812,10 +2224,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2831,10 +2239,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2850,10 +2254,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2869,10 +2269,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2888,10 +2284,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2907,17 +2299,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 153,
     label = "S-Cs(CsHH)Cs(CsHH);HJ",
     kinetics = ArrheniusEP(
-        A = (12700000.0, 'cm^3/(mol*s)'),
+        A = (1.27e+07, 'cm^3/(mol*s)'),
         n = 2.26,
         alpha = 0,
         E0 = (3.83, 'kcal/mol'),
@@ -2926,17 +2314,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 154,
     label = "S-HCO;HJ",
     kinetics = ArrheniusEP(
-        A = (1260000000.0, 'cm^3/(mol*s)'),
+        A = (1.26e+09, 'cm^3/(mol*s)'),
         n = 1.46,
         alpha = 0,
         E0 = (3.14, 'kcal/mol'),
@@ -2945,17 +2329,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 155,
     label = "S-HCO;CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (3880000.0, 'cm^3/(mol*s)'),
+        A = (3.88e+06, 'cm^3/(mol*s)'),
         n = 1.4,
         alpha = 0,
         E0 = (10.56, 'kcal/mol'),
@@ -2964,17 +2344,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 156,
     label = "S-HCs(CsOsH);HJ",
     kinetics = ArrheniusEP(
-        A = (3910000000.0, 'cm^3/(mol*s)'),
+        A = (3.91e+09, 'cm^3/(mol*s)'),
         n = 1.32,
         alpha = 0,
         E0 = (3.05, 'kcal/mol'),
@@ -2983,10 +2359,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3002,10 +2374,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CAC CBS-QB3 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3021,10 +2389,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""based on 157""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -3040,9 +2404,5 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""based on CAC's 131 calc""",
-    longDesc = 
-u"""
-
-""",
 )
 

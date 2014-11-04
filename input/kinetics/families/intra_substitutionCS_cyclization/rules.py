@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "XSYJ;YJ;C-RRR;S-R",
     kinetics = ArrheniusEP(
-        A = (1000000000000.0, 's^-1'),
+        A = (1e+12, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (50, 'kcal/mol'),
@@ -19,9 +19,5 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
