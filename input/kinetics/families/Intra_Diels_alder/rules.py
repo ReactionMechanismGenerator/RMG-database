@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "cyclohexene",
     kinetics = ArrheniusEP(
-        A = (12400000000.0, 's^-1'),
+        A = (1.24e+10, 's^-1'),
         n = 1.27,
         alpha = 0,
         E0 = (65.6, 'kcal/mol'),
@@ -19,9 +19,5 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""A. G. Vandeputte, value for ring opening JP10=""",
-    longDesc = 
-u"""
-
-""",
 )
 

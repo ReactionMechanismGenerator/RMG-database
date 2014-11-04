@@ -14,7 +14,7 @@ entry(
     index = 835,
     label = "R2OO",
     kinetics = ArrheniusEP(
-        A = (10000000000.0, 's^-1'),
+        A = (1e+10, 's^-1'),
         n = 1,
         alpha = 0,
         E0 = (30, 'kcal/mol'),
@@ -22,18 +22,13 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 836,
     label = "R2OO_2H_2H",
     kinetics = ArrheniusEP(
-        A = (15600000.0, 's^-1'),
+        A = (1.56e+07, 's^-1'),
         n = 1.69,
         alpha = 0,
         E0 = (29.8, 'kcal/mol'),
@@ -42,17 +37,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 837,
     label = "R2OO_HNd_2H",
     kinetics = ArrheniusEP(
-        A = (47900000.0, 's^-1'),
+        A = (4.79e+07, 's^-1'),
         n = 1.46,
         alpha = 0,
         E0 = (29.4, 'kcal/mol'),
@@ -61,17 +52,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 838,
     label = "R2OO_NdNd_2H",
     kinetics = ArrheniusEP(
-        A = (506000000.0, 's^-1'),
+        A = (5.06e+08, 's^-1'),
         n = 1.19,
         alpha = 0,
         E0 = (29.9, 'kcal/mol'),
@@ -80,17 +67,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 839,
     label = "R2OO_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (979000000.0, 's^-1'),
+        A = (9.79e+08, 's^-1'),
         n = 1.17,
         alpha = 0,
         E0 = (30.1, 'kcal/mol'),
@@ -99,17 +82,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 840,
     label = "R2OO_HNd_HNd",
     kinetics = ArrheniusEP(
-        A = (1650000000.0, 's^-1'),
+        A = (1.65e+09, 's^-1'),
         n = 1.01,
         alpha = 0,
         E0 = (29.6, 'kcal/mol'),
@@ -118,17 +97,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 841,
     label = "R2OO_NdNd_HNd",
     kinetics = ArrheniusEP(
-        A = (64800000000.0, 's^-1'),
+        A = (6.48e+10, 's^-1'),
         n = 0.57,
         alpha = 0,
         E0 = (29.9, 'kcal/mol'),
@@ -137,17 +112,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 842,
     label = "R2OO_2H_NdNd",
     kinetics = ArrheniusEP(
-        A = (7480000000.0, 's^-1'),
+        A = (7.48e+09, 's^-1'),
         n = 1.08,
         alpha = 0,
         E0 = (29.7, 'kcal/mol'),
@@ -156,17 +127,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 843,
     label = "R2OO_HNd_NdNd",
     kinetics = ArrheniusEP(
-        A = (811000000000000.0, 's^-1'),
+        A = (8.11e+14, 's^-1'),
         n = -0.78,
         alpha = 0,
         E0 = (30.4, 'kcal/mol'),
@@ -175,10 +142,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -194,10 +157,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -264,7 +223,7 @@ entry(
     index = 847,
     label = "R2OO_O_HNd",
     kinetics = ArrheniusEP(
-        A = (68130000000.0, 's^-1', '*|/', 10),
+        A = (6.813e+10, 's^-1', '*|/', 10),
         n = 0.493,
         alpha = 0,
         E0 = (11.894, 'kcal/mol', '+|-', 2),
@@ -315,7 +274,7 @@ entry(
     index = 848,
     label = "R2OO_O",
     kinetics = ArrheniusEP(
-        A = (6380000000000.0, 's^-1', '*|/', 5),
+        A = (6.38e+12, 's^-1', '*|/', 5),
         n = 0,
         alpha = 0,
         E0 = (11.4, 'kcal/mol', '+|-', 2),
@@ -337,7 +296,7 @@ entry(
     index = 849,
     label = "R2OO_2H_2H",
     kinetics = ArrheniusEP(
-        A = (4840000.0, 's^-1'),
+        A = (4.84e+06, 's^-1'),
         n = 1.67,
         alpha = 0,
         E0 = (29.7, 'kcal/mol'),
@@ -346,169 +305,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 850,
-    label = "R2OO_2H_HNd",
-    kinetics = ArrheniusEP(
-        A = (136000000.0, 's^-1'),
-        n = 1.28,
-        alpha = 0,
-        E0 = (30, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 851,
-    label = "R2OO_HNd_2H",
-    kinetics = ArrheniusEP(
-        A = (208000000.0, 's^-1'),
-        n = 1.25,
-        alpha = 0,
-        E0 = (29.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 852,
-    label = "R2OO_2H_NdNd",
-    kinetics = ArrheniusEP(
-        A = (36600000000.0, 's^-1'),
-        n = 0.62,
-        alpha = 0,
-        E0 = (30.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 853,
-    label = "R2OO_NdNd_2H",
-    kinetics = ArrheniusEP(
-        A = (194000000.0, 's^-1'),
-        n = 1.27,
-        alpha = 0,
-        E0 = (29.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 855,
-    label = "R2OO_HNd_HNd",
-    kinetics = ArrheniusEP(
-        A = (108700000000.0, 's^-1'),
-        n = 0.8,
-        alpha = 0,
-        E0 = (29.9, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""ss ,Multiplied 1.5 to trans rate coefficient , CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 856,
-    label = "R2OO_NdNd_HNd",
-    kinetics = ArrheniusEP(
-        A = (35000000000.0, 's^-1'),
-        n = 0.71,
-        alpha = 0,
-        E0 = (30.1, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 857,
-    label = "R2OO_HNd_NdNd",
-    kinetics = ArrheniusEP(
-        A = (56200000000.0, 's^-1'),
-        n = 0.58,
-        alpha = 0,
-        E0 = (29.6, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 858,
-    label = "R2OO_NdNd_NdNd",
-    kinetics = ArrheniusEP(
-        A = (6250000000000.0, 's^-1'),
-        n = 0.02,
-        alpha = 0,
-        E0 = (30.7, 'kcal/mol'),
-        Tmin = (300, 'K'),
-        Tmax = (1500, 'K'),
-    ),
-    rank = 2,
-    shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 849,
     label = "R2OO_2H_2H",
     kinetics = ArrheniusEP(
-        A = (4840000.0, 's^-1'),
+        A = (4.84e+06, 's^-1'),
         n = 1.67,
         alpha = 0,
         E0 = (29.7, 'kcal/mol'),
@@ -517,17 +320,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 850,
     label = "R2OO_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (136000000.0, 's^-1'),
+        A = (1.36e+08, 's^-1'),
         n = 1.28,
         alpha = 0,
         E0 = (30, 'kcal/mol'),
@@ -536,17 +335,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 850,
+    label = "R2OO_2H_HNd",
+    kinetics = ArrheniusEP(
+        A = (1.36e+08, 's^-1'),
+        n = 1.28,
+        alpha = 0,
+        E0 = (30, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 851,
     label = "R2OO_HNd_2H",
     kinetics = ArrheniusEP(
-        A = (208000000.0, 's^-1'),
+        A = (2.08e+08, 's^-1'),
         n = 1.25,
         alpha = 0,
         E0 = (29.6, 'kcal/mol'),
@@ -555,17 +365,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 851,
+    label = "R2OO_HNd_2H",
+    kinetics = ArrheniusEP(
+        A = (2.08e+08, 's^-1'),
+        n = 1.25,
+        alpha = 0,
+        E0 = (29.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 852,
     label = "R2OO_2H_NdNd",
     kinetics = ArrheniusEP(
-        A = (36600000000.0, 's^-1'),
+        A = (3.66e+10, 's^-1'),
         n = 0.62,
         alpha = 0,
         E0 = (30.1, 'kcal/mol'),
@@ -574,17 +395,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 852,
+    label = "R2OO_2H_NdNd",
+    kinetics = ArrheniusEP(
+        A = (3.66e+10, 's^-1'),
+        n = 0.62,
+        alpha = 0,
+        E0 = (30.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 853,
     label = "R2OO_NdNd_2H",
     kinetics = ArrheniusEP(
-        A = (194000000.0, 's^-1'),
+        A = (1.94e+08, 's^-1'),
         n = 1.27,
         alpha = 0,
         E0 = (29.6, 'kcal/mol'),
@@ -593,17 +425,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 853,
+    label = "R2OO_NdNd_2H",
+    kinetics = ArrheniusEP(
+        A = (1.94e+08, 's^-1'),
+        n = 1.27,
+        alpha = 0,
+        E0 = (29.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 855,
     label = "R2OO_HNd_HNd",
     kinetics = ArrheniusEP(
-        A = (108700000000.0, 's^-1'),
+        A = (1.087e+11, 's^-1'),
         n = 0.8,
         alpha = 0,
         E0 = (29.9, 'kcal/mol'),
@@ -612,17 +455,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ss ,Multiplied 1.5 to trans rate coefficient , CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 855,
+    label = "R2OO_HNd_HNd",
+    kinetics = ArrheniusEP(
+        A = (1.087e+11, 's^-1'),
+        n = 0.8,
+        alpha = 0,
+        E0 = (29.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""ss ,Multiplied 1.5 to trans rate coefficient , CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 856,
     label = "R2OO_NdNd_HNd",
     kinetics = ArrheniusEP(
-        A = (35000000000.0, 's^-1'),
+        A = (3.5e+10, 's^-1'),
         n = 0.71,
         alpha = 0,
         E0 = (30.1, 'kcal/mol'),
@@ -631,17 +485,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 856,
+    label = "R2OO_NdNd_HNd",
+    kinetics = ArrheniusEP(
+        A = (3.5e+10, 's^-1'),
+        n = 0.71,
+        alpha = 0,
+        E0 = (30.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 857,
     label = "R2OO_HNd_NdNd",
     kinetics = ArrheniusEP(
-        A = (56200000000.0, 's^-1'),
+        A = (5.62e+10, 's^-1'),
         n = 0.58,
         alpha = 0,
         E0 = (29.6, 'kcal/mol'),
@@ -650,17 +515,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 857,
+    label = "R2OO_HNd_NdNd",
+    kinetics = ArrheniusEP(
+        A = (5.62e+10, 's^-1'),
+        n = 0.58,
+        alpha = 0,
+        E0 = (29.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 858,
     label = "R2OO_NdNd_NdNd",
     kinetics = ArrheniusEP(
-        A = (6250000000000.0, 's^-1'),
+        A = (6.25e+12, 's^-1'),
         n = 0.02,
         alpha = 0,
         E0 = (30.7, 'kcal/mol'),
@@ -669,17 +545,28 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
-    longDesc = 
-u"""
+)
 
-""",
+entry(
+    index = 858,
+    label = "R2OO_NdNd_NdNd",
+    kinetics = ArrheniusEP(
+        A = (6.25e+12, 's^-1'),
+        n = 0.02,
+        alpha = 0,
+        E0 = (30.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    rank = 2,
+    shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
 )
 
 entry(
     index = 869,
     label = "R2OO_0H_2H",
     kinetics = ArrheniusEP(
-        A = (3630000000.0, 's^-1'),
+        A = (3.63e+09, 's^-1'),
         n = 1.11,
         alpha = 0,
         E0 = (42.7, 'kcal/mol'),
@@ -688,9 +575,5 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""BMK/cbsb7, HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
