@@ -19,10 +19,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38,10 +34,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -57,17 +49,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 4,
     label = "O-HCs(CsCsCs);HJ",
     kinetics = ArrheniusEP(
-        A = (12013600.0, 'cm^3/(mol*s)'),
+        A = (1.20136e+07, 'cm^3/(mol*s)'),
         n = 2.47266,
         alpha = 0,
         E0 = (21.4759, 'kcal/mol'),
@@ -76,10 +64,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -95,17 +79,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 6,
     label = "O-HCds(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (1770540.0, 'cm^3/(mol*s)'),
+        A = (1.77054e+06, 'cm^3/(mol*s)'),
         n = 2.2995,
         alpha = 0,
         E0 = (27.1044, 'kcal/mol'),
@@ -114,10 +94,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -133,10 +109,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -152,10 +124,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -171,10 +139,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -190,10 +154,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -209,10 +169,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -228,10 +184,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -247,10 +199,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -266,10 +214,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -285,10 +229,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -304,17 +244,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 17,
     label = "O-Cs(HHH)Cds(H);HJ",
     kinetics = ArrheniusEP(
-        A = (5843820000.0, 'cm^3/(mol*s)'),
+        A = (5.84382e+09, 'cm^3/(mol*s)'),
         n = 0.40855,
         alpha = 0,
         E0 = (30.3592, 'kcal/mol'),
@@ -323,17 +259,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 18,
     label = "O-Cs(HHH)Cds(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (201997000000.0, 'cm^3/(mol*s)'),
+        A = (2.01997e+11, 'cm^3/(mol*s)'),
         n = 0.59721,
         alpha = 0,
         E0 = (31.5375, 'kcal/mol'),
@@ -342,10 +274,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -361,10 +289,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -380,10 +304,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -399,10 +319,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -418,10 +334,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -437,10 +349,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -456,10 +364,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -475,10 +379,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -494,10 +394,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -513,10 +409,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -532,10 +424,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -551,10 +439,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -570,10 +454,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -589,10 +469,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -608,10 +484,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -627,10 +499,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -646,10 +514,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -665,10 +529,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -684,10 +544,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -703,10 +559,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -722,17 +574,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 42,
     label = "O-HCds(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (3518130.0, 'cm^3/(mol*s)'),
+        A = (3.51813e+06, 'cm^3/(mol*s)'),
         n = 1.59641,
         alpha = 0,
         E0 = (48.0894, 'kcal/mol'),
@@ -741,10 +589,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -760,10 +604,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -779,10 +619,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -798,10 +634,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -817,10 +649,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -836,10 +664,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -855,17 +679,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 51,
     label = "O-HOs(H);HJ",
     kinetics = ArrheniusEP(
-        A = (128437000.0, 'cm^3/(mol*s)'),
+        A = (1.28437e+08, 'cm^3/(mol*s)'),
         n = 1.83697,
         alpha = 0,
         E0 = (4.77337, 'kcal/mol'),
@@ -874,17 +694,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 52,
     label = "O-Cs(HHH)Os(H);HJ",
     kinetics = ArrheniusEP(
-        A = (8010170.0, 'cm^3/(mol*s)'),
+        A = (8.01017e+06, 'cm^3/(mol*s)'),
         n = 1.98323,
         alpha = 0,
         E0 = (6.78234, 'kcal/mol'),
@@ -893,17 +709,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 53,
     label = "O-HOs(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (65906100.0, 'cm^3/(mol*s)'),
+        A = (6.59061e+07, 'cm^3/(mol*s)'),
         n = 1.81476,
         alpha = 0,
         E0 = (4.54109, 'kcal/mol'),
@@ -912,17 +724,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 54,
     label = "O-Cs(HHH)Os(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (70275100000.0, 'cm^3/(mol*s)'),
+        A = (7.02751e+10, 'cm^3/(mol*s)'),
         n = 0.29359,
         alpha = 0,
         E0 = (6.33989, 'kcal/mol'),
@@ -931,10 +739,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -950,10 +754,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -969,10 +769,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -988,17 +784,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 58,
     label = "O-Cs(HHH)Os(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
-        A = (12996000.0, 'cm^3/(mol*s)'),
+        A = (1.2996e+07, 'cm^3/(mol*s)'),
         n = 1.07449,
         alpha = 0,
         E0 = (12.8322, 'kcal/mol'),
@@ -1007,17 +799,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 59,
     label = "O-Os(H)Os(H);HJ",
     kinetics = ArrheniusEP(
-        A = (3737720.0, 'cm^3/(mol*s)'),
+        A = (3.73772e+06, 'cm^3/(mol*s)'),
         n = 2.13626,
         alpha = 0,
         E0 = (8.88506, 'kcal/mol'),
@@ -1026,17 +814,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 60,
     label = "O-HOs(Os);HJ",
     kinetics = ArrheniusEP(
-        A = (717266000.0, 'cm^3/(mol*s)'),
+        A = (7.17266e+08, 'cm^3/(mol*s)'),
         n = 1.4407,
         alpha = 0,
         E0 = (4.33812, 'kcal/mol'),
@@ -1045,17 +829,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 61,
     label = "O-Os(Cs)Os(H);HJ",
     kinetics = ArrheniusEP(
-        A = (2950510.0, 'cm^3/(mol*s)'),
+        A = (2.95051e+06, 'cm^3/(mol*s)'),
         n = 2.54316,
         alpha = 0,
         E0 = (8.72631, 'kcal/mol'),
@@ -1064,17 +844,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 62,
     label = "O-Cs(HHH)Os(Os);HJ",
     kinetics = ArrheniusEP(
-        A = (95652900.0, 'cm^3/(mol*s)'),
+        A = (9.56529e+07, 'cm^3/(mol*s)'),
         n = 2.045,
         alpha = 0,
         E0 = (7.70275, 'kcal/mol'),
@@ -1083,17 +859,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 64,
     label = "O-Os(H)Os(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (1240900.0, 'cm^3/(mol*s)'),
+        A = (1.2409e+06, 'cm^3/(mol*s)'),
         n = 2.35959,
         alpha = 0,
         E0 = (8.92478, 'kcal/mol'),
@@ -1102,17 +874,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 67,
     label = "O-Os(Cs)Os(Cs);HJ",
     kinetics = ArrheniusEP(
-        A = (7954240.0, 'cm^3/(mol*s)'),
+        A = (7.95424e+06, 'cm^3/(mol*s)'),
         n = 2.71236,
         alpha = 0,
         E0 = (9.11699, 'kcal/mol'),
@@ -1121,10 +889,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1140,10 +904,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1159,10 +919,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1178,10 +934,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1197,10 +949,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1216,10 +964,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1235,10 +979,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1254,10 +994,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1273,10 +1009,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1292,10 +1024,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1311,10 +1039,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1330,10 +1054,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1349,10 +1069,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1368,10 +1084,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1387,10 +1099,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1406,10 +1114,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1425,10 +1129,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1444,10 +1144,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1463,10 +1159,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1482,10 +1174,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1501,10 +1189,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1520,10 +1204,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1539,10 +1219,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1558,10 +1234,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1577,10 +1249,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1596,10 +1264,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1615,10 +1279,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1634,10 +1294,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1653,10 +1309,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1672,10 +1324,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1691,10 +1339,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1710,10 +1354,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1729,10 +1369,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1748,10 +1384,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1767,10 +1399,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1786,10 +1414,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1805,10 +1429,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1824,10 +1444,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1843,10 +1459,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1862,10 +1474,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1881,10 +1489,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1900,10 +1504,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1919,10 +1519,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1938,10 +1534,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1957,10 +1549,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1976,10 +1564,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -1995,10 +1579,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2014,10 +1594,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2033,10 +1609,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2052,10 +1624,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2071,10 +1639,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2090,10 +1654,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2109,10 +1669,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2128,10 +1684,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2147,10 +1699,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2166,10 +1714,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2185,10 +1729,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2204,17 +1744,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 133,
     label = "O-Cs(HHH)Cs(HHH);OsJ-H",
     kinetics = ArrheniusEP(
-        A = (23264400.0, 'cm^3/(mol*s)'),
+        A = (2.32644e+07, 'cm^3/(mol*s)'),
         n = 1.47906,
         alpha = 0,
         E0 = (52.3415, 'kcal/mol'),
@@ -2223,10 +1759,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2242,10 +1774,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2261,10 +1789,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2280,10 +1804,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2299,10 +1819,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2318,10 +1834,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2337,10 +1849,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2356,10 +1864,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2375,10 +1879,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2394,10 +1894,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2413,10 +1909,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2432,10 +1924,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2451,10 +1939,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -2470,9 +1954,5 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
-u"""
-
-""",
 )
 

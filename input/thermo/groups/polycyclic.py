@@ -11,7 +11,7 @@ entry(
     label = "PolycyclicRing",
     group = 
 """
-1 * R 0
+1 * R u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43,13 +43,13 @@ entry(
     label = "norbornane",
     group = 
 """
-1 * Cs 0 {3,S} {4,S} {7,S}
-2   Cs 0 {3,S} {5,S} {6,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {5,S}
-5   Cs 0 {2,S} {4,S}
-6   Cs 0 {2,S} {7,S}
-7   Cs 0 {1,S} {6,S}
+1 * Cs u0 {3,S} {4,S} {7,S}
+2   Cs u0 {3,S} {5,S} {6,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {5,S}
+5   Cs u0 {2,S} {4,S}
+6   Cs u0 {2,S} {7,S}
+7   Cs u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -69,16 +69,16 @@ entry(
     label = "exo-tricyclo[5.2.1.0(2.6)]decane",
     group = 
 """
-1  * Cs 0 {3,S} {4,S} {7,S}
-2    Cs 0 {3,S} {5,S} {6,S}
-3    Cs 0 {1,S} {2,S}
-4    Cs 0 {1,S} {5,S}
-5    Cs 0 {2,S} {4,S}
-6    Cs 0 {2,S} {7,S} {10,S}
-7    Cs 0 {1,S} {6,S} {8,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {8,S} {10,S}
-10   Cs 0 {6,S} {9,S}
+1  * Cs u0 {3,S} {4,S} {7,S}
+2    Cs u0 {3,S} {5,S} {6,S}
+3    Cs u0 {1,S} {2,S}
+4    Cs u0 {1,S} {5,S}
+5    Cs u0 {2,S} {4,S}
+6    Cs u0 {2,S} {7,S} {10,S}
+7    Cs u0 {1,S} {6,S} {8,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {8,S} {10,S}
+10   Cs u0 {6,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -98,16 +98,16 @@ entry(
     label = "exo-tricyclo[5.2.1.0(2.6)]decene",
     group = 
 """
-1  * Cs 0 {3,S} {4,S} {7,S}
-2    Cs 0 {3,S} {5,S} {6,S}
-3    Cs 0 {1,S} {2,S}
-4    Cs 0 {1,S} {5,S}
-5    Cs 0 {2,S} {4,S}
-6    Cs 0 {2,S} {7,S} {10,S}
-7    Cs 0 {1,S} {6,S} {8,S}
-8    Cd 0 {7,S} {9,D}
-9    Cd 0 {8,D} {10,S}
-10   Cs 0 {6,S} {9,S}
+1  * Cs u0 {3,S} {4,S} {7,S}
+2    Cs u0 {3,S} {5,S} {6,S}
+3    Cs u0 {1,S} {2,S}
+4    Cs u0 {1,S} {5,S}
+5    Cs u0 {2,S} {4,S}
+6    Cs u0 {2,S} {7,S} {10,S}
+7    Cs u0 {1,S} {6,S} {8,S}
+8    Cd u0 {7,S} {9,D}
+9    Cd u0 {8,D} {10,S}
+10   Cs u0 {6,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -127,16 +127,16 @@ entry(
     label = "exo-tricyclo[5.2.1.0(1.5)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {5,S} {9,S} {10,S}
-2    Cs 0 {1,S} {3,S} {6,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
-5    Cs 0 {1,S} {4,S}
-6    Cs 0 {2,S} {7,S}
-7    Cs 0 {6,S} {8,S} {10,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {1,S} {8,S}
-10   Cs 0 {1,S} {7,S}
+1  * Cs u0 {2,S} {5,S} {9,S} {10,S}
+2    Cs u0 {1,S} {3,S} {6,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S}
+5    Cs u0 {1,S} {4,S}
+6    Cs u0 {2,S} {7,S}
+7    Cs u0 {6,S} {8,S} {10,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {1,S} {8,S}
+10   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -156,16 +156,16 @@ entry(
     label = "tricyclo[5.2.1.0(3.8)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {9,S} {10,S}
-2    Cs 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {8,S}
-4    Cs 0 {3,S} {5,S} {10,S}
-5    Cs 0 {4,S} {6,S}
-6    Cs 0 {5,S} {7,S}
-7    Cs 0 {6,S} {8,S}
-8    Cs 0 {3,S} {7,S} {9,S}
-9    Cs 0 {1,S} {8,S}
-10   Cs 0 {1,S} {4,S}
+1  * Cs u0 {2,S} {9,S} {10,S}
+2    Cs u0 {1,S} {3,S}
+3    Cs u0 {2,S} {4,S} {8,S}
+4    Cs u0 {3,S} {5,S} {10,S}
+5    Cs u0 {4,S} {6,S}
+6    Cs u0 {5,S} {7,S}
+7    Cs u0 {6,S} {8,S}
+8    Cs u0 {3,S} {7,S} {9,S}
+9    Cs u0 {1,S} {8,S}
+10   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -185,13 +185,13 @@ entry(
     label = "norbornene",
     group = 
 """
-1 * Cs 0 {3,S} {4,S} {7,S}
-2   Cs 0 {3,S} {5,S} {6,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {5,S}
-5   Cs 0 {2,S} {4,S}
-6   C  0 {2,S} {7,D}
-7   C  0 {1,S} {6,D}
+1 * Cs u0 {3,S} {4,S} {7,S}
+2   Cs u0 {3,S} {5,S} {6,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {5,S}
+5   Cs u0 {2,S} {4,S}
+6   C  u0 {2,S} {7,D}
+7   C  u0 {1,S} {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -211,16 +211,16 @@ entry(
     label = "exo-tricyclo[5.2.1.0(2.6)]dec-8-ene",
     group = 
 """
-1  * Cs 0 {3,S} {4,S} {7,S}
-2    Cs 0 {3,S} {5,S} {6,S}
-3    Cs 0 {1,S} {2,S}
-4    Cs 0 {1,S} {5,S} {8,S}
-5    Cs 0 {2,S} {4,S} {10,S}
-6    C  0 {2,S} {7,D}
-7    C  0 {1,S} {6,D}
-8    Cs 0 {4,S} {9,S}
-9    Cs 0 {8,S} {10,S}
-10   Cs 0 {5,S} {9,S}
+1  * Cs u0 {3,S} {4,S} {7,S}
+2    Cs u0 {3,S} {5,S} {6,S}
+3    Cs u0 {1,S} {2,S}
+4    Cs u0 {1,S} {5,S} {8,S}
+5    Cs u0 {2,S} {4,S} {10,S}
+6    C  u0 {2,S} {7,D}
+7    C  u0 {1,S} {6,D}
+8    Cs u0 {4,S} {9,S}
+9    Cs u0 {8,S} {10,S}
+10   Cs u0 {5,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -252,14 +252,14 @@ entry(
     label = "bicyclo[3.2.1]octane",
     group = 
 """
-1 * Cs 0 {2,S} {6,S} {8,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S} {7,S}
-6   Cs 0 {1,S} {5,S}
-7   Cs 0 {5,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {6,S} {8,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S} {7,S}
+6   Cs u0 {1,S} {5,S}
+7   Cs u0 {5,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -279,16 +279,16 @@ entry(
     label = "tricyclo[4.2.1.1(2.5)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {6,S} {8,S}
-2    Cs 0 {1,S} {3,S} {9,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S} {10,S}
-5    Cs 0 {4,S} {6,S} {7,S}
-6    Cs 0 {1,S} {5,S}
-7    Cs 0 {5,S} {8,S}
-8    Cs 0 {1,S} {7,S}
-9    Cs 0 {2,S} {10,S}
-10   Cs 0 {4,S} {9,S}
+1  * Cs u0 {2,S} {6,S} {8,S}
+2    Cs u0 {1,S} {3,S} {9,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S} {10,S}
+5    Cs u0 {4,S} {6,S} {7,S}
+6    Cs u0 {1,S} {5,S}
+7    Cs u0 {5,S} {8,S}
+8    Cs u0 {1,S} {7,S}
+9    Cs u0 {2,S} {10,S}
+10   Cs u0 {4,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -308,14 +308,14 @@ entry(
     label = "bicyclo[3.2.1]octene",
     group = 
 """
-1 * Cs 0 {2,S} {6,S} {8,S}
-2   C  0 {1,S} {3,D}
-3   C  0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S} {7,S}
-6   Cs 0 {1,S} {5,S}
-7   Cs 0 {5,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {6,S} {8,S}
+2   C  u0 {1,S} {3,D}
+3   C  u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S} {7,S}
+6   Cs u0 {1,S} {5,S}
+7   Cs u0 {5,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -347,15 +347,15 @@ entry(
     label = "indane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S}
-3   Cs 0 {1,S} {5,S}
-4   C  0 {2,S} {5,B} {6,B}
-5   C  0 {3,S} {4,B} {7,B}
-6   C  0 {4,B} {8,B}
-7   C  0 {5,B} {9,B}
-8   C  0 {6,B} {9,B}
-9   C  0 {7,B} {8,B}
+1 * Cs u0 {2,S} {3,S}
+2   Cs u0 {1,S} {4,S}
+3   Cs u0 {1,S} {5,S}
+4   C  u0 {2,S} {5,B} {6,B}
+5   C  u0 {3,S} {4,B} {7,B}
+6   C  u0 {4,B} {8,B}
+7   C  u0 {5,B} {9,B}
+8   C  u0 {6,B} {9,B}
+9   C  u0 {7,B} {8,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -375,15 +375,15 @@ entry(
     label = "indene",
     group = 
 """
-1 * Cs 0 {2,S} {4,S}
-2   C  0 {1,S} {3,B} {5,B}
-3   C  0 {2,B} {6,S} {7,B}
-4   C  0 {1,S} {6,D}
-5   C  0 {2,B} {8,B}
-6   C  0 {3,S} {4,D}
-7   C  0 {3,B} {9,B}
-8   C  0 {5,B} {9,B}
-9   C  0 {7,B} {8,B}
+1 * Cs u0 {2,S} {4,S}
+2   C  u0 {1,S} {3,B} {5,B}
+3   C  u0 {2,B} {6,S} {7,B}
+4   C  u0 {1,S} {6,D}
+5   C  u0 {2,B} {8,B}
+6   C  u0 {3,S} {4,D}
+7   C  u0 {3,B} {9,B}
+8   C  u0 {5,B} {9,B}
+9   C  u0 {7,B} {8,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -403,15 +403,15 @@ entry(
     label = "cis-octahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {4,S}
-2   Cs 0 {1,S} {5,S} {6,S}
-3   Cs 0 {1,S} {9,S}
-4   Cs 0 {1,S} {7,S}
-5   Cs 0 {2,S} {8,S}
-6   Cs 0 {2,S} {9,S}
-7   Cs 0 {4,S} {8,S}
-8   Cs 0 {5,S} {7,S}
-9   Cs 0 {3,S} {6,S}
+1 * Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {5,S} {6,S}
+3   Cs u0 {1,S} {9,S}
+4   Cs u0 {1,S} {7,S}
+5   Cs u0 {2,S} {8,S}
+6   Cs u0 {2,S} {9,S}
+7   Cs u0 {4,S} {8,S}
+8   Cs u0 {5,S} {7,S}
+9   Cs u0 {3,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -431,16 +431,16 @@ entry(
     label = "tricyclo[4.3.1.0(3.7)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S} {5,S} {6,S}
-3    Cs 0 {1,S} {9,S}
-4    Cs 0 {1,S} {7,S}
-5    Cs 0 {2,S} {8,S}
-6    Cs 0 {2,S} {9,S} {10,S}
-7    Cs 0 {4,S} {8,S} {10,S}
-8    Cs 0 {5,S} {7,S}
-9    Cs 0 {3,S} {6,S}
-10   Cs 0 {6,S} {7,S}
+1  * Cs u0 {2,S} {3,S} {4,S}
+2    Cs u0 {1,S} {5,S} {6,S}
+3    Cs u0 {1,S} {9,S}
+4    Cs u0 {1,S} {7,S}
+5    Cs u0 {2,S} {8,S}
+6    Cs u0 {2,S} {9,S} {10,S}
+7    Cs u0 {4,S} {8,S} {10,S}
+8    Cs u0 {5,S} {7,S}
+9    Cs u0 {3,S} {6,S}
+10   Cs u0 {6,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -460,16 +460,16 @@ entry(
     label = "tricyclo[4.3.1.0(3.8)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S} {5,S} {6,S}
-3    Cs 0 {1,S} {9,S}
-4    Cs 0 {1,S} {7,S}
-5    Cs 0 {2,S} {8,S}
-6    Cs 0 {2,S} {9,S}
-7    Cs 0 {4,S} {8,S} {10,S}
-8    Cs 0 {5,S} {7,S}
-9    Cs 0 {3,S} {6,S} {10,S}
-10   Cs 0 {7,S} {9,S}
+1  * Cs u0 {2,S} {3,S} {4,S}
+2    Cs u0 {1,S} {5,S} {6,S}
+3    Cs u0 {1,S} {9,S}
+4    Cs u0 {1,S} {7,S}
+5    Cs u0 {2,S} {8,S}
+6    Cs u0 {2,S} {9,S}
+7    Cs u0 {4,S} {8,S} {10,S}
+8    Cs u0 {5,S} {7,S}
+9    Cs u0 {3,S} {6,S} {10,S}
+10   Cs u0 {7,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -501,15 +501,15 @@ entry(
     label = "2.3.3a.4.5.6-hexahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {9,S}
-2   Cd 0 {1,S} {3,D} {7,S}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {2,S} {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cs u0 {2,S} {9,S}
+2   Cd u0 {1,S} {3,D} {7,S}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {2,S} {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -529,15 +529,15 @@ entry(
     label = "2.4.5.6.7.7a-hexahydro-1H-indene",
     group = 
 """
-1 * Cd 0 {2,D} {5,S} {9,S}
-2   Cd 0 {1,D} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cd u0 {2,D} {5,S} {9,S}
+2   Cd u0 {1,D} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -557,15 +557,15 @@ entry(
     label = "2.3.3a.4.5.7a-hexahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S} {6,S}
-6   Cd 0 {5,S} {7,D}
-7   Cd 0 {6,D} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cs u0 {2,S} {5,S} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S} {6,S}
+6   Cd u0 {5,S} {7,D}
+7   Cd u0 {6,D} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = u'2.4.5.6.7.7a-hexahydro-1H-indene',
     shortDesc = u"""""",
@@ -580,15 +580,15 @@ entry(
     label = "2.3.3a.4.7.7a-hexahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cd 0 {6,S} {8,D}
-8   Cd 0 {7,D} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cs u0 {2,S} {5,S} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {8,D}
+8   Cd u0 {7,D} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = u'2.4.5.6.7.7a-hexahydro-1H-indene',
     shortDesc = u"""""",
@@ -603,15 +603,15 @@ entry(
     label = "2.3.4.5.6.7-hexahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {9,S}
-2   Cd 0 {1,S} {3,S} {7,D}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cd 0 {2,D} {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cs u0 {2,S} {9,S}
+2   Cd u0 {1,S} {3,S} {7,D}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {2,D} {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = u'2.4.5.6.7.7a-hexahydro-1H-indene',
     shortDesc = u"""""",
@@ -626,15 +626,15 @@ entry(
     label = "3a.4.5.6.7.7a-hexahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {9,S}
-2   Cs 0 {1,S} {3,S} {7,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {2,S} {6,S} {8,S}
-8   Cd 0 {7,S} {9,D}
-9   Cd 0 {1,S} {8,D}
+1 * Cs u0 {2,S} {9,S}
+2   Cs u0 {1,S} {3,S} {7,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {2,S} {6,S} {8,S}
+8   Cd u0 {7,S} {9,D}
+9   Cd u0 {1,S} {8,D}
 """,
     thermo = u'2.4.5.6.7.7a-hexahydro-1H-indene',
     shortDesc = u"""""",
@@ -661,15 +661,15 @@ entry(
     label = "2.3.3a.7a-tetrahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S} {6,S}
-6   Cd 0 {5,S} {7,D}
-7   Cd 0 {6,D} {8,S}
-8   Cd 0 {7,S} {9,D}
-9   Cd 0 {1,S} {8,D}
+1 * Cs u0 {2,S} {5,S} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S} {6,S}
+6   Cd u0 {5,S} {7,D}
+7   Cd u0 {6,D} {8,S}
+8   Cd u0 {7,S} {9,D}
+9   Cd u0 {1,S} {8,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -689,15 +689,15 @@ entry(
     label = "C12CCCC1=CCC=C2",
     group = 
 """
-1 * Cs 0 {2,S} {9,S}
-2   Cd 0 {1,S} {3,D} {7,S}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {5,D} {7,S}
-7   Cs 0 {2,S} {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cs u0 {2,S} {9,S}
+2   Cd u0 {1,S} {3,D} {7,S}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cs u0 {2,S} {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -717,15 +717,15 @@ entry(
     label = "2.3.4.5-tetrahydro-1H-indene",
     group = 
 """
-1 * Cd 0 {2,S} {5,D} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {1,D} {4,S} {6,S}
-6   Cd 0 {5,S} {7,D}
-7   Cd 0 {6,D} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cd u0 {2,S} {5,D} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {1,D} {4,S} {6,S}
+6   Cd u0 {5,S} {7,D}
+7   Cd u0 {6,D} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = u'2.3.3a.7a-tetrahydro-1H-indene',
     shortDesc = u"""""",
@@ -740,15 +740,15 @@ entry(
     label = "2.3.4.7-tetrahydro-1H-indene",
     group = 
 """
-1 * Cd 0 {2,S} {5,D} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {1,D} {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cd 0 {6,S} {8,D}
-8   Cd 0 {7,D} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cd u0 {2,S} {5,D} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {1,D} {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {8,D}
+8   Cd u0 {7,D} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = u'2.3.3a.7a-tetrahydro-1H-indene',
     shortDesc = u"""""",
@@ -763,15 +763,15 @@ entry(
     label = "2.3.3a.4-tetrahydro-1H-indene",
     group = 
 """
-1 * Cd 0 {2,S} {5,S} {9,D}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cd 0 {6,S} {8,D}
-8   Cd 0 {7,D} {9,S}
-9   Cd 0 {1,D} {8,S}
+1 * Cd u0 {2,S} {5,S} {9,D}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {8,D}
+8   Cd u0 {7,D} {9,S}
+9   Cd u0 {1,D} {8,S}
 """,
     thermo = u'2.3.3a.7a-tetrahydro-1H-indene',
     shortDesc = u"""""",
@@ -786,15 +786,15 @@ entry(
     label = "2.3.5.6-tetrahydro-1H-indene",
     group = 
 """
-1 * Cd 0 {2,S} {5,S} {9,D}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {1,S} {4,S} {6,D}
-6   Cd 0 {5,D} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cd 0 {1,D} {8,S}
+1 * Cd u0 {2,S} {5,S} {9,D}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {1,S} {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cd u0 {1,D} {8,S}
 """,
     thermo = u'2.3.3a.7a-tetrahydro-1H-indene',
     shortDesc = u"""""",
@@ -809,15 +809,15 @@ entry(
     label = "2.6.7.7a-tetrahydro-1H-indene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {1,S} {4,D} {6,S}
-6   Cd 0 {5,S} {7,D}
-7   Cd 0 {6,D} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cs u0 {2,S} {5,S} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D} {6,S}
+6   Cd u0 {5,S} {7,D}
+7   Cd u0 {6,D} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = u'2.3.3a.7a-tetrahydro-1H-indene',
     shortDesc = u"""""",
@@ -844,14 +844,14 @@ entry(
     label = "octahydropentalene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {8,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {5,S} {8,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -871,16 +871,16 @@ entry(
     label = "tricyclo[5.2.1.0(4.10)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {9,S} {10,S}
-2    Cs 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S} {10,S}
-5    Cs 0 {4,S} {6,S}
-6    Cs 0 {5,S} {7,S}
-7    Cs 0 {6,S} {8,S} {10,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {1,S} {8,S}
-10   Cs 0 {1,S} {4,S} {7,S}
+1  * Cs u0 {2,S} {9,S} {10,S}
+2    Cs u0 {1,S} {3,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S} {10,S}
+5    Cs u0 {4,S} {6,S}
+6    Cs u0 {5,S} {7,S}
+7    Cs u0 {6,S} {8,S} {10,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {1,S} {8,S}
+10   Cs u0 {1,S} {4,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -900,16 +900,16 @@ entry(
     label = "tricyclo[5.2.1.0(4.8)]decane",
     group = 
 """
-1    Cs 0 {2,S} {10,S}
-2    Cs 0 {1,S} {3,S} {9,S}
-3    Cs 0 {2,S} {4,S}
-4  * Cs 0 {3,S} {5,S} {10,S}
-5    Cs 0 {4,S} {6,S}
-6    Cs 0 {5,S} {7,S}
-7    Cs 0 {6,S} {8,S} {10,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {2,S} {8,S}
-10   Cs 0 {1,S} {4,S} {7,S}
+1    Cs u0 {2,S} {10,S}
+2    Cs u0 {1,S} {3,S} {9,S}
+3    Cs u0 {2,S} {4,S}
+4  * Cs u0 {3,S} {5,S} {10,S}
+5    Cs u0 {4,S} {6,S}
+6    Cs u0 {5,S} {7,S}
+7    Cs u0 {6,S} {8,S} {10,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {2,S} {8,S}
+10   Cs u0 {1,S} {4,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -929,16 +929,16 @@ entry(
     label = "tricyclo[4.2.2.0(1.5)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {5,S} {8,S} {10,S}
-2    Cs 0 {1,S} {3,S} {6,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
-5    Cs 0 {1,S} {4,S}
-6    Cs 0 {2,S} {7,S} {9,S}
-7    Cs 0 {6,S} {8,S}
-8    Cs 0 {1,S} {7,S}
-9    Cs 0 {6,S} {10,S}
-10   Cs 0 {1,S} {9,S}
+1  * Cs u0 {2,S} {5,S} {8,S} {10,S}
+2    Cs u0 {1,S} {3,S} {6,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S}
+5    Cs u0 {1,S} {4,S}
+6    Cs u0 {2,S} {7,S} {9,S}
+7    Cs u0 {6,S} {8,S}
+8    Cs u0 {1,S} {7,S}
+9    Cs u0 {6,S} {10,S}
+10   Cs u0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -958,16 +958,16 @@ entry(
     label = "tricyclo[5.3.0.0(4.10)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {5,S} {10,S}
-2    Cs 0 {1,S} {3,S} {8,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
-5    Cs 0 {1,S} {4,S} {6,S}
-6    Cs 0 {5,S} {7,S}
-7    Cs 0 {6,S} {8,S}
-8    Cs 0 {2,S} {7,S} {9,S}
-9    Cs 0 {8,S} {10,S}
-10   Cs 0 {1,S} {9,S}
+1  * Cs u0 {2,S} {5,S} {10,S}
+2    Cs u0 {1,S} {3,S} {8,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S}
+5    Cs u0 {1,S} {4,S} {6,S}
+6    Cs u0 {5,S} {7,S}
+7    Cs u0 {6,S} {8,S}
+8    Cs u0 {2,S} {7,S} {9,S}
+9    Cs u0 {8,S} {10,S}
+10   Cs u0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -999,14 +999,14 @@ entry(
     label = "1.2.3.3a.4.6a-hexahydropentalene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {8,S}
-2   Cs 0 {1,S} {3,S} {6,S}
-3   Cs 0 {2,S} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {1,S} {4,D}
-6   Cs 0 {2,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {5,S} {8,S}
+2   Cs u0 {1,S} {3,S} {6,S}
+3   Cs u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D}
+6   Cs u0 {2,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1026,14 +1026,14 @@ entry(
     label = "1.2.3.3a.4.5-hexahydropentalene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {8,S}
-2   Cd 0 {1,S} {3,D} {6,S}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
-6   Cs 0 {2,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {5,S} {8,S}
+2   Cd u0 {1,S} {3,D} {6,S}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
+6   Cs u0 {2,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1065,14 +1065,14 @@ entry(
     label = "1.3a.4.6a-tetrahydropentalene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {8,S}
-2   Cs 0 {1,S} {3,S} {6,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cs 0 {1,S} {4,S}
-6   Cs 0 {2,S} {7,S}
-7   Cd 0 {6,S} {8,D}
-8   Cd 0 {1,S} {7,D}
+1 * Cs u0 {2,S} {5,S} {8,S}
+2   Cs u0 {1,S} {3,S} {6,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cs u0 {1,S} {4,S}
+6   Cs u0 {2,S} {7,S}
+7   Cd u0 {6,S} {8,D}
+8   Cd u0 {1,S} {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1092,14 +1092,14 @@ entry(
     label = "1.3a.6.6a-tetrahydropentalene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {8,S}
-2   Cs 0 {1,S} {3,S} {6,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cs 0 {1,S} {4,S}
-6   Cd 0 {2,S} {7,D}
-7   Cd 0 {6,D} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {5,S} {8,S}
+2   Cs u0 {1,S} {3,S} {6,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cs u0 {1,S} {4,S}
+6   Cd u0 {2,S} {7,D}
+7   Cd u0 {6,D} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = u'C12CCC=C1CC=C2',
     shortDesc = u"""""",
@@ -1114,14 +1114,14 @@ entry(
     label = "1.2.6.6a-tetrahydropentalene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S} {8,S}
-2   Cd 0 {1,S} {3,S} {6,D}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cs 0 {1,S} {4,S}
-6   Cd 0 {2,D} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {5,S} {8,S}
+2   Cd u0 {1,S} {3,S} {6,D}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cs u0 {1,S} {4,S}
+6   Cd u0 {2,D} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = u'C12CCC=C1CC=C2',
     shortDesc = u"""""",
@@ -1136,14 +1136,14 @@ entry(
     label = "C12CCC=C1CC=C2",
     group = 
 """
-1 * Cd 0 {2,S} {5,S} {8,D}
-2   Cs 0 {1,S} {3,S} {6,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cs 0 {1,S} {4,S}
-6   Cs 0 {2,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cd 0 {1,D} {7,S}
+1 * Cd u0 {2,S} {5,S} {8,D}
+2   Cs u0 {1,S} {3,S} {6,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cs u0 {1,S} {4,S}
+6   Cs u0 {2,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cd u0 {1,D} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1175,10 +1175,10 @@ entry(
     label = "bicyclo-(1.1.0)-butane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {4,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {2,S}
+1 * Cs u0 {2,S} {3,S} {4,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1198,11 +1198,11 @@ entry(
     label = "bicyclo-(2.1.0)-pentane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {2,S} {5,S}
-5   Cs 0 {1,S} {4,S}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {5,S}
+5   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1222,12 +1222,12 @@ entry(
     label = "bicyclo-(3.1.0)-hexane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {2,S} {6,S}
-5   Cs 0 {1,S} {6,S}
-6   Cs 0 {4,S} {5,S}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {6,S}
+5   Cs u0 {1,S} {6,S}
+6   Cs u0 {4,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1247,13 +1247,13 @@ entry(
     label = "bicyclo-(4.1.0)-hept{a/e}ne",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {2,S} {6,{S,D}}
-5   Cs 0 {1,S} {7,S}
-6   Cs 0 {4,{S,D}} {7,S}
-7   Cs 0 {5,S} {6,S}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {6,[S,D]}
+5   Cs u0 {1,S} {7,S}
+6   Cs u0 {4,[S,D]} {7,S}
+7   Cs u0 {5,S} {6,S}
 """,
     thermo = u'bicyclo-(4.1.0)-heptane',
     shortDesc = u"""""",
@@ -1268,13 +1268,13 @@ entry(
     label = "bicyclo-(4.1.0)-heptane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {2,S} {6,S}
-5   Cs 0 {1,S} {7,S}
-6   Cs 0 {4,S} {7,S}
-7   Cs 0 {5,S} {6,S}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {6,S}
+5   Cs u0 {1,S} {7,S}
+6   Cs u0 {4,S} {7,S}
+7   Cs u0 {5,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1294,13 +1294,13 @@ entry(
     label = "bicyclo-(4.1.0)-hept-2-ene",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {2,S} {6,D}
-5   Cs 0 {1,S} {7,S}
-6   Cs 0 {4,D} {7,S}
-7   Cs 0 {5,S} {6,S}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {6,D}
+5   Cs u0 {1,S} {7,S}
+6   Cs u0 {4,D} {7,S}
+7   Cs u0 {5,S} {6,S}
 """,
     thermo = u'bicyclo-(4.1.0)-heptane',
     shortDesc = u"""""",
@@ -1315,16 +1315,16 @@ entry(
     label = "1.1a.3a.4.5.6.6a.6b-octahydrocyclopropa[e]indene",
     group = 
 """
-1  * Cs 0 {2,S} {3,S} {5,S}
-2    Cs 0 {1,S} {3,S} {4,S}
-3    Cs 0 {1,S} {2,S}
-4    Cs 0 {2,S} {6,D}
-5    Cs 0 {1,S} {7,S} {10,S}
-6    Cs 0 {4,D} {7,S}
-7    Cs 0 {5,S} {6,S} {8,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {8,S} {10,S}
-10   Cs 0 {5,S} {9,S}
+1  * Cs u0 {2,S} {3,S} {5,S}
+2    Cs u0 {1,S} {3,S} {4,S}
+3    Cs u0 {1,S} {2,S}
+4    Cs u0 {2,S} {6,D}
+5    Cs u0 {1,S} {7,S} {10,S}
+6    Cs u0 {4,D} {7,S}
+7    Cs u0 {5,S} {6,S} {8,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {8,S} {10,S}
+10   Cs u0 {5,S} {9,S}
 """,
     thermo = u'bicyclo-(4.1.0)-heptane',
     shortDesc = u"""""",
@@ -1339,14 +1339,14 @@ entry(
     label = "bicyclo-(5.1.0)-octane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {2,S} {6,S}
-5   Cs 0 {1,S} {8,S}
-6   Cs 0 {4,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {5,S} {7,S}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {6,S}
+5   Cs u0 {1,S} {8,S}
+6   Cs u0 {4,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {5,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1366,15 +1366,15 @@ entry(
     label = "bicyclo-(6.1.0)-nonane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {2,S} {6,S}
-5   Cs 0 {1,S} {9,S}
-6   Cs 0 {4,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {5,S} {8,S}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {2,S} {6,S}
+5   Cs u0 {1,S} {9,S}
+6   Cs u0 {4,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {5,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1394,13 +1394,13 @@ entry(
     label = "bicyclo(2.2.1)hepta-2.5-diene",
     group = 
 """
-1 * C  0 {3,S} {4,S} {7,S}
-2   C  0 {3,S} {5,S} {6,S}
-3   Cs 0 {1,S} {2,S}
-4   C  0 {1,S} {5,D}
-5   C  0 {2,S} {4,D}
-6   C  0 {2,S} {7,D}
-7   C  0 {1,S} {6,D}
+1 * C  u0 {3,S} {4,S} {7,S}
+2   C  u0 {3,S} {5,S} {6,S}
+3   Cs u0 {1,S} {2,S}
+4   C  u0 {1,S} {5,D}
+5   C  u0 {2,S} {4,D}
+6   C  u0 {2,S} {7,D}
+7   C  u0 {1,S} {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1420,18 +1420,18 @@ entry(
     label = "biphenylene",
     group = 
 """
-1  * C 0 {2,B} {4,S} {6,B}
-2    C 0 {1,B} {3,S} {5,B}
-3    C 0 {2,S} {4,B} {7,B}
-4    C 0 {1,S} {3,B} {8,B}
-5    C 0 {2,B} {9,B}
-6    C 0 {1,B} {10,B}
-7    C 0 {3,B} {11,B}
-8    C 0 {4,B} {12,B}
-9    C 0 {5,B} {10,B}
-10   C 0 {6,B} {9,B}
-11   C 0 {7,B} {12,B}
-12   C 0 {8,B} {11,B}
+1  * C u0 {2,B} {4,S} {6,B}
+2    C u0 {1,B} {3,S} {5,B}
+3    C u0 {2,S} {4,B} {7,B}
+4    C u0 {1,S} {3,B} {8,B}
+5    C u0 {2,B} {9,B}
+6    C u0 {1,B} {10,B}
+7    C u0 {3,B} {11,B}
+8    C u0 {4,B} {12,B}
+9    C u0 {5,B} {10,B}
+10   C u0 {6,B} {9,B}
+11   C u0 {7,B} {12,B}
+12   C u0 {8,B} {11,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1451,11 +1451,11 @@ entry(
     label = "spiropentane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {5,S}
-5   Cs 0 {1,S} {4,S}
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {5,S}
+5   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1475,12 +1475,12 @@ entry(
     label = "bicyclo[2.1.1]hexane",
     group = 
 """
-1 * Cs 0 {3,S} {4,S} {6,S}
-2   Cs 0 {3,S} {4,S} {5,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {2,S}
-5   Cs 0 {2,S} {6,S}
-6   Cs 0 {1,S} {5,S}
+1 * Cs u0 {3,S} {4,S} {6,S}
+2   Cs u0 {3,S} {4,S} {5,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {2,S}
+5   Cs u0 {2,S} {6,S}
+6   Cs u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1500,12 +1500,12 @@ entry(
     label = "bicyclo[2.2.0]hexane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {6,S}
-2   Cs 0 {1,S} {4,S} {5,S}
-3   Cs 0 {1,S} {4,S}
-4   Cs 0 {2,S} {3,S}
-5   Cs 0 {2,S} {6,S}
-6   Cs 0 {1,S} {5,S}
+1 * Cs u0 {2,S} {3,S} {6,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3   Cs u0 {1,S} {4,S}
+4   Cs u0 {2,S} {3,S}
+5   Cs u0 {2,S} {6,S}
+6   Cs u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1525,11 +1525,11 @@ entry(
     label = "bicyclo[1.1.1]pentane",
     group = 
 """
-1 * Cs 0 {3,S} {4,S} {5,S}
-2   Cs 0 {3,S} {4,S} {5,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {2,S}
-5   Cs 0 {1,S} {2,S}
+1 * Cs u0 {3,S} {4,S} {5,S}
+2   Cs u0 {3,S} {4,S} {5,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {2,S}
+5   Cs u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1549,14 +1549,14 @@ entry(
     label = "bicyclo[2.2.2]octane",
     group = 
 """
-1 * Cs 0 {3,S} {6,S} {8,S}
-2   Cs 0 {4,S} {5,S} {7,S}
-3   Cs 0 {1,S} {4,S}
-4   Cs 0 {2,S} {3,S}
-5   Cs 0 {2,S} {6,S}
-6   Cs 0 {1,S} {5,S}
-7   Cs 0 {2,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {3,S} {6,S} {8,S}
+2   Cs u0 {4,S} {5,S} {7,S}
+3   Cs u0 {1,S} {4,S}
+4   Cs u0 {2,S} {3,S}
+5   Cs u0 {2,S} {6,S}
+6   Cs u0 {1,S} {5,S}
+7   Cs u0 {2,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1576,16 +1576,16 @@ entry(
     label = "tricyclo[4.4.0.0(3.8)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {6,S} {10,S}
-2    Cs 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S} {9,S}
-5    Cs 0 {4,S} {6,S}
-6    Cs 0 {1,S} {5,S} {7,S}
-7    Cs 0 {6,S} {8,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {4,S} {8,S} {10,S}
-10   Cs 0 {1,S} {9,S}
+1  * Cs u0 {2,S} {6,S} {10,S}
+2    Cs u0 {1,S} {3,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S} {9,S}
+5    Cs u0 {4,S} {6,S}
+6    Cs u0 {1,S} {5,S} {7,S}
+7    Cs u0 {6,S} {8,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {4,S} {8,S} {10,S}
+10   Cs u0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1605,12 +1605,12 @@ entry(
     label = "bicyclo[2.1.1]hex-2-ene",
     group = 
 """
-1 * Cs 0 {3,S} {4,S} {6,S}
-2   Cs 0 {3,S} {4,S} {5,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {2,S}
-5   C  0 {2,S} {6,D}
-6   C  0 {1,S} {5,D}
+1 * Cs u0 {3,S} {4,S} {6,S}
+2   Cs u0 {3,S} {4,S} {5,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {2,S}
+5   C  u0 {2,S} {6,D}
+6   C  u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1630,14 +1630,14 @@ entry(
     label = "methylidenebicyclo[2.2.1]heptane",
     group = 
 """
-1 * Cs 0 {3,S} {4,S} {7,S}
-2   Cs 0 {3,S} {5,S} {6,S}
-3   Cs 0 {1,S} {2,S}
-4   Cs 0 {1,S} {5,S}
-5   Cs 0 {2,S} {4,S}
-6   Cs 0 {2,S} {7,S}
-7   Cd 0 {1,S} {6,S} {8,D}
-8   Cd 0 {7,D}
+1 * Cs u0 {3,S} {4,S} {7,S}
+2   Cs u0 {3,S} {5,S} {6,S}
+3   Cs u0 {1,S} {2,S}
+4   Cs u0 {1,S} {5,S}
+5   Cs u0 {2,S} {4,S}
+6   Cs u0 {2,S} {7,S}
+7   Cd u0 {1,S} {6,S} {8,D}
+8   Cd u0 {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1657,12 +1657,12 @@ entry(
     label = "bicyclo[2.2.0]hex-2-ene",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {6,S}
-2   Cs 0 {1,S} {4,S} {5,S}
-3   Cs 0 {1,S} {4,S}
-4   Cs 0 {2,S} {3,S}
-5   C  0 {2,S} {6,D}
-6   C  0 {1,S} {5,D}
+1 * Cs u0 {2,S} {3,S} {6,S}
+2   Cs u0 {1,S} {4,S} {5,S}
+3   Cs u0 {1,S} {4,S}
+4   Cs u0 {2,S} {3,S}
+5   C  u0 {2,S} {6,D}
+6   C  u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1682,12 +1682,12 @@ entry(
     label = "bicyclo[2.2.0]hex-1(4)-ene",
     group = 
 """
-1 * Cs 0 {2,S} {6,S}
-2   Cs 0 {1,S} {5,S}
-3   Cs 0 {4,S} {6,S}
-4   Cs 0 {3,S} {5,S}
-5   C  0 {2,S} {4,S} {6,D}
-6   C  0 {1,S} {3,S} {5,D}
+1 * Cs u0 {2,S} {6,S}
+2   Cs u0 {1,S} {5,S}
+3   Cs u0 {4,S} {6,S}
+4   Cs u0 {3,S} {5,S}
+5   C  u0 {2,S} {4,S} {6,D}
+6   C  u0 {1,S} {3,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1707,11 +1707,11 @@ entry(
     label = "bicyclo[2.1.0]pent-1(4)-ene",
     group = 
 """
-1 * C 0 {2,S} {5,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {4,S} {5,S}
-4   C 0 {2,S} {3,S} {5,D}
-5   C 0 {1,S} {3,S} {4,D}
+1 * C u0 {2,S} {5,S}
+2   C u0 {1,S} {4,S}
+3   C u0 {4,S} {5,S}
+4   C u0 {2,S} {3,S} {5,D}
+5   C u0 {1,S} {3,S} {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1731,11 +1731,11 @@ entry(
     label = "bicyclo[2.1.0]pent-2-ene",
     group = 
 """
-1 * Cs 0 {2,S} {3,S} {5,S}
-2   Cs 0 {1,S} {3,S} {4,S}
-3   Cs 0 {1,S} {2,S}
-4   C  0 {2,S} {5,D}
-5   C  0 {1,S} {4,D}
+1 * Cs u0 {2,S} {3,S} {5,S}
+2   Cs u0 {1,S} {3,S} {4,S}
+3   Cs u0 {1,S} {2,S}
+4   C  u0 {2,S} {5,D}
+5   C  u0 {1,S} {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1755,16 +1755,16 @@ entry(
     label = "tricyclo[4.4.0.0(3.9)]decane",
     group = 
 """
-1  * Cs 0 {2,S} {6,S} {10,S}
-2    Cs 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S} {9,S}
-4    Cs 0 {3,S} {5,S}
-5    Cs 0 {4,S} {6,S}
-6    Cs 0 {1,S} {5,S} {7,S}
-7    Cs 0 {6,S} {8,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {3,S} {8,S} {10,S}
-10   Cs 0 {1,S} {9,S}
+1  * Cs u0 {2,S} {6,S} {10,S}
+2    Cs u0 {1,S} {3,S}
+3    Cs u0 {2,S} {4,S} {9,S}
+4    Cs u0 {3,S} {5,S}
+5    Cs u0 {4,S} {6,S}
+6    Cs u0 {1,S} {5,S} {7,S}
+7    Cs u0 {6,S} {8,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {3,S} {8,S} {10,S}
+10   Cs u0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

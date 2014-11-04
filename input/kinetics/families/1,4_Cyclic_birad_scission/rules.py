@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "RJJ",
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -19,9 +19,5 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""AG Vandeputte estimate (should be fast)""",
-    longDesc = 
-u"""
-
-""",
 )
 

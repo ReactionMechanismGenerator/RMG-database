@@ -4,6 +4,7 @@
 name = "1,2_Insertion_CO/rules"
 shortDesc = u""
 longDesc = u"""
+
 """
 entry(
     index = 553,
@@ -49,7 +50,7 @@ entry(
     index = 555,
     label = "CO_birad;H2",
     kinetics = ArrheniusEP(
-        A = (2890000000.0, 'cm^3/(mol*s)'),
+        A = (2.89e+09, 'cm^3/(mol*s)'),
         n = 1.16,
         alpha = 0,
         E0 = (82.1, 'kcal/mol'),
@@ -129,7 +130,7 @@ entry(
     index = 559,
     label = "CO_birad;C/H/Cs3",
     kinetics = ArrheniusEP(
-        A = (88900000.0, 'cm^3/(mol*s)'),
+        A = (8.89e+07, 'cm^3/(mol*s)'),
         n = 1.51,
         alpha = 0,
         E0 = (79.2, 'kcal/mol'),
@@ -138,10 +139,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -163,3 +160,4 @@ CBS-QB3 calculations by CFG, Jan 2010
 Methyl group was hindered rotor. ester CO bond also a rotor.
 """,
 )
+

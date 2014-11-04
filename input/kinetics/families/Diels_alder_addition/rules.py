@@ -10,7 +10,7 @@ entry(
     index = 589,
     label = "diene_out;diene_in;ene",
     kinetics = ArrheniusEP(
-        A = (5000000000.0, 'cm^3/(mol*s)'),
+        A = (5e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -19,17 +19,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""default""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 590,
     label = "diene_unsub_unsub_out;diene_in_2H;ene_2H_HDe",
     kinetics = ArrheniusEP(
-        A = (8910000000.0, 'cm^3/(mol*s)'),
+        A = (8.91e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (24.44, 'kcal/mol'),
@@ -51,7 +47,7 @@ entry(
     index = 591,
     label = "diene_unsub_unsub_out;diene_in_2H;ene_HDe_2H",
     kinetics = ArrheniusEP(
-        A = (8910000000.0, 'cm^3/(mol*s)'),
+        A = (8.91e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (24.44, 'kcal/mol'),
@@ -73,7 +69,7 @@ entry(
     index = 592,
     label = "diene_unsub_unsub_out;diene_in_2H;ene_HNd_HDe",
     kinetics = ArrheniusEP(
-        A = (899000000.0, 'cm^3/(mol*s)'),
+        A = (8.99e+08, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (22.06, 'kcal/mol'),
@@ -95,7 +91,7 @@ entry(
     index = 593,
     label = "diene_unsub_unsub_out;diene_in_2H;ene_HDe_HNd",
     kinetics = ArrheniusEP(
-        A = (899000000.0, 'cm^3/(mol*s)'),
+        A = (8.99e+08, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (22.06, 'kcal/mol'),
@@ -117,7 +113,7 @@ entry(
     index = 594,
     label = "diene_unsub_unsub_out;diene_in_HNd;ene_unsub_unsub",
     kinetics = ArrheniusEP(
-        A = (132000000000.0, 'cm^3/(mol*s)'),
+        A = (1.32e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (29.61, 'kcal/mol'),
@@ -139,7 +135,7 @@ entry(
     index = 595,
     label = "diene_unsub_unsub_out;diene_in_NdH;ene_unsub_unsub",
     kinetics = ArrheniusEP(
-        A = (132000000000.0, 'cm^3/(mol*s)'),
+        A = (1.32e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (29.61, 'kcal/mol'),
@@ -161,7 +157,7 @@ entry(
     index = 596,
     label = "diene_unsub_unsub_out;diene_in_HNd;ene_HDe_2H",
     kinetics = ArrheniusEP(
-        A = (1020000000.0, 'cm^3/(mol*s)'),
+        A = (1.02e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (18.7, 'kcal/mol'),
@@ -183,7 +179,7 @@ entry(
     index = 597,
     label = "diene_unsub_unsub_out;diene_in_NdH;ene_2H_HDe",
     kinetics = ArrheniusEP(
-        A = (1020000000.0, 'cm^3/(mol*s)'),
+        A = (1.02e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (18.7, 'kcal/mol'),
@@ -205,7 +201,7 @@ entry(
     index = 598,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_unsub_unsub",
     kinetics = ArrheniusEP(
-        A = (4570000000.0, 'cm^3/(mol*s)', '*|/', 1.05),
+        A = (4.57e+09, 'cm^3/(mol*s)', '*|/', 1.05),
         n = 0,
         alpha = 0,
         E0 = (26.03, 'kcal/mol'),
@@ -227,7 +223,7 @@ entry(
     index = 599,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (1120000000.0, 'cm^3/(mol*s)', '*|/', 1.12),
+        A = (1.12e+09, 'cm^3/(mol*s)', '*|/', 1.12),
         n = 0,
         alpha = 0,
         E0 = (26.63, 'kcal/mol'),
@@ -249,7 +245,7 @@ entry(
     index = 600,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (2090000000.0, 'cm^3/(mol*s)', '*|/', 1.12),
+        A = (2.09e+09, 'cm^3/(mol*s)', '*|/', 1.12),
         n = 0,
         alpha = 0,
         E0 = (28.81, 'kcal/mol'),
@@ -271,7 +267,7 @@ entry(
     index = 601,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (708000000.0, 'cm^3/(mol*s)', '*|/', 1.12),
+        A = (7.08e+08, 'cm^3/(mol*s)', '*|/', 1.12),
         n = 0,
         alpha = 0,
         E0 = (26.23, 'kcal/mol'),
@@ -293,7 +289,7 @@ entry(
     index = 602,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (1170000000.0, 'cm^3/(mol*s)', '*|/', 1.12),
+        A = (1.17e+09, 'cm^3/(mol*s)', '*|/', 1.12),
         n = 0,
         alpha = 0,
         E0 = (28.62, 'kcal/mol'),
@@ -315,7 +311,7 @@ entry(
     index = 603,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (372000000.0, 'cm^3/(mol*s)', '*|/', 1.07),
+        A = (3.72e+08, 'cm^3/(mol*s)', '*|/', 1.07),
         n = 0,
         alpha = 0,
         E0 = (26.63, 'kcal/mol'),
@@ -337,7 +333,7 @@ entry(
     index = 604,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HNd",
     kinetics = ArrheniusEP(
-        A = (295000000.0, 'cm^3/(mol*s)', '*|/', 1.1),
+        A = (2.95e+08, 'cm^3/(mol*s)', '*|/', 1.1),
         n = 0,
         alpha = 0,
         E0 = (28.42, 'kcal/mol'),
@@ -359,7 +355,7 @@ entry(
     index = 605,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_HNd_2H",
     kinetics = ArrheniusEP(
-        A = (1120000000.0, 'cm^3/(mol*s)', '*|/', 1.12),
+        A = (1.12e+09, 'cm^3/(mol*s)', '*|/', 1.12),
         n = 0,
         alpha = 0,
         E0 = (26.63, 'kcal/mol'),
@@ -381,7 +377,7 @@ entry(
     index = 606,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HDe",
     kinetics = ArrheniusEP(
-        A = (1020000000.0, 'cm^3/(mol*s)', '*|/', 1.07),
+        A = (1.02e+09, 'cm^3/(mol*s)', '*|/', 1.07),
         n = 0,
         alpha = 0,
         E0 = (20.07, 'kcal/mol'),
@@ -403,7 +399,7 @@ entry(
     index = 607,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HDe",
     kinetics = ArrheniusEP(
-        A = (603000000.0, 'cm^3/(mol*s)', '*|/', 1.07),
+        A = (6.03e+08, 'cm^3/(mol*s)', '*|/', 1.07),
         n = 0,
         alpha = 0,
         E0 = (20.87, 'kcal/mol'),
@@ -425,7 +421,7 @@ entry(
     index = 608,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HDe",
     kinetics = ArrheniusEP(
-        A = (11500000000.0, 'cm^3/(mol*s)', '*|/', 1.05),
+        A = (1.15e+10, 'cm^3/(mol*s)', '*|/', 1.05),
         n = 0,
         alpha = 0,
         E0 = (26.83, 'kcal/mol'),
@@ -447,7 +443,7 @@ entry(
     index = 609,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HDe",
     kinetics = ArrheniusEP(
-        A = (3800000000.0, 'cm^3/(mol*s)', '*|/', 1.05),
+        A = (3.8e+09, 'cm^3/(mol*s)', '*|/', 1.05),
         n = 0,
         alpha = 0,
         E0 = (24.84, 'kcal/mol'),
@@ -469,7 +465,7 @@ entry(
     index = 610,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_HDe_2H",
     kinetics = ArrheniusEP(
-        A = (1020000000.0, 'cm^3/(mol*s)', '*|/', 1.07),
+        A = (1.02e+09, 'cm^3/(mol*s)', '*|/', 1.07),
         n = 0,
         alpha = 0,
         E0 = (20.07, 'kcal/mol'),
@@ -491,7 +487,7 @@ entry(
     index = 611,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_HNd_HDe",
     kinetics = ArrheniusEP(
-        A = (1260000000.0, 'cm^3/(mol*s)'),
+        A = (1.26e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (16.69, 'kcal/mol'),
@@ -513,7 +509,7 @@ entry(
     index = 612,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_HDe_HNd",
     kinetics = ArrheniusEP(
-        A = (1260000000.0, 'cm^3/(mol*s)'),
+        A = (1.26e+09, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (16.69, 'kcal/mol'),
@@ -535,7 +531,7 @@ entry(
     index = 614,
     label = "diene_5ring_Nd_Nd_out;diene_in_2H;ene_HNd_HNd",
     kinetics = ArrheniusEP(
-        A = (3.24E-01, 'cm^3/(mol*s)'),
+        A = (0.324, 'cm^3/(mol*s)'),
         n = 3.05,
         alpha = 0,
         E0 = (24.75, 'kcal/mol'),
@@ -544,8 +540,5 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-""",
 )
 

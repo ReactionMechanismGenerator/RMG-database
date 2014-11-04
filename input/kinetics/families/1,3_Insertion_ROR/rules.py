@@ -21,10 +21,6 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40,10 +36,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -59,10 +51,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -78,10 +66,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -97,10 +81,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -116,10 +96,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -135,10 +111,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -154,10 +126,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -173,10 +141,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -192,10 +156,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -211,10 +171,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -230,10 +186,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 calculations by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -249,10 +201,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 calculations by CAC, F12 energy""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -268,10 +216,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 calc w/ 1dhr, by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -287,10 +231,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 calc w/ 1dhr, by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -306,10 +246,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 calc w/ 1dhr, CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -325,17 +261,13 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3 HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 707,
     label = "Cd/H/Nd_Cd/H2;H_OH",
     kinetics = ArrheniusEP(
-        A = (61040000.0, 'cm^3/(mol*s)'),
+        A = (6.104e+07, 'cm^3/(mol*s)'),
         n = 1.287,
         alpha = 0,
         E0 = (60.9, 'kcal/mol'),
@@ -343,18 +275,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 2,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 708,
     label = "Cd/Nd2_Cd/H2;H_OH",
     kinetics = ArrheniusEP(
-        A = (51810000.0, 'cm^3/(mol*s)'),
+        A = (5.181e+07, 'cm^3/(mol*s)'),
         n = 1.302,
         alpha = 0,
         E0 = (62.9, 'kcal/mol'),
@@ -362,11 +289,6 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 2,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -381,18 +303,13 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 2,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 710,
     label = "Cd/H/De_Cd/H2;H_OH",
     kinetics = ArrheniusEP(
-        A = (61040000.0, 'cm^3/(mol*s)'),
+        A = (6.104e+07, 'cm^3/(mol*s)'),
         n = 1.287,
         alpha = 0,
         E0 = (60.9, 'kcal/mol'),
@@ -401,9 +318,5 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Same as rule 707""",
-    longDesc = 
-u"""
-
-""",
 )
 

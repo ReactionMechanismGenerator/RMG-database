@@ -10,7 +10,7 @@ entry(
     index = 586,
     label = "db;doublebond",
     kinetics = ArrheniusEP(
-        A = (69200000000.0, 'cm^3/(mol*s)'),
+        A = (6.92e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (43.72, 'kcal/mol'),
@@ -32,7 +32,7 @@ entry(
     index = 6000,
     label = "db_2H;mb_OC",
     kinetics = ArrheniusEP(
-        A = (2330000.0, 'cm^3/(mol*s)', '*|/', 5),
+        A = (2.33e+06, 'cm^3/(mol*s)', '*|/', 5),
         n = 1.65,
         alpha = 0,
         E0 = (54.15, 'kcal/mol'),
@@ -40,10 +40,5 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 

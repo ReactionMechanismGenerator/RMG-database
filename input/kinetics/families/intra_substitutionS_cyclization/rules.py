@@ -10,7 +10,7 @@ entry(
     index = 1,
     label = "XSYJ;YJ;S-RR",
     kinetics = ArrheniusEP(
-        A = (2000000000000.0, 's^-1'),
+        A = (2e+12, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (20, 'kcal/mol'),
@@ -19,17 +19,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 2,
     label = "XSR3J_S;SsJ-3-Cs;S-HC",
     kinetics = ArrheniusEP(
-        A = (5420000000.0, 's^-1'),
+        A = (5.42e+09, 's^-1'),
         n = 1.1,
         alpha = 0,
         E0 = (42.9, 'kcal/mol'),
@@ -38,17 +34,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 3,
     label = "XSR3J_S;CsJ-3-CsHH;S-HC",
     kinetics = ArrheniusEP(
-        A = (93400000000.0, 's^-1'),
+        A = (9.34e+10, 's^-1'),
         n = 0.6,
         alpha = 1,
         E0 = (35, 'kcal/mol'),
@@ -57,17 +49,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 4,
     label = "XSR3J_S;CsJ-3-SsHH;S-HSs",
     kinetics = ArrheniusEP(
-        A = (304000000000.0, 's^-1'),
+        A = (3.04e+11, 's^-1'),
         n = 0.5,
         alpha = 2,
         E0 = (40.1, 'kcal/mol'),
@@ -76,17 +64,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 5,
     label = "XSR3J_S;SsJ-3-Cs;S-Cs(HHH)C",
     kinetics = ArrheniusEP(
-        A = (965000000000.0, 's^-1'),
+        A = (9.65e+11, 's^-1'),
         n = 1.1,
         alpha = 0,
         E0 = (33.2, 'kcal/mol'),
@@ -95,17 +79,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 6,
     label = "XSR3J_S;CsJ-3-SsHH;S-Cs(HHH)Ss",
     kinetics = ArrheniusEP(
-        A = (1760000000000.0, 's^-1'),
+        A = (1.76e+12, 's^-1'),
         n = 0.2,
         alpha = 0,
         E0 = (34.6, 'kcal/mol'),
@@ -114,17 +94,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 7,
     label = "XSR3J_S;CsJ-3-SsHH;S-Ss(H)Ss",
     kinetics = ArrheniusEP(
-        A = (2650000000000.0, 's^-1'),
+        A = (2.65e+12, 's^-1'),
         n = 0.1,
         alpha = 0,
         E0 = (12.1, 'kcal/mol'),
@@ -133,10 +109,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -152,10 +124,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""AA Calc""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -171,9 +139,5 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""AA Calc""",
-    longDesc = 
-u"""
-
-""",
 )
 

@@ -23,16 +23,11 @@ entry(
     label = "CCO",
     group = 
 """
-1 *1 Cd  0 {2,D}
-2 *2 Cdd 0 {1,D} {3,D}
-3    Od  0 {2,D}
+1 *1 Cd  u0 {2,D}
+2 *2 Cdd u0 {1,D} {3,D}
+3    Od  u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -40,11 +35,6 @@ entry(
     label = "doublebond",
     group = "OR{mb_CCO, mb_COC}",
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -52,18 +42,13 @@ entry(
     label = "CCO_2H",
     group = 
 """
-1 *1 Cd  0 {2,D} {3,S} {4,S}
-2 *2 Cdd 0 {1,D} {5,D}
-3    H   0 {1,S}
-4    H   0 {1,S}
-5    Od  0 {2,D}
+1 *1 Cd  u0 {2,D} {3,S} {4,S}
+2 *2 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
+5    Od  u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -71,18 +56,13 @@ entry(
     label = "CCO_HNd",
     group = 
 """
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cdd    0 {1,D} {5,D}
-3    H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    Od     0 {2,D}
+1 *1 Cd     u0 {2,D} {3,S} {4,S}
+2 *2 Cdd    u0 {1,D} {5,D}
+3    H      u0 {1,S}
+4    [Cs,O] u0 {1,S}
+5    Od     u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -90,18 +70,13 @@ entry(
     label = "CCO_HDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cdd           0 {1,D} {5,D}
-3    H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    Od            0 {2,D}
+1 *1 Cd            u0 {2,D} {3,S} {4,S}
+2 *2 Cdd           u0 {1,D} {5,D}
+3    H             u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {1,S}
+5    Od            u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -109,18 +84,13 @@ entry(
     label = "CCO_Nd2",
     group = 
 """
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cdd    0 {1,D} {5,D}
-3    {Cs,O} 0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    Od     0 {2,D}
+1 *1 Cd     u0 {2,D} {3,S} {4,S}
+2 *2 Cdd    u0 {1,D} {5,D}
+3    [Cs,O] u0 {1,S}
+4    [Cs,O] u0 {1,S}
+5    Od     u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -128,18 +98,13 @@ entry(
     label = "CCO_NdDe",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cdd           0 {1,D} {5,D}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    Od            0 {2,D}
+1 *1 Cd            u0 {2,D} {3,S} {4,S}
+2 *2 Cdd           u0 {1,D} {5,D}
+3    [Cs,O]        u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {1,S}
+5    Od            u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -147,18 +112,13 @@ entry(
     label = "CCO_De2",
     group = 
 """
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cdd           0 {1,D} {5,D}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    Od            0 {2,D}
+1 *1 Cd            u0 {2,D} {3,S} {4,S}
+2 *2 Cdd           u0 {1,D} {5,D}
+3    [Cd,Ct,Cb,CO] u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {1,S}
+5    Od            u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -166,16 +126,11 @@ entry(
     label = "mb_CCO",
     group = 
 """
-1 *3 Cd  0 {2,D}
-2 *4 Cdd 0 {1,D} {3,D}
-3    Od  0 {2,D}
+1 *3 Cd  u0 {2,D}
+2 *4 Cdd u0 {1,D} {3,D}
+3    Od  u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -183,18 +138,13 @@ entry(
     label = "mb_CCO_2H",
     group = 
 """
-1 *3 Cd  0 {2,D} {3,S} {4,S}
-2 *4 Cdd 0 {1,D} {5,D}
-3    H   0 {1,S}
-4    H   0 {1,S}
-5    Od  0 {2,D}
+1 *3 Cd  u0 {2,D} {3,S} {4,S}
+2 *4 Cdd u0 {1,D} {5,D}
+3    H   u0 {1,S}
+4    H   u0 {1,S}
+5    Od  u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -202,18 +152,13 @@ entry(
     label = "mb_CCO_HNd",
     group = 
 """
-1 *3 Cd     0 {2,D} {3,S} {4,S}
-2 *4 Cdd    0 {1,D} {5,D}
-3    H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    Od     0 {2,D}
+1 *3 Cd     u0 {2,D} {3,S} {4,S}
+2 *4 Cdd    u0 {1,D} {5,D}
+3    H      u0 {1,S}
+4    [Cs,O] u0 {1,S}
+5    Od     u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -221,18 +166,13 @@ entry(
     label = "mb_CCO_HDe",
     group = 
 """
-1 *3 Cd            0 {2,D} {3,S} {4,S}
-2 *4 Cdd           0 {1,D} {5,D}
-3    H             0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    Od            0 {2,D}
+1 *3 Cd            u0 {2,D} {3,S} {4,S}
+2 *4 Cdd           u0 {1,D} {5,D}
+3    H             u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {1,S}
+5    Od            u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -240,18 +180,13 @@ entry(
     label = "mb_CCO_Nd2",
     group = 
 """
-1 *3 Cd     0 {2,D} {3,S} {4,S}
-2 *4 Cdd    0 {1,D} {5,D}
-3    {Cs,O} 0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    Od     0 {2,D}
+1 *3 Cd     u0 {2,D} {3,S} {4,S}
+2 *4 Cdd    u0 {1,D} {5,D}
+3    [Cs,O] u0 {1,S}
+4    [Cs,O] u0 {1,S}
+5    Od     u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -259,18 +194,13 @@ entry(
     label = "mb_CCO_NdDe",
     group = 
 """
-1 *3 Cd            0 {2,D} {3,S} {4,S}
-2 *4 Cdd           0 {1,D} {5,D}
-3    {Cs,O}        0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    Od            0 {2,D}
+1 *3 Cd            u0 {2,D} {3,S} {4,S}
+2 *4 Cdd           u0 {1,D} {5,D}
+3    [Cs,O]        u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {1,S}
+5    Od            u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -278,18 +208,13 @@ entry(
     label = "mb_CCO_De2",
     group = 
 """
-1 *3 Cd            0 {2,D} {3,S} {4,S}
-2 *4 Cdd           0 {1,D} {5,D}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-4    {Cd,Ct,Cb,CO} 0 {1,S}
-5    Od            0 {2,D}
+1 *3 Cd            u0 {2,D} {3,S} {4,S}
+2 *4 Cdd           u0 {1,D} {5,D}
+3    [Cd,Ct,Cb,CO] u0 {1,S}
+4    [Cd,Ct,Cb,CO] u0 {1,S}
+5    Od            u0 {2,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -297,16 +222,11 @@ entry(
     label = "mb_COC",
     group = 
 """
-1 *3 Cdd 0 {2,D} {3,D}
-2 *4 Cd  0 {1,D}
-3    Od  0 {1,D}
+1 *3 Cdd u0 {2,D} {3,D}
+2 *4 Cd  u0 {1,D}
+3    Od  u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -314,18 +234,13 @@ entry(
     label = "mb_COC_2H",
     group = 
 """
-1 *3 Cdd 0 {2,D} {5,D}
-2 *4 Cd  0 {1,D} {3,S} {4,S}
-3    H   0 {2,S}
-4    H   0 {2,S}
-5    Od  0 {1,D}
+1 *3 Cdd u0 {2,D} {5,D}
+2 *4 Cd  u0 {1,D} {3,S} {4,S}
+3    H   u0 {2,S}
+4    H   u0 {2,S}
+5    Od  u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -333,18 +248,13 @@ entry(
     label = "mb_COC_HNd",
     group = 
 """
-1 *3 Cdd    0 {2,D} {5,D}
-2 *4 Cd     0 {1,D} {3,S} {4,S}
-3    H      0 {2,S}
-4    {Cs,O} 0 {2,S}
-5    Od     0 {1,D}
+1 *3 Cdd    u0 {2,D} {5,D}
+2 *4 Cd     u0 {1,D} {3,S} {4,S}
+3    H      u0 {2,S}
+4    [Cs,O] u0 {2,S}
+5    Od     u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -352,18 +262,13 @@ entry(
     label = "mb_COC_HDe",
     group = 
 """
-1 *3 Cdd           0 {2,D} {5,D}
-2 *4 Cd            0 {1,D} {3,S} {4,S}
-3    H             0 {2,S}
-4    {Cd,Ct,Cb,CO} 0 {2,S}
-5    Od            0 {1,D}
+1 *3 Cdd           u0 {2,D} {5,D}
+2 *4 Cd            u0 {1,D} {3,S} {4,S}
+3    H             u0 {2,S}
+4    [Cd,Ct,Cb,CO] u0 {2,S}
+5    Od            u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -371,18 +276,13 @@ entry(
     label = "mb_COC_Nd2",
     group = 
 """
-1 *3 Cdd    0 {2,D} {5,D}
-2 *4 Cd     0 {1,D} {3,S} {4,S}
-3    {Cs,O} 0 {2,S}
-4    {Cs,O} 0 {2,S}
-5    Od     0 {1,D}
+1 *3 Cdd    u0 {2,D} {5,D}
+2 *4 Cd     u0 {1,D} {3,S} {4,S}
+3    [Cs,O] u0 {2,S}
+4    [Cs,O] u0 {2,S}
+5    Od     u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -390,18 +290,13 @@ entry(
     label = "mb_COC_NdDe",
     group = 
 """
-1 *3 Cdd           0 {2,D} {5,D}
-2 *4 Cd            0 {1,D} {3,S} {4,S}
-3    {Cs,O}        0 {2,S}
-4    {Cd,Ct,Cb,CO} 0 {2,S}
-5    Od            0 {1,D}
+1 *3 Cdd           u0 {2,D} {5,D}
+2 *4 Cd            u0 {1,D} {3,S} {4,S}
+3    [Cs,O]        u0 {2,S}
+4    [Cd,Ct,Cb,CO] u0 {2,S}
+5    Od            u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -409,18 +304,13 @@ entry(
     label = "mb_COC_De2",
     group = 
 """
-1 *3 Cdd           0 {2,D} {5,D}
-2 *4 Cd            0 {1,D} {3,S} {4,S}
-3    {Cd,Ct,Cb,CO} 0 {2,S}
-4    {Cd,Ct,Cb,CO} 0 {2,S}
-5    Od            0 {1,D}
+1 *3 Cdd           u0 {2,D} {5,D}
+2 *4 Cd            u0 {1,D} {3,S} {4,S}
+3    [Cd,Ct,Cb,CO] u0 {2,S}
+4    [Cd,Ct,Cb,CO] u0 {2,S}
+5    Od            u0 {1,D}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 tree(

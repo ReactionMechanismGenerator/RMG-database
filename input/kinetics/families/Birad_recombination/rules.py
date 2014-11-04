@@ -10,7 +10,7 @@ entry(
     index = 480,
     label = "Rn;Y_rad_out;Ypri_rad_out",
     kinetics = ArrheniusEP(
-        A = (500000000000.0, 's^-1'),
+        A = (5e+11, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (30, 'kcal/mol'),
@@ -19,17 +19,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 482,
     label = "R6_SSSDS;C_rad_out_H/OneDe;Cpri_rad_out_2H",
     kinetics = ArrheniusEP(
-        A = (2000000000000.0, 's^-1'),
+        A = (2e+12, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (1.8, 'kcal/mol', '+|-', 1),
@@ -57,7 +53,7 @@ entry(
     index = 485,
     label = "R4_SSS;C_rad_out_2H;Cpri_rad_out_2H",
     kinetics = ArrheniusEP(
-        A = (1620000000000.0, 's^-1'),
+        A = (1.62e+12, 's^-1'),
         n = -0.305,
         alpha = 0,
         E0 = (1.98, 'kcal/mol'),
@@ -82,7 +78,7 @@ entry(
     index = 486,
     label = "R5_SSSS;C_rad_out_2H;Cpri_rad_out_2H",
     kinetics = ArrheniusEP(
-        A = (7760000000.0, 's^-1'),
+        A = (7.76e+09, 's^-1'),
         n = 0.311,
         alpha = 0,
         E0 = (1.7, 'kcal/mol'),
@@ -109,7 +105,7 @@ entry(
     index = 487,
     label = "R6_SSSSS;C_rad_out_2H;Cpri_rad_out_2H",
     kinetics = ArrheniusEP(
-        A = (32100000000.0, 's^-1'),
+        A = (3.21e+10, 's^-1'),
         n = 0.137,
         alpha = 0,
         E0 = (2.12, 'kcal/mol'),
@@ -118,10 +114,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""[x] Sirjean et al.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -137,9 +129,5 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
-u"""
-
-""",
 )
 

@@ -34,10 +34,5 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
-u"""
-""",
 )
-
-
 

@@ -11,7 +11,7 @@ entry(
     label = "Ring",
     group = 
 """
-1 * R 0
+1 * R u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -31,9 +31,9 @@ entry(
     label = "ThreeMember",
     group = 
 """
-1 * R!H 0 {2,{S,D}} {3,{S,D}}
-2   R!H 0 {1,{S,D}} {3,{S,D}}
-3   R!H 0 {1,{S,D}} {2,{S,D}}
+1 * R!H u0 {2,[S,D]} {3,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {1,[S,D]} {2,[S,D]}
 """,
     thermo = u'Cyclopropane',
     shortDesc = u"""""",
@@ -48,9 +48,9 @@ entry(
     label = "Cyclopropane",
     group = 
 """
-1 * Cs 0 {2,S} {3,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {1,S} {2,S}
+1 * Cs u0 {2,S} {3,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -70,9 +70,9 @@ entry(
     label = "Cyclopropene",
     group = 
 """
-1 * Cs 0 {2,S} {3,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {1,S} {2,D}
+1 * Cs u0 {2,S} {3,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {1,S} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -92,9 +92,9 @@ entry(
     label = "Cyclopropadiene",
     group = 
 """
-1 * Cd  0 {2,S} {3,D}
-2   Cd  0 {1,S} {3,D}
-3   Cdd 0 {1,D} {2,D}
+1 * Cd  u0 {2,S} {3,D}
+2   Cd  u0 {1,S} {3,D}
+3   Cdd u0 {1,D} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -114,9 +114,9 @@ entry(
     label = "Cyclopropatriene",
     group = 
 """
-1 * Cdd 0 {2,D} {3,D}
-2   Cdd 0 {1,D} {3,D}
-3   Cdd 0 {1,D} {2,D}
+1 * Cdd u0 {2,D} {3,D}
+2   Cdd u0 {1,D} {3,D}
+3   Cdd u0 {1,D} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -136,9 +136,9 @@ entry(
     label = "Ethylene_oxide",
     group = 
 """
-1 * O  0 {2,S} {3,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {1,S} {2,S}
+1 * O  u0 {2,S} {3,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -158,9 +158,9 @@ entry(
     label = "dioxirane",
     group = 
 """
-1 * Os 0 {2,S} {3,S}
-2   Os 0 {1,S} {3,S}
-3   Cs 0 {1,S} {2,S}
+1 * Os u0 {2,S} {3,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -180,9 +180,9 @@ entry(
     label = "2(co)oxirane",
     group = 
 """
-1   CO 0 {2,S} {3,S}
-2 * Os 0 {1,S} {3,S}
-3   Cs 0 {1,S} {2,S}
+1   CO u0 {2,S} {3,S}
+2 * Os u0 {1,S} {3,S}
+3   Cs u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -202,9 +202,9 @@ entry(
     label = "cyclopropanedione",
     group = 
 """
-1   CO 0 {2,S} {3,S}
-2 * CO 0 {1,S} {3,S}
-3   Cs 0 {1,S} {2,S}
+1   CO u0 {2,S} {3,S}
+2 * CO u0 {1,S} {3,S}
+3   Cs u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -224,9 +224,9 @@ entry(
     label = "cyclopropenone",
     group = 
 """
-1   Cd 0 {2,S} {3,D}
-2 * CO 0 {1,S} {3,S}
-3   Cd 0 {1,D} {2,S}
+1   Cd u0 {2,S} {3,D}
+2 * CO u0 {1,S} {3,S}
+3   Cd u0 {1,D} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -246,9 +246,9 @@ entry(
     label = "thiirane",
     group = 
 """
-1 * S 0 {2,S} {3,S}
-2   C 0 {1,S} {3,S}
-3   C 0 {1,S} {2,S}
+1 * S u0 {2,S} {3,S}
+2   C u0 {1,S} {3,S}
+3   C u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -268,9 +268,9 @@ entry(
     label = "dithiirane",
     group = 
 """
-1 * S 0 {2,S} {3,S}
-2   S 0 {1,S} {3,S}
-3   C 0 {1,S} {2,S}
+1 * S u0 {2,S} {3,S}
+2   S u0 {1,S} {3,S}
+3   C u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -290,9 +290,9 @@ entry(
     label = "trithiirane",
     group = 
 """
-1 * S 0 {2,S} {3,S}
-2   S 0 {1,S} {3,S}
-3   S 0 {1,S} {2,S}
+1 * S u0 {2,S} {3,S}
+2   S u0 {1,S} {3,S}
+3   S u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -312,9 +312,9 @@ entry(
     label = "thiirene",
     group = 
 """
-1 * S 0 {2,S} {3,S}
-2   C 0 {1,S} {3,D}
-3   C 0 {1,S} {2,D}
+1 * S u0 {2,S} {3,S}
+2   C u0 {1,S} {3,D}
+3   C u0 {1,S} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -334,9 +334,9 @@ entry(
     label = "Ethyleneimine",
     group = 
 """
-1 * N3s 0 {2,S} {3,S}
-2   Cs  0 {1,S} {3,S}
-3   Cs  0 {1,S} {2,S}
+1 * N3s u0 {2,S} {3,S}
+2   Cs  u0 {1,S} {3,S}
+3   Cs  u0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -356,10 +356,10 @@ entry(
     label = "Methylene_cyclopropane",
     group = 
 """
-1 * Cd 0 {2,S} {3,S} {4,D}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {1,S} {2,S}
-4   Cd 0 {1,D}
+1 * Cd u0 {2,S} {3,S} {4,D}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {1,S} {2,S}
+4   Cd u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -379,10 +379,10 @@ entry(
     label = "cyclopropanone",
     group = 
 """
-1 * C 0 {2,S} {3,S} {4,D}
-2   C 0 {1,S} {3,S}
-3   C 0 {1,S} {2,S}
-4   O 0 {1,D}
+1 * C u0 {2,S} {3,S} {4,D}
+2   C u0 {1,S} {3,S}
+3   C u0 {1,S} {2,S}
+4   O u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -402,10 +402,10 @@ entry(
     label = "methylenecyclopropene",
     group = 
 """
-1   Cd 0 {2,S} {3,D}
-2 * Cd 0 {1,S} {3,S} {4,D}
-3   Cd 0 {1,D} {2,S}
-4   Cd 0 {2,D}
+1   Cd u0 {2,S} {3,D}
+2 * Cd u0 {1,S} {3,S} {4,D}
+3   Cd u0 {1,D} {2,S}
+4   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -425,10 +425,10 @@ entry(
     label = "methylenecyclopropanone",
     group = 
 """
-1   CO 0 {2,S} {3,S}
-2 * Cd 0 {1,S} {3,S} {4,D}
-3   Cs 0 {1,S} {2,S}
-4   Cd 0 {2,D}
+1   CO u0 {2,S} {3,S}
+2 * Cd u0 {1,S} {3,S} {4,D}
+3   Cs u0 {1,S} {2,S}
+4   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -448,10 +448,10 @@ entry(
     label = "methyleneoxirane",
     group = 
 """
-1   Os 0 {2,S} {3,S}
-2 * Cd 0 {1,S} {3,S} {4,D}
-3   Cs 0 {1,S} {2,S}
-4   Cd 0 {2,D}
+1   Os u0 {2,S} {3,S}
+2 * Cd u0 {1,S} {3,S} {4,D}
+3   Cs u0 {1,S} {2,S}
+4   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -471,11 +471,11 @@ entry(
     label = "12Methylenecyclopropane",
     group = 
 """
-1   Cd 0 {2,S} {3,S} {4,D}
-2 * Cd 0 {1,S} {3,S} {5,D}
-3   Cs 0 {1,S} {2,S}
-4   Cd 0 {1,D}
-5   Cd 0 {2,D}
+1   Cd u0 {2,S} {3,S} {4,D}
+2 * Cd u0 {1,S} {3,S} {5,D}
+3   Cs u0 {1,S} {2,S}
+4   Cd u0 {1,D}
+5   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -495,10 +495,10 @@ entry(
     label = "FourMember",
     group = 
 """
-1 * R!H 0 {2,{S,D}} {4,{S,D}}
-2   R!H 0 {1,{S,D}} {3,{S,D}}
-3   R!H 0 {2,{S,D}} {4,{S,D}}
-4   R!H 0 {1,{S,D}} {3,{S,D}}
+1 * R!H u0 {2,[S,D]} {4,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {1,[S,D]} {3,[S,D]}
 """,
     thermo = u'Cyclobutane',
     shortDesc = u"""""",
@@ -513,10 +513,10 @@ entry(
     label = "Cyclobutane",
     group = 
 """
-1 * Cs 0 {2,S} {4,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {1,S} {3,S}
+1 * Cs u0 {2,S} {4,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -536,10 +536,10 @@ entry(
     label = "Cyclobutene",
     group = 
 """
-1 * Cs 0 {2,S} {4,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {1,S} {3,S}
+1 * Cs u0 {2,S} {4,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -559,10 +559,10 @@ entry(
     label = "Oxetane",
     group = 
 """
-1 * O  0 {2,S} {4,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {1,S} {3,S}
+1 * O  u0 {2,S} {4,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -582,10 +582,10 @@ entry(
     label = "Beta-Propiolactone",
     group = 
 """
-1 * O  0 {2,S} {4,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   CO 0 {1,S} {3,S}
+1 * O  u0 {2,S} {4,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   CO u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -605,10 +605,10 @@ entry(
     label = "Cyclobutanone",
     group = 
 """
-1 * CO 0 {2,S} {4,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {1,S} {3,S}
+1 * CO u0 {2,S} {4,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -628,10 +628,10 @@ entry(
     label = "12dioxetane",
     group = 
 """
-1   Cs 0 {2,S} {4,S}
-2 * Cs 0 {1,S} {3,S}
-3   Os 0 {2,S} {4,S}
-4   Os 0 {1,S} {3,S}
+1   Cs u0 {2,S} {4,S}
+2 * Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {4,S}
+4   Os u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -651,10 +651,10 @@ entry(
     label = "dioxerene",
     group = 
 """
-1   Cd 0 {2,D} {4,S}
-2 * Cd 0 {1,D} {3,S}
-3   Os 0 {2,S} {4,S}
-4   Os 0 {1,S} {3,S}
+1   Cd u0 {2,D} {4,S}
+2 * Cd u0 {1,D} {3,S}
+3   Os u0 {2,S} {4,S}
+4   Os u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -674,10 +674,10 @@ entry(
     label = "cyclobutadiene",
     group = 
 """
-1   Cd 0 {2,D} {4,S}
-2 * Cd 0 {1,D} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {1,S} {3,D}
+1   Cd u0 {2,D} {4,S}
+2 * Cd u0 {1,D} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {1,S} {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -697,10 +697,10 @@ entry(
     label = "thietane",
     group = 
 """
-1 * S 0 {2,S} {4,S}
-2   C 0 {1,S} {3,S}
-3   C 0 {2,S} {4,S}
-4   C 0 {1,S} {3,S}
+1 * S u0 {2,S} {4,S}
+2   C u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -720,10 +720,10 @@ entry(
     label = "1,2-dithietane",
     group = 
 """
-1 * S 0 {2,S} {4,S}
-2   S 0 {1,S} {3,S}
-3   C 0 {2,S} {4,S}
-4   C 0 {1,S} {3,S}
+1 * S u0 {2,S} {4,S}
+2   S u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -743,10 +743,10 @@ entry(
     label = "1,3-dithietane",
     group = 
 """
-1 * S 0 {2,S} {4,S}
-2   C 0 {1,S} {3,S}
-3   S 0 {2,S} {4,S}
-4   C 0 {1,S} {3,S}
+1 * S u0 {2,S} {4,S}
+2   C u0 {1,S} {3,S}
+3   S u0 {2,S} {4,S}
+4   C u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -766,10 +766,10 @@ entry(
     label = "trithietane",
     group = 
 """
-1 * S 0 {2,S} {4,S}
-2   S 0 {1,S} {3,S}
-3   S 0 {2,S} {4,S}
-4   C 0 {1,S} {3,S}
+1 * S u0 {2,S} {4,S}
+2   S u0 {1,S} {3,S}
+3   S u0 {2,S} {4,S}
+4   C u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -789,10 +789,10 @@ entry(
     label = "tetrathietane",
     group = 
 """
-1 * S 0 {2,S} {4,S}
-2   S 0 {1,S} {3,S}
-3   S 0 {2,S} {4,S}
-4   S 0 {1,S} {3,S}
+1 * S u0 {2,S} {4,S}
+2   S u0 {1,S} {3,S}
+3   S u0 {2,S} {4,S}
+4   S u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -812,10 +812,10 @@ entry(
     label = "Azetidine",
     group = 
 """
-1 * N3s 0 {2,S} {4,S}
-2   Cs  0 {1,S} {3,S}
-3   Cs  0 {2,S} {4,S}
-4   Cs  0 {1,S} {3,S}
+1 * N3s u0 {2,S} {4,S}
+2   Cs  u0 {1,S} {3,S}
+3   Cs  u0 {2,S} {4,S}
+4   Cs  u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -835,11 +835,11 @@ entry(
     label = "4-Methylene-2-oxetanone",
     group = 
 """
-1 * O  0 {2,S} {4,S}
-2   Cd 0 {1,S} {3,S} {5,D}
-3   Cs 0 {2,S} {4,S}
-4   CO 0 {1,S} {3,S}
-5   Cd 0 {2,D}
+1 * O  u0 {2,S} {4,S}
+2   Cd u0 {1,S} {3,S} {5,D}
+3   Cs u0 {2,S} {4,S}
+4   CO u0 {1,S} {3,S}
+5   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -859,11 +859,11 @@ entry(
     label = "methylenecyclobutane",
     group = 
 """
-1   Cs 0 {2,S} {4,S}
-2 * Cd 0 {1,S} {3,S} {5,D}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {1,S} {3,S}
-5   Cd 0 {2,D}
+1   Cs u0 {2,S} {4,S}
+2 * Cd u0 {1,S} {3,S} {5,D}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
+5   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -883,11 +883,11 @@ entry(
     label = "2methyleneoxetane",
     group = 
 """
-1   Os 0 {2,S} {4,S}
-2 * Cd 0 {1,S} {3,S} {5,D}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {1,S} {3,S}
-5   Cd 0 {2,D}
+1   Os u0 {2,S} {4,S}
+2 * Cd u0 {1,S} {3,S} {5,D}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
+5   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -907,12 +907,12 @@ entry(
     label = "12methylenecyclobutane",
     group = 
 """
-1 * Cd 0 {2,S} {4,S} {5,D}
-2   Cd 0 {1,S} {3,S} {6,D}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {1,S} {3,S}
-5   Cd 0 {1,D}
-6   Cd 0 {2,D}
+1 * Cd u0 {2,S} {4,S} {5,D}
+2   Cd u0 {1,S} {3,S} {6,D}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {1,S} {3,S}
+5   Cd u0 {1,D}
+6   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -932,11 +932,11 @@ entry(
     label = "FiveMember",
     group = 
 """
-1 * R!H 0 {2,{S,D}} {5,{S,D}}
-2   R!H 0 {1,{S,D}} {3,{S,D}}
-3   R!H 0 {2,{S,D}} {4,{S,D}}
-4   R!H 0 {3,{S,D}} {5,{S,D}}
-5   R!H 0 {1,{S,D}} {4,{S,D}}
+1 * R!H u0 {2,[S,D]} {5,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H u0 {1,[S,D]} {4,[S,D]}
 """,
     thermo = u'Cyclopentane',
     shortDesc = u"""""",
@@ -951,11 +951,11 @@ entry(
     label = "Cyclopentane",
     group = 
 """
-1 * Cs 0 {2,S} {5,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
+1 * Cs u0 {2,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -975,11 +975,11 @@ entry(
     label = "Cyclopentene",
     group = 
 """
-1   Cs 0 {2,S} {5,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5 * Cs 0 {1,S} {4,S}
+1   Cs u0 {2,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5 * Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -999,11 +999,11 @@ entry(
     label = "Cyclopentadiene",
     group = 
 """
-1 * Cs 0 {2,S} {5,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {1,S} {4,D}
+1 * Cs u0 {2,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1023,11 +1023,11 @@ entry(
     label = "Cyclopentatriene",
     group = 
 """
-1 * Cd  0 {2,D} {5,S}
-2   Cdd 0 {1,D} {3,D}
-3   Cd  0 {2,D} {4,S}
-4   Cd  0 {3,S} {5,D}
-5   Cd  0 {1,S} {4,D}
+1 * Cd  u0 {2,D} {5,S}
+2   Cdd u0 {1,D} {3,D}
+3   Cd  u0 {2,D} {4,S}
+4   Cd  u0 {3,S} {5,D}
+5   Cd  u0 {1,S} {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1047,11 +1047,11 @@ entry(
     label = "Tetrahydrofuran",
     group = 
 """
-1 * O  0 {2,S} {5,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
+1 * O  u0 {2,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1071,11 +1071,11 @@ entry(
     label = "2,3-Dihydrofuran",
     group = 
 """
-1 * O  0 {2,S} {5,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
+1 * O  u0 {2,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1095,11 +1095,11 @@ entry(
     label = "1,3-Dioxolane",
     group = 
 """
-1 * Cs 0 {2,S} {5,S}
-2   O  0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   O  0 {1,S} {4,S}
+1 * Cs u0 {2,S} {5,S}
+2   O  u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   O  u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1119,11 +1119,11 @@ entry(
     label = "Furan",
     group = 
 """
-1   Cd 0 {2,D} {5,S}
-2   Cd 0 {1,D} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5 * O  0 {1,S} {4,S}
+1   Cd u0 {2,D} {5,S}
+2   Cd u0 {1,D} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5 * O  u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1143,11 +1143,11 @@ entry(
     label = "Dihydro-2,5-furandione",
     group = 
 """
-1 * O  0 {2,S} {5,S}
-2   CO 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   CO 0 {1,S} {4,S}
+1 * O  u0 {2,S} {5,S}
+2   CO u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   CO u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1167,11 +1167,11 @@ entry(
     label = "2,5-Furandione",
     group = 
 """
-1 * O  0 {2,S} {5,S}
-2   CO 0 {1,S} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   CO 0 {1,S} {4,S}
+1 * O  u0 {2,S} {5,S}
+2   CO u0 {1,S} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   CO u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1191,11 +1191,11 @@ entry(
     label = "Cyclopentanone",
     group = 
 """
-1 * CO 0 {2,S} {5,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
+1 * CO u0 {2,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1215,11 +1215,11 @@ entry(
     label = "butyrolactone",
     group = 
 """
-1 * CO 0 {2,S} {5,S}
-2   Os 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
+1 * CO u0 {2,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1239,11 +1239,11 @@ entry(
     label = "25dihydrofuran",
     group = 
 """
-1 * Cs 0 {2,S} {5,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Os 0 {1,S} {4,S}
+1 * Cs u0 {2,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Os u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1263,11 +1263,11 @@ entry(
     label = "12dioxolane",
     group = 
 """
-1 * Os 0 {2,S} {5,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Os 0 {1,S} {4,S}
+1 * Os u0 {2,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Os u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1287,11 +1287,11 @@ entry(
     label = "12dioxolene",
     group = 
 """
-1 * Os 0 {2,S} {5,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Os 0 {1,S} {4,S}
+1 * Os u0 {2,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Os u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1311,11 +1311,11 @@ entry(
     label = "123trioxolane",
     group = 
 """
-1 * Os 0 {2,S} {5,S}
-2   Os 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Os 0 {1,S} {4,S}
+1 * Os u0 {2,S} {5,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Os u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1335,11 +1335,11 @@ entry(
     label = "124trioxolane",
     group = 
 """
-1 * Os 0 {2,S} {5,S}
-2   Cs 0 {1,S} {3,S}
-3   Os 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Os 0 {1,S} {4,S}
+1 * Os u0 {2,S} {5,S}
+2   Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Os u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1359,11 +1359,11 @@ entry(
     label = "thiolane",
     group = 
 """
-1 * S 0 {2,S} {5,S}
-2   C 0 {1,S} {3,S}
-3   C 0 {2,S} {4,S}
-4   C 0 {3,S} {5,S}
-5   C 0 {1,S} {4,S}
+1 * S u0 {2,S} {5,S}
+2   C u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {3,S} {5,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1383,11 +1383,11 @@ entry(
     label = "2,3-dihydrothiophene",
     group = 
 """
-1 * S  0 {2,S} {5,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   C  0 {3,S} {5,S}
-5   C  0 {1,S} {4,S}
+1 * S  u0 {2,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   C  u0 {3,S} {5,S}
+5   C  u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1407,11 +1407,11 @@ entry(
     label = "2,5-dihydrothiophene",
     group = 
 """
-1 * S  0 {2,S} {5,S}
-2   C  0 {1,S} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   C  0 {1,S} {4,S}
+1 * S  u0 {2,S} {5,S}
+2   C  u0 {1,S} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   C  u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1431,11 +1431,11 @@ entry(
     label = "thiophene",
     group = 
 """
-1 * S  0 {2,S} {5,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {1,S} {4,D}
+1 * S  u0 {2,S} {5,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1455,11 +1455,11 @@ entry(
     label = "1,2-dithiolane",
     group = 
 """
-1 * S 0 {2,S} {5,S}
-2   S 0 {1,S} {3,S}
-3   C 0 {2,S} {4,S}
-4   C 0 {3,S} {5,S}
-5   C 0 {1,S} {4,S}
+1 * S u0 {2,S} {5,S}
+2   S u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {3,S} {5,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1479,11 +1479,11 @@ entry(
     label = "1,3-dithiolane",
     group = 
 """
-1 * S 0 {2,S} {5,S}
-2   C 0 {1,S} {3,S}
-3   S 0 {2,S} {4,S}
-4   C 0 {3,S} {5,S}
-5   C 0 {1,S} {4,S}
+1 * S u0 {2,S} {5,S}
+2   C u0 {1,S} {3,S}
+3   S u0 {2,S} {4,S}
+4   C u0 {3,S} {5,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1503,11 +1503,11 @@ entry(
     label = "1,2,3-trithiolane",
     group = 
 """
-1 * S 0 {2,S} {5,S}
-2   S 0 {1,S} {3,S}
-3   S 0 {2,S} {4,S}
-4   C 0 {3,S} {5,S}
-5   C 0 {1,S} {4,S}
+1 * S u0 {2,S} {5,S}
+2   S u0 {1,S} {3,S}
+3   S u0 {2,S} {4,S}
+4   C u0 {3,S} {5,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1527,11 +1527,11 @@ entry(
     label = "1,2,4-trithiolane",
     group = 
 """
-1 * S 0 {2,S} {5,S}
-2   S 0 {1,S} {3,S}
-3   C 0 {2,S} {4,S}
-4   S 0 {3,S} {5,S}
-5   C 0 {1,S} {4,S}
+1 * S u0 {2,S} {5,S}
+2   S u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   S u0 {3,S} {5,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1551,11 +1551,11 @@ entry(
     label = "tetrathiolane",
     group = 
 """
-1 * S 0 {2,S} {5,S}
-2   S 0 {1,S} {3,S}
-3   S 0 {2,S} {4,S}
-4   S 0 {3,S} {5,S}
-5   C 0 {1,S} {4,S}
+1 * S u0 {2,S} {5,S}
+2   S u0 {1,S} {3,S}
+3   S u0 {2,S} {4,S}
+4   S u0 {3,S} {5,S}
+5   C u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1575,11 +1575,11 @@ entry(
     label = "pentathiolane",
     group = 
 """
-1 * S 0 {2,S} {5,S}
-2   S 0 {1,S} {3,S}
-3   S 0 {2,S} {4,S}
-4   S 0 {3,S} {5,S}
-5   S 0 {1,S} {4,S}
+1 * S u0 {2,S} {5,S}
+2   S u0 {1,S} {3,S}
+3   S u0 {2,S} {4,S}
+4   S u0 {3,S} {5,S}
+5   S u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1599,11 +1599,11 @@ entry(
     label = "Pyrrolidine",
     group = 
 """
-1 * N3s 0 {2,S} {5,S}
-2   Cs  0 {1,S} {3,S}
-3   Cs  0 {2,S} {4,S}
-4   Cs  0 {3,S} {5,S}
-5   Cs  0 {1,S} {4,S}
+1 * N3s u0 {2,S} {5,S}
+2   Cs  u0 {1,S} {3,S}
+3   Cs  u0 {2,S} {4,S}
+4   Cs  u0 {3,S} {5,S}
+5   Cs  u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1623,12 +1623,12 @@ entry(
     label = "methylenecyclopentane",
     group = 
 """
-1 * Cd 0 {2,S} {5,S} {6,D}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
-6   Cd 0 {1,D}
+1 * Cd u0 {2,S} {5,S} {6,D}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
+6   Cd u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1648,12 +1648,12 @@ entry(
     label = "Fulvene",
     group = 
 """
-1 * Cd 0 {2,S} {5,S} {6,D}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {1,S} {4,D}
-6   Cd 0 {1,D}
+1 * Cd u0 {2,S} {5,S} {6,D}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D}
+6   Cd u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1673,12 +1673,12 @@ entry(
     label = "3-Methylenecyclopentene",
     group = 
 """
-1 * Cs 0 {2,S} {3,S}
-2   Cs 0 {1,S} {4,S}
-3   Cd 0 {1,S} {5,S} {6,D}
-4   Cd 0 {2,S} {5,D}
-5   Cd 0 {3,S} {4,D}
-6   Cd 0 {3,D}
+1 * Cs u0 {2,S} {3,S}
+2   Cs u0 {1,S} {4,S}
+3   Cd u0 {1,S} {5,S} {6,D}
+4   Cd u0 {2,S} {5,D}
+5   Cd u0 {3,S} {4,D}
+6   Cd u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1698,12 +1698,12 @@ entry(
     label = "4-Methylenecyclopentene",
     group = 
 """
-1 * Cs 0 {3,S} {4,S}
-2   Cs 0 {3,S} {5,S}
-3   Cd 0 {1,S} {2,S} {6,D}
-4   Cd 0 {1,S} {5,D}
-5   Cd 0 {2,S} {4,D}
-6   Cd 0 {3,D}
+1 * Cs u0 {3,S} {4,S}
+2   Cs u0 {3,S} {5,S}
+3   Cd u0 {1,S} {2,S} {6,D}
+4   Cd u0 {1,S} {5,D}
+5   Cd u0 {2,S} {4,D}
+6   Cd u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1723,13 +1723,13 @@ entry(
     label = "12methylenecyclopentane",
     group = 
 """
-1 * Cd 0 {2,S} {5,S} {6,D}
-2   Cd 0 {1,S} {3,S} {7,D}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {1,S} {4,S}
-6   Cd 0 {1,D}
-7   Cd 0 {2,D}
+1 * Cd u0 {2,S} {5,S} {6,D}
+2   Cd u0 {1,S} {3,S} {7,D}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {1,S} {4,S}
+6   Cd u0 {1,D}
+7   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1749,12 +1749,12 @@ entry(
     label = "SixMember",
     group = 
 """
-1 * R!H 0 {2,{S,D}} {6,{S,D}}
-2   R!H 0 {1,{S,D}} {3,{S,D}}
-3   R!H 0 {2,{S,D}} {4,{S,D}}
-4   R!H 0 {3,{S,D}} {5,{S,D}}
-5   R!H 0 {4,{S,D}} {6,{S,D}}
-6   R!H 0 {1,{S,D}} {5,{S,D}}
+1 * R!H u0 {2,[S,D]} {6,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H u0 {4,[S,D]} {6,[S,D]}
+6   R!H u0 {1,[S,D]} {5,[S,D]}
 """,
     thermo = u'Cyclohexane',
     shortDesc = u"""""",
@@ -1769,12 +1769,12 @@ entry(
     label = "sixnosidedouble",
     group = 
 """
-1 * {Cs,Os,N3s} 0 {2,S} {6,S}
-2   {Cs,Os,N3s} 0 {1,S} {3,S}
-3   {Cs,Os,N3s} 0 {2,S} {4,S}
-4   {Cs,Os,N3s} 0 {3,S} {5,S}
-5   {Cs,Os,N3s} 0 {4,S} {6,S}
-6   {Cs,Os,N3s} 0 {1,S} {5,S}
+1 * [Cs,Os,N3s] u0 {2,S} {6,S}
+2   [Cs,Os,N3s] u0 {1,S} {3,S}
+3   [Cs,Os,N3s] u0 {2,S} {4,S}
+4   [Cs,Os,N3s] u0 {3,S} {5,S}
+5   [Cs,Os,N3s] u0 {4,S} {6,S}
+6   [Cs,Os,N3s] u0 {1,S} {5,S}
 """,
     thermo = u'Cyclohexane',
     shortDesc = u"""""",
@@ -1789,12 +1789,12 @@ entry(
     label = "Cyclohexane",
     group = 
 """
-1 * Cs 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {1,S} {5,S}
+1 * Cs u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1814,12 +1814,12 @@ entry(
     label = "12dioxane",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4 * Cs 0 {3,S} {5,S}
-5   Os 0 {4,S} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Cs u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4 * Cs u0 {3,S} {5,S}
+5   Os u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1839,12 +1839,12 @@ entry(
     label = "1,3-Dioxane",
     group = 
 """
-1   Os  0 {2,S} {6,S}
-2 * Cs 0 {1,S} {3,S}
-3   Os  0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {1,S} {5,S}
+1   Os u0 {2,S} {6,S}
+2 * Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1864,12 +1864,12 @@ entry(
     label = "1,4-Dioxane",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3 * Os  0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Os  0 {1,S} {5,S}
+1   Cs u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3 * Os u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1889,12 +1889,12 @@ entry(
     label = "1,3,5-Trioxane",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2   Os  0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4 * Os  0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Os  0 {1,S} {5,S}
+1   Cs u0 {2,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4 * Os u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1914,12 +1914,12 @@ entry(
     label = "124trioxane",
     group = 
 """
-1   Os 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3   Os 0 {2,S} {4,S}
-4 * Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Os u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {4,S}
+4 * Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1939,12 +1939,12 @@ entry(
     label = "123trioxane",
     group = 
 """
-1   Os 0 {2,S} {6,S}
-2   Os 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4 * Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Os u0 {2,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4 * Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1964,12 +1964,12 @@ entry(
     label = "Oxane",
     group = 
 """
-1 * Cs 0 {2,S} {6,S}
-2   Os 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {1,S} {5,S}
+1 * Cs u0 {2,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1989,12 +1989,12 @@ entry(
     label = "Piperidine",
     group = 
 """
-1 * N3s 0 {2,S} {6,S}
-2   Cs  0 {1,S} {3,S}
-3   Cs  0 {2,S} {4,S}
-4   Cs  0 {3,S} {5,S}
-5   Cs  0 {4,S} {6,S}
-6   Cs  0 {1,S} {5,S}
+1 * N3s u0 {2,S} {6,S}
+2   Cs  u0 {1,S} {3,S}
+3   Cs  u0 {2,S} {4,S}
+4   Cs  u0 {3,S} {5,S}
+5   Cs  u0 {4,S} {6,S}
+6   Cs  u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2014,12 +2014,12 @@ entry(
     label = "six-sidedoubles",
     group = 
 """
-1   {C,O}   0 {2,S} {6,S}
-2 * {Cd,CO} 0 {1,S} {3,S}
-3   {C,O}   0 {2,S} {4,S}
-4   {C,O}   0 {3,S} {5,S}
-5   {C,O}   0 {4,S} {6,S}
-6   {C,O}   0 {1,S} {5,S}
+1   [C,O]   u0 {2,S} {6,S}
+2 * [Cd,CO] u0 {1,S} {3,S}
+3   [C,O]   u0 {2,S} {4,S}
+4   [C,O]   u0 {3,S} {5,S}
+5   [C,O]   u0 {4,S} {6,S}
+6   [C,O]   u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2039,12 +2039,12 @@ entry(
     label = "six-onesidedouble",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * {Cd,CO} 0 {1,S} {3,S}
-3   {Cs,Os} 0 {2,S} {4,S}
-4   {Cs,Os} 0 {3,S} {5,S}
-5   {Cs,Os} 0 {4,S} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * [Cd,CO] u0 {1,S} {3,S}
+3   [Cs,Os] u0 {2,S} {4,S}
+4   [Cs,Os] u0 {3,S} {5,S}
+5   [Cs,Os] u0 {4,S} {6,S}
+6   [Cs,Os] u0 {1,S} {5,S}
 """,
     thermo = u'Cyclohexanone',
     shortDesc = u"""""",
@@ -2059,12 +2059,12 @@ entry(
     label = "Cyclohexanone",
     group = 
 """
-1 * CO 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {1,S} {5,S}
+1 * CO u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2084,12 +2084,12 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-para",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * {Cd,CO} 0 {1,S} {3,S}
-3   {Cs,Os} 0 {2,S} {4,S}
-4   {Cs,Os} 0 {3,S} {5,S}
-5   {Cd,CO} 0 {4,S} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * [Cd,CO] u0 {1,S} {3,S}
+3   [Cs,Os] u0 {2,S} {4,S}
+4   [Cs,Os] u0 {3,S} {5,S}
+5   [Cd,CO] u0 {4,S} {6,S}
+6   [Cs,Os] u0 {1,S} {5,S}
 """,
     thermo = u'14methylenecyclohexane',
     shortDesc = u"""""",
@@ -2104,14 +2104,14 @@ entry(
     label = "14methylenecyclohexane",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2 * Cd 0 {1,S} {3,S} {7,D}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {4,S} {6,S} {8,D}
-6   Cs 0 {1,S} {5,S}
-7   Cd 0 {2,D}
-8   Cd 0 {5,D}
+1   Cs u0 {2,S} {6,S}
+2 * Cd u0 {1,S} {3,S} {7,D}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {4,S} {6,S} {8,D}
+6   Cs u0 {1,S} {5,S}
+7   Cd u0 {2,D}
+8   Cd u0 {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2131,12 +2131,12 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-ortho",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * {Cd,CO} 0 {1,S} {3,S}
-3   {Cd,CO} 0 {2,S} {4,S}
-4   {Cs,Os} 0 {3,S} {5,S}
-5   {Cs,Os} 0 {4,S} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * [Cd,CO] u0 {1,S} {3,S}
+3   [Cd,CO] u0 {2,S} {4,S}
+4   [Cs,Os] u0 {3,S} {5,S}
+5   [Cs,Os] u0 {4,S} {6,S}
+6   [Cs,Os] u0 {1,S} {5,S}
 """,
     thermo = u'six-sidedoubles',
     shortDesc = u"""""",
@@ -2151,12 +2151,12 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-meta",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * {Cd,CO} 0 {1,S} {3,S}
-3   {Cs,Os} 0 {2,S} {4,S}
-4   {Cd,CO} 0 {3,S} {5,S}
-5   {Cs,Os} 0 {4,S} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * [Cd,CO] u0 {1,S} {3,S}
+3   [Cs,Os] u0 {2,S} {4,S}
+4   [Cd,CO] u0 {3,S} {5,S}
+5   [Cs,Os] u0 {4,S} {6,S}
+6   [Cs,Os] u0 {1,S} {5,S}
 """,
     thermo = u'six-sidedoubles',
     shortDesc = u"""""",
@@ -2171,12 +2171,12 @@ entry(
     label = "six-inringonedouble",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * Cd      0 {1,S} {3,D}
-3   Cd      0 {2,D} {4,S}
-4   {Cs,Os} 0 {3,S} {5,S}
-5   {Cs,Os} 0 {4,S} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * Cd      u0 {1,S} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   [Cs,Os] u0 {3,S} {5,S}
+5   [Cs,Os] u0 {4,S} {6,S}
+6   [Cs,Os] u0 {1,S} {5,S}
 """,
     thermo = u'Cyclohexene',
     shortDesc = u"""""",
@@ -2191,12 +2191,12 @@ entry(
     label = "34dihydro12dioxin",
     group = 
 """
-1   Os  0 {2,S} {6,S}
-2   Os  0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5 * Cd 0 {4,S} {6,D}
-6   Cd 0 {1,S} {5,D}
+1   Os u0 {2,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5 * Cd u0 {4,S} {6,D}
+6   Cd u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2216,12 +2216,12 @@ entry(
     label = "36dihydro2hpyran",
     group = 
 """
-1 * Cd 0 {2,S} {6,D}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Os 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cd 0 {1,D} {5,S}
+1 * Cd u0 {2,S} {6,D}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Os u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cd u0 {1,D} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2241,12 +2241,12 @@ entry(
     label = "Cyclohexene",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3 * Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {1,S} {5,S}
+1   Cs u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3 * Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2266,12 +2266,12 @@ entry(
     label = "3,4-Dihydro-2H-pyran",
     group = 
 """
-1   Os  0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5 * Cd 0 {4,S} {6,D}
-6   Cd 0 {1,S} {5,D}
+1   Os u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5 * Cd u0 {4,S} {6,D}
+6   Cd u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2291,12 +2291,12 @@ entry(
     label = "36dihydro12dioxin",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2 * Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Os 0 {4,S} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Cs u0 {2,S} {6,S}
+2 * Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Os u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2316,12 +2316,12 @@ entry(
     label = "24dihydro13dioxin",
     group = 
 """
-1   Cd 0 {2,D} {6,S}
-2 * Cd 0 {1,D} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Os 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Cd u0 {2,D} {6,S}
+2 * Cd u0 {1,D} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Os u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2341,12 +2341,12 @@ entry(
     label = "23dihydro14dioxin",
     group = 
 """
-1   Cd 0 {2,D} {6,S}
-2 * Cd 0 {1,D} {3,S}
-3   Os 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Cd u0 {2,D} {6,S}
+2 * Cd u0 {1,D} {3,S}
+3   Os u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2366,12 +2366,12 @@ entry(
     label = "124trioxene",
     group = 
 """
-1   Os 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3   Os 0 {2,S} {4,S}
-4 * Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Os u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3   Os u0 {2,S} {4,S}
+4 * Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2391,12 +2391,12 @@ entry(
     label = "123trioxene",
     group = 
 """
-1   Os 0 {2,S} {6,S}
-2   Os 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4 * Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Os u0 {2,S} {6,S}
+2   Os u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4 * Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2416,12 +2416,12 @@ entry(
     label = "six-inringtwodouble-13",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * Cd      0 {1,S} {3,D}
-3   Cd      0 {2,D} {4,S}
-4   Cd      0 {3,S} {5,D}
-5   Cd      0 {4,D} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * Cd      u0 {1,S} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   Cd      u0 {3,S} {5,D}
+5   Cd      u0 {4,D} {6,S}
+6   [Cs,Os] u0 {1,S} {5,S}
 """,
     thermo = u'1,3-Cyclohexadiene',
     shortDesc = u"""""",
@@ -2436,12 +2436,12 @@ entry(
     label = "1,3-Cyclohexadiene",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2   Cs 0 {1,S} {3,S}
-3 * Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {1,S} {5,D}
+1   Cs u0 {2,S} {6,S}
+2   Cs u0 {1,S} {3,S}
+3 * Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2461,12 +2461,12 @@ entry(
     label = "six-inringtwodouble-14",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * Cd      0 {1,S} {3,D}
-3   Cd      0 {2,D} {4,S}
-4   {Cs,Os} 0 {3,S} {5,S}
-5   Cd      0 {4,S} {6,D}
-6   Cd      0 {1,S} {5,D}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * Cd      u0 {1,S} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   [Cs,Os] u0 {3,S} {5,S}
+5   Cd      u0 {4,S} {6,D}
+6   Cd      u0 {1,S} {5,D}
 """,
     thermo = u'1,4-Cyclohexadiene',
     shortDesc = u"""""",
@@ -2481,12 +2481,12 @@ entry(
     label = "1,4-Cyclohexadiene",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2 * Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {1,S} {5,D}
+1   Cs u0 {2,S} {6,S}
+2 * Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2506,12 +2506,12 @@ entry(
     label = "14dioxin",
     group = 
 """
-1   Cd 0 {2,D} {6,S}
-2   Cd 0 {1,D} {3,S}
-3   Os 0 {2,S} {4,S}
-4 * Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6   Os 0 {1,S} {5,S}
+1   Cd u0 {2,D} {6,S}
+2   Cd u0 {1,D} {3,S}
+3   Os u0 {2,S} {4,S}
+4 * Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Os u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2531,12 +2531,12 @@ entry(
     label = "six-inringthreedouble",
     group = 
 """
-1   Cd      0 {2,D} {6,S}
-2 * Cdd     0 {1,D} {3,D}
-3   Cd      0 {2,D} {4,S}
-4   {Cs,Os} 0 {3,S} {5,S}
-5   Cd      0 {4,S} {6,D}
-6   Cd      0 {1,S} {5,D}
+1   Cd      u0 {2,D} {6,S}
+2 * Cdd     u0 {1,D} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   [Cs,Os] u0 {3,S} {5,S}
+5   Cd      u0 {4,S} {6,D}
+6   Cd      u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2556,12 +2556,12 @@ entry(
     label = "six-inringtwodouble-12",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2 * Cd      0 {1,S} {3,D}
-3   C       0 {2,D} {4,D}
-4   Cd      0 {3,D} {5,S}
-5   {Cs,Os} 0 {4,S} {6,S}
-6   {Cs,Os} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2 * Cd      u0 {1,S} {3,D}
+3   C       u0 {2,D} {4,D}
+4   Cd      u0 {3,D} {5,S}
+5   [Cs,Os] u0 {4,S} {6,S}
+6   [Cs,Os] u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2581,12 +2581,12 @@ entry(
     label = "six-oneside-twoindoubles-25",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2   Cd      0 {1,S} {3,D}
-3   Cd      0 {2,D} {4,S}
-4 * {Cd,CO} 0 {3,S} {5,S}
-5   Cd      0 {4,S} {6,D}
-6   Cd      0 {1,S} {5,D}
+1   [Cs,Os] u0 {2,S} {6,S}
+2   Cd      u0 {1,S} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4 * [Cd,CO] u0 {3,S} {5,S}
+5   Cd      u0 {4,S} {6,D}
+6   Cd      u0 {1,S} {5,D}
 """,
     thermo = u'14cyclohexadiene3methylene',
     shortDesc = u"""""",
@@ -2601,12 +2601,12 @@ entry(
     label = "25cyclohexadienone",
     group = 
 """
-1 * CO 0 {2,S} {6,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {1,S} {5,D}
+1 * CO u0 {2,S} {6,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2626,13 +2626,13 @@ entry(
     label = "14cyclohexadiene3methylene",
     group = 
 """
-1   Cd 0 {2,D} {6,S}
-2   Cd 0 {1,D} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6 * Cd 0 {1,S} {5,S} {7,D}
-7   Cd 0 {6,D}
+1   Cd u0 {2,D} {6,S}
+2   Cd u0 {1,D} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6 * Cd u0 {1,S} {5,S} {7,D}
+7   Cd u0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2652,12 +2652,12 @@ entry(
     label = "six-oneside-twoindoubles-24",
     group = 
 """
-1   {Cs,Os} 0 {2,S} {6,S}
-2   Cd      0 {1,S} {3,D}
-3   Cd      0 {2,D} {4,S}
-4   Cd      0 {3,S} {5,D}
-5   Cd      0 {4,D} {6,S}
-6 * {Cd,CO} 0 {1,S} {5,S}
+1   [Cs,Os] u0 {2,S} {6,S}
+2   Cd      u0 {1,S} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   Cd      u0 {3,S} {5,D}
+5   Cd      u0 {4,D} {6,S}
+6 * [Cd,CO] u0 {1,S} {5,S}
 """,
     thermo = u'13cyclohexadiene5methylene',
     shortDesc = u"""""",
@@ -2672,12 +2672,12 @@ entry(
     label = "24cyclohexadienone",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6 * CO 0 {1,S} {5,S}
+1   Cs u0 {2,S} {6,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6 * CO u0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2697,13 +2697,13 @@ entry(
     label = "13cyclohexadiene5methylene",
     group = 
 """
-1   Cs 0 {2,S} {6,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6 * Cd 0 {1,S} {5,S} {7,D}
-7   Cd 0 {6,D}
+1   Cs u0 {2,S} {6,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6 * Cd u0 {1,S} {5,S} {7,D}
+7   Cd u0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2723,12 +2723,12 @@ entry(
     label = "six-twoin13-twoout",
     group = 
 """
-1   {CO,Cd} 0 {2,S} {6,S}
-2   Cd      0 {1,S} {3,D}
-3   Cd      0 {2,D} {4,S}
-4   Cd      0 {3,S} {5,D}
-5   Cd      0 {4,D} {6,S}
-6 * {Cd,CO} 0 {1,S} {5,S}
+1   [CO,Cd] u0 {2,S} {6,S}
+2   Cd      u0 {1,S} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4   Cd      u0 {3,S} {5,D}
+5   Cd      u0 {4,D} {6,S}
+6 * [Cd,CO] u0 {1,S} {5,S}
 """,
     thermo = u'oxylene',
     shortDesc = u"""""",
@@ -2743,13 +2743,13 @@ entry(
     label = "fg6",
     group = 
 """
-1 * CO 0 {2,S} {6,S}
-2   Cd 0 {1,S} {3,S} {7,D}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {1,S} {5,D}
-7   Cd 0 {2,D}
+1 * CO u0 {2,S} {6,S}
+2   Cd u0 {1,S} {3,S} {7,D}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {1,S} {5,D}
+7   Cd u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2769,14 +2769,14 @@ entry(
     label = "oxylene",
     group = 
 """
-1 * Cd 0 {5,S} {6,S} {8,D}
-2   Cd 0 {3,D} {6,S}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {1,S} {4,D}
-6   Cd 0 {1,S} {2,S} {7,D}
-7   Cd 0 {6,D}
-8   Cd 0 {1,D}
+1 * Cd u0 {5,S} {6,S} {8,D}
+2   Cd u0 {3,D} {6,S}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D}
+6   Cd u0 {1,S} {2,S} {7,D}
+7   Cd u0 {6,D}
+8   Cd u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2796,14 +2796,14 @@ entry(
     label = "obenzoquinone",
     group = 
 """
-1 * Cd  0 {5,S} {6,S} {8,D}
-2   Cd 0 {3,D} {6,S}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {1,S} {4,D}
-6   Cd  0 {1,S} {2,S} {7,D}
-7   Od 0 {6,D}
-8   Od 0 {1,D}
+1 * Cd u0 {5,S} {6,S} {8,D}
+2   Cd u0 {3,D} {6,S}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {1,S} {4,D}
+6   Cd u0 {1,S} {2,S} {7,D}
+7   Od u0 {6,D}
+8   Od u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2823,12 +2823,12 @@ entry(
     label = "six-twoin14-twoout",
     group = 
 """
-1   {Cd,CO} 0 {2,S} {6,S}
-2   Cd      0 {1,S} {3,D}
-3   Cd      0 {2,D} {4,S}
-4 * {Cd,CO} 0 {3,S} {5,S}
-5   Cd      0 {4,S} {6,D}
-6   Cd      0 {1,S} {5,D}
+1   [Cd,CO] u0 {2,S} {6,S}
+2   Cd      u0 {1,S} {3,D}
+3   Cd      u0 {2,D} {4,S}
+4 * [Cd,CO] u0 {3,S} {5,S}
+5   Cd      u0 {4,S} {6,D}
+6   Cd      u0 {1,S} {5,D}
 """,
     thermo = u'pxylene',
     shortDesc = u"""""",
@@ -2843,12 +2843,12 @@ entry(
     label = "pbenzoquinone",
     group = 
 """
-1 * CO 0 {4,S} {5,S}
-2   Cd 0 {5,D} {6,S}
-3   Cd 0 {4,D} {6,S}
-4   Cd 0 {1,S} {3,D}
-5   Cd 0 {1,S} {2,D}
-6   CO 0 {2,S} {3,S}
+1 * CO u0 {4,S} {5,S}
+2   Cd u0 {5,D} {6,S}
+3   Cd u0 {4,D} {6,S}
+4   Cd u0 {1,S} {3,D}
+5   Cd u0 {1,S} {2,D}
+6   CO u0 {2,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2868,14 +2868,14 @@ entry(
     label = "pxylene",
     group = 
 """
-1 * Cd 0 {4,S} {5,S} {6,D}
-2   Cd 0 {5,D} {7,S}
-3   Cd 0 {4,D} {7,S}
-4   Cd 0 {1,S} {3,D}
-5   Cd 0 {1,S} {2,D}
-6   Cd 0 {1,D}
-7   Cd 0 {2,S} {3,S} {8,D}
-8   Cd 0 {7,D}
+1 * Cd u0 {4,S} {5,S} {6,D}
+2   Cd u0 {5,D} {7,S}
+3   Cd u0 {4,D} {7,S}
+4   Cd u0 {1,S} {3,D}
+5   Cd u0 {1,S} {2,D}
+6   Cd u0 {1,D}
+7   Cd u0 {2,S} {3,S} {8,D}
+8   Cd u0 {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2895,14 +2895,14 @@ entry(
     label = "3,4-dimethylenecyclohexene",
     group = 
 """
-1 * C  0 {2,S} {3,S}
-2   C  0 {1,S} {5,S}
-3   Cd 0 {1,S} {4,S} {7,D}
-4   Cd 0 {3,S} {6,S} {8,D}
-5   Cd 0 {2,S} {6,D}
-6   Cd 0 {4,S} {5,D}
-7   Cd 0 {3,D}
-8   Cd 0 {4,D}
+1 * C  u0 {2,S} {3,S}
+2   C  u0 {1,S} {5,S}
+3   Cd u0 {1,S} {4,S} {7,D}
+4   Cd u0 {3,S} {6,S} {8,D}
+5   Cd u0 {2,S} {6,D}
+6   Cd u0 {4,S} {5,D}
+7   Cd u0 {3,D}
+8   Cd u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2922,13 +2922,13 @@ entry(
     label = "SevenMember",
     group = 
 """
-1 * R!H 0 {2,{S,D}} {7,{S,D}}
-2   R!H 0 {1,{S,D}} {3,{S,D}}
-3   R!H 0 {2,{S,D}} {4,{S,D}}
-4   R!H 0 {3,{S,D}} {5,{S,D}}
-5   R!H 0 {4,{S,D}} {6,{S,D}}
-6   R!H 0 {5,{S,D}} {7,{S,D}}
-7   R!H 0 {1,{S,D}} {6,{S,D}}
+1 * R!H u0 {2,[S,D]} {7,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H u0 {4,[S,D]} {6,[S,D]}
+6   R!H u0 {5,[S,D]} {7,[S,D]}
+7   R!H u0 {1,[S,D]} {6,[S,D]}
 """,
     thermo = u'Cycloheptane',
     shortDesc = u"""""",
@@ -2943,13 +2943,13 @@ entry(
     label = "Cycloheptane",
     group = 
 """
-1 * Cs 0 {2,S} {7,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {1,S} {6,S}
+1 * Cs u0 {2,S} {7,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2969,13 +2969,13 @@ entry(
     label = "Cycloheptene",
     group = 
 """
-1 * Cs 0 {2,S} {7,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {1,S} {6,S}
+1 * Cs u0 {2,S} {7,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2995,13 +2995,13 @@ entry(
     label = "1,3-Cycloheptadiene",
     group = 
 """
-1 * Cs 0 {2,S} {7,S}
-2   Cs 0 {1,S} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {5,D} {7,S}
-7   Cs 0 {1,S} {6,S}
+1 * Cs u0 {2,S} {7,S}
+2   Cs u0 {1,S} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cs u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3021,13 +3021,13 @@ entry(
     label = "1,3,5-Cycloheptatriene",
     group = 
 """
-1 * Cs 0 {2,S} {7,S}
-2   Cd 0 {1,S} {3,D}
-3   Cd 0 {2,D} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6   Cd 0 {5,S} {7,D}
-7   Cd 0 {1,S} {6,D}
+1 * Cs u0 {2,S} {7,S}
+2   Cd u0 {1,S} {3,D}
+3   Cd u0 {2,D} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cd u0 {5,S} {7,D}
+7   Cd u0 {1,S} {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3047,13 +3047,13 @@ entry(
     label = "Cycloheptanone",
     group = 
 """
-1 * CO 0 {2,S} {7,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {1,S} {6,S}
+1 * CO u0 {2,S} {7,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3073,13 +3073,13 @@ entry(
     label = "1,4-Cycloheptadiene",
     group = 
 """
-1 * C  0 {2,D} {7,S}
-2   Cd 0 {1,D} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {1,S} {6,S}
+1 * C  u0 {2,D} {7,S}
+2   Cd u0 {1,D} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3099,14 +3099,14 @@ entry(
     label = "EightMember",
     group = 
 """
-1 * R!H 0 {2,{S,D}} {8,{S,D}}
-2   R!H 0 {1,{S,D}} {3,{S,D}}
-3   R!H 0 {2,{S,D}} {4,{S,D}}
-4   R!H 0 {3,{S,D}} {5,{S,D}}
-5   R!H 0 {4,{S,D}} {6,{S,D}}
-6   R!H 0 {5,{S,D}} {7,{S,D}}
-7   R!H 0 {6,{S,D}} {8,{S,D}}
-8   R!H 0 {1,{S,D}} {7,{S,D}}
+1 * R!H u0 {2,[S,D]} {8,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H u0 {4,[S,D]} {6,[S,D]}
+6   R!H u0 {5,[S,D]} {7,[S,D]}
+7   R!H u0 {6,[S,D]} {8,[S,D]}
+8   R!H u0 {1,[S,D]} {7,[S,D]}
 """,
     thermo = u'Cyclooctane',
     shortDesc = u"""""",
@@ -3121,14 +3121,14 @@ entry(
     label = "Cyclooctane",
     group = 
 """
-1 * Cs 0 {2,S} {8,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cs u0 {2,S} {8,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3148,14 +3148,14 @@ entry(
     label = "cis-Cyclooctene",
     group = 
 """
-1 * Cd 0 {2,D} {8,S}
-2   Cd 0 {1,D} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cd u0 {2,D} {8,S}
+2   Cd u0 {1,D} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3175,14 +3175,14 @@ entry(
     label = "1,3,5-Cyclooctatriene",
     group = 
 """
-1 * Cs 0 {2,S} {8,S}
-2   Cs 0 {1,S} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {5,D} {7,S}
-7   Cd 0 {6,S} {8,D}
-8   Cd 0 {1,S} {7,D}
+1 * Cs u0 {2,S} {8,S}
+2   Cs u0 {1,S} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {8,D}
+8   Cd u0 {1,S} {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3202,14 +3202,14 @@ entry(
     label = "Cyclooctatetraene",
     group = 
 """
-1 * Cd 0 {2,D} {8,S}
-2   Cd 0 {1,D} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {5,D} {7,S}
-7   Cd 0 {6,S} {8,D}
-8   Cd 0 {1,S} {7,D}
+1 * Cd u0 {2,D} {8,S}
+2   Cd u0 {1,D} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {8,D}
+8   Cd u0 {1,S} {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3229,14 +3229,14 @@ entry(
     label = "Cyclooctanone",
     group = 
 """
-1 * CO 0 {2,S} {8,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * CO u0 {2,S} {8,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3256,14 +3256,14 @@ entry(
     label = "1,3-cyclooctadiene",
     group = 
 """
-1 * Cd 0 {2,D} {8,S}
-2   Cd 0 {1,D} {3,S}
-3   Cd 0 {2,S} {4,D}
-4   Cd 0 {3,D} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cd u0 {2,D} {8,S}
+2   Cd u0 {1,D} {3,S}
+3   Cd u0 {2,S} {4,D}
+4   Cd u0 {3,D} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = u'1,4-cyclooctadiene',
     shortDesc = u"""""",
@@ -3278,14 +3278,14 @@ entry(
     label = "1,4-cyclooctadiene",
     group = 
 """
-1 * Cd 0 {2,D} {8,S}
-2   Cd 0 {1,D} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cd 0 {3,S} {5,D}
-5   Cd 0 {4,D} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cd u0 {2,D} {8,S}
+2   Cd u0 {1,D} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cd u0 {3,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3305,14 +3305,14 @@ entry(
     label = "1,5-cyclooctadiene",
     group = 
 """
-1 * Cd 0 {2,D} {8,S}
-2   Cd 0 {1,D} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cd 0 {4,S} {6,D}
-6   Cd 0 {5,D} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {1,S} {7,S}
+1 * Cd u0 {2,D} {8,S}
+2   Cd u0 {1,D} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {1,S} {7,S}
 """,
     thermo = u'1,4-cyclooctadiene',
     shortDesc = u"""""",
@@ -3327,15 +3327,15 @@ entry(
     label = "NineMember",
     group = 
 """
-1 * R!H 0 {2,{S,D}} {9,{S,D}}
-2   R!H 0 {1,{S,D}} {3,{S,D}}
-3   R!H 0 {2,{S,D}} {4,{S,D}}
-4   R!H 0 {3,{S,D}} {5,{S,D}}
-5   R!H 0 {4,{S,D}} {6,{S,D}}
-6   R!H 0 {5,{S,D}} {7,{S,D}}
-7   R!H 0 {6,{S,D}} {8,{S,D}}
-8   R!H 0 {7,{S,D}} {9,{S,D}}
-9   R!H 0 {1,{S,D}} {8,{S,D}}
+1 * R!H u0 {2,[S,D]} {9,[S,D]}
+2   R!H u0 {1,[S,D]} {3,[S,D]}
+3   R!H u0 {2,[S,D]} {4,[S,D]}
+4   R!H u0 {3,[S,D]} {5,[S,D]}
+5   R!H u0 {4,[S,D]} {6,[S,D]}
+6   R!H u0 {5,[S,D]} {7,[S,D]}
+7   R!H u0 {6,[S,D]} {8,[S,D]}
+8   R!H u0 {7,[S,D]} {9,[S,D]}
+9   R!H u0 {1,[S,D]} {8,[S,D]}
 """,
     thermo = u'Cyclononane',
     shortDesc = u"""""",
@@ -3350,15 +3350,15 @@ entry(
     label = "Cyclononane",
     group = 
 """
-1 * Cs 0 {2,S} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * Cs u0 {2,S} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3378,15 +3378,15 @@ entry(
     label = "Cyclononanone",
     group = 
 """
-1 * CO 0 {2,S} {9,S}
-2   Cs 0 {1,S} {3,S}
-3   Cs 0 {2,S} {4,S}
-4   Cs 0 {3,S} {5,S}
-5   Cs 0 {4,S} {6,S}
-6   Cs 0 {5,S} {7,S}
-7   Cs 0 {6,S} {8,S}
-8   Cs 0 {7,S} {9,S}
-9   Cs 0 {1,S} {8,S}
+1 * CO u0 {2,S} {9,S}
+2   Cs u0 {1,S} {3,S}
+3   Cs u0 {2,S} {4,S}
+4   Cs u0 {3,S} {5,S}
+5   Cs u0 {4,S} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cs u0 {6,S} {8,S}
+8   Cs u0 {7,S} {9,S}
+9   Cs u0 {1,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3406,16 +3406,16 @@ entry(
     label = "TenMember",
     group = 
 """
-1  * R!H 0 {2,{S,D}} {10,{S,D}}
-2    R!H 0 {1,{S,D}} {3,{S,D}}
-3    R!H 0 {2,{S,D}} {4,{S,D}}
-4    R!H 0 {3,{S,D}} {5,{S,D}}
-5    R!H 0 {4,{S,D}} {6,{S,D}}
-6    R!H 0 {5,{S,D}} {7,{S,D}}
-7    R!H 0 {6,{S,D}} {8,{S,D}}
-8    R!H 0 {7,{S,D}} {9,{S,D}}
-9    R!H 0 {8,{S,D}} {10,{S,D}}
-10   R!H 0 {1,{S,D}} {9,{S,D}}
+1  * R!H u0 {2,[S,D]} {10,[S,D]}
+2    R!H u0 {1,[S,D]} {3,[S,D]}
+3    R!H u0 {2,[S,D]} {4,[S,D]}
+4    R!H u0 {3,[S,D]} {5,[S,D]}
+5    R!H u0 {4,[S,D]} {6,[S,D]}
+6    R!H u0 {5,[S,D]} {7,[S,D]}
+7    R!H u0 {6,[S,D]} {8,[S,D]}
+8    R!H u0 {7,[S,D]} {9,[S,D]}
+9    R!H u0 {8,[S,D]} {10,[S,D]}
+10   R!H u0 {1,[S,D]} {9,[S,D]}
 """,
     thermo = u'Cyclodecane',
     shortDesc = u"""""",
@@ -3430,16 +3430,16 @@ entry(
     label = "Cyclodecane",
     group = 
 """
-1  * Cs 0 {2,S} {10,S}
-2    Cs 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
-5    Cs 0 {4,S} {6,S}
-6    Cs 0 {5,S} {7,S}
-7    Cs 0 {6,S} {8,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {8,S} {10,S}
-10   Cs 0 {1,S} {9,S}
+1  * Cs u0 {2,S} {10,S}
+2    Cs u0 {1,S} {3,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S}
+5    Cs u0 {4,S} {6,S}
+6    Cs u0 {5,S} {7,S}
+7    Cs u0 {6,S} {8,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {8,S} {10,S}
+10   Cs u0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3459,16 +3459,16 @@ entry(
     label = "Cyclodecanone",
     group = 
 """
-1  * CO 0 {2,S} {10,S}
-2    Cs 0 {1,S} {3,S}
-3    Cs 0 {2,S} {4,S}
-4    Cs 0 {3,S} {5,S}
-5    Cs 0 {4,S} {6,S}
-6    Cs 0 {5,S} {7,S}
-7    Cs 0 {6,S} {8,S}
-8    Cs 0 {7,S} {9,S}
-9    Cs 0 {8,S} {10,S}
-10   Cs 0 {1,S} {9,S}
+1  * CO u0 {2,S} {10,S}
+2    Cs u0 {1,S} {3,S}
+3    Cs u0 {2,S} {4,S}
+4    Cs u0 {3,S} {5,S}
+5    Cs u0 {4,S} {6,S}
+6    Cs u0 {5,S} {7,S}
+7    Cs u0 {6,S} {8,S}
+8    Cs u0 {7,S} {9,S}
+9    Cs u0 {8,S} {10,S}
+10   Cs u0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

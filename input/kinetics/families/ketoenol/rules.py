@@ -19,10 +19,6 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""A. G. Vandeputte, general rate""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38,10 +34,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""A. G. Vandeputte, CBS-QB3, HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -57,10 +49,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""A. G. Vandeputte, BMK/cbsb7, HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -76,10 +64,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""calculated by CAC, CCSD(T)/vtz f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -95,10 +79,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""calculated by CAC, CCSD(T)/vtz f12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -114,9 +94,5 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""calculated by CAC, CCSD(T)/vtz f12""",
-    longDesc = 
-u"""
-
-""",
 )
 

@@ -1,8 +1,9 @@
 O2S
-1 O 0 2 {2,D}
-2 O 0 2 {1,D}
+1 O u0 p2 c0 {2,D}
+2 O u0 p2 c0 {1,D}
 
 O2
-1 O 1 2 {2,S}
-2 O 1 2 {1,S}
+multiplicity 3
+1 O u1 p2 c0 {2,S}
+2 O u1 p2 c0 {1,S}
 

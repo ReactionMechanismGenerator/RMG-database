@@ -23,25 +23,20 @@ entry(
     label = "RCH(OOH)CH2C(O)R'",
     group = 
 """
-1     C 0 {2,S} {4,S} {7,S} {9,S}
-2     C 0 {1,S} {3,S} {11,S} {12,S}
-3  *4 C 0 {2,S} {6,D} {8,S}
-4     O 0 {1,S} {5,S}
-5  *1 O 0 {4,S} {10,S}
-6  *3 O 0 {3,D}
-7     R 0 {1,S}
-8     R 0 {3,S}
-9     H 0 {1,S}
-10 *2 H 0 {5,S}
-11    H 0 {2,S}
-12    H 0 {2,S}
+1     C u0 {2,S} {4,S} {7,S} {9,S}
+2     C u0 {1,S} {3,S} {11,S} {12,S}
+3  *4 C u0 {2,S} {6,D} {8,S}
+4     O u0 {1,S} {5,S}
+5  *1 O u0 {4,S} {10,S}
+6  *3 O u0 {3,D}
+7     R u0 {1,S}
+8     R u0 {3,S}
+9     H u0 {1,S}
+10 *2 H u0 {5,S}
+11    H u0 {2,S}
+12    H u0 {2,S}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 tree(
@@ -54,10 +49,10 @@ forbidden(
     label = "O4",
     group = 
 """
-1    O 1 {2,S}
-2 *1 O 0 {1,S} {3,S}
-3 *2 O 0 {2,S} {4,S}
-4    O 1 {3,S}
+1    O u1 {2,S}
+2 *1 O u0 {1,S} {3,S}
+3 *2 O u0 {2,S} {4,S}
+4    O u1 {3,S}
 """,
     shortDesc = u"""""",
     longDesc = 
