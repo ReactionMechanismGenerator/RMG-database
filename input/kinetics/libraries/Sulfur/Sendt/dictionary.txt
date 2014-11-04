@@ -1,34 +1,37 @@
 H2S2
-1 S 0 2 {2,S} {3,S}
-2 S 0 2 {1,S} {4,S}
-3 H 0 0 {1,S}
-4 H 0 0 {2,S}
+1 S u0 p2 c0 {2,S} {3,S}
+2 S u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
 
 H2
-1 H 0 0 {2,S}
-2 H 0 0 {1,S}
+1 H u0 p0 c0 {2,S}
+2 H u0 p0 c0 {1,S}
 
 H
-1 H 1 0
+multiplicity 2
+1 H u1 p0 c0
 
 H2S
-1 S 0 2 {2,S} {3,S}
-2 H 0 0 {1,S}
-3 H 0 0 {1,S}
+1 S u0 p2 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
 
 HSS
-1 S 0 2 {2,S} {3,S}
-2 S 1 2 {1,S}
-3 H 0 0 {1,S}
+multiplicity 2
+1 S u0 p2 c0 {2,S} {3,S}
+2 S u1 p2 c0 {1,S}
+3 H u0 p0 c0 {1,S}
 
 S
-1 S 2S 2
+1 S u0 p3 c0
 
 SH
-1 S 1 2 {2,S}
-2 H 0 0 {1,S}
+multiplicity 2
+1 S u1 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
 
 S2
-1 S 0 2 {2,D}
-2 S 0 2 {1,D}
+1 S u0 p2 c0 {2,D}
+2 S u0 p2 c0 {1,D}
 
