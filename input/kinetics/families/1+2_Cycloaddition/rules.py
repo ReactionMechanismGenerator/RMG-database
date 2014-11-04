@@ -10,7 +10,7 @@ entry(
     index = 576,
     label = "elec_def;multiplebond",
     kinetics = ArrheniusEP(
-        A = (1000000000000.0, 'cm^3/(mol*s)'),
+        A = (1e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -19,17 +19,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 577,
     label = "carbene;mb_db_unsub",
     kinetics = ArrheniusEP(
-        A = (1980000000000.0, 'cm^3/(mol*s)', '*|/', 3.2),
+        A = (1.98e+12, 'cm^3/(mol*s)', '*|/', 3.2),
         n = 0,
         alpha = 0,
         E0 = (5.29, 'kcal/mol', '+|-', 0.26),
@@ -38,17 +34,13 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""Frey et al [192]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 579,
     label = "o_atom_singlet;mb_db_unsub",
     kinetics = ArrheniusEP(
-        A = (700000000000.0, 'cm^3/(mol*s)'),
+        A = (7e+11, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -67,7 +59,7 @@ entry(
     index = 580,
     label = "o_atom_singlet;mb_db_monosub_Nd",
     kinetics = ArrheniusEP(
-        A = (2900000000000.0, 'cm^3/(mol*s)'),
+        A = (2.9e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -86,7 +78,7 @@ entry(
     index = 581,
     label = "o_atom_singlet;mb_db_monosub_Nd",
     kinetics = ArrheniusEP(
-        A = (4200000000000.0, 'cm^3/(mol*s)'),
+        A = (4.2e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0.5, 'kcal/mol'),
@@ -106,7 +98,7 @@ entry(
     index = 582,
     label = "o_atom_singlet;mb_db_monosub_Nd",
     kinetics = ArrheniusEP(
-        A = (1900000000000.0, 'cm^3/(mol*s)', '*|/', 1.2),
+        A = (1.9e+12, 'cm^3/(mol*s)', '*|/', 1.2),
         n = 0,
         alpha = 0,
         E0 = (0.8, 'kcal/mol', '+|-', 0.4),
@@ -128,7 +120,7 @@ entry(
     index = 583,
     label = "o_atom_singlet;mb_db_onecdisub_Nd",
     kinetics = ArrheniusEP(
-        A = (7600000000000.0, 'cm^3/(mol*s)', '*|/', 1.2),
+        A = (7.6e+12, 'cm^3/(mol*s)', '*|/', 1.2),
         n = 0,
         alpha = 0,
         E0 = (0.1, 'kcal/mol', '+|-', 0.4),
@@ -150,7 +142,7 @@ entry(
     index = 584,
     label = "o_atom_singlet;mb_db_twocdisub_Nd",
     kinetics = ArrheniusEP(
-        A = (15400000000000.0, 'cm^3/(mol*s)'),
+        A = (1.54e+13, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -171,7 +163,7 @@ entry(
     index = 585,
     label = "o_atom_singlet;mb_db_tetrasub_Nd",
     kinetics = ArrheniusEP(
-        A = (31800000000000.0, 'cm^3/(mol*s)', '*|/', 1.2),
+        A = (3.18e+13, 'cm^3/(mol*s)', '*|/', 1.2),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
@@ -192,7 +184,7 @@ entry(
     index = 586,
     label = "carbene;mb_tb_unsub",
     kinetics = ArrheniusEP(
-        A = (1770000000000000.0, 'cm^3/(mol*s)'),
+        A = (1.77e+15, 'cm^3/(mol*s)'),
         n = -0.662,
         alpha = 0,
         E0 = (0.0377, 'kcal/mol'),
@@ -201,17 +193,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Polino [carbene,acetylene]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 587,
     label = "carbene;mb_db_unsub",
     kinetics = ArrheniusEP(
-        A = (1240000000000000.0, 'cm^3/(mol*s)'),
+        A = (1.24e+15, 'cm^3/(mol*s)'),
         n = -0.684,
         alpha = 0,
         E0 = (-0.0805, 'kcal/mol'),
@@ -220,17 +208,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Polino [carbene,ethene]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 588,
     label = "carbene;mb_tb_monosub_Nd",
     kinetics = ArrheniusEP(
-        A = (4500000000000000.0, 'cm^3/(mol*s)'),
+        A = (4.5e+15, 'cm^3/(mol*s)'),
         n = -0.708,
         alpha = 0,
         E0 = (-0.0267, 'kcal/mol'),
@@ -239,17 +223,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Polino [carbene,propyne]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 589,
     label = "carbene;mb_db_monosub_Nd",
     kinetics = ArrheniusEP(
-        A = (5000000000000000.0, 'cm^3/(mol*s)'),
+        A = (5e+15, 'cm^3/(mol*s)'),
         n = -0.826,
         alpha = 0,
         E0 = (-0.09, 'kcal/mol'),
@@ -258,17 +238,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Polino [carbene,propene]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 590,
     label = "carbene;mb_db_dbSub",
     kinetics = ArrheniusEP(
-        A = (638000000000000.0, 'cm^3/(mol*s)'),
+        A = (6.38e+14, 'cm^3/(mol*s)'),
         n = -0.562,
         alpha = 0,
         E0 = (-0.133, 'kcal/mol'),
@@ -277,17 +253,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Polino [carbene,propadiene]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 591,
     label = "carbene;mb_tb_disub_twoNd",
     kinetics = ArrheniusEP(
-        A = (4700000000000000.0, 'cm^3/(mol*s)'),
+        A = (4.7e+15, 'cm^3/(mol*s)'),
         n = -0.823,
         alpha = 0,
         E0 = (0.023, 'kcal/mol'),
@@ -296,17 +268,13 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Polino [carbene,2-butyne]""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 592,
     label = "carbene;mb_db_monosub_De",
     kinetics = ArrheniusEP(
-        A = (1850000000000000.0, 'cm^3/(mol*s)'),
+        A = (1.85e+15, 'cm^3/(mol*s)'),
         n = -0.7,
         alpha = 0,
         E0 = (-0.0672, 'kcal/mol'),
@@ -315,9 +283,5 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Polino [carbene,1,3-butadiene]""",
-    longDesc = 
-u"""
-
-""",
 )
 

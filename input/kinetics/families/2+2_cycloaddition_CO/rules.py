@@ -14,7 +14,7 @@ entry(
     index = 587,
     label = "CO;doublebond",
     kinetics = ArrheniusEP(
-        A = (69200000000.0, 'cm^3/(mol*s)'),
+        A = (6.92e+10, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (43.72, 'kcal/mol'),
@@ -22,11 +22,6 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(

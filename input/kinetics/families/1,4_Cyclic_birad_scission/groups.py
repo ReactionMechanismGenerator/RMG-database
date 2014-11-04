@@ -24,11 +24,6 @@ entry(
     label = "RJJ",
     group = "OR{R5JJ, R6JJ, R7JJ}",
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -36,18 +31,13 @@ entry(
     label = "R5JJ",
     group = 
 """
-1 *1 R 1 {2,{S,D}} {5,S}
-2 *2 R 0 {1,{S,D}} {3,S}
-3 *3 R 0 {2,S} {4,{S,D}}
-4 *4 R 1 {3,{S,D}} {5,S}
-5    R 0 {1,S} {4,S}
+1 *1 R u1 {2,[S,D]} {5,S}
+2 *2 R u0 {1,[S,D]} {3,S}
+3 *3 R u0 {2,S} {4,[S,D]}
+4 *4 R u1 {3,[S,D]} {5,S}
+5    R u0 {1,S} {4,S}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -55,19 +45,14 @@ entry(
     label = "R6JJ",
     group = 
 """
-1 *1 R 1 {2,{S,D}} {5,S}
-2 *2 R 0 {1,{S,D}} {3,S}
-3 *3 R 0 {2,S} {4,{S,D}}
-4 *4 R 1 {3,{S,D}} {6,S}
-5    R 0 {1,S} {6,S}
-6    R 0 {4,S} {5,S}
+1 *1 R u1 {2,[S,D]} {5,S}
+2 *2 R u0 {1,[S,D]} {3,S}
+3 *3 R u0 {2,S} {4,[S,D]}
+4 *4 R u1 {3,[S,D]} {6,S}
+5    R u0 {1,S} {6,S}
+6    R u0 {4,S} {5,S}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -75,20 +60,15 @@ entry(
     label = "R7JJ",
     group = 
 """
-1 *1 R 1 {2,{S,D}} {5,S}
-2 *2 R 0 {1,{S,D}} {3,S}
-3 *3 R 0 {2,S} {4,{S,D}}
-4 *4 R 1 {3,{S,D}} {7,S}
-5    R 0 {1,S} {6,S}
-6    R 0 {5,S} {7,S}
-7    R 0 {4,S} {6,S}
+1 *1 R u1 {2,[S,D]} {5,S}
+2 *2 R u0 {1,[S,D]} {3,S}
+3 *3 R u0 {2,S} {4,[S,D]}
+4 *4 R u1 {3,[S,D]} {7,S}
+5    R u0 {1,S} {6,S}
+6    R u0 {5,S} {7,S}
+7    R u0 {4,S} {6,S}
 """,
     kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
 )
 
 tree(

@@ -19,10 +19,6 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -38,10 +34,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations from CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -57,10 +49,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations from CAC, energy from F12""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -76,10 +64,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -95,10 +79,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -114,10 +94,6 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -133,10 +109,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -152,10 +124,6 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by CAC""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -171,10 +139,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -190,10 +154,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -209,10 +169,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -228,10 +184,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -247,10 +199,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -266,10 +214,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -285,10 +229,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -304,10 +244,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -323,10 +259,6 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CBS-QB3 by CAC HO""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -342,9 +274,5 @@ entry(
     ),
     rank = 3,
     shortDesc = u"""CBS-QB3 by CAC, 1dhr""",
-    longDesc = 
-u"""
-
-""",
 )
 

@@ -24,17 +24,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
     index = 572,
     label = "CO2_Cdd;H2",
     kinetics = ArrheniusEP(
-        A = (1510000000.0, 'cm^3/(mol*s)'),
+        A = (1.51e+09, 'cm^3/(mol*s)'),
         n = 1.23,
         alpha = 0,
         E0 = (73.9, 'kcal/mol'),
@@ -43,10 +39,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -62,10 +54,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -81,10 +69,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -100,10 +84,6 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
-u"""
-
-""",
 )
 
 entry(
@@ -119,9 +99,5 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Aaron Vandeputte calculation for methylpropanate using BMK/CBSB7""",
-    longDesc = 
-u"""
-
-""",
 )
 
